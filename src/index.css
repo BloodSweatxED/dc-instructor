@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  min-height: 100%;
+  background: #0a0f1a;
+  color: #e2e8f0;
+}
+
+body {
+  font-family: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/[0.03] border border-accent/20 backdrop-blur-md rounded-xl;
+  }
+  .label-mono {
+    @apply font-mono text-[11px] tracking-[0.12em] uppercase text-cool/60;
+  }
+  .pill {
+    @apply px-3 py-1.5 text-xs rounded-full border border-cool/15 text-cool/80 hover:border-accent/60 hover:text-cool transition-colors;
+  }
+  .pill-active {
+    @apply bg-accent/15 border-accent text-accent;
+  }
+  .btn-primary {
+    @apply w-full py-3.5 rounded-lg bg-accent text-bg font-semibold tracking-wide hover:bg-accent/90 active:scale-[0.99] transition disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+}
+
+.bg-mesh {
+  background:
+    radial-gradient(60% 50% at 20% 10%, rgba(0,200,180,0.08), transparent 60%),
+    radial-gradient(50% 50% at 90% 20%, rgba(0,200,180,0.06), transparent 60%),
+    radial-gradient(70% 60% at 50% 100%, rgba(0,200,180,0.05), transparent 60%),
+    #0a0f1a;
+  animation: mesh 20s ease-in-out infinite alternate;
+}
+@keyframes mesh {
+  0%   { background-position: 0% 0%, 100% 0%, 50% 100%; }
+  100% { background-position: 10% 5%, 90% 10%, 55% 95%; }
+}
