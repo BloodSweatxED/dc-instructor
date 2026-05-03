@@ -145,8 +145,9 @@ export default function App() {
           />
         </main>
 
-        <footer className="mt-10 text-center text-[11px] font-mono text-cool/40">
-          Built by @BloodSweatxED — EM physician, clinician-developer
+        <footer className="mt-10 text-center text-[11px] font-mono text-cool/40 space-y-1">
+          <div>Built by @BloodSweatxED — EM physician, clinician-developer</div>
+          <div>Anonymous usage data may be used for quality improvement research.</div>
         </footer>
       </div>
 
