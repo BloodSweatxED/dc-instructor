@@ -1,7 +1,5 @@
 import { jsonResponse } from './_lib.js';
 
-export const config = { path: '/api/redact-verify' };
-
 const SYSTEM = `You are a HIPAA Safe Harbor verifier. The user provides text that has been pre-scrubbed of obvious identifiers (replaced with bracketed tokens like [NAME], [MRN], [DATE]). Your job: find any REMAINING PHI that the regex pass missed — particularly contextual identifiers such as:
 
 - Specific employer names ("firefighter at Engine 14")

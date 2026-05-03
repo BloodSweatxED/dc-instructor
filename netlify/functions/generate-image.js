@@ -1,7 +1,5 @@
 import { jsonResponse } from './_lib.js';
 
-export const config = { path: '/api/illustrate' };
-
 const PROMPT_PREFIX = 'Medical illustration, clean line art, anatomical diagram, clinical education style, black and white sketch, no text labels: ';
 
 export default async (req) => {

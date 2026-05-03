@@ -98,7 +98,7 @@ export default function App() {
 
   return (
     <div className="bg-mesh min-h-screen">
-      <div className="max-w-3xl mx-auto px-4 py-6 sm:py-10">
+      <div className="w-full max-w-[1800px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 py-6 sm:py-10">
         <Header count={count} />
 
         {warning === 'approaching_limit' && (
@@ -124,7 +124,7 @@ export default function App() {
           </div>
         )}
 
-        <main className="grid sm:grid-cols-2 gap-5">
+        <main className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6 lg:gap-8 items-start">
           <InputPanel
             condition={condition} setCondition={setCondition}
             edNote={edNote} setEdNote={setEdNote}

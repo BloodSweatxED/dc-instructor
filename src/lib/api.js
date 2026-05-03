@@ -16,7 +16,7 @@ async function postJSON(path, body, { stream = false } = {}) {
 }
 
 export async function generateInstructions(payload, onChunk) {
-  const res = await postJSON('/api/generate', payload, { stream: true });
+  const res = await postJSON('/.netlify/functions/generate', payload, { stream: true });
   const reader = res.body.getReader();
   const decoder = new TextDecoder();
   let buffer = '';
@@ -41,9 +41,9 @@ export async function generateInstructions(payload, onChunk) {
 }
 
 export async function verifyRedaction(scrubbedText) {
-  return postJSON('/api/redact-verify', { text: scrubbedText });
+  return postJSON('/.netlify/functions/redact-verify', { text: scrubbedText });
 }
 
 export async function generateImage(prompt) {
-  return postJSON('/api/illustrate', { prompt });
+  return postJSON('/.netlify/functions/generate-image', { prompt });
 }

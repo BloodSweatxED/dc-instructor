@@ -60,7 +60,7 @@ export default function OutputPanel({ instructions, setInstructions, image, imag
           onChange={(e) => setInstructions(e.target.value)}
           placeholder={streaming ? '…' : 'Generated instructions will appear here.'}
           rows={18}
-          className="w-full bg-bg/60 border border-cool/10 rounded-lg px-3 py-3 text-sm leading-relaxed font-sans focus:outline-none focus:border-accent/60 resize-y whitespace-pre-wrap"
+          className="w-full min-h-[420px] lg:min-h-[600px] bg-bg/60 border border-cool/10 rounded-lg px-3 py-3 text-sm leading-relaxed font-sans focus:outline-none focus:border-accent/60 resize-y whitespace-pre-wrap"
         />
       )}
 
