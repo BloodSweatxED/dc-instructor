@@ -1,5 +1,30 @@
 # DC Instructor — Usage Snapshots
 
+## 2026-05-25
+
+> **ERROR: Supabase project unreachable — likely paused (free tier).**
+>
+> Progress vs. prior runs: the `SUPABASE_SERVICE_ROLE_KEY` was successfully retrieved from Netlify env vars this session. A temporary Netlify function (`metrics-snapshot.js`) was deployed to proxy the queries, but all six queries failed with `getaddrinfo ENOTFOUND noloieuagfigaqahspfi.supabase.co` from within Netlify functions. A direct WebFetch to `https://noloieuagfigaqahspfi.supabase.co/rest/v1/` returned `ECONNREFUSED`. The existing `/usage` endpoint silently falls back to `{blocked:false,count:0}`, confirming Supabase has been unreachable for some time.
+>
+> **Likely cause:** Supabase free-tier projects pause automatically after ~1 week of inactivity. The project needs to be manually unpaused in the [Supabase dashboard](https://supabase.com/dashboard).
+>
+> **This is the 5th consecutive failed snapshot.**
+
+- **Total generations:** _unavailable (Supabase project paused/unreachable)_
+- **Last 3 days:** _unavailable (Supabase project paused/unreachable)_
+- **Days remaining in trial:** 8 (ends 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (Supabase project paused/unreachable)_
+
+**Languages:** _unavailable (Supabase project paused/unreachable)_
+
+**Reading levels:** _unavailable (Supabase project paused/unreachable)_
+
+**Ratings:** _unavailable (Supabase project paused/unreachable)_
+
+---
+
 ## 2026-05-22
 
 > **ERROR: All Supabase queries failed.**
