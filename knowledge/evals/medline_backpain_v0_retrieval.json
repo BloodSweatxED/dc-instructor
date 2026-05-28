@@ -1,0 +1,184 @@
+{
+  "pipeline_version": "medline_backpain_v0",
+  "tested_at": "2026-05-28T01:27:50+00:00",
+  "db_path": "knowledge/db/dc_medline_db",
+  "collection": "medlineplus_backpain_v0",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "queries": [
+    {
+      "query": "home care after lumbar strain",
+      "results": [
+        {
+          "rank": 1,
+          "topic": "Herniated Disk",
+          "section": "full_summary",
+          "url": "https://medlineplus.gov/herniateddisk.html",
+          "fk_grade": 7.1,
+          "reading_level": "intermediate",
+          "distance": 0.44746148586273193,
+          "preview": "Your backbone, or spine, is made up of 26 bones called vertebrae. In between them are soft disks filled with a jelly-like substance. These disks cushion the vertebrae and keep them in place. As you age, the disks break d"
+        },
+        {
+          "rank": 2,
+          "topic": "Back Pain",
+          "section": "full_summary",
+          "url": "https://medlineplus.gov/backpain.html",
+          "fk_grade": 5.1,
+          "reading_level": "basic",
+          "distance": 0.5375866889953613,
+          "preview": "If you've ever groaned, \"Oh, my aching back!\", you are not alone. Back pain is one of the most common medical problems, affecting 8 out of 10 people at some point during their lives. Back pain can range from a dull, cons"
+        },
+        {
+          "rank": 3,
+          "topic": "Back Pain",
+          "section": "full_summary",
+          "url": "https://medlineplus.gov/backpain.html",
+          "fk_grade": 9.5,
+          "reading_level": "advanced",
+          "distance": 0.5584944486618042,
+          "preview": "You should also get medical attention if you have back pain following an injury . Treatment for back pain depends on what kind of pain you have, and what is causing it. It may include hot or cold packs, exercise, medicin"
+        }
+      ]
+    },
+    {
+      "query": "ice or heat for back pain",
+      "results": [
+        {
+          "rank": 1,
+          "topic": "Back Pain",
+          "section": "full_summary",
+          "url": "https://medlineplus.gov/backpain.html",
+          "fk_grade": 9.5,
+          "reading_level": "advanced",
+          "distance": 0.34482377767562866,
+          "preview": "You should also get medical attention if you have back pain following an injury . Treatment for back pain depends on what kind of pain you have, and what is causing it. It may include hot or cold packs, exercise, medicin"
+        },
+        {
+          "rank": 2,
+          "topic": "Back Pain",
+          "section": "full_summary",
+          "url": "https://medlineplus.gov/backpain.html",
+          "fk_grade": 5.1,
+          "reading_level": "basic",
+          "distance": 0.46680748462677,
+          "preview": "If you've ever groaned, \"Oh, my aching back!\", you are not alone. Back pain is one of the most common medical problems, affecting 8 out of 10 people at some point during their lives. Back pain can range from a dull, cons"
+        },
+        {
+          "rank": 3,
+          "topic": "Herniated Disk",
+          "section": "full_summary",
+          "url": "https://medlineplus.gov/herniateddisk.html",
+          "fk_grade": 7.1,
+          "reading_level": "intermediate",
+          "distance": 0.5499101877212524,
+          "preview": "Your backbone, or spine, is made up of 26 bones called vertebrae. In between them are soft disks filled with a jelly-like substance. These disks cushion the vertebrae and keep them in place. As you age, the disks break d"
+        }
+      ]
+    },
+    {
+      "query": "when to return to the ED for back pain",
+      "results": [
+        {
+          "rank": 1,
+          "topic": "Back Pain",
+          "section": "full_summary",
+          "url": "https://medlineplus.gov/backpain.html",
+          "fk_grade": 5.1,
+          "reading_level": "basic",
+          "distance": 0.4492979645729065,
+          "preview": "If you've ever groaned, \"Oh, my aching back!\", you are not alone. Back pain is one of the most common medical problems, affecting 8 out of 10 people at some point during their lives. Back pain can range from a dull, cons"
+        },
+        {
+          "rank": 2,
+          "topic": "Back Pain",
+          "section": "full_summary",
+          "url": "https://medlineplus.gov/backpain.html",
+          "fk_grade": 9.5,
+          "reading_level": "advanced",
+          "distance": 0.4933338165283203,
+          "preview": "You should also get medical attention if you have back pain following an injury . Treatment for back pain depends on what kind of pain you have, and what is causing it. It may include hot or cold packs, exercise, medicin"
+        },
+        {
+          "rank": 3,
+          "topic": "Herniated Disk",
+          "section": "full_summary",
+          "url": "https://medlineplus.gov/herniateddisk.html",
+          "fk_grade": 7.1,
+          "reading_level": "intermediate",
+          "distance": 0.5592803955078125,
+          "preview": "Your backbone, or spine, is made up of 26 bones called vertebrae. In between them are soft disks filled with a jelly-like substance. These disks cushion the vertebrae and keep them in place. As you age, the disks break d"
+        }
+      ]
+    },
+    {
+      "query": "sciatica numbness weakness instructions",
+      "results": [
+        {
+          "rank": 1,
+          "topic": "Sciatica",
+          "section": "full_summary",
+          "url": "https://medlineplus.gov/sciatica.html",
+          "fk_grade": 7.6,
+          "reading_level": "intermediate",
+          "distance": 0.35482609272003174,
+          "preview": "Sciatica is a symptom of a problem with the sciatic nerve, the largest nerve in the body. It controls muscles in the back of your knee and lower leg and provides feeling to the back of your thigh, part of your lower leg,"
+        },
+        {
+          "rank": 2,
+          "topic": "Herniated Disk",
+          "section": "full_summary",
+          "url": "https://medlineplus.gov/herniateddisk.html",
+          "fk_grade": 7.1,
+          "reading_level": "intermediate",
+          "distance": 0.5972926020622253,
+          "preview": "Your backbone, or spine, is made up of 26 bones called vertebrae. In between them are soft disks filled with a jelly-like substance. These disks cushion the vertebrae and keep them in place. As you age, the disks break d"
+        },
+        {
+          "rank": 3,
+          "topic": "Sprains and Strains",
+          "section": "full_summary",
+          "url": "https://medlineplus.gov/sprainsandstrains.html",
+          "fk_grade": 12.3,
+          "reading_level": "advanced",
+          "distance": 0.6899256110191345,
+          "preview": "At first, treatment of both sprains and strains usually involves resting the injured area, icing it, wearing a bandage or device that compresses the area, and medicines. Later treatment might include exercise and physica"
+        }
+      ]
+    },
+    {
+      "query": "herniated disk follow up",
+      "results": [
+        {
+          "rank": 1,
+          "topic": "Herniated Disk",
+          "section": "full_summary",
+          "url": "https://medlineplus.gov/herniateddisk.html",
+          "fk_grade": 7.1,
+          "reading_level": "intermediate",
+          "distance": 0.556716799736023,
+          "preview": "Your backbone, or spine, is made up of 26 bones called vertebrae. In between them are soft disks filled with a jelly-like substance. These disks cushion the vertebrae and keep them in place. As you age, the disks break d"
+        },
+        {
+          "rank": 2,
+          "topic": "Back Pain",
+          "section": "full_summary",
+          "url": "https://medlineplus.gov/backpain.html",
+          "fk_grade": 5.1,
+          "reading_level": "basic",
+          "distance": 0.6969681978225708,
+          "preview": "If you've ever groaned, \"Oh, my aching back!\", you are not alone. Back pain is one of the most common medical problems, affecting 8 out of 10 people at some point during their lives. Back pain can range from a dull, cons"
+        },
+        {
+          "rank": 3,
+          "topic": "Spine Injuries and Disorders",
+          "section": "full_summary",
+          "url": "https://medlineplus.gov/spineinjuriesanddisorders.html",
+          "fk_grade": 9.2,
+          "reading_level": "advanced",
+          "distance": 0.741960346698761,
+          "preview": "Your backbone, or spine, is made up of 26 bone discs called vertebrae. The vertebrae protect your spinal cord and allow you to stand and bend. A number of problems can change the structure of the spine or damage the vert"
+        }
+      ]
+    }
+  ]
+}

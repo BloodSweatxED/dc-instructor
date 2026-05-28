@@ -5,3 +5,10 @@ dist
 .netlify
 .DS_Store
 *.log
+__pycache__/
+*.py[cod]
+knowledge/.venv/
+knowledge/db/
+knowledge/data/raw/
+knowledge/data/cache/
+knowledge/.cache/
