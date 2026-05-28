@@ -460,14 +460,20 @@ def intent_adjusted_distance(query: str, row: dict[str, Any]) -> float:
     adjusted = float(row["distance"])
     section_type = row.get("section_type") or ""
     resource_title = (row.get("resource_title") or "").lower()
+    return_to_activity = any(
+        term in query_lower
+        for term in ["return to work", "returning to work", "return to sports", "returning to sports"]
+    )
 
-    if any(term in query_lower for term in ["red flag", "return", "ed", "emergency", "precaution", "bowel", "bladder"]):
+    if any(term in query_lower for term in ["red flag", "ed", "emergency", "precaution", "bowel", "bladder"]) or (
+        "return" in query_lower and not return_to_activity
+    ):
         if section_type == "when_to_seek_care":
             adjusted -= 0.18
         elif section_type in {"symptoms", "overview"}:
             adjusted -= 0.04
 
-    if any(term in query_lower for term in ["home", "aftercare", "discharge", "strain", "sprain"]):
+    if any(term in query_lower for term in ["home", "aftercare", "discharge", "strain", "sprain"]) or return_to_activity:
         if section_type in {"self_care", "treatment"}:
             adjusted -= 0.14
         if any(term in resource_title for term in ["acute", "aftercare", "self care", "returning to work", "strains", "sprains"]):

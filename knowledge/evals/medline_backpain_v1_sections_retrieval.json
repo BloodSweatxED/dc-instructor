@@ -1,6 +1,6 @@
 {
   "pipeline_version": "medline_backpain_v1_sections",
-  "tested_at": "2026-05-28T01:39:55+00:00",
+  "tested_at": "2026-05-28T02:20:46+00:00",
   "db_path": "knowledge/db/dc_medline_db",
   "collection": "medlineplus_backpain_v1_sections",
   "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",

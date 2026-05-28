@@ -75,12 +75,31 @@ Compare v0 vs v1 retrieval:
 python knowledge/ingest_medlineplus.py compare
 ```
 
+Run the local RAG smoke test against one case:
+
+```bash
+python knowledge/rag_smoke_test.py
+```
+
+Run all smoke cases:
+
+```bash
+python knowledge/rag_smoke_test.py --all
+```
+
+Run retrieval-only without calling the LLM:
+
+```bash
+python knowledge/rag_smoke_test.py --all --no-generate
+```
+
 This writes:
 
 ```text
 knowledge/evals/medline_backpain_v0_retrieval.json
 knowledge/evals/medline_backpain_v1_sections_retrieval.json
 knowledge/evals/medline_backpain_v0_vs_v1.json
+knowledge/evals/rag_smoke_backpain_v1.json
 ```
 
 ## Optional Overrides
