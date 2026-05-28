@@ -1,0 +1,449 @@
+{
+  "pipeline_version": "medline_backpain_v1_sections",
+  "tested_at": "2026-05-28T01:39:55+00:00",
+  "db_path": "knowledge/db/dc_medline_db",
+  "collection": "medlineplus_backpain_v1_sections",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "queries": [
+    {
+      "query": "home care after lumbar strain",
+      "results": [
+        {
+          "rank": 1,
+          "topic": "Back Pain",
+          "section": "changes_at_work",
+          "section_type": "self_care",
+          "resource_title": "Back pain - returning to work",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000517.htm",
+          "fk_grade": 6.0,
+          "reading_level": "basic",
+          "distance": 0.36230599880218506,
+          "preview": "Avoid standing for long periods. If you must stand at work, try resting one foot on a stool, then the other foot. Keep switching off during the day. Take medicines as needed. Let your boss or supervisor know if you need ",
+          "adjusted_distance": 0.14230599880218503
+        },
+        {
+          "rank": 2,
+          "topic": "Back Pain",
+          "section": "treatment",
+          "section_type": "treatment",
+          "resource_title": "Low back pain - acute",
+          "url": "https://medlineplus.gov/ency/article/007425.htm",
+          "fk_grade": 15.5,
+          "reading_level": "advanced",
+          "distance": 0.36569541692733765,
+          "preview": "A physical therapist can tell you when to begin stretching and strengthening exercises and how to do them. If your pain lasts longer than 1 month, your primary provider may refer you to a physiatrist (specialist in rehab",
+          "adjusted_distance": 0.14569541692733762
+        },
+        {
+          "rank": 3,
+          "topic": "Back Pain",
+          "section": "symptom_relief",
+          "section_type": "self_care",
+          "resource_title": "Sacroiliac joint pain - aftercare",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000610.htm",
+          "fk_grade": 9.4,
+          "reading_level": "advanced",
+          "distance": 0.36713099479675293,
+          "preview": "Talk with your provider before using these medicines if you have heart disease, high blood pressure, kidney disease, or have had stomach ulcers or internal bleeding in the past. Do not take more than the amount recommend",
+          "adjusted_distance": 0.1471309947967529
+        }
+      ]
+    },
+    {
+      "query": "ice or heat for back pain",
+      "results": [
+        {
+          "rank": 1,
+          "topic": "Back Pain",
+          "section": "treatment",
+          "section_type": "treatment",
+          "resource_title": "Low back pain - acute",
+          "url": "https://medlineplus.gov/ency/article/007425.htm",
+          "fk_grade": 7.1,
+          "reading_level": "intermediate",
+          "distance": 0.2962753176689148,
+          "preview": "To get better quickly, take the right measures when you first feel pain. Here are some tips for how to handle pain: Stop or reduce normal physical activity for the first few days. This will help relieve your symptoms and",
+          "adjusted_distance": 0.1362753176689148
+        },
+        {
+          "rank": 2,
+          "topic": "Back Pain",
+          "section": "symptom_relief",
+          "section_type": "self_care",
+          "resource_title": "Sacroiliac joint pain - aftercare",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000610.htm",
+          "fk_grade": 8.1,
+          "reading_level": "intermediate",
+          "distance": 0.31553471088409424,
+          "preview": "Your provider may recommend these steps for the first few days or weeks after your injury or when starting treatment for SIJ pain: Rest. Keep activity to a minimum and stop movements or activity that worsen the pain. Ice",
+          "adjusted_distance": 0.15553471088409423
+        },
+        {
+          "rank": 3,
+          "topic": "Back Pain",
+          "section": "treatment",
+          "section_type": "treatment",
+          "resource_title": "Low back pain - chronic",
+          "url": "https://medlineplus.gov/ency/article/007422.htm",
+          "fk_grade": 25.6,
+          "reading_level": "advanced",
+          "distance": 0.32156050205230713,
+          "preview": "This can help you continue with your normal activities. Your provider may recommend measures to reduce your pain, including: A back brace to support your back Cold packs and heat therapy Traction Physical therapy, involv",
+          "adjusted_distance": 0.16156050205230713
+        }
+      ]
+    },
+    {
+      "query": "when to return to the ED for back pain",
+      "results": [
+        {
+          "rank": 1,
+          "topic": "Back Pain",
+          "section": "when_to_contact_a_medical_professional",
+          "section_type": "when_to_seek_care",
+          "resource_title": "Low back pain - acute",
+          "url": "https://medlineplus.gov/ency/article/007425.htm",
+          "fk_grade": 56.2,
+          "reading_level": "advanced",
+          "distance": 0.4629392623901367,
+          "preview": "Contact your provider right away if you have: Back pain after a severe blow or fall Burning with urination or blood in your urine A history of cancer Loss of control over urine or stool (incontinence) Pain traveling down",
+          "adjusted_distance": 0.2829392623901367
+        },
+        {
+          "rank": 2,
+          "topic": "Back Pain",
+          "section": "information",
+          "section_type": "when_to_seek_care",
+          "resource_title": "Back pain - when you see the doctor",
+          "url": "https://medlineplus.gov/ency/article/007494.htm",
+          "fk_grade": 7.3,
+          "reading_level": "intermediate",
+          "distance": 0.4693124294281006,
+          "preview": "Do you have any numbness or tingling ? Any weakness or loss of function in your leg or elsewhere? What makes the pain worse? Lifting, twisting, standing, or sitting for long periods? What makes you feel better? Does bear",
+          "adjusted_distance": 0.2893124294281006
+        },
+        {
+          "rank": 3,
+          "topic": "Back Pain",
+          "section": "information",
+          "section_type": "when_to_seek_care",
+          "resource_title": "Back pain - when you see the doctor",
+          "url": "https://medlineplus.gov/ency/article/007494.htm",
+          "fk_grade": 9.8,
+          "reading_level": "advanced",
+          "distance": 0.48458385467529297,
+          "preview": "Your back will be pressed on at different spots to find where it hurts. You will also be asked to: Sit, stand, and walk Walk on your toes and then your heels Bend forward, backward, and sideways Lift your legs straight u",
+          "adjusted_distance": 0.304583854675293
+        }
+      ]
+    },
+    {
+      "query": "sciatica numbness weakness instructions",
+      "results": [
+        {
+          "rank": 1,
+          "topic": "Sciatica",
+          "section": "treatment",
+          "section_type": "treatment",
+          "resource_title": "Piriformis syndrome",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000776.htm",
+          "fk_grade": 8.8,
+          "reading_level": "intermediate",
+          "distance": 0.2944537401199341,
+          "preview": "Use proper posture when sitting, standing, or driving. Sit up straight and don't slump. Your provider may prescribe muscle relaxants. This will relax the muscle so you can exercise and stretch it. Injections of steroid m",
+          "adjusted_distance": 0.2944537401199341
+        },
+        {
+          "rank": 2,
+          "topic": "Sciatica",
+          "section": "symptoms",
+          "section_type": "symptoms",
+          "resource_title": "Sciatica",
+          "url": "https://medlineplus.gov/ency/article/000686.htm",
+          "fk_grade": 13.8,
+          "reading_level": "advanced",
+          "distance": 0.29505854845046997,
+          "preview": "The pain may start slowly. It may get worse: After standing or sitting During certain times of the day, such as at night When sneezing, coughing, or laughing,\u00c2 especially if caused by a herniated disk When bending backwa",
+          "adjusted_distance": 0.29505854845046997
+        },
+        {
+          "rank": 3,
+          "topic": "Sciatica",
+          "section": "treatment",
+          "section_type": "treatment",
+          "resource_title": "Sciatica",
+          "url": "https://medlineplus.gov/ency/article/000686.htm",
+          "fk_grade": 9.9,
+          "reading_level": "advanced",
+          "distance": 0.29976344108581543,
+          "preview": "Then, slowly start your usual activities. Do not do heavy lifting or twisting of your back for the first 6 weeks after the pain begins. Your provider may also suggest physical therapy\u00c2 to help you learn an exercise progr",
+          "adjusted_distance": 0.29976344108581543
+        }
+      ]
+    },
+    {
+      "query": "herniated disk follow up",
+      "results": [
+        {
+          "rank": 1,
+          "topic": "Herniated Disk",
+          "section": "outlook_prognosis",
+          "section_type": "overview",
+          "resource_title": "Herniated disk",
+          "url": "https://medlineplus.gov/ency/article/000442.htm",
+          "fk_grade": 7.1,
+          "reading_level": "intermediate",
+          "distance": 0.39739763736724854,
+          "preview": "Most people improve with treatment. But you may have long-term back pain, even after treatment. It may take several months to a year or more to go back to all of your activities without having pain or straining your back",
+          "adjusted_distance": 0.27739763736724854
+        },
+        {
+          "rank": 2,
+          "topic": "Herniated Disk",
+          "section": "possible_complications",
+          "section_type": "overview",
+          "resource_title": "Herniated disk",
+          "url": "https://medlineplus.gov/ency/article/000442.htm",
+          "fk_grade": 15.8,
+          "reading_level": "advanced",
+          "distance": 0.42734265327453613,
+          "preview": "In rare cases, the following problems can occur: Long-term back pain or leg pain Loss of movement or feeling in the legs or feet Loss of bowel or bladder function Permanent spinal cord injury (very rare)",
+          "adjusted_distance": 0.30734265327453614
+        },
+        {
+          "rank": 3,
+          "topic": "Back Pain",
+          "section": "when_to_return_to_a_sport",
+          "section_type": "overview",
+          "resource_title": "Returning to sports after a back injury",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000518.htm",
+          "fk_grade": 8.6,
+          "reading_level": "intermediate",
+          "distance": 0.4504072666168213,
+          "preview": "After a disk herniation (also called a slipped disk ) in one area of your spine, with or without having a surgery called diskectomy , most people recover in 1 to 6 months. You must do exercises to strengthen the muscles ",
+          "adjusted_distance": 0.3304072666168213
+        }
+      ]
+    },
+    {
+      "query": "back pain red flags bowel bladder weakness",
+      "results": [
+        {
+          "rank": 1,
+          "topic": "Spine Injuries and Disorders",
+          "section": "when_to_contact_a_medical_professional",
+          "section_type": "when_to_seek_care",
+          "resource_title": "Compression fractures of the back",
+          "url": "https://medlineplus.gov/ency/article/000443.htm",
+          "fk_grade": 7.6,
+          "reading_level": "intermediate",
+          "distance": 0.44696342945098877,
+          "preview": "Contact your provider if: You have back pain and you think you may have a compression fracture. Your symptoms are getting worse, or you have problems controlling your bladder and bowel function.",
+          "adjusted_distance": 0.2669634294509888
+        },
+        {
+          "rank": 2,
+          "topic": "Spine Injuries and Disorders",
+          "section": "when_to_contact_a_medical_professional",
+          "section_type": "when_to_seek_care",
+          "resource_title": "Spondylolisthesis",
+          "url": "https://medlineplus.gov/ency/article/001260.htm",
+          "fk_grade": 20.3,
+          "reading_level": "advanced",
+          "distance": 0.453752338886261,
+          "preview": "Contact your provider if: Your back appears to have a severe curve You have back pain or stiffness that does not go away You have pain in the thighs and buttocks that does not go away You have numbness and weakness in le",
+          "adjusted_distance": 0.273752338886261
+        },
+        {
+          "rank": 3,
+          "topic": "Spine Injuries and Disorders",
+          "section": "when_to_contact_a_medical_professional",
+          "section_type": "when_to_seek_care",
+          "resource_title": "Lordosis - lumbar",
+          "url": "https://medlineplus.gov/ency/article/003278.htm",
+          "fk_grade": 7.7,
+          "reading_level": "intermediate",
+          "distance": 0.4740560054779053,
+          "preview": "Contact your health care provider if you notice that your child has an exaggerated posture or a curve in the back. Your provider must check to see if there is a medical problem.",
+          "adjusted_distance": 0.2940560054779053
+        }
+      ]
+    },
+    {
+      "query": "lumbar strain discharge instructions",
+      "results": [
+        {
+          "rank": 1,
+          "topic": "Back Pain",
+          "section": "changes_at_work",
+          "section_type": "self_care",
+          "resource_title": "Back pain - returning to work",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000517.htm",
+          "fk_grade": 6.0,
+          "reading_level": "basic",
+          "distance": 0.54976487159729,
+          "preview": "Avoid standing for long periods. If you must stand at work, try resting one foot on a stool, then the other foot. Keep switching off during the day. Take medicines as needed. Let your boss or supervisor know if you need ",
+          "adjusted_distance": 0.32976487159729
+        },
+        {
+          "rank": 2,
+          "topic": "Back Pain",
+          "section": "learn_how_to_lift",
+          "section_type": "self_care",
+          "resource_title": "Back pain - returning to work",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000517.htm",
+          "fk_grade": 5.1,
+          "reading_level": "basic",
+          "distance": 0.5802479386329651,
+          "preview": "Know how much you can safely lift. Think about how much you have lifted in the past and how easy or hard that was. If an object seems too heavy or awkward, get help to move or lift it. If your work requires you to do lif",
+          "adjusted_distance": 0.36024793863296506
+        },
+        {
+          "rank": 3,
+          "topic": "Back Pain",
+          "section": "activity",
+          "section_type": "self_care",
+          "resource_title": "Sacroiliac joint pain - aftercare",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000610.htm",
+          "fk_grade": 5.7,
+          "reading_level": "basic",
+          "distance": 0.5874997973442078,
+          "preview": "Keep activity to a minimum. The more time the injury has rest, the better. For support during activity, you can use a sacroiliac belt or lumbar brace. Physical therapy is an important part of the healing process. It will",
+          "adjusted_distance": 0.36749979734420773
+        }
+      ]
+    },
+    {
+      "query": "sciatica return precautions",
+      "results": [
+        {
+          "rank": 1,
+          "topic": "Sciatica",
+          "section": "when_to_contact_a_medical_professional",
+          "section_type": "when_to_seek_care",
+          "resource_title": "Sciatica",
+          "url": "https://medlineplus.gov/ency/article/000686.htm",
+          "fk_grade": 51.8,
+          "reading_level": "advanced",
+          "distance": 0.33887940645217896,
+          "preview": "Contact your provider right away if you have: Unexplained fever with back pain Back pain after a severe blow or fall Redness or swelling on the back or spine Pain traveling down your legs below the knee Weakness or numbn",
+          "adjusted_distance": 0.15887940645217896
+        },
+        {
+          "rank": 2,
+          "topic": "Back Pain",
+          "section": "information",
+          "section_type": "when_to_seek_care",
+          "resource_title": "Back pain - when you see the doctor",
+          "url": "https://medlineplus.gov/ency/article/007494.htm",
+          "fk_grade": 9.8,
+          "reading_level": "advanced",
+          "distance": 0.4124565124511719,
+          "preview": "Your back will be pressed on at different spots to find where it hurts. You will also be asked to: Sit, stand, and walk Walk on your toes and then your heels Bend forward, backward, and sideways Lift your legs straight u",
+          "adjusted_distance": 0.23245651245117188
+        },
+        {
+          "rank": 3,
+          "topic": "Sciatica",
+          "section": "when_to_call_the_doctor",
+          "section_type": "when_to_seek_care",
+          "resource_title": "Piriformis syndrome",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000776.htm",
+          "fk_grade": 28.6,
+          "reading_level": "advanced",
+          "distance": 0.4441280961036682,
+          "preview": "Contact your provider if you have: Pain that lasts longer than a few weeks Pain that starts after you have been injured in an accident Get medical help immediately if: You have sudden severe pain in your lower back or le",
+          "adjusted_distance": 0.2641280961036682
+        }
+      ]
+    },
+    {
+      "query": "neck strain home care",
+      "results": [
+        {
+          "rank": 1,
+          "topic": "Neck Injuries and Disorders",
+          "section": "home_care",
+          "section_type": "self_care",
+          "resource_title": "Neck pain",
+          "url": "https://medlineplus.gov/ency/article/003025.htm",
+          "fk_grade": 5.2,
+          "reading_level": "basic",
+          "distance": 0.26728391647338867,
+          "preview": "This helps gently stretch the neck muscles. Have a partner gently massage the sore or painful areas. Try sleeping on a firm mattress with a pillow that supports your neck. You may want to get a special neck pillow. Ask y",
+          "adjusted_distance": 0.12728391647338866
+        },
+        {
+          "rank": 2,
+          "topic": "Neck Injuries and Disorders",
+          "section": "stretches_and_exercises",
+          "section_type": "treatment",
+          "resource_title": "Neck pain or spasms - self care",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000802.htm",
+          "fk_grade": 9.4,
+          "reading_level": "advanced",
+          "distance": 0.36180728673934937,
+          "preview": "As part of physical therapy, you may receive a massage and stretching exercises along with exercises to strengthen your neck. Exercise can help you: Improve your posture Strengthen your neck and improve flexibility A com",
+          "adjusted_distance": 0.14180728673934934
+        },
+        {
+          "rank": 3,
+          "topic": "Neck Injuries and Disorders",
+          "section": "preventing_neck_pain",
+          "section_type": "prevention",
+          "resource_title": "Neck pain or spasms - self care",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000802.htm",
+          "fk_grade": 4.0,
+          "reading_level": "basic",
+          "distance": 0.28071898221969604,
+          "preview": "Do not lift heavy objects just after a long ride. Make sure you have a firm mattress and supportive pillow. Try methods such as yoga, tai chi, or massage.",
+          "adjusted_distance": 0.20071898221969603
+        }
+      ]
+    },
+    {
+      "query": "sprain strain RICE instructions",
+      "results": [
+        {
+          "rank": 1,
+          "topic": "Sprains and Strains",
+          "section": "what_to_expect",
+          "section_type": "self_care",
+          "resource_title": "Ankle sprain - aftercare",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000574.htm",
+          "fk_grade": 8.2,
+          "reading_level": "intermediate",
+          "distance": 0.28392136096954346,
+          "preview": "Your health care provider may order an x-ray to look for a bone fracture, or an MRI scan to look for an injury to the ligament. To help your ankle heal, your provider may treat you with a brace, a cast, or a splint, and ",
+          "adjusted_distance": -0.09607863903045656
+        },
+        {
+          "rank": 2,
+          "topic": "Sprains and Strains",
+          "section": "self_care_at_home",
+          "section_type": "self_care",
+          "resource_title": "Elbow sprain -- aftercare",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000679.htm",
+          "fk_grade": 8.7,
+          "reading_level": "intermediate",
+          "distance": 0.3006131052970886,
+          "preview": "You can buy these pain medicines at the store. Talk with your provider before using these medicines if you have heart disease, high blood pressure, kidney or liver disease, or have had stomach ulcers or internal bleeding",
+          "adjusted_distance": -0.0793868947029114
+        },
+        {
+          "rank": 3,
+          "topic": "Sprains and Strains",
+          "section": "symptom_relief",
+          "section_type": "self_care",
+          "resource_title": "Hamstring strain - aftercare",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000551.htm",
+          "fk_grade": 10.8,
+          "reading_level": "advanced",
+          "distance": 0.3017505407333374,
+          "preview": "Talk with your health care provider before using these medicines if you have heart disease, high blood pressure, kidney disease, or have had stomach ulcers or internal bleeding in the past. Do not take more than the amou",
+          "adjusted_distance": -0.07824945926666262
+        }
+      ]
+    }
+  ]
+}
