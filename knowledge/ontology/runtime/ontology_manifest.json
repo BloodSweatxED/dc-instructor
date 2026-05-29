@@ -1,0 +1,471 @@
+{
+  "version": 1,
+  "mode": "draft_safe",
+  "rules": {
+    "never_store_ed_note_text": true,
+    "fallback_when_not_reviewed": true,
+    "fallback_when_source_audit_not_supported": true,
+    "block_unsafe_modifier_matches": true
+  },
+  "phenotypes": [
+    {
+      "id": "abdominal_pain_nonspecific_reassuring_workup",
+      "label": "Nonspecific abdominal pain with reassuring ED workup",
+      "status": "draft",
+      "review_status": "draft",
+      "version": 1,
+      "condition_terms": [
+        "abdominal pain",
+        "abdominal pain nonspecific reassuring workup",
+        "belly pain",
+        "gastrointestinal",
+        "nonspecific abdominal pain",
+        "nonspecific abdominal pain with reassuring ed workup"
+      ],
+      "unsafe_modifiers": [
+        "pregnancy",
+        "elderly",
+        "immunocompromised",
+        "peritoneal_signs",
+        "uncontrolled_vomiting"
+      ],
+      "source_audit": {
+        "source_supported": false,
+        "source_needed": true,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true
+      }
+    },
+    {
+      "id": "abscess_after_i_and_d",
+      "label": "Abscess after incision and drainage",
+      "status": "draft",
+      "review_status": "draft",
+      "version": 1,
+      "condition_terms": [
+        "abscess",
+        "abscess after i and d",
+        "abscess after incision and drainage",
+        "i and d",
+        "incision and drainage",
+        "skin soft tissue infection"
+      ],
+      "unsafe_modifiers": [
+        "deep_space_location",
+        "immunocompromised",
+        "packing_required",
+        "recurrent_abscess"
+      ],
+      "source_audit": {
+        "source_supported": false,
+        "source_needed": true,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true
+      }
+    },
+    {
+      "id": "allergic_reaction_resolved_no_anaphylaxis",
+      "label": "Allergic reaction resolved, no anaphylaxis",
+      "status": "draft",
+      "review_status": "draft",
+      "version": 1,
+      "condition_terms": [
+        "allergic reaction",
+        "allergic reaction resolved no anaphylaxis",
+        "allergic reaction resolved, no anaphylaxis",
+        "allergy",
+        "allergy immunology",
+        "hives"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "hypotension",
+        "epinephrine_given",
+        "mucosal_lesions",
+        "unknown_trigger"
+      ],
+      "source_audit": {
+        "source_supported": false,
+        "source_needed": true,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true
+      }
+    },
+    {
+      "id": "ankle_sprain_xray_negative",
+      "label": "Ankle sprain with negative x-ray",
+      "status": "draft",
+      "review_status": "draft",
+      "version": 1,
+      "condition_terms": [
+        "ankle sprain with negative x-ray",
+        "ankle sprain xray negative",
+        "musculoskeletal extremity injury"
+      ],
+      "unsafe_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false
+      }
+    },
+    {
+      "id": "asthma_exacerbation_improved_discharge",
+      "label": "Asthma exacerbation improved for discharge",
+      "status": "draft",
+      "review_status": "draft",
+      "version": 1,
+      "condition_terms": [
+        "asthma",
+        "asthma attack",
+        "asthma exacerbation improved discharge",
+        "asthma exacerbation improved for discharge",
+        "respiratory",
+        "wheezing"
+      ],
+      "unsafe_modifiers": [
+        "hypoxia",
+        "poor_inhaler_access",
+        "pregnancy",
+        "chest_pain",
+        "frequent_relapse"
+      ],
+      "source_audit": {
+        "source_supported": false,
+        "source_needed": true,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true
+      }
+    },
+    {
+      "id": "cellulitis_uncomplicated_oral_antibiotics",
+      "label": "Uncomplicated cellulitis treated as outpatient",
+      "status": "draft",
+      "review_status": "draft",
+      "version": 1,
+      "condition_terms": [
+        "cellulitis",
+        "cellulitis uncomplicated oral antibiotics",
+        "skin infection",
+        "skin soft tissue infection",
+        "uncomplicated cellulitis treated as outpatient"
+      ],
+      "unsafe_modifiers": [
+        "immunocompromised",
+        "rapid_progression",
+        "diabetic_foot",
+        "bite_wound",
+        "near_eye_or_genitals"
+      ],
+      "source_audit": {
+        "source_supported": false,
+        "source_needed": true,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true
+      }
+    },
+    {
+      "id": "chest_pain_low_risk_negative_ed_workup",
+      "label": "Low-risk chest pain after negative ED workup",
+      "status": "draft",
+      "review_status": "draft",
+      "version": 1,
+      "condition_terms": [
+        "cardiovascular",
+        "chest pain",
+        "chest pain low risk negative ed workup",
+        "low risk chest pain",
+        "low-risk chest pain after negative ed workup",
+        "negative cardiac workup"
+      ],
+      "unsafe_modifiers": [
+        "abnormal_troponin",
+        "abnormal_ecg",
+        "ongoing_pain",
+        "syncope",
+        "known_cad_high_risk"
+      ],
+      "source_audit": {
+        "source_supported": false,
+        "source_needed": true,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true
+      }
+    },
+    {
+      "id": "community_acquired_pneumonia_outpatient",
+      "label": "Community-acquired pneumonia, outpatient",
+      "status": "draft",
+      "review_status": "draft",
+      "version": 1,
+      "condition_terms": [
+        "community acquired pneumonia outpatient",
+        "community-acquired pneumonia, outpatient",
+        "lung infection",
+        "pneumonia",
+        "respiratory infection"
+      ],
+      "unsafe_modifiers": [
+        "hypoxia",
+        "immunocompromised",
+        "elderly_frail",
+        "sepsis",
+        "poor_follow_up"
+      ],
+      "source_audit": {
+        "source_supported": false,
+        "source_needed": true,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true
+      }
+    },
+    {
+      "id": "concussion_discharge_no_imaging_red_flags",
+      "label": "Concussion discharge without imaging red flags",
+      "status": "draft",
+      "review_status": "draft",
+      "version": 1,
+      "condition_terms": [
+        "concussion",
+        "concussion discharge no imaging red flags",
+        "concussion discharge without imaging red flags",
+        "head injury",
+        "mild tbi",
+        "mild traumatic brain injury"
+      ],
+      "unsafe_modifiers": [
+        "athlete_return_to_play",
+        "anticoagulated",
+        "neurologic_deficit",
+        "persistent_vomiting"
+      ],
+      "source_audit": {
+        "source_supported": false,
+        "source_needed": true,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true
+      }
+    },
+    {
+      "id": "dental_pain_no_deep_space_infection",
+      "label": "Dental pain without deep-space infection",
+      "status": "draft",
+      "review_status": "draft",
+      "version": 1,
+      "condition_terms": [
+        "dental oral",
+        "dental pain",
+        "dental pain no deep space infection",
+        "dental pain without deep-space infection",
+        "tooth pain",
+        "toothache"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "deep_space_swelling",
+        "immunocompromised",
+        "trismus"
+      ],
+      "source_audit": {
+        "source_supported": false,
+        "source_needed": true,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true
+      }
+    },
+    {
+      "id": "gastroenteritis_stable_hydrating",
+      "label": "Gastroenteritis, stable and able to hydrate",
+      "status": "draft",
+      "review_status": "draft",
+      "version": 1,
+      "condition_terms": [
+        "gastroenteritis stable hydrating",
+        "gastroenteritis, stable and able to hydrate",
+        "gastrointestinal infection"
+      ],
+      "unsafe_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false
+      }
+    },
+    {
+      "id": "laceration_repaired_simple",
+      "label": "Simple laceration repair",
+      "status": "draft",
+      "review_status": "draft",
+      "version": 1,
+      "condition_terms": [
+        "cut",
+        "laceration",
+        "laceration repaired simple",
+        "simple laceration repair",
+        "skin glue",
+        "stitches",
+        "sutures",
+        "wound care"
+      ],
+      "unsafe_modifiers": [
+        "bite_wound",
+        "hand_tendon_risk",
+        "joint_violation",
+        "open_fracture",
+        "dirty_wound"
+      ],
+      "source_audit": {
+        "source_supported": false,
+        "source_needed": true,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true
+      }
+    },
+    {
+      "id": "lumbar_strain_no_red_flags",
+      "label": "Lumbar strain without red flags",
+      "status": "draft",
+      "review_status": "draft",
+      "version": 1,
+      "condition_terms": [
+        "lumbar strain no red flags",
+        "lumbar strain without red flags",
+        "musculoskeletal back pain"
+      ],
+      "unsafe_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false
+      }
+    },
+    {
+      "id": "minor_head_injury_no_red_flags",
+      "label": "Minor head injury without red flags",
+      "status": "draft",
+      "review_status": "draft",
+      "version": 1,
+      "condition_terms": [
+        "head injury",
+        "hit head",
+        "minor head injury",
+        "minor head injury no red flags",
+        "minor head injury without red flags"
+      ],
+      "unsafe_modifiers": [
+        "anticoagulated",
+        "loss_of_consciousness",
+        "intoxication",
+        "elderly",
+        "persistent_vomiting"
+      ],
+      "source_audit": {
+        "source_supported": false,
+        "source_needed": true,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true
+      }
+    },
+    {
+      "id": "renal_colic_stable_no_infection",
+      "label": "Renal colic, stable, no infection concern",
+      "status": "draft",
+      "review_status": "draft",
+      "version": 1,
+      "condition_terms": [
+        "genitourinary",
+        "kidney stone",
+        "renal colic",
+        "renal colic stable no infection",
+        "renal colic, stable, no infection concern",
+        "ureteral stone"
+      ],
+      "unsafe_modifiers": [
+        "fever",
+        "solitary_kidney",
+        "pregnancy",
+        "renal_failure",
+        "uncontrolled_pain"
+      ],
+      "source_audit": {
+        "source_supported": false,
+        "source_needed": true,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true
+      }
+    },
+    {
+      "id": "uncomplicated_cystitis_nonpregnant",
+      "label": "Uncomplicated cystitis in a nonpregnant patient",
+      "status": "draft",
+      "review_status": "draft",
+      "version": 1,
+      "condition_terms": [
+        "uncomplicated cystitis in a nonpregnant patient",
+        "uncomplicated cystitis nonpregnant",
+        "urinary infection"
+      ],
+      "unsafe_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false
+      }
+    },
+    {
+      "id": "viral_pharyngitis_strep_negative",
+      "label": "Viral pharyngitis, strep negative",
+      "status": "draft",
+      "review_status": "draft",
+      "version": 1,
+      "condition_terms": [
+        "negative strep",
+        "sore throat",
+        "strep negative",
+        "upper respiratory",
+        "viral pharyngitis",
+        "viral pharyngitis strep negative",
+        "viral pharyngitis, strep negative"
+      ],
+      "unsafe_modifiers": [
+        "drooling",
+        "trismus",
+        "voice_change",
+        "airway_symptoms",
+        "immunocompromised"
+      ],
+      "source_audit": {
+        "source_supported": false,
+        "source_needed": true,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true
+      }
+    },
+    {
+      "id": "viral_uri_no_pneumonia",
+      "label": "Viral upper respiratory infection without pneumonia",
+      "status": "draft",
+      "review_status": "draft",
+      "version": 1,
+      "condition_terms": [
+        "respiratory infection",
+        "viral upper respiratory infection without pneumonia",
+        "viral uri no pneumonia"
+      ],
+      "unsafe_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false
+      }
+    }
+  ]
+}

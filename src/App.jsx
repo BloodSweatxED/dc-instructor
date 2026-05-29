@@ -25,6 +25,7 @@ export default function App() {
   const [warning, setWarning] = useState(null);
   const [blocked, setBlocked] = useState(null);
   const [error, setError] = useState(null);
+  const [generationMeta, setGenerationMeta] = useState(null);
 
   const [rating, setRating] = useState(null);
   const [redactionMeta, setRedactionMeta] = useState(null);
@@ -35,6 +36,7 @@ export default function App() {
     setError(null);
     setInstructions('');
     setImage(null);
+    setGenerationMeta(null);
     setBusy(true);
 
     try {
@@ -67,6 +69,7 @@ export default function App() {
 
       if (meta.warning === 'approaching_limit') setWarning('approaching_limit');
       if (typeof meta.count === 'number') setCount(meta.count + 1);
+      setGenerationMeta(meta);
 
       if (imageOn && imagePrompt.trim()) {
         setImageBusy(true);
@@ -142,6 +145,7 @@ export default function App() {
             image={image}
             imageBusy={imageBusy}
             streaming={streaming}
+            generationMeta={generationMeta}
           />
         </main>
 

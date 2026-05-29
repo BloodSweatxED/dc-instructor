@@ -1,0 +1,75 @@
+{
+  "id": "community_acquired_pneumonia_outpatient",
+  "label": "Community-acquired pneumonia, outpatient",
+  "status": "draft",
+  "condition_family": "respiratory_infection",
+  "inclusion_criteria": [
+    "Pneumonia judged stable for outpatient treatment.",
+    "No hypoxia, sepsis, or admission need at discharge."
+  ],
+  "exclusion_criteria": [
+    "Hypoxia.",
+    "Sepsis.",
+    "Immunocompromised host.",
+    "High-risk comorbidity or unreliable outpatient plan."
+  ],
+  "must_not_miss": [
+    "Sepsis.",
+    "Pulmonary embolism mimic.",
+    "Heart failure mimic.",
+    "Empyema.",
+    "Hypoxic respiratory failure."
+  ],
+  "default_follow_up": "Follow up with primary care as instructed.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "community_acquired_pneumonia_outpatient.diagnosis.diagnosis_summary.v1",
+    "community_acquired_pneumonia_outpatient.what_we_found.reassuring_ed_assessment.v1",
+    "community_acquired_pneumonia_outpatient.home_care.home_care_1.v1",
+    "community_acquired_pneumonia_outpatient.home_care.home_care_2.v1",
+    "community_acquired_pneumonia_outpatient.home_care.home_care_3.v1",
+    "community_acquired_pneumonia_outpatient.medications.medication_guidance_1.v1",
+    "community_acquired_pneumonia_outpatient.medications.medication_guidance_2.v1",
+    "community_acquired_pneumonia_outpatient.return_precautions.return_precaution_1.v1",
+    "community_acquired_pneumonia_outpatient.return_precautions.return_precaution_2.v1",
+    "community_acquired_pneumonia_outpatient.return_precautions.return_precaution_3.v1",
+    "community_acquired_pneumonia_outpatient.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [],
+  "source_audit": {
+    "source_supported": false,
+    "source_needed": true,
+    "clinician_judgment_only": true,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": true
+  },
+  "runtime": {
+    "condition_terms": [
+      "pneumonia",
+      "lung infection"
+    ],
+    "unsafe_modifiers": [
+      "hypoxia",
+      "immunocompromised",
+      "elderly_frail",
+      "sepsis",
+      "poor_follow_up"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "draft_only_until_reviewed"
+  },
+  "version": 1,
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "last_reviewed": null,
+    "notes": "Expanded ontology draft pack. Not clinician-reviewed. Runtime should fall back unless explicitly enabled for review."
+  }
+}

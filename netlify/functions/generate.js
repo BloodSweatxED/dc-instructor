@@ -1,4 +1,5 @@
 import { checkLimits, logGeneration, jsonResponse } from './_lib.js';
+import { tryOntologyGeneration } from './ontology-runtime.js';
 
 export const SYSTEM = ({ readingLevel, language }) => `You are a board-certified Emergency Medicine clinician writing discharge instructions for a patient you just saw and treated.
 
@@ -66,6 +67,41 @@ export default async (req) => {
     has_image_request: hasImage,
   });
 
+  const ontology = tryOntologyGeneration({ condition, edNoteScrubbed });
+  console.info(JSON.stringify({
+    event: 'generation_mode',
+    generation_id: generationId,
+    mode: ontology.mode,
+    phenotype_id: ontology.phenotype_id,
+    confidence: ontology.confidence,
+    fallback_reason: ontology.fallback_reason,
+  }));
+
+  if (ontology.mode === 'ontology' && ontology.output) {
+    const stream = new ReadableStream({
+      start(controller) {
+        const enc = new TextEncoder();
+        controller.enqueue(enc.encode(JSON.stringify({
+          type: 'meta',
+          generation_id: generationId,
+          warning: limits.warning ? 'approaching_limit' : null,
+          count: limits.count,
+          ontology_mode: ontology.mode,
+          phenotype_id: ontology.phenotype_id,
+          ontology_confidence: ontology.confidence,
+          fallback_reason: null,
+        }) + '\n'));
+        controller.enqueue(enc.encode(JSON.stringify({ type: 'chunk', text: ontology.output }) + '\n'));
+        controller.enqueue(enc.encode(JSON.stringify({ type: 'done' }) + '\n'));
+        controller.close();
+      },
+    });
+
+    return new Response(stream, {
+      headers: { 'Content-Type': 'application/x-ndjson', 'Cache-Control': 'no-store' },
+    });
+  }
+
   const upstream = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
@@ -95,6 +131,10 @@ export default async (req) => {
         generation_id: generationId,
         warning: limits.warning ? 'approaching_limit' : null,
         count: limits.count,
+        ontology_mode: ontology.mode,
+        phenotype_id: ontology.phenotype_id,
+        ontology_confidence: ontology.confidence,
+        fallback_reason: ontology.fallback_reason,
       }) + '\n'));
 
       const reader = upstream.body.getReader();

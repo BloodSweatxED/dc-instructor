@@ -1,0 +1,72 @@
+{
+  "id": "abscess_after_i_and_d",
+  "label": "Abscess after incision and drainage",
+  "status": "draft",
+  "condition_family": "skin_soft_tissue_infection",
+  "inclusion_criteria": [
+    "Abscess drained in the ED and patient discharged.",
+    "No deep-space infection or sepsis concern."
+  ],
+  "exclusion_criteria": [
+    "Deep hand, face, neck, breast, genital, or perirectal abscess pathway.",
+    "Sepsis or immunocompromised host needing separate planning."
+  ],
+  "must_not_miss": [
+    "Necrotizing infection.",
+    "Deep-space infection.",
+    "Sepsis.",
+    "Retained foreign body."
+  ],
+  "default_follow_up": "Return or follow up for wound check as instructed.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "abscess_after_i_and_d.diagnosis.diagnosis_summary.v1",
+    "abscess_after_i_and_d.what_we_found.reassuring_ed_assessment.v1",
+    "abscess_after_i_and_d.home_care.home_care_1.v1",
+    "abscess_after_i_and_d.home_care.home_care_2.v1",
+    "abscess_after_i_and_d.home_care.home_care_3.v1",
+    "abscess_after_i_and_d.medications.medication_guidance_1.v1",
+    "abscess_after_i_and_d.medications.medication_guidance_2.v1",
+    "abscess_after_i_and_d.return_precautions.return_precaution_1.v1",
+    "abscess_after_i_and_d.return_precautions.return_precaution_2.v1",
+    "abscess_after_i_and_d.return_precautions.return_precaution_3.v1",
+    "abscess_after_i_and_d.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [],
+  "source_audit": {
+    "source_supported": false,
+    "source_needed": true,
+    "clinician_judgment_only": true,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": true
+  },
+  "runtime": {
+    "condition_terms": [
+      "abscess",
+      "i and d",
+      "incision and drainage"
+    ],
+    "unsafe_modifiers": [
+      "deep_space_location",
+      "immunocompromised",
+      "packing_required",
+      "recurrent_abscess"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "draft_only_until_reviewed"
+  },
+  "version": 1,
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "last_reviewed": null,
+    "notes": "Expanded ontology draft pack. Not clinician-reviewed. Runtime should fall back unless explicitly enabled for review."
+  }
+}

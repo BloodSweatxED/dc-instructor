@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function OutputPanel({ instructions, setInstructions, image, imageBusy, streaming }) {
+export default function OutputPanel({ instructions, setInstructions, image, imageBusy, streaming, generationMeta }) {
   const [tab, setTab] = useState('preview');
   const [copied, setCopied] = useState(false);
 
@@ -57,8 +57,17 @@ export default function OutputPanel({ instructions, setInstructions, image, imag
       {tab === 'preview' && (
         <>
           {instructions && (
-            <div className="mb-2 px-2 py-1.5 rounded-md border border-warn/30 bg-warn/10 text-warn text-[11px] font-mono">
-              ⚠ Review before giving to patient — verify medications, doses, and follow-up instructions.
+            <div className="mb-2 space-y-1.5">
+              <div className="px-2 py-1.5 rounded-md border border-warn/30 bg-warn/10 text-warn text-[11px] font-mono">
+                Review before giving to patient. Verify medications, doses, and follow-up instructions.
+              </div>
+              {generationMeta?.ontology_mode && (
+                <div className="px-2 py-1.5 rounded-md border border-cool/10 bg-bg/50 text-cool/60 text-[11px] font-mono">
+                  Mode: {generationMeta.ontology_mode === 'ontology' ? 'reviewed ontology' : 'generator fallback'}
+                  {generationMeta.phenotype_id ? ` | phenotype: ${generationMeta.phenotype_id}` : ''}
+                  {generationMeta.fallback_reason ? ` | reason: ${generationMeta.fallback_reason}` : ''}
+                </div>
+              )}
             </div>
           )}
           <textarea

@@ -1,0 +1,74 @@
+{
+  "id": "allergic_reaction_resolved_no_anaphylaxis",
+  "label": "Allergic reaction resolved, no anaphylaxis",
+  "status": "draft",
+  "condition_family": "allergy_immunology",
+  "inclusion_criteria": [
+    "Allergic reaction improved or resolved without anaphylaxis at discharge."
+  ],
+  "exclusion_criteria": [
+    "Anaphylaxis.",
+    "Airway swelling.",
+    "Hypotension.",
+    "Biphasic reaction concern needing observation."
+  ],
+  "must_not_miss": [
+    "Anaphylaxis.",
+    "Airway edema.",
+    "Medication reaction with mucosal involvement.",
+    "Serum sickness or severe cutaneous adverse reaction."
+  ],
+  "default_follow_up": "Follow up with primary care or allergy clinic if symptoms continue or trigger is unclear.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "allergic_reaction_resolved_no_anaphylaxis.diagnosis.diagnosis_summary.v1",
+    "allergic_reaction_resolved_no_anaphylaxis.what_we_found.reassuring_ed_assessment.v1",
+    "allergic_reaction_resolved_no_anaphylaxis.home_care.home_care_1.v1",
+    "allergic_reaction_resolved_no_anaphylaxis.home_care.home_care_2.v1",
+    "allergic_reaction_resolved_no_anaphylaxis.home_care.home_care_3.v1",
+    "allergic_reaction_resolved_no_anaphylaxis.medications.medication_guidance_1.v1",
+    "allergic_reaction_resolved_no_anaphylaxis.medications.medication_guidance_2.v1",
+    "allergic_reaction_resolved_no_anaphylaxis.return_precautions.return_precaution_1.v1",
+    "allergic_reaction_resolved_no_anaphylaxis.return_precautions.return_precaution_2.v1",
+    "allergic_reaction_resolved_no_anaphylaxis.return_precautions.return_precaution_3.v1",
+    "allergic_reaction_resolved_no_anaphylaxis.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [],
+  "source_audit": {
+    "source_supported": false,
+    "source_needed": true,
+    "clinician_judgment_only": true,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": true
+  },
+  "runtime": {
+    "condition_terms": [
+      "allergic reaction",
+      "allergy",
+      "hives"
+    ],
+    "unsafe_modifiers": [
+      "airway_symptoms",
+      "hypotension",
+      "epinephrine_given",
+      "mucosal_lesions",
+      "unknown_trigger"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "draft_only_until_reviewed"
+  },
+  "version": 1,
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "last_reviewed": null,
+    "notes": "Expanded ontology draft pack. Not clinician-reviewed. Runtime should fall back unless explicitly enabled for review."
+  }
+}
