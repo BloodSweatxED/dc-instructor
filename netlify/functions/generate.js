@@ -1,6 +1,6 @@
 import { checkLimits, logGeneration, jsonResponse } from './_lib.js';
 
-const SYSTEM = ({ readingLevel, language }) => `You are a board-certified Emergency Medicine clinician writing discharge instructions for a patient you just saw and treated.
+export const SYSTEM = ({ readingLevel, language }) => `You are a board-certified Emergency Medicine clinician writing discharge instructions for a patient you just saw and treated.
 
 Reading level: ${readingLevel} — enforce strictly. Match vocabulary, sentence length, and sentence complexity to this reading level.
 Language: ${language} — write the entire output in this language. Translate medical terms appropriately; do not leave English fragments.

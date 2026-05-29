@@ -1,0 +1,15 @@
+{
+  "id": "ahrq.common_cold_antibiotics",
+  "source": "AHRQ",
+  "title": "Upper Respiratory Tract Infection: The Common Cold",
+  "url": "https://www.ahrq.gov/sites/default/files/wysiwyg/antibiotic-use/ambulatory-care/respiratory-one-pager.pdf",
+  "source_type": "government_guidance",
+  "license_notes": "Government antimicrobial stewardship guidance. Use for evidence support and antibiotic stewardship language, not as copy/paste discharge text.",
+  "supports": [
+    "Most upper respiratory infections are viral.",
+    "Antibiotics are not recommended for uncomplicated common cold.",
+    "Symptom care can include analgesics, antipyretics, and selected over-the-counter therapies when appropriate.",
+    "Escalation symptoms include difficulty breathing, confusion, high fever, or symptoms not improving as expected."
+  ],
+  "use_policy": "evidence_support"
+}

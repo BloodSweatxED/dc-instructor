@@ -1,0 +1,56 @@
+{
+  "id": "gastroenteritis_stable_hydrating",
+  "label": "Gastroenteritis, stable and able to hydrate",
+  "status": "draft",
+  "condition_family": "gastrointestinal_infection",
+  "inclusion_criteria": [
+    "Vomiting, diarrhea, nausea, or crampy abdominal pain is most consistent with gastroenteritis.",
+    "Patient is stable for discharge.",
+    "Patient can drink fluids or has improved enough after ED treatment to continue oral hydration at home.",
+    "No clinician concern for surgical abdomen, severe dehydration, sepsis, or high-risk GI bleeding at discharge."
+  ],
+  "exclusion_criteria": [
+    "Severe or localized abdominal pain concerning for appendicitis, bowel obstruction, ischemia, pancreatitis, cholecystitis, or other surgical process.",
+    "Bloody stool, black stool, or significant GI bleeding.",
+    "Severe dehydration, syncope, shock, or inability to keep fluids down.",
+    "High-risk pregnancy, severe immunocompromise, very young infant, or frail older adult requiring a different pathway.",
+    "Recent high-risk travel, outbreak exposure, or antibiotic-associated diarrhea requiring specific testing or treatment instructions."
+  ],
+  "must_not_miss": [
+    "Appendicitis or other surgical abdomen.",
+    "Severe dehydration.",
+    "Sepsis.",
+    "GI bleeding.",
+    "C. difficile or invasive diarrhea when risk factors are present."
+  ],
+  "default_follow_up": "Primary care, clinic, or urgent care follow-up in 1 to 3 days if symptoms are not improving.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "gastroenteritis.diagnosis.stable.v1",
+    "gastroenteritis.what_we_found.hydrating.v1",
+    "gastroenteritis.home_care.oral_rehydration.v1",
+    "gastroenteritis.home_care.food_hygiene.v1",
+    "gastroenteritis.medications.antiemetic_if_prescribed.v1",
+    "gastroenteritis.medications.avoid_antidiarrheal_red_flags.v1",
+    "gastroenteritis.return_precautions.dehydration_blood_pain.v1",
+    "gastroenteritis.return_precautions.persistent_worse.v1",
+    "gastroenteritis.follow_up.recheck.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.viral_gastroenteritis",
+    "medlineplus.diarrhea_self_care"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "last_reviewed": null,
+    "notes": "Draft ED gastroenteritis phenotype. Needs clinician review and modifiers for pediatrics, pregnancy, elderly, immunocompromise, and stool-testing indications."
+  }
+}

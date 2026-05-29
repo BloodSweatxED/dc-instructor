@@ -1,0 +1,57 @@
+{
+  "id": "uncomplicated_cystitis_nonpregnant",
+  "label": "Uncomplicated cystitis in a nonpregnant patient",
+  "status": "draft",
+  "condition_family": "urinary_infection",
+  "inclusion_criteria": [
+    "Lower urinary tract symptoms are most consistent with bladder infection, such as burning with urination, frequency, urgency, or suprapubic discomfort.",
+    "Patient is not pregnant.",
+    "No fever, flank pain, vomiting, sepsis concern, or clinician concern for kidney infection.",
+    "Patient can take oral medicines and maintain hydration.",
+    "No urologic procedure, catheter-associated infection, or complicated UTI pathway is needed at discharge."
+  ],
+  "exclusion_criteria": [
+    "Pregnancy.",
+    "Male patient or patient requiring sex-specific complicated UTI pathway.",
+    "Fever, flank pain, rigors, vomiting, or concern for pyelonephritis.",
+    "Sepsis, immunocompromise, kidney transplant, urinary obstruction, or indwelling catheter.",
+    "Pelvic inflammatory disease, sexually transmitted infection, kidney stone, or abdominal emergency concern."
+  ],
+  "must_not_miss": [
+    "Pyelonephritis.",
+    "Sepsis.",
+    "Pregnancy-related UTI risk.",
+    "Obstructing infected stone.",
+    "Pelvic infection or STI when symptoms suggest it."
+  ],
+  "default_follow_up": "Primary care, clinic, or urgent care follow-up in 2 to 3 days if symptoms are not improving, sooner if symptoms worsen.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "cystitis.diagnosis.uncomplicated.v1",
+    "cystitis.what_we_found.no_kidney_infection.v1",
+    "cystitis.home_care.fluids_irritants.v1",
+    "cystitis.home_care.culture_callback.v1",
+    "cystitis.medications.antibiotics_complete.v1",
+    "cystitis.medications.symptom_medicine_caution.v1",
+    "cystitis.return_precautions.pyelo_sepsis.v1",
+    "cystitis.return_precautions.not_improving.v1",
+    "cystitis.follow_up.recheck.v1"
+  ],
+  "source_card_ids": [
+    "cdc.uti_basics",
+    "medlineplus.uti_self_care"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "last_reviewed": null,
+    "notes": "Draft ED cystitis phenotype. Needs clinician review, pregnancy guardrail, and antibiotic-specific instructions before production use."
+  }
+}

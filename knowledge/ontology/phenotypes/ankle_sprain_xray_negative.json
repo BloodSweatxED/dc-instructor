@@ -1,0 +1,58 @@
+{
+  "id": "ankle_sprain_xray_negative",
+  "label": "Ankle sprain with negative x-ray",
+  "status": "draft",
+  "condition_family": "musculoskeletal_extremity_injury",
+  "inclusion_criteria": [
+    "Ankle injury consistent with sprain.",
+    "Fracture not seen on x-ray or fracture evaluation not concerning.",
+    "Foot is warm and well perfused.",
+    "Sensation and movement are intact at discharge.",
+    "Patient can use brace, wrap, crutches, or protected weight bearing as instructed."
+  ],
+  "exclusion_criteria": [
+    "Open fracture or dislocation.",
+    "Neurovascular compromise.",
+    "Concern for septic joint.",
+    "High-risk tendon rupture or unstable injury requiring urgent specialty pathway.",
+    "Child with growth plate concern requiring pediatric-specific instructions."
+  ],
+  "must_not_miss": [
+    "Occult fracture.",
+    "Lisfranc injury or high ankle sprain when exam suggests it.",
+    "Compartment syndrome in severe trauma.",
+    "Neurovascular compromise.",
+    "Infection if symptoms are not traumatic."
+  ],
+  "default_follow_up": "Primary care, sports medicine, orthopedics, or urgent care follow-up in 5 to 7 days if pain or walking difficulty persists.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "ankle_sprain.diagnosis.xray_negative.v1",
+    "ankle_sprain.what_we_found.reassuring_exam.v1",
+    "ankle_sprain.home_care.protect_rest.v1",
+    "ankle_sprain.home_care.ice_elevation.v1",
+    "ankle_sprain.home_care.weight_bearing.v1",
+    "ankle_sprain.medications.acetaminophen.v1",
+    "ankle_sprain.medications.nsaid_caution.v1",
+    "ankle_sprain.return_precautions.neurovascular.v1",
+    "ankle_sprain.return_precautions.worse_swelling_fever.v1",
+    "ankle_sprain.follow_up.recheck.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.ankle_sprain_aftercare",
+    "wikem.ankle_sprain"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "last_reviewed": null,
+    "notes": "First ontology slice. Needs EM clinician review before production use."
+  }
+}

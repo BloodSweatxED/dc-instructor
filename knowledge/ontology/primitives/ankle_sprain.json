@@ -1,0 +1,202 @@
+[
+  {
+    "id": "ankle_sprain.diagnosis.xray_negative.v1",
+    "phenotypes": ["ankle_sprain_xray_negative"],
+    "section": "diagnosis",
+    "primitive_type": "diagnosis_summary",
+    "priority": "required",
+    "text": {
+      "en_4": "You have an ankle sprain. Your x-ray did not show a broken bone.",
+      "en_6": "You have an ankle sprain. Your x-ray did not show a fracture.",
+      "en_hl1": "You sprained your ankle. The x-ray did not show a broken bone."
+    },
+    "contraindications": ["fracture_seen", "no_xray_performed"],
+    "source_card_ids": ["medlineplus.ankle_sprain_aftercare"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Use only when fracture evaluation is negative."
+    }
+  },
+  {
+    "id": "ankle_sprain.what_we_found.reassuring_exam.v1",
+    "phenotypes": ["ankle_sprain_xray_negative"],
+    "section": "what_we_found",
+    "primitive_type": "normal_exam_reassurance",
+    "priority": "required",
+    "text": {
+      "en_4": "Your foot has good blood flow and feeling. You can go home with a brace, wrap, or crutches as instructed.",
+      "en_6": "Your foot has good blood flow, feeling, and movement. You can go home with a brace, wrap, or crutches as instructed.",
+      "en_hl1": "Blood flow and feeling are good. Use the brace or crutches as told."
+    },
+    "contraindications": ["neurovascular_compromise"],
+    "source_card_ids": ["wikem.ankle_sprain"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Requires chart-aware assembly if exam details differ."
+    }
+  },
+  {
+    "id": "ankle_sprain.home_care.protect_rest.v1",
+    "phenotypes": ["ankle_sprain_xray_negative"],
+    "section": "home_care",
+    "primitive_type": "splint_or_brace",
+    "priority": "high",
+    "text": {
+      "en_4": "Wear the brace or wrap as instructed. Rest your ankle for the next few days.",
+      "en_6": "Wear the brace or wrap as instructed. Rest and protect your ankle for the next few days.",
+      "en_hl1": "Wear the brace as told. Rest your ankle."
+    },
+    "contraindications": [],
+    "source_card_ids": ["medlineplus.ankle_sprain_aftercare"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Assumes brace, wrap, or supportive device was provided or recommended."
+    }
+  },
+  {
+    "id": "ankle_sprain.home_care.ice_elevation.v1",
+    "phenotypes": ["ankle_sprain_xray_negative"],
+    "section": "home_care",
+    "primitive_type": "ice_elevation",
+    "priority": "high",
+    "text": {
+      "en_4": "Put ice on your ankle for 15 to 20 minutes at a time. Keep your ankle raised when you sit or lie down.",
+      "en_6": "Put ice on your ankle for 15 to 20 minutes at a time. Keep your ankle raised above heart level when you sit or lie down.",
+      "en_hl1": "Use ice for 15 to 20 minutes. Keep your ankle raised."
+    },
+    "contraindications": ["cold_injury", "poor_skin_sensation"],
+    "source_card_ids": ["medlineplus.ankle_sprain_aftercare"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Core swelling-control primitive."
+    }
+  },
+  {
+    "id": "ankle_sprain.home_care.weight_bearing.v1",
+    "phenotypes": ["ankle_sprain_xray_negative"],
+    "section": "home_care",
+    "primitive_type": "activity",
+    "priority": "high",
+    "text": {
+      "en_4": "Walk only as much as you were told to. If walking hurts a lot, use crutches and put less weight on the ankle.",
+      "en_6": "Walk only as much as you were instructed. If walking causes significant pain, use crutches and limit weight on the ankle.",
+      "en_hl1": "Walk only as told. Use crutches if walking hurts a lot."
+    },
+    "contraindications": ["non_weight_bearing_order"],
+    "source_card_ids": ["medlineplus.ankle_sprain_aftercare"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Needs future modifier for weight-bearing status."
+    }
+  },
+  {
+    "id": "ankle_sprain.medications.acetaminophen.v1",
+    "phenotypes": ["ankle_sprain_xray_negative"],
+    "section": "medications",
+    "primitive_type": "medication_otc_acetaminophen",
+    "priority": "high",
+    "text": {
+      "en_4": "You can use acetaminophen for pain. Follow the bottle directions. Do not take more than the label says.",
+      "en_6": "You can use acetaminophen for pain. Follow the bottle directions and do not take more than the label says.",
+      "en_hl1": "You can take acetaminophen for pain. Follow the bottle."
+    },
+    "contraindications": ["acetaminophen_allergy", "severe_liver_disease"],
+    "source_card_ids": ["medlineplus.ankle_sprain_aftercare"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Dose intentionally omitted until dosing policy is added."
+    }
+  },
+  {
+    "id": "ankle_sprain.medications.nsaid_caution.v1",
+    "phenotypes": ["ankle_sprain_xray_negative"],
+    "section": "medications",
+    "primitive_type": "medication_otc_nsaid",
+    "priority": "high",
+    "text": {
+      "en_4": "Ibuprofen or naproxen may help pain and swelling. Take them with food. Do not use them if you have kidney disease, stomach bleeding, take blood thinners, or were told to avoid them.",
+      "en_6": "Ibuprofen or naproxen may help pain and swelling. Take them with food. Do not use them if you have kidney disease, stomach ulcers or bleeding, take blood thinners, or were told to avoid them.",
+      "en_hl1": "Ibuprofen may help pain and swelling. Take it with food. Do not use it if a doctor told you not to."
+    },
+    "contraindications": ["nsaid_allergy", "kidney_disease", "stomach_bleeding", "blood_thinner_use", "pregnancy_late"],
+    "source_card_ids": ["medlineplus.ankle_sprain_aftercare"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Short safety language. Needs dose policy before production."
+    }
+  },
+  {
+    "id": "ankle_sprain.return_precautions.neurovascular.v1",
+    "phenotypes": ["ankle_sprain_xray_negative"],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_neurovascular",
+    "priority": "required",
+    "text": {
+      "en_4": "Come back now if your foot or toes become numb, cold, blue, very pale, or hard to move.",
+      "en_6": "Come back to the emergency department right away if your foot or toes become numb, cold, blue, very pale, or hard to move.",
+      "en_hl1": "Come back now if your toes are numb, cold, blue, pale, or hard to move."
+    },
+    "contraindications": [],
+    "source_card_ids": ["medlineplus.ankle_sprain_aftercare", "wikem.ankle_sprain"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Safety-critical red flag."
+    }
+  },
+  {
+    "id": "ankle_sprain.return_precautions.worse_swelling_fever.v1",
+    "phenotypes": ["ankle_sprain_xray_negative"],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_extremity_injury",
+    "priority": "required",
+    "text": {
+      "en_4": "Come back now if pain or swelling gets much worse, you cannot walk at all, the skin gets very red or hot, or you get a fever.",
+      "en_6": "Come back to the emergency department right away if pain or swelling gets much worse, you cannot walk at all, the skin becomes very red or hot, or you develop a fever.",
+      "en_hl1": "Come back now for much worse pain, worse swelling, fever, or if you cannot walk."
+    },
+    "contraindications": [],
+    "source_card_ids": ["medlineplus.ankle_sprain_aftercare", "wikem.ankle_sprain"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Covers occult worsening, infection signs, and functional decline."
+    }
+  },
+  {
+    "id": "ankle_sprain.follow_up.recheck.v1",
+    "phenotypes": ["ankle_sprain_xray_negative"],
+    "section": "follow_up",
+    "primitive_type": "follow_up_pcp_or_ortho",
+    "priority": "required",
+    "text": {
+      "en_4": "See your regular doctor, urgent care, sports medicine, or orthopedics in 5 to 7 days if pain or walking is not getting better.",
+      "en_6": "See your regular doctor, urgent care, sports medicine, or orthopedics in 5 to 7 days if pain or walking is not improving.",
+      "en_hl1": "See a doctor in 5 to 7 days if pain or walking is not better."
+    },
+    "contraindications": [],
+    "source_card_ids": ["medlineplus.ankle_sprain_aftercare"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Default follow-up for persistent symptoms after negative x-ray."
+    }
+  }
+]

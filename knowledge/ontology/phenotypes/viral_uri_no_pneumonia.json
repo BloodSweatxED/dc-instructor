@@ -1,0 +1,57 @@
+{
+  "id": "viral_uri_no_pneumonia",
+  "label": "Viral upper respiratory infection without pneumonia",
+  "status": "draft",
+  "condition_family": "respiratory_infection",
+  "inclusion_criteria": [
+    "Symptoms are most consistent with viral upper respiratory infection, such as cough, congestion, runny nose, sore throat, or low-grade fever.",
+    "No clinical concern for pneumonia at discharge, or chest x-ray did not show pneumonia when obtained.",
+    "Patient is breathing comfortably enough for discharge.",
+    "Oxygen level and vital signs are acceptable for discharge.",
+    "No clinician concern for sepsis, airway emergency, or high-risk cardiopulmonary process."
+  ],
+  "exclusion_criteria": [
+    "Hypoxia, respiratory distress, or need for oxygen.",
+    "Pneumonia, asthma or COPD exacerbation requiring a disease-specific pathway, heart failure, pulmonary embolism, or acute coronary syndrome concern.",
+    "Severe immunocompromise or transplant status.",
+    "Infant or high-risk pediatric patient requiring pediatric-specific instructions.",
+    "Patient cannot maintain hydration or safe home monitoring."
+  ],
+  "must_not_miss": [
+    "Pneumonia.",
+    "Asthma or COPD exacerbation.",
+    "Sepsis.",
+    "Myocarditis or acute coronary syndrome when chest pain or dyspnea is prominent.",
+    "Airway compromise."
+  ],
+  "default_follow_up": "Primary care follow-up in 3 to 7 days if symptoms are not improving, sooner for high-risk patients.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "viral_uri.diagnosis.no_pneumonia.v1",
+    "viral_uri.what_we_found.reassuring_breathing.v1",
+    "viral_uri.home_care.fluids_rest_humidification.v1",
+    "viral_uri.home_care.infection_control.v1",
+    "viral_uri.medications.no_antibiotics.v1",
+    "viral_uri.medications.otc_caution.v1",
+    "viral_uri.return_precautions.breathing_chest_confusion.v1",
+    "viral_uri.return_precautions.worsening_fever_dehydration.v1",
+    "viral_uri.follow_up.primary_care.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.common_cold",
+    "ahrq.common_cold_antibiotics"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": null,
+    "last_reviewed": null,
+    "notes": "Draft ED URI phenotype. Needs clinician review and local policy for flu/COVID testing modifiers."
+  }
+}

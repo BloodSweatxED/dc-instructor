@@ -1,0 +1,182 @@
+[
+  {
+    "id": "cystitis.diagnosis.uncomplicated.v1",
+    "phenotypes": ["uncomplicated_cystitis_nonpregnant"],
+    "section": "diagnosis",
+    "primitive_type": "diagnosis_summary",
+    "priority": "required",
+    "text": {
+      "en_4": "You have a bladder infection, also called a UTI.",
+      "en_6": "You have a bladder infection, also called an uncomplicated UTI.",
+      "en_hl1": "You have a bladder infection, called a UTI."
+    },
+    "contraindications": ["pregnancy", "pyelonephritis", "sepsis", "complicated_uti"],
+    "source_card_ids": ["cdc.uti_basics", "medlineplus.uti_self_care"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Use only when lower UTI/cystitis pathway is appropriate."
+    }
+  },
+  {
+    "id": "cystitis.what_we_found.no_kidney_infection.v1",
+    "phenotypes": ["uncomplicated_cystitis_nonpregnant"],
+    "section": "what_we_found",
+    "primitive_type": "reassuring_no_pyelo",
+    "priority": "required",
+    "text": {
+      "en_4": "Today we did not find signs of a kidney infection or a dangerous infection in your blood.",
+      "en_6": "Today we did not find signs of a kidney infection, sepsis, or another emergency cause of your symptoms.",
+      "en_hl1": "We did not see signs of a kidney infection or dangerous infection today."
+    },
+    "contraindications": ["fever", "flank_pain", "sepsis", "vomiting_unable_to_take_meds"],
+    "source_card_ids": ["cdc.uti_basics", "medlineplus.uti_self_care"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Requires chart-aware assembly if urine culture, pregnancy test, or imaging should be named."
+    }
+  },
+  {
+    "id": "cystitis.home_care.fluids_irritants.v1",
+    "phenotypes": ["uncomplicated_cystitis_nonpregnant"],
+    "section": "home_care",
+    "primitive_type": "hydration",
+    "priority": "high",
+    "text": {
+      "en_4": "Drink fluids if you are allowed to. Avoid alcohol or drinks that make burning worse until you feel better.",
+      "en_6": "Drink fluids if you are allowed to. Avoid alcohol or drinks that worsen burning until symptoms improve.",
+      "en_hl1": "Drink fluids if you can. Avoid drinks that make burning worse."
+    },
+    "contraindications": ["fluid_restriction"],
+    "source_card_ids": ["medlineplus.uti_self_care"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Fluid language includes restriction guardrail."
+    }
+  },
+  {
+    "id": "cystitis.home_care.culture_callback.v1",
+    "phenotypes": ["uncomplicated_cystitis_nonpregnant"],
+    "section": "home_care",
+    "primitive_type": "culture_followup",
+    "priority": "medium",
+    "text": {
+      "en_4": "If a urine culture was sent, the hospital may call you if your antibiotic needs to change.",
+      "en_6": "If a urine culture was sent, the hospital may contact you if the antibiotic needs to be changed.",
+      "en_hl1": "If a urine culture was sent, we may call if your medicine needs to change."
+    },
+    "contraindications": ["no_urine_culture_sent"],
+    "source_card_ids": ["cdc.uti_basics"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Should be modifier-gated when culture status is available."
+    }
+  },
+  {
+    "id": "cystitis.medications.antibiotics_complete.v1",
+    "phenotypes": ["uncomplicated_cystitis_nonpregnant"],
+    "section": "medications",
+    "primitive_type": "antibiotic_adherence",
+    "priority": "required",
+    "text": {
+      "en_4": "Take the antibiotic exactly as prescribed. Finish it unless a doctor or pharmacist tells you to stop.",
+      "en_6": "Take the antibiotic exactly as prescribed. Finish the course unless a doctor or pharmacist tells you to stop.",
+      "en_hl1": "Take your antibiotic as told. Finish it unless a doctor tells you to stop."
+    },
+    "contraindications": ["no_antibiotic_prescribed"],
+    "source_card_ids": ["cdc.uti_basics", "medlineplus.uti_self_care"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Antibiotic-specific side effects should be added by medication-aware assembly."
+    }
+  },
+  {
+    "id": "cystitis.medications.symptom_medicine_caution.v1",
+    "phenotypes": ["uncomplicated_cystitis_nonpregnant"],
+    "section": "medications",
+    "primitive_type": "urinary_pain_medicine",
+    "priority": "medium",
+    "text": {
+      "en_4": "If you were given medicine for burning, use it only as directed. It may turn your urine bright orange.",
+      "en_6": "If you were prescribed medicine for urinary burning, use it only as directed. It may turn your urine bright orange.",
+      "en_hl1": "If you got medicine for burning, take it as told. Your pee may turn orange."
+    },
+    "contraindications": ["no_urinary_analgesic_prescribed"],
+    "source_card_ids": ["medlineplus.uti_self_care"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Future medication-aware assembly should gate by phenazopyridine or local equivalent."
+    }
+  },
+  {
+    "id": "cystitis.return_precautions.pyelo_sepsis.v1",
+    "phenotypes": ["uncomplicated_cystitis_nonpregnant"],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_pyelo",
+    "priority": "required",
+    "text": {
+      "en_4": "Come back now for fever, chills, back or side pain, vomiting, weakness, confusion, or feeling very sick.",
+      "en_6": "Come back to the emergency department right away for fever, chills, back or side pain, vomiting, weakness, confusion, or feeling very sick.",
+      "en_hl1": "Come back now for fever, chills, back pain, vomiting, confusion, or feeling very sick."
+    },
+    "contraindications": [],
+    "source_card_ids": ["medlineplus.uti_self_care"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Safety-critical pyelonephritis and sepsis return precautions."
+    }
+  },
+  {
+    "id": "cystitis.return_precautions.not_improving.v1",
+    "phenotypes": ["uncomplicated_cystitis_nonpregnant"],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_treatment_failure",
+    "priority": "required",
+    "text": {
+      "en_4": "Get checked again if burning or urgency is not starting to improve after 2 days of antibiotics, or if symptoms get worse.",
+      "en_6": "Get checked again if burning or urgency is not starting to improve after 2 days of antibiotics, or if symptoms worsen.",
+      "en_hl1": "Get checked if symptoms are not better after 2 days of antibiotics, or if they get worse."
+    },
+    "contraindications": ["no_antibiotic_prescribed"],
+    "source_card_ids": ["medlineplus.uti_self_care"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Treatment-failure warning. Time window needs local clinician approval."
+    }
+  },
+  {
+    "id": "cystitis.follow_up.recheck.v1",
+    "phenotypes": ["uncomplicated_cystitis_nonpregnant"],
+    "section": "follow_up",
+    "primitive_type": "follow_up_pcp",
+    "priority": "required",
+    "text": {
+      "en_4": "See your regular doctor, clinic, or urgent care in 2 to 3 days if you are not getting better.",
+      "en_6": "See your regular doctor, clinic, or urgent care in 2 to 3 days if symptoms are not improving.",
+      "en_hl1": "See a doctor in 2 to 3 days if you do not feel better."
+    },
+    "contraindications": [],
+    "source_card_ids": ["medlineplus.uti_self_care"],
+    "review": {
+      "status": "draft",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Default outpatient follow-up for uncomplicated cystitis."
+    }
+  }
+]
