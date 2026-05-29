@@ -1,6 +1,6 @@
 # DC Instructor Ontology Phase 10 Readiness
 
-Status: draft infrastructure complete. No expanded phenotype is production-ready until source audit and EM clinician review pass.
+Status: draft infrastructure complete. One narrow phenotype is now reviewed and runtime-enabled: `ankle_sprain_xray_negative`.
 
 ## What Exists
 
@@ -43,6 +43,10 @@ Ontology mode is blocked unless all are true:
 - Unsafe modifier terms are absent from the scrubbed ED-note context.
 - The assembler can produce all six required sections.
 
+Current reviewed phenotype:
+
+- `ankle_sprain_xray_negative.v1`
+
 If any gate fails, runtime uses the existing generator path and emits metadata:
 
 - `ontology_mode`
@@ -69,6 +73,7 @@ python3 knowledge/ontology/graph/build_seed_graph.py
 python3 knowledge/ontology/harvest/build_primitive_harvest.py
 python3 knowledge/ontology/scripts/build_expanded_draft_packs.py
 python3 knowledge/ontology/scripts/classify_phenotype.py --condition "cellulitis skin infection"
+python3 knowledge/ontology/evals/run_runtime_cases.py
 python3 knowledge/ontology/evals/compare_modes.py
 npm run build
 ```

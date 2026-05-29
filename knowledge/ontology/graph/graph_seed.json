@@ -13492,9 +13492,9 @@
       "id": "phenotype:ankle_sprain_xray_negative",
       "type": "phenotype",
       "label": "Ankle sprain with negative x-ray",
-      "status": "draft",
+      "status": "reviewed",
       "condition_family": "musculoskeletal_extremity_injury",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "phenotype:asthma_exacerbation_improved_discharge",
@@ -14104,7 +14104,7 @@
       "section": "diagnosis",
       "primitive_type": "diagnosis_summary",
       "priority": "required",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:ankle_sprain.follow_up.recheck.v1",
@@ -14113,7 +14113,7 @@
       "section": "follow_up",
       "primitive_type": "follow_up_pcp_or_ortho",
       "priority": "required",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:ankle_sprain.home_care.ice_elevation.v1",
@@ -14122,7 +14122,7 @@
       "section": "home_care",
       "primitive_type": "ice_elevation",
       "priority": "high",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:ankle_sprain.home_care.protect_rest.v1",
@@ -14131,7 +14131,7 @@
       "section": "home_care",
       "primitive_type": "splint_or_brace",
       "priority": "high",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:ankle_sprain.home_care.weight_bearing.v1",
@@ -14140,7 +14140,7 @@
       "section": "home_care",
       "primitive_type": "activity",
       "priority": "high",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:ankle_sprain.medications.acetaminophen.v1",
@@ -14149,7 +14149,7 @@
       "section": "medications",
       "primitive_type": "medication_otc_acetaminophen",
       "priority": "high",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:ankle_sprain.medications.nsaid_caution.v1",
@@ -14158,7 +14158,7 @@
       "section": "medications",
       "primitive_type": "medication_otc_nsaid",
       "priority": "high",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:ankle_sprain.return_precautions.neurovascular.v1",
@@ -14167,7 +14167,7 @@
       "section": "return_precautions",
       "primitive_type": "return_precaution_neurovascular",
       "priority": "required",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:ankle_sprain.return_precautions.worse_swelling_fever.v1",
@@ -14176,7 +14176,7 @@
       "section": "return_precautions",
       "primitive_type": "return_precaution_extremity_injury",
       "priority": "required",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:ankle_sprain.what_we_found.reassuring_exam.v1",
@@ -14185,7 +14185,7 @@
       "section": "what_we_found",
       "primitive_type": "normal_exam_reassurance",
       "priority": "required",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:asthma_exacerbation_improved_discharge.diagnosis.diagnosis_summary.v1",

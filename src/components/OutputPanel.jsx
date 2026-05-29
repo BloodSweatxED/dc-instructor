@@ -3,6 +3,11 @@ import { useState } from 'react';
 export default function OutputPanel({ instructions, setInstructions, image, imageBusy, streaming, generationMeta }) {
   const [tab, setTab] = useState('preview');
   const [copied, setCopied] = useState(false);
+  const modeLabel = generationMeta?.ontology_mode === 'ontology'
+    ? 'reviewed ontology'
+    : generationMeta?.fallback_reason === 'phenotype_not_clinician_reviewed'
+      ? 'draft ontology blocked'
+      : 'generator fallback';
 
   const onCopy = async () => {
     try {
@@ -63,7 +68,7 @@ export default function OutputPanel({ instructions, setInstructions, image, imag
               </div>
               {generationMeta?.ontology_mode && (
                 <div className="px-2 py-1.5 rounded-md border border-cool/10 bg-bg/50 text-cool/60 text-[11px] font-mono">
-                  Mode: {generationMeta.ontology_mode === 'ontology' ? 'reviewed ontology' : 'generator fallback'}
+                  Mode: {modeLabel}
                   {generationMeta.phenotype_id ? ` | phenotype: ${generationMeta.phenotype_id}` : ''}
                   {generationMeta.fallback_reason ? ` | reason: ${generationMeta.fallback_reason}` : ''}
                 </div>

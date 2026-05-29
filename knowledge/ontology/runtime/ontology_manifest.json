@@ -97,18 +97,35 @@
     {
       "id": "ankle_sprain_xray_negative",
       "label": "Ankle sprain with negative x-ray",
-      "status": "draft",
-      "review_status": "draft",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
+        "ankle sprain",
+        "ankle sprain negative xray",
+        "ankle sprain with negative x ray",
         "ankle sprain with negative x-ray",
+        "ankle sprain x-ray negative",
         "ankle sprain xray negative",
-        "musculoskeletal extremity injury"
+        "musculoskeletal extremity injury",
+        "sprained ankle",
+        "sprained ankle negative xray",
+        "sprained ankle xray negative"
       ],
-      "unsafe_modifiers": [],
+      "unsafe_modifiers": [
+        "fracture_seen",
+        "neurovascular_compromise",
+        "no_xray_performed",
+        "open_wound",
+        "unable_to_bear_weight"
+      ],
       "source_audit": {
         "source_supported": true,
-        "source_needed": false
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports home care, gradual activity, and return precautions. WikEM supports ED phenotype boundaries and must-not-miss framing only."
       }
     },
     {

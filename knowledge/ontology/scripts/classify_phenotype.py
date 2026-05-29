@@ -22,14 +22,18 @@ EXCLUSION_RULES = {
     "diabetic_foot": ["diabetic foot"],
     "elderly": ["elderly", "frail"],
     "fever": ["fever", "febrile", "chills"],
+    "fracture_seen": ["fracture seen", "broken bone", "ankle fracture", "distal fibula fracture", "distal tibia fracture"],
     "hypotension": ["hypotension", "low blood pressure"],
     "hypoxia": ["hypoxic", "low oxygen", "oxygen saturation 90", "spo2 90", "spo2 89"],
     "immunocompromised": ["chemotherapy", "transplant", "immunocompromised", "neutropenia"],
     "intoxication": ["intoxicated", "etoh"],
     "loss_of_consciousness": ["loss of consciousness", "loc"],
     "near_eye_or_genitals": ["eye", "eyelid", "genital", "scrotum", "vulva"],
+    "neurovascular_compromise": ["numb foot", "numb toes", "no pulse", "cold foot", "blue toes", "pale toes", "decreased sensation"],
+    "no_xray_performed": ["no xray", "no x ray", "no imaging", "xray not done", "x ray not done"],
     "neurologic_deficit": ["weakness", "numbness", "aphasia", "slurred speech", "facial droop"],
     "ongoing_pain": ["ongoing pain", "persistent chest pain", "active chest pain"],
+    "open_wound": ["open wound", "open fracture", "bone exposed", "laceration over ankle"],
     "peritoneal_signs": ["rebound", "guarding", "peritonitis"],
     "poor_follow_up": ["homeless", "unable to follow up", "no phone"],
     "pregnancy": ["pregnant", "pregnancy"],
@@ -39,6 +43,7 @@ EXCLUSION_RULES = {
     "trismus": ["trismus", "cannot open mouth"],
     "uncontrolled_pain": ["uncontrolled pain", "intractable pain"],
     "uncontrolled_vomiting": ["intractable vomiting", "cannot keep down"],
+    "unable_to_bear_weight": ["unable to bear weight", "cannot bear weight", "cannot walk at all"],
 }
 
 NEGATIVE_CONTEXT = ["no ", "denies ", "without "]
@@ -86,7 +91,10 @@ def classify(condition: str, ed_note: str = "") -> dict[str, Any]:
         if score <= 0:
             continue
         exclusions = modifier_hits(text, phenotype.get("unsafe_modifiers", []))
-        confidence = min(0.98, 0.55 + (0.35 * score) - (0.15 if exclusions else 0.0))
+        exact_terms = {norm(phenotype["id"]), norm(phenotype["label"])}
+        exact_match = any(term in text for term in exact_terms)
+        base_confidence = 0.93 if exact_match else 0.55 + (0.35 * score)
+        confidence = min(0.98, base_confidence - (0.15 if exclusions else 0.0))
         scored.append((confidence, phenotype, matched, exclusions))
 
     if not scored:

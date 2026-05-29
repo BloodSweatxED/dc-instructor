@@ -23,14 +23,18 @@ const EXCLUSION_RULES = {
   diabetic_foot: ['diabetic foot'],
   elderly: ['elderly', 'frail'],
   fever: ['fever', 'febrile', 'chills'],
+  fracture_seen: ['fracture seen', 'broken bone', 'ankle fracture', 'distal fibula fracture', 'distal tibia fracture'],
   hypotension: ['hypotension', 'low blood pressure'],
   hypoxia: ['hypoxic', 'low oxygen', 'oxygen saturation 90', 'spo2 90', 'spo2 89'],
   immunocompromised: ['chemotherapy', 'transplant', 'immunocompromised', 'neutropenia'],
   intoxication: ['intoxicated', 'etoh'],
   loss_of_consciousness: ['loss of consciousness', 'loc'],
   near_eye_or_genitals: ['eye', 'eyelid', 'genital', 'scrotum', 'vulva'],
+  neurovascular_compromise: ['numb foot', 'numb toes', 'no pulse', 'cold foot', 'blue toes', 'pale toes', 'decreased sensation'],
+  no_xray_performed: ['no xray', 'no x ray', 'no imaging', 'xray not done', 'x ray not done'],
   neurologic_deficit: ['weakness', 'numbness', 'aphasia', 'slurred speech', 'facial droop'],
   ongoing_pain: ['ongoing pain', 'persistent chest pain', 'active chest pain'],
+  open_wound: ['open wound', 'open fracture', 'bone exposed', 'laceration over ankle'],
   peritoneal_signs: ['rebound', 'guarding', 'peritonitis'],
   poor_follow_up: ['homeless', 'unable to follow up', 'no phone'],
   pregnancy: ['pregnant', 'pregnancy'],
@@ -40,6 +44,7 @@ const EXCLUSION_RULES = {
   trismus: ['trismus', 'cannot open mouth'],
   uncontrolled_pain: ['uncontrolled pain', 'intractable pain'],
   uncontrolled_vomiting: ['intractable vomiting', 'cannot keep down'],
+  unable_to_bear_weight: ['unable to bear weight', 'cannot bear weight', 'cannot walk at all'],
 };
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -71,12 +76,16 @@ function modifierHits(text, modifiers = []) {
   return [...new Set(hits)].sort();
 }
 
-function confidenceFor(text, terms = [], exclusions = []) {
+function confidenceFor(text, phenotype, exclusions = []) {
+  const terms = phenotype.condition_terms || [];
   const matched = terms.map((term) => normalize(term)).filter((term) => text.includes(term));
   if (!matched.length) return { confidence: 0, matched };
   const score = matched.length / Math.max(terms.length, 1);
+  const exactTerms = [normalize(phenotype.id), normalize(phenotype.label)];
+  const exactMatch = exactTerms.some((term) => text.includes(term));
   const penalty = exclusions.length ? 0.15 : 0;
-  return { confidence: Math.min(0.98, 0.55 + 0.35 * score - penalty), matched };
+  const baseConfidence = exactMatch ? 0.93 : 0.55 + 0.35 * score;
+  return { confidence: Math.min(0.98, baseConfidence - penalty), matched };
 }
 
 function loadManifest() {
@@ -122,7 +131,7 @@ export function classifyOntology({ condition, edNoteScrubbed = '' }) {
   const scored = [];
   for (const phenotype of manifest.phenotypes || []) {
     const exclusions = modifierHits(text, phenotype.unsafe_modifiers);
-    const { confidence, matched } = confidenceFor(text, phenotype.condition_terms, exclusions);
+    const { confidence, matched } = confidenceFor(text, phenotype, exclusions);
     if (!matched.length) continue;
     scored.push({ phenotype, confidence, matched, exclusions });
   }

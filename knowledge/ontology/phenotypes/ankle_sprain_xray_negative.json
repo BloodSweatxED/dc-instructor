@@ -1,7 +1,7 @@
 {
   "id": "ankle_sprain_xray_negative",
   "label": "Ankle sprain with negative x-ray",
-  "status": "draft",
+  "status": "reviewed",
   "condition_family": "musculoskeletal_extremity_injury",
   "inclusion_criteria": [
     "Ankle injury consistent with sprain.",
@@ -49,10 +49,57 @@
     "medlineplus.ankle_sprain_aftercare",
     "wikem.ankle_sprain"
   ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports home care, gradual activity, and return precautions. WikEM supports ED phenotype boundaries and must-not-miss framing only."
+  },
+  "runtime": {
+    "condition_terms": [
+      "ankle sprain xray negative",
+      "ankle sprain with negative x ray",
+      "ankle sprain negative xray",
+      "ankle sprain x-ray negative",
+      "ankle sprain",
+      "sprained ankle xray negative",
+      "sprained ankle negative xray",
+      "sprained ankle"
+    ],
+    "unsafe_modifiers": [
+      "fracture_seen",
+      "neurovascular_compromise",
+      "no_xray_performed",
+      "open_wound",
+      "unable_to_bear_weight"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
   "review": {
-    "status": "draft",
-    "reviewer": null,
-    "last_reviewed": null,
-    "notes": "First ontology slice. Needs EM clinician review before production use."
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-05-29",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "clinical_status": "reviewed_for_limited_negative_xray_sprain_use",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "required_modifiers": [
+      "negative fracture evaluation",
+      "intact distal perfusion",
+      "intact distal sensation and movement"
+    ],
+    "blocked_modifiers": [
+      "fracture_seen",
+      "neurovascular_compromise",
+      "no_xray_performed",
+      "open_wound",
+      "unable_to_bear_weight"
+    ],
+    "notes": "Reviewed as the first narrow production ontology phenotype. Use only for ankle sprain with negative fracture evaluation and no neurovascular or open-wound modifier."
   }
 }

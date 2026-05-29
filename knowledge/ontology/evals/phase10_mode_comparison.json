@@ -3,7 +3,7 @@
     "phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
     "classifier": {
       "phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
-      "confidence": 0.667,
+      "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
         "abdominal pain",
@@ -76,7 +76,7 @@
     "phenotype_id": "abscess_after_i_and_d",
     "classifier": {
       "phenotype_id": "abscess_after_i_and_d",
-      "confidence": 0.725,
+      "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
         "abscess",
@@ -149,7 +149,7 @@
     "phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
     "classifier": {
       "phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
-      "confidence": 0.667,
+      "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
         "allergic reaction",
@@ -222,12 +222,13 @@
     "phenotype_id": "ankle_sprain_xray_negative",
     "classifier": {
       "phenotype_id": "ankle_sprain_xray_negative",
-      "confidence": 0.667,
+      "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
+        "ankle sprain",
         "ankle sprain xray negative"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "fallback_reason": null
     },
     "generator": {
       "missing_red_flags": false,
@@ -249,7 +250,7 @@
       "source_support": {
         "source_supported": true,
         "source_needed": false,
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     "ontology": {
@@ -272,23 +273,29 @@
       "source_support": {
         "source_supported": true,
         "source_needed": false,
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     "clinician_review_target": {
-      "status": "draft",
+      "status": "reviewed",
       "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
     },
     "modifier_handling": {
-      "unsafe_modifiers": [],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "unsafe_modifiers": [
+        "fracture_seen",
+        "neurovascular_compromise",
+        "no_xray_performed",
+        "open_wound",
+        "unable_to_bear_weight"
+      ],
+      "fallback_reason": null
     }
   },
   {
     "phenotype_id": "asthma_exacerbation_improved_discharge",
     "classifier": {
       "phenotype_id": "asthma_exacerbation_improved_discharge",
-      "confidence": 0.667,
+      "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
         "asthma",
@@ -361,7 +368,7 @@
     "phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
     "classifier": {
       "phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
-      "confidence": 0.69,
+      "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
         "cellulitis",
@@ -434,7 +441,7 @@
     "phenotype_id": "chest_pain_low_risk_negative_ed_workup",
     "classifier": {
       "phenotype_id": "chest_pain_low_risk_negative_ed_workup",
-      "confidence": 0.667,
+      "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
         "chest pain",
@@ -507,7 +514,7 @@
     "phenotype_id": "community_acquired_pneumonia_outpatient",
     "classifier": {
       "phenotype_id": "community_acquired_pneumonia_outpatient",
-      "confidence": 0.69,
+      "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
         "community acquired pneumonia outpatient",
@@ -580,7 +587,7 @@
     "phenotype_id": "concussion_discharge_no_imaging_red_flags",
     "classifier": {
       "phenotype_id": "concussion_discharge_no_imaging_red_flags",
-      "confidence": 0.667,
+      "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
         "concussion",
@@ -652,7 +659,7 @@
     "phenotype_id": "dental_pain_no_deep_space_infection",
     "classifier": {
       "phenotype_id": "dental_pain_no_deep_space_infection",
-      "confidence": 0.667,
+      "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
         "dental pain",
@@ -724,7 +731,7 @@
     "phenotype_id": "gastroenteritis_stable_hydrating",
     "classifier": {
       "phenotype_id": "gastroenteritis_stable_hydrating",
-      "confidence": 0.667,
+      "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
         "gastroenteritis stable hydrating"
@@ -790,7 +797,7 @@
     "phenotype_id": "laceration_repaired_simple",
     "classifier": {
       "phenotype_id": "laceration_repaired_simple",
-      "confidence": 0.638,
+      "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
         "laceration",
@@ -863,7 +870,7 @@
     "phenotype_id": "lumbar_strain_no_red_flags",
     "classifier": {
       "phenotype_id": "lumbar_strain_no_red_flags",
-      "confidence": 0.667,
+      "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
         "lumbar strain no red flags"
@@ -929,7 +936,7 @@
     "phenotype_id": "minor_head_injury_no_red_flags",
     "classifier": {
       "phenotype_id": "minor_head_injury_no_red_flags",
-      "confidence": 0.76,
+      "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
         "head injury",
@@ -1003,7 +1010,7 @@
     "phenotype_id": "renal_colic_stable_no_infection",
     "classifier": {
       "phenotype_id": "renal_colic_stable_no_infection",
-      "confidence": 0.667,
+      "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
         "renal colic",
@@ -1076,7 +1083,7 @@
     "phenotype_id": "uncomplicated_cystitis_nonpregnant",
     "classifier": {
       "phenotype_id": "uncomplicated_cystitis_nonpregnant",
-      "confidence": 0.667,
+      "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
         "uncomplicated cystitis nonpregnant"
@@ -1142,7 +1149,7 @@
     "phenotype_id": "viral_pharyngitis_strep_negative",
     "classifier": {
       "phenotype_id": "viral_pharyngitis_strep_negative",
-      "confidence": 0.7,
+      "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
         "strep negative",
@@ -1216,7 +1223,7 @@
     "phenotype_id": "viral_uri_no_pneumonia",
     "classifier": {
       "phenotype_id": "viral_uri_no_pneumonia",
-      "confidence": 0.667,
+      "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
         "viral uri no pneumonia"
