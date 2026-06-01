@@ -1,0 +1,402 @@
+[
+  {
+    "case_id": "clean_exact_condition",
+    "passed": true,
+    "result": {
+      "phenotype_id": "ankle_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "ankle sprain",
+        "ankle sprain xray negative"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "clean_common_phrase",
+    "passed": true,
+    "result": {
+      "phenotype_id": "ankle_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "ankle sprain",
+        "ankle sprain xray negative"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "numb_toes_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "ankle_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "neurovascular_compromise"
+      ],
+      "modifiers": [
+        "ankle sprain",
+        "ankle sprain xray negative"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "open_wound_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "ankle_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "open_wound"
+      ],
+      "modifiers": [
+        "ankle sprain",
+        "ankle sprain xray negative"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "fracture_language_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "ankle_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "fracture_seen"
+      ],
+      "modifiers": [
+        "ankle sprain",
+        "ankle sprain xray negative"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "no_xray_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "ankle_sprain_xray_negative",
+      "confidence": 0.435,
+      "exclusions": [
+        "no_xray_performed"
+      ],
+      "modifiers": [
+        "ankle sprain"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "vague_ankle_pain_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "lumbar_clean_exact",
+    "passed": true,
+    "result": {
+      "phenotype_id": "lumbar_strain_no_red_flags",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "lumbar strain",
+        "lumbar strain no red flags",
+        "mechanical low back pain"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "lumbar_cauda_equina_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "lumbar_strain_no_red_flags",
+      "confidence": 0.78,
+      "exclusions": [
+        "cauda_equina_concern"
+      ],
+      "modifiers": [
+        "lumbar strain",
+        "lumbar strain no red flags"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "lumbar_infection_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "lumbar_strain_no_red_flags",
+      "confidence": 0.78,
+      "exclusions": [
+        "fever",
+        "spinal_infection_concern"
+      ],
+      "modifiers": [
+        "lumbar strain",
+        "lumbar strain no red flags"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "lumbar_vague_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "viral_uri_clean_exact",
+    "passed": true,
+    "result": {
+      "phenotype_id": "viral_uri_no_pneumonia",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "uri no pneumonia",
+        "viral uri",
+        "viral uri no pneumonia"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "viral_uri_pneumonia_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "viral_uri_no_pneumonia",
+      "confidence": 0.78,
+      "exclusions": [
+        "bacterial_infection_suspected",
+        "pneumonia"
+      ],
+      "modifiers": [
+        "uri no pneumonia",
+        "viral uri",
+        "viral uri no pneumonia"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "viral_uri_hypoxia_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "viral_uri_no_pneumonia",
+      "confidence": 0.78,
+      "exclusions": [
+        "hypoxia"
+      ],
+      "modifiers": [
+        "uri no pneumonia",
+        "viral uri",
+        "viral uri no pneumonia"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "viral_uri_vague_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "cystitis_clean_exact",
+    "passed": true,
+    "result": {
+      "phenotype_id": "uncomplicated_cystitis_nonpregnant",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "cystitis",
+        "uncomplicated cystitis",
+        "uncomplicated cystitis nonpregnant"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "cystitis_pregnancy_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "uncomplicated_cystitis_nonpregnant",
+      "confidence": 0.78,
+      "exclusions": [
+        "pregnancy"
+      ],
+      "modifiers": [
+        "cystitis",
+        "uncomplicated cystitis",
+        "uncomplicated cystitis nonpregnant"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "cystitis_pyelo_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "uncomplicated_cystitis_nonpregnant",
+      "confidence": 0.78,
+      "exclusions": [
+        "fever",
+        "flank_pain",
+        "vomiting_unable_to_take_meds"
+      ],
+      "modifiers": [
+        "cystitis",
+        "uncomplicated cystitis",
+        "uncomplicated cystitis nonpregnant"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "cystitis_vague_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "gastro_clean_exact",
+    "passed": true,
+    "result": {
+      "phenotype_id": "gastroenteritis_stable_hydrating",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "gastroenteritis",
+        "gastroenteritis stable hydrating"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "gastro_gi_bleed_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "gastroenteritis_stable_hydrating",
+      "confidence": 0.78,
+      "exclusions": [
+        "gi_bleeding"
+      ],
+      "modifiers": [
+        "gastroenteritis",
+        "gastroenteritis stable hydrating"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "gastro_unable_fluids_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "gastroenteritis_stable_hydrating",
+      "confidence": 0.78,
+      "exclusions": [
+        "unable_to_tolerate_oral_fluids"
+      ],
+      "modifiers": [
+        "gastroenteritis",
+        "gastroenteritis stable hydrating"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "gastro_vague_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "cellulitis_clean_exact",
+    "passed": true,
+    "result": {
+      "phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "cellulitis",
+        "cellulitis uncomplicated oral antibiotics"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "cellulitis_bite_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound"
+      ],
+      "modifiers": [
+        "cellulitis",
+        "cellulitis uncomplicated oral antibiotics",
+        "skin infection"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "cellulitis_rapid_progression_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
+      "confidence": 0.78,
+      "exclusions": [
+        "necrotizing_infection_concern",
+        "rapid_progression"
+      ],
+      "modifiers": [
+        "cellulitis",
+        "cellulitis uncomplicated oral antibiotics"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "cellulitis_vague_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  }
+]

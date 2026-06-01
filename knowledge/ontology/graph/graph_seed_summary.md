@@ -4,8 +4,8 @@ Generated: deterministic_from_current_ontology_and_generator_batches
 
 ## Counts
 
-- Nodes: 1843
-- Edges: 2421
+- Nodes: 1845
+- Edges: 2443
 
 ## Node Types
 
@@ -17,7 +17,7 @@ Generated: deterministic_from_current_ontology_and_generator_batches
 - `phenotype`: 50
 - `primitive`: 191
 - `safety_topic`: 9
-- `source_card`: 10
+- `source_card`: 12
 
 ## Edge Types
 
@@ -29,7 +29,7 @@ Generated: deterministic_from_current_ontology_and_generator_batches
 - `mentions_safety_topic`: 569
 - `proposes_candidate_phenotype`: 32
 - `requires_primitive`: 191
-- `supported_by_source`: 62
+- `supported_by_source`: 84
 
 ## Use
 

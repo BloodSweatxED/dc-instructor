@@ -374,7 +374,7 @@
         "cellulitis",
         "cellulitis uncomplicated oral antibiotics"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "fallback_reason": null
     },
     "generator": {
       "missing_red_flags": false,
@@ -394,9 +394,9 @@
         "follow_up": true
       },
       "source_support": {
-        "source_supported": false,
-        "source_needed": true,
-        "review_status": "draft"
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
       }
     },
     "ontology": {
@@ -417,13 +417,13 @@
         "follow_up": true
       },
       "source_support": {
-        "source_supported": false,
-        "source_needed": true,
-        "review_status": "draft"
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
       }
     },
     "clinician_review_target": {
-      "status": "draft",
+      "status": "reviewed",
       "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
     },
     "modifier_handling": {
@@ -432,9 +432,12 @@
         "rapid_progression",
         "diabetic_foot",
         "bite_wound",
-        "near_eye_or_genitals"
+        "near_eye_or_genitals",
+        "sepsis",
+        "necrotizing_infection_concern",
+        "deep_space_location"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "fallback_reason": null
     }
   },
   {
@@ -734,9 +737,10 @@
       "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
+        "gastroenteritis",
         "gastroenteritis stable hydrating"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "fallback_reason": null
     },
     "generator": {
       "missing_red_flags": false,
@@ -758,7 +762,7 @@
       "source_support": {
         "source_supported": true,
         "source_needed": false,
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     "ontology": {
@@ -781,16 +785,27 @@
       "source_support": {
         "source_supported": true,
         "source_needed": false,
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     "clinician_review_target": {
-      "status": "draft",
+      "status": "reviewed",
       "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
     },
     "modifier_handling": {
-      "unsafe_modifiers": [],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "unsafe_modifiers": [
+        "surgical_abdomen",
+        "sepsis",
+        "gi_bleeding",
+        "severe_dehydration",
+        "unable_to_tolerate_oral_fluids",
+        "unstable_vitals",
+        "pregnancy",
+        "immunocompromised",
+        "elderly_frail",
+        "c_diff_risk"
+      ],
+      "fallback_reason": null
     }
   },
   {
@@ -873,9 +888,10 @@
       "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
+        "lumbar strain",
         "lumbar strain no red flags"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "fallback_reason": null
     },
     "generator": {
       "missing_red_flags": false,
@@ -897,7 +913,7 @@
       "source_support": {
         "source_supported": true,
         "source_needed": false,
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     "ontology": {
@@ -920,16 +936,25 @@
       "source_support": {
         "source_supported": true,
         "source_needed": false,
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     "clinician_review_target": {
-      "status": "draft",
+      "status": "reviewed",
       "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
     },
     "modifier_handling": {
-      "unsafe_modifiers": [],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "unsafe_modifiers": [
+        "cauda_equina_concern",
+        "spinal_infection_concern",
+        "fracture_or_trauma_concern",
+        "cancer_red_flag",
+        "fever",
+        "new_neurologic_deficit",
+        "pregnancy",
+        "unable_to_walk"
+      ],
+      "fallback_reason": null
     }
   },
   {
@@ -1086,9 +1111,11 @@
       "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
+        "cystitis",
+        "uncomplicated cystitis",
         "uncomplicated cystitis nonpregnant"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "fallback_reason": null
     },
     "generator": {
       "missing_red_flags": false,
@@ -1110,7 +1137,7 @@
       "source_support": {
         "source_supported": true,
         "source_needed": false,
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     "ontology": {
@@ -1133,16 +1160,29 @@
       "source_support": {
         "source_supported": true,
         "source_needed": false,
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     "clinician_review_target": {
-      "status": "draft",
+      "status": "reviewed",
       "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
     },
     "modifier_handling": {
-      "unsafe_modifiers": [],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "unsafe_modifiers": [
+        "pregnancy",
+        "male_patient",
+        "pyelonephritis",
+        "fever",
+        "flank_pain",
+        "sepsis",
+        "vomiting_unable_to_take_meds",
+        "complicated_uti",
+        "kidney_transplant",
+        "urinary_obstruction",
+        "indwelling_catheter",
+        "no_antibiotic_prescribed"
+      ],
+      "fallback_reason": null
     }
   },
   {
@@ -1226,9 +1266,11 @@
       "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
+        "uri no pneumonia",
+        "viral uri",
         "viral uri no pneumonia"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "fallback_reason": null
     },
     "generator": {
       "missing_red_flags": false,
@@ -1250,7 +1292,7 @@
       "source_support": {
         "source_supported": true,
         "source_needed": false,
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     "ontology": {
@@ -1273,16 +1315,26 @@
       "source_support": {
         "source_supported": true,
         "source_needed": false,
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     "clinician_review_target": {
-      "status": "draft",
+      "status": "reviewed",
       "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
     },
     "modifier_handling": {
-      "unsafe_modifiers": [],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "unsafe_modifiers": [
+        "pneumonia",
+        "hypoxia",
+        "respiratory_distress",
+        "unstable_vitals",
+        "immunocompromised",
+        "sepsis",
+        "chest_pain",
+        "antibiotic_prescribed",
+        "bacterial_infection_suspected"
+      ],
+      "fallback_reason": null
     }
   }
 ]

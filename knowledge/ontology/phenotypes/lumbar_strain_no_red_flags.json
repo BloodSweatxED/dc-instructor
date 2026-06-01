@@ -1,7 +1,7 @@
 {
   "id": "lumbar_strain_no_red_flags",
   "label": "Lumbar strain without red flags",
-  "status": "draft",
+  "status": "reviewed",
   "condition_family": "musculoskeletal_back_pain",
   "inclusion_criteria": [
     "Adult with acute mechanical low back pain or lumbar strain.",
@@ -52,9 +52,61 @@
     "wikem.low_back_pain"
   ],
   "review": {
-    "status": "draft",
-    "reviewer": null,
-    "last_reviewed": null,
-    "notes": "First ontology slice. Needs EM clinician review before production use."
-  }
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports conservative low-back-pain care and red flags. WikEM supports ED phenotype boundaries and must-not-miss framing only.",
+    "clinical_status": "reviewed_for_limited_mechanical_low_back_pain_without_red_flags_use",
+    "required_modifiers": [
+      "no cauda equina concern",
+      "no spinal infection concern",
+      "no major trauma or fracture concern",
+      "ambulatory or safe mobility plan"
+    ],
+    "blocked_modifiers": [
+      "cauda_equina_concern",
+      "spinal_infection_concern",
+      "fracture_or_trauma_concern",
+      "cancer_red_flag",
+      "fever",
+      "new_neurologic_deficit",
+      "pregnancy",
+      "unable_to_walk"
+    ]
+  },
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports conservative low-back-pain care and red flags. WikEM supports ED phenotype boundaries and must-not-miss framing only."
+  },
+  "runtime": {
+    "condition_terms": [
+      "lumbar strain no red flags",
+      "lumbar strain",
+      "low back strain",
+      "mechanical low back pain",
+      "acute low back pain",
+      "back pain no red flags"
+    ],
+    "unsafe_modifiers": [
+      "cauda_equina_concern",
+      "spinal_infection_concern",
+      "fracture_or_trauma_concern",
+      "cancer_red_flag",
+      "fever",
+      "new_neurologic_deficit",
+      "pregnancy",
+      "unable_to_walk"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1
 }

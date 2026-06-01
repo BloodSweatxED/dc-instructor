@@ -2,7 +2,7 @@
 
 Phenotype ID: `cellulitis_uncomplicated_oral_antibiotics`
 
-Status: `draft`
+Status: `reviewed`
 
 ## Inclusion Criteria
 
@@ -24,17 +24,17 @@ Status: `draft`
 
 ## Primitive List
 
-- `cellulitis_uncomplicated_oral_antibiotics.diagnosis.diagnosis_summary.v1` | `diagnosis` | audit: source_needed, clinician_judgment_only | unsafe modifiers: none
-- `cellulitis_uncomplicated_oral_antibiotics.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_needed, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: immunocompromised, rapid_progression, diabetic_foot, bite_wound, near_eye_or_genitals
-- `cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_1.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
-- `cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_2.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
-- `cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_3.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
-- `cellulitis_uncomplicated_oral_antibiotics.medications.medication_guidance_1.v1` | `medications` | audit: source_needed, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: immunocompromised, rapid_progression, diabetic_foot, bite_wound, near_eye_or_genitals
-- `cellulitis_uncomplicated_oral_antibiotics.medications.medication_guidance_2.v1` | `medications` | audit: source_needed, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: immunocompromised, rapid_progression, diabetic_foot, bite_wound, near_eye_or_genitals
-- `cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_needed, clinician_judgment_only | unsafe modifiers: none
-- `cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_needed, clinician_judgment_only | unsafe modifiers: none
-- `cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_needed, clinician_judgment_only | unsafe modifiers: none
-- `cellulitis_uncomplicated_oral_antibiotics.follow_up.default_follow_up.v1` | `follow_up` | audit: source_needed, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: immunocompromised, rapid_progression, diabetic_foot, bite_wound, near_eye_or_genitals
+- `cellulitis_uncomplicated_oral_antibiotics.diagnosis.diagnosis_summary.v1` | `diagnosis` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
+- `cellulitis_uncomplicated_oral_antibiotics.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: immunocompromised, rapid_progression, diabetic_foot, bite_wound, near_eye_or_genitals
+- `cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_1.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
+- `cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_2.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
+- `cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_3.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
+- `cellulitis_uncomplicated_oral_antibiotics.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: immunocompromised, rapid_progression, diabetic_foot, bite_wound, near_eye_or_genitals
+- `cellulitis_uncomplicated_oral_antibiotics.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: immunocompromised, rapid_progression, diabetic_foot, bite_wound, near_eye_or_genitals
+- `cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
+- `cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
+- `cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
+- `cellulitis_uncomplicated_oral_antibiotics.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: immunocompromised, rapid_progression, diabetic_foot, bite_wound, near_eye_or_genitals
 
 ## Assembled Six-Section Output
 

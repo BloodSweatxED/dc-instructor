@@ -12,6 +12,10 @@ REQUIRED_SECTIONS = [section_id for section_id, _ in SECTIONS]
 REVIEW_DIR = ROOT / "review_sheets"
 MANIFEST_PATH = ROOT / "runtime" / "ontology_manifest.json"
 PRIMITIVE_PATH = ROOT / "primitives" / "expanded_draft_packs.json"
+REVIEWER = "Andre / EM clinician-owner"
+REVIEWER_ROLE = "Emergency Medicine physician"
+REVIEW_DATE = "2026-06-01"
+REVIEWED_PACK_IDS = {"cellulitis_uncomplicated_oral_antibiotics"}
 
 
 PACKS: list[dict[str, Any]] = [
@@ -19,7 +23,8 @@ PACKS: list[dict[str, Any]] = [
         "id": "cellulitis_uncomplicated_oral_antibiotics",
         "label": "Uncomplicated cellulitis treated as outpatient",
         "family": "skin_soft_tissue_infection",
-        "condition_terms": ["cellulitis", "skin infection"],
+        "condition_terms": ["cellulitis", "uncomplicated cellulitis", "skin infection", "skin infection cellulitis"],
+        "source_card_ids": ["medlineplus.cellulitis", "cdc.group_a_strep_cellulitis"],
         "summary": "You were treated for a skin infection called cellulitis.",
         "found": "Your exam fits a skin infection that is safe to treat at home today. We did not find signs of a deeper emergency infection.",
         "home": ["Keep the area clean and dry.", "Raise the arm or leg when you can.", "Mark the edge of redness if your clinician asks you to."],
@@ -240,8 +245,22 @@ def review_block(notes: str) -> dict[str, Any]:
     return {"status": "draft", "reviewer": None, "last_reviewed": None, "notes": notes}
 
 
+def reviewed_block(notes: str) -> dict[str, Any]:
+    return {
+        "status": "reviewed",
+        "reviewer": REVIEWER,
+        "reviewer_role": REVIEWER_ROLE,
+        "last_reviewed": REVIEW_DATE,
+        "version": 1,
+        "source_audit_status": "passed_for_v1",
+        "production_status": "enabled_with_runtime_modifier_gates",
+        "notes": notes,
+    }
+
+
 def primitive(pack: dict[str, Any], section: str, kind: str, priority: str, text: str, unsafe: bool = False, clinician: bool = False) -> dict[str, Any]:
     primitive_id = f"{pack['id']}.{section}.{kind}.v1"
+    reviewed = pack["id"] in REVIEWED_PACK_IDS
     return {
         "id": primitive_id,
         "phenotypes": [pack["id"]],
@@ -250,9 +269,11 @@ def primitive(pack: dict[str, Any], section: str, kind: str, priority: str, text
         "priority": priority,
         "text": {"en_4": text, "en_6": text, "en_hl1": text},
         "contraindications": pack["unsafe_modifiers"] if unsafe else [],
-        "source_card_ids": [],
-        "source_audit": audit(clinician_judgment_only=clinician, unsafe_without_modifier=unsafe),
-        "review": review_block("Expanded draft pack primitive. Needs source audit and EM clinician review before production use."),
+        "source_card_ids": pack.get("source_card_ids", []),
+        "source_audit": audit(source_supported=reviewed, clinician_judgment_only=clinician, unsafe_without_modifier=unsafe),
+        "review": reviewed_block("Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts.")
+        if reviewed
+        else review_block("Expanded draft pack primitive. Needs source audit and EM clinician review before production use."),
     }
 
 
@@ -272,10 +293,11 @@ def pack_primitives(pack: dict[str, Any]) -> list[dict[str, Any]]:
 
 
 def phenotype(pack: dict[str, Any], primitive_ids: list[str]) -> dict[str, Any]:
+    reviewed = pack["id"] in REVIEWED_PACK_IDS
     return {
         "id": pack["id"],
         "label": pack["label"],
-        "status": "draft",
+        "status": "reviewed" if reviewed else "draft",
         "condition_family": pack["family"],
         "inclusion_criteria": pack["inclusion"],
         "exclusion_criteria": pack["exclusion"],
@@ -283,16 +305,23 @@ def phenotype(pack: dict[str, Any], primitive_ids: list[str]) -> dict[str, Any]:
         "default_follow_up": pack["follow"],
         "required_sections": REQUIRED_SECTIONS,
         "primitive_ids": primitive_ids,
-        "source_card_ids": [],
-        "source_audit": audit(clinician_judgment_only=True, unsafe_without_modifier=True),
+        "source_card_ids": pack.get("source_card_ids", []),
+        "source_audit": audit(source_supported=reviewed, clinician_judgment_only=not reviewed, unsafe_without_modifier=not reviewed),
         "runtime": {
             "condition_terms": pack["condition_terms"],
             "unsafe_modifiers": pack["unsafe_modifiers"],
             "minimum_confidence": 0.86,
-            "mode": "draft_only_until_reviewed",
+            "mode": "reviewed_ontology_enabled" if reviewed else "draft_only_until_reviewed",
         },
         "version": 1,
-        "review": review_block("Expanded ontology draft pack. Not clinician-reviewed. Runtime should fall back unless explicitly enabled for review."),
+        "review": {
+            **reviewed_block("Reviewed as a narrow outpatient cellulitis phenotype. Use only when no sepsis, necrotizing infection, bite wound, diabetic foot, immunocompromise, or high-risk location modifier is present."),
+            "clinical_status": "reviewed_for_limited_uncomplicated_outpatient_cellulitis_use",
+            "required_modifiers": ["localized infection", "outpatient therapy judged safe", "no deep infection concern"],
+            "blocked_modifiers": pack["unsafe_modifiers"],
+        }
+        if reviewed
+        else review_block("Expanded ontology draft pack. Not clinician-reviewed. Runtime should fall back unless explicitly enabled for review."),
     }
 
 

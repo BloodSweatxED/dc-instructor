@@ -1,6 +1,6 @@
 # DC Instructor Ontology Phase 10 Readiness
 
-Status: draft infrastructure complete. One narrow phenotype is now reviewed and runtime-enabled: `ankle_sprain_xray_negative`.
+Status: draft infrastructure complete. Six narrow phenotypes are now reviewed and runtime-enabled.
 
 ## What Exists
 
@@ -26,6 +26,8 @@ Status: draft infrastructure complete. One narrow phenotype is now reviewed and 
   - The app displays generator fallback vs reviewed ontology mode in the output panel.
 - Evaluation:
   - `knowledge/ontology/evals/compare_modes.py`
+  - `knowledge/ontology/evals/run_runtime_cases.py`
+  - `knowledge/ontology/evals/runtime_case_results.json`
   - `knowledge/ontology/evals/phase10_mode_comparison.json`
   - `knowledge/ontology/evals/phase10_mode_comparison.md`
 - Visualization:
@@ -43,9 +45,14 @@ Ontology mode is blocked unless all are true:
 - Unsafe modifier terms are absent from the scrubbed ED-note context.
 - The assembler can produce all six required sections.
 
-Current reviewed phenotype:
+Current reviewed phenotypes:
 
 - `ankle_sprain_xray_negative.v1`
+- `lumbar_strain_no_red_flags.v1`
+- `viral_uri_no_pneumonia.v1`
+- `uncomplicated_cystitis_nonpregnant.v1`
+- `gastroenteritis_stable_hydrating.v1`
+- `cellulitis_uncomplicated_oral_antibiotics.v1`
 
 If any gate fails, runtime uses the existing generator path and emits metadata:
 
@@ -58,12 +65,14 @@ The ED note is used only as scrubbed context for classification and generation. 
 
 ## Current Clinical State
 
-The expanded packs are intentionally conservative:
+The remaining draft packs are intentionally conservative:
 
 - Medication doses are not included in draft ontology primitives.
 - Negative imaging and diagnostic certainty are treated as unsafe without chart-specific modifiers.
 - Exact follow-up intervals are not hard-coded unless clinician review adds them.
 - WikEM remains phenotype and must-not-miss support only, not patient-facing prose.
+
+Reviewed phenotypes are still narrow. They should only fire when the condition and scrubbed note avoid their blocked modifiers.
 
 ## Verification Commands
 
@@ -72,6 +81,7 @@ python3 knowledge/ontology/scripts/validate_ontology.py
 python3 knowledge/ontology/graph/build_seed_graph.py
 python3 knowledge/ontology/harvest/build_primitive_harvest.py
 python3 knowledge/ontology/scripts/build_expanded_draft_packs.py
+python3 knowledge/ontology/scripts/promote_reviewed_phenotypes.py
 python3 knowledge/ontology/scripts/classify_phenotype.py --condition "cellulitis skin infection"
 python3 knowledge/ontology/evals/run_runtime_cases.py
 python3 knowledge/ontology/evals/compare_modes.py

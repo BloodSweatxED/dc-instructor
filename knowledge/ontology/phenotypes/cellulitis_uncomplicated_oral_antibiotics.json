@@ -1,7 +1,7 @@
 {
   "id": "cellulitis_uncomplicated_oral_antibiotics",
   "label": "Uncomplicated cellulitis treated as outpatient",
-  "status": "draft",
+  "status": "reviewed",
   "condition_family": "skin_soft_tissue_infection",
   "inclusion_criteria": [
     "Localized cellulitis judged safe for outpatient therapy.",
@@ -40,34 +40,65 @@
     "cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_3.v1",
     "cellulitis_uncomplicated_oral_antibiotics.follow_up.default_follow_up.v1"
   ],
-  "source_card_ids": [],
+  "source_card_ids": [
+    "medlineplus.cellulitis",
+    "cdc.group_a_strep_cellulitis"
+  ],
   "source_audit": {
-    "source_supported": false,
-    "source_needed": true,
-    "clinician_judgment_only": true,
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
     "restricted_source_risk": false,
-    "unsafe_without_modifier": true
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus and CDC support cellulitis treatment framing, antibiotic use when clinically indicated, and escalation for worsening or severe infection."
   },
   "runtime": {
     "condition_terms": [
       "cellulitis",
-      "skin infection"
+      "uncomplicated cellulitis",
+      "skin infection",
+      "skin infection cellulitis"
     ],
     "unsafe_modifiers": [
       "immunocompromised",
       "rapid_progression",
       "diabetic_foot",
       "bite_wound",
-      "near_eye_or_genitals"
+      "near_eye_or_genitals",
+      "sepsis",
+      "necrotizing_infection_concern",
+      "deep_space_location"
     ],
     "minimum_confidence": 0.86,
-    "mode": "draft_only_until_reviewed"
+    "mode": "reviewed_ontology_enabled"
   },
   "version": 1,
   "review": {
-    "status": "draft",
-    "reviewer": null,
-    "last_reviewed": null,
-    "notes": "Expanded ontology draft pack. Not clinician-reviewed. Runtime should fall back unless explicitly enabled for review."
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus and CDC support cellulitis treatment framing, antibiotic use when clinically indicated, and escalation for worsening or severe infection.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_outpatient_cellulitis_use",
+    "required_modifiers": [
+      "localized infection",
+      "outpatient antibiotics prescribed",
+      "no sepsis",
+      "no necrotizing infection concern",
+      "no high-risk location"
+    ],
+    "blocked_modifiers": [
+      "immunocompromised",
+      "rapid_progression",
+      "diabetic_foot",
+      "bite_wound",
+      "near_eye_or_genitals",
+      "sepsis",
+      "necrotizing_infection_concern",
+      "deep_space_location"
+    ]
   }
 }

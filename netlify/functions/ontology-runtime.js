@@ -12,39 +12,65 @@ const SECTION_ORDER = [
 ];
 
 const NEGATIVE_CONTEXT = ['no ', 'denies ', 'without '];
+const NEGATION_PATTERN = /(?:\bno|\bdenies|\bwithout)\s+$/;
 
 const EXCLUSION_RULES = {
   airway_symptoms: ['trouble breathing', 'throat swelling', 'tongue swelling', 'drooling', 'stridor'],
   abnormal_ecg: ['st elevation', 'new ischemia', 'abnormal ecg'],
   abnormal_troponin: ['positive troponin', 'elevated troponin'],
   anticoagulated: ['warfarin', 'eliquis', 'apixaban', 'xarelto', 'rivaroxaban', 'blood thinner'],
+  antibiotic_prescribed: ['antibiotic prescribed', 'started antibiotics', 'given antibiotics'],
+  bacterial_infection_suspected: ['bacterial infection', 'strep', 'pneumonia', 'sinusitis'],
+  bite_wound: ['bite wound', 'dog bite', 'cat bite', 'human bite'],
+  c_diff_risk: ['c diff', 'c. diff', 'recent antibiotics', 'clostridioides'],
+  cancer_red_flag: ['cancer', 'malignancy', 'weight loss', 'night sweats'],
+  cauda_equina_concern: ['urinary retention', 'bowel incontinence', 'saddle anesthesia', 'saddle numbness', 'groin numbness'],
   chest_pain: ['chest pain', 'pressure in chest'],
-  deep_space_location: ['perirectal', 'neck abscess', 'hand abscess', 'deep space'],
+  complicated_uti: ['complicated uti', 'urinary obstruction', 'urologic procedure'],
+  deep_space_location: ['perirectal', 'neck abscess', 'hand abscess', 'deep space', 'orbital', 'joint'],
   diabetic_foot: ['diabetic foot'],
+  elderly_frail: ['frail', 'elderly', 'nursing home'],
   elderly: ['elderly', 'frail'],
   fever: ['fever', 'febrile', 'chills'],
+  flank_pain: ['flank pain', 'cva tenderness', 'side pain'],
+  fracture_or_trauma_concern: ['fall', 'trauma', 'crash', 'fracture', 'midline tenderness'],
   fracture_seen: ['fracture seen', 'broken bone', 'ankle fracture', 'distal fibula fracture', 'distal tibia fracture'],
+  gi_bleeding: ['bloody stool', 'black stool', 'blood in stool', 'vomit blood', 'coffee grounds'],
   hypotension: ['hypotension', 'low blood pressure'],
   hypoxia: ['hypoxic', 'low oxygen', 'oxygen saturation 90', 'spo2 90', 'spo2 89'],
   immunocompromised: ['chemotherapy', 'transplant', 'immunocompromised', 'neutropenia'],
+  indwelling_catheter: ['foley', 'catheter'],
   intoxication: ['intoxicated', 'etoh'],
+  kidney_transplant: ['kidney transplant', 'renal transplant'],
   loss_of_consciousness: ['loss of consciousness', 'loc'],
+  male_patient: ['male patient', 'man with uti', 'male with uti'],
   near_eye_or_genitals: ['eye', 'eyelid', 'genital', 'scrotum', 'vulva'],
+  necrotizing_infection_concern: ['necrotizing', 'pain out of proportion', 'crepitus', 'bullae'],
   neurovascular_compromise: ['numb foot', 'numb toes', 'no pulse', 'cold foot', 'blue toes', 'pale toes', 'decreased sensation'],
   no_xray_performed: ['no xray', 'no x ray', 'no imaging', 'xray not done', 'x ray not done'],
   neurologic_deficit: ['weakness', 'numbness', 'aphasia', 'slurred speech', 'facial droop'],
+  new_neurologic_deficit: ['new weakness', 'leg weakness', 'foot drop', 'new numbness', 'numb leg'],
   ongoing_pain: ['ongoing pain', 'persistent chest pain', 'active chest pain'],
   open_wound: ['open wound', 'open fracture', 'bone exposed', 'laceration over ankle'],
   peritoneal_signs: ['rebound', 'guarding', 'peritonitis'],
   poor_follow_up: ['homeless', 'unable to follow up', 'no phone'],
-  pregnancy: ['pregnant', 'pregnancy'],
+  pregnancy: ['is pregnant', 'patient is pregnant', 'pregnancy'],
+  pneumonia: ['pneumonia', 'infiltrate', 'consolidation'],
   rapid_progression: ['rapidly spreading', 'rapid progression'],
   sepsis: ['sepsis', 'septic', 'shock'],
+  severe_dehydration: ['severe dehydration', 'syncope', 'very dry', 'shock'],
   solitary_kidney: ['solitary kidney', 'transplant kidney'],
+  spinal_infection_concern: ['ivdu', 'injection drug', 'epidural abscess', 'spinal infection', 'fever with back pain'],
+  surgical_abdomen: ['appendicitis', 'obstruction', 'peritonitis', 'surgical abdomen', 'localized abdominal pain'],
   trismus: ['trismus', 'cannot open mouth'],
   uncontrolled_pain: ['uncontrolled pain', 'intractable pain'],
   uncontrolled_vomiting: ['intractable vomiting', 'cannot keep down'],
   unable_to_bear_weight: ['unable to bear weight', 'cannot bear weight', 'cannot walk at all'],
+  unable_to_tolerate_oral_fluids: ['cannot keep fluids down', 'unable to tolerate oral', 'failed po challenge'],
+  unable_to_walk: ['unable to walk', 'cannot walk', 'nonambulatory'],
+  unstable_vitals: ['unstable vitals', 'hypotension', 'tachycardia', 'toxic appearing'],
+  urinary_obstruction: ['urinary obstruction', 'obstructing stone', 'retention'],
+  vomiting_unable_to_take_meds: ['vomiting', 'cannot take pills', 'cannot keep meds down'],
 };
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -61,10 +87,14 @@ function normalize(text) {
 }
 
 function hasNonNegated(text, term) {
-  const idx = text.indexOf(term);
-  if (idx < 0) return false;
-  const window = text.slice(Math.max(0, idx - 16), idx);
-  return !NEGATIVE_CONTEXT.some((marker) => window.includes(marker));
+  let start = 0;
+  while (true) {
+    const idx = text.indexOf(term, start);
+    if (idx < 0) return false;
+    const window = text.slice(Math.max(0, idx - 16), idx);
+    if (!NEGATION_PATTERN.test(window)) return true;
+    start = idx + term.length;
+  }
 }
 
 function modifierHits(text, modifiers = []) {

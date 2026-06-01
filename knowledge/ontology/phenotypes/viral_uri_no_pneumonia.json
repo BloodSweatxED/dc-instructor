@@ -1,7 +1,7 @@
 {
   "id": "viral_uri_no_pneumonia",
   "label": "Viral upper respiratory infection without pneumonia",
-  "status": "draft",
+  "status": "reviewed",
   "condition_family": "respiratory_infection",
   "inclusion_criteria": [
     "Symptoms are most consistent with viral upper respiratory infection, such as cough, congestion, runny nose, sore throat, or low-grade fever.",
@@ -49,9 +49,63 @@
     "ahrq.common_cold_antibiotics"
   ],
   "review": {
-    "status": "draft",
-    "reviewer": null,
-    "last_reviewed": null,
-    "notes": "Draft ED URI phenotype. Needs clinician review and local policy for flu/COVID testing modifiers."
-  }
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports viral URI supportive care and escalation symptoms. AHRQ supports antibiotic stewardship for uncomplicated viral URI.",
+    "clinical_status": "reviewed_for_limited_viral_uri_without_pneumonia_use",
+    "required_modifiers": [
+      "comfortable breathing",
+      "acceptable oxygen level",
+      "no pneumonia concern",
+      "no antibiotic prescribed"
+    ],
+    "blocked_modifiers": [
+      "pneumonia",
+      "hypoxia",
+      "respiratory_distress",
+      "unstable_vitals",
+      "immunocompromised",
+      "sepsis",
+      "chest_pain",
+      "antibiotic_prescribed",
+      "bacterial_infection_suspected"
+    ]
+  },
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports viral URI supportive care and escalation symptoms. AHRQ supports antibiotic stewardship for uncomplicated viral URI."
+  },
+  "runtime": {
+    "condition_terms": [
+      "viral uri no pneumonia",
+      "viral upper respiratory infection",
+      "viral uri",
+      "common cold",
+      "cold symptoms",
+      "uri no pneumonia"
+    ],
+    "unsafe_modifiers": [
+      "pneumonia",
+      "hypoxia",
+      "respiratory_distress",
+      "unstable_vitals",
+      "immunocompromised",
+      "sepsis",
+      "chest_pain",
+      "antibiotic_prescribed",
+      "bacterial_infection_suspected"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1
 }

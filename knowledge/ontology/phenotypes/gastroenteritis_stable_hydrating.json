@@ -1,7 +1,7 @@
 {
   "id": "gastroenteritis_stable_hydrating",
   "label": "Gastroenteritis, stable and able to hydrate",
-  "status": "draft",
+  "status": "reviewed",
   "condition_family": "gastrointestinal_infection",
   "inclusion_criteria": [
     "Vomiting, diarrhea, nausea, or crampy abdominal pain is most consistent with gastroenteritis.",
@@ -48,9 +48,65 @@
     "medlineplus.diarrhea_self_care"
   ],
   "review": {
-    "status": "draft",
-    "reviewer": null,
-    "last_reviewed": null,
-    "notes": "Draft ED gastroenteritis phenotype. Needs clinician review and modifiers for pediatrics, pregnancy, elderly, immunocompromise, and stool-testing indications."
-  }
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports oral rehydration, gradual diet advancement, hygiene, and return precautions for dehydration, blood in stool, fever, and severe abdominal pain.",
+    "clinical_status": "reviewed_for_limited_stable_gastroenteritis_able_to_hydrate_use",
+    "required_modifiers": [
+      "stable for discharge",
+      "can continue oral hydration",
+      "no surgical abdomen",
+      "no GI bleeding"
+    ],
+    "blocked_modifiers": [
+      "surgical_abdomen",
+      "sepsis",
+      "gi_bleeding",
+      "severe_dehydration",
+      "unable_to_tolerate_oral_fluids",
+      "unstable_vitals",
+      "pregnancy",
+      "immunocompromised",
+      "elderly_frail",
+      "c_diff_risk"
+    ]
+  },
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports oral rehydration, gradual diet advancement, hygiene, and return precautions for dehydration, blood in stool, fever, and severe abdominal pain."
+  },
+  "runtime": {
+    "condition_terms": [
+      "gastroenteritis stable hydrating",
+      "gastroenteritis",
+      "stomach virus",
+      "vomiting diarrhea",
+      "nausea vomiting diarrhea",
+      "diarrhea vomiting"
+    ],
+    "unsafe_modifiers": [
+      "surgical_abdomen",
+      "sepsis",
+      "gi_bleeding",
+      "severe_dehydration",
+      "unable_to_tolerate_oral_fluids",
+      "unstable_vitals",
+      "pregnancy",
+      "immunocompromised",
+      "elderly_frail",
+      "c_diff_risk"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1
 }

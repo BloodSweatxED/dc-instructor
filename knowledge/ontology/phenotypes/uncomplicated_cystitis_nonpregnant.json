@@ -1,7 +1,7 @@
 {
   "id": "uncomplicated_cystitis_nonpregnant",
   "label": "Uncomplicated cystitis in a nonpregnant patient",
-  "status": "draft",
+  "status": "reviewed",
   "condition_family": "urinary_infection",
   "inclusion_criteria": [
     "Lower urinary tract symptoms are most consistent with bladder infection, such as burning with urination, frequency, urgency, or suprapubic discomfort.",
@@ -49,9 +49,69 @@
     "medlineplus.uti_self_care"
   ],
   "review": {
-    "status": "draft",
-    "reviewer": null,
-    "last_reviewed": null,
-    "notes": "Draft ED cystitis phenotype. Needs clinician review, pregnancy guardrail, and antibiotic-specific instructions before production use."
-  }
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. CDC and MedlinePlus support UTI framing, antibiotic treatment when clinically indicated, hydration, and pyelonephritis or sepsis return precautions.",
+    "clinical_status": "reviewed_for_limited_nonpregnant_uncomplicated_cystitis_use",
+    "required_modifiers": [
+      "not pregnant",
+      "lower urinary symptoms",
+      "no fever or flank pain",
+      "oral antibiotics prescribed"
+    ],
+    "blocked_modifiers": [
+      "pregnancy",
+      "male_patient",
+      "pyelonephritis",
+      "fever",
+      "flank_pain",
+      "sepsis",
+      "vomiting_unable_to_take_meds",
+      "complicated_uti",
+      "kidney_transplant",
+      "urinary_obstruction",
+      "indwelling_catheter",
+      "no_antibiotic_prescribed"
+    ]
+  },
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "CDC and MedlinePlus support UTI framing, antibiotic treatment when clinically indicated, hydration, and pyelonephritis or sepsis return precautions."
+  },
+  "runtime": {
+    "condition_terms": [
+      "uncomplicated cystitis nonpregnant",
+      "uncomplicated cystitis",
+      "bladder infection",
+      "uti",
+      "urinary tract infection",
+      "cystitis"
+    ],
+    "unsafe_modifiers": [
+      "pregnancy",
+      "male_patient",
+      "pyelonephritis",
+      "fever",
+      "flank_pain",
+      "sepsis",
+      "vomiting_unable_to_take_meds",
+      "complicated_uti",
+      "kidney_transplant",
+      "urinary_obstruction",
+      "indwelling_catheter",
+      "no_antibiotic_prescribed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1
 }

@@ -160,14 +160,16 @@
     {
       "id": "cellulitis_uncomplicated_oral_antibiotics",
       "label": "Uncomplicated cellulitis treated as outpatient",
-      "status": "draft",
-      "review_status": "draft",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
         "cellulitis",
         "cellulitis uncomplicated oral antibiotics",
         "skin infection",
+        "skin infection cellulitis",
         "skin soft tissue infection",
+        "uncomplicated cellulitis",
         "uncomplicated cellulitis treated as outpatient"
       ],
       "unsafe_modifiers": [
@@ -175,14 +177,18 @@
         "rapid_progression",
         "diabetic_foot",
         "bite_wound",
-        "near_eye_or_genitals"
+        "near_eye_or_genitals",
+        "sepsis",
+        "necrotizing_infection_concern",
+        "deep_space_location"
       ],
       "source_audit": {
-        "source_supported": false,
-        "source_needed": true,
-        "clinician_judgment_only": true,
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
         "restricted_source_risk": false,
-        "unsafe_without_modifier": true
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus and CDC support cellulitis treatment framing, antibiotic use when clinically indicated, and escalation for worsening or severe infection."
       }
     },
     {
@@ -301,18 +307,38 @@
     {
       "id": "gastroenteritis_stable_hydrating",
       "label": "Gastroenteritis, stable and able to hydrate",
-      "status": "draft",
-      "review_status": "draft",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
+        "diarrhea vomiting",
+        "gastroenteritis",
         "gastroenteritis stable hydrating",
         "gastroenteritis, stable and able to hydrate",
-        "gastrointestinal infection"
+        "gastrointestinal infection",
+        "nausea vomiting diarrhea",
+        "stomach virus",
+        "vomiting diarrhea"
       ],
-      "unsafe_modifiers": [],
+      "unsafe_modifiers": [
+        "surgical_abdomen",
+        "sepsis",
+        "gi_bleeding",
+        "severe_dehydration",
+        "unable_to_tolerate_oral_fluids",
+        "unstable_vitals",
+        "pregnancy",
+        "immunocompromised",
+        "elderly_frail",
+        "c_diff_risk"
+      ],
       "source_audit": {
         "source_supported": true,
-        "source_needed": false
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports oral rehydration, gradual diet advancement, hygiene, and return precautions for dehydration, blood in stool, fever, and severe abdominal pain."
       }
     },
     {
@@ -349,18 +375,36 @@
     {
       "id": "lumbar_strain_no_red_flags",
       "label": "Lumbar strain without red flags",
-      "status": "draft",
-      "review_status": "draft",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
+        "acute low back pain",
+        "back pain no red flags",
+        "low back strain",
+        "lumbar strain",
         "lumbar strain no red flags",
         "lumbar strain without red flags",
+        "mechanical low back pain",
         "musculoskeletal back pain"
       ],
-      "unsafe_modifiers": [],
+      "unsafe_modifiers": [
+        "cauda_equina_concern",
+        "spinal_infection_concern",
+        "fracture_or_trauma_concern",
+        "cancer_red_flag",
+        "fever",
+        "new_neurologic_deficit",
+        "pregnancy",
+        "unable_to_walk"
+      ],
       "source_audit": {
         "source_supported": true,
-        "source_needed": false
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports conservative low-back-pain care and red flags. WikEM supports ED phenotype boundaries and must-not-miss framing only."
       }
     },
     {
@@ -423,18 +467,40 @@
     {
       "id": "uncomplicated_cystitis_nonpregnant",
       "label": "Uncomplicated cystitis in a nonpregnant patient",
-      "status": "draft",
-      "review_status": "draft",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
+        "bladder infection",
+        "cystitis",
+        "uncomplicated cystitis",
         "uncomplicated cystitis in a nonpregnant patient",
         "uncomplicated cystitis nonpregnant",
-        "urinary infection"
+        "urinary infection",
+        "urinary tract infection",
+        "uti"
       ],
-      "unsafe_modifiers": [],
+      "unsafe_modifiers": [
+        "pregnancy",
+        "male_patient",
+        "pyelonephritis",
+        "fever",
+        "flank_pain",
+        "sepsis",
+        "vomiting_unable_to_take_meds",
+        "complicated_uti",
+        "kidney_transplant",
+        "urinary_obstruction",
+        "indwelling_catheter",
+        "no_antibiotic_prescribed"
+      ],
       "source_audit": {
         "source_supported": true,
-        "source_needed": false
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "CDC and MedlinePlus support UTI framing, antibiotic treatment when clinically indicated, hydration, and pyelonephritis or sepsis return precautions."
       }
     },
     {
@@ -470,18 +536,37 @@
     {
       "id": "viral_uri_no_pneumonia",
       "label": "Viral upper respiratory infection without pneumonia",
-      "status": "draft",
-      "review_status": "draft",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
+        "cold symptoms",
+        "common cold",
         "respiratory infection",
+        "uri no pneumonia",
+        "viral upper respiratory infection",
         "viral upper respiratory infection without pneumonia",
+        "viral uri",
         "viral uri no pneumonia"
       ],
-      "unsafe_modifiers": [],
+      "unsafe_modifiers": [
+        "pneumonia",
+        "hypoxia",
+        "respiratory_distress",
+        "unstable_vitals",
+        "immunocompromised",
+        "sepsis",
+        "chest_pain",
+        "antibiotic_prescribed",
+        "bacterial_infection_suspected"
+      ],
       "source_audit": {
         "source_supported": true,
-        "source_needed": false
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports viral URI supportive care and escalation symptoms. AHRQ supports antibiotic stewardship for uncomplicated viral URI."
       }
     }
   ]

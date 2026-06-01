@@ -16682,9 +16682,9 @@
         "id": "phenotype:cellulitis_uncomplicated_oral_antibiotics",
         "type": "phenotype",
         "label": "Uncomplicated cellulitis treated as outpatient",
-        "status": "draft",
+        "status": "reviewed",
         "condition_family": "skin_soft_tissue_infection",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -16732,9 +16732,9 @@
         "id": "phenotype:gastroenteritis_stable_hydrating",
         "type": "phenotype",
         "label": "Gastroenteritis, stable and able to hydrate",
-        "status": "draft",
+        "status": "reviewed",
         "condition_family": "gastrointestinal_infection",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -16752,9 +16752,9 @@
         "id": "phenotype:lumbar_strain_no_red_flags",
         "type": "phenotype",
         "label": "Lumbar strain without red flags",
-        "status": "draft",
+        "status": "reviewed",
         "condition_family": "musculoskeletal_back_pain",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -16782,9 +16782,9 @@
         "id": "phenotype:uncomplicated_cystitis_nonpregnant",
         "type": "phenotype",
         "label": "Uncomplicated cystitis in a nonpregnant patient",
-        "status": "draft",
+        "status": "reviewed",
         "condition_family": "urinary_infection",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -16802,9 +16802,9 @@
         "id": "phenotype:viral_uri_no_pneumonia",
         "type": "phenotype",
         "label": "Viral upper respiratory infection without pneumonia",
-        "status": "draft",
+        "status": "reviewed",
         "condition_family": "respiratory_infection",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17665,7 +17665,7 @@
         "section": "diagnosis",
         "primitive_type": "diagnosis_summary",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17676,7 +17676,7 @@
         "section": "follow_up",
         "primitive_type": "follow_up_pcp",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17687,7 +17687,7 @@
         "section": "home_care",
         "primitive_type": "activity",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17698,7 +17698,7 @@
         "section": "home_care",
         "primitive_type": "ice_heat",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17709,7 +17709,7 @@
         "section": "home_care",
         "primitive_type": "activity_restriction",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17720,7 +17720,7 @@
         "section": "home_care",
         "primitive_type": "positioning",
         "priority": "medium",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17731,7 +17731,7 @@
         "section": "medications",
         "primitive_type": "medication_otc_acetaminophen",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17742,7 +17742,7 @@
         "section": "medications",
         "primitive_type": "medication_otc_nsaid",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17753,7 +17753,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_neuro",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17764,7 +17764,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_back_pain",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17775,7 +17775,7 @@
         "section": "what_we_found",
         "primitive_type": "normal_exam_reassurance",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17786,7 +17786,7 @@
         "section": "diagnosis",
         "primitive_type": "diagnosis_summary",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17797,7 +17797,7 @@
         "section": "follow_up",
         "primitive_type": "default_follow_up",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17808,7 +17808,7 @@
         "section": "home_care",
         "primitive_type": "home_care_1",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17819,7 +17819,7 @@
         "section": "home_care",
         "primitive_type": "home_care_2",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17830,7 +17830,7 @@
         "section": "home_care",
         "primitive_type": "home_care_3",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17841,7 +17841,7 @@
         "section": "medications",
         "primitive_type": "medication_guidance_1",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17852,7 +17852,7 @@
         "section": "medications",
         "primitive_type": "medication_guidance_2",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17863,7 +17863,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_1",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17874,7 +17874,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_2",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17885,7 +17885,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_3",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17896,7 +17896,7 @@
         "section": "what_we_found",
         "primitive_type": "reassuring_ed_assessment",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18270,7 +18270,7 @@
         "section": "diagnosis",
         "primitive_type": "diagnosis_summary",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18281,7 +18281,7 @@
         "section": "follow_up",
         "primitive_type": "follow_up_pcp",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18292,7 +18292,7 @@
         "section": "home_care",
         "primitive_type": "culture_followup",
         "priority": "medium",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18303,7 +18303,7 @@
         "section": "home_care",
         "primitive_type": "hydration",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18314,7 +18314,7 @@
         "section": "medications",
         "primitive_type": "antibiotic_adherence",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18325,7 +18325,7 @@
         "section": "medications",
         "primitive_type": "urinary_pain_medicine",
         "priority": "medium",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18336,7 +18336,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_treatment_failure",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18347,7 +18347,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_pyelo",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18358,7 +18358,7 @@
         "section": "what_we_found",
         "primitive_type": "reassuring_no_pyelo",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18490,7 +18490,7 @@
         "section": "diagnosis",
         "primitive_type": "diagnosis_summary",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18501,7 +18501,7 @@
         "section": "follow_up",
         "primitive_type": "follow_up_pcp",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18512,7 +18512,7 @@
         "section": "home_care",
         "primitive_type": "diet_and_infection_control",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18523,7 +18523,7 @@
         "section": "home_care",
         "primitive_type": "hydration",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18534,7 +18534,7 @@
         "section": "medications",
         "primitive_type": "antiemetic",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18545,7 +18545,7 @@
         "section": "medications",
         "primitive_type": "antidiarrheal_caution",
         "priority": "medium",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18556,7 +18556,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_gi_red_flags",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18567,7 +18567,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_persistent_symptoms",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18578,7 +18578,7 @@
         "section": "what_we_found",
         "primitive_type": "reassuring_hydration",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -19073,7 +19073,7 @@
         "section": "diagnosis",
         "primitive_type": "diagnosis_summary",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -19084,7 +19084,7 @@
         "section": "follow_up",
         "primitive_type": "follow_up_pcp",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -19095,7 +19095,7 @@
         "section": "home_care",
         "primitive_type": "supportive_care",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -19106,7 +19106,7 @@
         "section": "home_care",
         "primitive_type": "infection_control",
         "priority": "medium",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -19117,7 +19117,7 @@
         "section": "medications",
         "primitive_type": "antibiotic_stewardship",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -19128,7 +19128,7 @@
         "section": "medications",
         "primitive_type": "medication_otc_caution",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -19139,7 +19139,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_respiratory",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -19150,7 +19150,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_worsening_infection",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -19161,7 +19161,7 @@
         "section": "what_we_found",
         "primitive_type": "normal_exam_reassurance",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -19240,6 +19240,17 @@
     },
     {
       "data": {
+        "id": "source_card:cdc.group_a_strep_cellulitis",
+        "type": "source_card",
+        "label": "Clinical Guidance for Group A Streptococcal Cellulitis",
+        "source": "CDC",
+        "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/cellulitis.html",
+        "use_policy": "evidence_support",
+        "source_type": "government_guidance"
+      }
+    },
+    {
+      "data": {
         "id": "source_card:cdc.uti_basics",
         "type": "source_card",
         "label": "Urinary Tract Infection Basics",
@@ -19256,6 +19267,17 @@
         "label": "Ankle sprain - aftercare",
         "source": "MedlinePlus",
         "url": "https://medlineplus.gov/ency/patientinstructions/000574.htm",
+        "use_policy": "evidence_support",
+        "source_type": "public_patient_education"
+      }
+    },
+    {
+      "data": {
+        "id": "source_card:medlineplus.cellulitis",
+        "type": "source_card",
+        "label": "Cellulitis",
+        "source": "MedlinePlus",
+        "url": "https://medlineplus.gov/cellulitis.html",
         "use_policy": "evidence_support",
         "source_type": "public_patient_education"
       }
@@ -39511,6 +39533,182 @@
     {
       "data": {
         "id": "edge:2385",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.diagnosis.diagnosis_summary.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.group_a_strep_cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2386",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.diagnosis.diagnosis_summary.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2387",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.follow_up.default_follow_up.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.group_a_strep_cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2388",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.follow_up.default_follow_up.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2389",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.group_a_strep_cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2390",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2391",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.group_a_strep_cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2392",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2393",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.group_a_strep_cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2394",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2395",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.medications.medication_guidance_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.group_a_strep_cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2396",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.medications.medication_guidance_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2397",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.medications.medication_guidance_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.group_a_strep_cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2398",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.medications.medication_guidance_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2399",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.group_a_strep_cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2400",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2401",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.group_a_strep_cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2402",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2403",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.group_a_strep_cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2404",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2405",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.what_we_found.reassuring_ed_assessment.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.group_a_strep_cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2406",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.what_we_found.reassuring_ed_assessment.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2407",
         "source": "primitive:cystitis.diagnosis.uncomplicated.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.uti_basics"
@@ -39518,7 +39716,7 @@
     },
     {
       "data": {
-        "id": "edge:2386",
+        "id": "edge:2408",
         "source": "primitive:cystitis.diagnosis.uncomplicated.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.uti_self_care"
@@ -39526,7 +39724,7 @@
     },
     {
       "data": {
-        "id": "edge:2387",
+        "id": "edge:2409",
         "source": "primitive:cystitis.follow_up.recheck.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.uti_self_care"
@@ -39534,7 +39732,7 @@
     },
     {
       "data": {
-        "id": "edge:2388",
+        "id": "edge:2410",
         "source": "primitive:cystitis.home_care.culture_callback.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.uti_basics"
@@ -39542,7 +39740,7 @@
     },
     {
       "data": {
-        "id": "edge:2389",
+        "id": "edge:2411",
         "source": "primitive:cystitis.home_care.fluids_irritants.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.uti_self_care"
@@ -39550,7 +39748,7 @@
     },
     {
       "data": {
-        "id": "edge:2390",
+        "id": "edge:2412",
         "source": "primitive:cystitis.medications.antibiotics_complete.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.uti_basics"
@@ -39558,7 +39756,7 @@
     },
     {
       "data": {
-        "id": "edge:2391",
+        "id": "edge:2413",
         "source": "primitive:cystitis.medications.antibiotics_complete.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.uti_self_care"
@@ -39566,7 +39764,7 @@
     },
     {
       "data": {
-        "id": "edge:2392",
+        "id": "edge:2414",
         "source": "primitive:cystitis.medications.symptom_medicine_caution.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.uti_self_care"
@@ -39574,7 +39772,7 @@
     },
     {
       "data": {
-        "id": "edge:2393",
+        "id": "edge:2415",
         "source": "primitive:cystitis.return_precautions.not_improving.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.uti_self_care"
@@ -39582,7 +39780,7 @@
     },
     {
       "data": {
-        "id": "edge:2394",
+        "id": "edge:2416",
         "source": "primitive:cystitis.return_precautions.pyelo_sepsis.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.uti_self_care"
@@ -39590,7 +39788,7 @@
     },
     {
       "data": {
-        "id": "edge:2395",
+        "id": "edge:2417",
         "source": "primitive:cystitis.what_we_found.no_kidney_infection.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.uti_basics"
@@ -39598,7 +39796,7 @@
     },
     {
       "data": {
-        "id": "edge:2396",
+        "id": "edge:2418",
         "source": "primitive:cystitis.what_we_found.no_kidney_infection.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.uti_self_care"
@@ -39606,7 +39804,7 @@
     },
     {
       "data": {
-        "id": "edge:2397",
+        "id": "edge:2419",
         "source": "primitive:gastroenteritis.diagnosis.stable.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.diarrhea_self_care"
@@ -39614,7 +39812,7 @@
     },
     {
       "data": {
-        "id": "edge:2398",
+        "id": "edge:2420",
         "source": "primitive:gastroenteritis.diagnosis.stable.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.viral_gastroenteritis"
@@ -39622,7 +39820,7 @@
     },
     {
       "data": {
-        "id": "edge:2399",
+        "id": "edge:2421",
         "source": "primitive:gastroenteritis.follow_up.recheck.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.diarrhea_self_care"
@@ -39630,7 +39828,7 @@
     },
     {
       "data": {
-        "id": "edge:2400",
+        "id": "edge:2422",
         "source": "primitive:gastroenteritis.home_care.food_hygiene.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.diarrhea_self_care"
@@ -39638,7 +39836,7 @@
     },
     {
       "data": {
-        "id": "edge:2401",
+        "id": "edge:2423",
         "source": "primitive:gastroenteritis.home_care.oral_rehydration.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.diarrhea_self_care"
@@ -39646,7 +39844,7 @@
     },
     {
       "data": {
-        "id": "edge:2402",
+        "id": "edge:2424",
         "source": "primitive:gastroenteritis.home_care.oral_rehydration.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.viral_gastroenteritis"
@@ -39654,7 +39852,7 @@
     },
     {
       "data": {
-        "id": "edge:2403",
+        "id": "edge:2425",
         "source": "primitive:gastroenteritis.medications.antiemetic_if_prescribed.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.viral_gastroenteritis"
@@ -39662,7 +39860,7 @@
     },
     {
       "data": {
-        "id": "edge:2404",
+        "id": "edge:2426",
         "source": "primitive:gastroenteritis.medications.avoid_antidiarrheal_red_flags.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.diarrhea_self_care"
@@ -39670,7 +39868,7 @@
     },
     {
       "data": {
-        "id": "edge:2405",
+        "id": "edge:2427",
         "source": "primitive:gastroenteritis.return_precautions.dehydration_blood_pain.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.diarrhea_self_care"
@@ -39678,7 +39876,7 @@
     },
     {
       "data": {
-        "id": "edge:2406",
+        "id": "edge:2428",
         "source": "primitive:gastroenteritis.return_precautions.dehydration_blood_pain.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.viral_gastroenteritis"
@@ -39686,7 +39884,7 @@
     },
     {
       "data": {
-        "id": "edge:2407",
+        "id": "edge:2429",
         "source": "primitive:gastroenteritis.return_precautions.persistent_worse.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.diarrhea_self_care"
@@ -39694,7 +39892,7 @@
     },
     {
       "data": {
-        "id": "edge:2408",
+        "id": "edge:2430",
         "source": "primitive:gastroenteritis.what_we_found.hydrating.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.viral_gastroenteritis"
@@ -39702,7 +39900,7 @@
     },
     {
       "data": {
-        "id": "edge:2409",
+        "id": "edge:2431",
         "source": "primitive:viral_uri.diagnosis.no_pneumonia.v1",
         "type": "supported_by_source",
         "target": "source_card:ahrq.common_cold_antibiotics"
@@ -39710,7 +39908,7 @@
     },
     {
       "data": {
-        "id": "edge:2410",
+        "id": "edge:2432",
         "source": "primitive:viral_uri.diagnosis.no_pneumonia.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.common_cold"
@@ -39718,7 +39916,7 @@
     },
     {
       "data": {
-        "id": "edge:2411",
+        "id": "edge:2433",
         "source": "primitive:viral_uri.follow_up.primary_care.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.common_cold"
@@ -39726,7 +39924,7 @@
     },
     {
       "data": {
-        "id": "edge:2412",
+        "id": "edge:2434",
         "source": "primitive:viral_uri.home_care.fluids_rest_humidification.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.common_cold"
@@ -39734,7 +39932,7 @@
     },
     {
       "data": {
-        "id": "edge:2413",
+        "id": "edge:2435",
         "source": "primitive:viral_uri.home_care.infection_control.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.common_cold"
@@ -39742,7 +39940,7 @@
     },
     {
       "data": {
-        "id": "edge:2414",
+        "id": "edge:2436",
         "source": "primitive:viral_uri.medications.no_antibiotics.v1",
         "type": "supported_by_source",
         "target": "source_card:ahrq.common_cold_antibiotics"
@@ -39750,7 +39948,7 @@
     },
     {
       "data": {
-        "id": "edge:2415",
+        "id": "edge:2437",
         "source": "primitive:viral_uri.medications.no_antibiotics.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.common_cold"
@@ -39758,7 +39956,7 @@
     },
     {
       "data": {
-        "id": "edge:2416",
+        "id": "edge:2438",
         "source": "primitive:viral_uri.medications.otc_caution.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.common_cold"
@@ -39766,7 +39964,7 @@
     },
     {
       "data": {
-        "id": "edge:2417",
+        "id": "edge:2439",
         "source": "primitive:viral_uri.return_precautions.breathing_chest_confusion.v1",
         "type": "supported_by_source",
         "target": "source_card:ahrq.common_cold_antibiotics"
@@ -39774,7 +39972,7 @@
     },
     {
       "data": {
-        "id": "edge:2418",
+        "id": "edge:2440",
         "source": "primitive:viral_uri.return_precautions.breathing_chest_confusion.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.common_cold"
@@ -39782,7 +39980,7 @@
     },
     {
       "data": {
-        "id": "edge:2419",
+        "id": "edge:2441",
         "source": "primitive:viral_uri.return_precautions.worsening_fever_dehydration.v1",
         "type": "supported_by_source",
         "target": "source_card:ahrq.common_cold_antibiotics"
@@ -39790,7 +39988,7 @@
     },
     {
       "data": {
-        "id": "edge:2420",
+        "id": "edge:2442",
         "source": "primitive:viral_uri.return_precautions.worsening_fever_dehydration.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.common_cold"
@@ -39798,7 +39996,7 @@
     },
     {
       "data": {
-        "id": "edge:2421",
+        "id": "edge:2443",
         "source": "primitive:viral_uri.what_we_found.reassuring_breathing.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.common_cold"

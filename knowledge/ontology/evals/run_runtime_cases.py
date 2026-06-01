@@ -12,8 +12,7 @@ from classify_phenotype import classify  # noqa: E402
 from ontology_lib import ROOT, OntologyError  # noqa: E402
 
 
-CASES_PATH = ROOT / "evals" / "ankle_sprain_runtime_cases.json"
-OUTPUT_PATH = ROOT / "evals" / "ankle_sprain_runtime_results.json"
+OUTPUT_PATH = ROOT / "evals" / "runtime_case_results.json"
 
 
 def require(condition: bool, message: str) -> None:
@@ -35,7 +34,9 @@ def run_case(case: dict[str, Any]) -> dict[str, Any]:
 
 
 def main() -> int:
-    cases = json.loads(CASES_PATH.read_text(encoding="utf-8"))
+    cases = []
+    for path in sorted((ROOT / "evals").glob("*_runtime_cases.json")):
+        cases.extend(json.loads(path.read_text(encoding="utf-8")))
     results = []
     try:
         for case in cases:

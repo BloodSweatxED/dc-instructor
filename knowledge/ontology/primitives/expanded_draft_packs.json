@@ -13,19 +13,27 @@
       "en_hl1": "You were treated for a skin infection called cellulitis."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cellulitis",
+      "cdc.group_a_strep_cellulitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus and CDC support cellulitis treatment framing, antibiotic use when clinically indicated, and escalation for worsening or severe infection."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -48,19 +56,27 @@
       "bite_wound",
       "near_eye_or_genitals"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cellulitis",
+      "cdc.group_a_strep_cellulitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus and CDC support cellulitis treatment framing, antibiotic use when clinically indicated, and escalation for worsening or severe infection."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -77,19 +93,27 @@
       "en_hl1": "Keep the area clean and dry."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cellulitis",
+      "cdc.group_a_strep_cellulitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus and CDC support cellulitis treatment framing, antibiotic use when clinically indicated, and escalation for worsening or severe infection."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -106,19 +130,27 @@
       "en_hl1": "Raise the arm or leg when you can."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cellulitis",
+      "cdc.group_a_strep_cellulitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus and CDC support cellulitis treatment framing, antibiotic use when clinically indicated, and escalation for worsening or severe infection."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -135,19 +167,27 @@
       "en_hl1": "Mark the edge of redness if your clinician asks you to."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cellulitis",
+      "cdc.group_a_strep_cellulitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus and CDC support cellulitis treatment framing, antibiotic use when clinically indicated, and escalation for worsening or severe infection."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -170,19 +210,27 @@
       "bite_wound",
       "near_eye_or_genitals"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cellulitis",
+      "cdc.group_a_strep_cellulitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus and CDC support cellulitis treatment framing, antibiotic use when clinically indicated, and escalation for worsening or severe infection."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -205,19 +253,27 @@
       "bite_wound",
       "near_eye_or_genitals"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cellulitis",
+      "cdc.group_a_strep_cellulitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus and CDC support cellulitis treatment framing, antibiotic use when clinically indicated, and escalation for worsening or severe infection."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -234,19 +290,27 @@
       "en_hl1": "Fever, shaking chills, confusion, or feeling very ill."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cellulitis",
+      "cdc.group_a_strep_cellulitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus and CDC support cellulitis treatment framing, antibiotic use when clinically indicated, and escalation for worsening or severe infection."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -263,19 +327,27 @@
       "en_hl1": "Redness spreading fast, severe pain, numbness, pus, or red streaks."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cellulitis",
+      "cdc.group_a_strep_cellulitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus and CDC support cellulitis treatment framing, antibiotic use when clinically indicated, and escalation for worsening or severe infection."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -292,19 +364,27 @@
       "en_hl1": "The infection is near the eye, genitals, or a joint and gets worse."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cellulitis",
+      "cdc.group_a_strep_cellulitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus and CDC support cellulitis treatment framing, antibiotic use when clinically indicated, and escalation for worsening or severe infection."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -327,19 +407,27 @@
       "bite_wound",
       "near_eye_or_genitals"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cellulitis",
+      "cdc.group_a_strep_cellulitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus and CDC support cellulitis treatment framing, antibiotic use when clinically indicated, and escalation for worsening or severe infection."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {

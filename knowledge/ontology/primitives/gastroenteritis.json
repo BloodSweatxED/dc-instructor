@@ -1,7 +1,9 @@
 [
   {
     "id": "gastroenteritis.diagnosis.stable.v1",
-    "phenotypes": ["gastroenteritis_stable_hydrating"],
+    "phenotypes": [
+      "gastroenteritis_stable_hydrating"
+    ],
     "section": "diagnosis",
     "primitive_type": "diagnosis_summary",
     "priority": "required",
@@ -10,18 +12,39 @@
       "en_6": "You most likely have gastroenteritis, an infection or irritation of the stomach and intestines that can cause vomiting or diarrhea.",
       "en_hl1": "You likely have a stomach virus. It can cause vomiting or diarrhea."
     },
-    "contraindications": ["surgical_abdomen", "sepsis", "gi_bleeding"],
-    "source_card_ids": ["medlineplus.viral_gastroenteritis", "medlineplus.diarrhea_self_care"],
+    "contraindications": [
+      "surgical_abdomen",
+      "sepsis",
+      "gi_bleeding"
+    ],
+    "source_card_ids": [
+      "medlineplus.viral_gastroenteritis",
+      "medlineplus.diarrhea_self_care"
+    ],
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Avoids calling all cases viral when ED diagnosis is broader gastroenteritis."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for gastroenteritis_stable_hydrating v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports oral rehydration, gradual diet advancement, hygiene, and return precautions for dehydration, blood in stool, fever, and severe abdominal pain."
     }
   },
   {
     "id": "gastroenteritis.what_we_found.hydrating.v1",
-    "phenotypes": ["gastroenteritis_stable_hydrating"],
+    "phenotypes": [
+      "gastroenteritis_stable_hydrating"
+    ],
     "section": "what_we_found",
     "primitive_type": "reassuring_hydration",
     "priority": "required",
@@ -30,18 +53,38 @@
       "en_6": "You were stable enough for discharge today. You can continue oral hydration at home.",
       "en_hl1": "You were safe to go home today. Keep drinking fluids."
     },
-    "contraindications": ["severe_dehydration", "unable_to_tolerate_oral_fluids", "unstable_vitals"],
-    "source_card_ids": ["medlineplus.viral_gastroenteritis"],
+    "contraindications": [
+      "severe_dehydration",
+      "unable_to_tolerate_oral_fluids",
+      "unstable_vitals"
+    ],
+    "source_card_ids": [
+      "medlineplus.viral_gastroenteritis"
+    ],
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Requires chart-aware assembly if IV fluids, labs, or imaging should be referenced."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for gastroenteritis_stable_hydrating v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports oral rehydration, gradual diet advancement, hygiene, and return precautions for dehydration, blood in stool, fever, and severe abdominal pain."
     }
   },
   {
     "id": "gastroenteritis.home_care.oral_rehydration.v1",
-    "phenotypes": ["gastroenteritis_stable_hydrating"],
+    "phenotypes": [
+      "gastroenteritis_stable_hydrating"
+    ],
     "section": "home_care",
     "primitive_type": "hydration",
     "priority": "required",
@@ -50,18 +93,37 @@
       "en_6": "Take small sips often. Water, oral rehydration solution, broth, or a sports drink can help replace fluids.",
       "en_hl1": "Take small sips often. Use water, broth, or rehydration drink."
     },
-    "contraindications": ["fluid_restriction"],
-    "source_card_ids": ["medlineplus.viral_gastroenteritis", "medlineplus.diarrhea_self_care"],
+    "contraindications": [
+      "fluid_restriction"
+    ],
+    "source_card_ids": [
+      "medlineplus.viral_gastroenteritis",
+      "medlineplus.diarrhea_self_care"
+    ],
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Core oral rehydration primitive. Needs fluid-restriction modifier."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for gastroenteritis_stable_hydrating v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports oral rehydration, gradual diet advancement, hygiene, and return precautions for dehydration, blood in stool, fever, and severe abdominal pain."
     }
   },
   {
     "id": "gastroenteritis.home_care.food_hygiene.v1",
-    "phenotypes": ["gastroenteritis_stable_hydrating"],
+    "phenotypes": [
+      "gastroenteritis_stable_hydrating"
+    ],
     "section": "home_care",
     "primitive_type": "diet_and_infection_control",
     "priority": "high",
@@ -71,17 +133,33 @@
       "en_hl1": "Eat bland foods when ready. Wash your hands well."
     },
     "contraindications": [],
-    "source_card_ids": ["medlineplus.diarrhea_self_care"],
+    "source_card_ids": [
+      "medlineplus.diarrhea_self_care"
+    ],
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Combines diet restart and infection-control basics."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for gastroenteritis_stable_hydrating v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports oral rehydration, gradual diet advancement, hygiene, and return precautions for dehydration, blood in stool, fever, and severe abdominal pain."
     }
   },
   {
     "id": "gastroenteritis.medications.antiemetic_if_prescribed.v1",
-    "phenotypes": ["gastroenteritis_stable_hydrating"],
+    "phenotypes": [
+      "gastroenteritis_stable_hydrating"
+    ],
     "section": "medications",
     "primitive_type": "antiemetic",
     "priority": "high",
@@ -90,18 +168,36 @@
       "en_6": "If you were prescribed nausea medicine, take it only as directed so you can keep fluids down.",
       "en_hl1": "If you got nausea medicine, take it as told so you can drink."
     },
-    "contraindications": ["no_antiemetic_prescribed"],
-    "source_card_ids": ["medlineplus.viral_gastroenteritis"],
+    "contraindications": [
+      "no_antiemetic_prescribed"
+    ],
+    "source_card_ids": [
+      "medlineplus.viral_gastroenteritis"
+    ],
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Should be medication-gated once prescriptions are parsed."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for gastroenteritis_stable_hydrating v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports oral rehydration, gradual diet advancement, hygiene, and return precautions for dehydration, blood in stool, fever, and severe abdominal pain."
     }
   },
   {
     "id": "gastroenteritis.medications.avoid_antidiarrheal_red_flags.v1",
-    "phenotypes": ["gastroenteritis_stable_hydrating"],
+    "phenotypes": [
+      "gastroenteritis_stable_hydrating"
+    ],
     "section": "medications",
     "primitive_type": "antidiarrheal_caution",
     "priority": "medium",
@@ -110,18 +206,36 @@
       "en_6": "Do not use diarrhea-stopping medicine if you have bloody stool, high fever, or severe abdominal pain unless a doctor tells you to.",
       "en_hl1": "Do not use diarrhea-stopping medicine with blood, high fever, or bad belly pain unless told."
     },
-    "contraindications": ["no_diarrhea"],
-    "source_card_ids": ["medlineplus.diarrhea_self_care"],
+    "contraindications": [
+      "no_diarrhea"
+    ],
+    "source_card_ids": [
+      "medlineplus.diarrhea_self_care"
+    ],
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "General safety caution. Needs local policy for loperamide recommendations."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for gastroenteritis_stable_hydrating v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports oral rehydration, gradual diet advancement, hygiene, and return precautions for dehydration, blood in stool, fever, and severe abdominal pain."
     }
   },
   {
     "id": "gastroenteritis.return_precautions.dehydration_blood_pain.v1",
-    "phenotypes": ["gastroenteritis_stable_hydrating"],
+    "phenotypes": [
+      "gastroenteritis_stable_hydrating"
+    ],
     "section": "return_precautions",
     "primitive_type": "return_precaution_gi_red_flags",
     "priority": "required",
@@ -131,17 +245,34 @@
       "en_hl1": "Come back now for bad belly pain, blood in stool, black stool, fainting, confusion, or dehydration."
     },
     "contraindications": [],
-    "source_card_ids": ["medlineplus.viral_gastroenteritis", "medlineplus.diarrhea_self_care"],
+    "source_card_ids": [
+      "medlineplus.viral_gastroenteritis",
+      "medlineplus.diarrhea_self_care"
+    ],
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Safety-critical GI and dehydration return precautions."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for gastroenteritis_stable_hydrating v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports oral rehydration, gradual diet advancement, hygiene, and return precautions for dehydration, blood in stool, fever, and severe abdominal pain."
     }
   },
   {
     "id": "gastroenteritis.return_precautions.persistent_worse.v1",
-    "phenotypes": ["gastroenteritis_stable_hydrating"],
+    "phenotypes": [
+      "gastroenteritis_stable_hydrating"
+    ],
     "section": "return_precautions",
     "primitive_type": "return_precaution_persistent_symptoms",
     "priority": "required",
@@ -151,17 +282,33 @@
       "en_hl1": "Come back if you cannot drink, pee much less, have high fever, or keep getting worse."
     },
     "contraindications": [],
-    "source_card_ids": ["medlineplus.diarrhea_self_care"],
+    "source_card_ids": [
+      "medlineplus.diarrhea_self_care"
+    ],
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Designed for stable discharge with oral hydration plan."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for gastroenteritis_stable_hydrating v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports oral rehydration, gradual diet advancement, hygiene, and return precautions for dehydration, blood in stool, fever, and severe abdominal pain."
     }
   },
   {
     "id": "gastroenteritis.follow_up.recheck.v1",
-    "phenotypes": ["gastroenteritis_stable_hydrating"],
+    "phenotypes": [
+      "gastroenteritis_stable_hydrating"
+    ],
     "section": "follow_up",
     "primitive_type": "follow_up_pcp",
     "priority": "required",
@@ -171,12 +318,26 @@
       "en_hl1": "See a doctor in 1 to 3 days if you do not feel better."
     },
     "contraindications": [],
-    "source_card_ids": ["medlineplus.diarrhea_self_care"],
+    "source_card_ids": [
+      "medlineplus.diarrhea_self_care"
+    ],
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Default outpatient follow-up for stable gastroenteritis."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for gastroenteritis_stable_hydrating v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports oral rehydration, gradual diet advancement, hygiene, and return precautions for dehydration, blood in stool, fever, and severe abdominal pain."
     }
   }
 ]

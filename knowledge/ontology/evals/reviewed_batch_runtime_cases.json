@@ -1,0 +1,157 @@
+[
+  {
+    "id": "lumbar_clean_exact",
+    "condition": "lumbar_strain_no_red_flags",
+    "ed_note": "Adult with mechanical low back pain after lifting. Ambulatory. No fever. No trauma. No urinary retention. No saddle anesthesia. No leg weakness.",
+    "expected_phenotype_id": "lumbar_strain_no_red_flags",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "lumbar_cauda_equina_blocks",
+    "condition": "lumbar_strain_no_red_flags",
+    "ed_note": "Patient reports urinary retention and saddle anesthesia.",
+    "expected_phenotype_id": "lumbar_strain_no_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["cauda_equina_concern"]
+  },
+  {
+    "id": "lumbar_infection_blocks",
+    "condition": "lumbar_strain_no_red_flags",
+    "ed_note": "Fever with back pain and injection drug use.",
+    "expected_phenotype_id": "lumbar_strain_no_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["fever", "spinal_infection_concern"]
+  },
+  {
+    "id": "lumbar_vague_fallback",
+    "condition": "back pain",
+    "ed_note": "Back pain without a clear mechanical strain diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "viral_uri_clean_exact",
+    "condition": "viral_uri_no_pneumonia",
+    "ed_note": "Cough, congestion, and runny nose. Breathing comfortably. Oxygen level acceptable. No pneumonia concern. No antibiotics prescribed.",
+    "expected_phenotype_id": "viral_uri_no_pneumonia",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "viral_uri_pneumonia_blocks",
+    "condition": "viral_uri_no_pneumonia",
+    "ed_note": "Chest x-ray shows pneumonia.",
+    "expected_phenotype_id": "viral_uri_no_pneumonia",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["pneumonia"]
+  },
+  {
+    "id": "viral_uri_hypoxia_blocks",
+    "condition": "viral_uri_no_pneumonia",
+    "ed_note": "Patient is hypoxic with oxygen saturation 89.",
+    "expected_phenotype_id": "viral_uri_no_pneumonia",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["hypoxia"]
+  },
+  {
+    "id": "viral_uri_vague_fallback",
+    "condition": "cough",
+    "ed_note": "Cough without final URI phenotype documented.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "cystitis_clean_exact",
+    "condition": "uncomplicated_cystitis_nonpregnant",
+    "ed_note": "Nonpregnant adult with dysuria and frequency. No fever. No flank pain. No vomiting. Oral antibiotics prescribed.",
+    "expected_phenotype_id": "uncomplicated_cystitis_nonpregnant",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "cystitis_pregnancy_blocks",
+    "condition": "uncomplicated_cystitis_nonpregnant",
+    "ed_note": "Patient is pregnant.",
+    "expected_phenotype_id": "uncomplicated_cystitis_nonpregnant",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["pregnancy"]
+  },
+  {
+    "id": "cystitis_pyelo_blocks",
+    "condition": "uncomplicated_cystitis_nonpregnant",
+    "ed_note": "Patient has fever and flank pain with vomiting.",
+    "expected_phenotype_id": "uncomplicated_cystitis_nonpregnant",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["fever", "flank_pain", "vomiting_unable_to_take_meds"]
+  },
+  {
+    "id": "cystitis_vague_fallback",
+    "condition": "dysuria",
+    "ed_note": "Painful urination without a final lower urinary diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "gastro_clean_exact",
+    "condition": "gastroenteritis_stable_hydrating",
+    "ed_note": "Vomiting and diarrhea. Stable vitals. Passed oral fluids. No blood in stool. No severe abdominal pain.",
+    "expected_phenotype_id": "gastroenteritis_stable_hydrating",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "gastro_gi_bleed_blocks",
+    "condition": "gastroenteritis_stable_hydrating",
+    "ed_note": "Patient reports bloody stool and black stool.",
+    "expected_phenotype_id": "gastroenteritis_stable_hydrating",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["gi_bleeding"]
+  },
+  {
+    "id": "gastro_unable_fluids_blocks",
+    "condition": "gastroenteritis_stable_hydrating",
+    "ed_note": "Patient cannot keep fluids down and failed PO challenge.",
+    "expected_phenotype_id": "gastroenteritis_stable_hydrating",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["unable_to_tolerate_oral_fluids"]
+  },
+  {
+    "id": "gastro_vague_fallback",
+    "condition": "nausea",
+    "ed_note": "Nausea without a final vomiting or diarrhea phenotype.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "cellulitis_clean_exact",
+    "condition": "cellulitis_uncomplicated_oral_antibiotics",
+    "ed_note": "Localized lower leg cellulitis. Outpatient antibiotics prescribed. No fever. No sepsis. No bite wound. No diabetic foot. No high-risk location.",
+    "expected_phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "cellulitis_bite_blocks",
+    "condition": "cellulitis_uncomplicated_oral_antibiotics",
+    "ed_note": "Skin infection after dog bite.",
+    "expected_phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["bite_wound"]
+  },
+  {
+    "id": "cellulitis_rapid_progression_blocks",
+    "condition": "cellulitis_uncomplicated_oral_antibiotics",
+    "ed_note": "Redness is rapidly spreading with pain out of proportion.",
+    "expected_phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["rapid_progression", "necrotizing_infection_concern"]
+  },
+  {
+    "id": "cellulitis_vague_fallback",
+    "condition": "rash",
+    "ed_note": "Rash without a final bacterial diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  }
+]
