@@ -9,4 +9,4 @@ Medication dosing, duration, route, contraindication handling, renal adjustment,
 | Analgesics and antipyretics | Uses label-following language for acetaminophen or ibuprofen if safe. | Contraindication and dosing policy for renal disease, anticoagulation, pregnancy, liver disease, age, and weight. |
 | Antiemetics and pain prescriptions | Refers to prescribed pain or nausea medicine without naming dose. | Condition-specific prescription policy and safety rules. |
 
-Reviewed medication primitives currently covered by non-dosing policy language: 32.
+Reviewed medication primitives currently covered by non-dosing policy language: 33.

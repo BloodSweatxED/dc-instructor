@@ -334,9 +334,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 127,
-        "avg_sentence_words": 10.6,
-        "long_word_ratio": 0.205
+        "word_count": 204,
+        "avg_sentence_words": 11.3,
+        "long_word_ratio": 0.132
       },
       "section_completeness": {
         "diagnosis": true,

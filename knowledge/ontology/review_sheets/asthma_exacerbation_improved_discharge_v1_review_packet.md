@@ -50,36 +50,46 @@ Review date: 2026-06-01.
 - `asthma_exacerbation_improved_discharge.home_care.home_care_1.v1` | `home_care` | audit: source_supported
 - `asthma_exacerbation_improved_discharge.home_care.home_care_2.v1` | `home_care` | audit: source_supported
 - `asthma_exacerbation_improved_discharge.home_care.home_care_3.v1` | `home_care` | audit: source_supported
+- `asthma_exacerbation_improved_discharge.home_care.home_care_4.v1` | `home_care` | audit: source_supported
+- `asthma_exacerbation_improved_discharge.home_care.home_care_5.v1` | `home_care` | audit: source_supported
 - `asthma_exacerbation_improved_discharge.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, unsafe_without_modifier
 - `asthma_exacerbation_improved_discharge.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, unsafe_without_modifier
+- `asthma_exacerbation_improved_discharge.medications.medication_guidance_3.v1` | `medications` | audit: source_supported, unsafe_without_modifier
 - `asthma_exacerbation_improved_discharge.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_supported
 - `asthma_exacerbation_improved_discharge.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported
 - `asthma_exacerbation_improved_discharge.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported
+- `asthma_exacerbation_improved_discharge.return_precautions.return_precaution_4.v1` | `return_precautions` | audit: source_supported
+- `asthma_exacerbation_improved_discharge.return_precautions.return_precaution_5.v1` | `return_precautions` | audit: source_supported
 - `asthma_exacerbation_improved_discharge.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier
 
 ## Patient-Facing Output
 
 ```text
 DIAGNOSIS:
-You were treated for an asthma flare.
+You had an asthma flare-up that made it hard to breathe.
 
 WHAT WE FOUND:
-Your breathing improved enough for discharge today. Asthma can worsen again, so use the plan you were given closely.
+You came to the ED because your asthma got worse. We gave you breathing treatments and steroids. After treatment, you were breathing comfortably on your own and were safe to go home.
 
 WHAT TO DO AT HOME:
-- Avoid smoke, fumes, and known triggers.
-- Use your spacer if one was prescribed.
-- Rest and avoid heavy exertion until breathing is back to baseline.
+- Rest for the next 1-2 days and avoid hard exercise until your breathing feels normal.
+- Stay away from things that trigger your asthma, like smoke, strong smells, cold air, and dust.
+- Use your spacer if you have one.
+- Start activity slowly as your breathing improves.
+- Wash your hands and avoid sick contacts when you can.
 
 MEDICATIONS:
-- Use your rescue inhaler exactly as prescribed.
-- Take steroids or controller medicines exactly as prescribed.
+- Use your rescue inhaler as prescribed.
+- Take the steroid course exactly as prescribed.
+- Do not wait at home if your rescue inhaler is not helping.
 
 RETURN TO ED IF:
-- Shortness of breath at rest, blue lips, severe wheezing, or trouble speaking full sentences.
-- Rescue inhaler is not helping or you need it much more often than instructed.
-- Chest pain, fainting, confusion, or worsening symptoms.
+- You need your inhaler more often than instructed.
+- Your breathing gets worse or you feel short of breath at rest.
+- You cannot speak in full sentences because of shortness of breath.
+- Your lips or fingernails turn blue or gray.
+- You have chest pain, confusion, fainting, or severe sleepiness.
 
 FOLLOW UP:
-Follow up with primary care, pulmonology, or asthma clinic as instructed.
+See your primary care doctor or asthma clinician within 3-5 days, or sooner if symptoms are not improving.
 ```

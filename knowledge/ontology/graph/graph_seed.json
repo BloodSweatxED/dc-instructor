@@ -1,7 +1,7 @@
 {
   "generated_at": "deterministic_from_current_ontology_and_generator_batches",
-  "node_count": 1857,
-  "edge_count": 2597,
+  "node_count": 1862,
+  "edge_count": 2607,
   "nodes": [
     {
       "id": "candidate_primitive:abdominal_pain_nonspecific_reassuring_workup.diagnosis.1",
@@ -14233,6 +14233,24 @@
       "review_status": "reviewed"
     },
     {
+      "id": "primitive:asthma_exacerbation_improved_discharge.home_care.home_care_4.v1",
+      "type": "primitive",
+      "label": "asthma_exacerbation_improved_discharge.home_care.home_care_4.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_4",
+      "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:asthma_exacerbation_improved_discharge.home_care.home_care_5.v1",
+      "type": "primitive",
+      "label": "asthma_exacerbation_improved_discharge.home_care.home_care_5.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_5",
+      "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
       "id": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_1.v1",
       "type": "primitive",
       "label": "asthma_exacerbation_improved_discharge.medications.medication_guidance_1.v1",
@@ -14247,6 +14265,15 @@
       "label": "asthma_exacerbation_improved_discharge.medications.medication_guidance_2.v1",
       "section": "medications",
       "primitive_type": "medication_guidance_2",
+      "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_3.v1",
+      "type": "primitive",
+      "label": "asthma_exacerbation_improved_discharge.medications.medication_guidance_3.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_3",
       "priority": "high",
       "review_status": "reviewed"
     },
@@ -14274,6 +14301,24 @@
       "label": "asthma_exacerbation_improved_discharge.return_precautions.return_precaution_3.v1",
       "section": "return_precautions",
       "primitive_type": "return_precaution_3",
+      "priority": "required",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:asthma_exacerbation_improved_discharge.return_precautions.return_precaution_4.v1",
+      "type": "primitive",
+      "label": "asthma_exacerbation_improved_discharge.return_precautions.return_precaution_4.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_4",
+      "priority": "required",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:asthma_exacerbation_improved_discharge.return_precautions.return_precaution_5.v1",
+      "type": "primitive",
+      "label": "asthma_exacerbation_improved_discharge.return_precautions.return_precaution_5.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_5",
       "priority": "required",
       "review_status": "reviewed"
     },
@@ -27419,12 +27464,27 @@
     {
       "source": "phenotype:asthma_exacerbation_improved_discharge",
       "type": "requires_primitive",
+      "target": "primitive:asthma_exacerbation_improved_discharge.home_care.home_care_4.v1"
+    },
+    {
+      "source": "phenotype:asthma_exacerbation_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:asthma_exacerbation_improved_discharge.home_care.home_care_5.v1"
+    },
+    {
+      "source": "phenotype:asthma_exacerbation_improved_discharge",
+      "type": "requires_primitive",
       "target": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_1.v1"
     },
     {
       "source": "phenotype:asthma_exacerbation_improved_discharge",
       "type": "requires_primitive",
       "target": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:asthma_exacerbation_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_3.v1"
     },
     {
       "source": "phenotype:asthma_exacerbation_improved_discharge",
@@ -27440,6 +27500,16 @@
       "source": "phenotype:asthma_exacerbation_improved_discharge",
       "type": "requires_primitive",
       "target": "primitive:asthma_exacerbation_improved_discharge.return_precautions.return_precaution_3.v1"
+    },
+    {
+      "source": "phenotype:asthma_exacerbation_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:asthma_exacerbation_improved_discharge.return_precautions.return_precaution_4.v1"
+    },
+    {
+      "source": "phenotype:asthma_exacerbation_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:asthma_exacerbation_improved_discharge.return_precautions.return_precaution_5.v1"
     },
     {
       "source": "phenotype:asthma_exacerbation_improved_discharge",
@@ -28872,12 +28942,27 @@
       "target": "source_card:medlineplus.asthma"
     },
     {
+      "source": "primitive:asthma_exacerbation_improved_discharge.home_care.home_care_4.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.asthma"
+    },
+    {
+      "source": "primitive:asthma_exacerbation_improved_discharge.home_care.home_care_5.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.asthma"
+    },
+    {
       "source": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_1.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.asthma"
     },
     {
       "source": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.asthma"
+    },
+    {
+      "source": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_3.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.asthma"
     },
@@ -28893,6 +28978,16 @@
     },
     {
       "source": "primitive:asthma_exacerbation_improved_discharge.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.asthma"
+    },
+    {
+      "source": "primitive:asthma_exacerbation_improved_discharge.return_precautions.return_precaution_4.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.asthma"
+    },
+    {
+      "source": "primitive:asthma_exacerbation_improved_discharge.return_precautions.return_precaution_5.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.asthma"
     },

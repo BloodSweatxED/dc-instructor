@@ -3400,9 +3400,9 @@
     "primitive_type": "diagnosis_summary",
     "priority": "required",
     "text": {
-      "en_4": "You were treated for an asthma flare.",
-      "en_6": "You were treated for an asthma flare.",
-      "en_hl1": "You were treated for an asthma flare."
+      "en_4": "You had an asthma flare-up that made it hard to breathe.",
+      "en_6": "You had an asthma flare-up that made it hard to breathe.",
+      "en_hl1": "You had an asthma flare-up that made it hard to breathe."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -3436,9 +3436,9 @@
     "primitive_type": "reassuring_ed_assessment",
     "priority": "required",
     "text": {
-      "en_4": "Your breathing improved enough for discharge today. Asthma can worsen again, so use the plan you were given closely.",
-      "en_6": "Your breathing improved enough for discharge today. Asthma can worsen again, so use the plan you were given closely.",
-      "en_hl1": "Your breathing improved enough for discharge today. Asthma can worsen again, so use the plan you were given closely."
+      "en_4": "You came to the ED because your asthma got worse. We gave you breathing treatments and steroids. After treatment, you were breathing comfortably on your own and were safe to go home.",
+      "en_6": "You came to the ED because your asthma got worse. We gave you breathing treatments and steroids. After treatment, you were breathing comfortably on your own and were safe to go home.",
+      "en_hl1": "You came to the ED because your asthma got worse. We gave you breathing treatments and steroids. After treatment, you were breathing comfortably on your own and were safe to go home."
     },
     "contraindications": [
       "hypoxia",
@@ -3478,9 +3478,9 @@
     "primitive_type": "home_care_1",
     "priority": "high",
     "text": {
-      "en_4": "Avoid smoke, fumes, and known triggers.",
-      "en_6": "Avoid smoke, fumes, and known triggers.",
-      "en_hl1": "Avoid smoke, fumes, and known triggers."
+      "en_4": "Rest for the next 1-2 days and avoid hard exercise until your breathing feels normal.",
+      "en_6": "Rest for the next 1-2 days and avoid hard exercise until your breathing feels normal.",
+      "en_hl1": "Rest for the next 1-2 days and avoid hard exercise until your breathing feels normal."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -3514,9 +3514,9 @@
     "primitive_type": "home_care_2",
     "priority": "high",
     "text": {
-      "en_4": "Use your spacer if one was prescribed.",
-      "en_6": "Use your spacer if one was prescribed.",
-      "en_hl1": "Use your spacer if one was prescribed."
+      "en_4": "Stay away from things that trigger your asthma, like smoke, strong smells, cold air, and dust.",
+      "en_6": "Stay away from things that trigger your asthma, like smoke, strong smells, cold air, and dust.",
+      "en_hl1": "Stay away from things that trigger your asthma, like smoke, strong smells, cold air, and dust."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -3550,9 +3550,81 @@
     "primitive_type": "home_care_3",
     "priority": "high",
     "text": {
-      "en_4": "Rest and avoid heavy exertion until breathing is back to baseline.",
-      "en_6": "Rest and avoid heavy exertion until breathing is back to baseline.",
-      "en_hl1": "Rest and avoid heavy exertion until breathing is back to baseline."
+      "en_4": "Use your spacer if you have one.",
+      "en_6": "Use your spacer if you have one.",
+      "en_hl1": "Use your spacer if you have one."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
+    },
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
+    }
+  },
+  {
+    "id": "asthma_exacerbation_improved_discharge.home_care.home_care_4.v1",
+    "phenotypes": [
+      "asthma_exacerbation_improved_discharge"
+    ],
+    "section": "home_care",
+    "primitive_type": "home_care_4",
+    "priority": "high",
+    "text": {
+      "en_4": "Start activity slowly as your breathing improves.",
+      "en_6": "Start activity slowly as your breathing improves.",
+      "en_hl1": "Start activity slowly as your breathing improves."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
+    },
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
+    }
+  },
+  {
+    "id": "asthma_exacerbation_improved_discharge.home_care.home_care_5.v1",
+    "phenotypes": [
+      "asthma_exacerbation_improved_discharge"
+    ],
+    "section": "home_care",
+    "primitive_type": "home_care_5",
+    "priority": "high",
+    "text": {
+      "en_4": "Wash your hands and avoid sick contacts when you can.",
+      "en_6": "Wash your hands and avoid sick contacts when you can.",
+      "en_hl1": "Wash your hands and avoid sick contacts when you can."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -3586,9 +3658,9 @@
     "primitive_type": "medication_guidance_1",
     "priority": "high",
     "text": {
-      "en_4": "Use your rescue inhaler exactly as prescribed.",
-      "en_6": "Use your rescue inhaler exactly as prescribed.",
-      "en_hl1": "Use your rescue inhaler exactly as prescribed."
+      "en_4": "Use your rescue inhaler as prescribed.",
+      "en_6": "Use your rescue inhaler as prescribed.",
+      "en_hl1": "Use your rescue inhaler as prescribed."
     },
     "contraindications": [
       "hypoxia",
@@ -3628,9 +3700,51 @@
     "primitive_type": "medication_guidance_2",
     "priority": "high",
     "text": {
-      "en_4": "Take steroids or controller medicines exactly as prescribed.",
-      "en_6": "Take steroids or controller medicines exactly as prescribed.",
-      "en_hl1": "Take steroids or controller medicines exactly as prescribed."
+      "en_4": "Take the steroid course exactly as prescribed.",
+      "en_6": "Take the steroid course exactly as prescribed.",
+      "en_hl1": "Take the steroid course exactly as prescribed."
+    },
+    "contraindications": [
+      "hypoxia",
+      "poor_inhaler_access",
+      "pregnancy",
+      "chest_pain",
+      "frequent_relapse"
+    ],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
+    },
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
+    }
+  },
+  {
+    "id": "asthma_exacerbation_improved_discharge.medications.medication_guidance_3.v1",
+    "phenotypes": [
+      "asthma_exacerbation_improved_discharge"
+    ],
+    "section": "medications",
+    "primitive_type": "medication_guidance_3",
+    "priority": "high",
+    "text": {
+      "en_4": "Do not wait at home if your rescue inhaler is not helping.",
+      "en_6": "Do not wait at home if your rescue inhaler is not helping.",
+      "en_hl1": "Do not wait at home if your rescue inhaler is not helping."
     },
     "contraindications": [
       "hypoxia",
@@ -3670,9 +3784,9 @@
     "primitive_type": "return_precaution_1",
     "priority": "required",
     "text": {
-      "en_4": "Shortness of breath at rest, blue lips, severe wheezing, or trouble speaking full sentences.",
-      "en_6": "Shortness of breath at rest, blue lips, severe wheezing, or trouble speaking full sentences.",
-      "en_hl1": "Shortness of breath at rest, blue lips, severe wheezing, or trouble speaking full sentences."
+      "en_4": "You need your inhaler more often than instructed.",
+      "en_6": "You need your inhaler more often than instructed.",
+      "en_hl1": "You need your inhaler more often than instructed."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -3706,9 +3820,9 @@
     "primitive_type": "return_precaution_2",
     "priority": "required",
     "text": {
-      "en_4": "Rescue inhaler is not helping or you need it much more often than instructed.",
-      "en_6": "Rescue inhaler is not helping or you need it much more often than instructed.",
-      "en_hl1": "Rescue inhaler is not helping or you need it much more often than instructed."
+      "en_4": "Your breathing gets worse or you feel short of breath at rest.",
+      "en_6": "Your breathing gets worse or you feel short of breath at rest.",
+      "en_hl1": "Your breathing gets worse or you feel short of breath at rest."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -3742,9 +3856,81 @@
     "primitive_type": "return_precaution_3",
     "priority": "required",
     "text": {
-      "en_4": "Chest pain, fainting, confusion, or worsening symptoms.",
-      "en_6": "Chest pain, fainting, confusion, or worsening symptoms.",
-      "en_hl1": "Chest pain, fainting, confusion, or worsening symptoms."
+      "en_4": "You cannot speak in full sentences because of shortness of breath.",
+      "en_6": "You cannot speak in full sentences because of shortness of breath.",
+      "en_hl1": "You cannot speak in full sentences because of shortness of breath."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
+    },
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
+    }
+  },
+  {
+    "id": "asthma_exacerbation_improved_discharge.return_precautions.return_precaution_4.v1",
+    "phenotypes": [
+      "asthma_exacerbation_improved_discharge"
+    ],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_4",
+    "priority": "required",
+    "text": {
+      "en_4": "Your lips or fingernails turn blue or gray.",
+      "en_6": "Your lips or fingernails turn blue or gray.",
+      "en_hl1": "Your lips or fingernails turn blue or gray."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
+    },
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
+    }
+  },
+  {
+    "id": "asthma_exacerbation_improved_discharge.return_precautions.return_precaution_5.v1",
+    "phenotypes": [
+      "asthma_exacerbation_improved_discharge"
+    ],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_5",
+    "priority": "required",
+    "text": {
+      "en_4": "You have chest pain, confusion, fainting, or severe sleepiness.",
+      "en_6": "You have chest pain, confusion, fainting, or severe sleepiness.",
+      "en_hl1": "You have chest pain, confusion, fainting, or severe sleepiness."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -3778,9 +3964,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "Follow up with primary care, pulmonology, or asthma clinic as instructed.",
-      "en_6": "Follow up with primary care, pulmonology, or asthma clinic as instructed.",
-      "en_hl1": "Follow up with primary care, pulmonology, or asthma clinic as instructed."
+      "en_4": "See your primary care doctor or asthma clinician within 3-5 days, or sooner if symptoms are not improving.",
+      "en_6": "See your primary care doctor or asthma clinician within 3-5 days, or sooner if symptoms are not improving.",
+      "en_hl1": "See your primary care doctor or asthma clinician within 3-5 days, or sooner if symptoms are not improving."
     },
     "contraindications": [
       "hypoxia",
