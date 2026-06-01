@@ -40,58 +40,66 @@
     {
       "id": "abscess_after_i_and_d",
       "label": "Abscess after incision and drainage",
-      "status": "draft",
-      "review_status": "draft",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
-        "abscess",
         "abscess after i and d",
         "abscess after incision and drainage",
+        "abscess drained",
         "i and d",
         "incision and drainage",
+        "skin abscess drained",
         "skin soft tissue infection"
       ],
       "unsafe_modifiers": [
         "deep_space_location",
         "immunocompromised",
         "packing_required",
-        "recurrent_abscess"
+        "recurrent_abscess",
+        "sepsis",
+        "necrotizing_infection_concern"
       ],
       "source_audit": {
-        "source_supported": false,
-        "source_needed": true,
-        "clinician_judgment_only": true,
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
         "restricted_source_risk": false,
-        "unsafe_without_modifier": true
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports skin abscess symptoms, pus drainage, fever or chills, and need to seek care for new symptoms after treatment."
       }
     },
     {
       "id": "allergic_reaction_resolved_no_anaphylaxis",
       "label": "Allergic reaction resolved, no anaphylaxis",
-      "status": "draft",
-      "review_status": "draft",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
         "allergic reaction",
+        "allergic reaction no anaphylaxis",
         "allergic reaction resolved no anaphylaxis",
         "allergic reaction resolved, no anaphylaxis",
-        "allergy",
         "allergy immunology",
-        "hives"
+        "hives",
+        "urticaria"
       ],
       "unsafe_modifiers": [
         "airway_symptoms",
         "hypotension",
         "epinephrine_given",
         "mucosal_lesions",
-        "unknown_trigger"
+        "unknown_trigger",
+        "anaphylaxis",
+        "biphasic_reaction_concern"
       ],
       "source_audit": {
-        "source_supported": false,
-        "source_needed": true,
-        "clinician_judgment_only": true,
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
         "restricted_source_risk": false,
-        "unsafe_without_modifier": true
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports allergic reaction symptoms, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms."
       }
     },
     {
@@ -279,10 +287,11 @@
     {
       "id": "dental_pain_no_deep_space_infection",
       "label": "Dental pain without deep-space infection",
-      "status": "draft",
-      "review_status": "draft",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
+        "dental infection no deep space infection",
         "dental oral",
         "dental pain",
         "dental pain no deep space infection",
@@ -294,14 +303,18 @@
         "airway_symptoms",
         "deep_space_swelling",
         "immunocompromised",
-        "trismus"
+        "trismus",
+        "fever",
+        "sepsis",
+        "ludwig_angina_concern"
       ],
       "source_audit": {
-        "source_supported": false,
-        "source_needed": true,
-        "clinician_judgment_only": true,
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
         "restricted_source_risk": false,
-        "unsafe_without_modifier": true
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports dental pain causes, need for dental evaluation, and urgent escalation for swelling, fever, trouble swallowing, or trouble breathing."
       }
     },
     {
@@ -344,13 +357,13 @@
     {
       "id": "laceration_repaired_simple",
       "label": "Simple laceration repair",
-      "status": "draft",
-      "review_status": "draft",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
-        "cut",
-        "laceration",
+        "laceration repair",
         "laceration repaired simple",
+        "repaired laceration",
         "simple laceration repair",
         "skin glue",
         "stitches",
@@ -362,14 +375,17 @@
         "hand_tendon_risk",
         "joint_violation",
         "open_fracture",
-        "dirty_wound"
+        "dirty_wound",
+        "neurovascular_compromise",
+        "retained_foreign_body"
       ],
       "source_audit": {
-        "source_supported": false,
-        "source_needed": true,
-        "clinician_judgment_only": true,
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
         "restricted_source_risk": false,
-        "unsafe_without_modifier": true
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports laceration framing, wound infection signs, higher-risk wounds, and deeper structure concerns for tendons, nerves, vessels, or bone."
       }
     },
     {
@@ -506,12 +522,12 @@
     {
       "id": "viral_pharyngitis_strep_negative",
       "label": "Viral pharyngitis, strep negative",
-      "status": "draft",
-      "review_status": "draft",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
         "negative strep",
-        "sore throat",
+        "sore throat strep negative",
         "strep negative",
         "upper respiratory",
         "viral pharyngitis",
@@ -523,14 +539,20 @@
         "trismus",
         "voice_change",
         "airway_symptoms",
-        "immunocompromised"
+        "immunocompromised",
+        "peritonsillar_abscess_concern",
+        "epiglottitis_concern",
+        "mono_complication_concern",
+        "positive_strep_test",
+        "antibiotic_prescribed"
       ],
       "source_audit": {
-        "source_supported": false,
-        "source_needed": true,
-        "clinician_judgment_only": true,
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
         "restricted_source_risk": false,
-        "unsafe_without_modifier": true
+        "unsafe_without_modifier": false,
+        "notes": "CDC supports viral sore throat antibiotic stewardship and group A strep testing distinctions, including not treating viral pharyngitis with antibiotics."
       }
     },
     {

@@ -79,11 +79,10 @@
       "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
-        "abscess",
         "abscess after i and d",
         "i and d"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "fallback_reason": null
     },
     "generator": {
       "missing_red_flags": false,
@@ -103,9 +102,9 @@
         "follow_up": true
       },
       "source_support": {
-        "source_supported": false,
-        "source_needed": true,
-        "review_status": "draft"
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
       }
     },
     "ontology": {
@@ -126,13 +125,13 @@
         "follow_up": true
       },
       "source_support": {
-        "source_supported": false,
-        "source_needed": true,
-        "review_status": "draft"
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
       }
     },
     "clinician_review_target": {
-      "status": "draft",
+      "status": "reviewed",
       "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
     },
     "modifier_handling": {
@@ -140,9 +139,11 @@
         "deep_space_location",
         "immunocompromised",
         "packing_required",
-        "recurrent_abscess"
+        "recurrent_abscess",
+        "sepsis",
+        "necrotizing_infection_concern"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "fallback_reason": null
     }
   },
   {
@@ -155,7 +156,7 @@
         "allergic reaction",
         "allergic reaction resolved no anaphylaxis"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "fallback_reason": null
     },
     "generator": {
       "missing_red_flags": false,
@@ -175,9 +176,9 @@
         "follow_up": true
       },
       "source_support": {
-        "source_supported": false,
-        "source_needed": true,
-        "review_status": "draft"
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
       }
     },
     "ontology": {
@@ -198,13 +199,13 @@
         "follow_up": true
       },
       "source_support": {
-        "source_supported": false,
-        "source_needed": true,
-        "review_status": "draft"
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
       }
     },
     "clinician_review_target": {
-      "status": "draft",
+      "status": "reviewed",
       "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
     },
     "modifier_handling": {
@@ -213,9 +214,11 @@
         "hypotension",
         "epinephrine_given",
         "mucosal_lesions",
-        "unknown_trigger"
+        "unknown_trigger",
+        "anaphylaxis",
+        "biphasic_reaction_concern"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "fallback_reason": null
     }
   },
   {
@@ -668,7 +671,7 @@
         "dental pain",
         "dental pain no deep space infection"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "fallback_reason": null
     },
     "generator": {
       "missing_red_flags": false,
@@ -688,9 +691,9 @@
         "follow_up": true
       },
       "source_support": {
-        "source_supported": false,
-        "source_needed": true,
-        "review_status": "draft"
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
       }
     },
     "ontology": {
@@ -711,13 +714,13 @@
         "follow_up": true
       },
       "source_support": {
-        "source_supported": false,
-        "source_needed": true,
-        "review_status": "draft"
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
       }
     },
     "clinician_review_target": {
-      "status": "draft",
+      "status": "reviewed",
       "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
     },
     "modifier_handling": {
@@ -725,9 +728,12 @@
         "airway_symptoms",
         "deep_space_swelling",
         "immunocompromised",
-        "trismus"
+        "trismus",
+        "fever",
+        "sepsis",
+        "ludwig_angina_concern"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "fallback_reason": null
     }
   },
   {
@@ -815,10 +821,10 @@
       "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
-        "laceration",
+        "laceration repair",
         "laceration repaired simple"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "fallback_reason": null
     },
     "generator": {
       "missing_red_flags": false,
@@ -838,9 +844,9 @@
         "follow_up": true
       },
       "source_support": {
-        "source_supported": false,
-        "source_needed": true,
-        "review_status": "draft"
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
       }
     },
     "ontology": {
@@ -861,13 +867,13 @@
         "follow_up": true
       },
       "source_support": {
-        "source_supported": false,
-        "source_needed": true,
-        "review_status": "draft"
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
       }
     },
     "clinician_review_target": {
-      "status": "draft",
+      "status": "reviewed",
       "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
     },
     "modifier_handling": {
@@ -876,9 +882,11 @@
         "hand_tendon_risk",
         "joint_violation",
         "open_fracture",
-        "dirty_wound"
+        "dirty_wound",
+        "neurovascular_compromise",
+        "retained_foreign_body"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "fallback_reason": null
     }
   },
   {
@@ -1196,7 +1204,7 @@
         "viral pharyngitis",
         "viral pharyngitis strep negative"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "fallback_reason": null
     },
     "generator": {
       "missing_red_flags": false,
@@ -1216,9 +1224,9 @@
         "follow_up": true
       },
       "source_support": {
-        "source_supported": false,
-        "source_needed": true,
-        "review_status": "draft"
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
       }
     },
     "ontology": {
@@ -1239,13 +1247,13 @@
         "follow_up": true
       },
       "source_support": {
-        "source_supported": false,
-        "source_needed": true,
-        "review_status": "draft"
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
       }
     },
     "clinician_review_target": {
-      "status": "draft",
+      "status": "reviewed",
       "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
     },
     "modifier_handling": {
@@ -1254,9 +1262,14 @@
         "trismus",
         "voice_change",
         "airway_symptoms",
-        "immunocompromised"
+        "immunocompromised",
+        "peritonsillar_abscess_concern",
+        "epiglottitis_concern",
+        "mono_complication_concern",
+        "positive_strep_test",
+        "antibiotic_prescribed"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "fallback_reason": null
     }
   },
   {

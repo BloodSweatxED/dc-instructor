@@ -1,6 +1,6 @@
 # DC Instructor Ontology Phase 10 Readiness
 
-Status: draft infrastructure complete. Six narrow phenotypes are now reviewed and runtime-enabled.
+Status: draft infrastructure complete. Eleven narrow phenotypes are now reviewed and runtime-enabled.
 
 ## What Exists
 
@@ -48,11 +48,16 @@ Ontology mode is blocked unless all are true:
 Current reviewed phenotypes:
 
 - `ankle_sprain_xray_negative.v1`
-- `lumbar_strain_no_red_flags.v1`
-- `viral_uri_no_pneumonia.v1`
-- `uncomplicated_cystitis_nonpregnant.v1`
-- `gastroenteritis_stable_hydrating.v1`
+- `abscess_after_i_and_d.v1`
+- `allergic_reaction_resolved_no_anaphylaxis.v1`
 - `cellulitis_uncomplicated_oral_antibiotics.v1`
+- `dental_pain_no_deep_space_infection.v1`
+- `gastroenteritis_stable_hydrating.v1`
+- `laceration_repaired_simple.v1`
+- `lumbar_strain_no_red_flags.v1`
+- `uncomplicated_cystitis_nonpregnant.v1`
+- `viral_pharyngitis_strep_negative.v1`
+- `viral_uri_no_pneumonia.v1`
 
 If any gate fails, runtime uses the existing generator path and emits metadata:
 

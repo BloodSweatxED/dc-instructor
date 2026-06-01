@@ -1,7 +1,7 @@
 {
   "id": "viral_pharyngitis_strep_negative",
   "label": "Viral pharyngitis, strep negative",
-  "status": "draft",
+  "status": "reviewed",
   "condition_family": "upper_respiratory",
   "inclusion_criteria": [
     "Sore throat with negative strep testing and no deep neck infection signs."
@@ -40,18 +40,23 @@
     "viral_pharyngitis_strep_negative.return_precautions.return_precaution_3.v1",
     "viral_pharyngitis_strep_negative.follow_up.default_follow_up.v1"
   ],
-  "source_card_ids": [],
+  "source_card_ids": [
+    "cdc.sore_throat_basics",
+    "cdc.group_a_strep_pharyngitis"
+  ],
   "source_audit": {
-    "source_supported": false,
-    "source_needed": true,
-    "clinician_judgment_only": true,
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
     "restricted_source_risk": false,
-    "unsafe_without_modifier": true
+    "unsafe_without_modifier": false,
+    "notes": "CDC supports viral sore throat antibiotic stewardship and group A strep testing distinctions, including not treating viral pharyngitis with antibiotics."
   },
   "runtime": {
     "condition_terms": [
+      "viral pharyngitis strep negative",
       "viral pharyngitis",
-      "sore throat",
+      "sore throat strep negative",
       "strep negative",
       "negative strep"
     ],
@@ -60,16 +65,43 @@
       "trismus",
       "voice_change",
       "airway_symptoms",
-      "immunocompromised"
+      "immunocompromised",
+      "peritonsillar_abscess_concern",
+      "epiglottitis_concern",
+      "mono_complication_concern",
+      "positive_strep_test",
+      "antibiotic_prescribed"
     ],
     "minimum_confidence": 0.86,
-    "mode": "draft_only_until_reviewed"
+    "mode": "reviewed_ontology_enabled"
   },
   "version": 1,
   "review": {
-    "status": "draft",
-    "reviewer": null,
-    "last_reviewed": null,
-    "notes": "Expanded ontology draft pack. Not clinician-reviewed. Runtime should fall back unless explicitly enabled for review."
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. CDC supports viral sore throat antibiotic stewardship and group A strep testing distinctions, including not treating viral pharyngitis with antibiotics.",
+    "clinical_status": "reviewed_for_limited_strep_negative_viral_pharyngitis_use",
+    "required_modifiers": [
+      "negative strep evaluation",
+      "no deep neck infection signs",
+      "no antibiotic prescribed"
+    ],
+    "blocked_modifiers": [
+      "drooling",
+      "trismus",
+      "voice_change",
+      "airway_symptoms",
+      "immunocompromised",
+      "peritonsillar_abscess_concern",
+      "epiglottitis_concern",
+      "mono_complication_concern",
+      "positive_strep_test",
+      "antibiotic_prescribed"
+    ]
   }
 }

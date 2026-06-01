@@ -13,7 +13,9 @@
     "ed_note": "Patient reports urinary retention and saddle anesthesia.",
     "expected_phenotype_id": "lumbar_strain_no_red_flags",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["cauda_equina_concern"]
+    "expected_exclusions": [
+      "cauda_equina_concern"
+    ]
   },
   {
     "id": "lumbar_infection_blocks",
@@ -21,7 +23,10 @@
     "ed_note": "Fever with back pain and injection drug use.",
     "expected_phenotype_id": "lumbar_strain_no_red_flags",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["fever", "spinal_infection_concern"]
+    "expected_exclusions": [
+      "fever",
+      "spinal_infection_concern"
+    ]
   },
   {
     "id": "lumbar_vague_fallback",
@@ -44,7 +49,9 @@
     "ed_note": "Chest x-ray shows pneumonia.",
     "expected_phenotype_id": "viral_uri_no_pneumonia",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["pneumonia"]
+    "expected_exclusions": [
+      "pneumonia"
+    ]
   },
   {
     "id": "viral_uri_hypoxia_blocks",
@@ -52,7 +59,9 @@
     "ed_note": "Patient is hypoxic with oxygen saturation 89.",
     "expected_phenotype_id": "viral_uri_no_pneumonia",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["hypoxia"]
+    "expected_exclusions": [
+      "hypoxia"
+    ]
   },
   {
     "id": "viral_uri_vague_fallback",
@@ -75,7 +84,9 @@
     "ed_note": "Patient is pregnant.",
     "expected_phenotype_id": "uncomplicated_cystitis_nonpregnant",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["pregnancy"]
+    "expected_exclusions": [
+      "pregnancy"
+    ]
   },
   {
     "id": "cystitis_pyelo_blocks",
@@ -83,7 +94,11 @@
     "ed_note": "Patient has fever and flank pain with vomiting.",
     "expected_phenotype_id": "uncomplicated_cystitis_nonpregnant",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["fever", "flank_pain", "vomiting_unable_to_take_meds"]
+    "expected_exclusions": [
+      "fever",
+      "flank_pain",
+      "vomiting_unable_to_take_meds"
+    ]
   },
   {
     "id": "cystitis_vague_fallback",
@@ -106,7 +121,9 @@
     "ed_note": "Patient reports bloody stool and black stool.",
     "expected_phenotype_id": "gastroenteritis_stable_hydrating",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["gi_bleeding"]
+    "expected_exclusions": [
+      "gi_bleeding"
+    ]
   },
   {
     "id": "gastro_unable_fluids_blocks",
@@ -114,7 +131,9 @@
     "ed_note": "Patient cannot keep fluids down and failed PO challenge.",
     "expected_phenotype_id": "gastroenteritis_stable_hydrating",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["unable_to_tolerate_oral_fluids"]
+    "expected_exclusions": [
+      "unable_to_tolerate_oral_fluids"
+    ]
   },
   {
     "id": "gastro_vague_fallback",
@@ -137,7 +156,9 @@
     "ed_note": "Skin infection after dog bite.",
     "expected_phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["bite_wound"]
+    "expected_exclusions": [
+      "bite_wound"
+    ]
   },
   {
     "id": "cellulitis_rapid_progression_blocks",
@@ -145,12 +166,191 @@
     "ed_note": "Redness is rapidly spreading with pain out of proportion.",
     "expected_phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["rapid_progression", "necrotizing_infection_concern"]
+    "expected_exclusions": [
+      "rapid_progression",
+      "necrotizing_infection_concern"
+    ]
   },
   {
     "id": "cellulitis_vague_fallback",
     "condition": "rash",
     "ed_note": "Rash without a final bacterial diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "abscess_clean_exact",
+    "condition": "abscess_after_i_and_d",
+    "ed_note": "Skin abscess was drained in the ED. No fever. No sepsis. No deep space location. Discharged with wound care instructions.",
+    "expected_phenotype_id": "abscess_after_i_and_d",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "abscess_deep_space_blocks",
+    "condition": "abscess_after_i_and_d",
+    "ed_note": "Hand abscess with deep space concern.",
+    "expected_phenotype_id": "abscess_after_i_and_d",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "deep_space_location"
+    ]
+  },
+  {
+    "id": "abscess_immunocompromised_blocks",
+    "condition": "abscess_after_i_and_d",
+    "ed_note": "Patient is immunocompromised after chemotherapy.",
+    "expected_phenotype_id": "abscess_after_i_and_d",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "immunocompromised"
+    ]
+  },
+  {
+    "id": "abscess_vague_fallback",
+    "condition": "skin bump",
+    "ed_note": "Bump on skin without confirmed abscess or drainage.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "laceration_clean_exact",
+    "condition": "laceration_repaired_simple",
+    "ed_note": "Simple forearm laceration repaired with sutures. No tendon injury. No nerve injury. No joint involvement. No bite wound.",
+    "expected_phenotype_id": "laceration_repaired_simple",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "laceration_bite_blocks",
+    "condition": "laceration_repaired_simple",
+    "ed_note": "Laceration from dog bite.",
+    "expected_phenotype_id": "laceration_repaired_simple",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "bite_wound"
+    ]
+  },
+  {
+    "id": "laceration_tendon_blocks",
+    "condition": "laceration_repaired_simple",
+    "ed_note": "Finger laceration and cannot extend finger. Tendon injury concern.",
+    "expected_phenotype_id": "laceration_repaired_simple",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "hand_tendon_risk"
+    ]
+  },
+  {
+    "id": "laceration_vague_fallback",
+    "condition": "wound",
+    "ed_note": "Wound without confirmed repair details.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "pharyngitis_clean_exact",
+    "condition": "viral_pharyngitis_strep_negative",
+    "ed_note": "Sore throat with negative strep test. No drooling. No trismus. No voice change. No antibiotics prescribed.",
+    "expected_phenotype_id": "viral_pharyngitis_strep_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "pharyngitis_drooling_blocks",
+    "condition": "viral_pharyngitis_strep_negative",
+    "ed_note": "Patient has drooling and cannot handle secretions.",
+    "expected_phenotype_id": "viral_pharyngitis_strep_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "drooling"
+    ]
+  },
+  {
+    "id": "pharyngitis_positive_strep_blocks",
+    "condition": "viral_pharyngitis_strep_negative",
+    "ed_note": "Positive rapid strep test.",
+    "expected_phenotype_id": "viral_pharyngitis_strep_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "positive_strep_test"
+    ]
+  },
+  {
+    "id": "pharyngitis_vague_fallback",
+    "condition": "sore throat",
+    "ed_note": "Sore throat without documented negative strep evaluation.",
+    "expected_phenotype_id": "viral_pharyngitis_strep_negative",
+    "expected_fallback_reason": "low_confidence"
+  },
+  {
+    "id": "dental_clean_exact",
+    "condition": "dental_pain_no_deep_space_infection",
+    "ed_note": "Dental pain. No facial swelling. No trismus. No fever. No trouble swallowing. No airway symptoms. Dental follow-up advised.",
+    "expected_phenotype_id": "dental_pain_no_deep_space_infection",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "dental_trismus_blocks",
+    "condition": "dental_pain_no_deep_space_infection",
+    "ed_note": "Tooth pain with trismus and jaw swelling.",
+    "expected_phenotype_id": "dental_pain_no_deep_space_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "trismus",
+      "deep_space_swelling"
+    ]
+  },
+  {
+    "id": "dental_airway_blocks",
+    "condition": "dental_pain_no_deep_space_infection",
+    "ed_note": "Tooth pain with trouble breathing and trouble swallowing.",
+    "expected_phenotype_id": "dental_pain_no_deep_space_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms"
+    ]
+  },
+  {
+    "id": "dental_vague_fallback",
+    "condition": "mouth pain",
+    "ed_note": "Mouth discomfort without confirmed tooth source.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "allergy_clean_exact",
+    "condition": "allergic_reaction_resolved_no_anaphylaxis",
+    "ed_note": "Hives improved after treatment. No trouble breathing. No throat swelling. No hypotension. No epinephrine given.",
+    "expected_phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "allergy_airway_blocks",
+    "condition": "allergic_reaction_resolved_no_anaphylaxis",
+    "ed_note": "Allergic reaction with throat swelling and trouble breathing.",
+    "expected_phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms"
+    ]
+  },
+  {
+    "id": "allergy_epinephrine_blocks",
+    "condition": "allergic_reaction_resolved_no_anaphylaxis",
+    "ed_note": "Epinephrine given before arrival.",
+    "expected_phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "epinephrine_given"
+    ]
+  },
+  {
+    "id": "allergy_vague_fallback",
+    "condition": "itching",
+    "ed_note": "Itching without a confirmed allergy diagnosis.",
     "expected_phenotype_id": null,
     "expected_fallback_reason": "no_supported_phenotype_match"
   }

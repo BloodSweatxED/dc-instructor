@@ -15,7 +15,14 @@ PRIMITIVE_PATH = ROOT / "primitives" / "expanded_draft_packs.json"
 REVIEWER = "Andre / EM clinician-owner"
 REVIEWER_ROLE = "Emergency Medicine physician"
 REVIEW_DATE = "2026-06-01"
-REVIEWED_PACK_IDS = {"cellulitis_uncomplicated_oral_antibiotics"}
+REVIEWED_PACK_IDS = {
+    "abscess_after_i_and_d",
+    "allergic_reaction_resolved_no_anaphylaxis",
+    "cellulitis_uncomplicated_oral_antibiotics",
+    "dental_pain_no_deep_space_infection",
+    "laceration_repaired_simple",
+    "viral_pharyngitis_strep_negative",
+}
 
 
 PACKS: list[dict[str, Any]] = [
@@ -40,7 +47,8 @@ PACKS: list[dict[str, Any]] = [
         "id": "abscess_after_i_and_d",
         "label": "Abscess after incision and drainage",
         "family": "skin_soft_tissue_infection",
-        "condition_terms": ["abscess", "i and d", "incision and drainage"],
+        "condition_terms": ["abscess after i and d", "abscess after incision and drainage", "abscess drained", "skin abscess drained", "i and d", "incision and drainage"],
+        "source_card_ids": ["medlineplus.skin_abscess"],
         "summary": "You had an abscess drained today.",
         "found": "The painful swollen area had pus inside. It was opened and drained, which is the main treatment.",
         "home": ["Keep the dressing clean and dry.", "Wash your hands before and after wound care.", "Do not squeeze or dig into the wound."],
@@ -56,7 +64,8 @@ PACKS: list[dict[str, Any]] = [
         "id": "laceration_repaired_simple",
         "label": "Simple laceration repair",
         "family": "wound_care",
-        "condition_terms": ["laceration", "cut", "stitches", "sutures", "skin glue"],
+        "condition_terms": ["laceration repaired simple", "simple laceration repair", "laceration repair", "repaired laceration", "stitches", "sutures", "skin glue"],
+        "source_card_ids": ["medlineplus.cuts_puncture_wounds"],
         "summary": "Your cut was cleaned and repaired today.",
         "found": "We checked the wound and repaired it because it was safe to close. No emergency complication was found during today's exam.",
         "home": ["Keep the wound clean and dry today.", "After the first day, gentle soap and water is usually okay unless told otherwise.", "Do not soak the wound until it is healed."],
@@ -120,7 +129,8 @@ PACKS: list[dict[str, Any]] = [
         "id": "dental_pain_no_deep_space_infection",
         "label": "Dental pain without deep-space infection",
         "family": "dental_oral",
-        "condition_terms": ["dental pain", "tooth pain", "toothache"],
+        "condition_terms": ["dental pain no deep space infection", "dental pain", "tooth pain", "toothache", "dental infection no deep space infection"],
+        "source_card_ids": ["medlineplus.toothaches"],
         "summary": "You were treated for dental pain today.",
         "found": "Your exam did not show signs of a dangerous deep infection in the face, jaw, or neck today.",
         "home": ["Keep the mouth clean with gentle brushing.", "Avoid chewing on the painful side.", "A dentist must treat the tooth problem for it to fully resolve."],
@@ -136,7 +146,8 @@ PACKS: list[dict[str, Any]] = [
         "id": "viral_pharyngitis_strep_negative",
         "label": "Viral pharyngitis, strep negative",
         "family": "upper_respiratory",
-        "condition_terms": ["viral pharyngitis", "sore throat", "strep negative", "negative strep"],
+        "condition_terms": ["viral pharyngitis strep negative", "viral pharyngitis", "sore throat strep negative", "strep negative", "negative strep"],
+        "source_card_ids": ["cdc.sore_throat_basics", "cdc.group_a_strep_pharyngitis"],
         "summary": "Your sore throat is most consistent with a viral infection.",
         "found": "Your strep test was negative. Your exam did not show signs of a dangerous throat or neck infection today.",
         "home": ["Drink fluids.", "Try warm liquids, honey if safe for you, or throat lozenges.", "Avoid sharing cups and wash your hands often."],
@@ -168,7 +179,8 @@ PACKS: list[dict[str, Any]] = [
         "id": "allergic_reaction_resolved_no_anaphylaxis",
         "label": "Allergic reaction resolved, no anaphylaxis",
         "family": "allergy_immunology",
-        "condition_terms": ["allergic reaction", "allergy", "hives"],
+        "condition_terms": ["allergic reaction resolved no anaphylaxis", "allergic reaction no anaphylaxis", "allergic reaction", "hives", "urticaria"],
+        "source_card_ids": ["medlineplus.allergic_reactions"],
         "summary": "You were treated for an allergic reaction.",
         "found": "Your symptoms improved, and we did not find signs of anaphylaxis at discharge today.",
         "home": ["Avoid the trigger if it is known.", "Watch for symptoms returning after you leave.", "Do not drive or drink alcohol after sedating allergy medicines."],

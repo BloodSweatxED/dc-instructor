@@ -1,7 +1,7 @@
 {
   "id": "laceration_repaired_simple",
   "label": "Simple laceration repair",
-  "status": "draft",
+  "status": "reviewed",
   "condition_family": "wound_care",
   "inclusion_criteria": [
     "Simple repaired laceration with no tendon, nerve, vessel, joint, or open fracture concern."
@@ -39,18 +39,23 @@
     "laceration_repaired_simple.return_precautions.return_precaution_3.v1",
     "laceration_repaired_simple.follow_up.default_follow_up.v1"
   ],
-  "source_card_ids": [],
+  "source_card_ids": [
+    "medlineplus.cuts_puncture_wounds"
+  ],
   "source_audit": {
-    "source_supported": false,
-    "source_needed": true,
-    "clinician_judgment_only": true,
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
     "restricted_source_risk": false,
-    "unsafe_without_modifier": true
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports laceration framing, wound infection signs, higher-risk wounds, and deeper structure concerns for tendons, nerves, vessels, or bone."
   },
   "runtime": {
     "condition_terms": [
-      "laceration",
-      "cut",
+      "laceration repaired simple",
+      "simple laceration repair",
+      "laceration repair",
+      "repaired laceration",
       "stitches",
       "sutures",
       "skin glue"
@@ -60,16 +65,37 @@
       "hand_tendon_risk",
       "joint_violation",
       "open_fracture",
-      "dirty_wound"
+      "dirty_wound",
+      "neurovascular_compromise",
+      "retained_foreign_body"
     ],
     "minimum_confidence": 0.86,
-    "mode": "draft_only_until_reviewed"
+    "mode": "reviewed_ontology_enabled"
   },
   "version": 1,
   "review": {
-    "status": "draft",
-    "reviewer": null,
-    "last_reviewed": null,
-    "notes": "Expanded ontology draft pack. Not clinician-reviewed. Runtime should fall back unless explicitly enabled for review."
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports laceration framing, wound infection signs, higher-risk wounds, and deeper structure concerns for tendons, nerves, vessels, or bone.",
+    "clinical_status": "reviewed_for_limited_simple_repaired_laceration_use",
+    "required_modifiers": [
+      "simple repaired wound",
+      "no tendon nerve vessel joint or open fracture concern",
+      "wound care plan given"
+    ],
+    "blocked_modifiers": [
+      "bite_wound",
+      "hand_tendon_risk",
+      "joint_violation",
+      "open_fracture",
+      "dirty_wound",
+      "neurovascular_compromise",
+      "retained_foreign_body"
+    ]
   }
 }

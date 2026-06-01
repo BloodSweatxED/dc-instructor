@@ -15,6 +15,22 @@ REVIEW_DATE = "2026-06-01"
 REVIEW_DIR = ROOT / "review_sheets"
 
 PROMOTIONS: dict[str, dict[str, Any]] = {
+    "abscess_after_i_and_d": {
+        "primitive_file": ROOT / "primitives" / "expanded_draft_packs.json",
+        "condition_terms": ["abscess after i and d", "abscess after incision and drainage", "abscess drained", "skin abscess drained", "i and d", "incision and drainage"],
+        "unsafe_modifiers": ["deep_space_location", "immunocompromised", "packing_required", "recurrent_abscess", "sepsis", "necrotizing_infection_concern"],
+        "source_audit_notes": "MedlinePlus supports skin abscess symptoms, pus drainage, fever or chills, and need to seek care for new symptoms after treatment.",
+        "clinical_status": "reviewed_for_limited_abscess_after_ed_drainage_use",
+        "required_modifiers": ["abscess drained", "safe discharge plan", "no deep-space location", "no sepsis"],
+    },
+    "allergic_reaction_resolved_no_anaphylaxis": {
+        "primitive_file": ROOT / "primitives" / "expanded_draft_packs.json",
+        "condition_terms": ["allergic reaction resolved no anaphylaxis", "allergic reaction no anaphylaxis", "allergic reaction", "hives", "urticaria"],
+        "unsafe_modifiers": ["airway_symptoms", "hypotension", "epinephrine_given", "mucosal_lesions", "unknown_trigger", "anaphylaxis", "biphasic_reaction_concern"],
+        "source_audit_notes": "MedlinePlus supports allergic reaction symptoms, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms.",
+        "clinical_status": "reviewed_for_limited_resolved_allergic_reaction_without_anaphylaxis_use",
+        "required_modifiers": ["symptoms improved or resolved", "no anaphylaxis", "no airway swelling", "no hypotension"],
+    },
     "lumbar_strain_no_red_flags": {
         "primitive_file": ROOT / "primitives" / "back_pain.json",
         "condition_terms": [
@@ -125,6 +141,30 @@ PROMOTIONS: dict[str, dict[str, Any]] = {
         "source_audit_notes": "MedlinePlus and CDC support cellulitis treatment framing, antibiotic use when clinically indicated, and escalation for worsening or severe infection.",
         "clinical_status": "reviewed_for_limited_uncomplicated_outpatient_cellulitis_use",
         "required_modifiers": ["localized infection", "outpatient antibiotics prescribed", "no sepsis", "no necrotizing infection concern", "no high-risk location"],
+    },
+    "dental_pain_no_deep_space_infection": {
+        "primitive_file": ROOT / "primitives" / "expanded_draft_packs.json",
+        "condition_terms": ["dental pain no deep space infection", "dental pain", "tooth pain", "toothache", "dental infection no deep space infection"],
+        "unsafe_modifiers": ["airway_symptoms", "deep_space_swelling", "immunocompromised", "trismus", "fever", "sepsis", "ludwig_angina_concern"],
+        "source_audit_notes": "MedlinePlus supports dental pain causes, need for dental evaluation, and urgent escalation for swelling, fever, trouble swallowing, or trouble breathing.",
+        "clinical_status": "reviewed_for_limited_dental_pain_without_deep_space_infection_use",
+        "required_modifiers": ["no airway symptoms", "no deep-space swelling", "dental follow-up needed"],
+    },
+    "laceration_repaired_simple": {
+        "primitive_file": ROOT / "primitives" / "expanded_draft_packs.json",
+        "condition_terms": ["laceration repaired simple", "simple laceration repair", "laceration repair", "repaired laceration", "stitches", "sutures", "skin glue"],
+        "unsafe_modifiers": ["bite_wound", "hand_tendon_risk", "joint_violation", "open_fracture", "dirty_wound", "neurovascular_compromise", "retained_foreign_body"],
+        "source_audit_notes": "MedlinePlus supports laceration framing, wound infection signs, higher-risk wounds, and deeper structure concerns for tendons, nerves, vessels, or bone.",
+        "clinical_status": "reviewed_for_limited_simple_repaired_laceration_use",
+        "required_modifiers": ["simple repaired wound", "no tendon nerve vessel joint or open fracture concern", "wound care plan given"],
+    },
+    "viral_pharyngitis_strep_negative": {
+        "primitive_file": ROOT / "primitives" / "expanded_draft_packs.json",
+        "condition_terms": ["viral pharyngitis strep negative", "viral pharyngitis", "sore throat strep negative", "strep negative", "negative strep"],
+        "unsafe_modifiers": ["drooling", "trismus", "voice_change", "airway_symptoms", "immunocompromised", "peritonsillar_abscess_concern", "epiglottitis_concern", "mono_complication_concern", "positive_strep_test", "antibiotic_prescribed"],
+        "source_audit_notes": "CDC supports viral sore throat antibiotic stewardship and group A strep testing distinctions, including not treating viral pharyngitis with antibiotics.",
+        "clinical_status": "reviewed_for_limited_strep_negative_viral_pharyngitis_use",
+        "required_modifiers": ["negative strep evaluation", "no deep neck infection signs", "no antibiotic prescribed"],
     },
 }
 

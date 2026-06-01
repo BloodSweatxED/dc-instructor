@@ -444,19 +444,26 @@
       "en_hl1": "You had an abscess drained today."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.skin_abscess"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports skin abscess symptoms, pus drainage, fever or chills, and need to seek care for new symptoms after treatment."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -478,19 +485,26 @@
       "packing_required",
       "recurrent_abscess"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.skin_abscess"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports skin abscess symptoms, pus drainage, fever or chills, and need to seek care for new symptoms after treatment."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -507,19 +521,26 @@
       "en_hl1": "Keep the dressing clean and dry."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.skin_abscess"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports skin abscess symptoms, pus drainage, fever or chills, and need to seek care for new symptoms after treatment."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -536,19 +557,26 @@
       "en_hl1": "Wash your hands before and after wound care."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.skin_abscess"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports skin abscess symptoms, pus drainage, fever or chills, and need to seek care for new symptoms after treatment."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -565,19 +593,26 @@
       "en_hl1": "Do not squeeze or dig into the wound."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.skin_abscess"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports skin abscess symptoms, pus drainage, fever or chills, and need to seek care for new symptoms after treatment."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -599,19 +634,26 @@
       "packing_required",
       "recurrent_abscess"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.skin_abscess"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports skin abscess symptoms, pus drainage, fever or chills, and need to seek care for new symptoms after treatment."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -633,19 +675,26 @@
       "packing_required",
       "recurrent_abscess"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.skin_abscess"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports skin abscess symptoms, pus drainage, fever or chills, and need to seek care for new symptoms after treatment."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -662,19 +711,26 @@
       "en_hl1": "Fever, spreading redness, red streaks, or worsening swelling."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.skin_abscess"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports skin abscess symptoms, pus drainage, fever or chills, and need to seek care for new symptoms after treatment."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -691,19 +747,26 @@
       "en_hl1": "Severe pain, numbness, or bleeding that will not stop."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.skin_abscess"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports skin abscess symptoms, pus drainage, fever or chills, and need to seek care for new symptoms after treatment."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -720,19 +783,26 @@
       "en_hl1": "Packing falls out early and you were told it must stay in."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.skin_abscess"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports skin abscess symptoms, pus drainage, fever or chills, and need to seek care for new symptoms after treatment."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -754,19 +824,26 @@
       "packing_required",
       "recurrent_abscess"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.skin_abscess"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports skin abscess symptoms, pus drainage, fever or chills, and need to seek care for new symptoms after treatment."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -783,19 +860,26 @@
       "en_hl1": "Your cut was cleaned and repaired today."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports laceration framing, wound infection signs, higher-risk wounds, and deeper structure concerns for tendons, nerves, vessels, or bone."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -818,19 +902,26 @@
       "open_fracture",
       "dirty_wound"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports laceration framing, wound infection signs, higher-risk wounds, and deeper structure concerns for tendons, nerves, vessels, or bone."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -847,19 +938,26 @@
       "en_hl1": "Keep the wound clean and dry today."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports laceration framing, wound infection signs, higher-risk wounds, and deeper structure concerns for tendons, nerves, vessels, or bone."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -876,19 +974,26 @@
       "en_hl1": "After the first day, gentle soap and water is usually okay unless told otherwise."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports laceration framing, wound infection signs, higher-risk wounds, and deeper structure concerns for tendons, nerves, vessels, or bone."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -905,19 +1010,26 @@
       "en_hl1": "Do not soak the wound until it is healed."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports laceration framing, wound infection signs, higher-risk wounds, and deeper structure concerns for tendons, nerves, vessels, or bone."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -940,19 +1052,26 @@
       "open_fracture",
       "dirty_wound"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports laceration framing, wound infection signs, higher-risk wounds, and deeper structure concerns for tendons, nerves, vessels, or bone."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -975,19 +1094,26 @@
       "open_fracture",
       "dirty_wound"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports laceration framing, wound infection signs, higher-risk wounds, and deeper structure concerns for tendons, nerves, vessels, or bone."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1004,19 +1130,26 @@
       "en_hl1": "Fever, pus, spreading redness, red streaks, or worsening swelling."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports laceration framing, wound infection signs, higher-risk wounds, and deeper structure concerns for tendons, nerves, vessels, or bone."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1033,19 +1166,26 @@
       "en_hl1": "Bleeding that will not stop with firm pressure."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports laceration framing, wound infection signs, higher-risk wounds, and deeper structure concerns for tendons, nerves, vessels, or bone."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1062,19 +1202,26 @@
       "en_hl1": "New numbness, weakness, color change, or the wound opens."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports laceration framing, wound infection signs, higher-risk wounds, and deeper structure concerns for tendons, nerves, vessels, or bone."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1097,19 +1244,26 @@
       "open_fracture",
       "dirty_wound"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports laceration framing, wound infection signs, higher-risk wounds, and deeper structure concerns for tendons, nerves, vessels, or bone."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2151,19 +2305,26 @@
       "en_hl1": "You were treated for dental pain today."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.toothaches"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports dental pain causes, need for dental evaluation, and urgent escalation for swelling, fever, trouble swallowing, or trouble breathing."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2185,19 +2346,26 @@
       "immunocompromised",
       "trismus"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.toothaches"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports dental pain causes, need for dental evaluation, and urgent escalation for swelling, fever, trouble swallowing, or trouble breathing."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2214,19 +2382,26 @@
       "en_hl1": "Keep the mouth clean with gentle brushing."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.toothaches"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports dental pain causes, need for dental evaluation, and urgent escalation for swelling, fever, trouble swallowing, or trouble breathing."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2243,19 +2418,26 @@
       "en_hl1": "Avoid chewing on the painful side."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.toothaches"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports dental pain causes, need for dental evaluation, and urgent escalation for swelling, fever, trouble swallowing, or trouble breathing."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2272,19 +2454,26 @@
       "en_hl1": "A dentist must treat the tooth problem for it to fully resolve."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.toothaches"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports dental pain causes, need for dental evaluation, and urgent escalation for swelling, fever, trouble swallowing, or trouble breathing."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2306,19 +2495,26 @@
       "immunocompromised",
       "trismus"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.toothaches"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports dental pain causes, need for dental evaluation, and urgent escalation for swelling, fever, trouble swallowing, or trouble breathing."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2340,19 +2536,26 @@
       "immunocompromised",
       "trismus"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.toothaches"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports dental pain causes, need for dental evaluation, and urgent escalation for swelling, fever, trouble swallowing, or trouble breathing."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2369,19 +2572,26 @@
       "en_hl1": "Face or neck swelling, fever, trouble swallowing, drooling, voice change, or trouble breathing."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.toothaches"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports dental pain causes, need for dental evaluation, and urgent escalation for swelling, fever, trouble swallowing, or trouble breathing."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2398,19 +2608,26 @@
       "en_hl1": "You cannot open your mouth normally."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.toothaches"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports dental pain causes, need for dental evaluation, and urgent escalation for swelling, fever, trouble swallowing, or trouble breathing."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2427,19 +2644,26 @@
       "en_hl1": "Pain or swelling spreads quickly."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.toothaches"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports dental pain causes, need for dental evaluation, and urgent escalation for swelling, fever, trouble swallowing, or trouble breathing."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2461,19 +2685,26 @@
       "immunocompromised",
       "trismus"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.toothaches"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports dental pain causes, need for dental evaluation, and urgent escalation for swelling, fever, trouble swallowing, or trouble breathing."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2490,19 +2721,27 @@
       "en_hl1": "Your sore throat is most consistent with a viral infection."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.sore_throat_basics",
+      "cdc.group_a_strep_pharyngitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC supports viral sore throat antibiotic stewardship and group A strep testing distinctions, including not treating viral pharyngitis with antibiotics."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2525,19 +2764,27 @@
       "airway_symptoms",
       "immunocompromised"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.sore_throat_basics",
+      "cdc.group_a_strep_pharyngitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "CDC supports viral sore throat antibiotic stewardship and group A strep testing distinctions, including not treating viral pharyngitis with antibiotics."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2554,19 +2801,27 @@
       "en_hl1": "Drink fluids."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.sore_throat_basics",
+      "cdc.group_a_strep_pharyngitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC supports viral sore throat antibiotic stewardship and group A strep testing distinctions, including not treating viral pharyngitis with antibiotics."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2583,19 +2838,27 @@
       "en_hl1": "Try warm liquids, honey if safe for you, or throat lozenges."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.sore_throat_basics",
+      "cdc.group_a_strep_pharyngitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC supports viral sore throat antibiotic stewardship and group A strep testing distinctions, including not treating viral pharyngitis with antibiotics."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2612,19 +2875,27 @@
       "en_hl1": "Avoid sharing cups and wash your hands often."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.sore_throat_basics",
+      "cdc.group_a_strep_pharyngitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC supports viral sore throat antibiotic stewardship and group A strep testing distinctions, including not treating viral pharyngitis with antibiotics."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2647,19 +2918,27 @@
       "airway_symptoms",
       "immunocompromised"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.sore_throat_basics",
+      "cdc.group_a_strep_pharyngitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "CDC supports viral sore throat antibiotic stewardship and group A strep testing distinctions, including not treating viral pharyngitis with antibiotics."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2682,19 +2961,27 @@
       "airway_symptoms",
       "immunocompromised"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.sore_throat_basics",
+      "cdc.group_a_strep_pharyngitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "CDC supports viral sore throat antibiotic stewardship and group A strep testing distinctions, including not treating viral pharyngitis with antibiotics."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2711,19 +2998,27 @@
       "en_hl1": "Trouble breathing, drooling, muffled voice, stiff neck, or trouble opening your mouth."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.sore_throat_basics",
+      "cdc.group_a_strep_pharyngitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC supports viral sore throat antibiotic stewardship and group A strep testing distinctions, including not treating viral pharyngitis with antibiotics."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2740,19 +3035,27 @@
       "en_hl1": "You cannot swallow fluids."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.sore_throat_basics",
+      "cdc.group_a_strep_pharyngitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC supports viral sore throat antibiotic stewardship and group A strep testing distinctions, including not treating viral pharyngitis with antibiotics."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2769,19 +3072,27 @@
       "en_hl1": "Fever or throat pain becomes much worse."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.sore_throat_basics",
+      "cdc.group_a_strep_pharyngitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC supports viral sore throat antibiotic stewardship and group A strep testing distinctions, including not treating viral pharyngitis with antibiotics."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2804,19 +3115,27 @@
       "airway_symptoms",
       "immunocompromised"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.sore_throat_basics",
+      "cdc.group_a_strep_pharyngitis"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "CDC supports viral sore throat antibiotic stewardship and group A strep testing distinctions, including not treating viral pharyngitis with antibiotics."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3176,19 +3495,26 @@
       "en_hl1": "You were treated for an allergic reaction."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.allergic_reactions"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports allergic reaction symptoms, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3211,19 +3537,26 @@
       "mucosal_lesions",
       "unknown_trigger"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.allergic_reactions"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports allergic reaction symptoms, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3240,19 +3573,26 @@
       "en_hl1": "Avoid the trigger if it is known."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.allergic_reactions"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports allergic reaction symptoms, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3269,19 +3609,26 @@
       "en_hl1": "Watch for symptoms returning after you leave."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.allergic_reactions"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports allergic reaction symptoms, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3298,19 +3645,26 @@
       "en_hl1": "Do not drive or drink alcohol after sedating allergy medicines."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.allergic_reactions"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports allergic reaction symptoms, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3333,19 +3687,26 @@
       "mucosal_lesions",
       "unknown_trigger"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.allergic_reactions"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports allergic reaction symptoms, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3368,19 +3729,26 @@
       "mucosal_lesions",
       "unknown_trigger"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.allergic_reactions"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports allergic reaction symptoms, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3397,19 +3765,26 @@
       "en_hl1": "Trouble breathing, wheezing, throat tightness, tongue or lip swelling, fainting, or severe vomiting."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.allergic_reactions"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports allergic reaction symptoms, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3426,19 +3801,26 @@
       "en_hl1": "Rash or swelling returns quickly or spreads."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.allergic_reactions"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports allergic reaction symptoms, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3455,19 +3837,26 @@
       "en_hl1": "You use epinephrine."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.allergic_reactions"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports allergic reaction symptoms, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3490,19 +3879,26 @@
       "mucosal_lesions",
       "unknown_trigger"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.allergic_reactions"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports allergic reaction symptoms, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {

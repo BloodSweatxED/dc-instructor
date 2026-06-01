@@ -398,5 +398,302 @@
       "modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
+  },
+  {
+    "case_id": "abscess_clean_exact",
+    "passed": true,
+    "result": {
+      "phenotype_id": "abscess_after_i_and_d",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "abscess after i and d",
+        "i and d"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "abscess_deep_space_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "abscess_after_i_and_d",
+      "confidence": 0.78,
+      "exclusions": [
+        "deep_space_location"
+      ],
+      "modifiers": [
+        "abscess after i and d",
+        "i and d"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "abscess_immunocompromised_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "abscess_after_i_and_d",
+      "confidence": 0.78,
+      "exclusions": [
+        "immunocompromised"
+      ],
+      "modifiers": [
+        "abscess after i and d",
+        "i and d"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "abscess_vague_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "laceration_clean_exact",
+    "passed": true,
+    "result": {
+      "phenotype_id": "laceration_repaired_simple",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "laceration repair",
+        "laceration repaired simple",
+        "sutures"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "laceration_bite_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "laceration_repaired_simple",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound"
+      ],
+      "modifiers": [
+        "laceration repair",
+        "laceration repaired simple"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "laceration_tendon_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "laceration_repaired_simple",
+      "confidence": 0.78,
+      "exclusions": [
+        "hand_tendon_risk"
+      ],
+      "modifiers": [
+        "laceration repair",
+        "laceration repaired simple"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "laceration_vague_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "pharyngitis_clean_exact",
+    "passed": true,
+    "result": {
+      "phenotype_id": "viral_pharyngitis_strep_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "negative strep",
+        "strep negative",
+        "viral pharyngitis",
+        "viral pharyngitis strep negative"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "pharyngitis_drooling_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "viral_pharyngitis_strep_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "drooling"
+      ],
+      "modifiers": [
+        "strep negative",
+        "viral pharyngitis",
+        "viral pharyngitis strep negative"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "pharyngitis_positive_strep_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "viral_pharyngitis_strep_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "positive_strep_test"
+      ],
+      "modifiers": [
+        "strep negative",
+        "viral pharyngitis",
+        "viral pharyngitis strep negative"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "pharyngitis_vague_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "viral_pharyngitis_strep_negative",
+      "confidence": 0.6,
+      "exclusions": [],
+      "modifiers": [
+        "negative strep"
+      ],
+      "fallback_reason": "low_confidence"
+    }
+  },
+  {
+    "case_id": "dental_clean_exact",
+    "passed": true,
+    "result": {
+      "phenotype_id": "dental_pain_no_deep_space_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "dental pain",
+        "dental pain no deep space infection"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "dental_trismus_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "dental_pain_no_deep_space_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "deep_space_swelling",
+        "trismus"
+      ],
+      "modifiers": [
+        "dental pain",
+        "dental pain no deep space infection",
+        "tooth pain"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "dental_airway_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "dental_pain_no_deep_space_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms"
+      ],
+      "modifiers": [
+        "dental pain",
+        "dental pain no deep space infection",
+        "tooth pain"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "dental_vague_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "allergy_clean_exact",
+    "passed": true,
+    "result": {
+      "phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "allergic reaction",
+        "allergic reaction resolved no anaphylaxis",
+        "hives"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "allergy_airway_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms"
+      ],
+      "modifiers": [
+        "allergic reaction",
+        "allergic reaction resolved no anaphylaxis"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "allergy_epinephrine_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "epinephrine_given"
+      ],
+      "modifiers": [
+        "allergic reaction",
+        "allergic reaction resolved no anaphylaxis"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "allergy_vague_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
   }
 ]

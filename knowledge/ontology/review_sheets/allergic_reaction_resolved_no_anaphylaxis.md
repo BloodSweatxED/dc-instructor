@@ -2,7 +2,7 @@
 
 Phenotype ID: `allergic_reaction_resolved_no_anaphylaxis`
 
-Status: `draft`
+Status: `reviewed`
 
 ## Inclusion Criteria
 
@@ -24,17 +24,17 @@ Status: `draft`
 
 ## Primitive List
 
-- `allergic_reaction_resolved_no_anaphylaxis.diagnosis.diagnosis_summary.v1` | `diagnosis` | audit: source_needed, clinician_judgment_only | unsafe modifiers: none
-- `allergic_reaction_resolved_no_anaphylaxis.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_needed, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: airway_symptoms, hypotension, epinephrine_given, mucosal_lesions, unknown_trigger
-- `allergic_reaction_resolved_no_anaphylaxis.home_care.home_care_1.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
-- `allergic_reaction_resolved_no_anaphylaxis.home_care.home_care_2.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
-- `allergic_reaction_resolved_no_anaphylaxis.home_care.home_care_3.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
-- `allergic_reaction_resolved_no_anaphylaxis.medications.medication_guidance_1.v1` | `medications` | audit: source_needed, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: airway_symptoms, hypotension, epinephrine_given, mucosal_lesions, unknown_trigger
-- `allergic_reaction_resolved_no_anaphylaxis.medications.medication_guidance_2.v1` | `medications` | audit: source_needed, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: airway_symptoms, hypotension, epinephrine_given, mucosal_lesions, unknown_trigger
-- `allergic_reaction_resolved_no_anaphylaxis.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_needed, clinician_judgment_only | unsafe modifiers: none
-- `allergic_reaction_resolved_no_anaphylaxis.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_needed, clinician_judgment_only | unsafe modifiers: none
-- `allergic_reaction_resolved_no_anaphylaxis.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_needed, clinician_judgment_only | unsafe modifiers: none
-- `allergic_reaction_resolved_no_anaphylaxis.follow_up.default_follow_up.v1` | `follow_up` | audit: source_needed, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: airway_symptoms, hypotension, epinephrine_given, mucosal_lesions, unknown_trigger
+- `allergic_reaction_resolved_no_anaphylaxis.diagnosis.diagnosis_summary.v1` | `diagnosis` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
+- `allergic_reaction_resolved_no_anaphylaxis.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: airway_symptoms, hypotension, epinephrine_given, mucosal_lesions, unknown_trigger
+- `allergic_reaction_resolved_no_anaphylaxis.home_care.home_care_1.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
+- `allergic_reaction_resolved_no_anaphylaxis.home_care.home_care_2.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
+- `allergic_reaction_resolved_no_anaphylaxis.home_care.home_care_3.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
+- `allergic_reaction_resolved_no_anaphylaxis.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: airway_symptoms, hypotension, epinephrine_given, mucosal_lesions, unknown_trigger
+- `allergic_reaction_resolved_no_anaphylaxis.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: airway_symptoms, hypotension, epinephrine_given, mucosal_lesions, unknown_trigger
+- `allergic_reaction_resolved_no_anaphylaxis.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
+- `allergic_reaction_resolved_no_anaphylaxis.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
+- `allergic_reaction_resolved_no_anaphylaxis.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
+- `allergic_reaction_resolved_no_anaphylaxis.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: airway_symptoms, hypotension, epinephrine_given, mucosal_lesions, unknown_trigger
 
 ## Assembled Six-Section Output
 
