@@ -16672,9 +16672,9 @@
         "id": "phenotype:asthma_exacerbation_improved_discharge",
         "type": "phenotype",
         "label": "Asthma exacerbation improved for discharge",
-        "status": "draft",
+        "status": "reviewed",
         "condition_family": "respiratory",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -16702,9 +16702,9 @@
         "id": "phenotype:community_acquired_pneumonia_outpatient",
         "type": "phenotype",
         "label": "Community-acquired pneumonia, outpatient",
-        "status": "draft",
+        "status": "reviewed",
         "condition_family": "respiratory_infection",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -16712,9 +16712,9 @@
         "id": "phenotype:concussion_discharge_no_imaging_red_flags",
         "type": "phenotype",
         "label": "Concussion discharge without imaging red flags",
-        "status": "draft",
+        "status": "reviewed",
         "condition_family": "head_injury",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -16762,9 +16762,9 @@
         "id": "phenotype:minor_head_injury_no_red_flags",
         "type": "phenotype",
         "label": "Minor head injury without red flags",
-        "status": "draft",
+        "status": "reviewed",
         "condition_family": "head_injury",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -16772,9 +16772,9 @@
         "id": "phenotype:renal_colic_stable_no_infection",
         "type": "phenotype",
         "label": "Renal colic, stable, no infection concern",
-        "status": "draft",
+        "status": "reviewed",
         "condition_family": "genitourinary",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17544,7 +17544,7 @@
         "section": "diagnosis",
         "primitive_type": "diagnosis_summary",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17555,7 +17555,7 @@
         "section": "follow_up",
         "primitive_type": "default_follow_up",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17566,7 +17566,7 @@
         "section": "home_care",
         "primitive_type": "home_care_1",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17577,7 +17577,7 @@
         "section": "home_care",
         "primitive_type": "home_care_2",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17588,7 +17588,7 @@
         "section": "home_care",
         "primitive_type": "home_care_3",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17599,7 +17599,7 @@
         "section": "medications",
         "primitive_type": "medication_guidance_1",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17610,7 +17610,7 @@
         "section": "medications",
         "primitive_type": "medication_guidance_2",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17621,7 +17621,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_1",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17632,7 +17632,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_2",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17643,7 +17643,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_3",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -17654,7 +17654,7 @@
         "section": "what_we_found",
         "primitive_type": "reassuring_ed_assessment",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18028,7 +18028,7 @@
         "section": "diagnosis",
         "primitive_type": "diagnosis_summary",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18039,7 +18039,7 @@
         "section": "follow_up",
         "primitive_type": "default_follow_up",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18050,7 +18050,7 @@
         "section": "home_care",
         "primitive_type": "home_care_1",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18061,7 +18061,7 @@
         "section": "home_care",
         "primitive_type": "home_care_2",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18072,7 +18072,7 @@
         "section": "home_care",
         "primitive_type": "home_care_3",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18083,7 +18083,7 @@
         "section": "medications",
         "primitive_type": "medication_guidance_1",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18094,7 +18094,7 @@
         "section": "medications",
         "primitive_type": "medication_guidance_2",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18105,7 +18105,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_1",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18116,7 +18116,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_2",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18127,7 +18127,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_3",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18138,7 +18138,7 @@
         "section": "what_we_found",
         "primitive_type": "reassuring_ed_assessment",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18149,7 +18149,7 @@
         "section": "diagnosis",
         "primitive_type": "diagnosis_summary",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18160,7 +18160,7 @@
         "section": "follow_up",
         "primitive_type": "default_follow_up",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18171,7 +18171,7 @@
         "section": "home_care",
         "primitive_type": "home_care_1",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18182,7 +18182,7 @@
         "section": "home_care",
         "primitive_type": "home_care_2",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18193,7 +18193,7 @@
         "section": "home_care",
         "primitive_type": "home_care_3",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18204,7 +18204,7 @@
         "section": "medications",
         "primitive_type": "medication_guidance_1",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18215,7 +18215,7 @@
         "section": "medications",
         "primitive_type": "medication_guidance_2",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18226,7 +18226,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_1",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18237,7 +18237,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_2",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18248,7 +18248,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_3",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18259,7 +18259,7 @@
         "section": "what_we_found",
         "primitive_type": "reassuring_ed_assessment",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18710,7 +18710,7 @@
         "section": "diagnosis",
         "primitive_type": "diagnosis_summary",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18721,7 +18721,7 @@
         "section": "follow_up",
         "primitive_type": "default_follow_up",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18732,7 +18732,7 @@
         "section": "home_care",
         "primitive_type": "home_care_1",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18743,7 +18743,7 @@
         "section": "home_care",
         "primitive_type": "home_care_2",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18754,7 +18754,7 @@
         "section": "home_care",
         "primitive_type": "home_care_3",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18765,7 +18765,7 @@
         "section": "medications",
         "primitive_type": "medication_guidance_1",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18776,7 +18776,7 @@
         "section": "medications",
         "primitive_type": "medication_guidance_2",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18787,7 +18787,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_1",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18798,7 +18798,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_2",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18809,7 +18809,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_3",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18820,7 +18820,7 @@
         "section": "what_we_found",
         "primitive_type": "reassuring_ed_assessment",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18831,7 +18831,7 @@
         "section": "diagnosis",
         "primitive_type": "diagnosis_summary",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18842,7 +18842,7 @@
         "section": "follow_up",
         "primitive_type": "default_follow_up",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18853,7 +18853,7 @@
         "section": "home_care",
         "primitive_type": "home_care_1",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18864,7 +18864,7 @@
         "section": "home_care",
         "primitive_type": "home_care_2",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18875,7 +18875,7 @@
         "section": "home_care",
         "primitive_type": "home_care_3",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18886,7 +18886,7 @@
         "section": "medications",
         "primitive_type": "medication_guidance_1",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18897,7 +18897,7 @@
         "section": "medications",
         "primitive_type": "medication_guidance_2",
         "priority": "high",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18908,7 +18908,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_1",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18919,7 +18919,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_2",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18930,7 +18930,7 @@
         "section": "return_precautions",
         "primitive_type": "return_precaution_3",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -18941,7 +18941,7 @@
         "section": "what_we_found",
         "primitive_type": "reassuring_ed_assessment",
         "priority": "required",
-        "review_status": "draft"
+        "review_status": "reviewed"
       }
     },
     {
@@ -19240,6 +19240,17 @@
     },
     {
       "data": {
+        "id": "source_card:cdc.antibiotic_use_adult_outpatient",
+        "type": "source_card",
+        "label": "Outpatient Clinical Care for Adults",
+        "source": "CDC",
+        "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
+        "use_policy": "evidence_support",
+        "source_type": "government_guidance"
+      }
+    },
+    {
+      "data": {
         "id": "source_card:cdc.group_a_strep_cellulitis",
         "type": "source_card",
         "label": "Clinical Guidance for Group A Streptococcal Cellulitis",
@@ -19256,6 +19267,39 @@
         "label": "Clinical Guidance for Group A Streptococcal Pharyngitis",
         "source": "CDC",
         "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html",
+        "use_policy": "evidence_support",
+        "source_type": "government_guidance"
+      }
+    },
+    {
+      "data": {
+        "id": "source_card:cdc.heads_up_concussion_symptoms",
+        "type": "source_card",
+        "label": "Signs and Symptoms of Concussion",
+        "source": "CDC HEADS UP",
+        "url": "https://www.cdc.gov/heads-up/signs-symptoms/index.html",
+        "use_policy": "evidence_support",
+        "source_type": "government_guidance"
+      }
+    },
+    {
+      "data": {
+        "id": "source_card:cdc.mild_tbi_aftercare",
+        "type": "source_card",
+        "label": "What to Do After a Mild TBI or Concussion",
+        "source": "CDC",
+        "url": "https://www.cdc.gov/traumatic-brain-injury/response/index.html",
+        "use_policy": "evidence_support",
+        "source_type": "government_guidance"
+      }
+    },
+    {
+      "data": {
+        "id": "source_card:cdc.pneumonia_about",
+        "type": "source_card",
+        "label": "About Pneumonia",
+        "source": "CDC",
+        "url": "https://www.cdc.gov/pneumonia/about/index.html",
         "use_policy": "evidence_support",
         "source_type": "government_guidance"
       }
@@ -19306,6 +19350,17 @@
     },
     {
       "data": {
+        "id": "source_card:medlineplus.asthma",
+        "type": "source_card",
+        "label": "Asthma",
+        "source": "MedlinePlus",
+        "url": "https://medlineplus.gov/asthma.html",
+        "use_policy": "evidence_support",
+        "source_type": "public_patient_education"
+      }
+    },
+    {
+      "data": {
         "id": "source_card:medlineplus.cellulitis",
         "type": "source_card",
         "label": "Cellulitis",
@@ -19344,6 +19399,17 @@
         "label": "When you have diarrhea",
         "source": "MedlinePlus",
         "url": "https://medlineplus.gov/ency/patientinstructions/000121.htm",
+        "use_policy": "evidence_support",
+        "source_type": "public_patient_education"
+      }
+    },
+    {
+      "data": {
+        "id": "source_card:medlineplus.kidney_stones_self_care",
+        "type": "source_card",
+        "label": "Kidney stones - self-care",
+        "source": "MedlinePlus",
+        "url": "https://medlineplus.gov/ency/patientinstructions/000135.htm",
         "use_policy": "evidence_support",
         "source_type": "public_patient_education"
       }
@@ -39671,6 +39737,94 @@
     {
       "data": {
         "id": "edge:2394",
+        "source": "primitive:asthma_exacerbation_improved_discharge.diagnosis.diagnosis_summary.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.asthma"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2395",
+        "source": "primitive:asthma_exacerbation_improved_discharge.follow_up.default_follow_up.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.asthma"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2396",
+        "source": "primitive:asthma_exacerbation_improved_discharge.home_care.home_care_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.asthma"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2397",
+        "source": "primitive:asthma_exacerbation_improved_discharge.home_care.home_care_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.asthma"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2398",
+        "source": "primitive:asthma_exacerbation_improved_discharge.home_care.home_care_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.asthma"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2399",
+        "source": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.asthma"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2400",
+        "source": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.asthma"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2401",
+        "source": "primitive:asthma_exacerbation_improved_discharge.return_precautions.return_precaution_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.asthma"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2402",
+        "source": "primitive:asthma_exacerbation_improved_discharge.return_precautions.return_precaution_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.asthma"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2403",
+        "source": "primitive:asthma_exacerbation_improved_discharge.return_precautions.return_precaution_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.asthma"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2404",
+        "source": "primitive:asthma_exacerbation_improved_discharge.what_we_found.reassuring_ed_assessment.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.asthma"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2405",
         "source": "primitive:back_pain.diagnosis.lumbar_strain.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.low_back_pain_acute"
@@ -39678,7 +39832,7 @@
     },
     {
       "data": {
-        "id": "edge:2395",
+        "id": "edge:2406",
         "source": "primitive:back_pain.follow_up.primary_care.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.low_back_pain_acute"
@@ -39686,7 +39840,7 @@
     },
     {
       "data": {
-        "id": "edge:2396",
+        "id": "edge:2407",
         "source": "primitive:back_pain.home_care.activity.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.low_back_pain_acute"
@@ -39694,7 +39848,7 @@
     },
     {
       "data": {
-        "id": "edge:2397",
+        "id": "edge:2408",
         "source": "primitive:back_pain.home_care.ice_heat.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.low_back_pain_acute"
@@ -39702,7 +39856,7 @@
     },
     {
       "data": {
-        "id": "edge:2398",
+        "id": "edge:2409",
         "source": "primitive:back_pain.home_care.lifting.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.low_back_pain_acute"
@@ -39710,7 +39864,7 @@
     },
     {
       "data": {
-        "id": "edge:2399",
+        "id": "edge:2410",
         "source": "primitive:back_pain.home_care.sleep_sitting.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.low_back_pain_acute"
@@ -39718,7 +39872,7 @@
     },
     {
       "data": {
-        "id": "edge:2400",
+        "id": "edge:2411",
         "source": "primitive:back_pain.medications.acetaminophen.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.low_back_pain_acute"
@@ -39726,7 +39880,7 @@
     },
     {
       "data": {
-        "id": "edge:2401",
+        "id": "edge:2412",
         "source": "primitive:back_pain.medications.nsaid_caution.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.low_back_pain_acute"
@@ -39734,7 +39888,7 @@
     },
     {
       "data": {
-        "id": "edge:2402",
+        "id": "edge:2413",
         "source": "primitive:back_pain.return_precautions.cauda_equina.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.low_back_pain_acute"
@@ -39742,7 +39896,7 @@
     },
     {
       "data": {
-        "id": "edge:2403",
+        "id": "edge:2414",
         "source": "primitive:back_pain.return_precautions.cauda_equina.v1",
         "type": "supported_by_source",
         "target": "source_card:wikem.low_back_pain"
@@ -39750,7 +39904,7 @@
     },
     {
       "data": {
-        "id": "edge:2404",
+        "id": "edge:2415",
         "source": "primitive:back_pain.return_precautions.neuro_fever_trauma.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.low_back_pain_acute"
@@ -39758,7 +39912,7 @@
     },
     {
       "data": {
-        "id": "edge:2405",
+        "id": "edge:2416",
         "source": "primitive:back_pain.return_precautions.neuro_fever_trauma.v1",
         "type": "supported_by_source",
         "target": "source_card:wikem.low_back_pain"
@@ -39766,7 +39920,7 @@
     },
     {
       "data": {
-        "id": "edge:2406",
+        "id": "edge:2417",
         "source": "primitive:back_pain.what_we_found.reassuring_exam.v1",
         "type": "supported_by_source",
         "target": "source_card:wikem.low_back_pain"
@@ -39774,111 +39928,111 @@
     },
     {
       "data": {
-        "id": "edge:2407",
-        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.diagnosis.diagnosis_summary.v1",
-        "type": "supported_by_source",
-        "target": "source_card:cdc.group_a_strep_cellulitis"
-      }
-    },
-    {
-      "data": {
-        "id": "edge:2408",
-        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.diagnosis.diagnosis_summary.v1",
-        "type": "supported_by_source",
-        "target": "source_card:medlineplus.cellulitis"
-      }
-    },
-    {
-      "data": {
-        "id": "edge:2409",
-        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.follow_up.default_follow_up.v1",
-        "type": "supported_by_source",
-        "target": "source_card:cdc.group_a_strep_cellulitis"
-      }
-    },
-    {
-      "data": {
-        "id": "edge:2410",
-        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.follow_up.default_follow_up.v1",
-        "type": "supported_by_source",
-        "target": "source_card:medlineplus.cellulitis"
-      }
-    },
-    {
-      "data": {
-        "id": "edge:2411",
-        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_1.v1",
-        "type": "supported_by_source",
-        "target": "source_card:cdc.group_a_strep_cellulitis"
-      }
-    },
-    {
-      "data": {
-        "id": "edge:2412",
-        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_1.v1",
-        "type": "supported_by_source",
-        "target": "source_card:medlineplus.cellulitis"
-      }
-    },
-    {
-      "data": {
-        "id": "edge:2413",
-        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_2.v1",
-        "type": "supported_by_source",
-        "target": "source_card:cdc.group_a_strep_cellulitis"
-      }
-    },
-    {
-      "data": {
-        "id": "edge:2414",
-        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_2.v1",
-        "type": "supported_by_source",
-        "target": "source_card:medlineplus.cellulitis"
-      }
-    },
-    {
-      "data": {
-        "id": "edge:2415",
-        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_3.v1",
-        "type": "supported_by_source",
-        "target": "source_card:cdc.group_a_strep_cellulitis"
-      }
-    },
-    {
-      "data": {
-        "id": "edge:2416",
-        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_3.v1",
-        "type": "supported_by_source",
-        "target": "source_card:medlineplus.cellulitis"
-      }
-    },
-    {
-      "data": {
-        "id": "edge:2417",
-        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.medications.medication_guidance_1.v1",
-        "type": "supported_by_source",
-        "target": "source_card:cdc.group_a_strep_cellulitis"
-      }
-    },
-    {
-      "data": {
         "id": "edge:2418",
-        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.medications.medication_guidance_1.v1",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.diagnosis.diagnosis_summary.v1",
         "type": "supported_by_source",
-        "target": "source_card:medlineplus.cellulitis"
+        "target": "source_card:cdc.group_a_strep_cellulitis"
       }
     },
     {
       "data": {
         "id": "edge:2419",
-        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.medications.medication_guidance_2.v1",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.diagnosis.diagnosis_summary.v1",
         "type": "supported_by_source",
-        "target": "source_card:cdc.group_a_strep_cellulitis"
+        "target": "source_card:medlineplus.cellulitis"
       }
     },
     {
       "data": {
         "id": "edge:2420",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.follow_up.default_follow_up.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.group_a_strep_cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2421",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.follow_up.default_follow_up.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2422",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.group_a_strep_cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2423",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2424",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.group_a_strep_cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2425",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2426",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.group_a_strep_cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2427",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.home_care.home_care_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2428",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.medications.medication_guidance_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.group_a_strep_cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2429",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.medications.medication_guidance_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2430",
+        "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.medications.medication_guidance_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.group_a_strep_cellulitis"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2431",
         "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.medications.medication_guidance_2.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.cellulitis"
@@ -39886,7 +40040,7 @@
     },
     {
       "data": {
-        "id": "edge:2421",
+        "id": "edge:2432",
         "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_1.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.group_a_strep_cellulitis"
@@ -39894,7 +40048,7 @@
     },
     {
       "data": {
-        "id": "edge:2422",
+        "id": "edge:2433",
         "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_1.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.cellulitis"
@@ -39902,7 +40056,7 @@
     },
     {
       "data": {
-        "id": "edge:2423",
+        "id": "edge:2434",
         "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_2.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.group_a_strep_cellulitis"
@@ -39910,7 +40064,7 @@
     },
     {
       "data": {
-        "id": "edge:2424",
+        "id": "edge:2435",
         "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_2.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.cellulitis"
@@ -39918,7 +40072,7 @@
     },
     {
       "data": {
-        "id": "edge:2425",
+        "id": "edge:2436",
         "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_3.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.group_a_strep_cellulitis"
@@ -39926,7 +40080,7 @@
     },
     {
       "data": {
-        "id": "edge:2426",
+        "id": "edge:2437",
         "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_3.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.cellulitis"
@@ -39934,7 +40088,7 @@
     },
     {
       "data": {
-        "id": "edge:2427",
+        "id": "edge:2438",
         "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.what_we_found.reassuring_ed_assessment.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.group_a_strep_cellulitis"
@@ -39942,7 +40096,7 @@
     },
     {
       "data": {
-        "id": "edge:2428",
+        "id": "edge:2439",
         "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.what_we_found.reassuring_ed_assessment.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.cellulitis"
@@ -39950,7 +40104,359 @@
     },
     {
       "data": {
-        "id": "edge:2429",
+        "id": "edge:2440",
+        "source": "primitive:community_acquired_pneumonia_outpatient.diagnosis.diagnosis_summary.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2441",
+        "source": "primitive:community_acquired_pneumonia_outpatient.diagnosis.diagnosis_summary.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.pneumonia_about"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2442",
+        "source": "primitive:community_acquired_pneumonia_outpatient.follow_up.default_follow_up.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2443",
+        "source": "primitive:community_acquired_pneumonia_outpatient.follow_up.default_follow_up.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.pneumonia_about"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2444",
+        "source": "primitive:community_acquired_pneumonia_outpatient.home_care.home_care_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2445",
+        "source": "primitive:community_acquired_pneumonia_outpatient.home_care.home_care_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.pneumonia_about"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2446",
+        "source": "primitive:community_acquired_pneumonia_outpatient.home_care.home_care_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2447",
+        "source": "primitive:community_acquired_pneumonia_outpatient.home_care.home_care_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.pneumonia_about"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2448",
+        "source": "primitive:community_acquired_pneumonia_outpatient.home_care.home_care_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2449",
+        "source": "primitive:community_acquired_pneumonia_outpatient.home_care.home_care_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.pneumonia_about"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2450",
+        "source": "primitive:community_acquired_pneumonia_outpatient.medications.medication_guidance_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2451",
+        "source": "primitive:community_acquired_pneumonia_outpatient.medications.medication_guidance_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.pneumonia_about"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2452",
+        "source": "primitive:community_acquired_pneumonia_outpatient.medications.medication_guidance_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2453",
+        "source": "primitive:community_acquired_pneumonia_outpatient.medications.medication_guidance_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.pneumonia_about"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2454",
+        "source": "primitive:community_acquired_pneumonia_outpatient.return_precautions.return_precaution_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2455",
+        "source": "primitive:community_acquired_pneumonia_outpatient.return_precautions.return_precaution_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.pneumonia_about"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2456",
+        "source": "primitive:community_acquired_pneumonia_outpatient.return_precautions.return_precaution_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2457",
+        "source": "primitive:community_acquired_pneumonia_outpatient.return_precautions.return_precaution_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.pneumonia_about"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2458",
+        "source": "primitive:community_acquired_pneumonia_outpatient.return_precautions.return_precaution_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2459",
+        "source": "primitive:community_acquired_pneumonia_outpatient.return_precautions.return_precaution_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.pneumonia_about"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2460",
+        "source": "primitive:community_acquired_pneumonia_outpatient.what_we_found.reassuring_ed_assessment.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2461",
+        "source": "primitive:community_acquired_pneumonia_outpatient.what_we_found.reassuring_ed_assessment.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.pneumonia_about"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2462",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.diagnosis.diagnosis_summary.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2463",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.diagnosis.diagnosis_summary.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2464",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.follow_up.default_follow_up.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2465",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.follow_up.default_follow_up.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2466",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.home_care.home_care_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2467",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.home_care.home_care_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2468",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.home_care.home_care_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2469",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.home_care.home_care_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2470",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.home_care.home_care_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2471",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.home_care.home_care_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2472",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.medications.medication_guidance_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2473",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.medications.medication_guidance_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2474",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.medications.medication_guidance_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2475",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.medications.medication_guidance_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2476",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.return_precautions.return_precaution_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2477",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.return_precautions.return_precaution_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2478",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.return_precautions.return_precaution_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2479",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.return_precautions.return_precaution_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2480",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.return_precautions.return_precaution_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2481",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.return_precautions.return_precaution_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2482",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.what_we_found.reassuring_ed_assessment.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2483",
+        "source": "primitive:concussion_discharge_no_imaging_red_flags.what_we_found.reassuring_ed_assessment.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2484",
         "source": "primitive:cystitis.diagnosis.uncomplicated.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.uti_basics"
@@ -39958,7 +40464,7 @@
     },
     {
       "data": {
-        "id": "edge:2430",
+        "id": "edge:2485",
         "source": "primitive:cystitis.diagnosis.uncomplicated.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.uti_self_care"
@@ -39966,7 +40472,7 @@
     },
     {
       "data": {
-        "id": "edge:2431",
+        "id": "edge:2486",
         "source": "primitive:cystitis.follow_up.recheck.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.uti_self_care"
@@ -39974,7 +40480,7 @@
     },
     {
       "data": {
-        "id": "edge:2432",
+        "id": "edge:2487",
         "source": "primitive:cystitis.home_care.culture_callback.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.uti_basics"
@@ -39982,7 +40488,7 @@
     },
     {
       "data": {
-        "id": "edge:2433",
+        "id": "edge:2488",
         "source": "primitive:cystitis.home_care.fluids_irritants.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.uti_self_care"
@@ -39990,7 +40496,7 @@
     },
     {
       "data": {
-        "id": "edge:2434",
+        "id": "edge:2489",
         "source": "primitive:cystitis.medications.antibiotics_complete.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.uti_basics"
@@ -39998,7 +40504,7 @@
     },
     {
       "data": {
-        "id": "edge:2435",
+        "id": "edge:2490",
         "source": "primitive:cystitis.medications.antibiotics_complete.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.uti_self_care"
@@ -40006,7 +40512,7 @@
     },
     {
       "data": {
-        "id": "edge:2436",
+        "id": "edge:2491",
         "source": "primitive:cystitis.medications.symptom_medicine_caution.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.uti_self_care"
@@ -40014,7 +40520,7 @@
     },
     {
       "data": {
-        "id": "edge:2437",
+        "id": "edge:2492",
         "source": "primitive:cystitis.return_precautions.not_improving.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.uti_self_care"
@@ -40022,7 +40528,7 @@
     },
     {
       "data": {
-        "id": "edge:2438",
+        "id": "edge:2493",
         "source": "primitive:cystitis.return_precautions.pyelo_sepsis.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.uti_self_care"
@@ -40030,7 +40536,7 @@
     },
     {
       "data": {
-        "id": "edge:2439",
+        "id": "edge:2494",
         "source": "primitive:cystitis.what_we_found.no_kidney_infection.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.uti_basics"
@@ -40038,7 +40544,7 @@
     },
     {
       "data": {
-        "id": "edge:2440",
+        "id": "edge:2495",
         "source": "primitive:cystitis.what_we_found.no_kidney_infection.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.uti_self_care"
@@ -40046,7 +40552,7 @@
     },
     {
       "data": {
-        "id": "edge:2441",
+        "id": "edge:2496",
         "source": "primitive:dental_pain_no_deep_space_infection.diagnosis.diagnosis_summary.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.toothaches"
@@ -40054,7 +40560,7 @@
     },
     {
       "data": {
-        "id": "edge:2442",
+        "id": "edge:2497",
         "source": "primitive:dental_pain_no_deep_space_infection.follow_up.default_follow_up.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.toothaches"
@@ -40062,7 +40568,7 @@
     },
     {
       "data": {
-        "id": "edge:2443",
+        "id": "edge:2498",
         "source": "primitive:dental_pain_no_deep_space_infection.home_care.home_care_1.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.toothaches"
@@ -40070,7 +40576,7 @@
     },
     {
       "data": {
-        "id": "edge:2444",
+        "id": "edge:2499",
         "source": "primitive:dental_pain_no_deep_space_infection.home_care.home_care_2.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.toothaches"
@@ -40078,7 +40584,7 @@
     },
     {
       "data": {
-        "id": "edge:2445",
+        "id": "edge:2500",
         "source": "primitive:dental_pain_no_deep_space_infection.home_care.home_care_3.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.toothaches"
@@ -40086,7 +40592,7 @@
     },
     {
       "data": {
-        "id": "edge:2446",
+        "id": "edge:2501",
         "source": "primitive:dental_pain_no_deep_space_infection.medications.medication_guidance_1.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.toothaches"
@@ -40094,7 +40600,7 @@
     },
     {
       "data": {
-        "id": "edge:2447",
+        "id": "edge:2502",
         "source": "primitive:dental_pain_no_deep_space_infection.medications.medication_guidance_2.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.toothaches"
@@ -40102,7 +40608,7 @@
     },
     {
       "data": {
-        "id": "edge:2448",
+        "id": "edge:2503",
         "source": "primitive:dental_pain_no_deep_space_infection.return_precautions.return_precaution_1.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.toothaches"
@@ -40110,7 +40616,7 @@
     },
     {
       "data": {
-        "id": "edge:2449",
+        "id": "edge:2504",
         "source": "primitive:dental_pain_no_deep_space_infection.return_precautions.return_precaution_2.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.toothaches"
@@ -40118,7 +40624,7 @@
     },
     {
       "data": {
-        "id": "edge:2450",
+        "id": "edge:2505",
         "source": "primitive:dental_pain_no_deep_space_infection.return_precautions.return_precaution_3.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.toothaches"
@@ -40126,7 +40632,7 @@
     },
     {
       "data": {
-        "id": "edge:2451",
+        "id": "edge:2506",
         "source": "primitive:dental_pain_no_deep_space_infection.what_we_found.reassuring_ed_assessment.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.toothaches"
@@ -40134,7 +40640,7 @@
     },
     {
       "data": {
-        "id": "edge:2452",
+        "id": "edge:2507",
         "source": "primitive:gastroenteritis.diagnosis.stable.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.diarrhea_self_care"
@@ -40142,7 +40648,7 @@
     },
     {
       "data": {
-        "id": "edge:2453",
+        "id": "edge:2508",
         "source": "primitive:gastroenteritis.diagnosis.stable.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.viral_gastroenteritis"
@@ -40150,7 +40656,7 @@
     },
     {
       "data": {
-        "id": "edge:2454",
+        "id": "edge:2509",
         "source": "primitive:gastroenteritis.follow_up.recheck.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.diarrhea_self_care"
@@ -40158,7 +40664,7 @@
     },
     {
       "data": {
-        "id": "edge:2455",
+        "id": "edge:2510",
         "source": "primitive:gastroenteritis.home_care.food_hygiene.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.diarrhea_self_care"
@@ -40166,7 +40672,7 @@
     },
     {
       "data": {
-        "id": "edge:2456",
+        "id": "edge:2511",
         "source": "primitive:gastroenteritis.home_care.oral_rehydration.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.diarrhea_self_care"
@@ -40174,7 +40680,7 @@
     },
     {
       "data": {
-        "id": "edge:2457",
+        "id": "edge:2512",
         "source": "primitive:gastroenteritis.home_care.oral_rehydration.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.viral_gastroenteritis"
@@ -40182,7 +40688,7 @@
     },
     {
       "data": {
-        "id": "edge:2458",
+        "id": "edge:2513",
         "source": "primitive:gastroenteritis.medications.antiemetic_if_prescribed.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.viral_gastroenteritis"
@@ -40190,7 +40696,7 @@
     },
     {
       "data": {
-        "id": "edge:2459",
+        "id": "edge:2514",
         "source": "primitive:gastroenteritis.medications.avoid_antidiarrheal_red_flags.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.diarrhea_self_care"
@@ -40198,7 +40704,7 @@
     },
     {
       "data": {
-        "id": "edge:2460",
+        "id": "edge:2515",
         "source": "primitive:gastroenteritis.return_precautions.dehydration_blood_pain.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.diarrhea_self_care"
@@ -40206,7 +40712,7 @@
     },
     {
       "data": {
-        "id": "edge:2461",
+        "id": "edge:2516",
         "source": "primitive:gastroenteritis.return_precautions.dehydration_blood_pain.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.viral_gastroenteritis"
@@ -40214,7 +40720,7 @@
     },
     {
       "data": {
-        "id": "edge:2462",
+        "id": "edge:2517",
         "source": "primitive:gastroenteritis.return_precautions.persistent_worse.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.diarrhea_self_care"
@@ -40222,7 +40728,7 @@
     },
     {
       "data": {
-        "id": "edge:2463",
+        "id": "edge:2518",
         "source": "primitive:gastroenteritis.what_we_found.hydrating.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.viral_gastroenteritis"
@@ -40230,7 +40736,7 @@
     },
     {
       "data": {
-        "id": "edge:2464",
+        "id": "edge:2519",
         "source": "primitive:laceration_repaired_simple.diagnosis.diagnosis_summary.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.cuts_puncture_wounds"
@@ -40238,7 +40744,7 @@
     },
     {
       "data": {
-        "id": "edge:2465",
+        "id": "edge:2520",
         "source": "primitive:laceration_repaired_simple.follow_up.default_follow_up.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.cuts_puncture_wounds"
@@ -40246,7 +40752,7 @@
     },
     {
       "data": {
-        "id": "edge:2466",
+        "id": "edge:2521",
         "source": "primitive:laceration_repaired_simple.home_care.home_care_1.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.cuts_puncture_wounds"
@@ -40254,7 +40760,7 @@
     },
     {
       "data": {
-        "id": "edge:2467",
+        "id": "edge:2522",
         "source": "primitive:laceration_repaired_simple.home_care.home_care_2.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.cuts_puncture_wounds"
@@ -40262,7 +40768,7 @@
     },
     {
       "data": {
-        "id": "edge:2468",
+        "id": "edge:2523",
         "source": "primitive:laceration_repaired_simple.home_care.home_care_3.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.cuts_puncture_wounds"
@@ -40270,7 +40776,7 @@
     },
     {
       "data": {
-        "id": "edge:2469",
+        "id": "edge:2524",
         "source": "primitive:laceration_repaired_simple.medications.medication_guidance_1.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.cuts_puncture_wounds"
@@ -40278,7 +40784,7 @@
     },
     {
       "data": {
-        "id": "edge:2470",
+        "id": "edge:2525",
         "source": "primitive:laceration_repaired_simple.medications.medication_guidance_2.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.cuts_puncture_wounds"
@@ -40286,7 +40792,7 @@
     },
     {
       "data": {
-        "id": "edge:2471",
+        "id": "edge:2526",
         "source": "primitive:laceration_repaired_simple.return_precautions.return_precaution_1.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.cuts_puncture_wounds"
@@ -40294,7 +40800,7 @@
     },
     {
       "data": {
-        "id": "edge:2472",
+        "id": "edge:2527",
         "source": "primitive:laceration_repaired_simple.return_precautions.return_precaution_2.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.cuts_puncture_wounds"
@@ -40302,7 +40808,7 @@
     },
     {
       "data": {
-        "id": "edge:2473",
+        "id": "edge:2528",
         "source": "primitive:laceration_repaired_simple.return_precautions.return_precaution_3.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.cuts_puncture_wounds"
@@ -40310,7 +40816,7 @@
     },
     {
       "data": {
-        "id": "edge:2474",
+        "id": "edge:2529",
         "source": "primitive:laceration_repaired_simple.what_we_found.reassuring_ed_assessment.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.cuts_puncture_wounds"
@@ -40318,7 +40824,271 @@
     },
     {
       "data": {
-        "id": "edge:2475",
+        "id": "edge:2530",
+        "source": "primitive:minor_head_injury_no_red_flags.diagnosis.diagnosis_summary.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2531",
+        "source": "primitive:minor_head_injury_no_red_flags.diagnosis.diagnosis_summary.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2532",
+        "source": "primitive:minor_head_injury_no_red_flags.follow_up.default_follow_up.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2533",
+        "source": "primitive:minor_head_injury_no_red_flags.follow_up.default_follow_up.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2534",
+        "source": "primitive:minor_head_injury_no_red_flags.home_care.home_care_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2535",
+        "source": "primitive:minor_head_injury_no_red_flags.home_care.home_care_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2536",
+        "source": "primitive:minor_head_injury_no_red_flags.home_care.home_care_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2537",
+        "source": "primitive:minor_head_injury_no_red_flags.home_care.home_care_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2538",
+        "source": "primitive:minor_head_injury_no_red_flags.home_care.home_care_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2539",
+        "source": "primitive:minor_head_injury_no_red_flags.home_care.home_care_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2540",
+        "source": "primitive:minor_head_injury_no_red_flags.medications.medication_guidance_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2541",
+        "source": "primitive:minor_head_injury_no_red_flags.medications.medication_guidance_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2542",
+        "source": "primitive:minor_head_injury_no_red_flags.medications.medication_guidance_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2543",
+        "source": "primitive:minor_head_injury_no_red_flags.medications.medication_guidance_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2544",
+        "source": "primitive:minor_head_injury_no_red_flags.return_precautions.return_precaution_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2545",
+        "source": "primitive:minor_head_injury_no_red_flags.return_precautions.return_precaution_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2546",
+        "source": "primitive:minor_head_injury_no_red_flags.return_precautions.return_precaution_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2547",
+        "source": "primitive:minor_head_injury_no_red_flags.return_precautions.return_precaution_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2548",
+        "source": "primitive:minor_head_injury_no_red_flags.return_precautions.return_precaution_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2549",
+        "source": "primitive:minor_head_injury_no_red_flags.return_precautions.return_precaution_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2550",
+        "source": "primitive:minor_head_injury_no_red_flags.what_we_found.reassuring_ed_assessment.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.heads_up_concussion_symptoms"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2551",
+        "source": "primitive:minor_head_injury_no_red_flags.what_we_found.reassuring_ed_assessment.v1",
+        "type": "supported_by_source",
+        "target": "source_card:cdc.mild_tbi_aftercare"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2552",
+        "source": "primitive:renal_colic_stable_no_infection.diagnosis.diagnosis_summary.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.kidney_stones_self_care"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2553",
+        "source": "primitive:renal_colic_stable_no_infection.follow_up.default_follow_up.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.kidney_stones_self_care"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2554",
+        "source": "primitive:renal_colic_stable_no_infection.home_care.home_care_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.kidney_stones_self_care"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2555",
+        "source": "primitive:renal_colic_stable_no_infection.home_care.home_care_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.kidney_stones_self_care"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2556",
+        "source": "primitive:renal_colic_stable_no_infection.home_care.home_care_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.kidney_stones_self_care"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2557",
+        "source": "primitive:renal_colic_stable_no_infection.medications.medication_guidance_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.kidney_stones_self_care"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2558",
+        "source": "primitive:renal_colic_stable_no_infection.medications.medication_guidance_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.kidney_stones_self_care"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2559",
+        "source": "primitive:renal_colic_stable_no_infection.return_precautions.return_precaution_1.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.kidney_stones_self_care"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2560",
+        "source": "primitive:renal_colic_stable_no_infection.return_precautions.return_precaution_2.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.kidney_stones_self_care"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2561",
+        "source": "primitive:renal_colic_stable_no_infection.return_precautions.return_precaution_3.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.kidney_stones_self_care"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2562",
+        "source": "primitive:renal_colic_stable_no_infection.what_we_found.reassuring_ed_assessment.v1",
+        "type": "supported_by_source",
+        "target": "source_card:medlineplus.kidney_stones_self_care"
+      }
+    },
+    {
+      "data": {
+        "id": "edge:2563",
         "source": "primitive:viral_pharyngitis_strep_negative.diagnosis.diagnosis_summary.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.group_a_strep_pharyngitis"
@@ -40326,7 +41096,7 @@
     },
     {
       "data": {
-        "id": "edge:2476",
+        "id": "edge:2564",
         "source": "primitive:viral_pharyngitis_strep_negative.diagnosis.diagnosis_summary.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.sore_throat_basics"
@@ -40334,7 +41104,7 @@
     },
     {
       "data": {
-        "id": "edge:2477",
+        "id": "edge:2565",
         "source": "primitive:viral_pharyngitis_strep_negative.follow_up.default_follow_up.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.group_a_strep_pharyngitis"
@@ -40342,7 +41112,7 @@
     },
     {
       "data": {
-        "id": "edge:2478",
+        "id": "edge:2566",
         "source": "primitive:viral_pharyngitis_strep_negative.follow_up.default_follow_up.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.sore_throat_basics"
@@ -40350,7 +41120,7 @@
     },
     {
       "data": {
-        "id": "edge:2479",
+        "id": "edge:2567",
         "source": "primitive:viral_pharyngitis_strep_negative.home_care.home_care_1.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.group_a_strep_pharyngitis"
@@ -40358,7 +41128,7 @@
     },
     {
       "data": {
-        "id": "edge:2480",
+        "id": "edge:2568",
         "source": "primitive:viral_pharyngitis_strep_negative.home_care.home_care_1.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.sore_throat_basics"
@@ -40366,7 +41136,7 @@
     },
     {
       "data": {
-        "id": "edge:2481",
+        "id": "edge:2569",
         "source": "primitive:viral_pharyngitis_strep_negative.home_care.home_care_2.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.group_a_strep_pharyngitis"
@@ -40374,7 +41144,7 @@
     },
     {
       "data": {
-        "id": "edge:2482",
+        "id": "edge:2570",
         "source": "primitive:viral_pharyngitis_strep_negative.home_care.home_care_2.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.sore_throat_basics"
@@ -40382,7 +41152,7 @@
     },
     {
       "data": {
-        "id": "edge:2483",
+        "id": "edge:2571",
         "source": "primitive:viral_pharyngitis_strep_negative.home_care.home_care_3.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.group_a_strep_pharyngitis"
@@ -40390,7 +41160,7 @@
     },
     {
       "data": {
-        "id": "edge:2484",
+        "id": "edge:2572",
         "source": "primitive:viral_pharyngitis_strep_negative.home_care.home_care_3.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.sore_throat_basics"
@@ -40398,7 +41168,7 @@
     },
     {
       "data": {
-        "id": "edge:2485",
+        "id": "edge:2573",
         "source": "primitive:viral_pharyngitis_strep_negative.medications.medication_guidance_1.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.group_a_strep_pharyngitis"
@@ -40406,7 +41176,7 @@
     },
     {
       "data": {
-        "id": "edge:2486",
+        "id": "edge:2574",
         "source": "primitive:viral_pharyngitis_strep_negative.medications.medication_guidance_1.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.sore_throat_basics"
@@ -40414,7 +41184,7 @@
     },
     {
       "data": {
-        "id": "edge:2487",
+        "id": "edge:2575",
         "source": "primitive:viral_pharyngitis_strep_negative.medications.medication_guidance_2.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.group_a_strep_pharyngitis"
@@ -40422,7 +41192,7 @@
     },
     {
       "data": {
-        "id": "edge:2488",
+        "id": "edge:2576",
         "source": "primitive:viral_pharyngitis_strep_negative.medications.medication_guidance_2.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.sore_throat_basics"
@@ -40430,7 +41200,7 @@
     },
     {
       "data": {
-        "id": "edge:2489",
+        "id": "edge:2577",
         "source": "primitive:viral_pharyngitis_strep_negative.return_precautions.return_precaution_1.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.group_a_strep_pharyngitis"
@@ -40438,7 +41208,7 @@
     },
     {
       "data": {
-        "id": "edge:2490",
+        "id": "edge:2578",
         "source": "primitive:viral_pharyngitis_strep_negative.return_precautions.return_precaution_1.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.sore_throat_basics"
@@ -40446,7 +41216,7 @@
     },
     {
       "data": {
-        "id": "edge:2491",
+        "id": "edge:2579",
         "source": "primitive:viral_pharyngitis_strep_negative.return_precautions.return_precaution_2.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.group_a_strep_pharyngitis"
@@ -40454,7 +41224,7 @@
     },
     {
       "data": {
-        "id": "edge:2492",
+        "id": "edge:2580",
         "source": "primitive:viral_pharyngitis_strep_negative.return_precautions.return_precaution_2.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.sore_throat_basics"
@@ -40462,7 +41232,7 @@
     },
     {
       "data": {
-        "id": "edge:2493",
+        "id": "edge:2581",
         "source": "primitive:viral_pharyngitis_strep_negative.return_precautions.return_precaution_3.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.group_a_strep_pharyngitis"
@@ -40470,7 +41240,7 @@
     },
     {
       "data": {
-        "id": "edge:2494",
+        "id": "edge:2582",
         "source": "primitive:viral_pharyngitis_strep_negative.return_precautions.return_precaution_3.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.sore_throat_basics"
@@ -40478,7 +41248,7 @@
     },
     {
       "data": {
-        "id": "edge:2495",
+        "id": "edge:2583",
         "source": "primitive:viral_pharyngitis_strep_negative.what_we_found.reassuring_ed_assessment.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.group_a_strep_pharyngitis"
@@ -40486,7 +41256,7 @@
     },
     {
       "data": {
-        "id": "edge:2496",
+        "id": "edge:2584",
         "source": "primitive:viral_pharyngitis_strep_negative.what_we_found.reassuring_ed_assessment.v1",
         "type": "supported_by_source",
         "target": "source_card:cdc.sore_throat_basics"
@@ -40494,7 +41264,7 @@
     },
     {
       "data": {
-        "id": "edge:2497",
+        "id": "edge:2585",
         "source": "primitive:viral_uri.diagnosis.no_pneumonia.v1",
         "type": "supported_by_source",
         "target": "source_card:ahrq.common_cold_antibiotics"
@@ -40502,7 +41272,7 @@
     },
     {
       "data": {
-        "id": "edge:2498",
+        "id": "edge:2586",
         "source": "primitive:viral_uri.diagnosis.no_pneumonia.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.common_cold"
@@ -40510,7 +41280,7 @@
     },
     {
       "data": {
-        "id": "edge:2499",
+        "id": "edge:2587",
         "source": "primitive:viral_uri.follow_up.primary_care.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.common_cold"
@@ -40518,7 +41288,7 @@
     },
     {
       "data": {
-        "id": "edge:2500",
+        "id": "edge:2588",
         "source": "primitive:viral_uri.home_care.fluids_rest_humidification.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.common_cold"
@@ -40526,7 +41296,7 @@
     },
     {
       "data": {
-        "id": "edge:2501",
+        "id": "edge:2589",
         "source": "primitive:viral_uri.home_care.infection_control.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.common_cold"
@@ -40534,7 +41304,7 @@
     },
     {
       "data": {
-        "id": "edge:2502",
+        "id": "edge:2590",
         "source": "primitive:viral_uri.medications.no_antibiotics.v1",
         "type": "supported_by_source",
         "target": "source_card:ahrq.common_cold_antibiotics"
@@ -40542,7 +41312,7 @@
     },
     {
       "data": {
-        "id": "edge:2503",
+        "id": "edge:2591",
         "source": "primitive:viral_uri.medications.no_antibiotics.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.common_cold"
@@ -40550,7 +41320,7 @@
     },
     {
       "data": {
-        "id": "edge:2504",
+        "id": "edge:2592",
         "source": "primitive:viral_uri.medications.otc_caution.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.common_cold"
@@ -40558,7 +41328,7 @@
     },
     {
       "data": {
-        "id": "edge:2505",
+        "id": "edge:2593",
         "source": "primitive:viral_uri.return_precautions.breathing_chest_confusion.v1",
         "type": "supported_by_source",
         "target": "source_card:ahrq.common_cold_antibiotics"
@@ -40566,7 +41336,7 @@
     },
     {
       "data": {
-        "id": "edge:2506",
+        "id": "edge:2594",
         "source": "primitive:viral_uri.return_precautions.breathing_chest_confusion.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.common_cold"
@@ -40574,7 +41344,7 @@
     },
     {
       "data": {
-        "id": "edge:2507",
+        "id": "edge:2595",
         "source": "primitive:viral_uri.return_precautions.worsening_fever_dehydration.v1",
         "type": "supported_by_source",
         "target": "source_card:ahrq.common_cold_antibiotics"
@@ -40582,7 +41352,7 @@
     },
     {
       "data": {
-        "id": "edge:2508",
+        "id": "edge:2596",
         "source": "primitive:viral_uri.return_precautions.worsening_fever_dehydration.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.common_cold"
@@ -40590,7 +41360,7 @@
     },
     {
       "data": {
-        "id": "edge:2509",
+        "id": "edge:2597",
         "source": "primitive:viral_uri.what_we_found.reassuring_breathing.v1",
         "type": "supported_by_source",
         "target": "source_card:medlineplus.common_cold"

@@ -21,6 +21,7 @@ const EXCLUSION_RULES = {
   anaphylaxis: ['anaphylaxis', 'anaphylactic', 'two system reaction'],
   anticoagulated: ['warfarin', 'eliquis', 'apixaban', 'xarelto', 'rivaroxaban', 'blood thinner'],
   antibiotic_prescribed: ['antibiotic prescribed', 'started antibiotics', 'given antibiotics'],
+  athlete_return_to_play: ['return to play', 'same day sports', 'athlete', 'game today', 'practice today'],
   biphasic_reaction_concern: ['biphasic', 'recurrent reaction', 'symptoms returned'],
   bacterial_infection_suspected: ['bacterial infection', 'strep', 'pneumonia', 'sinusitis'],
   bite_wound: ['bite wound', 'dog bite', 'cat bite', 'human bite'],
@@ -64,7 +65,9 @@ const EXCLUSION_RULES = {
   packing_required: ['packing', 'packed wound', 'wick'],
   peritoneal_signs: ['rebound', 'guarding', 'peritonitis'],
   peritonsillar_abscess_concern: ['peritonsillar abscess', 'uvula deviation', 'hot potato voice', 'unilateral tonsil'],
-  poor_follow_up: ['homeless', 'unable to follow up', 'no phone'],
+  poor_follow_up: ['homeless', 'unable to follow up', 'poor follow up', 'no phone'],
+  poor_inhaler_access: ['no inhaler', 'lost inhaler', 'cannot afford inhaler', 'no rescue inhaler', 'no access to inhaler'],
+  persistent_vomiting: ['persistent vomiting', 'repeated vomiting', 'vomiting repeatedly'],
   pregnancy: ['is pregnant', 'patient is pregnant', 'pregnancy'],
   pneumonia: ['pneumonia', 'infiltrate', 'consolidation'],
   positive_strep_test: ['positive strep', 'strep positive', 'positive rapid strep'],
@@ -89,6 +92,9 @@ const EXCLUSION_RULES = {
   voice_change: ['voice change', 'muffled voice', 'hoarse voice', 'hot potato voice'],
   vomiting_unable_to_take_meds: ['vomiting', 'cannot take pills', 'cannot keep meds down'],
   epinephrine_given: ['epinephrine given', 'epi given', 'epipen used', 'used epipen', 'received epinephrine'],
+  renal_failure: ['renal failure', 'kidney failure', 'aki', 'acute kidney injury', 'creatinine elevated'],
+  respiratory_distress: ['respiratory distress', 'tripoding', 'unable to speak full sentences', 'accessory muscle use'],
+  skull_fracture_concern: ['skull fracture', 'basilar skull', 'periorbital ecchymosis', 'csf leak'],
 };
 
 const here = dirname(fileURLToPath(import.meta.url));

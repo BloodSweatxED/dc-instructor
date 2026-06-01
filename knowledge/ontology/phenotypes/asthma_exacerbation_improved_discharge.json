@@ -1,7 +1,7 @@
 {
   "id": "asthma_exacerbation_improved_discharge",
   "label": "Asthma exacerbation improved for discharge",
-  "status": "draft",
+  "status": "reviewed",
   "condition_family": "respiratory",
   "inclusion_criteria": [
     "Asthma flare improved after ED treatment and safe for outpatient plan."
@@ -40,16 +40,21 @@
     "asthma_exacerbation_improved_discharge.return_precautions.return_precaution_3.v1",
     "asthma_exacerbation_improved_discharge.follow_up.default_follow_up.v1"
   ],
-  "source_card_ids": [],
+  "source_card_ids": [
+    "medlineplus.asthma"
+  ],
   "source_audit": {
-    "source_supported": false,
-    "source_needed": true,
-    "clinician_judgment_only": true,
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
     "restricted_source_risk": false,
-    "unsafe_without_modifier": true
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
   },
   "runtime": {
     "condition_terms": [
+      "asthma exacerbation improved discharge",
+      "asthma flare improved",
       "asthma",
       "wheezing",
       "asthma attack"
@@ -59,16 +64,36 @@
       "poor_inhaler_access",
       "pregnancy",
       "chest_pain",
-      "frequent_relapse"
+      "frequent_relapse",
+      "respiratory_distress"
     ],
     "minimum_confidence": 0.86,
-    "mode": "draft_only_until_reviewed"
+    "mode": "reviewed_ontology_enabled"
   },
   "version": 1,
   "review": {
-    "status": "draft",
-    "reviewer": null,
-    "last_reviewed": null,
-    "notes": "Expanded ontology draft pack. Not clinician-reviewed. Runtime should fall back unless explicitly enabled for review."
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks.",
+    "clinical_status": "reviewed_for_limited_improved_asthma_exacerbation_discharge_use",
+    "required_modifiers": [
+      "breathing improved after ED treatment",
+      "safe outpatient plan",
+      "rescue medication access",
+      "no persistent hypoxia"
+    ],
+    "blocked_modifiers": [
+      "hypoxia",
+      "poor_inhaler_access",
+      "pregnancy",
+      "chest_pain",
+      "frequent_relapse",
+      "respiratory_distress"
+    ]
   }
 }

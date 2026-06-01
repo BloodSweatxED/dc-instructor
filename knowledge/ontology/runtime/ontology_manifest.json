@@ -139,14 +139,15 @@
     {
       "id": "asthma_exacerbation_improved_discharge",
       "label": "Asthma exacerbation improved for discharge",
-      "status": "draft",
-      "review_status": "draft",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
         "asthma",
         "asthma attack",
         "asthma exacerbation improved discharge",
         "asthma exacerbation improved for discharge",
+        "asthma flare improved",
         "respiratory",
         "wheezing"
       ],
@@ -155,14 +156,16 @@
         "poor_inhaler_access",
         "pregnancy",
         "chest_pain",
-        "frequent_relapse"
+        "frequent_relapse",
+        "respiratory_distress"
       ],
       "source_audit": {
-        "source_supported": false,
-        "source_needed": true,
-        "clinician_judgment_only": true,
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
         "restricted_source_risk": false,
-        "unsafe_without_modifier": true
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
       }
     },
     {
@@ -231,14 +234,16 @@
     {
       "id": "community_acquired_pneumonia_outpatient",
       "label": "Community-acquired pneumonia, outpatient",
-      "status": "draft",
-      "review_status": "draft",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
+        "community acquired pneumonia",
         "community acquired pneumonia outpatient",
         "community-acquired pneumonia, outpatient",
         "lung infection",
         "pneumonia",
+        "pneumonia outpatient",
         "respiratory infection"
       ],
       "unsafe_modifiers": [
@@ -246,21 +251,24 @@
         "immunocompromised",
         "elderly_frail",
         "sepsis",
-        "poor_follow_up"
+        "poor_follow_up",
+        "respiratory_distress",
+        "vomiting_unable_to_take_meds"
       ],
       "source_audit": {
-        "source_supported": false,
-        "source_needed": true,
-        "clinician_judgment_only": true,
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
         "restricted_source_risk": false,
-        "unsafe_without_modifier": true
+        "unsafe_without_modifier": false,
+        "notes": "CDC supports pneumonia symptom framing, higher-risk host factors, and outpatient antibiotic-stewardship distinctions. Dosing and regimen selection remain outside the ontology until medication policy exists."
       }
     },
     {
       "id": "concussion_discharge_no_imaging_red_flags",
       "label": "Concussion discharge without imaging red flags",
-      "status": "draft",
-      "review_status": "draft",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
         "concussion",
@@ -274,14 +282,17 @@
         "athlete_return_to_play",
         "anticoagulated",
         "neurologic_deficit",
-        "persistent_vomiting"
+        "persistent_vomiting",
+        "loss_of_consciousness",
+        "intoxication"
       ],
       "source_audit": {
-        "source_supported": false,
-        "source_needed": true,
-        "clinician_judgment_only": true,
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
         "restricted_source_risk": false,
-        "unsafe_without_modifier": true
+        "unsafe_without_modifier": false,
+        "notes": "CDC HEADS UP and CDC mild TBI guidance support danger signs, gradual return to activity, and clinician-directed return-to-school, work, driving, or play planning."
       }
     },
     {
@@ -426,8 +437,8 @@
     {
       "id": "minor_head_injury_no_red_flags",
       "label": "Minor head injury without red flags",
-      "status": "draft",
-      "review_status": "draft",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
         "head injury",
@@ -441,21 +452,24 @@
         "loss_of_consciousness",
         "intoxication",
         "elderly",
-        "persistent_vomiting"
+        "persistent_vomiting",
+        "neurologic_deficit",
+        "skull_fracture_concern"
       ],
       "source_audit": {
-        "source_supported": false,
-        "source_needed": true,
-        "clinician_judgment_only": true,
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
         "restricted_source_risk": false,
-        "unsafe_without_modifier": true
+        "unsafe_without_modifier": false,
+        "notes": "CDC concussion guidance supports delayed symptoms, emergency danger signs, and gradual activity return after minor head trauma or possible concussion."
       }
     },
     {
       "id": "renal_colic_stable_no_infection",
       "label": "Renal colic, stable, no infection concern",
-      "status": "draft",
-      "review_status": "draft",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
         "genitourinary",
@@ -470,14 +484,18 @@
         "solitary_kidney",
         "pregnancy",
         "renal_failure",
-        "uncontrolled_pain"
+        "uncontrolled_pain",
+        "vomiting_unable_to_take_meds",
+        "urinary_obstruction",
+        "sepsis"
       ],
       "source_audit": {
-        "source_supported": false,
-        "source_needed": true,
-        "clinician_judgment_only": true,
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
         "restricted_source_risk": false,
-        "unsafe_without_modifier": true
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms."
       }
     },
     {

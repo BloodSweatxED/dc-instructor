@@ -15,6 +15,46 @@ REVIEW_DATE = "2026-06-01"
 REVIEW_DIR = ROOT / "review_sheets"
 
 PROMOTIONS: dict[str, dict[str, Any]] = {
+    "asthma_exacerbation_improved_discharge": {
+        "primitive_file": ROOT / "primitives" / "expanded_draft_packs.json",
+        "condition_terms": ["asthma exacerbation improved discharge", "asthma flare improved", "asthma", "wheezing", "asthma attack"],
+        "unsafe_modifiers": ["hypoxia", "poor_inhaler_access", "pregnancy", "chest_pain", "frequent_relapse", "respiratory_distress"],
+        "source_audit_notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks.",
+        "clinical_status": "reviewed_for_limited_improved_asthma_exacerbation_discharge_use",
+        "required_modifiers": ["breathing improved after ED treatment", "safe outpatient plan", "rescue medication access", "no persistent hypoxia"],
+    },
+    "community_acquired_pneumonia_outpatient": {
+        "primitive_file": ROOT / "primitives" / "expanded_draft_packs.json",
+        "condition_terms": ["community acquired pneumonia outpatient", "pneumonia outpatient", "community acquired pneumonia", "pneumonia", "lung infection"],
+        "unsafe_modifiers": ["hypoxia", "immunocompromised", "elderly_frail", "sepsis", "poor_follow_up", "respiratory_distress", "vomiting_unable_to_take_meds"],
+        "source_audit_notes": "CDC supports pneumonia symptom framing, higher-risk host factors, and outpatient antibiotic-stewardship distinctions. Dosing and regimen selection remain outside the ontology until medication policy exists.",
+        "clinical_status": "reviewed_for_limited_outpatient_community_acquired_pneumonia_use",
+        "required_modifiers": ["pneumonia diagnosed by clinician", "stable for outpatient treatment", "acceptable oxygen level", "antibiotics prescribed"],
+    },
+    "concussion_discharge_no_imaging_red_flags": {
+        "primitive_file": ROOT / "primitives" / "expanded_draft_packs.json",
+        "condition_terms": ["concussion discharge no imaging red flags", "concussion", "mild traumatic brain injury", "mild tbi"],
+        "unsafe_modifiers": ["athlete_return_to_play", "anticoagulated", "neurologic_deficit", "persistent_vomiting", "loss_of_consciousness", "intoxication"],
+        "source_audit_notes": "CDC HEADS UP and CDC mild TBI guidance support danger signs, gradual return to activity, and clinician-directed return-to-school, work, driving, or play planning.",
+        "clinical_status": "reviewed_for_limited_concussion_without_imaging_red_flags_use",
+        "required_modifiers": ["reassuring neurologic assessment", "no imaging red flags documented", "safe observation plan", "no anticoagulation"],
+    },
+    "minor_head_injury_no_red_flags": {
+        "primitive_file": ROOT / "primitives" / "expanded_draft_packs.json",
+        "condition_terms": ["minor head injury no red flags", "minor head injury", "head injury", "hit head"],
+        "unsafe_modifiers": ["anticoagulated", "loss_of_consciousness", "intoxication", "elderly", "persistent_vomiting", "neurologic_deficit", "skull_fracture_concern"],
+        "source_audit_notes": "CDC concussion guidance supports delayed symptoms, emergency danger signs, and gradual activity return after minor head trauma or possible concussion.",
+        "clinical_status": "reviewed_for_limited_minor_head_injury_without_red_flags_use",
+        "required_modifiers": ["minor blunt head injury", "reassuring ED assessment", "no anticoagulation", "no neurologic deficit"],
+    },
+    "renal_colic_stable_no_infection": {
+        "primitive_file": ROOT / "primitives" / "expanded_draft_packs.json",
+        "condition_terms": ["renal colic stable no infection", "renal colic", "kidney stone", "ureteral stone"],
+        "unsafe_modifiers": ["fever", "solitary_kidney", "pregnancy", "renal_failure", "uncontrolled_pain", "vomiting_unable_to_take_meds", "urinary_obstruction", "sepsis"],
+        "source_audit_notes": "MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms.",
+        "clinical_status": "reviewed_for_limited_stable_renal_colic_without_infection_use",
+        "required_modifiers": ["suspected or confirmed renal colic", "stable for outpatient management", "no fever or sepsis", "symptoms controlled enough for discharge"],
+    },
     "abscess_after_i_and_d": {
         "primitive_file": ROOT / "primitives" / "expanded_draft_packs.json",
         "condition_terms": ["abscess after i and d", "abscess after incision and drainage", "abscess drained", "skin abscess drained", "i and d", "incision and drainage"],

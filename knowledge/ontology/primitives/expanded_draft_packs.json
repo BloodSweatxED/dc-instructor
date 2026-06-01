@@ -1280,19 +1280,27 @@
       "en_hl1": "You had a minor head injury."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC concussion guidance supports delayed symptoms, emergency danger signs, and gradual activity return after minor head trauma or possible concussion."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1315,19 +1323,27 @@
       "elderly",
       "persistent_vomiting"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "CDC concussion guidance supports delayed symptoms, emergency danger signs, and gradual activity return after minor head trauma or possible concussion."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1344,19 +1360,27 @@
       "en_hl1": "Rest today and increase activity slowly."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC concussion guidance supports delayed symptoms, emergency danger signs, and gradual activity return after minor head trauma or possible concussion."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1373,19 +1397,27 @@
       "en_hl1": "Avoid alcohol or sedating drugs unless your clinician says they are safe."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC concussion guidance supports delayed symptoms, emergency danger signs, and gradual activity return after minor head trauma or possible concussion."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1402,19 +1434,27 @@
       "en_hl1": "Have a trusted person check on you if possible."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC concussion guidance supports delayed symptoms, emergency danger signs, and gradual activity return after minor head trauma or possible concussion."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1437,19 +1477,27 @@
       "elderly",
       "persistent_vomiting"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "CDC concussion guidance supports delayed symptoms, emergency danger signs, and gradual activity return after minor head trauma or possible concussion."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1472,19 +1520,27 @@
       "elderly",
       "persistent_vomiting"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "CDC concussion guidance supports delayed symptoms, emergency danger signs, and gradual activity return after minor head trauma or possible concussion."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1501,19 +1557,27 @@
       "en_hl1": "Worsening severe headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC concussion guidance supports delayed symptoms, emergency danger signs, and gradual activity return after minor head trauma or possible concussion."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1530,19 +1594,27 @@
       "en_hl1": "New weakness, numbness, trouble speaking, or vision changes."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC concussion guidance supports delayed symptoms, emergency danger signs, and gradual activity return after minor head trauma or possible concussion."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1559,19 +1631,27 @@
       "en_hl1": "Clear fluid or blood from the nose or ear."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC concussion guidance supports delayed symptoms, emergency danger signs, and gradual activity return after minor head trauma or possible concussion."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1594,19 +1674,27 @@
       "elderly",
       "persistent_vomiting"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "CDC concussion guidance supports delayed symptoms, emergency danger signs, and gradual activity return after minor head trauma or possible concussion."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1623,19 +1711,27 @@
       "en_hl1": "Your symptoms fit a concussion."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC HEADS UP and CDC mild TBI guidance support danger signs, gradual return to activity, and clinician-directed return-to-school, work, driving, or play planning."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1657,19 +1753,27 @@
       "neurologic_deficit",
       "persistent_vomiting"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "CDC HEADS UP and CDC mild TBI guidance support danger signs, gradual return to activity, and clinician-directed return-to-school, work, driving, or play planning."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1686,19 +1790,27 @@
       "en_hl1": "Rest your brain and body for the first day."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC HEADS UP and CDC mild TBI guidance support danger signs, gradual return to activity, and clinician-directed return-to-school, work, driving, or play planning."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1715,19 +1827,27 @@
       "en_hl1": "Return to school, work, exercise, and screens slowly as symptoms allow."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC HEADS UP and CDC mild TBI guidance support danger signs, gradual return to activity, and clinician-directed return-to-school, work, driving, or play planning."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1744,19 +1864,27 @@
       "en_hl1": "Avoid another head injury while symptoms are present."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC HEADS UP and CDC mild TBI guidance support danger signs, gradual return to activity, and clinician-directed return-to-school, work, driving, or play planning."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1778,19 +1906,27 @@
       "neurologic_deficit",
       "persistent_vomiting"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "CDC HEADS UP and CDC mild TBI guidance support danger signs, gradual return to activity, and clinician-directed return-to-school, work, driving, or play planning."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1812,19 +1948,27 @@
       "neurologic_deficit",
       "persistent_vomiting"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "CDC HEADS UP and CDC mild TBI guidance support danger signs, gradual return to activity, and clinician-directed return-to-school, work, driving, or play planning."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1841,19 +1985,27 @@
       "en_hl1": "Worsening headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC HEADS UP and CDC mild TBI guidance support danger signs, gradual return to activity, and clinician-directed return-to-school, work, driving, or play planning."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1870,19 +2022,27 @@
       "en_hl1": "New weakness, numbness, trouble speaking, or vision changes."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC HEADS UP and CDC mild TBI guidance support danger signs, gradual return to activity, and clinician-directed return-to-school, work, driving, or play planning."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1899,19 +2059,27 @@
       "en_hl1": "Any second head injury before you recover."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC HEADS UP and CDC mild TBI guidance support danger signs, gradual return to activity, and clinician-directed return-to-school, work, driving, or play planning."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1933,19 +2101,27 @@
       "neurologic_deficit",
       "persistent_vomiting"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "CDC HEADS UP and CDC mild TBI guidance support danger signs, gradual return to activity, and clinician-directed return-to-school, work, driving, or play planning."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1962,19 +2138,26 @@
       "en_hl1": "Your symptoms fit a kidney stone."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.kidney_stones_self_care"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -1997,19 +2180,26 @@
       "renal_failure",
       "uncontrolled_pain"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.kidney_stones_self_care"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2026,19 +2216,26 @@
       "en_hl1": "Drink fluids as you are able."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.kidney_stones_self_care"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2055,19 +2252,26 @@
       "en_hl1": "Use a urine strainer if one was given."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.kidney_stones_self_care"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2084,19 +2288,26 @@
       "en_hl1": "Save any passed stone if your clinician asked you to."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.kidney_stones_self_care"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2119,19 +2330,26 @@
       "renal_failure",
       "uncontrolled_pain"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.kidney_stones_self_care"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2154,19 +2372,26 @@
       "renal_failure",
       "uncontrolled_pain"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.kidney_stones_self_care"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2183,19 +2408,26 @@
       "en_hl1": "Fever, chills, worsening flank pain, repeated vomiting, or feeling very ill."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.kidney_stones_self_care"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2212,19 +2444,26 @@
       "en_hl1": "You cannot urinate."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.kidney_stones_self_care"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2241,19 +2480,26 @@
       "en_hl1": "Pain cannot be controlled with the plan you were given."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.kidney_stones_self_care"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -2276,19 +2522,26 @@
       "renal_failure",
       "uncontrolled_pain"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.kidney_stones_self_care"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3152,19 +3405,26 @@
       "en_hl1": "You were treated for an asthma flare."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3187,19 +3447,26 @@
       "chest_pain",
       "frequent_relapse"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3216,19 +3483,26 @@
       "en_hl1": "Avoid smoke, fumes, and known triggers."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3245,19 +3519,26 @@
       "en_hl1": "Use your spacer if one was prescribed."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3274,19 +3555,26 @@
       "en_hl1": "Rest and avoid heavy exertion until breathing is back to baseline."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3309,19 +3597,26 @@
       "chest_pain",
       "frequent_relapse"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3344,19 +3639,26 @@
       "chest_pain",
       "frequent_relapse"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3373,19 +3675,26 @@
       "en_hl1": "Shortness of breath at rest, blue lips, severe wheezing, or trouble speaking full sentences."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3402,19 +3711,26 @@
       "en_hl1": "Rescue inhaler is not helping or you need it much more often than instructed."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3431,19 +3747,26 @@
       "en_hl1": "Chest pain, fainting, confusion, or worsening symptoms."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3466,19 +3789,26 @@
       "chest_pain",
       "frequent_relapse"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3915,19 +4245,27 @@
       "en_hl1": "You were treated for pneumonia."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.pneumonia_about",
+      "cdc.antibiotic_use_adult_outpatient"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC supports pneumonia symptom framing, higher-risk host factors, and outpatient antibiotic-stewardship distinctions. Dosing and regimen selection remain outside the ontology until medication policy exists."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3950,19 +4288,27 @@
       "sepsis",
       "poor_follow_up"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.pneumonia_about",
+      "cdc.antibiotic_use_adult_outpatient"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "CDC supports pneumonia symptom framing, higher-risk host factors, and outpatient antibiotic-stewardship distinctions. Dosing and regimen selection remain outside the ontology until medication policy exists."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -3979,19 +4325,27 @@
       "en_hl1": "Rest and increase activity slowly."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.pneumonia_about",
+      "cdc.antibiotic_use_adult_outpatient"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC supports pneumonia symptom framing, higher-risk host factors, and outpatient antibiotic-stewardship distinctions. Dosing and regimen selection remain outside the ontology until medication policy exists."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -4008,19 +4362,27 @@
       "en_hl1": "Drink fluids if you are allowed."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.pneumonia_about",
+      "cdc.antibiotic_use_adult_outpatient"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC supports pneumonia symptom framing, higher-risk host factors, and outpatient antibiotic-stewardship distinctions. Dosing and regimen selection remain outside the ontology until medication policy exists."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -4037,19 +4399,27 @@
       "en_hl1": "Avoid smoking and smoke exposure."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.pneumonia_about",
+      "cdc.antibiotic_use_adult_outpatient"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC supports pneumonia symptom framing, higher-risk host factors, and outpatient antibiotic-stewardship distinctions. Dosing and regimen selection remain outside the ontology until medication policy exists."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -4072,19 +4442,27 @@
       "sepsis",
       "poor_follow_up"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.pneumonia_about",
+      "cdc.antibiotic_use_adult_outpatient"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "CDC supports pneumonia symptom framing, higher-risk host factors, and outpatient antibiotic-stewardship distinctions. Dosing and regimen selection remain outside the ontology until medication policy exists."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -4107,19 +4485,27 @@
       "sepsis",
       "poor_follow_up"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.pneumonia_about",
+      "cdc.antibiotic_use_adult_outpatient"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "CDC supports pneumonia symptom framing, higher-risk host factors, and outpatient antibiotic-stewardship distinctions. Dosing and regimen selection remain outside the ontology until medication policy exists."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -4136,19 +4522,27 @@
       "en_hl1": "Worse trouble breathing, blue lips, confusion, fainting, or chest pain."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.pneumonia_about",
+      "cdc.antibiotic_use_adult_outpatient"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC supports pneumonia symptom framing, higher-risk host factors, and outpatient antibiotic-stewardship distinctions. Dosing and regimen selection remain outside the ontology until medication policy exists."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -4165,19 +4559,27 @@
       "en_hl1": "Fever or symptoms worsen after starting treatment."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.pneumonia_about",
+      "cdc.antibiotic_use_adult_outpatient"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC supports pneumonia symptom framing, higher-risk host factors, and outpatient antibiotic-stewardship distinctions. Dosing and regimen selection remain outside the ontology until medication policy exists."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -4194,19 +4596,27 @@
       "en_hl1": "You cannot keep medicines or fluids down."
     },
     "contraindications": [],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.pneumonia_about",
+      "cdc.antibiotic_use_adult_outpatient"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
-      "clinician_judgment_only": true,
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": false
+      "unsafe_without_modifier": false,
+      "notes": "CDC supports pneumonia symptom framing, higher-risk host factors, and outpatient antibiotic-stewardship distinctions. Dosing and regimen selection remain outside the ontology until medication policy exists."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {
@@ -4229,19 +4639,27 @@
       "sepsis",
       "poor_follow_up"
     ],
-    "source_card_ids": [],
+    "source_card_ids": [
+      "cdc.pneumonia_about",
+      "cdc.antibiotic_use_adult_outpatient"
+    ],
     "source_audit": {
-      "source_supported": false,
-      "source_needed": true,
+      "source_supported": true,
+      "source_needed": false,
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
-      "unsafe_without_modifier": true
+      "unsafe_without_modifier": true,
+      "notes": "CDC supports pneumonia symptom framing, higher-risk host factors, and outpatient antibiotic-stewardship distinctions. Dosing and regimen selection remain outside the ontology until medication policy exists."
     },
     "review": {
-      "status": "draft",
-      "reviewer": null,
-      "last_reviewed": null,
-      "notes": "Expanded draft pack primitive. Needs source audit and EM clinician review before production use."
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
     }
   },
   {

@@ -1,7 +1,7 @@
 {
   "id": "renal_colic_stable_no_infection",
   "label": "Renal colic, stable, no infection concern",
-  "status": "draft",
+  "status": "reviewed",
   "condition_family": "genitourinary",
   "inclusion_criteria": [
     "Suspected or confirmed renal colic, stable for outpatient management.",
@@ -39,16 +39,20 @@
     "renal_colic_stable_no_infection.return_precautions.return_precaution_3.v1",
     "renal_colic_stable_no_infection.follow_up.default_follow_up.v1"
   ],
-  "source_card_ids": [],
+  "source_card_ids": [
+    "medlineplus.kidney_stones_self_care"
+  ],
   "source_audit": {
-    "source_supported": false,
-    "source_needed": true,
-    "clinician_judgment_only": true,
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
     "restricted_source_risk": false,
-    "unsafe_without_modifier": true
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms."
   },
   "runtime": {
     "condition_terms": [
+      "renal colic stable no infection",
       "renal colic",
       "kidney stone",
       "ureteral stone"
@@ -58,16 +62,40 @@
       "solitary_kidney",
       "pregnancy",
       "renal_failure",
-      "uncontrolled_pain"
+      "uncontrolled_pain",
+      "vomiting_unable_to_take_meds",
+      "urinary_obstruction",
+      "sepsis"
     ],
     "minimum_confidence": 0.86,
-    "mode": "draft_only_until_reviewed"
+    "mode": "reviewed_ontology_enabled"
   },
   "version": 1,
   "review": {
-    "status": "draft",
-    "reviewer": null,
-    "last_reviewed": null,
-    "notes": "Expanded ontology draft pack. Not clinician-reviewed. Runtime should fall back unless explicitly enabled for review."
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms.",
+    "clinical_status": "reviewed_for_limited_stable_renal_colic_without_infection_use",
+    "required_modifiers": [
+      "suspected or confirmed renal colic",
+      "stable for outpatient management",
+      "no fever or sepsis",
+      "symptoms controlled enough for discharge"
+    ],
+    "blocked_modifiers": [
+      "fever",
+      "solitary_kidney",
+      "pregnancy",
+      "renal_failure",
+      "uncontrolled_pain",
+      "vomiting_unable_to_take_meds",
+      "urinary_obstruction",
+      "sepsis"
+    ]
   }
 }
