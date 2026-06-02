@@ -8,6 +8,8 @@ export default function OutputPanel({ instructions, setInstructions, image, imag
     : generationMeta?.fallback_reason === 'phenotype_not_clinician_reviewed'
       ? 'draft ontology blocked'
       : 'generator fallback';
+  const medicationLabel = generationMeta?.medication_provenance?.label;
+  const sourceCount = generationMeta?.source_cards_used?.length || 0;
 
   const onCopy = async () => {
     try {
@@ -71,6 +73,8 @@ export default function OutputPanel({ instructions, setInstructions, image, imag
                   Mode: {modeLabel}
                   {generationMeta.phenotype_id ? ` | phenotype: ${generationMeta.phenotype_id}` : ''}
                   {generationMeta.fallback_reason ? ` | reason: ${generationMeta.fallback_reason}` : ''}
+                  {medicationLabel ? ` | meds: ${medicationLabel}` : ''}
+                  {sourceCount ? ` | sources: ${sourceCount}` : ''}
                 </div>
               )}
             </div>

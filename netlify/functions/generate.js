@@ -1,6 +1,82 @@
 import { checkLimits, logGeneration, jsonResponse } from './_lib.js';
 import { tryOntologyGeneration } from './ontology-runtime.js';
 
+const EXPLICIT_MEDICATION_TERMS = [
+  'acetaminophen',
+  'albuterol',
+  'amoxicillin',
+  'amoxicillin clavulanate',
+  'amoxicillin-clavulanate',
+  'augmentin',
+  'azithromycin',
+  'bactrim',
+  'budesonide',
+  'cephalexin',
+  'ciprofloxacin',
+  'clindamycin',
+  'doxycycline',
+  'flomax',
+  'fluticasone',
+  'ibuprofen',
+  'keflex',
+  'macrobid',
+  'nitrofurantoin',
+  'ondansetron',
+  'prednisone',
+  'tamsulosin',
+  'trimethoprim',
+  'tylenol',
+  'zofran',
+];
+
+const MED_DETAIL_PATTERN = /\b(?:\d+(?:\.\d+)?\s?(?:mg|mcg|g|ml)|q\d+\s?h?|q\s?\d+\s?h?|bid|tid|qid|daily|twice daily|three times daily|every\s+\d+\s+(?:hours?|days?)|for\s+\d+\s+days?)\b/i;
+
+function normalizeMedicationWindow(text) {
+  return String(text || '').toLowerCase().replace(/\s+/g, ' ').trim();
+}
+
+export function classifyMedicationProvenance({ edNoteScrubbed = '', ontologyMode = 'generator' } = {}) {
+  if (ontologyMode === 'ontology') {
+    return {
+      mode: 'ontology_general',
+      label: 'ontology general guidance',
+      passthrough_only: true,
+      inference_allowed: false,
+      clinician_stated_medications_present: false,
+      review_required: true,
+    };
+  }
+
+  const note = normalizeMedicationWindow(edNoteScrubbed);
+  const medicationTerm = EXPLICIT_MEDICATION_TERMS.find((term) => note.includes(term));
+  const medicationIndex = medicationTerm ? note.indexOf(medicationTerm) : -1;
+  const medicationWindow = medicationIndex >= 0
+    ? note.slice(Math.max(0, medicationIndex - 80), medicationIndex + medicationTerm.length + 120)
+    : '';
+  const hasExplicitDetail = Boolean(medicationTerm && MED_DETAIL_PATTERN.test(medicationWindow));
+  const hasGeneralMedicationMention = /\b(?:antibiotics?|pain medicine|steroids?|inhaler|prescription|prescribed)\b/i.test(note);
+
+  if (hasExplicitDetail) {
+    return {
+      mode: 'clinician_stated_present',
+      label: 'clinician-stated med details present',
+      passthrough_only: true,
+      inference_allowed: false,
+      clinician_stated_medications_present: true,
+      review_required: true,
+    };
+  }
+
+  return {
+    mode: hasGeneralMedicationMention ? 'general_medication_mention_only' : 'no_clinician_med_details',
+    label: hasGeneralMedicationMention ? 'general med mention only' : 'no clinician med details detected',
+    passthrough_only: true,
+    inference_allowed: false,
+    clinician_stated_medications_present: false,
+    review_required: true,
+  };
+}
+
 export const SYSTEM = ({ readingLevel, language }) => `You are a board-certified Emergency Medicine clinician writing discharge instructions for a patient you just saw and treated.
 
 Reading level: ${readingLevel} — enforce strictly. Match vocabulary, sentence length, and sentence complexity to this reading level.
@@ -71,6 +147,13 @@ export default async (req) => {
   });
 
   const ontology = tryOntologyGeneration({ condition, edNoteScrubbed });
+  const medicationProvenance = classifyMedicationProvenance({
+    edNoteScrubbed,
+    ontologyMode: ontology.mode,
+  });
+  const tailoringMode = ontology.mode === 'ontology'
+    ? 'reviewed_ontology_static'
+    : 'llm_tailored_with_policy';
   console.info(JSON.stringify({
     event: 'generation_mode',
     generation_id: generationId,
@@ -78,6 +161,7 @@ export default async (req) => {
     phenotype_id: ontology.phenotype_id,
     confidence: ontology.confidence,
     fallback_reason: ontology.fallback_reason,
+    medication_provenance: medicationProvenance.mode,
   }));
 
   if (ontology.mode === 'ontology' && ontology.output) {
@@ -93,6 +177,9 @@ export default async (req) => {
           phenotype_id: ontology.phenotype_id,
           ontology_confidence: ontology.confidence,
           fallback_reason: null,
+          tailoring_mode: tailoringMode,
+          medication_provenance: medicationProvenance,
+          source_cards_used: ontology.source_cards_used || [],
         }) + '\n'));
         controller.enqueue(enc.encode(JSON.stringify({ type: 'chunk', text: ontology.output }) + '\n'));
         controller.enqueue(enc.encode(JSON.stringify({ type: 'done' }) + '\n'));
@@ -138,6 +225,9 @@ export default async (req) => {
         phenotype_id: ontology.phenotype_id,
         ontology_confidence: ontology.confidence,
         fallback_reason: ontology.fallback_reason,
+        tailoring_mode: tailoringMode,
+        medication_provenance: medicationProvenance,
+        source_cards_used: ontology.source_cards_used || [],
       }) + '\n'));
 
       const reader = upstream.body.getReader();

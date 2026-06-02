@@ -160,11 +160,16 @@ function loadPrimitives() {
   return primitives;
 }
 
-function assemble(phenotypeId) {
+function phenotypePrimitiveSet(phenotypeId) {
   const phenotypePath = join(ontologyRoot, 'phenotypes', `${phenotypeId}.json`);
   const phenotype = readJSON(phenotypePath);
   const primitives = loadPrimitives();
   const selected = phenotype.primitive_ids.map((id) => primitives[id]).filter(Boolean);
+  return { phenotype, selected };
+}
+
+function assemble(phenotypeId) {
+  const { selected } = phenotypePrimitiveSet(phenotypeId);
   const lines = [];
   for (const [section, header] of SECTION_ORDER) {
     const items = selected.filter((item) => item.section === section);
@@ -181,6 +186,14 @@ function assemble(phenotypeId) {
     lines.push('');
   }
   return `${lines.join('\n').trim()}\n`;
+}
+
+export function sourceCardsForPhenotype(phenotypeId) {
+  const { phenotype, selected } = phenotypePrimitiveSet(phenotypeId);
+  return [...new Set([
+    ...(phenotype.source_card_ids || []),
+    ...selected.flatMap((primitive) => primitive.source_card_ids || []),
+  ])].sort();
 }
 
 export function classifyOntology({ condition, edNoteScrubbed = '' }) {
@@ -225,5 +238,9 @@ export function classifyOntology({ condition, edNoteScrubbed = '' }) {
 export function tryOntologyGeneration(payload) {
   const result = classifyOntology(payload);
   if (result.mode !== 'ontology') return result;
-  return { ...result, output: assemble(result.phenotype_id) };
+  return {
+    ...result,
+    output: assemble(result.phenotype_id),
+    source_cards_used: sourceCardsForPhenotype(result.phenotype_id),
+  };
 }
