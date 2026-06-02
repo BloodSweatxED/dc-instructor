@@ -104,16 +104,10 @@ export default function App() {
       <div className="w-full max-w-[1800px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 py-6 sm:py-10">
         <Header count={count} />
 
-        {warning === 'approaching_limit' && (
-          <div className="mb-4 p-3 rounded-md border border-warn/40 bg-warn/10 text-warn text-xs font-mono">
-            Beta: approaching free-trial limit (500 generations).
-          </div>
-        )}
-
         {blocked && (
           <div className="mb-4 glass p-5 text-center">
             <div className="font-mono text-warn text-sm mb-2">
-              {blocked === 'expired' ? 'Beta period ended.' : 'Beta generation limit reached.'}
+              Generation limit reached.
             </div>
             <div className="text-cool/70 text-sm">
               Email <span className="text-accent">drinstructor@dcinstructor.com</span> for continued access.

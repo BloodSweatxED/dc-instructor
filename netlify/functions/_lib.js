@@ -6,14 +6,6 @@ export function jsonResponse(status, body, extraHeaders = {}) {
 }
 
 export async function checkLimits() {
-  const launch = process.env.LAUNCH_DATE;
-  if (launch) {
-    const launchMs = Date.parse(launch);
-    if (!Number.isNaN(launchMs)) {
-      const ageDays = (Date.now() - launchMs) / (1000 * 60 * 60 * 24);
-      if (ageDays > 30) return { blocked: true, reason: 'expired' };
-    }
-  }
   const url = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
   const svc = process.env.SUPABASE_SERVICE_ROLE_KEY;
   if (url && svc) {
