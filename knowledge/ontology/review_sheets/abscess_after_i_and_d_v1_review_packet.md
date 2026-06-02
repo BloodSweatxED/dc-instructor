@@ -60,25 +60,25 @@ Review date: 2026-06-01.
 
 ```text
 DIAGNOSIS:
-You had an abscess drained today.
+You had an abscess, which is a pocket of pus under the skin.
 
 WHAT WE FOUND:
-The painful swollen area had pus inside. It was opened and drained, which is the main treatment.
+You came to the ED because the area was painful and swollen. We opened and drained the abscess, which is the main treatment. You were safe to go home with wound care instructions.
 
 WHAT TO DO AT HOME:
-- Keep the dressing clean and dry.
-- Wash your hands before and after wound care.
-- Do not squeeze or dig into the wound.
+- Keep the dressing clean and dry today.
+- Wash your hands before and after touching the wound.
+- Do not squeeze, dig into, or try to drain the wound again at home.
 
 MEDICATIONS:
 - Take antibiotics only if they were prescribed.
-- Use acetaminophen or ibuprofen only if you can take it safely and follow the label.
+- Use pain medicine only if it is safe for you and follow the label or your clinician's instructions.
 
 RETURN TO ED IF:
-- Fever, spreading redness, red streaks, or worsening swelling.
-- Severe pain, numbness, or bleeding that will not stop.
-- Packing falls out early and you were told it must stay in.
+- Come back for fever, spreading redness, red streaks, worsening swelling, or feeling very sick.
+- Come back for severe pain, numbness, bleeding that will not stop, or pus building back up.
+- Come back if packing falls out early and you were told it needed to stay in.
 
 FOLLOW UP:
-Return or follow up for wound check as instructed.
+Return or follow up for a wound check as instructed.
 ```

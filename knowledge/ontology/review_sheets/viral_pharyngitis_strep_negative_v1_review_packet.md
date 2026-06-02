@@ -69,7 +69,7 @@ DIAGNOSIS:
 Your sore throat is most consistent with a viral infection.
 
 WHAT WE FOUND:
-Your strep test was negative. Your exam did not show signs of a dangerous throat or neck infection today.
+You came to the ED for a sore throat. Your strep test was negative, and your exam did not show signs of a dangerous throat or neck infection today.
 
 WHAT TO DO AT HOME:
 - Drink fluids.
@@ -78,12 +78,12 @@ WHAT TO DO AT HOME:
 
 MEDICATIONS:
 - Antibiotics are not needed for a viral sore throat.
-- Use acetaminophen or ibuprofen only if you can take it safely and follow the label.
+- Use acetaminophen or ibuprofen only if it is safe for you and follow the label.
 
 RETURN TO ED IF:
-- Trouble breathing, drooling, muffled voice, stiff neck, or trouble opening your mouth.
-- You cannot swallow fluids.
-- Fever or throat pain becomes much worse.
+- Come back right away for trouble breathing, drooling, muffled voice, stiff neck, or trouble opening your mouth.
+- Come back if you cannot swallow fluids.
+- Come back if fever or throat pain becomes much worse.
 
 FOLLOW UP:
 Follow up with primary care if symptoms are not improving or if your clinician instructed you to recheck.

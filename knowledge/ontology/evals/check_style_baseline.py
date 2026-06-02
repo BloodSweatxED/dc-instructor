@@ -27,6 +27,67 @@ STYLE_CHECKS = {
             "use the plan you were given closely",
         ],
     }
+    ,
+    "community_acquired_pneumonia_outpatient": {
+        "required": ["You came to the ED", "lung infection", "oxygen level", "treat this at home"],
+        "forbidden": ["Your ED evaluation found a lung infection that was safe to treat at home today."],
+    },
+    "minor_head_injury_no_red_flags": {
+        "required": ["You came to the ED after hitting your head", "exam was reassuring", "bleeding around the brain"],
+        "forbidden": ["Your exam was reassuring today. We did not find signs that you needed emergency treatment"],
+    },
+    "concussion_discharge_no_imaging_red_flags": {
+        "required": ["You came to the ED after a head injury", "symptoms can change after you leave"],
+        "forbidden": ["A concussion can happen after a hit or sudden movement of the head."],
+    },
+    "renal_colic_stable_no_infection": {
+        "required": ["You came to the ED with flank pain", "kidney stone", "blocked infected kidney"],
+        "forbidden": ["Your ED evaluation was reassuring enough for home care today."],
+    },
+    "cellulitis_uncomplicated_oral_antibiotics": {
+        "required": ["You came to the ED for redness", "deeper emergency infection"],
+        "forbidden": ["Your exam fits a skin infection that is safe to treat at home today."],
+    },
+    "abscess_after_i_and_d": {
+        "required": ["You came to the ED because the area was painful", "opened and drained"],
+        "forbidden": ["The painful swollen area had pus inside."],
+    },
+    "dental_pain_no_deep_space_infection": {
+        "required": ["You came to the ED for tooth or mouth pain", "The ED cannot fix the tooth permanently"],
+        "forbidden": ["Your exam did not show signs of a dangerous deep infection"],
+    },
+    "laceration_repaired_simple": {
+        "required": ["You came to the ED with a cut", "cleaned it, and repaired it"],
+        "forbidden": ["We checked the wound and repaired it because it was safe to close."],
+    },
+    "viral_pharyngitis_strep_negative": {
+        "required": ["You came to the ED for a sore throat", "strep test was negative"],
+        "forbidden": ["Your strep test was negative. Your exam did not show signs"],
+    },
+    "allergic_reaction_resolved_no_anaphylaxis": {
+        "required": ["You came to the ED with allergy symptoms", "did not find signs of anaphylaxis"],
+        "forbidden": ["Your symptoms improved, and we did not find signs of anaphylaxis"],
+    },
+    "ankle_sprain_xray_negative": {
+        "required": ["x-ray did not show a fracture", "good blood flow", "brace, wrap, or crutches"],
+        "forbidden": [],
+    },
+    "lumbar_strain_no_red_flags": {
+        "required": ["did not find signs of a dangerous nerve or spine problem", "Stay gently active"],
+        "forbidden": [],
+    },
+    "viral_uri_no_pneumonia": {
+        "required": ["viral upper respiratory infection", "breathing, oxygen level", "Antibiotics do not treat cold viruses"],
+        "forbidden": [],
+    },
+    "uncomplicated_cystitis_nonpregnant": {
+        "required": ["bladder infection", "did not find signs of a kidney infection", "urine culture"],
+        "forbidden": [],
+    },
+    "gastroenteritis_stable_hydrating": {
+        "required": ["gastroenteritis", "stable enough for discharge", "small sips often"],
+        "forbidden": [],
+    },
 }
 
 

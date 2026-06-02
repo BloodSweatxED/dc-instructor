@@ -65,25 +65,25 @@ Review date: 2026-06-01.
 
 ```text
 DIAGNOSIS:
-You were treated for pneumonia.
+You were treated for pneumonia, which is an infection in the lungs.
 
 WHAT WE FOUND:
-Your ED evaluation found a lung infection that was safe to treat at home today. Your oxygen level and overall condition were reassuring enough for discharge.
+You came to the ED with symptoms of a lung infection. Your oxygen level and overall condition were reassuring enough to treat this at home today.
 
 WHAT TO DO AT HOME:
-- Rest and increase activity slowly.
-- Drink fluids if you are allowed.
-- Avoid smoking and smoke exposure.
+- Rest and increase activity slowly as your breathing and energy improve.
+- Drink fluids if you are allowed to.
+- Avoid smoking, vaping, and smoke exposure while your lungs recover.
 
 MEDICATIONS:
-- Take antibiotics exactly as prescribed.
-- Use fever or pain medicine only if you can take it safely and follow the label.
+- Take antibiotics as prescribed. Do not skip doses or stop early unless a clinician or pharmacist tells you to.
+- Use fever or pain medicine only if it is safe for you and follow the label.
 
 RETURN TO ED IF:
-- Worse trouble breathing, blue lips, confusion, fainting, or chest pain.
-- Fever or symptoms worsen after starting treatment.
-- You cannot keep medicines or fluids down.
+- Come back for worse trouble breathing, blue lips, confusion, fainting, or chest pain.
+- Come back if fever or symptoms get worse after starting treatment.
+- Come back if you cannot keep medicines or fluids down.
 
 FOLLOW UP:
-Follow up with primary care as instructed.
+See your primary care doctor or clinic within 2-3 days, or sooner if symptoms are not improving.
 ```

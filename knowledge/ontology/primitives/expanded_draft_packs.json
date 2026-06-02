@@ -8,9 +8,9 @@
     "primitive_type": "diagnosis_summary",
     "priority": "required",
     "text": {
-      "en_4": "You were treated for a skin infection called cellulitis.",
-      "en_6": "You were treated for a skin infection called cellulitis.",
-      "en_hl1": "You were treated for a skin infection called cellulitis."
+      "en_4": "You were treated for cellulitis, which is a skin infection.",
+      "en_6": "You were treated for cellulitis, which is a skin infection.",
+      "en_hl1": "You were treated for cellulitis, which is a skin infection."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -34,6 +34,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -45,9 +48,9 @@
     "primitive_type": "reassuring_ed_assessment",
     "priority": "required",
     "text": {
-      "en_4": "Your exam fits a skin infection that is safe to treat at home today. We did not find signs of a deeper emergency infection.",
-      "en_6": "Your exam fits a skin infection that is safe to treat at home today. We did not find signs of a deeper emergency infection.",
-      "en_hl1": "Your exam fits a skin infection that is safe to treat at home today. We did not find signs of a deeper emergency infection."
+      "en_4": "You came to the ED for redness, pain, or swelling of the skin. Your exam fit cellulitis that was safe to treat at home today. We did not find signs of a deeper emergency infection.",
+      "en_6": "You came to the ED for redness, pain, or swelling of the skin. Your exam fit cellulitis that was safe to treat at home today. We did not find signs of a deeper emergency infection.",
+      "en_hl1": "You came to the ED for redness, pain, or swelling of the skin. Your exam fit cellulitis that was safe to treat at home today. We did not find signs of a deeper emergency infection."
     },
     "contraindications": [
       "immunocompromised",
@@ -77,6 +80,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -114,6 +120,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -125,9 +134,9 @@
     "primitive_type": "home_care_2",
     "priority": "high",
     "text": {
-      "en_4": "Raise the arm or leg when you can.",
-      "en_6": "Raise the arm or leg when you can.",
-      "en_hl1": "Raise the arm or leg when you can."
+      "en_4": "Raise the arm or leg when you can to help swelling.",
+      "en_6": "Raise the arm or leg when you can to help swelling.",
+      "en_hl1": "Raise the arm or leg when you can to help swelling."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -151,6 +160,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -162,9 +174,9 @@
     "primitive_type": "home_care_3",
     "priority": "high",
     "text": {
-      "en_4": "Mark the edge of redness if your clinician asks you to.",
-      "en_6": "Mark the edge of redness if your clinician asks you to.",
-      "en_hl1": "Mark the edge of redness if your clinician asks you to."
+      "en_4": "Mark the edge of the redness if your clinician asked you to, so you can tell if it is spreading.",
+      "en_6": "Mark the edge of the redness if your clinician asked you to, so you can tell if it is spreading.",
+      "en_hl1": "Mark the edge of the redness if your clinician asked you to, so you can tell if it is spreading."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -188,6 +200,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -199,9 +214,9 @@
     "primitive_type": "medication_guidance_1",
     "priority": "high",
     "text": {
-      "en_4": "Take the antibiotic exactly as prescribed.",
-      "en_6": "Take the antibiotic exactly as prescribed.",
-      "en_hl1": "Take the antibiotic exactly as prescribed."
+      "en_4": "Take the antibiotic as prescribed. Do not stop early unless a clinician or pharmacist tells you to.",
+      "en_6": "Take the antibiotic as prescribed. Do not stop early unless a clinician or pharmacist tells you to.",
+      "en_hl1": "Take the antibiotic as prescribed. Do not stop early unless a clinician or pharmacist tells you to."
     },
     "contraindications": [
       "immunocompromised",
@@ -231,6 +246,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -242,9 +260,9 @@
     "primitive_type": "medication_guidance_2",
     "priority": "high",
     "text": {
-      "en_4": "Use acetaminophen or ibuprofen only if you can take it safely and follow the label.",
-      "en_6": "Use acetaminophen or ibuprofen only if you can take it safely and follow the label.",
-      "en_hl1": "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+      "en_4": "Use pain or fever medicine only if it is safe for you and follow the label.",
+      "en_6": "Use pain or fever medicine only if it is safe for you and follow the label.",
+      "en_hl1": "Use pain or fever medicine only if it is safe for you and follow the label."
     },
     "contraindications": [
       "immunocompromised",
@@ -274,6 +292,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -285,9 +306,9 @@
     "primitive_type": "return_precaution_1",
     "priority": "required",
     "text": {
-      "en_4": "Fever, shaking chills, confusion, or feeling very ill.",
-      "en_6": "Fever, shaking chills, confusion, or feeling very ill.",
-      "en_hl1": "Fever, shaking chills, confusion, or feeling very ill."
+      "en_4": "Come back for fever, shaking chills, confusion, or feeling very sick.",
+      "en_6": "Come back for fever, shaking chills, confusion, or feeling very sick.",
+      "en_hl1": "Come back for fever, shaking chills, confusion, or feeling very sick."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -311,6 +332,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -322,9 +346,9 @@
     "primitive_type": "return_precaution_2",
     "priority": "required",
     "text": {
-      "en_4": "Redness spreading fast, severe pain, numbness, pus, or red streaks.",
-      "en_6": "Redness spreading fast, severe pain, numbness, pus, or red streaks.",
-      "en_hl1": "Redness spreading fast, severe pain, numbness, pus, or red streaks."
+      "en_4": "Come back if redness spreads fast, pain becomes severe, you notice numbness, pus, or red streaks.",
+      "en_6": "Come back if redness spreads fast, pain becomes severe, you notice numbness, pus, or red streaks.",
+      "en_hl1": "Come back if redness spreads fast, pain becomes severe, you notice numbness, pus, or red streaks."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -348,6 +372,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -359,9 +386,9 @@
     "primitive_type": "return_precaution_3",
     "priority": "required",
     "text": {
-      "en_4": "The infection is near the eye, genitals, or a joint and gets worse.",
-      "en_6": "The infection is near the eye, genitals, or a joint and gets worse.",
-      "en_hl1": "The infection is near the eye, genitals, or a joint and gets worse."
+      "en_4": "Come back if the infection is near the eye, genitals, or a joint and gets worse.",
+      "en_6": "Come back if the infection is near the eye, genitals, or a joint and gets worse.",
+      "en_hl1": "Come back if the infection is near the eye, genitals, or a joint and gets worse."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -385,6 +412,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -396,9 +426,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "Arrange recheck with primary care, urgent care, or the ED as instructed, especially if not improving.",
-      "en_6": "Arrange recheck with primary care, urgent care, or the ED as instructed, especially if not improving.",
-      "en_hl1": "Arrange recheck with primary care, urgent care, or the ED as instructed, especially if not improving."
+      "en_4": "Arrange a recheck with primary care, urgent care, or the ED as instructed, especially if it is not improving.",
+      "en_6": "Arrange a recheck with primary care, urgent care, or the ED as instructed, especially if it is not improving.",
+      "en_hl1": "Arrange a recheck with primary care, urgent care, or the ED as instructed, especially if it is not improving."
     },
     "contraindications": [
       "immunocompromised",
@@ -428,6 +458,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -439,9 +472,9 @@
     "primitive_type": "diagnosis_summary",
     "priority": "required",
     "text": {
-      "en_4": "You had an abscess drained today.",
-      "en_6": "You had an abscess drained today.",
-      "en_hl1": "You had an abscess drained today."
+      "en_4": "You had an abscess, which is a pocket of pus under the skin.",
+      "en_6": "You had an abscess, which is a pocket of pus under the skin.",
+      "en_hl1": "You had an abscess, which is a pocket of pus under the skin."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -464,6 +497,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -475,9 +511,9 @@
     "primitive_type": "reassuring_ed_assessment",
     "priority": "required",
     "text": {
-      "en_4": "The painful swollen area had pus inside. It was opened and drained, which is the main treatment.",
-      "en_6": "The painful swollen area had pus inside. It was opened and drained, which is the main treatment.",
-      "en_hl1": "The painful swollen area had pus inside. It was opened and drained, which is the main treatment."
+      "en_4": "You came to the ED because the area was painful and swollen. We opened and drained the abscess, which is the main treatment. You were safe to go home with wound care instructions.",
+      "en_6": "You came to the ED because the area was painful and swollen. We opened and drained the abscess, which is the main treatment. You were safe to go home with wound care instructions.",
+      "en_hl1": "You came to the ED because the area was painful and swollen. We opened and drained the abscess, which is the main treatment. You were safe to go home with wound care instructions."
     },
     "contraindications": [
       "deep_space_location",
@@ -505,6 +541,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -516,9 +555,9 @@
     "primitive_type": "home_care_1",
     "priority": "high",
     "text": {
-      "en_4": "Keep the dressing clean and dry.",
-      "en_6": "Keep the dressing clean and dry.",
-      "en_hl1": "Keep the dressing clean and dry."
+      "en_4": "Keep the dressing clean and dry today.",
+      "en_6": "Keep the dressing clean and dry today.",
+      "en_hl1": "Keep the dressing clean and dry today."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -541,6 +580,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -552,9 +594,9 @@
     "primitive_type": "home_care_2",
     "priority": "high",
     "text": {
-      "en_4": "Wash your hands before and after wound care.",
-      "en_6": "Wash your hands before and after wound care.",
-      "en_hl1": "Wash your hands before and after wound care."
+      "en_4": "Wash your hands before and after touching the wound.",
+      "en_6": "Wash your hands before and after touching the wound.",
+      "en_hl1": "Wash your hands before and after touching the wound."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -577,6 +619,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -588,9 +633,9 @@
     "primitive_type": "home_care_3",
     "priority": "high",
     "text": {
-      "en_4": "Do not squeeze or dig into the wound.",
-      "en_6": "Do not squeeze or dig into the wound.",
-      "en_hl1": "Do not squeeze or dig into the wound."
+      "en_4": "Do not squeeze, dig into, or try to drain the wound again at home.",
+      "en_6": "Do not squeeze, dig into, or try to drain the wound again at home.",
+      "en_hl1": "Do not squeeze, dig into, or try to drain the wound again at home."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -613,6 +658,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -654,6 +702,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -665,9 +716,9 @@
     "primitive_type": "medication_guidance_2",
     "priority": "high",
     "text": {
-      "en_4": "Use acetaminophen or ibuprofen only if you can take it safely and follow the label.",
-      "en_6": "Use acetaminophen or ibuprofen only if you can take it safely and follow the label.",
-      "en_hl1": "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+      "en_4": "Use pain medicine only if it is safe for you and follow the label or your clinician's instructions.",
+      "en_6": "Use pain medicine only if it is safe for you and follow the label or your clinician's instructions.",
+      "en_hl1": "Use pain medicine only if it is safe for you and follow the label or your clinician's instructions."
     },
     "contraindications": [
       "deep_space_location",
@@ -695,6 +746,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -706,9 +760,9 @@
     "primitive_type": "return_precaution_1",
     "priority": "required",
     "text": {
-      "en_4": "Fever, spreading redness, red streaks, or worsening swelling.",
-      "en_6": "Fever, spreading redness, red streaks, or worsening swelling.",
-      "en_hl1": "Fever, spreading redness, red streaks, or worsening swelling."
+      "en_4": "Come back for fever, spreading redness, red streaks, worsening swelling, or feeling very sick.",
+      "en_6": "Come back for fever, spreading redness, red streaks, worsening swelling, or feeling very sick.",
+      "en_hl1": "Come back for fever, spreading redness, red streaks, worsening swelling, or feeling very sick."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -731,6 +785,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -742,9 +799,9 @@
     "primitive_type": "return_precaution_2",
     "priority": "required",
     "text": {
-      "en_4": "Severe pain, numbness, or bleeding that will not stop.",
-      "en_6": "Severe pain, numbness, or bleeding that will not stop.",
-      "en_hl1": "Severe pain, numbness, or bleeding that will not stop."
+      "en_4": "Come back for severe pain, numbness, bleeding that will not stop, or pus building back up.",
+      "en_6": "Come back for severe pain, numbness, bleeding that will not stop, or pus building back up.",
+      "en_hl1": "Come back for severe pain, numbness, bleeding that will not stop, or pus building back up."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -767,6 +824,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -778,9 +838,9 @@
     "primitive_type": "return_precaution_3",
     "priority": "required",
     "text": {
-      "en_4": "Packing falls out early and you were told it must stay in.",
-      "en_6": "Packing falls out early and you were told it must stay in.",
-      "en_hl1": "Packing falls out early and you were told it must stay in."
+      "en_4": "Come back if packing falls out early and you were told it needed to stay in.",
+      "en_6": "Come back if packing falls out early and you were told it needed to stay in.",
+      "en_hl1": "Come back if packing falls out early and you were told it needed to stay in."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -803,6 +863,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -814,9 +877,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "Return or follow up for wound check as instructed.",
-      "en_6": "Return or follow up for wound check as instructed.",
-      "en_hl1": "Return or follow up for wound check as instructed."
+      "en_4": "Return or follow up for a wound check as instructed.",
+      "en_6": "Return or follow up for a wound check as instructed.",
+      "en_hl1": "Return or follow up for a wound check as instructed."
     },
     "contraindications": [
       "deep_space_location",
@@ -844,6 +907,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -880,6 +946,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -891,9 +960,9 @@
     "primitive_type": "reassuring_ed_assessment",
     "priority": "required",
     "text": {
-      "en_4": "We checked the wound and repaired it because it was safe to close. No emergency complication was found during today's exam.",
-      "en_6": "We checked the wound and repaired it because it was safe to close. No emergency complication was found during today's exam.",
-      "en_hl1": "We checked the wound and repaired it because it was safe to close. No emergency complication was found during today's exam."
+      "en_4": "You came to the ED with a cut. We checked the wound, cleaned it, and repaired it because it was safe to close. We did not find signs of tendon, nerve, blood vessel, joint, or bone injury today.",
+      "en_6": "You came to the ED with a cut. We checked the wound, cleaned it, and repaired it because it was safe to close. We did not find signs of tendon, nerve, blood vessel, joint, or bone injury today.",
+      "en_hl1": "You came to the ED with a cut. We checked the wound, cleaned it, and repaired it because it was safe to close. We did not find signs of tendon, nerve, blood vessel, joint, or bone injury today."
     },
     "contraindications": [
       "bite_wound",
@@ -922,6 +991,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -958,6 +1030,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -969,9 +1044,9 @@
     "primitive_type": "home_care_2",
     "priority": "high",
     "text": {
-      "en_4": "After the first day, gentle soap and water is usually okay unless told otherwise.",
-      "en_6": "After the first day, gentle soap and water is usually okay unless told otherwise.",
-      "en_hl1": "After the first day, gentle soap and water is usually okay unless told otherwise."
+      "en_4": "After the first day, gentle soap and water is usually okay unless you were told otherwise.",
+      "en_6": "After the first day, gentle soap and water is usually okay unless you were told otherwise.",
+      "en_hl1": "After the first day, gentle soap and water is usually okay unless you were told otherwise."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -994,6 +1069,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1030,6 +1108,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1072,6 +1153,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1083,9 +1167,9 @@
     "primitive_type": "medication_guidance_2",
     "priority": "high",
     "text": {
-      "en_4": "Use acetaminophen or ibuprofen only if you can take it safely and follow the label.",
-      "en_6": "Use acetaminophen or ibuprofen only if you can take it safely and follow the label.",
-      "en_hl1": "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+      "en_4": "Use pain medicine only if it is safe for you and follow the label.",
+      "en_6": "Use pain medicine only if it is safe for you and follow the label.",
+      "en_hl1": "Use pain medicine only if it is safe for you and follow the label."
     },
     "contraindications": [
       "bite_wound",
@@ -1114,6 +1198,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1125,9 +1212,9 @@
     "primitive_type": "return_precaution_1",
     "priority": "required",
     "text": {
-      "en_4": "Fever, pus, spreading redness, red streaks, or worsening swelling.",
-      "en_6": "Fever, pus, spreading redness, red streaks, or worsening swelling.",
-      "en_hl1": "Fever, pus, spreading redness, red streaks, or worsening swelling."
+      "en_4": "Come back for fever, pus, spreading redness, red streaks, or worsening swelling.",
+      "en_6": "Come back for fever, pus, spreading redness, red streaks, or worsening swelling.",
+      "en_hl1": "Come back for fever, pus, spreading redness, red streaks, or worsening swelling."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -1150,6 +1237,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1161,9 +1251,9 @@
     "primitive_type": "return_precaution_2",
     "priority": "required",
     "text": {
-      "en_4": "Bleeding that will not stop with firm pressure.",
-      "en_6": "Bleeding that will not stop with firm pressure.",
-      "en_hl1": "Bleeding that will not stop with firm pressure."
+      "en_4": "Come back for bleeding that will not stop with firm pressure.",
+      "en_6": "Come back for bleeding that will not stop with firm pressure.",
+      "en_hl1": "Come back for bleeding that will not stop with firm pressure."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -1186,6 +1276,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1197,9 +1290,9 @@
     "primitive_type": "return_precaution_3",
     "priority": "required",
     "text": {
-      "en_4": "New numbness, weakness, color change, or the wound opens.",
-      "en_6": "New numbness, weakness, color change, or the wound opens.",
-      "en_hl1": "New numbness, weakness, color change, or the wound opens."
+      "en_4": "Come back for new numbness, weakness, color change, or if the wound opens.",
+      "en_6": "Come back for new numbness, weakness, color change, or if the wound opens.",
+      "en_hl1": "Come back for new numbness, weakness, color change, or if the wound opens."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -1222,6 +1315,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1264,6 +1360,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1301,6 +1400,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1312,9 +1414,9 @@
     "primitive_type": "reassuring_ed_assessment",
     "priority": "required",
     "text": {
-      "en_4": "Your exam was reassuring today. We did not find signs that you needed emergency treatment for bleeding around the brain.",
-      "en_6": "Your exam was reassuring today. We did not find signs that you needed emergency treatment for bleeding around the brain.",
-      "en_hl1": "Your exam was reassuring today. We did not find signs that you needed emergency treatment for bleeding around the brain."
+      "en_4": "You came to the ED after hitting your head. Your exam was reassuring. We did not find signs of bleeding around the brain that needed emergency treatment today.",
+      "en_6": "You came to the ED after hitting your head. Your exam was reassuring. We did not find signs of bleeding around the brain that needed emergency treatment today.",
+      "en_hl1": "You came to the ED after hitting your head. Your exam was reassuring. We did not find signs of bleeding around the brain that needed emergency treatment today."
     },
     "contraindications": [
       "anticoagulated",
@@ -1344,6 +1446,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1381,6 +1486,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1418,6 +1526,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1455,6 +1566,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1466,9 +1580,9 @@
     "primitive_type": "medication_guidance_1",
     "priority": "high",
     "text": {
-      "en_4": "Use acetaminophen for headache if you can take it safely and follow the label.",
-      "en_6": "Use acetaminophen for headache if you can take it safely and follow the label.",
-      "en_hl1": "Use acetaminophen for headache if you can take it safely and follow the label."
+      "en_4": "Use acetaminophen for headache only if it is safe for you and follow the label.",
+      "en_6": "Use acetaminophen for headache only if it is safe for you and follow the label.",
+      "en_hl1": "Use acetaminophen for headache only if it is safe for you and follow the label."
     },
     "contraindications": [
       "anticoagulated",
@@ -1498,6 +1612,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1541,6 +1658,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1552,9 +1672,9 @@
     "primitive_type": "return_precaution_1",
     "priority": "required",
     "text": {
-      "en_4": "Worsening severe headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up.",
-      "en_6": "Worsening severe headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up.",
-      "en_hl1": "Worsening severe headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up."
+      "en_4": "Come back right away for worsening severe headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up.",
+      "en_6": "Come back right away for worsening severe headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up.",
+      "en_hl1": "Come back right away for worsening severe headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -1578,6 +1698,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1589,9 +1712,9 @@
     "primitive_type": "return_precaution_2",
     "priority": "required",
     "text": {
-      "en_4": "New weakness, numbness, trouble speaking, or vision changes.",
-      "en_6": "New weakness, numbness, trouble speaking, or vision changes.",
-      "en_hl1": "New weakness, numbness, trouble speaking, or vision changes."
+      "en_4": "Come back for new weakness, numbness, trouble speaking, or vision changes.",
+      "en_6": "Come back for new weakness, numbness, trouble speaking, or vision changes.",
+      "en_hl1": "Come back for new weakness, numbness, trouble speaking, or vision changes."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -1615,6 +1738,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1626,9 +1752,9 @@
     "primitive_type": "return_precaution_3",
     "priority": "required",
     "text": {
-      "en_4": "Clear fluid or blood from the nose or ear.",
-      "en_6": "Clear fluid or blood from the nose or ear.",
-      "en_hl1": "Clear fluid or blood from the nose or ear."
+      "en_4": "Come back for clear fluid or blood from the nose or ear.",
+      "en_6": "Come back for clear fluid or blood from the nose or ear.",
+      "en_hl1": "Come back for clear fluid or blood from the nose or ear."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -1652,6 +1778,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1695,6 +1824,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1732,6 +1864,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1743,9 +1878,9 @@
     "primitive_type": "reassuring_ed_assessment",
     "priority": "required",
     "text": {
-      "en_4": "A concussion can happen after a hit or sudden movement of the head. Your exam today did not show an emergency danger sign requiring admission.",
-      "en_6": "A concussion can happen after a hit or sudden movement of the head. Your exam today did not show an emergency danger sign requiring admission.",
-      "en_hl1": "A concussion can happen after a hit or sudden movement of the head. Your exam today did not show an emergency danger sign requiring admission."
+      "en_4": "You came to the ED after a head injury. Your exam did not show an emergency danger sign requiring admission today, but concussion symptoms can change after you leave.",
+      "en_6": "You came to the ED after a head injury. Your exam did not show an emergency danger sign requiring admission today, but concussion symptoms can change after you leave.",
+      "en_hl1": "You came to the ED after a head injury. Your exam did not show an emergency danger sign requiring admission today, but concussion symptoms can change after you leave."
     },
     "contraindications": [
       "athlete_return_to_play",
@@ -1774,6 +1909,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1811,6 +1949,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1822,9 +1963,9 @@
     "primitive_type": "home_care_2",
     "priority": "high",
     "text": {
-      "en_4": "Return to school, work, exercise, and screens slowly as symptoms allow.",
-      "en_6": "Return to school, work, exercise, and screens slowly as symptoms allow.",
-      "en_hl1": "Return to school, work, exercise, and screens slowly as symptoms allow."
+      "en_4": "Return to school, work, screens, and exercise slowly as symptoms allow.",
+      "en_6": "Return to school, work, screens, and exercise slowly as symptoms allow.",
+      "en_hl1": "Return to school, work, screens, and exercise slowly as symptoms allow."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -1848,6 +1989,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1885,6 +2029,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1896,9 +2043,9 @@
     "primitive_type": "medication_guidance_1",
     "priority": "high",
     "text": {
-      "en_4": "Use acetaminophen for headache if you can take it safely and follow the label.",
-      "en_6": "Use acetaminophen for headache if you can take it safely and follow the label.",
-      "en_hl1": "Use acetaminophen for headache if you can take it safely and follow the label."
+      "en_4": "Use acetaminophen for headache only if it is safe for you and follow the label.",
+      "en_6": "Use acetaminophen for headache only if it is safe for you and follow the label.",
+      "en_hl1": "Use acetaminophen for headache only if it is safe for you and follow the label."
     },
     "contraindications": [
       "athlete_return_to_play",
@@ -1927,6 +2074,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1938,9 +2088,9 @@
     "primitive_type": "medication_guidance_2",
     "priority": "high",
     "text": {
-      "en_4": "Avoid alcohol and sedating drugs unless your clinician says they are safe.",
-      "en_6": "Avoid alcohol and sedating drugs unless your clinician says they are safe.",
-      "en_hl1": "Avoid alcohol and sedating drugs unless your clinician says they are safe."
+      "en_4": "Avoid alcohol, sedating drugs, and driving until you know you are thinking clearly and your clinician says it is safe.",
+      "en_6": "Avoid alcohol, sedating drugs, and driving until you know you are thinking clearly and your clinician says it is safe.",
+      "en_hl1": "Avoid alcohol, sedating drugs, and driving until you know you are thinking clearly and your clinician says it is safe."
     },
     "contraindications": [
       "athlete_return_to_play",
@@ -1969,6 +2119,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -1980,9 +2133,9 @@
     "primitive_type": "return_precaution_1",
     "priority": "required",
     "text": {
-      "en_4": "Worsening headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up.",
-      "en_6": "Worsening headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up.",
-      "en_hl1": "Worsening headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up."
+      "en_4": "Come back right away for worsening headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up.",
+      "en_6": "Come back right away for worsening headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up.",
+      "en_hl1": "Come back right away for worsening headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -2006,6 +2159,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2017,9 +2173,9 @@
     "primitive_type": "return_precaution_2",
     "priority": "required",
     "text": {
-      "en_4": "New weakness, numbness, trouble speaking, or vision changes.",
-      "en_6": "New weakness, numbness, trouble speaking, or vision changes.",
-      "en_hl1": "New weakness, numbness, trouble speaking, or vision changes."
+      "en_4": "Come back for new weakness, numbness, trouble speaking, or vision changes.",
+      "en_6": "Come back for new weakness, numbness, trouble speaking, or vision changes.",
+      "en_hl1": "Come back for new weakness, numbness, trouble speaking, or vision changes."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -2043,6 +2199,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2054,9 +2213,9 @@
     "primitive_type": "return_precaution_3",
     "priority": "required",
     "text": {
-      "en_4": "Any second head injury before you recover.",
-      "en_6": "Any second head injury before you recover.",
-      "en_hl1": "Any second head injury before you recover."
+      "en_4": "Come back after any second head injury before you recover.",
+      "en_6": "Come back after any second head injury before you recover.",
+      "en_hl1": "Come back after any second head injury before you recover."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -2080,6 +2239,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2091,9 +2253,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "Follow up with primary care, sports medicine, or concussion clinic if symptoms persist or if you need return-to-play clearance.",
-      "en_6": "Follow up with primary care, sports medicine, or concussion clinic if symptoms persist or if you need return-to-play clearance.",
-      "en_hl1": "Follow up with primary care, sports medicine, or concussion clinic if symptoms persist or if you need return-to-play clearance."
+      "en_4": "Follow up with primary care, sports medicine, or a concussion clinic if symptoms persist or if you need return-to-play clearance.",
+      "en_6": "Follow up with primary care, sports medicine, or a concussion clinic if symptoms persist or if you need return-to-play clearance.",
+      "en_hl1": "Follow up with primary care, sports medicine, or a concussion clinic if symptoms persist or if you need return-to-play clearance."
     },
     "contraindications": [
       "athlete_return_to_play",
@@ -2122,6 +2284,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2158,6 +2323,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2169,9 +2337,9 @@
     "primitive_type": "reassuring_ed_assessment",
     "priority": "required",
     "text": {
-      "en_4": "Your ED evaluation was reassuring enough for home care today. We did not find signs of a dangerous kidney infection or blocked infected kidney.",
-      "en_6": "Your ED evaluation was reassuring enough for home care today. We did not find signs of a dangerous kidney infection or blocked infected kidney.",
-      "en_hl1": "Your ED evaluation was reassuring enough for home care today. We did not find signs of a dangerous kidney infection or blocked infected kidney."
+      "en_4": "You came to the ED with flank pain or symptoms that fit a kidney stone. Your evaluation was reassuring enough for home care today. We did not find signs of a dangerous kidney infection or blocked infected kidney.",
+      "en_6": "You came to the ED with flank pain or symptoms that fit a kidney stone. Your evaluation was reassuring enough for home care today. We did not find signs of a dangerous kidney infection or blocked infected kidney.",
+      "en_hl1": "You came to the ED with flank pain or symptoms that fit a kidney stone. Your evaluation was reassuring enough for home care today. We did not find signs of a dangerous kidney infection or blocked infected kidney."
     },
     "contraindications": [
       "fever",
@@ -2200,6 +2368,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2236,6 +2407,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2272,6 +2446,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2308,6 +2485,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2319,9 +2499,9 @@
     "primitive_type": "medication_guidance_1",
     "priority": "high",
     "text": {
-      "en_4": "Take prescribed pain or nausea medicine exactly as directed.",
-      "en_6": "Take prescribed pain or nausea medicine exactly as directed.",
-      "en_hl1": "Take prescribed pain or nausea medicine exactly as directed."
+      "en_4": "Take prescribed pain or nausea medicine only as directed.",
+      "en_6": "Take prescribed pain or nausea medicine only as directed.",
+      "en_hl1": "Take prescribed pain or nausea medicine only as directed."
     },
     "contraindications": [
       "fever",
@@ -2350,6 +2530,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2361,9 +2544,9 @@
     "primitive_type": "medication_guidance_2",
     "priority": "high",
     "text": {
-      "en_4": "Use acetaminophen or ibuprofen only if you can take it safely and follow the label.",
-      "en_6": "Use acetaminophen or ibuprofen only if you can take it safely and follow the label.",
-      "en_hl1": "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+      "en_4": "Use acetaminophen or ibuprofen only if it is safe for you and follow the label or your clinician's instructions.",
+      "en_6": "Use acetaminophen or ibuprofen only if it is safe for you and follow the label or your clinician's instructions.",
+      "en_hl1": "Use acetaminophen or ibuprofen only if it is safe for you and follow the label or your clinician's instructions."
     },
     "contraindications": [
       "fever",
@@ -2392,6 +2575,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2403,9 +2589,9 @@
     "primitive_type": "return_precaution_1",
     "priority": "required",
     "text": {
-      "en_4": "Fever, chills, worsening flank pain, repeated vomiting, or feeling very ill.",
-      "en_6": "Fever, chills, worsening flank pain, repeated vomiting, or feeling very ill.",
-      "en_hl1": "Fever, chills, worsening flank pain, repeated vomiting, or feeling very ill."
+      "en_4": "Come back for fever, chills, worsening flank pain, repeated vomiting, or feeling very ill.",
+      "en_6": "Come back for fever, chills, worsening flank pain, repeated vomiting, or feeling very ill.",
+      "en_hl1": "Come back for fever, chills, worsening flank pain, repeated vomiting, or feeling very ill."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -2428,6 +2614,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2439,9 +2628,9 @@
     "primitive_type": "return_precaution_2",
     "priority": "required",
     "text": {
-      "en_4": "You cannot urinate.",
-      "en_6": "You cannot urinate.",
-      "en_hl1": "You cannot urinate."
+      "en_4": "Come back if you cannot urinate.",
+      "en_6": "Come back if you cannot urinate.",
+      "en_hl1": "Come back if you cannot urinate."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -2464,6 +2653,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2475,9 +2667,9 @@
     "primitive_type": "return_precaution_3",
     "priority": "required",
     "text": {
-      "en_4": "Pain cannot be controlled with the plan you were given.",
-      "en_6": "Pain cannot be controlled with the plan you were given.",
-      "en_hl1": "Pain cannot be controlled with the plan you were given."
+      "en_4": "Come back if pain cannot be controlled with the plan you were given.",
+      "en_6": "Come back if pain cannot be controlled with the plan you were given.",
+      "en_hl1": "Come back if pain cannot be controlled with the plan you were given."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -2500,6 +2692,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2542,6 +2737,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2578,6 +2776,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2589,9 +2790,9 @@
     "primitive_type": "reassuring_ed_assessment",
     "priority": "required",
     "text": {
-      "en_4": "Your exam did not show signs of a dangerous deep infection in the face, jaw, or neck today.",
-      "en_6": "Your exam did not show signs of a dangerous deep infection in the face, jaw, or neck today.",
-      "en_hl1": "Your exam did not show signs of a dangerous deep infection in the face, jaw, or neck today."
+      "en_4": "You came to the ED for tooth or mouth pain. We did not see signs of a dangerous deep infection in the face, jaw, or neck today.",
+      "en_6": "You came to the ED for tooth or mouth pain. We did not see signs of a dangerous deep infection in the face, jaw, or neck today.",
+      "en_hl1": "You came to the ED for tooth or mouth pain. We did not see signs of a dangerous deep infection in the face, jaw, or neck today."
     },
     "contraindications": [
       "airway_symptoms",
@@ -2619,6 +2820,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2630,9 +2834,9 @@
     "primitive_type": "home_care_1",
     "priority": "high",
     "text": {
-      "en_4": "Keep the mouth clean with gentle brushing.",
-      "en_6": "Keep the mouth clean with gentle brushing.",
-      "en_hl1": "Keep the mouth clean with gentle brushing."
+      "en_4": "Keep your mouth clean with gentle brushing.",
+      "en_6": "Keep your mouth clean with gentle brushing.",
+      "en_hl1": "Keep your mouth clean with gentle brushing."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -2655,6 +2859,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2691,6 +2898,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2702,9 +2912,9 @@
     "primitive_type": "home_care_3",
     "priority": "high",
     "text": {
-      "en_4": "A dentist must treat the tooth problem for it to fully resolve.",
-      "en_6": "A dentist must treat the tooth problem for it to fully resolve.",
-      "en_hl1": "A dentist must treat the tooth problem for it to fully resolve."
+      "en_4": "A dentist needs to treat the tooth problem for it to fully resolve.",
+      "en_6": "A dentist needs to treat the tooth problem for it to fully resolve.",
+      "en_hl1": "A dentist needs to treat the tooth problem for it to fully resolve."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -2727,6 +2937,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2768,6 +2981,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2779,9 +2995,9 @@
     "primitive_type": "medication_guidance_2",
     "priority": "high",
     "text": {
-      "en_4": "Use acetaminophen or ibuprofen only if you can take it safely and follow the label.",
-      "en_6": "Use acetaminophen or ibuprofen only if you can take it safely and follow the label.",
-      "en_hl1": "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+      "en_4": "Use pain medicine only if it is safe for you and follow the label or your clinician's instructions.",
+      "en_6": "Use pain medicine only if it is safe for you and follow the label or your clinician's instructions.",
+      "en_hl1": "Use pain medicine only if it is safe for you and follow the label or your clinician's instructions."
     },
     "contraindications": [
       "airway_symptoms",
@@ -2809,6 +3025,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2820,9 +3039,9 @@
     "primitive_type": "return_precaution_1",
     "priority": "required",
     "text": {
-      "en_4": "Face or neck swelling, fever, trouble swallowing, drooling, voice change, or trouble breathing.",
-      "en_6": "Face or neck swelling, fever, trouble swallowing, drooling, voice change, or trouble breathing.",
-      "en_hl1": "Face or neck swelling, fever, trouble swallowing, drooling, voice change, or trouble breathing."
+      "en_4": "Come back right away for face or neck swelling, fever, trouble swallowing, drooling, voice change, or trouble breathing.",
+      "en_6": "Come back right away for face or neck swelling, fever, trouble swallowing, drooling, voice change, or trouble breathing.",
+      "en_hl1": "Come back right away for face or neck swelling, fever, trouble swallowing, drooling, voice change, or trouble breathing."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -2845,6 +3064,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2856,9 +3078,9 @@
     "primitive_type": "return_precaution_2",
     "priority": "required",
     "text": {
-      "en_4": "You cannot open your mouth normally.",
-      "en_6": "You cannot open your mouth normally.",
-      "en_hl1": "You cannot open your mouth normally."
+      "en_4": "Come back if you cannot open your mouth normally.",
+      "en_6": "Come back if you cannot open your mouth normally.",
+      "en_hl1": "Come back if you cannot open your mouth normally."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -2881,6 +3103,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2892,9 +3117,9 @@
     "primitive_type": "return_precaution_3",
     "priority": "required",
     "text": {
-      "en_4": "Pain or swelling spreads quickly.",
-      "en_6": "Pain or swelling spreads quickly.",
-      "en_hl1": "Pain or swelling spreads quickly."
+      "en_4": "Come back if pain or swelling spreads quickly.",
+      "en_6": "Come back if pain or swelling spreads quickly.",
+      "en_hl1": "Come back if pain or swelling spreads quickly."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -2917,6 +3142,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2928,9 +3156,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "See a dentist as soon as possible.",
-      "en_6": "See a dentist as soon as possible.",
-      "en_hl1": "See a dentist as soon as possible."
+      "en_4": "See a dentist as soon as possible. The ED cannot fix the tooth permanently.",
+      "en_6": "See a dentist as soon as possible. The ED cannot fix the tooth permanently.",
+      "en_hl1": "See a dentist as soon as possible. The ED cannot fix the tooth permanently."
     },
     "contraindications": [
       "airway_symptoms",
@@ -2958,6 +3186,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -2995,6 +3226,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -3006,9 +3240,9 @@
     "primitive_type": "reassuring_ed_assessment",
     "priority": "required",
     "text": {
-      "en_4": "Your strep test was negative. Your exam did not show signs of a dangerous throat or neck infection today.",
-      "en_6": "Your strep test was negative. Your exam did not show signs of a dangerous throat or neck infection today.",
-      "en_hl1": "Your strep test was negative. Your exam did not show signs of a dangerous throat or neck infection today."
+      "en_4": "You came to the ED for a sore throat. Your strep test was negative, and your exam did not show signs of a dangerous throat or neck infection today.",
+      "en_6": "You came to the ED for a sore throat. Your strep test was negative, and your exam did not show signs of a dangerous throat or neck infection today.",
+      "en_hl1": "You came to the ED for a sore throat. Your strep test was negative, and your exam did not show signs of a dangerous throat or neck infection today."
     },
     "contraindications": [
       "drooling",
@@ -3038,6 +3272,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -3075,6 +3312,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -3112,6 +3352,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -3149,6 +3392,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -3192,6 +3438,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -3203,9 +3452,9 @@
     "primitive_type": "medication_guidance_2",
     "priority": "high",
     "text": {
-      "en_4": "Use acetaminophen or ibuprofen only if you can take it safely and follow the label.",
-      "en_6": "Use acetaminophen or ibuprofen only if you can take it safely and follow the label.",
-      "en_hl1": "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+      "en_4": "Use acetaminophen or ibuprofen only if it is safe for you and follow the label.",
+      "en_6": "Use acetaminophen or ibuprofen only if it is safe for you and follow the label.",
+      "en_hl1": "Use acetaminophen or ibuprofen only if it is safe for you and follow the label."
     },
     "contraindications": [
       "drooling",
@@ -3235,6 +3484,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -3246,9 +3498,9 @@
     "primitive_type": "return_precaution_1",
     "priority": "required",
     "text": {
-      "en_4": "Trouble breathing, drooling, muffled voice, stiff neck, or trouble opening your mouth.",
-      "en_6": "Trouble breathing, drooling, muffled voice, stiff neck, or trouble opening your mouth.",
-      "en_hl1": "Trouble breathing, drooling, muffled voice, stiff neck, or trouble opening your mouth."
+      "en_4": "Come back right away for trouble breathing, drooling, muffled voice, stiff neck, or trouble opening your mouth.",
+      "en_6": "Come back right away for trouble breathing, drooling, muffled voice, stiff neck, or trouble opening your mouth.",
+      "en_hl1": "Come back right away for trouble breathing, drooling, muffled voice, stiff neck, or trouble opening your mouth."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -3272,6 +3524,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -3283,9 +3538,9 @@
     "primitive_type": "return_precaution_2",
     "priority": "required",
     "text": {
-      "en_4": "You cannot swallow fluids.",
-      "en_6": "You cannot swallow fluids.",
-      "en_hl1": "You cannot swallow fluids."
+      "en_4": "Come back if you cannot swallow fluids.",
+      "en_6": "Come back if you cannot swallow fluids.",
+      "en_hl1": "Come back if you cannot swallow fluids."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -3309,6 +3564,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -3320,9 +3578,9 @@
     "primitive_type": "return_precaution_3",
     "priority": "required",
     "text": {
-      "en_4": "Fever or throat pain becomes much worse.",
-      "en_6": "Fever or throat pain becomes much worse.",
-      "en_hl1": "Fever or throat pain becomes much worse."
+      "en_4": "Come back if fever or throat pain becomes much worse.",
+      "en_6": "Come back if fever or throat pain becomes much worse.",
+      "en_hl1": "Come back if fever or throat pain becomes much worse."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -3346,6 +3604,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -3389,6 +3650,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4031,6 +4295,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4042,9 +4309,9 @@
     "primitive_type": "reassuring_ed_assessment",
     "priority": "required",
     "text": {
-      "en_4": "Your symptoms improved, and we did not find signs of anaphylaxis at discharge today.",
-      "en_6": "Your symptoms improved, and we did not find signs of anaphylaxis at discharge today.",
-      "en_hl1": "Your symptoms improved, and we did not find signs of anaphylaxis at discharge today."
+      "en_4": "You came to the ED with allergy symptoms. The symptoms improved, and we did not find signs of anaphylaxis when you were ready for discharge.",
+      "en_6": "You came to the ED with allergy symptoms. The symptoms improved, and we did not find signs of anaphylaxis when you were ready for discharge.",
+      "en_hl1": "You came to the ED with allergy symptoms. The symptoms improved, and we did not find signs of anaphylaxis when you were ready for discharge."
     },
     "contraindications": [
       "airway_symptoms",
@@ -4073,6 +4340,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4084,9 +4354,9 @@
     "primitive_type": "home_care_1",
     "priority": "high",
     "text": {
-      "en_4": "Avoid the trigger if it is known.",
-      "en_6": "Avoid the trigger if it is known.",
-      "en_hl1": "Avoid the trigger if it is known."
+      "en_4": "Avoid the trigger if you know what caused the reaction.",
+      "en_6": "Avoid the trigger if you know what caused the reaction.",
+      "en_hl1": "Avoid the trigger if you know what caused the reaction."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -4109,6 +4379,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4120,9 +4393,9 @@
     "primitive_type": "home_care_2",
     "priority": "high",
     "text": {
-      "en_4": "Watch for symptoms returning after you leave.",
-      "en_6": "Watch for symptoms returning after you leave.",
-      "en_hl1": "Watch for symptoms returning after you leave."
+      "en_4": "Watch for symptoms coming back after you leave.",
+      "en_6": "Watch for symptoms coming back after you leave.",
+      "en_hl1": "Watch for symptoms coming back after you leave."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -4145,6 +4418,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4156,9 +4432,9 @@
     "primitive_type": "home_care_3",
     "priority": "high",
     "text": {
-      "en_4": "Do not drive or drink alcohol after sedating allergy medicines.",
-      "en_6": "Do not drive or drink alcohol after sedating allergy medicines.",
-      "en_hl1": "Do not drive or drink alcohol after sedating allergy medicines."
+      "en_4": "Do not drive, drink alcohol, or take other sedating medicines after sedating allergy medicine unless your clinician says it is safe.",
+      "en_6": "Do not drive, drink alcohol, or take other sedating medicines after sedating allergy medicine unless your clinician says it is safe.",
+      "en_hl1": "Do not drive, drink alcohol, or take other sedating medicines after sedating allergy medicine unless your clinician says it is safe."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -4181,6 +4457,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4192,9 +4471,9 @@
     "primitive_type": "medication_guidance_1",
     "priority": "high",
     "text": {
-      "en_4": "Take allergy medicines exactly as prescribed.",
-      "en_6": "Take allergy medicines exactly as prescribed.",
-      "en_hl1": "Take allergy medicines exactly as prescribed."
+      "en_4": "Take allergy medicines as prescribed or as directed on the label.",
+      "en_6": "Take allergy medicines as prescribed or as directed on the label.",
+      "en_hl1": "Take allergy medicines as prescribed or as directed on the label."
     },
     "contraindications": [
       "airway_symptoms",
@@ -4223,6 +4502,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4234,9 +4516,9 @@
     "primitive_type": "medication_guidance_2",
     "priority": "high",
     "text": {
-      "en_4": "Use an epinephrine injector only if one was prescribed and you were instructed to use it.",
-      "en_6": "Use an epinephrine injector only if one was prescribed and you were instructed to use it.",
-      "en_hl1": "Use an epinephrine injector only if one was prescribed and you were instructed to use it."
+      "en_4": "Use an epinephrine injector only if one was prescribed and you were told when to use it.",
+      "en_6": "Use an epinephrine injector only if one was prescribed and you were told when to use it.",
+      "en_hl1": "Use an epinephrine injector only if one was prescribed and you were told when to use it."
     },
     "contraindications": [
       "airway_symptoms",
@@ -4265,6 +4547,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4276,9 +4561,9 @@
     "primitive_type": "return_precaution_1",
     "priority": "required",
     "text": {
-      "en_4": "Trouble breathing, wheezing, throat tightness, tongue or lip swelling, fainting, or severe vomiting.",
-      "en_6": "Trouble breathing, wheezing, throat tightness, tongue or lip swelling, fainting, or severe vomiting.",
-      "en_hl1": "Trouble breathing, wheezing, throat tightness, tongue or lip swelling, fainting, or severe vomiting."
+      "en_4": "Come back right away for trouble breathing, wheezing, throat tightness, tongue or lip swelling, fainting, or severe vomiting.",
+      "en_6": "Come back right away for trouble breathing, wheezing, throat tightness, tongue or lip swelling, fainting, or severe vomiting.",
+      "en_hl1": "Come back right away for trouble breathing, wheezing, throat tightness, tongue or lip swelling, fainting, or severe vomiting."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -4301,6 +4586,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4312,9 +4600,9 @@
     "primitive_type": "return_precaution_2",
     "priority": "required",
     "text": {
-      "en_4": "Rash or swelling returns quickly or spreads.",
-      "en_6": "Rash or swelling returns quickly or spreads.",
-      "en_hl1": "Rash or swelling returns quickly or spreads."
+      "en_4": "Come back if rash or swelling returns quickly or spreads.",
+      "en_6": "Come back if rash or swelling returns quickly or spreads.",
+      "en_hl1": "Come back if rash or swelling returns quickly or spreads."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -4337,6 +4625,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4348,9 +4639,9 @@
     "primitive_type": "return_precaution_3",
     "priority": "required",
     "text": {
-      "en_4": "You use epinephrine.",
-      "en_6": "You use epinephrine.",
-      "en_hl1": "You use epinephrine."
+      "en_4": "Come back right away if you use epinephrine.",
+      "en_6": "Come back right away if you use epinephrine.",
+      "en_hl1": "Come back right away if you use epinephrine."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -4373,6 +4664,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4384,9 +4678,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "Follow up with primary care or allergy clinic if symptoms continue or trigger is unclear.",
-      "en_6": "Follow up with primary care or allergy clinic if symptoms continue or trigger is unclear.",
-      "en_hl1": "Follow up with primary care or allergy clinic if symptoms continue or trigger is unclear."
+      "en_4": "Follow up with primary care or an allergy clinician if symptoms continue or the trigger is unclear.",
+      "en_6": "Follow up with primary care or an allergy clinician if symptoms continue or the trigger is unclear.",
+      "en_hl1": "Follow up with primary care or an allergy clinician if symptoms continue or the trigger is unclear."
     },
     "contraindications": [
       "airway_symptoms",
@@ -4415,6 +4709,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4426,9 +4723,9 @@
     "primitive_type": "diagnosis_summary",
     "priority": "required",
     "text": {
-      "en_4": "You were treated for pneumonia.",
-      "en_6": "You were treated for pneumonia.",
-      "en_hl1": "You were treated for pneumonia."
+      "en_4": "You were treated for pneumonia, which is an infection in the lungs.",
+      "en_6": "You were treated for pneumonia, which is an infection in the lungs.",
+      "en_hl1": "You were treated for pneumonia, which is an infection in the lungs."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -4452,6 +4749,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4463,9 +4763,9 @@
     "primitive_type": "reassuring_ed_assessment",
     "priority": "required",
     "text": {
-      "en_4": "Your ED evaluation found a lung infection that was safe to treat at home today. Your oxygen level and overall condition were reassuring enough for discharge.",
-      "en_6": "Your ED evaluation found a lung infection that was safe to treat at home today. Your oxygen level and overall condition were reassuring enough for discharge.",
-      "en_hl1": "Your ED evaluation found a lung infection that was safe to treat at home today. Your oxygen level and overall condition were reassuring enough for discharge."
+      "en_4": "You came to the ED with symptoms of a lung infection. Your oxygen level and overall condition were reassuring enough to treat this at home today.",
+      "en_6": "You came to the ED with symptoms of a lung infection. Your oxygen level and overall condition were reassuring enough to treat this at home today.",
+      "en_hl1": "You came to the ED with symptoms of a lung infection. Your oxygen level and overall condition were reassuring enough to treat this at home today."
     },
     "contraindications": [
       "hypoxia",
@@ -4495,6 +4795,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4506,9 +4809,9 @@
     "primitive_type": "home_care_1",
     "priority": "high",
     "text": {
-      "en_4": "Rest and increase activity slowly.",
-      "en_6": "Rest and increase activity slowly.",
-      "en_hl1": "Rest and increase activity slowly."
+      "en_4": "Rest and increase activity slowly as your breathing and energy improve.",
+      "en_6": "Rest and increase activity slowly as your breathing and energy improve.",
+      "en_hl1": "Rest and increase activity slowly as your breathing and energy improve."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -4532,6 +4835,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4543,9 +4849,9 @@
     "primitive_type": "home_care_2",
     "priority": "high",
     "text": {
-      "en_4": "Drink fluids if you are allowed.",
-      "en_6": "Drink fluids if you are allowed.",
-      "en_hl1": "Drink fluids if you are allowed."
+      "en_4": "Drink fluids if you are allowed to.",
+      "en_6": "Drink fluids if you are allowed to.",
+      "en_hl1": "Drink fluids if you are allowed to."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -4569,6 +4875,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4580,9 +4889,9 @@
     "primitive_type": "home_care_3",
     "priority": "high",
     "text": {
-      "en_4": "Avoid smoking and smoke exposure.",
-      "en_6": "Avoid smoking and smoke exposure.",
-      "en_hl1": "Avoid smoking and smoke exposure."
+      "en_4": "Avoid smoking, vaping, and smoke exposure while your lungs recover.",
+      "en_6": "Avoid smoking, vaping, and smoke exposure while your lungs recover.",
+      "en_hl1": "Avoid smoking, vaping, and smoke exposure while your lungs recover."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -4606,6 +4915,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4617,9 +4929,9 @@
     "primitive_type": "medication_guidance_1",
     "priority": "high",
     "text": {
-      "en_4": "Take antibiotics exactly as prescribed.",
-      "en_6": "Take antibiotics exactly as prescribed.",
-      "en_hl1": "Take antibiotics exactly as prescribed."
+      "en_4": "Take antibiotics as prescribed. Do not skip doses or stop early unless a clinician or pharmacist tells you to.",
+      "en_6": "Take antibiotics as prescribed. Do not skip doses or stop early unless a clinician or pharmacist tells you to.",
+      "en_hl1": "Take antibiotics as prescribed. Do not skip doses or stop early unless a clinician or pharmacist tells you to."
     },
     "contraindications": [
       "hypoxia",
@@ -4649,6 +4961,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4660,9 +4975,9 @@
     "primitive_type": "medication_guidance_2",
     "priority": "high",
     "text": {
-      "en_4": "Use fever or pain medicine only if you can take it safely and follow the label.",
-      "en_6": "Use fever or pain medicine only if you can take it safely and follow the label.",
-      "en_hl1": "Use fever or pain medicine only if you can take it safely and follow the label."
+      "en_4": "Use fever or pain medicine only if it is safe for you and follow the label.",
+      "en_6": "Use fever or pain medicine only if it is safe for you and follow the label.",
+      "en_hl1": "Use fever or pain medicine only if it is safe for you and follow the label."
     },
     "contraindications": [
       "hypoxia",
@@ -4692,6 +5007,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4703,9 +5021,9 @@
     "primitive_type": "return_precaution_1",
     "priority": "required",
     "text": {
-      "en_4": "Worse trouble breathing, blue lips, confusion, fainting, or chest pain.",
-      "en_6": "Worse trouble breathing, blue lips, confusion, fainting, or chest pain.",
-      "en_hl1": "Worse trouble breathing, blue lips, confusion, fainting, or chest pain."
+      "en_4": "Come back for worse trouble breathing, blue lips, confusion, fainting, or chest pain.",
+      "en_6": "Come back for worse trouble breathing, blue lips, confusion, fainting, or chest pain.",
+      "en_hl1": "Come back for worse trouble breathing, blue lips, confusion, fainting, or chest pain."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -4729,6 +5047,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4740,9 +5061,9 @@
     "primitive_type": "return_precaution_2",
     "priority": "required",
     "text": {
-      "en_4": "Fever or symptoms worsen after starting treatment.",
-      "en_6": "Fever or symptoms worsen after starting treatment.",
-      "en_hl1": "Fever or symptoms worsen after starting treatment."
+      "en_4": "Come back if fever or symptoms get worse after starting treatment.",
+      "en_6": "Come back if fever or symptoms get worse after starting treatment.",
+      "en_hl1": "Come back if fever or symptoms get worse after starting treatment."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -4766,6 +5087,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4777,9 +5101,9 @@
     "primitive_type": "return_precaution_3",
     "priority": "required",
     "text": {
-      "en_4": "You cannot keep medicines or fluids down.",
-      "en_6": "You cannot keep medicines or fluids down.",
-      "en_hl1": "You cannot keep medicines or fluids down."
+      "en_4": "Come back if you cannot keep medicines or fluids down.",
+      "en_6": "Come back if you cannot keep medicines or fluids down.",
+      "en_hl1": "Come back if you cannot keep medicines or fluids down."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -4803,6 +5127,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {
@@ -4814,9 +5141,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "Follow up with primary care as instructed.",
-      "en_6": "Follow up with primary care as instructed.",
-      "en_hl1": "Follow up with primary care as instructed."
+      "en_4": "See your primary care doctor or clinic within 2-3 days, or sooner if symptoms are not improving.",
+      "en_6": "See your primary care doctor or clinic within 2-3 days, or sooner if symptoms are not improving.",
+      "en_hl1": "See your primary care doctor or clinic within 2-3 days, or sooner if symptoms are not improving."
     },
     "contraindications": [
       "hypoxia",
@@ -4846,6 +5173,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
     }
   },
   {

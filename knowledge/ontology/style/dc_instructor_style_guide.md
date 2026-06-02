@@ -44,3 +44,11 @@ Avoid:
 ## Phase 14.5 Rule
 
 Before expanding phenotype count, each reviewed phenotype should have at least one golden-output comparison against the live DC Instructor tool or a clinician-authored target.
+
+## Product Boundary
+
+The reviewed ontology, graph, vector/RAG support, source cards, and evals should stay reusable as an open-source ED discharge-instruction knowledge base.
+
+DC Instructor itself is the product layer. It tailors the reusable knowledge base to the actual ED note, clinician-entered medications, reading level, language, local follow-up instructions, and interface.
+
+Do not make the open-source layer a copy of `dcinstructor.com`. Make it the clinical substrate that `dcinstructor.com` can tailor.

@@ -64,25 +64,25 @@ Review date: 2026-06-01.
 
 ```text
 DIAGNOSIS:
-You were treated for a skin infection called cellulitis.
+You were treated for cellulitis, which is a skin infection.
 
 WHAT WE FOUND:
-Your exam fits a skin infection that is safe to treat at home today. We did not find signs of a deeper emergency infection.
+You came to the ED for redness, pain, or swelling of the skin. Your exam fit cellulitis that was safe to treat at home today. We did not find signs of a deeper emergency infection.
 
 WHAT TO DO AT HOME:
 - Keep the area clean and dry.
-- Raise the arm or leg when you can.
-- Mark the edge of redness if your clinician asks you to.
+- Raise the arm or leg when you can to help swelling.
+- Mark the edge of the redness if your clinician asked you to, so you can tell if it is spreading.
 
 MEDICATIONS:
-- Take the antibiotic exactly as prescribed.
-- Use acetaminophen or ibuprofen only if you can take it safely and follow the label.
+- Take the antibiotic as prescribed. Do not stop early unless a clinician or pharmacist tells you to.
+- Use pain or fever medicine only if it is safe for you and follow the label.
 
 RETURN TO ED IF:
-- Fever, shaking chills, confusion, or feeling very ill.
-- Redness spreading fast, severe pain, numbness, pus, or red streaks.
-- The infection is near the eye, genitals, or a joint and gets worse.
+- Come back for fever, shaking chills, confusion, or feeling very sick.
+- Come back if redness spreads fast, pain becomes severe, you notice numbness, pus, or red streaks.
+- Come back if the infection is near the eye, genitals, or a joint and gets worse.
 
 FOLLOW UP:
-Arrange recheck with primary care, urgent care, or the ED as instructed, especially if not improving.
+Arrange a recheck with primary care, urgent care, or the ED as instructed, especially if it is not improving.
 ```

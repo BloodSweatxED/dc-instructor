@@ -65,22 +65,22 @@ DIAGNOSIS:
 You were treated for an allergic reaction.
 
 WHAT WE FOUND:
-Your symptoms improved, and we did not find signs of anaphylaxis at discharge today.
+You came to the ED with allergy symptoms. The symptoms improved, and we did not find signs of anaphylaxis when you were ready for discharge.
 
 WHAT TO DO AT HOME:
-- Avoid the trigger if it is known.
-- Watch for symptoms returning after you leave.
-- Do not drive or drink alcohol after sedating allergy medicines.
+- Avoid the trigger if you know what caused the reaction.
+- Watch for symptoms coming back after you leave.
+- Do not drive, drink alcohol, or take other sedating medicines after sedating allergy medicine unless your clinician says it is safe.
 
 MEDICATIONS:
-- Take allergy medicines exactly as prescribed.
-- Use an epinephrine injector only if one was prescribed and you were instructed to use it.
+- Take allergy medicines as prescribed or as directed on the label.
+- Use an epinephrine injector only if one was prescribed and you were told when to use it.
 
 RETURN TO ED IF:
-- Trouble breathing, wheezing, throat tightness, tongue or lip swelling, fainting, or severe vomiting.
-- Rash or swelling returns quickly or spreads.
-- You use epinephrine.
+- Come back right away for trouble breathing, wheezing, throat tightness, tongue or lip swelling, fainting, or severe vomiting.
+- Come back if rash or swelling returns quickly or spreads.
+- Come back right away if you use epinephrine.
 
 FOLLOW UP:
-Follow up with primary care or allergy clinic if symptoms continue or trigger is unclear.
+Follow up with primary care or an allergy clinician if symptoms continue or the trigger is unclear.
 ```

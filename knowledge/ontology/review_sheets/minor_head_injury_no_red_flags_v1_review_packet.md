@@ -67,7 +67,7 @@ DIAGNOSIS:
 You had a minor head injury.
 
 WHAT WE FOUND:
-Your exam was reassuring today. We did not find signs that you needed emergency treatment for bleeding around the brain.
+You came to the ED after hitting your head. Your exam was reassuring. We did not find signs of bleeding around the brain that needed emergency treatment today.
 
 WHAT TO DO AT HOME:
 - Rest today and increase activity slowly.
@@ -75,13 +75,13 @@ WHAT TO DO AT HOME:
 - Have a trusted person check on you if possible.
 
 MEDICATIONS:
-- Use acetaminophen for headache if you can take it safely and follow the label.
+- Use acetaminophen for headache only if it is safe for you and follow the label.
 - Avoid medicines your clinician told you to avoid.
 
 RETURN TO ED IF:
-- Worsening severe headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up.
-- New weakness, numbness, trouble speaking, or vision changes.
-- Clear fluid or blood from the nose or ear.
+- Come back right away for worsening severe headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up.
+- Come back for new weakness, numbness, trouble speaking, or vision changes.
+- Come back for clear fluid or blood from the nose or ear.
 
 FOLLOW UP:
 Follow up with primary care if symptoms are not improving or if you were told to recheck.

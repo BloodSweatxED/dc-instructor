@@ -34,3 +34,13 @@ Before adding new phenotypes, collect or author golden outputs for the other rev
 - the 11 earlier reviewed phenotypes
 
 Medication policy remains separate. The style layer should not invent doses.
+
+## Phase 15 Update
+
+Phase 15 adds a reproducible style overlay for the expanded reviewed packs in `knowledge/ontology/style/apply_style_calibration.py`.
+
+The overlay is intentionally separate from source-card generation:
+
+- Source cards answer: "Is this concept supported?"
+- Style calibration answers: "Does this sound like DC Instructor?"
+- Product tailoring answers: "What did this specific patient need, receive, and get prescribed?"
