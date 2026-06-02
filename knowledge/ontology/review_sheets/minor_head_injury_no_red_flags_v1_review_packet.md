@@ -53,6 +53,7 @@ Review date: 2026-06-01.
 - `minor_head_injury_no_red_flags.home_care.home_care_1.v1` | `home_care` | audit: source_supported
 - `minor_head_injury_no_red_flags.home_care.home_care_2.v1` | `home_care` | audit: source_supported
 - `minor_head_injury_no_red_flags.home_care.home_care_3.v1` | `home_care` | audit: source_supported
+- `minor_head_injury_no_red_flags.home_care.home_care_4.v1` | `home_care` | audit: source_supported
 - `minor_head_injury_no_red_flags.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, unsafe_without_modifier
 - `minor_head_injury_no_red_flags.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, unsafe_without_modifier
 - `minor_head_injury_no_red_flags.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_supported
@@ -67,16 +68,17 @@ DIAGNOSIS:
 You had a minor head injury.
 
 WHAT WE FOUND:
-You came to the ED after hitting your head. Your exam was reassuring. We did not find signs of bleeding around the brain that needed emergency treatment today.
+You came to the ED after hitting your head. Your exam was reassuring. We did not find signs of bleeding in or around the brain.
 
 WHAT TO DO AT HOME:
 - Rest today and increase activity slowly.
 - Avoid alcohol or sedating drugs unless your clinician says they are safe.
-- Have a trusted person check on you if possible.
+- Have someone stay with you or check on you tonight. They should be able to wake you up and make sure you are acting normally.
+- Screen time, loud places, and strenuous activity can worsen concussion symptoms. Symptoms like headache, dizziness, and fatigue can last days to weeks.
 
 MEDICATIONS:
 - Use acetaminophen for headache only if it is safe for you and follow the label.
-- Avoid medicines your clinician told you to avoid.
+- Do not take ibuprofen, naproxen, or aspirin after a head injury unless your clinician says it is safe.
 
 RETURN TO ED IF:
 - Come back right away for worsening severe headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up.

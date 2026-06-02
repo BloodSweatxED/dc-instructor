@@ -31,6 +31,7 @@ Status: `draft`
 - `community_acquired_pneumonia_outpatient.home_care.home_care_1.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
 - `community_acquired_pneumonia_outpatient.home_care.home_care_2.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
 - `community_acquired_pneumonia_outpatient.home_care.home_care_3.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
+- `community_acquired_pneumonia_outpatient.home_care.home_care_4.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
 - `community_acquired_pneumonia_outpatient.medications.medication_guidance_1.v1` | `medications` | audit: source_needed, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: hypoxia, immunocompromised, elderly_frail, sepsis, poor_follow_up
 - `community_acquired_pneumonia_outpatient.medications.medication_guidance_2.v1` | `medications` | audit: source_needed, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: hypoxia, immunocompromised, elderly_frail, sepsis, poor_follow_up
 - `community_acquired_pneumonia_outpatient.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_needed, clinician_judgment_only | unsafe modifiers: none
@@ -50,6 +51,7 @@ Your ED evaluation found a lung infection that was safe to treat at home today. 
 WHAT TO DO AT HOME:
 - Rest and increase activity slowly.
 - Drink fluids if you are allowed.
+- Use warm liquids or steam if they help cough or mucus.
 - Avoid smoking and smoke exposure.
 
 MEDICATIONS:

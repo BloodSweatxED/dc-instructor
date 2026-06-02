@@ -30,6 +30,7 @@ Status: `draft`
 - `minor_head_injury_no_red_flags.home_care.home_care_1.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
 - `minor_head_injury_no_red_flags.home_care.home_care_2.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
 - `minor_head_injury_no_red_flags.home_care.home_care_3.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
+- `minor_head_injury_no_red_flags.home_care.home_care_4.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
 - `minor_head_injury_no_red_flags.medications.medication_guidance_1.v1` | `medications` | audit: source_needed, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: anticoagulated, loss_of_consciousness, intoxication, elderly, persistent_vomiting
 - `minor_head_injury_no_red_flags.medications.medication_guidance_2.v1` | `medications` | audit: source_needed, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: anticoagulated, loss_of_consciousness, intoxication, elderly, persistent_vomiting
 - `minor_head_injury_no_red_flags.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_needed, clinician_judgment_only | unsafe modifiers: none
@@ -50,6 +51,7 @@ WHAT TO DO AT HOME:
 - Rest today and increase activity slowly.
 - Avoid alcohol or sedating drugs unless your clinician says they are safe.
 - Have a trusted person check on you if possible.
+- Limit screens, loud environments, and strenuous activity if they worsen symptoms.
 
 MEDICATIONS:
 - Use acetaminophen for headache if you can take it safely and follow the label.

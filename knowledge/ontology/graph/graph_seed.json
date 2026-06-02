@@ -1,7 +1,7 @@
 {
   "generated_at": "deterministic_from_current_ontology_and_generator_batches",
-  "node_count": 1862,
-  "edge_count": 2607,
+  "node_count": 1867,
+  "edge_count": 2619,
   "nodes": [
     {
       "id": "candidate_primitive:abdominal_pain_nonspecific_reassuring_workup.diagnosis.1",
@@ -14251,6 +14251,15 @@
       "review_status": "reviewed"
     },
     {
+      "id": "primitive:asthma_exacerbation_improved_discharge.home_care.home_care_6.v1",
+      "type": "primitive",
+      "label": "asthma_exacerbation_improved_discharge.home_care.home_care_6.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_6",
+      "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
       "id": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_1.v1",
       "type": "primitive",
       "label": "asthma_exacerbation_improved_discharge.medications.medication_guidance_1.v1",
@@ -14274,6 +14283,15 @@
       "label": "asthma_exacerbation_improved_discharge.medications.medication_guidance_3.v1",
       "section": "medications",
       "primitive_type": "medication_guidance_3",
+      "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_4.v1",
+      "type": "primitive",
+      "label": "asthma_exacerbation_improved_discharge.medications.medication_guidance_4.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_4",
       "priority": "high",
       "review_status": "reviewed"
     },
@@ -14670,6 +14688,15 @@
       "label": "community_acquired_pneumonia_outpatient.home_care.home_care_3.v1",
       "section": "home_care",
       "primitive_type": "home_care_3",
+      "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:community_acquired_pneumonia_outpatient.home_care.home_care_4.v1",
+      "type": "primitive",
+      "label": "community_acquired_pneumonia_outpatient.home_care.home_care_4.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_4",
       "priority": "high",
       "review_status": "reviewed"
     },
@@ -15232,6 +15259,15 @@
       "review_status": "reviewed"
     },
     {
+      "id": "primitive:minor_head_injury_no_red_flags.home_care.home_care_4.v1",
+      "type": "primitive",
+      "label": "minor_head_injury_no_red_flags.home_care.home_care_4.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_4",
+      "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
       "id": "primitive:minor_head_injury_no_red_flags.medications.medication_guidance_1.v1",
       "type": "primitive",
       "label": "minor_head_injury_no_red_flags.medications.medication_guidance_1.v1",
@@ -15327,6 +15363,15 @@
       "label": "renal_colic_stable_no_infection.home_care.home_care_3.v1",
       "section": "home_care",
       "primitive_type": "home_care_3",
+      "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:renal_colic_stable_no_infection.home_care.home_care_4.v1",
+      "type": "primitive",
+      "label": "renal_colic_stable_no_infection.home_care.home_care_4.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_4",
       "priority": "high",
       "review_status": "reviewed"
     },
@@ -27474,6 +27519,11 @@
     {
       "source": "phenotype:asthma_exacerbation_improved_discharge",
       "type": "requires_primitive",
+      "target": "primitive:asthma_exacerbation_improved_discharge.home_care.home_care_6.v1"
+    },
+    {
+      "source": "phenotype:asthma_exacerbation_improved_discharge",
+      "type": "requires_primitive",
       "target": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_1.v1"
     },
     {
@@ -27485,6 +27535,11 @@
       "source": "phenotype:asthma_exacerbation_improved_discharge",
       "type": "requires_primitive",
       "target": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_3.v1"
+    },
+    {
+      "source": "phenotype:asthma_exacerbation_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_4.v1"
     },
     {
       "source": "phenotype:asthma_exacerbation_improved_discharge",
@@ -27770,6 +27825,11 @@
       "source": "phenotype:community_acquired_pneumonia_outpatient",
       "type": "requires_primitive",
       "target": "primitive:community_acquired_pneumonia_outpatient.home_care.home_care_3.v1"
+    },
+    {
+      "source": "phenotype:community_acquired_pneumonia_outpatient",
+      "type": "requires_primitive",
+      "target": "primitive:community_acquired_pneumonia_outpatient.home_care.home_care_4.v1"
     },
     {
       "source": "phenotype:community_acquired_pneumonia_outpatient",
@@ -28349,6 +28409,11 @@
     {
       "source": "phenotype:minor_head_injury_no_red_flags",
       "type": "requires_primitive",
+      "target": "primitive:minor_head_injury_no_red_flags.home_care.home_care_4.v1"
+    },
+    {
+      "source": "phenotype:minor_head_injury_no_red_flags",
+      "type": "requires_primitive",
       "target": "primitive:minor_head_injury_no_red_flags.medications.medication_guidance_1.v1"
     },
     {
@@ -28430,6 +28495,11 @@
       "source": "phenotype:renal_colic_stable_no_infection",
       "type": "requires_primitive",
       "target": "primitive:renal_colic_stable_no_infection.home_care.home_care_3.v1"
+    },
+    {
+      "source": "phenotype:renal_colic_stable_no_infection",
+      "type": "requires_primitive",
+      "target": "primitive:renal_colic_stable_no_infection.home_care.home_care_4.v1"
     },
     {
       "source": "phenotype:renal_colic_stable_no_infection",
@@ -28952,6 +29022,11 @@
       "target": "source_card:medlineplus.asthma"
     },
     {
+      "source": "primitive:asthma_exacerbation_improved_discharge.home_care.home_care_6.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.asthma"
+    },
+    {
       "source": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_1.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.asthma"
@@ -28963,6 +29038,11 @@
     },
     {
       "source": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.asthma"
+    },
+    {
+      "source": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_4.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.asthma"
     },
@@ -29218,6 +29298,16 @@
     },
     {
       "source": "primitive:community_acquired_pneumonia_outpatient.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.pneumonia_about"
+    },
+    {
+      "source": "primitive:community_acquired_pneumonia_outpatient.home_care.home_care_4.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:community_acquired_pneumonia_outpatient.home_care.home_care_4.v1",
       "type": "supported_by_source",
       "target": "source_card:cdc.pneumonia_about"
     },
@@ -29672,6 +29762,16 @@
       "target": "source_card:cdc.mild_tbi_aftercare"
     },
     {
+      "source": "primitive:minor_head_injury_no_red_flags.home_care.home_care_4.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.heads_up_concussion_symptoms"
+    },
+    {
+      "source": "primitive:minor_head_injury_no_red_flags.home_care.home_care_4.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.mild_tbi_aftercare"
+    },
+    {
       "source": "primitive:minor_head_injury_no_red_flags.medications.medication_guidance_1.v1",
       "type": "supported_by_source",
       "target": "source_card:cdc.heads_up_concussion_symptoms"
@@ -29753,6 +29853,11 @@
     },
     {
       "source": "primitive:renal_colic_stable_no_infection.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.kidney_stones_self_care"
+    },
+    {
+      "source": "primitive:renal_colic_stable_no_infection.home_care.home_care_4.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.kidney_stones_self_care"
     },

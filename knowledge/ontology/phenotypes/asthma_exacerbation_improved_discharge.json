@@ -18,7 +18,7 @@
     "Pneumothorax.",
     "Pulmonary embolism mimic."
   ],
-  "default_follow_up": "See your primary care doctor or asthma clinician within 3-5 days, or sooner if symptoms are not improving.",
+  "default_follow_up": "See your primary care doctor or asthma clinician within 3-5 days, or sooner if symptoms are not improving. If you do not have a written asthma action plan, ask for one at follow-up.",
   "required_sections": [
     "diagnosis",
     "what_we_found",
@@ -35,9 +35,11 @@
     "asthma_exacerbation_improved_discharge.home_care.home_care_3.v1",
     "asthma_exacerbation_improved_discharge.home_care.home_care_4.v1",
     "asthma_exacerbation_improved_discharge.home_care.home_care_5.v1",
+    "asthma_exacerbation_improved_discharge.home_care.home_care_6.v1",
     "asthma_exacerbation_improved_discharge.medications.medication_guidance_1.v1",
     "asthma_exacerbation_improved_discharge.medications.medication_guidance_2.v1",
     "asthma_exacerbation_improved_discharge.medications.medication_guidance_3.v1",
+    "asthma_exacerbation_improved_discharge.medications.medication_guidance_4.v1",
     "asthma_exacerbation_improved_discharge.return_precautions.return_precaution_1.v1",
     "asthma_exacerbation_improved_discharge.return_precautions.return_precaution_2.v1",
     "asthma_exacerbation_improved_discharge.return_precautions.return_precaution_3.v1",

@@ -54,6 +54,7 @@ Review date: 2026-06-01.
 - `community_acquired_pneumonia_outpatient.home_care.home_care_1.v1` | `home_care` | audit: source_supported
 - `community_acquired_pneumonia_outpatient.home_care.home_care_2.v1` | `home_care` | audit: source_supported
 - `community_acquired_pneumonia_outpatient.home_care.home_care_3.v1` | `home_care` | audit: source_supported
+- `community_acquired_pneumonia_outpatient.home_care.home_care_4.v1` | `home_care` | audit: source_supported
 - `community_acquired_pneumonia_outpatient.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, unsafe_without_modifier
 - `community_acquired_pneumonia_outpatient.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, unsafe_without_modifier
 - `community_acquired_pneumonia_outpatient.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_supported
@@ -68,16 +69,17 @@ DIAGNOSIS:
 You were treated for pneumonia, which is an infection in the lungs.
 
 WHAT WE FOUND:
-You came to the ED with symptoms of a lung infection. Your oxygen level and overall condition were reassuring enough to treat this at home today.
+You came to the ED with symptoms of a lung infection. Your oxygen level was safe, and it is safe to treat this at home.
 
 WHAT TO DO AT HOME:
 - Rest and increase activity slowly as your breathing and energy improve.
-- Drink fluids if you are allowed to.
-- Avoid smoking, vaping, and smoke exposure while your lungs recover.
+- Drink plenty of fluids unless your doctor has told you to limit them.
+- Warm liquids like tea with honey, broth, or warm water with lemon can soothe cough and keep you hydrated. Steam from a hot shower or steamy bathroom for 10-15 minutes can help loosen mucus.
+- Sleep with your head raised and use a cool-mist humidifier if dry air makes coughing worse. Avoid smoking, vaping, and smoke exposure while your lungs recover.
 
 MEDICATIONS:
 - Take antibiotics as prescribed. Do not skip doses or stop early unless a clinician or pharmacist tells you to.
-- Use fever or pain medicine only if it is safe for you and follow the label.
+- Use acetaminophen or ibuprofen only if it is safe for you and follow the label.
 
 RETURN TO ED IF:
 - Come back for worse trouble breathing, blue lips, confusion, fainting, or chest pain.
@@ -85,5 +87,5 @@ RETURN TO ED IF:
 - Come back if you cannot keep medicines or fluids down.
 
 FOLLOW UP:
-See your primary care doctor or clinic within 2-3 days, or sooner if symptoms are not improving.
+See your primary care doctor or clinic within 2-3 days, or sooner if symptoms are not improving. Most people start to feel better within 3-5 days of antibiotics, but full recovery can take 2-4 weeks.
 ```

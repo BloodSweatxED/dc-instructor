@@ -15,11 +15,14 @@ STYLE_CHECKS = {
             "You had an asthma flare-up",
             "You came to the ED",
             "breathing treatments",
+            "opened your airways",
             "steroids",
             "breathing comfortably",
             "Rest for the next 1-2 days",
             "trigger your asthma",
+            "controller inhaler",
             "rescue inhaler is not helping",
+            "written asthma action plan",
             "within 3-5 days",
         ],
         "forbidden": [
@@ -29,24 +32,24 @@ STYLE_CHECKS = {
     }
     ,
     "community_acquired_pneumonia_outpatient": {
-        "required": ["You came to the ED", "lung infection", "oxygen level", "treat this at home"],
-        "forbidden": ["Your ED evaluation found a lung infection that was safe to treat at home today."],
+        "required": ["You came to the ED", "oxygen level was safe", "Warm liquids", "full recovery can take 2-4 weeks"],
+        "forbidden": ["Your ED evaluation found a lung infection that was safe to treat at home today.", "Drink fluids if you are allowed to", "reassuring enough"],
     },
     "minor_head_injury_no_red_flags": {
-        "required": ["You came to the ED after hitting your head", "exam was reassuring", "bleeding around the brain"],
-        "forbidden": ["Your exam was reassuring today. We did not find signs that you needed emergency treatment"],
+        "required": ["You came to the ED after hitting your head", "bleeding in or around the brain", "check on you tonight", "days to weeks"],
+        "forbidden": ["Your exam was reassuring today. We did not find signs that you needed emergency treatment", "needed emergency treatment today", "Avoid medicines your clinician told you to avoid"],
     },
     "concussion_discharge_no_imaging_red_flags": {
         "required": ["You came to the ED after a head injury", "symptoms can change after you leave"],
         "forbidden": ["A concussion can happen after a hit or sudden movement of the head."],
     },
     "renal_colic_stable_no_infection": {
-        "required": ["You came to the ED with flank pain", "kidney stone", "blocked infected kidney"],
-        "forbidden": ["Your ED evaluation was reassuring enough for home care today."],
+        "required": ["You came to the ED with flank pain", "pale yellow", "every urination", "within 1-2 weeks", "1-4 weeks"],
+        "forbidden": ["Your ED evaluation was reassuring enough for home care today.", "Drink fluids as you are able", "reassuring enough"],
     },
     "cellulitis_uncomplicated_oral_antibiotics": {
-        "required": ["You came to the ED for redness", "deeper emergency infection"],
-        "forbidden": ["Your exam fits a skin infection that is safe to treat at home today."],
+        "required": ["You came to the ED for redness", "deeper emergency infection", "phone photo", "48-72 hours"],
+        "forbidden": ["Your exam fits a skin infection that is safe to treat at home today.", "safe to treat at home today", "Use pain or fever medicine only if it is safe"],
     },
     "abscess_after_i_and_d": {
         "required": ["You came to the ED because the area was painful", "opened and drained"],

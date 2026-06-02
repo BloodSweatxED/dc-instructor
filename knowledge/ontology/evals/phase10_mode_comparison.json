@@ -334,9 +334,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 204,
-        "avg_sentence_words": 11.3,
-        "long_word_ratio": 0.132
+        "word_count": 284,
+        "avg_sentence_words": 12.3,
+        "long_word_ratio": 0.116
       },
       "section_completeness": {
         "diagnosis": true,
@@ -408,9 +408,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 193,
-        "avg_sentence_words": 13.8,
-        "long_word_ratio": 0.119
+        "word_count": 202,
+        "avg_sentence_words": 12.6,
+        "long_word_ratio": 0.124
       },
       "section_completeness": {
         "diagnosis": true,
@@ -559,9 +559,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 167,
-        "avg_sentence_words": 12.8,
-        "long_word_ratio": 0.156
+        "word_count": 237,
+        "avg_sentence_words": 13.9,
+        "long_word_ratio": 0.131
       },
       "section_completeness": {
         "diagnosis": true,
@@ -1013,9 +1013,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 157,
-        "avg_sentence_words": 12.1,
-        "long_word_ratio": 0.166
+        "word_count": 202,
+        "avg_sentence_words": 12.6,
+        "long_word_ratio": 0.158
       },
       "section_completeness": {
         "diagnosis": true,
@@ -1088,9 +1088,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 154,
-        "avg_sentence_words": 11.8,
-        "long_word_ratio": 0.149
+        "word_count": 176,
+        "avg_sentence_words": 11.0,
+        "long_word_ratio": 0.119
       },
       "section_completeness": {
         "diagnosis": true,

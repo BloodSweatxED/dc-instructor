@@ -28,6 +28,7 @@ Status: `draft`
 - `renal_colic_stable_no_infection.home_care.home_care_1.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
 - `renal_colic_stable_no_infection.home_care.home_care_2.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
 - `renal_colic_stable_no_infection.home_care.home_care_3.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
+- `renal_colic_stable_no_infection.home_care.home_care_4.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
 - `renal_colic_stable_no_infection.medications.medication_guidance_1.v1` | `medications` | audit: source_needed, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: fever, solitary_kidney, pregnancy, renal_failure, uncontrolled_pain
 - `renal_colic_stable_no_infection.medications.medication_guidance_2.v1` | `medications` | audit: source_needed, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: fever, solitary_kidney, pregnancy, renal_failure, uncontrolled_pain
 - `renal_colic_stable_no_infection.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_needed, clinician_judgment_only | unsafe modifiers: none
@@ -48,6 +49,7 @@ WHAT TO DO AT HOME:
 - Drink fluids as you are able.
 - Use a urine strainer if one was given.
 - Save any passed stone if your clinician asked you to.
+- Avoid dehydration until follow-up.
 
 MEDICATIONS:
 - Take prescribed pain or nausea medicine exactly as directed.

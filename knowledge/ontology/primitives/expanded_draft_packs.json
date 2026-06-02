@@ -48,9 +48,9 @@
     "primitive_type": "reassuring_ed_assessment",
     "priority": "required",
     "text": {
-      "en_4": "You came to the ED for redness, pain, or swelling of the skin. Your exam fit cellulitis that was safe to treat at home today. We did not find signs of a deeper emergency infection.",
-      "en_6": "You came to the ED for redness, pain, or swelling of the skin. Your exam fit cellulitis that was safe to treat at home today. We did not find signs of a deeper emergency infection.",
-      "en_hl1": "You came to the ED for redness, pain, or swelling of the skin. Your exam fit cellulitis that was safe to treat at home today. We did not find signs of a deeper emergency infection."
+      "en_4": "You came to the ED for redness, pain, or swelling of the skin. Your exam fit cellulitis that can be treated at home. We did not find signs of a deeper emergency infection.",
+      "en_6": "You came to the ED for redness, pain, or swelling of the skin. Your exam fit cellulitis that can be treated at home. We did not find signs of a deeper emergency infection.",
+      "en_hl1": "You came to the ED for redness, pain, or swelling of the skin. Your exam fit cellulitis that can be treated at home. We did not find signs of a deeper emergency infection."
     },
     "contraindications": [
       "immunocompromised",
@@ -134,9 +134,9 @@
     "primitive_type": "home_care_2",
     "priority": "high",
     "text": {
-      "en_4": "Raise the arm or leg when you can to help swelling.",
-      "en_6": "Raise the arm or leg when you can to help swelling.",
-      "en_hl1": "Raise the arm or leg when you can to help swelling."
+      "en_4": "Raise the arm or leg above heart level as much as possible, including when sleeping.",
+      "en_6": "Raise the arm or leg above heart level as much as possible, including when sleeping.",
+      "en_hl1": "Raise the arm or leg above heart level as much as possible, including when sleeping."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -174,9 +174,9 @@
     "primitive_type": "home_care_3",
     "priority": "high",
     "text": {
-      "en_4": "Mark the edge of the redness if your clinician asked you to, so you can tell if it is spreading.",
-      "en_6": "Mark the edge of the redness if your clinician asked you to, so you can tell if it is spreading.",
-      "en_hl1": "Mark the edge of the redness if your clinician asked you to, so you can tell if it is spreading."
+      "en_4": "Mark the edge of the redness if your clinician asked you to. Take a phone photo of the marked border so you can tell if it is spreading.",
+      "en_6": "Mark the edge of the redness if your clinician asked you to. Take a phone photo of the marked border so you can tell if it is spreading.",
+      "en_hl1": "Mark the edge of the redness if your clinician asked you to. Take a phone photo of the marked border so you can tell if it is spreading."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -260,9 +260,9 @@
     "primitive_type": "medication_guidance_2",
     "priority": "high",
     "text": {
-      "en_4": "Use pain or fever medicine only if it is safe for you and follow the label.",
-      "en_6": "Use pain or fever medicine only if it is safe for you and follow the label.",
-      "en_hl1": "Use pain or fever medicine only if it is safe for you and follow the label."
+      "en_4": "Use acetaminophen or ibuprofen only if it is safe for you and follow the label.",
+      "en_6": "Use acetaminophen or ibuprofen only if it is safe for you and follow the label.",
+      "en_hl1": "Use acetaminophen or ibuprofen only if it is safe for you and follow the label."
     },
     "contraindications": [
       "immunocompromised",
@@ -426,9 +426,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "Arrange a recheck with primary care, urgent care, or the ED as instructed, especially if it is not improving.",
-      "en_6": "Arrange a recheck with primary care, urgent care, or the ED as instructed, especially if it is not improving.",
-      "en_hl1": "Arrange a recheck with primary care, urgent care, or the ED as instructed, especially if it is not improving."
+      "en_4": "Get rechecked in 48-72 hours. Redness and swelling can look worse during the first 24-48 hours before they start to improve.",
+      "en_6": "Get rechecked in 48-72 hours. Redness and swelling can look worse during the first 24-48 hours before they start to improve.",
+      "en_hl1": "Get rechecked in 48-72 hours. Redness and swelling can look worse during the first 24-48 hours before they start to improve."
     },
     "contraindications": [
       "immunocompromised",
@@ -1414,9 +1414,9 @@
     "primitive_type": "reassuring_ed_assessment",
     "priority": "required",
     "text": {
-      "en_4": "You came to the ED after hitting your head. Your exam was reassuring. We did not find signs of bleeding around the brain that needed emergency treatment today.",
-      "en_6": "You came to the ED after hitting your head. Your exam was reassuring. We did not find signs of bleeding around the brain that needed emergency treatment today.",
-      "en_hl1": "You came to the ED after hitting your head. Your exam was reassuring. We did not find signs of bleeding around the brain that needed emergency treatment today."
+      "en_4": "You came to the ED after hitting your head. Your exam was reassuring. We did not find signs of bleeding in or around the brain.",
+      "en_6": "You came to the ED after hitting your head. Your exam was reassuring. We did not find signs of bleeding in or around the brain.",
+      "en_hl1": "You came to the ED after hitting your head. Your exam was reassuring. We did not find signs of bleeding in or around the brain."
     },
     "contraindications": [
       "anticoagulated",
@@ -1540,9 +1540,49 @@
     "primitive_type": "home_care_3",
     "priority": "high",
     "text": {
-      "en_4": "Have a trusted person check on you if possible.",
-      "en_6": "Have a trusted person check on you if possible.",
-      "en_hl1": "Have a trusted person check on you if possible."
+      "en_4": "Have someone stay with you or check on you tonight. They should be able to wake you up and make sure you are acting normally.",
+      "en_6": "Have someone stay with you or check on you tonight. They should be able to wake you up and make sure you are acting normally.",
+      "en_hl1": "Have someone stay with you or check on you tonight. They should be able to wake you up and make sure you are acting normally."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "CDC concussion guidance supports delayed symptoms, emergency danger signs, and gradual activity return after minor head trauma or possible concussion."
+    },
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
+    }
+  },
+  {
+    "id": "minor_head_injury_no_red_flags.home_care.home_care_4.v1",
+    "phenotypes": [
+      "minor_head_injury_no_red_flags"
+    ],
+    "section": "home_care",
+    "primitive_type": "home_care_4",
+    "priority": "high",
+    "text": {
+      "en_4": "Screen time, loud places, and strenuous activity can worsen concussion symptoms. Symptoms like headache, dizziness, and fatigue can last days to weeks.",
+      "en_6": "Screen time, loud places, and strenuous activity can worsen concussion symptoms. Symptoms like headache, dizziness, and fatigue can last days to weeks.",
+      "en_hl1": "Screen time, loud places, and strenuous activity can worsen concussion symptoms. Symptoms like headache, dizziness, and fatigue can last days to weeks."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -1626,9 +1666,9 @@
     "primitive_type": "medication_guidance_2",
     "priority": "high",
     "text": {
-      "en_4": "Avoid medicines your clinician told you to avoid.",
-      "en_6": "Avoid medicines your clinician told you to avoid.",
-      "en_hl1": "Avoid medicines your clinician told you to avoid."
+      "en_4": "Do not take ibuprofen, naproxen, or aspirin after a head injury unless your clinician says it is safe.",
+      "en_6": "Do not take ibuprofen, naproxen, or aspirin after a head injury unless your clinician says it is safe.",
+      "en_hl1": "Do not take ibuprofen, naproxen, or aspirin after a head injury unless your clinician says it is safe."
     },
     "contraindications": [
       "anticoagulated",
@@ -2337,9 +2377,9 @@
     "primitive_type": "reassuring_ed_assessment",
     "priority": "required",
     "text": {
-      "en_4": "You came to the ED with flank pain or symptoms that fit a kidney stone. Your evaluation was reassuring enough for home care today. We did not find signs of a dangerous kidney infection or blocked infected kidney.",
-      "en_6": "You came to the ED with flank pain or symptoms that fit a kidney stone. Your evaluation was reassuring enough for home care today. We did not find signs of a dangerous kidney infection or blocked infected kidney.",
-      "en_hl1": "You came to the ED with flank pain or symptoms that fit a kidney stone. Your evaluation was reassuring enough for home care today. We did not find signs of a dangerous kidney infection or blocked infected kidney."
+      "en_4": "You came to the ED with flank pain or symptoms that fit a kidney stone. We did not find signs of infection or a dangerous blockage.",
+      "en_6": "You came to the ED with flank pain or symptoms that fit a kidney stone. We did not find signs of infection or a dangerous blockage.",
+      "en_hl1": "You came to the ED with flank pain or symptoms that fit a kidney stone. We did not find signs of infection or a dangerous blockage."
     },
     "contraindications": [
       "fever",
@@ -2382,9 +2422,9 @@
     "primitive_type": "home_care_1",
     "priority": "high",
     "text": {
-      "en_4": "Drink fluids as you are able.",
-      "en_6": "Drink fluids as you are able.",
-      "en_hl1": "Drink fluids as you are able."
+      "en_4": "Drink plenty of fluids. Aim for urine that is pale yellow. This helps flush the stone through.",
+      "en_6": "Drink plenty of fluids. Aim for urine that is pale yellow. This helps flush the stone through.",
+      "en_hl1": "Drink plenty of fluids. Aim for urine that is pale yellow. This helps flush the stone through."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -2421,9 +2461,9 @@
     "primitive_type": "home_care_2",
     "priority": "high",
     "text": {
-      "en_4": "Use a urine strainer if one was given.",
-      "en_6": "Use a urine strainer if one was given.",
-      "en_hl1": "Use a urine strainer if one was given."
+      "en_4": "Use a urine strainer with every urination, including at night, if one was given.",
+      "en_6": "Use a urine strainer with every urination, including at night, if one was given.",
+      "en_hl1": "Use a urine strainer with every urination, including at night, if one was given."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -2463,6 +2503,45 @@
       "en_4": "Save any passed stone if your clinician asked you to.",
       "en_6": "Save any passed stone if your clinician asked you to.",
       "en_hl1": "Save any passed stone if your clinician asked you to."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.kidney_stones_self_care"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms."
+    },
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
+    }
+  },
+  {
+    "id": "renal_colic_stable_no_infection.home_care.home_care_4.v1",
+    "phenotypes": [
+      "renal_colic_stable_no_infection"
+    ],
+    "section": "home_care",
+    "primitive_type": "home_care_4",
+    "priority": "high",
+    "text": {
+      "en_4": "Until you follow up, limit salt and animal protein, and avoid getting dehydrated.",
+      "en_6": "Until you follow up, limit salt and animal protein, and avoid getting dehydrated.",
+      "en_hl1": "Until you follow up, limit salt and animal protein, and avoid getting dehydrated."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -2544,9 +2623,9 @@
     "primitive_type": "medication_guidance_2",
     "priority": "high",
     "text": {
-      "en_4": "Use acetaminophen or ibuprofen only if it is safe for you and follow the label or your clinician's instructions.",
-      "en_6": "Use acetaminophen or ibuprofen only if it is safe for you and follow the label or your clinician's instructions.",
-      "en_hl1": "Use acetaminophen or ibuprofen only if it is safe for you and follow the label or your clinician's instructions."
+      "en_4": "If tamsulosin was prescribed, it relaxes the ureter and may help the stone pass.",
+      "en_6": "If tamsulosin was prescribed, it relaxes the ureter and may help the stone pass.",
+      "en_hl1": "If tamsulosin was prescribed, it relaxes the ureter and may help the stone pass."
     },
     "contraindications": [
       "fever",
@@ -2706,9 +2785,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "Follow up with urology or primary care as instructed.",
-      "en_6": "Follow up with urology or primary care as instructed.",
-      "en_hl1": "Follow up with urology or primary care as instructed."
+      "en_4": "Follow up with urology or primary care within 1-2 weeks. Most small stones pass on their own within 1-4 weeks.",
+      "en_6": "Follow up with urology or primary care within 1-2 weeks. Most small stones pass on their own within 1-4 weeks.",
+      "en_hl1": "Follow up with urology or primary care within 1-2 weeks. Most small stones pass on their own within 1-4 weeks."
     },
     "contraindications": [
       "fever",
@@ -3700,9 +3779,9 @@
     "primitive_type": "reassuring_ed_assessment",
     "priority": "required",
     "text": {
-      "en_4": "You came to the ED because your asthma got worse. We gave you breathing treatments and steroids. After treatment, you were breathing comfortably on your own and were safe to go home.",
-      "en_6": "You came to the ED because your asthma got worse. We gave you breathing treatments and steroids. After treatment, you were breathing comfortably on your own and were safe to go home.",
-      "en_hl1": "You came to the ED because your asthma got worse. We gave you breathing treatments and steroids. After treatment, you were breathing comfortably on your own and were safe to go home."
+      "en_4": "You came to the ED because your asthma got worse. We gave you breathing treatments that opened your airways and steroids to calm lung swelling. After treatment, you were breathing comfortably on your own and were safe to go home.",
+      "en_6": "You came to the ED because your asthma got worse. We gave you breathing treatments that opened your airways and steroids to calm lung swelling. After treatment, you were breathing comfortably on your own and were safe to go home.",
+      "en_hl1": "You came to the ED because your asthma got worse. We gave you breathing treatments that opened your airways and steroids to calm lung swelling. After treatment, you were breathing comfortably on your own and were safe to go home."
     },
     "contraindications": [
       "hypoxia",
@@ -3778,9 +3857,9 @@
     "primitive_type": "home_care_2",
     "priority": "high",
     "text": {
-      "en_4": "Stay away from things that trigger your asthma, like smoke, strong smells, cold air, and dust.",
-      "en_6": "Stay away from things that trigger your asthma, like smoke, strong smells, cold air, and dust.",
-      "en_hl1": "Stay away from things that trigger your asthma, like smoke, strong smells, cold air, and dust."
+      "en_4": "Stay away from things that trigger your asthma, like smoke, strong smells, cold air, dust, mold, pet dander, humidity, or exercise in cold air.",
+      "en_6": "Stay away from things that trigger your asthma, like smoke, strong smells, cold air, dust, mold, pet dander, humidity, or exercise in cold air.",
+      "en_hl1": "Stay away from things that trigger your asthma, like smoke, strong smells, cold air, dust, mold, pet dander, humidity, or exercise in cold air."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -3814,9 +3893,9 @@
     "primitive_type": "home_care_3",
     "priority": "high",
     "text": {
-      "en_4": "Use your spacer if you have one.",
-      "en_6": "Use your spacer if you have one.",
-      "en_hl1": "Use your spacer if you have one."
+      "en_4": "Always use a spacer with your rescue inhaler if you have one. It gets more medicine into your lungs.",
+      "en_6": "Always use a spacer with your rescue inhaler if you have one. It gets more medicine into your lungs.",
+      "en_hl1": "Always use a spacer with your rescue inhaler if you have one. It gets more medicine into your lungs."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -3884,6 +3963,42 @@
     ],
     "section": "home_care",
     "primitive_type": "home_care_5",
+    "priority": "high",
+    "text": {
+      "en_4": "If you have a peak flow meter, use it to track your breathing at home.",
+      "en_6": "If you have a peak flow meter, use it to track your breathing at home.",
+      "en_hl1": "If you have a peak flow meter, use it to track your breathing at home."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
+    },
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
+    }
+  },
+  {
+    "id": "asthma_exacerbation_improved_discharge.home_care.home_care_6.v1",
+    "phenotypes": [
+      "asthma_exacerbation_improved_discharge"
+    ],
+    "section": "home_care",
+    "primitive_type": "home_care_6",
     "priority": "high",
     "text": {
       "en_4": "Wash your hands and avoid sick contacts when you can.",
@@ -3964,9 +4079,9 @@
     "primitive_type": "medication_guidance_2",
     "priority": "high",
     "text": {
-      "en_4": "Take the steroid course exactly as prescribed.",
-      "en_6": "Take the steroid course exactly as prescribed.",
-      "en_hl1": "Take the steroid course exactly as prescribed."
+      "en_4": "If you have a controller inhaler, keep taking it even when you feel better. It helps prevent the next flare.",
+      "en_6": "If you have a controller inhaler, keep taking it even when you feel better. It helps prevent the next flare.",
+      "en_hl1": "If you have a controller inhaler, keep taking it even when you feel better. It helps prevent the next flare."
     },
     "contraindications": [
       "hypoxia",
@@ -4004,6 +4119,48 @@
     ],
     "section": "medications",
     "primitive_type": "medication_guidance_3",
+    "priority": "high",
+    "text": {
+      "en_4": "Take the steroid course if one was prescribed.",
+      "en_6": "Take the steroid course if one was prescribed.",
+      "en_hl1": "Take the steroid course if one was prescribed."
+    },
+    "contraindications": [
+      "hypoxia",
+      "poor_inhaler_access",
+      "pregnancy",
+      "chest_pain",
+      "frequent_relapse"
+    ],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports asthma symptoms, flare-up framing, trigger avoidance, prescribed inhaler use, and escalation for severe or life-threatening attacks."
+    },
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
+    }
+  },
+  {
+    "id": "asthma_exacerbation_improved_discharge.medications.medication_guidance_4.v1",
+    "phenotypes": [
+      "asthma_exacerbation_improved_discharge"
+    ],
+    "section": "medications",
+    "primitive_type": "medication_guidance_4",
     "priority": "high",
     "text": {
       "en_4": "Do not wait at home if your rescue inhaler is not helping.",
@@ -4228,9 +4385,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "See your primary care doctor or asthma clinician within 3-5 days, or sooner if symptoms are not improving.",
-      "en_6": "See your primary care doctor or asthma clinician within 3-5 days, or sooner if symptoms are not improving.",
-      "en_hl1": "See your primary care doctor or asthma clinician within 3-5 days, or sooner if symptoms are not improving."
+      "en_4": "See your primary care doctor or asthma clinician within 3-5 days, or sooner if symptoms are not improving. If you do not have a written asthma action plan, ask for one at follow-up.",
+      "en_6": "See your primary care doctor or asthma clinician within 3-5 days, or sooner if symptoms are not improving. If you do not have a written asthma action plan, ask for one at follow-up.",
+      "en_hl1": "See your primary care doctor or asthma clinician within 3-5 days, or sooner if symptoms are not improving. If you do not have a written asthma action plan, ask for one at follow-up."
     },
     "contraindications": [
       "hypoxia",
@@ -4763,9 +4920,9 @@
     "primitive_type": "reassuring_ed_assessment",
     "priority": "required",
     "text": {
-      "en_4": "You came to the ED with symptoms of a lung infection. Your oxygen level and overall condition were reassuring enough to treat this at home today.",
-      "en_6": "You came to the ED with symptoms of a lung infection. Your oxygen level and overall condition were reassuring enough to treat this at home today.",
-      "en_hl1": "You came to the ED with symptoms of a lung infection. Your oxygen level and overall condition were reassuring enough to treat this at home today."
+      "en_4": "You came to the ED with symptoms of a lung infection. Your oxygen level was safe, and it is safe to treat this at home.",
+      "en_6": "You came to the ED with symptoms of a lung infection. Your oxygen level was safe, and it is safe to treat this at home.",
+      "en_hl1": "You came to the ED with symptoms of a lung infection. Your oxygen level was safe, and it is safe to treat this at home."
     },
     "contraindications": [
       "hypoxia",
@@ -4849,9 +5006,9 @@
     "primitive_type": "home_care_2",
     "priority": "high",
     "text": {
-      "en_4": "Drink fluids if you are allowed to.",
-      "en_6": "Drink fluids if you are allowed to.",
-      "en_hl1": "Drink fluids if you are allowed to."
+      "en_4": "Drink plenty of fluids unless your doctor has told you to limit them.",
+      "en_6": "Drink plenty of fluids unless your doctor has told you to limit them.",
+      "en_hl1": "Drink plenty of fluids unless your doctor has told you to limit them."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -4889,9 +5046,49 @@
     "primitive_type": "home_care_3",
     "priority": "high",
     "text": {
-      "en_4": "Avoid smoking, vaping, and smoke exposure while your lungs recover.",
-      "en_6": "Avoid smoking, vaping, and smoke exposure while your lungs recover.",
-      "en_hl1": "Avoid smoking, vaping, and smoke exposure while your lungs recover."
+      "en_4": "Warm liquids like tea with honey, broth, or warm water with lemon can soothe cough and keep you hydrated. Steam from a hot shower or steamy bathroom for 10-15 minutes can help loosen mucus.",
+      "en_6": "Warm liquids like tea with honey, broth, or warm water with lemon can soothe cough and keep you hydrated. Steam from a hot shower or steamy bathroom for 10-15 minutes can help loosen mucus.",
+      "en_hl1": "Warm liquids like tea with honey, broth, or warm water with lemon can soothe cough and keep you hydrated. Steam from a hot shower or steamy bathroom for 10-15 minutes can help loosen mucus."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "cdc.pneumonia_about",
+      "cdc.antibiotic_use_adult_outpatient"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "CDC supports pneumonia symptom framing, higher-risk host factors, and outpatient antibiotic-stewardship distinctions. Dosing and regimen selection remain outside the ontology until medication policy exists."
+    },
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "calibration": "phase15_dc_instructor_voice"
+    }
+  },
+  {
+    "id": "community_acquired_pneumonia_outpatient.home_care.home_care_4.v1",
+    "phenotypes": [
+      "community_acquired_pneumonia_outpatient"
+    ],
+    "section": "home_care",
+    "primitive_type": "home_care_4",
+    "priority": "high",
+    "text": {
+      "en_4": "Sleep with your head raised and use a cool-mist humidifier if dry air makes coughing worse. Avoid smoking, vaping, and smoke exposure while your lungs recover.",
+      "en_6": "Sleep with your head raised and use a cool-mist humidifier if dry air makes coughing worse. Avoid smoking, vaping, and smoke exposure while your lungs recover.",
+      "en_hl1": "Sleep with your head raised and use a cool-mist humidifier if dry air makes coughing worse. Avoid smoking, vaping, and smoke exposure while your lungs recover."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -4975,9 +5172,9 @@
     "primitive_type": "medication_guidance_2",
     "priority": "high",
     "text": {
-      "en_4": "Use fever or pain medicine only if it is safe for you and follow the label.",
-      "en_6": "Use fever or pain medicine only if it is safe for you and follow the label.",
-      "en_hl1": "Use fever or pain medicine only if it is safe for you and follow the label."
+      "en_4": "Use acetaminophen or ibuprofen only if it is safe for you and follow the label.",
+      "en_6": "Use acetaminophen or ibuprofen only if it is safe for you and follow the label.",
+      "en_hl1": "Use acetaminophen or ibuprofen only if it is safe for you and follow the label."
     },
     "contraindications": [
       "hypoxia",
@@ -5141,9 +5338,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "See your primary care doctor or clinic within 2-3 days, or sooner if symptoms are not improving.",
-      "en_6": "See your primary care doctor or clinic within 2-3 days, or sooner if symptoms are not improving.",
-      "en_hl1": "See your primary care doctor or clinic within 2-3 days, or sooner if symptoms are not improving."
+      "en_4": "See your primary care doctor or clinic within 2-3 days, or sooner if symptoms are not improving. Most people start to feel better within 3-5 days of antibiotics, but full recovery can take 2-4 weeks.",
+      "en_6": "See your primary care doctor or clinic within 2-3 days, or sooner if symptoms are not improving. Most people start to feel better within 3-5 days of antibiotics, but full recovery can take 2-4 weeks.",
+      "en_hl1": "See your primary care doctor or clinic within 2-3 days, or sooner if symptoms are not improving. Most people start to feel better within 3-5 days of antibiotics, but full recovery can take 2-4 weeks."
     },
     "contraindications": [
       "hypoxia",
