@@ -66,6 +66,9 @@ Review date: 2026-06-01.
 - `back_pain.return_precautions.cauda_equina.v1` | `return_precautions` | audit: source_supported
 - `back_pain.return_precautions.neuro_fever_trauma.v1` | `return_precautions` | audit: source_supported
 - `back_pain.follow_up.primary_care.v1` | `follow_up` | audit: source_supported, clinician_judgment_only
+- `lumbar_strain_no_red_flags.resources.source_link_1.v1` | `resources` | audit: source_supported
+- `lumbar_strain_no_red_flags.resources.source_link_2.v1` | `resources` | audit: source_supported
+- `lumbar_strain_no_red_flags.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -91,5 +94,10 @@ RETURN TO ED IF:
 - Come back to the emergency department right away for new leg weakness, trouble walking, fever, a new injury, or pain that becomes much worse.
 
 FOLLOW UP:
-See your regular doctor in 1 to 2 weeks if your pain is not improving.
+Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with a low back strain. I need a follow-up visit within 1-2 weeks if pain is not improving."
+
+RESOURCES:
+- Bring these instructions to your follow-up visit.
+- Learn more: MedlinePlus - Low back pain - acute (https://medlineplus.gov/ency/article/007425.htm).
+- Learn more: WikEM - Low back pain (https://wikem.org/wiki/Low_back_pain).
 ```

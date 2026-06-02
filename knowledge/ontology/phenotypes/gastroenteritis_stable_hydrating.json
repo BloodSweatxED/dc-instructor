@@ -41,7 +41,10 @@
     "gastroenteritis.medications.avoid_antidiarrheal_red_flags.v1",
     "gastroenteritis.return_precautions.dehydration_blood_pain.v1",
     "gastroenteritis.return_precautions.persistent_worse.v1",
-    "gastroenteritis.follow_up.recheck.v1"
+    "gastroenteritis.follow_up.recheck.v1",
+    "gastroenteritis_stable_hydrating.resources.source_link_1.v1",
+    "gastroenteritis_stable_hydrating.resources.source_link_2.v1",
+    "gastroenteritis_stable_hydrating.resources.followup_reminder.v1"
   ],
   "source_card_ids": [
     "medlineplus.viral_gastroenteritis",

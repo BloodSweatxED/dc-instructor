@@ -61,6 +61,9 @@ Review date: 2026-06-01.
 - `viral_pharyngitis_strep_negative.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported
 - `viral_pharyngitis_strep_negative.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported
 - `viral_pharyngitis_strep_negative.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier
+- `viral_pharyngitis_strep_negative.resources.source_link_1.v1` | `resources` | audit: source_supported
+- `viral_pharyngitis_strep_negative.resources.source_link_2.v1` | `resources` | audit: source_supported
+- `viral_pharyngitis_strep_negative.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -86,5 +89,10 @@ RETURN TO ED IF:
 - Come back if fever or throat pain becomes much worse.
 
 FOLLOW UP:
-Follow up with primary care if symptoms are not improving or if your clinician instructed you to recheck.
+Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with a viral sore throat. I need a follow-up visit within 1 week if symptoms are not improving."
+
+RESOURCES:
+- Bring these instructions to your follow-up visit.
+- Learn more: CDC - Sore Throat Basics (https://www.cdc.gov/sore-throat/about/index.html).
+- Learn more: CDC - Clinical Guidance for Group A Streptococcal Pharyngitis (https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html).
 ```

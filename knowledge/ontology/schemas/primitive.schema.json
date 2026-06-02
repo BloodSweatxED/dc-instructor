@@ -19,7 +19,7 @@
     "phenotypes": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
     "section": {
       "type": "string",
-      "enum": ["diagnosis", "what_we_found", "home_care", "medications", "return_precautions", "follow_up"]
+      "enum": ["diagnosis", "what_we_found", "home_care", "medications", "return_precautions", "follow_up", "resources"]
     },
     "primitive_type": { "type": "string" },
     "priority": { "type": "string", "enum": ["required", "high", "medium", "low"] },

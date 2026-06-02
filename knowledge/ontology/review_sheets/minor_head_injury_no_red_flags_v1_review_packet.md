@@ -60,6 +60,9 @@ Review date: 2026-06-01.
 - `minor_head_injury_no_red_flags.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported
 - `minor_head_injury_no_red_flags.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported
 - `minor_head_injury_no_red_flags.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier
+- `minor_head_injury_no_red_flags.resources.source_link_1.v1` | `resources` | audit: source_supported
+- `minor_head_injury_no_red_flags.resources.source_link_2.v1` | `resources` | audit: source_supported
+- `minor_head_injury_no_red_flags.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -86,5 +89,10 @@ RETURN TO ED IF:
 - Come back for clear fluid or blood from the nose or ear.
 
 FOLLOW UP:
-Follow up with primary care if symptoms are not improving or if you were told to recheck.
+Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with a minor head injury. I need a follow-up visit within 1 week if symptoms are not improving."
+
+RESOURCES:
+- Bring these instructions to your follow-up visit.
+- Learn more: CDC HEADS UP - Signs and Symptoms of Concussion (https://www.cdc.gov/heads-up/signs-symptoms/index.html).
+- Learn more: CDC - What to Do After a Mild TBI or Concussion (https://www.cdc.gov/traumatic-brain-injury/response/index.html).
 ```

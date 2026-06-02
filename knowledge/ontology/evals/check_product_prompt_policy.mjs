@@ -6,6 +6,8 @@ const required = [
   'Use medication details as passthrough only',
   'Do not infer, invent, or complete missing medication details',
   'If the note says only "antibiotics" or "pain medicine," do not choose a drug, dose, route, frequency, or duration',
+  'RESOURCES:',
+  'Do not paste article text',
 ];
 
 const forbidden = [

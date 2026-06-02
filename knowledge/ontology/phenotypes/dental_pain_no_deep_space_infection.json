@@ -38,7 +38,9 @@
     "dental_pain_no_deep_space_infection.return_precautions.return_precaution_1.v1",
     "dental_pain_no_deep_space_infection.return_precautions.return_precaution_2.v1",
     "dental_pain_no_deep_space_infection.return_precautions.return_precaution_3.v1",
-    "dental_pain_no_deep_space_infection.follow_up.default_follow_up.v1"
+    "dental_pain_no_deep_space_infection.follow_up.default_follow_up.v1",
+    "dental_pain_no_deep_space_infection.resources.source_link_1.v1",
+    "dental_pain_no_deep_space_infection.resources.followup_reminder.v1"
   ],
   "source_card_ids": [
     "medlineplus.toothaches"

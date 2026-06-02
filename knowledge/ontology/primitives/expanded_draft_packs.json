@@ -426,9 +426,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "Get rechecked in 48-72 hours. Redness and swelling can look worse during the first 24-48 hours before they start to improve.",
-      "en_6": "Get rechecked in 48-72 hours. Redness and swelling can look worse during the first 24-48 hours before they start to improve.",
-      "en_hl1": "Get rechecked in 48-72 hours. Redness and swelling can look worse during the first 24-48 hours before they start to improve."
+      "en_4": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with cellulitis. I need a follow-up visit within 48-72 hours.\"",
+      "en_6": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with cellulitis. I need a follow-up visit within 48-72 hours.\"",
+      "en_hl1": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with cellulitis. I need a follow-up visit within 48-72 hours.\""
     },
     "contraindications": [
       "immunocompromised",
@@ -460,7 +460,8 @@
       "notes": "Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts."
     },
     "style": {
-      "calibration": "phase15_dc_instructor_voice"
+      "calibration": "phase15_dc_instructor_voice",
+      "followup_script": "phase17_patient_advocacy"
     }
   },
   {
@@ -877,9 +878,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "Return or follow up for a wound check as instructed.",
-      "en_6": "Return or follow up for a wound check as instructed.",
-      "en_hl1": "Return or follow up for a wound check as instructed."
+      "en_4": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with an abscess that was drained. I need a follow-up visit as instructed for a wound check.\"",
+      "en_6": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with an abscess that was drained. I need a follow-up visit as instructed for a wound check.\"",
+      "en_hl1": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with an abscess that was drained. I need a follow-up visit as instructed for a wound check.\""
     },
     "contraindications": [
       "deep_space_location",
@@ -909,7 +910,8 @@
       "notes": "Reviewed for abscess_after_i_and_d v1. Patient-facing text is locally authored from source-supported concepts."
     },
     "style": {
-      "calibration": "phase15_dc_instructor_voice"
+      "calibration": "phase15_dc_instructor_voice",
+      "followup_script": "phase17_patient_advocacy"
     }
   },
   {
@@ -1329,9 +1331,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "Follow up for wound check or suture removal on the schedule your clinician gave you.",
-      "en_6": "Follow up for wound check or suture removal on the schedule your clinician gave you.",
-      "en_hl1": "Follow up for wound check or suture removal on the schedule your clinician gave you."
+      "en_4": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a repaired cut. I need a follow-up visit on the schedule you were given for wound check or suture removal.\"",
+      "en_6": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a repaired cut. I need a follow-up visit on the schedule you were given for wound check or suture removal.\"",
+      "en_hl1": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a repaired cut. I need a follow-up visit on the schedule you were given for wound check or suture removal.\""
     },
     "contraindications": [
       "bite_wound",
@@ -1362,7 +1364,8 @@
       "notes": "Reviewed for laceration_repaired_simple v1. Patient-facing text is locally authored from source-supported concepts."
     },
     "style": {
-      "calibration": "phase15_dc_instructor_voice"
+      "calibration": "phase15_dc_instructor_voice",
+      "followup_script": "phase17_patient_advocacy"
     }
   },
   {
@@ -1832,9 +1835,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "Follow up with primary care if symptoms are not improving or if you were told to recheck.",
-      "en_6": "Follow up with primary care if symptoms are not improving or if you were told to recheck.",
-      "en_hl1": "Follow up with primary care if symptoms are not improving or if you were told to recheck."
+      "en_4": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a minor head injury. I need a follow-up visit within 1 week if symptoms are not improving.\"",
+      "en_6": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a minor head injury. I need a follow-up visit within 1 week if symptoms are not improving.\"",
+      "en_hl1": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a minor head injury. I need a follow-up visit within 1 week if symptoms are not improving.\""
     },
     "contraindications": [
       "anticoagulated",
@@ -1866,7 +1869,8 @@
       "notes": "Reviewed for minor_head_injury_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     },
     "style": {
-      "calibration": "phase15_dc_instructor_voice"
+      "calibration": "phase15_dc_instructor_voice",
+      "followup_script": "phase17_patient_advocacy"
     }
   },
   {
@@ -2293,9 +2297,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "Follow up with primary care, sports medicine, or a concussion clinic if symptoms persist or if you need return-to-play clearance.",
-      "en_6": "Follow up with primary care, sports medicine, or a concussion clinic if symptoms persist or if you need return-to-play clearance.",
-      "en_hl1": "Follow up with primary care, sports medicine, or a concussion clinic if symptoms persist or if you need return-to-play clearance."
+      "en_4": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a concussion. I need a follow-up visit within 1 week if symptoms persist, or sooner if you need return-to-play clearance.\"",
+      "en_6": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a concussion. I need a follow-up visit within 1 week if symptoms persist, or sooner if you need return-to-play clearance.\"",
+      "en_hl1": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a concussion. I need a follow-up visit within 1 week if symptoms persist, or sooner if you need return-to-play clearance.\""
     },
     "contraindications": [
       "athlete_return_to_play",
@@ -2326,7 +2330,8 @@
       "notes": "Reviewed for concussion_discharge_no_imaging_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
     },
     "style": {
-      "calibration": "phase15_dc_instructor_voice"
+      "calibration": "phase15_dc_instructor_voice",
+      "followup_script": "phase17_patient_advocacy"
     }
   },
   {
@@ -2785,9 +2790,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "Follow up with urology or primary care within 1-2 weeks. Most small stones pass on their own within 1-4 weeks.",
-      "en_6": "Follow up with urology or primary care within 1-2 weeks. Most small stones pass on their own within 1-4 weeks.",
-      "en_hl1": "Follow up with urology or primary care within 1-2 weeks. Most small stones pass on their own within 1-4 weeks."
+      "en_4": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a kidney stone. I need a follow-up visit within 1-2 weeks.\" Most small stones pass on their own within 1-4 weeks.",
+      "en_6": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a kidney stone. I need a follow-up visit within 1-2 weeks.\" Most small stones pass on their own within 1-4 weeks.",
+      "en_hl1": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a kidney stone. I need a follow-up visit within 1-2 weeks.\" Most small stones pass on their own within 1-4 weeks."
     },
     "contraindications": [
       "fever",
@@ -2818,7 +2823,8 @@
       "notes": "Reviewed for renal_colic_stable_no_infection v1. Patient-facing text is locally authored from source-supported concepts."
     },
     "style": {
-      "calibration": "phase15_dc_instructor_voice"
+      "calibration": "phase15_dc_instructor_voice",
+      "followup_script": "phase17_patient_advocacy"
     }
   },
   {
@@ -3235,9 +3241,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "See a dentist as soon as possible. The ED cannot fix the tooth permanently.",
-      "en_6": "See a dentist as soon as possible. The ED cannot fix the tooth permanently.",
-      "en_hl1": "See a dentist as soon as possible. The ED cannot fix the tooth permanently."
+      "en_4": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with dental pain. I need a follow-up visit as soon as possible with a dentist.\" The ED cannot fix the tooth permanently.",
+      "en_6": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with dental pain. I need a follow-up visit as soon as possible with a dentist.\" The ED cannot fix the tooth permanently.",
+      "en_hl1": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with dental pain. I need a follow-up visit as soon as possible with a dentist.\" The ED cannot fix the tooth permanently."
     },
     "contraindications": [
       "airway_symptoms",
@@ -3267,7 +3273,8 @@
       "notes": "Reviewed for dental_pain_no_deep_space_infection v1. Patient-facing text is locally authored from source-supported concepts."
     },
     "style": {
-      "calibration": "phase15_dc_instructor_voice"
+      "calibration": "phase15_dc_instructor_voice",
+      "followup_script": "phase17_patient_advocacy"
     }
   },
   {
@@ -3697,9 +3704,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "Follow up with primary care if symptoms are not improving or if your clinician instructed you to recheck.",
-      "en_6": "Follow up with primary care if symptoms are not improving or if your clinician instructed you to recheck.",
-      "en_hl1": "Follow up with primary care if symptoms are not improving or if your clinician instructed you to recheck."
+      "en_4": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a viral sore throat. I need a follow-up visit within 1 week if symptoms are not improving.\"",
+      "en_6": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a viral sore throat. I need a follow-up visit within 1 week if symptoms are not improving.\"",
+      "en_hl1": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a viral sore throat. I need a follow-up visit within 1 week if symptoms are not improving.\""
     },
     "contraindications": [
       "drooling",
@@ -3731,7 +3738,8 @@
       "notes": "Reviewed for viral_pharyngitis_strep_negative v1. Patient-facing text is locally authored from source-supported concepts."
     },
     "style": {
-      "calibration": "phase15_dc_instructor_voice"
+      "calibration": "phase15_dc_instructor_voice",
+      "followup_script": "phase17_patient_advocacy"
     }
   },
   {
@@ -4385,9 +4393,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "See your primary care doctor or asthma clinician within 3-5 days, or sooner if symptoms are not improving. If you do not have a written asthma action plan, ask for one at follow-up.",
-      "en_6": "See your primary care doctor or asthma clinician within 3-5 days, or sooner if symptoms are not improving. If you do not have a written asthma action plan, ask for one at follow-up.",
-      "en_hl1": "See your primary care doctor or asthma clinician within 3-5 days, or sooner if symptoms are not improving. If you do not have a written asthma action plan, ask for one at follow-up."
+      "en_4": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with an asthma flare-up. I need a follow-up visit within 3-5 days.\" If you do not have a written asthma action plan, ask for one at follow-up.",
+      "en_6": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with an asthma flare-up. I need a follow-up visit within 3-5 days.\" If you do not have a written asthma action plan, ask for one at follow-up.",
+      "en_hl1": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with an asthma flare-up. I need a follow-up visit within 3-5 days.\" If you do not have a written asthma action plan, ask for one at follow-up."
     },
     "contraindications": [
       "hypoxia",
@@ -4416,6 +4424,9 @@
       "source_audit_status": "passed_for_v1",
       "production_status": "enabled_with_runtime_modifier_gates",
       "notes": "Reviewed for asthma_exacerbation_improved_discharge v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "style": {
+      "followup_script": "phase17_patient_advocacy"
     }
   },
   {
@@ -4835,9 +4846,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "Follow up with primary care or an allergy clinician if symptoms continue or the trigger is unclear.",
-      "en_6": "Follow up with primary care or an allergy clinician if symptoms continue or the trigger is unclear.",
-      "en_hl1": "Follow up with primary care or an allergy clinician if symptoms continue or the trigger is unclear."
+      "en_4": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with an allergic reaction. I need a follow-up visit within 1 week if symptoms continue or the trigger is unclear.\"",
+      "en_6": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with an allergic reaction. I need a follow-up visit within 1 week if symptoms continue or the trigger is unclear.\"",
+      "en_hl1": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with an allergic reaction. I need a follow-up visit within 1 week if symptoms continue or the trigger is unclear.\""
     },
     "contraindications": [
       "airway_symptoms",
@@ -4868,7 +4879,8 @@
       "notes": "Reviewed for allergic_reaction_resolved_no_anaphylaxis v1. Patient-facing text is locally authored from source-supported concepts."
     },
     "style": {
-      "calibration": "phase15_dc_instructor_voice"
+      "calibration": "phase15_dc_instructor_voice",
+      "followup_script": "phase17_patient_advocacy"
     }
   },
   {
@@ -5338,9 +5350,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "See your primary care doctor or clinic within 2-3 days, or sooner if symptoms are not improving. Most people start to feel better within 3-5 days of antibiotics, but full recovery can take 2-4 weeks.",
-      "en_6": "See your primary care doctor or clinic within 2-3 days, or sooner if symptoms are not improving. Most people start to feel better within 3-5 days of antibiotics, but full recovery can take 2-4 weeks.",
-      "en_hl1": "See your primary care doctor or clinic within 2-3 days, or sooner if symptoms are not improving. Most people start to feel better within 3-5 days of antibiotics, but full recovery can take 2-4 weeks."
+      "en_4": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with pneumonia. I need a follow-up visit within 2-3 days.\" Most people start to feel better within 3-5 days of antibiotics, but full recovery can take 2-4 weeks.",
+      "en_6": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with pneumonia. I need a follow-up visit within 2-3 days.\" Most people start to feel better within 3-5 days of antibiotics, but full recovery can take 2-4 weeks.",
+      "en_hl1": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with pneumonia. I need a follow-up visit within 2-3 days.\" Most people start to feel better within 3-5 days of antibiotics, but full recovery can take 2-4 weeks."
     },
     "contraindications": [
       "hypoxia",
@@ -5372,7 +5384,8 @@
       "notes": "Reviewed for community_acquired_pneumonia_outpatient v1. Patient-facing text is locally authored from source-supported concepts."
     },
     "style": {
-      "calibration": "phase15_dc_instructor_voice"
+      "calibration": "phase15_dc_instructor_voice",
+      "followup_script": "phase17_patient_advocacy"
     }
   },
   {

@@ -57,6 +57,8 @@ Review date: 2026-06-01.
 - `dental_pain_no_deep_space_infection.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported
 - `dental_pain_no_deep_space_infection.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported
 - `dental_pain_no_deep_space_infection.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier
+- `dental_pain_no_deep_space_infection.resources.source_link_1.v1` | `resources` | audit: source_supported
+- `dental_pain_no_deep_space_infection.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -82,5 +84,9 @@ RETURN TO ED IF:
 - Come back if pain or swelling spreads quickly.
 
 FOLLOW UP:
-See a dentist as soon as possible. The ED cannot fix the tooth permanently.
+Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with dental pain. I need a follow-up visit as soon as possible with a dentist." The ED cannot fix the tooth permanently.
+
+RESOURCES:
+- Bring these instructions to your follow-up visit.
+- Learn more: MedlinePlus - Toothaches (https://medlineplus.gov/ency/article/003067.htm).
 ```

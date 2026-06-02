@@ -42,7 +42,10 @@
     "viral_uri.medications.otc_caution.v1",
     "viral_uri.return_precautions.breathing_chest_confusion.v1",
     "viral_uri.return_precautions.worsening_fever_dehydration.v1",
-    "viral_uri.follow_up.primary_care.v1"
+    "viral_uri.follow_up.primary_care.v1",
+    "viral_uri_no_pneumonia.resources.source_link_1.v1",
+    "viral_uri_no_pneumonia.resources.source_link_2.v1",
+    "viral_uri_no_pneumonia.resources.followup_reminder.v1"
   ],
   "source_card_ids": [
     "medlineplus.common_cold",

@@ -58,6 +58,8 @@ Review date: 2026-06-01.
 - `renal_colic_stable_no_infection.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported
 - `renal_colic_stable_no_infection.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported
 - `renal_colic_stable_no_infection.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier
+- `renal_colic_stable_no_infection.resources.source_link_1.v1` | `resources` | audit: source_supported
+- `renal_colic_stable_no_infection.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -84,5 +86,9 @@ RETURN TO ED IF:
 - Come back if pain cannot be controlled with the plan you were given.
 
 FOLLOW UP:
-Follow up with urology or primary care within 1-2 weeks. Most small stones pass on their own within 1-4 weeks.
+Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with a kidney stone. I need a follow-up visit within 1-2 weeks." Most small stones pass on their own within 1-4 weeks.
+
+RESOURCES:
+- Bring these instructions to your follow-up visit.
+- Learn more: MedlinePlus - Kidney stones - self-care (https://medlineplus.gov/ency/patientinstructions/000135.htm).
 ```

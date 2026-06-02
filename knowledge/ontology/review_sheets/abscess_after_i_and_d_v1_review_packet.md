@@ -55,6 +55,8 @@ Review date: 2026-06-01.
 - `abscess_after_i_and_d.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported
 - `abscess_after_i_and_d.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported
 - `abscess_after_i_and_d.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier
+- `abscess_after_i_and_d.resources.source_link_1.v1` | `resources` | audit: source_supported
+- `abscess_after_i_and_d.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -80,5 +82,9 @@ RETURN TO ED IF:
 - Come back if packing falls out early and you were told it needed to stay in.
 
 FOLLOW UP:
-Return or follow up for a wound check as instructed.
+Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with an abscess that was drained. I need a follow-up visit as instructed for a wound check."
+
+RESOURCES:
+- Bring these instructions to your follow-up visit.
+- Learn more: MedlinePlus - Skin abscess (https://medlineplus.gov/ency/article/000863.htm).
 ```

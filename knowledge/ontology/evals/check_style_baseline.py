@@ -93,6 +93,11 @@ STYLE_CHECKS = {
     },
 }
 
+RESOURCE_CHECKS = {
+    "community_acquired_pneumonia_outpatient": ["RESOURCES:", "Learn more:", "Bring these instructions"],
+    "asthma_exacerbation_improved_discharge": ["RESOURCES:", "Learn more:", "Bring these instructions"],
+}
+
 
 def main() -> int:
     failures: list[str] = []
@@ -104,6 +109,15 @@ def main() -> int:
         for phrase in checks["forbidden"]:
             if phrase in output:
                 failures.append(f"{phenotype_id} still has stale phrase: {phrase}")
+    for phenotype_id, phrases in RESOURCE_CHECKS.items():
+        output = assemble_discharge(phenotype_id, "6")
+        for phrase in phrases:
+            if phrase not in output:
+                failures.append(f"{phenotype_id} missing resource phrase: {phrase}")
+    followup_output = assemble_discharge("uncomplicated_cystitis_nonpregnant", "6")
+    for phrase in ["Call your primary care doctor's office", "urinary tract infection", "within 1 week"]:
+        if phrase not in followup_output:
+            failures.append(f"uncomplicated_cystitis_nonpregnant missing follow-up script phrase: {phrase}")
     if failures:
         for failure in failures:
             print(failure)

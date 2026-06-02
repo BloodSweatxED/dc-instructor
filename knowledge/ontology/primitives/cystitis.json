@@ -319,9 +319,9 @@
     "primitive_type": "follow_up_pcp",
     "priority": "required",
     "text": {
-      "en_4": "See your regular doctor, clinic, or urgent care in 2 to 3 days if you are not getting better.",
-      "en_6": "See your regular doctor, clinic, or urgent care in 2 to 3 days if symptoms are not improving.",
-      "en_hl1": "See a doctor in 2 to 3 days if you do not feel better."
+      "en_4": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a urinary tract infection. I need a follow-up visit within 1 week, or sooner if symptoms are not improving.\"",
+      "en_6": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a urinary tract infection. I need a follow-up visit within 1 week, or sooner if symptoms are not improving.\"",
+      "en_hl1": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a urinary tract infection. I need a follow-up visit within 1 week, or sooner if symptoms are not improving.\""
     },
     "contraindications": [],
     "source_card_ids": [
@@ -344,6 +344,9 @@
       "restricted_source_risk": false,
       "unsafe_without_modifier": false,
       "notes": "CDC and MedlinePlus support UTI framing, antibiotic treatment when clinically indicated, hydration, and pyelonephritis or sepsis return precautions."
+    },
+    "style": {
+      "followup_script": "phase17_patient_advocacy"
     }
   }
 ]

@@ -353,9 +353,9 @@
     "primitive_type": "follow_up_pcp_or_ortho",
     "priority": "required",
     "text": {
-      "en_4": "See your regular doctor, urgent care, sports medicine, or orthopedics in 5 to 7 days if pain or walking is not getting better.",
-      "en_6": "See your regular doctor, urgent care, sports medicine, or orthopedics in 5 to 7 days if pain or walking is not improving.",
-      "en_hl1": "See a doctor in 5 to 7 days if pain or walking is not better."
+      "en_4": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with an ankle sprain. I need a follow-up visit within 5-7 days if pain or walking is not improving.\"",
+      "en_6": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with an ankle sprain. I need a follow-up visit within 5-7 days if pain or walking is not improving.\"",
+      "en_hl1": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with an ankle sprain. I need a follow-up visit within 5-7 days if pain or walking is not improving.\""
     },
     "contraindications": [],
     "source_card_ids": [
@@ -378,6 +378,9 @@
       "restricted_source_risk": false,
       "unsafe_without_modifier": false,
       "notes": "MedlinePlus source card supports the patient-facing concept; text is locally authored."
+    },
+    "style": {
+      "followup_script": "phase17_patient_advocacy"
     }
   }
 ]

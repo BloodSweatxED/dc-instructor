@@ -29,6 +29,7 @@ SECTION_HEADERS = {
     "MEDICATIONS:": "medications",
     "RETURN TO ED IF:": "return_precautions",
     "FOLLOW UP:": "follow_up",
+    "RESOURCES:": "resources",
 }
 TOPIC_RULES = {
     "dehydration": ["dehydrat", "urinat", "urine", "keep down", "fluids", "dizzy", "lightheaded"],

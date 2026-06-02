@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-from ontology_lib import SECTIONS, OntologyError, assemble_discharge, load_phenotypes, load_primitives, load_source_cards, read_json, ROOT
+from ontology_lib import OPTIONAL_SECTIONS, SECTIONS, OntologyError, assemble_discharge, load_phenotypes, load_primitives, load_source_cards, read_json, ROOT
 
 
 REQUIRED_TEXT_KEYS = {"en_4", "en_6", "en_hl1"}
 REQUIRED_SECTIONS = {section_id for section_id, _ in SECTIONS}
+ALLOWED_SECTIONS = REQUIRED_SECTIONS | {section_id for section_id, _ in OPTIONAL_SECTIONS}
 SOURCE_AUDIT_KEYS = {
     "source_supported",
     "source_needed",
@@ -33,7 +34,7 @@ def validate() -> list[str]:
     for primitive_id, primitive in primitives.items():
         require(primitive_id == primitive["id"], f"Primitive key mismatch for {primitive_id}")
         require(set(primitive["text"]) == REQUIRED_TEXT_KEYS, f"{primitive_id} must have en_4, en_6, and en_hl1 text")
-        require(primitive["section"] in REQUIRED_SECTIONS, f"{primitive_id} has invalid section {primitive['section']}")
+        require(primitive["section"] in ALLOWED_SECTIONS, f"{primitive_id} has invalid section {primitive['section']}")
         for source_id in primitive["source_card_ids"]:
             require(source_id in source_cards, f"{primitive_id} references missing source card {source_id}")
         if primitive["review"]["status"] == "reviewed":

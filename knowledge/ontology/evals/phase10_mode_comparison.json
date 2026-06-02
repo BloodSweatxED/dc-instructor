@@ -112,9 +112,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 173,
-        "avg_sentence_words": 13.3,
-        "long_word_ratio": 0.104
+        "word_count": 219,
+        "avg_sentence_words": 13.7,
+        "long_word_ratio": 0.119
       },
       "section_completeness": {
         "diagnosis": true,
@@ -186,9 +186,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 168,
-        "avg_sentence_words": 14.0,
-        "long_word_ratio": 0.196
+        "word_count": 209,
+        "avg_sentence_words": 13.9,
+        "long_word_ratio": 0.211
       },
       "section_completeness": {
         "diagnosis": true,
@@ -261,9 +261,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 240,
-        "avg_sentence_words": 13.3,
-        "long_word_ratio": 0.104
+        "word_count": 289,
+        "avg_sentence_words": 13.1,
+        "long_word_ratio": 0.114
       },
       "section_completeness": {
         "diagnosis": true,
@@ -334,9 +334,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 284,
-        "avg_sentence_words": 12.3,
-        "long_word_ratio": 0.116
+        "word_count": 316,
+        "avg_sentence_words": 12.2,
+        "long_word_ratio": 0.12
       },
       "section_completeness": {
         "diagnosis": true,
@@ -408,9 +408,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 202,
-        "avg_sentence_words": 12.6,
-        "long_word_ratio": 0.124
+        "word_count": 251,
+        "avg_sentence_words": 13.2,
+        "long_word_ratio": 0.163
       },
       "section_completeness": {
         "diagnosis": true,
@@ -559,9 +559,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 237,
+        "word_count": 291,
         "avg_sentence_words": 13.9,
-        "long_word_ratio": 0.131
+        "long_word_ratio": 0.148
       },
       "section_completeness": {
         "diagnosis": true,
@@ -634,9 +634,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 172,
-        "avg_sentence_words": 14.3,
-        "long_word_ratio": 0.174
+        "word_count": 242,
+        "avg_sentence_words": 15.1,
+        "long_word_ratio": 0.169
       },
       "section_completeness": {
         "diagnosis": true,
@@ -708,9 +708,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 150,
-        "avg_sentence_words": 11.5,
-        "long_word_ratio": 0.12
+        "word_count": 196,
+        "avg_sentence_words": 12.2,
+        "long_word_ratio": 0.138
       },
       "section_completeness": {
         "diagnosis": true,
@@ -783,9 +783,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 186,
-        "avg_sentence_words": 15.5,
-        "long_word_ratio": 0.167
+        "word_count": 238,
+        "avg_sentence_words": 14.9,
+        "long_word_ratio": 0.189
       },
       "section_completeness": {
         "diagnosis": true,
@@ -861,9 +861,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 165,
-        "avg_sentence_words": 12.7,
-        "long_word_ratio": 0.103
+        "word_count": 212,
+        "avg_sentence_words": 13.2,
+        "long_word_ratio": 0.123
       },
       "section_completeness": {
         "diagnosis": true,
@@ -936,9 +936,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 252,
-        "avg_sentence_words": 12.0,
-        "long_word_ratio": 0.107
+        "word_count": 310,
+        "avg_sentence_words": 12.4,
+        "long_word_ratio": 0.113
       },
       "section_completeness": {
         "diagnosis": true,
@@ -1013,9 +1013,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 202,
-        "avg_sentence_words": 12.6,
-        "long_word_ratio": 0.158
+        "word_count": 272,
+        "avg_sentence_words": 13.6,
+        "long_word_ratio": 0.162
       },
       "section_completeness": {
         "diagnosis": true,
@@ -1088,9 +1088,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 176,
-        "avg_sentence_words": 11.0,
-        "long_word_ratio": 0.119
+        "word_count": 219,
+        "avg_sentence_words": 11.5,
+        "long_word_ratio": 0.137
       },
       "section_completeness": {
         "diagnosis": true,
@@ -1165,9 +1165,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 175,
-        "avg_sentence_words": 14.6,
-        "long_word_ratio": 0.149
+        "word_count": 237,
+        "avg_sentence_words": 14.8,
+        "long_word_ratio": 0.16
       },
       "section_completeness": {
         "diagnosis": true,
@@ -1246,9 +1246,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 152,
-        "avg_sentence_words": 12.7,
-        "long_word_ratio": 0.112
+        "word_count": 217,
+        "avg_sentence_words": 13.6,
+        "long_word_ratio": 0.124
       },
       "section_completeness": {
         "diagnosis": true,
@@ -1325,9 +1325,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 188,
-        "avg_sentence_words": 15.7,
-        "long_word_ratio": 0.128
+        "word_count": 255,
+        "avg_sentence_words": 15.9,
+        "long_word_ratio": 0.157
       },
       "section_completeness": {
         "diagnosis": true,

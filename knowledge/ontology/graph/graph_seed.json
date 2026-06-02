@@ -1,7 +1,7 @@
 {
   "generated_at": "deterministic_from_current_ontology_and_generator_batches",
-  "node_count": 1867,
-  "edge_count": 2619,
+  "node_count": 1909,
+  "edge_count": 2713,
   "nodes": [
     {
       "id": "candidate_primitive:abdominal_pain_nonspecific_reassuring_workup.diagnosis.1",
@@ -13963,6 +13963,24 @@
       "review_status": "reviewed"
     },
     {
+      "id": "primitive:abscess_after_i_and_d.resources.followup_reminder.v1",
+      "type": "primitive",
+      "label": "abscess_after_i_and_d.resources.followup_reminder.v1",
+      "section": "resources",
+      "primitive_type": "followup_reminder",
+      "priority": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:abscess_after_i_and_d.resources.source_link_1.v1",
+      "type": "primitive",
+      "label": "abscess_after_i_and_d.resources.source_link_1.v1",
+      "section": "resources",
+      "primitive_type": "source_link_1",
+      "priority": "low",
+      "review_status": "reviewed"
+    },
+    {
       "id": "primitive:abscess_after_i_and_d.return_precautions.return_precaution_1.v1",
       "type": "primitive",
       "label": "abscess_after_i_and_d.return_precautions.return_precaution_1.v1",
@@ -14059,6 +14077,24 @@
       "section": "medications",
       "primitive_type": "medication_guidance_2",
       "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:allergic_reaction_resolved_no_anaphylaxis.resources.followup_reminder.v1",
+      "type": "primitive",
+      "label": "allergic_reaction_resolved_no_anaphylaxis.resources.followup_reminder.v1",
+      "section": "resources",
+      "primitive_type": "followup_reminder",
+      "priority": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:allergic_reaction_resolved_no_anaphylaxis.resources.source_link_1.v1",
+      "type": "primitive",
+      "label": "allergic_reaction_resolved_no_anaphylaxis.resources.source_link_1.v1",
+      "section": "resources",
+      "primitive_type": "source_link_1",
+      "priority": "low",
       "review_status": "reviewed"
     },
     {
@@ -14188,6 +14224,33 @@
       "review_status": "reviewed"
     },
     {
+      "id": "primitive:ankle_sprain_xray_negative.resources.followup_reminder.v1",
+      "type": "primitive",
+      "label": "ankle_sprain_xray_negative.resources.followup_reminder.v1",
+      "section": "resources",
+      "primitive_type": "followup_reminder",
+      "priority": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:ankle_sprain_xray_negative.resources.source_link_1.v1",
+      "type": "primitive",
+      "label": "ankle_sprain_xray_negative.resources.source_link_1.v1",
+      "section": "resources",
+      "primitive_type": "source_link_1",
+      "priority": "low",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:ankle_sprain_xray_negative.resources.source_link_2.v1",
+      "type": "primitive",
+      "label": "ankle_sprain_xray_negative.resources.source_link_2.v1",
+      "section": "resources",
+      "primitive_type": "source_link_2",
+      "priority": "low",
+      "review_status": "reviewed"
+    },
+    {
       "id": "primitive:asthma_exacerbation_improved_discharge.diagnosis.diagnosis_summary.v1",
       "type": "primitive",
       "label": "asthma_exacerbation_improved_discharge.diagnosis.diagnosis_summary.v1",
@@ -14293,6 +14356,24 @@
       "section": "medications",
       "primitive_type": "medication_guidance_4",
       "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:asthma_exacerbation_improved_discharge.resources.followup_reminder.v1",
+      "type": "primitive",
+      "label": "asthma_exacerbation_improved_discharge.resources.followup_reminder.v1",
+      "section": "resources",
+      "primitive_type": "followup_reminder",
+      "priority": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:asthma_exacerbation_improved_discharge.resources.source_link_1.v1",
+      "type": "primitive",
+      "label": "asthma_exacerbation_improved_discharge.resources.source_link_1.v1",
+      "section": "resources",
+      "primitive_type": "source_link_1",
+      "priority": "low",
       "review_status": "reviewed"
     },
     {
@@ -14512,6 +14593,33 @@
       "review_status": "reviewed"
     },
     {
+      "id": "primitive:cellulitis_uncomplicated_oral_antibiotics.resources.followup_reminder.v1",
+      "type": "primitive",
+      "label": "cellulitis_uncomplicated_oral_antibiotics.resources.followup_reminder.v1",
+      "section": "resources",
+      "primitive_type": "followup_reminder",
+      "priority": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:cellulitis_uncomplicated_oral_antibiotics.resources.source_link_1.v1",
+      "type": "primitive",
+      "label": "cellulitis_uncomplicated_oral_antibiotics.resources.source_link_1.v1",
+      "section": "resources",
+      "primitive_type": "source_link_1",
+      "priority": "low",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:cellulitis_uncomplicated_oral_antibiotics.resources.source_link_2.v1",
+      "type": "primitive",
+      "label": "cellulitis_uncomplicated_oral_antibiotics.resources.source_link_2.v1",
+      "section": "resources",
+      "primitive_type": "source_link_2",
+      "priority": "low",
+      "review_status": "reviewed"
+    },
+    {
       "id": "primitive:cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_1.v1",
       "type": "primitive",
       "label": "cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_1.v1",
@@ -14719,6 +14827,33 @@
       "review_status": "reviewed"
     },
     {
+      "id": "primitive:community_acquired_pneumonia_outpatient.resources.followup_reminder.v1",
+      "type": "primitive",
+      "label": "community_acquired_pneumonia_outpatient.resources.followup_reminder.v1",
+      "section": "resources",
+      "primitive_type": "followup_reminder",
+      "priority": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:community_acquired_pneumonia_outpatient.resources.source_link_1.v1",
+      "type": "primitive",
+      "label": "community_acquired_pneumonia_outpatient.resources.source_link_1.v1",
+      "section": "resources",
+      "primitive_type": "source_link_1",
+      "priority": "low",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:community_acquired_pneumonia_outpatient.resources.source_link_2.v1",
+      "type": "primitive",
+      "label": "community_acquired_pneumonia_outpatient.resources.source_link_2.v1",
+      "section": "resources",
+      "primitive_type": "source_link_2",
+      "priority": "low",
+      "review_status": "reviewed"
+    },
+    {
       "id": "primitive:community_acquired_pneumonia_outpatient.return_precautions.return_precaution_1.v1",
       "type": "primitive",
       "label": "community_acquired_pneumonia_outpatient.return_precautions.return_precaution_1.v1",
@@ -14815,6 +14950,33 @@
       "section": "medications",
       "primitive_type": "medication_guidance_2",
       "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:concussion_discharge_no_imaging_red_flags.resources.followup_reminder.v1",
+      "type": "primitive",
+      "label": "concussion_discharge_no_imaging_red_flags.resources.followup_reminder.v1",
+      "section": "resources",
+      "primitive_type": "followup_reminder",
+      "priority": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:concussion_discharge_no_imaging_red_flags.resources.source_link_1.v1",
+      "type": "primitive",
+      "label": "concussion_discharge_no_imaging_red_flags.resources.source_link_1.v1",
+      "section": "resources",
+      "primitive_type": "source_link_1",
+      "priority": "low",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:concussion_discharge_no_imaging_red_flags.resources.source_link_2.v1",
+      "type": "primitive",
+      "label": "concussion_discharge_no_imaging_red_flags.resources.source_link_2.v1",
+      "section": "resources",
+      "primitive_type": "source_link_2",
+      "priority": "low",
       "review_status": "reviewed"
     },
     {
@@ -14998,6 +15160,24 @@
       "review_status": "reviewed"
     },
     {
+      "id": "primitive:dental_pain_no_deep_space_infection.resources.followup_reminder.v1",
+      "type": "primitive",
+      "label": "dental_pain_no_deep_space_infection.resources.followup_reminder.v1",
+      "section": "resources",
+      "primitive_type": "followup_reminder",
+      "priority": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:dental_pain_no_deep_space_infection.resources.source_link_1.v1",
+      "type": "primitive",
+      "label": "dental_pain_no_deep_space_infection.resources.source_link_1.v1",
+      "section": "resources",
+      "primitive_type": "source_link_1",
+      "priority": "low",
+      "review_status": "reviewed"
+    },
+    {
       "id": "primitive:dental_pain_no_deep_space_infection.return_precautions.return_precaution_1.v1",
       "type": "primitive",
       "label": "dental_pain_no_deep_space_infection.return_precautions.return_precaution_1.v1",
@@ -15115,6 +15295,33 @@
       "review_status": "reviewed"
     },
     {
+      "id": "primitive:gastroenteritis_stable_hydrating.resources.followup_reminder.v1",
+      "type": "primitive",
+      "label": "gastroenteritis_stable_hydrating.resources.followup_reminder.v1",
+      "section": "resources",
+      "primitive_type": "followup_reminder",
+      "priority": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:gastroenteritis_stable_hydrating.resources.source_link_1.v1",
+      "type": "primitive",
+      "label": "gastroenteritis_stable_hydrating.resources.source_link_1.v1",
+      "section": "resources",
+      "primitive_type": "source_link_1",
+      "priority": "low",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:gastroenteritis_stable_hydrating.resources.source_link_2.v1",
+      "type": "primitive",
+      "label": "gastroenteritis_stable_hydrating.resources.source_link_2.v1",
+      "section": "resources",
+      "primitive_type": "source_link_2",
+      "priority": "low",
+      "review_status": "reviewed"
+    },
+    {
       "id": "primitive:laceration_repaired_simple.diagnosis.diagnosis_summary.v1",
       "type": "primitive",
       "label": "laceration_repaired_simple.diagnosis.diagnosis_summary.v1",
@@ -15178,6 +15385,24 @@
       "review_status": "reviewed"
     },
     {
+      "id": "primitive:laceration_repaired_simple.resources.followup_reminder.v1",
+      "type": "primitive",
+      "label": "laceration_repaired_simple.resources.followup_reminder.v1",
+      "section": "resources",
+      "primitive_type": "followup_reminder",
+      "priority": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:laceration_repaired_simple.resources.source_link_1.v1",
+      "type": "primitive",
+      "label": "laceration_repaired_simple.resources.source_link_1.v1",
+      "section": "resources",
+      "primitive_type": "source_link_1",
+      "priority": "low",
+      "review_status": "reviewed"
+    },
+    {
       "id": "primitive:laceration_repaired_simple.return_precautions.return_precaution_1.v1",
       "type": "primitive",
       "label": "laceration_repaired_simple.return_precautions.return_precaution_1.v1",
@@ -15211,6 +15436,33 @@
       "section": "what_we_found",
       "primitive_type": "reassuring_ed_assessment",
       "priority": "required",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:lumbar_strain_no_red_flags.resources.followup_reminder.v1",
+      "type": "primitive",
+      "label": "lumbar_strain_no_red_flags.resources.followup_reminder.v1",
+      "section": "resources",
+      "primitive_type": "followup_reminder",
+      "priority": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:lumbar_strain_no_red_flags.resources.source_link_1.v1",
+      "type": "primitive",
+      "label": "lumbar_strain_no_red_flags.resources.source_link_1.v1",
+      "section": "resources",
+      "primitive_type": "source_link_1",
+      "priority": "low",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:lumbar_strain_no_red_flags.resources.source_link_2.v1",
+      "type": "primitive",
+      "label": "lumbar_strain_no_red_flags.resources.source_link_2.v1",
+      "section": "resources",
+      "primitive_type": "source_link_2",
+      "priority": "low",
       "review_status": "reviewed"
     },
     {
@@ -15283,6 +15535,33 @@
       "section": "medications",
       "primitive_type": "medication_guidance_2",
       "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:minor_head_injury_no_red_flags.resources.followup_reminder.v1",
+      "type": "primitive",
+      "label": "minor_head_injury_no_red_flags.resources.followup_reminder.v1",
+      "section": "resources",
+      "primitive_type": "followup_reminder",
+      "priority": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:minor_head_injury_no_red_flags.resources.source_link_1.v1",
+      "type": "primitive",
+      "label": "minor_head_injury_no_red_flags.resources.source_link_1.v1",
+      "section": "resources",
+      "primitive_type": "source_link_1",
+      "priority": "low",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:minor_head_injury_no_red_flags.resources.source_link_2.v1",
+      "type": "primitive",
+      "label": "minor_head_injury_no_red_flags.resources.source_link_2.v1",
+      "section": "resources",
+      "primitive_type": "source_link_2",
+      "priority": "low",
       "review_status": "reviewed"
     },
     {
@@ -15394,6 +15673,24 @@
       "review_status": "reviewed"
     },
     {
+      "id": "primitive:renal_colic_stable_no_infection.resources.followup_reminder.v1",
+      "type": "primitive",
+      "label": "renal_colic_stable_no_infection.resources.followup_reminder.v1",
+      "section": "resources",
+      "primitive_type": "followup_reminder",
+      "priority": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:renal_colic_stable_no_infection.resources.source_link_1.v1",
+      "type": "primitive",
+      "label": "renal_colic_stable_no_infection.resources.source_link_1.v1",
+      "section": "resources",
+      "primitive_type": "source_link_1",
+      "priority": "low",
+      "review_status": "reviewed"
+    },
+    {
       "id": "primitive:renal_colic_stable_no_infection.return_precautions.return_precaution_1.v1",
       "type": "primitive",
       "label": "renal_colic_stable_no_infection.return_precautions.return_precaution_1.v1",
@@ -15427,6 +15724,33 @@
       "section": "what_we_found",
       "primitive_type": "reassuring_ed_assessment",
       "priority": "required",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:uncomplicated_cystitis_nonpregnant.resources.followup_reminder.v1",
+      "type": "primitive",
+      "label": "uncomplicated_cystitis_nonpregnant.resources.followup_reminder.v1",
+      "section": "resources",
+      "primitive_type": "followup_reminder",
+      "priority": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:uncomplicated_cystitis_nonpregnant.resources.source_link_1.v1",
+      "type": "primitive",
+      "label": "uncomplicated_cystitis_nonpregnant.resources.source_link_1.v1",
+      "section": "resources",
+      "primitive_type": "source_link_1",
+      "priority": "low",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:uncomplicated_cystitis_nonpregnant.resources.source_link_2.v1",
+      "type": "primitive",
+      "label": "uncomplicated_cystitis_nonpregnant.resources.source_link_2.v1",
+      "section": "resources",
+      "primitive_type": "source_link_2",
+      "priority": "low",
       "review_status": "reviewed"
     },
     {
@@ -15490,6 +15814,33 @@
       "section": "medications",
       "primitive_type": "medication_guidance_2",
       "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:viral_pharyngitis_strep_negative.resources.followup_reminder.v1",
+      "type": "primitive",
+      "label": "viral_pharyngitis_strep_negative.resources.followup_reminder.v1",
+      "section": "resources",
+      "primitive_type": "followup_reminder",
+      "priority": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:viral_pharyngitis_strep_negative.resources.source_link_1.v1",
+      "type": "primitive",
+      "label": "viral_pharyngitis_strep_negative.resources.source_link_1.v1",
+      "section": "resources",
+      "primitive_type": "source_link_1",
+      "priority": "low",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:viral_pharyngitis_strep_negative.resources.source_link_2.v1",
+      "type": "primitive",
+      "label": "viral_pharyngitis_strep_negative.resources.source_link_2.v1",
+      "section": "resources",
+      "primitive_type": "source_link_2",
+      "priority": "low",
       "review_status": "reviewed"
     },
     {
@@ -15607,6 +15958,33 @@
       "section": "what_we_found",
       "primitive_type": "normal_exam_reassurance",
       "priority": "required",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:viral_uri_no_pneumonia.resources.followup_reminder.v1",
+      "type": "primitive",
+      "label": "viral_uri_no_pneumonia.resources.followup_reminder.v1",
+      "section": "resources",
+      "primitive_type": "followup_reminder",
+      "priority": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:viral_uri_no_pneumonia.resources.source_link_1.v1",
+      "type": "primitive",
+      "label": "viral_uri_no_pneumonia.resources.source_link_1.v1",
+      "section": "resources",
+      "primitive_type": "source_link_1",
+      "priority": "low",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:viral_uri_no_pneumonia.resources.source_link_2.v1",
+      "type": "primitive",
+      "label": "viral_uri_no_pneumonia.resources.source_link_2.v1",
+      "section": "resources",
+      "primitive_type": "source_link_2",
+      "priority": "low",
       "review_status": "reviewed"
     },
     {
@@ -27229,6 +27607,16 @@
     {
       "source": "phenotype:abscess_after_i_and_d",
       "type": "requires_primitive",
+      "target": "primitive:abscess_after_i_and_d.resources.followup_reminder.v1"
+    },
+    {
+      "source": "phenotype:abscess_after_i_and_d",
+      "type": "requires_primitive",
+      "target": "primitive:abscess_after_i_and_d.resources.source_link_1.v1"
+    },
+    {
+      "source": "phenotype:abscess_after_i_and_d",
+      "type": "requires_primitive",
       "target": "primitive:abscess_after_i_and_d.return_precautions.return_precaution_1.v1"
     },
     {
@@ -27320,6 +27708,16 @@
       "source": "phenotype:allergic_reaction_resolved_no_anaphylaxis",
       "type": "requires_primitive",
       "target": "primitive:allergic_reaction_resolved_no_anaphylaxis.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:allergic_reaction_resolved_no_anaphylaxis",
+      "type": "requires_primitive",
+      "target": "primitive:allergic_reaction_resolved_no_anaphylaxis.resources.followup_reminder.v1"
+    },
+    {
+      "source": "phenotype:allergic_reaction_resolved_no_anaphylaxis",
+      "type": "requires_primitive",
+      "target": "primitive:allergic_reaction_resolved_no_anaphylaxis.resources.source_link_1.v1"
     },
     {
       "source": "phenotype:allergic_reaction_resolved_no_anaphylaxis",
@@ -27442,6 +27840,21 @@
       "target": "primitive:ankle_sprain.what_we_found.reassuring_exam.v1"
     },
     {
+      "source": "phenotype:ankle_sprain_xray_negative",
+      "type": "requires_primitive",
+      "target": "primitive:ankle_sprain_xray_negative.resources.followup_reminder.v1"
+    },
+    {
+      "source": "phenotype:ankle_sprain_xray_negative",
+      "type": "requires_primitive",
+      "target": "primitive:ankle_sprain_xray_negative.resources.source_link_1.v1"
+    },
+    {
+      "source": "phenotype:ankle_sprain_xray_negative",
+      "type": "requires_primitive",
+      "target": "primitive:ankle_sprain_xray_negative.resources.source_link_2.v1"
+    },
+    {
       "source": "phenotype:asthma_exacerbation_improved_discharge",
       "type": "has_exclusion",
       "target": "exclusion:impending_respiratory_failure"
@@ -27544,6 +27957,16 @@
     {
       "source": "phenotype:asthma_exacerbation_improved_discharge",
       "type": "requires_primitive",
+      "target": "primitive:asthma_exacerbation_improved_discharge.resources.followup_reminder.v1"
+    },
+    {
+      "source": "phenotype:asthma_exacerbation_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:asthma_exacerbation_improved_discharge.resources.source_link_1.v1"
+    },
+    {
+      "source": "phenotype:asthma_exacerbation_improved_discharge",
+      "type": "requires_primitive",
       "target": "primitive:asthma_exacerbation_improved_discharge.return_precautions.return_precaution_1.v1"
     },
     {
@@ -27640,6 +28063,21 @@
       "source": "phenotype:cellulitis_uncomplicated_oral_antibiotics",
       "type": "requires_primitive",
       "target": "primitive:cellulitis_uncomplicated_oral_antibiotics.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:cellulitis_uncomplicated_oral_antibiotics",
+      "type": "requires_primitive",
+      "target": "primitive:cellulitis_uncomplicated_oral_antibiotics.resources.followup_reminder.v1"
+    },
+    {
+      "source": "phenotype:cellulitis_uncomplicated_oral_antibiotics",
+      "type": "requires_primitive",
+      "target": "primitive:cellulitis_uncomplicated_oral_antibiotics.resources.source_link_1.v1"
+    },
+    {
+      "source": "phenotype:cellulitis_uncomplicated_oral_antibiotics",
+      "type": "requires_primitive",
+      "target": "primitive:cellulitis_uncomplicated_oral_antibiotics.resources.source_link_2.v1"
     },
     {
       "source": "phenotype:cellulitis_uncomplicated_oral_antibiotics",
@@ -27844,6 +28282,21 @@
     {
       "source": "phenotype:community_acquired_pneumonia_outpatient",
       "type": "requires_primitive",
+      "target": "primitive:community_acquired_pneumonia_outpatient.resources.followup_reminder.v1"
+    },
+    {
+      "source": "phenotype:community_acquired_pneumonia_outpatient",
+      "type": "requires_primitive",
+      "target": "primitive:community_acquired_pneumonia_outpatient.resources.source_link_1.v1"
+    },
+    {
+      "source": "phenotype:community_acquired_pneumonia_outpatient",
+      "type": "requires_primitive",
+      "target": "primitive:community_acquired_pneumonia_outpatient.resources.source_link_2.v1"
+    },
+    {
+      "source": "phenotype:community_acquired_pneumonia_outpatient",
+      "type": "requires_primitive",
       "target": "primitive:community_acquired_pneumonia_outpatient.return_precautions.return_precaution_1.v1"
     },
     {
@@ -27930,6 +28383,21 @@
       "source": "phenotype:concussion_discharge_no_imaging_red_flags",
       "type": "requires_primitive",
       "target": "primitive:concussion_discharge_no_imaging_red_flags.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:concussion_discharge_no_imaging_red_flags",
+      "type": "requires_primitive",
+      "target": "primitive:concussion_discharge_no_imaging_red_flags.resources.followup_reminder.v1"
+    },
+    {
+      "source": "phenotype:concussion_discharge_no_imaging_red_flags",
+      "type": "requires_primitive",
+      "target": "primitive:concussion_discharge_no_imaging_red_flags.resources.source_link_1.v1"
+    },
+    {
+      "source": "phenotype:concussion_discharge_no_imaging_red_flags",
+      "type": "requires_primitive",
+      "target": "primitive:concussion_discharge_no_imaging_red_flags.resources.source_link_2.v1"
     },
     {
       "source": "phenotype:concussion_discharge_no_imaging_red_flags",
@@ -28025,6 +28493,16 @@
       "source": "phenotype:dental_pain_no_deep_space_infection",
       "type": "requires_primitive",
       "target": "primitive:dental_pain_no_deep_space_infection.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:dental_pain_no_deep_space_infection",
+      "type": "requires_primitive",
+      "target": "primitive:dental_pain_no_deep_space_infection.resources.followup_reminder.v1"
+    },
+    {
+      "source": "phenotype:dental_pain_no_deep_space_infection",
+      "type": "requires_primitive",
+      "target": "primitive:dental_pain_no_deep_space_infection.resources.source_link_1.v1"
     },
     {
       "source": "phenotype:dental_pain_no_deep_space_infection",
@@ -28142,6 +28620,21 @@
       "target": "primitive:gastroenteritis.what_we_found.hydrating.v1"
     },
     {
+      "source": "phenotype:gastroenteritis_stable_hydrating",
+      "type": "requires_primitive",
+      "target": "primitive:gastroenteritis_stable_hydrating.resources.followup_reminder.v1"
+    },
+    {
+      "source": "phenotype:gastroenteritis_stable_hydrating",
+      "type": "requires_primitive",
+      "target": "primitive:gastroenteritis_stable_hydrating.resources.source_link_1.v1"
+    },
+    {
+      "source": "phenotype:gastroenteritis_stable_hydrating",
+      "type": "requires_primitive",
+      "target": "primitive:gastroenteritis_stable_hydrating.resources.source_link_2.v1"
+    },
+    {
       "source": "phenotype:laceration_repaired_simple",
       "type": "has_exclusion",
       "target": "exclusion:bite_wounds_requiring_special_counseling"
@@ -28210,6 +28703,16 @@
       "source": "phenotype:laceration_repaired_simple",
       "type": "requires_primitive",
       "target": "primitive:laceration_repaired_simple.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:laceration_repaired_simple",
+      "type": "requires_primitive",
+      "target": "primitive:laceration_repaired_simple.resources.followup_reminder.v1"
+    },
+    {
+      "source": "phenotype:laceration_repaired_simple",
+      "type": "requires_primitive",
+      "target": "primitive:laceration_repaired_simple.resources.source_link_1.v1"
     },
     {
       "source": "phenotype:laceration_repaired_simple",
@@ -28342,6 +28845,21 @@
       "target": "primitive:back_pain.what_we_found.reassuring_exam.v1"
     },
     {
+      "source": "phenotype:lumbar_strain_no_red_flags",
+      "type": "requires_primitive",
+      "target": "primitive:lumbar_strain_no_red_flags.resources.followup_reminder.v1"
+    },
+    {
+      "source": "phenotype:lumbar_strain_no_red_flags",
+      "type": "requires_primitive",
+      "target": "primitive:lumbar_strain_no_red_flags.resources.source_link_1.v1"
+    },
+    {
+      "source": "phenotype:lumbar_strain_no_red_flags",
+      "type": "requires_primitive",
+      "target": "primitive:lumbar_strain_no_red_flags.resources.source_link_2.v1"
+    },
+    {
       "source": "phenotype:minor_head_injury_no_red_flags",
       "type": "has_exclusion",
       "target": "exclusion:anticoagulated_patient"
@@ -28420,6 +28938,21 @@
       "source": "phenotype:minor_head_injury_no_red_flags",
       "type": "requires_primitive",
       "target": "primitive:minor_head_injury_no_red_flags.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:minor_head_injury_no_red_flags",
+      "type": "requires_primitive",
+      "target": "primitive:minor_head_injury_no_red_flags.resources.followup_reminder.v1"
+    },
+    {
+      "source": "phenotype:minor_head_injury_no_red_flags",
+      "type": "requires_primitive",
+      "target": "primitive:minor_head_injury_no_red_flags.resources.source_link_1.v1"
+    },
+    {
+      "source": "phenotype:minor_head_injury_no_red_flags",
+      "type": "requires_primitive",
+      "target": "primitive:minor_head_injury_no_red_flags.resources.source_link_2.v1"
     },
     {
       "source": "phenotype:minor_head_injury_no_red_flags",
@@ -28510,6 +29043,16 @@
       "source": "phenotype:renal_colic_stable_no_infection",
       "type": "requires_primitive",
       "target": "primitive:renal_colic_stable_no_infection.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:renal_colic_stable_no_infection",
+      "type": "requires_primitive",
+      "target": "primitive:renal_colic_stable_no_infection.resources.followup_reminder.v1"
+    },
+    {
+      "source": "phenotype:renal_colic_stable_no_infection",
+      "type": "requires_primitive",
+      "target": "primitive:renal_colic_stable_no_infection.resources.source_link_1.v1"
     },
     {
       "source": "phenotype:renal_colic_stable_no_infection",
@@ -28627,6 +29170,21 @@
       "target": "primitive:cystitis.what_we_found.no_kidney_infection.v1"
     },
     {
+      "source": "phenotype:uncomplicated_cystitis_nonpregnant",
+      "type": "requires_primitive",
+      "target": "primitive:uncomplicated_cystitis_nonpregnant.resources.followup_reminder.v1"
+    },
+    {
+      "source": "phenotype:uncomplicated_cystitis_nonpregnant",
+      "type": "requires_primitive",
+      "target": "primitive:uncomplicated_cystitis_nonpregnant.resources.source_link_1.v1"
+    },
+    {
+      "source": "phenotype:uncomplicated_cystitis_nonpregnant",
+      "type": "requires_primitive",
+      "target": "primitive:uncomplicated_cystitis_nonpregnant.resources.source_link_2.v1"
+    },
+    {
       "source": "phenotype:viral_pharyngitis_strep_negative",
       "type": "has_exclusion",
       "target": "exclusion:concern_for_mono_complications"
@@ -28700,6 +29258,21 @@
       "source": "phenotype:viral_pharyngitis_strep_negative",
       "type": "requires_primitive",
       "target": "primitive:viral_pharyngitis_strep_negative.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:viral_pharyngitis_strep_negative",
+      "type": "requires_primitive",
+      "target": "primitive:viral_pharyngitis_strep_negative.resources.followup_reminder.v1"
+    },
+    {
+      "source": "phenotype:viral_pharyngitis_strep_negative",
+      "type": "requires_primitive",
+      "target": "primitive:viral_pharyngitis_strep_negative.resources.source_link_1.v1"
+    },
+    {
+      "source": "phenotype:viral_pharyngitis_strep_negative",
+      "type": "requires_primitive",
+      "target": "primitive:viral_pharyngitis_strep_negative.resources.source_link_2.v1"
     },
     {
       "source": "phenotype:viral_pharyngitis_strep_negative",
@@ -28817,6 +29390,21 @@
       "target": "primitive:viral_uri.what_we_found.reassuring_breathing.v1"
     },
     {
+      "source": "phenotype:viral_uri_no_pneumonia",
+      "type": "requires_primitive",
+      "target": "primitive:viral_uri_no_pneumonia.resources.followup_reminder.v1"
+    },
+    {
+      "source": "phenotype:viral_uri_no_pneumonia",
+      "type": "requires_primitive",
+      "target": "primitive:viral_uri_no_pneumonia.resources.source_link_1.v1"
+    },
+    {
+      "source": "phenotype:viral_uri_no_pneumonia",
+      "type": "requires_primitive",
+      "target": "primitive:viral_uri_no_pneumonia.resources.source_link_2.v1"
+    },
+    {
       "source": "primitive:abscess_after_i_and_d.diagnosis.diagnosis_summary.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.skin_abscess"
@@ -28848,6 +29436,16 @@
     },
     {
       "source": "primitive:abscess_after_i_and_d.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.skin_abscess"
+    },
+    {
+      "source": "primitive:abscess_after_i_and_d.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.skin_abscess"
+    },
+    {
+      "source": "primitive:abscess_after_i_and_d.resources.source_link_1.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.skin_abscess"
     },
@@ -28903,6 +29501,16 @@
     },
     {
       "source": "primitive:allergic_reaction_resolved_no_anaphylaxis.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.allergic_reactions"
+    },
+    {
+      "source": "primitive:allergic_reaction_resolved_no_anaphylaxis.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.allergic_reactions"
+    },
+    {
+      "source": "primitive:allergic_reaction_resolved_no_anaphylaxis.resources.source_link_1.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.allergic_reactions"
     },
@@ -28987,6 +29595,26 @@
       "target": "source_card:wikem.ankle_sprain"
     },
     {
+      "source": "primitive:ankle_sprain_xray_negative.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ankle_sprain_aftercare"
+    },
+    {
+      "source": "primitive:ankle_sprain_xray_negative.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:wikem.ankle_sprain"
+    },
+    {
+      "source": "primitive:ankle_sprain_xray_negative.resources.source_link_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ankle_sprain_aftercare"
+    },
+    {
+      "source": "primitive:ankle_sprain_xray_negative.resources.source_link_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:wikem.ankle_sprain"
+    },
+    {
       "source": "primitive:asthma_exacerbation_improved_discharge.diagnosis.diagnosis_summary.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.asthma"
@@ -29043,6 +29671,16 @@
     },
     {
       "source": "primitive:asthma_exacerbation_improved_discharge.medications.medication_guidance_4.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.asthma"
+    },
+    {
+      "source": "primitive:asthma_exacerbation_improved_discharge.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.asthma"
+    },
+    {
+      "source": "primitive:asthma_exacerbation_improved_discharge.resources.source_link_1.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.asthma"
     },
@@ -29212,6 +29850,26 @@
       "target": "source_card:medlineplus.cellulitis"
     },
     {
+      "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.group_a_strep_cellulitis"
+    },
+    {
+      "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.cellulitis"
+    },
+    {
+      "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.resources.source_link_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.cellulitis"
+    },
+    {
+      "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.resources.source_link_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.group_a_strep_cellulitis"
+    },
+    {
       "source": "primitive:cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_1.v1",
       "type": "supported_by_source",
       "target": "source_card:cdc.group_a_strep_cellulitis"
@@ -29332,6 +29990,26 @@
       "target": "source_card:cdc.pneumonia_about"
     },
     {
+      "source": "primitive:community_acquired_pneumonia_outpatient.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:community_acquired_pneumonia_outpatient.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.pneumonia_about"
+    },
+    {
+      "source": "primitive:community_acquired_pneumonia_outpatient.resources.source_link_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.pneumonia_about"
+    },
+    {
+      "source": "primitive:community_acquired_pneumonia_outpatient.resources.source_link_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
       "source": "primitive:community_acquired_pneumonia_outpatient.return_precautions.return_precaution_1.v1",
       "type": "supported_by_source",
       "target": "source_card:cdc.antibiotic_use_adult_outpatient"
@@ -29438,6 +30116,26 @@
     },
     {
       "source": "primitive:concussion_discharge_no_imaging_red_flags.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.mild_tbi_aftercare"
+    },
+    {
+      "source": "primitive:concussion_discharge_no_imaging_red_flags.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.heads_up_concussion_symptoms"
+    },
+    {
+      "source": "primitive:concussion_discharge_no_imaging_red_flags.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.mild_tbi_aftercare"
+    },
+    {
+      "source": "primitive:concussion_discharge_no_imaging_red_flags.resources.source_link_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.heads_up_concussion_symptoms"
+    },
+    {
+      "source": "primitive:concussion_discharge_no_imaging_red_flags.resources.source_link_2.v1",
       "type": "supported_by_source",
       "target": "source_card:cdc.mild_tbi_aftercare"
     },
@@ -29577,6 +30275,16 @@
       "target": "source_card:medlineplus.toothaches"
     },
     {
+      "source": "primitive:dental_pain_no_deep_space_infection.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.toothaches"
+    },
+    {
+      "source": "primitive:dental_pain_no_deep_space_infection.resources.source_link_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.toothaches"
+    },
+    {
       "source": "primitive:dental_pain_no_deep_space_infection.return_precautions.return_precaution_1.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.toothaches"
@@ -29657,6 +30365,26 @@
       "target": "source_card:medlineplus.viral_gastroenteritis"
     },
     {
+      "source": "primitive:gastroenteritis_stable_hydrating.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.diarrhea_self_care"
+    },
+    {
+      "source": "primitive:gastroenteritis_stable_hydrating.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.viral_gastroenteritis"
+    },
+    {
+      "source": "primitive:gastroenteritis_stable_hydrating.resources.source_link_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.viral_gastroenteritis"
+    },
+    {
+      "source": "primitive:gastroenteritis_stable_hydrating.resources.source_link_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.diarrhea_self_care"
+    },
+    {
       "source": "primitive:laceration_repaired_simple.diagnosis.diagnosis_summary.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.cuts_puncture_wounds"
@@ -29692,6 +30420,16 @@
       "target": "source_card:medlineplus.cuts_puncture_wounds"
     },
     {
+      "source": "primitive:laceration_repaired_simple.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.cuts_puncture_wounds"
+    },
+    {
+      "source": "primitive:laceration_repaired_simple.resources.source_link_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.cuts_puncture_wounds"
+    },
+    {
       "source": "primitive:laceration_repaired_simple.return_precautions.return_precaution_1.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.cuts_puncture_wounds"
@@ -29712,6 +30450,26 @@
       "target": "source_card:medlineplus.cuts_puncture_wounds"
     },
     {
+      "source": "primitive:lumbar_strain_no_red_flags.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.low_back_pain_acute"
+    },
+    {
+      "source": "primitive:lumbar_strain_no_red_flags.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:wikem.low_back_pain"
+    },
+    {
+      "source": "primitive:lumbar_strain_no_red_flags.resources.source_link_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.low_back_pain_acute"
+    },
+    {
+      "source": "primitive:lumbar_strain_no_red_flags.resources.source_link_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:wikem.low_back_pain"
+    },
+    {
       "source": "primitive:minor_head_injury_no_red_flags.diagnosis.diagnosis_summary.v1",
       "type": "supported_by_source",
       "target": "source_card:cdc.heads_up_concussion_symptoms"
@@ -29788,6 +30546,26 @@
     },
     {
       "source": "primitive:minor_head_injury_no_red_flags.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.mild_tbi_aftercare"
+    },
+    {
+      "source": "primitive:minor_head_injury_no_red_flags.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.heads_up_concussion_symptoms"
+    },
+    {
+      "source": "primitive:minor_head_injury_no_red_flags.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.mild_tbi_aftercare"
+    },
+    {
+      "source": "primitive:minor_head_injury_no_red_flags.resources.source_link_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.heads_up_concussion_symptoms"
+    },
+    {
+      "source": "primitive:minor_head_injury_no_red_flags.resources.source_link_2.v1",
       "type": "supported_by_source",
       "target": "source_card:cdc.mild_tbi_aftercare"
     },
@@ -29872,6 +30650,16 @@
       "target": "source_card:medlineplus.kidney_stones_self_care"
     },
     {
+      "source": "primitive:renal_colic_stable_no_infection.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.kidney_stones_self_care"
+    },
+    {
+      "source": "primitive:renal_colic_stable_no_infection.resources.source_link_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.kidney_stones_self_care"
+    },
+    {
       "source": "primitive:renal_colic_stable_no_infection.return_precautions.return_precaution_1.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.kidney_stones_self_care"
@@ -29892,6 +30680,26 @@
       "target": "source_card:medlineplus.kidney_stones_self_care"
     },
     {
+      "source": "primitive:uncomplicated_cystitis_nonpregnant.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.uti_basics"
+    },
+    {
+      "source": "primitive:uncomplicated_cystitis_nonpregnant.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.uti_self_care"
+    },
+    {
+      "source": "primitive:uncomplicated_cystitis_nonpregnant.resources.source_link_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.uti_basics"
+    },
+    {
+      "source": "primitive:uncomplicated_cystitis_nonpregnant.resources.source_link_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.uti_self_care"
+    },
+    {
       "source": "primitive:viral_pharyngitis_strep_negative.diagnosis.diagnosis_summary.v1",
       "type": "supported_by_source",
       "target": "source_card:cdc.group_a_strep_pharyngitis"
@@ -29960,6 +30768,26 @@
       "source": "primitive:viral_pharyngitis_strep_negative.medications.medication_guidance_2.v1",
       "type": "supported_by_source",
       "target": "source_card:cdc.sore_throat_basics"
+    },
+    {
+      "source": "primitive:viral_pharyngitis_strep_negative.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.group_a_strep_pharyngitis"
+    },
+    {
+      "source": "primitive:viral_pharyngitis_strep_negative.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.sore_throat_basics"
+    },
+    {
+      "source": "primitive:viral_pharyngitis_strep_negative.resources.source_link_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.sore_throat_basics"
+    },
+    {
+      "source": "primitive:viral_pharyngitis_strep_negative.resources.source_link_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.group_a_strep_pharyngitis"
     },
     {
       "source": "primitive:viral_pharyngitis_strep_negative.return_precautions.return_precaution_1.v1",
@@ -30065,6 +30893,26 @@
       "source": "primitive:viral_uri.what_we_found.reassuring_breathing.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.common_cold"
+    },
+    {
+      "source": "primitive:viral_uri_no_pneumonia.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:ahrq.common_cold_antibiotics"
+    },
+    {
+      "source": "primitive:viral_uri_no_pneumonia.resources.followup_reminder.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.common_cold"
+    },
+    {
+      "source": "primitive:viral_uri_no_pneumonia.resources.source_link_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.common_cold"
+    },
+    {
+      "source": "primitive:viral_uri_no_pneumonia.resources.source_link_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:ahrq.common_cold_antibiotics"
     }
   ]
 }

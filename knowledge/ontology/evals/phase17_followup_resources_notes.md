@@ -1,6 +1,6 @@
 # Phase 17 Follow-Up and Resources Notes
 
-Status: queued after Phase 16 medication policy.
+Status: implemented as optional ontology resources.
 
 ## Follow-Up Direction
 
@@ -33,3 +33,23 @@ Phase 17 should decide:
 - Whether resources are generated from source cards.
 - Whether resources appear only in the product layer.
 - How to avoid overwhelming the patient with article-style links.
+
+## Implementation
+
+Resources are optional `resources` primitives. The six clinical sections remain required.
+
+Resource primitives are generated from reviewed phenotype source cards by:
+
+```text
+knowledge/ontology/style/add_followup_resources.py
+```
+
+Current pattern:
+
+```text
+RESOURCES:
+- Learn more: [source] - [title] ([url]).
+- Bring these instructions to your follow-up visit.
+```
+
+Resources are deliberately short. They are not disease articles copied into the discharge instructions.

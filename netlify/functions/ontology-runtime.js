@@ -9,6 +9,7 @@ const SECTION_ORDER = [
   ['medications', 'MEDICATIONS:'],
   ['return_precautions', 'RETURN TO ED IF:'],
   ['follow_up', 'FOLLOW UP:'],
+  ['resources', 'RESOURCES:'],
 ];
 
 const NEGATIVE_CONTEXT = ['no ', 'denies ', 'without '];
@@ -167,11 +168,14 @@ function assemble(phenotypeId) {
   const lines = [];
   for (const [section, header] of SECTION_ORDER) {
     const items = selected.filter((item) => item.section === section);
-    if (!items.length) throw new Error(`Ontology phenotype missing ${section}`);
+    if (!items.length) {
+      if (section === 'resources') continue;
+      throw new Error(`Ontology phenotype missing ${section}`);
+    }
     lines.push(header);
     for (const item of items) {
       const text = item.text?.en_6 || '';
-      if (['home_care', 'medications', 'return_precautions'].includes(section)) lines.push(`- ${text}`);
+      if (['home_care', 'medications', 'return_precautions', 'resources'].includes(section)) lines.push(`- ${text}`);
       else lines.push(text);
     }
     lines.push('');

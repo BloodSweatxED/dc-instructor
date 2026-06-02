@@ -42,7 +42,10 @@
     "cystitis.medications.symptom_medicine_caution.v1",
     "cystitis.return_precautions.pyelo_sepsis.v1",
     "cystitis.return_precautions.not_improving.v1",
-    "cystitis.follow_up.recheck.v1"
+    "cystitis.follow_up.recheck.v1",
+    "uncomplicated_cystitis_nonpregnant.resources.source_link_1.v1",
+    "uncomplicated_cystitis_nonpregnant.resources.source_link_2.v1",
+    "uncomplicated_cystitis_nonpregnant.resources.followup_reminder.v1"
   ],
   "source_card_ids": [
     "cdc.uti_basics",

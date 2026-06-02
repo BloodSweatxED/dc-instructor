@@ -1,0 +1,1524 @@
+[
+  {
+    "id": "abscess_after_i_and_d.resources.source_link_1.v1",
+    "phenotypes": [
+      "abscess_after_i_and_d"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_1",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: MedlinePlus - Skin abscess (https://medlineplus.gov/ency/article/000863.htm).",
+      "en_6": "Learn more: MedlinePlus - Skin abscess (https://medlineplus.gov/ency/article/000863.htm).",
+      "en_hl1": "Learn more: MedlinePlus - Skin abscess (https://medlineplus.gov/ency/article/000863.htm)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.skin_abscess"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.skin_abscess."
+    }
+  },
+  {
+    "id": "abscess_after_i_and_d.resources.followup_reminder.v1",
+    "phenotypes": [
+      "abscess_after_i_and_d"
+    ],
+    "section": "resources",
+    "primitive_type": "followup_reminder",
+    "priority": "medium",
+    "text": {
+      "en_4": "Bring these instructions to your follow-up visit.",
+      "en_6": "Bring these instructions to your follow-up visit.",
+      "en_hl1": "Bring these instructions to your follow-up visit."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.skin_abscess"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.skin_abscess."
+    }
+  },
+  {
+    "id": "allergic_reaction_resolved_no_anaphylaxis.resources.source_link_1.v1",
+    "phenotypes": [
+      "allergic_reaction_resolved_no_anaphylaxis"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_1",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: MedlinePlus - Allergic reactions (https://medlineplus.gov/ency/article/000005.htm).",
+      "en_6": "Learn more: MedlinePlus - Allergic reactions (https://medlineplus.gov/ency/article/000005.htm).",
+      "en_hl1": "Learn more: MedlinePlus - Allergic reactions (https://medlineplus.gov/ency/article/000005.htm)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.allergic_reactions"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.allergic_reactions."
+    }
+  },
+  {
+    "id": "allergic_reaction_resolved_no_anaphylaxis.resources.followup_reminder.v1",
+    "phenotypes": [
+      "allergic_reaction_resolved_no_anaphylaxis"
+    ],
+    "section": "resources",
+    "primitive_type": "followup_reminder",
+    "priority": "medium",
+    "text": {
+      "en_4": "Bring these instructions to your follow-up visit.",
+      "en_6": "Bring these instructions to your follow-up visit.",
+      "en_hl1": "Bring these instructions to your follow-up visit."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.allergic_reactions"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.allergic_reactions."
+    }
+  },
+  {
+    "id": "ankle_sprain_xray_negative.resources.source_link_1.v1",
+    "phenotypes": [
+      "ankle_sprain_xray_negative"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_1",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: MedlinePlus - Ankle sprain - aftercare (https://medlineplus.gov/ency/patientinstructions/000574.htm).",
+      "en_6": "Learn more: MedlinePlus - Ankle sprain - aftercare (https://medlineplus.gov/ency/patientinstructions/000574.htm).",
+      "en_hl1": "Learn more: MedlinePlus - Ankle sprain - aftercare (https://medlineplus.gov/ency/patientinstructions/000574.htm)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.ankle_sprain_aftercare"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.ankle_sprain_aftercare."
+    }
+  },
+  {
+    "id": "ankle_sprain_xray_negative.resources.source_link_2.v1",
+    "phenotypes": [
+      "ankle_sprain_xray_negative"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_2",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: WikEM - Ankle sprain (https://wikem.org/wiki/Ankle_sprain).",
+      "en_6": "Learn more: WikEM - Ankle sprain (https://wikem.org/wiki/Ankle_sprain).",
+      "en_hl1": "Learn more: WikEM - Ankle sprain (https://wikem.org/wiki/Ankle_sprain)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "wikem.ankle_sprain"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: wikem.ankle_sprain."
+    }
+  },
+  {
+    "id": "ankle_sprain_xray_negative.resources.followup_reminder.v1",
+    "phenotypes": [
+      "ankle_sprain_xray_negative"
+    ],
+    "section": "resources",
+    "primitive_type": "followup_reminder",
+    "priority": "medium",
+    "text": {
+      "en_4": "Bring these instructions to your follow-up visit.",
+      "en_6": "Bring these instructions to your follow-up visit.",
+      "en_hl1": "Bring these instructions to your follow-up visit."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.ankle_sprain_aftercare",
+      "wikem.ankle_sprain"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.ankle_sprain_aftercare, wikem.ankle_sprain."
+    }
+  },
+  {
+    "id": "asthma_exacerbation_improved_discharge.resources.source_link_1.v1",
+    "phenotypes": [
+      "asthma_exacerbation_improved_discharge"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_1",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: MedlinePlus - Asthma (https://medlineplus.gov/asthma.html).",
+      "en_6": "Learn more: MedlinePlus - Asthma (https://medlineplus.gov/asthma.html).",
+      "en_hl1": "Learn more: MedlinePlus - Asthma (https://medlineplus.gov/asthma.html)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.asthma."
+    }
+  },
+  {
+    "id": "asthma_exacerbation_improved_discharge.resources.followup_reminder.v1",
+    "phenotypes": [
+      "asthma_exacerbation_improved_discharge"
+    ],
+    "section": "resources",
+    "primitive_type": "followup_reminder",
+    "priority": "medium",
+    "text": {
+      "en_4": "Bring these instructions to your follow-up visit.",
+      "en_6": "Bring these instructions to your follow-up visit.",
+      "en_hl1": "Bring these instructions to your follow-up visit."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.asthma"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.asthma."
+    }
+  },
+  {
+    "id": "cellulitis_uncomplicated_oral_antibiotics.resources.source_link_1.v1",
+    "phenotypes": [
+      "cellulitis_uncomplicated_oral_antibiotics"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_1",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: MedlinePlus - Cellulitis (https://medlineplus.gov/cellulitis.html).",
+      "en_6": "Learn more: MedlinePlus - Cellulitis (https://medlineplus.gov/cellulitis.html).",
+      "en_hl1": "Learn more: MedlinePlus - Cellulitis (https://medlineplus.gov/cellulitis.html)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.cellulitis"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.cellulitis."
+    }
+  },
+  {
+    "id": "cellulitis_uncomplicated_oral_antibiotics.resources.source_link_2.v1",
+    "phenotypes": [
+      "cellulitis_uncomplicated_oral_antibiotics"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_2",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: CDC - Clinical Guidance for Group A Streptococcal Cellulitis (https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/cellulitis.html).",
+      "en_6": "Learn more: CDC - Clinical Guidance for Group A Streptococcal Cellulitis (https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/cellulitis.html).",
+      "en_hl1": "Learn more: CDC - Clinical Guidance for Group A Streptococcal Cellulitis (https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/cellulitis.html)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "cdc.group_a_strep_cellulitis"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: cdc.group_a_strep_cellulitis."
+    }
+  },
+  {
+    "id": "cellulitis_uncomplicated_oral_antibiotics.resources.followup_reminder.v1",
+    "phenotypes": [
+      "cellulitis_uncomplicated_oral_antibiotics"
+    ],
+    "section": "resources",
+    "primitive_type": "followup_reminder",
+    "priority": "medium",
+    "text": {
+      "en_4": "Bring these instructions to your follow-up visit.",
+      "en_6": "Bring these instructions to your follow-up visit.",
+      "en_hl1": "Bring these instructions to your follow-up visit."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.cellulitis",
+      "cdc.group_a_strep_cellulitis"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.cellulitis, cdc.group_a_strep_cellulitis."
+    }
+  },
+  {
+    "id": "community_acquired_pneumonia_outpatient.resources.source_link_1.v1",
+    "phenotypes": [
+      "community_acquired_pneumonia_outpatient"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_1",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: CDC - About Pneumonia (https://www.cdc.gov/pneumonia/about/index.html).",
+      "en_6": "Learn more: CDC - About Pneumonia (https://www.cdc.gov/pneumonia/about/index.html).",
+      "en_hl1": "Learn more: CDC - About Pneumonia (https://www.cdc.gov/pneumonia/about/index.html)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "cdc.pneumonia_about"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: cdc.pneumonia_about."
+    }
+  },
+  {
+    "id": "community_acquired_pneumonia_outpatient.resources.source_link_2.v1",
+    "phenotypes": [
+      "community_acquired_pneumonia_outpatient"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_2",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: CDC - Outpatient Clinical Care for Adults (https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html).",
+      "en_6": "Learn more: CDC - Outpatient Clinical Care for Adults (https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html).",
+      "en_hl1": "Learn more: CDC - Outpatient Clinical Care for Adults (https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "cdc.antibiotic_use_adult_outpatient"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: cdc.antibiotic_use_adult_outpatient."
+    }
+  },
+  {
+    "id": "community_acquired_pneumonia_outpatient.resources.followup_reminder.v1",
+    "phenotypes": [
+      "community_acquired_pneumonia_outpatient"
+    ],
+    "section": "resources",
+    "primitive_type": "followup_reminder",
+    "priority": "medium",
+    "text": {
+      "en_4": "Bring these instructions to your follow-up visit.",
+      "en_6": "Bring these instructions to your follow-up visit.",
+      "en_hl1": "Bring these instructions to your follow-up visit."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "cdc.pneumonia_about",
+      "cdc.antibiotic_use_adult_outpatient"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: cdc.pneumonia_about, cdc.antibiotic_use_adult_outpatient."
+    }
+  },
+  {
+    "id": "concussion_discharge_no_imaging_red_flags.resources.source_link_1.v1",
+    "phenotypes": [
+      "concussion_discharge_no_imaging_red_flags"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_1",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: CDC HEADS UP - Signs and Symptoms of Concussion (https://www.cdc.gov/heads-up/signs-symptoms/index.html).",
+      "en_6": "Learn more: CDC HEADS UP - Signs and Symptoms of Concussion (https://www.cdc.gov/heads-up/signs-symptoms/index.html).",
+      "en_hl1": "Learn more: CDC HEADS UP - Signs and Symptoms of Concussion (https://www.cdc.gov/heads-up/signs-symptoms/index.html)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: cdc.heads_up_concussion_symptoms."
+    }
+  },
+  {
+    "id": "concussion_discharge_no_imaging_red_flags.resources.source_link_2.v1",
+    "phenotypes": [
+      "concussion_discharge_no_imaging_red_flags"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_2",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: CDC - What to Do After a Mild TBI or Concussion (https://www.cdc.gov/traumatic-brain-injury/response/index.html).",
+      "en_6": "Learn more: CDC - What to Do After a Mild TBI or Concussion (https://www.cdc.gov/traumatic-brain-injury/response/index.html).",
+      "en_hl1": "Learn more: CDC - What to Do After a Mild TBI or Concussion (https://www.cdc.gov/traumatic-brain-injury/response/index.html)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "cdc.mild_tbi_aftercare"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: cdc.mild_tbi_aftercare."
+    }
+  },
+  {
+    "id": "concussion_discharge_no_imaging_red_flags.resources.followup_reminder.v1",
+    "phenotypes": [
+      "concussion_discharge_no_imaging_red_flags"
+    ],
+    "section": "resources",
+    "primitive_type": "followup_reminder",
+    "priority": "medium",
+    "text": {
+      "en_4": "Bring these instructions to your follow-up visit.",
+      "en_6": "Bring these instructions to your follow-up visit.",
+      "en_hl1": "Bring these instructions to your follow-up visit."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: cdc.heads_up_concussion_symptoms, cdc.mild_tbi_aftercare."
+    }
+  },
+  {
+    "id": "dental_pain_no_deep_space_infection.resources.source_link_1.v1",
+    "phenotypes": [
+      "dental_pain_no_deep_space_infection"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_1",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: MedlinePlus - Toothaches (https://medlineplus.gov/ency/article/003067.htm).",
+      "en_6": "Learn more: MedlinePlus - Toothaches (https://medlineplus.gov/ency/article/003067.htm).",
+      "en_hl1": "Learn more: MedlinePlus - Toothaches (https://medlineplus.gov/ency/article/003067.htm)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.toothaches"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.toothaches."
+    }
+  },
+  {
+    "id": "dental_pain_no_deep_space_infection.resources.followup_reminder.v1",
+    "phenotypes": [
+      "dental_pain_no_deep_space_infection"
+    ],
+    "section": "resources",
+    "primitive_type": "followup_reminder",
+    "priority": "medium",
+    "text": {
+      "en_4": "Bring these instructions to your follow-up visit.",
+      "en_6": "Bring these instructions to your follow-up visit.",
+      "en_hl1": "Bring these instructions to your follow-up visit."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.toothaches"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.toothaches."
+    }
+  },
+  {
+    "id": "gastroenteritis_stable_hydrating.resources.source_link_1.v1",
+    "phenotypes": [
+      "gastroenteritis_stable_hydrating"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_1",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: MedlinePlus - Viral gastroenteritis (stomach flu) (https://medlineplus.gov/ency/article/000252.htm).",
+      "en_6": "Learn more: MedlinePlus - Viral gastroenteritis (stomach flu) (https://medlineplus.gov/ency/article/000252.htm).",
+      "en_hl1": "Learn more: MedlinePlus - Viral gastroenteritis (stomach flu) (https://medlineplus.gov/ency/article/000252.htm)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.viral_gastroenteritis"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.viral_gastroenteritis."
+    }
+  },
+  {
+    "id": "gastroenteritis_stable_hydrating.resources.source_link_2.v1",
+    "phenotypes": [
+      "gastroenteritis_stable_hydrating"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_2",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: MedlinePlus - When you have diarrhea (https://medlineplus.gov/ency/patientinstructions/000121.htm).",
+      "en_6": "Learn more: MedlinePlus - When you have diarrhea (https://medlineplus.gov/ency/patientinstructions/000121.htm).",
+      "en_hl1": "Learn more: MedlinePlus - When you have diarrhea (https://medlineplus.gov/ency/patientinstructions/000121.htm)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.diarrhea_self_care"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.diarrhea_self_care."
+    }
+  },
+  {
+    "id": "gastroenteritis_stable_hydrating.resources.followup_reminder.v1",
+    "phenotypes": [
+      "gastroenteritis_stable_hydrating"
+    ],
+    "section": "resources",
+    "primitive_type": "followup_reminder",
+    "priority": "medium",
+    "text": {
+      "en_4": "Bring these instructions to your follow-up visit.",
+      "en_6": "Bring these instructions to your follow-up visit.",
+      "en_hl1": "Bring these instructions to your follow-up visit."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.viral_gastroenteritis",
+      "medlineplus.diarrhea_self_care"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.viral_gastroenteritis, medlineplus.diarrhea_self_care."
+    }
+  },
+  {
+    "id": "laceration_repaired_simple.resources.source_link_1.v1",
+    "phenotypes": [
+      "laceration_repaired_simple"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_1",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: MedlinePlus - Cuts and puncture wounds (https://medlineplus.gov/ency/article/000043.htm).",
+      "en_6": "Learn more: MedlinePlus - Cuts and puncture wounds (https://medlineplus.gov/ency/article/000043.htm).",
+      "en_hl1": "Learn more: MedlinePlus - Cuts and puncture wounds (https://medlineplus.gov/ency/article/000043.htm)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.cuts_puncture_wounds."
+    }
+  },
+  {
+    "id": "laceration_repaired_simple.resources.followup_reminder.v1",
+    "phenotypes": [
+      "laceration_repaired_simple"
+    ],
+    "section": "resources",
+    "primitive_type": "followup_reminder",
+    "priority": "medium",
+    "text": {
+      "en_4": "Bring these instructions to your follow-up visit.",
+      "en_6": "Bring these instructions to your follow-up visit.",
+      "en_hl1": "Bring these instructions to your follow-up visit."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.cuts_puncture_wounds."
+    }
+  },
+  {
+    "id": "lumbar_strain_no_red_flags.resources.source_link_1.v1",
+    "phenotypes": [
+      "lumbar_strain_no_red_flags"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_1",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: MedlinePlus - Low back pain - acute (https://medlineplus.gov/ency/article/007425.htm).",
+      "en_6": "Learn more: MedlinePlus - Low back pain - acute (https://medlineplus.gov/ency/article/007425.htm).",
+      "en_hl1": "Learn more: MedlinePlus - Low back pain - acute (https://medlineplus.gov/ency/article/007425.htm)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.low_back_pain_acute"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.low_back_pain_acute."
+    }
+  },
+  {
+    "id": "lumbar_strain_no_red_flags.resources.source_link_2.v1",
+    "phenotypes": [
+      "lumbar_strain_no_red_flags"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_2",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: WikEM - Low back pain (https://wikem.org/wiki/Low_back_pain).",
+      "en_6": "Learn more: WikEM - Low back pain (https://wikem.org/wiki/Low_back_pain).",
+      "en_hl1": "Learn more: WikEM - Low back pain (https://wikem.org/wiki/Low_back_pain)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "wikem.low_back_pain"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: wikem.low_back_pain."
+    }
+  },
+  {
+    "id": "lumbar_strain_no_red_flags.resources.followup_reminder.v1",
+    "phenotypes": [
+      "lumbar_strain_no_red_flags"
+    ],
+    "section": "resources",
+    "primitive_type": "followup_reminder",
+    "priority": "medium",
+    "text": {
+      "en_4": "Bring these instructions to your follow-up visit.",
+      "en_6": "Bring these instructions to your follow-up visit.",
+      "en_hl1": "Bring these instructions to your follow-up visit."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.low_back_pain_acute",
+      "wikem.low_back_pain"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.low_back_pain_acute, wikem.low_back_pain."
+    }
+  },
+  {
+    "id": "minor_head_injury_no_red_flags.resources.source_link_1.v1",
+    "phenotypes": [
+      "minor_head_injury_no_red_flags"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_1",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: CDC HEADS UP - Signs and Symptoms of Concussion (https://www.cdc.gov/heads-up/signs-symptoms/index.html).",
+      "en_6": "Learn more: CDC HEADS UP - Signs and Symptoms of Concussion (https://www.cdc.gov/heads-up/signs-symptoms/index.html).",
+      "en_hl1": "Learn more: CDC HEADS UP - Signs and Symptoms of Concussion (https://www.cdc.gov/heads-up/signs-symptoms/index.html)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: cdc.heads_up_concussion_symptoms."
+    }
+  },
+  {
+    "id": "minor_head_injury_no_red_flags.resources.source_link_2.v1",
+    "phenotypes": [
+      "minor_head_injury_no_red_flags"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_2",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: CDC - What to Do After a Mild TBI or Concussion (https://www.cdc.gov/traumatic-brain-injury/response/index.html).",
+      "en_6": "Learn more: CDC - What to Do After a Mild TBI or Concussion (https://www.cdc.gov/traumatic-brain-injury/response/index.html).",
+      "en_hl1": "Learn more: CDC - What to Do After a Mild TBI or Concussion (https://www.cdc.gov/traumatic-brain-injury/response/index.html)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "cdc.mild_tbi_aftercare"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: cdc.mild_tbi_aftercare."
+    }
+  },
+  {
+    "id": "minor_head_injury_no_red_flags.resources.followup_reminder.v1",
+    "phenotypes": [
+      "minor_head_injury_no_red_flags"
+    ],
+    "section": "resources",
+    "primitive_type": "followup_reminder",
+    "priority": "medium",
+    "text": {
+      "en_4": "Bring these instructions to your follow-up visit.",
+      "en_6": "Bring these instructions to your follow-up visit.",
+      "en_hl1": "Bring these instructions to your follow-up visit."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "cdc.heads_up_concussion_symptoms",
+      "cdc.mild_tbi_aftercare"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: cdc.heads_up_concussion_symptoms, cdc.mild_tbi_aftercare."
+    }
+  },
+  {
+    "id": "renal_colic_stable_no_infection.resources.source_link_1.v1",
+    "phenotypes": [
+      "renal_colic_stable_no_infection"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_1",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: MedlinePlus - Kidney stones - self-care (https://medlineplus.gov/ency/patientinstructions/000135.htm).",
+      "en_6": "Learn more: MedlinePlus - Kidney stones - self-care (https://medlineplus.gov/ency/patientinstructions/000135.htm).",
+      "en_hl1": "Learn more: MedlinePlus - Kidney stones - self-care (https://medlineplus.gov/ency/patientinstructions/000135.htm)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.kidney_stones_self_care"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.kidney_stones_self_care."
+    }
+  },
+  {
+    "id": "renal_colic_stable_no_infection.resources.followup_reminder.v1",
+    "phenotypes": [
+      "renal_colic_stable_no_infection"
+    ],
+    "section": "resources",
+    "primitive_type": "followup_reminder",
+    "priority": "medium",
+    "text": {
+      "en_4": "Bring these instructions to your follow-up visit.",
+      "en_6": "Bring these instructions to your follow-up visit.",
+      "en_hl1": "Bring these instructions to your follow-up visit."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.kidney_stones_self_care"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.kidney_stones_self_care."
+    }
+  },
+  {
+    "id": "uncomplicated_cystitis_nonpregnant.resources.source_link_1.v1",
+    "phenotypes": [
+      "uncomplicated_cystitis_nonpregnant"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_1",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: CDC - Urinary Tract Infection Basics (https://www.cdc.gov/uti/about/index.html).",
+      "en_6": "Learn more: CDC - Urinary Tract Infection Basics (https://www.cdc.gov/uti/about/index.html).",
+      "en_hl1": "Learn more: CDC - Urinary Tract Infection Basics (https://www.cdc.gov/uti/about/index.html)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "cdc.uti_basics"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: cdc.uti_basics."
+    }
+  },
+  {
+    "id": "uncomplicated_cystitis_nonpregnant.resources.source_link_2.v1",
+    "phenotypes": [
+      "uncomplicated_cystitis_nonpregnant"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_2",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: MedlinePlus - Urinary tract infection in women - self-care (https://medlineplus.gov/ency/patientinstructions/000391.htm).",
+      "en_6": "Learn more: MedlinePlus - Urinary tract infection in women - self-care (https://medlineplus.gov/ency/patientinstructions/000391.htm).",
+      "en_hl1": "Learn more: MedlinePlus - Urinary tract infection in women - self-care (https://medlineplus.gov/ency/patientinstructions/000391.htm)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.uti_self_care"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.uti_self_care."
+    }
+  },
+  {
+    "id": "uncomplicated_cystitis_nonpregnant.resources.followup_reminder.v1",
+    "phenotypes": [
+      "uncomplicated_cystitis_nonpregnant"
+    ],
+    "section": "resources",
+    "primitive_type": "followup_reminder",
+    "priority": "medium",
+    "text": {
+      "en_4": "Bring these instructions to your follow-up visit.",
+      "en_6": "Bring these instructions to your follow-up visit.",
+      "en_hl1": "Bring these instructions to your follow-up visit."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "cdc.uti_basics",
+      "medlineplus.uti_self_care"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: cdc.uti_basics, medlineplus.uti_self_care."
+    }
+  },
+  {
+    "id": "viral_pharyngitis_strep_negative.resources.source_link_1.v1",
+    "phenotypes": [
+      "viral_pharyngitis_strep_negative"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_1",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: CDC - Sore Throat Basics (https://www.cdc.gov/sore-throat/about/index.html).",
+      "en_6": "Learn more: CDC - Sore Throat Basics (https://www.cdc.gov/sore-throat/about/index.html).",
+      "en_hl1": "Learn more: CDC - Sore Throat Basics (https://www.cdc.gov/sore-throat/about/index.html)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "cdc.sore_throat_basics"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: cdc.sore_throat_basics."
+    }
+  },
+  {
+    "id": "viral_pharyngitis_strep_negative.resources.source_link_2.v1",
+    "phenotypes": [
+      "viral_pharyngitis_strep_negative"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_2",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: CDC - Clinical Guidance for Group A Streptococcal Pharyngitis (https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html).",
+      "en_6": "Learn more: CDC - Clinical Guidance for Group A Streptococcal Pharyngitis (https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html).",
+      "en_hl1": "Learn more: CDC - Clinical Guidance for Group A Streptococcal Pharyngitis (https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "cdc.group_a_strep_pharyngitis"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: cdc.group_a_strep_pharyngitis."
+    }
+  },
+  {
+    "id": "viral_pharyngitis_strep_negative.resources.followup_reminder.v1",
+    "phenotypes": [
+      "viral_pharyngitis_strep_negative"
+    ],
+    "section": "resources",
+    "primitive_type": "followup_reminder",
+    "priority": "medium",
+    "text": {
+      "en_4": "Bring these instructions to your follow-up visit.",
+      "en_6": "Bring these instructions to your follow-up visit.",
+      "en_hl1": "Bring these instructions to your follow-up visit."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "cdc.sore_throat_basics",
+      "cdc.group_a_strep_pharyngitis"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: cdc.sore_throat_basics, cdc.group_a_strep_pharyngitis."
+    }
+  },
+  {
+    "id": "viral_uri_no_pneumonia.resources.source_link_1.v1",
+    "phenotypes": [
+      "viral_uri_no_pneumonia"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_1",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: MedlinePlus - Common Cold (https://medlineplus.gov/commoncold.html).",
+      "en_6": "Learn more: MedlinePlus - Common Cold (https://medlineplus.gov/commoncold.html).",
+      "en_hl1": "Learn more: MedlinePlus - Common Cold (https://medlineplus.gov/commoncold.html)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.common_cold"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.common_cold."
+    }
+  },
+  {
+    "id": "viral_uri_no_pneumonia.resources.source_link_2.v1",
+    "phenotypes": [
+      "viral_uri_no_pneumonia"
+    ],
+    "section": "resources",
+    "primitive_type": "source_link_2",
+    "priority": "low",
+    "text": {
+      "en_4": "Learn more: AHRQ - Upper Respiratory Tract Infection: The Common Cold (https://www.ahrq.gov/sites/default/files/wysiwyg/antibiotic-use/ambulatory-care/respiratory-one-pager.pdf).",
+      "en_6": "Learn more: AHRQ - Upper Respiratory Tract Infection: The Common Cold (https://www.ahrq.gov/sites/default/files/wysiwyg/antibiotic-use/ambulatory-care/respiratory-one-pager.pdf).",
+      "en_hl1": "Learn more: AHRQ - Upper Respiratory Tract Infection: The Common Cold (https://www.ahrq.gov/sites/default/files/wysiwyg/antibiotic-use/ambulatory-care/respiratory-one-pager.pdf)."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "ahrq.common_cold_antibiotics"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: ahrq.common_cold_antibiotics."
+    }
+  },
+  {
+    "id": "viral_uri_no_pneumonia.resources.followup_reminder.v1",
+    "phenotypes": [
+      "viral_uri_no_pneumonia"
+    ],
+    "section": "resources",
+    "primitive_type": "followup_reminder",
+    "priority": "medium",
+    "text": {
+      "en_4": "Bring these instructions to your follow-up visit.",
+      "en_6": "Bring these instructions to your follow-up visit.",
+      "en_hl1": "Bring these instructions to your follow-up visit."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.common_cold",
+      "ahrq.common_cold_antibiotics"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-02",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed as a short source-card learning resource. Keep resources concise and link-based."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "Resource link uses source cards: medlineplus.common_cold, ahrq.common_cold_antibiotics."
+    }
+  }
+]

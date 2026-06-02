@@ -15,6 +15,9 @@ SECTIONS = [
     ("return_precautions", "RETURN TO ED IF:"),
     ("follow_up", "FOLLOW UP:"),
 ]
+OPTIONAL_SECTIONS = [
+    ("resources", "RESOURCES:"),
+]
 READING_LEVEL_KEYS = {
     "4": "en_4",
     "6": "en_6",
@@ -95,14 +98,16 @@ def assemble_discharge(phenotype_id: str, reading_level: str = "6") -> str:
             raise OntologyError(f"{phenotype_id} references missing primitive {primitive_id}") from exc
 
     lines = []
-    for section_id, header in SECTIONS:
+    for section_id, header in [*SECTIONS, *OPTIONAL_SECTIONS]:
         section_items = [item for item in selected if item["section"] == section_id]
         section_items.sort(key=priority_rank)
         if not section_items:
+            if section_id in {item[0] for item in OPTIONAL_SECTIONS}:
+                continue
             raise OntologyError(f"{phenotype_id} has no primitives for section {section_id}")
 
         lines.append(header)
-        if section_id in {"home_care", "medications", "return_precautions"}:
+        if section_id in {"home_care", "medications", "return_precautions", "resources"}:
             for item in section_items:
                 lines.append(f"- {item['text'][key]}")
         else:

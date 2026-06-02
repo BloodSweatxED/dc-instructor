@@ -57,6 +57,8 @@ Review date: 2026-06-01.
 - `allergic_reaction_resolved_no_anaphylaxis.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported
 - `allergic_reaction_resolved_no_anaphylaxis.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported
 - `allergic_reaction_resolved_no_anaphylaxis.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier
+- `allergic_reaction_resolved_no_anaphylaxis.resources.source_link_1.v1` | `resources` | audit: source_supported
+- `allergic_reaction_resolved_no_anaphylaxis.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -82,5 +84,9 @@ RETURN TO ED IF:
 - Come back right away if you use epinephrine.
 
 FOLLOW UP:
-Follow up with primary care or an allergy clinician if symptoms continue or the trigger is unclear.
+Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with an allergic reaction. I need a follow-up visit within 1 week if symptoms continue or the trigger is unclear."
+
+RESOURCES:
+- Bring these instructions to your follow-up visit.
+- Learn more: MedlinePlus - Allergic reactions (https://medlineplus.gov/ency/article/000005.htm).
 ```

@@ -393,9 +393,9 @@
     "primitive_type": "follow_up_pcp",
     "priority": "required",
     "text": {
-      "en_4": "See your regular doctor in 1 to 2 weeks if you are not getting better.",
-      "en_6": "See your regular doctor in 1 to 2 weeks if your pain is not improving.",
-      "en_hl1": "See your doctor in 1 to 2 weeks if you do not feel better."
+      "en_4": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a low back strain. I need a follow-up visit within 1-2 weeks if pain is not improving.\"",
+      "en_6": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a low back strain. I need a follow-up visit within 1-2 weeks if pain is not improving.\"",
+      "en_hl1": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a low back strain. I need a follow-up visit within 1-2 weeks if pain is not improving.\""
     },
     "contraindications": [],
     "source_card_ids": [
@@ -418,6 +418,9 @@
       "restricted_source_risk": false,
       "unsafe_without_modifier": false,
       "notes": "MedlinePlus supports conservative low-back-pain care and red flags. WikEM supports ED phenotype boundaries and must-not-miss framing only."
+    },
+    "style": {
+      "followup_script": "phase17_patient_advocacy"
     }
   }
 ]

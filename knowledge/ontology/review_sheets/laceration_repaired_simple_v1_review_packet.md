@@ -56,6 +56,8 @@ Review date: 2026-06-01.
 - `laceration_repaired_simple.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported
 - `laceration_repaired_simple.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported
 - `laceration_repaired_simple.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier
+- `laceration_repaired_simple.resources.source_link_1.v1` | `resources` | audit: source_supported
+- `laceration_repaired_simple.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -81,5 +83,9 @@ RETURN TO ED IF:
 - Come back for new numbness, weakness, color change, or if the wound opens.
 
 FOLLOW UP:
-Follow up for wound check or suture removal on the schedule your clinician gave you.
+Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with a repaired cut. I need a follow-up visit on the schedule you were given for wound check or suture removal."
+
+RESOURCES:
+- Bring these instructions to your follow-up visit.
+- Learn more: MedlinePlus - Cuts and puncture wounds (https://medlineplus.gov/ency/article/000043.htm).
 ```

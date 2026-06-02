@@ -63,6 +63,8 @@ Review date: 2026-06-01.
 - `asthma_exacerbation_improved_discharge.return_precautions.return_precaution_4.v1` | `return_precautions` | audit: source_supported
 - `asthma_exacerbation_improved_discharge.return_precautions.return_precaution_5.v1` | `return_precautions` | audit: source_supported
 - `asthma_exacerbation_improved_discharge.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier
+- `asthma_exacerbation_improved_discharge.resources.source_link_1.v1` | `resources` | audit: source_supported
+- `asthma_exacerbation_improved_discharge.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -95,5 +97,9 @@ RETURN TO ED IF:
 - You have chest pain, confusion, fainting, or severe sleepiness.
 
 FOLLOW UP:
-See your primary care doctor or asthma clinician within 3-5 days, or sooner if symptoms are not improving. If you do not have a written asthma action plan, ask for one at follow-up.
+Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with an asthma flare-up. I need a follow-up visit within 3-5 days." If you do not have a written asthma action plan, ask for one at follow-up.
+
+RESOURCES:
+- Bring these instructions to your follow-up visit.
+- Learn more: MedlinePlus - Asthma (https://medlineplus.gov/asthma.html).
 ```

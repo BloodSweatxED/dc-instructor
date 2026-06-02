@@ -45,7 +45,10 @@
     "back_pain.medications.nsaid_caution.v1",
     "back_pain.return_precautions.cauda_equina.v1",
     "back_pain.return_precautions.neuro_fever_trauma.v1",
-    "back_pain.follow_up.primary_care.v1"
+    "back_pain.follow_up.primary_care.v1",
+    "lumbar_strain_no_red_flags.resources.source_link_1.v1",
+    "lumbar_strain_no_red_flags.resources.source_link_2.v1",
+    "lumbar_strain_no_red_flags.resources.followup_reminder.v1"
   ],
   "source_card_ids": [
     "medlineplus.low_back_pain_acute",

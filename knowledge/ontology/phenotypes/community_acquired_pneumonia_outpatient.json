@@ -41,7 +41,10 @@
     "community_acquired_pneumonia_outpatient.return_precautions.return_precaution_1.v1",
     "community_acquired_pneumonia_outpatient.return_precautions.return_precaution_2.v1",
     "community_acquired_pneumonia_outpatient.return_precautions.return_precaution_3.v1",
-    "community_acquired_pneumonia_outpatient.follow_up.default_follow_up.v1"
+    "community_acquired_pneumonia_outpatient.follow_up.default_follow_up.v1",
+    "community_acquired_pneumonia_outpatient.resources.source_link_1.v1",
+    "community_acquired_pneumonia_outpatient.resources.source_link_2.v1",
+    "community_acquired_pneumonia_outpatient.resources.followup_reminder.v1"
   ],
   "source_card_ids": [
     "cdc.pneumonia_about",

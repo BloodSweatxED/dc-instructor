@@ -61,6 +61,9 @@ Review date: 2026-06-01.
 - `community_acquired_pneumonia_outpatient.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported
 - `community_acquired_pneumonia_outpatient.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported
 - `community_acquired_pneumonia_outpatient.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier
+- `community_acquired_pneumonia_outpatient.resources.source_link_1.v1` | `resources` | audit: source_supported
+- `community_acquired_pneumonia_outpatient.resources.source_link_2.v1` | `resources` | audit: source_supported
+- `community_acquired_pneumonia_outpatient.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -87,5 +90,10 @@ RETURN TO ED IF:
 - Come back if you cannot keep medicines or fluids down.
 
 FOLLOW UP:
-See your primary care doctor or clinic within 2-3 days, or sooner if symptoms are not improving. Most people start to feel better within 3-5 days of antibiotics, but full recovery can take 2-4 weeks.
+Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with pneumonia. I need a follow-up visit within 2-3 days." Most people start to feel better within 3-5 days of antibiotics, but full recovery can take 2-4 weeks.
+
+RESOURCES:
+- Bring these instructions to your follow-up visit.
+- Learn more: CDC - About Pneumonia (https://www.cdc.gov/pneumonia/about/index.html).
+- Learn more: CDC - Outpatient Clinical Care for Adults (https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html).
 ```

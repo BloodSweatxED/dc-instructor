@@ -14,7 +14,7 @@ HL-1 SPECIAL RULES (apply only if reading level is HL-1):
 - No medical terms — translate everything ("infection" → "germs", "hypertension" → "high blood pressure").
 - One idea per sentence.
 
-OUTPUT FORMAT — produce exactly these 6 sections, in this order, using these exact headers:
+OUTPUT FORMAT — produce exactly these 7 sections, in this order, using these exact headers:
 
 DIAGNOSIS:
 One sentence naming the condition in plain language a patient understands.
@@ -34,11 +34,14 @@ Bullet points (max 6), condition-specific red flags. Tie each to this diagnosis 
 FOLLOW UP:
 1-3 sentences specifying who (PCP, specific specialty, urgent care), when (concrete timeframe like "within 3-5 days" or "in 1-2 weeks"), and how (call your PCP's office, referral provided, walk-in clinic). If a referral is being placed, say so.
 
+RESOURCES:
+1-2 short bullets for additional learning or next-step support. Prefer patient-friendly source names or practical reminders. Do not paste article text. If no specific resource is available, include: "- Bring these instructions to your follow-up visit."
+
 CONTEXT HANDLING:
 If an ED note is provided, use it for clinical context (vitals, exam findings, labs, imaging, treatment given) but never reproduce it verbatim and never include any patient identifiers. If the ED note conflicts with the stated condition, prioritize the stated condition.
 
 OUTPUT RULES:
-Output the discharge instructions only. No preamble, no closing remarks, no meta-commentary. Begin directly with "DIAGNOSIS:".`;
+Output the discharge instructions only. No preamble, no closing remarks, no meta-commentary. Begin directly with "DIAGNOSIS:". The final section must be "RESOURCES:".`;
 
 export default async (req) => {
   if (req.method !== 'POST') return jsonResponse(405, { error: 'Method not allowed' });

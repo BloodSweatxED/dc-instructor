@@ -64,6 +64,9 @@ Review date: 2026-06-01.
 - `gastroenteritis.return_precautions.dehydration_blood_pain.v1` | `return_precautions` | audit: source_supported
 - `gastroenteritis.return_precautions.persistent_worse.v1` | `return_precautions` | audit: source_supported
 - `gastroenteritis.follow_up.recheck.v1` | `follow_up` | audit: source_supported, clinician_judgment_only
+- `gastroenteritis_stable_hydrating.resources.source_link_1.v1` | `resources` | audit: source_supported
+- `gastroenteritis_stable_hydrating.resources.source_link_2.v1` | `resources` | audit: source_supported
+- `gastroenteritis_stable_hydrating.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -87,5 +90,10 @@ RETURN TO ED IF:
 - Come back if you cannot keep fluids down, are urinating much less than usual, fever becomes high, or symptoms keep getting worse.
 
 FOLLOW UP:
-See your regular doctor, clinic, or urgent care in 1 to 3 days if symptoms are not improving.
+Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with gastroenteritis. I need a follow-up visit within 1-3 days if symptoms are not improving."
+
+RESOURCES:
+- Bring these instructions to your follow-up visit.
+- Learn more: MedlinePlus - Viral gastroenteritis (stomach flu) (https://medlineplus.gov/ency/article/000252.htm).
+- Learn more: MedlinePlus - When you have diarrhea (https://medlineplus.gov/ency/patientinstructions/000121.htm).
 ```

@@ -59,6 +59,9 @@ Review date: 2026-06-01.
 - `cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported
 - `cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported
 - `cellulitis_uncomplicated_oral_antibiotics.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier
+- `cellulitis_uncomplicated_oral_antibiotics.resources.source_link_1.v1` | `resources` | audit: source_supported
+- `cellulitis_uncomplicated_oral_antibiotics.resources.source_link_2.v1` | `resources` | audit: source_supported
+- `cellulitis_uncomplicated_oral_antibiotics.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -84,5 +87,10 @@ RETURN TO ED IF:
 - Come back if the infection is near the eye, genitals, or a joint and gets worse.
 
 FOLLOW UP:
-Get rechecked in 48-72 hours. Redness and swelling can look worse during the first 24-48 hours before they start to improve.
+Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with cellulitis. I need a follow-up visit within 48-72 hours."
+
+RESOURCES:
+- Bring these instructions to your follow-up visit.
+- Learn more: MedlinePlus - Cellulitis (https://medlineplus.gov/cellulitis.html).
+- Learn more: CDC - Clinical Guidance for Group A Streptococcal Cellulitis (https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/cellulitis.html).
 ```

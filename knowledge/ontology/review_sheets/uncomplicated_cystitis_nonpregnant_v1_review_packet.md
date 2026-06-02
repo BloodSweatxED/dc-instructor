@@ -67,6 +67,9 @@ Review date: 2026-06-01.
 - `cystitis.return_precautions.pyelo_sepsis.v1` | `return_precautions` | audit: source_supported
 - `cystitis.return_precautions.not_improving.v1` | `return_precautions` | audit: source_supported, unsafe_without_modifier
 - `cystitis.follow_up.recheck.v1` | `follow_up` | audit: source_supported, clinician_judgment_only
+- `uncomplicated_cystitis_nonpregnant.resources.source_link_1.v1` | `resources` | audit: source_supported
+- `uncomplicated_cystitis_nonpregnant.resources.source_link_2.v1` | `resources` | audit: source_supported
+- `uncomplicated_cystitis_nonpregnant.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -90,5 +93,10 @@ RETURN TO ED IF:
 - Come back to the emergency department right away for fever, chills, back or side pain, vomiting, weakness, confusion, or feeling very sick.
 
 FOLLOW UP:
-See your regular doctor, clinic, or urgent care in 2 to 3 days if symptoms are not improving.
+Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with a urinary tract infection. I need a follow-up visit within 1 week, or sooner if symptoms are not improving."
+
+RESOURCES:
+- Bring these instructions to your follow-up visit.
+- Learn more: CDC - Urinary Tract Infection Basics (https://www.cdc.gov/uti/about/index.html).
+- Learn more: MedlinePlus - Urinary tract infection in women - self-care (https://medlineplus.gov/ency/patientinstructions/000391.htm).
 ```

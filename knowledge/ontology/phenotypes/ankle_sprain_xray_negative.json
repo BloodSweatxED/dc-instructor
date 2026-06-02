@@ -43,7 +43,10 @@
     "ankle_sprain.medications.nsaid_caution.v1",
     "ankle_sprain.return_precautions.neurovascular.v1",
     "ankle_sprain.return_precautions.worse_swelling_fever.v1",
-    "ankle_sprain.follow_up.recheck.v1"
+    "ankle_sprain.follow_up.recheck.v1",
+    "ankle_sprain_xray_negative.resources.source_link_1.v1",
+    "ankle_sprain_xray_negative.resources.source_link_2.v1",
+    "ankle_sprain_xray_negative.resources.followup_reminder.v1"
   ],
   "source_card_ids": [
     "medlineplus.ankle_sprain_aftercare",

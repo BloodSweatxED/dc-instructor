@@ -64,6 +64,9 @@ Review date: 2026-06-01.
 - `viral_uri.return_precautions.breathing_chest_confusion.v1` | `return_precautions` | audit: source_supported
 - `viral_uri.return_precautions.worsening_fever_dehydration.v1` | `return_precautions` | audit: source_supported
 - `viral_uri.follow_up.primary_care.v1` | `follow_up` | audit: source_supported, clinician_judgment_only
+- `viral_uri_no_pneumonia.resources.source_link_1.v1` | `resources` | audit: source_supported
+- `viral_uri_no_pneumonia.resources.source_link_2.v1` | `resources` | audit: source_supported
+- `viral_uri_no_pneumonia.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -87,5 +90,10 @@ RETURN TO ED IF:
 - Come back if fever or cough improves and then returns worse, if fever stays high, or if you cannot drink enough fluids.
 
 FOLLOW UP:
-See your regular doctor or clinic in 3 to 7 days if your symptoms are not improving.
+Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with a viral upper respiratory infection. I need a follow-up visit within 3-7 days if symptoms are not improving."
+
+RESOURCES:
+- Bring these instructions to your follow-up visit.
+- Learn more: MedlinePlus - Common Cold (https://medlineplus.gov/commoncold.html).
+- Learn more: AHRQ - Upper Respiratory Tract Infection: The Common Cold (https://www.ahrq.gov/sites/default/files/wysiwyg/antibiotic-use/ambulatory-care/respiratory-one-pager.pdf).
 ```
