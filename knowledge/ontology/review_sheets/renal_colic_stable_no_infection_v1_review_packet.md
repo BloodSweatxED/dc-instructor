@@ -58,8 +58,6 @@ Review date: 2026-06-01.
 - `renal_colic_stable_no_infection.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported
 - `renal_colic_stable_no_infection.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported
 - `renal_colic_stable_no_infection.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier
-- `renal_colic_stable_no_infection.resources.source_link_1.v1` | `resources` | audit: source_supported
-- `renal_colic_stable_no_infection.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -68,27 +66,23 @@ DIAGNOSIS:
 Your symptoms fit a kidney stone.
 
 WHAT WE FOUND:
-You came to the ED with flank pain or symptoms that fit a kidney stone. We did not find signs of infection or a dangerous blockage.
+Your ED evaluation was reassuring enough for home care today. We did not find signs of a dangerous kidney infection or blocked infected kidney.
 
 WHAT TO DO AT HOME:
-- Drink plenty of fluids. Aim for urine that is pale yellow. This helps flush the stone through.
-- Use a urine strainer with every urination, including at night, if one was given.
+- Drink fluids as you are able.
+- Use a urine strainer if one was given.
 - Save any passed stone if your clinician asked you to.
-- Until you follow up, limit salt and animal protein, and avoid getting dehydrated.
+- Avoid dehydration until follow-up.
 
 MEDICATIONS:
-- Take prescribed pain or nausea medicine only as directed.
-- If tamsulosin was prescribed, it relaxes the ureter and may help the stone pass.
+- Take prescribed pain or nausea medicine exactly as directed.
+- Use acetaminophen or ibuprofen only if you can take it safely and follow the label.
 
 RETURN TO ED IF:
-- Come back for fever, chills, worsening flank pain, repeated vomiting, or feeling very ill.
-- Come back if you cannot urinate.
-- Come back if pain cannot be controlled with the plan you were given.
+- Fever, chills, worsening flank pain, repeated vomiting, or feeling very ill.
+- You cannot urinate.
+- Pain cannot be controlled with the plan you were given.
 
 FOLLOW UP:
-Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with a kidney stone. I need a follow-up visit within 1-2 weeks." Most small stones pass on their own within 1-4 weeks.
-
-RESOURCES:
-- Bring these instructions to your follow-up visit.
-- Learn more: MedlinePlus - Kidney stones - self-care (https://medlineplus.gov/ency/patientinstructions/000135.htm).
+Follow up with urology or primary care as instructed.
 ```

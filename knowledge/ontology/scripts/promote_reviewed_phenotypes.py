@@ -31,6 +31,72 @@ PROMOTIONS: dict[str, dict[str, Any]] = {
         "clinical_status": "reviewed_for_limited_outpatient_community_acquired_pneumonia_use",
         "required_modifiers": ["pneumonia diagnosed by clinician", "stable for outpatient treatment", "acceptable oxygen level", "antibiotics prescribed"],
     },
+    "acute_bronchitis_no_pneumonia": {
+        "primitive_file": ROOT / "primitives" / "expanded_draft_packs.json",
+        "condition_terms": [
+            "acute bronchitis",
+            "acute bronchitis no pneumonia",
+            "chest cold",
+            "viral bronchitis",
+            "bronchitis without pneumonia concern",
+        ],
+        "unsafe_modifiers": [
+            "hypoxia",
+            "respiratory_distress",
+            "pneumonia",
+            "focal_lung_findings_or_infiltrate",
+            "copd_or_asthma_exacerbation_pathway",
+            "immunocompromised",
+            "elderly_frail",
+            "hemoptysis",
+            "cardiac_or_pe_chest_pain_concern",
+            "sepsis",
+            "unstable_vitals",
+            "antibiotic_prescribed_for_suspected_bacterial_infection",
+        ],
+        "high_confidence_terms": ["acute bronchitis", "acute bronchitis no pneumonia", "chest cold", "viral bronchitis"],
+        "source_audit_notes": "CDC and MedlinePlus support acute bronchitis and chest cold framing, viral predominance, supportive care, and escalation for worsening breathing symptoms. CDC outpatient guidance supports keeping pneumonia concern, abnormal vital signs, and focal lung findings outside uncomplicated bronchitis.",
+        "clinical_status": "reviewed_for_limited_acute_bronchitis_without_pneumonia_concern_use",
+        "required_modifiers": [
+            "adult with clinician diagnosis of acute bronchitis, chest cold, or viral bronchitis",
+            "no pneumonia diagnosis or focal pneumonia concern",
+            "acceptable oxygenation",
+            "comfortable work of breathing",
+            "no antibiotics prescribed for suspected bacterial infection",
+        ],
+    },
+    "acute_sinusitis_supportive_care": {
+        "primitive_file": ROOT / "primitives" / "expanded_draft_packs.json",
+        "condition_terms": [
+            "acute sinusitis supportive care",
+            "sinus infection supportive care",
+            "acute sinusitis",
+            "sinus infection",
+            "rhinosinusitis supportive care",
+        ],
+        "unsafe_modifiers": [
+            "antibiotic_prescribed_for_sinusitis",
+            "severe_bacterial_sinusitis_features",
+            "orbital_or_intracranial_sinusitis_concern",
+            "dental_or_facial_trauma_source",
+            "immunocompromised",
+            "elderly_frail",
+            "pregnancy",
+            "sepsis",
+            "unstable_vitals",
+            "chronic_or_recurrent_sinusitis",
+        ],
+        "high_confidence_terms": ["acute sinusitis supportive care", "sinus infection supportive care"],
+        "source_audit_notes": "CDC and MedlinePlus support sinusitis framing, symptom-based diagnosis, supportive care, and seeking care for severe or concerning symptoms. CDC outpatient guidance supports that most rhinosinusitis is viral, that antibiotics may not help many cases, and that bacterial-feature or antibiotic decisions require clinician judgment.",
+        "clinical_status": "reviewed_for_limited_acute_sinusitis_supportive_care_without_antibiotic_plan_use",
+        "required_modifiers": [
+            "adult with clinician diagnosis of acute sinusitis, sinus infection, or acute rhinosinusitis",
+            "supportive-care plan without antibiotic instructions",
+            "no severe bacterial sinusitis features",
+            "no orbital or intracranial complication concern",
+            "no dental source, facial trauma, sepsis, or individualized high-risk host pathway",
+        ],
+    },
     "concussion_discharge_no_imaging_red_flags": {
         "primitive_file": ROOT / "primitives" / "expanded_draft_packs.json",
         "condition_terms": ["concussion discharge no imaging red flags", "concussion", "mild traumatic brain injury", "mild tbi"],
@@ -206,6 +272,30 @@ PROMOTIONS: dict[str, dict[str, Any]] = {
         "clinical_status": "reviewed_for_limited_strep_negative_viral_pharyngitis_use",
         "required_modifiers": ["negative strep evaluation", "no deep neck infection signs", "no antibiotic prescribed"],
     },
+    "abdominal_pain_nonspecific_reassuring_workup": {
+        "primitive_file": ROOT / "primitives" / "expanded_draft_packs.json",
+        "condition_terms": ["abdominal pain recheck", "abdominal pain reassuring evaluation", "belly pain recheck", "nonspecific abdominal pain"],
+        "unsafe_modifiers": ["pregnancy", "elderly", "immunocompromised", "poor_follow_up", "peritoneal_signs", "uncontrolled_vomiting", "fever", "gi_bleeding", "sepsis", "unstable_vitals"],
+        "required_context": [
+            {
+                "id": "clinician_directed_recheck_plan",
+                "terms": [
+                    "explicit recheck",
+                    "return for recheck",
+                    "recheck as instructed",
+                    "clinician instructed recheck",
+                    "clinician directed recheck",
+                    "clinician-directed recheck",
+                    "follow up for recheck as instructed",
+                    "ed recheck as instructed",
+                ],
+            }
+        ],
+        "high_confidence_terms": ["abdominal pain recheck"],
+        "source_audit_notes": "MedlinePlus supports general abdominal pain framing, cautious home care, and conservative return precautions. This reviewed phenotype is limited to clinician-directed abdominal pain recheck after a reassuring ED evaluation.",
+        "clinical_status": "reviewed_for_limited_abdominal_pain_recheck_after_reassuring_ed_evaluation_use",
+        "required_modifiers": ["reassuring ED evaluation", "clinician-directed recheck plan", "no surgical abdomen concern", "reliable follow-up"],
+    },
 }
 
 
@@ -248,6 +338,8 @@ def promote_phenotype(phenotype_id: str, config: dict[str, Any]) -> None:
     item["runtime"] = {
         "condition_terms": config["condition_terms"],
         "unsafe_modifiers": config["unsafe_modifiers"],
+        **({"required_context": config["required_context"]} if config.get("required_context") else {}),
+        **({"high_confidence_terms": config["high_confidence_terms"]} if config.get("high_confidence_terms") else {}),
         "minimum_confidence": 0.86,
         "mode": "reviewed_ontology_enabled",
     }
@@ -310,6 +402,44 @@ def review_packet(phenotype_id: str, config: dict[str, Any]) -> str:
     lines.append("- Patient-facing text is locally authored. No WikEM prose is copied.")
     lines.extend(["", "## Blocked Modifiers", ""])
     lines.extend(f"- `{row}`" for row in config["unsafe_modifiers"])
+    if phenotype_id == "abdominal_pain_nonspecific_reassuring_workup":
+        lines.extend(
+            [
+                "",
+                "## Prior Clinician Decisions Preserved",
+                "",
+                "- Approve as a narrow review candidate.",
+                "- Do not use it as a catch-all fallback for unmatched abdominal pain.",
+                "- Medication lines are acceptable as passthrough-only and remain review-required.",
+                "- Runtime requires clinician-directed recheck. If the clinician did not give a recheck plan, this phenotype should not fire.",
+            ]
+        )
+    if phenotype_id == "acute_bronchitis_no_pneumonia":
+        lines.extend(
+            [
+                "",
+                "## Prior Clinician Decisions Preserved",
+                "",
+                "- Approve only as a narrow acute bronchitis or chest cold phenotype without pneumonia concern.",
+                "- Do not use broad cough as a standalone runtime term.",
+                "- Do not use acute bronchitis as a catch-all respiratory fallback.",
+                "- Do not infer antibiotic instructions. Medication text is limited to stewardship framing and clinician-entered medicine instructions.",
+                "- Runtime must block pneumonia concern, hypoxia, respiratory distress, COPD or asthma pathway, frailty, immunocompromise, hemoptysis, PE or cardiac chest-pain concern, sepsis, unstable vitals, and antibiotics prescribed for suspected bacterial infection.",
+            ]
+        )
+    if phenotype_id == "acute_sinusitis_supportive_care":
+        lines.extend(
+            [
+                "",
+                "## Prior Clinician Decisions Preserved",
+                "",
+                "- Approve only as a narrow supportive-care sinusitis phenotype without an antibiotic plan.",
+                "- Do not say antibiotics are never needed.",
+                "- Do not use broad congestion, facial pain, or cold symptoms as standalone runtime terms.",
+                "- Do not use sinusitis as a catch-all URI fallback.",
+                "- Runtime must block antibiotics prescribed for sinusitis, severe bacterial-feature language, orbital or intracranial concern, dental source, facial trauma, immunocompromise, frailty, pregnancy, sepsis, unstable vitals, and chronic or recurrent sinusitis.",
+            ]
+        )
     lines.extend(["", "## Primitive List", ""])
     for row in selected:
         flags = ", ".join(key for key, value in row.get("source_audit", {}).items() if value is True) or "source_supported"

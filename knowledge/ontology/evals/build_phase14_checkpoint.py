@@ -23,7 +23,7 @@ def read_json(path: Path) -> Any:
 def runtime_cases() -> list[dict[str, Any]]:
     cases: list[dict[str, Any]] = []
     for path in sorted((ROOT / "evals").glob("*_runtime_cases.json")):
-        cases.extend(read_json(path))
+        cases.extend(item for item in read_json(path) if not item["id"].startswith("phase20_"))
     return cases
 
 
@@ -159,7 +159,7 @@ def main() -> int:
     CHECKPOINT_DIR.mkdir(parents=True, exist_ok=True)
     phenotypes = load_phenotypes()
     primitives = load_primitives()
-    results = read_json(RESULTS_PATH)
+    results = [item for item in read_json(RESULTS_PATH) if not item["case_id"].startswith("phase20_")]
     cases = case_index()
     write(CHECKPOINT_DIR / "summary.md", summary(results, phenotypes))
     write(CHECKPOINT_DIR / "review_packet_index.md", review_packet_index(phenotypes))

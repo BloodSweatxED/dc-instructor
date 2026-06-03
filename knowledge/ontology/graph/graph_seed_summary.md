@@ -4,32 +4,32 @@ Generated: deterministic_from_current_ontology_and_generator_batches
 
 ## Counts
 
-- Nodes: 1909
-- Edges: 2713
+- Nodes: 2048
+- Edges: 3012
 
 ## Node Types
 
 - `candidate_primitive`: 1099
-- `exclusion`: 66
+- `exclusion`: 91
 - `generator_case`: 50
 - `generator_section`: 300
-- `must_not_miss`: 68
-- `phenotype`: 50
-- `primitive`: 243
+- `must_not_miss`: 94
+- `phenotype`: 53
+- `primitive`: 313
 - `safety_topic`: 9
-- `source_card`: 24
+- `source_card`: 39
 
 ## Edge Types
 
 - `contains_candidate_primitive`: 1099
-- `drafts_for_existing_phenotype`: 18
-- `has_exclusion`: 68
+- `drafts_for_existing_phenotype`: 21
+- `has_exclusion`: 93
 - `has_generated_section`: 300
-- `has_must_not_miss`: 82
+- `has_must_not_miss`: 118
 - `mentions_safety_topic`: 569
-- `proposes_candidate_phenotype`: 32
-- `requires_primitive`: 243
-- `supported_by_source`: 302
+- `proposes_candidate_phenotype`: 29
+- `requires_primitive`: 286
+- `supported_by_source`: 497
 
 ## Use
 

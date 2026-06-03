@@ -1,0 +1,349 @@
+[
+  {
+    "id": "phase20_abscess_contradictory_note_blocks",
+    "condition": "abscess_after_i_and_d",
+    "ed_note": "ED note says abscess was drained, but patient is septic with crepitus and pain out of proportion.",
+    "expected_phenotype_id": "abscess_after_i_and_d",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["necrotizing_infection_concern", "sepsis"]
+  },
+  {
+    "id": "phase20_abscess_vague_chief_complaint_fallback",
+    "condition": "skin problem",
+    "ed_note": "Bump without drainage or abscess confirmation.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_allergy_contradictory_note_blocks",
+    "condition": "allergic_reaction_resolved_no_anaphylaxis",
+    "ed_note": "Hives improved, but patient had throat swelling and hypotension.",
+    "expected_phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["airway_symptoms", "hypotension"]
+  },
+  {
+    "id": "phase20_allergy_vague_chief_complaint_fallback",
+    "condition": "rash",
+    "ed_note": "Rash without confirmed allergy or trigger.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_ankle_contradictory_note_blocks",
+    "condition": "ankle_sprain_xray_negative",
+    "ed_note": "X-ray read as distal fibula fracture.",
+    "expected_phenotype_id": "ankle_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["fracture_seen"]
+  },
+  {
+    "id": "phase20_ankle_vague_chief_complaint_fallback",
+    "condition": "ankle pain",
+    "ed_note": "Ankle pain without documented sprain or x-ray result.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_asthma_contradictory_note_blocks",
+    "condition": "asthma_exacerbation_improved_discharge",
+    "ed_note": "Wheezing improved, but patient cannot afford inhaler.",
+    "expected_phenotype_id": "asthma_exacerbation_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["poor_inhaler_access"]
+  },
+  {
+    "id": "phase20_asthma_vague_chief_complaint_fallback",
+    "condition": "wheezing",
+    "ed_note": "Wheezing without final asthma discharge phenotype.",
+    "expected_phenotype_id": "asthma_exacerbation_improved_discharge",
+    "expected_fallback_reason": "low_confidence"
+  },
+  {
+    "id": "phase20_cellulitis_contradictory_note_blocks",
+    "condition": "cellulitis_uncomplicated_oral_antibiotics",
+    "ed_note": "Cellulitis diagnosed, but redness is rapidly spreading with pain out of proportion.",
+    "expected_phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["necrotizing_infection_concern", "rapid_progression"]
+  },
+  {
+    "id": "phase20_cellulitis_vague_chief_complaint_fallback",
+    "condition": "rash",
+    "ed_note": "Rash without final cellulitis diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_pneumonia_contradictory_note_blocks",
+    "condition": "community_acquired_pneumonia_outpatient",
+    "ed_note": "Community acquired pneumonia, but patient is hypoxic.",
+    "expected_phenotype_id": "community_acquired_pneumonia_outpatient",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["hypoxia"]
+  },
+  {
+    "id": "phase20_pneumonia_vague_chief_complaint_fallback",
+    "condition": "cough",
+    "ed_note": "Cough without imaging or pneumonia diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_concussion_contradictory_note_blocks",
+    "condition": "concussion_discharge_no_imaging_red_flags",
+    "ed_note": "Concussion discharge considered, but patient is on Eliquis and has slurred speech.",
+    "expected_phenotype_id": "concussion_discharge_no_imaging_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["anticoagulated", "neurologic_deficit"]
+  },
+  {
+    "id": "phase20_concussion_vague_chief_complaint_fallback",
+    "condition": "concussion",
+    "ed_note": "Dizziness and headache, no imaging decision or red flag review documented.",
+    "expected_phenotype_id": "concussion_discharge_no_imaging_red_flags",
+    "expected_fallback_reason": "low_confidence"
+  },
+  {
+    "id": "phase20_dental_contradictory_note_blocks",
+    "condition": "dental_pain_no_deep_space_infection",
+    "ed_note": "Dental pain, but patient has floor of mouth swelling and trismus.",
+    "expected_phenotype_id": "dental_pain_no_deep_space_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["deep_space_swelling", "trismus"]
+  },
+  {
+    "id": "phase20_dental_vague_chief_complaint_fallback",
+    "condition": "mouth pain",
+    "ed_note": "Mouth pain without tooth source.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_gastro_contradictory_note_blocks",
+    "condition": "gastroenteritis_stable_hydrating",
+    "ed_note": "Vomiting and diarrhea, but patient failed PO challenge and has bloody stool.",
+    "expected_phenotype_id": "gastroenteritis_stable_hydrating",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["gi_bleeding", "unable_to_tolerate_oral_fluids"]
+  },
+  {
+    "id": "phase20_gastro_vague_chief_complaint_fallback",
+    "condition": "nausea",
+    "ed_note": "Nausea without vomiting or diarrhea phenotype.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_laceration_contradictory_note_blocks",
+    "condition": "laceration_repaired_simple",
+    "ed_note": "Simple repair considered, but this was a dog bite with tendon injury.",
+    "expected_phenotype_id": "laceration_repaired_simple",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["bite_wound", "hand_tendon_risk"]
+  },
+  {
+    "id": "phase20_laceration_vague_chief_complaint_fallback",
+    "condition": "wound",
+    "ed_note": "Wound without repair details.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_lumbar_contradictory_note_blocks",
+    "condition": "lumbar_strain_no_red_flags",
+    "ed_note": "Mechanical back pain considered, but patient has urinary retention and saddle anesthesia.",
+    "expected_phenotype_id": "lumbar_strain_no_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["cauda_equina_concern"]
+  },
+  {
+    "id": "phase20_lumbar_vague_chief_complaint_fallback",
+    "condition": "back pain",
+    "ed_note": "Back pain without final strain diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_minor_head_contradictory_note_blocks",
+    "condition": "minor_head_injury_no_red_flags",
+    "ed_note": "Head injury, but patient is on warfarin and has persistent vomiting.",
+    "expected_phenotype_id": "minor_head_injury_no_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["anticoagulated", "persistent_vomiting"]
+  },
+  {
+    "id": "phase20_minor_head_vague_chief_complaint_fallback",
+    "condition": "headache",
+    "ed_note": "Headache without head trauma diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_renal_contradictory_note_blocks",
+    "condition": "renal_colic_stable_no_infection",
+    "ed_note": "Renal colic, but patient has fever and cannot keep meds down.",
+    "expected_phenotype_id": "renal_colic_stable_no_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["fever", "vomiting_unable_to_take_meds"]
+  },
+  {
+    "id": "phase20_renal_vague_chief_complaint_fallback",
+    "condition": "flank pain",
+    "ed_note": "Flank pain without stone diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_cystitis_contradictory_note_blocks",
+    "condition": "uncomplicated_cystitis_nonpregnant",
+    "ed_note": "Lower UTI diagnosed, but patient is pregnant with flank pain and vomiting.",
+    "expected_phenotype_id": "uncomplicated_cystitis_nonpregnant",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["flank_pain", "pregnancy", "vomiting_unable_to_take_meds"]
+  },
+  {
+    "id": "phase20_cystitis_vague_chief_complaint_fallback",
+    "condition": "dysuria",
+    "ed_note": "Painful urination without lower UTI diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_pharyngitis_contradictory_note_blocks",
+    "condition": "viral_pharyngitis_strep_negative",
+    "ed_note": "Sore throat, but positive rapid strep test and antibiotics prescribed.",
+    "expected_phenotype_id": "viral_pharyngitis_strep_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["positive_strep_test"]
+  },
+  {
+    "id": "phase20_pharyngitis_vague_chief_complaint_fallback",
+    "condition": "sore throat",
+    "ed_note": "Sore throat without strep testing result.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_uri_contradictory_note_blocks",
+    "condition": "viral_uri_no_pneumonia",
+    "ed_note": "URI suspected, but chest x-ray shows pneumonia and antibiotics prescribed.",
+    "expected_phenotype_id": "viral_uri_no_pneumonia",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["bacterial_infection_suspected", "pneumonia"]
+  },
+  {
+    "id": "phase20_uri_vague_chief_complaint_fallback",
+    "condition": "cough",
+    "ed_note": "Cough without final URI phenotype.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_abdominal_contradictory_note_blocks",
+    "condition": "abdominal pain recheck",
+    "ed_note": "Abdominal pain recheck considered, but patient has fever, guarding, and poor follow up.",
+    "expected_phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["fever", "peritoneal_signs", "poor_follow_up"]
+  },
+  {
+    "id": "phase20_abdominal_vague_chief_complaint_fallback",
+    "condition": "belly pain",
+    "ed_note": "Belly pain without reassuring ED evaluation or clinician-directed recheck plan.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_bronchitis_contradictory_note_blocks",
+    "condition": "acute bronchitis no pneumonia",
+    "ed_note": "Clinician diagnosis is acute bronchitis, but patient is hypoxic with respiratory distress and focal crackles.",
+    "expected_phenotype_id": "acute_bronchitis_no_pneumonia",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["focal_lung_findings_or_infiltrate", "hypoxia", "respiratory_distress"]
+  },
+  {
+    "id": "phase20_bronchitis_vague_chief_complaint_fallback",
+    "condition": "cough",
+    "ed_note": "Cough for two days. No final respiratory discharge phenotype documented.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_sinusitis_contradictory_note_blocks",
+    "condition": "acute sinusitis supportive care",
+    "ed_note": "Acute sinusitis supportive care considered, but antibiotic prescribed for sinusitis and patient has eye swelling with pain with eye movement.",
+    "expected_phenotype_id": "acute_sinusitis_supportive_care",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["antibiotic_prescribed_for_sinusitis", "orbital_or_intracranial_sinusitis_concern"]
+  },
+  {
+    "id": "phase20_sinusitis_vague_chief_complaint_fallback",
+    "condition": "congestion",
+    "ed_note": "Nasal congestion without final sinusitis diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_med_sensitive_asthma_access_blocks",
+    "condition": "asthma_exacerbation_improved_discharge",
+    "ed_note": "Patient improved after treatment, but has no rescue inhaler at home.",
+    "expected_phenotype_id": "asthma_exacerbation_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["poor_inhaler_access"]
+  },
+  {
+    "id": "phase20_med_sensitive_cystitis_vomiting_blocks",
+    "condition": "uncomplicated_cystitis_nonpregnant",
+    "ed_note": "Oral antibiotics prescribed, but patient is vomiting and cannot take pills.",
+    "expected_phenotype_id": "uncomplicated_cystitis_nonpregnant",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["vomiting_unable_to_take_meds"]
+  },
+  {
+    "id": "phase20_med_sensitive_gastro_recent_antibiotics_blocks",
+    "condition": "gastroenteritis_stable_hydrating",
+    "ed_note": "Diarrhea after recent antibiotics with concern for C diff.",
+    "expected_phenotype_id": "gastroenteritis_stable_hydrating",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["c_diff_risk"]
+  },
+  {
+    "id": "phase20_med_sensitive_pneumonia_vomiting_blocks",
+    "condition": "community_acquired_pneumonia_outpatient",
+    "ed_note": "Antibiotics prescribed, but patient is vomiting and cannot keep meds down.",
+    "expected_phenotype_id": "community_acquired_pneumonia_outpatient",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["vomiting_unable_to_take_meds"]
+  },
+  {
+    "id": "phase20_med_sensitive_renal_colic_vomiting_blocks",
+    "condition": "renal_colic_stable_no_infection",
+    "ed_note": "Pain medicine prescribed, but patient is vomiting and cannot take pills.",
+    "expected_phenotype_id": "renal_colic_stable_no_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["vomiting_unable_to_take_meds"]
+  },
+  {
+    "id": "phase20_med_sensitive_uri_antibiotic_blocks",
+    "condition": "viral_uri_no_pneumonia",
+    "ed_note": "Viral URI documented, but antibiotic prescribed for suspected bacterial infection.",
+    "expected_phenotype_id": "viral_uri_no_pneumonia",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["antibiotic_prescribed", "bacterial_infection_suspected"]
+  },
+  {
+    "id": "phase20_netlify_smoke_pneumonia_ruled_out_no_match",
+    "condition": "bronchitis",
+    "ed_note": "Cough. No focal lung findings. Pneumonia ruled out.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_netlify_smoke_cystitis_denied_no_match",
+    "condition": "dysuria",
+    "ed_note": "Painful urination without lower UTI diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  }
+]

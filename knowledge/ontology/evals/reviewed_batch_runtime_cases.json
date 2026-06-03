@@ -280,8 +280,8 @@
     "id": "pharyngitis_vague_fallback",
     "condition": "sore throat",
     "ed_note": "Sore throat without documented negative strep evaluation.",
-    "expected_phenotype_id": "viral_pharyngitis_strep_negative",
-    "expected_fallback_reason": "low_confidence"
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
   },
   {
     "id": "dental_clean_exact",

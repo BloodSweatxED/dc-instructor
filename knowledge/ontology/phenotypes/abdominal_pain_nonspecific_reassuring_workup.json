@@ -1,15 +1,17 @@
 {
   "id": "abdominal_pain_nonspecific_reassuring_workup",
-  "label": "Nonspecific abdominal pain with reassuring ED workup",
-  "status": "draft",
+  "label": "Abdominal pain recheck after reassuring ED evaluation",
+  "status": "reviewed",
   "condition_family": "gastrointestinal",
   "inclusion_criteria": [
-    "Abdominal pain with reassuring ED assessment and no surgical abdomen at discharge."
+    "Abdominal pain evaluated in the ED with a reassuring exam and workup at discharge.",
+    "No current surgical abdomen, unstable vital signs, or admission need.",
+    "Patient discharged with explicit clinician-directed recheck plan."
   ],
   "exclusion_criteria": [
-    "Pregnancy-related abdominal pain.",
-    "Appendicitis, obstruction, ischemia, perforation, or sepsis concern.",
-    "Uncontrolled pain or vomiting."
+    "Pregnancy or pregnancy concern.",
+    "Localized or worsening pain concerning for appendicitis, obstruction, ischemia, perforation, or other surgical abdomen.",
+    "Uncontrolled pain, repeated vomiting, fever, GI bleeding, sepsis concern, frailty, immunocompromise, or unreliable follow-up."
   ],
   "must_not_miss": [
     "Appendicitis.",
@@ -17,9 +19,10 @@
     "Bowel ischemia.",
     "Perforation.",
     "Ectopic pregnancy.",
-    "AAA."
+    "AAA.",
+    "Sepsis."
   ],
-  "default_follow_up": "Follow up with primary care or return for recheck as instructed.",
+  "default_follow_up": "Return for recheck as your clinician instructed.",
   "required_sections": [
     "diagnosis",
     "what_we_found",
@@ -41,35 +44,86 @@
     "abdominal_pain_nonspecific_reassuring_workup.return_precautions.return_precaution_3.v1",
     "abdominal_pain_nonspecific_reassuring_workup.follow_up.default_follow_up.v1"
   ],
-  "source_card_ids": [],
+  "source_card_ids": [
+    "medlineplus.abdominal_pain",
+    "medlineplus.abdominal_pain_ency"
+  ],
   "source_audit": {
-    "source_supported": false,
-    "source_needed": true,
-    "clinician_judgment_only": true,
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
     "restricted_source_risk": false,
-    "unsafe_without_modifier": true
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports general abdominal pain framing, cautious home care, and conservative return precautions. This reviewed phenotype is limited to clinician-directed abdominal pain recheck after a reassuring ED evaluation."
   },
   "runtime": {
     "condition_terms": [
-      "abdominal pain",
-      "belly pain",
+      "abdominal pain recheck",
+      "abdominal pain reassuring evaluation",
+      "belly pain recheck",
       "nonspecific abdominal pain"
     ],
     "unsafe_modifiers": [
       "pregnancy",
       "elderly",
       "immunocompromised",
+      "poor_follow_up",
       "peritoneal_signs",
-      "uncontrolled_vomiting"
+      "uncontrolled_vomiting",
+      "fever",
+      "gi_bleeding",
+      "sepsis",
+      "unstable_vitals"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_directed_recheck_plan",
+        "terms": [
+          "explicit recheck",
+          "return for recheck",
+          "recheck as instructed",
+          "clinician instructed recheck",
+          "clinician directed recheck",
+          "clinician-directed recheck",
+          "follow up for recheck as instructed",
+          "ed recheck as instructed"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "abdominal pain recheck"
     ],
     "minimum_confidence": 0.86,
-    "mode": "draft_only_until_reviewed"
+    "mode": "reviewed_ontology_enabled"
   },
   "version": 1,
   "review": {
-    "status": "draft",
-    "reviewer": null,
-    "last_reviewed": null,
-    "notes": "Expanded ontology draft pack. Not clinician-reviewed. Runtime should fall back unless explicitly enabled for review."
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports general abdominal pain framing, cautious home care, and conservative return precautions. This reviewed phenotype is limited to clinician-directed abdominal pain recheck after a reassuring ED evaluation.",
+    "clinical_status": "reviewed_for_limited_abdominal_pain_recheck_after_reassuring_ed_evaluation_use",
+    "required_modifiers": [
+      "reassuring ED evaluation",
+      "clinician-directed recheck plan",
+      "no surgical abdomen concern",
+      "reliable follow-up"
+    ],
+    "blocked_modifiers": [
+      "pregnancy",
+      "elderly",
+      "immunocompromised",
+      "poor_follow_up",
+      "peritoneal_signs",
+      "uncontrolled_vomiting",
+      "fever",
+      "gi_bleeding",
+      "sepsis",
+      "unstable_vitals"
+    ]
   }
 }

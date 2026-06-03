@@ -97,15 +97,15 @@
     "id": "phase14_pneumonia_vague_cough_fallback",
     "condition": "cough",
     "ed_note": "Cough and fever without pneumonia diagnosis.",
-    "expected_phenotype_id": "community_acquired_pneumonia_outpatient",
-    "expected_fallback_reason": "low_confidence"
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
   },
   {
     "id": "phase14_pneumonia_near_miss_bronchitis_fallback",
     "condition": "bronchitis",
     "ed_note": "Cough. No focal lung findings. Pneumonia ruled out.",
-    "expected_phenotype_id": "community_acquired_pneumonia_outpatient",
-    "expected_fallback_reason": "low_confidence"
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
   },
   {
     "id": "phase14_pneumonia_contradictory_note_blocks",
@@ -166,8 +166,8 @@
     "id": "phase14_minor_head_near_miss_syncope_fallback",
     "condition": "fall",
     "ed_note": "Fall after syncope. Head injury not the final diagnosis.",
-    "expected_phenotype_id": "minor_head_injury_no_red_flags",
-    "expected_fallback_reason": "low_confidence"
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
   },
   {
     "id": "phase14_minor_head_contradictory_note_blocks",
@@ -221,15 +221,15 @@
     "id": "phase14_concussion_vague_fallback",
     "condition": "dizziness",
     "ed_note": "Dizziness without clear head injury or concussion diagnosis.",
-    "expected_phenotype_id": "concussion_discharge_no_imaging_red_flags",
-    "expected_fallback_reason": "low_confidence"
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
   },
   {
     "id": "phase14_concussion_near_miss_migraine_fallback",
     "condition": "migraine",
     "ed_note": "Headache and light sensitivity. No head injury. Concussion ruled out.",
-    "expected_phenotype_id": "concussion_discharge_no_imaging_red_flags",
-    "expected_fallback_reason": "low_confidence"
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
   },
   {
     "id": "phase14_concussion_contradictory_note_blocks",
@@ -290,8 +290,12 @@
     "id": "phase14_renal_colic_near_miss_pyelo_fallback",
     "condition": "pyelonephritis",
     "ed_note": "Flank pain with urinary infection. Kidney stone ruled out.",
-    "expected_phenotype_id": "renal_colic_stable_no_infection",
-    "expected_fallback_reason": "low_confidence"
+    "expected_phenotype_id": "uncomplicated_cystitis_nonpregnant",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "flank_pain",
+      "pyelonephritis"
+    ]
   },
   {
     "id": "phase14_renal_colic_contradictory_note_blocks",
@@ -408,15 +412,15 @@
     "id": "phase14_vague_abdominal_pain_draft_fallback",
     "condition": "abdominal pain",
     "ed_note": "Abdominal pain with reassuring exam.",
-    "expected_phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
-    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
   },
   {
     "id": "phase14_vague_chest_pain_draft_fallback",
     "condition": "chest pain",
     "ed_note": "Chest pain after ED workup.",
-    "expected_phenotype_id": "chest_pain_low_risk_negative_ed_workup",
-    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
   },
   {
     "id": "phase14_low_confidence_lung_infection",

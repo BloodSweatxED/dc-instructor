@@ -30,6 +30,11 @@ def run_case(case: dict[str, Any]) -> dict[str, Any]:
         require(result["confidence"] >= case.get("minimum_confidence", 0.86), f"{case['id']} confidence too low: {result}")
     for expected in case.get("expected_exclusions", []):
         require(expected in result["exclusions"], f"{case['id']} missing exclusion {expected}: {result}")
+    for expected in case.get("expected_missing_required_context", []):
+        require(
+            expected in result.get("missing_required_context", []),
+            f"{case['id']} missing required context {expected}: {result}",
+        )
     return {"case_id": case["id"], "passed": True, "result": result}
 
 

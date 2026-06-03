@@ -37,9 +37,7 @@
     "laceration_repaired_simple.return_precautions.return_precaution_1.v1",
     "laceration_repaired_simple.return_precautions.return_precaution_2.v1",
     "laceration_repaired_simple.return_precautions.return_precaution_3.v1",
-    "laceration_repaired_simple.follow_up.default_follow_up.v1",
-    "laceration_repaired_simple.resources.source_link_1.v1",
-    "laceration_repaired_simple.resources.followup_reminder.v1"
+    "laceration_repaired_simple.follow_up.default_follow_up.v1"
   ],
   "source_card_ids": [
     "medlineplus.cuts_puncture_wounds"

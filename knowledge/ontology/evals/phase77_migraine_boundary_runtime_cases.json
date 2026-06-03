@@ -1,0 +1,18 @@
+[
+  {
+    "id": "phase77_migraine_immunocompromised_blocks",
+    "condition": "migraine improved discharge",
+    "ed_note": "Adult with migraine symptoms on chemotherapy and immunocompromised.",
+    "expected_phenotype_id": "migraine_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["immunocompromised"]
+  },
+  {
+    "id": "phase77_migraine_unstable_vitals_blocks",
+    "condition": "migraine headache improved",
+    "ed_note": "Adult with migraine and unstable vitals with hypotension.",
+    "expected_phenotype_id": "migraine_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["unstable_vitals"]
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "phase23_abdominal_recheck_draft_fallback",
+    "condition": "abdominal pain recheck",
+    "ed_note": "Adult with abdominal pain. ED evaluation reassuring. No localized tenderness. No fever. No vomiting. Discharged with explicit recheck and return precautions.",
+    "expected_phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase26_abdominal_reassuring_no_recheck_plan_blocks",
+    "condition": "abdominal pain reassuring evaluation",
+    "ed_note": "Adult with abdominal pain. ED evaluation reassuring. No localized tenderness. No fever. No vomiting. Discharged with return precautions only.",
+    "expected_phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["clinician_directed_recheck_plan"]
+  },
+  {
+    "id": "phase26_abdominal_unreliable_followup_blocks",
+    "condition": "abdominal pain recheck",
+    "ed_note": "Adult with abdominal pain. ED evaluation reassuring. Discharged with explicit recheck plan, but patient is homeless and unable to follow up.",
+    "expected_phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["poor_follow_up"]
+  },
+  {
+    "id": "phase23_abdominal_fever_blocks",
+    "condition": "abdominal pain reassuring evaluation",
+    "ed_note": "Abdominal pain with fever after ED evaluation.",
+    "expected_phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["fever"]
+  },
+  {
+    "id": "phase23_abdominal_gi_bleed_blocks",
+    "condition": "abdominal pain reassuring evaluation",
+    "ed_note": "Patient reports black stool and blood in stool.",
+    "expected_phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["gi_bleeding"]
+  },
+  {
+    "id": "phase23_abdominal_pregnancy_blocks",
+    "condition": "abdominal pain reassuring evaluation",
+    "ed_note": "Patient is pregnant with abdominal pain.",
+    "expected_phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["pregnancy"]
+  },
+  {
+    "id": "phase23_abdominal_peritoneal_signs_blocks",
+    "condition": "abdominal pain reassuring evaluation",
+    "ed_note": "Abdominal pain with rebound and guarding.",
+    "expected_phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["peritoneal_signs"]
+  },
+  {
+    "id": "phase23_abdominal_vague_belly_pain_no_match",
+    "condition": "belly pain",
+    "ed_note": "Belly pain without documented reassuring ED evaluation or recheck plan.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  }
+]

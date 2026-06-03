@@ -1,0 +1,24 @@
+{
+  "phase": 21,
+  "gate": "expansion_readiness",
+  "reviewed_runtime_clean": true,
+  "phenotype_expansion_allowed": true,
+  "reviewed_source_gap_count": 0,
+  "draft_source_gap_count": 0,
+  "active_draft_phenotype_count": 0,
+  "low_confidence": {
+    "allowed": 8,
+    "unexpected": [],
+    "missing_allowed": []
+  },
+  "phase20_coverage": {
+    "reviewed_count": 19,
+    "phase20_count": 46,
+    "contradictory_covered": 19,
+    "vague_cases": 19
+  },
+  "reviewed_source_gaps": [],
+  "draft_source_gaps": [],
+  "active_draft_phenotypes": [],
+  "decision": "phenotype expansion allowed"
+}

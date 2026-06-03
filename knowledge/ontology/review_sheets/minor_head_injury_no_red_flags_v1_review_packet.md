@@ -60,9 +60,6 @@ Review date: 2026-06-01.
 - `minor_head_injury_no_red_flags.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported
 - `minor_head_injury_no_red_flags.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported
 - `minor_head_injury_no_red_flags.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier
-- `minor_head_injury_no_red_flags.resources.source_link_1.v1` | `resources` | audit: source_supported
-- `minor_head_injury_no_red_flags.resources.source_link_2.v1` | `resources` | audit: source_supported
-- `minor_head_injury_no_red_flags.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -71,28 +68,23 @@ DIAGNOSIS:
 You had a minor head injury.
 
 WHAT WE FOUND:
-You came to the ED after hitting your head. Your exam was reassuring. We did not find signs of bleeding in or around the brain.
+Your exam was reassuring today. We did not find signs that you needed emergency treatment for bleeding around the brain.
 
 WHAT TO DO AT HOME:
 - Rest today and increase activity slowly.
 - Avoid alcohol or sedating drugs unless your clinician says they are safe.
-- Have someone stay with you or check on you tonight. They should be able to wake you up and make sure you are acting normally.
-- Screen time, loud places, and strenuous activity can worsen concussion symptoms. Symptoms like headache, dizziness, and fatigue can last days to weeks.
+- Have a trusted person check on you if possible.
+- Limit screens, loud environments, and strenuous activity if they worsen symptoms.
 
 MEDICATIONS:
-- Use acetaminophen for headache only if it is safe for you and follow the label.
-- Do not take ibuprofen, naproxen, or aspirin after a head injury unless your clinician says it is safe.
+- Use acetaminophen for headache if you can take it safely and follow the label.
+- Avoid medicines your clinician told you to avoid.
 
 RETURN TO ED IF:
-- Come back right away for worsening severe headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up.
-- Come back for new weakness, numbness, trouble speaking, or vision changes.
-- Come back for clear fluid or blood from the nose or ear.
+- Worsening severe headache, repeated vomiting, confusion, seizure, fainting, or trouble waking up.
+- New weakness, numbness, trouble speaking, or vision changes.
+- Clear fluid or blood from the nose or ear.
 
 FOLLOW UP:
-Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with a minor head injury. I need a follow-up visit within 1 week if symptoms are not improving."
-
-RESOURCES:
-- Bring these instructions to your follow-up visit.
-- Learn more: CDC HEADS UP - Signs and Symptoms of Concussion (https://www.cdc.gov/heads-up/signs-symptoms/index.html).
-- Learn more: CDC - What to Do After a Mild TBI or Concussion (https://www.cdc.gov/traumatic-brain-injury/response/index.html).
+Follow up with primary care if symptoms are not improving or if you were told to recheck.
 ```

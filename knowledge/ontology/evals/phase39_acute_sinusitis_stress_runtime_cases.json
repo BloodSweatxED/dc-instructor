@@ -1,0 +1,42 @@
+[
+  {
+    "id": "phase39_sinusitis_chronic_recurrent_blocks",
+    "condition": "acute sinusitis supportive care",
+    "ed_note": "Patient has chronic sinusitis with months of sinus symptoms and multiple sinus infections this year.",
+    "expected_phenotype_id": "acute_sinusitis_supportive_care",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["chronic_or_recurrent_sinusitis"]
+  },
+  {
+    "id": "phase39_sinusitis_dental_source_blocks",
+    "condition": "sinus infection supportive care",
+    "ed_note": "Clinician suspects dental source with tooth abscess causing facial pain.",
+    "expected_phenotype_id": "acute_sinusitis_supportive_care",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["dental_or_facial_trauma_source"]
+  },
+  {
+    "id": "phase39_sinusitis_immunocompromised_blocks",
+    "condition": "acute sinusitis supportive care",
+    "ed_note": "Adult with acute sinusitis and chemotherapy with immunocompromised status.",
+    "expected_phenotype_id": "acute_sinusitis_supportive_care",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["immunocompromised"]
+  },
+  {
+    "id": "phase39_sinusitis_pregnancy_blocks",
+    "condition": "sinus infection supportive care",
+    "ed_note": "Patient is pregnant with sinus infection symptoms.",
+    "expected_phenotype_id": "acute_sinusitis_supportive_care",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["pregnancy"]
+  },
+  {
+    "id": "phase39_sinusitis_sepsis_blocks",
+    "condition": "acute sinusitis supportive care",
+    "ed_note": "Adult with acute sinusitis diagnosis but septic appearance and shock.",
+    "expected_phenotype_id": "acute_sinusitis_supportive_care",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["sepsis"]
+  }
+]

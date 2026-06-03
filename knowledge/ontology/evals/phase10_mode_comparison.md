@@ -4,13 +4,13 @@ Compares current generator output, ontology assembly, and the current clinician-
 
 | Phenotype | Classifier | Generator risks | Ontology risks | Source support | Review |
 | --- | --- | --- | --- | --- | --- |
-| `abdominal_pain_nonspecific_reassuring_workup` | 0.93 / phenotype_not_clinician_reviewed | red_flags_missing=False; med=3; certainty=0 | red_flags_missing=False; med=0; certainty=0 | needed=True | draft |
+| `abdominal_pain_nonspecific_reassuring_workup` | 0.93 / phenotype_not_clinician_reviewed | red_flags_missing=False; med=3; certainty=0 | red_flags_missing=False; med=0; certainty=0 | needed=False | needs_review |
 | `abscess_after_i_and_d` | 0.93 / ontology | red_flags_missing=False; med=3; certainty=0 | red_flags_missing=False; med=0; certainty=0 | needed=False | reviewed |
 | `allergic_reaction_resolved_no_anaphylaxis` | 0.93 / ontology | red_flags_missing=False; med=2; certainty=0 | red_flags_missing=False; med=0; certainty=0 | needed=False | reviewed |
 | `ankle_sprain_xray_negative` | 0.93 / ontology | red_flags_missing=False; med=3; certainty=0 | red_flags_missing=False; med=0; certainty=0 | needed=False | reviewed |
 | `asthma_exacerbation_improved_discharge` | 0.93 / ontology | red_flags_missing=False; med=2; certainty=0 | red_flags_missing=False; med=0; certainty=0 | needed=False | reviewed |
 | `cellulitis_uncomplicated_oral_antibiotics` | 0.93 / ontology | red_flags_missing=False; med=2; certainty=0 | red_flags_missing=False; med=0; certainty=0 | needed=False | reviewed |
-| `chest_pain_low_risk_negative_ed_workup` | 0.93 / phenotype_not_clinician_reviewed | red_flags_missing=False; med=3; certainty=1 | red_flags_missing=False; med=0; certainty=0 | needed=True | draft |
+| `chest_pain_low_risk_negative_ed_workup` | 0.93 / phenotype_not_clinician_reviewed | red_flags_missing=False; med=3; certainty=1 | red_flags_missing=False; med=0; certainty=0 | needed=False | retired |
 | `community_acquired_pneumonia_outpatient` | 0.93 / ontology | red_flags_missing=False; med=3; certainty=0 | red_flags_missing=False; med=0; certainty=0 | needed=False | reviewed |
 | `concussion_discharge_no_imaging_red_flags` | 0.93 / ontology | red_flags_missing=False; med=2; certainty=0 | red_flags_missing=False; med=0; certainty=0 | needed=False | reviewed |
 | `dental_pain_no_deep_space_infection` | 0.93 / ontology | red_flags_missing=False; med=3; certainty=0 | red_flags_missing=False; med=0; certainty=0 | needed=False | reviewed |

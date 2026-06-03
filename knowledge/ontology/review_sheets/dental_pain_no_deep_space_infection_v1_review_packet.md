@@ -57,8 +57,6 @@ Review date: 2026-06-01.
 - `dental_pain_no_deep_space_infection.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported
 - `dental_pain_no_deep_space_infection.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported
 - `dental_pain_no_deep_space_infection.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier
-- `dental_pain_no_deep_space_infection.resources.source_link_1.v1` | `resources` | audit: source_supported
-- `dental_pain_no_deep_space_infection.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -67,26 +65,22 @@ DIAGNOSIS:
 You were treated for dental pain today.
 
 WHAT WE FOUND:
-You came to the ED for tooth or mouth pain. We did not see signs of a dangerous deep infection in the face, jaw, or neck today.
+Your exam did not show signs of a dangerous deep infection in the face, jaw, or neck today.
 
 WHAT TO DO AT HOME:
-- Keep your mouth clean with gentle brushing.
+- Keep the mouth clean with gentle brushing.
 - Avoid chewing on the painful side.
-- A dentist needs to treat the tooth problem for it to fully resolve.
+- A dentist must treat the tooth problem for it to fully resolve.
 
 MEDICATIONS:
 - Take antibiotics only if they were prescribed.
-- Use pain medicine only if it is safe for you and follow the label or your clinician's instructions.
+- Use acetaminophen or ibuprofen only if you can take it safely and follow the label.
 
 RETURN TO ED IF:
-- Come back right away for face or neck swelling, fever, trouble swallowing, drooling, voice change, or trouble breathing.
-- Come back if you cannot open your mouth normally.
-- Come back if pain or swelling spreads quickly.
+- Face or neck swelling, fever, trouble swallowing, drooling, voice change, or trouble breathing.
+- You cannot open your mouth normally.
+- Pain or swelling spreads quickly.
 
 FOLLOW UP:
-Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with dental pain. I need a follow-up visit as soon as possible with a dentist." The ED cannot fix the tooth permanently.
-
-RESOURCES:
-- Bring these instructions to your follow-up visit.
-- Learn more: MedlinePlus - Toothaches (https://medlineplus.gov/ency/article/003067.htm).
+See a dentist as soon as possible.
 ```

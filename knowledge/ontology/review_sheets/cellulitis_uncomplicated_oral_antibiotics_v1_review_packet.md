@@ -59,38 +59,30 @@ Review date: 2026-06-01.
 - `cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported
 - `cellulitis_uncomplicated_oral_antibiotics.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported
 - `cellulitis_uncomplicated_oral_antibiotics.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier
-- `cellulitis_uncomplicated_oral_antibiotics.resources.source_link_1.v1` | `resources` | audit: source_supported
-- `cellulitis_uncomplicated_oral_antibiotics.resources.source_link_2.v1` | `resources` | audit: source_supported
-- `cellulitis_uncomplicated_oral_antibiotics.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
 ```text
 DIAGNOSIS:
-You were treated for cellulitis, which is a skin infection.
+You were treated for a skin infection called cellulitis.
 
 WHAT WE FOUND:
-You came to the ED for redness, pain, or swelling of the skin. Your exam fit cellulitis that can be treated at home. We did not find signs of a deeper emergency infection.
+Your exam fits a skin infection that is safe to treat at home today. We did not find signs of a deeper emergency infection.
 
 WHAT TO DO AT HOME:
 - Keep the area clean and dry.
-- Raise the arm or leg above heart level as much as possible, including when sleeping.
-- Mark the edge of the redness if your clinician asked you to. Take a phone photo of the marked border so you can tell if it is spreading.
+- Raise the arm or leg when you can.
+- Mark the edge of redness if your clinician asks you to.
 
 MEDICATIONS:
-- Take the antibiotic as prescribed. Do not stop early unless a clinician or pharmacist tells you to.
-- Use acetaminophen or ibuprofen only if it is safe for you and follow the label.
+- Take the antibiotic exactly as prescribed.
+- Use acetaminophen or ibuprofen only if you can take it safely and follow the label.
 
 RETURN TO ED IF:
-- Come back for fever, shaking chills, confusion, or feeling very sick.
-- Come back if redness spreads fast, pain becomes severe, you notice numbness, pus, or red streaks.
-- Come back if the infection is near the eye, genitals, or a joint and gets worse.
+- Fever, shaking chills, confusion, or feeling very ill.
+- Redness spreading fast, severe pain, numbness, pus, or red streaks.
+- The infection is near the eye, genitals, or a joint and gets worse.
 
 FOLLOW UP:
-Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with cellulitis. I need a follow-up visit within 48-72 hours."
-
-RESOURCES:
-- Bring these instructions to your follow-up visit.
-- Learn more: MedlinePlus - Cellulitis (https://medlineplus.gov/cellulitis.html).
-- Learn more: CDC - Clinical Guidance for Group A Streptococcal Cellulitis (https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/cellulitis.html).
+Arrange recheck with primary care, urgent care, or the ED as instructed, especially if not improving.
 ```

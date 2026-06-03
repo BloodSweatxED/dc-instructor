@@ -1,0 +1,57 @@
+[
+  {
+    "id": "phase32_acute_bronchitis_clean_chest_cold",
+    "condition": "chest cold",
+    "ed_note": "Adult with cough and congestion. Clinician discharge diagnosis is chest cold. No pneumonia concern, no focal lung findings, breathing comfortable, oxygenation acceptable.",
+    "expected_phenotype_id": "acute_bronchitis_no_pneumonia",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase32_acute_bronchitis_hemoptysis_blocks",
+    "condition": "acute bronchitis",
+    "ed_note": "Adult diagnosed with acute bronchitis but reports hemoptysis and coughing blood.",
+    "expected_phenotype_id": "acute_bronchitis_no_pneumonia",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["hemoptysis"]
+  },
+  {
+    "id": "phase32_acute_bronchitis_pe_chest_pain_blocks",
+    "condition": "acute bronchitis",
+    "ed_note": "Adult with cough but clinician documents pleuritic chest pain with PE concern.",
+    "expected_phenotype_id": "acute_bronchitis_no_pneumonia",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["cardiac_or_pe_chest_pain_concern"]
+  },
+  {
+    "id": "phase32_acute_bronchitis_immunocompromised_blocks",
+    "condition": "viral bronchitis",
+    "ed_note": "Adult with viral bronchitis symptoms and history of chemotherapy with immunocompromised status.",
+    "expected_phenotype_id": "acute_bronchitis_no_pneumonia",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["immunocompromised"]
+  },
+  {
+    "id": "phase32_acute_bronchitis_elderly_frail_blocks",
+    "condition": "acute bronchitis",
+    "ed_note": "Frail elderly nursing home patient with cough and acute bronchitis diagnosis.",
+    "expected_phenotype_id": "acute_bronchitis_no_pneumonia",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["elderly_frail"]
+  },
+  {
+    "id": "phase32_acute_bronchitis_sepsis_blocks",
+    "condition": "acute bronchitis",
+    "ed_note": "Adult with acute bronchitis diagnosis but septic appearance and shock.",
+    "expected_phenotype_id": "acute_bronchitis_no_pneumonia",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["sepsis"]
+  },
+  {
+    "id": "phase32_acute_bronchitis_unstable_vitals_blocks",
+    "condition": "acute bronchitis",
+    "ed_note": "Adult with acute bronchitis diagnosis but unstable vitals and tachycardia.",
+    "expected_phenotype_id": "acute_bronchitis_no_pneumonia",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["unstable_vitals"]
+  }
+]

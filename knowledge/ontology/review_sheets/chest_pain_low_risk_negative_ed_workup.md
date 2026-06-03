@@ -2,7 +2,7 @@
 
 Phenotype ID: `chest_pain_low_risk_negative_ed_workup`
 
-Status: `draft`
+Status: `retired`
 
 ## Inclusion Criteria
 
@@ -25,17 +25,17 @@ Status: `draft`
 
 ## Primitive List
 
-- `chest_pain_low_risk_negative_ed_workup.diagnosis.diagnosis_summary.v1` | `diagnosis` | audit: source_needed, clinician_judgment_only | unsafe modifiers: none
-- `chest_pain_low_risk_negative_ed_workup.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_needed, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: abnormal_troponin, abnormal_ecg, ongoing_pain, syncope, known_cad_high_risk
-- `chest_pain_low_risk_negative_ed_workup.home_care.home_care_1.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
-- `chest_pain_low_risk_negative_ed_workup.home_care.home_care_2.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
-- `chest_pain_low_risk_negative_ed_workup.home_care.home_care_3.v1` | `home_care` | audit: source_needed | unsafe modifiers: none
-- `chest_pain_low_risk_negative_ed_workup.medications.medication_guidance_1.v1` | `medications` | audit: source_needed, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: abnormal_troponin, abnormal_ecg, ongoing_pain, syncope, known_cad_high_risk
-- `chest_pain_low_risk_negative_ed_workup.medications.medication_guidance_2.v1` | `medications` | audit: source_needed, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: abnormal_troponin, abnormal_ecg, ongoing_pain, syncope, known_cad_high_risk
-- `chest_pain_low_risk_negative_ed_workup.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_needed, clinician_judgment_only | unsafe modifiers: none
-- `chest_pain_low_risk_negative_ed_workup.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_needed, clinician_judgment_only | unsafe modifiers: none
-- `chest_pain_low_risk_negative_ed_workup.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_needed, clinician_judgment_only | unsafe modifiers: none
-- `chest_pain_low_risk_negative_ed_workup.follow_up.default_follow_up.v1` | `follow_up` | audit: source_needed, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: abnormal_troponin, abnormal_ecg, ongoing_pain, syncope, known_cad_high_risk
+- `chest_pain_low_risk_negative_ed_workup.diagnosis.diagnosis_summary.v1` | `diagnosis` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
+- `chest_pain_low_risk_negative_ed_workup.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: abnormal_troponin, abnormal_ecg, ongoing_pain, syncope, known_cad_high_risk
+- `chest_pain_low_risk_negative_ed_workup.home_care.home_care_1.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `chest_pain_low_risk_negative_ed_workup.home_care.home_care_2.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `chest_pain_low_risk_negative_ed_workup.home_care.home_care_3.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `chest_pain_low_risk_negative_ed_workup.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: abnormal_troponin, abnormal_ecg, ongoing_pain, syncope, known_cad_high_risk
+- `chest_pain_low_risk_negative_ed_workup.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: abnormal_troponin, abnormal_ecg, ongoing_pain, syncope, known_cad_high_risk
+- `chest_pain_low_risk_negative_ed_workup.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
+- `chest_pain_low_risk_negative_ed_workup.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
+- `chest_pain_low_risk_negative_ed_workup.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
+- `chest_pain_low_risk_negative_ed_workup.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: abnormal_troponin, abnormal_ecg, ongoing_pain, syncope, known_cad_high_risk
 
 ## Assembled Six-Section Output
 

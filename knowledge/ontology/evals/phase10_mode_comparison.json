@@ -6,7 +6,6 @@
       "confidence": 0.93,
       "exclusions": [],
       "modifiers": [
-        "abdominal pain",
         "abdominal pain nonspecific reassuring workup"
       ],
       "fallback_reason": "phenotype_not_clinician_reviewed"
@@ -29,9 +28,9 @@
         "follow_up": true
       },
       "source_support": {
-        "source_supported": false,
-        "source_needed": true,
-        "review_status": "draft"
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "needs_review"
       }
     },
     "ontology": {
@@ -39,9 +38,9 @@
       "unsafe_med_advice": 0,
       "unsupported_certainty": 0,
       "reading_level_proxy": {
-        "word_count": 130,
-        "avg_sentence_words": 10.8,
-        "long_word_ratio": 0.185
+        "word_count": 147,
+        "avg_sentence_words": 12.2,
+        "long_word_ratio": 0.19
       },
       "section_completeness": {
         "diagnosis": true,
@@ -52,13 +51,13 @@
         "follow_up": true
       },
       "source_support": {
-        "source_supported": false,
-        "source_needed": true,
-        "review_status": "draft"
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "needs_review"
       }
     },
     "clinician_review_target": {
-      "status": "draft",
+      "status": "needs_review",
       "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
     },
     "modifier_handling": {
@@ -67,7 +66,11 @@
         "elderly",
         "immunocompromised",
         "peritoneal_signs",
-        "uncontrolled_vomiting"
+        "uncontrolled_vomiting",
+        "fever",
+        "gi_bleeding",
+        "sepsis",
+        "unstable_vitals"
       ],
       "fallback_reason": "phenotype_not_clinician_reviewed"
     }
@@ -474,9 +477,9 @@
         "follow_up": true
       },
       "source_support": {
-        "source_supported": false,
-        "source_needed": true,
-        "review_status": "draft"
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "retired"
       }
     },
     "ontology": {
@@ -497,13 +500,13 @@
         "follow_up": true
       },
       "source_support": {
-        "source_supported": false,
-        "source_needed": true,
-        "review_status": "draft"
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "retired"
       }
     },
     "clinician_review_target": {
-      "status": "draft",
+      "status": "retired",
       "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
     },
     "modifier_handling": {

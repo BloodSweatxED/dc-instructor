@@ -6,6 +6,7 @@
       "phenotype_id": "ankle_sprain_xray_negative",
       "confidence": 0.93,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "ankle sprain",
         "ankle sprain xray negative"
@@ -20,6 +21,7 @@
       "phenotype_id": "ankle_sprain_xray_negative",
       "confidence": 0.93,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "ankle sprain",
         "ankle sprain xray negative"
@@ -36,6 +38,7 @@
       "exclusions": [
         "neurovascular_compromise"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "ankle sprain",
         "ankle sprain xray negative"
@@ -52,6 +55,7 @@
       "exclusions": [
         "open_wound"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "ankle sprain",
         "ankle sprain xray negative"
@@ -68,6 +72,7 @@
       "exclusions": [
         "fracture_seen"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "ankle sprain",
         "ankle sprain xray negative"
@@ -84,6 +89,7 @@
       "exclusions": [
         "no_xray_performed"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "ankle sprain"
       ],
@@ -97,6 +103,7 @@
       "phenotype_id": null,
       "confidence": 0.0,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
@@ -108,6 +115,7 @@
       "phenotype_id": "asthma_exacerbation_improved_discharge",
       "confidence": 0.93,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "asthma",
         "asthma exacerbation improved discharge",
@@ -125,6 +133,7 @@
       "exclusions": [
         "hypoxia"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "asthma",
         "asthma exacerbation improved discharge"
@@ -141,6 +150,7 @@
       "exclusions": [
         "poor_inhaler_access"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "asthma",
         "asthma exacerbation improved discharge"
@@ -157,6 +167,7 @@
       "exclusions": [
         "respiratory_distress"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "asthma",
         "asthma exacerbation improved discharge"
@@ -169,10 +180,10 @@
     "passed": true,
     "result": {
       "phenotype_id": "asthma_exacerbation_improved_discharge",
-      "confidence": 0.65,
+      "confidence": 0.608,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
-        "asthma",
         "wheezing"
       ],
       "fallback_reason": "low_confidence"
@@ -183,10 +194,10 @@
     "passed": true,
     "result": {
       "phenotype_id": "asthma_exacerbation_improved_discharge",
-      "confidence": 0.65,
+      "confidence": 0.608,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
-        "asthma",
         "wheezing"
       ],
       "fallback_reason": "low_confidence"
@@ -202,6 +213,7 @@
         "chest_pain",
         "frequent_relapse"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "asthma",
         "asthma exacerbation improved discharge"
@@ -218,6 +230,7 @@
       "exclusions": [
         "poor_inhaler_access"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "asthma",
         "asthma exacerbation improved discharge"
@@ -232,6 +245,7 @@
       "phenotype_id": "community_acquired_pneumonia_outpatient",
       "confidence": 0.93,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "community acquired pneumonia",
         "community acquired pneumonia outpatient",
@@ -250,6 +264,7 @@
       "exclusions": [
         "hypoxia"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "community acquired pneumonia",
         "community acquired pneumonia outpatient",
@@ -268,6 +283,7 @@
       "exclusions": [
         "immunocompromised"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "community acquired pneumonia",
         "community acquired pneumonia outpatient",
@@ -286,6 +302,7 @@
       "exclusions": [
         "sepsis"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "community acquired pneumonia",
         "community acquired pneumonia outpatient",
@@ -299,26 +316,24 @@
     "case_id": "phase14_pneumonia_vague_cough_fallback",
     "passed": true,
     "result": {
-      "phenotype_id": "community_acquired_pneumonia_outpatient",
-      "confidence": 0.6,
+      "phenotype_id": null,
+      "confidence": 0.0,
       "exclusions": [],
-      "modifiers": [
-        "pneumonia"
-      ],
-      "fallback_reason": "low_confidence"
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
     }
   },
   {
     "case_id": "phase14_pneumonia_near_miss_bronchitis_fallback",
     "passed": true,
     "result": {
-      "phenotype_id": "community_acquired_pneumonia_outpatient",
-      "confidence": 0.6,
+      "phenotype_id": null,
+      "confidence": 0.0,
       "exclusions": [],
-      "modifiers": [
-        "pneumonia"
-      ],
-      "fallback_reason": "low_confidence"
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
     }
   },
   {
@@ -332,6 +347,7 @@
         "poor_follow_up",
         "vomiting_unable_to_take_meds"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "community acquired pneumonia",
         "community acquired pneumonia outpatient",
@@ -350,6 +366,7 @@
       "exclusions": [
         "vomiting_unable_to_take_meds"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "community acquired pneumonia",
         "community acquired pneumonia outpatient",
@@ -366,6 +383,7 @@
       "phenotype_id": "minor_head_injury_no_red_flags",
       "confidence": 0.93,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "head injury",
         "minor head injury",
@@ -383,6 +401,7 @@
       "exclusions": [
         "anticoagulated"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "head injury",
         "minor head injury",
@@ -400,6 +419,7 @@
       "exclusions": [
         "loss_of_consciousness"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "head injury",
         "minor head injury",
@@ -417,6 +437,7 @@
       "exclusions": [
         "neurologic_deficit"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "head injury",
         "minor head injury",
@@ -432,6 +453,7 @@
       "phenotype_id": null,
       "confidence": 0.0,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
@@ -440,13 +462,12 @@
     "case_id": "phase14_minor_head_near_miss_syncope_fallback",
     "passed": true,
     "result": {
-      "phenotype_id": "minor_head_injury_no_red_flags",
-      "confidence": 0.62,
+      "phenotype_id": null,
+      "confidence": 0.0,
       "exclusions": [],
-      "modifiers": [
-        "head injury"
-      ],
-      "fallback_reason": "low_confidence"
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
     }
   },
   {
@@ -459,6 +480,7 @@
         "intoxication",
         "persistent_vomiting"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "head injury",
         "minor head injury",
@@ -476,6 +498,7 @@
       "exclusions": [
         "skull_fracture_concern"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "head injury",
         "minor head injury",
@@ -491,6 +514,7 @@
       "phenotype_id": "concussion_discharge_no_imaging_red_flags",
       "confidence": 0.93,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "concussion",
         "concussion discharge no imaging red flags",
@@ -508,6 +532,7 @@
       "exclusions": [
         "athlete_return_to_play"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "concussion",
         "concussion discharge no imaging red flags"
@@ -524,6 +549,7 @@
       "exclusions": [
         "anticoagulated"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "concussion",
         "concussion discharge no imaging red flags"
@@ -540,6 +566,7 @@
       "exclusions": [
         "neurologic_deficit"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "concussion",
         "concussion discharge no imaging red flags"
@@ -551,28 +578,24 @@
     "case_id": "phase14_concussion_vague_fallback",
     "passed": true,
     "result": {
-      "phenotype_id": "concussion_discharge_no_imaging_red_flags",
-      "confidence": 0.667,
+      "phenotype_id": null,
+      "confidence": 0.0,
       "exclusions": [],
-      "modifiers": [
-        "concussion",
-        "head injury"
-      ],
-      "fallback_reason": "low_confidence"
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
     }
   },
   {
     "case_id": "phase14_concussion_near_miss_migraine_fallback",
     "passed": true,
     "result": {
-      "phenotype_id": "concussion_discharge_no_imaging_red_flags",
-      "confidence": 0.667,
+      "phenotype_id": null,
+      "confidence": 0.0,
       "exclusions": [],
-      "modifiers": [
-        "concussion",
-        "head injury"
-      ],
-      "fallback_reason": "low_confidence"
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
     }
   },
   {
@@ -584,6 +607,7 @@
       "exclusions": [
         "persistent_vomiting"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "concussion",
         "concussion discharge no imaging red flags"
@@ -600,6 +624,7 @@
       "exclusions": [
         "athlete_return_to_play"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "concussion",
         "concussion discharge no imaging red flags"
@@ -614,6 +639,7 @@
       "phenotype_id": "renal_colic_stable_no_infection",
       "confidence": 0.93,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "renal colic",
         "renal colic stable no infection"
@@ -630,8 +656,8 @@
       "exclusions": [
         "fever"
       ],
+      "missing_required_context": [],
       "modifiers": [
-        "kidney stone",
         "renal colic",
         "renal colic stable no infection"
       ],
@@ -647,6 +673,7 @@
       "exclusions": [
         "solitary_kidney"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "renal colic",
         "renal colic stable no infection"
@@ -663,6 +690,7 @@
       "exclusions": [
         "renal_failure"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "renal colic",
         "renal colic stable no infection"
@@ -677,6 +705,7 @@
       "phenotype_id": null,
       "confidence": 0.0,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
@@ -685,13 +714,17 @@
     "case_id": "phase14_renal_colic_near_miss_pyelo_fallback",
     "passed": true,
     "result": {
-      "phenotype_id": "renal_colic_stable_no_infection",
-      "confidence": 0.608,
-      "exclusions": [],
-      "modifiers": [
-        "kidney stone"
+      "phenotype_id": "uncomplicated_cystitis_nonpregnant",
+      "confidence": 0.444,
+      "exclusions": [
+        "flank_pain",
+        "pyelonephritis"
       ],
-      "fallback_reason": "low_confidence"
+      "missing_required_context": [],
+      "modifiers": [
+        "urinary infection"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
     }
   },
   {
@@ -704,6 +737,7 @@
         "uncontrolled_pain",
         "vomiting_unable_to_take_meds"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "renal colic",
         "renal colic stable no infection"
@@ -720,6 +754,7 @@
       "exclusions": [
         "vomiting_unable_to_take_meds"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "renal colic",
         "renal colic stable no infection"
@@ -736,6 +771,7 @@
       "exclusions": [
         "fracture_seen"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "ankle sprain",
         "ankle sprain xray negative"
@@ -752,6 +788,7 @@
       "exclusions": [
         "pregnancy"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "lumbar strain",
         "lumbar strain no red flags"
@@ -768,6 +805,7 @@
       "exclusions": [
         "pneumonia"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "uri no pneumonia",
         "viral uri",
@@ -786,6 +824,7 @@
         "fever",
         "flank_pain"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "cystitis",
         "uncomplicated cystitis",
@@ -803,6 +842,7 @@
       "exclusions": [
         "unable_to_tolerate_oral_fluids"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "gastroenteritis",
         "gastroenteritis stable hydrating"
@@ -819,6 +859,7 @@
       "exclusions": [
         "near_eye_or_genitals"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "cellulitis",
         "cellulitis uncomplicated oral antibiotics"
@@ -835,6 +876,7 @@
       "exclusions": [
         "sepsis"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "abscess after i and d",
         "abscess drained",
@@ -852,6 +894,7 @@
       "exclusions": [
         "open_fracture"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "laceration repair",
         "laceration repaired simple",
@@ -869,6 +912,7 @@
       "exclusions": [
         "positive_strep_test"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "strep negative",
         "viral pharyngitis",
@@ -886,6 +930,7 @@
       "exclusions": [
         "airway_symptoms"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "dental pain",
         "dental pain no deep space infection"
@@ -903,6 +948,7 @@
         "epinephrine_given",
         "hypotension"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "allergic reaction",
         "allergic reaction resolved no anaphylaxis"
@@ -917,6 +963,7 @@
       "phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
       "confidence": 0.6,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "allergic reaction"
       ],
@@ -927,26 +974,24 @@
     "case_id": "phase14_vague_abdominal_pain_draft_fallback",
     "passed": true,
     "result": {
-      "phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
-      "confidence": 0.608,
+      "phenotype_id": null,
+      "confidence": 0.0,
       "exclusions": [],
-      "modifiers": [
-        "abdominal pain"
-      ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
     }
   },
   {
     "case_id": "phase14_vague_chest_pain_draft_fallback",
     "passed": true,
     "result": {
-      "phenotype_id": "chest_pain_low_risk_negative_ed_workup",
-      "confidence": 0.608,
+      "phenotype_id": null,
+      "confidence": 0.0,
       "exclusions": [],
-      "modifiers": [
-        "chest pain"
-      ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
     }
   },
   {
@@ -954,11 +999,11 @@
     "passed": true,
     "result": {
       "phenotype_id": "community_acquired_pneumonia_outpatient",
-      "confidence": 0.65,
+      "confidence": 0.6,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
-        "lung infection",
-        "pneumonia"
+        "lung infection"
       ],
       "fallback_reason": "low_confidence"
     }
@@ -970,6 +1015,7 @@
       "phenotype_id": "minor_head_injury_no_red_flags",
       "confidence": 0.62,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "hit head"
       ],
@@ -981,8 +1027,9 @@
     "passed": true,
     "result": {
       "phenotype_id": "renal_colic_stable_no_infection",
-      "confidence": 0.608,
+      "confidence": 0.62,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "kidney stone"
       ],
@@ -996,6 +1043,7 @@
       "phenotype_id": "community_acquired_pneumonia_outpatient",
       "confidence": 0.93,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "community acquired pneumonia",
         "community acquired pneumonia outpatient",
@@ -1014,9 +1062,2296 @@
       "exclusions": [
         "athlete_return_to_play"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "concussion",
         "concussion discharge no imaging red flags"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase151_broad_headache_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase151_broad_severe_headache_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase151_broad_ear_pain_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase151_broad_ear_drainage_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase151_broad_bleeding_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase151_broad_nasal_bleeding_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase151_broad_red_eye_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase151_broad_eye_discharge_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase151_broad_abdominal_pain_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase151_broad_belly_pain_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase151_broad_chest_pain_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase151_broad_cough_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase151_broad_dizziness_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_abscess_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "abscess_after_i_and_d",
+      "confidence": 0.78,
+      "exclusions": [
+        "necrotizing_infection_concern",
+        "sepsis"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "abscess after i and d",
+        "i and d"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_abscess_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_allergy_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "hypotension"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "allergic reaction",
+        "allergic reaction resolved no anaphylaxis"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_allergy_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_ankle_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "ankle_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "fracture_seen"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "ankle sprain",
+        "ankle sprain xray negative"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_ankle_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_asthma_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "asthma_exacerbation_improved_discharge",
+      "confidence": 0.78,
+      "exclusions": [
+        "poor_inhaler_access"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "asthma",
+        "asthma exacerbation improved discharge",
+        "wheezing"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_asthma_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "asthma_exacerbation_improved_discharge",
+      "confidence": 0.608,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "wheezing"
+      ],
+      "fallback_reason": "low_confidence"
+    }
+  },
+  {
+    "case_id": "phase20_cellulitis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
+      "confidence": 0.78,
+      "exclusions": [
+        "necrotizing_infection_concern",
+        "rapid_progression"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "cellulitis",
+        "cellulitis uncomplicated oral antibiotics"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_cellulitis_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_pneumonia_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "community_acquired_pneumonia_outpatient",
+      "confidence": 0.78,
+      "exclusions": [
+        "hypoxia"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "community acquired pneumonia",
+        "community acquired pneumonia outpatient",
+        "pneumonia",
+        "pneumonia outpatient"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_pneumonia_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_concussion_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "concussion_discharge_no_imaging_red_flags",
+      "confidence": 0.78,
+      "exclusions": [
+        "anticoagulated",
+        "neurologic_deficit"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "concussion",
+        "concussion discharge no imaging red flags"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_concussion_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "concussion_discharge_no_imaging_red_flags",
+      "confidence": 0.608,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "concussion"
+      ],
+      "fallback_reason": "low_confidence"
+    }
+  },
+  {
+    "case_id": "phase20_dental_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "dental_pain_no_deep_space_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "deep_space_swelling",
+        "trismus"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "dental pain",
+        "dental pain no deep space infection"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_dental_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_gastro_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "gastroenteritis_stable_hydrating",
+      "confidence": 0.78,
+      "exclusions": [
+        "gi_bleeding",
+        "unable_to_tolerate_oral_fluids"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "gastroenteritis",
+        "gastroenteritis stable hydrating"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_gastro_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_laceration_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "laceration_repaired_simple",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound",
+        "hand_tendon_risk"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "laceration repair",
+        "laceration repaired simple"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_laceration_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_lumbar_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "lumbar_strain_no_red_flags",
+      "confidence": 0.78,
+      "exclusions": [
+        "cauda_equina_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "lumbar strain",
+        "lumbar strain no red flags"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_lumbar_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_minor_head_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "minor_head_injury_no_red_flags",
+      "confidence": 0.78,
+      "exclusions": [
+        "anticoagulated",
+        "persistent_vomiting"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "head injury",
+        "minor head injury",
+        "minor head injury no red flags"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_minor_head_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_renal_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "renal_colic_stable_no_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "fever",
+        "vomiting_unable_to_take_meds"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "renal colic",
+        "renal colic stable no infection"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_renal_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_cystitis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "uncomplicated_cystitis_nonpregnant",
+      "confidence": 0.78,
+      "exclusions": [
+        "flank_pain",
+        "pregnancy",
+        "vomiting_unable_to_take_meds"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "cystitis",
+        "uncomplicated cystitis",
+        "uncomplicated cystitis nonpregnant",
+        "uti"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_cystitis_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_pharyngitis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "viral_pharyngitis_strep_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "positive_strep_test"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "strep negative",
+        "viral pharyngitis",
+        "viral pharyngitis strep negative"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_pharyngitis_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_uri_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "viral_uri_no_pneumonia",
+      "confidence": 0.78,
+      "exclusions": [
+        "bacterial_infection_suspected",
+        "pneumonia"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "uri no pneumonia",
+        "viral uri",
+        "viral uri no pneumonia"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_uri_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_abdominal_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
+      "confidence": 0.78,
+      "exclusions": [
+        "fever",
+        "peritoneal_signs",
+        "poor_follow_up"
+      ],
+      "missing_required_context": [
+        "clinician_directed_recheck_plan"
+      ],
+      "modifiers": [
+        "abdominal pain recheck"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_abdominal_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_bronchitis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_bronchitis_no_pneumonia",
+      "confidence": 0.78,
+      "exclusions": [
+        "focal_lung_findings_or_infiltrate",
+        "hypoxia",
+        "respiratory_distress"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute bronchitis",
+        "acute bronchitis no pneumonia"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_bronchitis_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_sinusitis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_sinusitis_supportive_care",
+      "confidence": 0.78,
+      "exclusions": [
+        "antibiotic_prescribed_for_sinusitis",
+        "orbital_or_intracranial_sinusitis_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute sinusitis",
+        "acute sinusitis supportive care"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_sinusitis_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_med_sensitive_asthma_access_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "asthma_exacerbation_improved_discharge",
+      "confidence": 0.78,
+      "exclusions": [
+        "poor_inhaler_access"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "asthma",
+        "asthma exacerbation improved discharge"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_med_sensitive_cystitis_vomiting_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "uncomplicated_cystitis_nonpregnant",
+      "confidence": 0.78,
+      "exclusions": [
+        "vomiting_unable_to_take_meds"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "cystitis",
+        "uncomplicated cystitis",
+        "uncomplicated cystitis nonpregnant"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_med_sensitive_gastro_recent_antibiotics_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "gastroenteritis_stable_hydrating",
+      "confidence": 0.78,
+      "exclusions": [
+        "c_diff_risk"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "gastroenteritis",
+        "gastroenteritis stable hydrating"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_med_sensitive_pneumonia_vomiting_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "community_acquired_pneumonia_outpatient",
+      "confidence": 0.78,
+      "exclusions": [
+        "vomiting_unable_to_take_meds"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "community acquired pneumonia",
+        "community acquired pneumonia outpatient",
+        "pneumonia",
+        "pneumonia outpatient"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_med_sensitive_renal_colic_vomiting_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "renal_colic_stable_no_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "vomiting_unable_to_take_meds"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "renal colic",
+        "renal colic stable no infection"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_med_sensitive_uri_antibiotic_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "viral_uri_no_pneumonia",
+      "confidence": 0.78,
+      "exclusions": [
+        "antibiotic_prescribed",
+        "bacterial_infection_suspected"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "uri no pneumonia",
+        "viral uri",
+        "viral uri no pneumonia"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_netlify_smoke_pneumonia_ruled_out_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_netlify_smoke_cystitis_denied_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase23_abdominal_recheck_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "abdominal pain recheck"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase26_abdominal_reassuring_no_recheck_plan_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
+      "confidence": 0.608,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_directed_recheck_plan"
+      ],
+      "modifiers": [
+        "abdominal pain reassuring evaluation"
+      ],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase26_abdominal_unreliable_followup_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
+      "confidence": 0.78,
+      "exclusions": [
+        "poor_follow_up"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "abdominal pain recheck"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase23_abdominal_fever_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
+      "confidence": 0.458,
+      "exclusions": [
+        "fever"
+      ],
+      "missing_required_context": [
+        "clinician_directed_recheck_plan"
+      ],
+      "modifiers": [
+        "abdominal pain reassuring evaluation"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase23_abdominal_gi_bleed_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
+      "confidence": 0.458,
+      "exclusions": [
+        "gi_bleeding"
+      ],
+      "missing_required_context": [
+        "clinician_directed_recheck_plan"
+      ],
+      "modifiers": [
+        "abdominal pain reassuring evaluation"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase23_abdominal_pregnancy_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
+      "confidence": 0.458,
+      "exclusions": [
+        "pregnancy"
+      ],
+      "missing_required_context": [
+        "clinician_directed_recheck_plan"
+      ],
+      "modifiers": [
+        "abdominal pain reassuring evaluation"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase23_abdominal_peritoneal_signs_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
+      "confidence": 0.458,
+      "exclusions": [
+        "peritoneal_signs"
+      ],
+      "missing_required_context": [
+        "clinician_directed_recheck_plan"
+      ],
+      "modifiers": [
+        "abdominal pain reassuring evaluation"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase23_abdominal_vague_belly_pain_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase31_acute_bronchitis_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_bronchitis_no_pneumonia",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute bronchitis",
+        "acute bronchitis no pneumonia",
+        "chest cold"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase31_acute_bronchitis_pneumonia_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_bronchitis_no_pneumonia",
+      "confidence": 0.78,
+      "exclusions": [
+        "focal_lung_findings_or_infiltrate",
+        "pneumonia"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute bronchitis",
+        "acute bronchitis no pneumonia"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase31_acute_bronchitis_hypoxia_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_bronchitis_no_pneumonia",
+      "confidence": 0.78,
+      "exclusions": [
+        "hypoxia"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute bronchitis",
+        "acute bronchitis no pneumonia"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase31_acute_bronchitis_respiratory_distress_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_bronchitis_no_pneumonia",
+      "confidence": 0.78,
+      "exclusions": [
+        "respiratory_distress"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute bronchitis",
+        "acute bronchitis no pneumonia"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase31_acute_bronchitis_copd_asthma_overlap_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_bronchitis_no_pneumonia",
+      "confidence": 0.78,
+      "exclusions": [
+        "copd_or_asthma_exacerbation_pathway"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute bronchitis",
+        "acute bronchitis no pneumonia"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase31_acute_bronchitis_bacterial_antibiotic_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_bronchitis_no_pneumonia",
+      "confidence": 0.78,
+      "exclusions": [
+        "antibiotic_prescribed_for_suspected_bacterial_infection"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute bronchitis",
+        "acute bronchitis no pneumonia"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase31_acute_bronchitis_vague_cough_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase32_acute_bronchitis_clean_chest_cold",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_bronchitis_no_pneumonia",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "chest cold"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase32_acute_bronchitis_hemoptysis_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_bronchitis_no_pneumonia",
+      "confidence": 0.78,
+      "exclusions": [
+        "hemoptysis"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute bronchitis"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase32_acute_bronchitis_pe_chest_pain_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_bronchitis_no_pneumonia",
+      "confidence": 0.78,
+      "exclusions": [
+        "cardiac_or_pe_chest_pain_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute bronchitis"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase32_acute_bronchitis_immunocompromised_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_bronchitis_no_pneumonia",
+      "confidence": 0.78,
+      "exclusions": [
+        "immunocompromised"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "viral bronchitis"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase32_acute_bronchitis_elderly_frail_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_bronchitis_no_pneumonia",
+      "confidence": 0.78,
+      "exclusions": [
+        "elderly_frail"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute bronchitis"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase32_acute_bronchitis_sepsis_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_bronchitis_no_pneumonia",
+      "confidence": 0.78,
+      "exclusions": [
+        "sepsis"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute bronchitis"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase32_acute_bronchitis_unstable_vitals_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_bronchitis_no_pneumonia",
+      "confidence": 0.78,
+      "exclusions": [
+        "unstable_vitals"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute bronchitis"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase38_sinusitis_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_sinusitis_supportive_care",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute sinusitis",
+        "acute sinusitis supportive care"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase38_sinusitis_antibiotic_prescribed_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_sinusitis_supportive_care",
+      "confidence": 0.78,
+      "exclusions": [
+        "antibiotic_prescribed_for_sinusitis"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute sinusitis",
+        "acute sinusitis supportive care"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase38_sinusitis_severe_bacterial_features_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_sinusitis_supportive_care",
+      "confidence": 0.78,
+      "exclusions": [
+        "severe_bacterial_sinusitis_features"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute sinusitis",
+        "acute sinusitis supportive care"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase38_sinusitis_orbital_concern_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_sinusitis_supportive_care",
+      "confidence": 0.78,
+      "exclusions": [
+        "orbital_or_intracranial_sinusitis_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "sinus infection",
+        "sinus infection supportive care"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase38_sinusitis_vague_congestion_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase39_sinusitis_chronic_recurrent_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_sinusitis_supportive_care",
+      "confidence": 0.78,
+      "exclusions": [
+        "chronic_or_recurrent_sinusitis"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute sinusitis",
+        "acute sinusitis supportive care",
+        "sinus infection"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase39_sinusitis_dental_source_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_sinusitis_supportive_care",
+      "confidence": 0.78,
+      "exclusions": [
+        "dental_or_facial_trauma_source"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "sinus infection",
+        "sinus infection supportive care"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase39_sinusitis_immunocompromised_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_sinusitis_supportive_care",
+      "confidence": 0.78,
+      "exclusions": [
+        "immunocompromised"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute sinusitis",
+        "acute sinusitis supportive care"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase39_sinusitis_pregnancy_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_sinusitis_supportive_care",
+      "confidence": 0.78,
+      "exclusions": [
+        "pregnancy"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "sinus infection",
+        "sinus infection supportive care"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase39_sinusitis_sepsis_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_sinusitis_supportive_care",
+      "confidence": 0.78,
+      "exclusions": [
+        "sepsis"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute sinusitis",
+        "acute sinusitis supportive care"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase43_sinusitis_clean_sinus_infection",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_sinusitis_supportive_care",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "sinus infection",
+        "sinus infection supportive care"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase43_sinusitis_facial_pain_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase43_sinusitis_double_worsening_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_sinusitis_supportive_care",
+      "confidence": 0.78,
+      "exclusions": [
+        "severe_bacterial_sinusitis_features"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute sinusitis",
+        "acute sinusitis supportive care"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase47_conjunctivitis_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "conjunctivitis uncomplicated"
+      ],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "case_id": "phase47_conjunctivitis_contact_lens_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+      "confidence": 0.78,
+      "exclusions": [
+        "contact_lens_use"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "conjunctivitis uncomplicated"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase47_conjunctivitis_vision_change_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+      "confidence": 0.78,
+      "exclusions": [
+        "vision_change"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "pink eye uncomplicated"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase47_conjunctivitis_photophobia_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+      "confidence": 0.78,
+      "exclusions": [
+        "photophobia"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "conjunctivitis no contact lens"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase47_conjunctivitis_vague_red_eye_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase48_conjunctivitis_eye_trauma_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+      "confidence": 0.78,
+      "exclusions": [
+        "eye_trauma_or_foreign_body"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "pink eye no contact lens"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase48_conjunctivitis_severe_pain_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+      "confidence": 0.78,
+      "exclusions": [
+        "severe_eye_pain"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "conjunctivitis uncomplicated"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase48_conjunctivitis_herpes_zoster_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+      "confidence": 0.78,
+      "exclusions": [
+        "herpes_or_zoster_eye_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "pink eye uncomplicated"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase48_conjunctivitis_cellulitis_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+      "confidence": 0.78,
+      "exclusions": [
+        "periorbital_or_orbital_cellulitis_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "conjunctivitis no contact lens"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase48_conjunctivitis_pregnancy_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+      "confidence": 0.78,
+      "exclusions": [
+        "pregnancy"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "conjunctivitis uncomplicated"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase52_conjunctivitis_chemical_exposure_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+      "confidence": 0.78,
+      "exclusions": [
+        "chemical_eye_exposure",
+        "eye_trauma_or_foreign_body"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "conjunctivitis uncomplicated"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase52_conjunctivitis_keratitis_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+      "confidence": 0.78,
+      "exclusions": [
+        "corneal_ulcer_or_keratitis_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "pink eye uncomplicated"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase52_conjunctivitis_acute_glaucoma_mimic_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+      "confidence": 0.78,
+      "exclusions": [
+        "acute_glaucoma_mimic",
+        "severe_eye_pain"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "conjunctivitis no contact lens"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase52_conjunctivitis_broad_itchy_eye_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase52_conjunctivitis_broad_eye_discharge_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase58_otitis_externa_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "otitis_externa_no_mastoiditis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "otitis externa uncomplicated"
+      ],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "case_id": "phase58_otitis_externa_broad_ear_pain_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase58_otitis_externa_broad_ear_drainage_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase59_otitis_externa_swimmers_ear_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "otitis_externa_no_mastoiditis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "swimmer's ear uncomplicated"
+      ],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "case_id": "phase59_otitis_externa_mastoiditis_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "otitis_externa_no_mastoiditis",
+      "confidence": 0.78,
+      "exclusions": [
+        "mastoiditis_or_deep_ear_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "otitis externa uncomplicated"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase59_otitis_externa_diabetes_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "otitis_externa_no_mastoiditis",
+      "confidence": 0.78,
+      "exclusions": [
+        "malignant_otitis_externa_risk"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "otitis externa no mastoiditis"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase59_otitis_externa_perforation_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "otitis_externa_no_mastoiditis",
+      "confidence": 0.78,
+      "exclusions": [
+        "tympanic_membrane_perforation_or_tube"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "swimmers ear uncomplicated"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase59_otitis_externa_foreign_body_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "otitis_externa_no_mastoiditis",
+      "confidence": 0.78,
+      "exclusions": [
+        "ear_trauma_or_foreign_body"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "otitis externa uncomplicated"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase59_otitis_externa_hearing_loss_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "otitis_externa_no_mastoiditis",
+      "confidence": 0.78,
+      "exclusions": [
+        "acute_hearing_loss"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "otitis externa no mastoiditis"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase59_otitis_externa_facial_weakness_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "otitis_externa_no_mastoiditis",
+      "confidence": 0.78,
+      "exclusions": [
+        "facial_weakness_or_neurologic_ear_sign"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "swimmer's ear uncomplicated"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase62_otitis_externa_fever_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "otitis_externa_no_mastoiditis",
+      "confidence": 0.78,
+      "exclusions": [
+        "fever"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "otitis externa uncomplicated"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase62_otitis_externa_immunocompromised_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "otitis_externa_no_mastoiditis",
+      "confidence": 0.78,
+      "exclusions": [
+        "immunocompromised",
+        "malignant_otitis_externa_risk"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "swimmer's ear uncomplicated"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase62_otitis_externa_unstable_vitals_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "otitis_externa_no_mastoiditis",
+      "confidence": 0.78,
+      "exclusions": [
+        "unstable_vitals"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "otitis externa no mastoiditis"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase68_epistaxis_clean_retired_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "epistaxis_resolved_no_posterior_bleed",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "epistaxis resolved"
+      ],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "case_id": "phase68_epistaxis_broad_nasal_bleeding_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase68_epistaxis_broad_bleeding_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase69_epistaxis_posterior_bleed_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "epistaxis_resolved_no_posterior_bleed",
+      "confidence": 0.78,
+      "exclusions": [
+        "posterior_epistaxis_or_uncontrolled_bleeding"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "nosebleed resolved"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase69_epistaxis_anticoagulated_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "epistaxis_resolved_no_posterior_bleed",
+      "confidence": 0.78,
+      "exclusions": [
+        "anticoagulated"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "epistaxis resolved",
+        "epistaxis resolved no posterior bleed"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase69_epistaxis_bleeding_disorder_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "epistaxis_resolved_no_posterior_bleed",
+      "confidence": 0.78,
+      "exclusions": [
+        "bleeding_disorder"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "epistaxis resolved"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase69_epistaxis_facial_trauma_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "epistaxis_resolved_no_posterior_bleed",
+      "confidence": 0.78,
+      "exclusions": [
+        "facial_or_nasal_trauma"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "nosebleed resolved"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase69_epistaxis_airway_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "epistaxis_resolved_no_posterior_bleed",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "epistaxis resolved"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase69_epistaxis_syncope_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "epistaxis_resolved_no_posterior_bleed",
+      "confidence": 0.78,
+      "exclusions": [
+        "syncope"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "epistaxis resolved",
+        "epistaxis resolved no posterior bleed"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase74_migraine_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "migraine_improved_discharge",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "migraine improved",
+        "migraine improved discharge"
+      ],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "case_id": "phase74_migraine_missing_improvement_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "migraine_improved_discharge",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "documented_clinical_improvement"
+      ],
+      "modifiers": [
+        "migraine improved",
+        "migraine improved discharge"
+      ],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase74_migraine_missing_red_flags_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "migraine_improved_discharge",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "structured_red_flags_absent"
+      ],
+      "modifiers": [
+        "migraine improved",
+        "migraine improved discharge"
+      ],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase74_migraine_broad_headache_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase74_migraine_broad_severe_headache_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase75_migraine_thunderclap_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "migraine_improved_discharge",
+      "confidence": 0.78,
+      "exclusions": [
+        "thunderclap_or_sah_concern"
+      ],
+      "missing_required_context": [
+        "documented_clinical_improvement",
+        "structured_red_flags_absent"
+      ],
+      "modifiers": [
+        "migraine improved"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase75_migraine_neurologic_deficit_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "migraine_improved_discharge",
+      "confidence": 0.78,
+      "exclusions": [
+        "neurologic_deficit"
+      ],
+      "missing_required_context": [
+        "documented_clinical_improvement",
+        "structured_red_flags_absent"
+      ],
+      "modifiers": [
+        "migraine headache improved"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase75_migraine_meningitis_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "migraine_improved_discharge",
+      "confidence": 0.78,
+      "exclusions": [
+        "meningitis_or_cns_infection_concern"
+      ],
+      "missing_required_context": [
+        "documented_clinical_improvement",
+        "structured_red_flags_absent"
+      ],
+      "modifiers": [
+        "migraine improved",
+        "migraine improved discharge"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase75_migraine_head_trauma_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "migraine_improved_discharge",
+      "confidence": 0.78,
+      "exclusions": [
+        "fracture_or_trauma_concern"
+      ],
+      "missing_required_context": [
+        "documented_clinical_improvement",
+        "structured_red_flags_absent"
+      ],
+      "modifiers": [
+        "migraine improved"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase75_migraine_pregnancy_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "migraine_improved_discharge",
+      "confidence": 0.78,
+      "exclusions": [
+        "pregnancy"
+      ],
+      "missing_required_context": [
+        "documented_clinical_improvement",
+        "structured_red_flags_absent"
+      ],
+      "modifiers": [
+        "migraine headache improved"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase75_migraine_age_over_50_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "migraine_improved_discharge",
+      "confidence": 0.78,
+      "exclusions": [
+        "age_over_50_new_headache"
+      ],
+      "missing_required_context": [
+        "documented_clinical_improvement",
+        "structured_red_flags_absent"
+      ],
+      "modifiers": [
+        "migraine improved",
+        "migraine improved discharge"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase75_migraine_uncontrolled_vomiting_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "migraine_improved_discharge",
+      "confidence": 0.78,
+      "exclusions": [
+        "uncontrolled_vomiting"
+      ],
+      "missing_required_context": [
+        "documented_clinical_improvement",
+        "structured_red_flags_absent"
+      ],
+      "modifiers": [
+        "migraine improved"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase75_migraine_altered_mental_status_not_resolved_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "migraine_improved_discharge",
+      "confidence": 0.78,
+      "exclusions": [
+        "altered_mental_status_not_resolved"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "migraine improved"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase75_migraine_first_lifetime_severe_headache_soft_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "migraine_improved_discharge",
+      "confidence": 0.78,
+      "exclusions": [
+        "first_lifetime_severe_headache"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "migraine improved"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase75_migraine_ct_not_performed_with_concern_soft_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "migraine_improved_discharge",
+      "confidence": 0.78,
+      "exclusions": [
+        "ct_not_performed_with_headache_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "migraine improved"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase77_migraine_immunocompromised_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "migraine_improved_discharge",
+      "confidence": 0.78,
+      "exclusions": [
+        "immunocompromised"
+      ],
+      "missing_required_context": [
+        "documented_clinical_improvement",
+        "structured_red_flags_absent"
+      ],
+      "modifiers": [
+        "migraine improved",
+        "migraine improved discharge"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase77_migraine_unstable_vitals_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "migraine_improved_discharge",
+      "confidence": 0.78,
+      "exclusions": [
+        "unstable_vitals"
+      ],
+      "missing_required_context": [
+        "documented_clinical_improvement",
+        "structured_red_flags_absent"
+      ],
+      "modifiers": [
+        "migraine headache improved"
       ],
       "fallback_reason": "unsafe_modifier_present"
     }
@@ -1028,10 +3363,10 @@
       "phenotype_id": "lumbar_strain_no_red_flags",
       "confidence": 0.93,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "lumbar strain",
-        "lumbar strain no red flags",
-        "mechanical low back pain"
+        "lumbar strain no red flags"
       ],
       "fallback_reason": null
     }
@@ -1045,6 +3380,7 @@
       "exclusions": [
         "cauda_equina_concern"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "lumbar strain",
         "lumbar strain no red flags"
@@ -1062,6 +3398,7 @@
         "fever",
         "spinal_infection_concern"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "lumbar strain",
         "lumbar strain no red flags"
@@ -1076,6 +3413,7 @@
       "phenotype_id": null,
       "confidence": 0.0,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
@@ -1087,6 +3425,7 @@
       "phenotype_id": "viral_uri_no_pneumonia",
       "confidence": 0.93,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "uri no pneumonia",
         "viral uri",
@@ -1105,6 +3444,7 @@
         "bacterial_infection_suspected",
         "pneumonia"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "uri no pneumonia",
         "viral uri",
@@ -1122,6 +3462,7 @@
       "exclusions": [
         "hypoxia"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "uri no pneumonia",
         "viral uri",
@@ -1137,6 +3478,7 @@
       "phenotype_id": null,
       "confidence": 0.0,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
@@ -1148,6 +3490,7 @@
       "phenotype_id": "uncomplicated_cystitis_nonpregnant",
       "confidence": 0.93,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "cystitis",
         "uncomplicated cystitis",
@@ -1165,6 +3508,7 @@
       "exclusions": [
         "pregnancy"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "cystitis",
         "uncomplicated cystitis",
@@ -1184,6 +3528,7 @@
         "flank_pain",
         "vomiting_unable_to_take_meds"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "cystitis",
         "uncomplicated cystitis",
@@ -1199,6 +3544,7 @@
       "phenotype_id": null,
       "confidence": 0.0,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
@@ -1210,6 +3556,7 @@
       "phenotype_id": "gastroenteritis_stable_hydrating",
       "confidence": 0.93,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "gastroenteritis",
         "gastroenteritis stable hydrating"
@@ -1226,6 +3573,7 @@
       "exclusions": [
         "gi_bleeding"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "gastroenteritis",
         "gastroenteritis stable hydrating"
@@ -1242,6 +3590,7 @@
       "exclusions": [
         "unable_to_tolerate_oral_fluids"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "gastroenteritis",
         "gastroenteritis stable hydrating"
@@ -1256,6 +3605,7 @@
       "phenotype_id": null,
       "confidence": 0.0,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
@@ -1267,6 +3617,7 @@
       "phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
       "confidence": 0.93,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "cellulitis",
         "cellulitis uncomplicated oral antibiotics"
@@ -1283,6 +3634,7 @@
       "exclusions": [
         "bite_wound"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "cellulitis",
         "cellulitis uncomplicated oral antibiotics",
@@ -1301,6 +3653,7 @@
         "necrotizing_infection_concern",
         "rapid_progression"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "cellulitis",
         "cellulitis uncomplicated oral antibiotics"
@@ -1315,6 +3668,7 @@
       "phenotype_id": null,
       "confidence": 0.0,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
@@ -1326,6 +3680,7 @@
       "phenotype_id": "abscess_after_i_and_d",
       "confidence": 0.93,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "abscess after i and d",
         "i and d"
@@ -1342,6 +3697,7 @@
       "exclusions": [
         "deep_space_location"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "abscess after i and d",
         "i and d"
@@ -1358,6 +3714,7 @@
       "exclusions": [
         "immunocompromised"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "abscess after i and d",
         "i and d"
@@ -1372,6 +3729,7 @@
       "phenotype_id": null,
       "confidence": 0.0,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
@@ -1383,6 +3741,7 @@
       "phenotype_id": "laceration_repaired_simple",
       "confidence": 0.93,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "laceration repair",
         "laceration repaired simple",
@@ -1400,6 +3759,7 @@
       "exclusions": [
         "bite_wound"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "laceration repair",
         "laceration repaired simple"
@@ -1416,6 +3776,7 @@
       "exclusions": [
         "hand_tendon_risk"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "laceration repair",
         "laceration repaired simple"
@@ -1430,6 +3791,7 @@
       "phenotype_id": null,
       "confidence": 0.0,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
@@ -1441,6 +3803,7 @@
       "phenotype_id": "viral_pharyngitis_strep_negative",
       "confidence": 0.93,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "negative strep",
         "strep negative",
@@ -1460,6 +3823,7 @@
         "airway_symptoms",
         "drooling"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "strep negative",
         "viral pharyngitis",
@@ -1477,6 +3841,7 @@
       "exclusions": [
         "positive_strep_test"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "strep negative",
         "viral pharyngitis",
@@ -1489,13 +3854,12 @@
     "case_id": "pharyngitis_vague_fallback",
     "passed": true,
     "result": {
-      "phenotype_id": "viral_pharyngitis_strep_negative",
-      "confidence": 0.6,
+      "phenotype_id": null,
+      "confidence": 0.0,
       "exclusions": [],
-      "modifiers": [
-        "negative strep"
-      ],
-      "fallback_reason": "low_confidence"
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
     }
   },
   {
@@ -1505,6 +3869,7 @@
       "phenotype_id": "dental_pain_no_deep_space_infection",
       "confidence": 0.93,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "dental pain",
         "dental pain no deep space infection"
@@ -1522,10 +3887,10 @@
         "deep_space_swelling",
         "trismus"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "dental pain",
-        "dental pain no deep space infection",
-        "tooth pain"
+        "dental pain no deep space infection"
       ],
       "fallback_reason": "unsafe_modifier_present"
     }
@@ -1539,10 +3904,10 @@
       "exclusions": [
         "airway_symptoms"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "dental pain",
-        "dental pain no deep space infection",
-        "tooth pain"
+        "dental pain no deep space infection"
       ],
       "fallback_reason": "unsafe_modifier_present"
     }
@@ -1554,6 +3919,7 @@
       "phenotype_id": null,
       "confidence": 0.0,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
@@ -1565,10 +3931,10 @@
       "phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
       "confidence": 0.93,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [
         "allergic reaction",
-        "allergic reaction resolved no anaphylaxis",
-        "hives"
+        "allergic reaction resolved no anaphylaxis"
       ],
       "fallback_reason": null
     }
@@ -1582,6 +3948,7 @@
       "exclusions": [
         "airway_symptoms"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "allergic reaction",
         "allergic reaction resolved no anaphylaxis"
@@ -1598,6 +3965,7 @@
       "exclusions": [
         "epinephrine_given"
       ],
+      "missing_required_context": [],
       "modifiers": [
         "allergic reaction",
         "allergic reaction resolved no anaphylaxis"
@@ -1612,6 +3980,7 @@
       "phenotype_id": null,
       "confidence": 0.0,
       "exclusions": [],
+      "missing_required_context": [],
       "modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }

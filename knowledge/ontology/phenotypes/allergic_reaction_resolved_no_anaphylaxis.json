@@ -38,9 +38,7 @@
     "allergic_reaction_resolved_no_anaphylaxis.return_precautions.return_precaution_1.v1",
     "allergic_reaction_resolved_no_anaphylaxis.return_precautions.return_precaution_2.v1",
     "allergic_reaction_resolved_no_anaphylaxis.return_precautions.return_precaution_3.v1",
-    "allergic_reaction_resolved_no_anaphylaxis.follow_up.default_follow_up.v1",
-    "allergic_reaction_resolved_no_anaphylaxis.resources.source_link_1.v1",
-    "allergic_reaction_resolved_no_anaphylaxis.resources.followup_reminder.v1"
+    "allergic_reaction_resolved_no_anaphylaxis.follow_up.default_follow_up.v1"
   ],
   "source_card_ids": [
     "medlineplus.allergic_reactions"

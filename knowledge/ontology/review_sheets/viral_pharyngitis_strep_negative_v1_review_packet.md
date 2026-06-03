@@ -61,9 +61,6 @@ Review date: 2026-06-01.
 - `viral_pharyngitis_strep_negative.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported
 - `viral_pharyngitis_strep_negative.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported
 - `viral_pharyngitis_strep_negative.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier
-- `viral_pharyngitis_strep_negative.resources.source_link_1.v1` | `resources` | audit: source_supported
-- `viral_pharyngitis_strep_negative.resources.source_link_2.v1` | `resources` | audit: source_supported
-- `viral_pharyngitis_strep_negative.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -72,7 +69,7 @@ DIAGNOSIS:
 Your sore throat is most consistent with a viral infection.
 
 WHAT WE FOUND:
-You came to the ED for a sore throat. Your strep test was negative, and your exam did not show signs of a dangerous throat or neck infection today.
+Your strep test was negative. Your exam did not show signs of a dangerous throat or neck infection today.
 
 WHAT TO DO AT HOME:
 - Drink fluids.
@@ -81,18 +78,13 @@ WHAT TO DO AT HOME:
 
 MEDICATIONS:
 - Antibiotics are not needed for a viral sore throat.
-- Use acetaminophen or ibuprofen only if it is safe for you and follow the label.
+- Use acetaminophen or ibuprofen only if you can take it safely and follow the label.
 
 RETURN TO ED IF:
-- Come back right away for trouble breathing, drooling, muffled voice, stiff neck, or trouble opening your mouth.
-- Come back if you cannot swallow fluids.
-- Come back if fever or throat pain becomes much worse.
+- Trouble breathing, drooling, muffled voice, stiff neck, or trouble opening your mouth.
+- You cannot swallow fluids.
+- Fever or throat pain becomes much worse.
 
 FOLLOW UP:
-Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with a viral sore throat. I need a follow-up visit within 1 week if symptoms are not improving."
-
-RESOURCES:
-- Bring these instructions to your follow-up visit.
-- Learn more: CDC - Sore Throat Basics (https://www.cdc.gov/sore-throat/about/index.html).
-- Learn more: CDC - Clinical Guidance for Group A Streptococcal Pharyngitis (https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html).
+Follow up with primary care if symptoms are not improving or if your clinician instructed you to recheck.
 ```

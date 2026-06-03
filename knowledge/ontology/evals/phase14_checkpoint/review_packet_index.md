@@ -2,13 +2,13 @@
 
 | Phenotype | Status | Packet | Source cards |
 | --- | --- | --- | --- |
-| `abdominal_pain_nonspecific_reassuring_workup` | draft | `missing` | none |
+| `abdominal_pain_nonspecific_reassuring_workup` | needs_review | `review_sheets/abdominal_pain_nonspecific_reassuring_workup_v1_review_packet.md` | `medlineplus.abdominal_pain`, `medlineplus.abdominal_pain_ency` |
 | `abscess_after_i_and_d` | reviewed | `review_sheets/abscess_after_i_and_d_v1_review_packet.md` | `medlineplus.skin_abscess` |
 | `allergic_reaction_resolved_no_anaphylaxis` | reviewed | `review_sheets/allergic_reaction_resolved_no_anaphylaxis_v1_review_packet.md` | `medlineplus.allergic_reactions` |
 | `ankle_sprain_xray_negative` | reviewed | `review_sheets/ankle_sprain_xray_negative_v1_review_packet.md` | `medlineplus.ankle_sprain_aftercare`, `wikem.ankle_sprain` |
 | `asthma_exacerbation_improved_discharge` | reviewed | `review_sheets/asthma_exacerbation_improved_discharge_v1_review_packet.md` | `medlineplus.asthma` |
 | `cellulitis_uncomplicated_oral_antibiotics` | reviewed | `review_sheets/cellulitis_uncomplicated_oral_antibiotics_v1_review_packet.md` | `medlineplus.cellulitis`, `cdc.group_a_strep_cellulitis` |
-| `chest_pain_low_risk_negative_ed_workup` | draft | `missing` | none |
+| `chest_pain_low_risk_negative_ed_workup` | retired | `missing` | `aha.chest_pain_warning_signs` |
 | `community_acquired_pneumonia_outpatient` | reviewed | `review_sheets/community_acquired_pneumonia_outpatient_v1_review_packet.md` | `cdc.pneumonia_about`, `cdc.antibiotic_use_adult_outpatient` |
 | `concussion_discharge_no_imaging_red_flags` | reviewed | `review_sheets/concussion_discharge_no_imaging_red_flags_v1_review_packet.md` | `cdc.heads_up_concussion_symptoms`, `cdc.mild_tbi_aftercare` |
 | `dental_pain_no_deep_space_infection` | reviewed | `review_sheets/dental_pain_no_deep_space_infection_v1_review_packet.md` | `medlineplus.toothaches` |

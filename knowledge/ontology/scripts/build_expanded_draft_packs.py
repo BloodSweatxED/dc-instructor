@@ -214,10 +214,471 @@ PACKS: list[dict[str, Any]] = [
         "unsafe_modifiers": ["hypoxia", "immunocompromised", "elderly_frail", "sepsis", "poor_follow_up"],
     },
     {
+        "id": "acute_bronchitis_no_pneumonia",
+        "label": "Acute bronchitis or chest cold without pneumonia concern",
+        "family": "respiratory_infection",
+        "condition_terms": [
+            "acute bronchitis",
+            "acute bronchitis no pneumonia",
+            "chest cold",
+            "viral bronchitis",
+            "bronchitis without pneumonia concern",
+        ],
+        "source_card_ids": [
+            "cdc.acute_bronchitis",
+            "medlineplus.acute_bronchitis",
+            "cdc.antibiotic_use_adult_outpatient",
+        ],
+        "status": "needs_review",
+        "review_status": "needs_review",
+        "source_supported": True,
+        "source_audit_notes": "CDC and MedlinePlus support acute bronchitis and chest cold framing, viral predominance, supportive care, and escalation for worsening breathing symptoms. CDC outpatient guidance supports keeping pneumonia concern, abnormal vital signs, and focal lung findings outside uncomplicated bronchitis.",
+        "review_notes": "Phase 31 draft only. Narrow runtime recognition is allowed for review stress testing, but patient-facing output must not run in ontology mode until EM clinician review promotes it.",
+        "summary": "Your symptoms fit acute bronchitis, also called a chest cold.",
+        "found": "Your ED evaluation did not show a pneumonia concern that needed a separate treatment plan today.",
+        "home": [
+            "Rest as needed and increase activity slowly as breathing feels comfortable.",
+            "Drink fluids if you are allowed to and use warm liquids or humidified air if they ease cough.",
+            "Avoid smoke and strong fumes while your airways are irritated.",
+        ],
+        "meds": [
+            "Antibiotics do not help most acute bronchitis cases unless your clinician found a bacterial infection.",
+            "Use only the medicines your clinician prescribed or said are safe for you.",
+        ],
+        "return": [
+            "Trouble breathing, shortness of breath at rest, blue lips, confusion, fainting, or severe weakness.",
+            "Chest pain concerning for the heart or blood clot, coughing blood, or symptoms that feel much worse.",
+            "Fever, worsening cough, or new pneumonia concern after discharge.",
+        ],
+        "follow": "Follow up with primary care as instructed, especially if symptoms are not improving or you have higher-risk lung or immune problems.",
+        "inclusion": [
+            "Adult with cough or chest cold symptoms.",
+            "Clinician diagnosis or discharge impression is acute bronchitis, chest cold, or viral bronchitis.",
+            "No pneumonia diagnosis or focal pneumonia concern documented at discharge.",
+            "Oxygenation and work of breathing acceptable for discharge.",
+            "No unstable vital signs, sepsis concern, or admission need.",
+        ],
+        "exclusion": [
+            "Hypoxia, respiratory distress, unstable vital signs, sepsis concern, or admission need.",
+            "Pneumonia diagnosis, infiltrate, consolidation, focal lung findings, or unresolved focal pneumonia concern.",
+            "COPD or asthma exacerbation requiring a disease-specific pathway.",
+            "Immunocompromised or frail elderly patient requiring individualized planning.",
+            "Hemoptysis or chest pain concerning for cardiac disease or pulmonary embolism.",
+            "Antibiotics prescribed for suspected bacterial infection.",
+        ],
+        "must_not_miss": [
+            "Pneumonia.",
+            "Hypoxic respiratory failure.",
+            "Asthma or COPD exacerbation.",
+            "Pulmonary embolism.",
+            "Acute coronary syndrome.",
+            "Sepsis.",
+        ],
+        "unsafe_modifiers": [
+            "hypoxia",
+            "respiratory_distress",
+            "pneumonia",
+            "focal_lung_findings_or_infiltrate",
+            "copd_or_asthma_exacerbation_pathway",
+            "immunocompromised",
+            "elderly_frail",
+            "hemoptysis",
+            "cardiac_or_pe_chest_pain_concern",
+            "sepsis",
+            "unstable_vitals",
+            "antibiotic_prescribed_for_suspected_bacterial_infection",
+        ],
+        "high_confidence_terms": [
+            "acute bronchitis",
+            "acute bronchitis no pneumonia",
+            "chest cold",
+            "viral bronchitis",
+        ],
+    },
+    {
+        "id": "acute_sinusitis_supportive_care",
+        "label": "Acute sinusitis supportive care without antibiotic plan",
+        "family": "upper_respiratory",
+        "condition_terms": [
+            "acute sinusitis supportive care",
+            "sinus infection supportive care",
+            "acute sinusitis",
+            "sinus infection",
+            "rhinosinusitis supportive care",
+        ],
+        "source_card_ids": [
+            "cdc.sinus_infection",
+            "medlineplus.sinusitis",
+            "cdc.antibiotic_use_adult_outpatient",
+        ],
+        "status": "needs_review",
+        "review_status": "needs_review",
+        "source_supported": True,
+        "source_audit_notes": "CDC and MedlinePlus support sinusitis framing, symptom-based diagnosis, supportive care, and seeking care for severe or concerning symptoms. CDC outpatient guidance supports that most rhinosinusitis is viral, that antibiotics may not help many cases, and that bacterial-feature or antibiotic decisions require clinician judgment.",
+        "review_notes": "Phase 38 draft only. Supportive-care sinusitis has a narrower runtime boundary than broad sinus symptoms, but antibiotic/watchful-waiting decisions still require clinician review before promotion.",
+        "summary": "Your symptoms fit acute sinusitis, also called a sinus infection.",
+        "found": "Your clinician did not document an emergency sinus complication or a need for an antibiotic plan in these discharge instructions.",
+        "home": [
+            "Drink fluids if you are allowed to and rest as needed.",
+            "Use saline spray or humidified air if it helps congestion.",
+            "A warm compress over the sore sinus area may help pressure.",
+        ],
+        "meds": [
+            "Use only the medicines your clinician prescribed or said are safe for you.",
+            "Do not start leftover antibiotics unless your clinician tells you to.",
+        ],
+        "return": [
+            "Trouble breathing, confusion, fainting, stiff neck, severe headache, or feeling very ill.",
+            "Swelling around the eye, vision changes, double vision, or pain with eye movement.",
+            "Fever, worsening facial pain, or symptoms that get much worse after initially improving.",
+        ],
+        "follow": "Follow up with primary care or ENT as instructed, especially if symptoms are not improving or keep coming back.",
+        "inclusion": [
+            "Adult with clinician diagnosis or discharge impression of acute sinusitis, sinus infection, or acute rhinosinusitis.",
+            "Supportive-care discharge plan without clinician-entered antibiotic instructions.",
+            "No orbital, intracranial, dental, facial trauma, sepsis, or airway emergency concern.",
+            "No chronic or recurrent sinusitis pathway.",
+        ],
+        "exclusion": [
+            "Antibiotics prescribed for sinusitis or suspected bacterial sinus infection.",
+            "Severe bacterial sinusitis features requiring clinician-specific antibiotic or watchful-waiting decision.",
+            "Orbital or intracranial complication concern, including eye swelling, vision change, severe headache with neurologic symptoms, meningitis concern, or altered mental status.",
+            "Dental source, facial trauma, immunocompromise, sepsis, unstable vital signs, pregnancy, or frail elderly patient requiring individualized planning.",
+            "Chronic, recurrent, fungal, post-surgical, or ENT-directed sinusitis pathway.",
+        ],
+        "must_not_miss": [
+            "Orbital cellulitis.",
+            "Intracranial infection.",
+            "Meningitis.",
+            "Dental abscess.",
+            "Sepsis.",
+            "Facial trauma.",
+        ],
+        "unsafe_modifiers": [
+            "antibiotic_prescribed_for_sinusitis",
+            "severe_bacterial_sinusitis_features",
+            "orbital_or_intracranial_sinusitis_concern",
+            "dental_or_facial_trauma_source",
+            "immunocompromised",
+            "elderly_frail",
+            "pregnancy",
+            "sepsis",
+            "unstable_vitals",
+            "chronic_or_recurrent_sinusitis",
+        ],
+        "high_confidence_terms": [
+            "acute sinusitis supportive care",
+            "sinus infection supportive care",
+        ],
+    },
+    {
+        "id": "conjunctivitis_uncomplicated_no_contact_lens",
+        "label": "Uncomplicated conjunctivitis without contact lens or red flags",
+        "family": "eye",
+        "condition_terms": [
+            "conjunctivitis uncomplicated",
+            "pink eye uncomplicated",
+            "conjunctivitis no contact lens",
+            "pink eye no contact lens",
+        ],
+        "source_card_ids": [
+            "cdc.conjunctivitis",
+            "medlineplus.conjunctivitis",
+        ],
+        "status": "retired",
+        "review_status": "retired",
+        "source_supported": True,
+        "source_audit_notes": "CDC and MedlinePlus support conjunctivitis framing, hygiene and spread prevention, common symptoms, and escalation for pain, light sensitivity, blurred vision, intense redness, contact lens use, or worsening symptoms.",
+        "runtime_mode": "retired_product_layer_fallback_only",
+        "review_notes": "Phase 54 retired this draft to product-layer fallback. Eye complaints remain too high-risk for static ontology mode without explicit clinician review of contact-lens, corneal, chemical, glaucoma, trauma, vision, photophobia, herpes/zoster, cellulitis, immunocompromise, and pregnancy boundaries.",
+        "summary": "Your symptoms fit conjunctivitis, also called pink eye.",
+        "found": "Your clinician did not document contact lens risk, eye injury, vision loss, or another eye emergency in these discharge instructions.",
+        "home": [
+            "Wash your hands often and avoid touching or rubbing the eye.",
+            "Do not share towels, pillowcases, makeup, or eye drops.",
+            "Use a clean warm or cool compress if your clinician said it is safe.",
+        ],
+        "meds": [
+            "Use only the eye drops or medicines your clinician prescribed or said are safe for you.",
+            "Do not use contact lenses until your clinician says it is safe.",
+        ],
+        "return": [
+            "Eye pain, light sensitivity, vision changes, or worsening redness.",
+            "Swelling around the eye, trouble moving the eye, fever, or feeling very ill.",
+            "Symptoms get worse, do not improve as expected, or you were exposed to chemicals or an eye injury."
+        ],
+        "follow": "Follow up with primary care, urgent care, or an eye clinician as instructed.",
+        "inclusion": [
+            "Adult with clinician diagnosis or discharge impression of conjunctivitis or pink eye.",
+            "No contact lens use documented.",
+            "No eye trauma, foreign body, chemical exposure, corneal ulcer or keratitis concern, acute glaucoma mimic, severe pain, photophobia, vision change, herpes/zoster concern, or orbital/periorbital cellulitis concern.",
+        ],
+        "exclusion": [
+            "Contact lens use.",
+            "Eye trauma, foreign body, chemical exposure, corneal abrasion, corneal ulcer, or keratitis concern.",
+            "Severe eye pain, photophobia, vision change, proptosis, pain with eye movement, or periorbital/orbital cellulitis concern.",
+            "Herpes or zoster eye concern.",
+            "Immunocompromised host, pregnancy, infant/pediatric pathway, or specialist-directed ophthalmology plan.",
+        ],
+        "must_not_miss": [
+            "Keratitis or corneal ulcer.",
+            "Corneal abrasion or foreign body.",
+            "Acute glaucoma.",
+            "Uveitis or iritis.",
+            "Herpes or zoster eye disease.",
+            "Orbital cellulitis.",
+        ],
+        "unsafe_modifiers": [
+            "contact_lens_use",
+            "chemical_eye_exposure",
+            "corneal_ulcer_or_keratitis_concern",
+            "acute_glaucoma_mimic",
+            "eye_trauma_or_foreign_body",
+            "severe_eye_pain",
+            "photophobia",
+            "vision_change",
+            "herpes_or_zoster_eye_concern",
+            "periorbital_or_orbital_cellulitis_concern",
+            "immunocompromised",
+            "pregnancy",
+        ],
+        "high_confidence_terms": [
+            "conjunctivitis uncomplicated",
+            "pink eye uncomplicated",
+            "conjunctivitis no contact lens",
+            "pink eye no contact lens",
+        ],
+    },
+    {
+        "id": "otitis_externa_no_mastoiditis",
+        "label": "Uncomplicated otitis externa without mastoiditis concern",
+        "family": "ear",
+        "condition_terms": [
+            "otitis externa uncomplicated",
+            "swimmer's ear uncomplicated",
+            "swimmers ear uncomplicated",
+            "otitis externa no mastoiditis",
+        ],
+        "source_card_ids": [
+            "cdc.swimmers_ear",
+            "medlineplus.swimmers_ear",
+        ],
+        "status": "retired",
+        "review_status": "retired",
+        "source_supported": True,
+        "source_audit_notes": "CDC and MedlinePlus support swimmer's ear/otitis externa framing, ear-canal infection symptoms, drying/prevention concepts, treatment with clinician-directed drops, and escalation for fever, symptoms behind the ear, severe symptoms, or worsening illness.",
+        "runtime_mode": "retired_product_layer_fallback_only",
+        "review_notes": "Phase 64 retired this draft to product-layer fallback. Do not use broad ear pain or ear drainage as standalone runtime terms. Keep mastoiditis, malignant otitis externa risk, perforation/tube, ear trauma/foreign body, acute hearing loss, facial weakness, and systemic illness outside ontology mode unless later reviewed.",
+        "summary": "Your symptoms fit otitis externa, also called swimmer's ear.",
+        "found": "Your clinician did not document mastoiditis concern, a deep ear infection, eardrum rupture, or another ear emergency in these discharge instructions.",
+        "home": [
+            "Keep the ear dry unless your clinician told you something different.",
+            "Do not put cotton swabs, earbuds, or other objects into the ear canal.",
+            "Avoid swimming until your clinician says it is safe.",
+        ],
+        "meds": [
+            "Use ear drops only as prescribed.",
+            "Use acetaminophen or ibuprofen only if you can take it safely and follow the label.",
+        ],
+        "return": [
+            "Fever, worsening pain, severe headache, confusion, or feeling very ill.",
+            "Redness, swelling, or pain behind the ear, or the ear starts sticking out.",
+            "New hearing loss, dizziness, facial weakness, or drainage that gets worse.",
+        ],
+        "follow": "Follow up with primary care, urgent care, or an ear clinician as instructed.",
+        "inclusion": [
+            "Adult with clinician diagnosis or discharge impression of uncomplicated otitis externa or swimmer's ear.",
+            "No mastoiditis, malignant otitis externa, middle-ear complication, ear trauma, foreign body, acute hearing loss, facial weakness, or systemic illness concern documented.",
+        ],
+        "exclusion": [
+            "Mastoiditis, deep ear infection, skull base osteomyelitis, or malignant otitis externa concern.",
+            "Diabetes, immunocompromised host, severe systemic illness, unstable vital signs, or fever needing separate planning.",
+            "Perforated eardrum, tympanostomy tube, ear trauma, ear foreign body, acute hearing loss, vertigo, facial weakness, or specialist-directed ENT plan.",
+        ],
+        "must_not_miss": [
+            "Mastoiditis.",
+            "Malignant otitis externa.",
+            "Skull base osteomyelitis.",
+            "Perforated tympanic membrane.",
+            "Ear foreign body.",
+            "Sudden sensorineural hearing loss.",
+        ],
+        "unsafe_modifiers": [
+            "mastoiditis_or_deep_ear_infection_concern",
+            "malignant_otitis_externa_risk",
+            "immunocompromised",
+            "fever",
+            "unstable_vitals",
+            "tympanic_membrane_perforation_or_tube",
+            "ear_trauma_or_foreign_body",
+            "acute_hearing_loss",
+            "facial_weakness_or_neurologic_ear_sign",
+        ],
+        "high_confidence_terms": [
+            "otitis externa uncomplicated",
+            "swimmer's ear uncomplicated",
+            "swimmers ear uncomplicated",
+            "otitis externa no mastoiditis",
+        ],
+    },
+    {
+        "id": "epistaxis_resolved_no_posterior_bleed",
+        "label": "Resolved nosebleed without posterior bleed concern",
+        "family": "ent",
+        "condition_terms": [
+            "epistaxis resolved",
+            "nosebleed resolved",
+            "resolved nosebleed no posterior bleed",
+            "epistaxis resolved no posterior bleed",
+        ],
+        "source_card_ids": [
+            "medlineplus.nosebleed",
+            "aao_hns.nosebleed_guideline",
+        ],
+        "status": "retired",
+        "review_status": "retired",
+        "source_supported": True,
+        "source_audit_notes": "MedlinePlus supports nosebleed first-aid concepts and when to seek care. AAO-HNS supports clinician-facing epistaxis guideline concepts, but ED discharge risk stratification still requires local clinician review.",
+        "runtime_mode": "retired_product_layer_fallback_only",
+        "review_notes": "Phase 70 retired this draft to product-layer fallback. Do not use broad bleeding or nasal complaint terms. Keep posterior bleeding, continued bleeding, anticoagulation, bleeding disorder, facial/nasal trauma, airway symptoms, unstable vitals, and anemia/syncope concern outside ontology mode unless later reviewed.",
+        "summary": "You were treated for a nosebleed that stopped.",
+        "found": "Your clinician did not document ongoing bleeding, posterior nosebleed concern, major trauma, or another emergency bleeding problem in these discharge instructions.",
+        "home": [
+            "Do not blow or pick your nose today.",
+            "Keep your head above your heart when resting.",
+            "Use the nasal moisture plan your clinician recommended if one was given.",
+        ],
+        "meds": [
+            "Use only nasal sprays or medicines your clinician prescribed or said are safe.",
+            "Do not stop blood thinners unless the clinician who prescribes them tells you to.",
+        ],
+        "return": [
+            "Bleeding starts again and will not stop with firm pressure.",
+            "Blood runs down your throat, you vomit blood, or you have trouble breathing.",
+            "You feel faint, weak, confused, have chest pain, or bleeding follows an injury.",
+        ],
+        "follow": "Follow up with primary care or ENT as instructed, especially if nosebleeds keep happening.",
+        "inclusion": [
+            "Adult with clinician diagnosis or discharge impression of epistaxis or nosebleed that resolved before discharge.",
+            "No posterior bleed concern, active bleeding, facial trauma, anticoagulation complication, bleeding disorder, airway issue, or unstable vital signs documented.",
+        ],
+        "exclusion": [
+            "Posterior epistaxis, ongoing bleeding, packing requiring specific plan, or recurrent severe bleed.",
+            "Anticoagulation complication, bleeding disorder, anemia/syncope concern, unstable vital signs, or airway symptoms.",
+            "Facial or nasal trauma, suspected fracture, or specialist-directed ENT plan.",
+        ],
+        "must_not_miss": [
+            "Posterior epistaxis.",
+            "Hemorrhagic shock.",
+            "Facial fracture.",
+            "Airway compromise.",
+            "Coagulopathy or anticoagulation complication.",
+        ],
+        "unsafe_modifiers": [
+            "posterior_epistaxis_or_uncontrolled_bleeding",
+            "anticoagulated",
+            "bleeding_disorder",
+            "facial_or_nasal_trauma",
+            "airway_symptoms",
+            "unstable_vitals",
+            "syncope",
+        ],
+        "high_confidence_terms": [
+            "epistaxis resolved",
+            "nosebleed resolved",
+            "epistaxis resolved no posterior bleed",
+        ],
+    },
+    {
+        "id": "migraine_improved_discharge",
+        "label": "Migraine improved after ED treatment",
+        "family": "headache",
+        "condition_terms": [
+            "migraine improved discharge",
+            "migraine improved",
+            "migraine headache improved",
+            "migraine discharged",
+        ],
+        "source_card_ids": [
+            "medlineplus.migraine",
+            "ninds.headache",
+        ],
+        "status": "needs_review",
+        "review_status": "needs_review",
+        "source_supported": True,
+        "source_audit_notes": "MedlinePlus supports migraine symptom and treatment concepts. NINDS headache education supports secondary-headache warning concepts, including post-traumatic headache and systemic or neurologic concern. ED discharge risk stratification requires clinician review.",
+        "review_notes": "Phase 84 clinician review status: revise, not ready for promotion. Require structured improvement and structured red-flag absence before any later promotion. Do not infer red-flag absence from missing documentation.",
+        "summary": "Your clinician diagnosed your headache as a migraine. Your symptoms improved with treatment.",
+        "found": "Your ED team treated your migraine and confirmed that you were improved enough to go home with this plan.",
+        "home": [
+            "Rest in a quiet, dark place if symptoms return.",
+            "Drink more fluids if you can and avoid triggers you already know affect you.",
+            "Limit screen time, bright light, noise, and heavy mental stimulation while you are recovering.",
+            "Use stress reduction techniques that work for you, such as slow breathing, quiet rest, or gentle stretching.",
+            "Avoid driving or operating heavy machinery until you feel fully alert and your thinking is clear.",
+            "Most people feel better within one to two days. Fatigue and trouble concentrating can last up to 48 hours after a migraine resolves.",
+            "Keep a headache log. Write down or record on your phone when headaches start, how long they last, how severe they are, and any symptoms that come with them. Bring this log to your follow-up visit.",
+        ],
+        "meds": [
+            "Use only the headache medicines your clinician prescribed or said are safe for you.",
+            "Do not take extra doses or mix medicines unless your clinician told you to.",
+        ],
+        "return": [
+            "A sudden, severe headache that reaches its worst point within seconds, or feels like the worst headache of your life; headache after injury; fainting; confusion; seizure; or trouble staying awake.",
+            "New weakness, numbness, trouble speaking, vision loss, trouble walking, fever, or stiff neck.",
+            "Vomiting that will not stop, headache that is much worse or different than usual, or symptoms that do not improve as expected.",
+        ],
+        "follow": "Follow up with primary care or a headache clinician as instructed, especially if headaches are new, changing, or frequent.",
+        "inclusion": [
+            "Adult with clinician diagnosis or discharge impression of migraine that improved after ED treatment.",
+            "Structured confirmation of clinical improvement after ED treatment is present.",
+            "Structured confirmation that headache red flags are absent is present.",
+        ],
+        "exclusion": [
+            "Sudden, severe headache that reaches its worst point within seconds, worst headache of life, subarachnoid hemorrhage concern, stroke/TIA concern, unresolved neurologic deficit, seizure, or altered mental status not fully resolved at discharge.",
+            "Fever with headache, neck stiffness, meningitis/encephalitis concern, pregnancy, immunocompromise, head trauma within 7 days, age over 50 with new headache pattern, or unstable vital signs.",
+            "Uncontrolled vomiting at discharge, specialist-directed neurology plan, headache not improved enough for discharge, first-lifetime headache of this severity, or CT not performed when documented concern exists.",
+        ],
+        "must_not_miss": [
+            "Subarachnoid hemorrhage.",
+            "Stroke or TIA.",
+            "Meningitis or encephalitis.",
+            "Intracranial mass or elevated intracranial pressure.",
+            "Cerebral venous thrombosis.",
+            "Pre-eclampsia in pregnancy.",
+        ],
+        "unsafe_modifiers": [
+            "thunderclap_or_sah_concern",
+            "neurologic_deficit",
+            "meningitis_or_cns_infection_concern",
+            "fracture_or_trauma_concern",
+            "pregnancy",
+            "immunocompromised",
+            "age_over_50_new_headache",
+            "uncontrolled_vomiting",
+            "unstable_vitals",
+            "altered_mental_status_not_resolved",
+            "first_lifetime_severe_headache",
+            "ct_not_performed_with_headache_concern",
+        ],
+        "high_confidence_terms": [
+            "migraine improved discharge",
+            "migraine improved",
+            "migraine headache improved",
+        ],
+    },
+    {
         "id": "chest_pain_low_risk_negative_ed_workup",
         "label": "Low-risk chest pain after negative ED workup",
         "family": "cardiovascular",
         "condition_terms": ["low risk chest pain", "chest pain", "negative cardiac workup"],
+        "status": "retired",
+        "review_status": "retired",
+        "source_card_ids": ["aha.chest_pain_warning_signs"],
+        "source_supported": True,
+        "source_audit_notes": "AHA supports chest pain warning-sign education, but not static low-risk ED risk stratification. This draft is retired from ontology expansion and should remain product-layer fallback unless later rebuilt as a narrower reviewed phenotype.",
+        "runtime_mode": "retired_product_layer_fallback_only",
+        "review_notes": "Phase 22 retired this broad static ontology draft. Chest pain risk stratification depends on ECG, troponin, protocol, local follow-up, and clinician judgment; use product-layer fallback unless rebuilt as a narrower source-supported phenotype.",
         "summary": "You were evaluated for chest pain today.",
         "found": "Your ED workup was reassuring today. No emergency cause was found, but chest pain can change after you leave.",
         "home": ["Rest today.", "Avoid heavy activity until you know how you feel and follow your clinician's instructions.", "Keep track of symptoms if they return."],
@@ -231,19 +692,49 @@ PACKS: list[dict[str, Any]] = [
     },
     {
         "id": "abdominal_pain_nonspecific_reassuring_workup",
-        "label": "Nonspecific abdominal pain with reassuring ED workup",
+        "label": "Abdominal pain recheck after reassuring ED evaluation",
         "family": "gastrointestinal",
-        "condition_terms": ["abdominal pain", "belly pain", "nonspecific abdominal pain"],
+        "condition_terms": ["abdominal pain recheck", "abdominal pain reassuring evaluation", "belly pain recheck", "nonspecific abdominal pain"],
+        "source_card_ids": ["medlineplus.abdominal_pain", "medlineplus.abdominal_pain_ency"],
+        "status": "needs_review",
+        "review_status": "needs_review",
+        "source_supported": True,
+        "source_audit_notes": "MedlinePlus supports general abdominal pain framing, cautious home care, and conservative return precautions. Phase 23 narrows this to recheck and return-precaution guidance after a reassuring ED evaluation; it still requires clinician review before runtime use.",
+        "review_notes": "Phase 25 clinician feedback applied. Narrowed abdominal pain draft is approved as a review candidate only, with runtime gates still required and no promotion yet.",
         "summary": "You were evaluated for abdominal pain today.",
-        "found": "Your ED evaluation was reassuring today. We did not find a clear emergency cause, but early problems can change after discharge.",
-        "home": ["Drink fluids as you are able.", "Start with bland foods if your stomach feels upset.", "Avoid alcohol and heavy meals until you feel better."],
-        "meds": ["Take prescribed nausea or stomach medicine exactly as directed.", "Use pain medicine only as instructed by your clinician."],
-        "return": ["Worsening or one-sided belly pain, repeated vomiting, fainting, or confusion.", "Fever, bloody stool, black stool, vomiting blood, or a swollen hard belly.", "New chest pain, trouble breathing, or pain with pregnancy concern."],
-        "follow": "Follow up with primary care or return for recheck as instructed.",
-        "inclusion": ["Abdominal pain with reassuring ED assessment and no surgical abdomen at discharge."],
-        "exclusion": ["Pregnancy-related abdominal pain.", "Appendicitis, obstruction, ischemia, perforation, or sepsis concern.", "Uncontrolled pain or vomiting."],
-        "must_not_miss": ["Appendicitis.", "Bowel obstruction.", "Bowel ischemia.", "Perforation.", "Ectopic pregnancy.", "AAA."],
-        "unsafe_modifiers": ["pregnancy", "elderly", "immunocompromised", "peritoneal_signs", "uncontrolled_vomiting"],
+        "found": "We did not find an emergency cause that needed surgery or admission, but abdominal pain can change after you leave.",
+        "home": ["Use the food and fluid plan your clinician gave you.", "Start with small sips and light foods if your stomach feels upset.", "Do not ignore symptoms that are getting worse just because today's evaluation was reassuring."],
+        "meds": ["Take prescribed nausea or stomach medicine exactly as directed.", "Use pain medicine only as instructed by your clinician. Do not take extra doses to cover worsening pain."],
+        "return": ["Worsening, severe, or one-sided belly pain.", "Repeated vomiting, fainting, confusion, fever, bloody stool, black stool, or vomiting blood.", "A swollen hard belly, pain going to the shoulder or back, or any pregnancy concern."],
+        "follow": "Return for recheck as your clinician instructed.",
+        "inclusion": [
+            "Abdominal pain evaluated in the ED with a reassuring exam and workup at discharge.",
+            "No current surgical abdomen, unstable vital signs, or admission need.",
+            "Patient discharged with explicit clinician-directed recheck plan.",
+        ],
+        "exclusion": [
+            "Pregnancy or pregnancy concern.",
+            "Localized or worsening pain concerning for appendicitis, obstruction, ischemia, perforation, or other surgical abdomen.",
+            "Uncontrolled pain, repeated vomiting, fever, GI bleeding, sepsis concern, frailty, immunocompromise, or unreliable follow-up."
+        ],
+        "must_not_miss": ["Appendicitis.", "Bowel obstruction.", "Bowel ischemia.", "Perforation.", "Ectopic pregnancy.", "AAA.", "Sepsis."],
+        "unsafe_modifiers": ["pregnancy", "elderly", "immunocompromised", "poor_follow_up", "peritoneal_signs", "uncontrolled_vomiting", "fever", "gi_bleeding", "sepsis", "unstable_vitals"],
+        "required_context": [
+            {
+                "id": "clinician_directed_recheck_plan",
+                "terms": [
+                    "explicit recheck",
+                    "return for recheck",
+                    "recheck as instructed",
+                    "clinician instructed recheck",
+                    "clinician directed recheck",
+                    "clinician-directed recheck",
+                    "follow up for recheck as instructed",
+                    "ed recheck as instructed",
+                ],
+            }
+        ],
+        "high_confidence_terms": ["abdominal pain recheck"],
     },
 ]
 
@@ -278,6 +769,8 @@ def reviewed_block(notes: str) -> dict[str, Any]:
 def primitive(pack: dict[str, Any], section: str, kind: str, priority: str, text: str, unsafe: bool = False, clinician: bool = False) -> dict[str, Any]:
     primitive_id = f"{pack['id']}.{section}.{kind}.v1"
     reviewed = pack["id"] in REVIEWED_PACK_IDS
+    source_supported = reviewed or bool(pack.get("source_supported"))
+    review_status = pack.get("review_status", "draft")
     return {
         "id": primitive_id,
         "phenotypes": [pack["id"]],
@@ -287,10 +780,13 @@ def primitive(pack: dict[str, Any], section: str, kind: str, priority: str, text
         "text": {"en_4": text, "en_6": text, "en_hl1": text},
         "contraindications": pack["unsafe_modifiers"] if unsafe else [],
         "source_card_ids": pack.get("source_card_ids", []),
-        "source_audit": audit(source_supported=reviewed, clinician_judgment_only=clinician, unsafe_without_modifier=unsafe),
+        "source_audit": {
+            **audit(source_supported=source_supported, clinician_judgment_only=clinician, unsafe_without_modifier=unsafe),
+            **({"notes": pack["source_audit_notes"]} if pack.get("source_audit_notes") else {}),
+        },
         "review": reviewed_block("Reviewed for cellulitis_uncomplicated_oral_antibiotics v1. Patient-facing text is locally authored from source-supported concepts.")
         if reviewed
-        else review_block("Expanded draft pack primitive. Needs source audit and EM clinician review before production use."),
+        else {**review_block(pack.get("review_notes", "Expanded draft pack primitive. Needs source audit and EM clinician review before production use.")), "status": review_status},
     }
 
 
@@ -311,10 +807,13 @@ def pack_primitives(pack: dict[str, Any]) -> list[dict[str, Any]]:
 
 def phenotype(pack: dict[str, Any], primitive_ids: list[str]) -> dict[str, Any]:
     reviewed = pack["id"] in REVIEWED_PACK_IDS
+    source_supported = reviewed or bool(pack.get("source_supported"))
+    status = "reviewed" if reviewed else pack.get("status", "draft")
+    review_status = "reviewed" if reviewed else pack.get("review_status", "draft")
     return {
         "id": pack["id"],
         "label": pack["label"],
-        "status": "reviewed" if reviewed else "draft",
+        "status": status,
         "condition_family": pack["family"],
         "inclusion_criteria": pack["inclusion"],
         "exclusion_criteria": pack["exclusion"],
@@ -323,12 +822,17 @@ def phenotype(pack: dict[str, Any], primitive_ids: list[str]) -> dict[str, Any]:
         "required_sections": REQUIRED_SECTIONS,
         "primitive_ids": primitive_ids,
         "source_card_ids": pack.get("source_card_ids", []),
-        "source_audit": audit(source_supported=reviewed, clinician_judgment_only=not reviewed, unsafe_without_modifier=not reviewed),
+        "source_audit": {
+            **audit(source_supported=source_supported, clinician_judgment_only=not reviewed, unsafe_without_modifier=not reviewed),
+            **({"notes": pack["source_audit_notes"]} if pack.get("source_audit_notes") else {}),
+        },
         "runtime": {
             "condition_terms": pack["condition_terms"],
             "unsafe_modifiers": pack["unsafe_modifiers"],
+            **({"required_context": pack["required_context"]} if pack.get("required_context") else {}),
+            **({"high_confidence_terms": pack["high_confidence_terms"]} if pack.get("high_confidence_terms") else {}),
             "minimum_confidence": 0.86,
-            "mode": "reviewed_ontology_enabled" if reviewed else "draft_only_until_reviewed",
+            "mode": "reviewed_ontology_enabled" if reviewed else pack.get("runtime_mode", "draft_only_until_reviewed"),
         },
         "version": 1,
         "review": {
@@ -338,7 +842,7 @@ def phenotype(pack: dict[str, Any], primitive_ids: list[str]) -> dict[str, Any]:
             "blocked_modifiers": pack["unsafe_modifiers"],
         }
         if reviewed
-        else review_block("Expanded ontology draft pack. Not clinician-reviewed. Runtime should fall back unless explicitly enabled for review."),
+        else {**review_block(pack.get("review_notes", "Expanded ontology draft pack. Not clinician-reviewed. Runtime should fall back unless explicitly enabled for review.")), "status": review_status},
     }
 
 
@@ -372,8 +876,10 @@ def inferred_terms(item: dict[str, Any]) -> list[str]:
     terms = {
         item["id"].replace("_", " "),
         item["label"].lower(),
-        item["condition_family"].replace("_", " "),
     }
+    family_term = item["condition_family"].replace("_", " ")
+    if len(family_term.split()) > 1:
+        terms.add(family_term)
     runtime_terms = item.get("runtime", {}).get("condition_terms", [])
     terms.update(term.lower() for term in runtime_terms)
     return sorted(terms)
@@ -399,6 +905,8 @@ def build_runtime_manifest() -> dict[str, Any]:
                 "version": item.get("version", 1),
                 "condition_terms": inferred_terms(item),
                 "unsafe_modifiers": item.get("runtime", {}).get("unsafe_modifiers", []),
+                "required_context": item.get("runtime", {}).get("required_context", []),
+                "high_confidence_terms": item.get("runtime", {}).get("high_confidence_terms", []),
                 "source_audit": item.get("source_audit", {"source_supported": bool(item.get("source_card_ids")), "source_needed": not bool(item.get("source_card_ids"))}),
             }
             for item in all_phenotypes.values()

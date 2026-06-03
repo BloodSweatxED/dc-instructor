@@ -56,8 +56,6 @@ Review date: 2026-06-01.
 - `laceration_repaired_simple.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported
 - `laceration_repaired_simple.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported
 - `laceration_repaired_simple.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier
-- `laceration_repaired_simple.resources.source_link_1.v1` | `resources` | audit: source_supported
-- `laceration_repaired_simple.resources.followup_reminder.v1` | `resources` | audit: source_supported
 
 ## Patient-Facing Output
 
@@ -66,26 +64,22 @@ DIAGNOSIS:
 Your cut was cleaned and repaired today.
 
 WHAT WE FOUND:
-You came to the ED with a cut. We checked the wound, cleaned it, and repaired it because it was safe to close. We did not find signs of tendon, nerve, blood vessel, joint, or bone injury today.
+We checked the wound and repaired it because it was safe to close. No emergency complication was found during today's exam.
 
 WHAT TO DO AT HOME:
 - Keep the wound clean and dry today.
-- After the first day, gentle soap and water is usually okay unless you were told otherwise.
+- After the first day, gentle soap and water is usually okay unless told otherwise.
 - Do not soak the wound until it is healed.
 
 MEDICATIONS:
 - Take antibiotics only if they were prescribed.
-- Use pain medicine only if it is safe for you and follow the label.
+- Use acetaminophen or ibuprofen only if you can take it safely and follow the label.
 
 RETURN TO ED IF:
-- Come back for fever, pus, spreading redness, red streaks, or worsening swelling.
-- Come back for bleeding that will not stop with firm pressure.
-- Come back for new numbness, weakness, color change, or if the wound opens.
+- Fever, pus, spreading redness, red streaks, or worsening swelling.
+- Bleeding that will not stop with firm pressure.
+- New numbness, weakness, color change, or the wound opens.
 
 FOLLOW UP:
-Call your primary care doctor's office or clinic. Say, "I was in the emergency department and was diagnosed with a repaired cut. I need a follow-up visit on the schedule you were given for wound check or suture removal."
-
-RESOURCES:
-- Bring these instructions to your follow-up visit.
-- Learn more: MedlinePlus - Cuts and puncture wounds (https://medlineplus.gov/ency/article/000043.htm).
+Follow up for wound check or suture removal on the schedule your clinician gave you.
 ```

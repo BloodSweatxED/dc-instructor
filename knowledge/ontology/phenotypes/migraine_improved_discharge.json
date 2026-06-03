@@ -1,0 +1,121 @@
+{
+  "id": "migraine_improved_discharge",
+  "label": "Migraine improved after ED treatment",
+  "status": "retired",
+  "condition_family": "headache",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of migraine that improved after ED treatment.",
+    "Structured confirmation is present for clinical improvement in the ED.",
+    "Structured confirmation is present that headache red flags are absent. Do not infer this from lack of documentation."
+  ],
+  "exclusion_criteria": [
+    "Sudden, severe headache that reaches its worst point within seconds, worst headache of life, subarachnoid hemorrhage concern, stroke/TIA concern, unresolved neurologic deficit, seizure, or altered mental status not fully resolved at discharge.",
+    "Fever with headache, neck stiffness, meningitis/encephalitis concern, pregnancy, immunocompromise, head trauma within 7 days, age over 50 with new headache pattern, or unstable vital signs.",
+    "Uncontrolled vomiting at discharge, specialist-directed neurology plan, headache not improved enough for discharge, first-lifetime headache of this severity, or CT not performed when documented concern exists."
+  ],
+  "must_not_miss": [
+    "Subarachnoid hemorrhage.",
+    "Stroke or TIA.",
+    "Meningitis or encephalitis.",
+    "Intracranial mass or elevated intracranial pressure.",
+    "Cerebral venous thrombosis.",
+    "Pre-eclampsia in pregnancy."
+  ],
+  "default_follow_up": "Follow up with primary care or a headache clinician as instructed, especially if headaches are new, changing, or frequent.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "migraine_improved_discharge.diagnosis.diagnosis_summary.v1",
+    "migraine_improved_discharge.what_we_found.reassuring_ed_assessment.v1",
+    "migraine_improved_discharge.home_care.home_care_1.v1",
+    "migraine_improved_discharge.home_care.home_care_2.v1",
+    "migraine_improved_discharge.home_care.home_care_3.v1",
+    "migraine_improved_discharge.home_care.home_care_4.v1",
+    "migraine_improved_discharge.home_care.home_care_5.v1",
+    "migraine_improved_discharge.home_care.home_care_6.v1",
+    "migraine_improved_discharge.home_care.home_care_7.v1",
+    "migraine_improved_discharge.medications.medication_guidance_1.v1",
+    "migraine_improved_discharge.medications.medication_guidance_2.v1",
+    "migraine_improved_discharge.return_precautions.return_precaution_1.v1",
+    "migraine_improved_discharge.return_precautions.return_precaution_2.v1",
+    "migraine_improved_discharge.return_precautions.return_precaution_3.v1",
+    "migraine_improved_discharge.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.migraine",
+    "ninds.headache"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": true,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": true,
+    "notes": "MedlinePlus supports migraine symptom and treatment concepts. NINDS headache education supports secondary-headache warning concepts, including post-traumatic headache and systemic or neurologic concern. ED discharge risk stratification requires clinician review."
+  },
+  "runtime": {
+    "condition_terms": [
+      "migraine improved discharge",
+      "migraine improved",
+      "migraine headache improved",
+      "migraine discharged"
+    ],
+    "unsafe_modifiers": [
+      "thunderclap_or_sah_concern",
+      "neurologic_deficit",
+      "meningitis_or_cns_infection_concern",
+      "fracture_or_trauma_concern",
+      "pregnancy",
+      "immunocompromised",
+      "age_over_50_new_headache",
+      "uncontrolled_vomiting",
+      "unstable_vitals",
+      "altered_mental_status_not_resolved",
+      "first_lifetime_severe_headache",
+      "ct_not_performed_with_headache_concern"
+    ],
+    "required_context": [
+      {
+        "id": "documented_clinical_improvement",
+        "terms": [
+          "symptoms improved with treatment",
+          "improved after ed treatment",
+          "clinical improvement documented",
+          "headache improved in ed",
+          "migraine improved after ed treatment"
+        ]
+      },
+      {
+        "id": "structured_red_flags_absent",
+        "terms": [
+          "red flags absent",
+          "no headache red flags",
+          "secondary headache blockers absent",
+          "structured red flags negative",
+          "absence of red flags confirmed",
+          "explicit absence of red flags"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "migraine improved discharge",
+      "migraine improved",
+      "migraine headache improved"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "retired_product_layer_fallback_only"
+  },
+  "version": 1,
+  "review": {
+    "status": "retired",
+    "reviewer": null,
+    "last_reviewed": null,
+    "notes": "Phase 84 clinician review status: revise, not ready for promotion. Runtime must require structured clinical improvement and structured absence of headache red flags. Do not infer red-flag absence from missing documentation. Do not use broad headache or severe headache as standalone runtime terms. Keep sudden severe worst headache, unresolved neurologic deficit, fever with headache or neck stiffness, head trauma within 7 days, pregnancy, immunocompromise, age over 50 with new headache pattern, altered mental status not fully resolved, uncontrolled vomiting at discharge, unstable vitals, first-lifetime headache of this severity, and CT not performed with documented concern outside ontology mode unless a later explicit override pathway is built."
+  }
+}

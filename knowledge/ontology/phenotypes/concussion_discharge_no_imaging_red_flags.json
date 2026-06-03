@@ -37,10 +37,7 @@
     "concussion_discharge_no_imaging_red_flags.return_precautions.return_precaution_1.v1",
     "concussion_discharge_no_imaging_red_flags.return_precautions.return_precaution_2.v1",
     "concussion_discharge_no_imaging_red_flags.return_precautions.return_precaution_3.v1",
-    "concussion_discharge_no_imaging_red_flags.follow_up.default_follow_up.v1",
-    "concussion_discharge_no_imaging_red_flags.resources.source_link_1.v1",
-    "concussion_discharge_no_imaging_red_flags.resources.source_link_2.v1",
-    "concussion_discharge_no_imaging_red_flags.resources.followup_reminder.v1"
+    "concussion_discharge_no_imaging_red_flags.follow_up.default_follow_up.v1"
   ],
   "source_card_ids": [
     "cdc.heads_up_concussion_symptoms",

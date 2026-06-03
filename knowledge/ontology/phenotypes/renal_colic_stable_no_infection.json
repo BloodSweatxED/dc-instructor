@@ -38,9 +38,7 @@
     "renal_colic_stable_no_infection.return_precautions.return_precaution_1.v1",
     "renal_colic_stable_no_infection.return_precautions.return_precaution_2.v1",
     "renal_colic_stable_no_infection.return_precautions.return_precaution_3.v1",
-    "renal_colic_stable_no_infection.follow_up.default_follow_up.v1",
-    "renal_colic_stable_no_infection.resources.source_link_1.v1",
-    "renal_colic_stable_no_infection.resources.followup_reminder.v1"
+    "renal_colic_stable_no_infection.follow_up.default_follow_up.v1"
   ],
   "source_card_ids": [
     "medlineplus.kidney_stones_self_care"

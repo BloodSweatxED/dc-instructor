@@ -1,7 +1,7 @@
 {
   "generated_at": "deterministic_from_current_ontology_and_generator_batches",
-  "node_count": 1909,
-  "edge_count": 2713,
+  "node_count": 2048,
+  "edge_count": 3012,
   "nodes": [
     {
       "id": "candidate_primitive:abdominal_pain_nonspecific_reassuring_workup.diagnosis.1",
@@ -9915,19 +9915,29 @@
       "label": "Anaphylaxis."
     },
     {
+      "id": "exclusion:antibiotics_prescribed_for_sinusitis_or_suspected_bacterial_sinus_infection",
+      "type": "exclusion",
+      "label": "Antibiotics prescribed for sinusitis or suspected bacterial sinus infection."
+    },
+    {
+      "id": "exclusion:antibiotics_prescribed_for_suspected_bacterial_infection",
+      "type": "exclusion",
+      "label": "Antibiotics prescribed for suspected bacterial infection."
+    },
+    {
       "id": "exclusion:anticoagulated_patient",
       "type": "exclusion",
       "label": "Anticoagulated patient."
     },
     {
+      "id": "exclusion:anticoagulation_complication_bleeding_disorder_anemia_syncope_concern_unstable_vital_signs_or_ai",
+      "type": "exclusion",
+      "label": "Anticoagulation complication, bleeding disorder, anemia/syncope concern, unstable vital signs, or airway symptoms."
+    },
+    {
       "id": "exclusion:anticoagulation_or_bleeding_disorder",
       "type": "exclusion",
       "label": "Anticoagulation or bleeding disorder."
-    },
-    {
-      "id": "exclusion:appendicitis_obstruction_ischemia_perforation_or_sepsis_concern",
-      "type": "exclusion",
-      "label": "Appendicitis, obstruction, ischemia, perforation, or sepsis concern."
     },
     {
       "id": "exclusion:biphasic_reaction_concern_needing_observation",
@@ -9950,6 +9960,11 @@
       "label": "Child with growth plate concern requiring pediatric-specific instructions."
     },
     {
+      "id": "exclusion:chronic_recurrent_fungal_post_surgical_or_ent_directed_sinusitis_pathway",
+      "type": "exclusion",
+      "label": "Chronic, recurrent, fungal, post-surgical, or ENT-directed sinusitis pathway."
+    },
+    {
       "id": "exclusion:concern_for_mono_complications",
       "type": "exclusion",
       "label": "Concern for mono complications."
@@ -9958,6 +9973,16 @@
       "id": "exclusion:concern_for_septic_joint",
       "type": "exclusion",
       "label": "Concern for septic joint."
+    },
+    {
+      "id": "exclusion:contact_lens_use",
+      "type": "exclusion",
+      "label": "Contact lens use."
+    },
+    {
+      "id": "exclusion:copd_or_asthma_exacerbation_requiring_a_disease_specific_pathway",
+      "type": "exclusion",
+      "label": "COPD or asthma exacerbation requiring a disease-specific pathway."
     },
     {
       "id": "exclusion:deep_hand_face_neck_breast_genital_or_perirectal_abscess_pathway",
@@ -9970,6 +9995,16 @@
       "label": "Deep-space infection."
     },
     {
+      "id": "exclusion:dental_source_facial_trauma_immunocompromise_sepsis_unstable_vital_signs_pregnancy_or_frail_elde",
+      "type": "exclusion",
+      "label": "Dental source, facial trauma, immunocompromise, sepsis, unstable vital signs, pregnancy, or frail elderly patient requiring individualized planning."
+    },
+    {
+      "id": "exclusion:diabetes_immunocompromised_host_severe_systemic_illness_unstable_vital_signs_or_fever_needing_se",
+      "type": "exclusion",
+      "label": "Diabetes, immunocompromised host, severe systemic illness, unstable vital signs, or fever needing separate planning."
+    },
+    {
       "id": "exclusion:diabetic_foot_infection_bite_wound_or_immunocompromised_host_requiring_a_separate_pathway",
       "type": "exclusion",
       "label": "Diabetic foot infection, bite wound, or immunocompromised host requiring a separate pathway."
@@ -9980,9 +10015,34 @@
       "label": "Epiglottitis concern."
     },
     {
+      "id": "exclusion:eye_trauma_foreign_body_chemical_exposure_corneal_abrasion_corneal_ulcer_or_keratitis_concern",
+      "type": "exclusion",
+      "label": "Eye trauma, foreign body, chemical exposure, corneal abrasion, corneal ulcer, or keratitis concern."
+    },
+    {
+      "id": "exclusion:facial_or_nasal_trauma_suspected_fracture_or_specialist_directed_ent_plan",
+      "type": "exclusion",
+      "label": "Facial or nasal trauma, suspected fracture, or specialist-directed ENT plan."
+    },
+    {
       "id": "exclusion:fever_flank_pain_rigors_vomiting_or_concern_for_pyelonephritis",
       "type": "exclusion",
       "label": "Fever, flank pain, rigors, vomiting, or concern for pyelonephritis."
+    },
+    {
+      "id": "exclusion:fever_with_headache_neck_stiffness_meningitis_encephalitis_concern_pregnancy_immunocompromise_he",
+      "type": "exclusion",
+      "label": "Fever with headache, neck stiffness, meningitis/encephalitis concern, pregnancy, immunocompromise, head trauma within 7 days, age over 50 with new headache pattern, or unstable vital signs."
+    },
+    {
+      "id": "exclusion:hemoptysis_or_chest_pain_concerning_for_cardiac_disease_or_pulmonary_embolism",
+      "type": "exclusion",
+      "label": "Hemoptysis or chest pain concerning for cardiac disease or pulmonary embolism."
+    },
+    {
+      "id": "exclusion:herpes_or_zoster_eye_concern",
+      "type": "exclusion",
+      "label": "Herpes or zoster eye concern."
     },
     {
       "id": "exclusion:high_risk_comorbidity_or_unreliable_outpatient_plan",
@@ -10015,9 +10075,24 @@
       "label": "Hypoxia, respiratory distress, or need for oxygen."
     },
     {
+      "id": "exclusion:hypoxia_respiratory_distress_unstable_vital_signs_sepsis_concern_or_admission_need",
+      "type": "exclusion",
+      "label": "Hypoxia, respiratory distress, unstable vital signs, sepsis concern, or admission need."
+    },
+    {
       "id": "exclusion:immunocompromised_host",
       "type": "exclusion",
       "label": "Immunocompromised host."
+    },
+    {
+      "id": "exclusion:immunocompromised_host_pregnancy_infant_pediatric_pathway_or_specialist_directed_ophthalmology_p",
+      "type": "exclusion",
+      "label": "Immunocompromised host, pregnancy, infant/pediatric pathway, or specialist-directed ophthalmology plan."
+    },
+    {
+      "id": "exclusion:immunocompromised_or_frail_elderly_patient_requiring_individualized_planning",
+      "type": "exclusion",
+      "label": "Immunocompromised or frail elderly patient requiring individualized planning."
     },
     {
       "id": "exclusion:impending_respiratory_failure",
@@ -10045,6 +10120,11 @@
       "label": "Known cancer with concerning back pain."
     },
     {
+      "id": "exclusion:localized_or_worsening_pain_concerning_for_appendicitis_obstruction_ischemia_perforation_or_othe",
+      "type": "exclusion",
+      "label": "Localized or worsening pain concerning for appendicitis, obstruction, ischemia, perforation, or other surgical abdomen."
+    },
+    {
       "id": "exclusion:ludwig_angina_concern",
       "type": "exclusion",
       "label": "Ludwig angina concern."
@@ -10058,6 +10138,11 @@
       "id": "exclusion:male_patient_or_patient_requiring_sex_specific_complicated_uti_pathway",
       "type": "exclusion",
       "label": "Male patient or patient requiring sex-specific complicated UTI pathway."
+    },
+    {
+      "id": "exclusion:mastoiditis_deep_ear_infection_skull_base_osteomyelitis_or_malignant_otitis_externa_concern",
+      "type": "exclusion",
+      "label": "Mastoiditis, deep ear infection, skull base osteomyelitis, or malignant otitis externa concern."
     },
     {
       "id": "exclusion:necrotizing_soft_tissue_infection_concern",
@@ -10100,6 +10185,11 @@
       "label": "Open fracture, tendon injury, nerve injury, joint violation, or high-pressure injection injury."
     },
     {
+      "id": "exclusion:orbital_or_intracranial_complication_concern_including_eye_swelling_vision_change_severe_headach",
+      "type": "exclusion",
+      "label": "Orbital or intracranial complication concern, including eye swelling, vision change, severe headache with neurologic symptoms, meningitis concern, or altered mental status."
+    },
+    {
       "id": "exclusion:patient_cannot_maintain_hydration_or_safe_home_monitoring",
       "type": "exclusion",
       "label": "Patient cannot maintain hydration or safe home monitoring."
@@ -10108,6 +10198,11 @@
       "id": "exclusion:pelvic_inflammatory_disease_sexually_transmitted_infection_kidney_stone_or_abdominal_emergency_c",
       "type": "exclusion",
       "label": "Pelvic inflammatory disease, sexually transmitted infection, kidney stone, or abdominal emergency concern."
+    },
+    {
+      "id": "exclusion:perforated_eardrum_tympanostomy_tube_ear_trauma_ear_foreign_body_acute_hearing_loss_vertigo_faci",
+      "type": "exclusion",
+      "label": "Perforated eardrum, tympanostomy tube, ear trauma, ear foreign body, acute hearing loss, vertigo, facial weakness, or specialist-directed ENT plan."
     },
     {
       "id": "exclusion:peritonsillar_abscess_concern",
@@ -10130,6 +10225,11 @@
       "label": "Pneumonia, asthma or COPD exacerbation requiring a disease-specific pathway, heart failure, pulmonary embolism, or acute coronary syndrome concern."
     },
     {
+      "id": "exclusion:pneumonia_diagnosis_infiltrate_consolidation_focal_lung_findings_or_unresolved_focal_pneumonia_c",
+      "type": "exclusion",
+      "label": "Pneumonia diagnosis, infiltrate, consolidation, focal lung findings, or unresolved focal pneumonia concern."
+    },
+    {
       "id": "exclusion:pneumonia_or_pulmonary_embolism_concern",
       "type": "exclusion",
       "label": "Pneumonia or pulmonary embolism concern."
@@ -10140,14 +10240,19 @@
       "label": "Post-procedure or post-operative spine patient."
     },
     {
+      "id": "exclusion:posterior_epistaxis_ongoing_bleeding_packing_requiring_specific_plan_or_recurrent_severe_bleed",
+      "type": "exclusion",
+      "label": "Posterior epistaxis, ongoing bleeding, packing requiring specific plan, or recurrent severe bleed."
+    },
+    {
       "id": "exclusion:pregnancy",
       "type": "exclusion",
       "label": "Pregnancy."
     },
     {
-      "id": "exclusion:pregnancy_related_abdominal_pain",
+      "id": "exclusion:pregnancy_or_pregnancy_concern",
       "type": "exclusion",
-      "label": "Pregnancy-related abdominal pain."
+      "label": "Pregnancy or pregnancy concern."
     },
     {
       "id": "exclusion:pregnancy_specific_back_pain_pathway",
@@ -10190,9 +10295,19 @@
       "label": "Sepsis or unstable vital signs."
     },
     {
+      "id": "exclusion:severe_bacterial_sinusitis_features_requiring_clinician_specific_antibiotic_or_watchful_waiting_",
+      "type": "exclusion",
+      "label": "Severe bacterial sinusitis features requiring clinician-specific antibiotic or watchful-waiting decision."
+    },
+    {
       "id": "exclusion:severe_dehydration_syncope_shock_or_inability_to_keep_fluids_down",
       "type": "exclusion",
       "label": "Severe dehydration, syncope, shock, or inability to keep fluids down."
+    },
+    {
+      "id": "exclusion:severe_eye_pain_photophobia_vision_change_proptosis_pain_with_eye_movement_or_periorbital_orbita",
+      "type": "exclusion",
+      "label": "Severe eye pain, photophobia, vision change, proptosis, pain with eye movement, or periorbital/orbital cellulitis concern."
     },
     {
       "id": "exclusion:severe_immunocompromise_or_transplant_status",
@@ -10210,14 +10325,24 @@
       "label": "Solitary kidney, transplant kidney, pregnancy, renal failure, or uncontrolled pain/vomiting."
     },
     {
+      "id": "exclusion:sudden_severe_headache_that_reaches_its_worst_point_within_seconds_worst_headache_of_life_subara",
+      "type": "exclusion",
+      "label": "Sudden, severe headache that reaches its worst point within seconds, worst headache of life, subarachnoid hemorrhage concern, stroke/TIA concern, unresolved neurologic deficit, seizure, or altered mental status not fully resolved at discharge."
+    },
+    {
       "id": "exclusion:suspected_skull_fracture",
       "type": "exclusion",
       "label": "Suspected skull fracture."
     },
     {
-      "id": "exclusion:uncontrolled_pain_or_vomiting",
+      "id": "exclusion:uncontrolled_pain_repeated_vomiting_fever_gi_bleeding_sepsis_concern_frailty_immunocompromise_or",
       "type": "exclusion",
-      "label": "Uncontrolled pain or vomiting."
+      "label": "Uncontrolled pain, repeated vomiting, fever, GI bleeding, sepsis concern, frailty, immunocompromise, or unreliable follow-up."
+    },
+    {
+      "id": "exclusion:uncontrolled_vomiting_at_discharge_specialist_directed_neurology_plan_headache_not_improved_enou",
+      "type": "exclusion",
+      "label": "Uncontrolled vomiting at discharge, specialist-directed neurology plan, headache not improved enough for discharge, first-lifetime headache of this severity, or CT not performed when documented concern exists."
     },
     {
       "id": "exclusion:unreliable_observation_plan",
@@ -13145,6 +13270,11 @@
       "label": "Acute coronary syndrome."
     },
     {
+      "id": "must_not_miss:acute_glaucoma",
+      "type": "must_not_miss",
+      "label": "Acute glaucoma."
+    },
+    {
       "id": "must_not_miss:airway_compromise",
       "type": "must_not_miss",
       "label": "Airway compromise."
@@ -13205,14 +13335,29 @@
       "label": "Cauda equina syndrome."
     },
     {
+      "id": "must_not_miss:cerebral_venous_thrombosis",
+      "type": "must_not_miss",
+      "label": "Cerebral venous thrombosis."
+    },
+    {
       "id": "must_not_miss:cervical_spine_injury",
       "type": "must_not_miss",
       "label": "Cervical spine injury."
     },
     {
+      "id": "must_not_miss:coagulopathy_or_anticoagulation_complication",
+      "type": "must_not_miss",
+      "label": "Coagulopathy or anticoagulation complication."
+    },
+    {
       "id": "must_not_miss:compartment_syndrome_in_severe_trauma",
       "type": "must_not_miss",
       "label": "Compartment syndrome in severe trauma."
+    },
+    {
+      "id": "must_not_miss:corneal_abrasion_or_foreign_body",
+      "type": "must_not_miss",
+      "label": "Corneal abrasion or foreign body."
     },
     {
       "id": "must_not_miss:deep_space_infection",
@@ -13223,6 +13368,16 @@
       "id": "must_not_miss:deep_space_neck_infection",
       "type": "must_not_miss",
       "label": "Deep-space neck infection."
+    },
+    {
+      "id": "must_not_miss:dental_abscess",
+      "type": "must_not_miss",
+      "label": "Dental abscess."
+    },
+    {
+      "id": "must_not_miss:ear_foreign_body",
+      "type": "must_not_miss",
+      "label": "Ear foreign body."
     },
     {
       "id": "must_not_miss:ectopic_pregnancy",
@@ -13240,6 +13395,16 @@
       "label": "Epiglottitis."
     },
     {
+      "id": "must_not_miss:facial_fracture",
+      "type": "must_not_miss",
+      "label": "Facial fracture."
+    },
+    {
+      "id": "must_not_miss:facial_trauma",
+      "type": "must_not_miss",
+      "label": "Facial trauma."
+    },
+    {
       "id": "must_not_miss:gi_bleeding",
       "type": "must_not_miss",
       "label": "GI bleeding."
@@ -13248,6 +13413,16 @@
       "id": "must_not_miss:heart_failure_mimic",
       "type": "must_not_miss",
       "label": "Heart failure mimic."
+    },
+    {
+      "id": "must_not_miss:hemorrhagic_shock",
+      "type": "must_not_miss",
+      "label": "Hemorrhagic shock."
+    },
+    {
+      "id": "must_not_miss:herpes_or_zoster_eye_disease",
+      "type": "must_not_miss",
+      "label": "Herpes or zoster eye disease."
     },
     {
       "id": "must_not_miss:hypoxic_respiratory_failure",
@@ -13275,9 +13450,24 @@
       "label": "Intracranial hemorrhage."
     },
     {
+      "id": "must_not_miss:intracranial_infection",
+      "type": "must_not_miss",
+      "label": "Intracranial infection."
+    },
+    {
+      "id": "must_not_miss:intracranial_mass_or_elevated_intracranial_pressure",
+      "type": "must_not_miss",
+      "label": "Intracranial mass or elevated intracranial pressure."
+    },
+    {
       "id": "must_not_miss:joint_violation",
       "type": "must_not_miss",
       "label": "Joint violation."
+    },
+    {
+      "id": "must_not_miss:keratitis_or_corneal_ulcer",
+      "type": "must_not_miss",
+      "label": "Keratitis or corneal ulcer."
     },
     {
       "id": "must_not_miss:lisfranc_injury_or_high_ankle_sprain_when_exam_suggests_it",
@@ -13290,9 +13480,29 @@
       "label": "Ludwig angina."
     },
     {
+      "id": "must_not_miss:malignant_otitis_externa",
+      "type": "must_not_miss",
+      "label": "Malignant otitis externa."
+    },
+    {
+      "id": "must_not_miss:mastoiditis",
+      "type": "must_not_miss",
+      "label": "Mastoiditis."
+    },
+    {
       "id": "must_not_miss:medication_reaction_with_mucosal_involvement",
       "type": "must_not_miss",
       "label": "Medication reaction with mucosal involvement."
+    },
+    {
+      "id": "must_not_miss:meningitis",
+      "type": "must_not_miss",
+      "label": "Meningitis."
+    },
+    {
+      "id": "must_not_miss:meningitis_or_encephalitis",
+      "type": "must_not_miss",
+      "label": "Meningitis or encephalitis."
     },
     {
       "id": "must_not_miss:myocarditis",
@@ -13345,9 +13555,19 @@
       "label": "Open fracture."
     },
     {
+      "id": "must_not_miss:orbital_cellulitis",
+      "type": "must_not_miss",
+      "label": "Orbital cellulitis."
+    },
+    {
       "id": "must_not_miss:pelvic_infection_or_sti_when_symptoms_suggest_it",
       "type": "must_not_miss",
       "label": "Pelvic infection or STI when symptoms suggest it."
+    },
+    {
+      "id": "must_not_miss:perforated_tympanic_membrane",
+      "type": "must_not_miss",
+      "label": "Perforated tympanic membrane."
     },
     {
       "id": "must_not_miss:perforation",
@@ -13373,6 +13593,16 @@
       "id": "must_not_miss:pneumothorax",
       "type": "must_not_miss",
       "label": "Pneumothorax."
+    },
+    {
+      "id": "must_not_miss:posterior_epistaxis",
+      "type": "must_not_miss",
+      "label": "Posterior epistaxis."
+    },
+    {
+      "id": "must_not_miss:pre_eclampsia_in_pregnancy",
+      "type": "must_not_miss",
+      "label": "Pre-eclampsia in pregnancy."
     },
     {
       "id": "must_not_miss:pregnancy_related_uti_risk",
@@ -13440,6 +13670,11 @@
       "label": "Severe dehydration."
     },
     {
+      "id": "must_not_miss:skull_base_osteomyelitis",
+      "type": "must_not_miss",
+      "label": "Skull base osteomyelitis."
+    },
+    {
       "id": "must_not_miss:skull_fracture",
       "type": "must_not_miss",
       "label": "Skull fracture."
@@ -13448,6 +13683,21 @@
       "id": "must_not_miss:spinal_epidural_abscess",
       "type": "must_not_miss",
       "label": "Spinal epidural abscess."
+    },
+    {
+      "id": "must_not_miss:stroke_or_tia",
+      "type": "must_not_miss",
+      "label": "Stroke or TIA."
+    },
+    {
+      "id": "must_not_miss:subarachnoid_hemorrhage",
+      "type": "must_not_miss",
+      "label": "Subarachnoid hemorrhage."
+    },
+    {
+      "id": "must_not_miss:sudden_sensorineural_hearing_loss",
+      "type": "must_not_miss",
+      "label": "Sudden sensorineural hearing loss."
     },
     {
       "id": "must_not_miss:tendon_injury",
@@ -13460,6 +13710,11 @@
       "label": "Testicular torsion mimic."
     },
     {
+      "id": "must_not_miss:uveitis_or_iritis",
+      "type": "must_not_miss",
+      "label": "Uveitis or iritis."
+    },
+    {
       "id": "must_not_miss:vertebral_fracture",
       "type": "must_not_miss",
       "label": "Vertebral fracture."
@@ -13467,10 +13722,10 @@
     {
       "id": "phenotype:abdominal_pain_nonspecific_reassuring_workup",
       "type": "phenotype",
-      "label": "Nonspecific abdominal pain with reassuring ED workup",
-      "status": "draft",
+      "label": "Abdominal pain recheck after reassuring ED evaluation",
+      "status": "reviewed",
       "condition_family": "gastrointestinal",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "phenotype:abscess_after_i_and_d",
@@ -13478,6 +13733,22 @@
       "label": "Abscess after incision and drainage",
       "status": "reviewed",
       "condition_family": "skin_soft_tissue_infection",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "phenotype",
+      "label": "Acute bronchitis or chest cold without pneumonia concern",
+      "status": "reviewed",
+      "condition_family": "respiratory_infection",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "phenotype:acute_sinusitis_supportive_care",
+      "type": "phenotype",
+      "label": "Acute sinusitis supportive care without antibiotic plan",
+      "status": "reviewed",
+      "condition_family": "upper_respiratory",
       "review_status": "reviewed"
     },
     {
@@ -13516,9 +13787,9 @@
       "id": "phenotype:chest_pain_low_risk_negative_ed_workup",
       "type": "phenotype",
       "label": "Low-risk chest pain after negative ED workup",
-      "status": "draft",
+      "status": "retired",
       "condition_family": "cardiovascular",
-      "review_status": "draft"
+      "review_status": "retired"
     },
     {
       "id": "phenotype:community_acquired_pneumonia_outpatient",
@@ -13537,12 +13808,28 @@
       "review_status": "reviewed"
     },
     {
+      "id": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "phenotype",
+      "label": "Uncomplicated conjunctivitis without contact lens or red flags",
+      "status": "retired",
+      "condition_family": "eye",
+      "review_status": "retired"
+    },
+    {
       "id": "phenotype:dental_pain_no_deep_space_infection",
       "type": "phenotype",
       "label": "Dental pain without deep-space infection",
       "status": "reviewed",
       "condition_family": "dental_oral",
       "review_status": "reviewed"
+    },
+    {
+      "id": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "phenotype",
+      "label": "Resolved nosebleed without posterior bleed concern",
+      "status": "retired",
+      "condition_family": "ent",
+      "review_status": "retired"
     },
     {
       "id": "phenotype:gastroenteritis_stable_hydrating",
@@ -13569,12 +13856,28 @@
       "review_status": "reviewed"
     },
     {
+      "id": "phenotype:migraine_improved_discharge",
+      "type": "phenotype",
+      "label": "Migraine improved after ED treatment",
+      "status": "retired",
+      "condition_family": "headache",
+      "review_status": "retired"
+    },
+    {
       "id": "phenotype:minor_head_injury_no_red_flags",
       "type": "phenotype",
       "label": "Minor head injury without red flags",
       "status": "reviewed",
       "condition_family": "head_injury",
       "review_status": "reviewed"
+    },
+    {
+      "id": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "phenotype",
+      "label": "Uncomplicated otitis externa without mastoiditis concern",
+      "status": "retired",
+      "condition_family": "ear",
+      "review_status": "retired"
     },
     {
       "id": "phenotype:renal_colic_stable_no_infection",
@@ -13607,18 +13910,6 @@
       "status": "reviewed",
       "condition_family": "respiratory_infection",
       "review_status": "reviewed"
-    },
-    {
-      "id": "phenotype_candidate:acute_bronchitis_no_pneumonia",
-      "type": "phenotype",
-      "label": "acute_bronchitis_no_pneumonia",
-      "status": "candidate_from_generator_batch"
-    },
-    {
-      "id": "phenotype_candidate:acute_sinusitis_supportive_care",
-      "type": "phenotype",
-      "label": "acute_sinusitis_supportive_care",
-      "status": "candidate_from_generator_batch"
     },
     {
       "id": "phenotype_candidate:animal_bite_antibiotic_prophylaxis",
@@ -13717,12 +14008,6 @@
       "status": "candidate_from_generator_batch"
     },
     {
-      "id": "phenotype_candidate:migraine_improved_discharge",
-      "type": "phenotype",
-      "label": "migraine_improved_discharge",
-      "status": "candidate_from_generator_batch"
-    },
-    {
       "id": "phenotype_candidate:otitis_externa_uncomplicated",
       "type": "phenotype",
       "label": "otitis_externa_uncomplicated",
@@ -13807,7 +14092,7 @@
       "section": "diagnosis",
       "primitive_type": "diagnosis_summary",
       "priority": "required",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:abdominal_pain_nonspecific_reassuring_workup.follow_up.default_follow_up.v1",
@@ -13816,7 +14101,7 @@
       "section": "follow_up",
       "primitive_type": "default_follow_up",
       "priority": "required",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:abdominal_pain_nonspecific_reassuring_workup.home_care.home_care_1.v1",
@@ -13825,7 +14110,7 @@
       "section": "home_care",
       "primitive_type": "home_care_1",
       "priority": "high",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:abdominal_pain_nonspecific_reassuring_workup.home_care.home_care_2.v1",
@@ -13834,7 +14119,7 @@
       "section": "home_care",
       "primitive_type": "home_care_2",
       "priority": "high",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:abdominal_pain_nonspecific_reassuring_workup.home_care.home_care_3.v1",
@@ -13843,7 +14128,7 @@
       "section": "home_care",
       "primitive_type": "home_care_3",
       "priority": "high",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:abdominal_pain_nonspecific_reassuring_workup.medications.medication_guidance_1.v1",
@@ -13852,7 +14137,7 @@
       "section": "medications",
       "primitive_type": "medication_guidance_1",
       "priority": "high",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:abdominal_pain_nonspecific_reassuring_workup.medications.medication_guidance_2.v1",
@@ -13861,7 +14146,7 @@
       "section": "medications",
       "primitive_type": "medication_guidance_2",
       "priority": "high",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:abdominal_pain_nonspecific_reassuring_workup.return_precautions.return_precaution_1.v1",
@@ -13870,7 +14155,7 @@
       "section": "return_precautions",
       "primitive_type": "return_precaution_1",
       "priority": "required",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:abdominal_pain_nonspecific_reassuring_workup.return_precautions.return_precaution_2.v1",
@@ -13879,7 +14164,7 @@
       "section": "return_precautions",
       "primitive_type": "return_precaution_2",
       "priority": "required",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:abdominal_pain_nonspecific_reassuring_workup.return_precautions.return_precaution_3.v1",
@@ -13888,7 +14173,7 @@
       "section": "return_precautions",
       "primitive_type": "return_precaution_3",
       "priority": "required",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:abdominal_pain_nonspecific_reassuring_workup.what_we_found.reassuring_ed_assessment.v1",
@@ -13897,7 +14182,7 @@
       "section": "what_we_found",
       "primitive_type": "reassuring_ed_assessment",
       "priority": "required",
-      "review_status": "draft"
+      "review_status": "reviewed"
     },
     {
       "id": "primitive:abscess_after_i_and_d.diagnosis.diagnosis_summary.v1",
@@ -14011,6 +14296,204 @@
       "id": "primitive:abscess_after_i_and_d.what_we_found.reassuring_ed_assessment.v1",
       "type": "primitive",
       "label": "abscess_after_i_and_d.what_we_found.reassuring_ed_assessment.v1",
+      "section": "what_we_found",
+      "primitive_type": "reassuring_ed_assessment",
+      "priority": "required",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_bronchitis_no_pneumonia.diagnosis.diagnosis_summary.v1",
+      "type": "primitive",
+      "label": "acute_bronchitis_no_pneumonia.diagnosis.diagnosis_summary.v1",
+      "section": "diagnosis",
+      "primitive_type": "diagnosis_summary",
+      "priority": "required",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_bronchitis_no_pneumonia.follow_up.default_follow_up.v1",
+      "type": "primitive",
+      "label": "acute_bronchitis_no_pneumonia.follow_up.default_follow_up.v1",
+      "section": "follow_up",
+      "primitive_type": "default_follow_up",
+      "priority": "required",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_bronchitis_no_pneumonia.home_care.home_care_1.v1",
+      "type": "primitive",
+      "label": "acute_bronchitis_no_pneumonia.home_care.home_care_1.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_1",
+      "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_bronchitis_no_pneumonia.home_care.home_care_2.v1",
+      "type": "primitive",
+      "label": "acute_bronchitis_no_pneumonia.home_care.home_care_2.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_2",
+      "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_bronchitis_no_pneumonia.home_care.home_care_3.v1",
+      "type": "primitive",
+      "label": "acute_bronchitis_no_pneumonia.home_care.home_care_3.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_3",
+      "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_bronchitis_no_pneumonia.medications.medication_guidance_1.v1",
+      "type": "primitive",
+      "label": "acute_bronchitis_no_pneumonia.medications.medication_guidance_1.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_1",
+      "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_bronchitis_no_pneumonia.medications.medication_guidance_2.v1",
+      "type": "primitive",
+      "label": "acute_bronchitis_no_pneumonia.medications.medication_guidance_2.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_2",
+      "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_bronchitis_no_pneumonia.return_precautions.return_precaution_1.v1",
+      "type": "primitive",
+      "label": "acute_bronchitis_no_pneumonia.return_precautions.return_precaution_1.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_1",
+      "priority": "required",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_bronchitis_no_pneumonia.return_precautions.return_precaution_2.v1",
+      "type": "primitive",
+      "label": "acute_bronchitis_no_pneumonia.return_precautions.return_precaution_2.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_2",
+      "priority": "required",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_bronchitis_no_pneumonia.return_precautions.return_precaution_3.v1",
+      "type": "primitive",
+      "label": "acute_bronchitis_no_pneumonia.return_precautions.return_precaution_3.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_3",
+      "priority": "required",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_bronchitis_no_pneumonia.what_we_found.reassuring_ed_assessment.v1",
+      "type": "primitive",
+      "label": "acute_bronchitis_no_pneumonia.what_we_found.reassuring_ed_assessment.v1",
+      "section": "what_we_found",
+      "primitive_type": "reassuring_ed_assessment",
+      "priority": "required",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_sinusitis_supportive_care.diagnosis.diagnosis_summary.v1",
+      "type": "primitive",
+      "label": "acute_sinusitis_supportive_care.diagnosis.diagnosis_summary.v1",
+      "section": "diagnosis",
+      "primitive_type": "diagnosis_summary",
+      "priority": "required",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_sinusitis_supportive_care.follow_up.default_follow_up.v1",
+      "type": "primitive",
+      "label": "acute_sinusitis_supportive_care.follow_up.default_follow_up.v1",
+      "section": "follow_up",
+      "primitive_type": "default_follow_up",
+      "priority": "required",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_sinusitis_supportive_care.home_care.home_care_1.v1",
+      "type": "primitive",
+      "label": "acute_sinusitis_supportive_care.home_care.home_care_1.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_1",
+      "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_sinusitis_supportive_care.home_care.home_care_2.v1",
+      "type": "primitive",
+      "label": "acute_sinusitis_supportive_care.home_care.home_care_2.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_2",
+      "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_sinusitis_supportive_care.home_care.home_care_3.v1",
+      "type": "primitive",
+      "label": "acute_sinusitis_supportive_care.home_care.home_care_3.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_3",
+      "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_sinusitis_supportive_care.medications.medication_guidance_1.v1",
+      "type": "primitive",
+      "label": "acute_sinusitis_supportive_care.medications.medication_guidance_1.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_1",
+      "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_sinusitis_supportive_care.medications.medication_guidance_2.v1",
+      "type": "primitive",
+      "label": "acute_sinusitis_supportive_care.medications.medication_guidance_2.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_2",
+      "priority": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_sinusitis_supportive_care.return_precautions.return_precaution_1.v1",
+      "type": "primitive",
+      "label": "acute_sinusitis_supportive_care.return_precautions.return_precaution_1.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_1",
+      "priority": "required",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_sinusitis_supportive_care.return_precautions.return_precaution_2.v1",
+      "type": "primitive",
+      "label": "acute_sinusitis_supportive_care.return_precautions.return_precaution_2.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_2",
+      "priority": "required",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_sinusitis_supportive_care.return_precautions.return_precaution_3.v1",
+      "type": "primitive",
+      "label": "acute_sinusitis_supportive_care.return_precautions.return_precaution_3.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_3",
+      "priority": "required",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_sinusitis_supportive_care.what_we_found.reassuring_ed_assessment.v1",
+      "type": "primitive",
+      "label": "acute_sinusitis_supportive_care.what_we_found.reassuring_ed_assessment.v1",
       "section": "what_we_found",
       "primitive_type": "reassuring_ed_assessment",
       "priority": "required",
@@ -14662,7 +15145,7 @@
       "section": "diagnosis",
       "primitive_type": "diagnosis_summary",
       "priority": "required",
-      "review_status": "draft"
+      "review_status": "retired"
     },
     {
       "id": "primitive:chest_pain_low_risk_negative_ed_workup.follow_up.default_follow_up.v1",
@@ -14671,7 +15154,7 @@
       "section": "follow_up",
       "primitive_type": "default_follow_up",
       "priority": "required",
-      "review_status": "draft"
+      "review_status": "retired"
     },
     {
       "id": "primitive:chest_pain_low_risk_negative_ed_workup.home_care.home_care_1.v1",
@@ -14680,7 +15163,7 @@
       "section": "home_care",
       "primitive_type": "home_care_1",
       "priority": "high",
-      "review_status": "draft"
+      "review_status": "retired"
     },
     {
       "id": "primitive:chest_pain_low_risk_negative_ed_workup.home_care.home_care_2.v1",
@@ -14689,7 +15172,7 @@
       "section": "home_care",
       "primitive_type": "home_care_2",
       "priority": "high",
-      "review_status": "draft"
+      "review_status": "retired"
     },
     {
       "id": "primitive:chest_pain_low_risk_negative_ed_workup.home_care.home_care_3.v1",
@@ -14698,7 +15181,7 @@
       "section": "home_care",
       "primitive_type": "home_care_3",
       "priority": "high",
-      "review_status": "draft"
+      "review_status": "retired"
     },
     {
       "id": "primitive:chest_pain_low_risk_negative_ed_workup.medications.medication_guidance_1.v1",
@@ -14707,7 +15190,7 @@
       "section": "medications",
       "primitive_type": "medication_guidance_1",
       "priority": "high",
-      "review_status": "draft"
+      "review_status": "retired"
     },
     {
       "id": "primitive:chest_pain_low_risk_negative_ed_workup.medications.medication_guidance_2.v1",
@@ -14716,7 +15199,7 @@
       "section": "medications",
       "primitive_type": "medication_guidance_2",
       "priority": "high",
-      "review_status": "draft"
+      "review_status": "retired"
     },
     {
       "id": "primitive:chest_pain_low_risk_negative_ed_workup.return_precautions.return_precaution_1.v1",
@@ -14725,7 +15208,7 @@
       "section": "return_precautions",
       "primitive_type": "return_precaution_1",
       "priority": "required",
-      "review_status": "draft"
+      "review_status": "retired"
     },
     {
       "id": "primitive:chest_pain_low_risk_negative_ed_workup.return_precautions.return_precaution_2.v1",
@@ -14734,7 +15217,7 @@
       "section": "return_precautions",
       "primitive_type": "return_precaution_2",
       "priority": "required",
-      "review_status": "draft"
+      "review_status": "retired"
     },
     {
       "id": "primitive:chest_pain_low_risk_negative_ed_workup.return_precautions.return_precaution_3.v1",
@@ -14743,7 +15226,7 @@
       "section": "return_precautions",
       "primitive_type": "return_precaution_3",
       "priority": "required",
-      "review_status": "draft"
+      "review_status": "retired"
     },
     {
       "id": "primitive:chest_pain_low_risk_negative_ed_workup.what_we_found.reassuring_ed_assessment.v1",
@@ -14752,7 +15235,7 @@
       "section": "what_we_found",
       "primitive_type": "reassuring_ed_assessment",
       "priority": "required",
-      "review_status": "draft"
+      "review_status": "retired"
     },
     {
       "id": "primitive:community_acquired_pneumonia_outpatient.diagnosis.diagnosis_summary.v1",
@@ -15016,6 +15499,105 @@
       "review_status": "reviewed"
     },
     {
+      "id": "primitive:conjunctivitis_uncomplicated_no_contact_lens.diagnosis.diagnosis_summary.v1",
+      "type": "primitive",
+      "label": "conjunctivitis_uncomplicated_no_contact_lens.diagnosis.diagnosis_summary.v1",
+      "section": "diagnosis",
+      "primitive_type": "diagnosis_summary",
+      "priority": "required",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:conjunctivitis_uncomplicated_no_contact_lens.follow_up.default_follow_up.v1",
+      "type": "primitive",
+      "label": "conjunctivitis_uncomplicated_no_contact_lens.follow_up.default_follow_up.v1",
+      "section": "follow_up",
+      "primitive_type": "default_follow_up",
+      "priority": "required",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:conjunctivitis_uncomplicated_no_contact_lens.home_care.home_care_1.v1",
+      "type": "primitive",
+      "label": "conjunctivitis_uncomplicated_no_contact_lens.home_care.home_care_1.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_1",
+      "priority": "high",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:conjunctivitis_uncomplicated_no_contact_lens.home_care.home_care_2.v1",
+      "type": "primitive",
+      "label": "conjunctivitis_uncomplicated_no_contact_lens.home_care.home_care_2.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_2",
+      "priority": "high",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:conjunctivitis_uncomplicated_no_contact_lens.home_care.home_care_3.v1",
+      "type": "primitive",
+      "label": "conjunctivitis_uncomplicated_no_contact_lens.home_care.home_care_3.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_3",
+      "priority": "high",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:conjunctivitis_uncomplicated_no_contact_lens.medications.medication_guidance_1.v1",
+      "type": "primitive",
+      "label": "conjunctivitis_uncomplicated_no_contact_lens.medications.medication_guidance_1.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_1",
+      "priority": "high",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:conjunctivitis_uncomplicated_no_contact_lens.medications.medication_guidance_2.v1",
+      "type": "primitive",
+      "label": "conjunctivitis_uncomplicated_no_contact_lens.medications.medication_guidance_2.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_2",
+      "priority": "high",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:conjunctivitis_uncomplicated_no_contact_lens.return_precautions.return_precaution_1.v1",
+      "type": "primitive",
+      "label": "conjunctivitis_uncomplicated_no_contact_lens.return_precautions.return_precaution_1.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_1",
+      "priority": "required",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:conjunctivitis_uncomplicated_no_contact_lens.return_precautions.return_precaution_2.v1",
+      "type": "primitive",
+      "label": "conjunctivitis_uncomplicated_no_contact_lens.return_precautions.return_precaution_2.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_2",
+      "priority": "required",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:conjunctivitis_uncomplicated_no_contact_lens.return_precautions.return_precaution_3.v1",
+      "type": "primitive",
+      "label": "conjunctivitis_uncomplicated_no_contact_lens.return_precautions.return_precaution_3.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_3",
+      "priority": "required",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:conjunctivitis_uncomplicated_no_contact_lens.what_we_found.reassuring_ed_assessment.v1",
+      "type": "primitive",
+      "label": "conjunctivitis_uncomplicated_no_contact_lens.what_we_found.reassuring_ed_assessment.v1",
+      "section": "what_we_found",
+      "primitive_type": "reassuring_ed_assessment",
+      "priority": "required",
+      "review_status": "retired"
+    },
+    {
       "id": "primitive:cystitis.diagnosis.uncomplicated.v1",
       "type": "primitive",
       "label": "cystitis.diagnosis.uncomplicated.v1",
@@ -15212,6 +15794,105 @@
       "primitive_type": "reassuring_ed_assessment",
       "priority": "required",
       "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:epistaxis_resolved_no_posterior_bleed.diagnosis.diagnosis_summary.v1",
+      "type": "primitive",
+      "label": "epistaxis_resolved_no_posterior_bleed.diagnosis.diagnosis_summary.v1",
+      "section": "diagnosis",
+      "primitive_type": "diagnosis_summary",
+      "priority": "required",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:epistaxis_resolved_no_posterior_bleed.follow_up.default_follow_up.v1",
+      "type": "primitive",
+      "label": "epistaxis_resolved_no_posterior_bleed.follow_up.default_follow_up.v1",
+      "section": "follow_up",
+      "primitive_type": "default_follow_up",
+      "priority": "required",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:epistaxis_resolved_no_posterior_bleed.home_care.home_care_1.v1",
+      "type": "primitive",
+      "label": "epistaxis_resolved_no_posterior_bleed.home_care.home_care_1.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_1",
+      "priority": "high",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:epistaxis_resolved_no_posterior_bleed.home_care.home_care_2.v1",
+      "type": "primitive",
+      "label": "epistaxis_resolved_no_posterior_bleed.home_care.home_care_2.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_2",
+      "priority": "high",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:epistaxis_resolved_no_posterior_bleed.home_care.home_care_3.v1",
+      "type": "primitive",
+      "label": "epistaxis_resolved_no_posterior_bleed.home_care.home_care_3.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_3",
+      "priority": "high",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:epistaxis_resolved_no_posterior_bleed.medications.medication_guidance_1.v1",
+      "type": "primitive",
+      "label": "epistaxis_resolved_no_posterior_bleed.medications.medication_guidance_1.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_1",
+      "priority": "high",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:epistaxis_resolved_no_posterior_bleed.medications.medication_guidance_2.v1",
+      "type": "primitive",
+      "label": "epistaxis_resolved_no_posterior_bleed.medications.medication_guidance_2.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_2",
+      "priority": "high",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:epistaxis_resolved_no_posterior_bleed.return_precautions.return_precaution_1.v1",
+      "type": "primitive",
+      "label": "epistaxis_resolved_no_posterior_bleed.return_precautions.return_precaution_1.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_1",
+      "priority": "required",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:epistaxis_resolved_no_posterior_bleed.return_precautions.return_precaution_2.v1",
+      "type": "primitive",
+      "label": "epistaxis_resolved_no_posterior_bleed.return_precautions.return_precaution_2.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_2",
+      "priority": "required",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:epistaxis_resolved_no_posterior_bleed.return_precautions.return_precaution_3.v1",
+      "type": "primitive",
+      "label": "epistaxis_resolved_no_posterior_bleed.return_precautions.return_precaution_3.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_3",
+      "priority": "required",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:epistaxis_resolved_no_posterior_bleed.what_we_found.reassuring_ed_assessment.v1",
+      "type": "primitive",
+      "label": "epistaxis_resolved_no_posterior_bleed.what_we_found.reassuring_ed_assessment.v1",
+      "section": "what_we_found",
+      "primitive_type": "reassuring_ed_assessment",
+      "priority": "required",
+      "review_status": "retired"
     },
     {
       "id": "primitive:gastroenteritis.diagnosis.stable.v1",
@@ -15466,6 +16147,141 @@
       "review_status": "reviewed"
     },
     {
+      "id": "primitive:migraine_improved_discharge.diagnosis.diagnosis_summary.v1",
+      "type": "primitive",
+      "label": "migraine_improved_discharge.diagnosis.diagnosis_summary.v1",
+      "section": "diagnosis",
+      "primitive_type": "diagnosis_summary",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:migraine_improved_discharge.follow_up.default_follow_up.v1",
+      "type": "primitive",
+      "label": "migraine_improved_discharge.follow_up.default_follow_up.v1",
+      "section": "follow_up",
+      "primitive_type": "default_follow_up",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:migraine_improved_discharge.home_care.home_care_1.v1",
+      "type": "primitive",
+      "label": "migraine_improved_discharge.home_care.home_care_1.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_1",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:migraine_improved_discharge.home_care.home_care_2.v1",
+      "type": "primitive",
+      "label": "migraine_improved_discharge.home_care.home_care_2.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_2",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:migraine_improved_discharge.home_care.home_care_3.v1",
+      "type": "primitive",
+      "label": "migraine_improved_discharge.home_care.home_care_3.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_3",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:migraine_improved_discharge.home_care.home_care_4.v1",
+      "type": "primitive",
+      "label": "migraine_improved_discharge.home_care.home_care_4.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_4",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:migraine_improved_discharge.home_care.home_care_5.v1",
+      "type": "primitive",
+      "label": "migraine_improved_discharge.home_care.home_care_5.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_5",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:migraine_improved_discharge.home_care.home_care_6.v1",
+      "type": "primitive",
+      "label": "migraine_improved_discharge.home_care.home_care_6.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_6",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:migraine_improved_discharge.home_care.home_care_7.v1",
+      "type": "primitive",
+      "label": "migraine_improved_discharge.home_care.home_care_7.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_7",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:migraine_improved_discharge.medications.medication_guidance_1.v1",
+      "type": "primitive",
+      "label": "migraine_improved_discharge.medications.medication_guidance_1.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_1",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:migraine_improved_discharge.medications.medication_guidance_2.v1",
+      "type": "primitive",
+      "label": "migraine_improved_discharge.medications.medication_guidance_2.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_2",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:migraine_improved_discharge.return_precautions.return_precaution_1.v1",
+      "type": "primitive",
+      "label": "migraine_improved_discharge.return_precautions.return_precaution_1.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_1",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:migraine_improved_discharge.return_precautions.return_precaution_2.v1",
+      "type": "primitive",
+      "label": "migraine_improved_discharge.return_precautions.return_precaution_2.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_2",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:migraine_improved_discharge.return_precautions.return_precaution_3.v1",
+      "type": "primitive",
+      "label": "migraine_improved_discharge.return_precautions.return_precaution_3.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_3",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:migraine_improved_discharge.what_we_found.reassuring_ed_assessment.v1",
+      "type": "primitive",
+      "label": "migraine_improved_discharge.what_we_found.reassuring_ed_assessment.v1",
+      "section": "what_we_found",
+      "primitive_type": "reassuring_ed_assessment",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
       "id": "primitive:minor_head_injury_no_red_flags.diagnosis.diagnosis_summary.v1",
       "type": "primitive",
       "label": "minor_head_injury_no_red_flags.diagnosis.diagnosis_summary.v1",
@@ -15599,6 +16415,105 @@
       "primitive_type": "reassuring_ed_assessment",
       "priority": "required",
       "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:otitis_externa_no_mastoiditis.diagnosis.diagnosis_summary.v1",
+      "type": "primitive",
+      "label": "otitis_externa_no_mastoiditis.diagnosis.diagnosis_summary.v1",
+      "section": "diagnosis",
+      "primitive_type": "diagnosis_summary",
+      "priority": "required",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:otitis_externa_no_mastoiditis.follow_up.default_follow_up.v1",
+      "type": "primitive",
+      "label": "otitis_externa_no_mastoiditis.follow_up.default_follow_up.v1",
+      "section": "follow_up",
+      "primitive_type": "default_follow_up",
+      "priority": "required",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:otitis_externa_no_mastoiditis.home_care.home_care_1.v1",
+      "type": "primitive",
+      "label": "otitis_externa_no_mastoiditis.home_care.home_care_1.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_1",
+      "priority": "high",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:otitis_externa_no_mastoiditis.home_care.home_care_2.v1",
+      "type": "primitive",
+      "label": "otitis_externa_no_mastoiditis.home_care.home_care_2.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_2",
+      "priority": "high",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:otitis_externa_no_mastoiditis.home_care.home_care_3.v1",
+      "type": "primitive",
+      "label": "otitis_externa_no_mastoiditis.home_care.home_care_3.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_3",
+      "priority": "high",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:otitis_externa_no_mastoiditis.medications.medication_guidance_1.v1",
+      "type": "primitive",
+      "label": "otitis_externa_no_mastoiditis.medications.medication_guidance_1.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_1",
+      "priority": "high",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:otitis_externa_no_mastoiditis.medications.medication_guidance_2.v1",
+      "type": "primitive",
+      "label": "otitis_externa_no_mastoiditis.medications.medication_guidance_2.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_2",
+      "priority": "high",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:otitis_externa_no_mastoiditis.return_precautions.return_precaution_1.v1",
+      "type": "primitive",
+      "label": "otitis_externa_no_mastoiditis.return_precautions.return_precaution_1.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_1",
+      "priority": "required",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:otitis_externa_no_mastoiditis.return_precautions.return_precaution_2.v1",
+      "type": "primitive",
+      "label": "otitis_externa_no_mastoiditis.return_precautions.return_precaution_2.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_2",
+      "priority": "required",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:otitis_externa_no_mastoiditis.return_precautions.return_precaution_3.v1",
+      "type": "primitive",
+      "label": "otitis_externa_no_mastoiditis.return_precautions.return_precaution_3.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_3",
+      "priority": "required",
+      "review_status": "retired"
+    },
+    {
+      "id": "primitive:otitis_externa_no_mastoiditis.what_we_found.reassuring_ed_assessment.v1",
+      "type": "primitive",
+      "label": "otitis_externa_no_mastoiditis.what_we_found.reassuring_ed_assessment.v1",
+      "section": "what_we_found",
+      "primitive_type": "reassuring_ed_assessment",
+      "priority": "required",
+      "review_status": "retired"
     },
     {
       "id": "primitive:renal_colic_stable_no_infection.diagnosis.diagnosis_summary.v1",
@@ -16033,6 +16948,24 @@
       "label": "wound infection"
     },
     {
+      "id": "source_card:aao_hns.nosebleed_guideline",
+      "type": "source_card",
+      "label": "Clinical Practice Guideline: Nosebleed (Epistaxis)",
+      "source": "American Academy of Otolaryngology-Head and Neck Surgery",
+      "url": "https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/nosebleed-epistaxis/",
+      "use_policy": "evidence_support",
+      "source_type": "specialty_guideline_summary"
+    },
+    {
+      "id": "source_card:aha.chest_pain_warning_signs",
+      "type": "source_card",
+      "label": "Chest pain: When to see a doctor",
+      "source": "American Heart Association",
+      "url": "https://www.heart.org/en/health-topics/house-calls/common-causes-of-chest-pain",
+      "use_policy": "evidence_support",
+      "source_type": "public_patient_education"
+    },
+    {
       "id": "source_card:ahrq.common_cold_antibiotics",
       "type": "source_card",
       "label": "Upper Respiratory Tract Infection: The Common Cold",
@@ -16042,6 +16975,15 @@
       "source_type": "government_guidance"
     },
     {
+      "id": "source_card:cdc.acute_bronchitis",
+      "type": "source_card",
+      "label": "Chest Cold (Acute Bronchitis) Basics",
+      "source": "CDC",
+      "url": "https://www.cdc.gov/acute-bronchitis/about/index.html",
+      "use_policy": "evidence_support",
+      "source_type": "government_patient_education"
+    },
+    {
       "id": "source_card:cdc.antibiotic_use_adult_outpatient",
       "type": "source_card",
       "label": "Outpatient Clinical Care for Adults",
@@ -16049,6 +16991,15 @@
       "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
       "use_policy": "evidence_support",
       "source_type": "government_guidance"
+    },
+    {
+      "id": "source_card:cdc.conjunctivitis",
+      "type": "source_card",
+      "label": "About Pink Eye",
+      "source": "CDC",
+      "url": "https://www.cdc.gov/conjunctivitis/about/index.html",
+      "use_policy": "evidence_support",
+      "source_type": "government_patient_education"
     },
     {
       "id": "source_card:cdc.group_a_strep_cellulitis",
@@ -16096,6 +17047,15 @@
       "source_type": "government_guidance"
     },
     {
+      "id": "source_card:cdc.sinus_infection",
+      "type": "source_card",
+      "label": "Sinus Infection Basics",
+      "source": "CDC",
+      "url": "https://www.cdc.gov/sinus-infection/about/index.html",
+      "use_policy": "evidence_support",
+      "source_type": "government_patient_education"
+    },
+    {
       "id": "source_card:cdc.sore_throat_basics",
       "type": "source_card",
       "label": "Sore Throat Basics",
@@ -16105,6 +17065,15 @@
       "source_type": "government_guidance"
     },
     {
+      "id": "source_card:cdc.swimmers_ear",
+      "type": "source_card",
+      "label": "Preventing Swimmer's Ear",
+      "source": "CDC",
+      "url": "https://www.cdc.gov/healthy-swimming/prevention/preventing-swimmers-ear.html",
+      "use_policy": "evidence_support",
+      "source_type": "government_patient_education"
+    },
+    {
       "id": "source_card:cdc.uti_basics",
       "type": "source_card",
       "label": "Urinary Tract Infection Basics",
@@ -16112,6 +17081,33 @@
       "url": "https://www.cdc.gov/uti/about/index.html",
       "use_policy": "evidence_support",
       "source_type": "government_guidance"
+    },
+    {
+      "id": "source_card:medlineplus.abdominal_pain",
+      "type": "source_card",
+      "label": "Abdominal Pain",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/abdominalpain.html",
+      "use_policy": "evidence_support",
+      "source_type": "public_patient_education"
+    },
+    {
+      "id": "source_card:medlineplus.abdominal_pain_ency",
+      "type": "source_card",
+      "label": "Abdominal pain",
+      "source": "MedlinePlus Medical Encyclopedia",
+      "url": "https://medlineplus.gov/ency/article/003120.htm",
+      "use_policy": "evidence_support",
+      "source_type": "public_patient_education"
+    },
+    {
+      "id": "source_card:medlineplus.acute_bronchitis",
+      "type": "source_card",
+      "label": "Acute Bronchitis",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/acutebronchitis.html",
+      "use_policy": "evidence_support",
+      "source_type": "public_patient_education"
     },
     {
       "id": "source_card:medlineplus.allergic_reactions",
@@ -16159,6 +17155,15 @@
       "source_type": "public_patient_education"
     },
     {
+      "id": "source_card:medlineplus.conjunctivitis",
+      "type": "source_card",
+      "label": "Conjunctivitis",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/ency/article/001010.htm",
+      "use_policy": "evidence_support",
+      "source_type": "public_patient_education"
+    },
+    {
       "id": "source_card:medlineplus.cuts_puncture_wounds",
       "type": "source_card",
       "label": "Cuts and puncture wounds",
@@ -16195,11 +17200,47 @@
       "source_type": "public_patient_education"
     },
     {
+      "id": "source_card:medlineplus.migraine",
+      "type": "source_card",
+      "label": "Migraine",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/migraine.html",
+      "use_policy": "evidence_support",
+      "source_type": "public_patient_education"
+    },
+    {
+      "id": "source_card:medlineplus.nosebleed",
+      "type": "source_card",
+      "label": "Nosebleed",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/ency/article/003106.htm",
+      "use_policy": "evidence_support",
+      "source_type": "public_patient_education"
+    },
+    {
+      "id": "source_card:medlineplus.sinusitis",
+      "type": "source_card",
+      "label": "Sinusitis",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/sinusitis.html",
+      "use_policy": "evidence_support",
+      "source_type": "public_patient_education"
+    },
+    {
       "id": "source_card:medlineplus.skin_abscess",
       "type": "source_card",
       "label": "Skin abscess",
       "source": "MedlinePlus",
       "url": "https://medlineplus.gov/ency/article/000863.htm",
+      "use_policy": "evidence_support",
+      "source_type": "public_patient_education"
+    },
+    {
+      "id": "source_card:medlineplus.swimmers_ear",
+      "type": "source_card",
+      "label": "Swimmer's ear",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/ency/article/000622.htm",
       "use_policy": "evidence_support",
       "source_type": "public_patient_education"
     },
@@ -16229,6 +17270,15 @@
       "url": "https://medlineplus.gov/ency/article/000252.htm",
       "use_policy": "evidence_support",
       "source_type": "public_patient_education"
+    },
+    {
+      "id": "source_card:ninds.headache",
+      "type": "source_card",
+      "label": "Headache",
+      "source": "National Institute of Neurological Disorders and Stroke",
+      "url": "https://www.ninds.nih.gov/health-information/disorders/headache",
+      "use_policy": "evidence_support",
+      "source_type": "government_patient_education"
     },
     {
       "id": "source_card:wikem.ankle_sprain",
@@ -19167,6 +20217,11 @@
     },
     {
       "source": "generator_case:acute_bronchitis_no_pneumonia",
+      "type": "drafts_for_existing_phenotype",
+      "target": "phenotype:acute_bronchitis_no_pneumonia"
+    },
+    {
+      "source": "generator_case:acute_bronchitis_no_pneumonia",
       "type": "has_generated_section",
       "target": "generator_section:acute_bronchitis_no_pneumonia.diagnosis"
     },
@@ -19196,9 +20251,9 @@
       "target": "generator_section:acute_bronchitis_no_pneumonia.what_we_found"
     },
     {
-      "source": "generator_case:acute_bronchitis_no_pneumonia",
-      "type": "proposes_candidate_phenotype",
-      "target": "phenotype_candidate:acute_bronchitis_no_pneumonia"
+      "source": "generator_case:acute_sinusitis_supportive_care",
+      "type": "drafts_for_existing_phenotype",
+      "target": "phenotype:acute_sinusitis_supportive_care"
     },
     {
       "source": "generator_case:acute_sinusitis_supportive_care",
@@ -19229,11 +20284,6 @@
       "source": "generator_case:acute_sinusitis_supportive_care",
       "type": "has_generated_section",
       "target": "generator_section:acute_sinusitis_supportive_care.what_we_found"
-    },
-    {
-      "source": "generator_case:acute_sinusitis_supportive_care",
-      "type": "proposes_candidate_phenotype",
-      "target": "phenotype_candidate:acute_sinusitis_supportive_care"
     },
     {
       "source": "generator_case:allergic_reaction_resolved_no_anaphylaxis",
@@ -20182,6 +21232,11 @@
     },
     {
       "source": "generator_case:migraine_improved_discharge",
+      "type": "drafts_for_existing_phenotype",
+      "target": "phenotype:migraine_improved_discharge"
+    },
+    {
+      "source": "generator_case:migraine_improved_discharge",
       "type": "has_generated_section",
       "target": "generator_section:migraine_improved_discharge.diagnosis"
     },
@@ -20209,11 +21264,6 @@
       "source": "generator_case:migraine_improved_discharge",
       "type": "has_generated_section",
       "target": "generator_section:migraine_improved_discharge.what_we_found"
-    },
-    {
-      "source": "generator_case:migraine_improved_discharge",
-      "type": "proposes_candidate_phenotype",
-      "target": "phenotype_candidate:migraine_improved_discharge"
     },
     {
       "source": "generator_case:minor_head_injury_no_red_flags",
@@ -27442,17 +28492,17 @@
     {
       "source": "phenotype:abdominal_pain_nonspecific_reassuring_workup",
       "type": "has_exclusion",
-      "target": "exclusion:appendicitis_obstruction_ischemia_perforation_or_sepsis_concern"
+      "target": "exclusion:localized_or_worsening_pain_concerning_for_appendicitis_obstruction_ischemia_perforation_or_othe"
     },
     {
       "source": "phenotype:abdominal_pain_nonspecific_reassuring_workup",
       "type": "has_exclusion",
-      "target": "exclusion:pregnancy_related_abdominal_pain"
+      "target": "exclusion:pregnancy_or_pregnancy_concern"
     },
     {
       "source": "phenotype:abdominal_pain_nonspecific_reassuring_workup",
       "type": "has_exclusion",
-      "target": "exclusion:uncontrolled_pain_or_vomiting"
+      "target": "exclusion:uncontrolled_pain_repeated_vomiting_fever_gi_bleeding_sepsis_concern_frailty_immunocompromise_or"
     },
     {
       "source": "phenotype:abdominal_pain_nonspecific_reassuring_workup",
@@ -27483,6 +28533,11 @@
       "source": "phenotype:abdominal_pain_nonspecific_reassuring_workup",
       "type": "has_must_not_miss",
       "target": "must_not_miss:perforation"
+    },
+    {
+      "source": "phenotype:abdominal_pain_nonspecific_reassuring_workup",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:sepsis"
     },
     {
       "source": "phenotype:abdominal_pain_nonspecific_reassuring_workup",
@@ -27607,16 +28662,6 @@
     {
       "source": "phenotype:abscess_after_i_and_d",
       "type": "requires_primitive",
-      "target": "primitive:abscess_after_i_and_d.resources.followup_reminder.v1"
-    },
-    {
-      "source": "phenotype:abscess_after_i_and_d",
-      "type": "requires_primitive",
-      "target": "primitive:abscess_after_i_and_d.resources.source_link_1.v1"
-    },
-    {
-      "source": "phenotype:abscess_after_i_and_d",
-      "type": "requires_primitive",
       "target": "primitive:abscess_after_i_and_d.return_precautions.return_precaution_1.v1"
     },
     {
@@ -27633,6 +28678,231 @@
       "source": "phenotype:abscess_after_i_and_d",
       "type": "requires_primitive",
       "target": "primitive:abscess_after_i_and_d.what_we_found.reassuring_ed_assessment.v1"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "has_exclusion",
+      "target": "exclusion:antibiotics_prescribed_for_suspected_bacterial_infection"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "has_exclusion",
+      "target": "exclusion:copd_or_asthma_exacerbation_requiring_a_disease_specific_pathway"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "has_exclusion",
+      "target": "exclusion:hemoptysis_or_chest_pain_concerning_for_cardiac_disease_or_pulmonary_embolism"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "has_exclusion",
+      "target": "exclusion:hypoxia_respiratory_distress_unstable_vital_signs_sepsis_concern_or_admission_need"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "has_exclusion",
+      "target": "exclusion:immunocompromised_or_frail_elderly_patient_requiring_individualized_planning"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "has_exclusion",
+      "target": "exclusion:pneumonia_diagnosis_infiltrate_consolidation_focal_lung_findings_or_unresolved_focal_pneumonia_c"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:acute_coronary_syndrome"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:asthma_or_copd_exacerbation"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:hypoxic_respiratory_failure"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:pneumonia"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:pulmonary_embolism"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:sepsis"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "requires_primitive",
+      "target": "primitive:acute_bronchitis_no_pneumonia.diagnosis.diagnosis_summary.v1"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "requires_primitive",
+      "target": "primitive:acute_bronchitis_no_pneumonia.follow_up.default_follow_up.v1"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "requires_primitive",
+      "target": "primitive:acute_bronchitis_no_pneumonia.home_care.home_care_1.v1"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "requires_primitive",
+      "target": "primitive:acute_bronchitis_no_pneumonia.home_care.home_care_2.v1"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "requires_primitive",
+      "target": "primitive:acute_bronchitis_no_pneumonia.home_care.home_care_3.v1"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "requires_primitive",
+      "target": "primitive:acute_bronchitis_no_pneumonia.medications.medication_guidance_1.v1"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "requires_primitive",
+      "target": "primitive:acute_bronchitis_no_pneumonia.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "requires_primitive",
+      "target": "primitive:acute_bronchitis_no_pneumonia.return_precautions.return_precaution_1.v1"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "requires_primitive",
+      "target": "primitive:acute_bronchitis_no_pneumonia.return_precautions.return_precaution_2.v1"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "requires_primitive",
+      "target": "primitive:acute_bronchitis_no_pneumonia.return_precautions.return_precaution_3.v1"
+    },
+    {
+      "source": "phenotype:acute_bronchitis_no_pneumonia",
+      "type": "requires_primitive",
+      "target": "primitive:acute_bronchitis_no_pneumonia.what_we_found.reassuring_ed_assessment.v1"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "has_exclusion",
+      "target": "exclusion:antibiotics_prescribed_for_sinusitis_or_suspected_bacterial_sinus_infection"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "has_exclusion",
+      "target": "exclusion:chronic_recurrent_fungal_post_surgical_or_ent_directed_sinusitis_pathway"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "has_exclusion",
+      "target": "exclusion:dental_source_facial_trauma_immunocompromise_sepsis_unstable_vital_signs_pregnancy_or_frail_elde"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "has_exclusion",
+      "target": "exclusion:orbital_or_intracranial_complication_concern_including_eye_swelling_vision_change_severe_headach"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "has_exclusion",
+      "target": "exclusion:severe_bacterial_sinusitis_features_requiring_clinician_specific_antibiotic_or_watchful_waiting_"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:dental_abscess"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:facial_trauma"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:intracranial_infection"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:meningitis"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:orbital_cellulitis"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:sepsis"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:acute_sinusitis_supportive_care.diagnosis.diagnosis_summary.v1"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:acute_sinusitis_supportive_care.follow_up.default_follow_up.v1"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:acute_sinusitis_supportive_care.home_care.home_care_1.v1"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:acute_sinusitis_supportive_care.home_care.home_care_2.v1"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:acute_sinusitis_supportive_care.home_care.home_care_3.v1"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:acute_sinusitis_supportive_care.medications.medication_guidance_1.v1"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:acute_sinusitis_supportive_care.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:acute_sinusitis_supportive_care.return_precautions.return_precaution_1.v1"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:acute_sinusitis_supportive_care.return_precautions.return_precaution_2.v1"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:acute_sinusitis_supportive_care.return_precautions.return_precaution_3.v1"
+    },
+    {
+      "source": "phenotype:acute_sinusitis_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:acute_sinusitis_supportive_care.what_we_found.reassuring_ed_assessment.v1"
     },
     {
       "source": "phenotype:allergic_reaction_resolved_no_anaphylaxis",
@@ -27708,16 +28978,6 @@
       "source": "phenotype:allergic_reaction_resolved_no_anaphylaxis",
       "type": "requires_primitive",
       "target": "primitive:allergic_reaction_resolved_no_anaphylaxis.medications.medication_guidance_2.v1"
-    },
-    {
-      "source": "phenotype:allergic_reaction_resolved_no_anaphylaxis",
-      "type": "requires_primitive",
-      "target": "primitive:allergic_reaction_resolved_no_anaphylaxis.resources.followup_reminder.v1"
-    },
-    {
-      "source": "phenotype:allergic_reaction_resolved_no_anaphylaxis",
-      "type": "requires_primitive",
-      "target": "primitive:allergic_reaction_resolved_no_anaphylaxis.resources.source_link_1.v1"
     },
     {
       "source": "phenotype:allergic_reaction_resolved_no_anaphylaxis",
@@ -27957,16 +29217,6 @@
     {
       "source": "phenotype:asthma_exacerbation_improved_discharge",
       "type": "requires_primitive",
-      "target": "primitive:asthma_exacerbation_improved_discharge.resources.followup_reminder.v1"
-    },
-    {
-      "source": "phenotype:asthma_exacerbation_improved_discharge",
-      "type": "requires_primitive",
-      "target": "primitive:asthma_exacerbation_improved_discharge.resources.source_link_1.v1"
-    },
-    {
-      "source": "phenotype:asthma_exacerbation_improved_discharge",
-      "type": "requires_primitive",
       "target": "primitive:asthma_exacerbation_improved_discharge.return_precautions.return_precaution_1.v1"
     },
     {
@@ -28063,21 +29313,6 @@
       "source": "phenotype:cellulitis_uncomplicated_oral_antibiotics",
       "type": "requires_primitive",
       "target": "primitive:cellulitis_uncomplicated_oral_antibiotics.medications.medication_guidance_2.v1"
-    },
-    {
-      "source": "phenotype:cellulitis_uncomplicated_oral_antibiotics",
-      "type": "requires_primitive",
-      "target": "primitive:cellulitis_uncomplicated_oral_antibiotics.resources.followup_reminder.v1"
-    },
-    {
-      "source": "phenotype:cellulitis_uncomplicated_oral_antibiotics",
-      "type": "requires_primitive",
-      "target": "primitive:cellulitis_uncomplicated_oral_antibiotics.resources.source_link_1.v1"
-    },
-    {
-      "source": "phenotype:cellulitis_uncomplicated_oral_antibiotics",
-      "type": "requires_primitive",
-      "target": "primitive:cellulitis_uncomplicated_oral_antibiotics.resources.source_link_2.v1"
     },
     {
       "source": "phenotype:cellulitis_uncomplicated_oral_antibiotics",
@@ -28282,21 +29517,6 @@
     {
       "source": "phenotype:community_acquired_pneumonia_outpatient",
       "type": "requires_primitive",
-      "target": "primitive:community_acquired_pneumonia_outpatient.resources.followup_reminder.v1"
-    },
-    {
-      "source": "phenotype:community_acquired_pneumonia_outpatient",
-      "type": "requires_primitive",
-      "target": "primitive:community_acquired_pneumonia_outpatient.resources.source_link_1.v1"
-    },
-    {
-      "source": "phenotype:community_acquired_pneumonia_outpatient",
-      "type": "requires_primitive",
-      "target": "primitive:community_acquired_pneumonia_outpatient.resources.source_link_2.v1"
-    },
-    {
-      "source": "phenotype:community_acquired_pneumonia_outpatient",
-      "type": "requires_primitive",
       "target": "primitive:community_acquired_pneumonia_outpatient.return_precautions.return_precaution_1.v1"
     },
     {
@@ -28387,21 +29607,6 @@
     {
       "source": "phenotype:concussion_discharge_no_imaging_red_flags",
       "type": "requires_primitive",
-      "target": "primitive:concussion_discharge_no_imaging_red_flags.resources.followup_reminder.v1"
-    },
-    {
-      "source": "phenotype:concussion_discharge_no_imaging_red_flags",
-      "type": "requires_primitive",
-      "target": "primitive:concussion_discharge_no_imaging_red_flags.resources.source_link_1.v1"
-    },
-    {
-      "source": "phenotype:concussion_discharge_no_imaging_red_flags",
-      "type": "requires_primitive",
-      "target": "primitive:concussion_discharge_no_imaging_red_flags.resources.source_link_2.v1"
-    },
-    {
-      "source": "phenotype:concussion_discharge_no_imaging_red_flags",
-      "type": "requires_primitive",
       "target": "primitive:concussion_discharge_no_imaging_red_flags.return_precautions.return_precaution_1.v1"
     },
     {
@@ -28418,6 +29623,116 @@
       "source": "phenotype:concussion_discharge_no_imaging_red_flags",
       "type": "requires_primitive",
       "target": "primitive:concussion_discharge_no_imaging_red_flags.what_we_found.reassuring_ed_assessment.v1"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "has_exclusion",
+      "target": "exclusion:contact_lens_use"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "has_exclusion",
+      "target": "exclusion:eye_trauma_foreign_body_chemical_exposure_corneal_abrasion_corneal_ulcer_or_keratitis_concern"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "has_exclusion",
+      "target": "exclusion:herpes_or_zoster_eye_concern"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "has_exclusion",
+      "target": "exclusion:immunocompromised_host_pregnancy_infant_pediatric_pathway_or_specialist_directed_ophthalmology_p"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "has_exclusion",
+      "target": "exclusion:severe_eye_pain_photophobia_vision_change_proptosis_pain_with_eye_movement_or_periorbital_orbita"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:acute_glaucoma"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:corneal_abrasion_or_foreign_body"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:herpes_or_zoster_eye_disease"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:keratitis_or_corneal_ulcer"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:orbital_cellulitis"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:uveitis_or_iritis"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "requires_primitive",
+      "target": "primitive:conjunctivitis_uncomplicated_no_contact_lens.diagnosis.diagnosis_summary.v1"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "requires_primitive",
+      "target": "primitive:conjunctivitis_uncomplicated_no_contact_lens.follow_up.default_follow_up.v1"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "requires_primitive",
+      "target": "primitive:conjunctivitis_uncomplicated_no_contact_lens.home_care.home_care_1.v1"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "requires_primitive",
+      "target": "primitive:conjunctivitis_uncomplicated_no_contact_lens.home_care.home_care_2.v1"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "requires_primitive",
+      "target": "primitive:conjunctivitis_uncomplicated_no_contact_lens.home_care.home_care_3.v1"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "requires_primitive",
+      "target": "primitive:conjunctivitis_uncomplicated_no_contact_lens.medications.medication_guidance_1.v1"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "requires_primitive",
+      "target": "primitive:conjunctivitis_uncomplicated_no_contact_lens.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "requires_primitive",
+      "target": "primitive:conjunctivitis_uncomplicated_no_contact_lens.return_precautions.return_precaution_1.v1"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "requires_primitive",
+      "target": "primitive:conjunctivitis_uncomplicated_no_contact_lens.return_precautions.return_precaution_2.v1"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "requires_primitive",
+      "target": "primitive:conjunctivitis_uncomplicated_no_contact_lens.return_precautions.return_precaution_3.v1"
+    },
+    {
+      "source": "phenotype:conjunctivitis_uncomplicated_no_contact_lens",
+      "type": "requires_primitive",
+      "target": "primitive:conjunctivitis_uncomplicated_no_contact_lens.what_we_found.reassuring_ed_assessment.v1"
     },
     {
       "source": "phenotype:dental_pain_no_deep_space_infection",
@@ -28497,16 +29812,6 @@
     {
       "source": "phenotype:dental_pain_no_deep_space_infection",
       "type": "requires_primitive",
-      "target": "primitive:dental_pain_no_deep_space_infection.resources.followup_reminder.v1"
-    },
-    {
-      "source": "phenotype:dental_pain_no_deep_space_infection",
-      "type": "requires_primitive",
-      "target": "primitive:dental_pain_no_deep_space_infection.resources.source_link_1.v1"
-    },
-    {
-      "source": "phenotype:dental_pain_no_deep_space_infection",
-      "type": "requires_primitive",
       "target": "primitive:dental_pain_no_deep_space_infection.return_precautions.return_precaution_1.v1"
     },
     {
@@ -28523,6 +29828,101 @@
       "source": "phenotype:dental_pain_no_deep_space_infection",
       "type": "requires_primitive",
       "target": "primitive:dental_pain_no_deep_space_infection.what_we_found.reassuring_ed_assessment.v1"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "has_exclusion",
+      "target": "exclusion:anticoagulation_complication_bleeding_disorder_anemia_syncope_concern_unstable_vital_signs_or_ai"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "has_exclusion",
+      "target": "exclusion:facial_or_nasal_trauma_suspected_fracture_or_specialist_directed_ent_plan"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "has_exclusion",
+      "target": "exclusion:posterior_epistaxis_ongoing_bleeding_packing_requiring_specific_plan_or_recurrent_severe_bleed"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:airway_compromise"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:coagulopathy_or_anticoagulation_complication"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:facial_fracture"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:hemorrhagic_shock"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:posterior_epistaxis"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "requires_primitive",
+      "target": "primitive:epistaxis_resolved_no_posterior_bleed.diagnosis.diagnosis_summary.v1"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "requires_primitive",
+      "target": "primitive:epistaxis_resolved_no_posterior_bleed.follow_up.default_follow_up.v1"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "requires_primitive",
+      "target": "primitive:epistaxis_resolved_no_posterior_bleed.home_care.home_care_1.v1"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "requires_primitive",
+      "target": "primitive:epistaxis_resolved_no_posterior_bleed.home_care.home_care_2.v1"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "requires_primitive",
+      "target": "primitive:epistaxis_resolved_no_posterior_bleed.home_care.home_care_3.v1"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "requires_primitive",
+      "target": "primitive:epistaxis_resolved_no_posterior_bleed.medications.medication_guidance_1.v1"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "requires_primitive",
+      "target": "primitive:epistaxis_resolved_no_posterior_bleed.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "requires_primitive",
+      "target": "primitive:epistaxis_resolved_no_posterior_bleed.return_precautions.return_precaution_1.v1"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "requires_primitive",
+      "target": "primitive:epistaxis_resolved_no_posterior_bleed.return_precautions.return_precaution_2.v1"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "requires_primitive",
+      "target": "primitive:epistaxis_resolved_no_posterior_bleed.return_precautions.return_precaution_3.v1"
+    },
+    {
+      "source": "phenotype:epistaxis_resolved_no_posterior_bleed",
+      "type": "requires_primitive",
+      "target": "primitive:epistaxis_resolved_no_posterior_bleed.what_we_found.reassuring_ed_assessment.v1"
     },
     {
       "source": "phenotype:gastroenteritis_stable_hydrating",
@@ -28707,16 +30107,6 @@
     {
       "source": "phenotype:laceration_repaired_simple",
       "type": "requires_primitive",
-      "target": "primitive:laceration_repaired_simple.resources.followup_reminder.v1"
-    },
-    {
-      "source": "phenotype:laceration_repaired_simple",
-      "type": "requires_primitive",
-      "target": "primitive:laceration_repaired_simple.resources.source_link_1.v1"
-    },
-    {
-      "source": "phenotype:laceration_repaired_simple",
-      "type": "requires_primitive",
       "target": "primitive:laceration_repaired_simple.return_precautions.return_precaution_1.v1"
     },
     {
@@ -28860,6 +30250,126 @@
       "target": "primitive:lumbar_strain_no_red_flags.resources.source_link_2.v1"
     },
     {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "has_exclusion",
+      "target": "exclusion:fever_with_headache_neck_stiffness_meningitis_encephalitis_concern_pregnancy_immunocompromise_he"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "has_exclusion",
+      "target": "exclusion:sudden_severe_headache_that_reaches_its_worst_point_within_seconds_worst_headache_of_life_subara"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "has_exclusion",
+      "target": "exclusion:uncontrolled_vomiting_at_discharge_specialist_directed_neurology_plan_headache_not_improved_enou"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:cerebral_venous_thrombosis"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:intracranial_mass_or_elevated_intracranial_pressure"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:meningitis_or_encephalitis"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:pre_eclampsia_in_pregnancy"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:stroke_or_tia"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:subarachnoid_hemorrhage"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:migraine_improved_discharge.diagnosis.diagnosis_summary.v1"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:migraine_improved_discharge.follow_up.default_follow_up.v1"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:migraine_improved_discharge.home_care.home_care_1.v1"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:migraine_improved_discharge.home_care.home_care_2.v1"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:migraine_improved_discharge.home_care.home_care_3.v1"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:migraine_improved_discharge.home_care.home_care_4.v1"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:migraine_improved_discharge.home_care.home_care_5.v1"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:migraine_improved_discharge.home_care.home_care_6.v1"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:migraine_improved_discharge.home_care.home_care_7.v1"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:migraine_improved_discharge.medications.medication_guidance_1.v1"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:migraine_improved_discharge.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:migraine_improved_discharge.return_precautions.return_precaution_1.v1"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:migraine_improved_discharge.return_precautions.return_precaution_2.v1"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:migraine_improved_discharge.return_precautions.return_precaution_3.v1"
+    },
+    {
+      "source": "phenotype:migraine_improved_discharge",
+      "type": "requires_primitive",
+      "target": "primitive:migraine_improved_discharge.what_we_found.reassuring_ed_assessment.v1"
+    },
+    {
       "source": "phenotype:minor_head_injury_no_red_flags",
       "type": "has_exclusion",
       "target": "exclusion:anticoagulated_patient"
@@ -28942,21 +30452,6 @@
     {
       "source": "phenotype:minor_head_injury_no_red_flags",
       "type": "requires_primitive",
-      "target": "primitive:minor_head_injury_no_red_flags.resources.followup_reminder.v1"
-    },
-    {
-      "source": "phenotype:minor_head_injury_no_red_flags",
-      "type": "requires_primitive",
-      "target": "primitive:minor_head_injury_no_red_flags.resources.source_link_1.v1"
-    },
-    {
-      "source": "phenotype:minor_head_injury_no_red_flags",
-      "type": "requires_primitive",
-      "target": "primitive:minor_head_injury_no_red_flags.resources.source_link_2.v1"
-    },
-    {
-      "source": "phenotype:minor_head_injury_no_red_flags",
-      "type": "requires_primitive",
       "target": "primitive:minor_head_injury_no_red_flags.return_precautions.return_precaution_1.v1"
     },
     {
@@ -28973,6 +30468,106 @@
       "source": "phenotype:minor_head_injury_no_red_flags",
       "type": "requires_primitive",
       "target": "primitive:minor_head_injury_no_red_flags.what_we_found.reassuring_ed_assessment.v1"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "has_exclusion",
+      "target": "exclusion:diabetes_immunocompromised_host_severe_systemic_illness_unstable_vital_signs_or_fever_needing_se"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "has_exclusion",
+      "target": "exclusion:mastoiditis_deep_ear_infection_skull_base_osteomyelitis_or_malignant_otitis_externa_concern"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "has_exclusion",
+      "target": "exclusion:perforated_eardrum_tympanostomy_tube_ear_trauma_ear_foreign_body_acute_hearing_loss_vertigo_faci"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:ear_foreign_body"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:malignant_otitis_externa"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:mastoiditis"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:perforated_tympanic_membrane"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:skull_base_osteomyelitis"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:sudden_sensorineural_hearing_loss"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "requires_primitive",
+      "target": "primitive:otitis_externa_no_mastoiditis.diagnosis.diagnosis_summary.v1"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "requires_primitive",
+      "target": "primitive:otitis_externa_no_mastoiditis.follow_up.default_follow_up.v1"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "requires_primitive",
+      "target": "primitive:otitis_externa_no_mastoiditis.home_care.home_care_1.v1"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "requires_primitive",
+      "target": "primitive:otitis_externa_no_mastoiditis.home_care.home_care_2.v1"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "requires_primitive",
+      "target": "primitive:otitis_externa_no_mastoiditis.home_care.home_care_3.v1"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "requires_primitive",
+      "target": "primitive:otitis_externa_no_mastoiditis.medications.medication_guidance_1.v1"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "requires_primitive",
+      "target": "primitive:otitis_externa_no_mastoiditis.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "requires_primitive",
+      "target": "primitive:otitis_externa_no_mastoiditis.return_precautions.return_precaution_1.v1"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "requires_primitive",
+      "target": "primitive:otitis_externa_no_mastoiditis.return_precautions.return_precaution_2.v1"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "requires_primitive",
+      "target": "primitive:otitis_externa_no_mastoiditis.return_precautions.return_precaution_3.v1"
+    },
+    {
+      "source": "phenotype:otitis_externa_no_mastoiditis",
+      "type": "requires_primitive",
+      "target": "primitive:otitis_externa_no_mastoiditis.what_we_found.reassuring_ed_assessment.v1"
     },
     {
       "source": "phenotype:renal_colic_stable_no_infection",
@@ -29043,16 +30638,6 @@
       "source": "phenotype:renal_colic_stable_no_infection",
       "type": "requires_primitive",
       "target": "primitive:renal_colic_stable_no_infection.medications.medication_guidance_2.v1"
-    },
-    {
-      "source": "phenotype:renal_colic_stable_no_infection",
-      "type": "requires_primitive",
-      "target": "primitive:renal_colic_stable_no_infection.resources.followup_reminder.v1"
-    },
-    {
-      "source": "phenotype:renal_colic_stable_no_infection",
-      "type": "requires_primitive",
-      "target": "primitive:renal_colic_stable_no_infection.resources.source_link_1.v1"
     },
     {
       "source": "phenotype:renal_colic_stable_no_infection",
@@ -29262,21 +30847,6 @@
     {
       "source": "phenotype:viral_pharyngitis_strep_negative",
       "type": "requires_primitive",
-      "target": "primitive:viral_pharyngitis_strep_negative.resources.followup_reminder.v1"
-    },
-    {
-      "source": "phenotype:viral_pharyngitis_strep_negative",
-      "type": "requires_primitive",
-      "target": "primitive:viral_pharyngitis_strep_negative.resources.source_link_1.v1"
-    },
-    {
-      "source": "phenotype:viral_pharyngitis_strep_negative",
-      "type": "requires_primitive",
-      "target": "primitive:viral_pharyngitis_strep_negative.resources.source_link_2.v1"
-    },
-    {
-      "source": "phenotype:viral_pharyngitis_strep_negative",
-      "type": "requires_primitive",
       "target": "primitive:viral_pharyngitis_strep_negative.return_precautions.return_precaution_1.v1"
     },
     {
@@ -29405,6 +30975,116 @@
       "target": "primitive:viral_uri_no_pneumonia.resources.source_link_2.v1"
     },
     {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain_ency"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain_ency"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain_ency"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain_ency"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain_ency"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain_ency"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain_ency"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain_ency"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain_ency"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain_ency"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain"
+    },
+    {
+      "source": "primitive:abdominal_pain_nonspecific_reassuring_workup.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.abdominal_pain_ency"
+    },
+    {
       "source": "primitive:abscess_after_i_and_d.diagnosis.diagnosis_summary.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.skin_abscess"
@@ -29468,6 +31148,336 @@
       "source": "primitive:abscess_after_i_and_d.what_we_found.reassuring_ed_assessment.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.skin_abscess"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_bronchitis_no_pneumonia.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.sinus_infection"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sinusitis"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.sinus_infection"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sinusitis"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.sinus_infection"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sinusitis"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.sinus_infection"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sinusitis"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.sinus_infection"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sinusitis"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.sinus_infection"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sinusitis"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.sinus_infection"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sinusitis"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.sinus_infection"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sinusitis"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.sinus_infection"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sinusitis"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.sinus_infection"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sinusitis"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.antibiotic_use_adult_outpatient"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.sinus_infection"
+    },
+    {
+      "source": "primitive:acute_sinusitis_supportive_care.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sinusitis"
     },
     {
       "source": "primitive:allergic_reaction_resolved_no_anaphylaxis.diagnosis.diagnosis_summary.v1",
@@ -29910,6 +31920,61 @@
       "target": "source_card:medlineplus.cellulitis"
     },
     {
+      "source": "primitive:chest_pain_low_risk_negative_ed_workup.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.chest_pain_warning_signs"
+    },
+    {
+      "source": "primitive:chest_pain_low_risk_negative_ed_workup.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.chest_pain_warning_signs"
+    },
+    {
+      "source": "primitive:chest_pain_low_risk_negative_ed_workup.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.chest_pain_warning_signs"
+    },
+    {
+      "source": "primitive:chest_pain_low_risk_negative_ed_workup.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.chest_pain_warning_signs"
+    },
+    {
+      "source": "primitive:chest_pain_low_risk_negative_ed_workup.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.chest_pain_warning_signs"
+    },
+    {
+      "source": "primitive:chest_pain_low_risk_negative_ed_workup.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.chest_pain_warning_signs"
+    },
+    {
+      "source": "primitive:chest_pain_low_risk_negative_ed_workup.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.chest_pain_warning_signs"
+    },
+    {
+      "source": "primitive:chest_pain_low_risk_negative_ed_workup.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.chest_pain_warning_signs"
+    },
+    {
+      "source": "primitive:chest_pain_low_risk_negative_ed_workup.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.chest_pain_warning_signs"
+    },
+    {
+      "source": "primitive:chest_pain_low_risk_negative_ed_workup.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.chest_pain_warning_signs"
+    },
+    {
+      "source": "primitive:chest_pain_low_risk_negative_ed_workup.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.chest_pain_warning_signs"
+    },
+    {
       "source": "primitive:community_acquired_pneumonia_outpatient.diagnosis.diagnosis_summary.v1",
       "type": "supported_by_source",
       "target": "source_card:cdc.antibiotic_use_adult_outpatient"
@@ -30180,6 +32245,116 @@
       "target": "source_card:cdc.mild_tbi_aftercare"
     },
     {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.conjunctivitis"
+    },
+    {
+      "source": "primitive:conjunctivitis_uncomplicated_no_contact_lens.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.conjunctivitis"
+    },
+    {
       "source": "primitive:cystitis.diagnosis.uncomplicated.v1",
       "type": "supported_by_source",
       "target": "source_card:cdc.uti_basics"
@@ -30303,6 +32478,116 @@
       "source": "primitive:dental_pain_no_deep_space_infection.what_we_found.reassuring_ed_assessment.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.toothaches"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aao_hns.nosebleed_guideline"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.nosebleed"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aao_hns.nosebleed_guideline"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.nosebleed"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aao_hns.nosebleed_guideline"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.nosebleed"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aao_hns.nosebleed_guideline"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.nosebleed"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aao_hns.nosebleed_guideline"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.nosebleed"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aao_hns.nosebleed_guideline"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.nosebleed"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aao_hns.nosebleed_guideline"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.nosebleed"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aao_hns.nosebleed_guideline"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.nosebleed"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aao_hns.nosebleed_guideline"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.nosebleed"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aao_hns.nosebleed_guideline"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.nosebleed"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aao_hns.nosebleed_guideline"
+    },
+    {
+      "source": "primitive:epistaxis_resolved_no_posterior_bleed.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.nosebleed"
     },
     {
       "source": "primitive:gastroenteritis.diagnosis.stable.v1",
@@ -30470,6 +32755,156 @@
       "target": "source_card:wikem.low_back_pain"
     },
     {
+      "source": "primitive:migraine_improved_discharge.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.migraine"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:ninds.headache"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.migraine"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:ninds.headache"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.migraine"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:ninds.headache"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.migraine"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:ninds.headache"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.migraine"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:ninds.headache"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.home_care.home_care_4.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.migraine"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.home_care.home_care_4.v1",
+      "type": "supported_by_source",
+      "target": "source_card:ninds.headache"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.home_care.home_care_5.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.migraine"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.home_care.home_care_5.v1",
+      "type": "supported_by_source",
+      "target": "source_card:ninds.headache"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.home_care.home_care_6.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.migraine"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.home_care.home_care_6.v1",
+      "type": "supported_by_source",
+      "target": "source_card:ninds.headache"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.home_care.home_care_7.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.migraine"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.home_care.home_care_7.v1",
+      "type": "supported_by_source",
+      "target": "source_card:ninds.headache"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.migraine"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:ninds.headache"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.migraine"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:ninds.headache"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.migraine"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:ninds.headache"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.migraine"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:ninds.headache"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.migraine"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:ninds.headache"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.migraine"
+    },
+    {
+      "source": "primitive:migraine_improved_discharge.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:ninds.headache"
+    },
+    {
       "source": "primitive:minor_head_injury_no_red_flags.diagnosis.diagnosis_summary.v1",
       "type": "supported_by_source",
       "target": "source_card:cdc.heads_up_concussion_symptoms"
@@ -30608,6 +33043,116 @@
       "source": "primitive:minor_head_injury_no_red_flags.what_we_found.reassuring_ed_assessment.v1",
       "type": "supported_by_source",
       "target": "source_card:cdc.mild_tbi_aftercare"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.swimmers_ear"
+    },
+    {
+      "source": "primitive:otitis_externa_no_mastoiditis.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.swimmers_ear"
     },
     {
       "source": "primitive:renal_colic_stable_no_infection.diagnosis.diagnosis_summary.v1",
