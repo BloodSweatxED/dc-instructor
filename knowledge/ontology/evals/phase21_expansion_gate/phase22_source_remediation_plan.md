@@ -2,7 +2,7 @@
 
 Goal: close or retire draft source gaps and active draft phenotypes before any phenotype expansion.
 
-Current active draft targets: phenotype `acute_otitis_media_uncomplicated`.
+Current active draft targets: none.
 
 Recommended sequence:
 

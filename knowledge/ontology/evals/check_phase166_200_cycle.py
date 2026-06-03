@@ -13,7 +13,10 @@ from classify_phenotype import classify  # noqa: E402
 from ontology_lib import ROOT, OntologyError, read_json  # noqa: E402
 
 
-AOM = "acute_otitis_media_uncomplicated"
+RETIRED = {
+    "acute_otitis_media_uncomplicated": ["ear pain", "ear infection"],
+    "suture_removal_or_wound_check_no_infection": ["wound check", "stitches"],
+}
 
 
 def require(condition: bool, message: str) -> None:
@@ -32,35 +35,37 @@ def assert_case(case: dict) -> None:
 
 
 def main() -> int:
-    phenotype = read_json(ROOT / "phenotypes" / f"{AOM}.json")
     manifest = read_json(ROOT / "runtime" / "ontology_manifest.json")
-    manifest_item = {item["id"]: item for item in manifest["phenotypes"]}[AOM]
+    manifest_items = {item["id"]: item for item in manifest["phenotypes"]}
     payload = gate_payload()
 
-    require(phenotype["status"] in {"needs_review", "retired"}, "AOM should remain draft/needs_review or retired")
-    require(phenotype["review"]["status"] in {"needs_review", "retired"}, "AOM review should remain needs_review or retired")
-    require(phenotype["runtime"]["mode"] in {"draft_only_until_reviewed", "retired_product_layer_fallback_only"}, "AOM should not be ontology-enabled")
-    require(phenotype["source_audit"]["source_supported"], "AOM should have source support")
-    require(not phenotype["source_audit"]["source_needed"], "AOM should not have a draft source gap")
-    require(set(phenotype["source_card_ids"]) == {"cdc.ear_infection", "medlineplus.ear_infections"}, "AOM source cards mismatch")
-
-    for broad in ["ear pain", "ear infection"]:
-        require(broad not in set(manifest_item["condition_terms"]), f"AOM broad term must not be standalone: {broad}")
+    for phenotype_id, broad_terms in RETIRED.items():
+        phenotype = read_json(ROOT / "phenotypes" / f"{phenotype_id}.json")
+        manifest_item = manifest_items[phenotype_id]
+        require(phenotype["status"] == "retired", f"{phenotype_id} should be retired")
+        require(phenotype["review"]["status"] == "retired", f"{phenotype_id} review should be retired")
+        require(phenotype["runtime"]["mode"] == "retired_product_layer_fallback_only", f"{phenotype_id} should be product fallback only")
+        require(manifest_item["status"] == "retired", f"{phenotype_id} manifest status should be retired")
+        terms = set(manifest_item["condition_terms"])
+        for broad in broad_terms:
+            require(broad not in terms, f"{phenotype_id} broad term must not be standalone: {broad}")
 
     for filename in [
-        "phase156_acute_otitis_media_runtime_cases.json",
-        "phase157_acute_otitis_media_stress_runtime_cases.json",
+        "phase169_broad_ear_complaint_stress_runtime_cases.json",
+        "phase175_suture_wound_check_runtime_cases.json",
+        "phase176_suture_wound_check_stress_runtime_cases.json",
+        "phase193_broad_wound_complaint_stress_runtime_cases.json",
     ]:
         for case in json.loads((ROOT / "evals" / filename).read_text(encoding="utf-8")):
             assert_case(case)
 
     required_docs = {
-        "phase152_candidate_ranking_after_phase151.md": "Recommendation: build `acute_otitis_media_uncomplicated` next as draft only.",
-        "phase153_acute_otitis_media_source_plan.md": "Source limitations:",
-        "phase155_acute_otitis_media_draft.md": "Patient-facing output:",
-        "phase158_acute_otitis_media_review_packet.md": "Should this be promoted as a narrow reviewed ontology phenotype, revised, or retired",
-        "phase159_acute_otitis_media_review_decision.md": "Decision: keep draft. Do not promote.",
-        "phase160_handoff.md": "Completed through Phase 160.",
+        "phase170_handoff.md": "Completed through Phase 170.",
+        "phase180_handoff.md": "Completed through Phase 180.",
+        "phase185_handoff.md": "Completed through Phase 185.",
+        "phase190_handoff.md": "Completed through Phase 190.",
+        "phase195_phase201_210_plan.md": "Recommended next 10-phase job:",
+        "phase200_handoff.md": "Completed through Phase 200.",
     }
     for doc_name, required_text in required_docs.items():
         text = (ROOT / "evals" / doc_name).read_text(encoding="utf-8")
@@ -69,10 +74,10 @@ def main() -> int:
     require(payload["reviewed_runtime_clean"], "reviewed runtime should remain clean")
     require(payload["reviewed_source_gap_count"] == 0, "reviewed source gaps should remain zero")
     require(payload["draft_source_gap_count"] == 0, "draft source gaps should remain zero")
-    active_ids = [row["phenotype_id"] for row in payload["active_draft_phenotypes"]]
-    require(AOM not in active_ids or active_ids == [AOM], f"AOM should not be mixed with other active drafts: {active_ids}")
+    require(payload["active_draft_phenotype_count"] == 0, f"active drafts should be zero: {payload['active_draft_phenotypes']}")
+    require(payload["phenotype_expansion_allowed"], "expansion should be allowed after retirements")
 
-    print("phase152-160 cycle checks passed")
+    print("phase166-200 cycle checks passed")
     return 0
 
 

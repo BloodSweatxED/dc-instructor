@@ -1,7 +1,7 @@
 {
   "id": "acute_otitis_media_uncomplicated",
   "label": "Uncomplicated acute otitis media without mastoiditis concern",
-  "status": "needs_review",
+  "status": "retired",
   "condition_family": "ear",
   "inclusion_criteria": [
     "Adult patient with clinician diagnosis or discharge impression of acute otitis media, otitis media, or middle ear infection.",
@@ -128,13 +128,13 @@
       "middle ear infection diagnosed"
     ],
     "minimum_confidence": 0.86,
-    "mode": "draft_only_until_reviewed"
+    "mode": "retired_product_layer_fallback_only"
   },
   "version": 1,
   "review": {
-    "status": "needs_review",
+    "status": "retired",
     "reviewer": null,
     "last_reviewed": null,
-    "notes": "Phase 161 clinician decision: revise and keep draft. Adult-only for now. Do not promote until clinician review approves antibiotic/watchful-waiting wording, follow-up timing, pediatric exclusion, perforation/tube boundary, recurrent disease boundary, and ENT-directed plan handling."
+    "notes": "Phase 168 retired this draft to product-layer fallback because no explicit final clinician approval was given for adult-only AOM ontology mode. Keep broad ear pain and broad ear infection out of runtime terms."
   }
 }

@@ -143,8 +143,8 @@
     {
       "id": "acute_otitis_media_uncomplicated",
       "label": "Uncomplicated acute otitis media without mastoiditis concern",
-      "status": "needs_review",
-      "review_status": "needs_review",
+      "status": "retired",
+      "review_status": "retired",
       "version": 1,
       "condition_terms": [
         "acute otitis media",
@@ -671,8 +671,6 @@
         "repaired laceration",
         "simple laceration repair",
         "skin glue",
-        "stitches",
-        "sutures",
         "wound care"
       ],
       "unsafe_modifiers": [
@@ -898,6 +896,72 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms."
+      }
+    },
+    {
+      "id": "suture_removal_or_wound_check_no_infection",
+      "label": "Suture removal or wound check without infection concern",
+      "status": "retired",
+      "review_status": "retired",
+      "version": 1,
+      "condition_terms": [
+        "staple removal no infection",
+        "suture removal no infection",
+        "suture removal or wound check no infection",
+        "suture removal or wound check without infection concern",
+        "suture removal wound check",
+        "wound care",
+        "wound check no infection"
+      ],
+      "unsafe_modifiers": [
+        "wound_infection_concern",
+        "wound_dehiscence",
+        "wound_not_ready_for_suture_removal",
+        "retained_foreign_body",
+        "hand_tendon_risk",
+        "joint_violation",
+        "open_fracture",
+        "bite_wound",
+        "dirty_wound",
+        "poor_follow_up",
+        "immunocompromised",
+        "diabetic_foot",
+        "pediatric_pathway",
+        "specialist_directed_wound_plan"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_documented_wound_readiness",
+          "terms": [
+            "clinician documented wound ready",
+            "wound healing as expected",
+            "ready for suture removal",
+            "ready for staple removal",
+            "clinician documented wound check"
+          ]
+        },
+        {
+          "id": "structured_absence_of_wound_red_flags",
+          "terms": [
+            "no wound infection concern",
+            "no wound red flags documented",
+            "no dehiscence infection foreign body tendon nerve vascular concern"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "suture removal wound check",
+        "suture removal no infection",
+        "staple removal no infection",
+        "wound check no infection"
+      ],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true,
+        "notes": "MedlinePlus supports suture/staple wound care, infection warning signs, and following clinician instructions for wound care and removal timing. It does not support autonomous ED decisions about whether a wound is ready for removal, so runtime requires clinician-documented readiness and no infection/dehiscence concern."
       }
     },
     {

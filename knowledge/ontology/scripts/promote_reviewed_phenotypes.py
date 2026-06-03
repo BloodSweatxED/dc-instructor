@@ -258,7 +258,7 @@ PROMOTIONS: dict[str, dict[str, Any]] = {
     },
     "laceration_repaired_simple": {
         "primitive_file": ROOT / "primitives" / "expanded_draft_packs.json",
-        "condition_terms": ["laceration repaired simple", "simple laceration repair", "laceration repair", "repaired laceration", "stitches", "sutures", "skin glue"],
+        "condition_terms": ["laceration repaired simple", "simple laceration repair", "laceration repair", "repaired laceration", "skin glue"],
         "unsafe_modifiers": ["bite_wound", "hand_tendon_risk", "joint_violation", "open_fracture", "dirty_wound", "neurovascular_compromise", "retained_foreign_body"],
         "source_audit_notes": "MedlinePlus supports laceration framing, wound infection signs, higher-risk wounds, and deeper structure concerns for tendons, nerves, vessels, or bone.",
         "clinical_status": "reviewed_for_limited_simple_repaired_laceration_use",

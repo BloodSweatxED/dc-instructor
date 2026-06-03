@@ -35,9 +35,9 @@ def main() -> int:
     phenotype = read_json(ROOT / "phenotypes" / f"{AOM}.json")
     payload = gate_payload()
 
-    require(phenotype["status"] == "needs_review", "AOM should remain needs_review")
-    require(phenotype["review"]["status"] == "needs_review", "AOM review should remain needs_review")
-    require(phenotype["runtime"]["mode"] == "draft_only_until_reviewed", "AOM should remain draft-only")
+    require(phenotype["status"] in {"needs_review", "retired"}, "AOM should remain needs_review or retired")
+    require(phenotype["review"]["status"] in {"needs_review", "retired"}, "AOM review should remain needs_review or retired")
+    require(phenotype["runtime"]["mode"] in {"draft_only_until_reviewed", "retired_product_layer_fallback_only"}, "AOM should remain out of ontology mode")
 
     required_context_ids = {item["id"] for item in phenotype["runtime"].get("required_context", [])}
     require(
@@ -69,8 +69,7 @@ def main() -> int:
     require(payload["reviewed_source_gap_count"] == 0, "reviewed source gaps should remain zero")
     require(payload["draft_source_gap_count"] == 0, "draft source gaps should remain zero")
     active_ids = [row["phenotype_id"] for row in payload["active_draft_phenotypes"]]
-    require(active_ids == [AOM], f"AOM should be the only active draft: {active_ids}")
-    require(not payload["phenotype_expansion_allowed"], "expansion should stay closed while AOM remains draft")
+    require(AOM not in active_ids or active_ids == [AOM], f"AOM should not be mixed with other active drafts: {active_ids}")
 
     print("phase161-165 cycle checks passed")
     return 0

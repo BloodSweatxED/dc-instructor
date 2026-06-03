@@ -139,6 +139,9 @@ const EXCLUSION_RULES = {
   ongoing_pain: ['ongoing pain', 'persistent chest pain', 'active chest pain'],
   open_wound: ['open wound', 'open fracture', 'bone exposed', 'laceration over ankle'],
   open_fracture: ['open fracture', 'bone exposed'],
+  wound_dehiscence: ['wound opened', 'wound dehiscence', 'edges separated', 'stitches came out', 'staples came out'],
+  wound_infection_concern: ['pus', 'purulent drainage', 'spreading redness', 'red streaks', 'wound infection', 'infected wound'],
+  wound_not_ready_for_suture_removal: ['not ready for suture removal', 'too early for suture removal', 'wound not healed', 'edges not healed'],
   posterior_epistaxis_or_uncontrolled_bleeding: [
     'posterior epistaxis',
     'posterior nosebleed',
@@ -165,6 +168,7 @@ const EXCLUSION_RULES = {
   severe_eye_pain: ['severe eye pain', 'significant eye pain', 'deep eye pain'],
   sepsis: ['sepsis', 'septic', 'shock'],
   specialist_directed_ent_plan: ['ent consulted', 'ent directed plan', 'otolaryngology follow up', 'specialist directed ent plan'],
+  specialist_directed_wound_plan: ['hand surgery consulted', 'plastic surgery consulted', 'specialist directed wound plan', 'wound clinic plan'],
   severe_dehydration: ['severe dehydration', 'syncope', 'very dry', 'shock'],
   severe_bacterial_sinusitis_features: [
     'fever 102',

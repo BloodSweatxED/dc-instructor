@@ -1562,6 +1562,222 @@
     }
   },
   {
+    "case_id": "phase169_broad_ear_pain_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase169_broad_ear_infection_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase169_broad_ear_drainage_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase175_suture_clean_retired_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "suture_removal_or_wound_check_no_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "suture removal wound check"
+      ],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "case_id": "phase175_suture_missing_readiness_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "suture_removal_or_wound_check_no_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_documented_wound_readiness"
+      ],
+      "modifiers": [
+        "suture removal wound check"
+      ],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase175_suture_missing_red_flags_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "suture_removal_or_wound_check_no_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "structured_absence_of_wound_red_flags"
+      ],
+      "modifiers": [
+        "suture removal wound check"
+      ],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase175_broad_wound_check_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase176_suture_infection_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "suture_removal_or_wound_check_no_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "wound_infection_concern"
+      ],
+      "missing_required_context": [
+        "structured_absence_of_wound_red_flags"
+      ],
+      "modifiers": [
+        "suture removal wound check"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase176_suture_dehiscence_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "suture_removal_or_wound_check_no_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "wound_dehiscence"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "suture removal wound check"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase176_suture_too_early_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "suture_removal_or_wound_check_no_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "wound_not_ready_for_suture_removal"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "suture removal wound check"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase176_suture_hand_tendon_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "suture_removal_or_wound_check_no_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "hand_tendon_risk"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "suture removal wound check"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase176_suture_bite_wound_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "suture_removal_or_wound_check_no_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "suture removal wound check"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase176_suture_specialist_plan_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "suture_removal_or_wound_check_no_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "specialist_directed_wound_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "suture removal wound check"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase193_broad_wound_check_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase193_broad_stitches_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
     "case_id": "phase20_abscess_contradictory_note_blocks",
     "passed": true,
     "result": {
@@ -4079,8 +4295,7 @@
       "missing_required_context": [],
       "modifiers": [
         "laceration repair",
-        "laceration repaired simple",
-        "sutures"
+        "laceration repaired simple"
       ],
       "fallback_reason": null
     }

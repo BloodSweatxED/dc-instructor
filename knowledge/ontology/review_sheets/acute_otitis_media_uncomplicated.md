@@ -2,7 +2,7 @@
 
 Phenotype ID: `acute_otitis_media_uncomplicated`
 
-Status: `needs_review`
+Status: `retired`
 
 ## Inclusion Criteria
 
