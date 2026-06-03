@@ -42,9 +42,6 @@ def main() -> int:
     require(payload["reviewed_runtime_clean"], "reviewed runtime should remain clean")
     require(payload["reviewed_source_gap_count"] == 0, "reviewed source gaps should remain zero")
     require(payload["draft_source_gap_count"] == 0, "draft source gaps should remain zero")
-    require(payload["active_draft_phenotype_count"] == 0, "no active draft phenotypes should remain")
-    require(payload["phenotype_expansion_allowed"], "expansion should be allowed after migraine retirement")
-
     for phenotype_id, broad_terms in RETIRED.items():
         phenotype = read_json(ROOT / "phenotypes" / f"{phenotype_id}.json")
         manifest_item = manifest_items[phenotype_id]
@@ -83,6 +80,16 @@ def main() -> int:
     for doc_name, required_text in required_docs.items():
         text = (ROOT / "evals" / doc_name).read_text(encoding="utf-8")
         require(required_text in text, f"{doc_name} missing required text")
+
+    active_ids = [row["phenotype_id"] for row in payload["active_draft_phenotypes"]]
+    require(
+        all(phenotype_id not in RETIRED for phenotype_id in active_ids),
+        f"retired Phase 81-150 phenotypes should not remain active drafts: {active_ids}",
+    )
+    if active_ids:
+        require(not payload["phenotype_expansion_allowed"], f"later active drafts should close expansion: {active_ids}")
+    else:
+        require(payload["phenotype_expansion_allowed"], "expansion should be allowed when no active drafts remain")
 
     print("phase81-150 stabilization checks passed")
     return 0

@@ -1,0 +1,43 @@
+[
+  {
+    "id": "phase156_aom_clean_draft_fallback",
+    "condition": "acute otitis media uncomplicated",
+    "ed_note": "Adult discharge diagnosis acute otitis media. No ear red flags documented.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+  },
+  {
+    "id": "phase156_aom_missing_diagnosis_context_blocks",
+    "condition": "acute otitis media",
+    "ed_note": "Ear pain improved. No mastoiditis concern.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_acute_otitis_media"
+    ]
+  },
+  {
+    "id": "phase156_aom_missing_red_flags_context_blocks",
+    "condition": "acute otitis media",
+    "ed_note": "Adult discharge diagnosis acute otitis media.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "structured_absence_of_ear_red_flags"
+    ]
+  },
+  {
+    "id": "phase156_aom_broad_ear_pain_no_match",
+    "condition": "ear pain",
+    "ed_note": "Ear complaint without final diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase156_aom_broad_ear_infection_no_match",
+    "condition": "ear infection",
+    "ed_note": "Broad ear infection request without otitis media diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  }
+]

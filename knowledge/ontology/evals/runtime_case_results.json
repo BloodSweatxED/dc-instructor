@@ -1227,6 +1227,205 @@
     }
   },
   {
+    "case_id": "phase156_aom_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media",
+        "acute otitis media uncomplicated"
+      ],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "case_id": "phase156_aom_missing_diagnosis_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.62,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_acute_otitis_media"
+      ],
+      "modifiers": [
+        "acute otitis media"
+      ],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase156_aom_missing_red_flags_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "structured_absence_of_ear_red_flags"
+      ],
+      "modifiers": [
+        "acute otitis media"
+      ],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase156_aom_broad_ear_pain_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase156_aom_broad_ear_infection_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase157_aom_mastoiditis_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "mastoiditis_or_deep_ear_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase157_aom_perforation_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "tympanic_membrane_perforation_or_tube"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase157_aom_otitis_externa_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "otitis_externa_or_ear_canal_pathway"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase157_aom_foreign_body_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "ear_trauma_or_foreign_body"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase157_aom_hearing_loss_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "acute_hearing_loss"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase157_aom_facial_weakness_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "facial_weakness_or_neurologic_ear_sign"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase157_aom_immunocompromised_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "immunocompromised"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase157_aom_recurrent_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "recurrent_or_chronic_ear_infection"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
     "case_id": "phase20_abscess_contradictory_note_blocks",
     "passed": true,
     "result": {

@@ -1,7 +1,7 @@
 {
   "generated_at": "deterministic_from_current_ontology_and_generator_batches",
-  "node_count": 2048,
-  "edge_count": 3012,
+  "node_count": 2067,
+  "edge_count": 3055,
   "nodes": [
     {
       "id": "candidate_primitive:abdominal_pain_nonspecific_reassuring_workup.diagnosis.1",
@@ -10085,6 +10085,11 @@
       "label": "Immunocompromised host."
     },
     {
+      "id": "exclusion:immunocompromised_host_frail_elderly_patient_recurrent_or_chronic_ear_infection_or_pediatric_dos",
+      "type": "exclusion",
+      "label": "Immunocompromised host, frail elderly patient, recurrent or chronic ear infection, or pediatric dosing pathway requiring individualized instructions."
+    },
+    {
       "id": "exclusion:immunocompromised_host_pregnancy_infant_pediatric_pathway_or_specialist_directed_ophthalmology_p",
       "type": "exclusion",
       "label": "Immunocompromised host, pregnancy, infant/pediatric pathway, or specialist-directed ophthalmology plan."
@@ -10140,6 +10145,11 @@
       "label": "Male patient or patient requiring sex-specific complicated UTI pathway."
     },
     {
+      "id": "exclusion:mastoiditis_deep_ear_infection_skull_base_infection_or_severe_systemic_illness_concern",
+      "type": "exclusion",
+      "label": "Mastoiditis, deep ear infection, skull base infection, or severe systemic illness concern."
+    },
+    {
       "id": "exclusion:mastoiditis_deep_ear_infection_skull_base_osteomyelitis_or_malignant_otitis_externa_concern",
       "type": "exclusion",
       "label": "Mastoiditis, deep ear infection, skull base osteomyelitis, or malignant otitis externa concern."
@@ -10188,6 +10198,11 @@
       "id": "exclusion:orbital_or_intracranial_complication_concern_including_eye_swelling_vision_change_severe_headach",
       "type": "exclusion",
       "label": "Orbital or intracranial complication concern, including eye swelling, vision change, severe headache with neurologic symptoms, meningitis concern, or altered mental status."
+    },
+    {
+      "id": "exclusion:otitis_externa_or_ear_canal_infection_pathway",
+      "type": "exclusion",
+      "label": "Otitis externa or ear canal infection pathway."
     },
     {
       "id": "exclusion:patient_cannot_maintain_hydration_or_safe_home_monitoring",
@@ -13400,6 +13415,11 @@
       "label": "Facial fracture."
     },
     {
+      "id": "must_not_miss:facial_nerve_palsy",
+      "type": "must_not_miss",
+      "label": "Facial nerve palsy."
+    },
+    {
       "id": "must_not_miss:facial_trauma",
       "type": "must_not_miss",
       "label": "Facial trauma."
@@ -13655,6 +13675,11 @@
       "label": "Sepsis."
     },
     {
+      "id": "must_not_miss:sepsis_or_deep_ear_infection",
+      "type": "must_not_miss",
+      "label": "Sepsis or deep ear infection."
+    },
+    {
       "id": "must_not_miss:septic_joint_when_over_a_joint",
       "type": "must_not_miss",
       "label": "Septic joint when over a joint."
@@ -13742,6 +13767,14 @@
       "status": "reviewed",
       "condition_family": "respiratory_infection",
       "review_status": "reviewed"
+    },
+    {
+      "id": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "phenotype",
+      "label": "Uncomplicated acute otitis media without mastoiditis concern",
+      "status": "needs_review",
+      "condition_family": "ear",
+      "review_status": "needs_review"
     },
     {
       "id": "phenotype:acute_sinusitis_supportive_care",
@@ -14399,6 +14432,105 @@
       "primitive_type": "reassuring_ed_assessment",
       "priority": "required",
       "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:acute_otitis_media_uncomplicated.diagnosis.diagnosis_summary.v1",
+      "type": "primitive",
+      "label": "acute_otitis_media_uncomplicated.diagnosis.diagnosis_summary.v1",
+      "section": "diagnosis",
+      "primitive_type": "diagnosis_summary",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:acute_otitis_media_uncomplicated.follow_up.default_follow_up.v1",
+      "type": "primitive",
+      "label": "acute_otitis_media_uncomplicated.follow_up.default_follow_up.v1",
+      "section": "follow_up",
+      "primitive_type": "default_follow_up",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_1.v1",
+      "type": "primitive",
+      "label": "acute_otitis_media_uncomplicated.home_care.home_care_1.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_1",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_2.v1",
+      "type": "primitive",
+      "label": "acute_otitis_media_uncomplicated.home_care.home_care_2.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_2",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_3.v1",
+      "type": "primitive",
+      "label": "acute_otitis_media_uncomplicated.home_care.home_care_3.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_3",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:acute_otitis_media_uncomplicated.medications.medication_guidance_1.v1",
+      "type": "primitive",
+      "label": "acute_otitis_media_uncomplicated.medications.medication_guidance_1.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_1",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:acute_otitis_media_uncomplicated.medications.medication_guidance_2.v1",
+      "type": "primitive",
+      "label": "acute_otitis_media_uncomplicated.medications.medication_guidance_2.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_2",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:acute_otitis_media_uncomplicated.return_precautions.return_precaution_1.v1",
+      "type": "primitive",
+      "label": "acute_otitis_media_uncomplicated.return_precautions.return_precaution_1.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_1",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:acute_otitis_media_uncomplicated.return_precautions.return_precaution_2.v1",
+      "type": "primitive",
+      "label": "acute_otitis_media_uncomplicated.return_precautions.return_precaution_2.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_2",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:acute_otitis_media_uncomplicated.return_precautions.return_precaution_3.v1",
+      "type": "primitive",
+      "label": "acute_otitis_media_uncomplicated.return_precautions.return_precaution_3.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_3",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:acute_otitis_media_uncomplicated.what_we_found.reassuring_ed_assessment.v1",
+      "type": "primitive",
+      "label": "acute_otitis_media_uncomplicated.what_we_found.reassuring_ed_assessment.v1",
+      "section": "what_we_found",
+      "primitive_type": "reassuring_ed_assessment",
+      "priority": "required",
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:acute_sinusitis_supportive_care.diagnosis.diagnosis_summary.v1",
@@ -16153,7 +16285,7 @@
       "section": "diagnosis",
       "primitive_type": "diagnosis_summary",
       "priority": "required",
-      "review_status": "needs_review"
+      "review_status": "retired"
     },
     {
       "id": "primitive:migraine_improved_discharge.follow_up.default_follow_up.v1",
@@ -16162,7 +16294,7 @@
       "section": "follow_up",
       "primitive_type": "default_follow_up",
       "priority": "required",
-      "review_status": "needs_review"
+      "review_status": "retired"
     },
     {
       "id": "primitive:migraine_improved_discharge.home_care.home_care_1.v1",
@@ -16171,7 +16303,7 @@
       "section": "home_care",
       "primitive_type": "home_care_1",
       "priority": "high",
-      "review_status": "needs_review"
+      "review_status": "retired"
     },
     {
       "id": "primitive:migraine_improved_discharge.home_care.home_care_2.v1",
@@ -16180,7 +16312,7 @@
       "section": "home_care",
       "primitive_type": "home_care_2",
       "priority": "high",
-      "review_status": "needs_review"
+      "review_status": "retired"
     },
     {
       "id": "primitive:migraine_improved_discharge.home_care.home_care_3.v1",
@@ -16189,7 +16321,7 @@
       "section": "home_care",
       "primitive_type": "home_care_3",
       "priority": "high",
-      "review_status": "needs_review"
+      "review_status": "retired"
     },
     {
       "id": "primitive:migraine_improved_discharge.home_care.home_care_4.v1",
@@ -16198,7 +16330,7 @@
       "section": "home_care",
       "primitive_type": "home_care_4",
       "priority": "high",
-      "review_status": "needs_review"
+      "review_status": "retired"
     },
     {
       "id": "primitive:migraine_improved_discharge.home_care.home_care_5.v1",
@@ -16207,7 +16339,7 @@
       "section": "home_care",
       "primitive_type": "home_care_5",
       "priority": "high",
-      "review_status": "needs_review"
+      "review_status": "retired"
     },
     {
       "id": "primitive:migraine_improved_discharge.home_care.home_care_6.v1",
@@ -16216,7 +16348,7 @@
       "section": "home_care",
       "primitive_type": "home_care_6",
       "priority": "high",
-      "review_status": "needs_review"
+      "review_status": "retired"
     },
     {
       "id": "primitive:migraine_improved_discharge.home_care.home_care_7.v1",
@@ -16225,7 +16357,7 @@
       "section": "home_care",
       "primitive_type": "home_care_7",
       "priority": "high",
-      "review_status": "needs_review"
+      "review_status": "retired"
     },
     {
       "id": "primitive:migraine_improved_discharge.medications.medication_guidance_1.v1",
@@ -16234,7 +16366,7 @@
       "section": "medications",
       "primitive_type": "medication_guidance_1",
       "priority": "high",
-      "review_status": "needs_review"
+      "review_status": "retired"
     },
     {
       "id": "primitive:migraine_improved_discharge.medications.medication_guidance_2.v1",
@@ -16243,7 +16375,7 @@
       "section": "medications",
       "primitive_type": "medication_guidance_2",
       "priority": "high",
-      "review_status": "needs_review"
+      "review_status": "retired"
     },
     {
       "id": "primitive:migraine_improved_discharge.return_precautions.return_precaution_1.v1",
@@ -16252,7 +16384,7 @@
       "section": "return_precautions",
       "primitive_type": "return_precaution_1",
       "priority": "required",
-      "review_status": "needs_review"
+      "review_status": "retired"
     },
     {
       "id": "primitive:migraine_improved_discharge.return_precautions.return_precaution_2.v1",
@@ -16261,7 +16393,7 @@
       "section": "return_precautions",
       "primitive_type": "return_precaution_2",
       "priority": "required",
-      "review_status": "needs_review"
+      "review_status": "retired"
     },
     {
       "id": "primitive:migraine_improved_discharge.return_precautions.return_precaution_3.v1",
@@ -16270,7 +16402,7 @@
       "section": "return_precautions",
       "primitive_type": "return_precaution_3",
       "priority": "required",
-      "review_status": "needs_review"
+      "review_status": "retired"
     },
     {
       "id": "primitive:migraine_improved_discharge.what_we_found.reassuring_ed_assessment.v1",
@@ -16279,7 +16411,7 @@
       "section": "what_we_found",
       "primitive_type": "reassuring_ed_assessment",
       "priority": "required",
-      "review_status": "needs_review"
+      "review_status": "retired"
     },
     {
       "id": "primitive:minor_head_injury_no_red_flags.diagnosis.diagnosis_summary.v1",
@@ -17002,6 +17134,15 @@
       "source_type": "government_patient_education"
     },
     {
+      "id": "source_card:cdc.ear_infection",
+      "type": "source_card",
+      "label": "Ear Infection Basics",
+      "source": "CDC",
+      "url": "https://www.cdc.gov/ear-infection/about/index.html",
+      "use_policy": "evidence_support",
+      "source_type": "government_patient_education"
+    },
+    {
       "id": "source_card:cdc.group_a_strep_cellulitis",
       "type": "source_card",
       "label": "Clinical Guidance for Group A Streptococcal Cellulitis",
@@ -17178,6 +17319,15 @@
       "label": "When you have diarrhea",
       "source": "MedlinePlus",
       "url": "https://medlineplus.gov/ency/patientinstructions/000121.htm",
+      "use_policy": "evidence_support",
+      "source_type": "public_patient_education"
+    },
+    {
+      "id": "source_card:medlineplus.ear_infections",
+      "type": "source_card",
+      "label": "Ear infections",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/earinfections.html",
       "use_policy": "evidence_support",
       "source_type": "public_patient_education"
     },
@@ -28795,6 +28945,111 @@
       "target": "primitive:acute_bronchitis_no_pneumonia.what_we_found.reassuring_ed_assessment.v1"
     },
     {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "has_exclusion",
+      "target": "exclusion:immunocompromised_host_frail_elderly_patient_recurrent_or_chronic_ear_infection_or_pediatric_dos"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "has_exclusion",
+      "target": "exclusion:mastoiditis_deep_ear_infection_skull_base_infection_or_severe_systemic_illness_concern"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "has_exclusion",
+      "target": "exclusion:otitis_externa_or_ear_canal_infection_pathway"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "has_exclusion",
+      "target": "exclusion:perforated_eardrum_tympanostomy_tube_ear_trauma_ear_foreign_body_acute_hearing_loss_vertigo_faci"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:ear_foreign_body"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:facial_nerve_palsy"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:mastoiditis"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:perforated_tympanic_membrane"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:sepsis_or_deep_ear_infection"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:sudden_sensorineural_hearing_loss"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "requires_primitive",
+      "target": "primitive:acute_otitis_media_uncomplicated.diagnosis.diagnosis_summary.v1"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "requires_primitive",
+      "target": "primitive:acute_otitis_media_uncomplicated.follow_up.default_follow_up.v1"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "requires_primitive",
+      "target": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_1.v1"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "requires_primitive",
+      "target": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_2.v1"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "requires_primitive",
+      "target": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_3.v1"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "requires_primitive",
+      "target": "primitive:acute_otitis_media_uncomplicated.medications.medication_guidance_1.v1"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "requires_primitive",
+      "target": "primitive:acute_otitis_media_uncomplicated.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "requires_primitive",
+      "target": "primitive:acute_otitis_media_uncomplicated.return_precautions.return_precaution_1.v1"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "requires_primitive",
+      "target": "primitive:acute_otitis_media_uncomplicated.return_precautions.return_precaution_2.v1"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "requires_primitive",
+      "target": "primitive:acute_otitis_media_uncomplicated.return_precautions.return_precaution_3.v1"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "requires_primitive",
+      "target": "primitive:acute_otitis_media_uncomplicated.what_we_found.reassuring_ed_assessment.v1"
+    },
+    {
       "source": "phenotype:acute_sinusitis_supportive_care",
       "type": "has_exclusion",
       "target": "exclusion:antibiotics_prescribed_for_sinusitis_or_suspected_bacterial_sinus_infection"
@@ -31313,6 +31568,116 @@
       "source": "primitive:acute_bronchitis_no_pneumonia.what_we_found.reassuring_ed_assessment.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.acute_bronchitis"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.ear_infection"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ear_infections"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.ear_infection"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ear_infections"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.ear_infection"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ear_infections"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.ear_infection"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ear_infections"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.ear_infection"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ear_infections"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.ear_infection"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ear_infections"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.ear_infection"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ear_infections"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.ear_infection"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ear_infections"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.ear_infection"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ear_infections"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.ear_infection"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ear_infections"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.ear_infection"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ear_infections"
     },
     {
       "source": "primitive:acute_sinusitis_supportive_care.diagnosis.diagnosis_summary.v1",

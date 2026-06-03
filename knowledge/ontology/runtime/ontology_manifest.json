@@ -141,6 +141,68 @@
       }
     },
     {
+      "id": "acute_otitis_media_uncomplicated",
+      "label": "Uncomplicated acute otitis media without mastoiditis concern",
+      "status": "needs_review",
+      "review_status": "needs_review",
+      "version": 1,
+      "condition_terms": [
+        "acute otitis media",
+        "acute otitis media uncomplicated",
+        "ear infection otitis media",
+        "middle ear infection",
+        "uncomplicated acute otitis media without mastoiditis concern"
+      ],
+      "unsafe_modifiers": [
+        "mastoiditis_or_deep_ear_infection_concern",
+        "severe_systemic_ear_infection",
+        "tympanic_membrane_perforation_or_tube",
+        "ear_trauma_or_foreign_body",
+        "otitis_externa_or_ear_canal_pathway",
+        "acute_hearing_loss",
+        "facial_weakness_or_neurologic_ear_sign",
+        "immunocompromised",
+        "elderly_frail",
+        "recurrent_or_chronic_ear_infection",
+        "unstable_vitals"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_acute_otitis_media",
+          "terms": [
+            "clinician diagnosis acute otitis media",
+            "discharge diagnosis acute otitis media",
+            "diagnosed with acute otitis media",
+            "diagnosed with otitis media",
+            "middle ear infection diagnosed"
+          ]
+        },
+        {
+          "id": "structured_absence_of_ear_red_flags",
+          "terms": [
+            "no mastoiditis concern",
+            "no ear red flags documented",
+            "no perforation tube trauma foreign body hearing loss facial weakness",
+            "no deep ear infection concern"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "acute otitis media uncomplicated",
+        "clinician diagnosis acute otitis media",
+        "discharge diagnosis acute otitis media",
+        "middle ear infection diagnosed"
+      ],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true,
+        "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, so runtime must require a clinician diagnosis and block mastoiditis, perforation, tube, otitis externa, trauma, foreign body, immunocompromise, and systemic illness concerns."
+      }
+    },
+    {
       "id": "acute_sinusitis_supportive_care",
       "label": "Acute sinusitis supportive care without antibiotic plan",
       "status": "reviewed",
@@ -679,21 +741,18 @@
           "id": "documented_clinical_improvement",
           "terms": [
             "symptoms improved with treatment",
-            "improved after ed treatment",
-            "clinical improvement documented",
-            "headache improved in ed",
-            "migraine improved after ed treatment"
+            "documented clinical improvement",
+            "improved enough for discharge",
+            "headache improved after treatment"
           ]
         },
         {
           "id": "structured_red_flags_absent",
           "terms": [
-            "red flags absent",
-            "no headache red flags",
-            "secondary headache blockers absent",
             "structured red flags negative",
-            "absence of red flags confirmed",
-            "explicit absence of red flags"
+            "no headache red flags documented",
+            "secondary headache red flags absent",
+            "red flags reviewed and absent"
           ]
         }
       ],

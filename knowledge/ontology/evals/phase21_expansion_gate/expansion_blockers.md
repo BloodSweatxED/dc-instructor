@@ -2,4 +2,4 @@
 
 | Item | Status | Gap | Action |
 | --- | --- | --- | --- |
-| none | reviewed library | no blocker | expansion allowed |
+| phenotype `acute_otitis_media_uncomplicated` | needs_review | not clinician-reviewed | narrow and review, or retire draft |

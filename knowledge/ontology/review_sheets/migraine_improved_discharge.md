@@ -4,13 +4,11 @@ Phenotype ID: `migraine_improved_discharge`
 
 Status: `retired`
 
-Review status: revise. Not ready for promotion.
-
 ## Inclusion Criteria
 
 - Adult with clinician diagnosis or discharge impression of migraine that improved after ED treatment.
 - Structured confirmation of clinical improvement after ED treatment is present.
-- Structured confirmation that headache red flags are absent is present. Do not infer this from lack of documentation.
+- Structured confirmation that headache red flags are absent is present.
 
 ## Exclusions
 
@@ -27,12 +25,23 @@ Review status: revise. Not ready for promotion.
 - Cerebral venous thrombosis.
 - Pre-eclampsia in pregnancy.
 
-## Runtime Requirements
+## Primitive List
 
-- Requires structured clinical improvement.
-- Requires structured red-flag absence.
-- Does not use broad headache or severe headache as standalone terms.
-- Soft blockers remain blockers until an explicit clinician-override pathway exists.
+- `migraine_improved_discharge.diagnosis.diagnosis_summary.v1` | `diagnosis` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
+- `migraine_improved_discharge.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: thunderclap_or_sah_concern, neurologic_deficit, meningitis_or_cns_infection_concern, fracture_or_trauma_concern, pregnancy, immunocompromised, age_over_50_new_headache, uncontrolled_vomiting, unstable_vitals, altered_mental_status_not_resolved, first_lifetime_severe_headache, ct_not_performed_with_headache_concern
+- `migraine_improved_discharge.home_care.home_care_1.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `migraine_improved_discharge.home_care.home_care_2.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `migraine_improved_discharge.home_care.home_care_3.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `migraine_improved_discharge.home_care.home_care_4.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `migraine_improved_discharge.home_care.home_care_5.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `migraine_improved_discharge.home_care.home_care_6.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `migraine_improved_discharge.home_care.home_care_7.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `migraine_improved_discharge.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: thunderclap_or_sah_concern, neurologic_deficit, meningitis_or_cns_infection_concern, fracture_or_trauma_concern, pregnancy, immunocompromised, age_over_50_new_headache, uncontrolled_vomiting, unstable_vitals, altered_mental_status_not_resolved, first_lifetime_severe_headache, ct_not_performed_with_headache_concern
+- `migraine_improved_discharge.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: thunderclap_or_sah_concern, neurologic_deficit, meningitis_or_cns_infection_concern, fracture_or_trauma_concern, pregnancy, immunocompromised, age_over_50_new_headache, uncontrolled_vomiting, unstable_vitals, altered_mental_status_not_resolved, first_lifetime_severe_headache, ct_not_performed_with_headache_concern
+- `migraine_improved_discharge.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
+- `migraine_improved_discharge.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
+- `migraine_improved_discharge.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
+- `migraine_improved_discharge.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: thunderclap_or_sah_concern, neurologic_deficit, meningitis_or_cns_infection_concern, fracture_or_trauma_concern, pregnancy, immunocompromised, age_over_50_new_headache, uncontrolled_vomiting, unstable_vitals, altered_mental_status_not_resolved, first_lifetime_severe_headache, ct_not_performed_with_headache_concern
 
 ## Assembled Six-Section Output
 

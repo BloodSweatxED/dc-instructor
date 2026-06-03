@@ -5,8 +5,8 @@
   "condition_family": "headache",
   "inclusion_criteria": [
     "Adult with clinician diagnosis or discharge impression of migraine that improved after ED treatment.",
-    "Structured confirmation is present for clinical improvement in the ED.",
-    "Structured confirmation is present that headache red flags are absent. Do not infer this from lack of documentation."
+    "Structured confirmation of clinical improvement after ED treatment is present.",
+    "Structured confirmation that headache red flags are absent is present."
   ],
   "exclusion_criteria": [
     "Sudden, severe headache that reaches its worst point within seconds, worst headache of life, subarachnoid hemorrhage concern, stroke/TIA concern, unresolved neurologic deficit, seizure, or altered mental status not fully resolved at discharge.",
@@ -85,21 +85,18 @@
         "id": "documented_clinical_improvement",
         "terms": [
           "symptoms improved with treatment",
-          "improved after ed treatment",
-          "clinical improvement documented",
-          "headache improved in ed",
-          "migraine improved after ed treatment"
+          "documented clinical improvement",
+          "improved enough for discharge",
+          "headache improved after treatment"
         ]
       },
       {
         "id": "structured_red_flags_absent",
         "terms": [
-          "red flags absent",
-          "no headache red flags",
-          "secondary headache blockers absent",
           "structured red flags negative",
-          "absence of red flags confirmed",
-          "explicit absence of red flags"
+          "no headache red flags documented",
+          "secondary headache red flags absent",
+          "red flags reviewed and absent"
         ]
       }
     ],
@@ -116,6 +113,6 @@
     "status": "retired",
     "reviewer": null,
     "last_reviewed": null,
-    "notes": "Phase 84 clinician review status: revise, not ready for promotion. Runtime must require structured clinical improvement and structured absence of headache red flags. Do not infer red-flag absence from missing documentation. Do not use broad headache or severe headache as standalone runtime terms. Keep sudden severe worst headache, unresolved neurologic deficit, fever with headache or neck stiffness, head trauma within 7 days, pregnancy, immunocompromise, age over 50 with new headache pattern, altered mental status not fully resolved, uncontrolled vomiting at discharge, unstable vitals, first-lifetime headache of this severity, and CT not performed with documented concern outside ontology mode unless a later explicit override pathway is built."
+    "notes": "Phase 84 clinician review status: revise, not ready for promotion. Phase 82 retired this phenotype to product-layer fallback only. Require structured improvement and structured red-flag absence before any later rebuild or promotion. Do not infer red-flag absence from missing documentation."
   }
 }
