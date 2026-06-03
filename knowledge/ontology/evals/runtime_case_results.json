@@ -1619,7 +1619,8 @@
       "confidence": 0.93,
       "exclusions": [],
       "missing_required_context": [
-        "clinician_documented_wound_readiness"
+        "clinician_documented_wound_readiness",
+        "clinician_entered_wound_follow_up_plan"
       ],
       "modifiers": [
         "suture removal wound check"
@@ -1635,6 +1636,7 @@
       "confidence": 0.93,
       "exclusions": [],
       "missing_required_context": [
+        "clinician_entered_wound_follow_up_plan",
         "structured_absence_of_wound_red_flags"
       ],
       "modifiers": [
@@ -1665,6 +1667,7 @@
         "wound_infection_concern"
       ],
       "missing_required_context": [
+        "clinician_entered_wound_follow_up_plan",
         "structured_absence_of_wound_red_flags"
       ],
       "modifiers": [
@@ -1682,7 +1685,9 @@
       "exclusions": [
         "wound_dehiscence"
       ],
-      "missing_required_context": [],
+      "missing_required_context": [
+        "clinician_entered_wound_follow_up_plan"
+      ],
       "modifiers": [
         "suture removal wound check"
       ],
@@ -1698,7 +1703,9 @@
       "exclusions": [
         "wound_not_ready_for_suture_removal"
       ],
-      "missing_required_context": [],
+      "missing_required_context": [
+        "clinician_entered_wound_follow_up_plan"
+      ],
       "modifiers": [
         "suture removal wound check"
       ],
@@ -1714,7 +1721,9 @@
       "exclusions": [
         "hand_tendon_risk"
       ],
-      "missing_required_context": [],
+      "missing_required_context": [
+        "clinician_entered_wound_follow_up_plan"
+      ],
       "modifiers": [
         "suture removal wound check"
       ],
@@ -1730,7 +1739,9 @@
       "exclusions": [
         "bite_wound"
       ],
-      "missing_required_context": [],
+      "missing_required_context": [
+        "clinician_entered_wound_follow_up_plan"
+      ],
       "modifiers": [
         "suture removal wound check"
       ],
@@ -1746,7 +1757,9 @@
       "exclusions": [
         "specialist_directed_wound_plan"
       ],
-      "missing_required_context": [],
+      "missing_required_context": [
+        "clinician_entered_wound_follow_up_plan"
+      ],
       "modifiers": [
         "suture removal wound check"
       ],
@@ -1775,6 +1788,277 @@
       "missing_required_context": [],
       "modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase202_aom_revised_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media",
+        "acute otitis media uncomplicated"
+      ],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "case_id": "phase202_aom_frail_elderly_not_hard_blocker",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media",
+        "acute otitis media uncomplicated"
+      ],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "case_id": "phase202_aom_neck_stiffness_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "meningitis_or_cns_infection_concern"
+      ],
+      "missing_required_context": [
+        "structured_absence_of_ear_red_flags"
+      ],
+      "modifiers": [
+        "acute otitis media",
+        "acute otitis media uncomplicated"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase202_aom_venous_sinus_thrombosis_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "lateral_sinus_thrombosis_concern"
+      ],
+      "missing_required_context": [
+        "structured_absence_of_ear_red_flags"
+      ],
+      "modifiers": [
+        "acute otitis media",
+        "acute otitis media uncomplicated"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase203_suture_revised_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "suture_removal_or_wound_check_no_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "suture removal wound check"
+      ],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "case_id": "phase203_suture_missing_follow_up_plan_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "suture_removal_or_wound_check_no_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_entered_wound_follow_up_plan"
+      ],
+      "modifiers": [
+        "suture removal wound check"
+      ],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase203_suture_face_wound_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "suture_removal_or_wound_check_no_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "high_risk_wound_location"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "suture removal wound check"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase204_skin_avulsion_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "skin_avulsion_or_abrasion_simple",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "simple skin avulsion"
+      ],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "case_id": "phase204_skin_abrasion_broad_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase204_skin_avulsion_repair_needed_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "skin_avulsion_or_abrasion_simple",
+      "confidence": 0.78,
+      "exclusions": [
+        "laceration_repair_needed"
+      ],
+      "missing_required_context": [
+        "structured_absence_of_simple_wound_red_flags"
+      ],
+      "modifiers": [
+        "simple skin avulsion"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase204_skin_avulsion_high_pressure_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "skin_avulsion_or_abrasion_simple",
+      "confidence": 0.78,
+      "exclusions": [
+        "high_pressure_injection_injury"
+      ],
+      "missing_required_context": [
+        "structured_absence_of_simple_wound_red_flags"
+      ],
+      "modifiers": [
+        "simple skin avulsion"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase205_wrist_sprain_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "sprain_strain_non_ankle_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "case_id": "phase205_sprain_missing_xray_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "sprain_strain_non_ankle_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "no_xray_performed"
+      ],
+      "missing_required_context": [
+        "xray_performed_and_negative"
+      ],
+      "modifiers": [
+        "knee sprain xray negative"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase205_sprain_ankle_routes_out",
+    "passed": true,
+    "result": {
+      "phenotype_id": "ankle_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "ankle sprain",
+        "ankle sprain xray negative"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase205_sprain_scaphoid_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "sprain_strain_non_ankle_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "scaphoid_tenderness_pattern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase205_sprain_unable_bear_weight_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "sprain_strain_non_ankle_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "unable_to_bear_weight_lower_extremity"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "knee sprain xray negative"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase205_sprain_compartment_signal_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "sprain_strain_non_ankle_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "compartment_syndrome_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "shoulder sprain xray negative"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
     }
   },
   {

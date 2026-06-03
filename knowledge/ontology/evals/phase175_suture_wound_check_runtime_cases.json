@@ -2,7 +2,7 @@
   {
     "id": "phase175_suture_clean_retired_fallback",
     "condition": "suture removal wound check",
-    "ed_note": "Clinician documented wound ready. No wound red flags documented.",
+    "ed_note": "Clinician documented wound ready. Wound schedule documented. No wound red flags documented.",
     "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
     "expected_fallback_reason": "phenotype_not_clinician_reviewed"
   },

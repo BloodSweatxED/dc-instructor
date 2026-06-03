@@ -2,7 +2,7 @@
 
 Goal: close or retire draft source gaps and active draft phenotypes before any phenotype expansion.
 
-Current active draft targets: none.
+Current active draft targets: phenotype `acute_otitis_media_uncomplicated`, phenotype `skin_avulsion_or_abrasion_simple`, phenotype `sprain_strain_non_ankle_xray_negative`, phenotype `suture_removal_or_wound_check_no_infection`.
 
 Recommended sequence:
 

@@ -1,0 +1,151 @@
+[
+  {
+    "id": "phase202_aom_revised_clean_draft_fallback",
+    "condition": "acute otitis media uncomplicated",
+    "ed_note": "Adult discharge diagnosis acute otitis media. Clinician entered treatment plan. No ear red flags documented.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+  },
+  {
+    "id": "phase202_aom_frail_elderly_not_hard_blocker",
+    "condition": "acute otitis media uncomplicated",
+    "ed_note": "Adult discharge diagnosis acute otitis media. Clinician entered treatment plan. No ear red flags documented. Frail elderly patient.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+  },
+  {
+    "id": "phase202_aom_neck_stiffness_blocks",
+    "condition": "acute otitis media uncomplicated",
+    "ed_note": "Adult discharge diagnosis acute otitis media. Clinician entered treatment plan. Neck stiffness documented.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "meningitis_or_cns_infection_concern"
+    ]
+  },
+  {
+    "id": "phase202_aom_venous_sinus_thrombosis_blocks",
+    "condition": "acute otitis media uncomplicated",
+    "ed_note": "Adult discharge diagnosis acute otitis media. Clinician entered treatment plan. Venous sinus thrombosis concern documented.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "lateral_sinus_thrombosis_concern"
+    ]
+  },
+  {
+    "id": "phase203_suture_revised_clean_draft_fallback",
+    "condition": "suture removal wound check",
+    "ed_note": "Clinician documented wound ready. Wound schedule documented. No wound red flags documented.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+  },
+  {
+    "id": "phase203_suture_missing_follow_up_plan_blocks",
+    "condition": "suture removal wound check",
+    "ed_note": "Clinician documented wound ready. No wound red flags documented.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_entered_wound_follow_up_plan"
+    ]
+  },
+  {
+    "id": "phase203_suture_face_wound_blocks",
+    "condition": "suture removal wound check",
+    "ed_note": "Clinician documented wound ready. Wound schedule documented. No wound infection concern. Face wound.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "high_risk_wound_location"
+    ]
+  },
+  {
+    "id": "phase204_skin_avulsion_clean_draft_fallback",
+    "condition": "simple skin avulsion",
+    "ed_note": "Clinician diagnosis simple skin avulsion. Wound cleaned and dressed. No repair needed.",
+    "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
+    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+  },
+  {
+    "id": "phase204_skin_abrasion_broad_no_match",
+    "condition": "abrasion",
+    "ed_note": "Broad abrasion without clinician diagnosis or structured red flag absence.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase204_skin_avulsion_repair_needed_blocks",
+    "condition": "simple skin avulsion",
+    "ed_note": "Clinician diagnosis simple skin avulsion. Wound cleaned and dressed. Needs sutures and wound repair needed.",
+    "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "laceration_repair_needed"
+    ]
+  },
+  {
+    "id": "phase204_skin_avulsion_high_pressure_blocks",
+    "condition": "simple skin avulsion",
+    "ed_note": "Clinician diagnosis simple skin avulsion. Wound cleaned and dressed. High pressure injection injury concern.",
+    "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "high_pressure_injection_injury"
+    ]
+  },
+  {
+    "id": "phase205_wrist_sprain_clean_draft_fallback",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "sprain_strain_non_ankle_xray_negative",
+    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+  },
+  {
+    "id": "phase205_sprain_missing_xray_blocks",
+    "condition": "knee sprain xray negative",
+    "ed_note": "Knee sprain documented. Neurovascular exam intact. No imaging performed.",
+    "expected_phenotype_id": "sprain_strain_non_ankle_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "no_xray_performed"
+    ]
+  },
+  {
+    "id": "phase205_sprain_ankle_routes_out",
+    "condition": "ankle sprain xray negative",
+    "ed_note": "Ankle sprain pathway. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "ankle_sprain_xray_negative",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase205_sprain_scaphoid_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Snuffbox tenderness documented.",
+    "expected_phenotype_id": "sprain_strain_non_ankle_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "scaphoid_tenderness_pattern"
+    ]
+  },
+  {
+    "id": "phase205_sprain_unable_bear_weight_blocks",
+    "condition": "knee sprain xray negative",
+    "ed_note": "Knee sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Unable to bear weight.",
+    "expected_phenotype_id": "sprain_strain_non_ankle_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase205_sprain_compartment_signal_blocks",
+    "condition": "shoulder sprain xray negative",
+    "ed_note": "Shoulder sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Tight swelling and pain out of proportion.",
+    "expected_phenotype_id": "sprain_strain_non_ankle_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "compartment_syndrome_concern"
+    ]
+  }
+]

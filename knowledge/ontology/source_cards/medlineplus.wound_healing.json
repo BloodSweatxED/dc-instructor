@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.wound_healing",
+  "source": "MedlinePlus",
+  "title": "How wounds heal",
+  "url": "https://medlineplus.gov/ency/patientinstructions/000741.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "Wounds heal over time through staged tissue repair.",
+    "Patient education may include keeping wounds clean, protecting healing tissue, and following clinician dressing instructions.",
+    "Scars can continue to change after the wound surface closes.",
+    "Warning signs include increasing pain, redness, swelling, drainage, fever, or wound opening."
+  ],
+  "use_policy": "evidence_support"
+}

@@ -1,7 +1,7 @@
 {
   "generated_at": "deterministic_from_current_ontology_and_generator_batches",
-  "node_count": 2086,
-  "edge_count": 3097,
+  "node_count": 2133,
+  "edge_count": 3212,
   "nodes": [
     {
       "id": "candidate_primitive:abdominal_pain_nonspecific_reassuring_workup.diagnosis.1",
@@ -9915,6 +9915,11 @@
       "label": "Anaphylaxis."
     },
     {
+      "id": "exclusion:ankle_sprain_pathway_no_x_ray_performed_positive_fracture_dislocation_open_wound_open_fracture_h",
+      "type": "exclusion",
+      "label": "Ankle sprain pathway, no x-ray performed, positive fracture, dislocation, open wound, open fracture, high-energy trauma, or crush injury."
+    },
+    {
       "id": "exclusion:antibiotics_prescribed_for_sinusitis_or_suspected_bacterial_sinus_infection",
       "type": "exclusion",
       "label": "Antibiotics prescribed for sinusitis or suspected bacterial sinus infection."
@@ -9953,6 +9958,11 @@
       "id": "exclusion:bloody_stool_black_stool_or_significant_gi_bleeding",
       "type": "exclusion",
       "label": "Bloody stool, black stool, or significant GI bleeding."
+    },
+    {
+      "id": "exclusion:burn_chemical_exposure_high_pressure_injection_injury_crush_injury_open_fracture_joint_violation",
+      "type": "exclusion",
+      "label": "Burn, chemical exposure, high-pressure injection injury, crush injury, open fracture, joint violation, tendon/nerve/vascular concern, retained foreign body, bite wound, dirty wound, or infected wound."
     },
     {
       "id": "exclusion:child_with_growth_plate_concern_requiring_pediatric_specific_instructions",
@@ -10008,6 +10018,11 @@
       "id": "exclusion:diabetic_foot_infection_bite_wound_or_immunocompromised_host_requiring_a_separate_pathway",
       "type": "exclusion",
       "label": "Diabetic foot infection, bite wound, or immunocompromised host requiring a separate pathway."
+    },
+    {
+      "id": "exclusion:diabetic_foot_wound_immunocompromised_host_pediatric_pathway_or_specialist_directed_wound_plan",
+      "type": "exclusion",
+      "label": "Diabetic foot wound, immunocompromised host, pediatric pathway, or specialist-directed wound plan."
     },
     {
       "id": "exclusion:epiglottitis_concern",
@@ -10085,14 +10100,14 @@
       "label": "Immunocompromised host."
     },
     {
-      "id": "exclusion:immunocompromised_host_frail_elderly_patient_recurrent_or_chronic_ear_infection_or_pediatric_pat",
-      "type": "exclusion",
-      "label": "Immunocompromised host, frail elderly patient, recurrent or chronic ear infection, or pediatric pathway requiring individualized instructions."
-    },
-    {
       "id": "exclusion:immunocompromised_host_pregnancy_infant_pediatric_pathway_or_specialist_directed_ophthalmology_p",
       "type": "exclusion",
       "label": "Immunocompromised host, pregnancy, infant/pediatric pathway, or specialist-directed ophthalmology plan."
+    },
+    {
+      "id": "exclusion:immunocompromised_host_recurrent_or_chronic_ear_infection_or_pediatric_pathway_requiring_individ",
+      "type": "exclusion",
+      "label": "Immunocompromised host, recurrent or chronic ear infection, or pediatric pathway requiring individualized instructions."
     },
     {
       "id": "exclusion:immunocompromised_or_frail_elderly_patient_requiring_individualized_planning",
@@ -10103,6 +10118,11 @@
       "id": "exclusion:impending_respiratory_failure",
       "type": "exclusion",
       "label": "Impending respiratory failure."
+    },
+    {
+      "id": "exclusion:inability_to_bear_weight_for_lower_extremity_injuries_pediatric_growth_plate_pathway_or_elderly_",
+      "type": "exclusion",
+      "label": "Inability to bear weight for lower-extremity injuries, pediatric growth plate pathway, or elderly/osteoporotic high-risk knee, shoulder, or wrist injury."
     },
     {
       "id": "exclusion:infant_or_high_risk_pediatric_patient_requiring_pediatric_specific_instructions",
@@ -10145,9 +10165,9 @@
       "label": "Male patient or patient requiring sex-specific complicated UTI pathway."
     },
     {
-      "id": "exclusion:mastoiditis_deep_ear_infection_skull_base_infection_or_severe_systemic_illness_concern",
+      "id": "exclusion:mastoiditis_deep_ear_infection_skull_base_infection_meningitis_venous_sinus_thrombosis_or_severe",
       "type": "exclusion",
-      "label": "Mastoiditis, deep ear infection, skull base infection, or severe systemic illness concern."
+      "label": "Mastoiditis, deep ear infection, skull base infection, meningitis, venous sinus thrombosis, or severe systemic illness concern."
     },
     {
       "id": "exclusion:mastoiditis_deep_ear_infection_skull_base_osteomyelitis_or_malignant_otitis_externa_concern",
@@ -10355,6 +10375,11 @@
       "label": "Suspected skull fracture."
     },
     {
+      "id": "exclusion:suspected_tendon_rupture_ligament_rupture_scaphoid_tenderness_pattern_compartment_syndrome_conce",
+      "type": "exclusion",
+      "label": "Suspected tendon rupture, ligament rupture, scaphoid tenderness pattern, compartment syndrome concern, septic joint or infection concern, neurovascular compromise, or specialist-directed orthopedic plan."
+    },
+    {
       "id": "exclusion:uncontrolled_pain_repeated_vomiting_fever_gi_bleeding_sepsis_concern_frailty_immunocompromise_or",
       "type": "exclusion",
       "label": "Uncontrolled pain, repeated vomiting, fever, GI bleeding, sepsis concern, frailty, immunocompromise, or unreliable follow-up."
@@ -10372,12 +10397,17 @@
     {
       "id": "exclusion:wound_dehiscence_wound_not_ready_for_removal_early_suture_staple_loss_retained_foreign_body_tend",
       "type": "exclusion",
-      "label": "Wound dehiscence, wound not ready for removal, early suture/staple loss, retained foreign body, tendon/nerve/vascular concern, open fracture, joint violation, bite wound, dirty wound, or poor follow-up."
+      "label": "Wound dehiscence, wound not ready for removal, early suture/staple loss, retained foreign body, tendon/nerve/vascular concern, open fracture, joint violation, bite wound, dirty wound, high-risk wound location, or poor follow-up."
     },
     {
       "id": "exclusion:wound_infection_concern_pus_spreading_redness_fever_red_streaks_or_systemic_illness",
       "type": "exclusion",
       "label": "Wound infection concern, pus, spreading redness, fever, red streaks, or systemic illness."
+    },
+    {
+      "id": "exclusion:wound_needing_sutures_staples_glue_operative_repair_or_laceration_pathway",
+      "type": "exclusion",
+      "label": "Wound needing sutures, staples, glue, operative repair, or laceration pathway."
     },
     {
       "id": "generator_case:abdominal_pain_nonspecific_reassuring_workup",
@@ -13355,6 +13385,11 @@
       "label": "Bowel obstruction."
     },
     {
+      "id": "must_not_miss:burn_or_chemical_injury",
+      "type": "must_not_miss",
+      "label": "Burn or chemical injury."
+    },
+    {
       "id": "must_not_miss:c_difficile_or_invasive_diarrhea_when_risk_factors_are_present",
       "type": "must_not_miss",
       "label": "C. difficile or invasive diarrhea when risk factors are present."
@@ -13380,6 +13415,11 @@
       "label": "Coagulopathy or anticoagulation complication."
     },
     {
+      "id": "must_not_miss:compartment_syndrome",
+      "type": "must_not_miss",
+      "label": "Compartment syndrome."
+    },
+    {
       "id": "must_not_miss:compartment_syndrome_in_severe_trauma",
       "type": "must_not_miss",
       "label": "Compartment syndrome in severe trauma."
@@ -13403,6 +13443,11 @@
       "id": "must_not_miss:dental_abscess",
       "type": "must_not_miss",
       "label": "Dental abscess."
+    },
+    {
+      "id": "must_not_miss:dislocation",
+      "type": "must_not_miss",
+      "label": "Dislocation."
     },
     {
       "id": "must_not_miss:ear_foreign_body",
@@ -13460,6 +13505,16 @@
       "label": "Herpes or zoster eye disease."
     },
     {
+      "id": "must_not_miss:high_pressure_injection_injury",
+      "type": "must_not_miss",
+      "label": "High-pressure injection injury."
+    },
+    {
+      "id": "must_not_miss:high_risk_face_hand_joint_genital_scalp_or_high_tension_wound",
+      "type": "must_not_miss",
+      "label": "High-risk face, hand, joint, genital, scalp, or high-tension wound."
+    },
+    {
       "id": "must_not_miss:hypoxic_respiratory_failure",
       "type": "must_not_miss",
       "label": "Hypoxic respiratory failure."
@@ -13503,6 +13558,16 @@
       "id": "must_not_miss:keratitis_or_corneal_ulcer",
       "type": "must_not_miss",
       "label": "Keratitis or corneal ulcer."
+    },
+    {
+      "id": "must_not_miss:lateral_or_sigmoid_sinus_thrombosis",
+      "type": "must_not_miss",
+      "label": "Lateral or sigmoid sinus thrombosis."
+    },
+    {
+      "id": "must_not_miss:ligament_rupture_requiring_urgent_follow_up",
+      "type": "must_not_miss",
+      "label": "Ligament rupture requiring urgent follow-up."
     },
     {
       "id": "must_not_miss:lisfranc_injury_or_high_ankle_sprain_when_exam_suggests_it",
@@ -13680,6 +13745,11 @@
       "label": "Retropharyngeal abscess."
     },
     {
+      "id": "must_not_miss:scaphoid_fracture",
+      "type": "must_not_miss",
+      "label": "Scaphoid fracture."
+    },
+    {
       "id": "must_not_miss:second_impact_risk",
       "type": "must_not_miss",
       "label": "Second-impact risk."
@@ -13693,6 +13763,11 @@
       "id": "must_not_miss:sepsis_or_deep_ear_infection",
       "type": "must_not_miss",
       "label": "Sepsis or deep ear infection."
+    },
+    {
+      "id": "must_not_miss:septic_joint",
+      "type": "must_not_miss",
+      "label": "Septic joint."
     },
     {
       "id": "must_not_miss:septic_joint_when_over_a_joint",
@@ -13750,6 +13825,11 @@
       "label": "Tendon, nerve, vascular, or joint injury."
     },
     {
+      "id": "must_not_miss:tendon_rupture",
+      "type": "must_not_miss",
+      "label": "Tendon rupture."
+    },
+    {
       "id": "must_not_miss:testicular_torsion_mimic",
       "type": "must_not_miss",
       "label": "Testicular torsion mimic."
@@ -13802,9 +13882,9 @@
       "id": "phenotype:acute_otitis_media_uncomplicated",
       "type": "phenotype",
       "label": "Uncomplicated acute otitis media without mastoiditis concern",
-      "status": "retired",
+      "status": "needs_review",
       "condition_family": "ear",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "phenotype:acute_sinusitis_supportive_care",
@@ -13951,12 +14031,28 @@
       "review_status": "reviewed"
     },
     {
+      "id": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "phenotype",
+      "label": "Simple skin avulsion, skin tear, or abrasion without repair need",
+      "status": "needs_review",
+      "condition_family": "wound_care",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "phenotype",
+      "label": "Non-ankle sprain or strain with negative x-ray",
+      "status": "needs_review",
+      "condition_family": "musculoskeletal_injury",
+      "review_status": "needs_review"
+    },
+    {
       "id": "phenotype:suture_removal_or_wound_check_no_infection",
       "type": "phenotype",
       "label": "Suture removal or wound check without infection concern",
-      "status": "retired",
+      "status": "needs_review",
       "condition_family": "wound_care",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "phenotype:uncomplicated_cystitis_nonpregnant",
@@ -14478,7 +14574,7 @@
       "section": "diagnosis",
       "primitive_type": "diagnosis_summary",
       "priority": "required",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:acute_otitis_media_uncomplicated.follow_up.default_follow_up.v1",
@@ -14487,7 +14583,7 @@
       "section": "follow_up",
       "primitive_type": "default_follow_up",
       "priority": "required",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_1.v1",
@@ -14496,7 +14592,7 @@
       "section": "home_care",
       "primitive_type": "home_care_1",
       "priority": "high",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_2.v1",
@@ -14505,7 +14601,7 @@
       "section": "home_care",
       "primitive_type": "home_care_2",
       "priority": "high",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_3.v1",
@@ -14514,7 +14610,16 @@
       "section": "home_care",
       "primitive_type": "home_care_3",
       "priority": "high",
-      "review_status": "retired"
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_4.v1",
+      "type": "primitive",
+      "label": "acute_otitis_media_uncomplicated.home_care.home_care_4.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_4",
+      "priority": "high",
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:acute_otitis_media_uncomplicated.medications.medication_guidance_1.v1",
@@ -14523,7 +14628,7 @@
       "section": "medications",
       "primitive_type": "medication_guidance_1",
       "priority": "high",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:acute_otitis_media_uncomplicated.medications.medication_guidance_2.v1",
@@ -14532,7 +14637,7 @@
       "section": "medications",
       "primitive_type": "medication_guidance_2",
       "priority": "high",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:acute_otitis_media_uncomplicated.return_precautions.return_precaution_1.v1",
@@ -14541,7 +14646,7 @@
       "section": "return_precautions",
       "primitive_type": "return_precaution_1",
       "priority": "required",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:acute_otitis_media_uncomplicated.return_precautions.return_precaution_2.v1",
@@ -14550,7 +14655,7 @@
       "section": "return_precautions",
       "primitive_type": "return_precaution_2",
       "priority": "required",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:acute_otitis_media_uncomplicated.return_precautions.return_precaution_3.v1",
@@ -14559,7 +14664,7 @@
       "section": "return_precautions",
       "primitive_type": "return_precaution_3",
       "priority": "required",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:acute_otitis_media_uncomplicated.what_we_found.reassuring_ed_assessment.v1",
@@ -14568,7 +14673,7 @@
       "section": "what_we_found",
       "primitive_type": "reassuring_ed_assessment",
       "priority": "required",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:acute_sinusitis_supportive_care.diagnosis.diagnosis_summary.v1",
@@ -16812,13 +16917,229 @@
       "review_status": "reviewed"
     },
     {
+      "id": "primitive:skin_avulsion_or_abrasion_simple.diagnosis.diagnosis_summary.v1",
+      "type": "primitive",
+      "label": "skin_avulsion_or_abrasion_simple.diagnosis.diagnosis_summary.v1",
+      "section": "diagnosis",
+      "primitive_type": "diagnosis_summary",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:skin_avulsion_or_abrasion_simple.follow_up.default_follow_up.v1",
+      "type": "primitive",
+      "label": "skin_avulsion_or_abrasion_simple.follow_up.default_follow_up.v1",
+      "section": "follow_up",
+      "primitive_type": "default_follow_up",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:skin_avulsion_or_abrasion_simple.home_care.home_care_1.v1",
+      "type": "primitive",
+      "label": "skin_avulsion_or_abrasion_simple.home_care.home_care_1.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_1",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:skin_avulsion_or_abrasion_simple.home_care.home_care_2.v1",
+      "type": "primitive",
+      "label": "skin_avulsion_or_abrasion_simple.home_care.home_care_2.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_2",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:skin_avulsion_or_abrasion_simple.home_care.home_care_3.v1",
+      "type": "primitive",
+      "label": "skin_avulsion_or_abrasion_simple.home_care.home_care_3.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_3",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:skin_avulsion_or_abrasion_simple.home_care.home_care_4.v1",
+      "type": "primitive",
+      "label": "skin_avulsion_or_abrasion_simple.home_care.home_care_4.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_4",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:skin_avulsion_or_abrasion_simple.medications.medication_guidance_1.v1",
+      "type": "primitive",
+      "label": "skin_avulsion_or_abrasion_simple.medications.medication_guidance_1.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_1",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:skin_avulsion_or_abrasion_simple.medications.medication_guidance_2.v1",
+      "type": "primitive",
+      "label": "skin_avulsion_or_abrasion_simple.medications.medication_guidance_2.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_2",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:skin_avulsion_or_abrasion_simple.return_precautions.return_precaution_1.v1",
+      "type": "primitive",
+      "label": "skin_avulsion_or_abrasion_simple.return_precautions.return_precaution_1.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_1",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:skin_avulsion_or_abrasion_simple.return_precautions.return_precaution_2.v1",
+      "type": "primitive",
+      "label": "skin_avulsion_or_abrasion_simple.return_precautions.return_precaution_2.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_2",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:skin_avulsion_or_abrasion_simple.return_precautions.return_precaution_3.v1",
+      "type": "primitive",
+      "label": "skin_avulsion_or_abrasion_simple.return_precautions.return_precaution_3.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_3",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:skin_avulsion_or_abrasion_simple.what_we_found.reassuring_ed_assessment.v1",
+      "type": "primitive",
+      "label": "skin_avulsion_or_abrasion_simple.what_we_found.reassuring_ed_assessment.v1",
+      "section": "what_we_found",
+      "primitive_type": "reassuring_ed_assessment",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:sprain_strain_non_ankle_xray_negative.diagnosis.diagnosis_summary.v1",
+      "type": "primitive",
+      "label": "sprain_strain_non_ankle_xray_negative.diagnosis.diagnosis_summary.v1",
+      "section": "diagnosis",
+      "primitive_type": "diagnosis_summary",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:sprain_strain_non_ankle_xray_negative.follow_up.default_follow_up.v1",
+      "type": "primitive",
+      "label": "sprain_strain_non_ankle_xray_negative.follow_up.default_follow_up.v1",
+      "section": "follow_up",
+      "primitive_type": "default_follow_up",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_1.v1",
+      "type": "primitive",
+      "label": "sprain_strain_non_ankle_xray_negative.home_care.home_care_1.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_1",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_2.v1",
+      "type": "primitive",
+      "label": "sprain_strain_non_ankle_xray_negative.home_care.home_care_2.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_2",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_3.v1",
+      "type": "primitive",
+      "label": "sprain_strain_non_ankle_xray_negative.home_care.home_care_3.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_3",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_4.v1",
+      "type": "primitive",
+      "label": "sprain_strain_non_ankle_xray_negative.home_care.home_care_4.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_4",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:sprain_strain_non_ankle_xray_negative.medications.medication_guidance_1.v1",
+      "type": "primitive",
+      "label": "sprain_strain_non_ankle_xray_negative.medications.medication_guidance_1.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_1",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:sprain_strain_non_ankle_xray_negative.medications.medication_guidance_2.v1",
+      "type": "primitive",
+      "label": "sprain_strain_non_ankle_xray_negative.medications.medication_guidance_2.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_2",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_1.v1",
+      "type": "primitive",
+      "label": "sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_1.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_1",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_2.v1",
+      "type": "primitive",
+      "label": "sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_2.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_2",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_3.v1",
+      "type": "primitive",
+      "label": "sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_3.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_3",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:sprain_strain_non_ankle_xray_negative.what_we_found.reassuring_ed_assessment.v1",
+      "type": "primitive",
+      "label": "sprain_strain_non_ankle_xray_negative.what_we_found.reassuring_ed_assessment.v1",
+      "section": "what_we_found",
+      "primitive_type": "reassuring_ed_assessment",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
       "id": "primitive:suture_removal_or_wound_check_no_infection.diagnosis.diagnosis_summary.v1",
       "type": "primitive",
       "label": "suture_removal_or_wound_check_no_infection.diagnosis.diagnosis_summary.v1",
       "section": "diagnosis",
       "primitive_type": "diagnosis_summary",
       "priority": "required",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:suture_removal_or_wound_check_no_infection.follow_up.default_follow_up.v1",
@@ -16827,7 +17148,7 @@
       "section": "follow_up",
       "primitive_type": "default_follow_up",
       "priority": "required",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:suture_removal_or_wound_check_no_infection.home_care.home_care_1.v1",
@@ -16836,7 +17157,7 @@
       "section": "home_care",
       "primitive_type": "home_care_1",
       "priority": "high",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:suture_removal_or_wound_check_no_infection.home_care.home_care_2.v1",
@@ -16845,7 +17166,7 @@
       "section": "home_care",
       "primitive_type": "home_care_2",
       "priority": "high",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:suture_removal_or_wound_check_no_infection.home_care.home_care_3.v1",
@@ -16854,7 +17175,16 @@
       "section": "home_care",
       "primitive_type": "home_care_3",
       "priority": "high",
-      "review_status": "retired"
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:suture_removal_or_wound_check_no_infection.home_care.home_care_4.v1",
+      "type": "primitive",
+      "label": "suture_removal_or_wound_check_no_infection.home_care.home_care_4.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_4",
+      "priority": "high",
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:suture_removal_or_wound_check_no_infection.medications.medication_guidance_1.v1",
@@ -16863,7 +17193,7 @@
       "section": "medications",
       "primitive_type": "medication_guidance_1",
       "priority": "high",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:suture_removal_or_wound_check_no_infection.medications.medication_guidance_2.v1",
@@ -16872,7 +17202,16 @@
       "section": "medications",
       "primitive_type": "medication_guidance_2",
       "priority": "high",
-      "review_status": "retired"
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:suture_removal_or_wound_check_no_infection.medications.medication_guidance_3.v1",
+      "type": "primitive",
+      "label": "suture_removal_or_wound_check_no_infection.medications.medication_guidance_3.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_3",
+      "priority": "high",
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:suture_removal_or_wound_check_no_infection.return_precautions.return_precaution_1.v1",
@@ -16881,7 +17220,7 @@
       "section": "return_precautions",
       "primitive_type": "return_precaution_1",
       "priority": "required",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:suture_removal_or_wound_check_no_infection.return_precautions.return_precaution_2.v1",
@@ -16890,7 +17229,7 @@
       "section": "return_precautions",
       "primitive_type": "return_precaution_2",
       "priority": "required",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:suture_removal_or_wound_check_no_infection.return_precautions.return_precaution_3.v1",
@@ -16899,7 +17238,7 @@
       "section": "return_precautions",
       "primitive_type": "return_precaution_3",
       "priority": "required",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:suture_removal_or_wound_check_no_infection.what_we_found.reassuring_ed_assessment.v1",
@@ -16908,7 +17247,7 @@
       "section": "what_we_found",
       "primitive_type": "reassuring_ed_assessment",
       "priority": "required",
-      "review_status": "retired"
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:uncomplicated_cystitis_nonpregnant.resources.followup_reminder.v1",
@@ -17523,6 +17862,15 @@
       "source_type": "public_patient_education"
     },
     {
+      "id": "source_card:medlineplus.sprains_strains",
+      "type": "source_card",
+      "label": "Strains | Sprains",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/sprainsandstrains.html",
+      "use_policy": "evidence_support",
+      "source_type": "public_patient_education"
+    },
+    {
       "id": "source_card:medlineplus.suture_care",
       "type": "source_card",
       "label": "Laceration - sutures or staples - at home",
@@ -17564,6 +17912,15 @@
       "label": "Viral gastroenteritis (stomach flu)",
       "source": "MedlinePlus",
       "url": "https://medlineplus.gov/ency/article/000252.htm",
+      "use_policy": "evidence_support",
+      "source_type": "public_patient_education"
+    },
+    {
+      "id": "source_card:medlineplus.wound_healing",
+      "type": "source_card",
+      "label": "How wounds heal",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/ency/patientinstructions/000741.htm",
       "use_policy": "evidence_support",
       "source_type": "public_patient_education"
     },
@@ -29093,12 +29450,12 @@
     {
       "source": "phenotype:acute_otitis_media_uncomplicated",
       "type": "has_exclusion",
-      "target": "exclusion:immunocompromised_host_frail_elderly_patient_recurrent_or_chronic_ear_infection_or_pediatric_pat"
+      "target": "exclusion:immunocompromised_host_recurrent_or_chronic_ear_infection_or_pediatric_pathway_requiring_individ"
     },
     {
       "source": "phenotype:acute_otitis_media_uncomplicated",
       "type": "has_exclusion",
-      "target": "exclusion:mastoiditis_deep_ear_infection_skull_base_infection_or_severe_systemic_illness_concern"
+      "target": "exclusion:mastoiditis_deep_ear_infection_skull_base_infection_meningitis_venous_sinus_thrombosis_or_severe"
     },
     {
       "source": "phenotype:acute_otitis_media_uncomplicated",
@@ -29123,7 +29480,17 @@
     {
       "source": "phenotype:acute_otitis_media_uncomplicated",
       "type": "has_must_not_miss",
+      "target": "must_not_miss:lateral_or_sigmoid_sinus_thrombosis"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "has_must_not_miss",
       "target": "must_not_miss:mastoiditis"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:meningitis"
     },
     {
       "source": "phenotype:acute_otitis_media_uncomplicated",
@@ -29164,6 +29531,11 @@
       "source": "phenotype:acute_otitis_media_uncomplicated",
       "type": "requires_primitive",
       "target": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_3.v1"
+    },
+    {
+      "source": "phenotype:acute_otitis_media_uncomplicated",
+      "type": "requires_primitive",
+      "target": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_4.v1"
     },
     {
       "source": "phenotype:acute_otitis_media_uncomplicated",
@@ -31061,6 +31433,221 @@
       "target": "primitive:renal_colic_stable_no_infection.what_we_found.reassuring_ed_assessment.v1"
     },
     {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "has_exclusion",
+      "target": "exclusion:burn_chemical_exposure_high_pressure_injection_injury_crush_injury_open_fracture_joint_violation"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "has_exclusion",
+      "target": "exclusion:diabetic_foot_wound_immunocompromised_host_pediatric_pathway_or_specialist_directed_wound_plan"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "has_exclusion",
+      "target": "exclusion:wound_needing_sutures_staples_glue_operative_repair_or_laceration_pathway"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:burn_or_chemical_injury"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:high_pressure_injection_injury"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:open_fracture"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:retained_foreign_body"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:tendon_nerve_vascular_or_joint_injury"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:wound_infection"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "requires_primitive",
+      "target": "primitive:skin_avulsion_or_abrasion_simple.diagnosis.diagnosis_summary.v1"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "requires_primitive",
+      "target": "primitive:skin_avulsion_or_abrasion_simple.follow_up.default_follow_up.v1"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "requires_primitive",
+      "target": "primitive:skin_avulsion_or_abrasion_simple.home_care.home_care_1.v1"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "requires_primitive",
+      "target": "primitive:skin_avulsion_or_abrasion_simple.home_care.home_care_2.v1"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "requires_primitive",
+      "target": "primitive:skin_avulsion_or_abrasion_simple.home_care.home_care_3.v1"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "requires_primitive",
+      "target": "primitive:skin_avulsion_or_abrasion_simple.home_care.home_care_4.v1"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "requires_primitive",
+      "target": "primitive:skin_avulsion_or_abrasion_simple.medications.medication_guidance_1.v1"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "requires_primitive",
+      "target": "primitive:skin_avulsion_or_abrasion_simple.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "requires_primitive",
+      "target": "primitive:skin_avulsion_or_abrasion_simple.return_precautions.return_precaution_1.v1"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "requires_primitive",
+      "target": "primitive:skin_avulsion_or_abrasion_simple.return_precautions.return_precaution_2.v1"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "requires_primitive",
+      "target": "primitive:skin_avulsion_or_abrasion_simple.return_precautions.return_precaution_3.v1"
+    },
+    {
+      "source": "phenotype:skin_avulsion_or_abrasion_simple",
+      "type": "requires_primitive",
+      "target": "primitive:skin_avulsion_or_abrasion_simple.what_we_found.reassuring_ed_assessment.v1"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "has_exclusion",
+      "target": "exclusion:ankle_sprain_pathway_no_x_ray_performed_positive_fracture_dislocation_open_wound_open_fracture_h"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "has_exclusion",
+      "target": "exclusion:inability_to_bear_weight_for_lower_extremity_injuries_pediatric_growth_plate_pathway_or_elderly_"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "has_exclusion",
+      "target": "exclusion:suspected_tendon_rupture_ligament_rupture_scaphoid_tenderness_pattern_compartment_syndrome_conce"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:compartment_syndrome"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:dislocation"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:ligament_rupture_requiring_urgent_follow_up"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:occult_fracture"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:scaphoid_fracture"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:septic_joint"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:tendon_rupture"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "requires_primitive",
+      "target": "primitive:sprain_strain_non_ankle_xray_negative.diagnosis.diagnosis_summary.v1"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "requires_primitive",
+      "target": "primitive:sprain_strain_non_ankle_xray_negative.follow_up.default_follow_up.v1"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "requires_primitive",
+      "target": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_1.v1"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "requires_primitive",
+      "target": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_2.v1"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "requires_primitive",
+      "target": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_3.v1"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "requires_primitive",
+      "target": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_4.v1"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "requires_primitive",
+      "target": "primitive:sprain_strain_non_ankle_xray_negative.medications.medication_guidance_1.v1"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "requires_primitive",
+      "target": "primitive:sprain_strain_non_ankle_xray_negative.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "requires_primitive",
+      "target": "primitive:sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_1.v1"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "requires_primitive",
+      "target": "primitive:sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_2.v1"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "requires_primitive",
+      "target": "primitive:sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_3.v1"
+    },
+    {
+      "source": "phenotype:sprain_strain_non_ankle_xray_negative",
+      "type": "requires_primitive",
+      "target": "primitive:sprain_strain_non_ankle_xray_negative.what_we_found.reassuring_ed_assessment.v1"
+    },
+    {
       "source": "phenotype:suture_removal_or_wound_check_no_infection",
       "type": "has_exclusion",
       "target": "exclusion:pediatric_pathway_immunocompromised_host_diabetic_foot_wound_anticoagulation_related_bleeding_co"
@@ -31074,6 +31661,11 @@
       "source": "phenotype:suture_removal_or_wound_check_no_infection",
       "type": "has_exclusion",
       "target": "exclusion:wound_infection_concern_pus_spreading_redness_fever_red_streaks_or_systemic_illness"
+    },
+    {
+      "source": "phenotype:suture_removal_or_wound_check_no_infection",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:high_risk_face_hand_joint_genital_scalp_or_high_tension_wound"
     },
     {
       "source": "phenotype:suture_removal_or_wound_check_no_infection",
@@ -31133,12 +31725,22 @@
     {
       "source": "phenotype:suture_removal_or_wound_check_no_infection",
       "type": "requires_primitive",
+      "target": "primitive:suture_removal_or_wound_check_no_infection.home_care.home_care_4.v1"
+    },
+    {
+      "source": "phenotype:suture_removal_or_wound_check_no_infection",
+      "type": "requires_primitive",
       "target": "primitive:suture_removal_or_wound_check_no_infection.medications.medication_guidance_1.v1"
     },
     {
       "source": "phenotype:suture_removal_or_wound_check_no_infection",
       "type": "requires_primitive",
       "target": "primitive:suture_removal_or_wound_check_no_infection.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:suture_removal_or_wound_check_no_infection",
+      "type": "requires_primitive",
+      "target": "primitive:suture_removal_or_wound_check_no_infection.medications.medication_guidance_3.v1"
     },
     {
       "source": "phenotype:suture_removal_or_wound_check_no_infection",
@@ -31862,6 +32464,16 @@
     },
     {
       "source": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ear_infections"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_4.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.ear_infection"
+    },
+    {
+      "source": "primitive:acute_otitis_media_uncomplicated.home_care.home_care_4.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.ear_infections"
     },
@@ -33836,6 +34448,306 @@
       "target": "source_card:medlineplus.kidney_stones_self_care"
     },
     {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.cuts_puncture_wounds"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.wound_healing"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.cuts_puncture_wounds"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.wound_healing"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.cuts_puncture_wounds"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.wound_healing"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.cuts_puncture_wounds"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.wound_healing"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.cuts_puncture_wounds"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.wound_healing"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.home_care.home_care_4.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.cuts_puncture_wounds"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.home_care.home_care_4.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.wound_healing"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.cuts_puncture_wounds"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.wound_healing"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.cuts_puncture_wounds"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.wound_healing"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.cuts_puncture_wounds"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.wound_healing"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.cuts_puncture_wounds"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.wound_healing"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.cuts_puncture_wounds"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.wound_healing"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.cuts_puncture_wounds"
+    },
+    {
+      "source": "primitive:skin_avulsion_or_abrasion_simple.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.wound_healing"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ankle_sprain_aftercare"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sprains_strains"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:wikem.ankle_sprain"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ankle_sprain_aftercare"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sprains_strains"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:wikem.ankle_sprain"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ankle_sprain_aftercare"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sprains_strains"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:wikem.ankle_sprain"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ankle_sprain_aftercare"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sprains_strains"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:wikem.ankle_sprain"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ankle_sprain_aftercare"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sprains_strains"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:wikem.ankle_sprain"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_4.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ankle_sprain_aftercare"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_4.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sprains_strains"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.home_care.home_care_4.v1",
+      "type": "supported_by_source",
+      "target": "source_card:wikem.ankle_sprain"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ankle_sprain_aftercare"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sprains_strains"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:wikem.ankle_sprain"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ankle_sprain_aftercare"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sprains_strains"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:wikem.ankle_sprain"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ankle_sprain_aftercare"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sprains_strains"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:wikem.ankle_sprain"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ankle_sprain_aftercare"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sprains_strains"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:wikem.ankle_sprain"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ankle_sprain_aftercare"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sprains_strains"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:wikem.ankle_sprain"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.ankle_sprain_aftercare"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.sprains_strains"
+    },
+    {
+      "source": "primitive:sprain_strain_non_ankle_xray_negative.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:wikem.ankle_sprain"
+    },
+    {
       "source": "primitive:suture_removal_or_wound_check_no_infection.diagnosis.diagnosis_summary.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.cuts_puncture_wounds"
@@ -33886,6 +34798,16 @@
       "target": "source_card:medlineplus.suture_care"
     },
     {
+      "source": "primitive:suture_removal_or_wound_check_no_infection.home_care.home_care_4.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.cuts_puncture_wounds"
+    },
+    {
+      "source": "primitive:suture_removal_or_wound_check_no_infection.home_care.home_care_4.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.suture_care"
+    },
+    {
       "source": "primitive:suture_removal_or_wound_check_no_infection.medications.medication_guidance_1.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.cuts_puncture_wounds"
@@ -33902,6 +34824,16 @@
     },
     {
       "source": "primitive:suture_removal_or_wound_check_no_infection.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.suture_care"
+    },
+    {
+      "source": "primitive:suture_removal_or_wound_check_no_infection.medications.medication_guidance_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.cuts_puncture_wounds"
+    },
+    {
+      "source": "primitive:suture_removal_or_wound_check_no_infection.medications.medication_guidance_3.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.suture_care"
     },

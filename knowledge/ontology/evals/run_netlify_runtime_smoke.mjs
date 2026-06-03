@@ -31,6 +31,7 @@ const cases = JSON.parse(
   .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase175_suture_wound_check_runtime_cases.json'), 'utf8')))
   .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase176_suture_wound_check_stress_runtime_cases.json'), 'utf8')))
   .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase193_broad_wound_complaint_stress_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase202_215_reviewed_revision_runtime_cases.json'), 'utf8')))
   .filter(
     (item) =>
       item.id.startsWith('phase14_netlify_smoke_') ||
@@ -61,7 +62,11 @@ const cases = JSON.parse(
       item.id.startsWith('phase169_') ||
       item.id.startsWith('phase175_') ||
       item.id.startsWith('phase176_') ||
-      item.id.startsWith('phase193_'),
+      item.id.startsWith('phase193_') ||
+      item.id.startsWith('phase202_') ||
+      item.id.startsWith('phase203_') ||
+      item.id.startsWith('phase204_') ||
+      item.id.startsWith('phase205_'),
   );
 
 for (const item of cases) {

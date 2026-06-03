@@ -1,16 +1,16 @@
 {
   "id": "suture_removal_or_wound_check_no_infection",
   "label": "Suture removal or wound check without infection concern",
-  "status": "retired",
+  "status": "needs_review",
   "condition_family": "wound_care",
   "inclusion_criteria": [
     "Adult with clinician-documented wound check, suture removal, or staple removal plan.",
     "Clinician documents wound is healing as expected or ready for removal.",
-    "No infection, dehiscence, retained foreign body, tendon/nerve/vascular risk, bite wound, open fracture, or specialist-directed wound plan."
+    "No infection, dehiscence, retained foreign body, tendon/nerve/vascular risk, high-risk wound location, bite wound, open fracture, or specialist-directed wound plan."
   ],
   "exclusion_criteria": [
     "Wound infection concern, pus, spreading redness, fever, red streaks, or systemic illness.",
-    "Wound dehiscence, wound not ready for removal, early suture/staple loss, retained foreign body, tendon/nerve/vascular concern, open fracture, joint violation, bite wound, dirty wound, or poor follow-up.",
+    "Wound dehiscence, wound not ready for removal, early suture/staple loss, retained foreign body, tendon/nerve/vascular concern, open fracture, joint violation, bite wound, dirty wound, high-risk wound location, or poor follow-up.",
     "Pediatric pathway, immunocompromised host, diabetic foot wound, anticoagulation-related bleeding concern, or specialist-directed wound plan."
   ],
   "must_not_miss": [
@@ -19,9 +19,10 @@
     "Retained foreign body.",
     "Tendon, nerve, vascular, or joint injury.",
     "Open fracture.",
+    "High-risk face, hand, joint, genital, scalp, or high-tension wound.",
     "Necrotizing infection."
   ],
-  "default_follow_up": "Follow up on the wound schedule your clinician gave you.",
+  "default_follow_up": "Follow up on the wound schedule your clinician gave you. If no schedule was given and symptoms worsen or you are worried, arrange a recheck within 2 to 3 days.",
   "required_sections": [
     "diagnosis",
     "what_we_found",
@@ -36,8 +37,10 @@
     "suture_removal_or_wound_check_no_infection.home_care.home_care_1.v1",
     "suture_removal_or_wound_check_no_infection.home_care.home_care_2.v1",
     "suture_removal_or_wound_check_no_infection.home_care.home_care_3.v1",
+    "suture_removal_or_wound_check_no_infection.home_care.home_care_4.v1",
     "suture_removal_or_wound_check_no_infection.medications.medication_guidance_1.v1",
     "suture_removal_or_wound_check_no_infection.medications.medication_guidance_2.v1",
+    "suture_removal_or_wound_check_no_infection.medications.medication_guidance_3.v1",
     "suture_removal_or_wound_check_no_infection.return_precautions.return_precaution_1.v1",
     "suture_removal_or_wound_check_no_infection.return_precautions.return_precaution_2.v1",
     "suture_removal_or_wound_check_no_infection.return_precautions.return_precaution_3.v1",
@@ -69,6 +72,7 @@
       "retained_foreign_body",
       "hand_tendon_risk",
       "joint_violation",
+      "high_risk_wound_location",
       "open_fracture",
       "bite_wound",
       "dirty_wound",
@@ -90,11 +94,22 @@
         ]
       },
       {
+        "id": "clinician_entered_wound_follow_up_plan",
+        "terms": [
+          "wound follow up plan documented",
+          "wound schedule documented",
+          "suture removal schedule documented",
+          "staple removal schedule documented",
+          "clinician entered wound follow up plan"
+        ]
+      },
+      {
         "id": "structured_absence_of_wound_red_flags",
         "terms": [
           "no wound infection concern",
           "no wound red flags documented",
-          "no dehiscence infection foreign body tendon nerve vascular concern"
+          "no dehiscence infection foreign body tendon nerve vascular concern",
+          "no infection dehiscence foreign body tendon nerve vascular high risk location concern"
         ]
       }
     ],
@@ -105,13 +120,13 @@
       "wound check no infection"
     ],
     "minimum_confidence": 0.86,
-    "mode": "retired_product_layer_fallback_only"
+    "mode": "draft_only_until_reviewed"
   },
   "version": 1,
   "review": {
-    "status": "retired",
+    "status": "needs_review",
     "reviewer": null,
     "last_reviewed": null,
-    "notes": "Phase 184 retired this draft to product-layer fallback because suture removal readiness, timing by body site, cosmesis, and specialist-directed wound plans require explicit clinician approval before ontology mode."
+    "notes": "Phase 203 clinician review applied. Keep draft-only until final approval after revised runtime stress. Requires clinician-documented wound readiness and wound follow-up plan."
   }
 }

@@ -1,19 +1,19 @@
 {
   "id": "acute_otitis_media_uncomplicated",
   "label": "Uncomplicated acute otitis media without mastoiditis concern",
-  "status": "retired",
+  "status": "needs_review",
   "condition_family": "ear",
   "inclusion_criteria": [
     "Adult patient with clinician diagnosis or discharge impression of acute otitis media, otitis media, or middle ear infection.",
     "Clinician-entered treatment plan is present for pain control, antibiotics, delayed antibiotics, watchful waiting, or other medication instructions.",
-    "No mastoiditis, deep ear infection, eardrum perforation, tympanostomy tube complication, ear trauma, foreign body, otitis externa pathway, acute hearing loss, facial weakness, vertigo, severe systemic illness, or unstable vital signs documented.",
+    "No mastoiditis, deep ear infection, eardrum perforation, tympanostomy tube, ear trauma, foreign body, otitis externa pathway, acute hearing loss, facial weakness, vertigo, severe systemic illness, meningitis, venous sinus thrombosis concern, or unstable vital signs documented.",
     "No pediatric, recurrent/chronic, immunocompromised-host, or specialist-directed ENT pathway."
   ],
   "exclusion_criteria": [
-    "Mastoiditis, deep ear infection, skull base infection, or severe systemic illness concern.",
+    "Mastoiditis, deep ear infection, skull base infection, meningitis, venous sinus thrombosis, or severe systemic illness concern.",
     "Perforated eardrum, tympanostomy tube, ear trauma, ear foreign body, acute hearing loss, vertigo, facial weakness, or specialist-directed ENT plan.",
     "Otitis externa or ear canal infection pathway.",
-    "Immunocompromised host, frail elderly patient, recurrent or chronic ear infection, or pediatric pathway requiring individualized instructions."
+    "Immunocompromised host, recurrent or chronic ear infection, or pediatric pathway requiring individualized instructions."
   ],
   "must_not_miss": [
     "Mastoiditis.",
@@ -21,9 +21,11 @@
     "Ear foreign body.",
     "Sudden sensorineural hearing loss.",
     "Facial nerve palsy.",
+    "Meningitis.",
+    "Lateral or sigmoid sinus thrombosis.",
     "Sepsis or deep ear infection."
   ],
-  "default_follow_up": "Follow up on the schedule your clinician gave you, especially if symptoms are not improving.",
+  "default_follow_up": "Follow up with primary care, urgent care, or an ear clinician in 7 to 14 days, or sooner if symptoms are not improving, unless your clinician gave a different schedule.",
   "required_sections": [
     "diagnosis",
     "what_we_found",
@@ -38,6 +40,7 @@
     "acute_otitis_media_uncomplicated.home_care.home_care_1.v1",
     "acute_otitis_media_uncomplicated.home_care.home_care_2.v1",
     "acute_otitis_media_uncomplicated.home_care.home_care_3.v1",
+    "acute_otitis_media_uncomplicated.home_care.home_care_4.v1",
     "acute_otitis_media_uncomplicated.medications.medication_guidance_1.v1",
     "acute_otitis_media_uncomplicated.medications.medication_guidance_2.v1",
     "acute_otitis_media_uncomplicated.return_precautions.return_precaution_1.v1",
@@ -72,8 +75,9 @@
       "otitis_externa_or_ear_canal_pathway",
       "acute_hearing_loss",
       "facial_weakness_or_neurologic_ear_sign",
+      "meningitis_or_cns_infection_concern",
+      "lateral_sinus_thrombosis_concern",
       "immunocompromised",
-      "elderly_frail",
       "recurrent_or_chronic_ear_infection",
       "pediatric_pathway",
       "specialist_directed_ent_plan",
@@ -116,7 +120,8 @@
           "no mastoiditis concern",
           "no ear red flags documented",
           "no perforation tube trauma foreign body hearing loss facial weakness vertigo",
-          "no deep ear infection concern"
+          "no deep ear infection concern",
+          "no mastoiditis perforation tube trauma foreign body hearing loss facial weakness vertigo meningitis concern"
         ]
       }
     ],
@@ -128,13 +133,13 @@
       "middle ear infection diagnosed"
     ],
     "minimum_confidence": 0.86,
-    "mode": "retired_product_layer_fallback_only"
+    "mode": "draft_only_until_reviewed"
   },
   "version": 1,
   "review": {
-    "status": "retired",
+    "status": "needs_review",
     "reviewer": null,
     "last_reviewed": null,
-    "notes": "Phase 168 retired this draft to product-layer fallback because no explicit final clinician approval was given for adult-only AOM ontology mode. Keep broad ear pain and broad ear infection out of runtime terms."
+    "notes": "Phase 202 clinician review applied. Keep draft-only until final approval after revised runtime stress. Broad ear pain and broad ear infection remain out of runtime terms."
   }
 }

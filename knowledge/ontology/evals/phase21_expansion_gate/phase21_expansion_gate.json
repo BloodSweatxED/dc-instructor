@@ -2,10 +2,10 @@
   "phase": 21,
   "gate": "expansion_readiness",
   "reviewed_runtime_clean": true,
-  "phenotype_expansion_allowed": true,
+  "phenotype_expansion_allowed": false,
   "reviewed_source_gap_count": 0,
   "draft_source_gap_count": 0,
-  "active_draft_phenotype_count": 0,
+  "active_draft_phenotype_count": 4,
   "low_confidence": {
     "allowed": 8,
     "unexpected": [],
@@ -19,6 +19,31 @@
   },
   "reviewed_source_gaps": [],
   "draft_source_gaps": [],
-  "active_draft_phenotypes": [],
-  "decision": "phenotype expansion allowed"
+  "active_draft_phenotypes": [
+    {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "status": "needs_review",
+      "review_status": "needs_review",
+      "reason": "not clinician-reviewed"
+    },
+    {
+      "phenotype_id": "skin_avulsion_or_abrasion_simple",
+      "status": "needs_review",
+      "review_status": "needs_review",
+      "reason": "not clinician-reviewed"
+    },
+    {
+      "phenotype_id": "sprain_strain_non_ankle_xray_negative",
+      "status": "needs_review",
+      "review_status": "needs_review",
+      "reason": "not clinician-reviewed"
+    },
+    {
+      "phenotype_id": "suture_removal_or_wound_check_no_infection",
+      "status": "needs_review",
+      "review_status": "needs_review",
+      "reason": "not clinician-reviewed"
+    }
+  ],
+  "decision": "reviewed runtime may continue; phenotype expansion remains blocked"
 }

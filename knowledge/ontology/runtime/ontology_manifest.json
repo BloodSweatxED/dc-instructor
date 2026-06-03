@@ -143,8 +143,8 @@
     {
       "id": "acute_otitis_media_uncomplicated",
       "label": "Uncomplicated acute otitis media without mastoiditis concern",
-      "status": "retired",
-      "review_status": "retired",
+      "status": "needs_review",
+      "review_status": "needs_review",
       "version": 1,
       "condition_terms": [
         "acute otitis media",
@@ -161,8 +161,9 @@
         "otitis_externa_or_ear_canal_pathway",
         "acute_hearing_loss",
         "facial_weakness_or_neurologic_ear_sign",
+        "meningitis_or_cns_infection_concern",
+        "lateral_sinus_thrombosis_concern",
         "immunocompromised",
-        "elderly_frail",
         "recurrent_or_chronic_ear_infection",
         "pediatric_pathway",
         "specialist_directed_ent_plan",
@@ -205,7 +206,8 @@
             "no mastoiditis concern",
             "no ear red flags documented",
             "no perforation tube trauma foreign body hearing loss facial weakness vertigo",
-            "no deep ear infection concern"
+            "no deep ear infection concern",
+            "no mastoiditis perforation tube trauma foreign body hearing loss facial weakness vertigo meningitis concern"
           ]
         }
       ],
@@ -899,10 +901,177 @@
       }
     },
     {
+      "id": "skin_avulsion_or_abrasion_simple",
+      "label": "Simple skin avulsion, skin tear, or abrasion without repair need",
+      "status": "needs_review",
+      "review_status": "needs_review",
+      "version": 1,
+      "condition_terms": [
+        "simple abrasion no repair",
+        "simple skin abrasion",
+        "simple skin avulsion",
+        "simple skin avulsion, skin tear, or abrasion without repair need",
+        "simple skin tear",
+        "skin avulsion abrasion simple",
+        "skin avulsion or abrasion simple",
+        "skin tear no repair",
+        "wound care"
+      ],
+      "unsafe_modifiers": [
+        "laceration_repair_needed",
+        "burn_or_chemical_wound",
+        "high_pressure_injection_injury",
+        "crush_injury",
+        "open_fracture",
+        "joint_violation",
+        "hand_tendon_risk",
+        "neurovascular_compromise",
+        "retained_foreign_body",
+        "bite_wound",
+        "dirty_wound",
+        "wound_infection_concern",
+        "diabetic_foot",
+        "immunocompromised",
+        "pediatric_pathway",
+        "specialist_directed_wound_plan"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_simple_skin_wound",
+          "terms": [
+            "clinician diagnosis simple skin abrasion",
+            "clinician diagnosis simple skin avulsion",
+            "clinician diagnosis simple skin tear",
+            "discharge diagnosis simple abrasion",
+            "discharge diagnosis simple skin tear"
+          ]
+        },
+        {
+          "id": "wound_cleaned_and_dressed",
+          "terms": [
+            "wound cleaned and dressed",
+            "cleaned and dressed with wound care instructions",
+            "dressing plan documented",
+            "wound care instructions documented"
+          ]
+        },
+        {
+          "id": "structured_absence_of_simple_wound_red_flags",
+          "terms": [
+            "no repair needed",
+            "no wound repair needed",
+            "no foreign body deep structure infection concern",
+            "no retained foreign body deep structure injury infection concern"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "simple skin abrasion",
+        "simple skin avulsion",
+        "simple skin tear",
+        "skin avulsion abrasion simple"
+      ],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true,
+        "notes": "MedlinePlus supports cuts, punctures, skin breaks, wound healing, infection warning signs, and escalation for deep, dirty, bite, puncture, foot, or high-risk wounds. ED-specific decisions about repair need, tetanus, topical agents, and wound severity require clinician-entered context."
+      }
+    },
+    {
+      "id": "sprain_strain_non_ankle_xray_negative",
+      "label": "Non-ankle sprain or strain with negative x-ray",
+      "status": "needs_review",
+      "review_status": "needs_review",
+      "version": 1,
+      "condition_terms": [
+        "elbow sprain xray negative",
+        "foot sprain xray negative",
+        "knee sprain xray negative",
+        "musculoskeletal injury",
+        "non ankle sprain xray negative",
+        "non ankle strain xray negative",
+        "non-ankle sprain or strain with negative x-ray",
+        "shoulder sprain xray negative",
+        "sprain strain non ankle xray negative",
+        "wrist sprain xray negative"
+      ],
+      "unsafe_modifiers": [
+        "ankle_sprain_pathway",
+        "no_xray_performed",
+        "fracture_seen",
+        "dislocation",
+        "open_wound",
+        "open_fracture",
+        "high_energy_trauma",
+        "crush_injury",
+        "neurovascular_compromise",
+        "tendon_or_ligament_rupture_concern",
+        "scaphoid_tenderness_pattern",
+        "compartment_syndrome_concern",
+        "septic_joint_or_infection_concern",
+        "unable_to_bear_weight_lower_extremity",
+        "pediatric_growth_plate_pathway",
+        "elderly_osteoporotic_high_risk_msk",
+        "specialist_directed_orthopedic_plan"
+      ],
+      "required_context": [
+        {
+          "id": "non_ankle_site_documented",
+          "terms": [
+            "non ankle injury documented",
+            "not ankle sprain pathway",
+            "wrist sprain xray negative",
+            "knee sprain xray negative",
+            "shoulder sprain xray negative",
+            "elbow sprain xray negative",
+            "foot sprain xray negative"
+          ]
+        },
+        {
+          "id": "xray_performed_and_negative",
+          "terms": [
+            "xray performed and negative",
+            "x ray performed and negative",
+            "x-ray performed and negative",
+            "xray negative for fracture",
+            "x-ray negative for fracture"
+          ]
+        },
+        {
+          "id": "intact_neurovascular_exam",
+          "terms": [
+            "neurovascular exam intact",
+            "blood flow sensation movement intact",
+            "cms intact",
+            "distal pulses sensation movement intact"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "non ankle sprain xray negative",
+        "non ankle strain xray negative",
+        "sprain strain non ankle xray negative",
+        "wrist sprain xray negative",
+        "knee sprain xray negative",
+        "shoulder sprain xray negative"
+      ],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true,
+        "notes": "MedlinePlus supports sprain/strain framing, several-week recovery for bad sprains, elevation/protection concepts, and escalation for worsening pain, swelling, numbness, or inability to move. Ankle-specific sources support general sprain aftercare principles only. ED use requires documented non-ankle site, x-ray performed and negative, intact neurovascular exam, and strong site-specific blockers."
+      }
+    },
+    {
       "id": "suture_removal_or_wound_check_no_infection",
       "label": "Suture removal or wound check without infection concern",
-      "status": "retired",
-      "review_status": "retired",
+      "status": "needs_review",
+      "review_status": "needs_review",
       "version": 1,
       "condition_terms": [
         "staple removal no infection",
@@ -920,6 +1089,7 @@
         "retained_foreign_body",
         "hand_tendon_risk",
         "joint_violation",
+        "high_risk_wound_location",
         "open_fracture",
         "bite_wound",
         "dirty_wound",
@@ -941,11 +1111,22 @@
           ]
         },
         {
+          "id": "clinician_entered_wound_follow_up_plan",
+          "terms": [
+            "wound follow up plan documented",
+            "wound schedule documented",
+            "suture removal schedule documented",
+            "staple removal schedule documented",
+            "clinician entered wound follow up plan"
+          ]
+        },
+        {
           "id": "structured_absence_of_wound_red_flags",
           "terms": [
             "no wound infection concern",
             "no wound red flags documented",
-            "no dehiscence infection foreign body tendon nerve vascular concern"
+            "no dehiscence infection foreign body tendon nerve vascular concern",
+            "no infection dehiscence foreign body tendon nerve vascular high risk location concern"
           ]
         }
       ],
