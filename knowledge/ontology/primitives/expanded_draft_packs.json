@@ -7190,9 +7190,9 @@
     "primitive_type": "diagnosis_summary",
     "priority": "required",
     "text": {
-      "en_4": "Your clinician diagnosed an ear infection called acute otitis media.",
-      "en_6": "Your clinician diagnosed an ear infection called acute otitis media.",
-      "en_hl1": "Your clinician diagnosed an ear infection called acute otitis media."
+      "en_4": "Your clinician diagnosed a middle ear infection called acute otitis media.",
+      "en_6": "Your clinician diagnosed a middle ear infection called acute otitis media.",
+      "en_hl1": "Your clinician diagnosed a middle ear infection called acute otitis media."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -7205,13 +7205,13 @@
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
       "unsafe_without_modifier": false,
-      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, so runtime must require a clinician diagnosis and block mastoiditis, perforation, tube, otitis externa, trauma, foreign body, immunocompromise, and systemic illness concerns."
+      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, antibiotic selection, pediatric dosing, or follow-up timing, so runtime must require adult clinician diagnosis, clinician-entered treatment instructions, and structured absence of ear red flags."
     },
     "review": {
       "status": "needs_review",
       "reviewer": null,
       "last_reviewed": null,
-      "notes": "Phase 155 draft only. Acute otitis media is source-supported for patient education, but antibiotic choice, watchful waiting, pediatric dosing, and mastoiditis boundary require EM clinician review before promotion."
+      "notes": "Phase 161 clinician decision: revise and keep draft. Adult-only for now. Do not promote until clinician review approves antibiotic/watchful-waiting wording, follow-up timing, pediatric exclusion, perforation/tube boundary, recurrent disease boundary, and ENT-directed plan handling."
     }
   },
   {
@@ -7223,9 +7223,9 @@
     "primitive_type": "reassuring_ed_assessment",
     "priority": "required",
     "text": {
-      "en_4": "Your discharge plan did not document mastoiditis, eardrum rupture, ear canal infection, or another ear emergency today.",
-      "en_6": "Your discharge plan did not document mastoiditis, eardrum rupture, ear canal infection, or another ear emergency today.",
-      "en_hl1": "Your discharge plan did not document mastoiditis, eardrum rupture, ear canal infection, or another ear emergency today."
+      "en_4": "Your discharge plan did not document mastoiditis, eardrum rupture, ear tube complication, ear canal infection, or another ear emergency today.",
+      "en_6": "Your discharge plan did not document mastoiditis, eardrum rupture, ear tube complication, ear canal infection, or another ear emergency today.",
+      "en_hl1": "Your discharge plan did not document mastoiditis, eardrum rupture, ear tube complication, ear canal infection, or another ear emergency today."
     },
     "contraindications": [
       "mastoiditis_or_deep_ear_infection_concern",
@@ -7238,6 +7238,8 @@
       "immunocompromised",
       "elderly_frail",
       "recurrent_or_chronic_ear_infection",
+      "pediatric_pathway",
+      "specialist_directed_ent_plan",
       "unstable_vitals"
     ],
     "source_card_ids": [
@@ -7250,13 +7252,13 @@
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
       "unsafe_without_modifier": true,
-      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, so runtime must require a clinician diagnosis and block mastoiditis, perforation, tube, otitis externa, trauma, foreign body, immunocompromise, and systemic illness concerns."
+      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, antibiotic selection, pediatric dosing, or follow-up timing, so runtime must require adult clinician diagnosis, clinician-entered treatment instructions, and structured absence of ear red flags."
     },
     "review": {
       "status": "needs_review",
       "reviewer": null,
       "last_reviewed": null,
-      "notes": "Phase 155 draft only. Acute otitis media is source-supported for patient education, but antibiotic choice, watchful waiting, pediatric dosing, and mastoiditis boundary require EM clinician review before promotion."
+      "notes": "Phase 161 clinician decision: revise and keep draft. Adult-only for now. Do not promote until clinician review approves antibiotic/watchful-waiting wording, follow-up timing, pediatric exclusion, perforation/tube boundary, recurrent disease boundary, and ENT-directed plan handling."
     }
   },
   {
@@ -7283,13 +7285,13 @@
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
       "unsafe_without_modifier": false,
-      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, so runtime must require a clinician diagnosis and block mastoiditis, perforation, tube, otitis externa, trauma, foreign body, immunocompromise, and systemic illness concerns."
+      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, antibiotic selection, pediatric dosing, or follow-up timing, so runtime must require adult clinician diagnosis, clinician-entered treatment instructions, and structured absence of ear red flags."
     },
     "review": {
       "status": "needs_review",
       "reviewer": null,
       "last_reviewed": null,
-      "notes": "Phase 155 draft only. Acute otitis media is source-supported for patient education, but antibiotic choice, watchful waiting, pediatric dosing, and mastoiditis boundary require EM clinician review before promotion."
+      "notes": "Phase 161 clinician decision: revise and keep draft. Adult-only for now. Do not promote until clinician review approves antibiotic/watchful-waiting wording, follow-up timing, pediatric exclusion, perforation/tube boundary, recurrent disease boundary, and ENT-directed plan handling."
     }
   },
   {
@@ -7301,9 +7303,9 @@
     "primitive_type": "home_care_2",
     "priority": "high",
     "text": {
-      "en_4": "Keep water, cotton swabs, earbuds, and other objects out of the ear unless your clinician told you otherwise.",
-      "en_6": "Keep water, cotton swabs, earbuds, and other objects out of the ear unless your clinician told you otherwise.",
-      "en_hl1": "Keep water, cotton swabs, earbuds, and other objects out of the ear unless your clinician told you otherwise."
+      "en_4": "Keep cotton swabs, earbuds, and other objects out of the ear unless your clinician told you otherwise.",
+      "en_6": "Keep cotton swabs, earbuds, and other objects out of the ear unless your clinician told you otherwise.",
+      "en_hl1": "Keep cotton swabs, earbuds, and other objects out of the ear unless your clinician told you otherwise."
     },
     "contraindications": [],
     "source_card_ids": [
@@ -7316,13 +7318,13 @@
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
       "unsafe_without_modifier": false,
-      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, so runtime must require a clinician diagnosis and block mastoiditis, perforation, tube, otitis externa, trauma, foreign body, immunocompromise, and systemic illness concerns."
+      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, antibiotic selection, pediatric dosing, or follow-up timing, so runtime must require adult clinician diagnosis, clinician-entered treatment instructions, and structured absence of ear red flags."
     },
     "review": {
       "status": "needs_review",
       "reviewer": null,
       "last_reviewed": null,
-      "notes": "Phase 155 draft only. Acute otitis media is source-supported for patient education, but antibiotic choice, watchful waiting, pediatric dosing, and mastoiditis boundary require EM clinician review before promotion."
+      "notes": "Phase 161 clinician decision: revise and keep draft. Adult-only for now. Do not promote until clinician review approves antibiotic/watchful-waiting wording, follow-up timing, pediatric exclusion, perforation/tube boundary, recurrent disease boundary, and ENT-directed plan handling."
     }
   },
   {
@@ -7349,13 +7351,13 @@
       "clinician_judgment_only": false,
       "restricted_source_risk": false,
       "unsafe_without_modifier": false,
-      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, so runtime must require a clinician diagnosis and block mastoiditis, perforation, tube, otitis externa, trauma, foreign body, immunocompromise, and systemic illness concerns."
+      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, antibiotic selection, pediatric dosing, or follow-up timing, so runtime must require adult clinician diagnosis, clinician-entered treatment instructions, and structured absence of ear red flags."
     },
     "review": {
       "status": "needs_review",
       "reviewer": null,
       "last_reviewed": null,
-      "notes": "Phase 155 draft only. Acute otitis media is source-supported for patient education, but antibiotic choice, watchful waiting, pediatric dosing, and mastoiditis boundary require EM clinician review before promotion."
+      "notes": "Phase 161 clinician decision: revise and keep draft. Adult-only for now. Do not promote until clinician review approves antibiotic/watchful-waiting wording, follow-up timing, pediatric exclusion, perforation/tube boundary, recurrent disease boundary, and ENT-directed plan handling."
     }
   },
   {
@@ -7367,9 +7369,9 @@
     "primitive_type": "medication_guidance_1",
     "priority": "high",
     "text": {
-      "en_4": "Use only the medicines your clinician prescribed or said are safe for you.",
-      "en_6": "Use only the medicines your clinician prescribed or said are safe for you.",
-      "en_hl1": "Use only the medicines your clinician prescribed or said are safe for you."
+      "en_4": "Use only the pain medicine, ear drops, or antibiotics your clinician prescribed or said are safe for you.",
+      "en_6": "Use only the pain medicine, ear drops, or antibiotics your clinician prescribed or said are safe for you.",
+      "en_hl1": "Use only the pain medicine, ear drops, or antibiotics your clinician prescribed or said are safe for you."
     },
     "contraindications": [
       "mastoiditis_or_deep_ear_infection_concern",
@@ -7382,6 +7384,8 @@
       "immunocompromised",
       "elderly_frail",
       "recurrent_or_chronic_ear_infection",
+      "pediatric_pathway",
+      "specialist_directed_ent_plan",
       "unstable_vitals"
     ],
     "source_card_ids": [
@@ -7394,13 +7398,13 @@
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
       "unsafe_without_modifier": true,
-      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, so runtime must require a clinician diagnosis and block mastoiditis, perforation, tube, otitis externa, trauma, foreign body, immunocompromise, and systemic illness concerns."
+      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, antibiotic selection, pediatric dosing, or follow-up timing, so runtime must require adult clinician diagnosis, clinician-entered treatment instructions, and structured absence of ear red flags."
     },
     "review": {
       "status": "needs_review",
       "reviewer": null,
       "last_reviewed": null,
-      "notes": "Phase 155 draft only. Acute otitis media is source-supported for patient education, but antibiotic choice, watchful waiting, pediatric dosing, and mastoiditis boundary require EM clinician review before promotion."
+      "notes": "Phase 161 clinician decision: revise and keep draft. Adult-only for now. Do not promote until clinician review approves antibiotic/watchful-waiting wording, follow-up timing, pediatric exclusion, perforation/tube boundary, recurrent disease boundary, and ENT-directed plan handling."
     }
   },
   {
@@ -7412,9 +7416,9 @@
     "primitive_type": "medication_guidance_2",
     "priority": "high",
     "text": {
-      "en_4": "If antibiotics were prescribed, take them exactly as directed and finish the course unless your clinician tells you to stop.",
-      "en_6": "If antibiotics were prescribed, take them exactly as directed and finish the course unless your clinician tells you to stop.",
-      "en_hl1": "If antibiotics were prescribed, take them exactly as directed and finish the course unless your clinician tells you to stop."
+      "en_4": "If your clinician gave you a delayed-antibiotic or watchful-waiting plan, follow those exact instructions instead of starting antibiotics on your own.",
+      "en_6": "If your clinician gave you a delayed-antibiotic or watchful-waiting plan, follow those exact instructions instead of starting antibiotics on your own.",
+      "en_hl1": "If your clinician gave you a delayed-antibiotic or watchful-waiting plan, follow those exact instructions instead of starting antibiotics on your own."
     },
     "contraindications": [
       "mastoiditis_or_deep_ear_infection_concern",
@@ -7427,6 +7431,8 @@
       "immunocompromised",
       "elderly_frail",
       "recurrent_or_chronic_ear_infection",
+      "pediatric_pathway",
+      "specialist_directed_ent_plan",
       "unstable_vitals"
     ],
     "source_card_ids": [
@@ -7439,13 +7445,13 @@
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
       "unsafe_without_modifier": true,
-      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, so runtime must require a clinician diagnosis and block mastoiditis, perforation, tube, otitis externa, trauma, foreign body, immunocompromise, and systemic illness concerns."
+      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, antibiotic selection, pediatric dosing, or follow-up timing, so runtime must require adult clinician diagnosis, clinician-entered treatment instructions, and structured absence of ear red flags."
     },
     "review": {
       "status": "needs_review",
       "reviewer": null,
       "last_reviewed": null,
-      "notes": "Phase 155 draft only. Acute otitis media is source-supported for patient education, but antibiotic choice, watchful waiting, pediatric dosing, and mastoiditis boundary require EM clinician review before promotion."
+      "notes": "Phase 161 clinician decision: revise and keep draft. Adult-only for now. Do not promote until clinician review approves antibiotic/watchful-waiting wording, follow-up timing, pediatric exclusion, perforation/tube boundary, recurrent disease boundary, and ENT-directed plan handling."
     }
   },
   {
@@ -7472,13 +7478,13 @@
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
       "unsafe_without_modifier": false,
-      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, so runtime must require a clinician diagnosis and block mastoiditis, perforation, tube, otitis externa, trauma, foreign body, immunocompromise, and systemic illness concerns."
+      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, antibiotic selection, pediatric dosing, or follow-up timing, so runtime must require adult clinician diagnosis, clinician-entered treatment instructions, and structured absence of ear red flags."
     },
     "review": {
       "status": "needs_review",
       "reviewer": null,
       "last_reviewed": null,
-      "notes": "Phase 155 draft only. Acute otitis media is source-supported for patient education, but antibiotic choice, watchful waiting, pediatric dosing, and mastoiditis boundary require EM clinician review before promotion."
+      "notes": "Phase 161 clinician decision: revise and keep draft. Adult-only for now. Do not promote until clinician review approves antibiotic/watchful-waiting wording, follow-up timing, pediatric exclusion, perforation/tube boundary, recurrent disease boundary, and ENT-directed plan handling."
     }
   },
   {
@@ -7505,13 +7511,13 @@
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
       "unsafe_without_modifier": false,
-      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, so runtime must require a clinician diagnosis and block mastoiditis, perforation, tube, otitis externa, trauma, foreign body, immunocompromise, and systemic illness concerns."
+      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, antibiotic selection, pediatric dosing, or follow-up timing, so runtime must require adult clinician diagnosis, clinician-entered treatment instructions, and structured absence of ear red flags."
     },
     "review": {
       "status": "needs_review",
       "reviewer": null,
       "last_reviewed": null,
-      "notes": "Phase 155 draft only. Acute otitis media is source-supported for patient education, but antibiotic choice, watchful waiting, pediatric dosing, and mastoiditis boundary require EM clinician review before promotion."
+      "notes": "Phase 161 clinician decision: revise and keep draft. Adult-only for now. Do not promote until clinician review approves antibiotic/watchful-waiting wording, follow-up timing, pediatric exclusion, perforation/tube boundary, recurrent disease boundary, and ENT-directed plan handling."
     }
   },
   {
@@ -7538,13 +7544,13 @@
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
       "unsafe_without_modifier": false,
-      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, so runtime must require a clinician diagnosis and block mastoiditis, perforation, tube, otitis externa, trauma, foreign body, immunocompromise, and systemic illness concerns."
+      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, antibiotic selection, pediatric dosing, or follow-up timing, so runtime must require adult clinician diagnosis, clinician-entered treatment instructions, and structured absence of ear red flags."
     },
     "review": {
       "status": "needs_review",
       "reviewer": null,
       "last_reviewed": null,
-      "notes": "Phase 155 draft only. Acute otitis media is source-supported for patient education, but antibiotic choice, watchful waiting, pediatric dosing, and mastoiditis boundary require EM clinician review before promotion."
+      "notes": "Phase 161 clinician decision: revise and keep draft. Adult-only for now. Do not promote until clinician review approves antibiotic/watchful-waiting wording, follow-up timing, pediatric exclusion, perforation/tube boundary, recurrent disease boundary, and ENT-directed plan handling."
     }
   },
   {
@@ -7556,9 +7562,9 @@
     "primitive_type": "default_follow_up",
     "priority": "required",
     "text": {
-      "en_4": "Follow up with primary care, urgent care, or an ear clinician as instructed, especially if symptoms are not improving.",
-      "en_6": "Follow up with primary care, urgent care, or an ear clinician as instructed, especially if symptoms are not improving.",
-      "en_hl1": "Follow up with primary care, urgent care, or an ear clinician as instructed, especially if symptoms are not improving."
+      "en_4": "Follow up on the schedule your clinician gave you, especially if symptoms are not improving.",
+      "en_6": "Follow up on the schedule your clinician gave you, especially if symptoms are not improving.",
+      "en_hl1": "Follow up on the schedule your clinician gave you, especially if symptoms are not improving."
     },
     "contraindications": [
       "mastoiditis_or_deep_ear_infection_concern",
@@ -7571,6 +7577,8 @@
       "immunocompromised",
       "elderly_frail",
       "recurrent_or_chronic_ear_infection",
+      "pediatric_pathway",
+      "specialist_directed_ent_plan",
       "unstable_vitals"
     ],
     "source_card_ids": [
@@ -7583,13 +7591,13 @@
       "clinician_judgment_only": true,
       "restricted_source_risk": false,
       "unsafe_without_modifier": true,
-      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, so runtime must require a clinician diagnosis and block mastoiditis, perforation, tube, otitis externa, trauma, foreign body, immunocompromise, and systemic illness concerns."
+      "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, antibiotic selection, pediatric dosing, or follow-up timing, so runtime must require adult clinician diagnosis, clinician-entered treatment instructions, and structured absence of ear red flags."
     },
     "review": {
       "status": "needs_review",
       "reviewer": null,
       "last_reviewed": null,
-      "notes": "Phase 155 draft only. Acute otitis media is source-supported for patient education, but antibiotic choice, watchful waiting, pediatric dosing, and mastoiditis boundary require EM clinician review before promotion."
+      "notes": "Phase 161 clinician decision: revise and keep draft. Adult-only for now. Do not promote until clinician review approves antibiotic/watchful-waiting wording, follow-up timing, pediatric exclusion, perforation/tube boundary, recurrent disease boundary, and ENT-directed plan handling."
     }
   },
   {

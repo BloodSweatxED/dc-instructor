@@ -145,6 +145,7 @@ EXCLUSION_RULES = {
     "packing_required": ["packing", "packed wound", "wick"],
     "peritonsillar_abscess_concern": ["peritonsillar abscess", "uvula deviation", "hot potato voice", "unilateral tonsil"],
     "periorbital_or_orbital_cellulitis_concern": ["periorbital cellulitis", "orbital cellulitis", "eyelid swelling", "pain with eye movement", "proptosis"],
+    "pediatric_pathway": ["child", "pediatric", "infant", "toddler", "school age", "age 12", "age 10", "age 8"],
     "photophobia": ["photophobia", "light sensitivity"],
     "peritoneal_signs": ["rebound", "guarding", "peritonitis"],
     "poor_follow_up": ["homeless", "unable to follow up", "poor follow up", "no phone"],
@@ -156,6 +157,7 @@ EXCLUSION_RULES = {
     "rapid_progression": ["rapidly spreading", "rapid progression"],
     "severe_eye_pain": ["severe eye pain", "significant eye pain", "deep eye pain"],
     "sepsis": ["sepsis", "septic", "shock"],
+    "specialist_directed_ent_plan": ["ent consulted", "ent directed plan", "otolaryngology follow up", "specialist directed ent plan"],
     "severe_dehydration": ["severe dehydration", "syncope", "very dry", "shock"],
     "severe_bacterial_sinusitis_features": [
         "fever 102",

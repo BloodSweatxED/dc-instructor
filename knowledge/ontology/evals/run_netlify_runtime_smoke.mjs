@@ -26,6 +26,7 @@ const cases = JSON.parse(
   .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase151_broad_chief_complaint_stress_runtime_cases.json'), 'utf8')))
   .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase156_acute_otitis_media_runtime_cases.json'), 'utf8')))
   .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase157_acute_otitis_media_stress_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase163_acute_otitis_media_second_stress_runtime_cases.json'), 'utf8')))
   .filter(
     (item) =>
       item.id.startsWith('phase14_netlify_smoke_') ||
@@ -51,7 +52,8 @@ const cases = JSON.parse(
       item.id.startsWith('phase77_') ||
       item.id.startsWith('phase151_') ||
       item.id.startsWith('phase156_') ||
-      item.id.startsWith('phase157_'),
+      item.id.startsWith('phase157_') ||
+      item.id.startsWith('phase163_'),
   );
 
 for (const item of cases) {

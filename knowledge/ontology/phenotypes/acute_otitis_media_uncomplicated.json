@@ -4,15 +4,16 @@
   "status": "needs_review",
   "condition_family": "ear",
   "inclusion_criteria": [
-    "Clinician diagnosis or discharge impression is acute otitis media, otitis media, or middle ear infection.",
-    "No mastoiditis, deep ear infection, eardrum perforation, tympanostomy tube complication, ear trauma, foreign body, otitis externa pathway, acute hearing loss, facial weakness, or severe systemic illness documented.",
-    "No specialist-directed ENT plan or individualized immunocompromised-host pathway."
+    "Adult patient with clinician diagnosis or discharge impression of acute otitis media, otitis media, or middle ear infection.",
+    "Clinician-entered treatment plan is present for pain control, antibiotics, delayed antibiotics, watchful waiting, or other medication instructions.",
+    "No mastoiditis, deep ear infection, eardrum perforation, tympanostomy tube complication, ear trauma, foreign body, otitis externa pathway, acute hearing loss, facial weakness, vertigo, severe systemic illness, or unstable vital signs documented.",
+    "No pediatric, recurrent/chronic, immunocompromised-host, or specialist-directed ENT pathway."
   ],
   "exclusion_criteria": [
     "Mastoiditis, deep ear infection, skull base infection, or severe systemic illness concern.",
     "Perforated eardrum, tympanostomy tube, ear trauma, ear foreign body, acute hearing loss, vertigo, facial weakness, or specialist-directed ENT plan.",
     "Otitis externa or ear canal infection pathway.",
-    "Immunocompromised host, frail elderly patient, recurrent or chronic ear infection, or pediatric dosing pathway requiring individualized instructions."
+    "Immunocompromised host, frail elderly patient, recurrent or chronic ear infection, or pediatric pathway requiring individualized instructions."
   ],
   "must_not_miss": [
     "Mastoiditis.",
@@ -22,7 +23,7 @@
     "Facial nerve palsy.",
     "Sepsis or deep ear infection."
   ],
-  "default_follow_up": "Follow up with primary care, urgent care, or an ear clinician as instructed, especially if symptoms are not improving.",
+  "default_follow_up": "Follow up on the schedule your clinician gave you, especially if symptoms are not improving.",
   "required_sections": [
     "diagnosis",
     "what_we_found",
@@ -54,7 +55,7 @@
     "clinician_judgment_only": true,
     "restricted_source_risk": false,
     "unsafe_without_modifier": true,
-    "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, so runtime must require a clinician diagnosis and block mastoiditis, perforation, tube, otitis externa, trauma, foreign body, immunocompromise, and systemic illness concerns."
+    "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, antibiotic selection, pediatric dosing, or follow-up timing, so runtime must require adult clinician diagnosis, clinician-entered treatment instructions, and structured absence of ear red flags."
   },
   "runtime": {
     "condition_terms": [
@@ -74,9 +75,20 @@
       "immunocompromised",
       "elderly_frail",
       "recurrent_or_chronic_ear_infection",
+      "pediatric_pathway",
+      "specialist_directed_ent_plan",
       "unstable_vitals"
     ],
     "required_context": [
+      {
+        "id": "adult_patient_context",
+        "terms": [
+          "adult discharge diagnosis acute otitis media",
+          "adult patient with acute otitis media",
+          "adult diagnosed with acute otitis media",
+          "adult middle ear infection diagnosed"
+        ]
+      },
       {
         "id": "clinician_diagnosis_acute_otitis_media",
         "terms": [
@@ -88,17 +100,29 @@
         ]
       },
       {
+        "id": "clinician_entered_treatment_plan",
+        "terms": [
+          "clinician entered treatment plan",
+          "clinician entered medication instructions",
+          "pain control plan documented",
+          "antibiotic plan documented",
+          "delayed antibiotic plan documented",
+          "watchful waiting plan documented"
+        ]
+      },
+      {
         "id": "structured_absence_of_ear_red_flags",
         "terms": [
           "no mastoiditis concern",
           "no ear red flags documented",
-          "no perforation tube trauma foreign body hearing loss facial weakness",
+          "no perforation tube trauma foreign body hearing loss facial weakness vertigo",
           "no deep ear infection concern"
         ]
       }
     ],
     "high_confidence_terms": [
       "acute otitis media uncomplicated",
+      "adult discharge diagnosis acute otitis media",
       "clinician diagnosis acute otitis media",
       "discharge diagnosis acute otitis media",
       "middle ear infection diagnosed"
@@ -111,6 +135,6 @@
     "status": "needs_review",
     "reviewer": null,
     "last_reviewed": null,
-    "notes": "Phase 155 draft only. Acute otitis media is source-supported for patient education, but antibiotic choice, watchful waiting, pediatric dosing, and mastoiditis boundary require EM clinician review before promotion."
+    "notes": "Phase 161 clinician decision: revise and keep draft. Adult-only for now. Do not promote until clinician review approves antibiotic/watchful-waiting wording, follow-up timing, pediatric exclusion, perforation/tube boundary, recurrent disease boundary, and ENT-directed plan handling."
   }
 }

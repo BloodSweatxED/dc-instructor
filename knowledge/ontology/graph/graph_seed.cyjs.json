@@ -12357,9 +12357,9 @@
     },
     {
       "data": {
-        "id": "exclusion:immunocompromised_host_frail_elderly_patient_recurrent_or_chronic_ear_infection_or_pediatric_dos",
+        "id": "exclusion:immunocompromised_host_frail_elderly_patient_recurrent_or_chronic_ear_infection_or_pediatric_pat",
         "type": "exclusion",
-        "label": "Immunocompromised host, frail elderly patient, recurrent or chronic ear infection, or pediatric dosing pathway requiring individualized instructions."
+        "label": "Immunocompromised host, frail elderly patient, recurrent or chronic ear infection, or pediatric pathway requiring individualized instructions."
       }
     },
     {
@@ -39315,7 +39315,7 @@
         "id": "edge:2080",
         "source": "phenotype:acute_otitis_media_uncomplicated",
         "type": "has_exclusion",
-        "target": "exclusion:immunocompromised_host_frail_elderly_patient_recurrent_or_chronic_ear_infection_or_pediatric_dos"
+        "target": "exclusion:immunocompromised_host_frail_elderly_patient_recurrent_or_chronic_ear_infection_or_pediatric_pat"
       }
     },
     {

@@ -1249,7 +1249,9 @@
       "confidence": 0.62,
       "exclusions": [],
       "missing_required_context": [
-        "clinician_diagnosis_acute_otitis_media"
+        "adult_patient_context",
+        "clinician_diagnosis_acute_otitis_media",
+        "clinician_entered_treatment_plan"
       ],
       "modifiers": [
         "acute otitis media"
@@ -1265,6 +1267,7 @@
       "confidence": 0.93,
       "exclusions": [],
       "missing_required_context": [
+        "clinician_entered_treatment_plan",
         "structured_absence_of_ear_red_flags"
       ],
       "modifiers": [
@@ -1306,7 +1309,9 @@
       "exclusions": [
         "mastoiditis_or_deep_ear_infection_concern"
       ],
-      "missing_required_context": [],
+      "missing_required_context": [
+        "clinician_entered_treatment_plan"
+      ],
       "modifiers": [
         "acute otitis media"
       ],
@@ -1322,7 +1327,9 @@
       "exclusions": [
         "tympanic_membrane_perforation_or_tube"
       ],
-      "missing_required_context": [],
+      "missing_required_context": [
+        "clinician_entered_treatment_plan"
+      ],
       "modifiers": [
         "acute otitis media"
       ],
@@ -1338,7 +1345,9 @@
       "exclusions": [
         "otitis_externa_or_ear_canal_pathway"
       ],
-      "missing_required_context": [],
+      "missing_required_context": [
+        "clinician_entered_treatment_plan"
+      ],
       "modifiers": [
         "acute otitis media"
       ],
@@ -1354,7 +1363,9 @@
       "exclusions": [
         "ear_trauma_or_foreign_body"
       ],
-      "missing_required_context": [],
+      "missing_required_context": [
+        "clinician_entered_treatment_plan"
+      ],
       "modifiers": [
         "acute otitis media"
       ],
@@ -1370,7 +1381,9 @@
       "exclusions": [
         "acute_hearing_loss"
       ],
-      "missing_required_context": [],
+      "missing_required_context": [
+        "clinician_entered_treatment_plan"
+      ],
       "modifiers": [
         "acute otitis media"
       ],
@@ -1386,7 +1399,9 @@
       "exclusions": [
         "facial_weakness_or_neurologic_ear_sign"
       ],
-      "missing_required_context": [],
+      "missing_required_context": [
+        "clinician_entered_treatment_plan"
+      ],
       "modifiers": [
         "acute otitis media"
       ],
@@ -1402,7 +1417,9 @@
       "exclusions": [
         "immunocompromised"
       ],
-      "missing_required_context": [],
+      "missing_required_context": [
+        "clinician_entered_treatment_plan"
+      ],
       "modifiers": [
         "acute otitis media"
       ],
@@ -1418,9 +1435,128 @@
       "exclusions": [
         "recurrent_or_chronic_ear_infection"
       ],
-      "missing_required_context": [],
+      "missing_required_context": [
+        "clinician_entered_treatment_plan"
+      ],
       "modifiers": [
         "acute otitis media"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase163_aom_watchful_waiting_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media",
+        "acute otitis media uncomplicated"
+      ],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "case_id": "phase163_aom_delayed_antibiotic_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media",
+        "acute otitis media uncomplicated"
+      ],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "case_id": "phase163_aom_missing_treatment_plan_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_entered_treatment_plan"
+      ],
+      "modifiers": [
+        "acute otitis media",
+        "acute otitis media uncomplicated"
+      ],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase163_aom_pediatric_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "pediatric_pathway"
+      ],
+      "missing_required_context": [
+        "adult_patient_context"
+      ],
+      "modifiers": [
+        "acute otitis media",
+        "acute otitis media uncomplicated"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase163_aom_ent_directed_plan_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "specialist_directed_ent_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media",
+        "acute otitis media uncomplicated"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase163_aom_tympanostomy_tube_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "tympanic_membrane_perforation_or_tube"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media",
+        "acute otitis media uncomplicated"
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase163_aom_unstable_vitals_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "unstable_vitals"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media",
+        "acute otitis media uncomplicated"
       ],
       "fallback_reason": "unsafe_modifier_present"
     }
