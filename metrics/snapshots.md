@@ -1,5 +1,166 @@
 # DC Instructor — Usage Snapshots
 
+## 2026-06-07
+
+> **ERROR: All Supabase queries failed — this is the 10th consecutive failed snapshot.**
+>
+> Root causes (unchanged from prior runs):
+> - `SUPABASE_SERVICE_ROLE_KEY` environment variable is not set in this execution environment.
+> - Outbound DNS to `noloieuagfigaqahspfi.supabase.co` fails (curl exit code 6: "Could not resolve host"); general internet access is confirmed working, so the subdomain is likely still unreachable because the Supabase free-tier project remains paused.
+>
+> **⚠️ NOTE: The 30-day trial ended on 2026-06-02 (5 days ago). No usage data was successfully collected during the entire trial period due to these persistent infrastructure issues.**
+>
+> To enable future snapshots (both must be resolved):
+> 1. **Unpause the Supabase project** at [supabase.com/dashboard](https://supabase.com/dashboard) — free-tier projects auto-pause after ~1 week of inactivity.
+> 2. **Add `SUPABASE_SERVICE_ROLE_KEY`** as an environment variable in the Claude Code on the web session/environment configuration.
+> 3. **Update the network policy** for this session to permit outbound HTTPS to `*.supabase.co`.
+>
+> See [Claude Code on the web docs](https://code.claude.com/docs/en/claude-code-on-the-web) for environment variable and network policy configuration.
+
+- **Total generations:** _unavailable (Supabase unreachable + API key missing)_
+- **Last 3 days:** _unavailable (Supabase unreachable + API key missing)_
+- **Days remaining in trial:** -5 (trial ended 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (Supabase unreachable + API key missing)_
+
+**Languages:** _unavailable (Supabase unreachable + API key missing)_
+
+**Reading levels:** _unavailable (Supabase unreachable + API key missing)_
+
+**Ratings:** _unavailable (Supabase unreachable + API key missing)_
+
+---
+
+## 2026-06-04
+
+> **ERROR: All Supabase queries failed — this is the 9th consecutive failed snapshot.**
+>
+> Root causes (unchanged from prior runs):
+> - `SUPABASE_SERVICE_ROLE_KEY` environment variable is not set in this execution environment.
+> - Outbound DNS/network to `supabase.co` is blocked by this environment's network policy (curl exit code 6: "Could not resolve host").
+>
+> **⚠️ NOTE: The 30-day trial ended on 2026-06-02 (2 days ago). No usage data was successfully collected during the entire trial period due to these persistent infrastructure issues.**
+>
+> To enable future snapshots (both must be resolved):
+> 1. **Unpause the Supabase project** at [supabase.com/dashboard](https://supabase.com/dashboard) if it is paused (free-tier projects auto-pause after ~1 week of inactivity).
+> 2. **Add `SUPABASE_SERVICE_ROLE_KEY`** as an environment variable in the Claude Code on the web session/environment configuration.
+> 3. **Update the network policy** for this session to permit outbound HTTPS to `*.supabase.co`.
+>
+> See [Claude Code on the web docs](https://code.claude.com/docs/en/claude-code-on-the-web) for environment variable and network policy configuration.
+
+- **Total generations:** _unavailable (Supabase unreachable + API key missing)_
+- **Last 3 days:** _unavailable (Supabase unreachable + API key missing)_
+- **Days remaining in trial:** -2 (trial ended 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (Supabase unreachable + API key missing)_
+
+**Languages:** _unavailable (Supabase unreachable + API key missing)_
+
+**Reading levels:** _unavailable (Supabase unreachable + API key missing)_
+
+**Ratings:** _unavailable (Supabase unreachable + API key missing)_
+
+---
+
+## 2026-06-01
+
+> **ERROR: All Supabase queries failed — this is the 8th consecutive failed snapshot.**
+>
+> Root causes (unchanged from prior runs):
+> - `SUPABASE_SERVICE_ROLE_KEY` environment variable is not set in this execution environment.
+> - Outbound DNS/network to `supabase.co` is blocked by this environment's network policy (curl exit code 6: "Could not resolve host").
+>
+> **⚠️ CRITICAL: Trial ends TOMORROW (2026-06-02). No usage data has been collected for the entire trial period. This is the final snapshot before the trial expires.**
+>
+> To fix (both must be resolved):
+> 1. **Unpause the Supabase project** at [supabase.com/dashboard](https://supabase.com/dashboard) if it is paused (free-tier projects auto-pause after ~1 week of inactivity).
+> 2. **Add `SUPABASE_SERVICE_ROLE_KEY`** as an environment variable in the Claude Code on the web session/environment configuration.
+> 3. **Update the network policy** for this session to permit outbound HTTPS to `*.supabase.co`.
+>
+> See [Claude Code on the web docs](https://code.claude.com/docs/en/claude-code-on-the-web) for environment variable and network policy configuration.
+
+- **Total generations:** _unavailable (Supabase unreachable + API key missing)_
+- **Last 3 days:** _unavailable (Supabase unreachable + API key missing)_
+- **Days remaining in trial:** 1 (ends 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (Supabase unreachable + API key missing)_
+
+**Languages:** _unavailable (Supabase unreachable + API key missing)_
+
+**Reading levels:** _unavailable (Supabase unreachable + API key missing)_
+
+**Ratings:** _unavailable (Supabase unreachable + API key missing)_
+
+---
+
+## 2026-05-31
+
+> **ERROR: All Supabase queries failed — this is the 7th consecutive failed snapshot.**
+>
+> Root causes (unchanged from prior runs):
+> - `SUPABASE_SERVICE_ROLE_KEY` environment variable is not set in this execution environment.
+> - Outbound DNS/network to `supabase.co` is blocked by this environment's network policy (curl exit code 6: "Could not resolve host").
+>
+> **⚠️ CRITICAL: Trial ends in 2 days (2026-06-02). No usage data has been collected for the entire trial period.**
+>
+> To fix (both must be resolved):
+> 1. **Unpause the Supabase project** at [supabase.com/dashboard](https://supabase.com/dashboard) if it is paused (free-tier projects auto-pause after ~1 week of inactivity).
+> 2. **Add `SUPABASE_SERVICE_ROLE_KEY`** as an environment variable in the Claude Code on the web session/environment configuration.
+> 3. **Update the network policy** for this session to permit outbound HTTPS to `*.supabase.co`.
+>
+> See [Claude Code on the web docs](https://code.claude.com/docs/en/claude-code-on-the-web) for environment variable and network policy configuration.
+
+- **Total generations:** _unavailable (Supabase unreachable + API key missing)_
+- **Last 3 days:** _unavailable (Supabase unreachable + API key missing)_
+- **Days remaining in trial:** 2 (ends 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (Supabase unreachable + API key missing)_
+
+**Languages:** _unavailable (Supabase unreachable + API key missing)_
+
+**Reading levels:** _unavailable (Supabase unreachable + API key missing)_
+
+**Ratings:** _unavailable (Supabase unreachable + API key missing)_
+
+---
+
+## 2026-05-28
+
+> **ERROR: All Supabase queries failed — this is the 6th consecutive failed snapshot.**
+>
+> Root causes (unchanged from prior runs):
+> - `SUPABASE_SERVICE_ROLE_KEY` environment variable is not set in this execution environment.
+> - Outbound DNS/network to `supabase.co` is blocked by this environment's network policy (curl exit code 6: "Could not resolve host").
+> - Additionally, per the 2026-05-25 snapshot, the Supabase free-tier project may be paused due to inactivity.
+>
+> **⚠️ URGENT: Trial ends in 5 days (2026-06-02). No usage data has been collected for the entire trial.**
+>
+> To fix:
+> 1. **Unpause the Supabase project** at [supabase.com/dashboard](https://supabase.com/dashboard) if it is paused.
+> 2. **Add `SUPABASE_SERVICE_ROLE_KEY`** as an environment variable in the Claude Code on the web session/environment configuration.
+> 3. **Update the network policy** for this session to permit outbound HTTPS to `*.supabase.co`.
+>
+> See [Claude Code on the web docs](https://code.claude.com/docs/en/claude-code-on-the-web) for environment variable and network policy configuration.
+
+- **Total generations:** _unavailable (Supabase unreachable + API key missing)_
+- **Last 3 days:** _unavailable (Supabase unreachable + API key missing)_
+- **Days remaining in trial:** 5 (ends 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (Supabase unreachable + API key missing)_
+
+**Languages:** _unavailable (Supabase unreachable + API key missing)_
+
+**Reading levels:** _unavailable (Supabase unreachable + API key missing)_
+
+**Ratings:** _unavailable (Supabase unreachable + API key missing)_
+
+---
+
 ## 2026-05-25
 
 > **ERROR: Supabase project unreachable — likely paused (free tier).**
