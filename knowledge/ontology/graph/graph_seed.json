@@ -1,7 +1,7 @@
 {
   "generated_at": "deterministic_from_current_ontology_and_generator_batches",
-  "node_count": 2297,
-  "edge_count": 3684,
+  "node_count": 2363,
+  "edge_count": 3824,
   "nodes": [
     {
       "id": "candidate_primitive:abdominal_pain_nonspecific_reassuring_workup.diagnosis.1",
@@ -9960,6 +9960,16 @@
       "label": "Anticoagulation or bleeding disorder."
     },
     {
+      "id": "exclusion:antiviral_prescribed_or_clearly_indicated_because_medication_specific_counseling_must_be_clinici",
+      "type": "exclusion",
+      "label": "Antiviral prescribed or clearly indicated, because medication-specific counseling must be clinician-entered."
+    },
+    {
+      "id": "exclusion:any_end_organ_symptom_such_as_chest_pain_shortness_of_breath_neurologic_symptoms_severe_headache",
+      "type": "exclusion",
+      "label": "Any end-organ symptom such as chest pain, shortness of breath, neurologic symptoms, severe headache, vision change, confusion, decreased urination, hematuria, or tearing chest or back pain."
+    },
+    {
       "id": "exclusion:biphasic_reaction_concern_needing_observation",
       "type": "exclusion",
       "label": "Biphasic reaction concern needing observation."
@@ -9968,6 +9978,11 @@
       "id": "exclusion:bite_wounds_requiring_special_counseling",
       "type": "exclusion",
       "label": "Bite wounds requiring special counseling."
+    },
+    {
+      "id": "exclusion:blood_pressure_at_hypertensive_crisis_threshold_without_individualized_plan",
+      "type": "exclusion",
+      "label": "Blood pressure at hypertensive crisis threshold without individualized plan."
     },
     {
       "id": "exclusion:bloody_stool_black_stool_or_significant_gi_bleeding",
@@ -10080,6 +10095,11 @@
       "label": "Fever with headache, neck stiffness, meningitis/encephalitis concern, pregnancy, immunocompromise, head trauma within 7 days, age over 50 with new headache pattern, or unstable vital signs."
     },
     {
+      "id": "exclusion:heavy_bleeding_anticoagulation_with_bleeding_syncope_unstable_vital_signs_or_anemia_concern",
+      "type": "exclusion",
+      "label": "Heavy bleeding, anticoagulation with bleeding, syncope, unstable vital signs, or anemia concern."
+    },
+    {
       "id": "exclusion:hemoptysis_or_chest_pain_concerning_for_cardiac_disease_or_pulmonary_embolism",
       "type": "exclusion",
       "label": "Hemoptysis or chest pain concerning for cardiac disease or pulmonary embolism."
@@ -10093,6 +10113,11 @@
       "id": "exclusion:high_risk_comorbidity_or_unreliable_outpatient_plan",
       "type": "exclusion",
       "label": "High-risk comorbidity or unreliable outpatient plan."
+    },
+    {
+      "id": "exclusion:high_risk_host_for_influenza_complications_including_older_age_chronic_lung_or_heart_disease_dia",
+      "type": "exclusion",
+      "label": "High-risk host for influenza complications, including older age, chronic lung or heart disease, diabetes, renal or liver disease, immunocompromise, long-term care residence, or severe obesity."
     },
     {
       "id": "exclusion:high_risk_pregnancy_severe_immunocompromise_very_young_infant_or_frail_older_adult_requiring_a_d",
@@ -10375,9 +10400,24 @@
       "label": "Pregnancy."
     },
     {
+      "id": "exclusion:pregnancy_immunocompromise_or_poor_follow_up",
+      "type": "exclusion",
+      "label": "Pregnancy, immunocompromise, or poor follow-up."
+    },
+    {
+      "id": "exclusion:pregnancy_or_postpartum_pathway",
+      "type": "exclusion",
+      "label": "Pregnancy or postpartum pathway."
+    },
+    {
       "id": "exclusion:pregnancy_or_pregnancy_concern",
       "type": "exclusion",
       "label": "Pregnancy or pregnancy concern."
+    },
+    {
+      "id": "exclusion:pregnancy_or_recent_postpartum_status",
+      "type": "exclusion",
+      "label": "Pregnancy or recent postpartum status."
     },
     {
       "id": "exclusion:pregnancy_pediatric_pathway_immunocompromised_host_cancer_or_weight_loss_concern_cauda_equina_co",
@@ -10430,6 +10470,11 @@
       "label": "Sepsis or unstable vital signs."
     },
     {
+      "id": "exclusion:severe_anal_pain_with_fever_abdominal_pain_diarrhea_spreading_perianal_redness_or_abscess_concer",
+      "type": "exclusion",
+      "label": "Severe anal pain with fever, abdominal pain, diarrhea, spreading perianal redness, or abscess concern."
+    },
+    {
       "id": "exclusion:severe_bacterial_sinusitis_features_requiring_clinician_specific_antibiotic_or_watchful_waiting_",
       "type": "exclusion",
       "label": "Severe bacterial sinusitis features requiring clinician-specific antibiotic or watchful-waiting decision."
@@ -10460,6 +10505,11 @@
       "label": "Solitary kidney, transplant kidney, pregnancy, renal failure, or uncontrolled pain/vomiting."
     },
     {
+      "id": "exclusion:stimulant_or_cocaine_associated_hypertension_secondary_hypertension_concern_or_no_reliable_follo",
+      "type": "exclusion",
+      "label": "Stimulant or cocaine-associated hypertension, secondary hypertension concern, or no reliable follow-up plan."
+    },
+    {
       "id": "exclusion:sudden_severe_headache_that_reaches_its_worst_point_within_seconds_worst_headache_of_life_subara",
       "type": "exclusion",
       "label": "Sudden, severe headache that reaches its worst point within seconds, worst headache of life, subarachnoid hemorrhage concern, stroke/TIA concern, unresolved neurologic deficit, seizure, or altered mental status not fully resolved at discharge."
@@ -10478,6 +10528,16 @@
       "id": "exclusion:suspected_tendon_rupture_ligament_rupture_scaphoid_tenderness_pattern_compartment_syndrome_conce",
       "type": "exclusion",
       "label": "Suspected tendon rupture, ligament rupture, scaphoid tenderness pattern, compartment syndrome concern, septic joint or infection concern, neurovascular compromise, or specialist-directed orthopedic plan."
+    },
+    {
+      "id": "exclusion:thrombosed_hemorrhoid_irreducible_prolapse_rectal_mass_malignancy_concern_inflammatory_bowel_dis",
+      "type": "exclusion",
+      "label": "Thrombosed hemorrhoid, irreducible prolapse, rectal mass, malignancy concern, inflammatory bowel disease concern, or new rectal bleeding requiring separate workup."
+    },
+    {
+      "id": "exclusion:trouble_breathing_unresolved_dyspnea_hypoxia_chest_pain_pneumonia_concern_dehydration_inability_",
+      "type": "exclusion",
+      "label": "Trouble breathing, unresolved dyspnea, hypoxia, chest pain, pneumonia concern, dehydration, inability to tolerate fluids, sepsis concern, or unstable vital signs."
     },
     {
       "id": "exclusion:ucl_lcl_injury_or_elbow_instability_concern_distal_biceps_or_triceps_tendon_concern_inability_to",
@@ -13455,6 +13515,11 @@
       "label": "Acute glaucoma."
     },
     {
+      "id": "must_not_miss:acute_heart_failure",
+      "type": "must_not_miss",
+      "label": "Acute heart failure."
+    },
+    {
       "id": "must_not_miss:acute_hemarthrosis_or_osteochondral_injury",
       "type": "must_not_miss",
       "label": "Acute hemarthrosis or osteochondral injury."
@@ -13635,6 +13700,11 @@
       "label": "Facial trauma."
     },
     {
+      "id": "must_not_miss:fournier_gangrene",
+      "type": "must_not_miss",
+      "label": "Fournier gangrene."
+    },
+    {
       "id": "must_not_miss:gi_bleeding",
       "type": "must_not_miss",
       "label": "GI bleeding."
@@ -13665,6 +13735,11 @@
       "label": "High-risk face, hand, joint, genital, scalp, or high-tension wound."
     },
     {
+      "id": "must_not_miss:hypertensive_emergency",
+      "type": "must_not_miss",
+      "label": "Hypertensive emergency."
+    },
+    {
       "id": "must_not_miss:hypoxic_respiratory_failure",
       "type": "must_not_miss",
       "label": "Hypoxic respiratory failure."
@@ -13683,6 +13758,11 @@
       "id": "must_not_miss:infection_if_symptoms_are_not_traumatic",
       "type": "must_not_miss",
       "label": "Infection if symptoms are not traumatic."
+    },
+    {
+      "id": "must_not_miss:inflammatory_bowel_disease",
+      "type": "must_not_miss",
+      "label": "Inflammatory bowel disease."
     },
     {
       "id": "must_not_miss:intracranial_hemorrhage",
@@ -13730,6 +13810,11 @@
       "label": "Lisfranc injury or high ankle sprain when exam suggests it."
     },
     {
+      "id": "must_not_miss:lower_gi_bleeding",
+      "type": "must_not_miss",
+      "label": "Lower GI bleeding."
+    },
+    {
       "id": "must_not_miss:ludwig_angina",
       "type": "must_not_miss",
       "label": "Ludwig angina."
@@ -13763,6 +13848,11 @@
       "id": "must_not_miss:myocarditis",
       "type": "must_not_miss",
       "label": "Myocarditis."
+    },
+    {
+      "id": "must_not_miss:myocarditis_or_acute_coronary_syndrome_when_chest_pain_is_present",
+      "type": "must_not_miss",
+      "label": "Myocarditis or acute coronary syndrome when chest pain is present."
     },
     {
       "id": "must_not_miss:myocarditis_or_acute_coronary_syndrome_when_chest_pain_or_dyspnea_is_prominent",
@@ -13860,6 +13950,11 @@
       "label": "Perforation."
     },
     {
+      "id": "must_not_miss:perianal_or_perirectal_abscess",
+      "type": "must_not_miss",
+      "label": "Perianal or perirectal abscess."
+    },
+    {
       "id": "must_not_miss:peritonsillar_abscess",
       "type": "must_not_miss",
       "label": "Peritonsillar abscess."
@@ -13888,6 +13983,16 @@
       "id": "must_not_miss:pre_eclampsia_in_pregnancy",
       "type": "must_not_miss",
       "label": "Pre-eclampsia in pregnancy."
+    },
+    {
+      "id": "must_not_miss:preeclampsia_or_postpartum_hypertensive_emergency",
+      "type": "must_not_miss",
+      "label": "Preeclampsia or postpartum hypertensive emergency."
+    },
+    {
+      "id": "must_not_miss:pregnancy_related_influenza_risk",
+      "type": "must_not_miss",
+      "label": "Pregnancy-related influenza risk."
     },
     {
       "id": "must_not_miss:pregnancy_related_uti_risk",
@@ -13990,6 +14095,11 @@
       "label": "Stevens-Johnson syndrome or toxic epidermal necrolysis."
     },
     {
+      "id": "must_not_miss:stroke_or_intracranial_hemorrhage",
+      "type": "must_not_miss",
+      "label": "Stroke or intracranial hemorrhage."
+    },
+    {
       "id": "must_not_miss:stroke_or_tia",
       "type": "must_not_miss",
       "label": "Stroke or TIA."
@@ -14028,6 +14138,11 @@
       "id": "must_not_miss:testicular_torsion_mimic",
       "type": "must_not_miss",
       "label": "Testicular torsion mimic."
+    },
+    {
+      "id": "must_not_miss:thrombosed_or_strangulated_hemorrhoid",
+      "type": "must_not_miss",
+      "label": "Thrombosed or strangulated hemorrhoid."
     },
     {
       "id": "must_not_miss:triceps_tendon_rupture",
@@ -14157,6 +14272,14 @@
       "review_status": "reviewed"
     },
     {
+      "id": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "phenotype",
+      "label": "Asymptomatic elevated blood pressure without end-organ symptoms",
+      "status": "draft",
+      "condition_family": "cardiovascular",
+      "review_status": "needs_review"
+    },
+    {
       "id": "phenotype:cellulitis_uncomplicated_oral_antibiotics",
       "type": "phenotype",
       "label": "Uncomplicated cellulitis treated as outpatient",
@@ -14251,6 +14374,22 @@
       "status": "reviewed",
       "condition_family": "gastrointestinal_infection",
       "review_status": "reviewed"
+    },
+    {
+      "id": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "phenotype",
+      "label": "Uncomplicated hemorrhoids without heavy bleeding or infection concern",
+      "status": "draft",
+      "condition_family": "gastrointestinal",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "phenotype",
+      "label": "Stable adult influenza-like illness with supportive-care discharge plan",
+      "status": "draft",
+      "condition_family": "respiratory_infection",
+      "review_status": "needs_review"
     },
     {
       "id": "phenotype:laceration_repaired_simple",
@@ -15632,6 +15771,105 @@
       "primitive_type": "reassuring_ed_assessment",
       "priority": "required",
       "review_status": "reviewed"
+    },
+    {
+      "id": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.diagnosis.diagnosis_summary.v1",
+      "type": "primitive",
+      "label": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.diagnosis.diagnosis_summary.v1",
+      "section": "diagnosis",
+      "primitive_type": "diagnosis_summary",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.follow_up.default_follow_up.v1",
+      "type": "primitive",
+      "label": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.follow_up.default_follow_up.v1",
+      "section": "follow_up",
+      "primitive_type": "default_follow_up",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_1.v1",
+      "type": "primitive",
+      "label": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_1.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_1",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_2.v1",
+      "type": "primitive",
+      "label": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_2.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_2",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_3.v1",
+      "type": "primitive",
+      "label": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_3.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_3",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.medications.medication_guidance_1.v1",
+      "type": "primitive",
+      "label": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.medications.medication_guidance_1.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_1",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.medications.medication_guidance_2.v1",
+      "type": "primitive",
+      "label": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.medications.medication_guidance_2.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_2",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_1.v1",
+      "type": "primitive",
+      "label": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_1.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_1",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_2.v1",
+      "type": "primitive",
+      "label": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_2.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_2",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_3.v1",
+      "type": "primitive",
+      "label": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_3.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_3",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.what_we_found.reassuring_ed_assessment.v1",
+      "type": "primitive",
+      "label": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.what_we_found.reassuring_ed_assessment.v1",
+      "section": "what_we_found",
+      "primitive_type": "reassuring_ed_assessment",
+      "priority": "required",
+      "review_status": "needs_review"
     },
     {
       "id": "primitive:back_pain.diagnosis.lumbar_strain.v1",
@@ -17245,6 +17483,204 @@
       "review_status": "reviewed"
     },
     {
+      "id": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.diagnosis.diagnosis_summary.v1",
+      "type": "primitive",
+      "label": "hemorrhoids_uncomplicated_no_heavy_bleeding.diagnosis.diagnosis_summary.v1",
+      "section": "diagnosis",
+      "primitive_type": "diagnosis_summary",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.follow_up.default_follow_up.v1",
+      "type": "primitive",
+      "label": "hemorrhoids_uncomplicated_no_heavy_bleeding.follow_up.default_follow_up.v1",
+      "section": "follow_up",
+      "primitive_type": "default_follow_up",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.home_care.home_care_1.v1",
+      "type": "primitive",
+      "label": "hemorrhoids_uncomplicated_no_heavy_bleeding.home_care.home_care_1.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_1",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.home_care.home_care_2.v1",
+      "type": "primitive",
+      "label": "hemorrhoids_uncomplicated_no_heavy_bleeding.home_care.home_care_2.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_2",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.home_care.home_care_3.v1",
+      "type": "primitive",
+      "label": "hemorrhoids_uncomplicated_no_heavy_bleeding.home_care.home_care_3.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_3",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.medications.medication_guidance_1.v1",
+      "type": "primitive",
+      "label": "hemorrhoids_uncomplicated_no_heavy_bleeding.medications.medication_guidance_1.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_1",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.medications.medication_guidance_2.v1",
+      "type": "primitive",
+      "label": "hemorrhoids_uncomplicated_no_heavy_bleeding.medications.medication_guidance_2.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_2",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.return_precautions.return_precaution_1.v1",
+      "type": "primitive",
+      "label": "hemorrhoids_uncomplicated_no_heavy_bleeding.return_precautions.return_precaution_1.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_1",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.return_precautions.return_precaution_2.v1",
+      "type": "primitive",
+      "label": "hemorrhoids_uncomplicated_no_heavy_bleeding.return_precautions.return_precaution_2.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_2",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.return_precautions.return_precaution_3.v1",
+      "type": "primitive",
+      "label": "hemorrhoids_uncomplicated_no_heavy_bleeding.return_precautions.return_precaution_3.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_3",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.what_we_found.reassuring_ed_assessment.v1",
+      "type": "primitive",
+      "label": "hemorrhoids_uncomplicated_no_heavy_bleeding.what_we_found.reassuring_ed_assessment.v1",
+      "section": "what_we_found",
+      "primitive_type": "reassuring_ed_assessment",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:influenza_like_illness_stable_supportive_care.diagnosis.diagnosis_summary.v1",
+      "type": "primitive",
+      "label": "influenza_like_illness_stable_supportive_care.diagnosis.diagnosis_summary.v1",
+      "section": "diagnosis",
+      "primitive_type": "diagnosis_summary",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:influenza_like_illness_stable_supportive_care.follow_up.default_follow_up.v1",
+      "type": "primitive",
+      "label": "influenza_like_illness_stable_supportive_care.follow_up.default_follow_up.v1",
+      "section": "follow_up",
+      "primitive_type": "default_follow_up",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:influenza_like_illness_stable_supportive_care.home_care.home_care_1.v1",
+      "type": "primitive",
+      "label": "influenza_like_illness_stable_supportive_care.home_care.home_care_1.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_1",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:influenza_like_illness_stable_supportive_care.home_care.home_care_2.v1",
+      "type": "primitive",
+      "label": "influenza_like_illness_stable_supportive_care.home_care.home_care_2.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_2",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:influenza_like_illness_stable_supportive_care.home_care.home_care_3.v1",
+      "type": "primitive",
+      "label": "influenza_like_illness_stable_supportive_care.home_care.home_care_3.v1",
+      "section": "home_care",
+      "primitive_type": "home_care_3",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:influenza_like_illness_stable_supportive_care.medications.medication_guidance_1.v1",
+      "type": "primitive",
+      "label": "influenza_like_illness_stable_supportive_care.medications.medication_guidance_1.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_1",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:influenza_like_illness_stable_supportive_care.medications.medication_guidance_2.v1",
+      "type": "primitive",
+      "label": "influenza_like_illness_stable_supportive_care.medications.medication_guidance_2.v1",
+      "section": "medications",
+      "primitive_type": "medication_guidance_2",
+      "priority": "high",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_1.v1",
+      "type": "primitive",
+      "label": "influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_1.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_1",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_2.v1",
+      "type": "primitive",
+      "label": "influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_2.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_2",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_3.v1",
+      "type": "primitive",
+      "label": "influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_3.v1",
+      "section": "return_precautions",
+      "primitive_type": "return_precaution_3",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
+      "id": "primitive:influenza_like_illness_stable_supportive_care.what_we_found.reassuring_ed_assessment.v1",
+      "type": "primitive",
+      "label": "influenza_like_illness_stable_supportive_care.what_we_found.reassuring_ed_assessment.v1",
+      "section": "what_we_found",
+      "primitive_type": "reassuring_ed_assessment",
+      "priority": "required",
+      "review_status": "needs_review"
+    },
+    {
       "id": "primitive:laceration_repaired_simple.diagnosis.diagnosis_summary.v1",
       "type": "primitive",
       "label": "laceration_repaired_simple.diagnosis.diagnosis_summary.v1",
@@ -18811,6 +19247,15 @@
       "source_type": "public_patient_education"
     },
     {
+      "id": "source_card:aha.hypertensive_emergency",
+      "type": "source_card",
+      "label": "When To Call 911 About High Blood Pressure",
+      "source": "American Heart Association",
+      "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/when-to-call-911-for-high-blood-pressure",
+      "use_policy": "evidence_support",
+      "source_type": "specialty_society_patient_guidance"
+    },
+    {
       "id": "source_card:ahrq.common_cold_antibiotics",
       "type": "source_card",
       "label": "Upper Respiratory Tract Infection: The Common Cold",
@@ -18854,6 +19299,24 @@
       "url": "https://www.cdc.gov/ear-infection/about/index.html",
       "use_policy": "evidence_support",
       "source_type": "government_patient_education"
+    },
+    {
+      "id": "source_card:cdc.flu_taking_care",
+      "type": "source_card",
+      "label": "Flu: What To Do If You Get Sick",
+      "source": "CDC",
+      "url": "https://www.cdc.gov/flu/takingcare/index.html",
+      "use_policy": "evidence_support",
+      "source_type": "government_guidance"
+    },
+    {
+      "id": "source_card:cdc.flu_treatment",
+      "type": "source_card",
+      "label": "Treatment of Flu",
+      "source": "CDC",
+      "url": "https://www.cdc.gov/flu/treatment/index.html",
+      "use_policy": "evidence_support",
+      "source_type": "government_guidance"
     },
     {
       "id": "source_card:cdc.group_a_strep_cellulitis",
@@ -19063,11 +19526,38 @@
       "source_type": "public_patient_education"
     },
     {
+      "id": "source_card:medlineplus.flu",
+      "type": "source_card",
+      "label": "Flu",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/flu.html",
+      "use_policy": "evidence_support",
+      "source_type": "public_patient_education"
+    },
+    {
       "id": "source_card:medlineplus.foot_sprain_aftercare",
       "type": "source_card",
       "label": "Foot sprain - aftercare",
       "source": "MedlinePlus",
       "url": "https://medlineplus.gov/ency/patientinstructions/000652.htm",
+      "use_policy": "evidence_support",
+      "source_type": "public_patient_education"
+    },
+    {
+      "id": "source_card:medlineplus.hemorrhoids",
+      "type": "source_card",
+      "label": "Hemorrhoids",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/ency/article/000292.htm",
+      "use_policy": "evidence_support",
+      "source_type": "public_patient_education"
+    },
+    {
+      "id": "source_card:medlineplus.high_blood_pressure",
+      "type": "source_card",
+      "label": "High Blood Pressure",
+      "source": "MedlinePlus",
+      "url": "https://medlineplus.gov/highbloodpressure.html",
       "use_policy": "evidence_support",
       "source_type": "public_patient_education"
     },
@@ -19214,6 +19704,15 @@
       "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation",
       "use_policy": "evidence_support",
       "source_type": "public_patient_education"
+    },
+    {
+      "id": "source_card:niddk.hemorrhoids_treatment",
+      "type": "source_card",
+      "label": "Treatment of Hemorrhoids",
+      "source": "NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/hemorrhoids/treatment",
+      "use_policy": "evidence_support",
+      "source_type": "government_guidance"
     },
     {
       "id": "source_card:ninds.headache",
@@ -31464,6 +31963,111 @@
       "target": "primitive:asthma_exacerbation_improved_discharge.what_we_found.reassuring_ed_assessment.v1"
     },
     {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "has_exclusion",
+      "target": "exclusion:any_end_organ_symptom_such_as_chest_pain_shortness_of_breath_neurologic_symptoms_severe_headache"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "has_exclusion",
+      "target": "exclusion:blood_pressure_at_hypertensive_crisis_threshold_without_individualized_plan"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "has_exclusion",
+      "target": "exclusion:pregnancy_or_postpartum_pathway"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "has_exclusion",
+      "target": "exclusion:stimulant_or_cocaine_associated_hypertension_secondary_hypertension_concern_or_no_reliable_follo"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:acute_coronary_syndrome"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:acute_heart_failure"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:aortic_dissection"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:hypertensive_emergency"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:preeclampsia_or_postpartum_hypertensive_emergency"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:stroke_or_intracranial_hemorrhage"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "requires_primitive",
+      "target": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.diagnosis.diagnosis_summary.v1"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "requires_primitive",
+      "target": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.follow_up.default_follow_up.v1"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "requires_primitive",
+      "target": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_1.v1"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "requires_primitive",
+      "target": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_2.v1"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "requires_primitive",
+      "target": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_3.v1"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "requires_primitive",
+      "target": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.medications.medication_guidance_1.v1"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "requires_primitive",
+      "target": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "requires_primitive",
+      "target": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_1.v1"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "requires_primitive",
+      "target": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_2.v1"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "requires_primitive",
+      "target": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_3.v1"
+    },
+    {
+      "source": "phenotype:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "type": "requires_primitive",
+      "target": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.what_we_found.reassuring_ed_assessment.v1"
+    },
+    {
       "source": "phenotype:cellulitis_uncomplicated_oral_antibiotics",
       "type": "has_exclusion",
       "target": "exclusion:diabetic_foot_infection_bite_wound_or_immunocompromised_host_requiring_a_separate_pathway"
@@ -32767,6 +33371,216 @@
       "source": "phenotype:gastroenteritis_stable_hydrating",
       "type": "requires_primitive",
       "target": "primitive:gastroenteritis_stable_hydrating.resources.source_link_2.v1"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "has_exclusion",
+      "target": "exclusion:heavy_bleeding_anticoagulation_with_bleeding_syncope_unstable_vital_signs_or_anemia_concern"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "has_exclusion",
+      "target": "exclusion:pregnancy_immunocompromise_or_poor_follow_up"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "has_exclusion",
+      "target": "exclusion:severe_anal_pain_with_fever_abdominal_pain_diarrhea_spreading_perianal_redness_or_abscess_concer"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "has_exclusion",
+      "target": "exclusion:thrombosed_hemorrhoid_irreducible_prolapse_rectal_mass_malignancy_concern_inflammatory_bowel_dis"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:colorectal_malignancy"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:fournier_gangrene"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:inflammatory_bowel_disease"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:lower_gi_bleeding"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:perianal_or_perirectal_abscess"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:thrombosed_or_strangulated_hemorrhoid"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "requires_primitive",
+      "target": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.diagnosis.diagnosis_summary.v1"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "requires_primitive",
+      "target": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.follow_up.default_follow_up.v1"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "requires_primitive",
+      "target": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.home_care.home_care_1.v1"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "requires_primitive",
+      "target": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.home_care.home_care_2.v1"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "requires_primitive",
+      "target": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.home_care.home_care_3.v1"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "requires_primitive",
+      "target": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.medications.medication_guidance_1.v1"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "requires_primitive",
+      "target": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "requires_primitive",
+      "target": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.return_precautions.return_precaution_1.v1"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "requires_primitive",
+      "target": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.return_precautions.return_precaution_2.v1"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "requires_primitive",
+      "target": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.return_precautions.return_precaution_3.v1"
+    },
+    {
+      "source": "phenotype:hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "type": "requires_primitive",
+      "target": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.what_we_found.reassuring_ed_assessment.v1"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "has_exclusion",
+      "target": "exclusion:antiviral_prescribed_or_clearly_indicated_because_medication_specific_counseling_must_be_clinici"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "has_exclusion",
+      "target": "exclusion:high_risk_host_for_influenza_complications_including_older_age_chronic_lung_or_heart_disease_dia"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "has_exclusion",
+      "target": "exclusion:pregnancy_or_recent_postpartum_status"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "has_exclusion",
+      "target": "exclusion:trouble_breathing_unresolved_dyspnea_hypoxia_chest_pain_pneumonia_concern_dehydration_inability_"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:hypoxic_respiratory_failure"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:myocarditis_or_acute_coronary_syndrome_when_chest_pain_is_present"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:pneumonia"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:pregnancy_related_influenza_risk"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:pulmonary_embolism"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "has_must_not_miss",
+      "target": "must_not_miss:sepsis"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:influenza_like_illness_stable_supportive_care.diagnosis.diagnosis_summary.v1"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:influenza_like_illness_stable_supportive_care.follow_up.default_follow_up.v1"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:influenza_like_illness_stable_supportive_care.home_care.home_care_1.v1"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:influenza_like_illness_stable_supportive_care.home_care.home_care_2.v1"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:influenza_like_illness_stable_supportive_care.home_care.home_care_3.v1"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:influenza_like_illness_stable_supportive_care.medications.medication_guidance_1.v1"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:influenza_like_illness_stable_supportive_care.medications.medication_guidance_2.v1"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_1.v1"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_2.v1"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_3.v1"
+    },
+    {
+      "source": "phenotype:influenza_like_illness_stable_supportive_care",
+      "type": "requires_primitive",
+      "target": "primitive:influenza_like_illness_stable_supportive_care.what_we_found.reassuring_ed_assessment.v1"
     },
     {
       "source": "phenotype:laceration_repaired_simple",
@@ -35469,6 +36283,116 @@
       "target": "source_card:medlineplus.asthma"
     },
     {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.hypertensive_emergency"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.high_blood_pressure"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.hypertensive_emergency"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.high_blood_pressure"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.hypertensive_emergency"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.high_blood_pressure"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.hypertensive_emergency"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.high_blood_pressure"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.hypertensive_emergency"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.high_blood_pressure"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.hypertensive_emergency"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.high_blood_pressure"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.hypertensive_emergency"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.high_blood_pressure"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.hypertensive_emergency"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.high_blood_pressure"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.hypertensive_emergency"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.high_blood_pressure"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.hypertensive_emergency"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.high_blood_pressure"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:aha.hypertensive_emergency"
+    },
+    {
+      "source": "primitive:asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.high_blood_pressure"
+    },
+    {
       "source": "primitive:back_pain.diagnosis.lumbar_strain.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.low_back_pain_acute"
@@ -37217,6 +38141,281 @@
       "source": "primitive:gastroenteritis_stable_hydrating.resources.source_link_2.v1",
       "type": "supported_by_source",
       "target": "source_card:medlineplus.diarrhea_self_care"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.hemorrhoids"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:niddk.hemorrhoids_treatment"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.hemorrhoids"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:niddk.hemorrhoids_treatment"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.hemorrhoids"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:niddk.hemorrhoids_treatment"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.hemorrhoids"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:niddk.hemorrhoids_treatment"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.hemorrhoids"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:niddk.hemorrhoids_treatment"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.hemorrhoids"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:niddk.hemorrhoids_treatment"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.hemorrhoids"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:niddk.hemorrhoids_treatment"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.hemorrhoids"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:niddk.hemorrhoids_treatment"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.hemorrhoids"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:niddk.hemorrhoids_treatment"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.hemorrhoids"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:niddk.hemorrhoids_treatment"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.hemorrhoids"
+    },
+    {
+      "source": "primitive:hemorrhoids_uncomplicated_no_heavy_bleeding.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:niddk.hemorrhoids_treatment"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_taking_care"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_treatment"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.diagnosis.diagnosis_summary.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.flu"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_taking_care"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_treatment"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.follow_up.default_follow_up.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.flu"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_taking_care"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_treatment"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.home_care.home_care_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.flu"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_taking_care"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_treatment"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.home_care.home_care_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.flu"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_taking_care"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_treatment"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.home_care.home_care_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.flu"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_taking_care"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_treatment"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.medications.medication_guidance_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.flu"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_taking_care"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_treatment"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.medications.medication_guidance_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.flu"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_taking_care"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_treatment"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_1.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.flu"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_taking_care"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_treatment"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_2.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.flu"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_taking_care"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_treatment"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_3.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.flu"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_taking_care"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:cdc.flu_treatment"
+    },
+    {
+      "source": "primitive:influenza_like_illness_stable_supportive_care.what_we_found.reassuring_ed_assessment.v1",
+      "type": "supported_by_source",
+      "target": "source_card:medlineplus.flu"
     },
     {
       "source": "primitive:laceration_repaired_simple.diagnosis.diagnosis_summary.v1",

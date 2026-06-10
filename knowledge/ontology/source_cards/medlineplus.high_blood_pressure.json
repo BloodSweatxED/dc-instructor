@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.high_blood_pressure",
+  "source": "MedlinePlus",
+  "title": "High Blood Pressure",
+  "url": "https://medlineplus.gov/highbloodpressure.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support for hypertension basics and crisis thresholds. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "High blood pressure is common and may not cause symptoms.",
+    "Blood pressure of 180 systolic or higher or 120 diastolic or higher is a hypertensive crisis threshold that needs medical care right away.",
+    "Lifestyle changes and clinician-directed medications are common parts of blood pressure management."
+  ],
+  "use_policy": "evidence_support"
+}

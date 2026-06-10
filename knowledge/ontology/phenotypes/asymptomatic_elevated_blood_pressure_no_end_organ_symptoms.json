@@ -1,0 +1,117 @@
+{
+  "id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+  "label": "Asymptomatic elevated blood pressure without end-organ symptoms",
+  "status": "draft",
+  "condition_family": "cardiovascular",
+  "inclusion_criteria": [
+    "Adult with elevated blood pressure or asymptomatic hypertension documented at ED discharge.",
+    "Explicit clinician documentation that no end-organ symptoms or hypertensive emergency concern are present.",
+    "Concrete outpatient follow-up plan documented."
+  ],
+  "exclusion_criteria": [
+    "Blood pressure at hypertensive crisis threshold without individualized plan.",
+    "Any end-organ symptom such as chest pain, shortness of breath, neurologic symptoms, severe headache, vision change, confusion, decreased urination, hematuria, or tearing chest or back pain.",
+    "Pregnancy or postpartum pathway.",
+    "Stimulant or cocaine-associated hypertension, secondary hypertension concern, or no reliable follow-up plan."
+  ],
+  "must_not_miss": [
+    "Hypertensive emergency.",
+    "Stroke or intracranial hemorrhage.",
+    "Acute coronary syndrome.",
+    "Aortic dissection.",
+    "Acute heart failure.",
+    "Preeclampsia or postpartum hypertensive emergency."
+  ],
+  "default_follow_up": "Follow up with primary care or urgent care in the timeframe your clinician gave you to recheck blood pressure and adjust medicines if needed.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.diagnosis.diagnosis_summary.v1",
+    "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.what_we_found.reassuring_ed_assessment.v1",
+    "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_1.v1",
+    "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_2.v1",
+    "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_3.v1",
+    "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.medications.medication_guidance_1.v1",
+    "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.medications.medication_guidance_2.v1",
+    "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_1.v1",
+    "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_2.v1",
+    "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_3.v1",
+    "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.high_blood_pressure",
+    "aha.hypertensive_emergency"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": true,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": true,
+    "notes": "MedlinePlus supports hypertension education and hypertensive crisis threshold framing. AHA supports emergency escalation when very high blood pressure is accompanied by symptoms such as chest pain, dyspnea, back pain, weakness, vision change, or difficulty speaking. ED medication initiation and follow-up timing remain clinician-entered."
+  },
+  "runtime": {
+    "condition_terms": [
+      "asymptomatic elevated blood pressure",
+      "elevated blood pressure",
+      "high blood pressure",
+      "hypertension",
+      "asymptomatic hypertension"
+    ],
+    "unsafe_modifiers": [
+      "hypertensive_crisis_threshold",
+      "hypertension_end_organ_symptoms",
+      "chest_pain",
+      "respiratory_distress",
+      "neurologic_deficit",
+      "vision_change",
+      "pregnancy",
+      "postpartum",
+      "poor_follow_up",
+      "sepsis",
+      "unstable_vitals"
+    ],
+    "required_context": [
+      {
+        "id": "asymptomatic_elevated_bp_documented",
+        "terms": [
+          "asymptomatic elevated blood pressure",
+          "asymptomatic hypertension",
+          "no symptoms from blood pressure",
+          "no end organ symptoms",
+          "no hypertensive emergency symptoms"
+        ]
+      },
+      {
+        "id": "outpatient_follow_up_plan_documented",
+        "terms": [
+          "follow up for blood pressure",
+          "primary care blood pressure follow up",
+          "bp recheck plan",
+          "blood pressure recheck plan",
+          "outpatient follow up plan"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "asymptomatic elevated blood pressure",
+      "asymptomatic hypertension",
+      "no hypertensive emergency symptoms"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "draft_only_until_reviewed"
+  },
+  "version": 1,
+  "review": {
+    "status": "needs_review",
+    "reviewer": null,
+    "last_reviewed": null,
+    "notes": "Draft only. Needs EM clinician review for BP threshold, symptom-screen, pregnancy/postpartum, medication-change, and follow-up timing boundaries before promotion."
+  }
+}

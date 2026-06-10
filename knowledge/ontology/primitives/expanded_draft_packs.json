@@ -5374,6 +5374,1274 @@
     }
   },
   {
+    "id": "influenza_like_illness_stable_supportive_care.diagnosis.diagnosis_summary.v1",
+    "phenotypes": [
+      "influenza_like_illness_stable_supportive_care"
+    ],
+    "section": "diagnosis",
+    "primitive_type": "diagnosis_summary",
+    "priority": "required",
+    "text": {
+      "en_4": "You were treated for flu-like illness.",
+      "en_6": "You were treated for flu-like illness.",
+      "en_hl1": "You were treated for flu-like illness."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.flu",
+      "cdc.flu_taking_care",
+      "cdc.flu_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "CDC and MedlinePlus support flu symptom framing, home supportive care for mild illness, staying home while ill, emergency warning signs, high-risk host escalation, and antiviral treatment concepts. Antiviral medication selection and dosing remain clinician-entered only."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for high-risk host, pregnancy/postpartum, antiviral, dyspnea, and chest-pain boundaries before promotion."
+    }
+  },
+  {
+    "id": "influenza_like_illness_stable_supportive_care.what_we_found.reassuring_ed_assessment.v1",
+    "phenotypes": [
+      "influenza_like_illness_stable_supportive_care"
+    ],
+    "section": "what_we_found",
+    "primitive_type": "reassuring_ed_assessment",
+    "priority": "required",
+    "text": {
+      "en_4": "Your symptoms fit a flu-like viral illness. Your breathing and hydration were reassuring enough for home care today.",
+      "en_6": "Your symptoms fit a flu-like viral illness. Your breathing and hydration were reassuring enough for home care today.",
+      "en_hl1": "Your symptoms fit a flu-like viral illness. Your breathing and hydration were reassuring enough for home care today."
+    },
+    "contraindications": [
+      "pregnancy",
+      "postpartum",
+      "high_risk_influenza_host",
+      "immunocompromised",
+      "elderly_frail",
+      "hypoxia",
+      "respiratory_distress",
+      "resolved_dyspnea_not_documented",
+      "chest_pain",
+      "pneumonia",
+      "severe_dehydration",
+      "unable_to_tolerate_oral_fluids",
+      "sepsis",
+      "unstable_vitals",
+      "antiviral_prescribed_or_indicated"
+    ],
+    "source_card_ids": [
+      "medlineplus.flu",
+      "cdc.flu_taking_care",
+      "cdc.flu_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "CDC and MedlinePlus support flu symptom framing, home supportive care for mild illness, staying home while ill, emergency warning signs, high-risk host escalation, and antiviral treatment concepts. Antiviral medication selection and dosing remain clinician-entered only."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for high-risk host, pregnancy/postpartum, antiviral, dyspnea, and chest-pain boundaries before promotion."
+    }
+  },
+  {
+    "id": "influenza_like_illness_stable_supportive_care.home_care.home_care_1.v1",
+    "phenotypes": [
+      "influenza_like_illness_stable_supportive_care"
+    ],
+    "section": "home_care",
+    "primitive_type": "home_care_1",
+    "priority": "high",
+    "text": {
+      "en_4": "Rest and drink fluids as tolerated.",
+      "en_6": "Rest and drink fluids as tolerated.",
+      "en_hl1": "Rest and drink fluids as tolerated."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.flu",
+      "cdc.flu_taking_care",
+      "cdc.flu_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "CDC and MedlinePlus support flu symptom framing, home supportive care for mild illness, staying home while ill, emergency warning signs, high-risk host escalation, and antiviral treatment concepts. Antiviral medication selection and dosing remain clinician-entered only."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for high-risk host, pregnancy/postpartum, antiviral, dyspnea, and chest-pain boundaries before promotion."
+    }
+  },
+  {
+    "id": "influenza_like_illness_stable_supportive_care.home_care.home_care_2.v1",
+    "phenotypes": [
+      "influenza_like_illness_stable_supportive_care"
+    ],
+    "section": "home_care",
+    "primitive_type": "home_care_2",
+    "priority": "high",
+    "text": {
+      "en_4": "Stay home and avoid close contact with others while you are most contagious, as your clinician instructed.",
+      "en_6": "Stay home and avoid close contact with others while you are most contagious, as your clinician instructed.",
+      "en_hl1": "Stay home and avoid close contact with others while you are most contagious, as your clinician instructed."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.flu",
+      "cdc.flu_taking_care",
+      "cdc.flu_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "CDC and MedlinePlus support flu symptom framing, home supportive care for mild illness, staying home while ill, emergency warning signs, high-risk host escalation, and antiviral treatment concepts. Antiviral medication selection and dosing remain clinician-entered only."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for high-risk host, pregnancy/postpartum, antiviral, dyspnea, and chest-pain boundaries before promotion."
+    }
+  },
+  {
+    "id": "influenza_like_illness_stable_supportive_care.home_care.home_care_3.v1",
+    "phenotypes": [
+      "influenza_like_illness_stable_supportive_care"
+    ],
+    "section": "home_care",
+    "primitive_type": "home_care_3",
+    "priority": "high",
+    "text": {
+      "en_4": "Wash your hands often and cover coughs to reduce spread.",
+      "en_6": "Wash your hands often and cover coughs to reduce spread.",
+      "en_hl1": "Wash your hands often and cover coughs to reduce spread."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.flu",
+      "cdc.flu_taking_care",
+      "cdc.flu_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "CDC and MedlinePlus support flu symptom framing, home supportive care for mild illness, staying home while ill, emergency warning signs, high-risk host escalation, and antiviral treatment concepts. Antiviral medication selection and dosing remain clinician-entered only."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for high-risk host, pregnancy/postpartum, antiviral, dyspnea, and chest-pain boundaries before promotion."
+    }
+  },
+  {
+    "id": "influenza_like_illness_stable_supportive_care.medications.medication_guidance_1.v1",
+    "phenotypes": [
+      "influenza_like_illness_stable_supportive_care"
+    ],
+    "section": "medications",
+    "primitive_type": "medication_guidance_1",
+    "priority": "high",
+    "text": {
+      "en_4": "Take fever, pain, cough, or nausea medicines only as prescribed or recommended by your clinician.",
+      "en_6": "Take fever, pain, cough, or nausea medicines only as prescribed or recommended by your clinician.",
+      "en_hl1": "Take fever, pain, cough, or nausea medicines only as prescribed or recommended by your clinician."
+    },
+    "contraindications": [
+      "pregnancy",
+      "postpartum",
+      "high_risk_influenza_host",
+      "immunocompromised",
+      "elderly_frail",
+      "hypoxia",
+      "respiratory_distress",
+      "resolved_dyspnea_not_documented",
+      "chest_pain",
+      "pneumonia",
+      "severe_dehydration",
+      "unable_to_tolerate_oral_fluids",
+      "sepsis",
+      "unstable_vitals",
+      "antiviral_prescribed_or_indicated"
+    ],
+    "source_card_ids": [
+      "medlineplus.flu",
+      "cdc.flu_taking_care",
+      "cdc.flu_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "CDC and MedlinePlus support flu symptom framing, home supportive care for mild illness, staying home while ill, emergency warning signs, high-risk host escalation, and antiviral treatment concepts. Antiviral medication selection and dosing remain clinician-entered only."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for high-risk host, pregnancy/postpartum, antiviral, dyspnea, and chest-pain boundaries before promotion."
+    }
+  },
+  {
+    "id": "influenza_like_illness_stable_supportive_care.medications.medication_guidance_2.v1",
+    "phenotypes": [
+      "influenza_like_illness_stable_supportive_care"
+    ],
+    "section": "medications",
+    "primitive_type": "medication_guidance_2",
+    "priority": "high",
+    "text": {
+      "en_4": "Do not start antibiotics or antiviral medicine unless your clinician prescribed them.",
+      "en_6": "Do not start antibiotics or antiviral medicine unless your clinician prescribed them.",
+      "en_hl1": "Do not start antibiotics or antiviral medicine unless your clinician prescribed them."
+    },
+    "contraindications": [
+      "pregnancy",
+      "postpartum",
+      "high_risk_influenza_host",
+      "immunocompromised",
+      "elderly_frail",
+      "hypoxia",
+      "respiratory_distress",
+      "resolved_dyspnea_not_documented",
+      "chest_pain",
+      "pneumonia",
+      "severe_dehydration",
+      "unable_to_tolerate_oral_fluids",
+      "sepsis",
+      "unstable_vitals",
+      "antiviral_prescribed_or_indicated"
+    ],
+    "source_card_ids": [
+      "medlineplus.flu",
+      "cdc.flu_taking_care",
+      "cdc.flu_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "CDC and MedlinePlus support flu symptom framing, home supportive care for mild illness, staying home while ill, emergency warning signs, high-risk host escalation, and antiviral treatment concepts. Antiviral medication selection and dosing remain clinician-entered only."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for high-risk host, pregnancy/postpartum, antiviral, dyspnea, and chest-pain boundaries before promotion."
+    }
+  },
+  {
+    "id": "influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_1.v1",
+    "phenotypes": [
+      "influenza_like_illness_stable_supportive_care"
+    ],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_1",
+    "priority": "required",
+    "text": {
+      "en_4": "Trouble breathing, chest pain, blue lips, confusion, fainting, seizure, or severe weakness.",
+      "en_6": "Trouble breathing, chest pain, blue lips, confusion, fainting, seizure, or severe weakness.",
+      "en_hl1": "Trouble breathing, chest pain, blue lips, confusion, fainting, seizure, or severe weakness."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.flu",
+      "cdc.flu_taking_care",
+      "cdc.flu_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "CDC and MedlinePlus support flu symptom framing, home supportive care for mild illness, staying home while ill, emergency warning signs, high-risk host escalation, and antiviral treatment concepts. Antiviral medication selection and dosing remain clinician-entered only."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for high-risk host, pregnancy/postpartum, antiviral, dyspnea, and chest-pain boundaries before promotion."
+    }
+  },
+  {
+    "id": "influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_2.v1",
+    "phenotypes": [
+      "influenza_like_illness_stable_supportive_care"
+    ],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_2",
+    "priority": "required",
+    "text": {
+      "en_4": "You cannot keep fluids down, you are not urinating normally, or you feel dehydrated.",
+      "en_6": "You cannot keep fluids down, you are not urinating normally, or you feel dehydrated.",
+      "en_hl1": "You cannot keep fluids down, you are not urinating normally, or you feel dehydrated."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.flu",
+      "cdc.flu_taking_care",
+      "cdc.flu_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "CDC and MedlinePlus support flu symptom framing, home supportive care for mild illness, staying home while ill, emergency warning signs, high-risk host escalation, and antiviral treatment concepts. Antiviral medication selection and dosing remain clinician-entered only."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for high-risk host, pregnancy/postpartum, antiviral, dyspnea, and chest-pain boundaries before promotion."
+    }
+  },
+  {
+    "id": "influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_3.v1",
+    "phenotypes": [
+      "influenza_like_illness_stable_supportive_care"
+    ],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_3",
+    "priority": "required",
+    "text": {
+      "en_4": "Fever or cough improves and then comes back worse.",
+      "en_6": "Fever or cough improves and then comes back worse.",
+      "en_hl1": "Fever or cough improves and then comes back worse."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.flu",
+      "cdc.flu_taking_care",
+      "cdc.flu_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "CDC and MedlinePlus support flu symptom framing, home supportive care for mild illness, staying home while ill, emergency warning signs, high-risk host escalation, and antiviral treatment concepts. Antiviral medication selection and dosing remain clinician-entered only."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for high-risk host, pregnancy/postpartum, antiviral, dyspnea, and chest-pain boundaries before promotion."
+    }
+  },
+  {
+    "id": "influenza_like_illness_stable_supportive_care.follow_up.default_follow_up.v1",
+    "phenotypes": [
+      "influenza_like_illness_stable_supportive_care"
+    ],
+    "section": "follow_up",
+    "primitive_type": "default_follow_up",
+    "priority": "required",
+    "text": {
+      "en_4": "Follow up with primary care or urgent care if symptoms are not improving, or sooner if your clinician gave you a specific recheck plan.",
+      "en_6": "Follow up with primary care or urgent care if symptoms are not improving, or sooner if your clinician gave you a specific recheck plan.",
+      "en_hl1": "Follow up with primary care or urgent care if symptoms are not improving, or sooner if your clinician gave you a specific recheck plan."
+    },
+    "contraindications": [
+      "pregnancy",
+      "postpartum",
+      "high_risk_influenza_host",
+      "immunocompromised",
+      "elderly_frail",
+      "hypoxia",
+      "respiratory_distress",
+      "resolved_dyspnea_not_documented",
+      "chest_pain",
+      "pneumonia",
+      "severe_dehydration",
+      "unable_to_tolerate_oral_fluids",
+      "sepsis",
+      "unstable_vitals",
+      "antiviral_prescribed_or_indicated"
+    ],
+    "source_card_ids": [
+      "medlineplus.flu",
+      "cdc.flu_taking_care",
+      "cdc.flu_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "CDC and MedlinePlus support flu symptom framing, home supportive care for mild illness, staying home while ill, emergency warning signs, high-risk host escalation, and antiviral treatment concepts. Antiviral medication selection and dosing remain clinician-entered only."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for high-risk host, pregnancy/postpartum, antiviral, dyspnea, and chest-pain boundaries before promotion."
+    }
+  },
+  {
+    "id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.diagnosis.diagnosis_summary.v1",
+    "phenotypes": [
+      "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms"
+    ],
+    "section": "diagnosis",
+    "primitive_type": "diagnosis_summary",
+    "priority": "required",
+    "text": {
+      "en_4": "Your blood pressure was high today.",
+      "en_6": "Your blood pressure was high today.",
+      "en_hl1": "Your blood pressure was high today."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.high_blood_pressure",
+      "aha.hypertensive_emergency"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports hypertension education and hypertensive crisis threshold framing. AHA supports emergency escalation when very high blood pressure is accompanied by symptoms such as chest pain, dyspnea, back pain, weakness, vision change, or difficulty speaking. ED medication initiation and follow-up timing remain clinician-entered."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for BP threshold, symptom-screen, pregnancy/postpartum, medication-change, and follow-up timing boundaries before promotion."
+    }
+  },
+  {
+    "id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.what_we_found.reassuring_ed_assessment.v1",
+    "phenotypes": [
+      "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms"
+    ],
+    "section": "what_we_found",
+    "primitive_type": "reassuring_ed_assessment",
+    "priority": "required",
+    "text": {
+      "en_4": "You did not have symptoms today suggesting a blood pressure emergency. Your clinician felt it was safe to continue follow-up outside the ED.",
+      "en_6": "You did not have symptoms today suggesting a blood pressure emergency. Your clinician felt it was safe to continue follow-up outside the ED.",
+      "en_hl1": "You did not have symptoms today suggesting a blood pressure emergency. Your clinician felt it was safe to continue follow-up outside the ED."
+    },
+    "contraindications": [
+      "hypertensive_crisis_threshold",
+      "hypertension_end_organ_symptoms",
+      "chest_pain",
+      "respiratory_distress",
+      "neurologic_deficit",
+      "vision_change",
+      "pregnancy",
+      "postpartum",
+      "poor_follow_up",
+      "sepsis",
+      "unstable_vitals"
+    ],
+    "source_card_ids": [
+      "medlineplus.high_blood_pressure",
+      "aha.hypertensive_emergency"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports hypertension education and hypertensive crisis threshold framing. AHA supports emergency escalation when very high blood pressure is accompanied by symptoms such as chest pain, dyspnea, back pain, weakness, vision change, or difficulty speaking. ED medication initiation and follow-up timing remain clinician-entered."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for BP threshold, symptom-screen, pregnancy/postpartum, medication-change, and follow-up timing boundaries before promotion."
+    }
+  },
+  {
+    "id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_1.v1",
+    "phenotypes": [
+      "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms"
+    ],
+    "section": "home_care",
+    "primitive_type": "home_care_1",
+    "priority": "high",
+    "text": {
+      "en_4": "Recheck your blood pressure as your clinician instructed.",
+      "en_6": "Recheck your blood pressure as your clinician instructed.",
+      "en_hl1": "Recheck your blood pressure as your clinician instructed."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.high_blood_pressure",
+      "aha.hypertensive_emergency"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports hypertension education and hypertensive crisis threshold framing. AHA supports emergency escalation when very high blood pressure is accompanied by symptoms such as chest pain, dyspnea, back pain, weakness, vision change, or difficulty speaking. ED medication initiation and follow-up timing remain clinician-entered."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for BP threshold, symptom-screen, pregnancy/postpartum, medication-change, and follow-up timing boundaries before promotion."
+    }
+  },
+  {
+    "id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_2.v1",
+    "phenotypes": [
+      "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms"
+    ],
+    "section": "home_care",
+    "primitive_type": "home_care_2",
+    "priority": "high",
+    "text": {
+      "en_4": "Take your usual blood pressure medicines exactly as prescribed.",
+      "en_6": "Take your usual blood pressure medicines exactly as prescribed.",
+      "en_hl1": "Take your usual blood pressure medicines exactly as prescribed."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.high_blood_pressure",
+      "aha.hypertensive_emergency"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports hypertension education and hypertensive crisis threshold framing. AHA supports emergency escalation when very high blood pressure is accompanied by symptoms such as chest pain, dyspnea, back pain, weakness, vision change, or difficulty speaking. ED medication initiation and follow-up timing remain clinician-entered."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for BP threshold, symptom-screen, pregnancy/postpartum, medication-change, and follow-up timing boundaries before promotion."
+    }
+  },
+  {
+    "id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.home_care.home_care_3.v1",
+    "phenotypes": [
+      "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms"
+    ],
+    "section": "home_care",
+    "primitive_type": "home_care_3",
+    "priority": "high",
+    "text": {
+      "en_4": "Avoid changing or doubling medicines unless your clinician told you to.",
+      "en_6": "Avoid changing or doubling medicines unless your clinician told you to.",
+      "en_hl1": "Avoid changing or doubling medicines unless your clinician told you to."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.high_blood_pressure",
+      "aha.hypertensive_emergency"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports hypertension education and hypertensive crisis threshold framing. AHA supports emergency escalation when very high blood pressure is accompanied by symptoms such as chest pain, dyspnea, back pain, weakness, vision change, or difficulty speaking. ED medication initiation and follow-up timing remain clinician-entered."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for BP threshold, symptom-screen, pregnancy/postpartum, medication-change, and follow-up timing boundaries before promotion."
+    }
+  },
+  {
+    "id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.medications.medication_guidance_1.v1",
+    "phenotypes": [
+      "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms"
+    ],
+    "section": "medications",
+    "primitive_type": "medication_guidance_1",
+    "priority": "high",
+    "text": {
+      "en_4": "Take any new or changed blood pressure medicine exactly as prescribed.",
+      "en_6": "Take any new or changed blood pressure medicine exactly as prescribed.",
+      "en_hl1": "Take any new or changed blood pressure medicine exactly as prescribed."
+    },
+    "contraindications": [
+      "hypertensive_crisis_threshold",
+      "hypertension_end_organ_symptoms",
+      "chest_pain",
+      "respiratory_distress",
+      "neurologic_deficit",
+      "vision_change",
+      "pregnancy",
+      "postpartum",
+      "poor_follow_up",
+      "sepsis",
+      "unstable_vitals"
+    ],
+    "source_card_ids": [
+      "medlineplus.high_blood_pressure",
+      "aha.hypertensive_emergency"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports hypertension education and hypertensive crisis threshold framing. AHA supports emergency escalation when very high blood pressure is accompanied by symptoms such as chest pain, dyspnea, back pain, weakness, vision change, or difficulty speaking. ED medication initiation and follow-up timing remain clinician-entered."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for BP threshold, symptom-screen, pregnancy/postpartum, medication-change, and follow-up timing boundaries before promotion."
+    }
+  },
+  {
+    "id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.medications.medication_guidance_2.v1",
+    "phenotypes": [
+      "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms"
+    ],
+    "section": "medications",
+    "primitive_type": "medication_guidance_2",
+    "priority": "high",
+    "text": {
+      "en_4": "Do not stop blood pressure medicine without talking with a clinician.",
+      "en_6": "Do not stop blood pressure medicine without talking with a clinician.",
+      "en_hl1": "Do not stop blood pressure medicine without talking with a clinician."
+    },
+    "contraindications": [
+      "hypertensive_crisis_threshold",
+      "hypertension_end_organ_symptoms",
+      "chest_pain",
+      "respiratory_distress",
+      "neurologic_deficit",
+      "vision_change",
+      "pregnancy",
+      "postpartum",
+      "poor_follow_up",
+      "sepsis",
+      "unstable_vitals"
+    ],
+    "source_card_ids": [
+      "medlineplus.high_blood_pressure",
+      "aha.hypertensive_emergency"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports hypertension education and hypertensive crisis threshold framing. AHA supports emergency escalation when very high blood pressure is accompanied by symptoms such as chest pain, dyspnea, back pain, weakness, vision change, or difficulty speaking. ED medication initiation and follow-up timing remain clinician-entered."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for BP threshold, symptom-screen, pregnancy/postpartum, medication-change, and follow-up timing boundaries before promotion."
+    }
+  },
+  {
+    "id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_1.v1",
+    "phenotypes": [
+      "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms"
+    ],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_1",
+    "priority": "required",
+    "text": {
+      "en_4": "Chest pain, trouble breathing, severe headache, confusion, fainting, weakness, trouble speaking, or vision changes.",
+      "en_6": "Chest pain, trouble breathing, severe headache, confusion, fainting, weakness, trouble speaking, or vision changes.",
+      "en_hl1": "Chest pain, trouble breathing, severe headache, confusion, fainting, weakness, trouble speaking, or vision changes."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.high_blood_pressure",
+      "aha.hypertensive_emergency"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports hypertension education and hypertensive crisis threshold framing. AHA supports emergency escalation when very high blood pressure is accompanied by symptoms such as chest pain, dyspnea, back pain, weakness, vision change, or difficulty speaking. ED medication initiation and follow-up timing remain clinician-entered."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for BP threshold, symptom-screen, pregnancy/postpartum, medication-change, and follow-up timing boundaries before promotion."
+    }
+  },
+  {
+    "id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_2.v1",
+    "phenotypes": [
+      "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms"
+    ],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_2",
+    "priority": "required",
+    "text": {
+      "en_4": "New back pain, severe belly pain, or neurologic symptoms.",
+      "en_6": "New back pain, severe belly pain, or neurologic symptoms.",
+      "en_hl1": "New back pain, severe belly pain, or neurologic symptoms."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.high_blood_pressure",
+      "aha.hypertensive_emergency"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports hypertension education and hypertensive crisis threshold framing. AHA supports emergency escalation when very high blood pressure is accompanied by symptoms such as chest pain, dyspnea, back pain, weakness, vision change, or difficulty speaking. ED medication initiation and follow-up timing remain clinician-entered."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for BP threshold, symptom-screen, pregnancy/postpartum, medication-change, and follow-up timing boundaries before promotion."
+    }
+  },
+  {
+    "id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.return_precautions.return_precaution_3.v1",
+    "phenotypes": [
+      "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms"
+    ],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_3",
+    "priority": "required",
+    "text": {
+      "en_4": "Blood pressure is very high and you feel ill or unsafe at home.",
+      "en_6": "Blood pressure is very high and you feel ill or unsafe at home.",
+      "en_hl1": "Blood pressure is very high and you feel ill or unsafe at home."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.high_blood_pressure",
+      "aha.hypertensive_emergency"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports hypertension education and hypertensive crisis threshold framing. AHA supports emergency escalation when very high blood pressure is accompanied by symptoms such as chest pain, dyspnea, back pain, weakness, vision change, or difficulty speaking. ED medication initiation and follow-up timing remain clinician-entered."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for BP threshold, symptom-screen, pregnancy/postpartum, medication-change, and follow-up timing boundaries before promotion."
+    }
+  },
+  {
+    "id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.follow_up.default_follow_up.v1",
+    "phenotypes": [
+      "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms"
+    ],
+    "section": "follow_up",
+    "primitive_type": "default_follow_up",
+    "priority": "required",
+    "text": {
+      "en_4": "Follow up with primary care or urgent care in the timeframe your clinician gave you to recheck blood pressure and adjust medicines if needed.",
+      "en_6": "Follow up with primary care or urgent care in the timeframe your clinician gave you to recheck blood pressure and adjust medicines if needed.",
+      "en_hl1": "Follow up with primary care or urgent care in the timeframe your clinician gave you to recheck blood pressure and adjust medicines if needed."
+    },
+    "contraindications": [
+      "hypertensive_crisis_threshold",
+      "hypertension_end_organ_symptoms",
+      "chest_pain",
+      "respiratory_distress",
+      "neurologic_deficit",
+      "vision_change",
+      "pregnancy",
+      "postpartum",
+      "poor_follow_up",
+      "sepsis",
+      "unstable_vitals"
+    ],
+    "source_card_ids": [
+      "medlineplus.high_blood_pressure",
+      "aha.hypertensive_emergency"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports hypertension education and hypertensive crisis threshold framing. AHA supports emergency escalation when very high blood pressure is accompanied by symptoms such as chest pain, dyspnea, back pain, weakness, vision change, or difficulty speaking. ED medication initiation and follow-up timing remain clinician-entered."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for BP threshold, symptom-screen, pregnancy/postpartum, medication-change, and follow-up timing boundaries before promotion."
+    }
+  },
+  {
+    "id": "hemorrhoids_uncomplicated_no_heavy_bleeding.diagnosis.diagnosis_summary.v1",
+    "phenotypes": [
+      "hemorrhoids_uncomplicated_no_heavy_bleeding"
+    ],
+    "section": "diagnosis",
+    "primitive_type": "diagnosis_summary",
+    "priority": "required",
+    "text": {
+      "en_4": "You were treated for hemorrhoids.",
+      "en_6": "You were treated for hemorrhoids.",
+      "en_hl1": "You were treated for hemorrhoids."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.hemorrhoids",
+      "niddk.hemorrhoids_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus and NIDDK support hemorrhoid self-care with fiber, fluids, warm baths, gentle local care, and clinician-recommended medicines. NIDDK supports urgent care for severe anal pain with rectal bleeding, especially with abdominal pain, diarrhea, or fever. Heavy bleeding, thrombosis/prolapse decisions, malignancy concern, and procedural planning remain clinician-governed."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for heavy-bleeding threshold, thrombosis/prolapse handling, malignancy/IBD exclusion, anticoagulation, and follow-up language before promotion."
+    }
+  },
+  {
+    "id": "hemorrhoids_uncomplicated_no_heavy_bleeding.what_we_found.reassuring_ed_assessment.v1",
+    "phenotypes": [
+      "hemorrhoids_uncomplicated_no_heavy_bleeding"
+    ],
+    "section": "what_we_found",
+    "primitive_type": "reassuring_ed_assessment",
+    "priority": "required",
+    "text": {
+      "en_4": "Your clinician found hemorrhoids and did not find signs of heavy bleeding, infection, or another emergency cause today.",
+      "en_6": "Your clinician found hemorrhoids and did not find signs of heavy bleeding, infection, or another emergency cause today.",
+      "en_hl1": "Your clinician found hemorrhoids and did not find signs of heavy bleeding, infection, or another emergency cause today."
+    },
+    "contraindications": [
+      "hemorrhoid_heavy_bleeding",
+      "anticoagulated",
+      "syncope",
+      "unstable_vitals",
+      "gi_bleeding",
+      "severe_or_focal_abdominal_pain",
+      "fever",
+      "perianal_sepsis_or_abscess_concern",
+      "hemorrhoid_thrombosis_or_irreducible_prolapse",
+      "cancer_red_flag",
+      "pregnancy",
+      "immunocompromised",
+      "poor_follow_up"
+    ],
+    "source_card_ids": [
+      "medlineplus.hemorrhoids",
+      "niddk.hemorrhoids_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus and NIDDK support hemorrhoid self-care with fiber, fluids, warm baths, gentle local care, and clinician-recommended medicines. NIDDK supports urgent care for severe anal pain with rectal bleeding, especially with abdominal pain, diarrhea, or fever. Heavy bleeding, thrombosis/prolapse decisions, malignancy concern, and procedural planning remain clinician-governed."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for heavy-bleeding threshold, thrombosis/prolapse handling, malignancy/IBD exclusion, anticoagulation, and follow-up language before promotion."
+    }
+  },
+  {
+    "id": "hemorrhoids_uncomplicated_no_heavy_bleeding.home_care.home_care_1.v1",
+    "phenotypes": [
+      "hemorrhoids_uncomplicated_no_heavy_bleeding"
+    ],
+    "section": "home_care",
+    "primitive_type": "home_care_1",
+    "priority": "high",
+    "text": {
+      "en_4": "Avoid straining on the toilet.",
+      "en_6": "Avoid straining on the toilet.",
+      "en_hl1": "Avoid straining on the toilet."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.hemorrhoids",
+      "niddk.hemorrhoids_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus and NIDDK support hemorrhoid self-care with fiber, fluids, warm baths, gentle local care, and clinician-recommended medicines. NIDDK supports urgent care for severe anal pain with rectal bleeding, especially with abdominal pain, diarrhea, or fever. Heavy bleeding, thrombosis/prolapse decisions, malignancy concern, and procedural planning remain clinician-governed."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for heavy-bleeding threshold, thrombosis/prolapse handling, malignancy/IBD exclusion, anticoagulation, and follow-up language before promotion."
+    }
+  },
+  {
+    "id": "hemorrhoids_uncomplicated_no_heavy_bleeding.home_care.home_care_2.v1",
+    "phenotypes": [
+      "hemorrhoids_uncomplicated_no_heavy_bleeding"
+    ],
+    "section": "home_care",
+    "primitive_type": "home_care_2",
+    "priority": "high",
+    "text": {
+      "en_4": "Drink fluids and add fiber as tolerated to keep stool soft.",
+      "en_6": "Drink fluids and add fiber as tolerated to keep stool soft.",
+      "en_hl1": "Drink fluids and add fiber as tolerated to keep stool soft."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.hemorrhoids",
+      "niddk.hemorrhoids_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus and NIDDK support hemorrhoid self-care with fiber, fluids, warm baths, gentle local care, and clinician-recommended medicines. NIDDK supports urgent care for severe anal pain with rectal bleeding, especially with abdominal pain, diarrhea, or fever. Heavy bleeding, thrombosis/prolapse decisions, malignancy concern, and procedural planning remain clinician-governed."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for heavy-bleeding threshold, thrombosis/prolapse handling, malignancy/IBD exclusion, anticoagulation, and follow-up language before promotion."
+    }
+  },
+  {
+    "id": "hemorrhoids_uncomplicated_no_heavy_bleeding.home_care.home_care_3.v1",
+    "phenotypes": [
+      "hemorrhoids_uncomplicated_no_heavy_bleeding"
+    ],
+    "section": "home_care",
+    "primitive_type": "home_care_3",
+    "priority": "high",
+    "text": {
+      "en_4": "Warm sitz baths may help discomfort.",
+      "en_6": "Warm sitz baths may help discomfort.",
+      "en_hl1": "Warm sitz baths may help discomfort."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.hemorrhoids",
+      "niddk.hemorrhoids_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus and NIDDK support hemorrhoid self-care with fiber, fluids, warm baths, gentle local care, and clinician-recommended medicines. NIDDK supports urgent care for severe anal pain with rectal bleeding, especially with abdominal pain, diarrhea, or fever. Heavy bleeding, thrombosis/prolapse decisions, malignancy concern, and procedural planning remain clinician-governed."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for heavy-bleeding threshold, thrombosis/prolapse handling, malignancy/IBD exclusion, anticoagulation, and follow-up language before promotion."
+    }
+  },
+  {
+    "id": "hemorrhoids_uncomplicated_no_heavy_bleeding.medications.medication_guidance_1.v1",
+    "phenotypes": [
+      "hemorrhoids_uncomplicated_no_heavy_bleeding"
+    ],
+    "section": "medications",
+    "primitive_type": "medication_guidance_1",
+    "priority": "high",
+    "text": {
+      "en_4": "Use hemorrhoid creams, suppositories, stool softeners, or pain medicine only as prescribed or recommended by your clinician.",
+      "en_6": "Use hemorrhoid creams, suppositories, stool softeners, or pain medicine only as prescribed or recommended by your clinician.",
+      "en_hl1": "Use hemorrhoid creams, suppositories, stool softeners, or pain medicine only as prescribed or recommended by your clinician."
+    },
+    "contraindications": [
+      "hemorrhoid_heavy_bleeding",
+      "anticoagulated",
+      "syncope",
+      "unstable_vitals",
+      "gi_bleeding",
+      "severe_or_focal_abdominal_pain",
+      "fever",
+      "perianal_sepsis_or_abscess_concern",
+      "hemorrhoid_thrombosis_or_irreducible_prolapse",
+      "cancer_red_flag",
+      "pregnancy",
+      "immunocompromised",
+      "poor_follow_up"
+    ],
+    "source_card_ids": [
+      "medlineplus.hemorrhoids",
+      "niddk.hemorrhoids_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus and NIDDK support hemorrhoid self-care with fiber, fluids, warm baths, gentle local care, and clinician-recommended medicines. NIDDK supports urgent care for severe anal pain with rectal bleeding, especially with abdominal pain, diarrhea, or fever. Heavy bleeding, thrombosis/prolapse decisions, malignancy concern, and procedural planning remain clinician-governed."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for heavy-bleeding threshold, thrombosis/prolapse handling, malignancy/IBD exclusion, anticoagulation, and follow-up language before promotion."
+    }
+  },
+  {
+    "id": "hemorrhoids_uncomplicated_no_heavy_bleeding.medications.medication_guidance_2.v1",
+    "phenotypes": [
+      "hemorrhoids_uncomplicated_no_heavy_bleeding"
+    ],
+    "section": "medications",
+    "primitive_type": "medication_guidance_2",
+    "priority": "high",
+    "text": {
+      "en_4": "Do not use extra laxatives or rectal medicines unless your clinician told you to.",
+      "en_6": "Do not use extra laxatives or rectal medicines unless your clinician told you to.",
+      "en_hl1": "Do not use extra laxatives or rectal medicines unless your clinician told you to."
+    },
+    "contraindications": [
+      "hemorrhoid_heavy_bleeding",
+      "anticoagulated",
+      "syncope",
+      "unstable_vitals",
+      "gi_bleeding",
+      "severe_or_focal_abdominal_pain",
+      "fever",
+      "perianal_sepsis_or_abscess_concern",
+      "hemorrhoid_thrombosis_or_irreducible_prolapse",
+      "cancer_red_flag",
+      "pregnancy",
+      "immunocompromised",
+      "poor_follow_up"
+    ],
+    "source_card_ids": [
+      "medlineplus.hemorrhoids",
+      "niddk.hemorrhoids_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus and NIDDK support hemorrhoid self-care with fiber, fluids, warm baths, gentle local care, and clinician-recommended medicines. NIDDK supports urgent care for severe anal pain with rectal bleeding, especially with abdominal pain, diarrhea, or fever. Heavy bleeding, thrombosis/prolapse decisions, malignancy concern, and procedural planning remain clinician-governed."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for heavy-bleeding threshold, thrombosis/prolapse handling, malignancy/IBD exclusion, anticoagulation, and follow-up language before promotion."
+    }
+  },
+  {
+    "id": "hemorrhoids_uncomplicated_no_heavy_bleeding.return_precautions.return_precaution_1.v1",
+    "phenotypes": [
+      "hemorrhoids_uncomplicated_no_heavy_bleeding"
+    ],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_1",
+    "priority": "required",
+    "text": {
+      "en_4": "Heavy rectal bleeding, dizziness, fainting, or weakness.",
+      "en_6": "Heavy rectal bleeding, dizziness, fainting, or weakness.",
+      "en_hl1": "Heavy rectal bleeding, dizziness, fainting, or weakness."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.hemorrhoids",
+      "niddk.hemorrhoids_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus and NIDDK support hemorrhoid self-care with fiber, fluids, warm baths, gentle local care, and clinician-recommended medicines. NIDDK supports urgent care for severe anal pain with rectal bleeding, especially with abdominal pain, diarrhea, or fever. Heavy bleeding, thrombosis/prolapse decisions, malignancy concern, and procedural planning remain clinician-governed."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for heavy-bleeding threshold, thrombosis/prolapse handling, malignancy/IBD exclusion, anticoagulation, and follow-up language before promotion."
+    }
+  },
+  {
+    "id": "hemorrhoids_uncomplicated_no_heavy_bleeding.return_precautions.return_precaution_2.v1",
+    "phenotypes": [
+      "hemorrhoids_uncomplicated_no_heavy_bleeding"
+    ],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_2",
+    "priority": "required",
+    "text": {
+      "en_4": "Severe or worsening anal pain, fever, spreading redness, pus, or foul odor.",
+      "en_6": "Severe or worsening anal pain, fever, spreading redness, pus, or foul odor.",
+      "en_hl1": "Severe or worsening anal pain, fever, spreading redness, pus, or foul odor."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.hemorrhoids",
+      "niddk.hemorrhoids_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus and NIDDK support hemorrhoid self-care with fiber, fluids, warm baths, gentle local care, and clinician-recommended medicines. NIDDK supports urgent care for severe anal pain with rectal bleeding, especially with abdominal pain, diarrhea, or fever. Heavy bleeding, thrombosis/prolapse decisions, malignancy concern, and procedural planning remain clinician-governed."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for heavy-bleeding threshold, thrombosis/prolapse handling, malignancy/IBD exclusion, anticoagulation, and follow-up language before promotion."
+    }
+  },
+  {
+    "id": "hemorrhoids_uncomplicated_no_heavy_bleeding.return_precautions.return_precaution_3.v1",
+    "phenotypes": [
+      "hemorrhoids_uncomplicated_no_heavy_bleeding"
+    ],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_3",
+    "priority": "required",
+    "text": {
+      "en_4": "Belly pain with rectal bleeding, black stool, or blood mixed throughout the stool.",
+      "en_6": "Belly pain with rectal bleeding, black stool, or blood mixed throughout the stool.",
+      "en_hl1": "Belly pain with rectal bleeding, black stool, or blood mixed throughout the stool."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.hemorrhoids",
+      "niddk.hemorrhoids_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus and NIDDK support hemorrhoid self-care with fiber, fluids, warm baths, gentle local care, and clinician-recommended medicines. NIDDK supports urgent care for severe anal pain with rectal bleeding, especially with abdominal pain, diarrhea, or fever. Heavy bleeding, thrombosis/prolapse decisions, malignancy concern, and procedural planning remain clinician-governed."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for heavy-bleeding threshold, thrombosis/prolapse handling, malignancy/IBD exclusion, anticoagulation, and follow-up language before promotion."
+    }
+  },
+  {
+    "id": "hemorrhoids_uncomplicated_no_heavy_bleeding.follow_up.default_follow_up.v1",
+    "phenotypes": [
+      "hemorrhoids_uncomplicated_no_heavy_bleeding"
+    ],
+    "section": "follow_up",
+    "primitive_type": "default_follow_up",
+    "priority": "required",
+    "text": {
+      "en_4": "Follow up with primary care, gastroenterology, or surgery as instructed, especially if symptoms do not improve.",
+      "en_6": "Follow up with primary care, gastroenterology, or surgery as instructed, especially if symptoms do not improve.",
+      "en_hl1": "Follow up with primary care, gastroenterology, or surgery as instructed, especially if symptoms do not improve."
+    },
+    "contraindications": [
+      "hemorrhoid_heavy_bleeding",
+      "anticoagulated",
+      "syncope",
+      "unstable_vitals",
+      "gi_bleeding",
+      "severe_or_focal_abdominal_pain",
+      "fever",
+      "perianal_sepsis_or_abscess_concern",
+      "hemorrhoid_thrombosis_or_irreducible_prolapse",
+      "cancer_red_flag",
+      "pregnancy",
+      "immunocompromised",
+      "poor_follow_up"
+    ],
+    "source_card_ids": [
+      "medlineplus.hemorrhoids",
+      "niddk.hemorrhoids_treatment"
+    ],
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus and NIDDK support hemorrhoid self-care with fiber, fluids, warm baths, gentle local care, and clinician-recommended medicines. NIDDK supports urgent care for severe anal pain with rectal bleeding, especially with abdominal pain, diarrhea, or fever. Heavy bleeding, thrombosis/prolapse decisions, malignancy concern, and procedural planning remain clinician-governed."
+    },
+    "review": {
+      "status": "needs_review",
+      "reviewer": null,
+      "last_reviewed": null,
+      "notes": "Draft only. Needs EM clinician review for heavy-bleeding threshold, thrombosis/prolapse handling, malignancy/IBD exclusion, anticoagulation, and follow-up language before promotion."
+    }
+  },
+  {
     "id": "contact_dermatitis_uncomplicated.diagnosis.diagnosis_summary.v1",
     "phenotypes": [
       "contact_dermatitis_uncomplicated"

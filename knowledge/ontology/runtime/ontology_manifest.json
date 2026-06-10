@@ -487,6 +487,71 @@
       }
     },
     {
+      "id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "label": "Asymptomatic elevated blood pressure without end-organ symptoms",
+      "status": "draft",
+      "review_status": "needs_review",
+      "version": 1,
+      "condition_terms": [
+        "asymptomatic elevated blood pressure",
+        "asymptomatic elevated blood pressure no end organ symptoms",
+        "asymptomatic elevated blood pressure without end-organ symptoms",
+        "asymptomatic hypertension",
+        "elevated blood pressure",
+        "high blood pressure",
+        "hypertension"
+      ],
+      "unsafe_modifiers": [
+        "hypertensive_crisis_threshold",
+        "hypertension_end_organ_symptoms",
+        "chest_pain",
+        "respiratory_distress",
+        "neurologic_deficit",
+        "vision_change",
+        "pregnancy",
+        "postpartum",
+        "poor_follow_up",
+        "sepsis",
+        "unstable_vitals"
+      ],
+      "required_context": [
+        {
+          "id": "asymptomatic_elevated_bp_documented",
+          "terms": [
+            "asymptomatic elevated blood pressure",
+            "asymptomatic hypertension",
+            "no symptoms from blood pressure",
+            "no end organ symptoms",
+            "no hypertensive emergency symptoms"
+          ]
+        },
+        {
+          "id": "outpatient_follow_up_plan_documented",
+          "terms": [
+            "follow up for blood pressure",
+            "primary care blood pressure follow up",
+            "bp recheck plan",
+            "blood pressure recheck plan",
+            "outpatient follow up plan"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "asymptomatic elevated blood pressure",
+        "asymptomatic hypertension",
+        "no hypertensive emergency symptoms"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true,
+        "notes": "MedlinePlus supports hypertension education and hypertensive crisis threshold framing. AHA supports emergency escalation when very high blood pressure is accompanied by symptoms such as chest pain, dyspnea, back pain, weakness, vision change, or difficulty speaking. ED medication initiation and follow-up timing remain clinician-entered."
+      }
+    },
+    {
       "id": "cellulitis_uncomplicated_oral_antibiotics",
       "label": "Uncomplicated cellulitis treated as outpatient",
       "status": "reviewed",
@@ -1223,6 +1288,146 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "MedlinePlus supports oral rehydration, gradual diet advancement, hygiene, and return precautions for dehydration, blood in stool, fever, and severe abdominal pain."
+      }
+    },
+    {
+      "id": "hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "label": "Uncomplicated hemorrhoids without heavy bleeding or infection concern",
+      "status": "draft",
+      "review_status": "needs_review",
+      "version": 1,
+      "condition_terms": [
+        "hemorrhoid",
+        "hemorrhoids",
+        "hemorrhoids uncomplicated",
+        "hemorrhoids uncomplicated no heavy bleeding",
+        "rectal hemorrhoids",
+        "uncomplicated hemorrhoids",
+        "uncomplicated hemorrhoids without heavy bleeding or infection concern"
+      ],
+      "unsafe_modifiers": [
+        "hemorrhoid_heavy_bleeding",
+        "anticoagulated",
+        "syncope",
+        "unstable_vitals",
+        "gi_bleeding",
+        "severe_or_focal_abdominal_pain",
+        "fever",
+        "perianal_sepsis_or_abscess_concern",
+        "hemorrhoid_thrombosis_or_irreducible_prolapse",
+        "cancer_red_flag",
+        "pregnancy",
+        "immunocompromised",
+        "poor_follow_up"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_hemorrhoids",
+          "terms": [
+            "clinician diagnosis hemorrhoids",
+            "discharge diagnosis hemorrhoids",
+            "hemorrhoids diagnosed",
+            "diagnosed with hemorrhoids",
+            "discharge impression hemorrhoids"
+          ]
+        },
+        {
+          "id": "no_heavy_bleeding_or_infection_concern",
+          "terms": [
+            "no heavy bleeding",
+            "no infection concern",
+            "no emergency cause found",
+            "bleeding minimal",
+            "no perianal abscess concern"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis hemorrhoids",
+        "discharge diagnosis hemorrhoids",
+        "hemorrhoids uncomplicated"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true,
+        "notes": "MedlinePlus and NIDDK support hemorrhoid self-care with fiber, fluids, warm baths, gentle local care, and clinician-recommended medicines. NIDDK supports urgent care for severe anal pain with rectal bleeding, especially with abdominal pain, diarrhea, or fever. Heavy bleeding, thrombosis/prolapse decisions, malignancy concern, and procedural planning remain clinician-governed."
+      }
+    },
+    {
+      "id": "influenza_like_illness_stable_supportive_care",
+      "label": "Stable adult influenza-like illness with supportive-care discharge plan",
+      "status": "draft",
+      "review_status": "needs_review",
+      "version": 1,
+      "condition_terms": [
+        "flu",
+        "flu like illness",
+        "flu-like illness",
+        "influenza",
+        "influenza like illness stable supportive care",
+        "influenza-like illness",
+        "respiratory infection",
+        "stable adult influenza-like illness with supportive-care discharge plan"
+      ],
+      "unsafe_modifiers": [
+        "pregnancy",
+        "postpartum",
+        "high_risk_influenza_host",
+        "immunocompromised",
+        "elderly_frail",
+        "hypoxia",
+        "respiratory_distress",
+        "resolved_dyspnea_not_documented",
+        "chest_pain",
+        "pneumonia",
+        "severe_dehydration",
+        "unable_to_tolerate_oral_fluids",
+        "sepsis",
+        "unstable_vitals",
+        "antiviral_prescribed_or_indicated"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_influenza_like_illness",
+          "terms": [
+            "clinician diagnosis influenza-like illness",
+            "clinician diagnosis flu-like illness",
+            "discharge diagnosis influenza",
+            "discharge diagnosis flu",
+            "discharge impression influenza-like illness",
+            "flu-like illness diagnosed",
+            "influenza diagnosed"
+          ]
+        },
+        {
+          "id": "stable_respiratory_and_hydration_status",
+          "terms": [
+            "breathing comfortable",
+            "breathing comfortably",
+            "oxygen level acceptable",
+            "hydration reassuring",
+            "tolerating fluids",
+            "safe for home care"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis influenza-like illness",
+        "discharge diagnosis influenza",
+        "influenza like illness stable supportive care"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": true,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": true,
+        "notes": "CDC and MedlinePlus support flu symptom framing, home supportive care for mild illness, staying home while ill, emergency warning signs, high-risk host escalation, and antiviral treatment concepts. Antiviral medication selection and dosing remain clinician-entered only."
       }
     },
     {

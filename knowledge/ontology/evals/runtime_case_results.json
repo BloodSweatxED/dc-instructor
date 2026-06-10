@@ -7775,6 +7775,220 @@
     }
   },
   {
+    "case_id": "phase900_flu_like_illness_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "influenza_like_illness_stable_supportive_care",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "flu",
+        "influenza",
+        "influenza like illness"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "case_id": "phase901_flu_like_illness_missing_diagnosis_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "influenza_like_illness_stable_supportive_care",
+      "confidence": 0.594,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_influenza_like_illness"
+      ],
+      "modifiers": [
+        "flu"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase902_flu_like_illness_high_risk_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "influenza_like_illness_stable_supportive_care",
+      "confidence": 0.78,
+      "exclusions": [
+        "high_risk_influenza_host"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "flu",
+        "influenza",
+        "influenza like illness"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase903_flu_like_illness_antiviral_plan_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "influenza_like_illness_stable_supportive_care",
+      "confidence": 0.78,
+      "exclusions": [
+        "antiviral_prescribed_or_indicated"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "flu",
+        "influenza",
+        "influenza like illness"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase904_asymptomatic_elevated_bp_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "asymptomatic elevated blood pressure",
+        "elevated blood pressure"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "case_id": "phase905_asymptomatic_elevated_bp_missing_followup_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "outpatient_follow_up_plan_documented"
+      ],
+      "modifiers": [
+        "asymptomatic hypertension",
+        "hypertension"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase906_asymptomatic_elevated_bp_chest_pain_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "confidence": 0.78,
+      "exclusions": [
+        "chest_pain",
+        "hypertension_end_organ_symptoms"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "asymptomatic elevated blood pressure",
+        "elevated blood pressure"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase907_asymptomatic_elevated_bp_pregnancy_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+      "confidence": 0.78,
+      "exclusions": [
+        "pregnancy"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "asymptomatic hypertension",
+        "hypertension"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase908_hemorrhoids_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "hemorrhoid",
+        "hemorrhoids"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "case_id": "phase909_hemorrhoids_missing_diagnosis_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "confidence": 0.65,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_hemorrhoids"
+      ],
+      "modifiers": [
+        "hemorrhoid",
+        "hemorrhoids"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase910_hemorrhoids_heavy_bleeding_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "confidence": 0.78,
+      "exclusions": [
+        "hemorrhoid_heavy_bleeding"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "hemorrhoid",
+        "hemorrhoids"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase911_hemorrhoids_abscess_concern_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "hemorrhoids_uncomplicated_no_heavy_bleeding",
+      "confidence": 0.78,
+      "exclusions": [
+        "fever",
+        "perianal_sepsis_or_abscess_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "hemorrhoid",
+        "hemorrhoids"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
     "case_id": "lumbar_clean_exact",
     "passed": true,
     "result": {

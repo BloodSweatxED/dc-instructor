@@ -1,0 +1,126 @@
+{
+  "id": "influenza_like_illness_stable_supportive_care",
+  "label": "Stable adult influenza-like illness with supportive-care discharge plan",
+  "status": "draft",
+  "condition_family": "respiratory_infection",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of influenza-like illness or flu.",
+    "Breathing, oxygen level, hydration, and vital signs acceptable for discharge.",
+    "No high-risk influenza host pathway, pregnancy pathway, pneumonia concern, or clinician-entered antiviral plan requiring tailored medication instructions."
+  ],
+  "exclusion_criteria": [
+    "Pregnancy or recent postpartum status.",
+    "High-risk host for influenza complications, including older age, chronic lung or heart disease, diabetes, renal or liver disease, immunocompromise, long-term care residence, or severe obesity.",
+    "Trouble breathing, unresolved dyspnea, hypoxia, chest pain, pneumonia concern, dehydration, inability to tolerate fluids, sepsis concern, or unstable vital signs.",
+    "Antiviral prescribed or clearly indicated, because medication-specific counseling must be clinician-entered."
+  ],
+  "must_not_miss": [
+    "Pneumonia.",
+    "Hypoxic respiratory failure.",
+    "Myocarditis or acute coronary syndrome when chest pain is present.",
+    "Pulmonary embolism.",
+    "Sepsis.",
+    "Pregnancy-related influenza risk."
+  ],
+  "default_follow_up": "Follow up with primary care or urgent care if symptoms are not improving, or sooner if your clinician gave you a specific recheck plan.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "influenza_like_illness_stable_supportive_care.diagnosis.diagnosis_summary.v1",
+    "influenza_like_illness_stable_supportive_care.what_we_found.reassuring_ed_assessment.v1",
+    "influenza_like_illness_stable_supportive_care.home_care.home_care_1.v1",
+    "influenza_like_illness_stable_supportive_care.home_care.home_care_2.v1",
+    "influenza_like_illness_stable_supportive_care.home_care.home_care_3.v1",
+    "influenza_like_illness_stable_supportive_care.medications.medication_guidance_1.v1",
+    "influenza_like_illness_stable_supportive_care.medications.medication_guidance_2.v1",
+    "influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_1.v1",
+    "influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_2.v1",
+    "influenza_like_illness_stable_supportive_care.return_precautions.return_precaution_3.v1",
+    "influenza_like_illness_stable_supportive_care.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.flu",
+    "cdc.flu_taking_care",
+    "cdc.flu_treatment"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": true,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": true,
+    "notes": "CDC and MedlinePlus support flu symptom framing, home supportive care for mild illness, staying home while ill, emergency warning signs, high-risk host escalation, and antiviral treatment concepts. Antiviral medication selection and dosing remain clinician-entered only."
+  },
+  "runtime": {
+    "condition_terms": [
+      "influenza like illness stable supportive care",
+      "influenza-like illness",
+      "flu like illness",
+      "flu-like illness",
+      "influenza",
+      "flu"
+    ],
+    "unsafe_modifiers": [
+      "pregnancy",
+      "postpartum",
+      "high_risk_influenza_host",
+      "immunocompromised",
+      "elderly_frail",
+      "hypoxia",
+      "respiratory_distress",
+      "resolved_dyspnea_not_documented",
+      "chest_pain",
+      "pneumonia",
+      "severe_dehydration",
+      "unable_to_tolerate_oral_fluids",
+      "sepsis",
+      "unstable_vitals",
+      "antiviral_prescribed_or_indicated"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_influenza_like_illness",
+        "terms": [
+          "clinician diagnosis influenza-like illness",
+          "clinician diagnosis flu-like illness",
+          "discharge diagnosis influenza",
+          "discharge diagnosis flu",
+          "discharge impression influenza-like illness",
+          "flu-like illness diagnosed",
+          "influenza diagnosed"
+        ]
+      },
+      {
+        "id": "stable_respiratory_and_hydration_status",
+        "terms": [
+          "breathing comfortable",
+          "breathing comfortably",
+          "oxygen level acceptable",
+          "hydration reassuring",
+          "tolerating fluids",
+          "safe for home care"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis influenza-like illness",
+      "discharge diagnosis influenza",
+      "influenza like illness stable supportive care"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "draft_only_until_reviewed"
+  },
+  "version": 1,
+  "review": {
+    "status": "needs_review",
+    "reviewer": null,
+    "last_reviewed": null,
+    "notes": "Draft only. Needs EM clinician review for high-risk host, pregnancy/postpartum, antiviral, dyspnea, and chest-pain boundaries before promotion."
+  }
+}

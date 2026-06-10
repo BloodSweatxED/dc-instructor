@@ -1,0 +1,15 @@
+{
+  "id": "cdc.flu_treatment",
+  "source": "CDC",
+  "title": "Treatment of Flu",
+  "url": "https://www.cdc.gov/flu/treatment/index.html",
+  "source_type": "government_guidance",
+  "license_notes": "Use as government source support for antiviral timing and high-risk treatment concepts. Medication selection and dosing remain clinician-entered.",
+  "supports": [
+    "Flu antiviral drugs may be a treatment option.",
+    "Antivirals work best when started early, ideally within two days after symptoms begin.",
+    "Antiviral treatment is especially important for people at higher risk of serious flu complications.",
+    "The ontology should not generate antiviral medication dosing unless clinician-entered."
+  ],
+  "use_policy": "evidence_support"
+}
