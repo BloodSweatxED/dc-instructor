@@ -6,7 +6,7 @@ Reviewed source gaps: 0.
 Draft source gaps: 0.
 Active draft phenotypes: 0.
 Approved low-confidence near misses: 12.
-Phase 20 runtime cases: 55.
+Phase 20 runtime cases: 57.
 
 Decision: phenotype expansion allowed.
 

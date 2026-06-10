@@ -3118,6 +3118,46 @@
     }
   },
   {
+    "case_id": "phase20_contact_dermatitis_uncomplicated_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "burn_or_chemical_wound",
+        "eye_or_genital_rash_location"
+      ],
+      "missing_required_context": [
+        "contact_trigger_or_distribution_documented",
+        "dangerous_rash_features_absent"
+      ],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+      "confidence": 0.78,
+      "exclusions": [
+        "bowel_obstruction_or_ileus_concern",
+        "persistent_vomiting",
+        "surgical_abdomen"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "constipation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
     "case_id": "phase20_sprain_vague_chief_complaint_fallback",
     "passed": true,
     "result": {

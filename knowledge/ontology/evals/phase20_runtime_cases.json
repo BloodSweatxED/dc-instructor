@@ -349,6 +349,22 @@
     "expected_exclusions": ["lisfranc_or_midfoot_concern", "cannot_ambulate_at_discharge"]
   },
   {
+    "id": "phase20_contact_dermatitis_uncomplicated_contradictory_note_blocks",
+    "condition": "contact dermatitis",
+    "ed_note": "Clinician diagnosis contact dermatitis after new soap exposure. No mucosal lesions, airway swelling, or infection concern, but genital rash and chemical burn were also documented.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["eye_or_genital_rash_location", "burn_or_chemical_wound"]
+  },
+  {
+    "id": "phase20_adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding_contradictory_note_blocks",
+    "condition": "constipation",
+    "ed_note": "Adult. Clinician diagnosis constipation. Reassuring ED assessment. Passing gas. No blood in stool. No black stool, but bowel obstruction concern and persistent vomiting were also documented.",
+    "expected_phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["bowel_obstruction_or_ileus_concern", "persistent_vomiting"]
+  },
+  {
     "id": "phase20_sprain_vague_chief_complaint_fallback",
     "condition": "knee pain",
     "ed_note": "Knee pain after twisting without final sprain diagnosis, x-ray result, or neurovascular documentation.",
