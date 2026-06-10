@@ -14,6 +14,7 @@ const SECTION_ORDER = [
 
 const NEGATIVE_CONTEXT = ['no ', 'denies ', 'without '];
 const NEGATION_PATTERN = /(?:\bno|\bdenies|\bwithout)\s+$/;
+const NEGATION_SUFFIX_PATTERN = /^\s*(?:absent|not present|negative)\b/;
 const DIAGNOSTIC_NEGATION_PREFIX =
   /(?:\bno|\bdenies|\bwithout|\bruled out|\bnot consistent with)\s+(?:\w+\s+){0,4}$/;
 const DIAGNOSTIC_NEGATION_SUFFIX =
@@ -68,6 +69,30 @@ const EXCLUSION_RULES = {
     'multiple sinus infections this year',
   ],
   contact_lens_use: ['contact lens', 'contacts', 'contact lenses'],
+  contact_dermatitis_infection_concern: [
+    'cellulitis',
+    'skin infection',
+    'purulent',
+    'pus',
+    'spreading redness',
+    'red streaks',
+    'worsening warmth',
+    'warmth and fever',
+  ],
+  frail_elderly_large_bsa_contact_dermatitis: [
+    'frail with large rash',
+    'elderly with large rash',
+    'large body surface area',
+    'large bsa',
+    'widespread contact dermatitis',
+  ],
+  occupational_recurrent_contact_dermatitis: [
+    'occupational exposure',
+    'workplace exposure',
+    'recurrent contact dermatitis at work',
+    'repeated work exposure',
+    'rash returns at work',
+  ],
   copd_or_asthma_exacerbation_pathway: [
     'copd exacerbation',
     'asthma exacerbation',
@@ -84,6 +109,15 @@ const EXCLUSION_RULES = {
   corneal_ulcer_or_keratitis_concern: ['corneal ulcer', 'keratitis', 'corneal infiltrate', 'white spot on cornea'],
   eye_trauma_or_foreign_body: ['eye trauma', 'foreign body', 'metal in eye', 'scratched eye', 'corneal abrasion', 'chemical splash'],
   diabetic_foot: ['diabetic foot'],
+  diabetes_general_risk: ['diabetes', 'diabetic', 'poor glycemic control', 'poorly controlled diabetes'],
+  peripheral_vascular_disease: ['peripheral vascular disease', 'pvd', 'poor circulation', 'vascular insufficiency'],
+  delayed_wound_presentation: ['delayed presentation', 'wound older than 6 hours', 'wound older than 8 hours', 'delayed wound care'],
+  watchful_waiting_follow_up_unreliable: [
+    'watchful waiting with unreliable follow up',
+    'watchful waiting no follow up access',
+    'unable to follow up for watchful waiting',
+    'no reliable follow up for watchful waiting',
+  ],
   dirty_wound: ['dirty wound', 'contaminated wound', 'soil', 'rusty', 'crush injury'],
   drooling: ['drooling', 'cannot handle secretions'],
   elderly_frail: ['frail', 'elderly', 'nursing home'],
@@ -104,6 +138,8 @@ const EXCLUSION_RULES = {
   fracture_seen: ['fracture seen', 'broken bone', 'ankle fracture', 'distal fibula fracture', 'distal tibia fracture'],
   facial_or_nasal_trauma: ['facial trauma', 'nasal trauma', 'nose injury', 'hit in nose', 'nasal fracture'],
   gi_bleeding: ['bloody stool', 'black stool', 'blood in stool', 'vomit blood', 'coffee grounds'],
+  abdominal_distention: ['abdominal distention', 'distended abdomen', 'swollen belly', 'belly swelling', 'bloating with pain'],
+  bowel_obstruction_or_ileus_concern: ['bowel obstruction', 'intestinal obstruction', 'ileus', 'volvulus', 'obstruction concern'],
   hemoptysis: ['coughing blood', 'hemoptysis'],
   hypotension: ['hypotension', 'low blood pressure'],
   hypoxia: ['hypoxic', 'low oxygen', 'oxygen saturation 90', 'spo2 90', 'spo2 89'],
@@ -163,11 +199,16 @@ const EXCLUSION_RULES = {
   poor_follow_up: ['homeless', 'unable to follow up', 'poor follow up', 'no phone'],
   poor_inhaler_access: ['no inhaler', 'lost inhaler', 'cannot afford inhaler', 'no rescue inhaler', 'no access to inhaler'],
   persistent_vomiting: ['persistent vomiting', 'repeated vomiting', 'vomiting repeatedly'],
+  fecal_impaction_procedure_plan: ['fecal impaction', 'disimpaction', 'manual disimpaction', 'enema plan', 'enema in ed'],
+  no_flatus: ['no flatus', 'not passing gas', 'cannot pass gas', 'unable to pass gas'],
+  nursing_home_patient: ['nursing home', 'long term care', 'skilled nursing facility'],
+  opioid_induced_constipation: ['opioid induced constipation', 'opioid-induced constipation', 'constipation from opioids', 'taking oxycodone', 'taking morphine', 'taking hydromorphone'],
   pregnancy: ['is pregnant', 'patient is pregnant', 'pregnancy'],
   pneumonia: ['pneumonia', 'infiltrate', 'consolidation'],
   positive_strep_test: ['positive strep', 'strep positive', 'positive rapid strep'],
   rapid_progression: ['rapidly spreading', 'rapid progression'],
   severe_eye_pain: ['severe eye pain', 'significant eye pain', 'deep eye pain'],
+  severe_or_focal_abdominal_pain: ['severe abdominal pain', 'severe belly pain', 'localized abdominal pain', 'focal abdominal pain', 'one-sided abdominal pain'],
   sepsis: ['sepsis', 'septic', 'shock'],
   specialist_directed_ent_plan: ['ent consulted', 'ent directed plan', 'otolaryngology follow up', 'specialist directed ent plan'],
   specialist_directed_wound_plan: ['hand surgery consulted', 'plastic surgery consulted', 'specialist directed wound plan', 'wound clinic plan'],
@@ -188,7 +229,21 @@ const EXCLUSION_RULES = {
   spinal_infection_concern: ['ivdu', 'injection drug', 'epidural abscess', 'spinal infection', 'fever with back pain'],
   surgical_abdomen: ['appendicitis', 'obstruction', 'peritonitis', 'surgical abdomen', 'localized abdominal pain'],
   trismus: ['trismus', 'cannot open mouth'],
-  hand_tendon_risk: ['tendon injury', 'cannot extend', 'cannot flex', 'hand laceration', 'finger laceration'],
+  hand_tendon_risk: [
+    'tendon injury',
+    'cannot extend',
+    'cannot flex',
+    'cannot extend finger',
+    'cannot flex fingertip',
+    'finger droop',
+    'mallet finger',
+    'distal extensor avulsion',
+    'jersey finger',
+    'flexor digitorum profundus avulsion',
+    'fdp avulsion',
+    'hand laceration',
+    'finger laceration',
+  ],
   high_risk_wound_location: [
     'face wound',
     'facial wound',
@@ -208,11 +263,141 @@ const EXCLUSION_RULES = {
   high_energy_trauma: ['high energy trauma', 'motor vehicle crash', 'mvc', 'fall from height', 'pedestrian struck'],
   tendon_or_ligament_rupture_concern: ['tendon rupture', 'ligament rupture', 'complete tear', 'unable to extend', 'unable to flex'],
   scaphoid_tenderness_pattern: ['snuffbox tenderness', 'scaphoid tenderness', 'scaphoid fracture concern'],
+  foosh_scaphoid_risk: [
+    'foosh',
+    'fall on outstretched hand',
+    'fell on outstretched hand',
+    'thumb side wrist pain after fall',
+  ],
+  lisfranc_or_midfoot_concern: [
+    'lisfranc',
+    'midfoot instability',
+    'midfoot injury concern',
+    'plantar ecchymosis',
+    'bruising on the bottom of the foot',
+    'midfoot pain',
+  ],
+  acute_hemarthrosis_or_large_effusion: [
+    'acute hemarthrosis',
+    'hemarthrosis',
+    'large knee effusion',
+    'tense knee effusion',
+    'rapid knee swelling',
+    'large effusion',
+  ],
   compartment_syndrome_concern: ['compartment syndrome', 'pain out of proportion', 'tight swelling', 'hard swelling'],
   septic_joint_or_infection_concern: ['septic joint', 'hot joint', 'joint infection', 'fever with joint pain', 'red warm joint'],
   unable_to_bear_weight_lower_extremity: ['unable to bear weight', 'cannot bear weight', 'cannot walk', 'non weight bearing'],
+  cannot_ambulate_at_discharge: [
+    'unable to ambulate at discharge',
+    'cannot ambulate at discharge',
+    'discharged non ambulatory',
+    'discharged non-ambulatory',
+    'left non weight bearing',
+    'left non-weight-bearing',
+    'non ambulatory at discharge',
+    'non-ambulatory at discharge',
+  ],
+  acute_traumatic_elbow_mechanism: [
+    'acute traumatic mechanism',
+    'acute trauma',
+    'direct blow',
+    'fall onto elbow',
+    'fell onto elbow',
+    'sudden injury',
+    'acute injury',
+  ],
+  overuse_or_repetitive_mechanism: [
+    'overuse',
+    'repetitive mechanism',
+    'repetitive use',
+    'repetitive motion',
+    'chronic elbow overuse',
+    'subacute elbow overuse',
+    'tennis elbow',
+    'golfer elbow',
+    'golfers elbow',
+    'lateral epicondylitis',
+    'medial epicondylitis',
+  ],
+  elbow_instability_or_ucl_lcl_concern: [
+    'elbow instability concern',
+    'elbow instability',
+    'unstable elbow',
+    'ucl concern',
+    'ucl injury',
+    'ulnar collateral ligament concern',
+    'lcl concern',
+    'lcl injury',
+    'lateral collateral ligament concern',
+    'valgus instability',
+    'varus instability',
+    'throwing athlete ucl concern',
+  ],
+  distal_biceps_or_triceps_concern: [
+    'distal biceps concern',
+    'distal biceps tendon concern',
+    'biceps tendon rupture',
+    'biceps tendon tear',
+    'triceps tendon concern',
+    'triceps tendon rupture',
+    'triceps tendon tear',
+    'pop at the elbow',
+    'weakness in supination',
+    'weakness twisting the forearm',
+    'weakness bending the elbow',
+    'weakness straightening the elbow',
+    'weakness pronating forearm',
+    'unable to supinate',
+    'unable to pronate',
+    'unable to extend elbow',
+    'unable to flex elbow',
+  ],
+  ulnar_nerve_pattern: [
+    'ulnar nerve symptoms',
+    'ulnar nerve pattern',
+    'cubital tunnel',
+    'ring finger numbness',
+    'pinky numbness',
+    'little finger numbness',
+    'ring and little finger numbness',
+    'ring and pinky numbness',
+    'tingling in ring finger',
+    'tingling in pinky',
+    'hand intrinsic weakness',
+  ],
+  olecranon_bursitis_pathway: [
+    'olecranon bursitis',
+    'elbow bursitis',
+    'swollen bursa',
+    'posterior elbow swelling',
+    'swelling over olecranon',
+    'swollen painful bump over the back of the elbow',
+    'fluid over the elbow',
+  ],
+  hand_motor_deficit: [
+    'hand motor deficit',
+    'hand weakness',
+    'weak grip',
+    'grip weakness',
+    'cannot grip',
+    'unable to grip',
+    'finger weakness',
+    'cannot spread fingers',
+  ],
+  wrist_site_pending_split: ['wrist sprain', 'wrist strain', 'wrist sprain xray negative', 'wrist strain xray negative'],
+  elbow_or_foot_site_pending_split: [
+    'elbow sprain',
+    'elbow strain',
+    'elbow sprain xray negative',
+    'elbow strain xray negative',
+    'foot sprain',
+    'foot strain',
+    'foot sprain xray negative',
+    'foot strain xray negative',
+  ],
   pediatric_growth_plate_pathway: ['growth plate', 'salter harris', 'pediatric injury', 'child with sprain'],
-  elderly_osteoporotic_high_risk_msk: ['elderly knee sprain', 'elderly wrist sprain', 'elderly shoulder sprain', 'osteoporosis', 'osteoporotic'],
+  elderly_osteoporotic_high_risk_msk: ['osteoporosis', 'osteoporotic', 'fragility fracture history', 'low bone density'],
   specialist_directed_orthopedic_plan: ['orthopedics consulted', 'orthopedic plan', 'sports medicine consulted', 'specialist directed orthopedic plan'],
   retained_foreign_body: ['foreign body', 'glass retained', 'splinter retained', 'object stuck'],
   mastoiditis_or_deep_ear_infection_concern: ['mastoiditis', 'mastoid tenderness', 'redness behind ear', 'swelling behind ear', 'protruding ear'],
@@ -236,6 +421,26 @@ const EXCLUSION_RULES = {
   vision_change: ['vision change', 'blurred vision', 'vision loss', 'decreased vision', 'double vision'],
   vomiting_unable_to_take_meds: ['vomiting', 'cannot take pills', 'cannot keep meds down'],
   epinephrine_given: ['epinephrine given', 'epi given', 'epipen used', 'used epipen', 'received epinephrine'],
+  eye_or_genital_rash_location: [
+    'rash near eye',
+    'eyelid rash',
+    'eye involvement',
+    'genital rash',
+    'scrotal rash',
+    'vulvar rash',
+    'rash on genitals',
+  ],
+  severe_cutaneous_adverse_reaction: [
+    'stevens johnson',
+    'sjs',
+    'toxic epidermal necrolysis',
+    'ten',
+    'skin peeling',
+    'peeling skin',
+    'blistering rash',
+    'target lesions',
+    'mouth sores',
+  ],
   renal_failure: ['renal failure', 'kidney failure', 'aki', 'acute kidney injury', 'creatinine elevated'],
   respiratory_distress: ['respiratory distress', 'tripoding', 'unable to speak full sentences', 'accessory muscle use'],
   skull_fracture_concern: ['skull fracture', 'basilar skull', 'periorbital ecchymosis', 'csf leak'],
@@ -287,7 +492,8 @@ function hasNonNegated(text, term) {
     const idx = text.indexOf(term, start);
     if (idx < 0) return false;
     const window = text.slice(Math.max(0, idx - 16), idx);
-    if (!NEGATION_PATTERN.test(window)) return true;
+    const after = text.slice(idx + term.length, idx + term.length + 32);
+    if (!NEGATION_PATTERN.test(window) && !NEGATION_SUFFIX_PATTERN.test(after)) return true;
     start = idx + term.length;
   }
 }
@@ -307,10 +513,38 @@ function hasAffirmedConditionTerm(text, term) {
 function modifierHits(text, modifiers = []) {
   const hits = [];
   for (const modifier of modifiers) {
+    if (modifier === 'foosh_scaphoid_risk') {
+      const mechanismTerms = ['foosh', 'fall on outstretched hand', 'fell on outstretched hand'];
+      const scaphoidRiskTerms = [
+        'snuffbox tenderness',
+        'scaphoid tenderness',
+        'radial sided wrist pain',
+        'radial-sided wrist pain',
+        'thumb side wrist pain',
+        'thumb-side wrist pain',
+        'pain at the base of the thumb',
+        'inability to grip',
+        'unable to grip',
+        'cannot grip',
+      ];
+      if (mechanismTerms.some((term) => hasNonNegated(text, term)) && scaphoidRiskTerms.some((term) => hasNonNegated(text, term))) {
+        hits.push(modifier);
+      }
+      continue;
+    }
     const terms = EXCLUSION_RULES[modifier] || [modifier.replaceAll('_', ' ')];
     if (terms.some((term) => hasNonNegated(text, term))) hits.push(modifier);
   }
   return [...new Set(hits)].sort();
+}
+
+function outputModifierHits(text, outputModifiers = []) {
+  return outputModifiers
+    .filter((modifier) => {
+      const terms = EXCLUSION_RULES[modifier.id] || [modifier.id.replaceAll('_', ' ')];
+      return terms.some((term) => hasNonNegated(text, term));
+    })
+    .sort((a, b) => a.id.localeCompare(b.id));
 }
 
 function missingRequiredContexts(text, requiredContext = []) {
@@ -393,10 +627,11 @@ export function classifyOntology({ condition, edNoteScrubbed = '' }) {
   const scored = [];
   for (const phenotype of manifest.phenotypes || []) {
     const exclusions = modifierHits(text, phenotype.unsafe_modifiers);
+    const outputModifiers = outputModifierHits(text, phenotype.output_modifiers);
     const missingContext = missingRequiredContexts(text, phenotype.required_context);
     const { confidence, matched } = confidenceFor(text, phenotype, exclusions);
     if (!matched.length) continue;
-    scored.push({ phenotype, confidence, matched, exclusions, missingContext });
+    scored.push({ phenotype, confidence, matched, exclusions, missingContext, outputModifiers });
   }
   scored.sort((a, b) => b.confidence - a.confidence);
   const best = scored[0];
@@ -408,6 +643,7 @@ export function classifyOntology({ condition, edNoteScrubbed = '' }) {
       exclusions: [],
       missing_required_context: [],
       modifiers: [],
+      output_modifiers: [],
       fallback_reason: 'no_supported_phenotype_match',
     };
   }
@@ -426,6 +662,7 @@ export function classifyOntology({ condition, edNoteScrubbed = '' }) {
     exclusions: best.exclusions,
     missing_required_context: best.missingContext,
     modifiers: best.matched,
+    output_modifiers: best.outputModifiers,
     fallback_reason: fallbackReason,
   };
 }

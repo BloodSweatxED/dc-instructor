@@ -10,6 +10,7 @@ export default function OutputPanel({ instructions, setInstructions, image, imag
       : 'generator fallback';
   const medicationLabel = generationMeta?.medication_provenance?.label;
   const sourceCount = generationMeta?.source_cards_used?.length || 0;
+  const outputModifiers = generationMeta?.output_modifiers || [];
 
   const onCopy = async () => {
     try {
@@ -74,7 +75,13 @@ export default function OutputPanel({ instructions, setInstructions, image, imag
                   {generationMeta.phenotype_id ? ` | phenotype: ${generationMeta.phenotype_id}` : ''}
                   {generationMeta.fallback_reason ? ` | reason: ${generationMeta.fallback_reason}` : ''}
                   {medicationLabel ? ` | meds: ${medicationLabel}` : ''}
+                  {outputModifiers.length ? ` | modifiers: ${outputModifiers.map((item) => item.label || item.id).join(', ')}` : ''}
                   {sourceCount ? ` | sources: ${sourceCount}` : ''}
+                </div>
+              )}
+              {outputModifiers.length > 0 && (
+                <div className="px-2 py-1.5 rounded-md border border-warn/30 bg-warn/10 text-warn text-[11px] font-mono">
+                  Modifier review: {outputModifiers.map((item) => item.note || item.label || item.id).join(' ')}
                 </div>
               )}
             </div>

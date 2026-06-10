@@ -2,12 +2,13 @@
 
 Phenotype ID: `suture_removal_or_wound_check_no_infection`
 
-Status: `needs_review`
+Status: `reviewed`
 
 ## Inclusion Criteria
 
 - Adult with clinician-documented wound check, suture removal, or staple removal plan.
-- Clinician documents wound is healing as expected or ready for removal.
+- Clinician documents wound healing as expected or explicitly cleared the wound at this visit.
+- Clinician-entered wound follow-up plan is present.
 - No infection, dehiscence, retained foreign body, tendon/nerve/vascular risk, high-risk wound location, bite wound, open fracture, or specialist-directed wound plan.
 
 ## Exclusions
@@ -36,7 +37,6 @@ Status: `needs_review`
 - `suture_removal_or_wound_check_no_infection.home_care.home_care_4.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
 - `suture_removal_or_wound_check_no_infection.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: wound_infection_concern, wound_dehiscence, wound_not_ready_for_suture_removal, retained_foreign_body, hand_tendon_risk, joint_violation, high_risk_wound_location, open_fracture, bite_wound, dirty_wound, poor_follow_up, immunocompromised, diabetic_foot, pediatric_pathway, specialist_directed_wound_plan
 - `suture_removal_or_wound_check_no_infection.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: wound_infection_concern, wound_dehiscence, wound_not_ready_for_suture_removal, retained_foreign_body, hand_tendon_risk, joint_violation, high_risk_wound_location, open_fracture, bite_wound, dirty_wound, poor_follow_up, immunocompromised, diabetic_foot, pediatric_pathway, specialist_directed_wound_plan
-- `suture_removal_or_wound_check_no_infection.medications.medication_guidance_3.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: wound_infection_concern, wound_dehiscence, wound_not_ready_for_suture_removal, retained_foreign_body, hand_tendon_risk, joint_violation, high_risk_wound_location, open_fracture, bite_wound, dirty_wound, poor_follow_up, immunocompromised, diabetic_foot, pediatric_pathway, specialist_directed_wound_plan
 - `suture_removal_or_wound_check_no_infection.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
 - `suture_removal_or_wound_check_no_infection.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
 - `suture_removal_or_wound_check_no_infection.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
@@ -46,10 +46,10 @@ Status: `needs_review`
 
 ```text
 DIAGNOSIS:
-Your clinician checked your healing wound.
+Your clinician examined your wound.
 
 WHAT WE FOUND:
-Your clinician documented the wound is healing as expected and did not document infection, wound opening, or another wound red flag.
+Your clinician documented no signs of infection, wound opening, or other wound concern at this visit.
 
 WHAT TO DO AT HOME:
 - Keep the area clean and follow the wound care instructions your clinician gave you.
@@ -60,12 +60,11 @@ WHAT TO DO AT HOME:
 MEDICATIONS:
 - Use only the ointment, dressing supplies, or medicines your clinician prescribed or said are safe.
 - Do not start leftover antibiotics unless your clinician tells you to.
-- If you were prescribed antibiotics, do not stop them early unless your clinician tells you.
 
 RETURN TO ED IF:
 - Spreading redness, pus, red streaks, fever, worsening swelling, or worsening pain.
 - The wound opens, bleeds and will not stop, or stitches or staples come out too early.
-- New numbness, weakness, color change, or trouble moving the injured area.
+- New numbness, weakness, skin turning pale, blue, or very dark, or trouble moving the injured area.
 
 FOLLOW UP:
 Follow up on the wound schedule your clinician gave you. If no schedule was given and symptoms worsen or you are worried, arrange a recheck within 2 to 3 days.

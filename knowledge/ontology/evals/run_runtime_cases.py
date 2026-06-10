@@ -35,6 +35,9 @@ def run_case(case: dict[str, Any]) -> dict[str, Any]:
             expected in result.get("missing_required_context", []),
             f"{case['id']} missing required context {expected}: {result}",
         )
+    output_modifier_ids = [item["id"] for item in result.get("output_modifiers", [])]
+    for expected in case.get("expected_output_modifiers", []):
+        require(expected in output_modifier_ids, f"{case['id']} missing output modifier {expected}: {result}")
     return {"case_id": case["id"], "passed": True, "result": result}
 
 

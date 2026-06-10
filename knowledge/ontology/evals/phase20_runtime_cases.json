@@ -255,6 +255,30 @@
     "expected_fallback_reason": "no_supported_phenotype_match"
   },
   {
+    "id": "phase20_aom_contradictory_note_blocks",
+    "condition": "acute_otitis_media_uncomplicated",
+    "ed_note": "Adult discharge diagnosis acute otitis media. Clinician entered treatment plan. No ear red flags documented, but patient has neck stiffness and concern for venous sinus thrombosis.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["meningitis_or_cns_infection_concern", "lateral_sinus_thrombosis_concern"]
+  },
+  {
+    "id": "phase20_skin_avulsion_contradictory_note_blocks",
+    "condition": "skin_avulsion_or_abrasion_simple",
+    "ed_note": "Clinician diagnosis simple skin avulsion. Wound cleaned and dressed. No repair needed, but patient is immunocompromised with a bite wound.",
+    "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["bite_wound", "immunocompromised"]
+  },
+  {
+    "id": "phase20_suture_wound_check_contradictory_note_blocks",
+    "condition": "suture_removal_or_wound_check_no_infection",
+    "ed_note": "Clinician documented wound healing as expected. Wound schedule documented. No wound red flags documented, but there is pus and wound dehiscence.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["wound_dehiscence", "wound_infection_concern"]
+  },
+  {
     "id": "phase20_bronchitis_contradictory_note_blocks",
     "condition": "acute bronchitis no pneumonia",
     "ed_note": "Clinician diagnosis is acute bronchitis, but patient is hypoxic with respiratory distress and focal crackles.",
@@ -281,6 +305,53 @@
     "id": "phase20_sinusitis_vague_chief_complaint_fallback",
     "condition": "congestion",
     "ed_note": "Nasal congestion without final sinusitis diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_sprain_strain_knee_or_shoulder_xray_negative_contradictory_note_blocks",
+    "condition": "knee sprain xray negative",
+    "ed_note": "Knee sprain xray negative. X-ray performed and negative. Neurovascular exam intact, but ligament rupture concern and orthopedics consulted.",
+    "expected_phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["tendon_or_ligament_rupture_concern", "specialist_directed_orthopedic_plan"]
+  },
+  {
+    "id": "phase20_wrist_sprain_xray_negative_contradictory_note_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. No scaphoid tenderness, but scaphoid tenderness was also documented on recheck and orthopedics consulted.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["scaphoid_tenderness_pattern", "specialist_directed_orthopedic_plan"]
+  },
+  {
+    "id": "phase20_elbow_overuse_xray_negative_contradictory_note_blocks",
+    "condition": "elbow overuse strain xray negative",
+    "ed_note": "Adult with elbow overuse strain. X-ray performed and negative. Neurovascular exam intact including hand motor. No acute traumatic mechanism. No elbow instability concern, but direct blow elbow trauma and orthopedics consulted were also documented.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["acute_traumatic_elbow_mechanism", "specialist_directed_orthopedic_plan"]
+  },
+  {
+    "id": "phase20_elbow_acute_traumatic_xray_negative_contradictory_note_blocks",
+    "condition": "acute traumatic elbow sprain xray negative",
+    "ed_note": "Adult with acute traumatic elbow sprain after fall onto elbow. X-ray performed and negative. Neurovascular exam intact including hand motor. No tendon rupture concern. Elbow instability concern and orthopedics consulted were also documented.",
+    "expected_phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["elbow_instability_or_ucl_lcl_concern", "specialist_directed_orthopedic_plan"]
+  },
+  {
+    "id": "phase20_foot_sprain_xray_negative_contradictory_note_blocks",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Foot sprain xray negative. X-ray performed and negative. Neurovascular exam intact, but midfoot pain, plantar ecchymosis, and discharged non-ambulatory were also documented.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["lisfranc_or_midfoot_concern", "cannot_ambulate_at_discharge"]
+  },
+  {
+    "id": "phase20_sprain_vague_chief_complaint_fallback",
+    "condition": "knee pain",
+    "ed_note": "Knee pain after twisting without final sprain diagnosis, x-ray result, or neurovascular documentation.",
     "expected_phenotype_id": null,
     "expected_fallback_reason": "no_supported_phenotype_match"
   },

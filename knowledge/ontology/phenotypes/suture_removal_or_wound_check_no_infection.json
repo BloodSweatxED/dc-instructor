@@ -1,11 +1,12 @@
 {
   "id": "suture_removal_or_wound_check_no_infection",
   "label": "Suture removal or wound check without infection concern",
-  "status": "needs_review",
+  "status": "reviewed",
   "condition_family": "wound_care",
   "inclusion_criteria": [
     "Adult with clinician-documented wound check, suture removal, or staple removal plan.",
-    "Clinician documents wound is healing as expected or ready for removal.",
+    "Clinician documents wound healing as expected or explicitly cleared the wound at this visit.",
+    "Clinician-entered wound follow-up plan is present.",
     "No infection, dehiscence, retained foreign body, tendon/nerve/vascular risk, high-risk wound location, bite wound, open fracture, or specialist-directed wound plan."
   ],
   "exclusion_criteria": [
@@ -40,7 +41,6 @@
     "suture_removal_or_wound_check_no_infection.home_care.home_care_4.v1",
     "suture_removal_or_wound_check_no_infection.medications.medication_guidance_1.v1",
     "suture_removal_or_wound_check_no_infection.medications.medication_guidance_2.v1",
-    "suture_removal_or_wound_check_no_infection.medications.medication_guidance_3.v1",
     "suture_removal_or_wound_check_no_infection.return_precautions.return_precaution_1.v1",
     "suture_removal_or_wound_check_no_infection.return_precautions.return_precaution_2.v1",
     "suture_removal_or_wound_check_no_infection.return_precautions.return_precaution_3.v1",
@@ -53,9 +53,9 @@
   "source_audit": {
     "source_supported": true,
     "source_needed": false,
-    "clinician_judgment_only": true,
+    "clinician_judgment_only": false,
     "restricted_source_risk": false,
-    "unsafe_without_modifier": true,
+    "unsafe_without_modifier": false,
     "notes": "MedlinePlus supports suture/staple wound care, infection warning signs, and following clinician instructions for wound care and removal timing. It does not support autonomous ED decisions about whether a wound is ready for removal, so runtime requires clinician-documented readiness and no infection/dehiscence concern."
   },
   "runtime": {
@@ -84,10 +84,12 @@
     ],
     "required_context": [
       {
-        "id": "clinician_documented_wound_readiness",
+        "id": "clinician_documented_expected_healing_or_clearance",
         "terms": [
-          "clinician documented wound ready",
           "wound healing as expected",
+          "clinician documented wound healing as expected",
+          "wound cleared at this visit",
+          "clinician cleared wound at this visit",
           "ready for suture removal",
           "ready for staple removal",
           "clinician documented wound check"
@@ -119,14 +121,54 @@
       "staple removal no infection",
       "wound check no infection"
     ],
+    "output_modifiers": [
+      {
+        "id": "diabetes_general_risk",
+        "label": "Diabetes wound-healing modifier",
+        "note": "Flag higher infection/dehiscence risk and confirm clinician-entered follow-up."
+      },
+      {
+        "id": "peripheral_vascular_disease",
+        "label": "Peripheral vascular disease wound-healing modifier",
+        "note": "Flag slower healing risk and confirm clinician-entered follow-up."
+      },
+      {
+        "id": "anticoagulated",
+        "label": "Anticoagulation bleeding modifier",
+        "note": "Flag bleeding risk while preserving the no-infection wound-check pathway."
+      }
+    ],
     "minimum_confidence": 0.86,
-    "mode": "draft_only_until_reviewed"
+    "mode": "reviewed_ontology_enabled"
   },
   "version": 1,
   "review": {
-    "status": "needs_review",
-    "reviewer": null,
-    "last_reviewed": null,
-    "notes": "Phase 203 clinician review applied. Keep draft-only until final approval after revised runtime stress. Requires clinician-documented wound readiness and wound follow-up plan."
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Phase 222 clinician feedback applied. Approved for narrow ontology mode after antibiotics scope conflict was removed and runtime gate was tightened to expected healing or explicit wound clearance plus clinician-entered follow-up plan.",
+    "clinical_status": "reviewed_for_limited_production_ontology_use",
+    "required_modifiers": [],
+    "blocked_modifiers": [
+      "wound_infection_concern",
+      "wound_dehiscence",
+      "wound_not_ready_for_suture_removal",
+      "retained_foreign_body",
+      "hand_tendon_risk",
+      "joint_violation",
+      "high_risk_wound_location",
+      "open_fracture",
+      "bite_wound",
+      "dirty_wound",
+      "poor_follow_up",
+      "immunocompromised",
+      "diabetic_foot",
+      "pediatric_pathway",
+      "specialist_directed_wound_plan"
+    ]
   }
 }

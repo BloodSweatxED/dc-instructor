@@ -2,7 +2,7 @@
 
 Phenotype ID: `skin_avulsion_or_abrasion_simple`
 
-Status: `needs_review`
+Status: `reviewed`
 
 ## Inclusion Criteria
 
@@ -47,12 +47,12 @@ DIAGNOSIS:
 Your clinician diagnosed a simple skin abrasion, skin tear, or skin avulsion.
 
 WHAT WE FOUND:
-Your clinician documented a superficial skin wound without a repair need, retained foreign body concern, deep structure injury, infection concern, or other wound red flag.
+Your clinician documented a superficial skin wound without a repair need, retained foreign body concern, deep structure injury, infection concern, or other wound concern.
 
 WHAT TO DO AT HOME:
 - Keep the wound clean and follow the dressing plan your clinician gave you.
 - Do not scrub, pick, or peel the injured skin.
-- Protect the area from friction, soaking, or another injury while the skin is closing.
+- Protect the area from friction, soaking, or another injury while the skin heals.
 - Many abrasions heal new surface skin within 7 to 14 days. Skin tears and avulsions, especially in older adults, can take longer.
 
 MEDICATIONS:
@@ -62,8 +62,8 @@ MEDICATIONS:
 RETURN TO ED IF:
 - Spreading redness, pus, red streaks, fever, worsening swelling, or worsening pain.
 - Bleeding that will not stop with firm pressure or the wound starts opening wider.
-- New numbness, weakness, color change, trouble moving the area, or concern that something is stuck in the wound.
+- New numbness, weakness, skin turning pale, blue, or very dark, trouble moving the area, or if you think something may still be inside the wound.
 
 FOLLOW UP:
-Follow up with primary care, urgent care, wound clinic, or the ED in 2 to 3 days if the wound is not improving, or sooner if your clinician gave a specific schedule.
+Follow up with primary care, urgent care, wound clinic, or the ED if the wound is not improving after 2 to 3 days, or sooner if your clinician gave a specific schedule.
 ```

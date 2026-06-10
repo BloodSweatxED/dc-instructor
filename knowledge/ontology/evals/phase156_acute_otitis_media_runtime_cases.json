@@ -1,10 +1,10 @@
 [
   {
-    "id": "phase156_aom_clean_draft_fallback",
+    "id": "phase156_aom_clean_reviewed_ontology",
     "condition": "acute otitis media uncomplicated",
     "ed_note": "Adult discharge diagnosis acute otitis media. Clinician entered treatment plan. No ear red flags documented.",
     "expected_phenotype_id": "acute_otitis_media_uncomplicated",
-    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+    "expected_fallback_reason": null
   },
   {
     "id": "phase156_aom_missing_diagnosis_context_blocks",

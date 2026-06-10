@@ -1,0 +1,14 @@
+{
+  "id": "aaos.olecranon_bursitis",
+  "source": "AAOS OrthoInfo",
+  "title": "Elbow (Olecranon) Bursitis",
+  "url": "https://orthoinfo.aaos.org/en/diseases--conditions/elbow-olecranon-bursitis/",
+  "source_type": "orthopedic_patient_education",
+  "license_notes": "Use as source support only. Avoid verbatim copying from AAOS copyrighted patient education.",
+  "supports": [
+    "Olecranon bursitis commonly presents with swelling at the back or tip of the elbow and may be infectious or noninfectious.",
+    "Redness, warmth, pain, pus, fever, or spreading infection concern requires separate evaluation and should not be routed through simple overuse elbow instructions.",
+    "Olecranon bursitis has a different home-care pathway than epicondylitis or elbow overuse strain and should be routed separately."
+  ],
+  "use_policy": "blocker_support"
+}

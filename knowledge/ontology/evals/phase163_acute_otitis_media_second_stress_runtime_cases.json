@@ -1,17 +1,17 @@
 [
   {
-    "id": "phase163_aom_watchful_waiting_clean_draft_fallback",
+    "id": "phase163_aom_watchful_waiting_clean_reviewed_ontology",
     "condition": "acute otitis media uncomplicated",
     "ed_note": "Adult discharge diagnosis acute otitis media. Watchful waiting plan documented. No ear red flags documented.",
     "expected_phenotype_id": "acute_otitis_media_uncomplicated",
-    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+    "expected_fallback_reason": null
   },
   {
-    "id": "phase163_aom_delayed_antibiotic_clean_draft_fallback",
+    "id": "phase163_aom_delayed_antibiotic_clean_reviewed_ontology",
     "condition": "acute otitis media uncomplicated",
     "ed_note": "Adult discharge diagnosis acute otitis media. Delayed antibiotic plan documented. No ear red flags documented.",
     "expected_phenotype_id": "acute_otitis_media_uncomplicated",
-    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+    "expected_fallback_reason": null
   },
   {
     "id": "phase163_aom_missing_treatment_plan_blocks",

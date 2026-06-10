@@ -52,6 +52,7 @@
       "high_confidence_terms": [
         "abdominal pain recheck"
       ],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -86,6 +87,7 @@
       ],
       "required_context": [],
       "high_confidence_terms": [],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -131,6 +133,7 @@
         "chest cold",
         "viral bronchitis"
       ],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -143,8 +146,8 @@
     {
       "id": "acute_otitis_media_uncomplicated",
       "label": "Uncomplicated acute otitis media without mastoiditis concern",
-      "status": "needs_review",
-      "review_status": "needs_review",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
         "acute otitis media",
@@ -164,6 +167,7 @@
         "meningitis_or_cns_infection_concern",
         "lateral_sinus_thrombosis_concern",
         "immunocompromised",
+        "watchful_waiting_follow_up_unreliable",
         "recurrent_or_chronic_ear_infection",
         "pediatric_pathway",
         "specialist_directed_ent_plan",
@@ -218,12 +222,24 @@
         "discharge diagnosis acute otitis media",
         "middle ear infection diagnosed"
       ],
+      "output_modifiers": [
+        {
+          "id": "elderly_frail",
+          "label": "Frail elderly follow-up modifier",
+          "note": "Shorten follow-up to 48 to 72 hours and confirm explicit return instructions."
+        },
+        {
+          "id": "diabetes_general_risk",
+          "label": "Diabetes follow-up modifier",
+          "note": "Confirm clinician-entered follow-up and return instructions because infection recovery may be less predictable."
+        }
+      ],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
-        "clinician_judgment_only": true,
+        "clinician_judgment_only": false,
         "restricted_source_risk": false,
-        "unsafe_without_modifier": true,
+        "unsafe_without_modifier": false,
         "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, antibiotic selection, pediatric dosing, or follow-up timing, so runtime must require adult clinician diagnosis, clinician-entered treatment instructions, and structured absence of ear red flags."
       }
     },
@@ -259,6 +275,7 @@
         "acute sinusitis supportive care",
         "sinus infection supportive care"
       ],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -266,6 +283,100 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "CDC and MedlinePlus support sinusitis framing, symptom-based diagnosis, supportive care, and seeking care for severe or concerning symptoms. CDC outpatient guidance supports that most rhinosinusitis is viral, that antibiotics may not help many cases, and that bacterial-feature or antibiotic decisions require clinician judgment."
+      }
+    },
+    {
+      "id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+      "label": "Adult constipation after reassuring ED assessment without obstruction or bleeding concern",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "adult constipation after reassuring ed assessment without obstruction or bleeding concern",
+        "adult constipation reassuring ed assessment",
+        "adult constipation reassuring ed assessment no obstruction or bleeding",
+        "constipation",
+        "constipation diagnosed",
+        "constipation discharge diagnosis"
+      ],
+      "unsafe_modifiers": [
+        "bowel_obstruction_or_ileus_concern",
+        "no_flatus",
+        "abdominal_distention",
+        "severe_or_focal_abdominal_pain",
+        "peritoneal_signs",
+        "surgical_abdomen",
+        "persistent_vomiting",
+        "unable_to_tolerate_oral_fluids",
+        "severe_dehydration",
+        "gi_bleeding",
+        "fecal_impaction_procedure_plan",
+        "opioid_induced_constipation",
+        "elderly_frail",
+        "nursing_home_patient",
+        "pregnancy",
+        "pediatric_pathway",
+        "immunocompromised",
+        "cancer_red_flag",
+        "cauda_equina_concern",
+        "urinary_retention",
+        "poor_follow_up"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_constipation",
+          "terms": [
+            "clinician diagnosis constipation",
+            "discharge diagnosis constipation",
+            "constipation diagnosed",
+            "diagnosed with constipation",
+            "discharge impression constipation"
+          ]
+        },
+        {
+          "id": "reassuring_ed_assessment_or_benign_abdominal_exam",
+          "terms": [
+            "reassuring ed assessment",
+            "benign abdominal exam",
+            "abdomen soft",
+            "soft nontender abdomen",
+            "no signs of an emergency cause were found on exam"
+          ]
+        },
+        {
+          "id": "no_obstruction_concern_documented",
+          "terms": [
+            "no obstruction concern",
+            "no bowel obstruction concern",
+            "passing gas",
+            "able to pass gas",
+            "can pass gas",
+            "no signs of an emergency cause were found on exam"
+          ]
+        },
+        {
+          "id": "no_gi_bleeding_documented",
+          "terms": [
+            "no blood in stool",
+            "no black stool",
+            "no gi bleeding",
+            "no rectal bleeding"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis constipation",
+        "discharge diagnosis constipation",
+        "adult constipation reassuring ed assessment"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus and NIDDK support constipation symptom framing, hydration, fiber, activity, bowel routine, clinician-directed laxative use, and escalation for abdominal pain, bloating, nausea or vomiting, blood in stool, or obstruction symptoms. Medication choices and dosing remain clinician-entered only."
       }
     },
     {
@@ -294,13 +405,14 @@
       ],
       "required_context": [],
       "high_confidence_terms": [],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
         "clinician_judgment_only": false,
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
-        "notes": "MedlinePlus supports allergic reaction symptoms, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms."
+        "notes": "MedlinePlus supports allergic reaction symptoms, hives or urticaria as a possible allergic presentation, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms."
       }
     },
     {
@@ -330,6 +442,7 @@
       ],
       "required_context": [],
       "high_confidence_terms": [],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -363,6 +476,7 @@
       ],
       "required_context": [],
       "high_confidence_terms": [],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -399,6 +513,7 @@
       ],
       "required_context": [],
       "high_confidence_terms": [],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -429,6 +544,7 @@
       ],
       "required_context": [],
       "high_confidence_terms": [],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -464,6 +580,7 @@
       ],
       "required_context": [],
       "high_confidence_terms": [],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -497,6 +614,7 @@
       ],
       "required_context": [],
       "high_confidence_terms": [],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -541,6 +659,7 @@
         "conjunctivitis no contact lens",
         "pink eye no contact lens"
       ],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -548,6 +667,98 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": true,
         "notes": "CDC and MedlinePlus support conjunctivitis framing, hygiene and spread prevention, common symptoms, and escalation for pain, light sensitivity, blurred vision, intense redness, contact lens use, or worsening symptoms."
+      }
+    },
+    {
+      "id": "contact_dermatitis_uncomplicated",
+      "label": "Uncomplicated contact dermatitis without systemic or infectious features",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "allergic contact dermatitis",
+        "contact dermatitis",
+        "contact dermatitis uncomplicated",
+        "irritant contact dermatitis",
+        "localized contact rash",
+        "poison ivy dermatitis",
+        "rash dermatitis",
+        "uncomplicated contact dermatitis without systemic or infectious features"
+      ],
+      "unsafe_modifiers": [
+        "anaphylaxis",
+        "airway_symptoms",
+        "hypotension",
+        "epinephrine_given",
+        "mucosal_lesions",
+        "severe_cutaneous_adverse_reaction",
+        "contact_dermatitis_infection_concern",
+        "rapid_progression",
+        "fever",
+        "sepsis",
+        "eye_or_genital_rash_location",
+        "burn_or_chemical_wound",
+        "immunocompromised",
+        "pregnancy",
+        "pediatric_pathway"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_contact_dermatitis",
+          "terms": [
+            "clinician diagnosis contact dermatitis",
+            "discharge diagnosis contact dermatitis",
+            "contact dermatitis diagnosed",
+            "irritant contact dermatitis diagnosed",
+            "allergic contact dermatitis diagnosed"
+          ]
+        },
+        {
+          "id": "contact_trigger_or_distribution_documented",
+          "terms": [
+            "rash after contact exposure",
+            "rash after new soap",
+            "rash after poison ivy",
+            "rash in contact pattern",
+            "localized rash where substance touched",
+            "exposure trigger identified"
+          ]
+        },
+        {
+          "id": "dangerous_rash_features_absent",
+          "terms": [
+            "no mucosal lesions airway swelling infection concern",
+            "no skin peeling mucosal airway infection concern",
+            "no anaphylaxis infection or mucosal concern",
+            "no systemic allergic reaction or infection concern"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "contact dermatitis",
+        "contact dermatitis uncomplicated",
+        "irritant contact dermatitis",
+        "allergic contact dermatitis"
+      ],
+      "output_modifiers": [
+        {
+          "id": "frail_elderly_large_bsa_contact_dermatitis",
+          "label": "Frail or large-surface-area contact dermatitis modifier",
+          "note": "Flag frailty or large body-surface involvement for clinician-entered follow-up review without changing the contact dermatitis text."
+        },
+        {
+          "id": "occupational_recurrent_contact_dermatitis",
+          "label": "Recurrent occupational exposure modifier",
+          "note": "Flag recurrent occupational exposure for clinician-entered follow-up review without changing the contact dermatitis text."
+        }
+      ],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis as an irritant or allergic skin reaction after direct contact with a substance, avoidance of the trigger, moisturizers, clinician-directed topical therapy, and escalation for severe reactions, failure to improve, or infection signs. MedlinePlus allergic reaction content supports keeping airway symptoms, swelling, hypotension, epinephrine use, and systemic allergic reaction outside this pathway. Clinician-owner review on 2026-06-05 approved one shared adult contact dermatitis v1 after targeted plain-language, recovery-timeline, and return-precaution revisions."
       }
     },
     {
@@ -576,6 +787,7 @@
       ],
       "required_context": [],
       "high_confidence_terms": [],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -583,6 +795,273 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "MedlinePlus supports dental pain causes, need for dental evaluation, and urgent escalation for swelling, fever, trouble swallowing, or trouble breathing."
+      }
+    },
+    {
+      "id": "elbow_sprain_acute_traumatic_xray_negative",
+      "label": "Acute traumatic elbow sprain with negative x-ray",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "acute elbow sprain xray negative",
+        "acute elbow strain xray negative",
+        "acute traumatic elbow sprain with negative x-ray",
+        "acute traumatic elbow sprain xray negative",
+        "acute traumatic elbow strain xray negative",
+        "elbow soft tissue sprain xray negative",
+        "elbow sprain acute traumatic xray negative",
+        "elbow sprain xray negative",
+        "elbow strain acute traumatic xray negative",
+        "musculoskeletal injury",
+        "radial head contusion xray negative"
+      ],
+      "unsafe_modifiers": [
+        "overuse_or_repetitive_mechanism",
+        "fracture_seen",
+        "dislocation",
+        "open_wound",
+        "open_fracture",
+        "high_energy_trauma",
+        "crush_injury",
+        "elbow_instability_or_ucl_lcl_concern",
+        "tendon_or_ligament_rupture_concern",
+        "distal_biceps_or_triceps_concern",
+        "ulnar_nerve_pattern",
+        "olecranon_bursitis_pathway",
+        "neurovascular_compromise",
+        "hand_motor_deficit",
+        "compartment_syndrome_concern",
+        "septic_joint_or_infection_concern",
+        "pediatric_growth_plate_pathway",
+        "elderly_osteoporotic_high_risk_msk",
+        "specialist_directed_orthopedic_plan",
+        "no_xray_performed"
+      ],
+      "required_context": [
+        {
+          "id": "adult_acute_traumatic_elbow_sprain_diagnosis",
+          "terms": [
+            "adult with acute traumatic elbow sprain",
+            "adult with acute traumatic elbow strain",
+            "adult acute elbow sprain",
+            "acute traumatic elbow sprain",
+            "acute traumatic elbow strain",
+            "acute elbow sprain",
+            "acute elbow strain",
+            "elbow soft tissue sprain",
+            "radial head contusion without fracture"
+          ]
+        },
+        {
+          "id": "xray_performed_and_negative",
+          "terms": [
+            "xray performed and negative",
+            "x ray performed and negative",
+            "x-ray performed and negative",
+            "xray negative for fracture",
+            "x-ray negative for fracture",
+            "xray shows no acute fracture",
+            "x-ray shows no acute fracture",
+            "no fracture seen on xray",
+            "no fracture seen on x-ray"
+          ]
+        },
+        {
+          "id": "intact_neurovascular_and_hand_motor_exam",
+          "terms": [
+            "neurovascular exam intact including hand motor",
+            "neurovascular intact including hand motor",
+            "hand motor intact",
+            "intact hand motor exam",
+            "motor in the hand is normal",
+            "motor sensory vascular intact in hand"
+          ]
+        },
+        {
+          "id": "acute_traumatic_mechanism_documented",
+          "terms": [
+            "acute traumatic mechanism",
+            "fall onto elbow",
+            "fell onto elbow",
+            "direct blow to elbow",
+            "contact injury to elbow",
+            "forced extension",
+            "forced flexion",
+            "single traumatic event"
+          ]
+        },
+        {
+          "id": "no_elbow_instability_concern_attested",
+          "terms": [
+            "no instability concern",
+            "no elbow instability concern",
+            "no ucl concern",
+            "no lcl concern",
+            "stable elbow exam"
+          ]
+        },
+        {
+          "id": "no_distal_tendon_or_ligament_rupture_concern_attested",
+          "terms": [
+            "no tendon rupture concern",
+            "no distal biceps concern",
+            "no triceps concern",
+            "no ligament rupture concern",
+            "no rupture concern",
+            "no distal tendon concern"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "elbow sprain acute traumatic xray negative",
+        "acute traumatic elbow sprain xray negative",
+        "acute elbow sprain xray negative",
+        "elbow sprain xray negative",
+        "elbow strain acute traumatic xray negative",
+        "acute traumatic elbow strain xray negative",
+        "acute elbow strain xray negative",
+        "elbow soft tissue sprain xray negative",
+        "radial head contusion xray negative"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports general sprain/strain framing, rest, protection, gradual return to activity, several-week recovery for bad sprains, and escalation for worsening pain, swelling, numbness, color change, fever, inability to move, or inability to walk. AAOS distal biceps and olecranon bursitis sources support blocking distal tendon rupture and posterior bursitis pathways. Clinician-owner review on 2026-06-05 approved one shared acute traumatic elbow sprain v1, including radial head contusion without fracture, with deferred split consideration for radial-head-specific rehab, ligament subtype, or distal-tendon-risk pathways if future product behavior needs different instructions."
+      }
+    },
+    {
+      "id": "elbow_sprain_overuse_xray_negative",
+      "label": "Elbow overuse strain or epicondylitis with negative x-ray",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "elbow overuse strain or epicondylitis with negative x-ray",
+        "elbow overuse strain xray negative",
+        "elbow sprain overuse xray negative",
+        "elbow strain overuse xray negative",
+        "golfer elbow xray negative",
+        "golfers elbow xray negative",
+        "lateral epicondylitis xray negative",
+        "medial epicondylitis xray negative",
+        "musculoskeletal injury",
+        "tennis elbow xray negative"
+      ],
+      "unsafe_modifiers": [
+        "acute_traumatic_elbow_mechanism",
+        "fracture_seen",
+        "dislocation",
+        "open_wound",
+        "open_fracture",
+        "high_energy_trauma",
+        "crush_injury",
+        "elbow_instability_or_ucl_lcl_concern",
+        "distal_biceps_or_triceps_concern",
+        "ulnar_nerve_pattern",
+        "olecranon_bursitis_pathway",
+        "neurovascular_compromise",
+        "hand_motor_deficit",
+        "compartment_syndrome_concern",
+        "septic_joint_or_infection_concern",
+        "pediatric_growth_plate_pathway",
+        "elderly_osteoporotic_high_risk_msk",
+        "specialist_directed_orthopedic_plan",
+        "no_xray_performed"
+      ],
+      "required_context": [
+        {
+          "id": "adult_elbow_overuse_diagnosis",
+          "terms": [
+            "adult with lateral epicondylitis",
+            "adult with medial epicondylitis",
+            "adult with elbow overuse strain",
+            "adult elbow overuse injury",
+            "lateral epicondylitis",
+            "medial epicondylitis",
+            "elbow overuse strain",
+            "subacute elbow overuse injury",
+            "chronic elbow overuse injury"
+          ]
+        },
+        {
+          "id": "xray_performed_and_negative",
+          "terms": [
+            "xray performed and negative",
+            "x ray performed and negative",
+            "x-ray performed and negative",
+            "xray negative for fracture",
+            "x-ray negative for fracture",
+            "xray shows no acute fracture",
+            "x-ray shows no acute fracture",
+            "no fracture seen on xray",
+            "no fracture seen on x-ray"
+          ]
+        },
+        {
+          "id": "intact_neurovascular_and_hand_motor_exam",
+          "terms": [
+            "neurovascular exam intact including hand motor",
+            "neurovascular intact including hand motor",
+            "hand motor intact",
+            "intact hand motor exam",
+            "motor in the hand is normal",
+            "motor sensory vascular intact in hand"
+          ]
+        },
+        {
+          "id": "no_acute_traumatic_mechanism_attested",
+          "terms": [
+            "no acute traumatic mechanism",
+            "no acute trauma",
+            "no traumatic injury",
+            "atraumatic overuse onset"
+          ]
+        },
+        {
+          "id": "no_elbow_instability_concern_attested",
+          "terms": [
+            "no instability concern",
+            "no elbow instability concern",
+            "no ucl concern",
+            "no lcl concern",
+            "stable elbow exam"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "elbow sprain overuse xray negative",
+        "elbow strain overuse xray negative",
+        "elbow overuse strain xray negative",
+        "lateral epicondylitis xray negative",
+        "medial epicondylitis xray negative",
+        "tennis elbow xray negative",
+        "golfer elbow xray negative",
+        "golfers elbow xray negative"
+      ],
+      "output_modifiers": [
+        {
+          "id": "anticoagulated",
+          "label": "Anticoagulation medication-safety modifier",
+          "note": "Flag anticoagulation for clinician-entered medication and bleeding-risk review without changing the elbow overuse text."
+        },
+        {
+          "id": "immunocompromised",
+          "label": "Immunocompromised follow-up modifier",
+          "note": "Flag immunocompromise for clinician-entered follow-up and return-instruction review without changing the elbow overuse text."
+        }
+      ],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "AAOS supports lateral and medial epicondylitis as overuse elbow tendon conditions, x-ray use to rule out fracture or arthritis, nonsurgical care with activity reduction and therapy, and weeks-to-months recovery expectations for persistent cases. AAOS distal biceps and olecranon bursitis sources support blocking tendon rupture and bursitis pathways. Clinician-owner review on 2026-06-04 approved promotion after targeted patient-facing revisions."
       }
     },
     {
@@ -613,6 +1092,7 @@
         "nosebleed resolved",
         "epistaxis resolved no posterior bleed"
       ],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -620,6 +1100,89 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": true,
         "notes": "MedlinePlus supports nosebleed first-aid concepts and when to seek care. AAO-HNS supports clinician-facing epistaxis guideline concepts, but ED discharge risk stratification still requires local clinician review."
+      }
+    },
+    {
+      "id": "foot_sprain_xray_negative",
+      "label": "Foot sprain with negative x-ray",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "foot injury xray negative",
+        "foot sprain with negative x-ray",
+        "foot sprain xray negative",
+        "foot strain xray negative",
+        "musculoskeletal injury"
+      ],
+      "unsafe_modifiers": [
+        "ankle_sprain_pathway",
+        "no_xray_performed",
+        "fracture_seen",
+        "dislocation",
+        "open_wound",
+        "open_fracture",
+        "high_energy_trauma",
+        "crush_injury",
+        "lisfranc_or_midfoot_concern",
+        "unable_to_bear_weight_lower_extremity",
+        "cannot_ambulate_at_discharge",
+        "neurovascular_compromise",
+        "tendon_or_ligament_rupture_concern",
+        "compartment_syndrome_concern",
+        "septic_joint_or_infection_concern",
+        "pediatric_growth_plate_pathway",
+        "elderly_osteoporotic_high_risk_msk",
+        "diabetic_foot",
+        "peripheral_vascular_disease",
+        "specialist_directed_orthopedic_plan"
+      ],
+      "required_context": [
+        {
+          "id": "foot_site_documented",
+          "terms": [
+            "foot sprain xray negative",
+            "foot strain xray negative",
+            "foot injury xray negative"
+          ]
+        },
+        {
+          "id": "xray_performed_and_negative",
+          "terms": [
+            "xray performed and negative",
+            "x ray performed and negative",
+            "x-ray performed and negative",
+            "xray negative for fracture",
+            "x-ray negative for fracture",
+            "no fracture seen on xray",
+            "no fracture seen on x-ray"
+          ]
+        },
+        {
+          "id": "intact_neurovascular_exam",
+          "terms": [
+            "neurovascular exam intact",
+            "blood flow sensation movement intact",
+            "cms intact",
+            "distal pulses sensation movement intact",
+            "foot pulses sensation movement intact",
+            "toes warm and well perfused with normal sensation"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "foot sprain xray negative",
+        "foot strain xray negative",
+        "foot injury xray negative"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports general sprain/strain framing and foot-sprain aftercare with protection, rest, ice, compression, elevation, mobility aids, gradual activity return, and escalation for worsening pain, swelling, numbness, color change, fever, or inability to walk. Clinician-owner review on 2026-06-05 approved this as one shared adult foot sprain v1 with current blockers intact, including Lisfranc or midfoot concern, inability to bear weight, inability to ambulate at discharge, high-energy mechanism, pediatric growth plate pathway, diabetic foot, vascular disease, and specialist-directed orthopedic plan."
       }
     },
     {
@@ -652,6 +1215,7 @@
       ],
       "required_context": [],
       "high_confidence_terms": [],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -686,6 +1250,7 @@
       ],
       "required_context": [],
       "high_confidence_terms": [],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -723,6 +1288,7 @@
       ],
       "required_context": [],
       "high_confidence_terms": [],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -784,6 +1350,7 @@
         "migraine improved",
         "migraine headache improved"
       ],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -817,6 +1384,7 @@
       ],
       "required_context": [],
       "high_confidence_terms": [],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -857,6 +1425,7 @@
         "swimmers ear uncomplicated",
         "otitis externa no mastoiditis"
       ],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -891,6 +1460,7 @@
       ],
       "required_context": [],
       "high_confidence_terms": [],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -903,8 +1473,8 @@
     {
       "id": "skin_avulsion_or_abrasion_simple",
       "label": "Simple skin avulsion, skin tear, or abrasion without repair need",
-      "status": "needs_review",
-      "review_status": "needs_review",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
         "simple abrasion no repair",
@@ -971,32 +1541,55 @@
         "simple skin tear",
         "skin avulsion abrasion simple"
       ],
+      "output_modifiers": [
+        {
+          "id": "diabetes_general_risk",
+          "label": "Diabetes wound-healing modifier",
+          "note": "Flag higher infection risk and confirm clinician-entered wound follow-up."
+        },
+        {
+          "id": "peripheral_vascular_disease",
+          "label": "Peripheral vascular disease wound-healing modifier",
+          "note": "Flag slower healing risk and confirm clinician-entered wound follow-up."
+        },
+        {
+          "id": "anticoagulated",
+          "label": "Anticoagulation bleeding modifier",
+          "note": "Flag bleeding risk while preserving the simple-wound pathway."
+        },
+        {
+          "id": "delayed_wound_presentation",
+          "label": "Delayed clean-wound presentation modifier",
+          "note": "For clean delayed wounds, confirm clinician-entered follow-up; contaminated or bite wounds remain blocked separately."
+        }
+      ],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
-        "clinician_judgment_only": true,
+        "clinician_judgment_only": false,
         "restricted_source_risk": false,
-        "unsafe_without_modifier": true,
+        "unsafe_without_modifier": false,
         "notes": "MedlinePlus supports cuts, punctures, skin breaks, wound healing, infection warning signs, and escalation for deep, dirty, bite, puncture, foot, or high-risk wounds. ED-specific decisions about repair need, tetanus, topical agents, and wound severity require clinician-entered context."
       }
     },
     {
-      "id": "sprain_strain_non_ankle_xray_negative",
-      "label": "Non-ankle sprain or strain with negative x-ray",
-      "status": "needs_review",
-      "review_status": "needs_review",
+      "id": "sprain_strain_knee_or_shoulder_xray_negative",
+      "label": "Knee or shoulder sprain or strain with negative x-ray",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
         "elbow sprain xray negative",
         "foot sprain xray negative",
+        "knee or shoulder sprain or strain with negative x-ray",
+        "knee shoulder sprain xray negative",
+        "knee shoulder strain xray negative",
         "knee sprain xray negative",
+        "knee strain xray negative",
         "musculoskeletal injury",
-        "non ankle sprain xray negative",
-        "non ankle strain xray negative",
-        "non-ankle sprain or strain with negative x-ray",
         "shoulder sprain xray negative",
-        "sprain strain non ankle xray negative",
-        "wrist sprain xray negative"
+        "shoulder strain xray negative",
+        "sprain strain knee or shoulder xray negative"
       ],
       "unsafe_modifiers": [
         "ankle_sprain_pathway",
@@ -1009,25 +1602,24 @@
         "crush_injury",
         "neurovascular_compromise",
         "tendon_or_ligament_rupture_concern",
-        "scaphoid_tenderness_pattern",
+        "acute_hemarthrosis_or_large_effusion",
         "compartment_syndrome_concern",
         "septic_joint_or_infection_concern",
         "unable_to_bear_weight_lower_extremity",
+        "wrist_site_pending_split",
+        "elbow_or_foot_site_pending_split",
         "pediatric_growth_plate_pathway",
         "elderly_osteoporotic_high_risk_msk",
         "specialist_directed_orthopedic_plan"
       ],
       "required_context": [
         {
-          "id": "non_ankle_site_documented",
+          "id": "knee_or_shoulder_site_documented",
           "terms": [
-            "non ankle injury documented",
-            "not ankle sprain pathway",
-            "wrist sprain xray negative",
             "knee sprain xray negative",
+            "knee strain xray negative",
             "shoulder sprain xray negative",
-            "elbow sprain xray negative",
-            "foot sprain xray negative"
+            "shoulder strain xray negative"
           ]
         },
         {
@@ -1051,13 +1643,90 @@
         }
       ],
       "high_confidence_terms": [
-        "non ankle sprain xray negative",
-        "non ankle strain xray negative",
-        "sprain strain non ankle xray negative",
-        "wrist sprain xray negative",
+        "knee shoulder sprain xray negative",
+        "knee shoulder strain xray negative",
         "knee sprain xray negative",
-        "shoulder sprain xray negative"
+        "knee strain xray negative",
+        "shoulder sprain xray negative",
+        "shoulder strain xray negative"
       ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports sprain/strain framing, several-week recovery for bad sprains, elevation/protection concepts, and escalation for worsening pain, swelling, numbness, or inability to move. Ankle-specific sources support general sprain principles only. This reviewed v1 is limited to documented knee or shoulder sprain/strain with x-ray performed and negative, intact neurovascular exam, and site-specific blockers."
+      }
+    },
+    {
+      "id": "sprain_strain_non_ankle_xray_negative",
+      "label": "Deprecated broad non-ankle sprain or strain with negative x-ray",
+      "status": "retired",
+      "review_status": "retired",
+      "version": 1,
+      "condition_terms": [
+        "deprecated broad non-ankle sprain or strain with negative x-ray",
+        "deprecated non ankle sprain xray negative",
+        "musculoskeletal injury",
+        "sprain strain non ankle xray negative"
+      ],
+      "unsafe_modifiers": [
+        "ankle_sprain_pathway",
+        "no_xray_performed",
+        "fracture_seen",
+        "dislocation",
+        "open_wound",
+        "open_fracture",
+        "high_energy_trauma",
+        "crush_injury",
+        "neurovascular_compromise",
+        "tendon_or_ligament_rupture_concern",
+        "scaphoid_tenderness_pattern",
+        "compartment_syndrome_concern",
+        "septic_joint_or_infection_concern",
+        "unable_to_bear_weight_lower_extremity",
+        "elbow_or_foot_site_pending_split",
+        "pediatric_growth_plate_pathway",
+        "elderly_osteoporotic_high_risk_msk",
+        "specialist_directed_orthopedic_plan"
+      ],
+      "required_context": [
+        {
+          "id": "non_ankle_site_documented",
+          "terms": [
+            "non ankle injury documented",
+            "not ankle sprain pathway",
+            "wrist sprain xray negative",
+            "knee sprain xray negative",
+            "shoulder sprain xray negative"
+          ]
+        },
+        {
+          "id": "xray_performed_and_negative",
+          "terms": [
+            "xray performed and negative",
+            "x ray performed and negative",
+            "x-ray performed and negative",
+            "xray negative for fracture",
+            "x-ray negative for fracture"
+          ]
+        },
+        {
+          "id": "intact_neurovascular_exam",
+          "terms": [
+            "neurovascular exam intact",
+            "blood flow sensation movement intact",
+            "cms intact",
+            "distal pulses sensation movement intact"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "deprecated non ankle sprain xray negative"
+      ],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -1070,8 +1739,8 @@
     {
       "id": "suture_removal_or_wound_check_no_infection",
       "label": "Suture removal or wound check without infection concern",
-      "status": "needs_review",
-      "review_status": "needs_review",
+      "status": "reviewed",
+      "review_status": "reviewed",
       "version": 1,
       "condition_terms": [
         "staple removal no infection",
@@ -1101,10 +1770,12 @@
       ],
       "required_context": [
         {
-          "id": "clinician_documented_wound_readiness",
+          "id": "clinician_documented_expected_healing_or_clearance",
           "terms": [
-            "clinician documented wound ready",
             "wound healing as expected",
+            "clinician documented wound healing as expected",
+            "wound cleared at this visit",
+            "clinician cleared wound at this visit",
             "ready for suture removal",
             "ready for staple removal",
             "clinician documented wound check"
@@ -1136,12 +1807,29 @@
         "staple removal no infection",
         "wound check no infection"
       ],
+      "output_modifiers": [
+        {
+          "id": "diabetes_general_risk",
+          "label": "Diabetes wound-healing modifier",
+          "note": "Flag higher infection/dehiscence risk and confirm clinician-entered follow-up."
+        },
+        {
+          "id": "peripheral_vascular_disease",
+          "label": "Peripheral vascular disease wound-healing modifier",
+          "note": "Flag slower healing risk and confirm clinician-entered follow-up."
+        },
+        {
+          "id": "anticoagulated",
+          "label": "Anticoagulation bleeding modifier",
+          "note": "Flag bleeding risk while preserving the no-infection wound-check pathway."
+        }
+      ],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
-        "clinician_judgment_only": true,
+        "clinician_judgment_only": false,
         "restricted_source_risk": false,
-        "unsafe_without_modifier": true,
+        "unsafe_without_modifier": false,
         "notes": "MedlinePlus supports suture/staple wound care, infection warning signs, and following clinician instructions for wound care and removal timing. It does not support autonomous ED decisions about whether a wound is ready for removal, so runtime requires clinician-documented readiness and no infection/dehiscence concern."
       }
     },
@@ -1177,6 +1865,7 @@
       ],
       "required_context": [],
       "high_confidence_terms": [],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -1215,6 +1904,7 @@
       ],
       "required_context": [],
       "high_confidence_terms": [],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -1253,6 +1943,7 @@
       ],
       "required_context": [],
       "high_confidence_terms": [],
+      "output_modifiers": [],
       "source_audit": {
         "source_supported": true,
         "source_needed": false,
@@ -1260,6 +1951,92 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "MedlinePlus supports viral URI supportive care and escalation symptoms. AHRQ supports antibiotic stewardship for uncomplicated viral URI."
+      }
+    },
+    {
+      "id": "wrist_sprain_xray_negative",
+      "label": "Wrist sprain with negative x-ray",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "musculoskeletal injury",
+        "wrist injury xray negative",
+        "wrist sprain with negative x-ray",
+        "wrist sprain xray negative",
+        "wrist strain xray negative"
+      ],
+      "unsafe_modifiers": [
+        "no_xray_performed",
+        "fracture_seen",
+        "dislocation",
+        "open_wound",
+        "open_fracture",
+        "high_energy_trauma",
+        "crush_injury",
+        "foosh_scaphoid_risk",
+        "neurovascular_compromise",
+        "tendon_or_ligament_rupture_concern",
+        "scaphoid_tenderness_pattern",
+        "compartment_syndrome_concern",
+        "septic_joint_or_infection_concern",
+        "pediatric_growth_plate_pathway",
+        "elderly_osteoporotic_high_risk_msk",
+        "hand_tendon_risk",
+        "specialist_directed_orthopedic_plan"
+      ],
+      "required_context": [
+        {
+          "id": "wrist_site_documented",
+          "terms": [
+            "wrist sprain xray negative",
+            "wrist strain xray negative",
+            "wrist injury xray negative"
+          ]
+        },
+        {
+          "id": "xray_performed_and_negative",
+          "terms": [
+            "xray performed and negative",
+            "x ray performed and negative",
+            "x-ray performed and negative",
+            "xray negative for fracture",
+            "x-ray negative for fracture"
+          ]
+        },
+        {
+          "id": "intact_neurovascular_exam",
+          "terms": [
+            "neurovascular exam intact",
+            "blood flow sensation movement intact",
+            "cms intact",
+            "distal pulses sensation movement intact"
+          ]
+        },
+        {
+          "id": "no_scaphoid_tenderness_documented",
+          "terms": [
+            "no scaphoid tenderness",
+            "no snuffbox tenderness",
+            "scaphoid tenderness absent",
+            "snuffbox tenderness absent",
+            "no scaphoid concern documented"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "wrist sprain xray negative",
+        "wrist strain xray negative",
+        "wrist injury xray negative"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports general sprain/strain aftercare and escalation. Wrist-specific v1 requires clinician documentation of absent scaphoid tenderness because an initially negative x-ray is not enough to exclude occult scaphoid injury."
       }
     }
   ]

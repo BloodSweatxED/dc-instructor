@@ -161,6 +161,7 @@ export default async (req) => {
     phenotype_id: ontology.phenotype_id,
     confidence: ontology.confidence,
     fallback_reason: ontology.fallback_reason,
+    output_modifiers: ontology.output_modifiers || [],
     medication_provenance: medicationProvenance.mode,
   }));
 
@@ -177,6 +178,7 @@ export default async (req) => {
           phenotype_id: ontology.phenotype_id,
           ontology_confidence: ontology.confidence,
           fallback_reason: null,
+          output_modifiers: ontology.output_modifiers || [],
           tailoring_mode: tailoringMode,
           medication_provenance: medicationProvenance,
           source_cards_used: ontology.source_cards_used || [],
@@ -225,6 +227,7 @@ export default async (req) => {
         phenotype_id: ontology.phenotype_id,
         ontology_confidence: ontology.confidence,
         fallback_reason: ontology.fallback_reason,
+        output_modifiers: ontology.output_modifiers || [],
         tailoring_mode: tailoringMode,
         medication_provenance: medicationProvenance,
         source_cards_used: ontology.source_cards_used || [],

@@ -1,7 +1,7 @@
 {
   "id": "skin_avulsion_or_abrasion_simple",
   "label": "Simple skin avulsion, skin tear, or abrasion without repair need",
-  "status": "needs_review",
+  "status": "reviewed",
   "condition_family": "wound_care",
   "inclusion_criteria": [
     "Adult with clinician diagnosis or discharge impression of simple skin abrasion, skin tear, or skin avulsion.",
@@ -21,7 +21,7 @@
     "Wound infection.",
     "Burn or chemical injury."
   ],
-  "default_follow_up": "Follow up with primary care, urgent care, wound clinic, or the ED in 2 to 3 days if the wound is not improving, or sooner if your clinician gave a specific schedule.",
+  "default_follow_up": "Follow up with primary care, urgent care, wound clinic, or the ED if the wound is not improving after 2 to 3 days, or sooner if your clinician gave a specific schedule.",
   "required_sections": [
     "diagnosis",
     "what_we_found",
@@ -51,9 +51,9 @@
   "source_audit": {
     "source_supported": true,
     "source_needed": false,
-    "clinician_judgment_only": true,
+    "clinician_judgment_only": false,
     "restricted_source_risk": false,
-    "unsafe_without_modifier": true,
+    "unsafe_without_modifier": false,
     "notes": "MedlinePlus supports cuts, punctures, skin breaks, wound healing, infection warning signs, and escalation for deep, dirty, bite, puncture, foot, or high-risk wounds. ED-specific decisions about repair need, tetanus, topical agents, and wound severity require clinician-entered context."
   },
   "runtime": {
@@ -119,14 +119,60 @@
       "simple skin tear",
       "skin avulsion abrasion simple"
     ],
+    "output_modifiers": [
+      {
+        "id": "diabetes_general_risk",
+        "label": "Diabetes wound-healing modifier",
+        "note": "Flag higher infection risk and confirm clinician-entered wound follow-up."
+      },
+      {
+        "id": "peripheral_vascular_disease",
+        "label": "Peripheral vascular disease wound-healing modifier",
+        "note": "Flag slower healing risk and confirm clinician-entered wound follow-up."
+      },
+      {
+        "id": "anticoagulated",
+        "label": "Anticoagulation bleeding modifier",
+        "note": "Flag bleeding risk while preserving the simple-wound pathway."
+      },
+      {
+        "id": "delayed_wound_presentation",
+        "label": "Delayed clean-wound presentation modifier",
+        "note": "For clean delayed wounds, confirm clinician-entered follow-up; contaminated or bite wounds remain blocked separately."
+      }
+    ],
     "minimum_confidence": 0.86,
-    "mode": "draft_only_until_reviewed"
+    "mode": "reviewed_ontology_enabled"
   },
   "version": 1,
   "review": {
-    "status": "needs_review",
-    "reviewer": null,
-    "last_reviewed": null,
-    "notes": "Phase 204 clinician review applied from multi-phenotype packet. Draft-only until final approval after runtime stress. No static tetanus or topical antibiotic language."
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Phase 222 clinician feedback applied. Approved for narrow ontology mode after high-risk wound modifier disposition was documented. Immunocompromised remains a true blocker for v1; diabetes, PVD, anticoagulation, and clean delayed presentation are output modifiers. No static tetanus or topical antibiotic language.",
+    "clinical_status": "reviewed_for_limited_production_ontology_use",
+    "required_modifiers": [],
+    "blocked_modifiers": [
+      "laceration_repair_needed",
+      "burn_or_chemical_wound",
+      "high_pressure_injection_injury",
+      "crush_injury",
+      "open_fracture",
+      "joint_violation",
+      "hand_tendon_risk",
+      "neurovascular_compromise",
+      "retained_foreign_body",
+      "bite_wound",
+      "dirty_wound",
+      "wound_infection_concern",
+      "diabetic_foot",
+      "immunocompromised",
+      "pediatric_pathway",
+      "specialist_directed_wound_plan"
+    ]
   }
 }

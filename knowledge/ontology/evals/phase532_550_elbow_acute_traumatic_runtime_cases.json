@@ -1,0 +1,121 @@
+[
+  {
+    "id": "phase532_elbow_acute_sprain_clean_draft_fallback",
+    "condition": "elbow sprain acute traumatic xray negative",
+    "ed_note": "Adult with acute traumatic elbow sprain after fall onto elbow. X-ray performed and negative. Neurovascular exam intact including hand motor. No elbow instability concern. No tendon rupture concern.",
+    "expected_phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase533_elbow_strain_clean_draft_fallback",
+    "condition": "acute traumatic elbow strain xray negative",
+    "ed_note": "Adult with acute traumatic elbow strain from single traumatic event. X-ray performed and negative. Neurovascular intact including hand motor. Stable elbow exam. No distal tendon concern.",
+    "expected_phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase534_radial_head_contusion_clean_draft_fallback",
+    "condition": "radial head contusion xray negative",
+    "ed_note": "Adult with radial head contusion without fracture after contact injury to elbow. No fracture seen on x-ray. Neurovascular exam intact including hand motor. No elbow instability concern. No ligament rupture concern.",
+    "expected_phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase535_elbow_acute_missing_mechanism_blocks",
+    "condition": "acute elbow sprain xray negative",
+    "ed_note": "Adult acute elbow sprain. X-ray performed and negative. Neurovascular exam intact including hand motor. No elbow instability concern. No tendon rupture concern.",
+    "expected_phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["acute_traumatic_mechanism_documented"]
+  },
+  {
+    "id": "phase536_elbow_acute_missing_instability_attestation_blocks",
+    "condition": "acute elbow sprain xray negative",
+    "ed_note": "Adult with acute traumatic elbow sprain after fall onto elbow. X-ray performed and negative. Neurovascular exam intact including hand motor. No tendon rupture concern.",
+    "expected_phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["no_elbow_instability_concern_attested"]
+  },
+  {
+    "id": "phase537_elbow_acute_missing_tendon_attestation_blocks",
+    "condition": "acute elbow sprain xray negative",
+    "ed_note": "Adult with acute traumatic elbow sprain after fall onto elbow. X-ray performed and negative. Neurovascular exam intact including hand motor. No elbow instability concern.",
+    "expected_phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["no_distal_tendon_or_ligament_rupture_concern_attested"]
+  },
+  {
+    "id": "phase538_elbow_acute_no_xray_blocks",
+    "condition": "acute elbow sprain xray negative",
+    "ed_note": "Adult with acute traumatic elbow sprain after fall onto elbow. No imaging. Neurovascular exam intact including hand motor. No elbow instability concern. No tendon rupture concern.",
+    "expected_phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["no_xray_performed"]
+  },
+  {
+    "id": "phase539_elbow_acute_instability_blocks",
+    "condition": "acute elbow sprain xray negative",
+    "ed_note": "Adult with acute traumatic elbow sprain after fall onto elbow. X-ray performed and negative. Neurovascular exam intact including hand motor. Elbow instability concern with valgus instability. No tendon rupture concern.",
+    "expected_phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["elbow_instability_or_ucl_lcl_concern"]
+  },
+  {
+    "id": "phase540_elbow_acute_distal_biceps_blocks",
+    "condition": "acute elbow sprain xray negative",
+    "ed_note": "Adult with acute traumatic elbow sprain after fall onto elbow. X-ray performed and negative. Neurovascular exam intact including hand motor. No elbow instability concern. Pop at the elbow with weakness bending the elbow.",
+    "expected_phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["distal_biceps_or_triceps_concern"]
+  },
+  {
+    "id": "phase541_elbow_acute_ulnar_nerve_blocks",
+    "condition": "acute elbow sprain xray negative",
+    "ed_note": "Adult with acute traumatic elbow sprain after direct blow to elbow. X-ray performed and negative. Neurovascular exam intact including hand motor. No elbow instability concern. No tendon rupture concern. Ring and pinky numbness.",
+    "expected_phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["ulnar_nerve_pattern"]
+  },
+  {
+    "id": "phase542_elbow_acute_bursitis_blocks",
+    "condition": "acute elbow sprain xray negative",
+    "ed_note": "Adult with acute traumatic elbow sprain after fall onto elbow. X-ray performed and negative. Neurovascular exam intact including hand motor. No elbow instability concern. No tendon rupture concern. Olecranon bursitis with posterior elbow swelling.",
+    "expected_phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["olecranon_bursitis_pathway"]
+  },
+  {
+    "id": "phase543_elbow_acute_overuse_routes_to_reviewed_overuse",
+    "condition": "elbow overuse strain xray negative",
+    "ed_note": "Adult with elbow overuse strain. X-ray performed and negative. Neurovascular exam intact including hand motor. No acute traumatic mechanism. No elbow instability concern.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase544_elbow_acute_broad_elbow_pain_no_match",
+    "condition": "elbow pain",
+    "ed_note": "Elbow pain after a fall without final sprain diagnosis, x-ray result, or hand motor exam.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase545_elbow_acute_pediatric_blocks",
+    "condition": "acute elbow sprain xray negative",
+    "ed_note": "Child with sprain. Adult acute elbow sprain. X-ray performed and negative. Neurovascular exam intact including hand motor. No elbow instability concern. No tendon rupture concern. Fall onto elbow.",
+    "expected_phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["pediatric_growth_plate_pathway"]
+  },
+  {
+    "id": "phase546_foot_reviewed_unaffected_by_elbow_acute_draft",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Foot sprain xray negative. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  }
+]

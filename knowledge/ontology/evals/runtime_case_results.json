@@ -11,6 +11,7 @@
         "ankle sprain",
         "ankle sprain xray negative"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -26,6 +27,7 @@
         "ankle sprain",
         "ankle sprain xray negative"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -43,6 +45,7 @@
         "ankle sprain",
         "ankle sprain xray negative"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -60,6 +63,7 @@
         "ankle sprain",
         "ankle sprain xray negative"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -77,6 +81,7 @@
         "ankle sprain",
         "ankle sprain xray negative"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -93,6 +98,7 @@
       "modifiers": [
         "ankle sprain"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -105,6 +111,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -121,6 +128,7 @@
         "asthma exacerbation improved discharge",
         "asthma flare improved"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -138,6 +146,7 @@
         "asthma",
         "asthma exacerbation improved discharge"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -155,6 +164,7 @@
         "asthma",
         "asthma exacerbation improved discharge"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -172,6 +182,7 @@
         "asthma",
         "asthma exacerbation improved discharge"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -186,6 +197,7 @@
       "modifiers": [
         "wheezing"
       ],
+      "output_modifiers": [],
       "fallback_reason": "low_confidence"
     }
   },
@@ -200,6 +212,7 @@
       "modifiers": [
         "wheezing"
       ],
+      "output_modifiers": [],
       "fallback_reason": "low_confidence"
     }
   },
@@ -218,6 +231,7 @@
         "asthma",
         "asthma exacerbation improved discharge"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -235,6 +249,7 @@
         "asthma",
         "asthma exacerbation improved discharge"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -252,6 +267,7 @@
         "pneumonia",
         "pneumonia outpatient"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -271,6 +287,7 @@
         "pneumonia",
         "pneumonia outpatient"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -290,6 +307,7 @@
         "pneumonia",
         "pneumonia outpatient"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -309,6 +327,7 @@
         "pneumonia",
         "pneumonia outpatient"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -321,6 +340,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -333,6 +353,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -354,6 +375,7 @@
         "pneumonia",
         "pneumonia outpatient"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -373,6 +395,7 @@
         "pneumonia",
         "pneumonia outpatient"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -389,6 +412,7 @@
         "minor head injury",
         "minor head injury no red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -407,6 +431,7 @@
         "minor head injury",
         "minor head injury no red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -425,6 +450,7 @@
         "minor head injury",
         "minor head injury no red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -443,6 +469,7 @@
         "minor head injury",
         "minor head injury no red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -455,6 +482,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -467,6 +495,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -486,6 +515,7 @@
         "minor head injury",
         "minor head injury no red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -504,6 +534,7 @@
         "minor head injury",
         "minor head injury no red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -520,6 +551,7 @@
         "concussion discharge no imaging red flags",
         "head injury"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -537,6 +569,7 @@
         "concussion",
         "concussion discharge no imaging red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -554,6 +587,7 @@
         "concussion",
         "concussion discharge no imaging red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -571,6 +605,7 @@
         "concussion",
         "concussion discharge no imaging red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -583,6 +618,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -595,6 +631,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -612,6 +649,7 @@
         "concussion",
         "concussion discharge no imaging red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -629,6 +667,7 @@
         "concussion",
         "concussion discharge no imaging red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -644,6 +683,7 @@
         "renal colic",
         "renal colic stable no infection"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -661,6 +701,7 @@
         "renal colic",
         "renal colic stable no infection"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -678,6 +719,7 @@
         "renal colic",
         "renal colic stable no infection"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -695,6 +737,7 @@
         "renal colic",
         "renal colic stable no infection"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -707,6 +750,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -724,6 +768,7 @@
       "modifiers": [
         "urinary infection"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -742,6 +787,7 @@
         "renal colic",
         "renal colic stable no infection"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -759,6 +805,7 @@
         "renal colic",
         "renal colic stable no infection"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -776,6 +823,7 @@
         "ankle sprain",
         "ankle sprain xray negative"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -793,6 +841,7 @@
         "lumbar strain",
         "lumbar strain no red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -811,6 +860,7 @@
         "viral uri",
         "viral uri no pneumonia"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -830,6 +880,7 @@
         "uncomplicated cystitis",
         "uncomplicated cystitis nonpregnant"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -847,6 +898,7 @@
         "gastroenteritis",
         "gastroenteritis stable hydrating"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -864,6 +916,7 @@
         "cellulitis",
         "cellulitis uncomplicated oral antibiotics"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -882,6 +935,7 @@
         "abscess drained",
         "i and d"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -900,6 +954,7 @@
         "laceration repaired simple",
         "simple laceration repair"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -918,6 +973,7 @@
         "viral pharyngitis",
         "viral pharyngitis strep negative"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -935,6 +991,7 @@
         "dental pain",
         "dental pain no deep space infection"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -953,6 +1010,7 @@
         "allergic reaction",
         "allergic reaction resolved no anaphylaxis"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -967,6 +1025,7 @@
       "modifiers": [
         "allergic reaction"
       ],
+      "output_modifiers": [],
       "fallback_reason": "low_confidence"
     }
   },
@@ -979,6 +1038,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -991,6 +1051,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1005,6 +1066,7 @@
       "modifiers": [
         "lung infection"
       ],
+      "output_modifiers": [],
       "fallback_reason": "low_confidence"
     }
   },
@@ -1019,6 +1081,7 @@
       "modifiers": [
         "hit head"
       ],
+      "output_modifiers": [],
       "fallback_reason": "low_confidence"
     }
   },
@@ -1033,6 +1096,7 @@
       "modifiers": [
         "kidney stone"
       ],
+      "output_modifiers": [],
       "fallback_reason": "low_confidence"
     }
   },
@@ -1050,6 +1114,7 @@
         "pneumonia",
         "pneumonia outpatient"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -1067,6 +1132,7 @@
         "concussion",
         "concussion discharge no imaging red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1079,6 +1145,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1091,6 +1158,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1103,6 +1171,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1115,6 +1184,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1127,6 +1197,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1139,6 +1210,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1151,6 +1223,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1163,6 +1236,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1175,6 +1249,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1187,6 +1262,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1199,6 +1275,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1211,6 +1288,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1223,11 +1301,12 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
   {
-    "case_id": "phase156_aom_clean_draft_fallback",
+    "case_id": "phase156_aom_clean_reviewed_ontology",
     "passed": true,
     "result": {
       "phenotype_id": "acute_otitis_media_uncomplicated",
@@ -1238,7 +1317,8 @@
         "acute otitis media",
         "acute otitis media uncomplicated"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "output_modifiers": [],
+      "fallback_reason": null
     }
   },
   {
@@ -1256,6 +1336,7 @@
       "modifiers": [
         "acute otitis media"
       ],
+      "output_modifiers": [],
       "fallback_reason": "required_runtime_context_missing"
     }
   },
@@ -1273,6 +1354,7 @@
       "modifiers": [
         "acute otitis media"
       ],
+      "output_modifiers": [],
       "fallback_reason": "required_runtime_context_missing"
     }
   },
@@ -1285,6 +1367,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1297,6 +1380,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1315,6 +1399,7 @@
       "modifiers": [
         "acute otitis media"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1333,6 +1418,7 @@
       "modifiers": [
         "acute otitis media"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1351,6 +1437,7 @@
       "modifiers": [
         "acute otitis media"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1369,6 +1456,7 @@
       "modifiers": [
         "acute otitis media"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1387,6 +1475,7 @@
       "modifiers": [
         "acute otitis media"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1405,6 +1494,7 @@
       "modifiers": [
         "acute otitis media"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1423,6 +1513,7 @@
       "modifiers": [
         "acute otitis media"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1441,11 +1532,12 @@
       "modifiers": [
         "acute otitis media"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
   {
-    "case_id": "phase163_aom_watchful_waiting_clean_draft_fallback",
+    "case_id": "phase163_aom_watchful_waiting_clean_reviewed_ontology",
     "passed": true,
     "result": {
       "phenotype_id": "acute_otitis_media_uncomplicated",
@@ -1456,11 +1548,12 @@
         "acute otitis media",
         "acute otitis media uncomplicated"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "output_modifiers": [],
+      "fallback_reason": null
     }
   },
   {
-    "case_id": "phase163_aom_delayed_antibiotic_clean_draft_fallback",
+    "case_id": "phase163_aom_delayed_antibiotic_clean_reviewed_ontology",
     "passed": true,
     "result": {
       "phenotype_id": "acute_otitis_media_uncomplicated",
@@ -1471,7 +1564,8 @@
         "acute otitis media",
         "acute otitis media uncomplicated"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "output_modifiers": [],
+      "fallback_reason": null
     }
   },
   {
@@ -1488,6 +1582,7 @@
         "acute otitis media",
         "acute otitis media uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "required_runtime_context_missing"
     }
   },
@@ -1507,6 +1602,7 @@
         "acute otitis media",
         "acute otitis media uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1524,6 +1620,7 @@
         "acute otitis media",
         "acute otitis media uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1541,6 +1638,7 @@
         "acute otitis media",
         "acute otitis media uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1558,6 +1656,7 @@
         "acute otitis media",
         "acute otitis media uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1570,6 +1669,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1582,6 +1682,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1594,11 +1695,12 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
   {
-    "case_id": "phase175_suture_clean_retired_fallback",
+    "case_id": "phase175_suture_clean_reviewed_ontology",
     "passed": true,
     "result": {
       "phenotype_id": "suture_removal_or_wound_check_no_infection",
@@ -1608,7 +1710,8 @@
       "modifiers": [
         "suture removal wound check"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "output_modifiers": [],
+      "fallback_reason": null
     }
   },
   {
@@ -1619,12 +1722,13 @@
       "confidence": 0.93,
       "exclusions": [],
       "missing_required_context": [
-        "clinician_documented_wound_readiness",
+        "clinician_documented_expected_healing_or_clearance",
         "clinician_entered_wound_follow_up_plan"
       ],
       "modifiers": [
         "suture removal wound check"
       ],
+      "output_modifiers": [],
       "fallback_reason": "required_runtime_context_missing"
     }
   },
@@ -1642,6 +1746,7 @@
       "modifiers": [
         "suture removal wound check"
       ],
+      "output_modifiers": [],
       "fallback_reason": "required_runtime_context_missing"
     }
   },
@@ -1654,6 +1759,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1667,12 +1773,14 @@
         "wound_infection_concern"
       ],
       "missing_required_context": [
+        "clinician_documented_expected_healing_or_clearance",
         "clinician_entered_wound_follow_up_plan",
         "structured_absence_of_wound_red_flags"
       ],
       "modifiers": [
         "suture removal wound check"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1686,11 +1794,13 @@
         "wound_dehiscence"
       ],
       "missing_required_context": [
+        "clinician_documented_expected_healing_or_clearance",
         "clinician_entered_wound_follow_up_plan"
       ],
       "modifiers": [
         "suture removal wound check"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1709,6 +1819,7 @@
       "modifiers": [
         "suture removal wound check"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1722,11 +1833,13 @@
         "hand_tendon_risk"
       ],
       "missing_required_context": [
+        "clinician_documented_expected_healing_or_clearance",
         "clinician_entered_wound_follow_up_plan"
       ],
       "modifiers": [
         "suture removal wound check"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1740,11 +1853,13 @@
         "bite_wound"
       ],
       "missing_required_context": [
+        "clinician_documented_expected_healing_or_clearance",
         "clinician_entered_wound_follow_up_plan"
       ],
       "modifiers": [
         "suture removal wound check"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1758,11 +1873,13 @@
         "specialist_directed_wound_plan"
       ],
       "missing_required_context": [
+        "clinician_documented_expected_healing_or_clearance",
         "clinician_entered_wound_follow_up_plan"
       ],
       "modifiers": [
         "suture removal wound check"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1775,6 +1892,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1787,11 +1905,12 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
   {
-    "case_id": "phase202_aom_revised_clean_draft_fallback",
+    "case_id": "phase202_aom_revised_clean_reviewed_ontology",
     "passed": true,
     "result": {
       "phenotype_id": "acute_otitis_media_uncomplicated",
@@ -1802,11 +1921,12 @@
         "acute otitis media",
         "acute otitis media uncomplicated"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "output_modifiers": [],
+      "fallback_reason": null
     }
   },
   {
-    "case_id": "phase202_aom_frail_elderly_not_hard_blocker",
+    "case_id": "phase221_aom_frail_elderly_soft_blocks",
     "passed": true,
     "result": {
       "phenotype_id": "acute_otitis_media_uncomplicated",
@@ -1817,7 +1937,14 @@
         "acute otitis media",
         "acute otitis media uncomplicated"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "output_modifiers": [
+        {
+          "id": "elderly_frail",
+          "label": "Frail elderly follow-up modifier",
+          "note": "Shorten follow-up to 48 to 72 hours and confirm explicit return instructions."
+        }
+      ],
+      "fallback_reason": null
     }
   },
   {
@@ -1836,6 +1963,7 @@
         "acute otitis media",
         "acute otitis media uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1855,11 +1983,52 @@
         "acute otitis media",
         "acute otitis media uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
   {
-    "case_id": "phase203_suture_revised_clean_draft_fallback",
+    "case_id": "phase221_aom_watchful_waiting_unreliable_followup_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "watchful_waiting_follow_up_unreliable"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media",
+        "acute otitis media uncomplicated"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase221_aom_poorly_controlled_diabetes_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media",
+        "acute otitis media uncomplicated"
+      ],
+      "output_modifiers": [
+        {
+          "id": "diabetes_general_risk",
+          "label": "Diabetes follow-up modifier",
+          "note": "Confirm clinician-entered follow-up and return instructions because infection recovery may be less predictable."
+        }
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase203_suture_revised_clean_reviewed_ontology",
     "passed": true,
     "result": {
       "phenotype_id": "suture_removal_or_wound_check_no_infection",
@@ -1869,7 +2038,8 @@
       "modifiers": [
         "suture removal wound check"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "output_modifiers": [],
+      "fallback_reason": null
     }
   },
   {
@@ -1885,6 +2055,24 @@
       "modifiers": [
         "suture removal wound check"
       ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase222_suture_wound_ready_alone_missing_expected_healing_or_clearance",
+    "passed": true,
+    "result": {
+      "phenotype_id": "suture_removal_or_wound_check_no_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_documented_expected_healing_or_clearance"
+      ],
+      "modifiers": [
+        "suture removal wound check"
+      ],
+      "output_modifiers": [],
       "fallback_reason": "required_runtime_context_missing"
     }
   },
@@ -1901,11 +2089,54 @@
       "modifiers": [
         "suture removal wound check"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
   {
-    "case_id": "phase204_skin_avulsion_clean_draft_fallback",
+    "case_id": "phase221_suture_diabetes_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "suture_removal_or_wound_check_no_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "suture removal wound check"
+      ],
+      "output_modifiers": [
+        {
+          "id": "diabetes_general_risk",
+          "label": "Diabetes wound-healing modifier",
+          "note": "Flag higher infection/dehiscence risk and confirm clinician-entered follow-up."
+        }
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase221_suture_pvd_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "suture_removal_or_wound_check_no_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "suture removal wound check"
+      ],
+      "output_modifiers": [
+        {
+          "id": "peripheral_vascular_disease",
+          "label": "Peripheral vascular disease wound-healing modifier",
+          "note": "Flag slower healing risk and confirm clinician-entered follow-up."
+        }
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase204_skin_avulsion_clean_reviewed_ontology",
     "passed": true,
     "result": {
       "phenotype_id": "skin_avulsion_or_abrasion_simple",
@@ -1915,7 +2146,8 @@
       "modifiers": [
         "simple skin avulsion"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "output_modifiers": [],
+      "fallback_reason": null
     }
   },
   {
@@ -1927,6 +2159,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -1945,6 +2178,7 @@
       "modifiers": [
         "simple skin avulsion"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -1963,28 +2197,74 @@
       "modifiers": [
         "simple skin avulsion"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
   {
-    "case_id": "phase205_wrist_sprain_clean_draft_fallback",
+    "case_id": "phase221_skin_avulsion_anticoagulated_blocks",
     "passed": true,
     "result": {
-      "phenotype_id": "sprain_strain_non_ankle_xray_negative",
+      "phenotype_id": "skin_avulsion_or_abrasion_simple",
       "confidence": 0.93,
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [
+        "simple skin avulsion"
+      ],
+      "output_modifiers": [
+        {
+          "id": "anticoagulated",
+          "label": "Anticoagulation bleeding modifier",
+          "note": "Flag bleeding risk while preserving the simple-wound pathway."
+        }
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase221_skin_avulsion_delayed_presentation_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "skin_avulsion_or_abrasion_simple",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "simple skin avulsion"
+      ],
+      "output_modifiers": [
+        {
+          "id": "delayed_wound_presentation",
+          "label": "Delayed clean-wound presentation modifier",
+          "note": "For clean delayed wounds, confirm clinician-entered follow-up; contaminated or bite wounds remain blocked separately."
+        }
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase205_wrist_sprain_missing_scaphoid_absence_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "no_scaphoid_tenderness_documented"
+      ],
+      "modifiers": [
         "wrist sprain xray negative"
       ],
-      "fallback_reason": "phenotype_not_clinician_reviewed"
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
     }
   },
   {
     "case_id": "phase205_sprain_missing_xray_blocks",
     "passed": true,
     "result": {
-      "phenotype_id": "sprain_strain_non_ankle_xray_negative",
+      "phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
       "confidence": 0.78,
       "exclusions": [
         "no_xray_performed"
@@ -1995,6 +2275,7 @@
       "modifiers": [
         "knee sprain xray negative"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2010,6 +2291,7 @@
         "ankle sprain",
         "ankle sprain xray negative"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -2017,15 +2299,18 @@
     "case_id": "phase205_sprain_scaphoid_blocks",
     "passed": true,
     "result": {
-      "phenotype_id": "sprain_strain_non_ankle_xray_negative",
+      "phenotype_id": "wrist_sprain_xray_negative",
       "confidence": 0.78,
       "exclusions": [
         "scaphoid_tenderness_pattern"
       ],
-      "missing_required_context": [],
+      "missing_required_context": [
+        "no_scaphoid_tenderness_documented"
+      ],
       "modifiers": [
         "wrist sprain xray negative"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2033,7 +2318,7 @@
     "case_id": "phase205_sprain_unable_bear_weight_blocks",
     "passed": true,
     "result": {
-      "phenotype_id": "sprain_strain_non_ankle_xray_negative",
+      "phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
       "confidence": 0.78,
       "exclusions": [
         "unable_to_bear_weight_lower_extremity"
@@ -2042,6 +2327,7 @@
       "modifiers": [
         "knee sprain xray negative"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2049,7 +2335,7 @@
     "case_id": "phase205_sprain_compartment_signal_blocks",
     "passed": true,
     "result": {
-      "phenotype_id": "sprain_strain_non_ankle_xray_negative",
+      "phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
       "confidence": 0.78,
       "exclusions": [
         "compartment_syndrome_concern"
@@ -2058,6 +2344,7 @@
       "modifiers": [
         "shoulder sprain xray negative"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2076,6 +2363,7 @@
         "abscess after i and d",
         "i and d"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2088,6 +2376,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -2106,6 +2395,7 @@
         "allergic reaction",
         "allergic reaction resolved no anaphylaxis"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2118,6 +2408,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -2135,6 +2426,7 @@
         "ankle sprain",
         "ankle sprain xray negative"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2147,6 +2439,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -2165,6 +2458,7 @@
         "asthma exacerbation improved discharge",
         "wheezing"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2179,6 +2473,7 @@
       "modifiers": [
         "wheezing"
       ],
+      "output_modifiers": [],
       "fallback_reason": "low_confidence"
     }
   },
@@ -2197,6 +2492,7 @@
         "cellulitis",
         "cellulitis uncomplicated oral antibiotics"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2209,6 +2505,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -2228,6 +2525,7 @@
         "pneumonia",
         "pneumonia outpatient"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2240,6 +2538,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -2258,6 +2557,7 @@
         "concussion",
         "concussion discharge no imaging red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2272,6 +2572,7 @@
       "modifiers": [
         "concussion"
       ],
+      "output_modifiers": [],
       "fallback_reason": "low_confidence"
     }
   },
@@ -2290,6 +2591,7 @@
         "dental pain",
         "dental pain no deep space infection"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2302,6 +2604,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -2320,6 +2623,7 @@
         "gastroenteritis",
         "gastroenteritis stable hydrating"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2332,6 +2636,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -2350,6 +2655,7 @@
         "laceration repair",
         "laceration repaired simple"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2362,6 +2668,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -2379,6 +2686,7 @@
         "lumbar strain",
         "lumbar strain no red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2391,6 +2699,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -2410,6 +2719,7 @@
         "minor head injury",
         "minor head injury no red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2422,6 +2732,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -2440,6 +2751,7 @@
         "renal colic",
         "renal colic stable no infection"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2452,6 +2764,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -2473,6 +2786,7 @@
         "uncomplicated cystitis nonpregnant",
         "uti"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2485,6 +2799,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -2503,6 +2818,7 @@
         "viral pharyngitis",
         "viral pharyngitis strep negative"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2515,6 +2831,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -2534,6 +2851,7 @@
         "viral uri",
         "viral uri no pneumonia"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2546,6 +2864,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -2566,6 +2885,7 @@
       "modifiers": [
         "abdominal pain recheck"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2578,7 +2898,65 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_aom_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "acute_otitis_media_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "lateral_sinus_thrombosis_concern",
+        "meningitis_or_cns_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute otitis media",
+        "acute otitis media uncomplicated"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_skin_avulsion_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "skin_avulsion_or_abrasion_simple",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound",
+        "immunocompromised"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "simple skin avulsion",
+        "skin avulsion or abrasion simple"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_suture_wound_check_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "suture_removal_or_wound_check_no_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "wound_dehiscence",
+        "wound_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "suture removal or wound check no infection",
+        "wound check no infection"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
     }
   },
   {
@@ -2597,6 +2975,7 @@
         "acute bronchitis",
         "acute bronchitis no pneumonia"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2609,6 +2988,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -2627,6 +3007,7 @@
         "acute sinusitis",
         "acute sinusitis supportive care"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2639,6 +3020,113 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase20_sprain_strain_knee_or_shoulder_xray_negative_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "specialist_directed_orthopedic_plan",
+        "tendon_or_ligament_rupture_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "knee sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_wrist_sprain_xray_negative_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "scaphoid_tenderness_pattern",
+        "specialist_directed_orthopedic_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_elbow_overuse_xray_negative_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "acute_traumatic_elbow_mechanism",
+        "specialist_directed_orthopedic_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "elbow overuse strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_elbow_acute_traumatic_xray_negative_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "elbow_instability_or_ucl_lcl_concern",
+        "specialist_directed_orthopedic_plan"
+      ],
+      "missing_required_context": [
+        "no_elbow_instability_concern_attested"
+      ],
+      "modifiers": [
+        "acute traumatic elbow sprain xray negative",
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_foot_sprain_xray_negative_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "cannot_ambulate_at_discharge",
+        "lisfranc_or_midfoot_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "foot sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_sprain_vague_chief_complaint_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -2656,6 +3144,7 @@
         "asthma",
         "asthma exacerbation improved discharge"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2674,6 +3163,7 @@
         "uncomplicated cystitis",
         "uncomplicated cystitis nonpregnant"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2691,6 +3181,7 @@
         "gastroenteritis",
         "gastroenteritis stable hydrating"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2710,6 +3201,7 @@
         "pneumonia",
         "pneumonia outpatient"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2727,6 +3219,7 @@
         "renal colic",
         "renal colic stable no infection"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2746,6 +3239,7 @@
         "viral uri",
         "viral uri no pneumonia"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2758,6 +3252,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -2770,7 +3265,218 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase217_knee_clean_reviewed_ontology",
+    "passed": true,
+    "result": {
+      "phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "knee sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase217_wrist_clean_missing_scaphoid_absence_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "no_scaphoid_tenderness_documented"
+      ],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase217_wrist_clean_with_no_scaphoid_documented_reviewed_ontology",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase217_shoulder_clean_reviewed_ontology",
+    "passed": true,
+    "result": {
+      "phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "shoulder sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase217_elbow_clean_routes_to_acute_elbow_draft_missing_context",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "acute_traumatic_mechanism_documented",
+        "adult_acute_traumatic_elbow_sprain_diagnosis",
+        "intact_neurovascular_and_hand_motor_exam",
+        "no_distal_tendon_or_ligament_rupture_concern_attested",
+        "no_elbow_instability_concern_attested"
+      ],
+      "modifiers": [
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase217_foot_clean_routes_to_reviewed_foot",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "foot sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase217_wrist_scaphoid_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "scaphoid_tenderness_pattern"
+      ],
+      "missing_required_context": [
+        "no_scaphoid_tenderness_documented"
+      ],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase217_wrist_foosh_scaphoid_risk_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "foosh_scaphoid_risk"
+      ],
+      "missing_required_context": [
+        "no_scaphoid_tenderness_documented"
+      ],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase217_elbow_rupture_concern_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "tendon_or_ligament_rupture_concern"
+      ],
+      "missing_required_context": [
+        "acute_traumatic_mechanism_documented",
+        "adult_acute_traumatic_elbow_sprain_diagnosis",
+        "intact_neurovascular_and_hand_motor_exam",
+        "no_distal_tendon_or_ligament_rupture_concern_attested",
+        "no_elbow_instability_concern_attested"
+      ],
+      "modifiers": [
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase217_foot_unable_to_bear_weight_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "unable_to_bear_weight_lower_extremity"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "foot sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase217_elderly_knee_osteoporotic_pattern_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "elderly_osteoporotic_high_risk_msk"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "knee sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase217_knee_acute_hemarthrosis_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "acute_hemarthrosis_or_large_effusion"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "knee sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
     }
   },
   {
@@ -2784,6 +3490,7 @@
       "modifiers": [
         "abdominal pain recheck"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -2800,6 +3507,7 @@
       "modifiers": [
         "abdominal pain reassuring evaluation"
       ],
+      "output_modifiers": [],
       "fallback_reason": "required_runtime_context_missing"
     }
   },
@@ -2816,6 +3524,7 @@
       "modifiers": [
         "abdominal pain recheck"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2834,6 +3543,7 @@
       "modifiers": [
         "abdominal pain reassuring evaluation"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2852,6 +3562,7 @@
       "modifiers": [
         "abdominal pain reassuring evaluation"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2870,6 +3581,7 @@
       "modifiers": [
         "abdominal pain reassuring evaluation"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2888,6 +3600,7 @@
       "modifiers": [
         "abdominal pain reassuring evaluation"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2900,7 +3613,389 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase302_wrist_clean_missing_scaphoid_absence_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "no_scaphoid_tenderness_documented"
+      ],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase303_wrist_clean_no_snuffbox_reviewed_ontology",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase304_wrist_strain_no_scaphoid_reviewed_ontology",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase305_wrist_injury_xray_negative_no_scaphoid_reviewed_ontology",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist injury xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase306_wrist_scaphoid_tenderness_blocks_even_with_negative_xray",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "scaphoid_tenderness_pattern"
+      ],
+      "missing_required_context": [
+        "no_scaphoid_tenderness_documented"
+      ],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase307_wrist_snuffbox_tenderness_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "scaphoid_tenderness_pattern"
+      ],
+      "missing_required_context": [
+        "no_scaphoid_tenderness_documented"
+      ],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase308_wrist_foosh_alone_with_clean_scaphoid_exam_does_not_block",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase309_wrist_thumb_side_pain_after_fall_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "foosh_scaphoid_risk"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase310_wrist_no_xray_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "no_xray_performed"
+      ],
+      "missing_required_context": [
+        "xray_performed_and_negative"
+      ],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase311_wrist_fracture_seen_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "fracture_seen"
+      ],
+      "missing_required_context": [
+        "xray_performed_and_negative"
+      ],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase312_wrist_tendon_risk_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "hand_tendon_risk"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase313_wrist_pediatric_growth_plate_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "pediatric_growth_plate_pathway"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase314_wrist_age_language_alone_does_not_block",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase315_wrist_specialist_plan_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "specialist_directed_orthopedic_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase316_wrist_negated_scaphoid_tenderness_satisfies_context",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase317_wrist_no_scaphoid_concern_documented_satisfies_context",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase318_wrist_no_fracture_phrase_satisfies_xray_context",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist injury xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase319_knee_reviewed_path_unaffected_by_wrist_hold",
+    "passed": true,
+    "result": {
+      "phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "knee sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase320_shoulder_reviewed_path_unaffected_by_wrist_hold",
+    "passed": true,
+    "result": {
+      "phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "shoulder strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase321_wrist_neurovascular_compromise_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "neurovascular_compromise"
+      ],
+      "missing_required_context": [
+        "intact_neurovascular_exam"
+      ],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase322_wrist_osteoporotic_pattern_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "elderly_osteoporotic_high_risk_msk"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase323_wrist_mallet_finger_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "hand_tendon_risk"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase324_wrist_jersey_finger_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "hand_tendon_risk"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
     }
   },
   {
@@ -2916,6 +4011,7 @@
         "acute bronchitis no pneumonia",
         "chest cold"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -2934,6 +4030,7 @@
         "acute bronchitis",
         "acute bronchitis no pneumonia"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2951,6 +4048,7 @@
         "acute bronchitis",
         "acute bronchitis no pneumonia"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2968,6 +4066,7 @@
         "acute bronchitis",
         "acute bronchitis no pneumonia"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -2985,6 +4084,7 @@
         "acute bronchitis",
         "acute bronchitis no pneumonia"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3002,6 +4102,7 @@
         "acute bronchitis",
         "acute bronchitis no pneumonia"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3014,6 +4115,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -3028,6 +4130,7 @@
       "modifiers": [
         "chest cold"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -3044,6 +4147,7 @@
       "modifiers": [
         "acute bronchitis"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3060,6 +4164,7 @@
       "modifiers": [
         "acute bronchitis"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3076,6 +4181,7 @@
       "modifiers": [
         "viral bronchitis"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3092,6 +4198,7 @@
       "modifiers": [
         "acute bronchitis"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3108,6 +4215,7 @@
       "modifiers": [
         "acute bronchitis"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3124,7 +4232,246 @@
       "modifiers": [
         "acute bronchitis"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase371_elbow_overuse_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "elbow overuse strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase372_lateral_epicondylitis_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "lateral epicondylitis xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase373_medial_epicondylitis_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "medial epicondylitis xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase374_elbow_overuse_missing_trauma_attestation_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "no_acute_traumatic_mechanism_attested"
+      ],
+      "modifiers": [
+        "elbow overuse strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase375_elbow_overuse_missing_instability_attestation_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "no_elbow_instability_concern_attested"
+      ],
+      "modifiers": [
+        "elbow overuse strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase376_elbow_overuse_missing_hand_motor_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "intact_neurovascular_and_hand_motor_exam"
+      ],
+      "modifiers": [
+        "elbow overuse strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase377_elbow_overuse_no_xray_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "no_xray_performed"
+      ],
+      "missing_required_context": [
+        "xray_performed_and_negative"
+      ],
+      "modifiers": [
+        "elbow overuse strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase378_elbow_acute_trauma_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "acute_traumatic_elbow_mechanism"
+      ],
+      "missing_required_context": [
+        "no_acute_traumatic_mechanism_attested"
+      ],
+      "modifiers": [
+        "elbow overuse strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase379_elbow_ucl_concern_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "elbow_instability_or_ucl_lcl_concern"
+      ],
+      "missing_required_context": [
+        "no_elbow_instability_concern_attested"
+      ],
+      "modifiers": [
+        "medial epicondylitis xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase380_elbow_ulnar_nerve_pattern_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "ulnar_nerve_pattern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "medial epicondylitis xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase381_elbow_distal_biceps_concern_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "distal_biceps_or_triceps_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "elbow overuse strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase382_elbow_olecranon_bursitis_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "olecranon_bursitis_pathway"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "elbow overuse strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase383_broad_elbow_pain_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "output_modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase384_acute_elbow_sprain_still_excluded_from_knee_shoulder",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "acute_traumatic_mechanism_documented",
+        "adult_acute_traumatic_elbow_sprain_diagnosis",
+        "intact_neurovascular_and_hand_motor_exam",
+        "no_distal_tendon_or_ligament_rupture_concern_attested",
+        "no_elbow_instability_concern_attested"
+      ],
+      "modifiers": [
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
     }
   },
   {
@@ -3139,6 +4486,7 @@
         "acute sinusitis",
         "acute sinusitis supportive care"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -3156,6 +4504,7 @@
         "acute sinusitis",
         "acute sinusitis supportive care"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3173,6 +4522,7 @@
         "acute sinusitis",
         "acute sinusitis supportive care"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3190,6 +4540,7 @@
         "sinus infection",
         "sinus infection supportive care"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3202,7 +4553,281 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase391_tennis_elbow_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "tennis elbow xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase392_golfer_elbow_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "golfer elbow xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase393_elbow_overuse_missing_adult_overuse_diagnosis_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "adult_elbow_overuse_diagnosis"
+      ],
+      "modifiers": [
+        "tennis elbow xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase394_elbow_overuse_xray_not_done_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "no_xray_performed"
+      ],
+      "missing_required_context": [
+        "adult_elbow_overuse_diagnosis",
+        "xray_performed_and_negative"
+      ],
+      "modifiers": [
+        "tennis elbow xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase395_direct_blow_elbow_trauma_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "acute_traumatic_elbow_mechanism"
+      ],
+      "missing_required_context": [
+        "adult_elbow_overuse_diagnosis",
+        "no_acute_traumatic_mechanism_attested"
+      ],
+      "modifiers": [
+        "tennis elbow xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase396_posterior_elbow_fluid_bursitis_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "olecranon_bursitis_pathway"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "elbow overuse strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase397_hand_weakness_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "hand_motor_deficit"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "medial epicondylitis xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase398_fever_joint_pain_infection_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "septic_joint_or_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "medial epicondylitis xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase399_child_growth_plate_pathway_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "pediatric_growth_plate_pathway"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "lateral epicondylitis xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase400_osteoporotic_risk_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "elderly_osteoporotic_high_risk_msk"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "lateral epicondylitis xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase401_specialist_directed_orthopedic_plan_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "specialist_directed_orthopedic_plan"
+      ],
+      "missing_required_context": [
+        "adult_elbow_overuse_diagnosis"
+      ],
+      "modifiers": [
+        "tennis elbow xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase402_shoulder_overuse_no_elbow_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "output_modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase403_foot_sprain_now_routes_to_reviewed_foot",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "foot sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase404_acute_elbow_sprain_still_routes_to_site_pending_split",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "acute_traumatic_mechanism_documented",
+        "adult_acute_traumatic_elbow_sprain_diagnosis",
+        "intact_neurovascular_and_hand_motor_exam",
+        "no_distal_tendon_or_ligament_rupture_concern_attested"
+      ],
+      "modifiers": [
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase405_unable_to_supinate_distal_biceps_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "distal_biceps_or_triceps_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "elbow overuse strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase406_cubital_tunnel_ulnar_nerve_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "ulnar_nerve_pattern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "medial epicondylitis xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
     }
   },
   {
@@ -3220,6 +4845,7 @@
         "acute sinusitis supportive care",
         "sinus infection"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3237,6 +4863,7 @@
         "sinus infection",
         "sinus infection supportive care"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3254,6 +4881,7 @@
         "acute sinusitis",
         "acute sinusitis supportive care"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3271,6 +4899,7 @@
         "sinus infection",
         "sinus infection supportive care"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3288,7 +4917,174 @@
         "acute sinusitis",
         "acute sinusitis supportive care"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase421_negated_hand_weakness_does_not_block",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "tennis elbow xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase422_negated_ring_finger_numbness_does_not_block",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "medial epicondylitis xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase423_negated_posterior_elbow_swelling_does_not_block",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "elbow overuse strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase424_xray_no_acute_fracture_satisfies_required_context",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "tennis elbow xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase425_no_fracture_seen_on_xray_satisfies_required_context",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "tennis elbow xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase426_normal_hand_motor_satisfies_required_context",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "tennis elbow xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase427_unable_to_pronate_blocks_as_tendon_concern",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "distal_biceps_or_triceps_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "elbow overuse strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase428_weakness_pronating_forearm_blocks_as_tendon_concern",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "distal_biceps_or_triceps_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "elbow overuse strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase429_anticoagulated_elbow_overuse_surfaces_output_modifier",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "tennis elbow xray negative"
+      ],
+      "output_modifiers": [
+        {
+          "id": "anticoagulated",
+          "label": "Anticoagulation medication-safety modifier",
+          "note": "Flag anticoagulation for clinician-entered medication and bleeding-risk review without changing the elbow overuse text."
+        }
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase430_immunocompromised_elbow_overuse_surfaces_output_modifier",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "tennis elbow xray negative"
+      ],
+      "output_modifiers": [
+        {
+          "id": "immunocompromised",
+          "label": "Immunocompromised follow-up modifier",
+          "note": "Flag immunocompromise for clinician-entered follow-up and return-instruction review without changing the elbow overuse text."
+        }
+      ],
+      "fallback_reason": null
     }
   },
   {
@@ -3303,6 +5099,7 @@
         "sinus infection",
         "sinus infection supportive care"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -3315,6 +5112,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -3332,6 +5130,7 @@
         "acute sinusitis",
         "acute sinusitis supportive care"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3346,6 +5145,7 @@
       "modifiers": [
         "conjunctivitis uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "phenotype_not_clinician_reviewed"
     }
   },
@@ -3362,6 +5162,7 @@
       "modifiers": [
         "conjunctivitis uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3378,6 +5179,7 @@
       "modifiers": [
         "pink eye uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3394,6 +5196,7 @@
       "modifiers": [
         "conjunctivitis no contact lens"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3406,7 +5209,254 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase481_foot_clean_reviewed_ontology",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "foot sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase482_foot_strain_clean_reviewed_ontology",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "foot strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase483_foot_injury_no_fracture_phrase_reviewed_ontology",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "foot injury xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase484_foot_no_xray_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "no_xray_performed"
+      ],
+      "missing_required_context": [
+        "xray_performed_and_negative"
+      ],
+      "modifiers": [
+        "foot sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase485_foot_fracture_seen_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "fracture_seen"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "foot sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase486_foot_lisfranc_midfoot_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "lisfranc_or_midfoot_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "foot sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase487_foot_unable_to_bear_weight_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "unable_to_bear_weight_lower_extremity"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "foot sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase488_foot_neurovascular_compromise_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "neurovascular_compromise"
+      ],
+      "missing_required_context": [
+        "intact_neurovascular_exam"
+      ],
+      "modifiers": [
+        "foot sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase488_a_foot_high_energy_mechanism_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "high_energy_trauma"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "foot sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase488_b_foot_cannot_ambulate_at_discharge_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "cannot_ambulate_at_discharge"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "foot sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase488_c_foot_pediatric_growth_plate_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "pediatric_growth_plate_pathway"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "foot sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase489_ankle_sprain_path_unaffected",
+    "passed": true,
+    "result": {
+      "phenotype_id": "ankle_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "ankle sprain",
+        "ankle sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase490_foot_ankle_pathway_blocks_foot_draft",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_sprain_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "ankle_sprain_pathway"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "foot sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase491_broad_foot_pain_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "output_modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase492_elbow_overuse_unaffected_by_foot_draft",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "elbow overuse strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
     }
   },
   {
@@ -3422,6 +5472,7 @@
       "modifiers": [
         "pink eye no contact lens"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3438,6 +5489,7 @@
       "modifiers": [
         "conjunctivitis uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3454,6 +5506,7 @@
       "modifiers": [
         "pink eye uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3470,6 +5523,7 @@
       "modifiers": [
         "conjunctivitis no contact lens"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3486,6 +5540,7 @@
       "modifiers": [
         "conjunctivitis uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3503,6 +5558,7 @@
       "modifiers": [
         "conjunctivitis uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3519,6 +5575,7 @@
       "modifiers": [
         "pink eye uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3536,6 +5593,7 @@
       "modifiers": [
         "conjunctivitis no contact lens"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3548,6 +5606,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -3560,6 +5619,427 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase532_elbow_acute_sprain_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "elbow sprain acute traumatic xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase533_elbow_strain_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute traumatic elbow strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase534_radial_head_contusion_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "radial head contusion xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase535_elbow_acute_missing_mechanism_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "acute_traumatic_mechanism_documented"
+      ],
+      "modifiers": [
+        "acute elbow sprain xray negative",
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase536_elbow_acute_missing_instability_attestation_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "no_elbow_instability_concern_attested"
+      ],
+      "modifiers": [
+        "acute elbow sprain xray negative",
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase537_elbow_acute_missing_tendon_attestation_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "no_distal_tendon_or_ligament_rupture_concern_attested"
+      ],
+      "modifiers": [
+        "acute elbow sprain xray negative",
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase538_elbow_acute_no_xray_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "no_xray_performed"
+      ],
+      "missing_required_context": [
+        "xray_performed_and_negative"
+      ],
+      "modifiers": [
+        "acute elbow sprain xray negative",
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase539_elbow_acute_instability_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "elbow_instability_or_ucl_lcl_concern"
+      ],
+      "missing_required_context": [
+        "no_elbow_instability_concern_attested"
+      ],
+      "modifiers": [
+        "acute elbow sprain xray negative",
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase540_elbow_acute_distal_biceps_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "distal_biceps_or_triceps_concern"
+      ],
+      "missing_required_context": [
+        "no_distal_tendon_or_ligament_rupture_concern_attested"
+      ],
+      "modifiers": [
+        "acute elbow sprain xray negative",
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase541_elbow_acute_ulnar_nerve_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "ulnar_nerve_pattern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute elbow sprain xray negative",
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase542_elbow_acute_bursitis_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "olecranon_bursitis_pathway"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute elbow sprain xray negative",
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase543_elbow_acute_overuse_routes_to_reviewed_overuse",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "elbow overuse strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase544_elbow_acute_broad_elbow_pain_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "output_modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase545_elbow_acute_pediatric_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "pediatric_growth_plate_pathway"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute elbow sprain xray negative",
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase546_foot_reviewed_unaffected_by_elbow_acute_draft",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "foot sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase551_elbow_acute_direct_blow_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute traumatic elbow sprain xray negative",
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase552_elbow_acute_forced_extension_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute traumatic elbow strain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase553_radial_head_contusion_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "radial head contusion xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase554_elbow_acute_dislocation_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "dislocation"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute elbow sprain xray negative",
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase555_elbow_acute_open_wound_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "open_wound"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute elbow sprain xray negative",
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase556_elbow_acute_compartment_concern_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "compartment_syndrome_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute elbow sprain xray negative",
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase557_elbow_acute_septic_joint_concern_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "septic_joint_or_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute elbow sprain xray negative",
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase558_elbow_acute_specialist_plan_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+      "confidence": 0.78,
+      "exclusions": [
+        "specialist_directed_orthopedic_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "acute elbow sprain xray negative",
+        "elbow sprain xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase559_elbow_overuse_reviewed_route_preserved",
+    "passed": true,
+    "result": {
+      "phenotype_id": "elbow_sprain_overuse_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "tennis elbow xray negative"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase560_broad_traumatic_elbow_pain_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -3574,6 +6054,7 @@
       "modifiers": [
         "otitis externa uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "phenotype_not_clinician_reviewed"
     }
   },
@@ -3586,6 +6067,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -3598,6 +6080,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -3612,6 +6095,7 @@
       "modifiers": [
         "swimmer's ear uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "phenotype_not_clinician_reviewed"
     }
   },
@@ -3628,6 +6112,7 @@
       "modifiers": [
         "otitis externa uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3644,6 +6129,7 @@
       "modifiers": [
         "otitis externa no mastoiditis"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3660,6 +6146,7 @@
       "modifiers": [
         "swimmers ear uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3676,6 +6163,7 @@
       "modifiers": [
         "otitis externa uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3692,6 +6180,7 @@
       "modifiers": [
         "otitis externa no mastoiditis"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3708,7 +6197,193 @@
       "modifiers": [
         "swimmer's ear uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase602_skin_abrasion_diabetes_modifier_reviewed",
+    "passed": true,
+    "result": {
+      "phenotype_id": "skin_avulsion_or_abrasion_simple",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "simple skin abrasion"
+      ],
+      "output_modifiers": [
+        {
+          "id": "diabetes_general_risk",
+          "label": "Diabetes wound-healing modifier",
+          "note": "Flag higher infection risk and confirm clinician-entered wound follow-up."
+        }
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase603_skin_tear_pvd_modifier_reviewed",
+    "passed": true,
+    "result": {
+      "phenotype_id": "skin_avulsion_or_abrasion_simple",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "simple skin tear"
+      ],
+      "output_modifiers": [
+        {
+          "id": "peripheral_vascular_disease",
+          "label": "Peripheral vascular disease wound-healing modifier",
+          "note": "Flag slower healing risk and confirm clinician-entered wound follow-up."
+        }
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase604_skin_avulsion_bite_wound_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "skin_avulsion_or_abrasion_simple",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "simple skin avulsion",
+        "skin avulsion abrasion simple"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase605_skin_avulsion_diabetic_foot_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "skin_avulsion_or_abrasion_simple",
+      "confidence": 0.78,
+      "exclusions": [
+        "diabetic_foot"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "simple skin avulsion"
+      ],
+      "output_modifiers": [
+        {
+          "id": "diabetes_general_risk",
+          "label": "Diabetes wound-healing modifier",
+          "note": "Flag higher infection risk and confirm clinician-entered wound follow-up."
+        }
+      ],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase606_skin_avulsion_foreign_body_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "skin_avulsion_or_abrasion_simple",
+      "confidence": 0.78,
+      "exclusions": [
+        "retained_foreign_body"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "simple skin avulsion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase607_skin_tear_hand_tendon_risk_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "skin_avulsion_or_abrasion_simple",
+      "confidence": 0.78,
+      "exclusions": [
+        "hand_tendon_risk"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "simple skin tear"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase608_skin_abrasion_broad_without_clinician_diagnosis_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "output_modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase609_skin_abrasion_missing_wound_care_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "skin_avulsion_or_abrasion_simple",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "wound_cleaned_and_dressed"
+      ],
+      "modifiers": [
+        "simple skin abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase610_skin_tear_immunocompromised_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "skin_avulsion_or_abrasion_simple",
+      "confidence": 0.78,
+      "exclusions": [
+        "immunocompromised"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "simple skin tear"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase611_skin_avulsion_delayed_presentation_modifier_reviewed",
+    "passed": true,
+    "result": {
+      "phenotype_id": "skin_avulsion_or_abrasion_simple",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "simple skin avulsion"
+      ],
+      "output_modifiers": [
+        {
+          "id": "delayed_wound_presentation",
+          "label": "Delayed clean-wound presentation modifier",
+          "note": "For clean delayed wounds, confirm clinician-entered follow-up; contaminated or bite wounds remain blocked separately."
+        }
+      ],
+      "fallback_reason": null
     }
   },
   {
@@ -3724,6 +6399,7 @@
       "modifiers": [
         "otitis externa uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3741,6 +6417,7 @@
       "modifiers": [
         "swimmer's ear uncomplicated"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3757,6 +6434,214 @@
       "modifiers": [
         "otitis externa no mastoiditis"
       ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase651_contact_dermatitis_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase652_irritant_contact_dermatitis_clean_draft_fallback",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "contact dermatitis",
+        "irritant contact dermatitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase653_contact_dermatitis_missing_diagnosis_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_contact_dermatitis"
+      ],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase654_contact_dermatitis_missing_trigger_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "contact_trigger_or_distribution_documented"
+      ],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase655_contact_dermatitis_anaphylaxis_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms"
+      ],
+      "missing_required_context": [
+        "dangerous_rash_features_absent"
+      ],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase656_contact_dermatitis_mucosal_peeling_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "mucosal_lesions",
+        "severe_cutaneous_adverse_reaction"
+      ],
+      "missing_required_context": [
+        "dangerous_rash_features_absent"
+      ],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase657_contact_dermatitis_infection_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "contact_dermatitis_infection_concern",
+        "fever"
+      ],
+      "missing_required_context": [
+        "dangerous_rash_features_absent"
+      ],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase658_contact_dermatitis_eye_location_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "eye_or_genital_rash_location"
+      ],
+      "missing_required_context": [
+        "dangerous_rash_features_absent"
+      ],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase659_broad_rash_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "output_modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase660_hives_route_preserved",
+    "passed": true,
+    "result": {
+      "phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "allergic reaction",
+        "allergic reaction resolved no anaphylaxis",
+        "hives"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase661_contact_dermatitis_pediatric_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "pediatric_pathway"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase662_contact_dermatitis_pregnancy_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "pregnancy"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3771,6 +6656,7 @@
       "modifiers": [
         "epistaxis resolved"
       ],
+      "output_modifiers": [],
       "fallback_reason": "phenotype_not_clinician_reviewed"
     }
   },
@@ -3783,6 +6669,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -3795,6 +6682,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -3811,6 +6699,7 @@
       "modifiers": [
         "nosebleed resolved"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3828,6 +6717,7 @@
         "epistaxis resolved",
         "epistaxis resolved no posterior bleed"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3844,6 +6734,7 @@
       "modifiers": [
         "epistaxis resolved"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3860,6 +6751,7 @@
       "modifiers": [
         "nosebleed resolved"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3876,6 +6768,7 @@
       "modifiers": [
         "epistaxis resolved"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -3893,7 +6786,218 @@
         "epistaxis resolved",
         "epistaxis resolved no posterior bleed"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase701_contact_dermatitis_clean_reviewed_ontology",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase702_poison_ivy_contact_dermatitis_reviewed_ontology",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "contact dermatitis",
+        "poison ivy dermatitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase703_contact_dermatitis_genital_location_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "eye_or_genital_rash_location"
+      ],
+      "missing_required_context": [
+        "dangerous_rash_features_absent"
+      ],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase704_contact_dermatitis_chemical_burn_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "burn_or_chemical_wound"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase705_contact_dermatitis_immunocompromised_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "immunocompromised"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase706_contact_dermatitis_target_lesions_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "mucosal_lesions",
+        "severe_cutaneous_adverse_reaction"
+      ],
+      "missing_required_context": [
+        "dangerous_rash_features_absent"
+      ],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase707_contact_dermatitis_rapid_progression_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.78,
+      "exclusions": [
+        "rapid_progression"
+      ],
+      "missing_required_context": [
+        "dangerous_rash_features_absent"
+      ],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase708_contact_dermatitis_occupational_modifier_reviewed",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [
+        {
+          "id": "occupational_recurrent_contact_dermatitis",
+          "label": "Recurrent occupational exposure modifier",
+          "note": "Flag recurrent occupational exposure for clinician-entered follow-up review without changing the contact dermatitis text."
+        }
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase709_contact_dermatitis_frail_large_bsa_modifier_reviewed",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [
+        {
+          "id": "frail_elderly_large_bsa_contact_dermatitis",
+          "label": "Frail or large-surface-area contact dermatitis modifier",
+          "note": "Flag frailty or large body-surface involvement for clinician-entered follow-up review without changing the contact dermatitis text."
+        }
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase710_broad_itchy_rash_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "output_modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase711_hives_route_still_preserved_after_contact_promotion",
+    "passed": true,
+    "result": {
+      "phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "allergic reaction",
+        "allergic reaction resolved no anaphylaxis",
+        "hives"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase712_cellulitis_route_not_contact_dermatitis",
+    "passed": true,
+    "result": {
+      "phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
+      "confidence": 0.6,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "cellulitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "low_confidence"
     }
   },
   {
@@ -3908,6 +7012,7 @@
         "migraine improved",
         "migraine improved discharge"
       ],
+      "output_modifiers": [],
       "fallback_reason": "phenotype_not_clinician_reviewed"
     }
   },
@@ -3925,6 +7030,7 @@
         "migraine improved",
         "migraine improved discharge"
       ],
+      "output_modifiers": [],
       "fallback_reason": "required_runtime_context_missing"
     }
   },
@@ -3942,6 +7048,7 @@
         "migraine improved",
         "migraine improved discharge"
       ],
+      "output_modifiers": [],
       "fallback_reason": "required_runtime_context_missing"
     }
   },
@@ -3954,6 +7061,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -3966,6 +7074,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -3985,6 +7094,7 @@
       "modifiers": [
         "migraine improved"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4004,6 +7114,7 @@
       "modifiers": [
         "migraine headache improved"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4024,6 +7135,7 @@
         "migraine improved",
         "migraine improved discharge"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4043,6 +7155,7 @@
       "modifiers": [
         "migraine improved"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4062,6 +7175,7 @@
       "modifiers": [
         "migraine headache improved"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4082,6 +7196,7 @@
         "migraine improved",
         "migraine improved discharge"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4101,6 +7216,7 @@
       "modifiers": [
         "migraine improved"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4117,6 +7233,7 @@
       "modifiers": [
         "migraine improved"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4133,6 +7250,7 @@
       "modifiers": [
         "migraine improved"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4149,6 +7267,7 @@
       "modifiers": [
         "migraine improved"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4169,6 +7288,7 @@
         "migraine improved",
         "migraine improved discharge"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4188,7 +7308,430 @@
       "modifiers": [
         "migraine headache improved"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase801_hives_reviewed_allergic_reaction_route_preserved",
+    "passed": true,
+    "result": {
+      "phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "allergic reaction",
+        "allergic reaction resolved no anaphylaxis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase802_bare_hives_stays_low_confidence",
+    "passed": true,
+    "result": {
+      "phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+      "confidence": 0.6,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "hives"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "low_confidence"
+    }
+  },
+  {
+    "case_id": "phase803_bare_urticaria_stays_low_confidence",
+    "passed": true,
+    "result": {
+      "phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+      "confidence": 0.6,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "urticaria"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "low_confidence"
+    }
+  },
+  {
+    "case_id": "phase804_broad_itchy_rash_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": null,
+      "confidence": 0.0,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [],
+      "output_modifiers": [],
+      "fallback_reason": "no_supported_phenotype_match"
+    }
+  },
+  {
+    "case_id": "phase805_hives_airway_symptoms_block",
+    "passed": true,
+    "result": {
+      "phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+      "confidence": 0.45,
+      "exclusions": [
+        "airway_symptoms"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "hives"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase806_hives_epinephrine_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+      "confidence": 0.45,
+      "exclusions": [
+        "epinephrine_given"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "hives"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase807_urticaria_mucosal_target_lesions_block",
+    "passed": true,
+    "result": {
+      "phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+      "confidence": 0.45,
+      "exclusions": [
+        "mucosal_lesions"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "urticaria"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase808_contact_dermatitis_route_preserved",
+    "passed": true,
+    "result": {
+      "phenotype_id": "contact_dermatitis_uncomplicated",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "contact dermatitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase809_cellulitis_route_not_urticaria",
+    "passed": true,
+    "result": {
+      "phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
+      "confidence": 0.6,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "cellulitis"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "low_confidence"
+    }
+  },
+  {
+    "case_id": "phase851_constipation_clean_reviewed_ontology",
+    "passed": true,
+    "result": {
+      "phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "constipation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase852_constipation_missing_diagnosis_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+      "confidence": 0.608,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_constipation"
+      ],
+      "modifiers": [
+        "constipation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase853_constipation_missing_reassuring_exam_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "reassuring_ed_assessment_or_benign_abdominal_exam"
+      ],
+      "modifiers": [
+        "constipation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase854_constipation_missing_no_obstruction_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "no_obstruction_concern_documented"
+      ],
+      "modifiers": [
+        "constipation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase855_constipation_missing_no_bleeding_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "no_gi_bleeding_documented"
+      ],
+      "modifiers": [
+        "constipation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase856_constipation_obstruction_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+      "confidence": 0.78,
+      "exclusions": [
+        "bowel_obstruction_or_ileus_concern",
+        "surgical_abdomen"
+      ],
+      "missing_required_context": [
+        "no_obstruction_concern_documented"
+      ],
+      "modifiers": [
+        "constipation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase857_constipation_no_flatus_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+      "confidence": 0.78,
+      "exclusions": [
+        "no_flatus"
+      ],
+      "missing_required_context": [
+        "no_obstruction_concern_documented"
+      ],
+      "modifiers": [
+        "constipation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase858_constipation_persistent_vomiting_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+      "confidence": 0.78,
+      "exclusions": [
+        "persistent_vomiting"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "constipation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase859_constipation_gi_bleeding_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+      "confidence": 0.78,
+      "exclusions": [
+        "gi_bleeding"
+      ],
+      "missing_required_context": [
+        "no_gi_bleeding_documented"
+      ],
+      "modifiers": [
+        "constipation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase860_constipation_fecal_impaction_procedure_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+      "confidence": 0.78,
+      "exclusions": [
+        "fecal_impaction_procedure_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "constipation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase861_constipation_opioid_induced_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+      "confidence": 0.78,
+      "exclusions": [
+        "opioid_induced_constipation"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "constipation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase862_constipation_frail_elderly_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+      "confidence": 0.78,
+      "exclusions": [
+        "elderly_frail"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "constipation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase863_constipation_nursing_home_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+      "confidence": 0.78,
+      "exclusions": [
+        "elderly_frail",
+        "nursing_home_patient"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "constipation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase864_constipation_pregnancy_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+      "confidence": 0.78,
+      "exclusions": [
+        "pregnancy"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "constipation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase865_constipation_cauda_equina_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+      "confidence": 0.78,
+      "exclusions": [
+        "cauda_equina_concern",
+        "urinary_retention"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "constipation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase866_broad_constipation_no_match",
+    "passed": true,
+    "result": {
+      "phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+      "confidence": 0.608,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_constipation",
+        "no_gi_bleeding_documented",
+        "no_obstruction_concern_documented",
+        "reassuring_ed_assessment_or_benign_abdominal_exam"
+      ],
+      "modifiers": [
+        "constipation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
     }
   },
   {
@@ -4203,6 +7746,7 @@
         "lumbar strain",
         "lumbar strain no red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -4220,6 +7764,7 @@
         "lumbar strain",
         "lumbar strain no red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4238,6 +7783,7 @@
         "lumbar strain",
         "lumbar strain no red flags"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4250,6 +7796,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -4266,6 +7813,7 @@
         "viral uri",
         "viral uri no pneumonia"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -4285,6 +7833,7 @@
         "viral uri",
         "viral uri no pneumonia"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4303,6 +7852,7 @@
         "viral uri",
         "viral uri no pneumonia"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4315,6 +7865,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -4331,6 +7882,7 @@
         "uncomplicated cystitis",
         "uncomplicated cystitis nonpregnant"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -4349,6 +7901,7 @@
         "uncomplicated cystitis",
         "uncomplicated cystitis nonpregnant"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4369,6 +7922,7 @@
         "uncomplicated cystitis",
         "uncomplicated cystitis nonpregnant"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4381,6 +7935,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -4396,6 +7951,7 @@
         "gastroenteritis",
         "gastroenteritis stable hydrating"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -4413,6 +7969,7 @@
         "gastroenteritis",
         "gastroenteritis stable hydrating"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4430,6 +7987,7 @@
         "gastroenteritis",
         "gastroenteritis stable hydrating"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4442,6 +8000,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -4457,6 +8016,7 @@
         "cellulitis",
         "cellulitis uncomplicated oral antibiotics"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -4475,6 +8035,7 @@
         "cellulitis uncomplicated oral antibiotics",
         "skin infection"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4493,6 +8054,7 @@
         "cellulitis",
         "cellulitis uncomplicated oral antibiotics"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4505,6 +8067,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -4520,6 +8083,7 @@
         "abscess after i and d",
         "i and d"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -4537,6 +8101,7 @@
         "abscess after i and d",
         "i and d"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4554,6 +8119,7 @@
         "abscess after i and d",
         "i and d"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4566,6 +8132,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -4581,6 +8148,7 @@
         "laceration repair",
         "laceration repaired simple"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -4598,6 +8166,7 @@
         "laceration repair",
         "laceration repaired simple"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4615,6 +8184,7 @@
         "laceration repair",
         "laceration repaired simple"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4627,6 +8197,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -4644,6 +8215,7 @@
         "viral pharyngitis",
         "viral pharyngitis strep negative"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -4663,6 +8235,7 @@
         "viral pharyngitis",
         "viral pharyngitis strep negative"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4681,6 +8254,7 @@
         "viral pharyngitis",
         "viral pharyngitis strep negative"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4693,6 +8267,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -4708,6 +8283,7 @@
         "dental pain",
         "dental pain no deep space infection"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -4726,6 +8302,7 @@
         "dental pain",
         "dental pain no deep space infection"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4743,6 +8320,7 @@
         "dental pain",
         "dental pain no deep space infection"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4755,6 +8333,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   },
@@ -4770,6 +8349,7 @@
         "allergic reaction",
         "allergic reaction resolved no anaphylaxis"
       ],
+      "output_modifiers": [],
       "fallback_reason": null
     }
   },
@@ -4787,6 +8367,7 @@
         "allergic reaction",
         "allergic reaction resolved no anaphylaxis"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4804,6 +8385,7 @@
         "allergic reaction",
         "allergic reaction resolved no anaphylaxis"
       ],
+      "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
     }
   },
@@ -4816,6 +8398,7 @@
       "exclusions": [],
       "missing_required_context": [],
       "modifiers": [],
+      "output_modifiers": [],
       "fallback_reason": "no_supported_phenotype_match"
     }
   }

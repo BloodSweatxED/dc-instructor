@@ -41,7 +41,8 @@
     "allergic_reaction_resolved_no_anaphylaxis.follow_up.default_follow_up.v1"
   ],
   "source_card_ids": [
-    "medlineplus.allergic_reactions"
+    "medlineplus.allergic_reactions",
+    "medlineplus.hives"
   ],
   "source_audit": {
     "source_supported": true,
@@ -49,7 +50,7 @@
     "clinician_judgment_only": false,
     "restricted_source_risk": false,
     "unsafe_without_modifier": false,
-    "notes": "MedlinePlus supports allergic reaction symptoms, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms."
+    "notes": "MedlinePlus supports allergic reaction symptoms, hives or urticaria as a possible allergic presentation, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms."
   },
   "runtime": {
     "condition_terms": [
@@ -80,7 +81,7 @@
     "version": 1,
     "source_audit_status": "passed_for_v1",
     "production_status": "enabled_with_runtime_modifier_gates",
-    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports allergic reaction symptoms, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms.",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports allergic reaction symptoms, hives or urticaria as a possible allergic presentation, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms.",
     "clinical_status": "reviewed_for_limited_resolved_allergic_reaction_without_anaphylaxis_use",
     "required_modifiers": [
       "symptoms improved or resolved",

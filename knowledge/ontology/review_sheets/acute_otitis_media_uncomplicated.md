@@ -2,14 +2,14 @@
 
 Phenotype ID: `acute_otitis_media_uncomplicated`
 
-Status: `needs_review`
+Status: `reviewed`
 
 ## Inclusion Criteria
 
 - Adult patient with clinician diagnosis or discharge impression of acute otitis media, otitis media, or middle ear infection.
 - Clinician-entered treatment plan is present for pain control, antibiotics, delayed antibiotics, watchful waiting, or other medication instructions.
 - No mastoiditis, deep ear infection, eardrum perforation, tympanostomy tube, ear trauma, foreign body, otitis externa pathway, acute hearing loss, facial weakness, vertigo, severe systemic illness, meningitis, venous sinus thrombosis concern, or unstable vital signs documented.
-- No pediatric, recurrent/chronic, immunocompromised-host, or specialist-directed ENT pathway.
+- No pediatric, recurrent/chronic, immunocompromised-host, unreliable watchful-waiting follow-up, or specialist-directed ENT pathway.
 
 ## Exclusions
 
@@ -32,17 +32,18 @@ Status: `needs_review`
 ## Primitive List
 
 - `acute_otitis_media_uncomplicated.diagnosis.diagnosis_summary.v1` | `diagnosis` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
-- `acute_otitis_media_uncomplicated.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: mastoiditis_or_deep_ear_infection_concern, severe_systemic_ear_infection, tympanic_membrane_perforation_or_tube, ear_trauma_or_foreign_body, otitis_externa_or_ear_canal_pathway, acute_hearing_loss, facial_weakness_or_neurologic_ear_sign, meningitis_or_cns_infection_concern, lateral_sinus_thrombosis_concern, immunocompromised, recurrent_or_chronic_ear_infection, pediatric_pathway, specialist_directed_ent_plan, unstable_vitals
+- `acute_otitis_media_uncomplicated.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: mastoiditis_or_deep_ear_infection_concern, severe_systemic_ear_infection, tympanic_membrane_perforation_or_tube, ear_trauma_or_foreign_body, otitis_externa_or_ear_canal_pathway, acute_hearing_loss, facial_weakness_or_neurologic_ear_sign, meningitis_or_cns_infection_concern, lateral_sinus_thrombosis_concern, immunocompromised, watchful_waiting_follow_up_unreliable, recurrent_or_chronic_ear_infection, pediatric_pathway, specialist_directed_ent_plan, unstable_vitals
 - `acute_otitis_media_uncomplicated.home_care.home_care_1.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
 - `acute_otitis_media_uncomplicated.home_care.home_care_2.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
 - `acute_otitis_media_uncomplicated.home_care.home_care_3.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
 - `acute_otitis_media_uncomplicated.home_care.home_care_4.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
-- `acute_otitis_media_uncomplicated.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: mastoiditis_or_deep_ear_infection_concern, severe_systemic_ear_infection, tympanic_membrane_perforation_or_tube, ear_trauma_or_foreign_body, otitis_externa_or_ear_canal_pathway, acute_hearing_loss, facial_weakness_or_neurologic_ear_sign, meningitis_or_cns_infection_concern, lateral_sinus_thrombosis_concern, immunocompromised, recurrent_or_chronic_ear_infection, pediatric_pathway, specialist_directed_ent_plan, unstable_vitals
-- `acute_otitis_media_uncomplicated.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: mastoiditis_or_deep_ear_infection_concern, severe_systemic_ear_infection, tympanic_membrane_perforation_or_tube, ear_trauma_or_foreign_body, otitis_externa_or_ear_canal_pathway, acute_hearing_loss, facial_weakness_or_neurologic_ear_sign, meningitis_or_cns_infection_concern, lateral_sinus_thrombosis_concern, immunocompromised, recurrent_or_chronic_ear_infection, pediatric_pathway, specialist_directed_ent_plan, unstable_vitals
+- `acute_otitis_media_uncomplicated.home_care.home_care_5.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `acute_otitis_media_uncomplicated.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: mastoiditis_or_deep_ear_infection_concern, severe_systemic_ear_infection, tympanic_membrane_perforation_or_tube, ear_trauma_or_foreign_body, otitis_externa_or_ear_canal_pathway, acute_hearing_loss, facial_weakness_or_neurologic_ear_sign, meningitis_or_cns_infection_concern, lateral_sinus_thrombosis_concern, immunocompromised, watchful_waiting_follow_up_unreliable, recurrent_or_chronic_ear_infection, pediatric_pathway, specialist_directed_ent_plan, unstable_vitals
+- `acute_otitis_media_uncomplicated.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: mastoiditis_or_deep_ear_infection_concern, severe_systemic_ear_infection, tympanic_membrane_perforation_or_tube, ear_trauma_or_foreign_body, otitis_externa_or_ear_canal_pathway, acute_hearing_loss, facial_weakness_or_neurologic_ear_sign, meningitis_or_cns_infection_concern, lateral_sinus_thrombosis_concern, immunocompromised, watchful_waiting_follow_up_unreliable, recurrent_or_chronic_ear_infection, pediatric_pathway, specialist_directed_ent_plan, unstable_vitals
 - `acute_otitis_media_uncomplicated.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
 - `acute_otitis_media_uncomplicated.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
 - `acute_otitis_media_uncomplicated.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
-- `acute_otitis_media_uncomplicated.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: mastoiditis_or_deep_ear_infection_concern, severe_systemic_ear_infection, tympanic_membrane_perforation_or_tube, ear_trauma_or_foreign_body, otitis_externa_or_ear_canal_pathway, acute_hearing_loss, facial_weakness_or_neurologic_ear_sign, meningitis_or_cns_infection_concern, lateral_sinus_thrombosis_concern, immunocompromised, recurrent_or_chronic_ear_infection, pediatric_pathway, specialist_directed_ent_plan, unstable_vitals
+- `acute_otitis_media_uncomplicated.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: mastoiditis_or_deep_ear_infection_concern, severe_systemic_ear_infection, tympanic_membrane_perforation_or_tube, ear_trauma_or_foreign_body, otitis_externa_or_ear_canal_pathway, acute_hearing_loss, facial_weakness_or_neurologic_ear_sign, meningitis_or_cns_infection_concern, lateral_sinus_thrombosis_concern, immunocompromised, watchful_waiting_follow_up_unreliable, recurrent_or_chronic_ear_infection, pediatric_pathway, specialist_directed_ent_plan, unstable_vitals
 
 ## Assembled Six-Section Output
 
@@ -51,23 +52,24 @@ DIAGNOSIS:
 Your clinician diagnosed a middle ear infection called acute otitis media.
 
 WHAT WE FOUND:
-Your clinician documented no mastoiditis concern, no ear tubes or perforated eardrum concern, no ear canal infection pathway, and no other ear red flags in this discharge plan.
+Your clinician documented no mastoiditis concern, no ear tubes or perforated eardrum, no ear canal infection, and no other serious ear concern in this discharge plan.
 
 WHAT TO DO AT HOME:
-- Rest as needed and drink fluids if you are allowed to.
+- Rest as needed and drink fluids unless your clinician told you to limit them.
 - Keep cotton swabs, earbuds, and other objects out of the ear unless your clinician told you otherwise.
 - Use warm compresses only if they feel comfortable and your clinician said they are safe.
-- Most adults start to improve within 2 to 3 days when antibiotics are prescribed, or within about 5 to 7 days with a watchful-waiting plan.
+- Most adults start to improve within 2 to 3 days with antibiotics. With a watchful-waiting plan, improvement typically begins within 5 to 7 days.
+- Mild ear fullness or muffled hearing can last 2 to 4 weeks even as you recover.
 
 MEDICATIONS:
 - Use only the pain medicine, ear drops, or antibiotics your clinician prescribed or said are safe for you.
 - If your clinician gave you a delayed-antibiotic or watchful-waiting plan, follow those exact instructions instead of starting antibiotics on your own.
 
 RETURN TO ED IF:
-- Fever that is high or not improving, unable to keep fluids down, shaking chills, neck stiffness, confusion, severe headache, or looking seriously ill.
+- Fever that is not improving, unable to keep fluids down, shaking chills, neck stiffness, confusion, severe headache, or feeling much worse overall.
 - Redness, swelling, or pain behind the ear, or the ear starts sticking out.
-- New hearing loss, dizziness, facial weakness, fluid or blood draining from the ear, or symptoms that get worse after discharge.
+- New hearing loss, new or severe dizziness or spinning sensation, facial weakness, fluid or blood draining from the ear, or symptoms that get worse after discharge.
 
 FOLLOW UP:
-Follow up with primary care, urgent care, or an ear clinician in 7 to 14 days, or sooner if symptoms are not improving, unless your clinician gave a different schedule.
+If your clinician prescribed antibiotics, follow up in 7 to 10 days or sooner if symptoms are not improving. If your clinician gave a watchful-waiting plan, follow up in 2 to 3 days if symptoms are not improving. Follow any different schedule your clinician gave you.
 ```

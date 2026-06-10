@@ -151,6 +151,11 @@ def gate_payload() -> dict[str, Any]:
 
 
 def summary(payload: dict[str, Any]) -> list[str]:
+    interpretation = (
+        "Interpretation: the reviewed ontology path can continue, and phenotype expansion may proceed under the autonomous phase loop."
+        if payload["phenotype_expansion_allowed"]
+        else "Interpretation: the reviewed ontology path can keep running behind the current gates. Do not add new phenotypes or expand patient-facing content until active drafts are narrowed, reviewed, promoted, or explicitly retired."
+    )
     return [
         "# Phase 21 Expansion Gate",
         "",
@@ -164,7 +169,7 @@ def summary(payload: dict[str, Any]) -> list[str]:
         "",
         f"Decision: {payload['decision']}.",
         "",
-        "Interpretation: the reviewed ontology path can keep running behind the current gates. Do not add new phenotypes or expand patient-facing content until active drafts are narrowed, reviewed, promoted, or explicitly retired.",
+        interpretation,
     ]
 
 

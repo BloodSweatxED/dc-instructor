@@ -1,0 +1,15 @@
+{
+  "id": "niddk.constipation_adults",
+  "source": "NIDDK",
+  "title": "Constipation",
+  "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "Constipation may involve fewer than three bowel movements per week, hard or lumpy stools, painful or difficult stool passage, or incomplete emptying.",
+    "Constipation that does not improve with self-care or is long-term should be discussed with a clinician.",
+    "Bleeding from the rectum, blood in stool, continual abdominal pain, or other medical-problem signs should prompt medical evaluation.",
+    "Treatment and prevention may include dietary changes, activity, over-the-counter medicines, prescription medicines, biofeedback, or surgery depending on cause and response."
+  ],
+  "use_policy": "evidence_support"
+}

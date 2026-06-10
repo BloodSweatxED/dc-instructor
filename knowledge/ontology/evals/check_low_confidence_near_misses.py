@@ -22,6 +22,10 @@ ALLOWED_LOW_CONFIDENCE = {
     "phase14_low_confidence_kidney_stone": "possible stone language remains near renal colic but lacks final diagnosis",
     "phase20_asthma_vague_chief_complaint_fallback": "symptom-only wheezing remains near asthma but below ontology threshold",
     "phase20_concussion_vague_chief_complaint_fallback": "chief complaint names concussion but lacks red-flag and imaging review",
+    "phase712_cellulitis_route_not_contact_dermatitis": "cellulitis-like language remains near cellulitis but must not enter contact dermatitis after promotion",
+    "phase802_bare_hives_stays_low_confidence": "bare hives remains near allergic reaction but lacks the reviewed discharge boundary",
+    "phase803_bare_urticaria_stays_low_confidence": "bare urticaria remains near allergic reaction but lacks the reviewed discharge boundary",
+    "phase809_cellulitis_route_not_urticaria": "cellulitis-like language remains near cellulitis but must not enter hives or contact dermatitis",
 }
 
 

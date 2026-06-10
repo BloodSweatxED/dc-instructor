@@ -1,0 +1,112 @@
+[
+  {
+    "id": "phase651_contact_dermatitis_clean_draft_fallback",
+    "condition": "contact dermatitis",
+    "ed_note": "Clinician diagnosis contact dermatitis. Rash after new soap. No mucosal lesions airway swelling infection concern.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase652_irritant_contact_dermatitis_clean_draft_fallback",
+    "condition": "irritant contact dermatitis",
+    "ed_note": "Irritant contact dermatitis diagnosed. Localized rash where substance touched. No systemic allergic reaction or infection concern.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase653_contact_dermatitis_missing_diagnosis_blocks",
+    "condition": "contact dermatitis",
+    "ed_note": "Rash after new soap. No mucosal lesions airway swelling infection concern.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_contact_dermatitis"
+    ]
+  },
+  {
+    "id": "phase654_contact_dermatitis_missing_trigger_blocks",
+    "condition": "contact dermatitis",
+    "ed_note": "Clinician diagnosis contact dermatitis. No mucosal lesions airway swelling infection concern.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "contact_trigger_or_distribution_documented"
+    ]
+  },
+  {
+    "id": "phase655_contact_dermatitis_anaphylaxis_blocks",
+    "condition": "contact dermatitis",
+    "ed_note": "Clinician diagnosis contact dermatitis. Rash after new soap. No infection concern. Throat swelling and wheezing.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms"
+    ]
+  },
+  {
+    "id": "phase656_contact_dermatitis_mucosal_peeling_blocks",
+    "condition": "contact dermatitis",
+    "ed_note": "Clinician diagnosis contact dermatitis. Rash after new soap. Skin peeling with mouth sores.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction"
+    ]
+  },
+  {
+    "id": "phase657_contact_dermatitis_infection_blocks",
+    "condition": "contact dermatitis",
+    "ed_note": "Clinician diagnosis contact dermatitis. Rash after new soap. Spreading redness with pus and fever.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "contact_dermatitis_infection_concern",
+      "fever"
+    ]
+  },
+  {
+    "id": "phase658_contact_dermatitis_eye_location_blocks",
+    "condition": "contact dermatitis",
+    "ed_note": "Clinician diagnosis contact dermatitis. Rash after new soap. No infection concern. Eyelid rash.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "eye_or_genital_rash_location"
+    ]
+  },
+  {
+    "id": "phase659_broad_rash_no_match",
+    "condition": "rash",
+    "ed_note": "Rash after new soap. No mucosal lesions airway swelling infection concern.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase660_hives_route_preserved",
+    "condition": "hives",
+    "ed_note": "Allergic reaction resolved no anaphylaxis. Breathing normal. No throat swelling.",
+    "expected_phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase661_contact_dermatitis_pediatric_blocks",
+    "condition": "contact dermatitis",
+    "ed_note": "Clinician diagnosis contact dermatitis. Rash after poison ivy. No mucosal lesions airway swelling infection concern. Child with rash.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "pediatric_pathway"
+    ]
+  },
+  {
+    "id": "phase662_contact_dermatitis_pregnancy_blocks",
+    "condition": "contact dermatitis",
+    "ed_note": "Clinician diagnosis contact dermatitis. Rash after new soap. No mucosal lesions airway swelling infection concern. Patient is pregnant.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "pregnancy"
+    ]
+  }
+]

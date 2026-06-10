@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.constipation_self_care",
+  "source": "MedlinePlus",
+  "title": "Constipation - self-care",
+  "url": "https://medlineplus.gov/ency/patientinstructions/000120.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "Constipation can mean stool is less frequent than normal, hard, dry, or difficult to pass.",
+    "Self-care concepts include regular activity, drinking water, adding fiber gradually, responding to the urge to stool, and bowel routine training.",
+    "Laxative use should be clinician-directed, time-limited, and avoided when severe abdominal pain, nausea, or vomiting is present.",
+    "Patients should contact a clinician for no bowel movement for several days, abdominal bloating or pain, nausea or vomiting, or blood in stool."
+  ],
+  "use_policy": "evidence_support"
+}

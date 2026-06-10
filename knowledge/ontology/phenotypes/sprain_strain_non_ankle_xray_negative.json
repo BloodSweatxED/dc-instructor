@@ -1,7 +1,7 @@
 {
   "id": "sprain_strain_non_ankle_xray_negative",
-  "label": "Non-ankle sprain or strain with negative x-ray",
-  "status": "needs_review",
+  "label": "Deprecated broad non-ankle sprain or strain with negative x-ray",
+  "status": "retired",
   "condition_family": "musculoskeletal_injury",
   "inclusion_criteria": [
     "Adult with clinician diagnosis or discharge impression of sprain or strain outside the ankle pathway.",
@@ -12,7 +12,7 @@
   "exclusion_criteria": [
     "Ankle sprain pathway, no x-ray performed, positive fracture, dislocation, open wound, open fracture, high-energy trauma, or crush injury.",
     "Suspected tendon rupture, ligament rupture, scaphoid tenderness pattern, compartment syndrome concern, septic joint or infection concern, neurovascular compromise, or specialist-directed orthopedic plan.",
-    "Inability to bear weight for lower-extremity injuries, pediatric growth plate pathway, or elderly/osteoporotic high-risk knee, shoulder, or wrist injury."
+    "Inability to bear weight for lower-extremity injuries, elbow or foot sprain/strain sites pending separate v1 review, pediatric growth plate pathway, or elderly/osteoporotic high-risk knee, shoulder, or wrist injury."
   ],
   "must_not_miss": [
     "Occult fracture.",
@@ -61,14 +61,7 @@
   },
   "runtime": {
     "condition_terms": [
-      "non ankle sprain xray negative",
-      "non ankle strain xray negative",
-      "sprain strain non ankle xray negative",
-      "wrist sprain xray negative",
-      "knee sprain xray negative",
-      "shoulder sprain xray negative",
-      "elbow sprain xray negative",
-      "foot sprain xray negative"
+      "deprecated non ankle sprain xray negative"
     ],
     "unsafe_modifiers": [
       "ankle_sprain_pathway",
@@ -85,6 +78,7 @@
       "compartment_syndrome_concern",
       "septic_joint_or_infection_concern",
       "unable_to_bear_weight_lower_extremity",
+      "elbow_or_foot_site_pending_split",
       "pediatric_growth_plate_pathway",
       "elderly_osteoporotic_high_risk_msk",
       "specialist_directed_orthopedic_plan"
@@ -97,9 +91,7 @@
           "not ankle sprain pathway",
           "wrist sprain xray negative",
           "knee sprain xray negative",
-          "shoulder sprain xray negative",
-          "elbow sprain xray negative",
-          "foot sprain xray negative"
+          "shoulder sprain xray negative"
         ]
       },
       {
@@ -123,21 +115,16 @@
       }
     ],
     "high_confidence_terms": [
-      "non ankle sprain xray negative",
-      "non ankle strain xray negative",
-      "sprain strain non ankle xray negative",
-      "wrist sprain xray negative",
-      "knee sprain xray negative",
-      "shoulder sprain xray negative"
+      "deprecated non ankle sprain xray negative"
     ],
     "minimum_confidence": 0.86,
-    "mode": "draft_only_until_reviewed"
+    "mode": "retired_product_layer_fallback_only"
   },
   "version": 1,
   "review": {
-    "status": "needs_review",
+    "status": "retired",
     "reviewer": null,
     "last_reviewed": null,
-    "notes": "Phase 205 clinician review applied from multi-phenotype packet. Highest-risk draft in this batch; keep draft-only until stress across knee, shoulder, wrist, elbow, and foot passes and clinician owner approves final promotion."
+    "notes": "Phase 301 decision retired this broad shared draft. Use sprain_strain_knee_or_shoulder_xray_negative for reviewed knee/shoulder v1, wrist_sprain_xray_negative for wrist draft review, and ankle_sprain_xray_negative for ankle."
   }
 }

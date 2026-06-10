@@ -31,7 +31,8 @@ Review date: 2026-06-01.
 ## Source Audit
 
 - `medlineplus.allergic_reactions` supports this phenotype's reviewed concepts.
-- MedlinePlus supports allergic reaction symptoms, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms.
+- `medlineplus.hives` supports this phenotype's reviewed concepts.
+- MedlinePlus supports allergic reaction symptoms, hives or urticaria as a possible allergic presentation, anaphylaxis danger signs, epinephrine planning, and emergency escalation for airway or severe systemic symptoms.
 - Patient-facing text is locally authored. No WikEM prose is copied.
 
 ## Blocked Modifiers
