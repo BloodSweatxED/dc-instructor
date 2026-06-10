@@ -43,12 +43,51 @@ RAW_DIR = Path("knowledge/data/raw")
 CACHE_DIR = Path("knowledge/data/cache")
 
 ALLOWED_TOPICS = [
+    # Musculoskeletal
     "Back Pain",
     "Sciatica",
     "Herniated Disk",
     "Neck Injuries and Disorders",
     "Spine Injuries and Disorders",
     "Sprains and Strains",
+    "Ankle Injuries and Disorders",
+    "Knee Injuries and Disorders",
+    "Shoulder Injuries and Disorders",
+    "Fractures",
+    "Soft Tissue Injuries",
+    # Chest / Cardiac
+    "Chest Pain",
+    "Heart Attack",
+    # Abdominal / GI
+    "Abdominal Pain",
+    "Appendicitis",
+    "Kidney Stones",
+    "Urinary Tract Infections",
+    "Nausea and Vomiting",
+    "Diarrhea",
+    "Constipation",
+    # Respiratory / Infectious
+    "Asthma",
+    "Pneumonia",
+    "Bronchitis",
+    "Influenza",
+    "COVID-19",
+    "Cellulitis",
+    "Ear Infections",
+    # Neurological
+    "Concussion",
+    "Headache",
+    "Migraine",
+    "Dizziness and Vertigo",
+    # Allergic / Dermatologic
+    "Anaphylaxis",
+    "Hives",
+    "Burns",
+    # Wounds / Procedures
+    "Wounds and Injuries",
+    "Lacerations",
+    # Dental
+    "Tooth Disorders",
 ]
 
 TEST_QUERIES = [
@@ -111,12 +150,51 @@ EXCLUDED_RESOURCE_TITLE_TERMS = {
 }
 
 TOPIC_RETRIEVAL_TERMS = {
+    # Musculoskeletal
     "Back Pain": "low back pain lumbar strain back strain acute back pain home care heat ice activity return precautions",
     "Sciatica": "sciatic pain radiculopathy leg numbness leg weakness tingling return precautions",
     "Herniated Disk": "herniated disc slipped disk radiculopathy nerve pain numbness weakness follow up",
     "Neck Injuries and Disorders": "neck pain neck strain neck spasm cervical strain home care",
     "Spine Injuries and Disorders": "spine injury spinal pain back injury red flags bowel bladder weakness",
     "Sprains and Strains": "sprain strain RICE rest ice compression elevation aftercare home care",
+    "Ankle Injuries and Disorders": "ankle sprain ankle fracture ankle pain aftercare RICE weight bearing return precautions",
+    "Knee Injuries and Disorders": "knee pain knee sprain knee injury aftercare weight bearing return precautions",
+    "Shoulder Injuries and Disorders": "shoulder pain shoulder sprain shoulder dislocation aftercare activity return precautions",
+    "Fractures": "broken bone fracture cast splint aftercare activity return precautions",
+    "Soft Tissue Injuries": "soft tissue injury contusion bruise aftercare RICE home care",
+    # Chest / Cardiac
+    "Chest Pain": "chest pain discharge instructions return precautions cardiac red flags shortness of breath",
+    "Heart Attack": "heart attack myocardial infarction discharge home care medications follow up return precautions",
+    # Abdominal / GI
+    "Abdominal Pain": "abdominal pain belly pain discharge instructions return precautions red flags",
+    "Appendicitis": "appendicitis post-appendectomy discharge home care return precautions wound care",
+    "Kidney Stones": "kidney stone renal colic discharge pain management hydration follow up return precautions",
+    "Urinary Tract Infections": "UTI urinary tract infection discharge antibiotics hydration return precautions",
+    "Nausea and Vomiting": "nausea vomiting discharge diet hydration return precautions dehydration",
+    "Diarrhea": "diarrhea discharge diet hydration dehydration return precautions",
+    "Constipation": "constipation discharge diet fiber hydration laxative return precautions",
+    # Respiratory / Infectious
+    "Asthma": "asthma exacerbation discharge inhaler medications follow up return precautions",
+    "Pneumonia": "pneumonia discharge antibiotics home care follow up return precautions",
+    "Bronchitis": "bronchitis discharge home care return precautions cough",
+    "Influenza": "flu influenza discharge home care medications rest return precautions",
+    "COVID-19": "COVID discharge home care isolation return precautions symptoms",
+    "Cellulitis": "cellulitis skin infection discharge antibiotics wound care return precautions",
+    "Ear Infections": "ear infection otitis discharge antibiotics pain management return precautions",
+    # Neurological
+    "Concussion": "concussion head injury discharge return precautions cognitive rest activity return to work",
+    "Headache": "headache discharge home care medications return precautions red flags",
+    "Migraine": "migraine discharge medications home care return precautions red flags",
+    "Dizziness and Vertigo": "dizziness vertigo discharge home care return precautions safety falls",
+    # Allergic / Dermatologic
+    "Anaphylaxis": "anaphylaxis allergic reaction discharge epinephrine follow up return precautions",
+    "Hives": "hives urticaria discharge antihistamine return precautions",
+    "Burns": "burn discharge wound care home care return precautions infection signs",
+    # Wounds / Procedures
+    "Wounds and Injuries": "wound laceration repair discharge wound care return precautions infection signs",
+    "Lacerations": "laceration wound repair discharge wound care return precautions infection signs suture removal",
+    # Dental
+    "Tooth Disorders": "tooth pain dental pain discharge pain management follow up return precautions",
 }
 
 
