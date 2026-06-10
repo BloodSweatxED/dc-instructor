@@ -1,0 +1,102 @@
+[
+  {
+    "id": "phase602_skin_abrasion_diabetes_modifier_reviewed",
+    "condition": "simple skin abrasion",
+    "ed_note": "Clinician diagnosis simple skin abrasion. Wound cleaned and dressed. No foreign body deep structure injury infection concern. No repair needed. Diabetes.",
+    "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
+    "expected_fallback_reason": null,
+    "expected_output_modifiers": [
+      "diabetes_general_risk"
+    ]
+  },
+  {
+    "id": "phase603_skin_tear_pvd_modifier_reviewed",
+    "condition": "simple skin tear",
+    "ed_note": "Clinician diagnosis simple skin tear. Wound cleaned and dressed. No repair needed. Peripheral vascular disease.",
+    "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
+    "expected_fallback_reason": null,
+    "expected_output_modifiers": [
+      "peripheral_vascular_disease"
+    ]
+  },
+  {
+    "id": "phase604_skin_avulsion_bite_wound_blocks",
+    "condition": "skin avulsion abrasion simple",
+    "ed_note": "Clinician diagnosis simple skin avulsion. Wound cleaned and dressed. No repair needed. Dog bite.",
+    "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "bite_wound"
+    ]
+  },
+  {
+    "id": "phase605_skin_avulsion_diabetic_foot_blocks",
+    "condition": "simple skin avulsion",
+    "ed_note": "Clinician diagnosis simple skin avulsion. Wound cleaned and dressed. No repair needed. Diabetic foot wound.",
+    "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "diabetic_foot"
+    ],
+    "expected_output_modifiers": [
+      "diabetes_general_risk"
+    ]
+  },
+  {
+    "id": "phase606_skin_avulsion_foreign_body_blocks",
+    "condition": "simple skin avulsion",
+    "ed_note": "Clinician diagnosis simple skin avulsion. Wound cleaned and dressed. No repair needed. Foreign body still possible.",
+    "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "retained_foreign_body"
+    ]
+  },
+  {
+    "id": "phase607_skin_tear_hand_tendon_risk_blocks",
+    "condition": "simple skin tear",
+    "ed_note": "Clinician diagnosis simple skin tear. Wound cleaned and dressed. No repair needed. Hand laceration with tendon injury concern.",
+    "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "hand_tendon_risk"
+    ]
+  },
+  {
+    "id": "phase608_skin_abrasion_broad_without_clinician_diagnosis_no_match",
+    "condition": "skin abrasion",
+    "ed_note": "Patient has skin abrasion. Wound cleaned and dressed. No repair needed.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase609_skin_abrasion_missing_wound_care_context_blocks",
+    "condition": "simple skin abrasion",
+    "ed_note": "Clinician diagnosis simple skin abrasion. No repair needed. No foreign body deep structure injury infection concern.",
+    "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "wound_cleaned_and_dressed"
+    ]
+  },
+  {
+    "id": "phase610_skin_tear_immunocompromised_blocks",
+    "condition": "simple skin tear",
+    "ed_note": "Clinician diagnosis simple skin tear. Wound cleaned and dressed. No repair needed. Patient is on chemotherapy.",
+    "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "immunocompromised"
+    ]
+  },
+  {
+    "id": "phase611_skin_avulsion_delayed_presentation_modifier_reviewed",
+    "condition": "simple skin avulsion",
+    "ed_note": "Clinician diagnosis simple skin avulsion. Wound cleaned and dressed. No repair needed. Wound older than 8 hours.",
+    "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
+    "expected_fallback_reason": null,
+    "expected_output_modifiers": [
+      "delayed_wound_presentation"
+    ]
+  }
+]

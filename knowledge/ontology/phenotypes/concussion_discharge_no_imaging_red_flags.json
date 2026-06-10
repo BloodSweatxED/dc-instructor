@@ -1,0 +1,98 @@
+{
+  "id": "concussion_discharge_no_imaging_red_flags",
+  "label": "Concussion discharge without imaging red flags",
+  "status": "reviewed",
+  "condition_family": "head_injury",
+  "inclusion_criteria": [
+    "Concussion symptoms with reassuring ED assessment and safe discharge plan."
+  ],
+  "exclusion_criteria": [
+    "Red flags for intracranial bleeding.",
+    "Anticoagulation or bleeding disorder.",
+    "Unreliable observation plan."
+  ],
+  "must_not_miss": [
+    "Intracranial hemorrhage.",
+    "Cervical spine injury.",
+    "Second-impact risk.",
+    "Persistent neurologic deficit."
+  ],
+  "default_follow_up": "Follow up with primary care, sports medicine, or concussion clinic if symptoms persist or if you need return-to-play clearance.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "concussion_discharge_no_imaging_red_flags.diagnosis.diagnosis_summary.v1",
+    "concussion_discharge_no_imaging_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "concussion_discharge_no_imaging_red_flags.home_care.home_care_1.v1",
+    "concussion_discharge_no_imaging_red_flags.home_care.home_care_2.v1",
+    "concussion_discharge_no_imaging_red_flags.home_care.home_care_3.v1",
+    "concussion_discharge_no_imaging_red_flags.medications.medication_guidance_1.v1",
+    "concussion_discharge_no_imaging_red_flags.medications.medication_guidance_2.v1",
+    "concussion_discharge_no_imaging_red_flags.return_precautions.return_precaution_1.v1",
+    "concussion_discharge_no_imaging_red_flags.return_precautions.return_precaution_2.v1",
+    "concussion_discharge_no_imaging_red_flags.return_precautions.return_precaution_3.v1",
+    "concussion_discharge_no_imaging_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "cdc.heads_up_concussion_symptoms",
+    "cdc.mild_tbi_aftercare"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "CDC HEADS UP and CDC mild TBI guidance support danger signs, gradual return to activity, and clinician-directed return-to-school, work, driving, or play planning."
+  },
+  "runtime": {
+    "condition_terms": [
+      "concussion discharge no imaging red flags",
+      "concussion",
+      "mild traumatic brain injury",
+      "mild tbi"
+    ],
+    "unsafe_modifiers": [
+      "athlete_return_to_play",
+      "anticoagulated",
+      "neurologic_deficit",
+      "persistent_vomiting",
+      "loss_of_consciousness",
+      "intoxication"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. CDC HEADS UP and CDC mild TBI guidance support danger signs, gradual return to activity, and clinician-directed return-to-school, work, driving, or play planning.",
+    "clinical_status": "reviewed_for_limited_concussion_without_imaging_red_flags_use",
+    "required_modifiers": [
+      "reassuring neurologic assessment",
+      "no imaging red flags documented",
+      "safe observation plan",
+      "no anticoagulation"
+    ],
+    "blocked_modifiers": [
+      "athlete_return_to_play",
+      "anticoagulated",
+      "neurologic_deficit",
+      "persistent_vomiting",
+      "loss_of_consciousness",
+      "intoxication"
+    ]
+  }
+}

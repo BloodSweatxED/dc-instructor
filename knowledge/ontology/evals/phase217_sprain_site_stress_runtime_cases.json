@@ -1,0 +1,118 @@
+[
+  {
+    "id": "phase217_knee_clean_reviewed_ontology",
+    "condition": "knee sprain xray negative",
+    "ed_note": "Knee sprain xray negative. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
+    "expected_fallback_reason": null,
+    "expected_min_confidence": 0.86
+  },
+  {
+    "id": "phase217_wrist_clean_missing_scaphoid_absence_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "no_scaphoid_tenderness_documented"
+    ]
+  },
+  {
+    "id": "phase217_wrist_clean_with_no_scaphoid_documented_reviewed_ontology",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. No scaphoid tenderness.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": null,
+    "expected_min_confidence": 0.86
+  },
+  {
+    "id": "phase217_shoulder_clean_reviewed_ontology",
+    "condition": "shoulder sprain xray negative",
+    "ed_note": "Shoulder sprain xray negative. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
+    "expected_fallback_reason": null,
+    "expected_min_confidence": 0.86
+  },
+  {
+    "id": "phase217_elbow_clean_routes_to_acute_elbow_draft_missing_context",
+    "condition": "elbow sprain xray negative",
+    "ed_note": "Elbow sprain xray negative. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "adult_acute_traumatic_elbow_sprain_diagnosis",
+      "acute_traumatic_mechanism_documented",
+      "intact_neurovascular_and_hand_motor_exam",
+      "no_distal_tendon_or_ligament_rupture_concern_attested",
+      "no_elbow_instability_concern_attested"
+    ]
+  },
+  {
+    "id": "phase217_foot_clean_routes_to_reviewed_foot",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Foot sprain xray negative. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": null,
+    "expected_min_confidence": 0.86
+  },
+  {
+    "id": "phase217_wrist_scaphoid_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Scaphoid tenderness documented.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "scaphoid_tenderness_pattern"
+    ]
+  },
+  {
+    "id": "phase217_wrist_foosh_scaphoid_risk_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. FOOSH with thumb side wrist pain after fall.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "foosh_scaphoid_risk"
+    ]
+  },
+  {
+    "id": "phase217_elbow_rupture_concern_blocks",
+    "condition": "elbow sprain xray negative",
+    "ed_note": "Elbow sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Unable to extend with complete tear concern.",
+    "expected_phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern"
+    ]
+  },
+  {
+    "id": "phase217_foot_unable_to_bear_weight_blocks",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Foot sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Unable to bear weight.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase217_elderly_knee_osteoporotic_pattern_blocks",
+    "condition": "knee sprain xray negative",
+    "ed_note": "Knee sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Elderly knee sprain with osteoporosis.",
+    "expected_phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "elderly_osteoporotic_high_risk_msk"
+    ]
+  },
+  {
+    "id": "phase217_knee_acute_hemarthrosis_blocks",
+    "condition": "knee sprain xray negative",
+    "ed_note": "Knee sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Large knee effusion and acute hemarthrosis documented.",
+    "expected_phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "acute_hemarthrosis_or_large_effusion"
+    ]
+  }
+]

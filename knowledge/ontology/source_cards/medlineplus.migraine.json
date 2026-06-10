@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.migraine",
+  "source": "MedlinePlus",
+  "title": "Migraine",
+  "url": "https://medlineplus.gov/migraine.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "Migraine is a headache disorder with symptoms that may include severe headache, nausea, and sensitivity to light or sound.",
+    "Treatment focuses on relieving symptoms and preventing future attacks.",
+    "Patients should work with clinicians on medication choice and prevention strategy.",
+    "This source supports migraine education, not ED secondary-headache exclusion."
+  ],
+  "use_policy": "evidence_support"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.hives",
+  "source": "MedlinePlus",
+  "title": "Hives",
+  "url": "https://medlineplus.gov/hives.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "Hives are itchy raised skin bumps, also called urticaria.",
+    "Hives can be caused by allergic reactions, but can also occur with infections, stress, or other triggers.",
+    "Hives usually go away on their own, but more serious cases may require medicine or a shot.",
+    "Airway swelling or trouble breathing with hives is a medical emergency."
+  ],
+  "use_policy": "evidence_support"
+}

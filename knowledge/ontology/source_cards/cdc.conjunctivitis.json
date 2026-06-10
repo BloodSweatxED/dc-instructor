@@ -1,0 +1,15 @@
+{
+  "id": "cdc.conjunctivitis",
+  "source": "CDC",
+  "title": "About Pink Eye",
+  "url": "https://www.cdc.gov/conjunctivitis/about/index.html",
+  "source_type": "government_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Pink eye is also called conjunctivitis.",
+    "Conjunctivitis can be caused by viruses, bacteria, allergens, or irritants.",
+    "Hygiene and avoiding spread are important patient-care concepts.",
+    "Patients should seek medical care for eye pain, light sensitivity, blurred vision, intense redness, or symptoms that worsen or do not improve."
+  ],
+  "use_policy": "evidence_support"
+}

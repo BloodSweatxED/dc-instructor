@@ -1,0 +1,14 @@
+{
+  "id": "aha.chest_pain_warning_signs",
+  "source": "American Heart Association",
+  "title": "Chest pain: When to see a doctor",
+  "url": "https://www.heart.org/en/health-topics/house-calls/common-causes-of-chest-pain",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "Chest pain should not be ignored and may represent heart attack or other serious disease.",
+    "Patient-facing chest pain guidance should emphasize urgent escalation for concerning symptoms.",
+    "This source supports warning-sign education, not static low-risk ED risk stratification."
+  ],
+  "use_policy": "evidence_support"
+}

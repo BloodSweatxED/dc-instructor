@@ -1,0 +1,16 @@
+{
+  "id": "aaos.medial_epicondylitis_golfers_elbow",
+  "source": "AAOS OrthoInfo",
+  "title": "Medial Epicondylitis (Golfer's Elbow)",
+  "url": "https://orthoinfo.aaos.org/en/diseases--conditions/medial-epicondylitis-golfers-elbow/",
+  "source_type": "orthopedic_patient_education",
+  "license_notes": "Use as source support only. Avoid verbatim copying from AAOS copyrighted patient education.",
+  "supports": [
+    "Medial epicondylitis is commonly related to overuse or repetitive stress at the forearm tendon attachment on the inside of the elbow.",
+    "X-rays are commonly used to rule out fracture or arthritis, while ultrasound or MRI may be used for persistent symptoms or to assess other injuries.",
+    "Ulnar collateral ligament injury and ulnar nerve irritation can have similar symptoms and should remain outside a simple overuse elbow phenotype.",
+    "Nonsurgical care includes avoiding or decreasing painful activity, therapy, stretching, and gradual strengthening.",
+    "Persistent symptoms may take months and can require sports medicine or orthopedic follow-up."
+  ],
+  "use_policy": "evidence_support"
+}

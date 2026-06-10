@@ -1,0 +1,47 @@
+[
+  {
+    "id": "lumbar_strain_no_red_flags",
+    "phenotype": "lumbar_strain_no_red_flags",
+    "condition": "Low back strain, no red flags",
+    "ed_note_scrubbed": "Adult with acute low back pain after lifting. Ambulatory. No fever. No trauma. No bowel or bladder symptoms. Normal strength and sensation in both legs. Discharged with supportive care.",
+    "reading_level": "6th Grade",
+    "ontology_reading_level": "6",
+    "language": "English"
+  },
+  {
+    "id": "ankle_sprain_xray_negative",
+    "phenotype": "ankle_sprain_xray_negative",
+    "condition": "Ankle sprain, x-ray negative",
+    "ed_note_scrubbed": "Adult twisted ankle while walking. X-ray negative for fracture. Foot warm and well perfused. Sensation and movement intact. Discharged with brace and crutches as needed.",
+    "reading_level": "6th Grade",
+    "ontology_reading_level": "6",
+    "language": "English"
+  },
+  {
+    "id": "viral_uri_no_pneumonia",
+    "phenotype": "viral_uri_no_pneumonia",
+    "condition": "Viral upper respiratory infection, no pneumonia",
+    "ed_note_scrubbed": "Adult with cough, congestion, sore throat, and low-grade fever. Breathing comfortably. Oxygen saturation normal. Lung exam reassuring. No pneumonia suspected at discharge.",
+    "reading_level": "6th Grade",
+    "ontology_reading_level": "6",
+    "language": "English"
+  },
+  {
+    "id": "uncomplicated_cystitis_nonpregnant",
+    "phenotype": "uncomplicated_cystitis_nonpregnant",
+    "condition": "Uncomplicated cystitis, nonpregnant",
+    "ed_note_scrubbed": "Adult nonpregnant patient with dysuria, urinary frequency, and urgency. No fever. No flank pain. No vomiting. Stable for discharge with oral antibiotic.",
+    "reading_level": "6th Grade",
+    "ontology_reading_level": "6",
+    "language": "English"
+  },
+  {
+    "id": "gastroenteritis_stable_hydrating",
+    "phenotype": "gastroenteritis_stable_hydrating",
+    "condition": "Gastroenteritis, stable and able to hydrate",
+    "ed_note_scrubbed": "Adult with vomiting and diarrhea. Abdomen soft without focal tenderness. No blood in stool. Improved after treatment and can drink fluids. Stable for discharge.",
+    "reading_level": "6th Grade",
+    "ontology_reading_level": "6",
+    "language": "English"
+  }
+]

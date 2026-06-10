@@ -1,0 +1,66 @@
+[
+  {
+    "id": "phase163_aom_watchful_waiting_clean_reviewed_ontology",
+    "condition": "acute otitis media uncomplicated",
+    "ed_note": "Adult discharge diagnosis acute otitis media. Watchful waiting plan documented. No ear red flags documented.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase163_aom_delayed_antibiotic_clean_reviewed_ontology",
+    "condition": "acute otitis media uncomplicated",
+    "ed_note": "Adult discharge diagnosis acute otitis media. Delayed antibiotic plan documented. No ear red flags documented.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase163_aom_missing_treatment_plan_blocks",
+    "condition": "acute otitis media uncomplicated",
+    "ed_note": "Adult discharge diagnosis acute otitis media. No ear red flags documented.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_entered_treatment_plan"
+    ]
+  },
+  {
+    "id": "phase163_aom_pediatric_blocks",
+    "condition": "acute otitis media uncomplicated",
+    "ed_note": "Pediatric child discharge diagnosis acute otitis media. Clinician entered treatment plan. No ear red flags documented.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "pediatric_pathway"
+    ]
+  },
+  {
+    "id": "phase163_aom_ent_directed_plan_blocks",
+    "condition": "acute otitis media uncomplicated",
+    "ed_note": "Adult discharge diagnosis acute otitis media. Clinician entered treatment plan. No ear red flags documented. ENT consulted with specialist directed ENT plan.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "specialist_directed_ent_plan"
+    ]
+  },
+  {
+    "id": "phase163_aom_tympanostomy_tube_blocks",
+    "condition": "acute otitis media uncomplicated",
+    "ed_note": "Adult discharge diagnosis acute otitis media. Clinician entered treatment plan. No mastoiditis concern. Ear tube present.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tympanic_membrane_perforation_or_tube"
+    ]
+  },
+  {
+    "id": "phase163_aom_unstable_vitals_blocks",
+    "condition": "acute otitis media uncomplicated",
+    "ed_note": "Adult discharge diagnosis acute otitis media. Clinician entered treatment plan. No ear red flags documented. Unstable vitals documented.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "unstable_vitals"
+    ]
+  }
+]

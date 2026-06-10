@@ -1,0 +1,85 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import json
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
+
+from build_phase21_expansion_gate import gate_payload  # noqa: E402
+from classify_phenotype import classify  # noqa: E402
+from ontology_lib import ROOT, OntologyError, read_json  # noqa: E402
+
+
+RETIRED = {
+    "acute_otitis_media_uncomplicated": ["ear pain", "ear infection"],
+    "suture_removal_or_wound_check_no_infection": ["wound check", "stitches"],
+}
+
+
+def require(condition: bool, message: str) -> None:
+    if not condition:
+        raise OntologyError(message)
+
+
+def assert_case(case: dict) -> None:
+    result = classify(case["condition"], case.get("ed_note", ""))
+    require(result["phenotype_id"] == case["expected_phenotype_id"], f"{case['id']} phenotype mismatch: {result}")
+    require(result["fallback_reason"] == case["expected_fallback_reason"], f"{case['id']} fallback mismatch: {result}")
+    for expected in case.get("expected_exclusions", []):
+        require(expected in result["exclusions"], f"{case['id']} missing exclusion {expected}: {result}")
+    for expected in case.get("expected_missing_required_context", []):
+        require(expected in result.get("missing_required_context", []), f"{case['id']} missing context {expected}: {result}")
+
+
+def main() -> int:
+    manifest = read_json(ROOT / "runtime" / "ontology_manifest.json")
+    manifest_items = {item["id"]: item for item in manifest["phenotypes"]}
+    payload = gate_payload()
+
+    for phenotype_id, broad_terms in RETIRED.items():
+        phenotype = read_json(ROOT / "phenotypes" / f"{phenotype_id}.json")
+        manifest_item = manifest_items[phenotype_id]
+        require(phenotype["status"] == "retired", f"{phenotype_id} should be retired")
+        require(phenotype["review"]["status"] == "retired", f"{phenotype_id} review should be retired")
+        require(phenotype["runtime"]["mode"] == "retired_product_layer_fallback_only", f"{phenotype_id} should be product fallback only")
+        require(manifest_item["status"] == "retired", f"{phenotype_id} manifest status should be retired")
+        terms = set(manifest_item["condition_terms"])
+        for broad in broad_terms:
+            require(broad not in terms, f"{phenotype_id} broad term must not be standalone: {broad}")
+
+    for filename in [
+        "phase169_broad_ear_complaint_stress_runtime_cases.json",
+        "phase175_suture_wound_check_runtime_cases.json",
+        "phase176_suture_wound_check_stress_runtime_cases.json",
+        "phase193_broad_wound_complaint_stress_runtime_cases.json",
+    ]:
+        for case in json.loads((ROOT / "evals" / filename).read_text(encoding="utf-8")):
+            assert_case(case)
+
+    required_docs = {
+        "phase170_handoff.md": "Completed through Phase 170.",
+        "phase180_handoff.md": "Completed through Phase 180.",
+        "phase185_handoff.md": "Completed through Phase 185.",
+        "phase190_handoff.md": "Completed through Phase 190.",
+        "phase195_phase201_210_plan.md": "Recommended next 10-phase job:",
+        "phase200_handoff.md": "Completed through Phase 200.",
+    }
+    for doc_name, required_text in required_docs.items():
+        text = (ROOT / "evals" / doc_name).read_text(encoding="utf-8")
+        require(required_text in text, f"{doc_name} missing required text")
+
+    require(payload["reviewed_runtime_clean"], "reviewed runtime should remain clean")
+    require(payload["reviewed_source_gap_count"] == 0, "reviewed source gaps should remain zero")
+    require(payload["draft_source_gap_count"] == 0, "draft source gaps should remain zero")
+    require(payload["active_draft_phenotype_count"] == 0, f"active drafts should be zero: {payload['active_draft_phenotypes']}")
+    require(payload["phenotype_expansion_allowed"], "expansion should be allowed after retirements")
+
+    print("phase166-200 cycle checks passed")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

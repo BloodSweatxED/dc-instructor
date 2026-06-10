@@ -1,0 +1,39 @@
+[
+  {
+    "id": "phase74_migraine_clean_draft_fallback",
+    "condition": "migraine improved discharge",
+    "ed_note": "Adult with clinician diagnosis of migraine. Symptoms improved with treatment. Structured red flags negative. Discharged home.",
+    "expected_phenotype_id": "migraine_improved_discharge",
+    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+  },
+  {
+    "id": "phase74_migraine_missing_improvement_context_blocks",
+    "condition": "migraine improved discharge",
+    "ed_note": "Adult with clinician diagnosis of migraine. Structured red flags negative. Discharged home.",
+    "expected_phenotype_id": "migraine_improved_discharge",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["documented_clinical_improvement"]
+  },
+  {
+    "id": "phase74_migraine_missing_red_flags_context_blocks",
+    "condition": "migraine improved discharge",
+    "ed_note": "Adult with clinician diagnosis of migraine. Symptoms improved with treatment. Discharged home.",
+    "expected_phenotype_id": "migraine_improved_discharge",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["structured_red_flags_absent"]
+  },
+  {
+    "id": "phase74_migraine_broad_headache_no_match",
+    "condition": "headache",
+    "ed_note": "Headache without final migraine diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase74_migraine_broad_severe_headache_no_match",
+    "condition": "severe headache",
+    "ed_note": "Severe headache without final migraine diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  }
+]

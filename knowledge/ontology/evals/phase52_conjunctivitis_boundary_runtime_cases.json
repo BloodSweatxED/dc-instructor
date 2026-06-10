@@ -1,0 +1,40 @@
+[
+  {
+    "id": "phase52_conjunctivitis_chemical_exposure_blocks",
+    "condition": "conjunctivitis uncomplicated",
+    "ed_note": "Adult with eye redness after chemical splash and chemical exposure.",
+    "expected_phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["chemical_eye_exposure", "eye_trauma_or_foreign_body"]
+  },
+  {
+    "id": "phase52_conjunctivitis_keratitis_blocks",
+    "condition": "pink eye uncomplicated",
+    "ed_note": "Adult with pink eye symptoms but corneal ulcer and keratitis concern documented.",
+    "expected_phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["corneal_ulcer_or_keratitis_concern"]
+  },
+  {
+    "id": "phase52_conjunctivitis_acute_glaucoma_mimic_blocks",
+    "condition": "conjunctivitis no contact lens",
+    "ed_note": "Adult with red eye, halos around lights, severe eye pain, and acute glaucoma concern.",
+    "expected_phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["acute_glaucoma_mimic", "severe_eye_pain"]
+  },
+  {
+    "id": "phase52_conjunctivitis_broad_itchy_eye_no_match",
+    "condition": "itchy eye",
+    "ed_note": "Itchy eye without final conjunctivitis diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase52_conjunctivitis_broad_eye_discharge_no_match",
+    "condition": "eye discharge",
+    "ed_note": "Eye discharge without final conjunctivitis diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  }
+]

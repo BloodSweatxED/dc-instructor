@@ -1,0 +1,237 @@
+{
+  "id": "elbow_sprain_acute_traumatic_xray_negative",
+  "label": "Acute traumatic elbow sprain with negative x-ray",
+  "status": "reviewed",
+  "condition_family": "musculoskeletal_injury",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of acute traumatic elbow sprain, strain, soft tissue injury, low-grade collateral ligament sprain, or radial head contusion without fracture.",
+    "X-ray was performed and documented negative for fracture or dislocation.",
+    "Neurovascular exam documented intact, including hand motor function.",
+    "Clinician documented acute traumatic mechanism, no elbow instability concern, and no distal tendon or ligament rupture concern."
+  ],
+  "exclusion_criteria": [
+    "Overuse or repetitive mechanism, lateral or medial epicondylitis, elbow dislocation, fracture, open wound, high-energy trauma, crush injury, or specialist-directed orthopedic plan.",
+    "UCL/LCL rupture or instability concern; distal biceps or triceps tendon concern; inability to flex, extend, supinate, pronate, grip, or perform hand motor exam normally.",
+    "Ulnar nerve symptoms, hand numbness or weakness, septic joint or infection concern, compartment syndrome concern, olecranon bursitis, or posterior elbow swelling pathway.",
+    "Pediatric growth plate pathway or elderly/osteoporotic high-risk elbow injury."
+  ],
+  "must_not_miss": [
+    "Occult fracture.",
+    "Elbow dislocation or instability.",
+    "UCL or LCL rupture.",
+    "Distal biceps tendon rupture.",
+    "Triceps tendon rupture.",
+    "Ulnar nerve injury.",
+    "Olecranon bursitis, including septic bursitis.",
+    "Septic joint.",
+    "Compartment syndrome.",
+    "Vascular injury."
+  ],
+  "default_follow_up": "Follow up with primary care, sports medicine, or orthopedics within 1 to 2 weeks. Go sooner if the elbow feels unstable, motion is not returning, forearm rotation is limited, or pain is worsening. Your clinician may recommend imaging or a rehab plan at that visit.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "elbow_sprain_acute_traumatic_xray_negative.diagnosis.diagnosis_summary.v1",
+    "elbow_sprain_acute_traumatic_xray_negative.what_we_found.reassuring_ed_assessment.v1",
+    "elbow_sprain_acute_traumatic_xray_negative.home_care.home_care_1.v1",
+    "elbow_sprain_acute_traumatic_xray_negative.home_care.home_care_2.v1",
+    "elbow_sprain_acute_traumatic_xray_negative.home_care.home_care_3.v1",
+    "elbow_sprain_acute_traumatic_xray_negative.home_care.home_care_4.v1",
+    "elbow_sprain_acute_traumatic_xray_negative.home_care.home_care_5.v1",
+    "elbow_sprain_acute_traumatic_xray_negative.home_care.home_care_6.v1",
+    "elbow_sprain_acute_traumatic_xray_negative.medications.medication_guidance_1.v1",
+    "elbow_sprain_acute_traumatic_xray_negative.medications.medication_guidance_2.v1",
+    "elbow_sprain_acute_traumatic_xray_negative.return_precautions.return_precaution_1.v1",
+    "elbow_sprain_acute_traumatic_xray_negative.return_precautions.return_precaution_2.v1",
+    "elbow_sprain_acute_traumatic_xray_negative.return_precautions.return_precaution_3.v1",
+    "elbow_sprain_acute_traumatic_xray_negative.return_precautions.return_precaution_4.v1",
+    "elbow_sprain_acute_traumatic_xray_negative.return_precautions.return_precaution_5.v1",
+    "elbow_sprain_acute_traumatic_xray_negative.return_precautions.return_precaution_6.v1",
+    "elbow_sprain_acute_traumatic_xray_negative.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.sprains_strains",
+    "aaos.distal_biceps_tendon_tear",
+    "aaos.olecranon_bursitis"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports general sprain/strain framing, rest, protection, gradual return to activity, several-week recovery for bad sprains, and escalation for worsening pain, swelling, numbness, color change, fever, inability to move, or inability to walk. AAOS distal biceps and olecranon bursitis sources support blocking distal tendon rupture and posterior bursitis pathways. Clinician-owner review on 2026-06-05 approved one shared acute traumatic elbow sprain v1, including radial head contusion without fracture, with deferred split consideration for radial-head-specific rehab, ligament subtype, or distal-tendon-risk pathways if future product behavior needs different instructions."
+  },
+  "runtime": {
+    "condition_terms": [
+      "elbow sprain acute traumatic xray negative",
+      "acute traumatic elbow sprain xray negative",
+      "acute elbow sprain xray negative",
+      "elbow sprain xray negative",
+      "elbow strain acute traumatic xray negative",
+      "acute traumatic elbow strain xray negative",
+      "acute elbow strain xray negative",
+      "elbow soft tissue sprain xray negative",
+      "radial head contusion xray negative"
+    ],
+    "unsafe_modifiers": [
+      "overuse_or_repetitive_mechanism",
+      "fracture_seen",
+      "dislocation",
+      "open_wound",
+      "open_fracture",
+      "high_energy_trauma",
+      "crush_injury",
+      "elbow_instability_or_ucl_lcl_concern",
+      "tendon_or_ligament_rupture_concern",
+      "distal_biceps_or_triceps_concern",
+      "ulnar_nerve_pattern",
+      "olecranon_bursitis_pathway",
+      "neurovascular_compromise",
+      "hand_motor_deficit",
+      "compartment_syndrome_concern",
+      "septic_joint_or_infection_concern",
+      "pediatric_growth_plate_pathway",
+      "elderly_osteoporotic_high_risk_msk",
+      "specialist_directed_orthopedic_plan",
+      "no_xray_performed"
+    ],
+    "required_context": [
+      {
+        "id": "adult_acute_traumatic_elbow_sprain_diagnosis",
+        "terms": [
+          "adult with acute traumatic elbow sprain",
+          "adult with acute traumatic elbow strain",
+          "adult acute elbow sprain",
+          "acute traumatic elbow sprain",
+          "acute traumatic elbow strain",
+          "acute elbow sprain",
+          "acute elbow strain",
+          "elbow soft tissue sprain",
+          "radial head contusion without fracture"
+        ]
+      },
+      {
+        "id": "xray_performed_and_negative",
+        "terms": [
+          "xray performed and negative",
+          "x ray performed and negative",
+          "x-ray performed and negative",
+          "xray negative for fracture",
+          "x-ray negative for fracture",
+          "xray shows no acute fracture",
+          "x-ray shows no acute fracture",
+          "no fracture seen on xray",
+          "no fracture seen on x-ray"
+        ]
+      },
+      {
+        "id": "intact_neurovascular_and_hand_motor_exam",
+        "terms": [
+          "neurovascular exam intact including hand motor",
+          "neurovascular intact including hand motor",
+          "hand motor intact",
+          "intact hand motor exam",
+          "motor in the hand is normal",
+          "motor sensory vascular intact in hand"
+        ]
+      },
+      {
+        "id": "acute_traumatic_mechanism_documented",
+        "terms": [
+          "acute traumatic mechanism",
+          "fall onto elbow",
+          "fell onto elbow",
+          "direct blow to elbow",
+          "contact injury to elbow",
+          "forced extension",
+          "forced flexion",
+          "single traumatic event"
+        ]
+      },
+      {
+        "id": "no_elbow_instability_concern_attested",
+        "terms": [
+          "no instability concern",
+          "no elbow instability concern",
+          "no ucl concern",
+          "no lcl concern",
+          "stable elbow exam"
+        ]
+      },
+      {
+        "id": "no_distal_tendon_or_ligament_rupture_concern_attested",
+        "terms": [
+          "no tendon rupture concern",
+          "no distal biceps concern",
+          "no triceps concern",
+          "no ligament rupture concern",
+          "no rupture concern",
+          "no distal tendon concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "elbow sprain acute traumatic xray negative",
+      "acute traumatic elbow sprain xray negative",
+      "acute elbow sprain xray negative",
+      "elbow sprain xray negative",
+      "elbow strain acute traumatic xray negative",
+      "acute traumatic elbow strain xray negative",
+      "acute elbow strain xray negative",
+      "elbow soft tissue sprain xray negative",
+      "radial head contusion xray negative"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-05",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports general sprain/strain framing, rest, protection, gradual return to activity, several-week recovery for bad sprains, and escalation for worsening pain, swelling, numbness, color change, fever, inability to move, or inability to walk. AAOS distal biceps and olecranon bursitis sources support blocking distal tendon rupture and posterior bursitis pathways. Clinician-owner review on 2026-06-05 approved one shared acute traumatic elbow sprain v1, including radial head contusion without fracture, with deferred split consideration for radial-head-specific rehab, ligament subtype, or distal-tendon-risk pathways if future product behavior needs different instructions.",
+    "clinical_status": "reviewed_for_limited_adult_acute_traumatic_elbow_sprain_or_strain_with_negative_xray_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of acute traumatic elbow sprain/strain/injury",
+      "x-ray performed and negative",
+      "intact neurovascular and hand motor exam",
+      "acute traumatic mechanism",
+      "no elbow instability concern",
+      "no distal tendon or ligament rupture concern",
+      "no overuse pathway"
+    ],
+    "blocked_modifiers": [
+      "overuse_or_repetitive_mechanism",
+      "fracture_seen",
+      "dislocation",
+      "open_wound",
+      "open_fracture",
+      "high_energy_trauma",
+      "crush_injury",
+      "elbow_instability_or_ucl_lcl_concern",
+      "tendon_or_ligament_rupture_concern",
+      "distal_biceps_or_triceps_concern",
+      "ulnar_nerve_pattern",
+      "olecranon_bursitis_pathway",
+      "neurovascular_compromise",
+      "hand_motor_deficit",
+      "compartment_syndrome_concern",
+      "septic_joint_or_infection_concern",
+      "pediatric_growth_plate_pathway",
+      "elderly_osteoporotic_high_risk_msk",
+      "specialist_directed_orthopedic_plan",
+      "no_xray_performed"
+    ]
+  }
+}
