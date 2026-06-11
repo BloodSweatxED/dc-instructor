@@ -1,9 +1,10 @@
-import { jsonResponse } from './_lib.js';
+import { jsonResponse, originAllowed } from './_lib.js';
 
 const PROMPT_PREFIX = 'Medical illustration, clean line art, anatomical diagram, clinical education style, black and white sketch, no text labels: ';
 
 export default async (req) => {
   if (req.method !== 'POST') return jsonResponse(405, { error: 'Method not allowed' });
+  if (!originAllowed(req)) return jsonResponse(403, { error: 'Forbidden' });
   const apiKey = process.env.STABILITY_API_KEY;
   if (!apiKey) return jsonResponse(500, { error: 'Server not configured' });
 

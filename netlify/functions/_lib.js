@@ -5,6 +5,21 @@ export function jsonResponse(status, body, extraHeaders = {}) {
   });
 }
 
+// Browser-enforced guard: blocks other websites from calling these functions
+// cross-origin. Requests without an Origin header (curl, server-to-server) pass.
+export function originAllowed(req) {
+  const origin = req.headers.get('origin');
+  if (!origin) return true;
+  const allowed = [
+    process.env.URL,
+    process.env.DEPLOY_PRIME_URL,
+    process.env.DEPLOY_URL,
+    'http://localhost:5173',
+    'http://localhost:8888',
+  ].filter(Boolean);
+  return allowed.includes(origin);
+}
+
 export async function checkLimits() {
   const url = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
   const svc = process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -17,8 +32,11 @@ export async function checkLimits() {
       const count = Array.isArray(rows) ? (rows[0]?.count ?? 0) : 0;
       if (count >= 500) return { blocked: true, reason: 'limit', count };
       return { blocked: false, count, warning: count >= 400 };
-    } catch {
-      return { blocked: false, count: 0 };
+    } catch (e) {
+      // Fail open so an unreachable Supabase never blocks generation,
+      // but make the degraded state visible in function logs.
+      console.error('checkLimits: Supabase unreachable, limit not enforced', e?.message);
+      return { blocked: false, count: 0, degraded: true };
     }
   }
   return { blocked: false, count: 0 };
@@ -46,7 +64,8 @@ export async function logGeneration({ reading_level, language, condition_input, 
     });
     const rows = await r.json();
     return Array.isArray(rows) ? rows[0]?.id : null;
-  } catch {
+  } catch (e) {
+    console.error('logGeneration: insert failed', e?.message);
     return null;
   }
 }

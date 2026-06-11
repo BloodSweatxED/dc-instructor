@@ -1,4 +1,11 @@
-import { checkLimits, logGeneration, jsonResponse } from './_lib.js';
+import { checkLimits, logGeneration, jsonResponse, originAllowed } from './_lib.js';
+
+const READING_LEVELS = new Set([
+  '4th Grade', '6th Grade', '8th Grade', '10th Grade', 'HL-1 (Health Literacy Level 1)',
+]);
+const MAX_CONDITION_CHARS = 300;
+const MAX_NOTE_CHARS = 8000;
+const MAX_LANGUAGE_CHARS = 60;
 
 const SYSTEM = ({ readingLevel, language }) => `You are a board-certified Emergency Medicine clinician writing discharge instructions for a patient you just saw and treated.
 
@@ -41,6 +48,7 @@ Output the discharge instructions only. No preamble, no closing remarks, no meta
 
 export default async (req) => {
   if (req.method !== 'POST') return jsonResponse(405, { error: 'Method not allowed' });
+  if (!originAllowed(req)) return jsonResponse(403, { error: 'Forbidden' });
 
   const limits = await checkLimits();
   if (limits.blocked) return jsonResponse(429, { error: 'limit', reason: limits.reason });
@@ -50,10 +58,19 @@ export default async (req) => {
 
   let body;
   try { body = await req.json(); } catch { return jsonResponse(400, { error: 'Invalid JSON' }); }
-  const { condition, edNoteScrubbed, readingLevel = '6th Grade', language = 'English', hasImage = false } = body || {};
-  if (!condition || typeof condition !== 'string') {
+  const raw = body || {};
+  if (!raw.condition || typeof raw.condition !== 'string') {
     return jsonResponse(400, { error: 'condition required' });
   }
+  const condition = raw.condition.slice(0, MAX_CONDITION_CHARS);
+  const edNoteScrubbed = typeof raw.edNoteScrubbed === 'string'
+    ? raw.edNoteScrubbed.slice(0, MAX_NOTE_CHARS)
+    : '';
+  const readingLevel = READING_LEVELS.has(raw.readingLevel) ? raw.readingLevel : '6th Grade';
+  const language = typeof raw.language === 'string'
+    ? raw.language.replace(/[\r\n]+/g, ' ').trim().slice(0, MAX_LANGUAGE_CHARS) || 'English'
+    : 'English';
+  const hasImage = !!raw.hasImage;
 
   const userMessage = edNoteScrubbed
     ? `CONDITION: ${condition}\n\nED NOTE CONTEXT (PHI redacted):\n${edNoteScrubbed}`

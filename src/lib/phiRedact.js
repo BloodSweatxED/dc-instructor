@@ -7,6 +7,12 @@ const COMMON_MEDICAL_BIGRAM_WHITELIST = new Set([
   'Shortness Breath', 'Right Lower', 'Left Lower', 'Right Upper', 'Left Upper',
   'Emergency Department', 'Discharge Instructions', 'Return Precautions',
   'Mental Status', 'Heart Rate', 'Blood Pressure', 'Body Mass',
+  'Emergency Room', 'Urgent Care', 'Primary Care', 'Physical Therapy',
+  'Follow Up', 'Pain Control', 'Motor Vehicle', 'Range Motion',
+  'Straight Leg', 'Deep Tendon', 'Lower Extremity', 'Upper Extremity',
+  'Normal Saline', 'Sinus Rhythm', 'Normal Sinus', 'Respiratory Rate',
+  'Oxygen Saturation', 'White Blood', 'Red Blood', 'Bowel Sounds',
+  'No Acute', 'Acute Distress', 'Well Appearing', 'Alert Oriented',
 ]);
 
 const PATTERNS = [

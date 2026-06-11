@@ -87,7 +87,7 @@ export default function App() {
     } catch (e) {
       setStreaming(false);
       if (e.status === 429) {
-        setBlocked(e.payload?.reason === 'expired' ? 'expired' : 'limit');
+        setBlocked('limit');
       } else {
         setError(e.message || 'Generation failed');
       }

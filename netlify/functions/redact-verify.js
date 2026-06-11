@@ -1,4 +1,4 @@
-import { jsonResponse } from './_lib.js';
+import { jsonResponse, originAllowed } from './_lib.js';
 
 const SYSTEM = `You are a HIPAA Safe Harbor verifier. The user provides text that has been pre-scrubbed of obvious identifiers (replaced with bracketed tokens like [NAME], [MRN], [DATE]). Your job: find any REMAINING PHI that the regex pass missed — particularly contextual identifiers such as:
 
@@ -16,6 +16,7 @@ If nothing remains to redact, return {"additionalRedactions":[]}. No prose, no p
 
 export default async (req) => {
   if (req.method !== 'POST') return jsonResponse(405, { error: 'Method not allowed' });
+  if (!originAllowed(req)) return jsonResponse(403, { error: 'Forbidden' });
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) return jsonResponse(500, { error: 'Server not configured' });
 

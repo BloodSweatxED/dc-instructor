@@ -36,7 +36,6 @@ npx netlify dev   # runs Vite + Functions together
    - `STABILITY_API_KEY`
    - `SUPABASE_SERVICE_ROLE_KEY`
    - `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`
-   - `LAUNCH_DATE` (ISO date — drives the 30-day trial cutoff)
 4. Point `dcinstructor.com` at the Netlify site.
 
 ## PHI redaction
@@ -48,11 +47,19 @@ Two layers, runs only when the optional ED note field has content:
 
 The `PHIRedactionBadge` shows what was removed; the verified state is shown once the second pass returns.
 
-## Trial limits
+## Usage limits
 
-- Hard wall at 500 total generations OR 30 days past `LAUNCH_DATE`, whichever fires first.
+- Hard wall at 500 total generations (counted in Supabase). The time-based expiry gate was removed in June 2026.
 - Banner at 400 generations.
-- After cutoff, the app shows a contact card; no further API calls fire.
+- After the cap, the app shows a contact card; no further API calls fire.
+- Note: the limit check fails open — if Supabase is unreachable (e.g. free-tier project paused), generation continues and the cap is not enforced. Degraded state is logged in the Netlify function logs.
+
+## Tests
+
+```bash
+npm test   # vitest — covers PHI redaction and rating cadence
+```
+CI (GitHub Actions) runs tests and a production build on every push and PR.
 
 ## Privacy
 - ED note content is never written to the DB. Only `condition_input` (chief complaint) is stored, and only the first 200 chars.
