@@ -40,7 +40,7 @@ This updates:
 
 Use `ops/dashboard.md` as the next-agent startup board, then verify the latest Obsidian handoff and live repo state before editing.
 
-When GitHub Pages is enabled through `.github/workflows/ops-pages.yml`, the browser-clickable map lives at:
+When GitHub Pages is enabled for the dashboard branch, the browser-clickable map lives at:
 
 ```text
 https://bloodsweatxed.github.io/dc-instructor/ops/progress_map.html

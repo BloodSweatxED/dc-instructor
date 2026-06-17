@@ -27,7 +27,7 @@ The canonical GitHub repo is:
 https://github.com/BloodSweatxED/dc-instructor
 ```
 
-When GitHub Pages is enabled for this repo with the `Publish Ops Dashboard` workflow, the browser URLs are:
+When GitHub Pages is enabled for the dashboard branch, the browser URLs are:
 
 ```text
 https://bloodsweatxed.github.io/dc-instructor/

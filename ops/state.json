@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-06-17T12:39:25.379813+00:00",
+  "generated_at": "2026-06-17T13:13:47.421743+00:00",
   "project": "DC Instructor",
   "canonical_repo_url": "https://github.com/BloodSweatxED/dc-instructor",
   "repo": {
     "path": "/Users/andre/Desktop/Claude Projects/dc-instructor",
     "branch": "codex/dc-knowledge-graph",
-    "head": "3fbb71c",
+    "head": "3e91b2d",
     "origin": "https://github.com/BloodSweatxED/dc-instructor.git",
     "origin_matches_canonical": true,
-    "dirty_file_count": 81,
+    "dirty_file_count": 80,
     "dirty_files": [
-      "M README.md",
+      "D .github/workflows/ops-pages.yml",
+      " M README.md",
       " M knowledge/ontology/evals/phase20_runtime_cases.json",
       " M knowledge/ontology/evals/phase21_expansion_gate/expansion_blockers.md",
       " M knowledge/ontology/evals/phase21_expansion_gate/phase21_expansion_gate.json",
@@ -34,8 +35,7 @@
       " M knowledge/ontology/scripts/classify_phenotype.py",
       " M knowledge/ontology/scripts/promote_reviewed_phenotypes.py",
       " M netlify/functions/ontology-runtime.js",
-      " M package.json",
-      "?? .github/",
+      " M ops/README.md",
       "?? knowledge/knowledge/",
       "?? knowledge/ontology/config/",
       "?? knowledge/ontology/evals/phase1002_1500_library_expansion_runtime_cases.json",
@@ -91,7 +91,7 @@
       "?? library/tension_headache_reassuring_exam_no_red_flags/",
       "?? library/tinea_corporis_uncomplicated_no_cellulitis/"
     ],
-    "dirty_files_truncated": true
+    "dirty_files_truncated": false
   },
   "latest_handoff": {
     "path": "/Users/andre/Desktop/Vaults/Life/11-DC instructor/2026-06-11 DC Instructor Phase 1550 Five Phenotype Expansion Handoff.md",
