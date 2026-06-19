@@ -1,13 +1,13 @@
 # DC Instructor Ops Dashboard
 
-Generated: `2026-06-19T10:31:13.540595+00:00`
+Generated: `2026-06-19T10:34:48.676808+00:00`
 
 ## Current State
 
 - Canonical repo: [https://github.com/BloodSweatxED/dc-instructor](https://github.com/BloodSweatxED/dc-instructor)
 - Local repo: `/Users/andre/Desktop/Claude Projects/dc-instructor`
 - Branch: `codex/dc-knowledge-graph`
-- HEAD: `31ef327`
+- HEAD: `4a60d36`
 - Origin: `https://github.com/BloodSweatxED/dc-instructor.git` (matches canonical repo)
 - Latest handoff: `/Users/andre/Desktop/Vaults/Life/11-DC instructor/2026-06-18 DC Instructor Phase 2000 Five Phenotype Expansion Handoff.md`
 - Gate decision: `phenotype expansion allowed`
@@ -15,15 +15,15 @@ Generated: `2026-06-19T10:31:13.540595+00:00`
 - Active drafts: `0`
 - Reviewed source gaps: `0`
 - Draft source gaps: `0`
-- Dirty working tree entries: `264` truncated
+- Dirty working tree entries: `279` truncated
 
 ## Finish Line
 
-- MVP: `82 / 100` reviewed phenotypes `82.0%`
-- MVP bar: `####################----`
-- V1: `82 / 500` reviewed phenotypes `16.4%`
+- MVP: `87 / 100` reviewed phenotypes `87.0%`
+- MVP bar: `#####################---`
+- V1: `87 / 500` reviewed phenotypes `17.4%`
 - V1 bar: `####--------------------`
-- Exported library: `82` conditions, `246` English files
+- Exported library: `87` conditions, `261` English files
 
 ## Review Queue
 
@@ -38,10 +38,10 @@ No open review queue items detected.
 | ENT / Dental | 4 | 0 | 0 | 0 | 6 |
 | GI | 5 | 0 | 0 | 0 | 5 |
 | GU | 2 | 0 | 0 | 0 | 2 |
-| MSK | 17 | 0 | 0 | 0 | 18 |
+| MSK | 20 | 0 | 0 | 0 | 21 |
 | Neuro | 5 | 0 | 0 | 0 | 6 |
 | Ophtho | 2 | 0 | 0 | 0 | 3 |
-| Other | 18 | 0 | 0 | 0 | 18 |
+| Other | 20 | 0 | 0 | 0 | 20 |
 | Respiratory | 7 | 0 | 0 | 0 | 7 |
 | Skin / Soft Tissue | 18 | 0 | 0 | 0 | 18 |
 

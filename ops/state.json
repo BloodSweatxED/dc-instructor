@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-19T10:31:13.540595+00:00",
+  "generated_at": "2026-06-19T10:34:48.676808+00:00",
   "project": "DC Instructor",
   "canonical_repo_url": "https://github.com/BloodSweatxED/dc-instructor",
   "repo": {
     "path": "/Users/andre/Desktop/Claude Projects/dc-instructor",
     "branch": "codex/dc-knowledge-graph",
-    "head": "31ef327",
+    "head": "4a60d36",
     "origin": "https://github.com/BloodSweatxED/dc-instructor.git",
     "origin_matches_canonical": true,
-    "dirty_file_count": 264,
+    "dirty_file_count": 279,
     "dirty_files": [
       "M knowledge/ontology/evals/phase20_runtime_cases.json",
       " M knowledge/ontology/evals/phase21_expansion_gate/expansion_blockers.md",
@@ -64,6 +64,7 @@
       "?? knowledge/ontology/phenotypes/contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk.json",
       "?? knowledge/ontology/phenotypes/corn_or_callus_uncomplicated_no_diabetic_foot_or_infection.json",
       "?? knowledge/ontology/phenotypes/costochondritis_uncomplicated_no_cardiopulmonary_red_flags.json",
+      "?? knowledge/ontology/phenotypes/finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags.json",
       "?? knowledge/ontology/phenotypes/folliculitis_uncomplicated_no_abscess_or_cellulitis.json",
       "?? knowledge/ontology/phenotypes/friction_blister_uncomplicated_no_diabetic_foot_or_infection.json",
       "?? knowledge/ontology/phenotypes/ganglion_cyst_uncomplicated_no_neurovascular_or_infection.json",
@@ -87,9 +88,8 @@
       "?? knowledge/ontology/phenotypes/pediculosis_capitis_uncomplicated_no_secondary_infection.json",
       "?? knowledge/ontology/phenotypes/pityriasis_rosea_uncomplicated_no_systemic_symptoms.json",
       "?? knowledge/ontology/phenotypes/plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags.json",
-      "?? knowledge/ontology/phenotypes/scabies_uncomplicated_no_crusted_or_secondary_infection.json",
-      "?? knowledge/ontology/phenotypes/seborrheic_dermatitis_or_dandruff_no_secondary_infection.json",
-      "?? knowledge/ontology/phenotypes/simple_paronychia_no_abscess_or_felon.json"
+      "?? knowledge/ontology/phenotypes/rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.json",
+      "?? knowledge/ontology/phenotypes/scabies_uncomplicated_no_crusted_or_secondary_infection.json"
     ],
     "dirty_files_truncated": true
   },
@@ -112,9 +112,9 @@
       "missing_allowed": []
     },
     "phase20_coverage": {
-      "reviewed_count": 82,
-      "phase20_count": 110,
-      "contradictory_covered": 82,
+      "reviewed_count": 87,
+      "phase20_count": 115,
+      "contradictory_covered": 87,
       "vague_cases": 20
     },
     "reviewed_source_gaps": [],
@@ -124,16 +124,16 @@
   },
   "review_queue": [],
   "progress": {
-    "reviewed_exported_count": 82,
-    "reviewed_count": 82,
-    "library_file_count": 246,
-    "library_condition_count": 82,
+    "reviewed_exported_count": 87,
+    "reviewed_count": 87,
+    "library_file_count": 261,
+    "library_condition_count": 87,
     "mvp_target": 100,
-    "mvp_percent": 82.0,
+    "mvp_percent": 87.0,
     "v1_target": 500,
-    "v1_percent": 16.4,
+    "v1_percent": 17.4,
     "status_counts": {
-      "reviewed_exported": 82,
+      "reviewed_exported": 87,
       "not_started": 6
     },
     "domain_counts": {
@@ -155,7 +155,7 @@
         "reviewed_exported": 2
       },
       "msk": {
-        "reviewed_exported": 17,
+        "reviewed_exported": 20,
         "not_started": 1
       },
       "neuro": {
@@ -167,7 +167,7 @@
         "reviewed_exported": 2
       },
       "other": {
-        "reviewed_exported": 18
+        "reviewed_exported": 20
       },
       "respiratory": {
         "reviewed_exported": 7
@@ -708,6 +708,28 @@
       }
     },
     {
+      "id": "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+      "label": "Finger sprain with negative x-ray and no tendon or neurovascular red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "foot_sprain_xray_negative",
       "label": "Foot sprain with negative x-ray",
       "domain": "msk",
@@ -808,6 +830,28 @@
       "unsafe_modifier_count": 8,
       "library": {
         "path": "library/lumbar_strain_no_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot",
+      "label": "Toe sprain with negative x-ray and no open wound or diabetic-foot risk",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 25,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 16,
+      "library": {
+        "path": "library/toe_sprain_xray_negative_no_open_wound_or_diabetic_foot",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -940,6 +984,28 @@
       "unsafe_modifier_count": 15,
       "library": {
         "path": "library/tinea_pedis_uncomplicated_no_cellulitis_or_diabetic_foot",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags",
+      "label": "Uncomplicated wrist tendinitis without fracture or neurovascular red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -1258,6 +1324,28 @@
       }
     },
     {
+      "id": "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags",
+      "label": "Shoulder overuse tendinitis without rupture or neurovascular red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 21,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 12,
+      "library": {
+        "path": "library/shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "chalazion_simple_no_vision_or_orbital_red_flags",
       "label": "Simple chalazion without vision or orbital red flags",
       "domain": "other",
@@ -1490,6 +1578,28 @@
       "unsafe_modifier_count": 14,
       "library": {
         "path": "library/plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+      "label": "Uncomplicated rib contusion without fracture or cardiopulmonary red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 21,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 12,
+      "library": {
+        "path": "library/rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
         "exported": true,
         "files_present": [
           "en_4th.md",
