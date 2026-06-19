@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-19T10:34:48.676808+00:00",
+  "generated_at": "2026-06-19T10:34:55.746109+00:00",
   "project": "DC Instructor",
   "canonical_repo_url": "https://github.com/BloodSweatxED/dc-instructor",
   "repo": {
     "path": "/Users/andre/Desktop/Claude Projects/dc-instructor",
     "branch": "codex/dc-knowledge-graph",
-    "head": "4a60d36",
+    "head": "1038010",
     "origin": "https://github.com/BloodSweatxED/dc-instructor.git",
     "origin_matches_canonical": true,
-    "dirty_file_count": 279,
+    "dirty_file_count": 275,
     "dirty_files": [
       "M knowledge/ontology/evals/phase20_runtime_cases.json",
       " M knowledge/ontology/evals/phase21_expansion_gate/expansion_blockers.md",
@@ -34,10 +34,6 @@
       " M knowledge/ontology/scripts/classify_phenotype.py",
       " M knowledge/ontology/scripts/promote_reviewed_phenotypes.py",
       " M netlify/functions/ontology-runtime.js",
-      " M ops/dashboard.md",
-      " M ops/progress_map.html",
-      " M ops/progress_map.json",
-      " M ops/state.json",
       "?? knowledge/knowledge/",
       "?? knowledge/ontology/config/",
       "?? knowledge/ontology/evals/phase1002_1500_library_expansion_runtime_cases.json",
@@ -89,14 +85,18 @@
       "?? knowledge/ontology/phenotypes/pityriasis_rosea_uncomplicated_no_systemic_symptoms.json",
       "?? knowledge/ontology/phenotypes/plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags.json",
       "?? knowledge/ontology/phenotypes/rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.json",
-      "?? knowledge/ontology/phenotypes/scabies_uncomplicated_no_crusted_or_secondary_infection.json"
+      "?? knowledge/ontology/phenotypes/scabies_uncomplicated_no_crusted_or_secondary_infection.json",
+      "?? knowledge/ontology/phenotypes/seborrheic_dermatitis_or_dandruff_no_secondary_infection.json",
+      "?? knowledge/ontology/phenotypes/shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags.json",
+      "?? knowledge/ontology/phenotypes/simple_paronychia_no_abscess_or_felon.json",
+      "?? knowledge/ontology/phenotypes/stye_hordeolum_simple_no_orbital_or_vision_red_flags.json"
     ],
     "dirty_files_truncated": true
   },
   "latest_handoff": {
-    "path": "/Users/andre/Desktop/Vaults/Life/11-DC instructor/2026-06-18 DC Instructor Phase 2000 Five Phenotype Expansion Handoff.md",
-    "name": "2026-06-18 DC Instructor Phase 2000 Five Phenotype Expansion Handoff.md",
-    "modified_at": "2026-06-18T15:12:31.350105+00:00"
+    "path": "/Users/andre/Desktop/Vaults/Life/11-DC instructor/2026-06-19 DC Instructor Phase 2100 Five Phenotype Expansion Handoff.md",
+    "name": "2026-06-19 DC Instructor Phase 2100 Five Phenotype Expansion Handoff.md",
+    "modified_at": "2026-06-19T10:34:51.191668+00:00"
   },
   "gate": {
     "phase": 21,
