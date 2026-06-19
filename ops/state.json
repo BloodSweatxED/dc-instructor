@@ -1,18 +1,16 @@
 {
-  "generated_at": "2026-06-17T13:13:47.421743+00:00",
+  "generated_at": "2026-06-19T10:31:13.540595+00:00",
   "project": "DC Instructor",
   "canonical_repo_url": "https://github.com/BloodSweatxED/dc-instructor",
   "repo": {
     "path": "/Users/andre/Desktop/Claude Projects/dc-instructor",
     "branch": "codex/dc-knowledge-graph",
-    "head": "3e91b2d",
+    "head": "31ef327",
     "origin": "https://github.com/BloodSweatxED/dc-instructor.git",
     "origin_matches_canonical": true,
-    "dirty_file_count": 80,
+    "dirty_file_count": 264,
     "dirty_files": [
-      "D .github/workflows/ops-pages.yml",
-      " M README.md",
-      " M knowledge/ontology/evals/phase20_runtime_cases.json",
+      "M knowledge/ontology/evals/phase20_runtime_cases.json",
       " M knowledge/ontology/evals/phase21_expansion_gate/expansion_blockers.md",
       " M knowledge/ontology/evals/phase21_expansion_gate/phase21_expansion_gate.json",
       " M knowledge/ontology/evals/phase21_expansion_gate/phase22_source_remediation_plan.md",
@@ -28,6 +26,7 @@
       " M knowledge/ontology/phenotypes/hemorrhoids_uncomplicated_no_heavy_bleeding.json",
       " M knowledge/ontology/phenotypes/influenza_like_illness_stable_supportive_care.json",
       " M knowledge/ontology/primitives/expanded_draft_packs.json",
+      " M knowledge/ontology/review_sheets/acute_sinusitis_supportive_care.md",
       " M knowledge/ontology/review_sheets/asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.md",
       " M knowledge/ontology/review_sheets/hemorrhoids_uncomplicated_no_heavy_bleeding.md",
       " M knowledge/ontology/runtime/ontology_manifest.json",
@@ -35,68 +34,69 @@
       " M knowledge/ontology/scripts/classify_phenotype.py",
       " M knowledge/ontology/scripts/promote_reviewed_phenotypes.py",
       " M netlify/functions/ontology-runtime.js",
-      " M ops/README.md",
+      " M ops/dashboard.md",
+      " M ops/progress_map.html",
+      " M ops/progress_map.json",
+      " M ops/state.json",
       "?? knowledge/knowledge/",
       "?? knowledge/ontology/config/",
       "?? knowledge/ontology/evals/phase1002_1500_library_expansion_runtime_cases.json",
       "?? knowledge/ontology/evals/phase1501_1550_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase1551_1600_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase1601_1650_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase1651_1700_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase1701_1750_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase1751_1800_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase1801_1850_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase1851_1900_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase1901_2000_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase2001_2100_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/phenotypes/acute_diarrhea_stable_no_blood_or_dehydration.json",
       "?? knowledge/ontology/phenotypes/aphthous_ulcer_simple_no_systemic_symptoms.json",
       "?? knowledge/ontology/phenotypes/atraumatic_knee_pain_no_red_flags.json",
+      "?? knowledge/ontology/phenotypes/bedbug_bites_local_reaction_no_infection_or_anaphylaxis.json",
+      "?? knowledge/ontology/phenotypes/blepharitis_uncomplicated_no_vision_or_orbital_red_flags.json",
+      "?? knowledge/ontology/phenotypes/bunion_uncomplicated_no_infection_or_diabetic_foot.json",
+      "?? knowledge/ontology/phenotypes/bursitis_uncomplicated_no_septic_joint_or_trauma.json",
       "?? knowledge/ontology/phenotypes/cerumen_impaction_no_infection_or_foreign_body.json",
       "?? knowledge/ontology/phenotypes/cervical_strain_no_neuro_deficit.json",
+      "?? knowledge/ontology/phenotypes/chalazion_simple_no_vision_or_orbital_red_flags.json",
+      "?? knowledge/ontology/phenotypes/contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk.json",
+      "?? knowledge/ontology/phenotypes/corn_or_callus_uncomplicated_no_diabetic_foot_or_infection.json",
+      "?? knowledge/ontology/phenotypes/costochondritis_uncomplicated_no_cardiopulmonary_red_flags.json",
+      "?? knowledge/ontology/phenotypes/folliculitis_uncomplicated_no_abscess_or_cellulitis.json",
+      "?? knowledge/ontology/phenotypes/friction_blister_uncomplicated_no_diabetic_foot_or_infection.json",
+      "?? knowledge/ontology/phenotypes/ganglion_cyst_uncomplicated_no_neurovascular_or_infection.json",
+      "?? knowledge/ontology/phenotypes/heat_rash_uncomplicated_no_heat_illness_or_infection.json",
       "?? knowledge/ontology/phenotypes/ingrown_toenail_no_abscess_or_cellulitis.json",
+      "?? knowledge/ontology/phenotypes/laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags.json",
+      "?? knowledge/ontology/phenotypes/localized_impetigo_no_cellulitis_or_systemic_symptoms.json",
       "?? knowledge/ontology/phenotypes/localized_insect_bite_or_sting_no_systemic_reaction.json",
+      "?? knowledge/ontology/phenotypes/localized_molluscum_contagiosum_no_genital_or_immunocompromised_host.json",
+      "?? knowledge/ontology/phenotypes/localized_oral_herpes_labialis_no_eye_or_immunocompromised_host.json",
+      "?? knowledge/ontology/phenotypes/localized_plantar_wart_no_diabetic_foot_or_immunocompromised_host.json",
+      "?? knowledge/ontology/phenotypes/localized_shingles_no_eye_or_neuro_complication.json",
+      "?? knowledge/ontology/phenotypes/mild_acne_no_abscess_or_medication_red_flags.json",
+      "?? knowledge/ontology/phenotypes/mild_allergic_rhinitis_no_wheeze_or_anaphylaxis.json",
+      "?? knowledge/ontology/phenotypes/mild_eczema_flare_no_infection_or_systemic_symptoms.json",
+      "?? knowledge/ontology/phenotypes/minor_nail_injury_uncomplicated_no_fracture_or_infection.json",
+      "?? knowledge/ontology/phenotypes/minor_superficial_burn_small_area_no_high_risk_features.json",
+      "?? knowledge/ontology/phenotypes/muscle_strain_uncomplicated_no_fracture_or_neurovascular_red_flags.json",
       "?? knowledge/ontology/phenotypes/nausea_vomiting_stable_hydrating_no_abdominal_pain.json",
+      "?? knowledge/ontology/phenotypes/osteoarthritis_flare_uncomplicated_no_septic_joint_or_trauma.json",
+      "?? knowledge/ontology/phenotypes/pediculosis_capitis_uncomplicated_no_secondary_infection.json",
+      "?? knowledge/ontology/phenotypes/pityriasis_rosea_uncomplicated_no_systemic_symptoms.json",
+      "?? knowledge/ontology/phenotypes/plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags.json",
+      "?? knowledge/ontology/phenotypes/scabies_uncomplicated_no_crusted_or_secondary_infection.json",
       "?? knowledge/ontology/phenotypes/seborrheic_dermatitis_or_dandruff_no_secondary_infection.json",
-      "?? knowledge/ontology/phenotypes/tension_headache_reassuring_exam_no_red_flags.json",
-      "?? knowledge/ontology/phenotypes/tinea_corporis_uncomplicated_no_cellulitis.json",
-      "?? knowledge/ontology/review_sheets/aphthous_ulcer_simple_no_systemic_symptoms.md",
-      "?? knowledge/ontology/review_sheets/asymptomatic_elevated_blood_pressure_no_end_organ_symptoms_v1_review_packet.md",
-      "?? knowledge/ontology/review_sheets/atraumatic_knee_pain_no_red_flags.md",
-      "?? knowledge/ontology/review_sheets/atraumatic_knee_pain_no_red_flags_v1_review_packet.md",
-      "?? knowledge/ontology/review_sheets/cerumen_impaction_no_infection_or_foreign_body.md",
-      "?? knowledge/ontology/review_sheets/cerumen_impaction_no_infection_or_foreign_body_v1_review_packet.md",
-      "?? knowledge/ontology/review_sheets/cervical_strain_no_neuro_deficit.md",
-      "?? knowledge/ontology/review_sheets/cervical_strain_no_neuro_deficit_v1_review_packet.md",
-      "?? knowledge/ontology/review_sheets/hemorrhoids_uncomplicated_no_heavy_bleeding_v1_review_packet.md",
-      "?? knowledge/ontology/review_sheets/influenza_like_illness_stable_supportive_care_v1_review_packet.md",
-      "?? knowledge/ontology/review_sheets/ingrown_toenail_no_abscess_or_cellulitis.md",
-      "?? knowledge/ontology/review_sheets/localized_insect_bite_or_sting_no_systemic_reaction.md",
-      "?? knowledge/ontology/review_sheets/nausea_vomiting_stable_hydrating_no_abdominal_pain.md",
-      "?? knowledge/ontology/review_sheets/nausea_vomiting_stable_hydrating_no_abdominal_pain_v1_review_packet.md",
-      "?? knowledge/ontology/review_sheets/seborrheic_dermatitis_or_dandruff_no_secondary_infection.md",
-      "?? knowledge/ontology/review_sheets/tension_headache_reassuring_exam_no_red_flags.md",
-      "?? knowledge/ontology/review_sheets/tension_headache_reassuring_exam_no_red_flags_v1_review_packet.md",
-      "?? knowledge/ontology/review_sheets/tinea_corporis_uncomplicated_no_cellulitis.md",
-      "?? knowledge/ontology/source_cards/aao_hns.cerumen_impaction.json",
-      "?? knowledge/ontology/source_cards/cdc.ringworm.json",
-      "?? knowledge/ontology/source_cards/medlineplus.canker_sore.json",
-      "?? knowledge/ontology/source_cards/medlineplus.insect_bites_and_stings.json",
-      "?? knowledge/ontology/source_cards/medlineplus.knee_injuries_disorders.json",
-      "?? knowledge/ontology/source_cards/medlineplus.nausea_vomiting_self_care.json",
-      "?? knowledge/ontology/source_cards/medlineplus.neck_injuries_disorders.json",
-      "?? knowledge/ontology/source_cards/medlineplus.seborrheic_dermatitis.json",
-      "?? knowledge/ontology/source_cards/nhs.ingrown_toenail.json",
-      "?? library/aphthous_ulcer_simple_no_systemic_symptoms/",
-      "?? library/asymptomatic_elevated_blood_pressure_no_end_organ_symptoms/",
-      "?? library/atraumatic_knee_pain_no_red_flags/",
-      "?? library/cerumen_impaction_no_infection_or_foreign_body/",
-      "?? library/cervical_strain_no_neuro_deficit/",
-      "?? library/hemorrhoids_uncomplicated_no_heavy_bleeding/",
-      "?? library/influenza_like_illness_stable_supportive_care/",
-      "?? library/ingrown_toenail_no_abscess_or_cellulitis/",
-      "?? library/localized_insect_bite_or_sting_no_systemic_reaction/",
-      "?? library/nausea_vomiting_stable_hydrating_no_abdominal_pain/",
-      "?? library/seborrheic_dermatitis_or_dandruff_no_secondary_infection/",
-      "?? library/tension_headache_reassuring_exam_no_red_flags/",
-      "?? library/tinea_corporis_uncomplicated_no_cellulitis/"
+      "?? knowledge/ontology/phenotypes/simple_paronychia_no_abscess_or_felon.json"
     ],
-    "dirty_files_truncated": false
+    "dirty_files_truncated": true
   },
   "latest_handoff": {
-    "path": "/Users/andre/Desktop/Vaults/Life/11-DC instructor/2026-06-11 DC Instructor Phase 1550 Five Phenotype Expansion Handoff.md",
-    "name": "2026-06-11 DC Instructor Phase 1550 Five Phenotype Expansion Handoff.md",
-    "modified_at": "2026-06-11T09:37:16.795573+00:00"
+    "path": "/Users/andre/Desktop/Vaults/Life/11-DC instructor/2026-06-18 DC Instructor Phase 2000 Five Phenotype Expansion Handoff.md",
+    "name": "2026-06-18 DC Instructor Phase 2000 Five Phenotype Expansion Handoff.md",
+    "modified_at": "2026-06-18T15:12:31.350105+00:00"
   },
   "gate": {
     "phase": 21,
@@ -112,9 +112,9 @@
       "missing_allowed": []
     },
     "phase20_coverage": {
-      "reviewed_count": 42,
-      "phase20_count": 70,
-      "contradictory_covered": 42,
+      "reviewed_count": 82,
+      "phase20_count": 110,
+      "contradictory_covered": 82,
       "vague_cases": 20
     },
     "reviewed_source_gaps": [],
@@ -124,28 +124,28 @@
   },
   "review_queue": [],
   "progress": {
-    "reviewed_exported_count": 42,
-    "reviewed_count": 42,
-    "library_file_count": 126,
-    "library_condition_count": 42,
+    "reviewed_exported_count": 82,
+    "reviewed_count": 82,
+    "library_file_count": 246,
+    "library_condition_count": 82,
     "mvp_target": 100,
-    "mvp_percent": 42.0,
+    "mvp_percent": 82.0,
     "v1_target": 500,
-    "v1_percent": 8.4,
+    "v1_percent": 16.4,
     "status_counts": {
-      "reviewed_exported": 42,
+      "reviewed_exported": 82,
       "not_started": 6
     },
     "domain_counts": {
       "allergy": {
-        "reviewed_exported": 1
+        "reviewed_exported": 3
       },
       "cardiac": {
         "reviewed_exported": 1,
         "not_started": 1
       },
       "ent_dental": {
-        "reviewed_exported": 3,
+        "reviewed_exported": 4,
         "not_started": 2
       },
       "gi": {
@@ -155,21 +155,25 @@
         "reviewed_exported": 2
       },
       "msk": {
-        "reviewed_exported": 10,
+        "reviewed_exported": 17,
         "not_started": 1
       },
       "neuro": {
-        "reviewed_exported": 4,
+        "reviewed_exported": 5,
         "not_started": 1
       },
       "ophtho": {
-        "not_started": 1
+        "not_started": 1,
+        "reviewed_exported": 2
+      },
+      "other": {
+        "reviewed_exported": 18
       },
       "respiratory": {
         "reviewed_exported": 7
       },
       "skin_soft_tissue": {
-        "reviewed_exported": 9
+        "reviewed_exported": 18
       }
     }
   },
@@ -188,6 +192,50 @@
       "unsafe_modifier_count": 7,
       "library": {
         "path": "library/allergic_reaction_resolved_no_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "bedbug_bites_local_reaction_no_infection_or_anaphylaxis",
+      "label": "Bedbug bites with local reaction and no infection or anaphylaxis",
+      "domain": "allergy",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/bedbug_bites_local_reaction_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "mild_allergic_rhinitis_no_wheeze_or_anaphylaxis",
+      "label": "Mild allergic rhinitis without wheeze or anaphylaxis",
+      "domain": "allergy",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 20,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 11,
+      "library": {
+        "path": "library/mild_allergic_rhinitis_no_wheeze_or_anaphylaxis",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -298,6 +346,28 @@
       "unsafe_modifier_count": 8,
       "library": {
         "path": "library/aphthous_ulcer_simple_no_systemic_symptoms",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "tmj_pain_uncomplicated_no_dental_deep_space_or_neuro_red_flags",
+      "label": "Uncomplicated TMJ pain without dental, deep-space, or neurologic red flags",
+      "domain": "ent_dental",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 21,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 12,
+      "library": {
+        "path": "library/tmj_pain_uncomplicated_no_dental_deep_space_or_neuro_red_flags",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -704,6 +774,28 @@
       }
     },
     {
+      "id": "localized_plantar_wart_no_diabetic_foot_or_immunocompromised_host",
+      "label": "Localized plantar wart without diabetic foot or immunocompromised host",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 24,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 15,
+      "library": {
+        "path": "library/localized_plantar_wart_no_diabetic_foot_or_immunocompromised_host",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "lumbar_strain_no_red_flags",
       "label": "Lumbar strain without red flags",
       "domain": "msk",
@@ -716,6 +808,138 @@
       "unsafe_modifier_count": 8,
       "library": {
         "path": "library/lumbar_strain_no_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "bunion_uncomplicated_no_infection_or_diabetic_foot",
+      "label": "Uncomplicated bunion without infection or diabetic-foot risk",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 24,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 15,
+      "library": {
+        "path": "library/bunion_uncomplicated_no_infection_or_diabetic_foot",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "corn_or_callus_uncomplicated_no_diabetic_foot_or_infection",
+      "label": "Uncomplicated corn or callus without diabetic foot or infection",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/corn_or_callus_uncomplicated_no_diabetic_foot_or_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "friction_blister_uncomplicated_no_diabetic_foot_or_infection",
+      "label": "Uncomplicated friction blister without diabetic-foot risk or infection",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 27,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 18,
+      "library": {
+        "path": "library/friction_blister_uncomplicated_no_diabetic_foot_or_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags",
+      "label": "Uncomplicated laryngitis without airway or deep-neck red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 21,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 12,
+      "library": {
+        "path": "library/laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "muscle_strain_uncomplicated_no_fracture_or_neurovascular_red_flags",
+      "label": "Uncomplicated muscle strain without fracture or neurovascular red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/muscle_strain_uncomplicated_no_fracture_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "tinea_pedis_uncomplicated_no_cellulitis_or_diabetic_foot",
+      "label": "Uncomplicated tinea pedis without cellulitis or diabetic foot risk",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 24,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 15,
+      "library": {
+        "path": "library/tinea_pedis_uncomplicated_no_cellulitis_or_diabetic_foot",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -858,6 +1082,72 @@
       }
     },
     {
+      "id": "pediculosis_capitis_uncomplicated_no_secondary_infection",
+      "label": "Uncomplicated head lice without secondary infection",
+      "domain": "neuro",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 19,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 10,
+      "library": {
+        "path": "library/pediculosis_capitis_uncomplicated_no_secondary_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_oral_herpes_labialis_no_eye_or_immunocompromised_host",
+      "label": "Localized oral herpes labialis without eye involvement or immunocompromised host",
+      "domain": "ophtho",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/localized_oral_herpes_labialis_no_eye_or_immunocompromised_host",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_shingles_no_eye_or_neuro_complication",
+      "label": "Localized shingles without eye or neurologic complication",
+      "domain": "ophtho",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/localized_shingles_no_eye_or_neuro_complication",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "conjunctivitis_uncomplicated_no_contact_lens",
       "label": "Uncomplicated conjunctivitis without contact lens or red flags",
       "domain": "ophtho",
@@ -877,6 +1167,402 @@
           "en_6th.md",
           "en_HL1.md"
         ]
+      }
+    },
+    {
+      "id": "acute_diarrhea_stable_no_blood_or_dehydration",
+      "label": "Acute diarrhea, stable, without blood or dehydration",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 21,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 12,
+      "library": {
+        "path": "library/acute_diarrhea_stable_no_blood_or_dehydration",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_molluscum_contagiosum_no_genital_or_immunocompromised_host",
+      "label": "Localized molluscum contagiosum without genital or immunocompromised-host features",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 18,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 9,
+      "library": {
+        "path": "library/localized_molluscum_contagiosum_no_genital_or_immunocompromised_host",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "mild_eczema_flare_no_infection_or_systemic_symptoms",
+      "label": "Mild eczema flare without infection or systemic symptoms",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/mild_eczema_flare_no_infection_or_systemic_symptoms",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "minor_superficial_burn_small_area_no_high_risk_features",
+      "label": "Minor superficial burn, small area, without high-risk features",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 19,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 10,
+      "library": {
+        "path": "library/minor_superficial_burn_small_area_no_high_risk_features",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "chalazion_simple_no_vision_or_orbital_red_flags",
+      "label": "Simple chalazion without vision or orbital red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 21,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 12,
+      "library": {
+        "path": "library/chalazion_simple_no_vision_or_orbital_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "stye_hordeolum_simple_no_orbital_or_vision_red_flags",
+      "label": "Simple stye without orbital or vision red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/stye_hordeolum_simple_no_orbital_or_vision_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "sunburn_superficial_no_heat_illness_or_large_blistering",
+      "label": "Superficial sunburn without heat illness or large blistering",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/sunburn_superficial_no_heat_illness_or_large_blistering",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "blepharitis_uncomplicated_no_vision_or_orbital_red_flags",
+      "label": "Uncomplicated blepharitis without vision or orbital red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/blepharitis_uncomplicated_no_vision_or_orbital_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk",
+      "label": "Uncomplicated bruise or contusion without fracture or bleeding risk",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "bursitis_uncomplicated_no_septic_joint_or_trauma",
+      "label": "Uncomplicated bursitis without septic-joint or trauma concern",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/bursitis_uncomplicated_no_septic_joint_or_trauma",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "costochondritis_uncomplicated_no_cardiopulmonary_red_flags",
+      "label": "Uncomplicated costochondritis without cardiopulmonary red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 19,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 10,
+      "library": {
+        "path": "library/costochondritis_uncomplicated_no_cardiopulmonary_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "ganglion_cyst_uncomplicated_no_neurovascular_or_infection",
+      "label": "Uncomplicated ganglion cyst without neurovascular symptoms or infection",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 18,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 9,
+      "library": {
+        "path": "library/ganglion_cyst_uncomplicated_no_neurovascular_or_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "osteoarthritis_flare_uncomplicated_no_septic_joint_or_trauma",
+      "label": "Uncomplicated osteoarthritis flare without septic-joint or trauma concern",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/osteoarthritis_flare_uncomplicated_no_septic_joint_or_trauma",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "pityriasis_rosea_uncomplicated_no_systemic_symptoms",
+      "label": "Uncomplicated pityriasis rosea without systemic symptoms",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 19,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 10,
+      "library": {
+        "path": "library/pityriasis_rosea_uncomplicated_no_systemic_symptoms",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags",
+      "label": "Uncomplicated plantar fasciitis without trauma or neurovascular red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "scabies_uncomplicated_no_crusted_or_secondary_infection",
+      "label": "Uncomplicated scabies without crusted disease or secondary infection",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 17,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 8,
+      "library": {
+        "path": "library/scabies_uncomplicated_no_crusted_or_secondary_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "tendinitis_uncomplicated_no_rupture_or_infection",
+      "label": "Uncomplicated tendinitis without rupture or infection concern",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 21,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 12,
+      "library": {
+        "path": "library/tendinitis_uncomplicated_no_rupture_or_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "trigger_finger_uncomplicated_no_infection_or_neurovascular",
+      "label": "Uncomplicated trigger finger without infection or neurovascular symptoms",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 20,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 11,
+      "library": {
+        "path": "library/trigger_finger_uncomplicated_no_infection_or_neurovascular",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
       }
     },
     {
@@ -1056,6 +1742,50 @@
       }
     },
     {
+      "id": "xerosis_dry_skin_no_infection_or_systemic_symptoms",
+      "label": "Dry skin or xerosis without infection or systemic symptoms",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/xerosis_dry_skin_no_infection_or_systemic_symptoms",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_impetigo_no_cellulitis_or_systemic_symptoms",
+      "label": "Localized impetigo without cellulitis or systemic symptoms",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 19,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 10,
+      "library": {
+        "path": "library/localized_impetigo_no_cellulitis_or_systemic_symptoms",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "localized_insect_bite_or_sting_no_systemic_reaction",
       "label": "Localized insect bite or sting without systemic reaction",
       "domain": "skin_soft_tissue",
@@ -1068,6 +1798,50 @@
       "unsafe_modifier_count": 10,
       "library": {
         "path": "library/localized_insect_bite_or_sting_no_systemic_reaction",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "mild_acne_no_abscess_or_medication_red_flags",
+      "label": "Mild acne without abscess or medication red flags",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 21,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 12,
+      "library": {
+        "path": "library/mild_acne_no_abscess_or_medication_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "minor_nail_injury_uncomplicated_no_fracture_or_infection",
+      "label": "Minor nail injury without fracture, nail-bed laceration, or infection",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/minor_nail_injury_uncomplicated_no_fracture_or_infection",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -1112,6 +1886,28 @@
       "unsafe_modifier_count": 7,
       "library": {
         "path": "library/laceration_repaired_simple",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "simple_paronychia_no_abscess_or_felon",
+      "label": "Simple paronychia without abscess or felon",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/simple_paronychia_no_abscess_or_felon",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -1222,6 +2018,94 @@
       "unsafe_modifier_count": 15,
       "library": {
         "path": "library/contact_dermatitis_uncomplicated",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "folliculitis_uncomplicated_no_abscess_or_cellulitis",
+      "label": "Uncomplicated folliculitis without abscess or cellulitis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/folliculitis_uncomplicated_no_abscess_or_cellulitis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "heat_rash_uncomplicated_no_heat_illness_or_infection",
+      "label": "Uncomplicated heat rash without heat illness or infection",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/heat_rash_uncomplicated_no_heat_illness_or_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "tinea_cruris_uncomplicated_no_cellulitis_or_immunocompromised_host",
+      "label": "Uncomplicated tinea cruris without cellulitis or immunocompromised host",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/tinea_cruris_uncomplicated_no_cellulitis_or_immunocompromised_host",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "tinea_versicolor_uncomplicated_no_systemic_symptoms",
+      "label": "Uncomplicated tinea versicolor without systemic symptoms",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 20,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 11,
+      "library": {
+        "path": "library/tinea_versicolor_uncomplicated_no_systemic_symptoms",
         "exported": true,
         "files_present": [
           "en_4th.md",
