@@ -6,30 +6,15 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout dashboard branch
-        uses: actions/checkout@v4
-        with:
-          ref: codex/dc-knowledge-graph
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Regenerate ops dashboard
-        run: python3 ops/render_ops.py
-
-      - name: Commit refreshed ops artifacts
-        run: |
-          if git diff --quiet -- ops; then
-            echo "Ops dashboard already current."
-            exit 0
-          fi
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ops
-          git commit -m "Refresh ops dashboard"
-          git push origin HEAD:codex/dc-knowledge-graph
+      - name: Trigger GitHub Pages rebuild
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: gh api -X POST "repos/${GH_REPO}/pages/builds"
