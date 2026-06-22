@@ -1,5 +1,38 @@
 # DC Instructor — Usage Snapshots
 
+## 2026-06-22
+
+> **ERROR: All Supabase queries failed — this is the 15th consecutive failed snapshot.**
+>
+> **Status of known blockers:**
+> - ✅ **Network:** Supabase host `noloieuagfigaqahspfi.supabase.co` is reachable (HTTP 401 received — network is fine).
+> - ✅ **API key:** `SUPABASE_SERVICE_ROLE_KEY` retrieved from Netlify env vars via MCP tool (same method as 2026-06-19 run).
+> - ❌ **PERSISTENT BLOCKER: Database schema not applied.** The live Supabase database still only contains the default `test` table. The `generations` and `ratings` tables defined in `supabase/migrations/001_initial_schema.sql` do not exist. All queries return `PGRST205: Could not find the table in the schema cache`. This is unchanged from the 2026-06-19 run.
+>
+> **Root cause:** `supabase/migrations/001_initial_schema.sql` was never run against the production Supabase project. The Supabase CLI is not installed in this environment and no management API PAT is available, so the migration cannot be applied automatically.
+>
+> **⚠️ The 30-day trial ended on 2026-06-02 (20 days ago).** No usage data was ever recorded — `logGeneration()` in the Netlify function has been failing silently since launch because the target tables never existed.
+>
+> **One-time manual fix needed (5 minutes):**
+> 1. Open the [Supabase SQL Editor](https://supabase.com/dashboard/project/noloieuagfigaqahspfi/sql/new) for project `noloieuagfigaqahspfi`.
+> 2. Paste and run the contents of `supabase/migrations/001_initial_schema.sql`.
+> 3. After applying, future snapshot runs will be able to query data (and `logGeneration()` will start recording).
+
+- **Total generations:** _unavailable (schema not applied — `generations` table missing)_
+- **Last 3 days:** _unavailable (schema not applied)_
+- **Days remaining in trial:** -20 (trial ended 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (schema not applied)_
+
+**Languages:** _unavailable (schema not applied)_
+
+**Reading levels:** _unavailable (schema not applied)_
+
+**Ratings:** _unavailable (schema not applied)_
+
+---
+
 ## 2026-06-19
 
 > **ERROR: All Supabase queries failed — this is the 14th consecutive failed snapshot.**
