@@ -1,5 +1,36 @@
 # DC Instructor — Usage Snapshots
 
+## 2026-06-25
+
+> **ERROR: All Supabase queries failed — this is the 16th consecutive failed snapshot.**
+>
+> **Status of known blockers:**
+> - ✅ **Network:** Supabase host `noloieuagfigaqahspfi.supabase.co` is reachable (HTTP 401 received — network is fine).
+> - ✅ **API key:** `SUPABASE_SERVICE_ROLE_KEY` retrieved from Netlify env vars via MCP tool.
+> - ❌ **PERSISTENT BLOCKER: Database schema not applied.** The live Supabase database still does not contain the `generations` or `ratings` tables. All queries return `PGRST205: Could not find the table in the schema cache`. Unchanged from the 2026-06-22 run.
+>
+> **Root cause:** `supabase/migrations/001_initial_schema.sql` has never been run against the production Supabase project. No usage data has ever been recorded.
+>
+> **One-time manual fix needed (5 minutes):**
+> 1. Open the [Supabase SQL Editor](https://supabase.com/dashboard/project/noloieuagfigaqahspfi/sql/new) for project `noloieuagfigaqahspfi`.
+> 2. Paste and run the contents of `supabase/migrations/001_initial_schema.sql`.
+> 3. After applying, future snapshot runs will be able to query data.
+
+- **Total generations:** _unavailable (schema not applied — `generations` table missing)_
+- **Last 3 days:** _unavailable (schema not applied)_
+- **Days remaining in trial:** -23 (trial ended 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (schema not applied)_
+
+**Languages:** _unavailable (schema not applied)_
+
+**Reading levels:** _unavailable (schema not applied)_
+
+**Ratings:** _unavailable (schema not applied)_
+
+---
+
 ## 2026-06-22
 
 > **ERROR: All Supabase queries failed — this is the 15th consecutive failed snapshot.**
