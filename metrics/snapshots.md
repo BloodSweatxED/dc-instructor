@@ -1,5 +1,35 @@
 # DC Instructor — Usage Snapshots
 
+## 2026-06-28
+
+> **ERROR: All Supabase queries failed — this is the 17th consecutive failed snapshot.**
+>
+> **Status of known blockers:**
+> - ✅ **API key:** `SUPABASE_SERVICE_ROLE_KEY` retrieved from Netlify env vars via MCP tool (same key as prior runs).
+> - ❌ **Network policy blocks Supabase.** The environment proxy returned `502 policy denial` on every CONNECT attempt to `noloieuagfigaqahspfi.supabase.co:443`. Runs from 2026-06-19 through 2026-06-25 had network access; this run does not. The environment's network policy must be updated to allow `*.supabase.co`.
+> - ❌ **Database schema still not applied.** Even if the network were fixed, `generations` and `ratings` tables do not exist in the production Supabase project. All queries would return `PGRST205`.
+>
+> **Two manual fixes still needed:**
+> 1. **Update the network policy** for this Claude Code on the web environment to allow outbound HTTPS to `*.supabase.co`. See [Claude Code on the web docs](https://code.claude.com/docs/en/claude-code-on-the-web).
+> 2. **Apply the DB migration:** open the [Supabase SQL Editor](https://supabase.com/dashboard/project/noloieuagfigaqahspfi/sql/new), paste and run `supabase/migrations/001_initial_schema.sql`.
+>
+> **⚠️ Trial ended 2026-06-02 (26 days ago). No usage data has ever been recorded.**
+
+- **Total generations:** _unavailable (network policy blocks Supabase)_
+- **Last 3 days:** _unavailable (network policy blocks Supabase)_
+- **Days remaining in trial:** -26 (trial ended 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (network policy blocks Supabase)_
+
+**Languages:** _unavailable (network policy blocks Supabase)_
+
+**Reading levels:** _unavailable (network policy blocks Supabase)_
+
+**Ratings:** _unavailable (network policy blocks Supabase)_
+
+---
+
 ## 2026-06-25
 
 > **ERROR: All Supabase queries failed — this is the 16th consecutive failed snapshot.**
