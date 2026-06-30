@@ -5,7 +5,10 @@
     "ed_note": "ED note says abscess was drained, but patient is septic with crepitus and pain out of proportion.",
     "expected_phenotype_id": "abscess_after_i_and_d",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["necrotizing_infection_concern", "sepsis"]
+    "expected_exclusions": [
+      "necrotizing_infection_concern",
+      "sepsis"
+    ]
   },
   {
     "id": "phase20_abscess_vague_chief_complaint_fallback",
@@ -20,7 +23,10 @@
     "ed_note": "Hives improved, but patient had throat swelling and hypotension.",
     "expected_phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["airway_symptoms", "hypotension"]
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension"
+    ]
   },
   {
     "id": "phase20_allergy_vague_chief_complaint_fallback",
@@ -35,7 +41,9 @@
     "ed_note": "X-ray read as distal fibula fracture.",
     "expected_phenotype_id": "ankle_sprain_xray_negative",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["fracture_seen"]
+    "expected_exclusions": [
+      "fracture_seen"
+    ]
   },
   {
     "id": "phase20_ankle_vague_chief_complaint_fallback",
@@ -50,7 +58,9 @@
     "ed_note": "Wheezing improved, but patient cannot afford inhaler.",
     "expected_phenotype_id": "asthma_exacerbation_improved_discharge",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["poor_inhaler_access"]
+    "expected_exclusions": [
+      "poor_inhaler_access"
+    ]
   },
   {
     "id": "phase20_asthma_vague_chief_complaint_fallback",
@@ -65,7 +75,10 @@
     "ed_note": "Cellulitis diagnosed, but redness is rapidly spreading with pain out of proportion.",
     "expected_phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["necrotizing_infection_concern", "rapid_progression"]
+    "expected_exclusions": [
+      "necrotizing_infection_concern",
+      "rapid_progression"
+    ]
   },
   {
     "id": "phase20_cellulitis_vague_chief_complaint_fallback",
@@ -80,7 +93,9 @@
     "ed_note": "Community acquired pneumonia, but patient is hypoxic.",
     "expected_phenotype_id": "community_acquired_pneumonia_outpatient",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["hypoxia"]
+    "expected_exclusions": [
+      "hypoxia"
+    ]
   },
   {
     "id": "phase20_pneumonia_vague_chief_complaint_fallback",
@@ -95,7 +110,10 @@
     "ed_note": "Concussion discharge considered, but patient is on Eliquis and has slurred speech.",
     "expected_phenotype_id": "concussion_discharge_no_imaging_red_flags",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["anticoagulated", "neurologic_deficit"]
+    "expected_exclusions": [
+      "anticoagulated",
+      "neurologic_deficit"
+    ]
   },
   {
     "id": "phase20_concussion_vague_chief_complaint_fallback",
@@ -110,7 +128,10 @@
     "ed_note": "Dental pain, but patient has floor of mouth swelling and trismus.",
     "expected_phenotype_id": "dental_pain_no_deep_space_infection",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["deep_space_swelling", "trismus"]
+    "expected_exclusions": [
+      "deep_space_swelling",
+      "trismus"
+    ]
   },
   {
     "id": "phase20_dental_vague_chief_complaint_fallback",
@@ -125,7 +146,10 @@
     "ed_note": "Vomiting and diarrhea, but patient failed PO challenge and has bloody stool.",
     "expected_phenotype_id": "gastroenteritis_stable_hydrating",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["gi_bleeding", "unable_to_tolerate_oral_fluids"]
+    "expected_exclusions": [
+      "gi_bleeding",
+      "unable_to_tolerate_oral_fluids"
+    ]
   },
   {
     "id": "phase20_gastro_vague_chief_complaint_fallback",
@@ -140,7 +164,10 @@
     "ed_note": "Simple repair considered, but this was a dog bite with tendon injury.",
     "expected_phenotype_id": "laceration_repaired_simple",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["bite_wound", "hand_tendon_risk"]
+    "expected_exclusions": [
+      "bite_wound",
+      "hand_tendon_risk"
+    ]
   },
   {
     "id": "phase20_laceration_vague_chief_complaint_fallback",
@@ -155,7 +182,9 @@
     "ed_note": "Mechanical back pain considered, but patient has urinary retention and saddle anesthesia.",
     "expected_phenotype_id": "lumbar_strain_no_red_flags",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["cauda_equina_concern"]
+    "expected_exclusions": [
+      "cauda_equina_concern"
+    ]
   },
   {
     "id": "phase20_lumbar_vague_chief_complaint_fallback",
@@ -170,7 +199,10 @@
     "ed_note": "Head injury, but patient is on warfarin and has persistent vomiting.",
     "expected_phenotype_id": "minor_head_injury_no_red_flags",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["anticoagulated", "persistent_vomiting"]
+    "expected_exclusions": [
+      "anticoagulated",
+      "persistent_vomiting"
+    ]
   },
   {
     "id": "phase20_minor_head_vague_chief_complaint_fallback",
@@ -185,7 +217,10 @@
     "ed_note": "Renal colic, but patient has fever and cannot keep meds down.",
     "expected_phenotype_id": "renal_colic_stable_no_infection",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["fever", "vomiting_unable_to_take_meds"]
+    "expected_exclusions": [
+      "fever",
+      "vomiting_unable_to_take_meds"
+    ]
   },
   {
     "id": "phase20_renal_vague_chief_complaint_fallback",
@@ -200,7 +235,11 @@
     "ed_note": "Lower UTI diagnosed, but patient is pregnant with flank pain and vomiting.",
     "expected_phenotype_id": "uncomplicated_cystitis_nonpregnant",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["flank_pain", "pregnancy", "vomiting_unable_to_take_meds"]
+    "expected_exclusions": [
+      "flank_pain",
+      "pregnancy",
+      "vomiting_unable_to_take_meds"
+    ]
   },
   {
     "id": "phase20_cystitis_vague_chief_complaint_fallback",
@@ -215,7 +254,9 @@
     "ed_note": "Sore throat, but positive rapid strep test and antibiotics prescribed.",
     "expected_phenotype_id": "viral_pharyngitis_strep_negative",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["positive_strep_test"]
+    "expected_exclusions": [
+      "positive_strep_test"
+    ]
   },
   {
     "id": "phase20_pharyngitis_vague_chief_complaint_fallback",
@@ -230,7 +271,10 @@
     "ed_note": "URI suspected, but chest x-ray shows pneumonia and antibiotics prescribed.",
     "expected_phenotype_id": "viral_uri_no_pneumonia",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["bacterial_infection_suspected", "pneumonia"]
+    "expected_exclusions": [
+      "bacterial_infection_suspected",
+      "pneumonia"
+    ]
   },
   {
     "id": "phase20_uri_vague_chief_complaint_fallback",
@@ -245,7 +289,11 @@
     "ed_note": "Abdominal pain recheck considered, but patient has fever, guarding, and poor follow up.",
     "expected_phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["fever", "peritoneal_signs", "poor_follow_up"]
+    "expected_exclusions": [
+      "fever",
+      "peritoneal_signs",
+      "poor_follow_up"
+    ]
   },
   {
     "id": "phase20_abdominal_vague_chief_complaint_fallback",
@@ -260,7 +308,10 @@
     "ed_note": "Adult discharge diagnosis acute otitis media. Clinician entered treatment plan. No ear red flags documented, but patient has neck stiffness and concern for venous sinus thrombosis.",
     "expected_phenotype_id": "acute_otitis_media_uncomplicated",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["meningitis_or_cns_infection_concern", "lateral_sinus_thrombosis_concern"]
+    "expected_exclusions": [
+      "meningitis_or_cns_infection_concern",
+      "lateral_sinus_thrombosis_concern"
+    ]
   },
   {
     "id": "phase20_skin_avulsion_contradictory_note_blocks",
@@ -268,7 +319,10 @@
     "ed_note": "Clinician diagnosis simple skin avulsion. Wound cleaned and dressed. No repair needed, but patient is immunocompromised with a bite wound.",
     "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["bite_wound", "immunocompromised"]
+    "expected_exclusions": [
+      "bite_wound",
+      "immunocompromised"
+    ]
   },
   {
     "id": "phase20_suture_wound_check_contradictory_note_blocks",
@@ -276,7 +330,10 @@
     "ed_note": "Clinician documented wound healing as expected. Wound schedule documented. No wound red flags documented, but there is pus and wound dehiscence.",
     "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["wound_dehiscence", "wound_infection_concern"]
+    "expected_exclusions": [
+      "wound_dehiscence",
+      "wound_infection_concern"
+    ]
   },
   {
     "id": "phase20_bronchitis_contradictory_note_blocks",
@@ -284,7 +341,11 @@
     "ed_note": "Clinician diagnosis is acute bronchitis, but patient is hypoxic with respiratory distress and focal crackles.",
     "expected_phenotype_id": "acute_bronchitis_no_pneumonia",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["focal_lung_findings_or_infiltrate", "hypoxia", "respiratory_distress"]
+    "expected_exclusions": [
+      "focal_lung_findings_or_infiltrate",
+      "hypoxia",
+      "respiratory_distress"
+    ]
   },
   {
     "id": "phase20_bronchitis_vague_chief_complaint_fallback",
@@ -299,7 +360,10 @@
     "ed_note": "Acute sinusitis supportive care considered, but antibiotic prescribed for sinusitis and patient has eye swelling with pain with eye movement.",
     "expected_phenotype_id": "acute_sinusitis_supportive_care",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["antibiotic_prescribed_for_sinusitis", "orbital_or_intracranial_sinusitis_concern"]
+    "expected_exclusions": [
+      "antibiotic_prescribed_for_sinusitis",
+      "orbital_or_intracranial_sinusitis_concern"
+    ]
   },
   {
     "id": "phase20_sinusitis_vague_chief_complaint_fallback",
@@ -314,7 +378,10 @@
     "ed_note": "Knee sprain xray negative. X-ray performed and negative. Neurovascular exam intact, but ligament rupture concern and orthopedics consulted.",
     "expected_phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["tendon_or_ligament_rupture_concern", "specialist_directed_orthopedic_plan"]
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "specialist_directed_orthopedic_plan"
+    ]
   },
   {
     "id": "phase20_wrist_sprain_xray_negative_contradictory_note_blocks",
@@ -322,7 +389,10 @@
     "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. No scaphoid tenderness, but scaphoid tenderness was also documented on recheck and orthopedics consulted.",
     "expected_phenotype_id": "wrist_sprain_xray_negative",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["scaphoid_tenderness_pattern", "specialist_directed_orthopedic_plan"]
+    "expected_exclusions": [
+      "scaphoid_tenderness_pattern",
+      "specialist_directed_orthopedic_plan"
+    ]
   },
   {
     "id": "phase20_elbow_overuse_xray_negative_contradictory_note_blocks",
@@ -330,7 +400,10 @@
     "ed_note": "Adult with elbow overuse strain. X-ray performed and negative. Neurovascular exam intact including hand motor. No acute traumatic mechanism. No elbow instability concern, but direct blow elbow trauma and orthopedics consulted were also documented.",
     "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["acute_traumatic_elbow_mechanism", "specialist_directed_orthopedic_plan"]
+    "expected_exclusions": [
+      "acute_traumatic_elbow_mechanism",
+      "specialist_directed_orthopedic_plan"
+    ]
   },
   {
     "id": "phase20_elbow_acute_traumatic_xray_negative_contradictory_note_blocks",
@@ -338,7 +411,10 @@
     "ed_note": "Adult with acute traumatic elbow sprain after fall onto elbow. X-ray performed and negative. Neurovascular exam intact including hand motor. No tendon rupture concern. Elbow instability concern and orthopedics consulted were also documented.",
     "expected_phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["elbow_instability_or_ucl_lcl_concern", "specialist_directed_orthopedic_plan"]
+    "expected_exclusions": [
+      "elbow_instability_or_ucl_lcl_concern",
+      "specialist_directed_orthopedic_plan"
+    ]
   },
   {
     "id": "phase20_foot_sprain_xray_negative_contradictory_note_blocks",
@@ -346,7 +422,10 @@
     "ed_note": "Foot sprain xray negative. X-ray performed and negative. Neurovascular exam intact, but midfoot pain, plantar ecchymosis, and discharged non-ambulatory were also documented.",
     "expected_phenotype_id": "foot_sprain_xray_negative",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["lisfranc_or_midfoot_concern", "cannot_ambulate_at_discharge"]
+    "expected_exclusions": [
+      "lisfranc_or_midfoot_concern",
+      "cannot_ambulate_at_discharge"
+    ]
   },
   {
     "id": "phase20_contact_dermatitis_uncomplicated_contradictory_note_blocks",
@@ -354,7 +433,10 @@
     "ed_note": "Clinician diagnosis contact dermatitis after new soap exposure. No mucosal lesions, airway swelling, or infection concern, but genital rash and chemical burn were also documented.",
     "expected_phenotype_id": "contact_dermatitis_uncomplicated",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["eye_or_genital_rash_location", "burn_or_chemical_wound"]
+    "expected_exclusions": [
+      "eye_or_genital_rash_location",
+      "burn_or_chemical_wound"
+    ]
   },
   {
     "id": "phase20_adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding_contradictory_note_blocks",
@@ -362,7 +444,10 @@
     "ed_note": "Adult. Clinician diagnosis constipation. Reassuring ED assessment. Passing gas. No blood in stool. No black stool, but bowel obstruction concern and persistent vomiting were also documented.",
     "expected_phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["bowel_obstruction_or_ileus_concern", "persistent_vomiting"]
+    "expected_exclusions": [
+      "bowel_obstruction_or_ileus_concern",
+      "persistent_vomiting"
+    ]
   },
   {
     "id": "phase20_sprain_vague_chief_complaint_fallback",
@@ -377,7 +462,9 @@
     "ed_note": "Patient improved after treatment, but has no rescue inhaler at home.",
     "expected_phenotype_id": "asthma_exacerbation_improved_discharge",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["poor_inhaler_access"]
+    "expected_exclusions": [
+      "poor_inhaler_access"
+    ]
   },
   {
     "id": "phase20_med_sensitive_cystitis_vomiting_blocks",
@@ -385,7 +472,9 @@
     "ed_note": "Oral antibiotics prescribed, but patient is vomiting and cannot take pills.",
     "expected_phenotype_id": "uncomplicated_cystitis_nonpregnant",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["vomiting_unable_to_take_meds"]
+    "expected_exclusions": [
+      "vomiting_unable_to_take_meds"
+    ]
   },
   {
     "id": "phase20_med_sensitive_gastro_recent_antibiotics_blocks",
@@ -393,7 +482,9 @@
     "ed_note": "Diarrhea after recent antibiotics with concern for C diff.",
     "expected_phenotype_id": "gastroenteritis_stable_hydrating",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["c_diff_risk"]
+    "expected_exclusions": [
+      "c_diff_risk"
+    ]
   },
   {
     "id": "phase20_med_sensitive_pneumonia_vomiting_blocks",
@@ -401,7 +492,9 @@
     "ed_note": "Antibiotics prescribed, but patient is vomiting and cannot keep meds down.",
     "expected_phenotype_id": "community_acquired_pneumonia_outpatient",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["vomiting_unable_to_take_meds"]
+    "expected_exclusions": [
+      "vomiting_unable_to_take_meds"
+    ]
   },
   {
     "id": "phase20_med_sensitive_renal_colic_vomiting_blocks",
@@ -409,7 +502,9 @@
     "ed_note": "Pain medicine prescribed, but patient is vomiting and cannot take pills.",
     "expected_phenotype_id": "renal_colic_stable_no_infection",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["vomiting_unable_to_take_meds"]
+    "expected_exclusions": [
+      "vomiting_unable_to_take_meds"
+    ]
   },
   {
     "id": "phase20_med_sensitive_uri_antibiotic_blocks",
@@ -417,7 +512,10 @@
     "ed_note": "Viral URI documented, but antibiotic prescribed for suspected bacterial infection.",
     "expected_phenotype_id": "viral_uri_no_pneumonia",
     "expected_fallback_reason": "unsafe_modifier_present",
-    "expected_exclusions": ["antibiotic_prescribed", "bacterial_infection_suspected"]
+    "expected_exclusions": [
+      "antibiotic_prescribed",
+      "bacterial_infection_suspected"
+    ]
   },
   {
     "id": "phase20_netlify_smoke_pneumonia_ruled_out_no_match",
@@ -432,5 +530,2481 @@
     "ed_note": "Painful urination without lower UTI diagnosis.",
     "expected_phenotype_id": null,
     "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase20_influenza_like_illness_stable_supportive_care_contradictory_note_blocks",
+    "condition": "influenza-like illness",
+    "ed_note": "Adult. Clinician diagnosis influenza-like illness. Breathing comfortably. Oxygen level acceptable. Hydration reassuring, but pneumonia concern with oxygen saturation 90 was also documented.",
+    "expected_phenotype_id": "influenza_like_illness_stable_supportive_care",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "hypoxia",
+      "pneumonia"
+    ]
+  },
+  {
+    "id": "phase20_asymptomatic_elevated_blood_pressure_no_end_organ_symptoms_contradictory_note_blocks",
+    "condition": "asymptomatic elevated blood pressure",
+    "ed_note": "Adult. Asymptomatic elevated blood pressure. Repeat blood pressure rechecked. No end organ symptoms. Primary care blood pressure follow up arranged. No blood pressure medication change, but BP 180/120 and chest pain were also documented.",
+    "expected_phenotype_id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "hypertensive_crisis_threshold",
+      "hypertension_end_organ_symptoms",
+      "chest_pain"
+    ]
+  },
+  {
+    "id": "phase20_hemorrhoids_uncomplicated_no_heavy_bleeding_contradictory_note_blocks",
+    "condition": "hemorrhoids",
+    "ed_note": "Adult. Clinician diagnosis hemorrhoids. No heavy bleeding. No infection concern, but patient is on Eliquis with rectal bleeding and thrombosed hemorrhoid.",
+    "expected_phenotype_id": "hemorrhoids_uncomplicated_no_heavy_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anticoagulated",
+      "hemorrhoid_thrombosis_or_irreducible_prolapse"
+    ]
+  },
+  {
+    "id": "phase20_cerumen_impaction_contradictory_note_blocks",
+    "condition": "cerumen impaction",
+    "ed_note": "Cerumen impaction diagnosed, but there is a button battery foreign body and perforated eardrum.",
+    "expected_phenotype_id": "cerumen_impaction_no_infection_or_foreign_body",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "ear_trauma_or_foreign_body",
+      "tympanic_membrane_perforation_or_tube"
+    ]
+  },
+  {
+    "id": "phase20_cervical_strain_contradictory_note_blocks",
+    "condition": "cervical strain",
+    "ed_note": "Neck strain diagnosed, but patient has midline cervical tenderness after motor vehicle crash.",
+    "expected_phenotype_id": "cervical_strain_no_neuro_deficit",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "high_energy_trauma",
+      "midline_cervical_tenderness"
+    ]
+  },
+  {
+    "id": "phase20_nausea_vomiting_contradictory_note_blocks",
+    "condition": "nausea vomiting stable",
+    "ed_note": "Nausea and vomiting diagnosed, but patient has severe abdominal pain and cannot keep fluids down.",
+    "expected_phenotype_id": "nausea_vomiting_stable_hydrating_no_abdominal_pain",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "severe_or_focal_abdominal_pain",
+      "unable_to_tolerate_oral_fluids"
+    ]
+  },
+  {
+    "id": "phase20_tension_headache_contradictory_note_blocks",
+    "condition": "tension headache",
+    "ed_note": "Tension headache diagnosed, but this is the worst headache of life with slurred speech.",
+    "expected_phenotype_id": "tension_headache_reassuring_exam_no_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "thunderclap_or_sah_concern",
+      "neurologic_deficit"
+    ]
+  },
+  {
+    "id": "phase20_atraumatic_knee_pain_contradictory_note_blocks",
+    "condition": "atraumatic knee pain",
+    "ed_note": "Atraumatic knee pain diagnosed, but there is fever with joint pain and patient cannot bear weight.",
+    "expected_phenotype_id": "atraumatic_knee_pain_no_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "septic_joint_or_infection_concern",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase20_seborrheic_dermatitis_contradictory_note_blocks",
+    "condition": "seborrheic dermatitis",
+    "ed_note": "Seborrheic dermatitis diagnosed. No secondary infection, but scalp has pus and spreading redness with fever.",
+    "expected_phenotype_id": "seborrheic_dermatitis_or_dandruff_no_secondary_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "secondary_skin_infection_concern",
+      "systemic_illness"
+    ]
+  },
+  {
+    "id": "phase20_tinea_corporis_contradictory_note_blocks",
+    "condition": "tinea corporis",
+    "ed_note": "Tinea corporis diagnosed. Localized skin only. No cellulitis, but scalp ringworm and nail fungus are also documented.",
+    "expected_phenotype_id": "tinea_corporis_uncomplicated_no_cellulitis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "scalp_or_nail_or_beard_fungal_infection"
+    ]
+  },
+  {
+    "id": "phase20_ingrown_toenail_contradictory_note_blocks",
+    "condition": "ingrown toenail",
+    "ed_note": "Ingrown toenail diagnosed. No abscess. No cellulitis, but patient has diabetes, poor circulation, and pus from toe.",
+    "expected_phenotype_id": "ingrown_toenail_no_abscess_or_cellulitis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "diabetes_general_risk",
+      "peripheral_vascular_disease",
+      "toe_cellulitis_or_pus"
+    ]
+  },
+  {
+    "id": "phase20_aphthous_ulcer_contradictory_note_blocks",
+    "condition": "canker sore",
+    "ed_note": "Canker sore diagnosed. No systemic symptoms, but fever with mouth ulcer, rash with mouth ulcer, and genital ulcers are documented.",
+    "expected_phenotype_id": "aphthous_ulcer_simple_no_systemic_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "genital_ulcers",
+      "systemic_or_recurrent_oral_ulcer_features"
+    ]
+  },
+  {
+    "id": "phase20_insect_bite_contradictory_note_blocks",
+    "condition": "insect bite",
+    "ed_note": "Insect bite diagnosed. Localized reaction only. No systemic reaction, but patient has trouble breathing, throat swelling, and hypotension after sting.",
+    "expected_phenotype_id": "localized_insect_bite_or_sting_no_systemic_reaction",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension"
+    ]
+  },
+  {
+    "id": "phase20_paronychia_contradictory_note_blocks",
+    "condition": "paronychia",
+    "ed_note": "Paronychia diagnosed. No abscess. No felon, but tense finger pad and pain with passive extension are documented.",
+    "expected_phenotype_id": "simple_paronychia_no_abscess_or_felon",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "felon_or_tenosynovitis_concern"
+    ]
+  },
+  {
+    "id": "phase20_scabies_contradictory_note_blocks",
+    "condition": "scabies",
+    "ed_note": "Scabies diagnosed. No secondary infection, but crusted scabies in a nursing home outbreak is documented.",
+    "expected_phenotype_id": "scabies_uncomplicated_no_crusted_or_secondary_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "crusted_scabies_or_institutional_outbreak",
+      "nursing_home_patient"
+    ]
+  },
+  {
+    "id": "phase20_shingles_contradictory_note_blocks",
+    "condition": "localized shingles",
+    "ed_note": "Localized shingles diagnosed. No eye involvement, but shingles near eye with vision change and facial weakness are documented.",
+    "expected_phenotype_id": "localized_shingles_no_eye_or_neuro_complication",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "vision_change",
+      "zoster_eye_face_or_neuro_concern"
+    ]
+  },
+  {
+    "id": "phase20_stye_contradictory_note_blocks",
+    "condition": "stye",
+    "ed_note": "Stye diagnosed. No vision change, but contact lens use and pain with eye movement are documented.",
+    "expected_phenotype_id": "stye_hordeolum_simple_no_orbital_or_vision_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "contact_lens_use",
+      "periorbital_or_orbital_cellulitis_concern"
+    ]
+  },
+  {
+    "id": "phase20_impetigo_contradictory_note_blocks",
+    "condition": "impetigo",
+    "ed_note": "Impetigo diagnosed. No cellulitis, but spreading redness, fever, and ecthyma are documented.",
+    "expected_phenotype_id": "localized_impetigo_no_cellulitis_or_systemic_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "ecthyma_or_deep_skin_infection",
+      "secondary_skin_infection_concern",
+      "systemic_illness"
+    ]
+  },
+  {
+    "id": "phase20_folliculitis_contradictory_note_blocks",
+    "condition": "folliculitis",
+    "ed_note": "Folliculitis diagnosed. No abscess. No cellulitis, but boil, carbuncle, and spreading redness are documented.",
+    "expected_phenotype_id": "folliculitis_uncomplicated_no_abscess_or_cellulitis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "abscess_or_boils_or_carbuncle",
+      "secondary_skin_infection_concern"
+    ]
+  },
+  {
+    "id": "phase20_sunburn_contradictory_note_blocks",
+    "condition": "sunburn",
+    "ed_note": "Sunburn diagnosed. No heat illness, but heat exhaustion with syncope after heat and large blisters are documented.",
+    "expected_phenotype_id": "sunburn_superficial_no_heat_illness_or_large_blistering",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "heat_illness_or_dehydration",
+      "large_blistering_or_high_risk_burn"
+    ]
+  },
+  {
+    "id": "phase20_blepharitis_contradictory_note_blocks",
+    "condition": "blepharitis",
+    "ed_note": "Blepharitis diagnosed. No vision change, but contact lens use, photophobia, and pain with eye movement are documented.",
+    "expected_phenotype_id": "blepharitis_uncomplicated_no_vision_or_orbital_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "contact_lens_use",
+      "periorbital_or_orbital_cellulitis_concern",
+      "photophobia"
+    ]
+  },
+  {
+    "id": "phase20_bedbug_bites_contradictory_note_blocks",
+    "condition": "bedbug bites",
+    "ed_note": "Bedbug bites diagnosed. No anaphylaxis. No secondary infection, but throat swelling, hypotension, and spreading redness are documented.",
+    "expected_phenotype_id": "bedbug_bites_local_reaction_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "secondary_skin_infection_concern"
+    ]
+  },
+  {
+    "id": "phase20_molluscum_contradictory_note_blocks",
+    "condition": "molluscum contagiosum",
+    "ed_note": "Molluscum contagiosum diagnosed. No genital involvement, but genital molluscum, eye involvement, and immunocompromised host are documented.",
+    "expected_phenotype_id": "localized_molluscum_contagiosum_no_genital_or_immunocompromised_host",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "immunocompromised",
+      "molluscum_genital_eye_or_extensive",
+      "near_eye_or_genitals"
+    ]
+  },
+  {
+    "id": "phase20_chalazion_contradictory_note_blocks",
+    "condition": "chalazion",
+    "ed_note": "Chalazion diagnosed. No vision change, but severe eye pain, pain with eye movement, and recurrent eyelid bump are documented.",
+    "expected_phenotype_id": "chalazion_simple_no_vision_or_orbital_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "periorbital_or_orbital_cellulitis_concern",
+      "recurrent_or_persistent_eyelid_mass",
+      "severe_eye_pain"
+    ]
+  },
+  {
+    "id": "phase20_tinea_pedis_contradictory_note_blocks",
+    "condition": "tinea pedis",
+    "ed_note": "Tinea pedis diagnosed. No cellulitis, but diabetic foot ulcer, neuropathy, and spreading redness are documented.",
+    "expected_phenotype_id": "tinea_pedis_uncomplicated_no_cellulitis_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "diabetic_foot",
+      "neuropathy_foot_risk",
+      "secondary_skin_infection_concern"
+    ]
+  },
+  {
+    "id": "phase20_eczema_contradictory_note_blocks",
+    "condition": "eczema",
+    "ed_note": "Eczema flare diagnosed. No fever, but widespread eczema, fever, skin peeling, and mouth sores are documented.",
+    "expected_phenotype_id": "mild_eczema_flare_no_infection_or_systemic_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "eczema_severe_or_widespread",
+      "fever",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "systemic_illness"
+    ]
+  },
+  {
+    "id": "phase20_oral_herpes_contradictory_note_blocks",
+    "condition": "cold sore",
+    "ed_note": "Herpes labialis diagnosed. No eye involvement, but herpes near eye, red eye, vision change, and immunocompromised host are documented.",
+    "expected_phenotype_id": "localized_oral_herpes_labialis_no_eye_or_immunocompromised_host",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "herpes_or_zoster_eye_concern",
+      "immunocompromised",
+      "ocular_symptoms",
+      "oral_herpes_high_risk_or_complicated",
+      "vision_change"
+    ]
+  },
+  {
+    "id": "phase20_heat_rash_contradictory_note_blocks",
+    "condition": "heat rash",
+    "ed_note": "Heat rash diagnosed. No heat illness, but heat exhaustion, syncope after heat, dehydration, and spreading redness are documented.",
+    "expected_phenotype_id": "heat_rash_uncomplicated_no_heat_illness_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "heat_illness_or_dehydration",
+      "secondary_skin_infection_concern",
+      "syncope_or_fainting"
+    ]
+  },
+  {
+    "id": "phase20_allergic_rhinitis_contradictory_note_blocks",
+    "condition": "allergic rhinitis",
+    "ed_note": "Allergic rhinitis diagnosed. No anaphylaxis, but throat swelling, wheezing requiring bronchodilators, and trouble breathing are documented.",
+    "expected_phenotype_id": "mild_allergic_rhinitis_no_wheeze_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "copd_or_asthma_exacerbation_pathway"
+    ]
+  },
+  {
+    "id": "phase20_plantar_wart_contradictory_note_blocks",
+    "condition": "plantar wart",
+    "ed_note": "Plantar wart diagnosed. No foot wound, but diabetic foot ulcer, neuropathy, and immunocompromised host are documented.",
+    "expected_phenotype_id": "localized_plantar_wart_no_diabetic_foot_or_immunocompromised_host",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "diabetic_foot",
+      "immunocompromised",
+      "neuropathy_foot_risk"
+    ]
+  },
+  {
+    "id": "phase20_corn_callus_contradictory_note_blocks",
+    "condition": "callus",
+    "ed_note": "Callus diagnosed. No cellulitis, but foot ulcer, black skin, poor circulation, and pus are documented.",
+    "expected_phenotype_id": "corn_or_callus_uncomplicated_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "corn_callus_complicated_foot_risk",
+      "peripheral_vascular_disease",
+      "secondary_skin_infection_concern"
+    ]
+  },
+  {
+    "id": "phase20_acne_contradictory_note_blocks",
+    "condition": "acne",
+    "ed_note": "Acne diagnosed. No abscess, but cystic acne, isotretinoin pregnancy medication concern, and skin peeling are documented.",
+    "expected_phenotype_id": "mild_acne_no_abscess_or_medication_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "acne_severe_or_medication_sensitive",
+      "pregnancy",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing"
+    ]
+  },
+  {
+    "id": "phase20_dry_skin_contradictory_note_blocks",
+    "condition": "dry skin",
+    "ed_note": "Dry skin diagnosed. No systemic symptoms, but bleeding cracks, spreading redness, pus, and fever are documented.",
+    "expected_phenotype_id": "xerosis_dry_skin_no_infection_or_systemic_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "dry_skin_complicated_or_systemic",
+      "secondary_skin_infection_concern",
+      "systemic_illness"
+    ]
+  },
+  {
+    "id": "phase20_head_lice_contradictory_note_blocks",
+    "condition": "head lice",
+    "ed_note": "Head lice diagnosed. Scalp only lice documented, but pubic lice, eyelash lice, cellulitis, and pus are also documented.",
+    "expected_phenotype_id": "pediculosis_capitis_uncomplicated_no_secondary_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "head_lice_complicated_or_non_scalp",
+      "secondary_skin_infection_concern"
+    ]
+  },
+  {
+    "id": "phase20_tinea_cruris_contradictory_note_blocks",
+    "condition": "tinea cruris",
+    "ed_note": "Tinea cruris diagnosed. No cellulitis, but genital sores, penile discharge, scrotal pain, and fever are documented.",
+    "expected_phenotype_id": "tinea_cruris_uncomplicated_no_cellulitis_or_immunocompromised_host",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "sti_or_genital_pathway",
+      "scrotal_or_testicular_pain",
+      "systemic_illness"
+    ]
+  },
+  {
+    "id": "phase20_tinea_versicolor_contradictory_note_blocks",
+    "condition": "tinea versicolor",
+    "ed_note": "Tinea versicolor diagnosed. No systemic symptoms, but skin peeling, mouth sores, immunocompromised host, and fever are documented.",
+    "expected_phenotype_id": "tinea_versicolor_uncomplicated_no_systemic_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "immunocompromised",
+      "systemic_illness"
+    ]
+  },
+  {
+    "id": "phase20_pityriasis_rosea_contradictory_note_blocks",
+    "condition": "pityriasis rosea",
+    "ed_note": "Pityriasis rosea diagnosed. No medication reaction, but patient is pregnant with target lesions, mouth sores, and fever.",
+    "expected_phenotype_id": "pityriasis_rosea_uncomplicated_no_systemic_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "pregnancy",
+      "severe_cutaneous_adverse_reaction",
+      "mucosal_lesions",
+      "systemic_illness"
+    ]
+  },
+  {
+    "id": "phase20_contusion_contradictory_note_blocks",
+    "condition": "uncomplicated contusion",
+    "ed_note": "Contusion diagnosed. No fracture concern, but possible fracture, severe pain, warfarin use, and unsafe home are documented.",
+    "expected_phenotype_id": "contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "severe_pain",
+      "anticoagulated",
+      "unexplained_bruising_or_abuse_concern"
+    ]
+  },
+  {
+    "id": "phase20_diarrhea_contradictory_note_blocks",
+    "condition": "acute diarrhea",
+    "ed_note": "Acute diarrhea diagnosed. Able to hydrate, but blood in stool, severe dehydration, severe abdominal pain, and recent antibiotics are documented.",
+    "expected_phenotype_id": "acute_diarrhea_stable_no_blood_or_dehydration",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "gi_bleeding",
+      "dehydration_or_unable_to_drink",
+      "severe_or_focal_abdominal_pain",
+      "c_diff_risk"
+    ]
+  },
+  {
+    "id": "phase20_laryngitis_contradictory_note_blocks",
+    "condition": "uncomplicated laryngitis",
+    "ed_note": "Laryngitis diagnosed. No airway symptoms, but stridor, trouble breathing, drooling, neck swelling, and coughing blood are documented.",
+    "expected_phenotype_id": "laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "stridor_or_noisy_breathing",
+      "drooling",
+      "deep_neck_or_epiglottitis_concern",
+      "hemoptysis"
+    ]
+  },
+  {
+    "id": "phase20_plantar_fasciitis_contradictory_note_blocks",
+    "condition": "plantar fasciitis",
+    "ed_note": "Plantar fasciitis diagnosed. No trauma, but possible fracture, unable to bear weight, diabetic foot ulcer, and numb toes are documented.",
+    "expected_phenotype_id": "plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "unable_to_bear_weight_lower_extremity",
+      "diabetic_foot",
+      "neurovascular_compromise"
+    ]
+  },
+  {
+    "id": "phase20_minor_burn_contradictory_note_blocks",
+    "condition": "minor superficial burn",
+    "ed_note": "Minor burn diagnosed. Small superficial burn, but hand burn, circumferential burn, smoke inhalation, and pus are documented.",
+    "expected_phenotype_id": "minor_superficial_burn_small_area_no_high_risk_features",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "burn_high_risk_depth_location_or_mechanism",
+      "inhalation_injury_concern",
+      "secondary_skin_infection_concern"
+    ]
+  },
+  {
+    "id": "phase20_muscle_strain_contradictory_note_blocks",
+    "condition": "uncomplicated muscle strain",
+    "ed_note": "Muscle strain diagnosed. No fracture concern, but possible fracture, tendon rupture, numb toes, severe pain, and tight swelling are documented.",
+    "expected_phenotype_id": "muscle_strain_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "compartment_syndrome_concern"
+    ]
+  },
+  {
+    "id": "phase20_friction_blister_contradictory_note_blocks",
+    "condition": "friction blister",
+    "ed_note": "Friction blister diagnosed. No infection, but diabetic foot ulcer, neuropathy, spreading redness, pus, and mouth sores are documented.",
+    "expected_phenotype_id": "friction_blister_uncomplicated_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "diabetic_foot",
+      "neuropathy_foot_risk",
+      "secondary_skin_infection_concern",
+      "mucosal_lesions"
+    ]
+  },
+  {
+    "id": "phase20_ganglion_cyst_contradictory_note_blocks",
+    "condition": "ganglion cyst",
+    "ed_note": "Ganglion cyst diagnosed. Neurovascularly intact, but numb fingers, severe pain, rapidly enlarging mass, diagnostic uncertainty, and cellulitis are documented.",
+    "expected_phenotype_id": "ganglion_cyst_uncomplicated_no_neurovascular_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "neurovascular_compromise",
+      "severe_pain",
+      "mass_red_flag_or_diagnostic_uncertainty",
+      "secondary_skin_infection_concern"
+    ]
+  },
+  {
+    "id": "phase20_bunion_contradictory_note_blocks",
+    "condition": "bunion",
+    "ed_note": "Bunion diagnosed. No open wound, but diabetic foot ulcer, poor circulation, spreading redness, and unable to bear weight are documented.",
+    "expected_phenotype_id": "bunion_uncomplicated_no_infection_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "secondary_skin_infection_concern",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase20_tendinitis_contradictory_note_blocks",
+    "condition": "tendinitis",
+    "ed_note": "Tendinitis diagnosed. No infection, but tendon rupture, unable to use limb, possible fracture, numb toes, and fever are documented.",
+    "expected_phenotype_id": "tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "unable_to_use_limb",
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "systemic_illness"
+    ]
+  },
+  {
+    "id": "phase20_bursitis_contradictory_note_blocks",
+    "condition": "bursitis",
+    "ed_note": "Bursitis diagnosed. No trauma, but hot joint, fever with joint pain, open wound, possible fracture, and severe pain are documented.",
+    "expected_phenotype_id": "bursitis_uncomplicated_no_septic_joint_or_trauma",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "septic_joint_or_infection_concern",
+      "open_wound",
+      "fracture_or_dislocation_concern",
+      "severe_pain"
+    ]
+  },
+  {
+    "id": "phase20_osteoarthritis_contradictory_note_blocks",
+    "condition": "osteoarthritis flare",
+    "ed_note": "Osteoarthritis flare diagnosed. No infection, but hot joint, fever with joint pain, possible fracture, severe pain, and unable to use limb are documented.",
+    "expected_phenotype_id": "osteoarthritis_flare_uncomplicated_no_septic_joint_or_trauma",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "septic_joint_or_infection_concern",
+      "fracture_or_dislocation_concern",
+      "severe_pain",
+      "unable_to_use_limb"
+    ]
+  },
+  {
+    "id": "phase20_costochondritis_contradictory_note_blocks",
+    "condition": "costochondritis",
+    "ed_note": "Costochondritis diagnosed. No cardiac concern, but chest pain, acs concern, shortness of breath not resolved, hemoptysis, and syncope are documented.",
+    "expected_phenotype_id": "costochondritis_uncomplicated_no_cardiopulmonary_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "chest_pain",
+      "cardiac_or_pe_chest_pain_concern",
+      "hemoptysis",
+      "syncope_or_fainting"
+    ]
+  },
+  {
+    "id": "phase20_trigger_finger_contradictory_note_blocks",
+    "condition": "trigger finger",
+    "ed_note": "Trigger finger diagnosed. No infection, but flexor tenosynovitis concern, spreading redness, numb fingers, severe pain, and possible fracture are documented.",
+    "expected_phenotype_id": "trigger_finger_uncomplicated_no_infection_or_neurovascular",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "flexor_tenosynovitis_concern",
+      "secondary_skin_infection_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "fracture_or_dislocation_concern"
+    ]
+  },
+  {
+    "id": "phase20_minor_nail_injury_contradictory_note_blocks",
+    "condition": "minor nail injury",
+    "ed_note": "Minor nail injury diagnosed. No fracture concern, but open fracture, possible fracture, pus, numb fingers, and severe pain are documented.",
+    "expected_phenotype_id": "minor_nail_injury_uncomplicated_no_fracture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "open_fracture",
+      "fracture_or_dislocation_concern",
+      "secondary_skin_infection_concern",
+      "neurovascular_compromise",
+      "severe_pain"
+    ]
+  },
+  {
+    "id": "phase20_tmj_pain_contradictory_note_blocks",
+    "condition": "tmj pain",
+    "ed_note": "TMJ pain diagnosed. No dental infection, but facial swelling, trismus, drooling, facial droop, and cardiac chest pain are documented.",
+    "expected_phenotype_id": "tmj_pain_uncomplicated_no_dental_deep_space_or_neuro_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "deep_space_swelling",
+      "trismus",
+      "drooling",
+      "neurologic_deficit",
+      "cardiac_or_pe_chest_pain_concern"
+    ]
+  },
+  {
+    "id": "phase20_finger_sprain_contradictory_note_blocks",
+    "condition": "finger sprain xray negative",
+    "ed_note": "Finger sprain diagnosed, but possible fracture, tendon rupture, numb fingers, severe pain, and flexor tenosynovitis concern are documented.",
+    "expected_phenotype_id": "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "flexor_tenosynovitis_concern"
+    ]
+  },
+  {
+    "id": "phase20_toe_sprain_contradictory_note_blocks",
+    "condition": "toe sprain xray negative",
+    "ed_note": "Toe sprain diagnosed, but open fracture, possible fracture, diabetic foot ulcer, numb toes, and unable to bear weight are documented.",
+    "expected_phenotype_id": "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "open_fracture",
+      "fracture_or_dislocation_concern",
+      "diabetic_foot",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase20_rib_contusion_contradictory_note_blocks",
+    "condition": "rib contusion",
+    "ed_note": "Rib contusion diagnosed, but possible fracture, low oxygen, hemoptysis, acs concern, and syncope are documented.",
+    "expected_phenotype_id": "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "hypoxia",
+      "hemoptysis",
+      "cardiac_or_pe_chest_pain_concern",
+      "syncope_or_fainting"
+    ]
+  },
+  {
+    "id": "phase20_shoulder_tendinitis_contradictory_note_blocks",
+    "condition": "shoulder tendinitis",
+    "ed_note": "Shoulder tendinitis diagnosed, but tendon rupture, possible fracture, hot joint, numb hand, and chest pain with acs concern are documented.",
+    "expected_phenotype_id": "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "cardiac_or_pe_chest_pain_concern"
+    ]
+  },
+  {
+    "id": "phase20_wrist_tendinitis_contradictory_note_blocks",
+    "condition": "wrist overuse pain",
+    "ed_note": "Adult with wrist overuse pain after FOOSH with snuffbox tenderness, possible fracture, spreading redness, numb fingers, and severe pain.",
+    "expected_phenotype_id": "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "foosh_scaphoid_risk",
+      "fracture_or_dislocation_concern",
+      "secondary_skin_infection_concern",
+      "neurovascular_compromise",
+      "severe_pain"
+    ]
+  },
+  {
+    "id": "phase20_puncture_wound_contradictory_note_blocks",
+    "condition": "superficial puncture wound",
+    "ed_note": "Superficial puncture wound diagnosed, but foreign body, joint violation, dirty wound, pus, numb fingers, and delayed presentation are documented.",
+    "expected_phenotype_id": "superficial_puncture_wound_no_retained_foreign_body_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "retained_foreign_body",
+      "joint_violation",
+      "dirty_wound",
+      "wound_infection_concern",
+      "neurovascular_compromise",
+      "delayed_wound_presentation"
+    ]
+  },
+  {
+    "id": "phase20_splinter_removed_contradictory_note_blocks",
+    "condition": "minor splinter removed",
+    "ed_note": "Minor splinter removed, but splinter retained, glass retained, dirty wound, pus, numb fingers, and severe pain are documented.",
+    "expected_phenotype_id": "minor_splinter_removed_no_retained_foreign_body_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "retained_foreign_body",
+      "dirty_wound",
+      "wound_infection_concern",
+      "neurovascular_compromise",
+      "severe_pain"
+    ]
+  },
+  {
+    "id": "phase20_healing_wound_contradictory_note_blocks",
+    "condition": "healing wound",
+    "ed_note": "Healing wound documented, but wound infection, wound dehiscence, stitches came out, pus, and severe pain are documented.",
+    "expected_phenotype_id": "healing_wound_no_infection_or_dehiscence",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "wound_infection_concern",
+      "wound_dehiscence",
+      "severe_pain"
+    ]
+  },
+  {
+    "id": "phase20_ankle_bruise_contradictory_note_blocks",
+    "condition": "ankle bruise",
+    "ed_note": "Ankle bruise diagnosed, but possible fracture, numb foot, unable to bear weight, tight swelling, and warfarin use are documented.",
+    "expected_phenotype_id": "ankle_bruise_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "compartment_syndrome_concern",
+      "anticoagulated"
+    ]
+  },
+  {
+    "id": "phase20_shoulder_bruise_contradictory_note_blocks",
+    "condition": "shoulder bruise",
+    "ed_note": "Shoulder bruise diagnosed, but possible fracture, tendon rupture, numb hand, severe pain, and acs concern are documented.",
+    "expected_phenotype_id": "shoulder_bruise_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "cardiac_or_pe_chest_pain_concern"
+    ]
+  },
+  {
+    "id": "phase20_knee_contusion_fracture_or_neurovascular_red_flags_contradictory_note_blocks",
+    "condition": "knee bruise",
+    "ed_note": "Knee contusion without fracture or neurovascular red flags diagnosed, but possible fracture, numb fingers, severe pain, warfarin, unable to bear weight are documented.",
+    "expected_phenotype_id": "knee_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase20_elbow_contusion_fracture_or_neurovascular_red_flag_contradictory_note_blocks",
+    "condition": "elbow bruise",
+    "ed_note": "Elbow contusion without fracture or neurovascular red flags diagnosed, but possible fracture, numb fingers, severe pain, warfarin, pregnancy are documented.",
+    "expected_phenotype_id": "elbow_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "phase20_wrist_contusion_fracture_or_neurovascular_red_flag_contradictory_note_blocks",
+    "condition": "wrist bruise",
+    "ed_note": "Wrist contusion without fracture or neurovascular red flags diagnosed, but possible fracture, numb fingers, severe pain, warfarin, FOOSH with snuffbox tenderness are documented.",
+    "expected_phenotype_id": "wrist_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "foosh_scaphoid_risk"
+    ]
+  },
+  {
+    "id": "phase20_foot_contusion_fracture_or_diabetic_foot_contradictory_note_blocks",
+    "condition": "foot bruise",
+    "ed_note": "Foot contusion without fracture or diabetic-foot red flags diagnosed, but possible fracture, numb fingers, severe pain, warfarin, unable to bear weight are documented.",
+    "expected_phenotype_id": "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase20_finger_contusion_fracture_or_tendon_red_flags_contradictory_note_blocks",
+    "condition": "finger bruise",
+    "ed_note": "Finger contusion without fracture, tendon, or neurovascular red flags diagnosed, but possible fracture, numb fingers, severe pain, warfarin, tendon rupture are documented.",
+    "expected_phenotype_id": "finger_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "tendon_or_ligament_rupture_concern"
+    ]
+  },
+  {
+    "id": "phase20_calf_strain_rupture_or_neurovascular_red_flags_contradictory_note_blocks",
+    "condition": "calf strain",
+    "ed_note": "Calf strain without rupture or neurovascular red flags diagnosed, but possible fracture, tendon rupture, numb fingers, severe pain, unable to bear weight are documented.",
+    "expected_phenotype_id": "calf_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase20_hamstring_strain_rupture_or_neurovascular_red_flag_contradictory_note_blocks",
+    "condition": "hamstring strain",
+    "ed_note": "Hamstring strain without rupture or neurovascular red flags diagnosed, but possible fracture, tendon rupture, numb fingers, severe pain, unable to bear weight are documented.",
+    "expected_phenotype_id": "hamstring_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase20_quadriceps_strain_rupture_or_neurovascular_red_fla_contradictory_note_blocks",
+    "condition": "quadriceps strain",
+    "ed_note": "Quadriceps strain without rupture or neurovascular red flags diagnosed, but possible fracture, tendon rupture, numb fingers, severe pain, unable to bear weight are documented.",
+    "expected_phenotype_id": "quadriceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase20_forearm_strain_rupture_or_neurovascular_red_flags_contradictory_note_blocks",
+    "condition": "forearm strain",
+    "ed_note": "Forearm strain without rupture or neurovascular red flags diagnosed, but possible fracture, tendon rupture, numb fingers, severe pain, pregnancy are documented.",
+    "expected_phenotype_id": "forearm_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "phase20_upper_back_strain_neuro_or_trauma_red_flags_contradictory_note_blocks",
+    "condition": "upper back strain",
+    "ed_note": "Upper back strain without neurologic or trauma red flags diagnosed, but possible fracture, tendon rupture, numb fingers, severe pain, pregnancy are documented.",
+    "expected_phenotype_id": "upper_back_strain_uncomplicated_no_neuro_or_trauma_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "phase20_hives_anaphylaxis_or_mucosal_lesions_contradictory_note_blocks",
+    "condition": "uncomplicated hives",
+    "ed_note": "Uncomplicated hives without anaphylaxis or mucosal lesions diagnosed, but anaphylaxis, throat swelling, two system reaction, mouth sores, fever are documented.",
+    "expected_phenotype_id": "uncomplicated_hives_no_anaphylaxis_or_mucosal_lesions",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "systemic_illness"
+    ]
+  },
+  {
+    "id": "phase20_common_cold_pneumonia_or_breathing_red_flags_contradictory_note_blocks",
+    "condition": "common cold uncomplicated",
+    "ed_note": "Uncomplicated common cold without pneumonia or breathing red flags diagnosed, but pneumonia, low oxygen, chest pain, no inhaler, severe dehydration are documented.",
+    "expected_phenotype_id": "common_cold_uncomplicated_no_pneumonia_or_breathing_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "pneumonia",
+      "hypoxia",
+      "chest_pain",
+      "poor_inhaler_access",
+      "severe_dehydration"
+    ]
+  },
+  {
+    "id": "phase20_localized_common_wart_genital_or_immunocompromised_contradictory_note_blocks",
+    "condition": "localized common wart",
+    "ed_note": "Localized common wart without genital or immunocompromised-host red flags diagnosed, but sti concern, eye lesion, spreading redness, chemotherapy, rapidly enlarging mass are documented.",
+    "expected_phenotype_id": "localized_common_wart_no_genital_or_immunocompromised_host",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "sti_or_genital_pathway",
+      "near_eye_or_genitals",
+      "secondary_skin_infection_concern",
+      "immunocompromised",
+      "mass_red_flag_or_diagnostic_uncertainty"
+    ]
+  },
+  {
+    "id": "phase20_forearm_contusion_fracture_or_neurovascular_red_fl_contradictory_note_blocks",
+    "condition": "forearm bruise",
+    "ed_note": "Forearm contusion without fracture or neurovascular red flags diagnosed, but possible fracture, numb fingers, severe pain, warfarin, pregnancy are documented.",
+    "expected_phenotype_id": "forearm_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "phase20_thigh_contusion_fracture_or_neurovascular_red_flag_contradictory_note_blocks",
+    "condition": "thigh bruise",
+    "ed_note": "Thigh contusion without fracture or neurovascular red flags diagnosed, but possible fracture, numb fingers, severe pain, warfarin, unable to bear weight are documented.",
+    "expected_phenotype_id": "thigh_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase20_hand_contusion_fracture_or_tendon_contradictory_note_blocks",
+    "condition": "hand contusion",
+    "ed_note": "Adult. Clinician diagnosis hand contusion. No fracture concern. No tendon injury. Neurovascularly intact. However possible fracture, tendon injury, numb fingers, severe pain, open wound are documented.",
+    "expected_phenotype_id": "hand_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "hand_tendon_risk",
+      "neurovascular_compromise",
+      "severe_pain",
+      "open_wound"
+    ]
+  },
+  {
+    "id": "phase20_upper_arm_contusion_fracture_or_neurovascular_contradictory_note_blocks",
+    "condition": "upper arm contusion",
+    "ed_note": "Adult. Clinician diagnosis upper arm contusion. No fracture concern. Neurovascularly intact. No open wound. However possible fracture, numb fingers, severe pain, open wound are documented.",
+    "expected_phenotype_id": "upper_arm_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "open_wound"
+    ]
+  },
+  {
+    "id": "phase20_lower_leg_contusion_fracture_or_neurovascular_contradictory_note_blocks",
+    "condition": "lower leg contusion",
+    "ed_note": "Adult. Clinician diagnosis lower leg contusion. No fracture concern. Neurovascularly intact. Able to bear weight. However possible fracture, numb fingers, severe pain, unable to bear weight are documented.",
+    "expected_phenotype_id": "lower_leg_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase20_hip_contusion_fracture_or_neurovascular_contradictory_note_blocks",
+    "condition": "hip contusion",
+    "ed_note": "Adult. Clinician diagnosis hip contusion. No fracture concern. Neurovascularly intact. Able to bear weight. However possible fracture, numb fingers, severe pain, unable to bear weight, elderly are documented.",
+    "expected_phenotype_id": "hip_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity",
+      "elderly_frail"
+    ]
+  },
+  {
+    "id": "phase20_toe_contusion_fracture_or_diabetic_foot_contradictory_note_blocks",
+    "condition": "toe contusion",
+    "ed_note": "Adult. Clinician diagnosis toe contusion. No fracture concern. Neurovascularly intact. No diabetic foot. However possible fracture, numb fingers, diabetic foot, open wound, severe pain are documented.",
+    "expected_phenotype_id": "toe_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "diabetic_foot",
+      "open_wound",
+      "severe_pain"
+    ]
+  },
+  {
+    "id": "phase20_hip_strain_rupture_or_neurovascular_contradictory_note_blocks",
+    "condition": "hip strain",
+    "ed_note": "Adult. Clinician diagnosis hip strain. No tendon rupture. Neurovascularly intact. Able to bear weight. However possible fracture, tendon rupture, numb fingers, severe pain, unable to bear weight are documented.",
+    "expected_phenotype_id": "hip_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase20_groin_strain_rupture_or_neurovascular_contradictory_note_blocks",
+    "condition": "groin strain",
+    "ed_note": "Adult. Clinician diagnosis groin strain. No tendon rupture. Neurovascularly intact. Able to bear weight. However possible fracture, tendon rupture, numb fingers, severe pain, unable to bear weight are documented.",
+    "expected_phenotype_id": "groin_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase20_abdominal_wall_strain_abdominal_contradictory_note_blocks",
+    "condition": "abdominal wall strain",
+    "ed_note": "Adult. Clinician diagnosis abdominal wall strain. Benign abdominal exam. No abdominal emergency concern. No hernia concern. However severe or focal abdominal pain, guarding, persistent vomiting, fever, blood in stool are documented.",
+    "expected_phenotype_id": "abdominal_wall_strain_uncomplicated_no_abdominal_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "severe_or_focal_abdominal_pain",
+      "peritoneal_signs",
+      "persistent_vomiting",
+      "fever",
+      "gi_bleeding"
+    ]
+  },
+  {
+    "id": "phase20_chest_wall_muscle_strain_cardiopulmonary_contradictory_note_blocks",
+    "condition": "chest wall muscle strain",
+    "ed_note": "Adult. Clinician diagnosis chest wall strain. Reproducible chest wall pain. No cardiac concern. No breathing distress. However chest pain, pe concern, respiratory distress, low oxygen, motor vehicle crash are documented.",
+    "expected_phenotype_id": "chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "chest_pain",
+      "cardiac_or_pe_chest_pain_concern",
+      "respiratory_distress",
+      "hypoxia",
+      "high_energy_trauma"
+    ]
+  },
+  {
+    "id": "phase20_achilles_tendinitis_rupture_or_infection_contradictory_note_blocks",
+    "condition": "achilles tendinitis",
+    "ed_note": "Adult. Clinician diagnosis achilles tendinitis. No tendon rupture. Neurovascularly intact. No infection. However tendon rupture, numb fingers, septic joint, severe pain, unable to bear weight are documented.",
+    "expected_phenotype_id": "achilles_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase20_patellar_tendinitis_rupture_or_infection_contradictory_note_blocks",
+    "condition": "patellar tendinitis",
+    "ed_note": "Adult. Clinician diagnosis patellar tendinitis. No tendon rupture. Neurovascularly intact. No infection. However tendon rupture, numb fingers, septic joint, severe pain, unable to bear weight are documented.",
+    "expected_phenotype_id": "patellar_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase20_thumb_sprain_tendon_or_neurovascular_contradictory_note_blocks",
+    "condition": "thumb sprain",
+    "ed_note": "Adult. Clinician diagnosis thumb sprain. X-ray negative. No tendon injury. Neurovascularly intact. However possible fracture, tendon injury, numb fingers, severe pain, open wound are documented.",
+    "expected_phenotype_id": "thumb_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "hand_tendon_risk",
+      "neurovascular_compromise",
+      "severe_pain",
+      "open_wound"
+    ]
+  },
+  {
+    "id": "phase20_hand_sprain_tendon_or_neurovascular_contradictory_note_blocks",
+    "condition": "hand sprain",
+    "ed_note": "Adult. Clinician diagnosis hand sprain. X-ray negative. No tendon injury. Neurovascularly intact. However possible fracture, tendon injury, numb fingers, severe pain, open wound are documented.",
+    "expected_phenotype_id": "hand_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "hand_tendon_risk",
+      "neurovascular_compromise",
+      "severe_pain",
+      "open_wound"
+    ]
+  },
+  {
+    "id": "phase20_hip_sprain_fracture_or_neurovascular_contradictory_note_blocks",
+    "condition": "hip sprain",
+    "ed_note": "Adult. Clinician diagnosis hip sprain. X-ray negative. No fracture concern. Neurovascularly intact. However possible fracture, tendon rupture, numb fingers, severe pain, unable to bear weight are documented.",
+    "expected_phenotype_id": "hip_sprain_xray_negative_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase20_viral_conjunctivitis_contact_lens_or_vision_contradictory_note_blocks",
+    "condition": "viral conjunctivitis",
+    "ed_note": "Adult. Clinician diagnosis viral conjunctivitis. No contact lens use. No eye pain. Vision normal. However contact lens, eye pain, vision change, corneal ulcer, eye trauma are documented.",
+    "expected_phenotype_id": "viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "contact_lens_use",
+      "ocular_symptoms",
+      "vision_change",
+      "corneal_ulcer_or_keratitis_concern",
+      "eye_trauma_or_foreign_body"
+    ]
+  },
+  {
+    "id": "phase20_allergic_conjunctivitis_contact_lens_or_vision_contradictory_note_blocks",
+    "condition": "allergic conjunctivitis",
+    "ed_note": "Adult. Clinician diagnosis allergic conjunctivitis. No contact lens use. No eye pain. Vision normal. However contact lens, eye pain, vision change, corneal ulcer, eye trauma are documented.",
+    "expected_phenotype_id": "allergic_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "contact_lens_use",
+      "ocular_symptoms",
+      "vision_change",
+      "corneal_ulcer_or_keratitis_concern",
+      "eye_trauma_or_foreign_body"
+    ]
+  },
+  {
+    "id": "phase20_anterior_epistaxis_resolved_packing_or_anticoagulation_contradictory_note_blocks",
+    "condition": "resolved anterior nosebleed",
+    "ed_note": "Adult. Clinician diagnosis resolved anterior nosebleed. Bleeding stopped. No nasal packing. No blood thinner. However nasal packing, warfarin, bleeding disorder, nasal trauma, recurrent nosebleed are documented.",
+    "expected_phenotype_id": "anterior_epistaxis_resolved_no_packing_or_anticoagulation",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "posterior_epistaxis_or_uncontrolled_bleeding",
+      "anticoagulated",
+      "bleeding_disorder",
+      "facial_or_nasal_trauma",
+      "posterior_epistaxis_or_uncontrolled_bleeding"
+    ]
+  },
+  {
+    "id": "phase20_ear_canal_irritation_after_swimming_otitis_externa_or_foreign_body_contradictory_note_blocks",
+    "condition": "ear canal irritation after swimming",
+    "ed_note": "Adult. Clinician diagnosis ear canal irritation after swimming. No otitis externa. No foreign body. No mastoiditis concern. However foreign body in ear, mastoiditis, diabetes, immunocompromised, fever are documented.",
+    "expected_phenotype_id": "ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "ear_trauma_or_foreign_body",
+      "mastoiditis_or_deep_ear_infection_concern",
+      "diabetes_general_risk",
+      "immunocompromised",
+      "fever"
+    ]
+  },
+  {
+    "id": "phase20_thumb_strain_tendon_or_neurovascular_contradictory_note_blocks",
+    "condition": "thumb strain",
+    "ed_note": "Adult. Clinician diagnosis thumb strain. No tendon injury. Neurovascularly intact. No fracture concern. However possible fracture, tendon injury, numb fingers, severe pain, open wound are documented.",
+    "expected_phenotype_id": "thumb_strain_uncomplicated_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "hand_tendon_risk",
+      "neurovascular_compromise",
+      "severe_pain",
+      "open_wound"
+    ]
+  },
+  {
+    "id": "phase20_biceps_tendinitis_rupture_or_infection_contradictory_note_blocks",
+    "condition": "biceps tendinitis",
+    "ed_note": "Adult. Clinician diagnosis biceps tendinitis. No tendon rupture. Neurovascularly intact. No infection. However possible fracture, tendon rupture, numb fingers, septic joint, severe pain are documented.",
+    "expected_phenotype_id": "biceps_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain"
+    ]
+  },
+  {
+    "id": "phase20_triceps_tendinitis_rupture_or_infection_contradictory_note_blocks",
+    "condition": "triceps tendinitis",
+    "ed_note": "Adult. Clinician diagnosis triceps tendinitis. No tendon rupture. Neurovascularly intact. No infection. However possible fracture, tendon rupture, numb fingers, septic joint, severe pain are documented.",
+    "expected_phenotype_id": "triceps_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain"
+    ]
+  },
+  {
+    "id": "phase20_trapezius_strain_rupture_or_neurovascular_contradictory_note_blocks",
+    "condition": "trapezius strain",
+    "ed_note": "Adult. Clinician diagnosis trapezius strain. No tendon rupture. Neurovascularly intact. No fracture concern. However possible fracture, tendon rupture, numb fingers, severe pain, chest pain are documented.",
+    "expected_phenotype_id": "trapezius_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "chest_pain"
+    ]
+  },
+  {
+    "id": "phase20_peroneal_tendinitis_rupture_or_infection_contradictory_note_blocks",
+    "condition": "peroneal tendinitis",
+    "ed_note": "Adult. Clinician diagnosis peroneal tendinitis. No tendon rupture. Neurovascularly intact. No infection. However possible fracture, tendon rupture, numb fingers, septic joint, severe pain are documented.",
+    "expected_phenotype_id": "peroneal_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain"
+    ]
+  },
+  {
+    "id": "phase20_quadriceps_tendinitis_rupture_or_infection_contradictory_note_blocks",
+    "condition": "quadriceps tendinitis",
+    "ed_note": "Adult. Clinician diagnosis quadriceps tendinitis. No tendon rupture. Neurovascularly intact. No infection. However possible fracture, tendon rupture, numb fingers, septic joint, severe pain are documented.",
+    "expected_phenotype_id": "quadriceps_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain"
+    ]
+  },
+  {
+    "id": "phase20_tibialis_anterior_tendinitis_rupture_or_infection_contradictory_note_blocks",
+    "condition": "tibialis anterior tendinitis",
+    "ed_note": "Adult. Clinician diagnosis tibialis anterior tendinitis. No tendon rupture. Neurovascularly intact. No infection. However possible fracture, tendon rupture, numb fingers, septic joint, severe pain are documented.",
+    "expected_phenotype_id": "tibialis_anterior_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain"
+    ]
+  },
+  {
+    "id": "phase20_foot_sprain_fracture_or_neurovascular_contradictory_note_blocks",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Adult. Foot sprain xray negative. X-ray performed and negative. Neurovascular exam intact. However ankle sprain, fracture seen, open wound, high energy trauma, unable to bear weight, numb foot, diabetic foot are documented.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "ankle_sprain_pathway",
+      "fracture_seen",
+      "open_wound",
+      "high_energy_trauma",
+      "unable_to_bear_weight_lower_extremity",
+      "neurovascular_compromise",
+      "diabetic_foot"
+    ]
+  },
+  {
+    "id": "phase20_minor_head_injury_red_flags_contradictory_note_blocks",
+    "condition": "minor head injury no red flags",
+    "ed_note": "Adult. Minor head injury no red flags. Reassuring ED assessment. No anticoagulation. No neurologic deficit. However warfarin, loss of consciousness, intoxicated, elderly, persistent vomiting, weakness are documented.",
+    "expected_phenotype_id": "minor_head_injury_no_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anticoagulated",
+      "loss_of_consciousness",
+      "intoxication",
+      "elderly",
+      "persistent_vomiting",
+      "neurologic_deficit"
+    ]
+  },
+  {
+    "id": "phase20_concussion_red_flags_contradictory_note_blocks",
+    "condition": "concussion discharge no imaging red flags",
+    "ed_note": "Adult. Concussion discharge no imaging red flags. Reassuring neurologic assessment. Safe observation plan. No anticoagulation. However return to play, warfarin, weakness, persistent vomiting, loss of consciousness, intoxicated are documented.",
+    "expected_phenotype_id": "concussion_discharge_no_imaging_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "athlete_return_to_play",
+      "anticoagulated",
+      "neurologic_deficit",
+      "persistent_vomiting",
+      "loss_of_consciousness",
+      "intoxication"
+    ]
+  },
+  {
+    "id": "phase20_renal_colic_infection_or_obstruction_contradictory_note_blocks",
+    "condition": "renal colic stable no infection",
+    "ed_note": "Adult. Renal colic stable no infection. Stable for outpatient management. Symptoms controlled enough for discharge. However fever, solitary kidney, pregnancy, renal failure, uncontrolled pain, vomiting repeatedly, urinary obstruction, sepsis are documented.",
+    "expected_phenotype_id": "renal_colic_stable_no_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fever",
+      "solitary_kidney",
+      "pregnancy",
+      "renal_failure",
+      "uncontrolled_pain",
+      "vomiting_unable_to_take_meds",
+      "urinary_obstruction",
+      "sepsis"
+    ]
+  },
+  {
+    "id": "phase20_asthma_exacerbation_hypoxia_or_distress_contradictory_note_blocks",
+    "condition": "asthma exacerbation improved discharge",
+    "ed_note": "Adult. Asthma exacerbation improved discharge. Breathing improved after ED treatment. Safe outpatient plan. Rescue medication access. However low oxygen, no rescue inhaler, pregnancy, chest pain, frequent relapse, respiratory distress are documented.",
+    "expected_phenotype_id": "asthma_exacerbation_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "hypoxia",
+      "poor_inhaler_access",
+      "pregnancy",
+      "chest_pain",
+      "frequent_relapse",
+      "respiratory_distress"
+    ]
+  },
+  {
+    "id": "phase20_heel_contusion_fracture_or_diabetic_foot_contradictory_note_blocks",
+    "condition": "heel contusion no fracture",
+    "ed_note": "Adult. Clinician diagnosis heel contusion. No fracture concern. No diabetic foot. Neurovascular exam intact. However possible fracture, open wound, diabetic foot, peripheral vascular disease, neuropathy, septic joint, high energy trauma, numb foot are documented.",
+    "expected_phenotype_id": "heel_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "septic_joint_or_infection_concern",
+      "high_energy_trauma",
+      "neurovascular_compromise"
+    ]
+  },
+  {
+    "id": "phase20_palm_contusion_fracture_or_tendon_contradictory_note_blocks",
+    "condition": "palm contusion no fracture",
+    "ed_note": "Adult. Clinician diagnosis palm contusion. No fracture concern. No tendon injury. Neurovascular exam intact. However possible fracture, tendon injury, open wound, septic joint, numb fingers, high energy trauma are documented.",
+    "expected_phenotype_id": "palm_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "hand_tendon_risk",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma"
+    ]
+  },
+  {
+    "id": "phase20_upper_arm_strain_rupture_or_neurovascular_contradictory_note_blocks",
+    "condition": "upper arm strain no rupture",
+    "ed_note": "Adult. Clinician diagnosis upper arm strain. No tendon rupture. Neurovascular exam intact. No fracture concern. However possible fracture, tendon rupture, open wound, septic joint, numb hand, high energy trauma are documented.",
+    "expected_phenotype_id": "upper_arm_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma"
+    ]
+  },
+  {
+    "id": "phase20_lower_leg_strain_rupture_or_neurovascular_contradictory_note_blocks",
+    "condition": "lower leg strain no rupture",
+    "ed_note": "Adult. Clinician diagnosis lower leg strain. No tendon rupture. Neurovascular exam intact. No fracture concern. However possible fracture, tendon rupture, open wound, septic joint, numb foot, unable to bear weight, high energy trauma are documented.",
+    "expected_phenotype_id": "lower_leg_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma"
+    ]
+  },
+  {
+    "id": "phase20_ankle_tendinitis_rupture_or_infection_contradictory_note_blocks",
+    "condition": "ankle tendinitis no rupture",
+    "ed_note": "Adult. Clinician diagnosis ankle tendinitis. No tendon rupture. No infection. Neurovascular exam intact. However possible fracture, tendon rupture, open wound, septic joint, numb foot, unable to bear weight, diabetic foot are documented.",
+    "expected_phenotype_id": "ankle_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "diabetic_foot"
+    ]
+  },
+  {
+    "id": "phase20_shin_contusion_fracture_or_neurovascular_contradictory_note_blocks",
+    "condition": "shin contusion no fracture",
+    "ed_note": "Adult. Clinician diagnosis shin contusion. No fracture concern. Neurovascular exam intact. No open wound. However possible fracture, open wound, septic joint, numb foot, unable to bear weight, high energy trauma are documented.",
+    "expected_phenotype_id": "shin_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma"
+    ]
+  },
+  {
+    "id": "phase20_heel_strain_rupture_or_diabetic_foot_contradictory_note_blocks",
+    "condition": "heel strain no rupture",
+    "ed_note": "Adult. Clinician diagnosis heel strain. No tendon rupture. No diabetic foot. Neurovascular exam intact. However possible fracture, tendon rupture, open wound, septic joint, diabetic foot, peripheral vascular disease, neuropathy, unable to bear weight, high energy trauma, numb foot are documented.",
+    "expected_phenotype_id": "heel_strain_uncomplicated_no_rupture_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "neurovascular_compromise"
+    ]
+  },
+  {
+    "id": "phase20_mosquito_bites_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized mosquito bites",
+    "ed_note": "Adult. Clinician diagnosis localized mosquito bites. No anaphylaxis. No infection. Localized reaction only. However anaphylaxis, trouble breathing, bodywide reaction, spreading redness, brown recluse, tick bite, snake bite, immunocompromised are documented.",
+    "expected_phenotype_id": "localized_mosquito_bites_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "immunocompromised"
+    ]
+  },
+  {
+    "id": "phase20_poison_ivy_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized poison ivy dermatitis",
+    "ed_note": "Adult. Clinician diagnosis localized poison ivy dermatitis. No anaphylaxis. No infection. Localized rash only. However anaphylaxis, trouble breathing, low blood pressure, spreading redness, severe cutaneous adverse reaction, skin peeling, mouth sores, genital rash, chemical burn, immunocompromised, pregnancy are documented.",
+    "expected_phenotype_id": "localized_poison_ivy_dermatitis_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "secondary_skin_infection_concern",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "eye_or_genital_rash_location",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "phase20_dry_cracked_hands_infection_or_systemic_skin_disease_contradictory_note_blocks",
+    "condition": "dry cracked hands no infection",
+    "ed_note": "Adult. Clinician diagnosis dry cracked hands. No infection. No systemic skin disease. Localized dry cracked hands. However spreading redness, open wound, severe cutaneous adverse reaction, skin peeling, mouth sores, fever, immunocompromised, diabetes are documented.",
+    "expected_phenotype_id": "dry_cracked_hands_no_infection_or_systemic_skin_disease",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "secondary_skin_infection_concern",
+      "open_wound",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "systemic_illness",
+      "immunocompromised",
+      "diabetes_general_risk"
+    ]
+  },
+  {
+    "id": "phase20_upper_back_contusion_spine_or_neuro_contradictory_note_blocks",
+    "condition": "upper back contusion no spine red flags",
+    "ed_note": "Adult. Clinician diagnosis upper back contusion. No spine injury concern. No neurologic deficit. No fracture concern. However midline neck tenderness, possible fracture, weakness, high energy trauma, septic joint, spine consulted are documented.",
+    "expected_phenotype_id": "upper_back_contusion_uncomplicated_no_spine_or_neuro_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "midline_cervical_tenderness",
+      "fracture_or_dislocation_concern",
+      "neurologic_deficit",
+      "high_energy_trauma",
+      "septic_joint_or_infection_concern",
+      "specialist_directed_spine_plan"
+    ]
+  },
+  {
+    "id": "phase20_trunk_contusion_fracture_or_cardiopulmonary_contradictory_note_blocks",
+    "condition": "trunk contusion no fracture",
+    "ed_note": "Adult. Clinician diagnosis trunk contusion. No fracture concern. No chest pain. No shortness of breath. No abdominal red flags. However possible fracture, chest pain, cardiac chest pain, respiratory distress, hypoxic, guarding, severe abdominal pain, high energy trauma, unstable vital signs, specialist directed orthopedic plan are documented.",
+    "expected_phenotype_id": "trunk_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "chest_pain",
+      "cardiac_or_pe_chest_pain_concern",
+      "respiratory_distress",
+      "hypoxia",
+      "peritoneal_signs",
+      "severe_or_focal_abdominal_pain",
+      "high_energy_trauma",
+      "unstable_vital_signs",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_shoulder_strain_rupture_or_neurovascular_contradictory_note_blocks",
+    "condition": "shoulder strain no rupture",
+    "ed_note": "Adult. Clinician diagnosis shoulder strain. No tendon rupture. Neurovascular exam intact. No fracture concern. However possible fracture, tendon rupture, numb hand, septic joint, high energy trauma, specialist directed orthopedic plan are documented.",
+    "expected_phenotype_id": "shoulder_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_wrist_strain_tendon_or_neurovascular_contradictory_note_blocks",
+    "condition": "wrist strain no tendon injury",
+    "ed_note": "Adult. Clinician diagnosis wrist strain. No tendon injury. Neurovascular exam intact. No fracture concern. However possible fracture, tendon rupture, hand laceration, numb hand, septic joint, high energy trauma, specialist directed orthopedic plan are documented.",
+    "expected_phenotype_id": "wrist_strain_uncomplicated_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "hand_tendon_risk",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_flea_bites_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized flea bites",
+    "ed_note": "Adult. Clinician diagnosis localized flea bites. No anaphylaxis. No infection. Localized reaction only. However anaphylaxis, trouble breathing, bodywide reaction, spreading redness, brown recluse, tick bite, snake bite, immunocompromised are documented.",
+    "expected_phenotype_id": "localized_flea_bites_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "immunocompromised"
+    ]
+  },
+  {
+    "id": "phase20_ankle_strain_fracture_or_neurovascular_contradictory_note_blocks",
+    "condition": "ankle strain no fracture",
+    "ed_note": "Adult. Clinician diagnosis ankle strain. No fracture concern. Neurovascular exam intact. Able to bear weight. However possible fracture, tendon rupture, numb foot, septic joint, unable to bear weight, high energy trauma, specialist directed orthopedic plan are documented.",
+    "expected_phenotype_id": "ankle_strain_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_foot_strain_fracture_or_diabetic_foot_contradictory_note_blocks",
+    "condition": "foot strain no fracture",
+    "ed_note": "Adult. Clinician diagnosis foot strain. No fracture concern. No diabetic foot. Neurovascular exam intact. However possible fracture, tendon rupture, open wound, septic joint, diabetic foot, peripheral vascular disease, neuropathy, unable to bear weight, high energy trauma, numb foot, specialist directed podiatry plan are documented.",
+    "expected_phenotype_id": "foot_strain_uncomplicated_no_fracture_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "neurovascular_compromise",
+      "specialist_directed_podiatry_plan"
+    ]
+  },
+  {
+    "id": "phase20_elbow_strain_fracture_or_tendon_contradictory_note_blocks",
+    "condition": "elbow strain no fracture",
+    "ed_note": "Adult. Clinician diagnosis elbow strain. No fracture concern. No tendon rupture. Neurovascular exam intact. However possible fracture, tendon rupture, numb hand, septic joint, high energy trauma, specialist directed orthopedic plan are documented.",
+    "expected_phenotype_id": "elbow_strain_uncomplicated_no_fracture_or_tendon_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_hand_strain_fracture_or_tendon_contradictory_note_blocks",
+    "condition": "hand strain no fracture",
+    "ed_note": "Adult. Clinician diagnosis hand strain. No fracture concern. No tendon injury. Neurovascular exam intact. However possible fracture, tendon rupture, hand laceration, open wound, numb hand, septic joint, high energy trauma, specialist directed orthopedic plan are documented.",
+    "expected_phenotype_id": "hand_strain_uncomplicated_no_fracture_or_tendon_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "hand_tendon_risk",
+      "open_wound",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_finger_strain_fracture_or_tendon_contradictory_note_blocks",
+    "condition": "finger strain no fracture",
+    "ed_note": "Adult. Clinician diagnosis finger strain. No fracture concern. No tendon injury. Neurovascular exam intact. However possible fracture, tendon rupture, hand laceration, open wound, numb hand, septic joint, high energy trauma, specialist directed orthopedic plan are documented.",
+    "expected_phenotype_id": "finger_strain_uncomplicated_no_fracture_or_tendon_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "hand_tendon_risk",
+      "open_wound",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_ant_bites_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized ant bites",
+    "ed_note": "Adult. Clinician diagnosis localized ant bites. No anaphylaxis. No infection. Localized reaction only. However anaphylaxis, trouble breathing, bodywide reaction, spreading redness, brown recluse, tick bite, snake bite, immunocompromised are documented.",
+    "expected_phenotype_id": "localized_ant_bites_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "immunocompromised"
+    ]
+  },
+  {
+    "id": "phase20_chigger_bites_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized chigger bites",
+    "ed_note": "Adult. Clinician diagnosis localized chigger bites. No anaphylaxis. No infection. Localized reaction only. However anaphylaxis, trouble breathing, bodywide reaction, spreading redness, brown recluse, tick bite, snake bite, immunocompromised are documented.",
+    "expected_phenotype_id": "localized_chigger_bites_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "immunocompromised"
+    ]
+  },
+  {
+    "id": "phase20_midge_bites_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized midge bites",
+    "ed_note": "Adult. Clinician diagnosis localized midge bites. No anaphylaxis. No infection. Localized reaction only. However anaphylaxis, trouble breathing, bodywide reaction, spreading redness, brown recluse, tick bite, snake bite, immunocompromised are documented.",
+    "expected_phenotype_id": "localized_midge_bites_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "immunocompromised"
+    ]
+  },
+  {
+    "id": "phase20_plant_contact_dermatitis_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized plant rash",
+    "ed_note": "Adult. Clinician diagnosis localized plant rash. No anaphylaxis. No infection. Localized rash only. However anaphylaxis, trouble breathing, low blood pressure, spreading redness, severe cutaneous adverse reaction, skin peeling, mouth sores, genital rash, chemical burn, immunocompromised, pregnancy are documented.",
+    "expected_phenotype_id": "localized_plant_contact_dermatitis_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "secondary_skin_infection_concern",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "eye_or_genital_rash_location",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "phase20_soap_irritant_dermatitis_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized soap irritant rash",
+    "ed_note": "Adult. Clinician diagnosis localized soap irritant rash. No anaphylaxis. No infection. Localized rash only. However anaphylaxis, trouble breathing, low blood pressure, spreading redness, severe cutaneous adverse reaction, skin peeling, mouth sores, genital rash, chemical burn, immunocompromised, pregnancy are documented.",
+    "expected_phenotype_id": "localized_soap_irritant_contact_dermatitis_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "secondary_skin_infection_concern",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "eye_or_genital_rash_location",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "phase20_bee_sting_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized bee sting",
+    "ed_note": "Adult. Clinician diagnosis localized bee sting. No anaphylaxis. No infection. Localized reaction only. However anaphylaxis, trouble breathing, bodywide reaction, spreading redness, brown recluse, tick bite, snake bite, immunocompromised are documented.",
+    "expected_phenotype_id": "localized_bee_sting_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "immunocompromised"
+    ]
+  },
+  {
+    "id": "phase20_wasp_sting_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized wasp sting",
+    "ed_note": "Adult. Clinician diagnosis localized wasp sting. No anaphylaxis. No infection. Localized reaction only. However anaphylaxis, trouble breathing, bodywide reaction, spreading redness, brown recluse, tick bite, snake bite, immunocompromised are documented.",
+    "expected_phenotype_id": "localized_wasp_sting_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "immunocompromised"
+    ]
+  },
+  {
+    "id": "phase20_hornet_sting_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized hornet sting",
+    "ed_note": "Adult. Clinician diagnosis localized hornet sting. No anaphylaxis. No infection. Localized reaction only. However anaphylaxis, trouble breathing, bodywide reaction, spreading redness, brown recluse, tick bite, snake bite, immunocompromised are documented.",
+    "expected_phenotype_id": "localized_hornet_sting_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "immunocompromised"
+    ]
+  },
+  {
+    "id": "phase20_gnat_bites_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized gnat bites",
+    "ed_note": "Adult. Clinician diagnosis localized gnat bites. No anaphylaxis. No infection. Localized reaction only. However anaphylaxis, trouble breathing, bodywide reaction, spreading redness, brown recluse, tick bite, snake bite, immunocompromised are documented.",
+    "expected_phenotype_id": "localized_gnat_bites_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "immunocompromised"
+    ]
+  },
+  {
+    "id": "phase20_fly_bites_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized fly bites",
+    "ed_note": "Adult. Clinician diagnosis localized fly bites. No anaphylaxis. No infection. Localized reaction only. However anaphylaxis, trouble breathing, bodywide reaction, spreading redness, brown recluse, tick bite, snake bite, immunocompromised are documented.",
+    "expected_phenotype_id": "localized_fly_bites_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "immunocompromised"
+    ]
+  },
+  {
+    "id": "phase20_lateral_epicondylitis_contradictory_note_blocks",
+    "condition": "lateral epicondylitis",
+    "ed_note": "Adult. Clinician diagnosis lateral epicondylitis. No fracture concern. Neurovascular exam intact. No tendon rupture. No ulnar nerve symptoms. However broken bone, biceps tendon rupture, elbow instability, ring finger numbness, cold hand, red warm joint, open wound, motor vehicle crash, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "lateral_epicondylitis_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "distal_biceps_or_triceps_concern",
+      "elbow_instability_or_ucl_lcl_concern",
+      "ulnar_nerve_pattern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "open_wound",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_medial_epicondylitis_contradictory_note_blocks",
+    "condition": "medial epicondylitis",
+    "ed_note": "Adult. Clinician diagnosis medial epicondylitis. No fracture concern. Neurovascular exam intact. No tendon rupture. No ulnar nerve symptoms. No elbow instability. However broken bone, triceps tendon rupture, ucl concern, pinky numbness, cold hand, red warm joint, open wound, motor vehicle crash, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "medial_epicondylitis_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "distal_biceps_or_triceps_concern",
+      "elbow_instability_or_ucl_lcl_concern",
+      "ulnar_nerve_pattern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "open_wound",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_olecranon_bursitis_contradictory_note_blocks",
+    "condition": "olecranon bursitis",
+    "ed_note": "Adult. Clinician diagnosis olecranon bursitis. No septic joint. No infection. No open wound. No fracture concern. Neurovascular exam intact. However red warm joint, spreading redness, pus, fever, open wound, broken bone, motor vehicle crash, cold hand, chemotherapy, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "olecranon_bursitis_uncomplicated_no_septic_joint_or_trauma",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "septic_joint_or_infection_concern",
+      "secondary_skin_infection_concern",
+      "systemic_illness",
+      "open_wound",
+      "fracture_or_dislocation_concern",
+      "high_energy_trauma",
+      "neurovascular_compromise",
+      "immunocompromised",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_forearm_tendinitis_contradictory_note_blocks",
+    "condition": "forearm tendinitis",
+    "ed_note": "Adult. Clinician diagnosis forearm tendinitis. No tendon rupture. Neurovascular exam intact. No fracture concern. No infection. However tendon rupture, broken bone, tendon injury, open wound, red warm joint, cold hand, motor vehicle crash, unable to use limb, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "forearm_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "hand_tendon_risk",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "unable_to_use_limb",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_thumb_tendinitis_contradictory_note_blocks",
+    "condition": "thumb tendinitis",
+    "ed_note": "Adult. Clinician diagnosis thumb tendinitis. No tendon rupture. Neurovascular exam intact. No fracture concern. No infection. However tendon rupture, tendon injury, broken bone, open wound, red warm joint, cold hand, motor vehicle crash, unable to use limb, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "thumb_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "hand_tendon_risk",
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "unable_to_use_limb",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_finger_tendinitis_contradictory_note_blocks",
+    "condition": "finger tendinitis",
+    "ed_note": "Adult. Clinician diagnosis finger tendinitis. No tendon rupture. Neurovascular exam intact. No fracture concern. No infection. However tendon rupture, tendon injury, broken bone, open wound, red warm joint, cold hand, motor vehicle crash, unable to use limb, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "finger_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "hand_tendon_risk",
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "unable_to_use_limb",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_hand_tendinitis_contradictory_note_blocks",
+    "condition": "hand tendinitis",
+    "ed_note": "Adult. Clinician diagnosis hand tendinitis. No tendon rupture. Neurovascular exam intact. No fracture concern. No infection. However tendon rupture, tendon injury, broken bone, open wound, red warm joint, cold hand, motor vehicle crash, unable to use limb, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "hand_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "hand_tendon_risk",
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "unable_to_use_limb",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_elbow_tendinitis_contradictory_note_blocks",
+    "condition": "elbow tendinitis",
+    "ed_note": "Adult. Clinician diagnosis elbow tendinitis. No tendon rupture. Neurovascular exam intact. No fracture concern. No infection. No ulnar nerve symptoms. However tendon rupture, biceps tendon rupture, broken bone, elbow instability, pinky numbness, open wound, red warm joint, cold hand, motor vehicle crash, unable to use limb, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "elbow_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "distal_biceps_or_triceps_concern",
+      "fracture_or_dislocation_concern",
+      "elbow_instability_or_ucl_lcl_concern",
+      "ulnar_nerve_pattern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "unable_to_use_limb",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_knee_tendinitis_contradictory_note_blocks",
+    "condition": "knee tendinitis",
+    "ed_note": "Adult. Clinician diagnosis knee tendinitis. No tendon rupture. Neurovascular exam intact. No fracture concern. No infection. Able to bear weight. However tendon rupture, broken bone, red warm joint, large effusion, open wound, cold foot, unable to bear weight, motor vehicle crash, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "knee_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "septic_joint_or_infection_concern",
+      "acute_hemarthrosis_or_large_effusion",
+      "open_wound",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_foot_tendinitis_contradictory_note_blocks",
+    "condition": "foot tendinitis",
+    "ed_note": "Adult. Clinician diagnosis foot tendinitis. No tendon rupture. Neurovascular exam intact. No fracture concern. No infection. No diabetic foot. However tendon rupture, broken bone, open wound, red warm joint, diabetes, poor circulation, numb foot, cold foot, unable to bear weight, motor vehicle crash, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "foot_tendinitis_uncomplicated_no_rupture_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_lower_back_contusion_uncomplicated_no_spine_or_neuro_red_flags_contradictory_note_blocks",
+    "condition": "lower back contusion",
+    "ed_note": "Adult. Clinician diagnosis lower back contusion. No spine red flags. No neurologic deficit. No cauda equina symptoms. No fracture concern. However fall, urinary retention, new leg weakness, fever with back pain, severe pain, and spine consulted are documented.",
+    "expected_phenotype_id": "lower_back_contusion_uncomplicated_no_spine_or_neuro_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_trauma_concern",
+      "cauda_equina_concern",
+      "new_neurologic_deficit",
+      "spinal_infection_concern",
+      "severe_pain",
+      "specialist_directed_spine_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_neck_contusion_uncomplicated_no_spine_or_neuro_red_flags_contradictory_note_blocks",
+    "condition": "neck contusion",
+    "ed_note": "Adult. Clinician diagnosis neck contusion. No midline cervical tenderness. No neurologic deficit. No fracture concern. Neurovascular exam intact. However fall, c-spine tenderness, new weakness, severe pain, fever, and spine consulted are documented.",
+    "expected_phenotype_id": "neck_contusion_uncomplicated_no_spine_or_neuro_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_trauma_concern",
+      "midline_cervical_tenderness",
+      "new_neurologic_deficit",
+      "severe_pain",
+      "systemic_illness",
+      "specialist_directed_spine_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_buttock_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags_contradictory_note_blocks",
+    "condition": "buttock contusion",
+    "ed_note": "Adult. Clinician diagnosis buttock contusion. No fracture concern. Neurovascular exam intact. Able to walk. No severe pain. However broken bone, numb foot, severe pain, compartment syndrome, cannot walk, motor vehicle crash, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "buttock_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "compartment_syndrome_concern",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_gluteal_strain_uncomplicated_no_rupture_or_neurovascular_red_flags_contradictory_note_blocks",
+    "condition": "gluteal strain",
+    "ed_note": "Adult. Clinician diagnosis gluteal strain. No tendon rupture. Neurovascular exam intact. No fracture concern. Able to walk. However tendon rupture, broken bone, numb foot, severe pain, cannot walk, motor vehicle crash, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "gluteal_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_toe_strain_uncomplicated_no_fracture_or_diabetic_foot_contradictory_note_blocks",
+    "condition": "toe strain",
+    "ed_note": "Adult. Clinician diagnosis toe strain. No fracture concern. No open wound. No infection. No diabetic foot. Neurovascular exam intact. However broken bone, open wound, red warm joint, diabetes, poor circulation, numb foot, cannot walk, motor vehicle crash, podiatry consulted, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "toe_strain_uncomplicated_no_fracture_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_podiatry_plan",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_toe_tendinitis_uncomplicated_no_rupture_or_diabetic_foot_contradictory_note_blocks",
+    "condition": "toe tendinitis",
+    "ed_note": "Adult. Clinician diagnosis toe tendinitis. No tendon rupture. No fracture concern. No infection. No diabetic foot. Neurovascular exam intact. However tendon rupture, broken bone, open wound, red warm joint, diabetes, poor circulation, numb foot, cannot walk, motor vehicle crash, podiatry consulted, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "toe_tendinitis_uncomplicated_no_rupture_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_podiatry_plan",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_scapular_strain_uncomplicated_no_fracture_or_neurovascular_red_flags_contradictory_note_blocks",
+    "condition": "scapular strain",
+    "ed_note": "Adult. Clinician diagnosis scapular strain. No fracture concern. No tendon rupture. Neurovascular exam intact. No chest pain. Breathing comfortable. However broken bone, tendon rupture, cold hand, severe pain, chest pain, respiratory distress, motor vehicle crash, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "scapular_strain_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "chest_pain",
+      "respiratory_distress",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_localized_adhesive_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized adhesive rash",
+    "ed_note": "Adult. Clinician diagnosis localized adhesive rash. Rash after bandage adhesive. No anaphylaxis. No infection. No mucosal lesions. However trouble breathing, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemical burn, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_adhesive_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_localized_jewelry_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized jewelry rash",
+    "ed_note": "Adult. Clinician diagnosis localized jewelry rash. Rash after jewelry or nickel exposure. No anaphylaxis. No infection. No mucosal lesions. However trouble breathing, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemical burn, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_jewelry_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_localized_detergent_irritant_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized detergent rash",
+    "ed_note": "Adult. Clinician diagnosis localized detergent rash. Rash after detergent exposure. No anaphylaxis. No infection. No mucosal lesions. However trouble breathing, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemical burn, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_detergent_irritant_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_localized_cosmetic_rash_no_eye_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized cosmetic rash",
+    "ed_note": "Adult. Clinician diagnosis localized cosmetic rash. Rash after cosmetic exposure. No anaphylaxis. No infection. No mucosal lesions. No eye symptoms. However trouble breathing, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemical burn, eye pain, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_cosmetic_rash_no_eye_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "burn_or_chemical_wound",
+      "ocular_symptoms",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_localized_latex_skin_rash_no_anaphylaxis_or_mucosal_lesions_contradictory_note_blocks",
+    "condition": "localized latex skin rash",
+    "ed_note": "Adult. Clinician diagnosis localized latex skin rash. Rash after latex contact. No anaphylaxis. No infection. No mucosal lesions. However trouble breathing, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemical burn, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_latex_skin_rash_no_anaphylaxis_or_mucosal_lesions",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_localized_hair_dye_contact_rash_no_eye_or_systemic_red_flags_contradictory_note_blocks",
+    "condition": "localized hair dye rash",
+    "ed_note": "Adult. Clinician diagnosis localized hair dye rash. Rash after hair dye exposure. No anaphylaxis. No infection. No mucosal lesions. No eye symptoms. However trouble breathing, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemical burn, eye pain, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_hair_dye_contact_rash_no_eye_or_systemic_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "burn_or_chemical_wound",
+      "ocular_symptoms",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_localized_spider_bite_no_infection_or_necrotic_red_flags_contradictory_note_blocks",
+    "condition": "localized spider bite",
+    "ed_note": "Adult. Clinician diagnosis localized spider bite. No anaphylaxis. No infection. Localized reaction only. No necrotic spider concern. However trouble breathing, diffuse hives, spreading redness, black widow, tick bite, snakebite, chemotherapy, allergy consulted, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_spider_bite_no_infection_or_necrotic_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "immunocompromised",
+      "specialist_directed_allergy_plan",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_hand_rubbing_blister_no_infection_or_burn_contradictory_note_blocks",
+    "condition": "hand rubbing blister",
+    "ed_note": "Adult. Clinician diagnosis hand rubbing blister. No infection. No burn. However pus, spreading redness, open wound, hand burn, large blisters, skin peeling, mouth sores, fever, chemotherapy, and wound clinic plan are documented.",
+    "expected_phenotype_id": "hand_rubbing_blister_no_infection_or_burn",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "secondary_skin_infection_concern",
+      "wound_infection_concern",
+      "open_wound",
+      "burn_high_risk_depth_location_or_mechanism",
+      "large_blistering_or_high_risk_burn",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "systemic_illness",
+      "immunocompromised",
+      "specialist_directed_wound_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_heel_rubbing_blister_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "condition": "heel rubbing blister",
+    "ed_note": "Adult. Clinician diagnosis heel rubbing blister. No infection. No burn. No diabetic foot. No neuropathy. However pus, spreading redness, open wound, hand burn, large blisters, skin peeling, mouth sores, fever, chemotherapy, diabetes, poor circulation, numb foot, and wound clinic plan are documented.",
+    "expected_phenotype_id": "heel_rubbing_blister_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "secondary_skin_infection_concern",
+      "wound_infection_concern",
+      "open_wound",
+      "burn_high_risk_depth_location_or_mechanism",
+      "large_blistering_or_high_risk_burn",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "systemic_illness",
+      "immunocompromised",
+      "specialist_directed_wound_plan",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_toe_rubbing_blister_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "condition": "toe rubbing blister",
+    "ed_note": "Adult. Clinician diagnosis toe rubbing blister. No infection. No burn. No diabetic foot. No neuropathy. However pus, spreading redness, open wound, hand burn, large blisters, skin peeling, mouth sores, fever, chemotherapy, diabetes, poor circulation, numb foot, and wound clinic plan are documented.",
+    "expected_phenotype_id": "toe_rubbing_blister_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "secondary_skin_infection_concern",
+      "wound_infection_concern",
+      "open_wound",
+      "burn_high_risk_depth_location_or_mechanism",
+      "large_blistering_or_high_risk_burn",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "systemic_illness",
+      "immunocompromised",
+      "specialist_directed_wound_plan",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_localized_glove_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized glove rash",
+    "ed_note": "Adult. Clinician diagnosis localized glove rash. Rash after glove contact. No anaphylaxis. No infection. No mucosal lesions. However trouble breathing, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemical burn, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_glove_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_localized_deodorant_contact_rash_no_infection_or_mucosal_red_flags_contradictory_note_blocks",
+    "condition": "localized deodorant rash",
+    "ed_note": "Adult. Clinician diagnosis localized deodorant rash. Rash after deodorant exposure. No anaphylaxis. No infection. No mucosal lesions. However trouble breathing, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemical burn, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_deodorant_contact_rash_no_infection_or_mucosal_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase6000_localized_sunscreen_contact_rash_no_burn_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized sunscreen rash",
+    "ed_note": "Adult. Clinician diagnosis localized sunscreen rash. Rash after sunscreen exposure. No anaphylaxis. No infection. No mucosal lesions. However trouble breathing, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemical burn, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_sunscreen_contact_rash_no_burn_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
   }
 ]

@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.jock_itch",
+  "source": "MedlinePlus",
+  "title": "Jock itch",
+  "url": "https://medlineplus.gov/ency/article/000876.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Jock itch is a fungal infection of the groin, also called tinea cruris.",
+    "It can cause an itchy or burning rash in the groin or upper inner thigh.",
+    "Keeping the area clean and dry and using clinician-recommended antifungal treatment can help uncomplicated cases.",
+    "Secondary infection, genital or mucosal diagnostic uncertainty, immunocompromise, and recurrent or extensive disease need separate handling."
+  ],
+  "use_policy": "evidence_support"
+}

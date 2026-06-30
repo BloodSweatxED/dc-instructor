@@ -1,0 +1,445 @@
+[
+  {
+    "id": "uncomplicated_hives_no_anaphylaxis_or_mucosal_lesions",
+    "label": "Uncomplicated hives without anaphylaxis or mucosal lesions",
+    "family": "allergy_skin",
+    "condition_terms": [
+      "uncomplicated hives",
+      "hives uncomplicated",
+      "urticaria uncomplicated",
+      "localized hives"
+    ],
+    "source_card_ids": [
+      "medlineplus.hives"
+    ],
+    "summary": "Your symptoms fit uncomplicated hives.",
+    "found": "Your clinician diagnosed hives and did not find anaphylaxis, mucosal lesions, infection, or another emergency problem today.",
+    "home": [
+      "Avoid the trigger if one was identified.",
+      "Use cool compresses if they help itching.",
+      "Do not scratch the rash if you can avoid it."
+    ],
+    "meds": [
+      "Take antihistamines or other medicines only as prescribed or recommended.",
+      "Do not take sedating medicine before driving or working if it makes you sleepy."
+    ],
+    "return": [
+      "Trouble breathing, throat or tongue swelling, fainting, vomiting with rash, or symptoms involving more than one body system.",
+      "Skin peeling, mouth sores, target lesions, fever, or feeling very ill.",
+      "Hives that keep returning, worsen quickly, or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, allergy, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated hives or urticaria.",
+      "No anaphylaxis, airway symptoms, mucosal lesions, systemic illness, pregnancy/pediatric pathway, or specialist-directed allergy plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, mucosal lesions, skin peeling, target lesions, systemic illness, infection concern, pregnancy/pediatric pathway, or specialist-directed allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Airway swelling.",
+      "Severe cutaneous adverse reaction.",
+      "Systemic illness."
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "systemic_illness",
+      "biphasic_reaction_concern",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_allergy_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_hives",
+        "terms": [
+          "clinician diagnosis uncomplicated hives",
+          "discharge diagnosis uncomplicated hives",
+          "hives diagnosed",
+          "urticaria diagnosed"
+        ]
+      },
+      {
+        "id": "no_anaphylaxis_or_mucosal_lesions_documented",
+        "terms": [
+          "no anaphylaxis",
+          "no airway symptoms",
+          "no mucosal lesions",
+          "no skin peeling"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis uncomplicated hives",
+      "hives diagnosed",
+      "urticaria diagnosed",
+      "uncomplicated hives"
+    ],
+    "source_audit_notes": "MedlinePlus supports hives framing, trigger avoidance, antihistamine use, and emergency warning signs for breathing or throat symptoms. Autonomous expansion approved this narrow v1 only for clinician-diagnosed uncomplicated hives without anaphylaxis, mucosal lesions, systemic illness, pregnancy/pediatric pathway, or specialist-directed allergy plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_hives_without_anaphylaxis_or_mucosal_lesions_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated hives or urticaria",
+      "no anaphylaxis, airway symptoms, mucosal lesions, systemic illness, or specialist-directed allergy plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "common_cold_uncomplicated_no_pneumonia_or_breathing_red_flags",
+    "label": "Uncomplicated common cold without pneumonia or breathing red flags",
+    "family": "upper_respiratory",
+    "condition_terms": [
+      "common cold uncomplicated",
+      "uncomplicated common cold",
+      "cold symptoms",
+      "viral cold"
+    ],
+    "source_card_ids": [
+      "medlineplus.common_cold",
+      "ahrq.common_cold_antibiotics"
+    ],
+    "summary": "Your symptoms fit an uncomplicated common cold.",
+    "found": "Your clinician diagnosed a common cold and did not find pneumonia, breathing distress, or another emergency problem today.",
+    "home": [
+      "Rest and drink fluids as tolerated.",
+      "Use humidified air, saline spray, honey if safe for you, or other comfort measures if helpful.",
+      "Wash your hands and avoid close contact while symptoms are contagious."
+    ],
+    "meds": [
+      "Antibiotics are not needed for an uncomplicated common cold.",
+      "Use over-the-counter medicines only if safe for you and follow the label."
+    ],
+    "return": [
+      "Trouble breathing, chest pain, blue lips, confusion, fainting, or worsening shortness of breath.",
+      "Fever that is high or persistent, dehydration, or symptoms that get much worse after starting to improve.",
+      "Concern for pneumonia, asthma/COPD flare, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated common cold.",
+      "No pneumonia, hypoxia, asthma/COPD exacerbation, severe dehydration, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Pneumonia, hypoxia, shortness of breath at rest, chest pain, asthma/COPD exacerbation, severe dehydration, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Pneumonia.",
+      "Hypoxia.",
+      "Asthma/COPD exacerbation.",
+      "Severe dehydration."
+    ],
+    "unsafe_modifiers": [
+      "pneumonia",
+      "hypoxia",
+      "chest_pain",
+      "poor_inhaler_access",
+      "severe_dehydration",
+      "focal_lung_findings_or_infiltrate",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_common_cold",
+        "terms": [
+          "clinician diagnosis common cold",
+          "discharge diagnosis common cold",
+          "common cold diagnosed",
+          "viral cold diagnosed"
+        ]
+      },
+      {
+        "id": "no_pneumonia_or_breathing_red_flags_documented",
+        "terms": [
+          "no pneumonia",
+          "lungs clear",
+          "oxygen normal",
+          "no shortness of breath",
+          "no breathing distress"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis common cold",
+      "common cold diagnosed",
+      "viral cold diagnosed",
+      "uncomplicated common cold"
+    ],
+    "source_audit_notes": "MedlinePlus and AHRQ support common-cold self-care and antibiotic avoidance while preserving pneumonia and breathing red flags. Autonomous expansion approved this narrow v1 only for clinician-diagnosed uncomplicated common cold without pneumonia, hypoxia, breathing distress, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_common_cold_without_pneumonia_or_breathing_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated common cold",
+      "no pneumonia, hypoxia, breathing distress, severe dehydration, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "localized_common_wart_no_genital_or_immunocompromised_host",
+    "label": "Localized common wart without genital or immunocompromised-host red flags",
+    "family": "skin_benign",
+    "condition_terms": [
+      "localized common wart",
+      "common wart",
+      "hand wart",
+      "nonplantar wart"
+    ],
+    "source_card_ids": [
+      "medlineplus.warts"
+    ],
+    "summary": "Your symptoms fit a localized common wart.",
+    "found": "Your clinician diagnosed a localized common wart and did not find infection, genital involvement, or another emergency problem today.",
+    "home": [
+      "Do not pick, cut, or dig at the wart.",
+      "Keep it covered if it is irritated or likely to spread.",
+      "Avoid sharing items that rub the area."
+    ],
+    "meds": [
+      "Use wart treatment only if your clinician recommended it.",
+      "Stop any treatment that causes severe pain, spreading redness, or an open wound."
+    ],
+    "return": [
+      "Spreading redness, pus, fever, severe pain, or the area turns black.",
+      "The wart is on the genitals, near the eye, or you are immunocompromised.",
+      "Rapid growth, bleeding, diagnostic uncertainty, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, dermatology, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized common wart.",
+      "No genital wart/STI pathway, near-eye lesion, infection, immunocompromised host, pregnancy/pediatric pathway, or diagnostic uncertainty."
+    ],
+    "exclusion": [
+      "Genital wart/STI pathway, near-eye lesion, infection concern, immunocompromised host, rapidly enlarging/bleeding lesion, pregnancy/pediatric pathway, or specialist-directed dermatology plan."
+    ],
+    "must_not_miss": [
+      "Genital/STI pathway.",
+      "Skin infection.",
+      "Immunocompromised host.",
+      "Diagnostic uncertainty."
+    ],
+    "unsafe_modifiers": [
+      "sti_or_genital_pathway",
+      "near_eye_or_genitals",
+      "secondary_skin_infection_concern",
+      "immunocompromised",
+      "mass_red_flag_or_diagnostic_uncertainty",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_common_wart",
+        "terms": [
+          "clinician diagnosis localized common wart",
+          "discharge diagnosis common wart",
+          "common wart diagnosed",
+          "hand wart diagnosed"
+        ]
+      },
+      {
+        "id": "localized_skin_wart_without_infection_context",
+        "terms": [
+          "localized skin wart",
+          "skin only wart",
+          "no infection",
+          "routine host"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized common wart",
+      "common wart diagnosed",
+      "hand wart diagnosed",
+      "localized common wart"
+    ],
+    "source_audit_notes": "MedlinePlus supports wart framing, spread prevention, and care escalation for painful, infected, or unusual lesions. Autonomous expansion approved this narrow v1 only for clinician-diagnosed localized common wart without genital/STI pathway, infection, immunocompromised host, pregnancy/pediatric pathway, or diagnostic uncertainty.",
+    "clinical_status": "reviewed_for_limited_localized_common_wart_without_genital_or_immunocompromised_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of localized common wart",
+      "localized skin wart with no infection, immune-risk context, diagnostic uncertainty, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "forearm_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Forearm contusion without fracture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "forearm bruise",
+      "forearm contusion",
+      "forearm bruise",
+      "bruised forearm"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit an uncomplicated forearm bruise.",
+    "found": "Your clinician diagnosed a forearm bruise. We did not find a fracture, circulation problem, nerve problem, or another emergency problem today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice or elevation if recommended.",
+      "Avoid activity that clearly worsens the pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Avoid NSAIDs if your clinician told you not to take them."
+    ],
+    "return": [
+      "Worsening severe pain, rapidly increasing swelling, numbness, weakness, color change, or trouble using the area.",
+      "New deformity, concern for a broken bone, or pain not improving as expected.",
+      "Easy bleeding, a very large bruise, fever, or new symptoms that worry you."
+    ],
+    "follow": "Follow up with primary care, orthopedics, urgent care, or the ED if pain is not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated forearm contusion or bruise.",
+      "No fracture/dislocation concern, neurovascular compromise, severe pain, bleeding-risk plan, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, major trauma, open wound, neurovascular compromise, severe pain, compartment concern, or inability to use the area.",
+      "Anticoagulation/bleeding disorder requiring a separate plan, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Neurovascular compromise.",
+      "Compartment syndrome.",
+      "Significant bleeding risk."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_forearm_contusion",
+        "terms": [
+          "clinician diagnosis forearm contusion",
+          "discharge diagnosis forearm bruise",
+          "forearm contusion diagnosed",
+          "forearm bruise diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_forearm",
+        "terms": [
+          "no fracture concern",
+          "neurovascularly intact",
+          "no deformity",
+          "x-ray negative",
+          "xray negative"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis forearm contusion",
+      "forearm contusion diagnosed",
+      "forearm bruise diagnosed",
+      "forearm bruise"
+    ],
+    "source_audit_notes": "MedlinePlus supports bruise/contusion home care and warning signs for worsening swelling, pain, and unexplained bruising. Autonomous expansion approved this narrow v1 only for clinician-diagnosed forearm contusion without fracture/dislocation concern, neurovascular compromise, bleeding-risk plan, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_forearm_contusion_without_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated forearm contusion or bruise",
+      "no fracture/dislocation concern, neurovascular compromise, bleeding-risk plan, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "thigh_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Thigh contusion without fracture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "thigh bruise",
+      "thigh contusion",
+      "thigh bruise",
+      "bruised thigh"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit an uncomplicated thigh bruise.",
+    "found": "Your clinician diagnosed a thigh bruise. We did not find a fracture, circulation problem, nerve problem, or another emergency problem today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice or elevation if recommended.",
+      "Avoid activity that clearly worsens the pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Avoid NSAIDs if your clinician told you not to take them."
+    ],
+    "return": [
+      "Worsening severe pain, rapidly increasing swelling, numbness, weakness, color change, or trouble using the area.",
+      "New deformity, concern for a broken bone, or pain not improving as expected.",
+      "Easy bleeding, a very large bruise, fever, or new symptoms that worry you."
+    ],
+    "follow": "Follow up with primary care, orthopedics, urgent care, or the ED if pain is not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated thigh contusion or bruise.",
+      "No fracture/dislocation concern, neurovascular compromise, severe pain, bleeding-risk plan, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, major trauma, open wound, neurovascular compromise, severe pain, compartment concern, or inability to use the area.",
+      "Anticoagulation/bleeding disorder requiring a separate plan, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Neurovascular compromise.",
+      "Compartment syndrome.",
+      "Significant bleeding risk."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "unable_to_bear_weight_lower_extremity",
+      "compartment_syndrome_concern",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_thigh_contusion",
+        "terms": [
+          "clinician diagnosis thigh contusion",
+          "discharge diagnosis thigh bruise",
+          "thigh contusion diagnosed",
+          "thigh bruise diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_thigh",
+        "terms": [
+          "no fracture concern",
+          "neurovascularly intact",
+          "no deformity",
+          "x-ray negative",
+          "xray negative"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis thigh contusion",
+      "thigh contusion diagnosed",
+      "thigh bruise diagnosed",
+      "thigh bruise"
+    ],
+    "source_audit_notes": "MedlinePlus supports bruise/contusion home care and warning signs for worsening swelling, pain, and unexplained bruising. Autonomous expansion approved this narrow v1 only for clinician-diagnosed thigh contusion without fracture/dislocation concern, neurovascular compromise, bleeding-risk plan, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_thigh_contusion_without_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated thigh contusion or bruise",
+      "no fracture/dislocation concern, neurovascular compromise, bleeding-risk plan, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  }
+]

@@ -260,7 +260,7 @@ def render_dashboard(state: dict[str, Any]) -> str:
     repo = state["repo"]
     handoff = state["latest_handoff"]
     queue = state["review_queue"]
-    dirty_suffix = " truncated" if repo["dirty_files_truncated"] else ""
+    dirty_suffix = " (state file lists first 80)" if repo["dirty_files_truncated"] else ""
     origin_status = "matches canonical repo" if repo["origin_matches_canonical"] else "does not match canonical repo"
 
     lines = [

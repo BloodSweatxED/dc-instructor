@@ -45,6 +45,38 @@ const cases = JSON.parse(
   .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase701_750_contact_dermatitis_promotion_runtime_cases.json'), 'utf8')))
   .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase801_850_urticaria_split_runtime_cases.json'), 'utf8')))
   .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase851_constipation_promotion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase1002_1500_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase1501_1550_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase1551_1600_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase1601_1650_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase1651_1700_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase1701_1750_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase1751_1800_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase1801_1850_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase1851_1900_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase1901_2000_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase2001_2100_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase2101_2200_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase2201_2300_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase2301_2400_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase2401_2500_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase2501_2600_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase2601_2700_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase2701_2800_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase2801_2900_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase2901_3000_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase3001_3250_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase3251_3500_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase3501_3750_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase3751_4000_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase4001_4250_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase4251_4500_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase4501_4750_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase4751_5000_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase5001_5250_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase5251_5500_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase5501_5750_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase5751_6000_library_expansion_runtime_cases.json'), 'utf8')))
   .filter(
     (item) =>
       item.id.startsWith('phase14_netlify_smoke_') ||
@@ -58,6 +90,108 @@ const cases = JSON.parse(
       item.id.startsWith('phase20_elbow_overuse_') ||
       item.id.startsWith('phase20_elbow_acute_traumatic_') ||
       item.id.startsWith('phase20_foot_sprain_') ||
+      item.id.startsWith('phase20_seborrheic_dermatitis_') ||
+      item.id.startsWith('phase20_tinea_corporis_') ||
+      item.id.startsWith('phase20_ingrown_toenail_') ||
+      item.id.startsWith('phase20_aphthous_ulcer_') ||
+      item.id.startsWith('phase20_insect_bite_') ||
+      item.id.startsWith('phase20_paronychia_') ||
+      item.id.startsWith('phase20_scabies_') ||
+      item.id.startsWith('phase20_shingles_') ||
+      item.id.startsWith('phase20_stye_') ||
+      item.id.startsWith('phase20_impetigo_') ||
+      item.id.startsWith('phase20_folliculitis_') ||
+      item.id.startsWith('phase20_sunburn_') ||
+      item.id.startsWith('phase20_blepharitis_') ||
+      item.id.startsWith('phase20_bedbug_bites_') ||
+      item.id.startsWith('phase20_molluscum_') ||
+      item.id.startsWith('phase20_chalazion_') ||
+      item.id.startsWith('phase20_tinea_pedis_') ||
+      item.id.startsWith('phase20_eczema_') ||
+      item.id.startsWith('phase20_oral_herpes_') ||
+      item.id.startsWith('phase20_heat_rash_') ||
+      item.id.startsWith('phase20_allergic_rhinitis_') ||
+      item.id.startsWith('phase20_plantar_wart_') ||
+      item.id.startsWith('phase20_corn_callus_') ||
+      item.id.startsWith('phase20_acne_') ||
+      item.id.startsWith('phase20_dry_skin_') ||
+      item.id.startsWith('phase20_head_lice_') ||
+      item.id.startsWith('phase20_tinea_cruris_') ||
+      item.id.startsWith('phase20_tinea_versicolor_') ||
+      item.id.startsWith('phase20_pityriasis_rosea_') ||
+      item.id.startsWith('phase20_contusion_') ||
+      item.id.startsWith('phase20_diarrhea_') ||
+      item.id.startsWith('phase20_laryngitis_') ||
+      item.id.startsWith('phase20_plantar_fasciitis_') ||
+      item.id.startsWith('phase20_minor_burn_') ||
+      item.id.startsWith('phase20_muscle_strain_') ||
+      item.id.startsWith('phase20_friction_blister_') ||
+      item.id.startsWith('phase20_ganglion_cyst_') ||
+      item.id.startsWith('phase20_bunion_') ||
+      item.id.startsWith('phase20_tendinitis_') ||
+      item.id.startsWith('phase20_bursitis_') ||
+      item.id.startsWith('phase20_osteoarthritis_') ||
+      item.id.startsWith('phase20_costochondritis_') ||
+      item.id.startsWith('phase20_trigger_finger_') ||
+      item.id.startsWith('phase20_minor_nail_injury_') ||
+      item.id.startsWith('phase20_tmj_pain_') ||
+      item.id.startsWith('phase20_finger_sprain_') ||
+      item.id.startsWith('phase20_toe_sprain_') ||
+      item.id.startsWith('phase20_rib_contusion_') ||
+      item.id.startsWith('phase20_shoulder_tendinitis_') ||
+      item.id.startsWith('phase20_wrist_tendinitis_') ||
+      item.id.startsWith('phase20_puncture_wound_') ||
+      item.id.startsWith('phase20_splinter_removed_') ||
+      item.id.startsWith('phase20_healing_wound_') ||
+      item.id.startsWith('phase20_ankle_bruise_') ||
+      item.id.startsWith('phase20_shoulder_bruise_') ||
+      item.id.startsWith('phase20_knee_contusion_') ||
+      item.id.startsWith('phase20_elbow_contusion_') ||
+      item.id.startsWith('phase20_wrist_contusion_') ||
+      item.id.startsWith('phase20_foot_contusion_') ||
+      item.id.startsWith('phase20_finger_contusion_') ||
+      item.id.startsWith('phase20_calf_strain_') ||
+      item.id.startsWith('phase20_hamstring_strain_') ||
+      item.id.startsWith('phase20_quadriceps_strain_') ||
+      item.id.startsWith('phase20_forearm_strain_') ||
+      item.id.startsWith('phase20_upper_back_strain_') ||
+      item.id.startsWith('phase20_hives_') ||
+      item.id.startsWith('phase20_common_cold_') ||
+      item.id.startsWith('phase20_common_wart_') ||
+      item.id.startsWith('phase20_localized_common_wart_') ||
+      item.id.startsWith('phase20_forearm_contusion_') ||
+      item.id.startsWith('phase20_thigh_contusion_') ||
+      item.id.startsWith('phase20_hand_contusion_') ||
+      item.id.startsWith('phase20_upper_arm_contusion_') ||
+      item.id.startsWith('phase20_lower_leg_contusion_') ||
+      item.id.startsWith('phase20_hip_contusion_') ||
+      item.id.startsWith('phase20_toe_contusion_') ||
+      item.id.startsWith('phase20_trapezius_strain_') ||
+      item.id.startsWith('phase20_hip_strain_') ||
+      item.id.startsWith('phase20_groin_strain_') ||
+      item.id.startsWith('phase20_abdominal_wall_strain_') ||
+      item.id.startsWith('phase20_chest_wall_muscle_strain_') ||
+      item.id.startsWith('phase20_peroneal_tendinitis_') ||
+      item.id.startsWith('phase20_quadriceps_tendinitis_') ||
+      item.id.startsWith('phase20_tibialis_anterior_tendinitis_') ||
+      item.id.startsWith('phase20_achilles_tendinitis_') ||
+      item.id.startsWith('phase20_patellar_tendinitis_') ||
+      item.id.startsWith('phase20_thumb_sprain_') ||
+      item.id.startsWith('phase20_hand_sprain_') ||
+      item.id.startsWith('phase20_biceps_tendinitis_') ||
+      item.id.startsWith('phase20_thumb_strain_') ||
+      item.id.startsWith('phase20_hip_sprain_') ||
+      item.id.startsWith('phase20_viral_conjunctivitis_') ||
+      item.id.startsWith('phase20_allergic_conjunctivitis_') ||
+      item.id.startsWith('phase20_anterior_epistaxis_') ||
+      item.id.startsWith('phase20_triceps_tendinitis_') ||
+      item.id.startsWith('phase20_ear_canal_irritation_') ||
+      item.id.startsWith('phase20_phase6000_') ||
+      item.id.startsWith('phase25') ||
+      item.id.startsWith('phase26') ||
+      item.id.startsWith('phase27') ||
+      item.id.startsWith('phase28') ||
+      item.id.startsWith('phase29') ||
       item.id.startsWith('phase26_') ||
       item.id.startsWith('phase31_') ||
       item.id.startsWith('phase32_') ||
@@ -81,6 +215,141 @@ const cases = JSON.parse(
       item.id.startsWith('phase163_') ||
       item.id.startsWith('phase169_') ||
       item.id.startsWith('phase175_') ||
+      item.id.startsWith('phase1751_') ||
+      item.id.startsWith('phase1752_') ||
+      item.id.startsWith('phase1753_') ||
+      item.id.startsWith('phase1754_') ||
+      item.id.startsWith('phase1755_') ||
+      item.id.startsWith('phase1756_') ||
+      item.id.startsWith('phase1757_') ||
+      item.id.startsWith('phase1758_') ||
+      item.id.startsWith('phase1759_') ||
+      item.id.startsWith('phase1760_') ||
+      item.id.startsWith('phase1761_') ||
+      item.id.startsWith('phase1762_') ||
+      item.id.startsWith('phase1763_') ||
+      item.id.startsWith('phase1764_') ||
+      item.id.startsWith('phase1765_') ||
+      item.id.startsWith('phase1801_') ||
+      item.id.startsWith('phase1802_') ||
+      item.id.startsWith('phase1803_') ||
+      item.id.startsWith('phase1804_') ||
+      item.id.startsWith('phase1805_') ||
+      item.id.startsWith('phase1806_') ||
+      item.id.startsWith('phase1807_') ||
+      item.id.startsWith('phase1808_') ||
+      item.id.startsWith('phase1809_') ||
+      item.id.startsWith('phase1810_') ||
+      item.id.startsWith('phase1811_') ||
+      item.id.startsWith('phase1812_') ||
+      item.id.startsWith('phase1813_') ||
+      item.id.startsWith('phase1814_') ||
+      item.id.startsWith('phase1815_') ||
+      item.id.startsWith('phase1851_') ||
+      item.id.startsWith('phase1852_') ||
+      item.id.startsWith('phase1853_') ||
+      item.id.startsWith('phase1854_') ||
+      item.id.startsWith('phase1855_') ||
+      item.id.startsWith('phase1856_') ||
+      item.id.startsWith('phase1857_') ||
+      item.id.startsWith('phase1858_') ||
+      item.id.startsWith('phase1859_') ||
+      item.id.startsWith('phase1860_') ||
+      item.id.startsWith('phase1861_') ||
+      item.id.startsWith('phase1862_') ||
+      item.id.startsWith('phase1863_') ||
+      item.id.startsWith('phase1864_') ||
+      item.id.startsWith('phase1865_') ||
+      item.id.startsWith('phase1901_') ||
+      item.id.startsWith('phase1902_') ||
+      item.id.startsWith('phase1903_') ||
+      item.id.startsWith('phase1904_') ||
+      item.id.startsWith('phase1905_') ||
+      item.id.startsWith('phase1906_') ||
+      item.id.startsWith('phase1907_') ||
+      item.id.startsWith('phase1908_') ||
+      item.id.startsWith('phase1909_') ||
+      item.id.startsWith('phase1910_') ||
+      item.id.startsWith('phase1911_') ||
+      item.id.startsWith('phase1912_') ||
+      item.id.startsWith('phase1913_') ||
+      item.id.startsWith('phase1914_') ||
+      item.id.startsWith('phase1915_') ||
+      item.id.startsWith('phase2001_') ||
+      item.id.startsWith('phase2002_') ||
+      item.id.startsWith('phase2003_') ||
+      item.id.startsWith('phase2004_') ||
+      item.id.startsWith('phase2005_') ||
+      item.id.startsWith('phase2006_') ||
+      item.id.startsWith('phase2007_') ||
+      item.id.startsWith('phase2008_') ||
+      item.id.startsWith('phase2009_') ||
+      item.id.startsWith('phase2010_') ||
+      item.id.startsWith('phase2011_') ||
+      item.id.startsWith('phase2012_') ||
+      item.id.startsWith('phase2013_') ||
+      item.id.startsWith('phase2014_') ||
+      item.id.startsWith('phase2015_') ||
+      item.id.startsWith('phase2101_') ||
+      item.id.startsWith('phase2102_') ||
+      item.id.startsWith('phase2103_') ||
+      item.id.startsWith('phase2104_') ||
+      item.id.startsWith('phase2105_') ||
+      item.id.startsWith('phase2106_') ||
+      item.id.startsWith('phase2107_') ||
+      item.id.startsWith('phase2108_') ||
+      item.id.startsWith('phase2109_') ||
+      item.id.startsWith('phase2110_') ||
+      item.id.startsWith('phase2111_') ||
+      item.id.startsWith('phase2112_') ||
+      item.id.startsWith('phase2113_') ||
+      item.id.startsWith('phase2114_') ||
+      item.id.startsWith('phase2115_') ||
+      item.id.startsWith('phase2201_') ||
+      item.id.startsWith('phase2202_') ||
+      item.id.startsWith('phase2203_') ||
+      item.id.startsWith('phase2204_') ||
+      item.id.startsWith('phase2205_') ||
+      item.id.startsWith('phase2206_') ||
+      item.id.startsWith('phase2207_') ||
+      item.id.startsWith('phase2208_') ||
+      item.id.startsWith('phase2209_') ||
+      item.id.startsWith('phase2210_') ||
+      item.id.startsWith('phase2211_') ||
+      item.id.startsWith('phase2212_') ||
+      item.id.startsWith('phase2213_') ||
+      item.id.startsWith('phase2214_') ||
+      item.id.startsWith('phase2215_') ||
+      item.id.startsWith('phase2301_') ||
+      item.id.startsWith('phase2302_') ||
+      item.id.startsWith('phase2303_') ||
+      item.id.startsWith('phase2304_') ||
+      item.id.startsWith('phase2305_') ||
+      item.id.startsWith('phase2306_') ||
+      item.id.startsWith('phase2307_') ||
+      item.id.startsWith('phase2308_') ||
+      item.id.startsWith('phase2309_') ||
+      item.id.startsWith('phase2310_') ||
+      item.id.startsWith('phase2311_') ||
+      item.id.startsWith('phase2312_') ||
+      item.id.startsWith('phase2313_') ||
+      item.id.startsWith('phase2314_') ||
+      item.id.startsWith('phase2315_') ||
+      item.id.startsWith('phase2401_') ||
+      item.id.startsWith('phase2402_') ||
+      item.id.startsWith('phase2403_') ||
+      item.id.startsWith('phase2404_') ||
+      item.id.startsWith('phase2405_') ||
+      item.id.startsWith('phase2406_') ||
+      item.id.startsWith('phase2407_') ||
+      item.id.startsWith('phase2408_') ||
+      item.id.startsWith('phase2409_') ||
+      item.id.startsWith('phase2410_') ||
+      item.id.startsWith('phase2411_') ||
+      item.id.startsWith('phase2412_') ||
+      item.id.startsWith('phase2413_') ||
+      item.id.startsWith('phase2414_') ||
+      item.id.startsWith('phase2415_') ||
       item.id.startsWith('phase176_') ||
       item.id.startsWith('phase193_') ||
       item.id.startsWith('phase202_') ||
@@ -247,7 +516,211 @@ const cases = JSON.parse(
       item.id.startsWith('phase863_') ||
       item.id.startsWith('phase864_') ||
       item.id.startsWith('phase865_') ||
-      item.id.startsWith('phase866_')
+      item.id.startsWith('phase866_') ||
+      item.id.startsWith('phase1002_') ||
+      item.id.startsWith('phase1003_') ||
+      item.id.startsWith('phase1004_') ||
+      item.id.startsWith('phase1005_') ||
+      item.id.startsWith('phase1006_') ||
+      item.id.startsWith('phase1007_') ||
+      item.id.startsWith('phase1008_') ||
+      item.id.startsWith('phase1009_') ||
+      item.id.startsWith('phase1010_') ||
+      item.id.startsWith('phase1011_') ||
+      item.id.startsWith('phase1012_') ||
+      item.id.startsWith('phase1013_') ||
+      item.id.startsWith('phase1014_') ||
+      item.id.startsWith('phase1015_') ||
+      item.id.startsWith('phase1016_') ||
+      item.id.startsWith('phase1501_') ||
+      item.id.startsWith('phase1502_') ||
+      item.id.startsWith('phase1503_') ||
+      item.id.startsWith('phase1504_') ||
+      item.id.startsWith('phase1505_') ||
+      item.id.startsWith('phase1506_') ||
+      item.id.startsWith('phase1507_') ||
+      item.id.startsWith('phase1508_') ||
+      item.id.startsWith('phase1509_') ||
+      item.id.startsWith('phase1510_') ||
+      item.id.startsWith('phase1511_') ||
+      item.id.startsWith('phase1512_') ||
+      item.id.startsWith('phase1513_') ||
+      item.id.startsWith('phase1514_') ||
+      item.id.startsWith('phase1515_') ||
+      item.id.startsWith('phase20_foot_sprain_') ||
+      item.id.startsWith('phase20_minor_head_injury_') ||
+      item.id.startsWith('phase20_concussion_') ||
+      item.id.startsWith('phase20_renal_colic_') ||
+      item.id.startsWith('phase20_asthma_exacerbation_') ||
+      item.id.startsWith('phase20_heel_contusion_') ||
+      item.id.startsWith('phase20_palm_contusion_') ||
+      item.id.startsWith('phase20_upper_arm_strain_') ||
+      item.id.startsWith('phase20_lower_leg_strain_') ||
+      item.id.startsWith('phase20_ankle_tendinitis_') ||
+      item.id.startsWith('phase20_shin_contusion_') ||
+      item.id.startsWith('phase20_heel_strain_') ||
+      item.id.startsWith('phase20_mosquito_bites_') ||
+      item.id.startsWith('phase20_poison_ivy_') ||
+      item.id.startsWith('phase20_dry_cracked_hands_') ||
+      item.id.startsWith('phase20_upper_back_contusion_') ||
+      item.id.startsWith('phase20_trunk_contusion_') ||
+      item.id.startsWith('phase20_shoulder_strain_') ||
+      item.id.startsWith('phase20_wrist_strain_') ||
+      item.id.startsWith('phase20_flea_bites_') ||
+      item.id.startsWith('phase20_ankle_strain_') ||
+      item.id.startsWith('phase20_foot_strain_') ||
+      item.id.startsWith('phase20_elbow_strain_') ||
+      item.id.startsWith('phase20_hand_strain_') ||
+      item.id.startsWith('phase20_finger_strain_') ||
+      item.id.startsWith('phase20_ant_bites_') ||
+      item.id.startsWith('phase20_chigger_bites_') ||
+      item.id.startsWith('phase20_midge_bites_') ||
+      item.id.startsWith('phase20_plant_contact_dermatitis_') ||
+      item.id.startsWith('phase20_soap_irritant_dermatitis_') ||
+      item.id.startsWith('phase20_bee_sting_') ||
+      item.id.startsWith('phase20_wasp_sting_') ||
+      item.id.startsWith('phase20_hornet_sting_') ||
+      item.id.startsWith('phase20_gnat_bites_') ||
+      item.id.startsWith('phase20_fly_bites_') ||
+      item.id.startsWith('phase3001_') ||
+      item.id.startsWith('phase3002_') ||
+      item.id.startsWith('phase3003_') ||
+      item.id.startsWith('phase3004_') ||
+      item.id.startsWith('phase3005_') ||
+      item.id.startsWith('phase3006_') ||
+      item.id.startsWith('phase3007_') ||
+      item.id.startsWith('phase3008_') ||
+      item.id.startsWith('phase3009_') ||
+      item.id.startsWith('phase3010_') ||
+      item.id.startsWith('phase3011_') ||
+      item.id.startsWith('phase3012_') ||
+      item.id.startsWith('phase3013_') ||
+      item.id.startsWith('phase3014_') ||
+      item.id.startsWith('phase3015_') ||
+      item.id.startsWith('phase3016_') ||
+      item.id.startsWith('phase3017_') ||
+      item.id.startsWith('phase3018_') ||
+      item.id.startsWith('phase3019_') ||
+      item.id.startsWith('phase3020_') ||
+      item.id.startsWith('phase3021_') ||
+      item.id.startsWith('phase3022_') ||
+      item.id.startsWith('phase3023_') ||
+      item.id.startsWith('phase3024_') ||
+      item.id.startsWith('phase3025_') ||
+      item.id.startsWith('phase3026_') ||
+      item.id.startsWith('phase3251_') ||
+      item.id.startsWith('phase3252_') ||
+      item.id.startsWith('phase3253_') ||
+      item.id.startsWith('phase3254_') ||
+      item.id.startsWith('phase3255_') ||
+      item.id.startsWith('phase3256_') ||
+      item.id.startsWith('phase3257_') ||
+      item.id.startsWith('phase3258_') ||
+      item.id.startsWith('phase3259_') ||
+      item.id.startsWith('phase3260_') ||
+      item.id.startsWith('phase3261_') ||
+      item.id.startsWith('phase3262_') ||
+      item.id.startsWith('phase3263_') ||
+      item.id.startsWith('phase3264_') ||
+      item.id.startsWith('phase3265_') ||
+      item.id.startsWith('phase3501_') ||
+      item.id.startsWith('phase3502_') ||
+      item.id.startsWith('phase3503_') ||
+      item.id.startsWith('phase3504_') ||
+      item.id.startsWith('phase3505_') ||
+      item.id.startsWith('phase3506_') ||
+      item.id.startsWith('phase3507_') ||
+      item.id.startsWith('phase3508_') ||
+      item.id.startsWith('phase3509_') ||
+      item.id.startsWith('phase3510_') ||
+      item.id.startsWith('phase3511_') ||
+      item.id.startsWith('phase3512_') ||
+      item.id.startsWith('phase3513_') ||
+      item.id.startsWith('phase3514_') ||
+      item.id.startsWith('phase3515_') ||
+      item.id.startsWith('phase3751_') ||
+      item.id.startsWith('phase3752_') ||
+      item.id.startsWith('phase3753_') ||
+      item.id.startsWith('phase3754_') ||
+      item.id.startsWith('phase3755_') ||
+      item.id.startsWith('phase3756_') ||
+      item.id.startsWith('phase3757_') ||
+      item.id.startsWith('phase3758_') ||
+      item.id.startsWith('phase3759_') ||
+      item.id.startsWith('phase3760_') ||
+      item.id.startsWith('phase3761_') ||
+      item.id.startsWith('phase3762_') ||
+      item.id.startsWith('phase3763_') ||
+      item.id.startsWith('phase3764_') ||
+      item.id.startsWith('phase3765_') ||
+      item.id.startsWith('phase4001_') ||
+      item.id.startsWith('phase4002_') ||
+      item.id.startsWith('phase4003_') ||
+      item.id.startsWith('phase4004_') ||
+      item.id.startsWith('phase4005_') ||
+      item.id.startsWith('phase4006_') ||
+      item.id.startsWith('phase4007_') ||
+      item.id.startsWith('phase4008_') ||
+      item.id.startsWith('phase4009_') ||
+      item.id.startsWith('phase4010_') ||
+      item.id.startsWith('phase4011_') ||
+      item.id.startsWith('phase4012_') ||
+      item.id.startsWith('phase4013_') ||
+      item.id.startsWith('phase4014_') ||
+      item.id.startsWith('phase4015_') ||
+      item.id.startsWith('phase4251_') ||
+      item.id.startsWith('phase4252_') ||
+      item.id.startsWith('phase4253_') ||
+      item.id.startsWith('phase4254_') ||
+      item.id.startsWith('phase4255_') ||
+      item.id.startsWith('phase4256_') ||
+      item.id.startsWith('phase4257_') ||
+      item.id.startsWith('phase4258_') ||
+      item.id.startsWith('phase4259_') ||
+      item.id.startsWith('phase4260_') ||
+      item.id.startsWith('phase4261_') ||
+      item.id.startsWith('phase4262_') ||
+      item.id.startsWith('phase4263_') ||
+      item.id.startsWith('phase4264_') ||
+      item.id.startsWith('phase4265_') ||
+      item.id.startsWith('phase4501_') ||
+      item.id.startsWith('phase4502_') ||
+      item.id.startsWith('phase4503_') ||
+      item.id.startsWith('phase4504_') ||
+      item.id.startsWith('phase4505_') ||
+      item.id.startsWith('phase4506_') ||
+      item.id.startsWith('phase4507_') ||
+      item.id.startsWith('phase4508_') ||
+      item.id.startsWith('phase4509_') ||
+      item.id.startsWith('phase4510_') ||
+      item.id.startsWith('phase4511_') ||
+      item.id.startsWith('phase4512_') ||
+      item.id.startsWith('phase4513_') ||
+      item.id.startsWith('phase4514_') ||
+      item.id.startsWith('phase4515_') ||
+      item.id.startsWith('phase4751_') ||
+      item.id.startsWith('phase4752_') ||
+      item.id.startsWith('phase4753_') ||
+      item.id.startsWith('phase4754_') ||
+      item.id.startsWith('phase4755_') ||
+      item.id.startsWith('phase4756_') ||
+      item.id.startsWith('phase4757_') ||
+      item.id.startsWith('phase4758_') ||
+      item.id.startsWith('phase4759_') ||
+      item.id.startsWith('phase4760_') ||
+      item.id.startsWith('phase4761_') ||
+      item.id.startsWith('phase4762_') ||
+      item.id.startsWith('phase4763_') ||
+      item.id.startsWith('phase4764_') ||
+      item.id.startsWith('phase4765_') ||
+      item.id.startsWith('phase500') ||
+      item.id.startsWith('phase501') ||
+      item.id.startsWith('phase525') ||
+      item.id.startsWith('phase526') ||
+      item.id.startsWith('phase550') ||
+      item.id.startsWith('phase551') ||
+      item.id.startsWith('phase575') ||
+      item.id.startsWith('phase576')
   );
 
 for (const item of cases) {

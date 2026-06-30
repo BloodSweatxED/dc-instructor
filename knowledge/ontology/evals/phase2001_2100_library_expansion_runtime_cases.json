@@ -1,0 +1,162 @@
+[
+  {
+    "id": "phase2001_finger_sprain_clean",
+    "condition": "finger sprain xray negative",
+    "ed_note": "Adult. Clinician diagnosis finger sprain. X-ray performed and negative. Neurovascularly intact. No tendon rupture. No infection.",
+    "expected_phenotype_id": "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2002_finger_sprain_missing_context_blocks",
+    "condition": "finger sprain xray negative",
+    "ed_note": "Adult with jammed finger pain.",
+    "expected_phenotype_id": "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_finger_sprain",
+      "xray_negative_and_neurovascularly_intact"
+    ]
+  },
+  {
+    "id": "phase2003_finger_sprain_unsafe_modifiers_block",
+    "condition": "finger sprain xray negative",
+    "ed_note": "Finger sprain diagnosed, but possible fracture, tendon rupture, numb fingers, severe pain, and flexor tenosynovitis concern are documented.",
+    "expected_phenotype_id": "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "flexor_tenosynovitis_concern"
+    ]
+  },
+  {
+    "id": "phase2004_toe_sprain_clean",
+    "condition": "toe sprain xray negative",
+    "ed_note": "Adult. Clinician diagnosis toe sprain. X-ray performed and negative. No open wound. Neurovascularly intact.",
+    "expected_phenotype_id": "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2005_toe_sprain_missing_context_blocks",
+    "condition": "toe sprain xray negative",
+    "ed_note": "Adult with stubbed toe pain.",
+    "expected_phenotype_id": "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_toe_sprain",
+      "xray_negative_no_open_wound_or_foot_risk"
+    ]
+  },
+  {
+    "id": "phase2006_toe_sprain_unsafe_modifiers_block",
+    "condition": "toe sprain xray negative",
+    "ed_note": "Toe sprain diagnosed, but open fracture, possible fracture, diabetic foot ulcer, numb toes, and unable to bear weight are documented.",
+    "expected_phenotype_id": "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "open_fracture",
+      "fracture_or_dislocation_concern",
+      "diabetic_foot",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase2007_rib_contusion_clean",
+    "condition": "rib contusion",
+    "ed_note": "Adult. Clinician diagnosis rib contusion. No fracture concern. No shortness of breath. No hypoxia. No cardiac concern. No PE concern.",
+    "expected_phenotype_id": "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2008_rib_contusion_missing_context_blocks",
+    "condition": "rib contusion",
+    "ed_note": "Adult with chest wall bruise.",
+    "expected_phenotype_id": "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_uncomplicated_rib_contusion",
+      "no_fracture_or_cardiopulmonary_red_flags_documented"
+    ]
+  },
+  {
+    "id": "phase2009_rib_contusion_unsafe_modifiers_block",
+    "condition": "rib contusion",
+    "ed_note": "Rib contusion diagnosed, but possible fracture, low oxygen, hemoptysis, acs concern, and syncope are documented.",
+    "expected_phenotype_id": "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "hypoxia",
+      "hemoptysis",
+      "cardiac_or_pe_chest_pain_concern",
+      "syncope_or_fainting"
+    ]
+  },
+  {
+    "id": "phase2010_shoulder_tendinitis_clean",
+    "condition": "shoulder tendinitis",
+    "ed_note": "Adult. Clinician diagnosis shoulder tendinitis. No tendon rupture. No fracture concern. Neurovascularly intact. No infection. No dislocation.",
+    "expected_phenotype_id": "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2011_shoulder_tendinitis_missing_context_blocks",
+    "condition": "shoulder tendinitis",
+    "ed_note": "Adult with shoulder overuse pain.",
+    "expected_phenotype_id": "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_uncomplicated_shoulder_tendinitis",
+      "no_rupture_fracture_or_neurovascular_red_flags"
+    ]
+  },
+  {
+    "id": "phase2012_shoulder_tendinitis_unsafe_modifiers_block",
+    "condition": "shoulder tendinitis",
+    "ed_note": "Shoulder tendinitis diagnosed, but tendon rupture, possible fracture, hot joint, numb hand, and chest pain with acs concern are documented.",
+    "expected_phenotype_id": "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "cardiac_or_pe_chest_pain_concern"
+    ]
+  },
+  {
+    "id": "phase2013_wrist_tendinitis_clean",
+    "condition": "wrist tendinitis",
+    "ed_note": "Adult. Clinician diagnosis wrist tendinitis. No fracture concern. No tendon rupture. Neurovascularly intact. No infection. No scaphoid concern.",
+    "expected_phenotype_id": "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2014_wrist_tendinitis_missing_context_blocks",
+    "condition": "wrist tendinitis",
+    "ed_note": "Adult with wrist overuse pain.",
+    "expected_phenotype_id": "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_uncomplicated_wrist_tendinitis",
+      "no_fracture_rupture_or_neurovascular_red_flags"
+    ]
+  },
+  {
+    "id": "phase2015_wrist_tendinitis_unsafe_modifiers_block",
+    "condition": "wrist overuse pain",
+    "ed_note": "Adult with wrist overuse pain after FOOSH with snuffbox tenderness, possible fracture, spreading redness, numb fingers, and severe pain.",
+    "expected_phenotype_id": "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "foosh_scaphoid_risk",
+      "fracture_or_dislocation_concern",
+      "secondary_skin_infection_concern",
+      "neurovascular_compromise",
+      "severe_pain"
+    ]
+  }
+]

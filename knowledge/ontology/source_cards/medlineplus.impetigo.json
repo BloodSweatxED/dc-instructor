@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.impetigo",
+  "source": "MedlinePlus",
+  "title": "Impetigo",
+  "url": "https://medlineplus.gov/impetigo.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Impetigo is a contagious bacterial skin infection caused by staph or strep bacteria.",
+    "It often starts after a break in the skin and can cause red or pimple-like sores that form a thick crust.",
+    "Scratching can spread impetigo, and antibiotics may be used for treatment.",
+    "Patients should seek care if infection spreads, fever develops, or symptoms worsen."
+  ],
+  "use_policy": "evidence_support"
+}

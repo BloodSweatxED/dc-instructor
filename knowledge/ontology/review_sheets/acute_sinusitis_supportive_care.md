@@ -2,7 +2,7 @@
 
 Phenotype ID: `acute_sinusitis_supportive_care`
 
-Status: `needs_review`
+Status: `reviewed`
 
 ## Inclusion Criteria
 

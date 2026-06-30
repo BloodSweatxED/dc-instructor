@@ -1,0 +1,128 @@
+{
+  "id": "ganglion_cyst_uncomplicated_no_neurovascular_or_infection",
+  "label": "Uncomplicated ganglion cyst without neurovascular symptoms or infection",
+  "status": "reviewed",
+  "condition_family": "msk",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated ganglion cyst.",
+    "No infection, open wound, neurovascular compromise, trauma/fracture concern, rapidly enlarging or diagnostically uncertain mass, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Neurovascular compromise, severe pain, infection, open wound, trauma/fracture concern, rapidly enlarging mass, hard/fixed mass, malignancy concern, or diagnostic uncertainty.",
+    "Pregnancy/pediatric pathway or specialist-directed orthopedic/hand plan."
+  ],
+  "must_not_miss": [
+    "Neurovascular compromise.",
+    "Infected cyst or abscess.",
+    "Fracture or tendon injury mimic.",
+    "Concerning soft-tissue mass."
+  ],
+  "default_follow_up": "Follow up with primary care, orthopedics, hand surgery, or sports medicine if symptoms persist, function is limited, or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "ganglion_cyst_uncomplicated_no_neurovascular_or_infection.diagnosis.diagnosis_summary.v1",
+    "ganglion_cyst_uncomplicated_no_neurovascular_or_infection.what_we_found.reassuring_ed_assessment.v1",
+    "ganglion_cyst_uncomplicated_no_neurovascular_or_infection.home_care.home_care_1.v1",
+    "ganglion_cyst_uncomplicated_no_neurovascular_or_infection.home_care.home_care_2.v1",
+    "ganglion_cyst_uncomplicated_no_neurovascular_or_infection.home_care.home_care_3.v1",
+    "ganglion_cyst_uncomplicated_no_neurovascular_or_infection.medications.medication_guidance_1.v1",
+    "ganglion_cyst_uncomplicated_no_neurovascular_or_infection.medications.medication_guidance_2.v1",
+    "ganglion_cyst_uncomplicated_no_neurovascular_or_infection.return_precautions.return_precaution_1.v1",
+    "ganglion_cyst_uncomplicated_no_neurovascular_or_infection.return_precautions.return_precaution_2.v1",
+    "ganglion_cyst_uncomplicated_no_neurovascular_or_infection.return_precautions.return_precaution_3.v1",
+    "ganglion_cyst_uncomplicated_no_neurovascular_or_infection.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.ganglion_cyst"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports ganglion-cyst framing as a fluid-filled swelling near a joint or tendon and notes symptoms may include discomfort with movement or pressure. Autonomous Phase 1851-1900 approved this narrow v1 only for clinician-diagnosed uncomplicated ganglion cyst without infection, neurovascular symptoms, trauma/fracture concern, rapidly enlarging or diagnostically uncertain mass, pregnancy/pediatric pathway, or specialist-directed plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "ganglion cyst",
+      "uncomplicated ganglion cyst",
+      "wrist ganglion",
+      "hand ganglion"
+    ],
+    "unsafe_modifiers": [
+      "neurovascular_compromise",
+      "severe_pain",
+      "secondary_skin_infection_concern",
+      "open_wound",
+      "fracture_or_dislocation_concern",
+      "mass_red_flag_or_diagnostic_uncertainty",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_ganglion_cyst",
+        "terms": [
+          "clinician diagnosis ganglion cyst",
+          "discharge diagnosis ganglion cyst",
+          "ganglion cyst diagnosed",
+          "uncomplicated ganglion cyst diagnosed"
+        ]
+      },
+      {
+        "id": "no_neurovascular_or_infection_documented",
+        "terms": [
+          "neurovascularly intact",
+          "no numbness",
+          "no weakness",
+          "no infection",
+          "no cellulitis"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis ganglion cyst",
+      "ganglion cyst diagnosed",
+      "uncomplicated ganglion cyst diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-18",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports ganglion-cyst framing as a fluid-filled swelling near a joint or tendon and notes symptoms may include discomfort with movement or pressure. Autonomous Phase 1851-1900 approved this narrow v1 only for clinician-diagnosed uncomplicated ganglion cyst without infection, neurovascular symptoms, trauma/fracture concern, rapidly enlarging or diagnostically uncertain mass, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_ganglion_cyst_without_neurovascular_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated ganglion cyst",
+      "no neurovascular symptoms or infection documented",
+      "no trauma/fracture concern, rapidly enlarging/uncertain mass, pregnancy, pediatric, or specialist-directed pathway"
+    ],
+    "blocked_modifiers": [
+      "neurovascular_compromise",
+      "severe_pain",
+      "secondary_skin_infection_concern",
+      "open_wound",
+      "fracture_or_dislocation_concern",
+      "mass_red_flag_or_diagnostic_uncertainty",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+}

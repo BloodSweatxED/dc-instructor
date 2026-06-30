@@ -1,0 +1,146 @@
+{
+  "id": "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot",
+  "label": "Toe sprain with negative x-ray and no open wound or diabetic-foot risk",
+  "status": "reviewed",
+  "condition_family": "msk",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of toe sprain/strain.",
+    "X-ray performed and negative, with intact neurovascular exam and no open wound, infection, diabetic-foot/PVD/neuropathy risk, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Fracture or dislocation concern, open wound, nail-bed injury requiring separate pathway, infection, neurovascular compromise, severe pain, inability to bear weight, high-energy trauma, or crush injury.",
+    "Diabetic-foot risk, neuropathy, PVD, pregnancy/pediatric pathway, or specialist-directed podiatry/orthopedic plan."
+  ],
+  "must_not_miss": [
+    "Fracture or dislocation.",
+    "Open fracture.",
+    "Neurovascular compromise.",
+    "Diabetic foot injury.",
+    "Cellulitis or abscess."
+  ],
+  "default_follow_up": "Follow up with primary care, sports medicine, podiatry, or orthopedics if pain, walking, or swelling is not improving.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot.diagnosis.diagnosis_summary.v1",
+    "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot.what_we_found.reassuring_ed_assessment.v1",
+    "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot.home_care.home_care_1.v1",
+    "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot.home_care.home_care_2.v1",
+    "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot.home_care.home_care_3.v1",
+    "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot.medications.medication_guidance_1.v1",
+    "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot.medications.medication_guidance_2.v1",
+    "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot.return_precautions.return_precaution_1.v1",
+    "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot.return_precautions.return_precaution_2.v1",
+    "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot.return_precautions.return_precaution_3.v1",
+    "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.sprains_strains"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports sprain/strain framing, protection/rest/elevation concepts, gradual return to activity, and escalation for worsening pain, swelling, numbness, color change, fever, inability to move, or inability to walk. Autonomous Phase 2001-2100 approved this narrow v1 only for clinician-diagnosed toe sprain/strain with negative x-ray, intact neurovascular exam, and no open wound, infection, diabetic-foot/PVD/neuropathy risk, pregnancy/pediatric pathway, or specialist-directed plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "toe sprain xray negative",
+      "toe sprain negative xray",
+      "toe sprain",
+      "stubbed toe sprain"
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "open_fracture",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "crush_injury",
+      "diabetic_foot",
+      "neuropathy_foot_risk",
+      "peripheral_vascular_disease",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_podiatry_plan",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_toe_sprain",
+        "terms": [
+          "clinician diagnosis toe sprain",
+          "discharge diagnosis toe sprain",
+          "toe sprain diagnosed",
+          "toe strain diagnosed",
+          "stubbed toe sprain diagnosed"
+        ]
+      },
+      {
+        "id": "xray_negative_no_open_wound_or_foot_risk",
+        "terms": [
+          "xray performed and negative",
+          "x-ray performed and negative",
+          "xray negative for fracture",
+          "x-ray negative for fracture",
+          "no open wound",
+          "neurovascularly intact"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis toe sprain",
+      "toe sprain diagnosed",
+      "toe sprain xray negative"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-19",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports sprain/strain framing, protection/rest/elevation concepts, gradual return to activity, and escalation for worsening pain, swelling, numbness, color change, fever, inability to move, or inability to walk. Autonomous Phase 2001-2100 approved this narrow v1 only for clinician-diagnosed toe sprain/strain with negative x-ray, intact neurovascular exam, and no open wound, infection, diabetic-foot/PVD/neuropathy risk, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_toe_sprain_with_negative_xray_no_open_wound_or_diabetic_foot_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of toe sprain/strain",
+      "x-ray performed and negative",
+      "intact neurovascular exam",
+      "no open wound, infection, diabetic-foot risk, or specialist-directed plan"
+    ],
+    "blocked_modifiers": [
+      "fracture_or_dislocation_concern",
+      "open_fracture",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "crush_injury",
+      "diabetic_foot",
+      "neuropathy_foot_risk",
+      "peripheral_vascular_disease",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_podiatry_plan",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+}

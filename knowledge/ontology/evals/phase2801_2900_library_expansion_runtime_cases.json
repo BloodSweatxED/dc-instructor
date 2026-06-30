@@ -1,0 +1,162 @@
+[
+  {
+    "id": "phase2801_thumb_sprain_no_tendon_or_neurovascular_red_flags_clean",
+    "condition": "thumb sprain",
+    "ed_note": "Adult. Clinician diagnosis thumb sprain. X-ray negative. No tendon injury. Neurovascularly intact.",
+    "expected_phenotype_id": "thumb_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2802_thumb_sprain_no_tendon_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "thumb sprain",
+    "ed_note": "Adult with thumb sprain.",
+    "expected_phenotype_id": "thumb_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_thumb_sprain_no_tendon_or_neurovascular_red_flags",
+      "xray_negative_no_tendon_or_neurovascular_red_flags_thumb"
+    ]
+  },
+  {
+    "id": "phase2803_thumb_sprain_no_tendon_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "thumb sprain",
+    "ed_note": "Thumb Sprain diagnosed with required safe context documented, but possible fracture, tendon injury, numb fingers, severe pain, open wound are documented.",
+    "expected_phenotype_id": "thumb_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "hand_tendon_risk",
+      "neurovascular_compromise",
+      "severe_pain",
+      "open_wound"
+    ]
+  },
+  {
+    "id": "phase2804_hand_sprain_no_tendon_or_neurovascular_red_flags_clean",
+    "condition": "hand sprain",
+    "ed_note": "Adult. Clinician diagnosis hand sprain. X-ray negative. No tendon injury. Neurovascularly intact.",
+    "expected_phenotype_id": "hand_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2805_hand_sprain_no_tendon_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "hand sprain",
+    "ed_note": "Adult with hand sprain.",
+    "expected_phenotype_id": "hand_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_hand_sprain_no_tendon_or_neurovascular_red_flags",
+      "xray_negative_no_tendon_or_neurovascular_red_flags_hand_sprain"
+    ]
+  },
+  {
+    "id": "phase2806_hand_sprain_no_tendon_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "hand sprain",
+    "ed_note": "Hand Sprain diagnosed with required safe context documented, but possible fracture, tendon injury, numb fingers, severe pain, open wound are documented.",
+    "expected_phenotype_id": "hand_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "hand_tendon_risk",
+      "neurovascular_compromise",
+      "severe_pain",
+      "open_wound"
+    ]
+  },
+  {
+    "id": "phase2807_biceps_tendinitis_no_rupture_or_infection_clean",
+    "condition": "biceps tendinitis",
+    "ed_note": "Adult. Clinician diagnosis biceps tendinitis. No tendon rupture. Neurovascularly intact. No infection.",
+    "expected_phenotype_id": "biceps_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2808_biceps_tendinitis_no_rupture_or_infection_missing_context_blocks",
+    "condition": "biceps tendinitis",
+    "ed_note": "Adult with biceps tendinitis.",
+    "expected_phenotype_id": "biceps_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_biceps_tendinitis",
+      "no_rupture_or_infection_red_flags_biceps"
+    ]
+  },
+  {
+    "id": "phase2809_biceps_tendinitis_no_rupture_or_infection_unsafe_modifiers_block",
+    "condition": "biceps tendinitis",
+    "ed_note": "Clinician diagnosis biceps tendinitis with required safe context documented, but possible fracture, tendon rupture, numb fingers, septic joint, severe pain are documented.",
+    "expected_phenotype_id": "biceps_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain"
+    ]
+  },
+  {
+    "id": "phase2810_thumb_strain_no_tendon_or_neurovascular_red_flags_clean",
+    "condition": "thumb strain",
+    "ed_note": "Adult. Clinician diagnosis thumb strain. No tendon injury. Neurovascularly intact. No fracture concern.",
+    "expected_phenotype_id": "thumb_strain_uncomplicated_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2811_thumb_strain_no_tendon_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "thumb strain",
+    "ed_note": "Adult with thumb strain.",
+    "expected_phenotype_id": "thumb_strain_uncomplicated_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_thumb_strain",
+      "no_tendon_or_neurovascular_red_flags_thumb_strain"
+    ]
+  },
+  {
+    "id": "phase2812_thumb_strain_no_tendon_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "thumb strain",
+    "ed_note": "Thumb strain diagnosed with required safe context documented, but possible fracture, tendon injury, numb fingers, severe pain, open wound are documented.",
+    "expected_phenotype_id": "thumb_strain_uncomplicated_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "hand_tendon_risk",
+      "neurovascular_compromise",
+      "severe_pain",
+      "open_wound"
+    ]
+  },
+  {
+    "id": "phase2813_hip_sprain_no_fracture_or_neurovascular_red_flags_clean",
+    "condition": "hip sprain",
+    "ed_note": "Adult. Clinician diagnosis hip sprain. X-ray negative. No fracture concern. Neurovascularly intact.",
+    "expected_phenotype_id": "hip_sprain_xray_negative_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2814_hip_sprain_no_fracture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "hip sprain",
+    "ed_note": "Adult with hip sprain.",
+    "expected_phenotype_id": "hip_sprain_xray_negative_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_hip_sprain_no_fracture_or_neurovascular_red_flags",
+      "xray_negative_no_fracture_or_neurovascular_red_flags_hip_sprain"
+    ]
+  },
+  {
+    "id": "phase2815_hip_sprain_no_fracture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "hip sprain",
+    "ed_note": "Hip Sprain diagnosed with required safe context documented, but possible fracture, tendon rupture, numb fingers, severe pain, unable to bear weight are documented.",
+    "expected_phenotype_id": "hip_sprain_xray_negative_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  }
+]

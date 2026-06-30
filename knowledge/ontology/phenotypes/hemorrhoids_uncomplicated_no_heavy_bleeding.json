@@ -1,7 +1,7 @@
 {
   "id": "hemorrhoids_uncomplicated_no_heavy_bleeding",
   "label": "Uncomplicated hemorrhoids without heavy bleeding or infection concern",
-  "status": "draft",
+  "status": "reviewed",
   "condition_family": "gastrointestinal",
   "inclusion_criteria": [
     "Adult with clinician diagnosis or discharge impression of hemorrhoids.",
@@ -9,7 +9,7 @@
     "Medication and procedural instructions are clinician-entered."
   ],
   "exclusion_criteria": [
-    "Heavy bleeding, anticoagulation with bleeding, syncope, unstable vital signs, or anemia concern.",
+    "Heavy bleeding, anticoagulation with bleeding, syncope, unstable vital signs, anemia concern, or bleeding disorder.",
     "Severe anal pain with fever, abdominal pain, diarrhea, spreading perianal redness, or abscess concern.",
     "Thrombosed hemorrhoid, irreducible prolapse, rectal mass, malignancy concern, inflammatory bowel disease concern, or new rectal bleeding requiring separate workup.",
     "Pregnancy, immunocompromise, or poor follow-up."
@@ -51,10 +51,10 @@
   "source_audit": {
     "source_supported": true,
     "source_needed": false,
-    "clinician_judgment_only": true,
+    "clinician_judgment_only": false,
     "restricted_source_risk": false,
-    "unsafe_without_modifier": true,
-    "notes": "MedlinePlus and NIDDK support hemorrhoid self-care with fiber, fluids, warm baths, gentle local care, and clinician-recommended medicines. NIDDK supports urgent care for severe anal pain with rectal bleeding, especially with abdominal pain, diarrhea, or fever. Heavy bleeding, thrombosis/prolapse decisions, malignancy concern, and procedural planning remain clinician-governed."
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus and NIDDK support hemorrhoid self-care with fiber, fluids, warm baths, gentle local care, and clinician-recommended medicines. NIDDK supports urgent care for severe anal pain with rectal bleeding, especially with abdominal pain, diarrhea, or fever. Clinician-owner review on 2026-06-10 approved this narrow v1 with the current blockers for heavy bleeding, thrombosis/prolapse, anticoagulation, malignancy/IBD concern, pregnancy, and abdominal pain."
   },
   "runtime": {
     "condition_terms": [
@@ -67,6 +67,8 @@
     "unsafe_modifiers": [
       "hemorrhoid_heavy_bleeding",
       "anticoagulated",
+      "bleeding_disorder",
+      "anemia_concern",
       "syncope",
       "unstable_vitals",
       "gi_bleeding",
@@ -75,6 +77,7 @@
       "perianal_sepsis_or_abscess_concern",
       "hemorrhoid_thrombosis_or_irreducible_prolapse",
       "cancer_red_flag",
+      "inflammatory_bowel_disease_concern",
       "pregnancy",
       "immunocompromised",
       "poor_follow_up"
@@ -107,13 +110,45 @@
       "hemorrhoids uncomplicated"
     ],
     "minimum_confidence": 0.86,
-    "mode": "draft_only_until_reviewed"
+    "mode": "reviewed_ontology_enabled"
   },
   "version": 1,
   "review": {
-    "status": "needs_review",
-    "reviewer": null,
-    "last_reviewed": null,
-    "notes": "Draft only. Needs EM clinician review for heavy-bleeding threshold, thrombosis/prolapse handling, malignancy/IBD exclusion, anticoagulation, and follow-up language before promotion."
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-10",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus and NIDDK support hemorrhoid self-care with fiber, fluids, warm baths, gentle local care, and clinician-recommended medicines. NIDDK supports urgent care for severe anal pain with rectal bleeding, especially with abdominal pain, diarrhea, or fever. Clinician-owner review on 2026-06-10 approved this narrow v1 with the current blockers for heavy bleeding, thrombosis/prolapse, anticoagulation, malignancy/IBD concern, pregnancy, and abdominal pain.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_hemorrhoids_without_heavy_bleeding_or_infection_concern_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of hemorrhoids",
+      "no heavy bleeding",
+      "no unstable vital signs",
+      "no infection concern",
+      "no severe abdominal pain",
+      "no alternate GI bleeding pathway",
+      "medication and procedural instructions clinician-entered"
+    ],
+    "blocked_modifiers": [
+      "hemorrhoid_heavy_bleeding",
+      "anticoagulated",
+      "bleeding_disorder",
+      "anemia_concern",
+      "syncope",
+      "unstable_vitals",
+      "gi_bleeding",
+      "severe_or_focal_abdominal_pain",
+      "fever",
+      "perianal_sepsis_or_abscess_concern",
+      "hemorrhoid_thrombosis_or_irreducible_prolapse",
+      "cancer_red_flag",
+      "inflammatory_bowel_disease_concern",
+      "pregnancy",
+      "immunocompromised",
+      "poor_follow_up"
+    ]
   }
 }

@@ -2,7 +2,7 @@
 
 Phenotype ID: `influenza_like_illness_stable_supportive_care`
 
-Status: `draft`
+Status: `reviewed`
 
 ## Inclusion Criteria
 

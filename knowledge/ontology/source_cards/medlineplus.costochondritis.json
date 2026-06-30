@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.costochondritis",
+  "source": "MedlinePlus",
+  "title": "Costochondritis",
+  "url": "https://medlineplus.gov/ency/article/000164.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Costochondritis is inflammation where ribs join the breastbone and can cause chest wall pain.",
+    "Supportive care may include rest, avoiding painful activity, and clinician-directed pain control.",
+    "Cardiac, pulmonary embolism, shortness of breath, exertional symptoms, trauma, fever, or diagnostic uncertainty require separate evaluation."
+  ],
+  "use_policy": "evidence_support"
+}

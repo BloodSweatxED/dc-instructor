@@ -4,7 +4,7 @@
     "condition": "influenza-like illness",
     "ed_note": "Adult. Clinician diagnosis influenza-like illness. Breathing comfortably. Oxygen level acceptable. Hydration reassuring. No pneumonia concern.",
     "expected_phenotype_id": "influenza_like_illness_stable_supportive_care",
-    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+    "expected_fallback_reason": null
   },
   {
     "id": "phase901_flu_like_illness_missing_diagnosis_blocks",
@@ -37,11 +37,72 @@
     ]
   },
   {
+    "id": "phase919_flu_like_illness_pregnancy_blocks",
+    "condition": "influenza-like illness",
+    "ed_note": "Adult. Clinician diagnosis influenza-like illness. Breathing comfortably. Oxygen level acceptable. Hydration reassuring. Patient is pregnant.",
+    "expected_phenotype_id": "influenza_like_illness_stable_supportive_care",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "phase920_flu_like_illness_postpartum_blocks",
+    "condition": "flu",
+    "ed_note": "Adult. Discharge diagnosis flu. Breathing comfortably. Oxygen level acceptable. Hydration reassuring. Recently delivered.",
+    "expected_phenotype_id": "influenza_like_illness_stable_supportive_care",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "postpartum"
+    ]
+  },
+  {
+    "id": "phase921_flu_like_illness_pneumonia_hypoxia_blocks",
+    "condition": "influenza-like illness",
+    "ed_note": "Adult. Clinician diagnosis influenza-like illness. Hydration reassuring. Pneumonia concern with infiltrate and oxygen saturation 90.",
+    "expected_phenotype_id": "influenza_like_illness_stable_supportive_care",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "hypoxia",
+      "pneumonia"
+    ]
+  },
+  {
+    "id": "phase922_flu_like_illness_unresolved_dyspnea_blocks",
+    "condition": "influenza-like illness",
+    "ed_note": "Adult. Clinician diagnosis influenza-like illness. Oxygen level acceptable. Hydration reassuring. Shortness of breath not resolved.",
+    "expected_phenotype_id": "influenza_like_illness_stable_supportive_care",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "resolved_dyspnea_not_documented"
+    ]
+  },
+  {
+    "id": "phase923_flu_like_illness_poor_oral_intake_blocks",
+    "condition": "influenza-like illness",
+    "ed_note": "Adult. Clinician diagnosis influenza-like illness. Breathing comfortably. Oxygen level acceptable. Cannot keep fluids down and failed PO challenge.",
+    "expected_phenotype_id": "influenza_like_illness_stable_supportive_care",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "unable_to_tolerate_oral_fluids"
+    ]
+  },
+  {
+    "id": "phase924_flu_like_illness_chest_pain_blocks",
+    "condition": "flu",
+    "ed_note": "Adult. Discharge diagnosis flu. Breathing comfortably. Oxygen level acceptable. Hydration reassuring. Chest pain.",
+    "expected_phenotype_id": "influenza_like_illness_stable_supportive_care",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "chest_pain"
+    ]
+  },
+  {
     "id": "phase904_asymptomatic_elevated_bp_clean_draft_fallback",
     "condition": "asymptomatic elevated blood pressure",
-    "ed_note": "Adult. Asymptomatic elevated blood pressure. No end organ symptoms. No hypertensive emergency symptoms. Primary care blood pressure follow up arranged.",
+    "ed_note": "Adult. Asymptomatic elevated blood pressure. Repeat blood pressure rechecked. No end organ symptoms. No hypertensive emergency symptoms. Primary care blood pressure follow up arranged. No blood pressure medication change.",
     "expected_phenotype_id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
-    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+    "expected_fallback_reason": null
   },
   {
     "id": "phase905_asymptomatic_elevated_bp_missing_followup_blocks",
@@ -50,6 +111,8 @@
     "expected_phenotype_id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
     "expected_fallback_reason": "required_runtime_context_missing",
     "expected_missing_required_context": [
+      "repeat_bp_or_measurement_confirmed",
+      "bp_medication_plan_documented",
       "outpatient_follow_up_plan_documented"
     ]
   },
@@ -67,7 +130,7 @@
   {
     "id": "phase907_asymptomatic_elevated_bp_pregnancy_blocks",
     "condition": "asymptomatic hypertension",
-    "ed_note": "Adult. Asymptomatic hypertension. No end organ symptoms. No hypertensive emergency symptoms. Outpatient follow up plan. Patient is pregnant.",
+    "ed_note": "Adult. Asymptomatic hypertension. Repeat BP. No end organ symptoms. No hypertensive emergency symptoms. Outpatient follow up plan. No BP medication change. Patient is pregnant.",
     "expected_phenotype_id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
     "expected_fallback_reason": "unsafe_modifier_present",
     "expected_exclusions": [
@@ -75,11 +138,103 @@
     ]
   },
   {
+    "id": "phase925_asymptomatic_elevated_bp_crisis_threshold_blocks",
+    "condition": "asymptomatic elevated blood pressure",
+    "ed_note": "Adult. Asymptomatic elevated blood pressure. Repeat BP 180/120. No end organ symptoms. Primary care blood pressure follow up arranged. No BP medication change.",
+    "expected_phenotype_id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "hypertensive_crisis_threshold"
+    ]
+  },
+  {
+    "id": "phase926_asymptomatic_elevated_bp_neuro_symptoms_blocks",
+    "condition": "asymptomatic hypertension",
+    "ed_note": "Adult. Asymptomatic hypertension. Repeat blood pressure. Outpatient follow up plan. No BP medication change. Severe headache, vision changes, and trouble speaking.",
+    "expected_phenotype_id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "hypertension_end_organ_symptoms",
+      "vision_change"
+    ]
+  },
+  {
+    "id": "phase927_asymptomatic_elevated_bp_dyspnea_back_pain_blocks",
+    "condition": "high blood pressure",
+    "ed_note": "Adult. No end organ symptoms. Repeat blood pressure. Blood pressure recheck plan. No blood pressure medication change. Dyspnea and tearing back pain.",
+    "expected_phenotype_id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "hypertension_end_organ_symptoms"
+    ]
+  },
+  {
+    "id": "phase928_asymptomatic_elevated_bp_renal_symptoms_blocks",
+    "condition": "asymptomatic elevated blood pressure",
+    "ed_note": "Adult. Asymptomatic elevated blood pressure. Repeat BP. Outpatient follow up plan. No BP medication change. Decreased urination and hematuria.",
+    "expected_phenotype_id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "hypertension_end_organ_symptoms"
+    ]
+  },
+  {
+    "id": "phase929_asymptomatic_elevated_bp_postpartum_blocks",
+    "condition": "asymptomatic hypertension",
+    "ed_note": "Adult. Asymptomatic hypertension. Repeat BP. No end organ symptoms. Outpatient follow up plan. No BP medication change. Two weeks postpartum.",
+    "expected_phenotype_id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "postpartum"
+    ]
+  },
+  {
+    "id": "phase930_asymptomatic_elevated_bp_cocaine_blocks",
+    "condition": "asymptomatic elevated blood pressure",
+    "ed_note": "Adult. Asymptomatic elevated blood pressure. Repeat BP. No end organ symptoms. Outpatient follow up plan. No BP medication change. Cocaine use tonight.",
+    "expected_phenotype_id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "stimulant_or_cocaine_hypertension"
+    ]
+  },
+  {
+    "id": "phase931_asymptomatic_elevated_bp_renal_specialist_blocks",
+    "condition": "asymptomatic elevated blood pressure",
+    "ed_note": "Adult. Asymptomatic elevated blood pressure. Repeat BP. No end organ symptoms. Outpatient follow up plan. No BP medication change. Dialysis patient with renal failure.",
+    "expected_phenotype_id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "renal_failure",
+      "renal_specialist_hypertension_context"
+    ]
+  },
+  {
+    "id": "phase932_asymptomatic_elevated_bp_secondary_hypertension_blocks",
+    "condition": "asymptomatic hypertension",
+    "ed_note": "Adult. Asymptomatic hypertension. Repeat BP. No end organ symptoms. Outpatient follow up plan. No BP medication change. Secondary hypertension concern.",
+    "expected_phenotype_id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "secondary_hypertension_concern"
+    ]
+  },
+  {
+    "id": "phase933_asymptomatic_elevated_bp_missing_med_plan_blocks",
+    "condition": "asymptomatic elevated blood pressure",
+    "ed_note": "Adult. Asymptomatic elevated blood pressure. Repeat blood pressure. No end organ symptoms. No hypertensive emergency symptoms. Primary care blood pressure follow up arranged.",
+    "expected_phenotype_id": "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "bp_medication_plan_documented"
+    ]
+  },
+  {
     "id": "phase908_hemorrhoids_clean_draft_fallback",
     "condition": "hemorrhoids",
     "ed_note": "Adult. Clinician diagnosis hemorrhoids. No heavy bleeding. No infection concern. Bleeding minimal.",
     "expected_phenotype_id": "hemorrhoids_uncomplicated_no_heavy_bleeding",
-    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+    "expected_fallback_reason": null
   },
   {
     "id": "phase909_hemorrhoids_missing_diagnosis_blocks",
@@ -110,6 +265,77 @@
     "expected_exclusions": [
       "fever",
       "perianal_sepsis_or_abscess_concern"
+    ]
+  },
+  {
+    "id": "phase912_hemorrhoids_anticoagulated_bleeding_blocks",
+    "condition": "hemorrhoids",
+    "ed_note": "Adult. Clinician diagnosis hemorrhoids. No infection concern. Rectal bleeding while taking Eliquis.",
+    "expected_phenotype_id": "hemorrhoids_uncomplicated_no_heavy_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anticoagulated"
+    ]
+  },
+  {
+    "id": "phase913_hemorrhoids_thrombosed_irreducible_blocks",
+    "condition": "hemorrhoids",
+    "ed_note": "Adult. Clinician diagnosis hemorrhoids. No heavy bleeding. No infection concern. Thrombosed hemorrhoid with irreducible prolapse.",
+    "expected_phenotype_id": "hemorrhoids_uncomplicated_no_heavy_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "hemorrhoid_thrombosis_or_irreducible_prolapse"
+    ]
+  },
+  {
+    "id": "phase914_hemorrhoids_rectal_mass_blocks",
+    "condition": "hemorrhoids",
+    "ed_note": "Adult. Clinician diagnosis hemorrhoids. No heavy bleeding. No infection concern. Rectal mass and malignancy concern documented.",
+    "expected_phenotype_id": "hemorrhoids_uncomplicated_no_heavy_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "cancer_red_flag"
+    ]
+  },
+  {
+    "id": "phase915_hemorrhoids_belly_pain_gi_bleeding_blocks",
+    "condition": "hemorrhoids",
+    "ed_note": "Adult. Clinician diagnosis hemorrhoids. No infection concern. Severe belly pain with blood mixed throughout stool.",
+    "expected_phenotype_id": "hemorrhoids_uncomplicated_no_heavy_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "gi_bleeding",
+      "severe_or_focal_abdominal_pain"
+    ]
+  },
+  {
+    "id": "phase916_hemorrhoids_ibd_concern_blocks",
+    "condition": "hemorrhoids",
+    "ed_note": "Adult. Clinician diagnosis hemorrhoids. No heavy bleeding. No infection concern. Inflammatory bowel disease concern with bloody diarrhea.",
+    "expected_phenotype_id": "hemorrhoids_uncomplicated_no_heavy_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "inflammatory_bowel_disease_concern"
+    ]
+  },
+  {
+    "id": "phase917_hemorrhoids_pregnancy_blocks",
+    "condition": "hemorrhoids",
+    "ed_note": "Adult. Clinician diagnosis hemorrhoids. No heavy bleeding. No infection concern. Patient is pregnant.",
+    "expected_phenotype_id": "hemorrhoids_uncomplicated_no_heavy_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "phase918_hemorrhoids_anemia_concern_blocks",
+    "condition": "hemorrhoids",
+    "ed_note": "Adult. Clinician diagnosis hemorrhoids. No infection concern. Rectal bleeding with anemia concern.",
+    "expected_phenotype_id": "hemorrhoids_uncomplicated_no_heavy_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anemia_concern"
     ]
   }
 ]

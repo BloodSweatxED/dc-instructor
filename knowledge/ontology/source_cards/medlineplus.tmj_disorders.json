@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.tmj_disorders",
+  "source": "MedlinePlus",
+  "title": "Temporomandibular joint disorders",
+  "url": "https://medlineplus.gov/temporomandibularjointdysfunction.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Temporomandibular joint disorders can cause jaw pain, clicking, or pain with chewing.",
+    "Supportive care may include avoiding hard chewing, jaw rest, and clinician-directed pain control.",
+    "Trauma, dental infection, deep-space infection, trismus, neurologic symptoms, or chest-pain mimics require separate evaluation."
+  ],
+  "use_policy": "evidence_support"
+}

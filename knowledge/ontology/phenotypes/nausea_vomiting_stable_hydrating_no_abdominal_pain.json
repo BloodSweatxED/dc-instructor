@@ -1,0 +1,166 @@
+{
+  "id": "nausea_vomiting_stable_hydrating_no_abdominal_pain",
+  "label": "Nausea and vomiting, stable and hydrating, without abdominal pain",
+  "status": "reviewed",
+  "condition_family": "gastrointestinal",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of nausea and vomiting.",
+    "Stable vitals and tolerating oral fluids documented before discharge.",
+    "No abdominal pain, surgical abdomen concern, GI bleeding, pregnancy, neurologic, toxicologic, or high-risk host pathway."
+  ],
+  "exclusion_criteria": [
+    "Any abdominal pain, focal tenderness, peritoneal signs, abdominal distention, bowel obstruction concern, GI bleeding, fever, sepsis, or unstable vital signs.",
+    "Unable to tolerate oral fluids, failed PO challenge, severe dehydration, syncope, renal failure, or uncontrolled vomiting at discharge.",
+    "Pregnancy, head injury, severe headache, neurologic deficit, chest pain, toxic ingestion, diabetic emergency, immunocompromise, frailty, or unreliable follow-up."
+  ],
+  "must_not_miss": [
+    "Bowel obstruction.",
+    "Appendicitis or other surgical abdomen.",
+    "GI bleeding.",
+    "Pregnancy-related emergency.",
+    "Intracranial process.",
+    "Toxic ingestion or metabolic emergency.",
+    "Sepsis or severe dehydration."
+  ],
+  "default_follow_up": "Follow up with primary care or return for recheck as instructed if symptoms are not improving.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "nausea_vomiting_stable_hydrating_no_abdominal_pain.diagnosis.diagnosis_summary.v1",
+    "nausea_vomiting_stable_hydrating_no_abdominal_pain.what_we_found.reassuring_ed_assessment.v1",
+    "nausea_vomiting_stable_hydrating_no_abdominal_pain.home_care.home_care_1.v1",
+    "nausea_vomiting_stable_hydrating_no_abdominal_pain.home_care.home_care_2.v1",
+    "nausea_vomiting_stable_hydrating_no_abdominal_pain.home_care.home_care_3.v1",
+    "nausea_vomiting_stable_hydrating_no_abdominal_pain.medications.medication_guidance_1.v1",
+    "nausea_vomiting_stable_hydrating_no_abdominal_pain.medications.medication_guidance_2.v1",
+    "nausea_vomiting_stable_hydrating_no_abdominal_pain.return_precautions.return_precaution_1.v1",
+    "nausea_vomiting_stable_hydrating_no_abdominal_pain.return_precautions.return_precaution_2.v1",
+    "nausea_vomiting_stable_hydrating_no_abdominal_pain.return_precautions.return_precaution_3.v1",
+    "nausea_vomiting_stable_hydrating_no_abdominal_pain.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.nausea_vomiting_self_care"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports nausea/vomiting supportive care, hydration, gradual return to food, and escalation for inability to keep fluids down, dehydration, abdominal pain, fever, blood, or prolonged symptoms. Autonomous Phase 1002-1500 approved this narrow v1 only for clinician-diagnosed nausea/vomiting with stable vitals, successful oral hydration, no abdominal pain, no diarrhea/gastroenteritis phenotype, and no surgical, pregnancy, neurologic, toxicologic, or high-risk host pathway."
+  },
+  "runtime": {
+    "condition_terms": [
+      "nausea vomiting stable",
+      "nausea and vomiting stable",
+      "vomiting stable hydrating",
+      "nausea vomiting no abdominal pain"
+    ],
+    "unsafe_modifiers": [
+      "severe_or_focal_abdominal_pain",
+      "peritoneal_signs",
+      "abdominal_distention",
+      "bowel_obstruction_or_ileus_concern",
+      "gi_bleeding",
+      "fever",
+      "sepsis",
+      "unstable_vitals",
+      "unable_to_tolerate_oral_fluids",
+      "severe_dehydration",
+      "uncontrolled_vomiting",
+      "pregnancy",
+      "neurologic_deficit",
+      "thunderclap_or_sah_concern",
+      "chest_pain",
+      "toxic_ingestion_or_overdose",
+      "diabetic_emergency",
+      "immunocompromised",
+      "elderly_frail",
+      "poor_follow_up"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_nausea_vomiting",
+        "terms": [
+          "clinician diagnosis nausea and vomiting",
+          "discharge diagnosis nausea and vomiting",
+          "nausea and vomiting diagnosed",
+          "vomiting stable",
+          "nausea vomiting stable"
+        ]
+      },
+      {
+        "id": "tolerating_oral_fluids_documented",
+        "terms": [
+          "tolerating fluids",
+          "tolerating oral fluids",
+          "passed po challenge",
+          "able to keep fluids down",
+          "hydration reassuring"
+        ]
+      },
+      {
+        "id": "no_abdominal_pain_documented",
+        "terms": [
+          "no abdominal pain",
+          "no belly pain",
+          "abdomen nontender",
+          "no focal abdominal tenderness",
+          "no surgical abdomen"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "nausea vomiting stable",
+      "nausea and vomiting diagnosed",
+      "vomiting stable hydrating"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-10",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports nausea/vomiting supportive care, hydration, gradual return to food, and escalation for inability to keep fluids down, dehydration, abdominal pain, fever, blood, or prolonged symptoms. Autonomous Phase 1002-1500 approved this narrow v1 only for clinician-diagnosed nausea/vomiting with stable vitals, successful oral hydration, no abdominal pain, no diarrhea/gastroenteritis phenotype, and no surgical, pregnancy, neurologic, toxicologic, or high-risk host pathway.",
+    "clinical_status": "reviewed_for_limited_stable_nausea_vomiting_without_abdominal_pain_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of nausea and vomiting",
+      "stable vitals and tolerating oral fluids documented",
+      "no abdominal pain, surgical abdomen concern, GI bleeding, pregnancy, neurologic, toxicologic, or high-risk host pathway"
+    ],
+    "blocked_modifiers": [
+      "severe_or_focal_abdominal_pain",
+      "peritoneal_signs",
+      "abdominal_distention",
+      "bowel_obstruction_or_ileus_concern",
+      "gi_bleeding",
+      "fever",
+      "sepsis",
+      "unstable_vitals",
+      "unable_to_tolerate_oral_fluids",
+      "severe_dehydration",
+      "uncontrolled_vomiting",
+      "pregnancy",
+      "neurologic_deficit",
+      "thunderclap_or_sah_concern",
+      "chest_pain",
+      "toxic_ingestion_or_overdose",
+      "diabetic_emergency",
+      "immunocompromised",
+      "elderly_frail",
+      "poor_follow_up"
+    ]
+  }
+}

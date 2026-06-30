@@ -1,0 +1,15 @@
+{
+  "id": "cdc.scabies_treatment",
+  "source": "CDC",
+  "title": "Treatment of Scabies",
+  "url": "https://www.cdc.gov/scabies/treatment/index.html",
+  "source_type": "public_health_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Scabies treatment uses clinician-prescribed scabicide medicine.",
+    "Patients should follow medication instructions exactly, including how long to leave medicine on before washing it off.",
+    "Household or close-contact steps may be needed to prevent spread.",
+    "No non-prescription products have been tested and approved to treat human scabies."
+  ],
+  "use_policy": "evidence_support"
+}

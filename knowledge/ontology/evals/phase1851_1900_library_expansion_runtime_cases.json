@@ -1,0 +1,117 @@
+[
+  {
+    "id": "phase1851_friction_blister_clean",
+    "condition": "friction blister",
+    "ed_note": "Adult. Clinician diagnosis friction blister. No infection. No cellulitis. No pus. No diabetic foot. No neuropathy.",
+    "expected_phenotype_id": "friction_blister_uncomplicated_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1852_friction_blister_missing_context_blocks",
+    "condition": "friction blister",
+    "ed_note": "Adult with a blister after new shoes.",
+    "expected_phenotype_id": "friction_blister_uncomplicated_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["clinician_diagnosis_uncomplicated_friction_blister", "no_infection_or_diabetic_foot_documented"]
+  },
+  {
+    "id": "phase1853_friction_blister_diabetic_infection_blocks",
+    "condition": "friction blister",
+    "ed_note": "Adult. Friction blister diagnosed, but diabetic foot ulcer, neuropathy, spreading redness, pus, and mouth sores are documented.",
+    "expected_phenotype_id": "friction_blister_uncomplicated_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["diabetic_foot", "neuropathy_foot_risk", "secondary_skin_infection_concern", "mucosal_lesions"]
+  },
+  {
+    "id": "phase1854_ganglion_cyst_clean",
+    "condition": "ganglion cyst",
+    "ed_note": "Adult. Clinician diagnosis ganglion cyst. Neurovascularly intact. No numbness. No weakness. No infection. No cellulitis.",
+    "expected_phenotype_id": "ganglion_cyst_uncomplicated_no_neurovascular_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1855_ganglion_cyst_missing_context_blocks",
+    "condition": "ganglion cyst",
+    "ed_note": "Adult with a small wrist bump.",
+    "expected_phenotype_id": "ganglion_cyst_uncomplicated_no_neurovascular_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["clinician_diagnosis_uncomplicated_ganglion_cyst", "no_neurovascular_or_infection_documented"]
+  },
+  {
+    "id": "phase1856_ganglion_cyst_neuro_mass_blocks",
+    "condition": "ganglion cyst",
+    "ed_note": "Adult. Ganglion cyst diagnosed, but numb fingers, severe pain, rapidly enlarging mass, diagnostic uncertainty, and cellulitis are documented.",
+    "expected_phenotype_id": "ganglion_cyst_uncomplicated_no_neurovascular_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["neurovascular_compromise", "severe_pain", "mass_red_flag_or_diagnostic_uncertainty", "secondary_skin_infection_concern"]
+  },
+  {
+    "id": "phase1857_bunion_clean",
+    "condition": "bunion",
+    "ed_note": "Adult. Clinician diagnosis bunion. No infection. No cellulitis. No open wound. No diabetic foot. Neurovascularly intact.",
+    "expected_phenotype_id": "bunion_uncomplicated_no_infection_or_diabetic_foot",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1858_bunion_missing_context_blocks",
+    "condition": "bunion",
+    "ed_note": "Adult with a painful bump near the great toe.",
+    "expected_phenotype_id": "bunion_uncomplicated_no_infection_or_diabetic_foot",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["clinician_diagnosis_uncomplicated_bunion", "no_infection_or_diabetic_foot_risk_documented"]
+  },
+  {
+    "id": "phase1859_bunion_infection_foot_risk_blocks",
+    "condition": "bunion",
+    "ed_note": "Adult. Bunion diagnosed, but diabetic foot ulcer, poor circulation, open wound, spreading redness, and unable to bear weight are documented.",
+    "expected_phenotype_id": "bunion_uncomplicated_no_infection_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["diabetic_foot", "peripheral_vascular_disease", "open_wound", "secondary_skin_infection_concern", "unable_to_bear_weight_lower_extremity"]
+  },
+  {
+    "id": "phase1860_tendinitis_clean",
+    "condition": "tendinitis",
+    "ed_note": "Adult. Clinician diagnosis tendinitis. No tendon rupture. No complete tear. No infection. No cellulitis. Neurovascularly intact.",
+    "expected_phenotype_id": "tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1861_tendinitis_missing_context_blocks",
+    "condition": "tendinitis",
+    "ed_note": "Adult with tendon pain after overuse.",
+    "expected_phenotype_id": "tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["clinician_diagnosis_uncomplicated_tendinitis", "no_rupture_or_infection_documented"]
+  },
+  {
+    "id": "phase1862_tendinitis_rupture_infection_blocks",
+    "condition": "tendinitis",
+    "ed_note": "Adult. Tendinitis diagnosed, but tendon rupture, unable to use limb, possible fracture, numb toes, and fever are documented.",
+    "expected_phenotype_id": "tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["tendon_or_ligament_rupture_concern", "unable_to_use_limb", "fracture_or_dislocation_concern", "neurovascular_compromise", "systemic_illness"]
+  },
+  {
+    "id": "phase1863_bursitis_clean",
+    "condition": "bursitis",
+    "ed_note": "Adult. Clinician diagnosis bursitis. No septic joint concern. No infection. No cellulitis. No trauma. Neurovascularly intact.",
+    "expected_phenotype_id": "bursitis_uncomplicated_no_septic_joint_or_trauma",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1864_bursitis_missing_context_blocks",
+    "condition": "bursitis",
+    "ed_note": "Adult with swelling near a joint.",
+    "expected_phenotype_id": "bursitis_uncomplicated_no_septic_joint_or_trauma",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["clinician_diagnosis_uncomplicated_bursitis", "no_septic_joint_or_trauma_documented"]
+  },
+  {
+    "id": "phase1865_bursitis_septic_trauma_blocks",
+    "condition": "bursitis",
+    "ed_note": "Adult. Bursitis diagnosed, but hot joint, fever with joint pain, open wound, possible fracture, and severe pain are documented.",
+    "expected_phenotype_id": "bursitis_uncomplicated_no_septic_joint_or_trauma",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["septic_joint_or_infection_concern", "open_wound", "fracture_or_dislocation_concern", "severe_pain"]
+  }
+]

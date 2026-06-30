@@ -2,7 +2,7 @@
 
 Phenotype ID: `abdominal_pain_nonspecific_reassuring_workup`
 
-Status: `needs_review`
+Status: `reviewed`
 
 ## Inclusion Criteria
 

@@ -2,7 +2,7 @@
 
 Phenotype ID: `acute_bronchitis_no_pneumonia`
 
-Status: `needs_review`
+Status: `reviewed`
 
 ## Inclusion Criteria
 

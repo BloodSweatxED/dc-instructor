@@ -2,7 +2,7 @@
 
 Phenotype ID: `foot_sprain_xray_negative`
 
-Status: `needs_review`
+Status: `reviewed`
 
 ## Inclusion Criteria
 

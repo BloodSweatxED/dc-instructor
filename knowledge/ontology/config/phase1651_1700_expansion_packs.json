@@ -1,0 +1,492 @@
+[
+  {
+    "id": "chalazion_simple_no_vision_or_orbital_red_flags",
+    "label": "Simple chalazion without vision or orbital red flags",
+    "family": "ophthalmology",
+    "condition_terms": [
+      "simple chalazion",
+      "chalazion no vision change",
+      "chalazion",
+      "eyelid cyst"
+    ],
+    "source_card_ids": [
+      "medlineplus.eyelid_bump_stye",
+      "aao.chalazion_stye"
+    ],
+    "summary": "Your symptoms fit a chalazion, a blocked oil gland in the eyelid.",
+    "found": "Your clinician diagnosed a simple chalazion. We did not find vision changes, severe eye pain, eye injury, or signs of a deeper infection around the eye today.",
+    "home": [
+      "Use warm compresses as your clinician instructed.",
+      "Keep the eyelid clean and avoid eye makeup until improving.",
+      "Do not squeeze, pop, or cut the eyelid bump."
+    ],
+    "meds": [
+      "Use eye medicine only if it was prescribed.",
+      "Do not put non-eye medicines or harsh products in the eye."
+    ],
+    "return": [
+      "Vision changes, severe eye pain, pain with eye movement, or worsening eye redness.",
+      "Fever, rapidly worsening eyelid swelling, drainage, or spreading redness around the eye.",
+      "The bump becomes recurrent, persistent, or interferes with vision."
+    ],
+    "follow": "Follow up with primary care, urgent care, optometry, or ophthalmology if symptoms are not improving, recur, or affect vision.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of simple chalazion.",
+      "No vision change, severe eye pain, orbital cellulitis concern, eye trauma, contact lens complication, infection concern, recurrent mass, or specialist-directed eye plan."
+    ],
+    "exclusion": [
+      "Vision change, severe eye pain, photophobia, pain with eye movement, orbital or periorbital cellulitis concern, or eye trauma.",
+      "Contact lens complication, recurrent or persistent eyelid mass, immune compromise, systemic illness, pediatric pathway, or specialist-directed ophthalmology plan.",
+      "Medication selection not supplied by clinician."
+    ],
+    "must_not_miss": [
+      "Orbital cellulitis.",
+      "Periorbital cellulitis.",
+      "Corneal ulcer or keratitis.",
+      "Eyelid malignancy mimic."
+    ],
+    "unsafe_modifiers": [
+      "vision_change",
+      "severe_eye_pain",
+      "photophobia",
+      "periorbital_or_orbital_cellulitis_concern",
+      "eye_trauma_or_foreign_body",
+      "contact_lens_use",
+      "corneal_ulcer_or_keratitis_concern",
+      "recurrent_or_persistent_eyelid_mass",
+      "immunocompromised",
+      "pediatric_pathway",
+      "systemic_illness",
+      "specialist_directed_ophthalmology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_simple_chalazion",
+        "terms": [
+          "clinician diagnosis chalazion",
+          "discharge diagnosis chalazion",
+          "chalazion diagnosed",
+          "simple chalazion diagnosed",
+          "eyelid cyst diagnosed"
+        ]
+      },
+      {
+        "id": "no_vision_or_orbital_red_flags_documented",
+        "terms": [
+          "no vision change",
+          "no severe eye pain",
+          "no eye pain",
+          "no orbital cellulitis concern",
+          "no pain with eye movement"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis chalazion",
+      "chalazion diagnosed",
+      "simple chalazion diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus and AAO support chalazion/eyelid-bump framing, conservative warm-compress care, avoiding squeezing or popping, and escalation for vision trouble, worsening pain/swelling, infection concern, or persistent/recurrent eyelid mass. Autonomous Phase 1651-1700 approved this narrow v1 only for clinician-diagnosed simple chalazion without vision change, severe eye pain, orbital/periorbital cellulitis concern, eye trauma, contact lens complication, recurrent/persistent mass, immunocompromised/pediatric pathway, systemic illness, or specialist-directed eye plan.",
+    "clinical_status": "reviewed_for_limited_simple_chalazion_without_vision_or_orbital_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of simple chalazion",
+      "no vision change, severe eye pain, eye trauma, or orbital/periorbital cellulitis concern documented",
+      "no contact lens complication, recurrent/persistent mass, immunocompromised, pediatric, systemic illness, or specialist-directed eye pathway"
+    ],
+    "review_date": "2026-06-17"
+  },
+  {
+    "id": "tinea_pedis_uncomplicated_no_cellulitis_or_diabetic_foot",
+    "label": "Uncomplicated tinea pedis without cellulitis or diabetic foot risk",
+    "family": "dermatology",
+    "condition_terms": [
+      "uncomplicated tinea pedis",
+      "tinea pedis no cellulitis",
+      "tinea pedis",
+      "athlete's foot"
+    ],
+    "source_card_ids": [
+      "medlineplus.athletes_foot",
+      "cdc.foot_hygiene_tinea_pedis"
+    ],
+    "summary": "Your symptoms fit athlete's foot, also called tinea pedis.",
+    "found": "Your clinician diagnosed uncomplicated tinea pedis. We did not find cellulitis, an open infected wound, or diabetic-foot risk requiring a different plan today.",
+    "home": [
+      "Keep the feet clean and dry, especially between the toes.",
+      "Change socks when damp and avoid sharing towels or footwear.",
+      "Use shower shoes in shared wet areas when possible."
+    ],
+    "meds": [
+      "Use antifungal medicine only if it was prescribed or recommended, and follow the label.",
+      "Do not use steroid creams on the rash unless your clinician specifically told you to."
+    ],
+    "return": [
+      "Spreading redness, warmth, swelling, pus, fever, red streaks, or worsening pain.",
+      "Open sores, black skin, numbness, or new foot wound.",
+      "Symptoms are spreading, recurrent, or not improving with the plan you were given."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, or podiatry if symptoms are not improving or if this keeps coming back.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated tinea pedis.",
+      "No cellulitis, open wound, diabetic-foot pathway, immunocompromised host, nail/scalp/groin pathway, systemic illness, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Cellulitis, abscess, open wound, secondary infection, systemic illness, or rapidly spreading rash.",
+      "Diabetes with foot wound/risk, PVD, neuropathy, immunocompromised host, nail/scalp/groin involvement, recurrent/extensive disease, or specialist-directed podiatry/dermatology plan.",
+      "Medication selection not supplied by clinician."
+    ],
+    "must_not_miss": [
+      "Diabetic foot infection.",
+      "Cellulitis.",
+      "Abscess.",
+      "Necrotizing infection."
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "abscess_or_boils_or_carbuncle",
+      "open_wound",
+      "wound_infection_concern",
+      "diabetic_foot",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "immunocompromised",
+      "scalp_or_nail_or_beard_fungal_infection",
+      "tinea_pedis_extensive_or_recurrent",
+      "systemic_illness",
+      "necrotizing_infection_concern",
+      "specialist_directed_podiatry_plan",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_tinea_pedis",
+        "terms": [
+          "clinician diagnosis tinea pedis",
+          "discharge diagnosis tinea pedis",
+          "tinea pedis diagnosed",
+          "athlete's foot diagnosed",
+          "uncomplicated tinea pedis diagnosed"
+        ]
+      },
+      {
+        "id": "no_cellulitis_or_diabetic_foot_documented",
+        "terms": [
+          "no cellulitis",
+          "no secondary infection",
+          "no diabetic foot",
+          "no open wound",
+          "no foot wound"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis tinea pedis",
+      "tinea pedis diagnosed",
+      "athlete's foot diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus and CDC support athlete's-foot/tinea-pedis framing, keeping feet clean and dry, avoiding shared wet exposure, and escalation for spreading infection or non-improvement. Autonomous Phase 1651-1700 approved this narrow v1 only for clinician-diagnosed uncomplicated tinea pedis without cellulitis, open wound, diabetic-foot/PVD/neuropathy risk, immunocompromised host, nail/scalp/groin or recurrent/extensive pathway, systemic illness, or specialist-directed podiatry/dermatology plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_tinea_pedis_without_cellulitis_or_diabetic_foot_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated tinea pedis",
+      "no cellulitis, secondary infection, diabetic foot, or open foot wound documented",
+      "no high-risk host, nail/scalp/groin, recurrent/extensive, systemic illness, or specialist-directed pathway"
+    ],
+    "review_date": "2026-06-17"
+  },
+  {
+    "id": "mild_eczema_flare_no_infection_or_systemic_symptoms",
+    "label": "Mild eczema flare without infection or systemic symptoms",
+    "family": "dermatology",
+    "condition_terms": [
+      "mild eczema flare",
+      "eczema flare no infection",
+      "eczema",
+      "atopic dermatitis flare"
+    ],
+    "source_card_ids": [
+      "medlineplus.eczema",
+      "medlineplus.atopic_dermatitis_self_care"
+    ],
+    "summary": "Your symptoms fit a mild eczema flare.",
+    "found": "Your clinician diagnosed a mild eczema flare. We did not find infection, a severe drug rash, or systemic illness today.",
+    "home": [
+      "Use fragrance-free moisturizer often, especially after bathing.",
+      "Avoid scratching when possible and keep nails short.",
+      "Avoid known triggers such as harsh soaps, fragrances, or irritating fabrics."
+    ],
+    "meds": [
+      "Use steroid, anti-itch, or other skin medicine only if prescribed or recommended.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Fever, spreading redness, warmth, pus, red streaks, or rapidly worsening pain.",
+      "Blistering, skin peeling, mouth sores, eye symptoms, or target-like rash.",
+      "The rash becomes widespread, severe, or does not improve with the plan you were given."
+    ],
+    "follow": "Follow up with primary care or dermatology if symptoms are not improving, recur often, or require ongoing medicine adjustment.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of mild eczema or atopic dermatitis flare.",
+      "No secondary infection, severe/widespread flare, systemic illness, severe cutaneous adverse reaction, eye/genital involvement, immunocompromised host, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Cellulitis, abscess, pus, fever, secondary infection, severe pain, or rapidly spreading rash.",
+      "Skin peeling, blistering, mucosal lesions, eye/genital involvement, severe/widespread flare, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology plan.",
+      "Medication selection not supplied by clinician."
+    ],
+    "must_not_miss": [
+      "Secondary skin infection.",
+      "Eczema herpeticum.",
+      "Stevens-Johnson syndrome or toxic epidermal necrolysis.",
+      "Anaphylaxis or severe allergic reaction mimic."
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "abscess_or_boils_or_carbuncle",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "eye_or_genital_rash_location",
+      "eczema_severe_or_widespread",
+      "rapid_progression",
+      "fever",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_mild_eczema_flare",
+        "terms": [
+          "clinician diagnosis eczema flare",
+          "discharge diagnosis eczema",
+          "eczema flare diagnosed",
+          "mild eczema flare diagnosed",
+          "atopic dermatitis flare diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_symptoms_documented",
+        "terms": [
+          "no cellulitis",
+          "no secondary infection",
+          "no fever",
+          "no systemic symptoms",
+          "no systemic illness"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis eczema flare",
+      "eczema flare diagnosed",
+      "mild eczema flare diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus supports eczema/atopic-dermatitis flare framing, moisturizer and trigger-avoidance care, prescribed medication adherence, and escalation for infection signs, severe/widespread rash, or systemic symptoms. Autonomous Phase 1651-1700 approved this narrow v1 only for clinician-diagnosed mild eczema flare without secondary infection, severe/widespread flare, mucosal/eye/genital involvement, severe drug-rash concern, systemic illness, pregnancy/pediatric/immunocompromised pathway, or specialist-directed dermatology plan.",
+    "clinical_status": "reviewed_for_limited_mild_eczema_flare_without_infection_or_systemic_symptoms_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of mild eczema or atopic dermatitis flare",
+      "no infection, fever, systemic symptoms, mucosal/eye/genital involvement, or severe cutaneous adverse reaction documented",
+      "no high-risk host, pregnancy, pediatric, severe/widespread, or specialist-directed pathway"
+    ],
+    "review_date": "2026-06-17"
+  },
+  {
+    "id": "localized_oral_herpes_labialis_no_eye_or_immunocompromised_host",
+    "label": "Localized oral herpes labialis without eye involvement or immunocompromised host",
+    "family": "dermatology",
+    "condition_terms": [
+      "localized oral herpes labialis",
+      "oral herpes no eye involvement",
+      "cold sore",
+      "herpes labialis"
+    ],
+    "source_card_ids": [
+      "medlineplus.cold_sores",
+      "medlineplus.herpes_simplex"
+    ],
+    "summary": "Your symptoms fit a cold sore, also called oral herpes labialis.",
+    "found": "Your clinician diagnosed localized oral herpes labialis. We did not find eye involvement, genital involvement, disseminated disease, or immunocompromised-host risk today.",
+    "home": [
+      "Avoid touching the sore except when cleaning the area or applying medicine.",
+      "Wash your hands after touching the area.",
+      "Avoid kissing, oral sex, or sharing lip products while sores are active."
+    ],
+    "meds": [
+      "Use antiviral medicine only if prescribed and exactly as directed.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Eye pain, eye redness, vision change, or sores near the eye.",
+      "Fever, confusion, severe headache, widespread rash, or rapidly spreading sores.",
+      "Symptoms occur in a newborn exposure context, pregnancy concern, or immunocompromised host."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, or ophthalmology as instructed, especially if outbreaks recur or symptoms are not improving.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized oral herpes labialis or cold sore.",
+      "No eye involvement, genital involvement, disseminated disease, CNS/systemic illness, pregnancy/newborn exposure, immunocompromised host, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Eye pain, red eye, vision change, vesicles near eye, genital lesions, disseminated rash, severe headache, confusion, fever, or systemic illness.",
+      "Pregnancy, newborn exposure, immunocompromised host, severe eczema flare/eczema herpeticum concern, or specialist-directed antiviral/ophthalmology/dermatology plan.",
+      "Medication selection not supplied by clinician."
+    ],
+    "must_not_miss": [
+      "Herpes keratitis.",
+      "Disseminated HSV.",
+      "HSV encephalitis.",
+      "Eczema herpeticum."
+    ],
+    "unsafe_modifiers": [
+      "herpes_or_zoster_eye_concern",
+      "ocular_symptoms",
+      "vision_change",
+      "near_eye_or_genitals",
+      "genital_ulcers",
+      "oral_herpes_high_risk_or_complicated",
+      "meningitis_or_cns_infection_concern",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan",
+      "specialist_directed_ophthalmology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_oral_herpes",
+        "terms": [
+          "clinician diagnosis cold sore",
+          "clinician diagnosis herpes labialis",
+          "discharge diagnosis cold sore",
+          "cold sore diagnosed",
+          "herpes labialis diagnosed",
+          "localized oral herpes diagnosed"
+        ]
+      },
+      {
+        "id": "no_eye_genital_or_immunocompromised_context_documented",
+        "terms": [
+          "no eye involvement",
+          "no vision change",
+          "no genital involvement",
+          "no immunocompromised host",
+          "no disseminated disease"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis herpes labialis",
+      "cold sore diagnosed",
+      "herpes labialis diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus supports cold sore/oral HSV framing, hand hygiene, avoiding direct contact/sharing during active lesions, prescribed antiviral use when directed, and escalation for eye symptoms, widespread/systemic disease, pregnancy/newborn exposure, or immunocompromised-host context. Autonomous Phase 1651-1700 approved this narrow v1 only for clinician-diagnosed localized oral herpes labialis without eye/genital involvement, disseminated disease, CNS/systemic illness, pregnancy/newborn exposure, immunocompromised host, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_localized_oral_herpes_labialis_without_eye_or_immunocompromised_host_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of localized oral herpes labialis or cold sore",
+      "no eye involvement, genital involvement, disseminated disease, CNS/systemic illness, pregnancy, newborn exposure, or immunocompromised host documented",
+      "no specialist-directed antiviral, dermatology, or ophthalmology pathway"
+    ],
+    "review_date": "2026-06-17"
+  },
+  {
+    "id": "heat_rash_uncomplicated_no_heat_illness_or_infection",
+    "label": "Uncomplicated heat rash without heat illness or infection",
+    "family": "dermatology",
+    "condition_terms": [
+      "uncomplicated heat rash",
+      "heat rash no heat illness",
+      "heat rash",
+      "miliaria"
+    ],
+    "source_card_ids": [
+      "cdc.heat_related_illnesses_heat_rash",
+      "medlineplus.heat_illness"
+    ],
+    "summary": "Your symptoms fit heat rash.",
+    "found": "Your clinician diagnosed uncomplicated heat rash. We did not find heat exhaustion, heat stroke, dehydration, or skin infection today.",
+    "home": [
+      "Move to a cooler environment and avoid overheating while the rash heals.",
+      "Keep the skin cool and dry.",
+      "Wear loose, breathable clothing when possible."
+    ],
+    "meds": [
+      "Use skin medicine only if prescribed or recommended.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Confusion, fainting, severe weakness, vomiting, dehydration, or symptoms after heat exposure that feel severe.",
+      "Fever, spreading redness, warmth, pus, red streaks, or worsening pain.",
+      "The rash becomes widespread, blistering, or does not improve after cooling measures."
+    ],
+    "follow": "Follow up with primary care or urgent care if symptoms are not improving or if the rash keeps coming back.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated heat rash.",
+      "No heat illness, dehydration, secondary infection, severe/widespread rash, systemic illness, high-risk host pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Heat exhaustion, heat stroke, syncope, confusion, dehydration, persistent vomiting, or unstable vital signs.",
+      "Cellulitis, abscess, pus, fever, severe pain, blistering/peeling rash, severe cutaneous adverse reaction, or systemic illness.",
+      "Pregnancy, pediatric pathway, immunocompromised host, or specialist-directed dermatology plan."
+    ],
+    "must_not_miss": [
+      "Heat stroke.",
+      "Heat exhaustion.",
+      "Secondary skin infection.",
+      "Severe cutaneous adverse reaction."
+    ],
+    "unsafe_modifiers": [
+      "heat_illness_or_dehydration",
+      "syncope_or_fainting",
+      "altered_mental_status_not_resolved",
+      "unstable_vitals",
+      "secondary_skin_infection_concern",
+      "abscess_or_boils_or_carbuncle",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "eczema_severe_or_widespread",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_heat_rash",
+        "terms": [
+          "clinician diagnosis heat rash",
+          "discharge diagnosis heat rash",
+          "heat rash diagnosed",
+          "miliaria diagnosed",
+          "uncomplicated heat rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_heat_illness_or_infection_documented",
+        "terms": [
+          "no heat illness",
+          "no heat exhaustion",
+          "no heat stroke",
+          "no dehydration",
+          "no secondary infection",
+          "no cellulitis"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis heat rash",
+      "heat rash diagnosed",
+      "uncomplicated heat rash diagnosed"
+    ],
+    "source_audit_notes": "CDC supports heat-rash framing and cooling/drying measures while MedlinePlus supports heat-illness red flags. Autonomous Phase 1651-1700 approved this narrow v1 only for clinician-diagnosed uncomplicated heat rash without heat illness, dehydration, secondary infection, severe/widespread or blistering/peeling rash, systemic illness, pregnancy/pediatric/immunocompromised pathway, or specialist-directed dermatology plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_heat_rash_without_heat_illness_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated heat rash",
+      "no heat illness, dehydration, cellulitis, secondary infection, severe/widespread rash, or systemic illness documented",
+      "no high-risk host, pregnancy, pediatric, or specialist-directed pathway"
+    ],
+    "review_date": "2026-06-17"
+  }
+]

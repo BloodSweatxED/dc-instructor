@@ -1,0 +1,295 @@
+[
+  {
+    "id": "phase3001_foot_sprain_xray_negative_clean",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Adult. Foot sprain xray negative. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3002_foot_sprain_xray_negative_missing_context_blocks",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Adult with foot sprain.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "xray_performed_and_negative",
+      "intact_neurovascular_exam"
+    ]
+  },
+  {
+    "id": "phase3003_foot_sprain_xray_negative_unsafe_modifiers_block",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Adult. Foot sprain xray negative. X-ray performed and negative. Neurovascular exam intact. However ankle sprain, fracture seen, open wound, high energy trauma, unable to bear weight, numb foot, diabetic foot are documented.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "ankle_sprain_pathway",
+      "fracture_seen",
+      "open_wound",
+      "high_energy_trauma",
+      "unable_to_bear_weight_lower_extremity",
+      "neurovascular_compromise",
+      "diabetic_foot"
+    ]
+  },
+  {
+    "id": "phase3004_minor_head_injury_no_red_flags_clean",
+    "condition": "minor head injury no red flags",
+    "ed_note": "Adult. Minor head injury no red flags. Reassuring ED assessment. No anticoagulation. No neurologic deficit.",
+    "expected_phenotype_id": "minor_head_injury_no_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3005_minor_head_injury_no_red_flags_unsafe_modifiers_block",
+    "condition": "minor head injury no red flags",
+    "ed_note": "Adult. Minor head injury no red flags. Reassuring ED assessment. No anticoagulation. No neurologic deficit. However warfarin, loss of consciousness, intoxicated, elderly, persistent vomiting, weakness are documented.",
+    "expected_phenotype_id": "minor_head_injury_no_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anticoagulated",
+      "loss_of_consciousness",
+      "intoxication",
+      "elderly",
+      "persistent_vomiting",
+      "neurologic_deficit"
+    ]
+  },
+  {
+    "id": "phase3006_concussion_discharge_no_imaging_red_flags_clean",
+    "condition": "concussion discharge no imaging red flags",
+    "ed_note": "Adult. Concussion discharge no imaging red flags. Reassuring neurologic assessment. Safe observation plan. No anticoagulation.",
+    "expected_phenotype_id": "concussion_discharge_no_imaging_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3007_concussion_discharge_no_imaging_red_flags_unsafe_modifiers_block",
+    "condition": "concussion discharge no imaging red flags",
+    "ed_note": "Adult. Concussion discharge no imaging red flags. Reassuring neurologic assessment. Safe observation plan. No anticoagulation. However return to play, warfarin, weakness, persistent vomiting, loss of consciousness, intoxicated are documented.",
+    "expected_phenotype_id": "concussion_discharge_no_imaging_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "athlete_return_to_play",
+      "anticoagulated",
+      "neurologic_deficit",
+      "persistent_vomiting",
+      "loss_of_consciousness",
+      "intoxication"
+    ]
+  },
+  {
+    "id": "phase3008_renal_colic_stable_no_infection_clean",
+    "condition": "renal colic stable no infection",
+    "ed_note": "Adult. Renal colic stable no infection. Stable for outpatient management. Temperature normal. Symptoms controlled enough for discharge.",
+    "expected_phenotype_id": "renal_colic_stable_no_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3009_renal_colic_stable_no_infection_unsafe_modifiers_block",
+    "condition": "renal colic stable no infection",
+    "ed_note": "Adult. Renal colic stable no infection. Stable for outpatient management. Symptoms controlled enough for discharge. However fever, solitary kidney, pregnancy, renal failure, uncontrolled pain, vomiting repeatedly, urinary obstruction, sepsis are documented.",
+    "expected_phenotype_id": "renal_colic_stable_no_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fever",
+      "solitary_kidney",
+      "pregnancy",
+      "renal_failure",
+      "uncontrolled_pain",
+      "vomiting_unable_to_take_meds",
+      "urinary_obstruction",
+      "sepsis"
+    ]
+  },
+  {
+    "id": "phase3010_asthma_exacerbation_improved_discharge_clean",
+    "condition": "asthma exacerbation improved discharge",
+    "ed_note": "Adult. Asthma exacerbation improved discharge. Breathing improved after ED treatment. Safe outpatient plan. Rescue medication access. No persistent hypoxia.",
+    "expected_phenotype_id": "asthma_exacerbation_improved_discharge",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3011_asthma_exacerbation_improved_discharge_unsafe_modifiers_block",
+    "condition": "asthma exacerbation improved discharge",
+    "ed_note": "Adult. Asthma exacerbation improved discharge. Breathing improved after ED treatment. Safe outpatient plan. Rescue medication access. However low oxygen, no rescue inhaler, pregnancy, chest pain, frequent relapse, respiratory distress are documented.",
+    "expected_phenotype_id": "asthma_exacerbation_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "hypoxia",
+      "poor_inhaler_access",
+      "pregnancy",
+      "chest_pain",
+      "frequent_relapse",
+      "respiratory_distress"
+    ]
+  },
+  {
+    "id": "phase3012_heel_contusion_no_fracture_clean",
+    "condition": "heel contusion no fracture",
+    "ed_note": "Adult. Clinician diagnosis heel contusion. No fracture concern. No diabetic foot. Neurovascular exam intact.",
+    "expected_phenotype_id": "heel_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3013_heel_contusion_no_fracture_missing_context_blocks",
+    "condition": "heel contusion no fracture",
+    "ed_note": "Adult with heel contusion.",
+    "expected_phenotype_id": "heel_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_heel_contusion",
+      "no_fracture_or_diabetic_foot_red_flags_heel"
+    ]
+  },
+  {
+    "id": "phase3014_heel_contusion_no_fracture_unsafe_modifiers_block",
+    "condition": "heel contusion no fracture",
+    "ed_note": "Adult. Clinician diagnosis heel contusion. No fracture concern. No diabetic foot. Neurovascular exam intact. However possible fracture, open wound, diabetic foot, peripheral vascular disease, neuropathy, septic joint, high energy trauma, numb foot are documented.",
+    "expected_phenotype_id": "heel_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "septic_joint_or_infection_concern",
+      "high_energy_trauma",
+      "neurovascular_compromise"
+    ]
+  },
+  {
+    "id": "phase3015_palm_contusion_no_fracture_clean",
+    "condition": "palm contusion no fracture",
+    "ed_note": "Adult. Clinician diagnosis palm contusion. No fracture concern. No tendon injury. Neurovascular exam intact.",
+    "expected_phenotype_id": "palm_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3016_palm_contusion_no_fracture_missing_context_blocks",
+    "condition": "palm contusion no fracture",
+    "ed_note": "Adult with palm contusion.",
+    "expected_phenotype_id": "palm_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_palm_contusion",
+      "no_fracture_or_tendon_red_flags_palm"
+    ]
+  },
+  {
+    "id": "phase3017_palm_contusion_no_fracture_unsafe_modifiers_block",
+    "condition": "palm contusion no fracture",
+    "ed_note": "Adult. Clinician diagnosis palm contusion. No fracture concern. No tendon injury. Neurovascular exam intact. However possible fracture, tendon injury, open wound, septic joint, numb fingers, high energy trauma are documented.",
+    "expected_phenotype_id": "palm_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "hand_tendon_risk",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma"
+    ]
+  },
+  {
+    "id": "phase3018_upper_arm_strain_no_rupture_clean",
+    "condition": "upper arm strain no rupture",
+    "ed_note": "Adult. Clinician diagnosis upper arm strain. No tendon rupture. Neurovascular exam intact. No fracture concern.",
+    "expected_phenotype_id": "upper_arm_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3019_upper_arm_strain_no_rupture_missing_context_blocks",
+    "condition": "upper arm strain no rupture",
+    "ed_note": "Adult with upper arm strain.",
+    "expected_phenotype_id": "upper_arm_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_upper_arm_strain",
+      "no_rupture_or_neurovascular_red_flags_upper_arm"
+    ]
+  },
+  {
+    "id": "phase3020_upper_arm_strain_no_rupture_unsafe_modifiers_block",
+    "condition": "upper arm strain no rupture",
+    "ed_note": "Adult. Clinician diagnosis upper arm strain. No tendon rupture. Neurovascular exam intact. No fracture concern. However possible fracture, tendon rupture, open wound, septic joint, numb hand, high energy trauma are documented.",
+    "expected_phenotype_id": "upper_arm_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma"
+    ]
+  },
+  {
+    "id": "phase3021_lower_leg_strain_no_rupture_clean",
+    "condition": "lower leg strain no rupture",
+    "ed_note": "Adult. Clinician diagnosis lower leg strain. No tendon rupture. Neurovascular exam intact. No fracture concern.",
+    "expected_phenotype_id": "lower_leg_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3022_lower_leg_strain_no_rupture_missing_context_blocks",
+    "condition": "lower leg strain no rupture",
+    "ed_note": "Adult with lower leg strain.",
+    "expected_phenotype_id": "lower_leg_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_lower_leg_strain",
+      "no_rupture_or_neurovascular_red_flags_lower_leg"
+    ]
+  },
+  {
+    "id": "phase3023_lower_leg_strain_no_rupture_unsafe_modifiers_block",
+    "condition": "lower leg strain no rupture",
+    "ed_note": "Adult. Clinician diagnosis lower leg strain. No tendon rupture. Neurovascular exam intact. No fracture concern. However possible fracture, tendon rupture, open wound, septic joint, numb foot, unable to bear weight, high energy trauma are documented.",
+    "expected_phenotype_id": "lower_leg_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma"
+    ]
+  },
+  {
+    "id": "phase3024_ankle_tendinitis_no_rupture_clean",
+    "condition": "ankle tendinitis no rupture",
+    "ed_note": "Adult. Clinician diagnosis ankle tendinitis. No tendon rupture. No infection. Neurovascular exam intact.",
+    "expected_phenotype_id": "ankle_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3025_ankle_tendinitis_no_rupture_missing_context_blocks",
+    "condition": "ankle tendinitis no rupture",
+    "ed_note": "Adult with ankle tendinitis.",
+    "expected_phenotype_id": "ankle_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_ankle_tendinitis",
+      "no_rupture_or_infection_red_flags_ankle_tendinitis"
+    ]
+  },
+  {
+    "id": "phase3026_ankle_tendinitis_no_rupture_unsafe_modifiers_block",
+    "condition": "ankle tendinitis no rupture",
+    "ed_note": "Adult. Clinician diagnosis ankle tendinitis. No tendon rupture. No infection. Neurovascular exam intact. However possible fracture, tendon rupture, open wound, septic joint, numb foot, unable to bear weight, diabetic foot are documented.",
+    "expected_phenotype_id": "ankle_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "diabetic_foot"
+    ]
+  }
+]

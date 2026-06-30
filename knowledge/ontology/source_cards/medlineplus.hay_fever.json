@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.hay_fever",
+  "source": "MedlinePlus",
+  "title": "Hay Fever",
+  "url": "https://medlineplus.gov/hayfever.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Hay fever is allergic rhinitis triggered by pollen or other allergens.",
+    "Symptoms can include sneezing, runny or stuffy nose, cough, postnasal drip, itchy eyes, nose, or throat, and watery eyes.",
+    "Avoiding triggers and using clinician-recommended allergy treatment can help symptoms."
+  ],
+  "use_policy": "evidence_support"
+}

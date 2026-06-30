@@ -1,0 +1,15 @@
+{
+  "id": "cdc.ringworm",
+  "source": "CDC",
+  "title": "Ringworm Basics",
+  "url": "https://www.cdc.gov/ringworm/about/index.html",
+  "source_type": "public_health_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Ringworm is a common fungal skin infection and can affect body sites including skin, feet, groin, scalp, beard, and nails.",
+    "Body ringworm can cause itchy, ring-shaped, scaly rash and is contagious through contact with infected people, animals, or surfaces.",
+    "Many skin ringworm infections are treated with antifungal medicines, while scalp or nail involvement often requires clinician-directed oral treatment.",
+    "Patients should seek care for extensive, persistent, recurrent, scalp, nail, beard, or infected-appearing disease or high-risk host factors."
+  ],
+  "use_policy": "evidence_support"
+}

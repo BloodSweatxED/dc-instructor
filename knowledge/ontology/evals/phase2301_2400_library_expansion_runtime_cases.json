@@ -1,0 +1,162 @@
+[
+  {
+    "id": "phase2301_calf_strain_clean",
+    "condition": "calf strain",
+    "ed_note": "Adult. Clinician diagnosis calf strain. No tendon rupture. Neurovascularly intact. No fracture concern.",
+    "expected_phenotype_id": "calf_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2302_calf_strain_missing_context_blocks",
+    "condition": "calf strain",
+    "ed_note": "Adult with calf strain.",
+    "expected_phenotype_id": "calf_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_calf_strain",
+      "no_rupture_or_neurovascular_red_flags_calf"
+    ]
+  },
+  {
+    "id": "phase2303_calf_strain_unsafe_modifiers_block",
+    "condition": "calf strain",
+    "ed_note": "Calf strain without rupture or neurovascular red flags diagnosed, but possible fracture, tendon rupture, numb fingers, severe pain, unable to bear weight are documented.",
+    "expected_phenotype_id": "calf_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase2304_hamstring_strain_clean",
+    "condition": "hamstring strain",
+    "ed_note": "Adult. Clinician diagnosis hamstring strain. No tendon rupture. Neurovascularly intact. No fracture concern.",
+    "expected_phenotype_id": "hamstring_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2305_hamstring_strain_missing_context_blocks",
+    "condition": "hamstring strain",
+    "ed_note": "Adult with hamstring strain.",
+    "expected_phenotype_id": "hamstring_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_hamstring_strain",
+      "no_rupture_or_neurovascular_red_flags_hamstring"
+    ]
+  },
+  {
+    "id": "phase2306_hamstring_strain_unsafe_modifiers_block",
+    "condition": "hamstring strain",
+    "ed_note": "Hamstring strain without rupture or neurovascular red flags diagnosed, but possible fracture, tendon rupture, numb fingers, severe pain, unable to bear weight are documented.",
+    "expected_phenotype_id": "hamstring_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase2307_quadriceps_strain_clean",
+    "condition": "quadriceps strain",
+    "ed_note": "Adult. Clinician diagnosis quadriceps strain. No tendon rupture. Neurovascularly intact. No fracture concern.",
+    "expected_phenotype_id": "quadriceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2308_quadriceps_strain_missing_context_blocks",
+    "condition": "quadriceps strain",
+    "ed_note": "Adult with quadriceps strain.",
+    "expected_phenotype_id": "quadriceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_quadriceps_strain",
+      "no_rupture_or_neurovascular_red_flags_quadriceps"
+    ]
+  },
+  {
+    "id": "phase2309_quadriceps_strain_unsafe_modifiers_block",
+    "condition": "quadriceps strain",
+    "ed_note": "Quadriceps strain without rupture or neurovascular red flags diagnosed, but possible fracture, tendon rupture, numb fingers, severe pain, unable to bear weight are documented.",
+    "expected_phenotype_id": "quadriceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase2310_forearm_strain_clean",
+    "condition": "forearm strain",
+    "ed_note": "Adult. Clinician diagnosis forearm strain. No tendon rupture. Neurovascularly intact. No fracture concern.",
+    "expected_phenotype_id": "forearm_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2311_forearm_strain_missing_context_blocks",
+    "condition": "forearm strain",
+    "ed_note": "Adult with forearm strain.",
+    "expected_phenotype_id": "forearm_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_forearm_strain",
+      "no_rupture_or_neurovascular_red_flags_forearm"
+    ]
+  },
+  {
+    "id": "phase2312_forearm_strain_unsafe_modifiers_block",
+    "condition": "forearm strain",
+    "ed_note": "Forearm strain without rupture or neurovascular red flags diagnosed, but possible fracture, tendon rupture, numb fingers, severe pain, pregnancy are documented.",
+    "expected_phenotype_id": "forearm_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "phase2313_upper_back_strain_clean",
+    "condition": "upper back strain",
+    "ed_note": "Adult. Clinician diagnosis upper back strain. No tendon rupture. Neurovascularly intact. No fracture concern.",
+    "expected_phenotype_id": "upper_back_strain_uncomplicated_no_neuro_or_trauma_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2314_upper_back_strain_missing_context_blocks",
+    "condition": "upper back strain",
+    "ed_note": "Adult with upper back strain.",
+    "expected_phenotype_id": "upper_back_strain_uncomplicated_no_neuro_or_trauma_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_upper_back_strain",
+      "no_rupture_or_neurovascular_red_flags_upper_back"
+    ]
+  },
+  {
+    "id": "phase2315_upper_back_strain_unsafe_modifiers_block",
+    "condition": "upper back strain",
+    "ed_note": "Upper back strain without neurologic or trauma red flags diagnosed, but possible fracture, tendon rupture, numb fingers, severe pain, pregnancy are documented.",
+    "expected_phenotype_id": "upper_back_strain_uncomplicated_no_neuro_or_trauma_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "pregnancy"
+    ]
+  }
+]

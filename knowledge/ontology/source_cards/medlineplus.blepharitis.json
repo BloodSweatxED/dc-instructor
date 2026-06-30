@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.blepharitis",
+  "source": "MedlinePlus",
+  "title": "Blepharitis",
+  "url": "https://medlineplus.gov/ency/article/001619.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Blepharitis is inflammation of the eyelids where the eyelashes grow.",
+    "Symptoms include inflamed, irritated, itchy, and reddened eyelids with dandruff-like debris at the eyelash base.",
+    "Cleaning the eyelids and warm compresses are common home-care measures.",
+    "Eye pain, vision change, worsening swelling, or concern for deeper infection needs clinician care."
+  ],
+  "use_policy": "evidence_support"
+}

@@ -1,0 +1,487 @@
+[
+  {
+    "id": "folliculitis_uncomplicated_no_abscess_or_cellulitis",
+    "label": "Uncomplicated folliculitis without abscess or cellulitis",
+    "family": "skin_soft_tissue_infection",
+    "condition_terms": [
+      "uncomplicated folliculitis",
+      "folliculitis no abscess",
+      "folliculitis",
+      "hair follicle infection"
+    ],
+    "source_card_ids": [
+      "medlineplus.folliculitis"
+    ],
+    "summary": "Your symptoms fit folliculitis, irritation or infection of hair follicles.",
+    "found": "Your clinician diagnosed uncomplicated folliculitis. We did not find an abscess, spreading cellulitis, or systemic illness today.",
+    "home": [
+      "Keep the area clean and dry.",
+      "Avoid shaving, friction, or tight clothing over the irritated area until it improves.",
+      "Do not squeeze or pick at bumps."
+    ],
+    "meds": [
+      "Use antibiotic, antifungal, or skin medicine only if prescribed and exactly as directed.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Fever, spreading redness, warmth, swelling, red streaks, or severe pain.",
+      "A growing pus pocket, boil, or area that may need drainage.",
+      "Symptoms spread quickly or worsen despite the plan you were given."
+    ],
+    "follow": "Follow up with primary care, urgent care, or dermatology if symptoms are not improving or if this keeps coming back.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated folliculitis.",
+      "No abscess, boil, carbuncle, cellulitis, systemic illness, high-risk host pathway, genital pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Abscess, boil, carbuncle, cellulitis, rapidly spreading infection, or systemic illness.",
+      "Genital involvement, immunocompromised host, diabetes/PVD/neuropathy risk, recurrent disease, hot tub outbreak, or public-health-directed plan.",
+      "Medication selection not supplied by clinician."
+    ],
+    "must_not_miss": [
+      "Abscess.",
+      "Cellulitis.",
+      "Necrotizing infection.",
+      "Sepsis."
+    ],
+    "unsafe_modifiers": [
+      "abscess_or_boils_or_carbuncle",
+      "secondary_skin_infection_concern",
+      "near_eye_or_genitals",
+      "rapid_progression",
+      "necrotizing_infection_concern",
+      "immunocompromised",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "systemic_illness",
+      "sepsis",
+      "recurrent_or_outbreak_folliculitis",
+      "specialist_directed_wound_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_folliculitis",
+        "terms": [
+          "clinician diagnosis folliculitis",
+          "discharge diagnosis folliculitis",
+          "folliculitis diagnosed",
+          "uncomplicated folliculitis diagnosed",
+          "hair follicle infection diagnosed"
+        ]
+      },
+      {
+        "id": "no_abscess_or_cellulitis_documented",
+        "terms": [
+          "no abscess",
+          "no boil",
+          "no carbuncle",
+          "no cellulitis",
+          "no spreading infection"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis folliculitis",
+      "folliculitis diagnosed",
+      "uncomplicated folliculitis diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus supports folliculitis framing, hair-follicle rash or pustules, shaving/friction triggers, and escalation for spreading, recurrent, or higher-risk infection. Autonomous Phase 1601-1650 approved this narrow v1 only for clinician-diagnosed uncomplicated folliculitis without abscess, boil, carbuncle, cellulitis, systemic illness, high-risk host pathway, genital pathway, recurrent/outbreak context, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_folliculitis_without_abscess_or_cellulitis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated folliculitis",
+      "no abscess, boil, carbuncle, cellulitis, or systemic illness documented",
+      "no high-risk host, genital, recurrent, outbreak, or specialist-directed pathway"
+    ],
+    "review_date": "2026-06-17"
+  },
+  {
+    "id": "sunburn_superficial_no_heat_illness_or_large_blistering",
+    "label": "Superficial sunburn without heat illness or large blistering",
+    "family": "dermatology",
+    "condition_terms": [
+      "superficial sunburn",
+      "sunburn no heat illness",
+      "sunburn",
+      "mild sunburn"
+    ],
+    "source_card_ids": [
+      "medlineplus.sunburn",
+      "medlineplus.sun_protection"
+    ],
+    "summary": "Your symptoms fit a sunburn.",
+    "found": "Your exam was reassuring for a superficial sunburn. We did not find heat illness, severe dehydration, large blistering, or another emergency skin problem today.",
+    "home": [
+      "Stay out of the sun while the skin heals.",
+      "Use cool compresses or cool baths for comfort.",
+      "Drink fluids unless your clinician told you to limit fluids."
+    ],
+    "meds": [
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label.",
+      "Use skin products only as directed by your clinician or the product label."
+    ],
+    "return": [
+      "Fever, chills, confusion, fainting, severe weakness, vomiting, or signs of dehydration.",
+      "Large blisters, severe swelling, worsening pain, pus, or spreading redness.",
+      "Eye pain, vision change, or sunburn involving the eye."
+    ],
+    "follow": "Follow up with primary care if pain, redness, or peeling is not improving, or sooner if symptoms worsen.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of superficial sunburn.",
+      "No heat illness, dehydration, large blistering, eye involvement, infection, systemic illness, or high-risk host pathway."
+    ],
+    "exclusion": [
+      "Heat exhaustion, heat stroke, syncope, confusion, dehydration, persistent vomiting, or unstable vital signs.",
+      "Large blistering burn, face/eye/genital involvement, circumferential burn, chemical burn, infection concern, or severe pain.",
+      "Pediatric, pregnancy, immunocompromised, or specialist-directed burn plan."
+    ],
+    "must_not_miss": [
+      "Heat stroke.",
+      "Heat exhaustion.",
+      "Severe burn.",
+      "Secondary skin infection."
+    ],
+    "unsafe_modifiers": [
+      "heat_illness_or_dehydration",
+      "large_blistering_or_high_risk_burn",
+      "eye_or_genital_rash_location",
+      "chemical_eye_exposure",
+      "secondary_skin_infection_concern",
+      "severe_cutaneous_adverse_reaction",
+      "severe_eye_pain",
+      "vision_change",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "systemic_illness",
+      "unstable_vitals",
+      "specialist_directed_wound_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_superficial_sunburn",
+        "terms": [
+          "clinician diagnosis sunburn",
+          "discharge diagnosis sunburn",
+          "sunburn diagnosed",
+          "superficial sunburn diagnosed",
+          "mild sunburn diagnosed"
+        ]
+      },
+      {
+        "id": "no_heat_illness_or_large_blistering_documented",
+        "terms": [
+          "no heat illness",
+          "no heat exhaustion",
+          "no heat stroke",
+          "no dehydration",
+          "no large blisters",
+          "no blistering"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis sunburn",
+      "sunburn diagnosed",
+      "superficial sunburn diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus supports sunburn framing, UV skin injury, cool comfort measures, hydration as appropriate, sun avoidance while healing, sun protection, and escalation for severe blistering, fever, chills, weakness, dehydration, or eye symptoms. Autonomous Phase 1601-1650 approved this narrow v1 only for clinician-diagnosed superficial sunburn without heat illness, dehydration, large blistering, eye/genital involvement, infection, systemic illness, pediatric/pregnancy/immunocompromised pathway, or specialist burn plan.",
+    "clinical_status": "reviewed_for_limited_superficial_sunburn_without_heat_illness_or_large_blistering_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of superficial or mild sunburn",
+      "no heat illness, dehydration, large blistering, or eye/genital involvement documented",
+      "no infection, systemic illness, high-risk host, pediatric, pregnancy, or specialist burn pathway"
+    ],
+    "review_date": "2026-06-17"
+  },
+  {
+    "id": "blepharitis_uncomplicated_no_vision_or_orbital_red_flags",
+    "label": "Uncomplicated blepharitis without vision or orbital red flags",
+    "family": "ophthalmology",
+    "condition_terms": [
+      "uncomplicated blepharitis",
+      "blepharitis no vision change",
+      "blepharitis",
+      "eyelid inflammation"
+    ],
+    "source_card_ids": [
+      "medlineplus.blepharitis",
+      "medlineplus.eyelid_disorders"
+    ],
+    "summary": "Your symptoms fit blepharitis, irritation and inflammation of the eyelids.",
+    "found": "Your clinician diagnosed uncomplicated blepharitis. We did not find vision changes, severe eye pain, eye injury, or signs of a deeper infection around the eye today.",
+    "home": [
+      "Use warm compresses as your clinician instructed.",
+      "Clean the eyelid edges gently as instructed.",
+      "Avoid eye makeup and contact lenses until your clinician says they are safe."
+    ],
+    "meds": [
+      "Use eye medicine only if it was prescribed.",
+      "Do not put non-eye medicines or harsh products in the eye."
+    ],
+    "return": [
+      "Vision change, severe eye pain, light sensitivity, or pain with eye movement.",
+      "Fever, swelling spreading around the eye, the eye bulges, or you cannot open the eyelid.",
+      "Symptoms get much worse or do not improve with the plan you were given."
+    ],
+    "follow": "Follow up with primary care, urgent care, or eye care if symptoms are not improving, and sooner if any red flag develops.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated blepharitis.",
+      "No contact lens pathway, vision change, severe eye pain, photophobia, trauma, foreign body, herpes or zoster concern, orbital or periorbital cellulitis concern, pregnancy, or immunocompromised-host pathway."
+    ],
+    "exclusion": [
+      "Vision change, severe eye pain, photophobia, pain with eye movement, proptosis, orbital or periorbital cellulitis concern.",
+      "Contact lens use, eye trauma, foreign body, chemical exposure, corneal ulcer or keratitis concern, herpes or zoster eye concern, acute glaucoma mimic.",
+      "Pregnancy, immunocompromised host, systemic illness, or specialist-directed ophthalmology plan."
+    ],
+    "must_not_miss": [
+      "Orbital cellulitis.",
+      "Periorbital cellulitis requiring separate plan.",
+      "Corneal ulcer or keratitis.",
+      "Acute glaucoma mimic."
+    ],
+    "unsafe_modifiers": [
+      "contact_lens_use",
+      "vision_change",
+      "severe_eye_pain",
+      "photophobia",
+      "periorbital_or_orbital_cellulitis_concern",
+      "eye_trauma_or_foreign_body",
+      "chemical_eye_exposure",
+      "corneal_ulcer_or_keratitis_concern",
+      "acute_glaucoma_mimic",
+      "herpes_or_zoster_eye_concern",
+      "zoster_eye_face_or_neuro_concern",
+      "immunocompromised",
+      "pregnancy",
+      "systemic_illness"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_blepharitis",
+        "terms": [
+          "clinician diagnosis blepharitis",
+          "discharge diagnosis blepharitis",
+          "blepharitis diagnosed",
+          "uncomplicated blepharitis diagnosed",
+          "eyelid inflammation diagnosed"
+        ]
+      },
+      {
+        "id": "no_vision_or_orbital_red_flags_documented",
+        "terms": [
+          "no vision change",
+          "no severe eye pain",
+          "no orbital cellulitis concern",
+          "no periorbital cellulitis concern",
+          "no eye injury"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis blepharitis",
+      "blepharitis diagnosed",
+      "uncomplicated blepharitis diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus supports blepharitis framing, inflamed irritated itchy red eyelids, crusting at eyelash bases, eyelid cleaning and warm compresses, and separation from stye, chalazion, periorbital cellulitis, or orbital cellulitis. Autonomous Phase 1601-1650 approved this narrow v1 only for clinician-diagnosed uncomplicated blepharitis without contact lens use, vision change, severe eye pain, photophobia, trauma, foreign body, chemical exposure, corneal ulcer, herpes or zoster concern, orbital or periorbital cellulitis concern, pregnancy, immunocompromised-host pathway, systemic illness, or specialist-directed eye plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_blepharitis_without_vision_or_orbital_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated blepharitis",
+      "no vision change, severe eye pain, photophobia, trauma, foreign body, chemical exposure, corneal ulcer, herpes or zoster, orbital or periorbital cellulitis concern",
+      "no pregnancy, immunocompromised-host, systemic illness, or specialist-directed pathway"
+    ],
+    "review_date": "2026-06-17"
+  },
+  {
+    "id": "bedbug_bites_local_reaction_no_infection_or_anaphylaxis",
+    "label": "Bedbug bites with local reaction and no infection or anaphylaxis",
+    "family": "dermatology",
+    "condition_terms": [
+      "bedbug bites local reaction",
+      "bed bug bites local reaction",
+      "bedbug bites",
+      "bed bug bites"
+    ],
+    "source_card_ids": [
+      "cdc.bed_bugs",
+      "epa.bed_bugs_intro"
+    ],
+    "summary": "Your symptoms fit local skin reactions from bedbug bites.",
+    "found": "Your clinician diagnosed bedbug bites today. We did not find anaphylaxis, secondary skin infection, or another emergency rash problem.",
+    "home": [
+      "Avoid scratching the bites.",
+      "Keep the skin clean.",
+      "Address the bedbug source in the home or sleeping area to prevent more bites."
+    ],
+    "meds": [
+      "Use itch medicine or skin cream only as directed by your clinician or the product label.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Trouble breathing, throat swelling, fainting, or widespread allergic symptoms.",
+      "Fever, spreading redness, warmth, pus, red streaks, or severe pain.",
+      "Bites continue because the infestation cannot be controlled."
+    ],
+    "follow": "Follow up with primary care, urgent care, or dermatology if itching is not improving, signs of infection develop, or bites continue.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of bedbug bites with local skin reaction.",
+      "No anaphylaxis, systemic allergic reaction, secondary infection, systemic illness, high-risk host pathway, or uncertain bite diagnosis needing another pathway."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, syncope, diffuse hives, or systemic allergic reaction.",
+      "Secondary skin infection, cellulitis, abscess, fever, systemic illness, immunocompromised host, or poor follow-up.",
+      "Tick, spider, scorpion, snake, or travel-related disease concern."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Scabies or other infestation mimic.",
+      "Tick-borne illness when relevant."
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "syncope_or_fainting",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "abscess_concern",
+      "systemic_illness",
+      "immunocompromised",
+      "tick_borne_illness_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "snakebite_concern",
+      "poor_follow_up"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_bedbug_bites_local_reaction",
+        "terms": [
+          "clinician diagnosis bedbug bites",
+          "clinician diagnosis bed bug bites",
+          "discharge diagnosis bedbug bites",
+          "bedbug bites diagnosed",
+          "bed bug bites diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_anaphylaxis_documented",
+        "terms": [
+          "no anaphylaxis",
+          "no systemic reaction",
+          "no secondary infection",
+          "no cellulitis",
+          "no skin infection concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis bedbug bites",
+      "clinician diagnosis bed bug bites",
+      "bedbug bites diagnosed",
+      "bed bug bites diagnosed"
+    ],
+    "source_audit_notes": "CDC and EPA support bedbug bite framing, itch and rare allergic reaction risk, lack of known disease transmission, avoiding scratching to prevent secondary infection, and environmental infestation control. Autonomous Phase 1601-1650 approved this narrow v1 only for clinician-diagnosed bedbug bites with local reaction and no anaphylaxis, systemic allergic reaction, secondary infection, systemic illness, high-risk host pathway, or alternate dangerous bite concern.",
+    "clinical_status": "reviewed_for_limited_bedbug_bites_local_reaction_without_infection_or_anaphylaxis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of bedbug bites with local reaction",
+      "no anaphylaxis, systemic reaction, secondary infection, cellulitis, or systemic illness documented",
+      "no dangerous alternate bite or high-risk host pathway"
+    ],
+    "review_date": "2026-06-17"
+  },
+  {
+    "id": "localized_molluscum_contagiosum_no_genital_or_immunocompromised_host",
+    "label": "Localized molluscum contagiosum without genital or immunocompromised-host features",
+    "family": "dermatology",
+    "condition_terms": [
+      "localized molluscum contagiosum",
+      "molluscum no genital involvement",
+      "molluscum contagiosum",
+      "molluscum"
+    ],
+    "source_card_ids": [
+      "medlineplus.molluscum_contagiosum",
+      "cdc.molluscum_contagiosum"
+    ],
+    "summary": "Your symptoms fit molluscum contagiosum, a contagious viral skin condition.",
+    "found": "Your clinician diagnosed localized molluscum today. We did not find genital involvement, eye involvement, secondary infection, or a high-risk immune-system concern today.",
+    "home": [
+      "Avoid scratching or picking at bumps.",
+      "Do not shave over the bumps.",
+      "Avoid sharing towels or clothing that touched the bumps."
+    ],
+    "meds": [
+      "Use skin medicine only if prescribed or specifically recommended by your clinician.",
+      "Do not try to cut, burn, or remove bumps yourself."
+    ],
+    "return": [
+      "Spreading redness, warmth, pus, fever, or severe pain.",
+      "Bumps involve the eye, genitals, or spread widely.",
+      "You have a weakened immune system or symptoms worsen despite the plan you were given."
+    ],
+    "follow": "Follow up with primary care or dermatology if bumps are spreading, bothersome, infected-appearing, or not improving as expected.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized molluscum contagiosum.",
+      "No genital, eye, extensive, secondary infection, immunocompromised-host, pediatric, pregnancy, or specialist-directed pathway."
+    ],
+    "exclusion": [
+      "Genital or sexually transmitted infection pathway, eye involvement, extensive or severe disease, immunocompromised host, or secondary infection.",
+      "Pediatric pathway, pregnancy, poor follow-up, or specialist-directed dermatology plan.",
+      "Uncertain rash diagnosis needing biopsy, STI testing, or another pathway."
+    ],
+    "must_not_miss": [
+      "Secondary skin infection.",
+      "Genital STI pathway.",
+      "Immunocompromised-host disseminated disease.",
+      "Rash mimic requiring biopsy or urgent dermatology."
+    ],
+    "unsafe_modifiers": [
+      "molluscum_genital_eye_or_extensive",
+      "near_eye_or_genitals",
+      "secondary_skin_infection_concern",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "systemic_illness",
+      "poor_follow_up",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_molluscum",
+        "terms": [
+          "clinician diagnosis localized molluscum",
+          "clinician diagnosis molluscum contagiosum",
+          "discharge diagnosis molluscum contagiosum",
+          "molluscum contagiosum diagnosed",
+          "localized molluscum diagnosed"
+        ]
+      },
+      {
+        "id": "no_genital_eye_or_immunocompromised_context_documented",
+        "terms": [
+          "no genital involvement",
+          "no eye involvement",
+          "no secondary infection",
+          "no immunocompromised host",
+          "localized lesions only"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized molluscum",
+      "clinician diagnosis molluscum contagiosum",
+      "molluscum contagiosum diagnosed",
+      "localized molluscum diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus and CDC support molluscum contagiosum framing, raised pearl-like viral papules, usual mild self-limited course, contagious spread by direct contact or contaminated objects, and avoiding scratching or shaving over lesions. Autonomous Phase 1601-1650 approved this narrow v1 only for clinician-diagnosed localized molluscum without genital, eye, extensive, secondary infection, immunocompromised-host, pediatric, pregnancy, poor-follow-up, or specialist-directed pathway.",
+    "clinical_status": "reviewed_for_limited_localized_molluscum_without_genital_or_immunocompromised_host_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of localized molluscum contagiosum",
+      "no genital involvement, eye involvement, secondary infection, or immunocompromised-host context documented",
+      "no pediatric, pregnancy, extensive, poor-follow-up, or specialist-directed pathway"
+    ],
+    "review_date": "2026-06-17"
+  }
+]

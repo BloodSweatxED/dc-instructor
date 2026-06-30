@@ -1,0 +1,128 @@
+{
+  "id": "scabies_uncomplicated_no_crusted_or_secondary_infection",
+  "label": "Uncomplicated scabies without crusted disease or secondary infection",
+  "status": "reviewed",
+  "condition_family": "dermatology",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated scabies.",
+    "No crusted scabies, institutional outbreak plan, secondary infection, systemic illness, or immunocompromised-host pathway."
+  ],
+  "exclusion_criteria": [
+    "Crusted scabies, institutional outbreak, public-health-directed plan, or immunocompromised host.",
+    "Secondary bacterial infection, cellulitis, abscess, systemic illness, or severe diffuse rash.",
+    "Medication selection or repeat-treatment schedule not supplied by clinician."
+  ],
+  "must_not_miss": [
+    "Crusted scabies.",
+    "Cellulitis.",
+    "Sepsis.",
+    "Severe cutaneous adverse reaction mimic."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, or dermatology if symptoms are not improving after treatment or if household spread continues.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "scabies_uncomplicated_no_crusted_or_secondary_infection.diagnosis.diagnosis_summary.v1",
+    "scabies_uncomplicated_no_crusted_or_secondary_infection.what_we_found.reassuring_ed_assessment.v1",
+    "scabies_uncomplicated_no_crusted_or_secondary_infection.home_care.home_care_1.v1",
+    "scabies_uncomplicated_no_crusted_or_secondary_infection.home_care.home_care_2.v1",
+    "scabies_uncomplicated_no_crusted_or_secondary_infection.home_care.home_care_3.v1",
+    "scabies_uncomplicated_no_crusted_or_secondary_infection.medications.medication_guidance_1.v1",
+    "scabies_uncomplicated_no_crusted_or_secondary_infection.medications.medication_guidance_2.v1",
+    "scabies_uncomplicated_no_crusted_or_secondary_infection.return_precautions.return_precaution_1.v1",
+    "scabies_uncomplicated_no_crusted_or_secondary_infection.return_precautions.return_precaution_2.v1",
+    "scabies_uncomplicated_no_crusted_or_secondary_infection.return_precautions.return_precaution_3.v1",
+    "scabies_uncomplicated_no_crusted_or_secondary_infection.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "cdc.scabies",
+    "cdc.scabies_treatment"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "CDC supports scabies mite infestation framing, intense itching and pimple-like rash symptoms, spread by prolonged skin contact, prescribed scabicide treatment, contact and laundry measures, and special handling for institutional or crusted scabies. Autonomous Phase 1551-1600 approved this narrow v1 only for clinician-diagnosed uncomplicated scabies without crusted disease, outbreak plan, secondary infection, systemic illness, immunocompromised-host pathway, or medication schedule inference."
+  },
+  "runtime": {
+    "condition_terms": [
+      "uncomplicated scabies",
+      "scabies no crusted disease",
+      "scabies",
+      "scabies diagnosed"
+    ],
+    "unsafe_modifiers": [
+      "crusted_scabies_or_institutional_outbreak",
+      "secondary_skin_infection_concern",
+      "abscess_concern",
+      "severe_cutaneous_adverse_reaction",
+      "immunocompromised",
+      "systemic_illness",
+      "nursing_home_patient",
+      "poor_follow_up"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_scabies",
+        "terms": [
+          "clinician diagnosis scabies",
+          "discharge diagnosis scabies",
+          "scabies diagnosed",
+          "uncomplicated scabies diagnosed"
+        ]
+      },
+      {
+        "id": "no_crusted_or_secondary_infection_documented",
+        "terms": [
+          "no crusted scabies",
+          "no secondary infection",
+          "no cellulitis",
+          "no skin infection concern",
+          "no abscess"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "scabies diagnosed",
+      "clinician diagnosis scabies",
+      "uncomplicated scabies diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-17",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. CDC supports scabies mite infestation framing, intense itching and pimple-like rash symptoms, spread by prolonged skin contact, prescribed scabicide treatment, contact and laundry measures, and special handling for institutional or crusted scabies. Autonomous Phase 1551-1600 approved this narrow v1 only for clinician-diagnosed uncomplicated scabies without crusted disease, outbreak plan, secondary infection, systemic illness, immunocompromised-host pathway, or medication schedule inference.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_scabies_without_crusted_or_secondary_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated scabies",
+      "no crusted scabies, institutional outbreak, or public-health-directed plan documented",
+      "no secondary infection, systemic illness, severe rash mimic, or immunocompromised-host pathway"
+    ],
+    "blocked_modifiers": [
+      "crusted_scabies_or_institutional_outbreak",
+      "secondary_skin_infection_concern",
+      "abscess_concern",
+      "severe_cutaneous_adverse_reaction",
+      "immunocompromised",
+      "systemic_illness",
+      "nursing_home_patient",
+      "poor_follow_up"
+    ]
+  }
+}

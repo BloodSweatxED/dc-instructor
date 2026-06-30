@@ -2,7 +2,7 @@
 
 Phenotype ID: `elbow_sprain_acute_traumatic_xray_negative`
 
-Status: `needs_review`
+Status: `reviewed`
 
 ## Inclusion Criteria
 

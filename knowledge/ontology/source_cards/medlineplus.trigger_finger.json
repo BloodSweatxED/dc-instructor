@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.trigger_finger",
+  "source": "MedlinePlus",
+  "title": "Trigger finger",
+  "url": "https://medlineplus.gov/ency/article/001242.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Trigger finger can cause catching, locking, pain, or stiffness in a finger or thumb.",
+    "Supportive care may include rest, splinting, and clinician-directed pain control.",
+    "Infection, trauma, tendon rupture, neurovascular symptoms, or specialist-directed plans require separate handling."
+  ],
+  "use_policy": "evidence_support"
+}

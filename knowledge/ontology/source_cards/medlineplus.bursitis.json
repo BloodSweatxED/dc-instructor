@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.bursitis",
+  "source": "MedlinePlus",
+  "title": "Bursitis",
+  "url": "https://medlineplus.gov/ency/article/000419.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Bursitis is inflammation of a bursa near a joint.",
+    "Symptoms can include joint pain, tenderness, and swelling.",
+    "Supportive care can include rest, avoiding pressure, and clinician-directed pain control.",
+    "Fever, redness/warmth, septic joint concern, trauma, open wound, or immunocompromise require separate evaluation."
+  ],
+  "use_policy": "evidence_support"
+}

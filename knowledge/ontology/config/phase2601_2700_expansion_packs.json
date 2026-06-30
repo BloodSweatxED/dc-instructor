@@ -1,0 +1,418 @@
+[
+  {
+    "id": "trapezius_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "label": "Trapezius strain without rupture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "trapezius strain",
+      "trapezius muscle strain",
+      "pulled trapezius muscle"
+    ],
+    "source_card_ids": [
+      "medlineplus.sprains_strains"
+    ],
+    "summary": "Your symptoms fit uncomplicated trapezius strain.",
+    "found": "Your clinician diagnosed trapezius strain. We did not find fracture, tendon rupture, neurovascular compromise, infection, or another emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, heat, gentle motion, posture changes, or activity limits only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new weakness, numbness, color change, or trouble using the arm.",
+      "New trauma, deformity, chest pain, trouble breathing, or neurologic symptoms.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated trapezius strain.",
+      "No fracture/dislocation concern, tendon rupture, neurovascular compromise, infection, cardiopulmonary red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture/dislocation concern, tendon rupture, severe pain, neurovascular compromise, infection concern, cardiopulmonary red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Tendon rupture.",
+      "Neurovascular compromise.",
+      "Cardiopulmonary mimic."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "chest_pain",
+      "respiratory_distress",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_trapezius_strain",
+        "terms": [
+          "clinician diagnosis trapezius strain",
+          "discharge diagnosis trapezius strain",
+          "trapezius strain diagnosed",
+          "pulled trapezius muscle diagnosed"
+        ]
+      },
+      {
+        "id": "no_rupture_or_neurovascular_red_flags_trapezius",
+        "terms": [
+          "no tendon rupture",
+          "neurovascularly intact",
+          "no fracture concern",
+          "no infection"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis trapezius strain",
+      "trapezius strain diagnosed",
+      "pulled trapezius muscle diagnosed",
+      "trapezius strain"
+    ],
+    "source_audit_notes": "MedlinePlus supports sprain/strain home-care framing and warning signs. Autonomous expansion approved this narrow v1 only for clinician-diagnosed trapezius strain without fracture/dislocation concern, tendon rupture, neurovascular compromise, infection, cardiopulmonary red flags, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_trapezius_strain_without_rupture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated trapezius strain",
+      "no fracture/dislocation concern, tendon rupture, neurovascular compromise, infection, cardiopulmonary red flags, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "hip_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "label": "Hip strain without rupture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "hip strain",
+      "pulled hip muscle",
+      "hip muscle strain"
+    ],
+    "source_card_ids": [
+      "medlineplus.sprains_strains"
+    ],
+    "summary": "Your symptoms fit uncomplicated hip strain.",
+    "found": "Your clinician diagnosed hip strain. We did not find red flags requiring a separate emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, compression, elevation, gentle motion, or activity limits only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the limb.",
+      "New deformity, inability to use the area, or concern for fracture, dislocation, or tendon injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated hip strain.",
+      "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Tendon rupture.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_hip_strain_no_rupture_or_neurovascular_red_flags",
+        "terms": [
+          "clinician diagnosis hip strain",
+          "discharge diagnosis hip strain",
+          "hip strain diagnosed"
+        ]
+      },
+      {
+        "id": "no_rupture_or_neurovascular_red_flags_hip_strain",
+        "terms": [
+          "Clinician diagnosis hip strain",
+          "No tendon rupture",
+          "Neurovascularly intact",
+          "Able to bear weight."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis hip strain",
+      "hip strain diagnosed",
+      "hip strain"
+    ],
+    "source_audit_notes": "medlineplus.sprains_strains supports patient-education framing for hip strain and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_hip_strain_uncomplicated_no_rupture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated hip strain",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "groin_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "label": "Groin strain without rupture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "groin strain",
+      "pulled groin muscle",
+      "adductor strain"
+    ],
+    "source_card_ids": [
+      "medlineplus.sprains_strains"
+    ],
+    "summary": "Your symptoms fit uncomplicated groin strain.",
+    "found": "Your clinician diagnosed groin strain. We did not find red flags requiring a separate emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, compression, elevation, gentle motion, or activity limits only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the limb.",
+      "New deformity, inability to use the area, or concern for fracture, dislocation, or tendon injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated groin strain.",
+      "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Tendon rupture.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_groin_strain_no_rupture_or_neurovascular_red_flags",
+        "terms": [
+          "clinician diagnosis groin strain",
+          "discharge diagnosis groin strain",
+          "groin strain diagnosed"
+        ]
+      },
+      {
+        "id": "no_rupture_or_neurovascular_red_flags_groin",
+        "terms": [
+          "Clinician diagnosis groin strain",
+          "No tendon rupture",
+          "Neurovascularly intact",
+          "Able to bear weight."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis groin strain",
+      "groin strain diagnosed",
+      "groin strain"
+    ],
+    "source_audit_notes": "medlineplus.sprains_strains supports patient-education framing for groin strain and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_groin_strain_uncomplicated_no_rupture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated groin strain",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "abdominal_wall_strain_uncomplicated_no_abdominal_red_flags",
+    "label": "Abdominal wall strain without abdominal red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "abdominal wall strain",
+      "abdominal muscle strain",
+      "pulled abdominal muscle"
+    ],
+    "source_card_ids": [
+      "medlineplus.sprains_strains",
+      "medlineplus.abdominal_pain"
+    ],
+    "summary": "Your symptoms fit uncomplicated abdominal wall strain.",
+    "found": "Your clinician diagnosed abdominal wall strain. We did not find red flags requiring a separate emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, compression, elevation, gentle motion, or activity limits only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Severe or worsening abdominal pain, fever, repeated vomiting, fainting, or a swollen belly.",
+      "Blood in stool, black stool, trouble urinating, or new testicular/pelvic pain.",
+      "Pain that stops feeling like the abdominal wall and becomes deeper or more constant."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated abdominal wall strain.",
+      "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Surgical abdomen.",
+      "Hernia complication.",
+      "GI bleeding.",
+      "Intra-abdominal infection."
+    ],
+    "unsafe_modifiers": [
+      "severe_or_focal_abdominal_pain",
+      "peritoneal_signs",
+      "persistent_vomiting",
+      "fever",
+      "gi_bleeding",
+      "surgical_abdomen",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_abdominal_wall_strain_no_abdominal_red_flags",
+        "terms": [
+          "clinician diagnosis abdominal wall strain",
+          "discharge diagnosis abdominal wall strain",
+          "abdominal wall strain diagnosed"
+        ]
+      },
+      {
+        "id": "no_abdominal_red_flags_abdominal_wall",
+        "terms": [
+          "Clinician diagnosis abdominal wall strain",
+          "Benign abdominal exam",
+          "No abdominal emergency concern",
+          "No hernia concern."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis abdominal wall strain",
+      "abdominal wall strain diagnosed",
+      "abdominal wall strain"
+    ],
+    "source_audit_notes": "medlineplus.sprains_strains, medlineplus.abdominal_pain supports patient-education framing for abdominal wall strain and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_abdominal_wall_strain_uncomplicated_no_abdominal_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated abdominal wall strain",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags",
+    "label": "Chest wall muscle strain without cardiopulmonary red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "chest wall muscle strain",
+      "chest wall strain",
+      "intercostal strain"
+    ],
+    "source_card_ids": [
+      "medlineplus.sprains_strains",
+      "medlineplus.costochondritis"
+    ],
+    "summary": "Your symptoms fit uncomplicated chest wall muscle strain.",
+    "found": "Your clinician diagnosed chest wall muscle strain. We did not find red flags requiring a separate emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, compression, elevation, gentle motion, or activity limits only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the limb.",
+      "New deformity, inability to use the area, or concern for fracture, dislocation, or tendon injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated chest wall muscle strain.",
+      "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Tendon rupture.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "chest_pain",
+      "cardiac_or_pe_chest_pain_concern",
+      "respiratory_distress",
+      "hypoxia",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_chest_wall_muscle_strain_no_cardiopulmonary_red_flags",
+        "terms": [
+          "clinician diagnosis chest wall muscle strain",
+          "discharge diagnosis chest wall muscle strain",
+          "chest wall muscle strain diagnosed"
+        ]
+      },
+      {
+        "id": "no_cardiopulmonary_red_flags_chest_wall_strain",
+        "terms": [
+          "Clinician diagnosis chest wall strain",
+          "Reproducible chest wall pain",
+          "No cardiac concern",
+          "No breathing distress."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis chest wall muscle strain",
+      "chest wall muscle strain diagnosed",
+      "chest wall muscle strain"
+    ],
+    "source_audit_notes": "medlineplus.sprains_strains, medlineplus.costochondritis supports patient-education framing for chest wall muscle strain and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated chest wall muscle strain",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "review_date": "2026-06-19"
+  }
+]

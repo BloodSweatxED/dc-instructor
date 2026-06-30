@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.acne",
+  "source": "MedlinePlus",
+  "title": "Acne",
+  "url": "https://medlineplus.gov/acne.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Acne is a common skin condition with pimples from clogged hair follicles.",
+    "Acne often affects the face, neck, chest, back, and shoulders.",
+    "Severe nodules, cysts, scarring, medication-sensitive plans, infection, or pregnancy-related treatment decisions need clinician follow-up."
+  ],
+  "use_policy": "evidence_support"
+}

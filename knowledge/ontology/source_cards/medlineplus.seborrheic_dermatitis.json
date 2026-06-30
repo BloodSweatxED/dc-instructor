@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.seborrheic_dermatitis",
+  "source": "MedlinePlus",
+  "title": "Seborrheic dermatitis",
+  "url": "https://medlineplus.gov/ency/article/000963.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Seborrheic dermatitis is a common inflammatory skin condition with flaky white or yellowish scale on oily areas such as the scalp, face, ears, or chest.",
+    "Symptoms can include scale, dandruff, itching, mild redness, and greasy or oily skin areas.",
+    "Over-the-counter dandruff or medicated shampoos may help mild flaking and dryness.",
+    "Patients should contact a clinician if symptoms do not respond to self-care or if patches drain fluid or pus, crust, become very red, or become painful."
+  ],
+  "use_policy": "evidence_support"
+}

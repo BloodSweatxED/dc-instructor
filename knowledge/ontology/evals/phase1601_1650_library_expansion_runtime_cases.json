@@ -1,0 +1,146 @@
+[
+  {
+    "id": "phase1601_folliculitis_clean",
+    "condition": "folliculitis",
+    "ed_note": "Adult. Clinician diagnosis folliculitis. No abscess. No boil. No cellulitis.",
+    "expected_phenotype_id": "folliculitis_uncomplicated_no_abscess_or_cellulitis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1602_folliculitis_missing_context_blocks",
+    "condition": "folliculitis",
+    "ed_note": "Adult with small itchy bumps after shaving.",
+    "expected_phenotype_id": "folliculitis_uncomplicated_no_abscess_or_cellulitis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_uncomplicated_folliculitis",
+      "no_abscess_or_cellulitis_documented"
+    ]
+  },
+  {
+    "id": "phase1603_folliculitis_abscess_blocks",
+    "condition": "folliculitis",
+    "ed_note": "Adult. Folliculitis diagnosed. No cellulitis, but boil and pus pocket need drainage.",
+    "expected_phenotype_id": "folliculitis_uncomplicated_no_abscess_or_cellulitis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "abscess_or_boils_or_carbuncle"
+    ]
+  },
+  {
+    "id": "phase1604_sunburn_clean",
+    "condition": "sunburn",
+    "ed_note": "Adult. Clinician diagnosis sunburn. No heat illness. No dehydration. No large blisters.",
+    "expected_phenotype_id": "sunburn_superficial_no_heat_illness_or_large_blistering",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1605_sunburn_missing_context_blocks",
+    "condition": "sunburn",
+    "ed_note": "Adult with red painful skin after beach day.",
+    "expected_phenotype_id": "sunburn_superficial_no_heat_illness_or_large_blistering",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_superficial_sunburn",
+      "no_heat_illness_or_large_blistering_documented"
+    ]
+  },
+  {
+    "id": "phase1606_sunburn_heat_illness_blocks",
+    "condition": "sunburn",
+    "ed_note": "Adult. Sunburn diagnosed. No large blisters, but heat exhaustion with syncope after heat and dehydration.",
+    "expected_phenotype_id": "sunburn_superficial_no_heat_illness_or_large_blistering",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "heat_illness_or_dehydration"
+    ]
+  },
+  {
+    "id": "phase1607_blepharitis_clean",
+    "condition": "blepharitis",
+    "ed_note": "Adult. Clinician diagnosis blepharitis. No vision change. No severe eye pain. No orbital cellulitis concern.",
+    "expected_phenotype_id": "blepharitis_uncomplicated_no_vision_or_orbital_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1608_blepharitis_missing_context_blocks",
+    "condition": "blepharitis",
+    "ed_note": "Adult with crusting at eyelids.",
+    "expected_phenotype_id": "blepharitis_uncomplicated_no_vision_or_orbital_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_uncomplicated_blepharitis",
+      "no_vision_or_orbital_red_flags_documented"
+    ]
+  },
+  {
+    "id": "phase1609_blepharitis_contact_lens_blocks",
+    "condition": "blepharitis",
+    "ed_note": "Adult. Blepharitis diagnosed. No vision change, but contact lens use with photophobia.",
+    "expected_phenotype_id": "blepharitis_uncomplicated_no_vision_or_orbital_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "contact_lens_use",
+      "photophobia"
+    ]
+  },
+  {
+    "id": "phase1610_bedbug_bites_clean",
+    "condition": "bedbug bites",
+    "ed_note": "Adult. Clinician diagnosis bedbug bites. No anaphylaxis. No systemic reaction. No secondary infection.",
+    "expected_phenotype_id": "bedbug_bites_local_reaction_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1611_bedbug_bites_missing_context_blocks",
+    "condition": "bed bug bites",
+    "ed_note": "Adult with itchy bites after sleeping on couch.",
+    "expected_phenotype_id": "bedbug_bites_local_reaction_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_bedbug_bites_local_reaction",
+      "no_infection_or_anaphylaxis_documented"
+    ]
+  },
+  {
+    "id": "phase1612_bedbug_bites_anaphylaxis_blocks",
+    "condition": "bedbug bites",
+    "ed_note": "Adult. Bedbug bites diagnosed. No secondary infection, but throat swelling and hypotension are documented.",
+    "expected_phenotype_id": "bedbug_bites_local_reaction_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension"
+    ]
+  },
+  {
+    "id": "phase1613_molluscum_clean",
+    "condition": "molluscum contagiosum",
+    "ed_note": "Adult. Clinician diagnosis molluscum contagiosum. No genital involvement. No eye involvement. No secondary infection. No immunocompromised host.",
+    "expected_phenotype_id": "localized_molluscum_contagiosum_no_genital_or_immunocompromised_host",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1614_molluscum_missing_context_blocks",
+    "condition": "molluscum",
+    "ed_note": "Adult with pearly bumps.",
+    "expected_phenotype_id": "localized_molluscum_contagiosum_no_genital_or_immunocompromised_host",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_molluscum",
+      "no_genital_eye_or_immunocompromised_context_documented"
+    ]
+  },
+  {
+    "id": "phase1615_molluscum_genital_blocks",
+    "condition": "molluscum contagiosum",
+    "ed_note": "Adult. Molluscum contagiosum diagnosed. No secondary infection, but genital molluscum and immunocompromised host are documented.",
+    "expected_phenotype_id": "localized_molluscum_contagiosum_no_genital_or_immunocompromised_host",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "immunocompromised",
+      "molluscum_genital_eye_or_extensive",
+      "near_eye_or_genitals"
+    ]
+  }
+]

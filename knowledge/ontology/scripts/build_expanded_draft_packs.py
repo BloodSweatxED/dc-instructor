@@ -12,22 +12,233 @@ REQUIRED_SECTIONS = [section_id for section_id, _ in SECTIONS]
 REVIEW_DIR = ROOT / "review_sheets"
 MANIFEST_PATH = ROOT / "runtime" / "ontology_manifest.json"
 PRIMITIVE_PATH = ROOT / "primitives" / "expanded_draft_packs.json"
+SUPPLEMENTAL_PACK_PATHS = [
+    ROOT / "config" / "phase1501_1550_expansion_packs.json",
+    ROOT / "config" / "phase1551_1600_expansion_packs.json",
+    ROOT / "config" / "phase1601_1650_expansion_packs.json",
+    ROOT / "config" / "phase1651_1700_expansion_packs.json",
+    ROOT / "config" / "phase1701_1750_expansion_packs.json",
+    ROOT / "config" / "phase1751_1800_expansion_packs.json",
+    ROOT / "config" / "phase1801_1850_expansion_packs.json",
+    ROOT / "config" / "phase1851_1900_expansion_packs.json",
+    ROOT / "config" / "phase1901_2000_expansion_packs.json",
+    ROOT / "config" / "phase2001_2100_expansion_packs.json",
+    ROOT / "config" / "phase2101_2200_expansion_packs.json",
+    ROOT / "config" / "phase2201_2300_expansion_packs.json",
+    ROOT / "config" / "phase2301_2400_expansion_packs.json",
+    ROOT / "config" / "phase2401_2500_expansion_packs.json",
+    ROOT / "config" / "phase2501_2600_expansion_packs.json",
+    ROOT / "config" / "phase2601_2700_expansion_packs.json",
+    ROOT / "config" / "phase2701_2800_expansion_packs.json",
+    ROOT / "config" / "phase2801_2900_expansion_packs.json",
+    ROOT / "config" / "phase2901_3000_expansion_packs.json",
+    ROOT / "config" / "phase3001_3250_expansion_packs.json",
+    ROOT / "config" / "phase3251_3500_expansion_packs.json",
+    ROOT / "config" / "phase3501_3750_expansion_packs.json",
+    ROOT / "config" / "phase3751_4000_expansion_packs.json",
+    ROOT / "config" / "phase4001_4250_expansion_packs.json",
+    ROOT / "config" / "phase4251_4500_expansion_packs.json",
+    ROOT / "config" / "phase4501_4750_expansion_packs.json",
+    ROOT / "config" / "phase4751_5000_expansion_packs.json",
+    ROOT / "config" / "phase5001_5250_expansion_packs.json",
+    ROOT / "config" / "phase5251_5500_expansion_packs.json",
+    ROOT / "config" / "phase5501_5750_expansion_packs.json",
+    ROOT / "config" / "phase5751_6000_expansion_packs.json",
+]
 REVIEWER = "Andre / EM clinician-owner"
 REVIEWER_ROLE = "Emergency Medicine physician"
 REVIEW_DATE = "2026-06-01"
 REVIEWED_PACK_IDS = {
     "abscess_after_i_and_d",
+    "aphthous_ulcer_simple_no_systemic_symptoms",
+    "acute_diarrhea_stable_no_blood_or_dehydration",
     "acute_otitis_media_uncomplicated",
+    "acute_sinusitis_supportive_care",
     "allergic_reaction_resolved_no_anaphylaxis",
     "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+    "atraumatic_knee_pain_no_red_flags",
     "cellulitis_uncomplicated_oral_antibiotics",
+    "cerumen_impaction_no_infection_or_foreign_body",
+    "cervical_strain_no_neuro_deficit",
+    "contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk",
+    "contact_dermatitis_uncomplicated",
     "dental_pain_no_deep_space_infection",
+    "ingrown_toenail_no_abscess_or_cellulitis",
+    "localized_impetigo_no_cellulitis_or_systemic_symptoms",
     "laceration_repaired_simple",
+    "laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags",
+    "localized_insect_bite_or_sting_no_systemic_reaction",
+    "localized_shingles_no_eye_or_neuro_complication",
+    "bedbug_bites_local_reaction_no_infection_or_anaphylaxis",
+    "blepharitis_uncomplicated_no_vision_or_orbital_red_flags",
+    "chalazion_simple_no_vision_or_orbital_red_flags",
+    "corn_or_callus_uncomplicated_no_diabetic_foot_or_infection",
+    "folliculitis_uncomplicated_no_abscess_or_cellulitis",
+    "friction_blister_uncomplicated_no_diabetic_foot_or_infection",
+    "ganglion_cyst_uncomplicated_no_neurovascular_or_infection",
+    "gastroenteritis_stable_hydrating",
+    "heat_rash_uncomplicated_no_heat_illness_or_infection",
+    "localized_plantar_wart_no_diabetic_foot_or_immunocompromised_host",
+    "localized_molluscum_contagiosum_no_genital_or_immunocompromised_host",
+    "localized_oral_herpes_labialis_no_eye_or_immunocompromised_host",
+    "mild_eczema_flare_no_infection_or_systemic_symptoms",
+    "mild_acne_no_abscess_or_medication_red_flags",
+    "mild_allergic_rhinitis_no_wheeze_or_anaphylaxis",
+    "minor_superficial_burn_small_area_no_high_risk_features",
+    "muscle_strain_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "bunion_uncomplicated_no_infection_or_diabetic_foot",
+    "costochondritis_uncomplicated_no_cardiopulmonary_red_flags",
+    "pediculosis_capitis_uncomplicated_no_secondary_infection",
+    "pityriasis_rosea_uncomplicated_no_systemic_symptoms",
+    "plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags",
+    "xerosis_dry_skin_no_infection_or_systemic_symptoms",
+    "nausea_vomiting_stable_hydrating_no_abdominal_pain",
+    "minor_nail_injury_uncomplicated_no_fracture_or_infection",
+    "osteoarthritis_flare_uncomplicated_no_septic_joint_or_trauma",
+    "scabies_uncomplicated_no_crusted_or_secondary_infection",
+    "seborrheic_dermatitis_or_dandruff_no_secondary_infection",
+    "simple_paronychia_no_abscess_or_felon",
+    "stye_hordeolum_simple_no_orbital_or_vision_red_flags",
+    "sunburn_superficial_no_heat_illness_or_large_blistering",
+    "tendinitis_uncomplicated_no_rupture_or_infection",
+    "tinea_pedis_uncomplicated_no_cellulitis_or_diabetic_foot",
+    "bursitis_uncomplicated_no_septic_joint_or_trauma",
+    "tmj_pain_uncomplicated_no_dental_deep_space_or_neuro_red_flags",
+    "trigger_finger_uncomplicated_no_infection_or_neurovascular",
     "skin_avulsion_or_abrasion_simple",
     "sprain_strain_knee_or_shoulder_xray_negative",
     "suture_removal_or_wound_check_no_infection",
+    "tension_headache_reassuring_exam_no_red_flags",
+    "tinea_corporis_uncomplicated_no_cellulitis",
     "viral_pharyngitis_strep_negative",
+    "tinea_cruris_uncomplicated_no_cellulitis_or_immunocompromised_host",
+    "tinea_versicolor_uncomplicated_no_systemic_symptoms",
+    "viral_uri_no_pneumonia",
+    "uncomplicated_cystitis_nonpregnant",
     "wrist_sprain_xray_negative",
+    "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+    "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot",
+    "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+    "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags",
+    "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "superficial_puncture_wound_no_retained_foreign_body_or_infection",
+    "minor_splinter_removed_no_retained_foreign_body_or_infection",
+    "healing_wound_no_infection_or_dehiscence",
+    "ankle_bruise_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "shoulder_bruise_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "knee_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "elbow_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "wrist_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+    "finger_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
+    "calf_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "hamstring_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "quadriceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "forearm_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "upper_back_strain_uncomplicated_no_neuro_or_trauma_red_flags",
+    "uncomplicated_hives_no_anaphylaxis_or_mucosal_lesions",
+    "common_cold_uncomplicated_no_pneumonia_or_breathing_red_flags",
+    "localized_common_wart_no_genital_or_immunocompromised_host",
+    "forearm_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "thigh_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "hand_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
+    "upper_arm_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "lower_leg_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "hip_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "toe_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+    "trapezius_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "hip_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "groin_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "abdominal_wall_strain_uncomplicated_no_abdominal_red_flags",
+    "chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags",
+    "peroneal_tendinitis_uncomplicated_no_rupture_or_infection",
+    "quadriceps_tendinitis_uncomplicated_no_rupture_or_infection",
+    "tibialis_anterior_tendinitis_uncomplicated_no_rupture_or_infection",
+    "achilles_tendinitis_uncomplicated_no_rupture_or_infection",
+    "patellar_tendinitis_uncomplicated_no_rupture_or_infection",
+    "thumb_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+    "hand_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+    "biceps_tendinitis_uncomplicated_no_rupture_or_infection",
+    "thumb_strain_uncomplicated_no_tendon_or_neurovascular_red_flags",
+    "hip_sprain_xray_negative_no_fracture_or_neurovascular_red_flags",
+    "viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags",
+    "allergic_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags",
+    "anterior_epistaxis_resolved_no_packing_or_anticoagulation",
+    "abdominal_pain_nonspecific_reassuring_workup",
+    "acute_bronchitis_no_pneumonia",
+    "triceps_tendinitis_uncomplicated_no_rupture_or_infection",
+    "ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body",
+    "asthma_exacerbation_improved_discharge",
+    "asymptomatic_elevated_blood_pressure_no_end_organ_symptoms",
+    "community_acquired_pneumonia_outpatient",
+    "concussion_discharge_no_imaging_red_flags",
+    "elbow_sprain_acute_traumatic_xray_negative",
+    "elbow_sprain_overuse_xray_negative",
+    "foot_sprain_xray_negative",
+    "hemorrhoids_uncomplicated_no_heavy_bleeding",
+    "influenza_like_illness_stable_supportive_care",
+    "minor_head_injury_no_red_flags",
+    "renal_colic_stable_no_infection",
+    "ankle_tendinitis_uncomplicated_no_rupture_or_infection",
+    "heel_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+    "lower_leg_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "palm_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
+    "dry_cracked_hands_no_infection_or_systemic_skin_disease",
+    "heel_strain_uncomplicated_no_rupture_or_diabetic_foot",
+    "localized_mosquito_bites_no_infection_or_anaphylaxis",
+    "localized_poison_ivy_dermatitis_no_infection_or_anaphylaxis",
+    "ankle_strain_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "elbow_strain_uncomplicated_no_fracture_or_tendon_red_flags",
+    "finger_strain_uncomplicated_no_fracture_or_tendon_red_flags",
+    "foot_strain_uncomplicated_no_fracture_or_diabetic_foot",
+    "hand_strain_uncomplicated_no_fracture_or_tendon_red_flags",
+    "localized_flea_bites_no_infection_or_anaphylaxis",
+    "localized_ant_bites_no_infection_or_anaphylaxis",
+    "localized_bee_sting_no_infection_or_anaphylaxis",
+    "localized_chigger_bites_no_infection_or_anaphylaxis",
+    "localized_fly_bites_no_infection_or_anaphylaxis",
+    "localized_gnat_bites_no_infection_or_anaphylaxis",
+    "localized_hornet_sting_no_infection_or_anaphylaxis",
+    "localized_midge_bites_no_infection_or_anaphylaxis",
+    "localized_plant_contact_dermatitis_no_infection_or_anaphylaxis",
+    "localized_soap_irritant_contact_dermatitis_no_infection_or_anaphylaxis",
+    "localized_wasp_sting_no_infection_or_anaphylaxis",
+    "lateral_epicondylitis_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "medial_epicondylitis_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "olecranon_bursitis_uncomplicated_no_septic_joint_or_trauma",
+    "forearm_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "thumb_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "finger_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "hand_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "elbow_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "knee_tendinitis_uncomplicated_no_rupture_or_infection",
+    "foot_tendinitis_uncomplicated_no_rupture_or_diabetic_foot",
+    "lower_back_contusion_uncomplicated_no_spine_or_neuro_red_flags",
+    "neck_contusion_uncomplicated_no_spine_or_neuro_red_flags",
+    "buttock_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "gluteal_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "toe_strain_uncomplicated_no_fracture_or_diabetic_foot",
+    "toe_tendinitis_uncomplicated_no_rupture_or_diabetic_foot",
+    "scapular_strain_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "localized_adhesive_rash_no_infection_or_anaphylaxis",
+    "localized_jewelry_rash_no_infection_or_anaphylaxis",
+    "localized_detergent_irritant_rash_no_infection_or_anaphylaxis",
+    "localized_cosmetic_rash_no_eye_or_anaphylaxis",
+    "localized_latex_skin_rash_no_anaphylaxis_or_mucosal_lesions",
+    "localized_hair_dye_contact_rash_no_eye_or_systemic_red_flags",
+    "localized_spider_bite_no_infection_or_necrotic_red_flags",
+    "hand_rubbing_blister_no_infection_or_burn",
+    "heel_rubbing_blister_no_diabetic_foot_or_infection",
+    "toe_rubbing_blister_no_diabetic_foot_or_infection",
+    "localized_glove_contact_rash_no_infection_or_anaphylaxis",
+    "localized_deodorant_contact_rash_no_infection_or_mucosal_red_flags",
+    "localized_sunscreen_contact_rash_no_burn_or_anaphylaxis",
+    "shoulder_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "shin_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "trunk_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+    "upper_back_contusion_uncomplicated_no_spine_or_neuro_red_flags",
+    "upper_arm_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "wrist_strain_uncomplicated_no_tendon_or_neurovascular_red_flags",
 }
 
 
@@ -381,22 +592,24 @@ PACKS: list[dict[str, Any]] = [
         "source_supported": True,
         "review_status": "needs_review",
         "summary": "Your blood pressure was high today.",
-        "found": "You did not have symptoms today suggesting a blood pressure emergency. Your clinician felt it was safe to continue follow-up outside the ED.",
-        "home": ["Recheck your blood pressure as your clinician instructed.", "Take your usual blood pressure medicines exactly as prescribed.", "Avoid changing or doubling medicines unless your clinician told you to."],
-        "meds": ["Take any new or changed blood pressure medicine exactly as prescribed.", "Do not stop blood pressure medicine without talking with a clinician."],
+        "found": "You did not have symptoms today suggesting a blood pressure emergency. Your blood pressure plan was reviewed with you, and your clinician felt it was safe to continue follow-up outside the ED.",
+        "home": ["Recheck your blood pressure as your clinician instructed.", "Take your blood pressure medicines only as your clinician instructed.", "Avoid changing, skipping, or doubling medicines unless your clinician told you to."],
+        "meds": ["Follow the blood pressure medicine plan your clinician gave you.", "Do not stop blood pressure medicine without talking with a clinician."],
         "return": ["Chest pain, trouble breathing, severe headache, confusion, fainting, weakness, trouble speaking, or vision changes.", "New back pain, severe belly pain, or neurologic symptoms.", "Blood pressure is very high and you feel ill or unsafe at home."],
         "follow": "Follow up with primary care or urgent care in the timeframe your clinician gave you to recheck blood pressure and adjust medicines if needed.",
-        "inclusion": ["Adult with elevated blood pressure or asymptomatic hypertension documented at ED discharge.", "Explicit clinician documentation that no end-organ symptoms or hypertensive emergency concern are present.", "Concrete outpatient follow-up plan documented."],
-        "exclusion": ["Blood pressure at hypertensive crisis threshold without individualized plan.", "Any end-organ symptom such as chest pain, shortness of breath, neurologic symptoms, severe headache, vision change, confusion, decreased urination, hematuria, or tearing chest or back pain.", "Pregnancy or postpartum pathway.", "Stimulant or cocaine-associated hypertension, secondary hypertension concern, or no reliable follow-up plan."],
+        "inclusion": ["Adult with elevated blood pressure or asymptomatic hypertension documented at ED discharge.", "Repeat blood pressure or measurement confirmation documented.", "Explicit clinician documentation that no end-organ symptoms or hypertensive emergency concern are present.", "Concrete outpatient follow-up plan documented.", "No medication change, or clinician-entered medication plan documented."],
+        "exclusion": ["Blood pressure at hypertensive crisis threshold without individualized plan.", "Any end-organ symptom such as chest pain, shortness of breath, neurologic symptoms, severe headache, vision change, confusion, decreased urination, hematuria, or tearing chest or back pain.", "Pregnancy or postpartum pathway.", "Stimulant or cocaine-associated hypertension, secondary hypertension concern, renal failure, dialysis/transplant pathway, or no reliable follow-up plan."],
         "must_not_miss": ["Hypertensive emergency.", "Stroke or intracranial hemorrhage.", "Acute coronary syndrome.", "Aortic dissection.", "Acute heart failure.", "Preeclampsia or postpartum hypertensive emergency."],
-        "unsafe_modifiers": ["hypertensive_crisis_threshold", "hypertension_end_organ_symptoms", "chest_pain", "respiratory_distress", "neurologic_deficit", "vision_change", "pregnancy", "postpartum", "poor_follow_up", "sepsis", "unstable_vitals"],
+        "unsafe_modifiers": ["hypertensive_crisis_threshold", "hypertension_end_organ_symptoms", "chest_pain", "respiratory_distress", "neurologic_deficit", "vision_change", "pregnancy", "postpartum", "renal_failure", "renal_specialist_hypertension_context", "stimulant_or_cocaine_hypertension", "secondary_hypertension_concern", "poor_follow_up", "sepsis", "unstable_vitals"],
         "required_context": [
             {"id": "asymptomatic_elevated_bp_documented", "terms": ["asymptomatic elevated blood pressure", "asymptomatic hypertension", "no symptoms from blood pressure", "no end organ symptoms", "no hypertensive emergency symptoms"]},
+            {"id": "repeat_bp_or_measurement_confirmed", "terms": ["repeat blood pressure", "repeat bp", "blood pressure rechecked", "bp rechecked", "measurement confirmed", "proper cuff size"]},
             {"id": "outpatient_follow_up_plan_documented", "terms": ["follow up for blood pressure", "primary care blood pressure follow up", "bp recheck plan", "blood pressure recheck plan", "outpatient follow up plan"]},
+            {"id": "bp_medication_plan_documented", "terms": ["blood pressure medication plan", "bp medication plan", "no blood pressure medication change", "no bp medication change", "continue current blood pressure medications", "clinician medication plan documented"]},
         ],
         "high_confidence_terms": ["asymptomatic elevated blood pressure", "asymptomatic hypertension", "no hypertensive emergency symptoms"],
-        "source_audit_notes": "MedlinePlus supports hypertension education and hypertensive crisis threshold framing. AHA supports emergency escalation when very high blood pressure is accompanied by symptoms such as chest pain, dyspnea, back pain, weakness, vision change, or difficulty speaking. ED medication initiation and follow-up timing remain clinician-entered.",
-        "review_notes": "Draft only. Needs EM clinician review for BP threshold, symptom-screen, pregnancy/postpartum, medication-change, and follow-up timing boundaries before promotion.",
+        "source_audit_notes": "MedlinePlus supports hypertension education and hypertensive crisis threshold framing. AHA supports emergency escalation when very high blood pressure is accompanied by symptoms such as chest pain, dyspnea, back pain, weakness, vision change, or difficulty speaking. ED medication initiation, repeat-measurement interpretation, renal-specialist pathways, and follow-up timing remain clinician-entered.",
+        "review_notes": "Draft only. Needs EM clinician review for BP threshold, symptom-screen, pregnancy/postpartum, renal-specialist, stimulant/secondary hypertension, medication-change, and follow-up timing boundaries before promotion. Agent recommendation: hold unless approved as this extremely narrow workflow-dependent v1.",
     },
     {
         "id": "hemorrhoids_uncomplicated_no_heavy_bleeding",
@@ -413,16 +626,16 @@ PACKS: list[dict[str, Any]] = [
         "return": ["Heavy rectal bleeding, dizziness, fainting, or weakness.", "Severe or worsening anal pain, fever, spreading redness, pus, or foul odor.", "Belly pain with rectal bleeding, black stool, or blood mixed throughout the stool."],
         "follow": "Follow up with primary care, gastroenterology, or surgery as instructed, especially if symptoms do not improve.",
         "inclusion": ["Adult with clinician diagnosis or discharge impression of hemorrhoids.", "No heavy bleeding, unstable vital signs, infection concern, severe abdominal pain, or alternate GI bleeding pathway.", "Medication and procedural instructions are clinician-entered."],
-        "exclusion": ["Heavy bleeding, anticoagulation with bleeding, syncope, unstable vital signs, or anemia concern.", "Severe anal pain with fever, abdominal pain, diarrhea, spreading perianal redness, or abscess concern.", "Thrombosed hemorrhoid, irreducible prolapse, rectal mass, malignancy concern, inflammatory bowel disease concern, or new rectal bleeding requiring separate workup.", "Pregnancy, immunocompromise, or poor follow-up."],
+        "exclusion": ["Heavy bleeding, anticoagulation with bleeding, syncope, unstable vital signs, anemia concern, or bleeding disorder.", "Severe anal pain with fever, abdominal pain, diarrhea, spreading perianal redness, or abscess concern.", "Thrombosed hemorrhoid, irreducible prolapse, rectal mass, malignancy concern, inflammatory bowel disease concern, or new rectal bleeding requiring separate workup.", "Pregnancy, immunocompromise, or poor follow-up."],
         "must_not_miss": ["Lower GI bleeding.", "Perianal or perirectal abscess.", "Fournier gangrene.", "Thrombosed or strangulated hemorrhoid.", "Colorectal malignancy.", "Inflammatory bowel disease."],
-        "unsafe_modifiers": ["hemorrhoid_heavy_bleeding", "anticoagulated", "syncope", "unstable_vitals", "gi_bleeding", "severe_or_focal_abdominal_pain", "fever", "perianal_sepsis_or_abscess_concern", "hemorrhoid_thrombosis_or_irreducible_prolapse", "cancer_red_flag", "pregnancy", "immunocompromised", "poor_follow_up"],
+        "unsafe_modifiers": ["hemorrhoid_heavy_bleeding", "anticoagulated", "bleeding_disorder", "anemia_concern", "syncope", "unstable_vitals", "gi_bleeding", "severe_or_focal_abdominal_pain", "fever", "perianal_sepsis_or_abscess_concern", "hemorrhoid_thrombosis_or_irreducible_prolapse", "cancer_red_flag", "inflammatory_bowel_disease_concern", "pregnancy", "immunocompromised", "poor_follow_up"],
         "required_context": [
             {"id": "clinician_diagnosis_hemorrhoids", "terms": ["clinician diagnosis hemorrhoids", "discharge diagnosis hemorrhoids", "hemorrhoids diagnosed", "diagnosed with hemorrhoids", "discharge impression hemorrhoids"]},
             {"id": "no_heavy_bleeding_or_infection_concern", "terms": ["no heavy bleeding", "no infection concern", "no emergency cause found", "bleeding minimal", "no perianal abscess concern"]},
         ],
         "high_confidence_terms": ["clinician diagnosis hemorrhoids", "discharge diagnosis hemorrhoids", "hemorrhoids uncomplicated"],
-        "source_audit_notes": "MedlinePlus and NIDDK support hemorrhoid self-care with fiber, fluids, warm baths, gentle local care, and clinician-recommended medicines. NIDDK supports urgent care for severe anal pain with rectal bleeding, especially with abdominal pain, diarrhea, or fever. Heavy bleeding, thrombosis/prolapse decisions, malignancy concern, and procedural planning remain clinician-governed.",
-        "review_notes": "Draft only. Needs EM clinician review for heavy-bleeding threshold, thrombosis/prolapse handling, malignancy/IBD exclusion, anticoagulation, and follow-up language before promotion.",
+        "source_audit_notes": "MedlinePlus and NIDDK support hemorrhoid self-care with fiber, fluids, warm baths, gentle local care, and clinician-recommended medicines. NIDDK supports urgent care for severe anal pain with rectal bleeding, especially with abdominal pain, diarrhea, or fever. Heavy bleeding, anticoagulated bleeding, anemia concern, thrombosis/prolapse decisions, malignancy/IBD concern, and procedural planning remain clinician-governed.",
+        "review_notes": "Draft only. Needs EM clinician review for heavy-bleeding threshold, thrombosis/prolapse handling, malignancy/IBD exclusion, anticoagulation, anemia/bleeding-disorder handling, and follow-up language before promotion.",
     },
     {
         "id": "contact_dermatitis_uncomplicated",
@@ -2300,6 +2513,500 @@ PACKS: list[dict[str, Any]] = [
         ],
     },
     {
+        "id": "cerumen_impaction_no_infection_or_foreign_body",
+        "label": "Cerumen impaction without infection or foreign body",
+        "family": "ear_nose_throat",
+        "condition_terms": ["cerumen impaction", "earwax impaction", "earwax blockage", "impacted earwax"],
+        "source_card_ids": ["aao_hns.cerumen_impaction"],
+        "review_status": "reviewed",
+        "source_supported": True,
+        "source_audit_notes": "AAO-HNS patient education supports earwax as usually protective, symptomatic impaction framing, clinician-directed removal options, and avoiding cotton swabs or ear candles. This v1 is limited to clinician-confirmed cerumen impaction without infection, foreign body, perforation, tube, acute hearing loss, neurologic ear signs, or specialist-directed ENT plan.",
+        "review_notes": "Autonomous Phase 1002-1500 reviewed narrow v1. Patient-facing text is locally authored from source-supported concepts and blocks infection, trauma, foreign body, perforation/tube, acute hearing loss, and specialist-directed ENT pathways.",
+        "clinical_status": "reviewed_for_limited_cerumen_impaction_without_infection_or_foreign_body_use",
+        "review_date": "2026-06-10",
+        "summary": "Your clinician found earwax blocking your ear canal.",
+        "found": "Your exam fit earwax buildup. We did not find signs today of an ear infection, foreign body, or eardrum emergency that needs a different plan.",
+        "home": [
+            "Do not put cotton swabs, hair pins, ear candles, or other objects into the ear canal.",
+            "Use ear drops only if your clinician told you they are safe for you.",
+            "Keep water out of the ear if your clinician told you to avoid irrigation or drops."
+        ],
+        "meds": [
+            "Use only the ear drops your clinician recommended or prescribed.",
+            "Do not use ear drops if you were told you may have a hole in the eardrum or an ear tube."
+        ],
+        "return": [
+            "New severe ear pain, fever, swelling or redness behind the ear, drainage, or feeling very ill.",
+            "Sudden hearing loss, severe dizziness, facial weakness, or new neurologic symptoms.",
+            "Bleeding from the ear or pain after putting something into the ear."
+        ],
+        "follow": "Follow up with primary care, urgent care, or ENT as instructed if hearing or fullness does not improve.",
+        "inclusion": [
+            "Adult with clinician diagnosis or discharge impression of cerumen impaction or earwax blockage.",
+            "No ear infection, foreign body, trauma, eardrum perforation, ear tube, acute hearing loss, or neurologic ear sign documented.",
+            "Medication or removal plan is clinician-entered."
+        ],
+        "exclusion": [
+            "Otitis externa, otitis media, mastoiditis, malignant otitis externa risk, severe systemic illness, or immunocompromised pathway.",
+            "Foreign body, button battery, ear trauma, cotton swab injury, bleeding, perforated eardrum, ear tube, or specialist-directed ENT plan.",
+            "Sudden hearing loss, severe dizziness or vertigo, facial weakness, or other neurologic ear sign."
+        ],
+        "must_not_miss": [
+            "Sudden sensorineural hearing loss.",
+            "Mastoiditis.",
+            "Malignant otitis externa.",
+            "Tympanic membrane perforation.",
+            "Ear foreign body or button battery.",
+            "Neurologic cause of dizziness or facial weakness."
+        ],
+        "unsafe_modifiers": [
+            "otitis_externa_or_ear_canal_pathway",
+            "recurrent_or_chronic_ear_infection",
+            "mastoiditis_or_deep_ear_infection_concern",
+            "malignant_otitis_externa_risk",
+            "ear_trauma_or_foreign_body",
+            "tympanic_membrane_perforation_or_tube",
+            "facial_weakness_or_neurologic_ear_sign",
+            "acute_hearing_loss",
+            "specialist_directed_ent_plan",
+            "immunocompromised",
+            "severe_systemic_ear_infection"
+        ],
+        "required_context": [
+            {
+                "id": "clinician_diagnosis_cerumen_impaction",
+                "terms": [
+                    "clinician diagnosis cerumen impaction",
+                    "discharge diagnosis cerumen impaction",
+                    "cerumen impaction diagnosed",
+                    "earwax impaction diagnosed",
+                    "earwax blockage diagnosed"
+                ],
+            },
+            {
+                "id": "no_infection_or_foreign_body_documented",
+                "terms": [
+                    "no ear infection",
+                    "no foreign body",
+                    "no infection or foreign body",
+                    "no eardrum emergency",
+                    "no otitis externa"
+                ],
+            },
+        ],
+        "high_confidence_terms": ["clinician diagnosis cerumen impaction", "cerumen impaction diagnosed", "earwax impaction diagnosed", "earwax blockage diagnosed"],
+        "required_modifiers": [
+            "adult with clinician diagnosis or discharge impression of cerumen impaction",
+            "no infection, foreign body, eardrum perforation, tube, acute hearing loss, or neurologic ear sign",
+            "medication or removal plan clinician-entered"
+        ],
+    },
+    {
+        "id": "cervical_strain_no_neuro_deficit",
+        "label": "Cervical strain without neurologic deficit",
+        "family": "musculoskeletal",
+        "condition_terms": ["cervical strain", "neck strain", "neck muscle strain", "musculoskeletal neck pain"],
+        "source_card_ids": ["medlineplus.neck_injuries_disorders"],
+        "review_status": "reviewed",
+        "source_supported": True,
+        "source_audit_notes": "MedlinePlus supports neck injury and disorder education, home care framing, and warning signs. This v1 is limited to clinician-diagnosed cervical or neck strain with reassuring ED assessment and no trauma imaging concern, neurologic deficit, infection, meningitis, vascular, cardiac, fracture, or specialist-directed spine plan.",
+        "review_notes": "Autonomous Phase 1002-1500 reviewed narrow v1. The phenotype requires clinician diagnosis plus reassuring exam context and blocks trauma, midline tenderness, neurologic deficits, infection, meningitis, chest pain equivalents, and specialist-directed spine plans.",
+        "clinical_status": "reviewed_for_limited_cervical_strain_without_neurologic_deficit_use",
+        "review_date": "2026-06-10",
+        "summary": "Your clinician diagnosed a neck muscle strain.",
+        "found": "Your exam was reassuring today. We did not find signs of a nerve injury, spine emergency, infection, or other dangerous cause that needs a different plan.",
+        "home": [
+            "Stay gently active as tolerated. Avoid heavy lifting or sudden twisting until you are improving.",
+            "Use heat or ice if it helps your pain.",
+            "Return to normal activity gradually as your neck movement improves."
+        ],
+        "meds": [
+            "Use only the pain medicine your clinician prescribed or said is safe for you.",
+            "Do not take extra doses or mix sedating medicines unless your clinician told you to."
+        ],
+        "return": [
+            "New weakness, numbness, trouble walking, loss of bladder or bowel control, or pain shooting down both arms or legs.",
+            "Fever, severe headache, stiff neck with illness, confusion, fainting, chest pain, or trouble breathing.",
+            "Pain after a fall, crash, or other trauma, or pain that is much worse despite the plan."
+        ],
+        "follow": "Follow up with primary care, occupational medicine, or a spine clinician as instructed if not improving.",
+        "inclusion": [
+            "Adult with clinician diagnosis or discharge impression of cervical strain, neck strain, or musculoskeletal neck pain.",
+            "Reassuring neurologic assessment documented.",
+            "No trauma imaging concern, infection, meningitis, vascular emergency, cardiac concern, or specialist-directed spine plan."
+        ],
+        "exclusion": [
+            "Fall, crash, high-energy trauma, midline cervical spine tenderness, fracture concern, or intoxication limiting exam.",
+            "New neurologic deficit, weakness, numbness, gait problem, bowel or bladder dysfunction, or spinal cord concern.",
+            "Fever, meningitis concern, epidural abscess or spinal infection concern, chest pain/ACS concern, carotid or vertebral artery dissection concern, or specialist-directed spine plan."
+        ],
+        "must_not_miss": [
+            "Cervical spine fracture or instability.",
+            "Spinal cord compression.",
+            "Meningitis.",
+            "Spinal epidural abscess.",
+            "Cervical artery dissection.",
+            "Acute coronary syndrome referred pain."
+        ],
+        "unsafe_modifiers": [
+            "fracture_or_trauma_concern",
+            "high_energy_trauma",
+            "midline_cervical_tenderness",
+            "neurologic_deficit",
+            "new_neurologic_deficit",
+            "meningitis_or_cns_infection_concern",
+            "spinal_infection_concern",
+            "chest_pain",
+            "cervical_artery_dissection_concern",
+            "specialist_directed_spine_plan",
+            "unstable_vitals"
+        ],
+        "required_context": [
+            {
+                "id": "clinician_diagnosis_cervical_strain",
+                "terms": [
+                    "clinician diagnosis cervical strain",
+                    "discharge diagnosis cervical strain",
+                    "clinician diagnosis neck strain",
+                    "discharge diagnosis neck strain",
+                    "neck strain diagnosed",
+                    "cervical strain diagnosed"
+                ],
+            },
+            {
+                "id": "reassuring_neurologic_exam_documented",
+                "terms": [
+                    "reassuring neurologic exam",
+                    "normal neurologic exam",
+                    "neuro exam intact",
+                    "no neurologic deficit",
+                    "strength and sensation intact"
+                ],
+            },
+        ],
+        "high_confidence_terms": ["cervical strain diagnosed", "neck strain diagnosed", "clinician diagnosis neck strain"],
+        "required_modifiers": [
+            "adult with clinician diagnosis or discharge impression of cervical or neck strain",
+            "reassuring neurologic assessment documented",
+            "no trauma imaging concern, infection, meningitis, vascular emergency, cardiac concern, or specialist-directed spine plan"
+        ],
+    },
+    {
+        "id": "nausea_vomiting_stable_hydrating_no_abdominal_pain",
+        "label": "Nausea and vomiting, stable and hydrating, without abdominal pain",
+        "family": "gastrointestinal",
+        "condition_terms": ["nausea vomiting stable", "nausea and vomiting stable", "vomiting stable hydrating", "nausea vomiting no abdominal pain"],
+        "source_card_ids": ["medlineplus.nausea_vomiting_self_care"],
+        "review_status": "reviewed",
+        "source_supported": True,
+        "source_audit_notes": "MedlinePlus supports nausea/vomiting supportive care, hydration, gradual return to food, and escalation for inability to keep fluids down, dehydration, abdominal pain, fever, blood, or prolonged symptoms. This v1 is limited to clinician-diagnosed nausea/vomiting with stable vitals, successful oral hydration, no abdominal pain, no diarrhea/gastroenteritis phenotype, and no surgical, pregnancy, neurologic, toxicologic, or high-risk host pathway.",
+        "review_notes": "Autonomous Phase 1002-1500 reviewed narrow v1. The phenotype requires successful oral hydration and explicit absence of abdominal pain, and blocks abdominal pain, dehydration, bleeding, fever, pregnancy, neurologic symptoms, toxic ingestion, obstruction, and high-risk host pathways.",
+        "clinical_status": "reviewed_for_limited_stable_nausea_vomiting_without_abdominal_pain_use",
+        "review_date": "2026-06-10",
+        "summary": "Your clinician treated you for nausea and vomiting.",
+        "found": "You were stable enough to go home today. You were able to keep fluids down, and your exam did not show belly pain or an emergency cause that needs a different plan.",
+        "home": [
+            "Take small sips of fluid often.",
+            "Start with bland foods when you feel ready.",
+            "Avoid alcohol, heavy meals, and dehydration triggers while you are recovering."
+        ],
+        "meds": [
+            "Take nausea medicine only as prescribed or recommended by your clinician.",
+            "Do not take extra doses to force yourself to eat or drink."
+        ],
+        "return": [
+            "You cannot keep fluids down, you faint, you stop urinating normally, or you feel very weak or confused.",
+            "New or worsening belly pain, swollen belly, fever, bloody vomit, black stool, or blood in stool.",
+            "Severe headache, new weakness, chest pain, pregnancy concern, or symptoms that are getting worse."
+        ],
+        "follow": "Follow up with primary care or return for recheck as instructed if symptoms are not improving.",
+        "inclusion": [
+            "Adult with clinician diagnosis or discharge impression of nausea and vomiting.",
+            "Stable vitals and tolerating oral fluids documented before discharge.",
+            "No abdominal pain, surgical abdomen concern, GI bleeding, pregnancy, neurologic, toxicologic, or high-risk host pathway."
+        ],
+        "exclusion": [
+            "Any abdominal pain, focal tenderness, peritoneal signs, abdominal distention, bowel obstruction concern, GI bleeding, fever, sepsis, or unstable vital signs.",
+            "Unable to tolerate oral fluids, failed PO challenge, severe dehydration, syncope, renal failure, or uncontrolled vomiting at discharge.",
+            "Pregnancy, head injury, severe headache, neurologic deficit, chest pain, toxic ingestion, diabetic emergency, immunocompromise, frailty, or unreliable follow-up."
+        ],
+        "must_not_miss": [
+            "Bowel obstruction.",
+            "Appendicitis or other surgical abdomen.",
+            "GI bleeding.",
+            "Pregnancy-related emergency.",
+            "Intracranial process.",
+            "Toxic ingestion or metabolic emergency.",
+            "Sepsis or severe dehydration."
+        ],
+        "unsafe_modifiers": [
+            "severe_or_focal_abdominal_pain",
+            "peritoneal_signs",
+            "abdominal_distention",
+            "bowel_obstruction_or_ileus_concern",
+            "gi_bleeding",
+            "fever",
+            "sepsis",
+            "unstable_vitals",
+            "unable_to_tolerate_oral_fluids",
+            "severe_dehydration",
+            "uncontrolled_vomiting",
+            "pregnancy",
+            "neurologic_deficit",
+            "thunderclap_or_sah_concern",
+            "chest_pain",
+            "toxic_ingestion_or_overdose",
+            "diabetic_emergency",
+            "immunocompromised",
+            "elderly_frail",
+            "poor_follow_up"
+        ],
+        "required_context": [
+            {
+                "id": "clinician_diagnosis_nausea_vomiting",
+                "terms": [
+                    "clinician diagnosis nausea and vomiting",
+                    "discharge diagnosis nausea and vomiting",
+                    "nausea and vomiting diagnosed",
+                    "vomiting stable",
+                    "nausea vomiting stable"
+                ],
+            },
+            {
+                "id": "tolerating_oral_fluids_documented",
+                "terms": [
+                    "tolerating fluids",
+                    "tolerating oral fluids",
+                    "passed po challenge",
+                    "able to keep fluids down",
+                    "hydration reassuring"
+                ],
+            },
+            {
+                "id": "no_abdominal_pain_documented",
+                "terms": [
+                    "no abdominal pain",
+                    "no belly pain",
+                    "abdomen nontender",
+                    "no focal abdominal tenderness",
+                    "no surgical abdomen"
+                ],
+            },
+        ],
+        "high_confidence_terms": ["nausea vomiting stable", "nausea and vomiting diagnosed", "vomiting stable hydrating"],
+        "required_modifiers": [
+            "adult with clinician diagnosis or discharge impression of nausea and vomiting",
+            "stable vitals and tolerating oral fluids documented",
+            "no abdominal pain, surgical abdomen concern, GI bleeding, pregnancy, neurologic, toxicologic, or high-risk host pathway"
+        ],
+    },
+    {
+        "id": "tension_headache_reassuring_exam_no_red_flags",
+        "label": "Tension-type headache with reassuring exam and no red flags",
+        "family": "headache",
+        "condition_terms": ["tension headache", "tension type headache", "tension-type headache", "benign tension headache"],
+        "source_card_ids": ["ninds.headache"],
+        "review_status": "reviewed",
+        "source_supported": True,
+        "source_audit_notes": "NINDS headache education supports primary versus secondary headache framing and warning-sign concepts. This v1 is limited to clinician-diagnosed tension-type headache with reassuring exam, documented red-flag review, symptom improvement or stable discharge, and no trauma, thunderclap, neurologic, infectious, pregnancy, anticoagulation, first-lifetime severe, age-over-50-new-pattern, or specialist-directed neurology pathway.",
+        "review_notes": "Autonomous Phase 1002-1500 reviewed narrow v1. The phenotype requires clinician diagnosis plus structured red-flag absence, mirroring the migraine safety lesson without using broad headache as a catch-all.",
+        "clinical_status": "reviewed_for_limited_tension_type_headache_with_reassuring_exam_no_red_flags_use",
+        "review_date": "2026-06-10",
+        "summary": "Your clinician diagnosed a tension-type headache.",
+        "found": "Your exam was reassuring today. We did not find warning signs of stroke, bleeding, infection, head injury, or another dangerous headache cause.",
+        "home": [
+            "Rest in a quiet place if symptoms return.",
+            "Drink fluids if you can.",
+            "Avoid triggers you already know make your headaches worse."
+        ],
+        "meds": [
+            "Use only the headache medicines your clinician prescribed or said are safe for you.",
+            "Do not take extra doses or mix medicines unless your clinician told you to."
+        ],
+        "return": [
+            "A sudden severe headache, worst headache of your life, fainting, seizure, confusion, or trouble staying awake.",
+            "New weakness, numbness, trouble speaking, vision loss, trouble walking, fever, stiff neck, or rash.",
+            "Headache after injury, headache that is much worse or different than usual, or vomiting that will not stop."
+        ],
+        "follow": "Follow up with primary care as instructed, especially if headaches are new, changing, frequent, or not improving.",
+        "inclusion": [
+            "Adult with clinician diagnosis or discharge impression of tension-type headache.",
+            "Reassuring neurologic exam and structured red-flag absence documented.",
+            "No trauma, thunderclap, neurologic deficit, infection, pregnancy, anticoagulation, new age-over-50 pattern, first-lifetime severe headache, or specialist-directed neurology plan."
+        ],
+        "exclusion": [
+            "Thunderclap headache, worst headache of life, first-lifetime severe headache, neurologic deficit, altered mental status, seizure, syncope, or vision loss.",
+            "Fever, stiff neck, meningitis concern, immunocompromise, pregnancy/postpartum, head trauma, anticoagulation, age over 50 with new headache pattern, or uncontrolled vomiting.",
+            "Migraine-specific discharge pathway, CT deferred despite documented concern, or specialist-directed neurology plan."
+        ],
+        "must_not_miss": [
+            "Subarachnoid hemorrhage.",
+            "Stroke or TIA.",
+            "Meningitis or encephalitis.",
+            "Intracranial mass or elevated intracranial pressure.",
+            "Cerebral venous thrombosis.",
+            "Pre-eclampsia in pregnancy."
+        ],
+        "unsafe_modifiers": [
+            "thunderclap_or_sah_concern",
+            "first_lifetime_severe_headache",
+            "neurologic_deficit",
+            "altered_mental_status_not_resolved",
+            "meningitis_or_cns_infection_concern",
+            "fracture_or_trauma_concern",
+            "pregnancy",
+            "postpartum",
+            "immunocompromised",
+            "age_over_50_new_headache",
+            "uncontrolled_vomiting",
+            "anticoagulated",
+            "vision_change",
+            "ct_not_performed_with_headache_concern",
+            "specialist_directed_neurology_plan",
+            "unstable_vitals"
+        ],
+        "required_context": [
+            {
+                "id": "clinician_diagnosis_tension_headache",
+                "terms": [
+                    "clinician diagnosis tension headache",
+                    "discharge diagnosis tension headache",
+                    "tension headache diagnosed",
+                    "tension-type headache diagnosed",
+                    "tension type headache diagnosed"
+                ],
+            },
+            {
+                "id": "reassuring_neurologic_exam_documented",
+                "terms": [
+                    "reassuring neurologic exam",
+                    "normal neurologic exam",
+                    "neuro exam intact",
+                    "no neurologic deficit",
+                    "strength and sensation intact"
+                ],
+            },
+            {
+                "id": "structured_headache_red_flags_absent",
+                "terms": [
+                    "no headache red flags documented",
+                    "secondary headache red flags absent",
+                    "red flags reviewed and absent",
+                    "no thunderclap features",
+                    "no dangerous headache features"
+                ],
+            },
+        ],
+        "high_confidence_terms": ["tension headache diagnosed", "tension-type headache diagnosed", "clinician diagnosis tension headache"],
+        "required_modifiers": [
+            "adult with clinician diagnosis or discharge impression of tension-type headache",
+            "reassuring neurologic exam and structured red-flag absence documented",
+            "no trauma, thunderclap, neurologic deficit, infection, pregnancy, anticoagulation, age-over-50-new-pattern, first-lifetime severe headache, or specialist-directed neurology plan"
+        ],
+    },
+    {
+        "id": "atraumatic_knee_pain_no_red_flags",
+        "label": "Atraumatic knee pain without red flags",
+        "family": "musculoskeletal",
+        "condition_terms": ["atraumatic knee pain", "nontraumatic knee pain", "knee pain no trauma", "knee pain reassuring exam"],
+        "source_card_ids": ["medlineplus.knee_injuries_disorders"],
+        "review_status": "reviewed",
+        "source_supported": True,
+        "source_audit_notes": "MedlinePlus supports knee injury/disorder education, home care framing, and escalation for inability to walk, swelling, fever, redness, deformity, neurologic or circulation changes, and worsening pain. This v1 is limited to clinician-diagnosed atraumatic knee pain with reassuring exam, ambulatory discharge, no x-ray fracture pathway, no septic joint, no DVT, no large effusion, no neurovascular compromise, and no specialist-directed orthopedic plan.",
+        "review_notes": "Autonomous Phase 1002-1500 reviewed narrow v1. This is not a generic knee injury pathway; it requires atraumatic knee pain, ambulation, and explicit absence of red flags.",
+        "clinical_status": "reviewed_for_limited_atraumatic_knee_pain_without_red_flags_use",
+        "review_date": "2026-06-10",
+        "summary": "Your clinician evaluated you for knee pain.",
+        "found": "Your exam was reassuring today. We did not find signs of a broken bone, joint infection, blood clot, poor circulation, or another knee emergency.",
+        "home": [
+            "Rest the knee from activities that make pain worse.",
+            "Use ice, elevation, or gentle movement if your clinician said these are safe for you.",
+            "Return to activity slowly as pain improves."
+        ],
+        "meds": [
+            "Use only the pain medicine your clinician prescribed or said is safe for you.",
+            "Do not take extra doses to push through worsening pain."
+        ],
+        "return": [
+            "Fever, a red hot swollen knee, rapidly increasing swelling, or severe pain.",
+            "You cannot walk, cannot bear weight, the leg becomes weak or numb, or the foot becomes cold, blue, or pale.",
+            "Calf swelling, chest pain, shortness of breath, new injury, or pain that is much worse despite the plan."
+        ],
+        "follow": "Follow up with primary care, orthopedics, or sports medicine as instructed if pain is not improving.",
+        "inclusion": [
+            "Adult with clinician diagnosis or discharge impression of atraumatic knee pain.",
+            "Reassuring knee exam and ambulatory discharge documented.",
+            "No acute knee trauma, fracture, septic joint, large effusion, DVT, neurovascular compromise, inability to bear weight, or specialist-directed orthopedic plan."
+        ],
+        "exclusion": [
+            "Fall, twist, direct blow, crash, high-energy trauma, dislocation, fracture, or x-ray fracture pathway.",
+            "Red hot joint, fever with joint pain, septic joint concern, large or rapidly developing effusion, acute hemarthrosis, immunocompromise, or prosthetic joint.",
+            "Unable to walk or bear weight, neurovascular compromise, calf swelling/DVT concern, compartment syndrome concern, or specialist-directed orthopedic plan."
+        ],
+        "must_not_miss": [
+            "Septic arthritis.",
+            "Fracture or dislocation.",
+            "DVT.",
+            "Neurovascular compromise.",
+            "Compartment syndrome.",
+            "Occult tendon or ligament rupture."
+        ],
+        "unsafe_modifiers": [
+            "acute_knee_trauma_concern",
+            "high_energy_trauma",
+            "dislocation",
+            "fracture_seen",
+            "septic_joint_or_infection_concern",
+            "acute_hemarthrosis_or_large_effusion",
+            "unable_to_bear_weight_lower_extremity",
+            "cannot_ambulate_at_discharge",
+            "neurovascular_compromise",
+            "compartment_syndrome_concern",
+            "dvt_or_pe_concern",
+            "prosthetic_joint",
+            "immunocompromised",
+            "specialist_directed_orthopedic_plan"
+        ],
+        "required_context": [
+            {
+                "id": "clinician_diagnosis_atraumatic_knee_pain",
+                "terms": [
+                    "clinician diagnosis atraumatic knee pain",
+                    "discharge diagnosis atraumatic knee pain",
+                    "atraumatic knee pain diagnosed",
+                    "nontraumatic knee pain diagnosed",
+                    "knee pain no trauma"
+                ],
+            },
+            {
+                "id": "reassuring_knee_exam_documented",
+                "terms": [
+                    "reassuring knee exam",
+                    "no red flags on knee exam",
+                    "no joint infection concern",
+                    "no fracture concern",
+                    "knee exam reassuring"
+                ],
+            },
+            {
+                "id": "ambulatory_discharge_documented",
+                "terms": [
+                    "able to ambulate",
+                    "ambulating at discharge",
+                    "walking at discharge",
+                    "weight bearing as tolerated",
+                    "able to bear weight"
+                ],
+            },
+        ],
+        "high_confidence_terms": ["atraumatic knee pain diagnosed", "nontraumatic knee pain diagnosed", "clinician diagnosis atraumatic knee pain"],
+        "required_modifiers": [
+            "adult with clinician diagnosis or discharge impression of atraumatic knee pain",
+            "reassuring knee exam and ambulatory discharge documented",
+            "no acute knee trauma, fracture, septic joint, large effusion, DVT, neurovascular compromise, inability to bear weight, or specialist-directed orthopedic plan"
+        ],
+    },
+    {
         "id": "chest_pain_low_risk_negative_ed_workup",
         "label": "Low-risk chest pain after negative ED workup",
         "family": "cardiovascular",
@@ -2379,6 +3086,14 @@ def audit(source_supported: bool = False, clinician_judgment_only: bool = False,
         "restricted_source_risk": False,
         "unsafe_without_modifier": unsafe_without_modifier,
     }
+
+
+def all_packs() -> list[dict[str, Any]]:
+    packs = [*PACKS]
+    for path in SUPPLEMENTAL_PACK_PATHS:
+        if path.exists():
+            packs.extend(json.loads(path.read_text(encoding="utf-8")))
+    return packs
 
 
 def review_block(notes: str) -> dict[str, Any]:
@@ -2562,7 +3277,7 @@ def main() -> int:
     phenotypes: list[dict[str, Any]] = []
     primitives_by_phenotype: dict[str, list[dict[str, Any]]] = {}
 
-    for pack in PACKS:
+    for pack in all_packs():
         items = pack_primitives(pack)
         all_primitives.extend(items)
         primitives_by_phenotype[pack["id"]] = items

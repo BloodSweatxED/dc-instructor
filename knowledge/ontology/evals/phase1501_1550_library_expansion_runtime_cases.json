@@ -1,0 +1,144 @@
+[
+  {
+    "id": "phase1501_seborrheic_clean",
+    "condition": "seborrheic dermatitis",
+    "ed_note": "Adult. Clinician diagnosis seborrheic dermatitis. No secondary infection. No cellulitis. Mild flaky scalp rash.",
+    "expected_phenotype_id": "seborrheic_dermatitis_or_dandruff_no_secondary_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1502_seborrheic_missing_context_blocks",
+    "condition": "dandruff",
+    "ed_note": "Adult with flaky scalp.",
+    "expected_phenotype_id": "seborrheic_dermatitis_or_dandruff_no_secondary_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_seborrheic_dermatitis_or_dandruff",
+      "no_secondary_infection_documented"
+    ]
+  },
+  {
+    "id": "phase1503_seborrheic_secondary_infection_blocks",
+    "condition": "seborrheic dermatitis",
+    "ed_note": "Adult. Seborrheic dermatitis diagnosed. No eye involvement. Scalp has pus and spreading redness.",
+    "expected_phenotype_id": "seborrheic_dermatitis_or_dandruff_no_secondary_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "secondary_skin_infection_concern"
+    ]
+  },
+  {
+    "id": "phase1504_tinea_corporis_clean",
+    "condition": "tinea corporis",
+    "ed_note": "Adult. Clinician diagnosis tinea corporis. Localized skin only. No cellulitis. No abscess.",
+    "expected_phenotype_id": "tinea_corporis_uncomplicated_no_cellulitis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1505_tinea_corporis_missing_context_blocks",
+    "condition": "body ringworm",
+    "ed_note": "Adult with itchy ring rash.",
+    "expected_phenotype_id": "tinea_corporis_uncomplicated_no_cellulitis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_tinea_corporis",
+      "localized_skin_only_no_cellulitis_documented"
+    ]
+  },
+  {
+    "id": "phase1506_tinea_capitis_blocks",
+    "condition": "tinea corporis",
+    "ed_note": "Adult. Tinea corporis diagnosed. No cellulitis. Scalp ringworm and nail fungus also documented.",
+    "expected_phenotype_id": "tinea_corporis_uncomplicated_no_cellulitis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "scalp_or_nail_or_beard_fungal_infection"
+    ]
+  },
+  {
+    "id": "phase1507_ingrown_toenail_clean",
+    "condition": "ingrown toenail",
+    "ed_note": "Adult. Clinician diagnosis ingrown toenail. No abscess. No cellulitis. No pus.",
+    "expected_phenotype_id": "ingrown_toenail_no_abscess_or_cellulitis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1508_ingrown_toenail_missing_context_blocks",
+    "condition": "ingrown toenail",
+    "ed_note": "Adult with toe pain near nail.",
+    "expected_phenotype_id": "ingrown_toenail_no_abscess_or_cellulitis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_ingrown_toenail",
+      "no_abscess_or_cellulitis_documented"
+    ]
+  },
+  {
+    "id": "phase1509_ingrown_toenail_diabetes_blocks",
+    "condition": "ingrown toenail",
+    "ed_note": "Adult. Ingrown toenail diagnosed. No abscess. No cellulitis. Patient has diabetes and neuropathy.",
+    "expected_phenotype_id": "ingrown_toenail_no_abscess_or_cellulitis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "diabetes_general_risk",
+      "neuropathy_foot_risk"
+    ]
+  },
+  {
+    "id": "phase1510_aphthous_ulcer_clean",
+    "condition": "canker sore",
+    "ed_note": "Adult. Clinician diagnosis canker sore. No systemic symptoms. No fever or rash. No airway symptoms.",
+    "expected_phenotype_id": "aphthous_ulcer_simple_no_systemic_symptoms",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1511_aphthous_ulcer_missing_context_blocks",
+    "condition": "aphthous ulcer",
+    "ed_note": "Adult with painful mouth ulcer.",
+    "expected_phenotype_id": "aphthous_ulcer_simple_no_systemic_symptoms",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_simple_canker_sore",
+      "no_systemic_or_dangerous_oral_features_documented"
+    ]
+  },
+  {
+    "id": "phase1512_aphthous_ulcer_systemic_blocks",
+    "condition": "canker sore",
+    "ed_note": "Adult. Canker sore diagnosed. No airway symptoms. Fever with mouth ulcer and genital ulcers documented.",
+    "expected_phenotype_id": "aphthous_ulcer_simple_no_systemic_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "genital_ulcers",
+      "systemic_or_recurrent_oral_ulcer_features"
+    ]
+  },
+  {
+    "id": "phase1513_insect_bite_clean",
+    "condition": "insect bite",
+    "ed_note": "Adult. Clinician diagnosis localized insect bite. Localized reaction only. No systemic reaction. No anaphylaxis.",
+    "expected_phenotype_id": "localized_insect_bite_or_sting_no_systemic_reaction",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1514_insect_bite_missing_context_blocks",
+    "condition": "insect sting",
+    "ed_note": "Adult with itchy red bump after insect exposure.",
+    "expected_phenotype_id": "localized_insect_bite_or_sting_no_systemic_reaction",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_insect_bite_or_sting",
+      "no_systemic_reaction_documented"
+    ]
+  },
+  {
+    "id": "phase1515_insect_bite_anaphylaxis_blocks",
+    "condition": "insect bite",
+    "ed_note": "Adult. Insect bite diagnosed. Local reaction only. Trouble breathing and face swelling after sting.",
+    "expected_phenotype_id": "localized_insect_bite_or_sting_no_systemic_reaction",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms"
+    ]
+  }
+]

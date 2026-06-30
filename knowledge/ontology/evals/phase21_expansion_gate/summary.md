@@ -1,13 +1,13 @@
 # Phase 21 Expansion Gate
 
 Reviewed runtime clean: true.
-Phenotype expansion allowed: false.
+Phenotype expansion allowed: true.
 Reviewed source gaps: 0.
 Draft source gaps: 0.
-Active draft phenotypes: 3.
+Active draft phenotypes: 0.
 Approved low-confidence near misses: 12.
-Phase 20 runtime cases: 57.
+Phase 20 runtime cases: 225.
 
-Decision: reviewed runtime may continue; phenotype expansion remains blocked.
+Decision: phenotype expansion allowed.
 
-Interpretation: the reviewed ontology path can keep running behind the current gates. Do not add new phenotypes or expand patient-facing content until active drafts are narrowed, reviewed, promoted, or explicitly retired.
+Interpretation: the reviewed ontology path can continue, and phenotype expansion may proceed under the autonomous phase loop.

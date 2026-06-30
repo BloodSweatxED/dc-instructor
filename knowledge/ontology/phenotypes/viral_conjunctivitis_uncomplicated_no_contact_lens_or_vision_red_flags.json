@@ -1,0 +1,118 @@
+{
+  "id": "viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags",
+  "label": "Viral conjunctivitis without contact lens or vision red flags",
+  "status": "reviewed",
+  "condition_family": "ophthalmology",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated viral conjunctivitis.",
+    "No contact lens use, eye pain, photophobia, vision change, corneal concern, trauma, or specialist-directed ophthalmology plan."
+  ],
+  "exclusion_criteria": [
+    "Contact lens use, eye pain, photophobia, vision change, corneal ulcer/keratitis concern, eye trauma, chemical exposure, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed ophthalmology plan."
+  ],
+  "must_not_miss": [
+    "Corneal ulcer or keratitis.",
+    "Acute glaucoma mimic.",
+    "Eye trauma or foreign body.",
+    "Vision-threatening infection."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, eye clinic, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags.diagnosis.diagnosis_summary.v1",
+    "viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags.home_care.home_care_1.v1",
+    "viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags.home_care.home_care_2.v1",
+    "viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags.home_care.home_care_3.v1",
+    "viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags.medications.medication_guidance_1.v1",
+    "viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags.medications.medication_guidance_2.v1",
+    "viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags.return_precautions.return_precaution_1.v1",
+    "viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags.return_precautions.return_precaution_2.v1",
+    "viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags.return_precautions.return_precaution_3.v1",
+    "viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "cdc.conjunctivitis",
+    "medlineplus.conjunctivitis"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "cdc.conjunctivitis, medlineplus.conjunctivitis supports patient-education framing for viral conjunctivitis and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent."
+  },
+  "runtime": {
+    "condition_terms": [
+      "viral conjunctivitis",
+      "viral pink eye",
+      "pink eye viral"
+    ],
+    "unsafe_modifiers": [
+      "contact_lens_use",
+      "ocular_symptoms",
+      "vision_change",
+      "corneal_ulcer_or_keratitis_concern",
+      "eye_trauma_or_foreign_body",
+      "specialist_directed_ophthalmology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_viral_conjunctivitis_no_contact_lens_or_vision_red_fla",
+        "terms": [
+          "clinician diagnosis viral conjunctivitis",
+          "discharge diagnosis viral conjunctivitis",
+          "viral conjunctivitis diagnosed"
+        ]
+      },
+      {
+        "id": "no_contact_lens_or_vision_red_flags_viral_conjunctivitis",
+        "terms": [
+          "Clinician diagnosis viral conjunctivitis",
+          "No contact lens use",
+          "No eye pain",
+          "Vision normal."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis viral conjunctivitis",
+      "viral conjunctivitis diagnosed",
+      "viral conjunctivitis"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-19",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. cdc.conjunctivitis, medlineplus.conjunctivitis supports patient-education framing for viral conjunctivitis and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated viral conjunctivitis",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "blocked_modifiers": [
+      "contact_lens_use",
+      "ocular_symptoms",
+      "vision_change",
+      "corneal_ulcer_or_keratitis_concern",
+      "eye_trauma_or_foreign_body",
+      "specialist_directed_ophthalmology_plan"
+    ]
+  }
+}

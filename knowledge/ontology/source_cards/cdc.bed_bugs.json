@@ -1,0 +1,15 @@
+{
+  "id": "cdc.bed_bugs",
+  "source": "CDC",
+  "title": "About Bed Bugs",
+  "url": "https://www.cdc.gov/bed-bugs/about/index.html",
+  "source_type": "public_health_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Bed bug bites can cause itching, loss of sleep, and rarely allergic reactions.",
+    "Bed bugs are not known to spread disease.",
+    "Bite treatment focuses on itch control and avoiding scratching to prevent secondary infection.",
+    "People should address the infestation source to prevent ongoing bites."
+  ],
+  "use_policy": "evidence_support"
+}

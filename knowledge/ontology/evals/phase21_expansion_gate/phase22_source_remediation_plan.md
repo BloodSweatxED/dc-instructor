@@ -2,7 +2,7 @@
 
 Goal: close or retire draft source gaps and active draft phenotypes before any phenotype expansion.
 
-Current active draft targets: phenotype `asymptomatic_elevated_blood_pressure_no_end_organ_symptoms`, phenotype `hemorrhoids_uncomplicated_no_heavy_bleeding`, phenotype `influenza_like_illness_stable_supportive_care`.
+Current active draft targets: none.
 
 Recommended sequence:
 

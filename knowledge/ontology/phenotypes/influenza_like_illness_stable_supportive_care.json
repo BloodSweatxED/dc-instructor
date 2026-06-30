@@ -1,7 +1,7 @@
 {
   "id": "influenza_like_illness_stable_supportive_care",
   "label": "Stable adult influenza-like illness with supportive-care discharge plan",
-  "status": "draft",
+  "status": "reviewed",
   "condition_family": "respiratory_infection",
   "inclusion_criteria": [
     "Adult with clinician diagnosis or discharge impression of influenza-like illness or flu.",
@@ -52,10 +52,10 @@
   "source_audit": {
     "source_supported": true,
     "source_needed": false,
-    "clinician_judgment_only": true,
+    "clinician_judgment_only": false,
     "restricted_source_risk": false,
-    "unsafe_without_modifier": true,
-    "notes": "CDC and MedlinePlus support flu symptom framing, home supportive care for mild illness, staying home while ill, emergency warning signs, high-risk host escalation, and antiviral treatment concepts. Antiviral medication selection and dosing remain clinician-entered only."
+    "unsafe_without_modifier": false,
+    "notes": "CDC and MedlinePlus support flu symptom framing, home supportive care for mild illness, staying home while ill, emergency warning signs, high-risk host escalation, and antiviral treatment concepts. Clinician-owner review on 2026-06-10 approved this narrow v1 with high-risk hosts and antiviral cases remaining hard blockers, not output modifiers."
   },
   "runtime": {
     "condition_terms": [
@@ -114,13 +114,43 @@
       "influenza like illness stable supportive care"
     ],
     "minimum_confidence": 0.86,
-    "mode": "draft_only_until_reviewed"
+    "mode": "reviewed_ontology_enabled"
   },
   "version": 1,
   "review": {
-    "status": "needs_review",
-    "reviewer": null,
-    "last_reviewed": null,
-    "notes": "Draft only. Needs EM clinician review for high-risk host, pregnancy/postpartum, antiviral, dyspnea, and chest-pain boundaries before promotion."
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-10",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. CDC and MedlinePlus support flu symptom framing, home supportive care for mild illness, staying home while ill, emergency warning signs, high-risk host escalation, and antiviral treatment concepts. Clinician-owner review on 2026-06-10 approved this narrow v1 with high-risk hosts and antiviral cases remaining hard blockers, not output modifiers.",
+    "clinical_status": "reviewed_for_limited_stable_adult_influenza_like_illness_supportive_care_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of influenza-like illness or flu",
+      "breathing, oxygen level, hydration, and vital signs acceptable for discharge",
+      "no high-risk influenza host pathway",
+      "no pregnancy or postpartum pathway",
+      "no pneumonia concern",
+      "no clinician-entered antiviral plan requiring tailored medication instructions"
+    ],
+    "blocked_modifiers": [
+      "pregnancy",
+      "postpartum",
+      "high_risk_influenza_host",
+      "immunocompromised",
+      "elderly_frail",
+      "hypoxia",
+      "respiratory_distress",
+      "resolved_dyspnea_not_documented",
+      "chest_pain",
+      "pneumonia",
+      "severe_dehydration",
+      "unable_to_tolerate_oral_fluids",
+      "sepsis",
+      "unstable_vitals",
+      "antiviral_prescribed_or_indicated"
+    ]
   }
 }

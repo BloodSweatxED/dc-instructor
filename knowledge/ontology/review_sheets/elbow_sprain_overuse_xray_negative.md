@@ -2,7 +2,7 @@
 
 Phenotype ID: `elbow_sprain_overuse_xray_negative`
 
-Status: `draft`
+Status: `reviewed`
 
 ## Inclusion Criteria
 

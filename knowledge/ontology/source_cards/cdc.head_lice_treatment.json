@@ -1,0 +1,15 @@
+{
+  "id": "cdc.head_lice_treatment",
+  "source": "CDC",
+  "title": "Treatment of Head Lice",
+  "url": "https://www.cdc.gov/lice/treatment/index.html",
+  "source_type": "government_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Head lice treatment may use over-the-counter or prescription medicines.",
+    "Patients should follow product or clinician instructions carefully.",
+    "Some treatments may require retreatment depending on whether eggs are killed.",
+    "Extra household cleaning should stay practical and focused on recently used items."
+  ],
+  "use_policy": "evidence_support"
+}

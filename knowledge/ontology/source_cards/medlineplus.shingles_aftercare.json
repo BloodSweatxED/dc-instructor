@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.shingles_aftercare",
+  "source": "MedlinePlus",
+  "title": "Shingles - aftercare",
+  "url": "https://medlineplus.gov/ency/patientinstructions/000560.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Shingles aftercare includes keeping the rash clean, avoiding scratching, and using clinician-directed medicines.",
+    "Patients should seek care for rash near the eye, worsening symptoms, fever, confusion, severe headache, weakness, or other concerning symptoms.",
+    "Avoid exposing people at high risk for chickenpox complications until lesions are crusted.",
+    "Pain can persist after the rash and should be followed with a clinician."
+  ],
+  "use_policy": "evidence_support"
+}
