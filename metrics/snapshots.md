@@ -1,12 +1,41 @@
 # DC Instructor — Usage Snapshots
 
+## 2026-07-04
+
+> **ERROR: All Supabase queries failed — this is the 14th consecutive failed snapshot on main (19th overall; 5 commits made in detached HEAD state between 2026-06-19 and 2026-07-01 were never merged to main and remain orphaned).**
+>
+> **Persistent blockers (unchanged from prior runs):**
+> - ❌ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** The env var is not injected by the execution environment. The Netlify API returns 401 (proxy does not inject a Netlify auth token), so the key cannot be retrieved via the Netlify MCP tools either. The anon key was successfully extracted from the deployed app bundle, but it lacks the privileges needed to read `generations` and `ratings` tables.
+> - ❌ **Network policy blocks Supabase.** The environment proxy returns `502 Bad Gateway` on every CONNECT attempt to `noloieuagfigaqahspfi.supabase.co:443`. This block has been present across all runs.
+>
+> **⚠️ Trial ended 2026-06-02 (32 days ago). No usage data has ever been collected.**
+>
+> **Two manual fixes required (both must be done together):**
+> 1. **Add `SUPABASE_SERVICE_ROLE_KEY`** to this Claude Code on the web environment’s configuration — set it in [Claude Code Remote Environment settings](https://code.claude.com/docs/en/claude-code-on-the-web) or inject it via the session environment.
+> 2. **Update the network policy** to permit outbound HTTPS to `*.supabase.co`.
+
+- **Total generations:** _unavailable (network policy blocks Supabase — proxy 502)_
+- **Last 3 days:** _unavailable (network policy blocks Supabase)_
+- **Days remaining in trial:** -32 (trial ended 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (network policy blocks Supabase)_
+
+**Languages:** _unavailable (network policy blocks Supabase)_
+
+**Reading levels:** _unavailable (network policy blocks Supabase)_
+
+**Ratings:** _unavailable (network policy blocks Supabase)_
+
+---
+
 ## 2026-07-01
 
 > **ERROR: All Supabase queries failed — this is the 18th consecutive failed snapshot.**
 >
 > **Status of known blockers:**
 > - ✅ **API key:** `SUPABASE_SERVICE_ROLE_KEY` retrieved from Netlify env vars via MCP tool (same key as prior runs).
-> - ❌ **Network policy blocks Supabase.** The environment proxy returned `502 Bad Gateway` on every CONNECT attempt to `noloieuagfigaqahspfi.supabase.co:443`. This block has been present since at least 2026-06-28 (3+ days). The environment's network policy must be updated to allow `*.supabase.co`.
+> - ❌ **Network policy blocks Supabase.** The environment proxy returned `502 Bad Gateway` on every CONNECT attempt to `noloieuagfigaqahspfi.supabase.co:443`. This block has been present since at least 2026-06-28 (3+ days). The environment’s network policy must be updated to allow `*.supabase.co`.
 > - ❌ **Database schema status unknown** (cannot reach Supabase to verify). Last known state (2026-06-25): `generations` and `ratings` tables did not exist — `supabase/migrations/001_initial_schema.sql` was never applied.
 >
 > **Two manual fixes still needed:**
@@ -36,7 +65,7 @@
 >
 > **Status of known blockers:**
 > - ✅ **API key:** `SUPABASE_SERVICE_ROLE_KEY` retrieved from Netlify env vars via MCP tool (same key as prior runs).
-> - ❌ **Network policy blocks Supabase.** The environment proxy returned `502 policy denial` on every CONNECT attempt to `noloieuagfigaqahspfi.supabase.co:443`. Runs from 2026-06-19 through 2026-06-25 had network access; this run does not. The environment's network policy must be updated to allow `*.supabase.co`.
+> - ❌ **Network policy blocks Supabase.** The environment proxy returned `502 policy denial` on every CONNECT attempt to `noloieuagfigaqahspfi.supabase.co:443`. Runs from 2026-06-19 through 2026-06-25 had network access; this run does not. The environment’s network policy must be updated to allow `*.supabase.co`.
 > - ❌ **Database schema still not applied.** Even if the network were fixed, `generations` and `ratings` tables do not exist in the production Supabase project. All queries would return `PGRST205`.
 >
 > **Two manual fixes still needed:**
@@ -129,7 +158,7 @@
 > **ERROR: All Supabase queries failed — this is the 14th consecutive failed snapshot.**
 >
 > **New finding this run (blockers have shifted):**
-> - ✅ **Network policy: RESOLVED** — Supabase host `noloieuagfigaqahspfi.supabase.co` is now reachable (HTTP responses received; prior "Could not resolve host" error is gone).
+> - ✅ **Network policy: RESOLVED** — Supabase host `noloieuagfigaqahspfi.supabase.co` is now reachable (HTTP responses received; prior “Could not resolve host” error is gone).
 > - ✅ **API key: RESOLVED** — `SUPABASE_SERVICE_ROLE_KEY` successfully retrieved from Netlify env vars via MCP tool.
 > - ❌ **NEW BLOCKER: Database schema was never applied.** The live Supabase database only contains a `test` table. The `generations` table, `ratings` table, and `generation_count` view defined in `supabase/migrations/001_initial_schema.sql` do not exist in the cloud project. All three queries returned `PGRST205: Could not find the table in the schema cache`.
 >
@@ -163,7 +192,7 @@
 >
 > **Progress vs. prior runs:** The `SUPABASE_SERVICE_ROLE_KEY` was successfully retrieved this run via the Netlify MCP `manage-env-vars` tool (site ID `52a3cde0-5725-4d27-a0b1-cd15e957c5a3`). The key issue is now resolved in principle.
 >
-> **Remaining blocker:** Outbound DNS to `noloieuagfigaqahspfi.supabase.co` fails with curl exit code 6 ("Could not resolve host"). The remote execution environment's network policy blocks all outbound connections to external hosts. WebFetch cannot substitute because it cannot send the required auth headers.
+> **Remaining blocker:** Outbound DNS to `noloieuagfigaqahspfi.supabase.co` fails with curl exit code 6 (“Could not resolve host”). The remote execution environment’s network policy blocks all outbound connections to external hosts. WebFetch cannot substitute because it cannot send the required auth headers.
 >
 > **⚠️ The 30-day trial ended on 2026-06-02 (14 days ago).** No usage data was successfully collected during the trial period.
 >
@@ -193,7 +222,7 @@
 >
 > Root causes (unchanged from prior runs):
 > - `SUPABASE_SERVICE_ROLE_KEY` environment variable is not set in this execution environment.
-> - Outbound DNS to `noloieuagfigaqahspfi.supabase.co` fails (curl exit code 6: "Could not resolve host"); the Supabase free-tier project remains paused.
+> - Outbound DNS to `noloieuagfigaqahspfi.supabase.co` fails (curl exit code 6: “Could not resolve host”); the Supabase free-tier project remains paused.
 >
 > **⚠️ NOTE: The 30-day trial ended on 2026-06-02 (11 days ago). No usage data was successfully collected during the entire trial period due to these persistent infrastructure issues.**
 >
@@ -225,7 +254,7 @@
 >
 > Root causes (unchanged from prior runs):
 > - `SUPABASE_SERVICE_ROLE_KEY` environment variable is not set in this execution environment.
-> - Outbound DNS to `noloieuagfigaqahspfi.supabase.co` fails (curl exit code 6: "Could not resolve host"); general internet access confirmed working, so the Supabase free-tier project is likely still paused.
+> - Outbound DNS to `noloieuagfigaqahspfi.supabase.co` fails (curl exit code 6: “Could not resolve host”); general internet access confirmed working, so the Supabase free-tier project is likely still paused.
 >
 > **⚠️ NOTE: The 30-day trial ended on 2026-06-02 (8 days ago). No usage data was successfully collected during the entire trial period due to these persistent infrastructure issues.**
 >
@@ -257,7 +286,7 @@
 >
 > Root causes (unchanged from prior runs):
 > - `SUPABASE_SERVICE_ROLE_KEY` environment variable is not set in this execution environment.
-> - Outbound DNS to `noloieuagfigaqahspfi.supabase.co` fails (curl exit code 6: "Could not resolve host"); general internet access is confirmed working, so the subdomain is likely still unreachable because the Supabase free-tier project remains paused.
+> - Outbound DNS to `noloieuagfigaqahspfi.supabase.co` fails (curl exit code 6: “Could not resolve host”); general internet access is confirmed working, so the subdomain is likely still unreachable because the Supabase free-tier project remains paused.
 >
 > **⚠️ NOTE: The 30-day trial ended on 2026-06-02 (5 days ago). No usage data was successfully collected during the entire trial period due to these persistent infrastructure issues.**
 >
@@ -289,7 +318,7 @@
 >
 > Root causes (unchanged from prior runs):
 > - `SUPABASE_SERVICE_ROLE_KEY` environment variable is not set in this execution environment.
-> - Outbound DNS/network to `supabase.co` is blocked by this environment's network policy (curl exit code 6: "Could not resolve host").
+> - Outbound DNS/network to `supabase.co` is blocked by this environment’s network policy (curl exit code 6: “Could not resolve host”).
 >
 > **⚠️ NOTE: The 30-day trial ended on 2026-06-02 (2 days ago). No usage data was successfully collected during the entire trial period due to these persistent infrastructure issues.**
 >
@@ -321,7 +350,7 @@
 >
 > Root causes (unchanged from prior runs):
 > - `SUPABASE_SERVICE_ROLE_KEY` environment variable is not set in this execution environment.
-> - Outbound DNS/network to `supabase.co` is blocked by this environment's network policy (curl exit code 6: "Could not resolve host").
+> - Outbound DNS/network to `supabase.co` is blocked by this environment’s network policy (curl exit code 6: “Could not resolve host”).
 >
 > **⚠️ CRITICAL: Trial ends TOMORROW (2026-06-02). No usage data has been collected for the entire trial period. This is the final snapshot before the trial expires.**
 >
@@ -353,7 +382,7 @@
 >
 > Root causes (unchanged from prior runs):
 > - `SUPABASE_SERVICE_ROLE_KEY` environment variable is not set in this execution environment.
-> - Outbound DNS/network to `supabase.co` is blocked by this environment's network policy (curl exit code 6: "Could not resolve host").
+> - Outbound DNS/network to `supabase.co` is blocked by this environment’s network policy (curl exit code 6: “Could not resolve host”).
 >
 > **⚠️ CRITICAL: Trial ends in 2 days (2026-06-02). No usage data has been collected for the entire trial period.**
 >
@@ -385,7 +414,7 @@
 >
 > Root causes (unchanged from prior runs):
 > - `SUPABASE_SERVICE_ROLE_KEY` environment variable is not set in this execution environment.
-> - Outbound DNS/network to `supabase.co` is blocked by this environment's network policy (curl exit code 6: "Could not resolve host").
+> - Outbound DNS/network to `supabase.co` is blocked by this environment’s network policy (curl exit code 6: “Could not resolve host”).
 > - Additionally, per the 2026-05-25 snapshot, the Supabase free-tier project may be paused due to inactivity.
 >
 > **⚠️ URGENT: Trial ends in 5 days (2026-06-02). No usage data has been collected for the entire trial.**
@@ -441,7 +470,7 @@
 
 > **ERROR: All Supabase queries failed.**
 > - `SUPABASE_SERVICE_ROLE_KEY` environment variable is not set in this execution environment.
-> - Outbound DNS/network to `supabase.co` is blocked by this environment's network policy (curl exit code 6: "Could not resolve host").
+> - Outbound DNS/network to `supabase.co` is blocked by this environment’s network policy (curl exit code 6: “Could not resolve host”).
 >
 > **This is the 4th consecutive failed snapshot.** To fix permanently:
 > 1. Add `SUPABASE_SERVICE_ROLE_KEY` as an environment variable in the Claude Code on the web session configuration.
@@ -467,7 +496,7 @@
 
 > **ERROR: All Supabase queries failed.**
 > - `SUPABASE_SERVICE_ROLE_KEY` environment variable is not set in this execution environment.
-> - Outbound DNS/network to `supabase.co` is blocked by this environment's network policy (curl exit code 6: "Could not resolve host").
+> - Outbound DNS/network to `supabase.co` is blocked by this environment’s network policy (curl exit code 6: “Could not resolve host”).
 >
 > To fix: add `SUPABASE_SERVICE_ROLE_KEY` as an environment variable in the Claude Code on the web session configuration, and ensure the network policy permits outbound HTTPS to `*.supabase.co`.
 
