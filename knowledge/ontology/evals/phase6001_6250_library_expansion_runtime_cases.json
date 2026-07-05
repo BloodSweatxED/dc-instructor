@@ -1,0 +1,170 @@
+[
+  {
+    "id": "phase6001_calf_contusion_no_fracture_or_neurovascular_red_flags_clean",
+    "condition": "calf contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis calf contusion. calf bruise diagnosed. no fracture concern. no open wound.",
+    "expected_phenotype_id": "calf_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase6002_calf_contusion_no_fracture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "calf contusion no fracture",
+    "ed_note": "Adult with calf contusion no fracture.",
+    "expected_phenotype_id": "calf_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_calf_contusion",
+      "no_fracture_or_neurovascular_red_flags_calf"
+    ]
+  },
+  {
+    "id": "phase6003_calf_contusion_no_fracture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "calf contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis calf contusion. calf bruise diagnosed. no fracture concern. no open wound. However possible fracture, open wound, red warm joint, cannot walk, numb toes, blue toes, high energy trauma, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "calf_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase6004_hamstring_contusion_no_fracture_or_neurovascular_red_flags_clean",
+    "condition": "hamstring contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis hamstring contusion. hamstring bruise diagnosed. no fracture concern. no open wound.",
+    "expected_phenotype_id": "hamstring_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase6005_hamstring_contusion_no_fracture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "hamstring contusion no fracture",
+    "ed_note": "Adult with hamstring contusion no fracture.",
+    "expected_phenotype_id": "hamstring_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_hamstring_contusion",
+      "no_fracture_or_neurovascular_red_flags_hamstring"
+    ]
+  },
+  {
+    "id": "phase6006_hamstring_contusion_no_fracture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "hamstring contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis hamstring contusion. hamstring bruise diagnosed. no fracture concern. no open wound. However possible fracture, open wound, red warm joint, cannot walk, numb toes, blue toes, high energy trauma, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "hamstring_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase6007_quadriceps_contusion_no_fracture_or_neurovascular_red_flags_clean",
+    "condition": "quadriceps contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis quadriceps contusion. quadriceps bruise diagnosed. no fracture concern. no open wound.",
+    "expected_phenotype_id": "quadriceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase6008_quadriceps_contusion_no_fracture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "quadriceps contusion no fracture",
+    "ed_note": "Adult with quadriceps contusion no fracture.",
+    "expected_phenotype_id": "quadriceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_quadriceps_contusion",
+      "no_fracture_or_neurovascular_red_flags_quadriceps"
+    ]
+  },
+  {
+    "id": "phase6009_quadriceps_contusion_no_fracture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "quadriceps contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis quadriceps contusion. quadriceps bruise diagnosed. no fracture concern. no open wound. However possible fracture, open wound, red warm joint, cannot walk, numb toes, blue toes, high energy trauma, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "quadriceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase6010_biceps_contusion_no_fracture_or_neurovascular_red_flags_clean",
+    "condition": "biceps contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis biceps contusion. biceps bruise diagnosed. no fracture concern. no open wound.",
+    "expected_phenotype_id": "biceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase6011_biceps_contusion_no_fracture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "biceps contusion no fracture",
+    "ed_note": "Adult with biceps contusion no fracture.",
+    "expected_phenotype_id": "biceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_biceps_contusion",
+      "no_fracture_or_neurovascular_red_flags_biceps"
+    ]
+  },
+  {
+    "id": "phase6012_biceps_contusion_no_fracture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "biceps contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis biceps contusion. biceps bruise diagnosed. no fracture concern. no open wound. However possible fracture, open wound, red warm joint, numb fingers, blue fingers, high energy trauma, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "biceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase6013_triceps_contusion_no_fracture_or_neurovascular_red_flags_clean",
+    "condition": "triceps contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis triceps contusion. triceps bruise diagnosed. no fracture concern. no open wound.",
+    "expected_phenotype_id": "triceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase6014_triceps_contusion_no_fracture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "triceps contusion no fracture",
+    "ed_note": "Adult with triceps contusion no fracture.",
+    "expected_phenotype_id": "triceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_triceps_contusion",
+      "no_fracture_or_neurovascular_red_flags_triceps"
+    ]
+  },
+  {
+    "id": "phase6015_triceps_contusion_no_fracture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "triceps contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis triceps contusion. triceps bruise diagnosed. no fracture concern. no open wound. However possible fracture, open wound, red warm joint, numb fingers, blue fingers, high energy trauma, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "triceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+]

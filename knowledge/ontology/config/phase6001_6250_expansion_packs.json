@@ -1,0 +1,430 @@
+[
+  {
+    "id": "calf_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Calf contusion without fracture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "calf contusion no fracture",
+      "calf bruise no fracture",
+      "calf contusion",
+      "calf bruise"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit a calf bruise.",
+    "found": "Your clinician diagnosed a calf bruise. We did not find fracture, infection, open wound, or poor blood flow today.",
+    "home": [
+      "Rest the leg as needed.",
+      "Use ice wrapped in a cloth for short periods.",
+      "Return to normal activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not use medicine to push through worsening pain, numbness, or weakness."
+    ],
+    "return": [
+      "New numbness, weakness, blue toes, pale toes, or severe worsening pain.",
+      "New deformity, inability to use the area, fever, spreading redness, or drainage.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated calf contusion.",
+      "No fracture/dislocation concern, open wound, infection, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, open wound, infection concern, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Tibia or fibula fracture.",
+      "Compartment syndrome.",
+      "Neurovascular compromise.",
+      "Deep infection."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_calf_contusion",
+        "terms": [
+          "clinician diagnosis calf contusion",
+          "discharge diagnosis calf contusion",
+          "calf contusion diagnosed",
+          "calf bruise diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_calf",
+        "terms": [
+          "no fracture concern",
+          "neurovascular exam intact",
+          "no open wound"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis calf contusion",
+      "calf contusion diagnosed",
+      "calf bruise diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus bruise material supports contusion self-care, simple comfort measures, and escalation for worsening pain, swelling, infection signs, or concerning symptoms. This expansion is limited to clinician-diagnosed calf contusion with fracture, wound, infection, neurovascular, high-energy trauma, pregnancy/pediatric, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_calf_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of calf contusion",
+      "no fracture concern",
+      "no open wound or infection",
+      "intact neurovascular exam"
+    ],
+    "review_date": "2026-06-30"
+  },
+  {
+    "id": "hamstring_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Hamstring contusion without fracture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "hamstring contusion no fracture",
+      "hamstring bruise no fracture",
+      "hamstring contusion",
+      "hamstring bruise"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit a hamstring bruise.",
+    "found": "Your clinician diagnosed a hamstring bruise. We did not find fracture, infection, open wound, or poor blood flow today.",
+    "home": [
+      "Rest the leg as needed.",
+      "Use ice wrapped in a cloth for short periods.",
+      "Return to normal activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not use medicine to push through worsening pain, numbness, or weakness."
+    ],
+    "return": [
+      "New numbness, weakness, blue toes, pale toes, or severe worsening pain.",
+      "New deformity, inability to use the area, fever, spreading redness, or drainage.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated hamstring contusion.",
+      "No fracture/dislocation concern, open wound, infection, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, open wound, infection concern, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Femur fracture.",
+      "Large hematoma.",
+      "Neurovascular compromise.",
+      "Compartment syndrome."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_hamstring_contusion",
+        "terms": [
+          "clinician diagnosis hamstring contusion",
+          "discharge diagnosis hamstring contusion",
+          "hamstring contusion diagnosed",
+          "hamstring bruise diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_hamstring",
+        "terms": [
+          "no fracture concern",
+          "neurovascular exam intact",
+          "no open wound"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis hamstring contusion",
+      "hamstring contusion diagnosed",
+      "hamstring bruise diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus bruise material supports contusion self-care, simple comfort measures, and escalation for worsening pain, swelling, infection signs, or concerning symptoms. This expansion is limited to clinician-diagnosed hamstring contusion with fracture, wound, infection, neurovascular, high-energy trauma, pregnancy/pediatric, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_hamstring_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of hamstring contusion",
+      "no fracture concern",
+      "no open wound or infection",
+      "intact neurovascular exam"
+    ],
+    "review_date": "2026-06-30"
+  },
+  {
+    "id": "quadriceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Quadriceps contusion without fracture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "quadriceps contusion no fracture",
+      "quadriceps bruise no fracture",
+      "quadriceps contusion",
+      "quadriceps bruise"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit a quadriceps bruise.",
+    "found": "Your clinician diagnosed a quadriceps bruise. We did not find fracture, infection, open wound, or poor blood flow today.",
+    "home": [
+      "Rest the leg as needed.",
+      "Use ice wrapped in a cloth for short periods.",
+      "Return to normal activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not use medicine to push through worsening pain, numbness, or weakness."
+    ],
+    "return": [
+      "New numbness, weakness, blue toes, pale toes, or severe worsening pain.",
+      "New deformity, inability to use the area, fever, spreading redness, or drainage.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated quadriceps contusion.",
+      "No fracture/dislocation concern, open wound, infection, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, open wound, infection concern, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Femur or patella fracture.",
+      "Large hematoma.",
+      "Neurovascular compromise.",
+      "Compartment syndrome."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_quadriceps_contusion",
+        "terms": [
+          "clinician diagnosis quadriceps contusion",
+          "discharge diagnosis quadriceps contusion",
+          "quadriceps contusion diagnosed",
+          "quadriceps bruise diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_quadriceps",
+        "terms": [
+          "no fracture concern",
+          "neurovascular exam intact",
+          "no open wound"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis quadriceps contusion",
+      "quadriceps contusion diagnosed",
+      "quadriceps bruise diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus bruise material supports contusion self-care, simple comfort measures, and escalation for worsening pain, swelling, infection signs, or concerning symptoms. This expansion is limited to clinician-diagnosed quadriceps contusion with fracture, wound, infection, neurovascular, high-energy trauma, pregnancy/pediatric, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_quadriceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of quadriceps contusion",
+      "no fracture concern",
+      "no open wound or infection",
+      "intact neurovascular exam"
+    ],
+    "review_date": "2026-06-30"
+  },
+  {
+    "id": "biceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Biceps contusion without fracture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "biceps contusion no fracture",
+      "biceps bruise no fracture",
+      "biceps contusion",
+      "biceps bruise"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit a biceps bruise.",
+    "found": "Your clinician diagnosed a biceps bruise. We did not find fracture, infection, open wound, or poor blood flow today.",
+    "home": [
+      "Rest the arm as needed.",
+      "Use ice wrapped in a cloth for short periods.",
+      "Return to normal activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not use medicine to push through worsening pain, numbness, or weakness."
+    ],
+    "return": [
+      "New numbness, weakness, blue fingers, pale fingers, or severe worsening pain.",
+      "New deformity, inability to use the area, fever, spreading redness, or drainage.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated biceps contusion.",
+      "No fracture/dislocation concern, open wound, infection, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, open wound, infection concern, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Humerus fracture.",
+      "Biceps tendon rupture.",
+      "Neurovascular compromise.",
+      "Deep infection."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_biceps_contusion",
+        "terms": [
+          "clinician diagnosis biceps contusion",
+          "discharge diagnosis biceps contusion",
+          "biceps contusion diagnosed",
+          "biceps bruise diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_biceps",
+        "terms": [
+          "no fracture concern",
+          "neurovascular exam intact",
+          "no open wound"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis biceps contusion",
+      "biceps contusion diagnosed",
+      "biceps bruise diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus bruise material supports contusion self-care, simple comfort measures, and escalation for worsening pain, swelling, infection signs, or concerning symptoms. This expansion is limited to clinician-diagnosed biceps contusion with fracture, wound, infection, neurovascular, high-energy trauma, pregnancy/pediatric, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_biceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of biceps contusion",
+      "no fracture concern",
+      "no open wound or infection",
+      "intact neurovascular exam"
+    ],
+    "review_date": "2026-06-30"
+  },
+  {
+    "id": "triceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Triceps contusion without fracture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "triceps contusion no fracture",
+      "triceps bruise no fracture",
+      "triceps contusion",
+      "triceps bruise"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit a triceps bruise.",
+    "found": "Your clinician diagnosed a triceps bruise. We did not find fracture, infection, open wound, or poor blood flow today.",
+    "home": [
+      "Rest the arm as needed.",
+      "Use ice wrapped in a cloth for short periods.",
+      "Return to normal activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not use medicine to push through worsening pain, numbness, or weakness."
+    ],
+    "return": [
+      "New numbness, weakness, blue fingers, pale fingers, or severe worsening pain.",
+      "New deformity, inability to use the area, fever, spreading redness, or drainage.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated triceps contusion.",
+      "No fracture/dislocation concern, open wound, infection, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, open wound, infection concern, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Humerus or elbow fracture.",
+      "Triceps tendon rupture.",
+      "Neurovascular compromise.",
+      "Deep infection."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_triceps_contusion",
+        "terms": [
+          "clinician diagnosis triceps contusion",
+          "discharge diagnosis triceps contusion",
+          "triceps contusion diagnosed",
+          "triceps bruise diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_triceps",
+        "terms": [
+          "no fracture concern",
+          "neurovascular exam intact",
+          "no open wound"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis triceps contusion",
+      "triceps contusion diagnosed",
+      "triceps bruise diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus bruise material supports contusion self-care, simple comfort measures, and escalation for worsening pain, swelling, infection signs, or concerning symptoms. This expansion is limited to clinician-diagnosed triceps contusion with fracture, wound, infection, neurovascular, high-energy trauma, pregnancy/pediatric, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_triceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of triceps contusion",
+      "no fracture concern",
+      "no open wound or infection",
+      "intact neurovascular exam"
+    ],
+    "review_date": "2026-06-30"
+  }
+]

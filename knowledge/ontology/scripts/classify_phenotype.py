@@ -978,6 +978,10 @@ def term_score(text: str, terms: list[str]) -> tuple[float, list[str]]:
     return len(matched) / len(terms), matched
 
 
+def match_specificity(matched: list[str]) -> tuple[int, int]:
+    return (max((len(term) for term in matched), default=0), len(matched))
+
+
 def has_affirmed_condition_term(text: str, term: str) -> bool:
     start = 0
     while True:
@@ -1069,7 +1073,8 @@ def classify(condition: str, ed_note: str = "") -> dict[str, Any]:
         confidence = min(0.98, base_confidence - (0.15 if exclusions else 0.0))
         missing_context = missing_required_contexts(text, phenotype.get("required_context", []))
         output_modifiers = output_modifier_hits(text, phenotype.get("output_modifiers", []))
-        scored.append((confidence, phenotype, matched, exclusions, missing_context, output_modifiers))
+        specificity = match_specificity(matched)
+        scored.append((confidence, specificity, phenotype, matched, exclusions, missing_context, output_modifiers))
 
     if not scored:
         return {
@@ -1082,7 +1087,11 @@ def classify(condition: str, ed_note: str = "") -> dict[str, Any]:
             "fallback_reason": "no_supported_phenotype_match",
         }
 
-    confidence, phenotype, matched, exclusions, missing_context, output_modifiers = sorted(scored, key=lambda row: row[0], reverse=True)[0]
+    confidence, _, phenotype, matched, exclusions, missing_context, output_modifiers = sorted(
+        scored,
+        key=lambda row: (row[0], row[1][0], row[1][1]),
+        reverse=True,
+    )[0]
     fallback_reason = None
     if exclusions:
         fallback_reason = "unsafe_modifier_present"

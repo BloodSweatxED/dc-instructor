@@ -26,18 +26,18 @@ Status: `reviewed`
 
 ## Primitive List
 
-- `community_acquired_pneumonia_outpatient.diagnosis.diagnosis_summary.v1` | `diagnosis` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
-- `community_acquired_pneumonia_outpatient.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: hypoxia, immunocompromised, elderly_frail, sepsis, poor_follow_up
-- `community_acquired_pneumonia_outpatient.home_care.home_care_1.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
-- `community_acquired_pneumonia_outpatient.home_care.home_care_2.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
-- `community_acquired_pneumonia_outpatient.home_care.home_care_3.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
-- `community_acquired_pneumonia_outpatient.home_care.home_care_4.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
-- `community_acquired_pneumonia_outpatient.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: hypoxia, immunocompromised, elderly_frail, sepsis, poor_follow_up
-- `community_acquired_pneumonia_outpatient.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: hypoxia, immunocompromised, elderly_frail, sepsis, poor_follow_up
-- `community_acquired_pneumonia_outpatient.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
-- `community_acquired_pneumonia_outpatient.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
-- `community_acquired_pneumonia_outpatient.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
-- `community_acquired_pneumonia_outpatient.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: hypoxia, immunocompromised, elderly_frail, sepsis, poor_follow_up
+- `community_acquired_pneumonia_outpatient.diagnosis.diagnosis_summary.v1` | `diagnosis` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
+- `community_acquired_pneumonia_outpatient.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: hypoxia, immunocompromised, elderly_frail, sepsis, poor_follow_up, respiratory_distress, vomiting_unable_to_take_meds
+- `community_acquired_pneumonia_outpatient.home_care.home_care_1.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `community_acquired_pneumonia_outpatient.home_care.home_care_2.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `community_acquired_pneumonia_outpatient.home_care.home_care_3.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `community_acquired_pneumonia_outpatient.home_care.home_care_4.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `community_acquired_pneumonia_outpatient.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: hypoxia, immunocompromised, elderly_frail, sepsis, poor_follow_up, respiratory_distress, vomiting_unable_to_take_meds
+- `community_acquired_pneumonia_outpatient.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: hypoxia, immunocompromised, elderly_frail, sepsis, poor_follow_up, respiratory_distress, vomiting_unable_to_take_meds
+- `community_acquired_pneumonia_outpatient.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
+- `community_acquired_pneumonia_outpatient.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
+- `community_acquired_pneumonia_outpatient.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
+- `community_acquired_pneumonia_outpatient.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: hypoxia, immunocompromised, elderly_frail, sepsis, poor_follow_up, respiratory_distress, vomiting_unable_to_take_meds
 
 ## Assembled Six-Section Output
 

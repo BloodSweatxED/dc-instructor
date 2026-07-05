@@ -24,24 +24,24 @@ Status: `reviewed`
 
 ## Primitive List
 
-- `asthma_exacerbation_improved_discharge.diagnosis.diagnosis_summary.v1` | `diagnosis` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
-- `asthma_exacerbation_improved_discharge.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: hypoxia, poor_inhaler_access, pregnancy, chest_pain, frequent_relapse
-- `asthma_exacerbation_improved_discharge.home_care.home_care_1.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
-- `asthma_exacerbation_improved_discharge.home_care.home_care_2.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
-- `asthma_exacerbation_improved_discharge.home_care.home_care_3.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
-- `asthma_exacerbation_improved_discharge.home_care.home_care_4.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
-- `asthma_exacerbation_improved_discharge.home_care.home_care_5.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
-- `asthma_exacerbation_improved_discharge.home_care.home_care_6.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
-- `asthma_exacerbation_improved_discharge.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: hypoxia, poor_inhaler_access, pregnancy, chest_pain, frequent_relapse
-- `asthma_exacerbation_improved_discharge.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: hypoxia, poor_inhaler_access, pregnancy, chest_pain, frequent_relapse
-- `asthma_exacerbation_improved_discharge.medications.medication_guidance_3.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: hypoxia, poor_inhaler_access, pregnancy, chest_pain, frequent_relapse
-- `asthma_exacerbation_improved_discharge.medications.medication_guidance_4.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: hypoxia, poor_inhaler_access, pregnancy, chest_pain, frequent_relapse
-- `asthma_exacerbation_improved_discharge.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
-- `asthma_exacerbation_improved_discharge.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
-- `asthma_exacerbation_improved_discharge.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
-- `asthma_exacerbation_improved_discharge.return_precautions.return_precaution_4.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
-- `asthma_exacerbation_improved_discharge.return_precautions.return_precaution_5.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
-- `asthma_exacerbation_improved_discharge.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: hypoxia, poor_inhaler_access, pregnancy, chest_pain, frequent_relapse
+- `asthma_exacerbation_improved_discharge.diagnosis.diagnosis_summary.v1` | `diagnosis` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
+- `asthma_exacerbation_improved_discharge.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: hypoxia, poor_inhaler_access, pregnancy, chest_pain, frequent_relapse, respiratory_distress
+- `asthma_exacerbation_improved_discharge.home_care.home_care_1.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `asthma_exacerbation_improved_discharge.home_care.home_care_2.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `asthma_exacerbation_improved_discharge.home_care.home_care_3.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `asthma_exacerbation_improved_discharge.home_care.home_care_4.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `asthma_exacerbation_improved_discharge.home_care.home_care_5.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `asthma_exacerbation_improved_discharge.home_care.home_care_6.v1` | `home_care` | audit: source_supported, notes | unsafe modifiers: none
+- `asthma_exacerbation_improved_discharge.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: hypoxia, poor_inhaler_access, pregnancy, chest_pain, frequent_relapse, respiratory_distress
+- `asthma_exacerbation_improved_discharge.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: hypoxia, poor_inhaler_access, pregnancy, chest_pain, frequent_relapse, respiratory_distress
+- `asthma_exacerbation_improved_discharge.medications.medication_guidance_3.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: hypoxia, poor_inhaler_access, pregnancy, chest_pain, frequent_relapse, respiratory_distress
+- `asthma_exacerbation_improved_discharge.medications.medication_guidance_4.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: hypoxia, poor_inhaler_access, pregnancy, chest_pain, frequent_relapse, respiratory_distress
+- `asthma_exacerbation_improved_discharge.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
+- `asthma_exacerbation_improved_discharge.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
+- `asthma_exacerbation_improved_discharge.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
+- `asthma_exacerbation_improved_discharge.return_precautions.return_precaution_4.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
+- `asthma_exacerbation_improved_discharge.return_precautions.return_precaution_5.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only, notes | unsafe modifiers: none
+- `asthma_exacerbation_improved_discharge.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier, notes | unsafe modifiers: hypoxia, poor_inhaler_access, pregnancy, chest_pain, frequent_relapse, respiratory_distress
 
 ## Assembled Six-Section Output
 

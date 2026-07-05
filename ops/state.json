@@ -1,102 +1,102 @@
 {
-  "generated_at": "2026-06-29T18:36:45.005175+00:00",
+  "generated_at": "2026-07-04T18:01:14.679330+00:00",
   "project": "DC Instructor",
   "canonical_repo_url": "https://github.com/BloodSweatxED/dc-instructor",
   "repo": {
     "path": "/Users/andre/Desktop/Claude Projects/dc-instructor",
     "branch": "codex/dc-knowledge-graph",
-    "head": "693e5ad",
+    "head": "36937b1",
     "origin": "https://github.com/BloodSweatxED/dc-instructor.git",
     "origin_matches_canonical": true,
-    "dirty_file_count": 627,
+    "dirty_file_count": 298,
     "dirty_files": [
       "M knowledge/ontology/evals/phase20_runtime_cases.json",
-      " M knowledge/ontology/evals/phase21_expansion_gate/expansion_blockers.md",
       " M knowledge/ontology/evals/phase21_expansion_gate/phase21_expansion_gate.json",
-      " M knowledge/ontology/evals/phase21_expansion_gate/phase22_source_remediation_plan.md",
       " M knowledge/ontology/evals/phase21_expansion_gate/summary.md",
-      " M knowledge/ontology/evals/phase900_950_library_completion_draft_runtime_cases.json",
-      " M knowledge/ontology/evals/phase900_950_library_completion_review_queue.md",
       " M knowledge/ontology/evals/run_netlify_runtime_smoke.mjs",
       " M knowledge/ontology/evals/runtime_case_results.json",
       " M knowledge/ontology/graph/graph_seed.cyjs.json",
       " M knowledge/ontology/graph/graph_seed.json",
       " M knowledge/ontology/graph/graph_seed_summary.md",
-      " M knowledge/ontology/phenotypes/asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.json",
-      " M knowledge/ontology/phenotypes/hemorrhoids_uncomplicated_no_heavy_bleeding.json",
-      " M knowledge/ontology/phenotypes/influenza_like_illness_stable_supportive_care.json",
       " M knowledge/ontology/primitives/expanded_draft_packs.json",
-      " M knowledge/ontology/review_sheets/abdominal_pain_nonspecific_reassuring_workup.md",
-      " M knowledge/ontology/review_sheets/acute_bronchitis_no_pneumonia.md",
-      " M knowledge/ontology/review_sheets/acute_sinusitis_supportive_care.md",
+      " M knowledge/ontology/review_sheets/abscess_after_i_and_d.md",
       " M knowledge/ontology/review_sheets/asthma_exacerbation_improved_discharge.md",
-      " M knowledge/ontology/review_sheets/asymptomatic_elevated_blood_pressure_no_end_organ_symptoms.md",
+      " M knowledge/ontology/review_sheets/cellulitis_uncomplicated_oral_antibiotics.md",
       " M knowledge/ontology/review_sheets/community_acquired_pneumonia_outpatient.md",
       " M knowledge/ontology/review_sheets/concussion_discharge_no_imaging_red_flags.md",
-      " M knowledge/ontology/review_sheets/elbow_sprain_acute_traumatic_xray_negative.md",
-      " M knowledge/ontology/review_sheets/elbow_sprain_overuse_xray_negative.md",
-      " M knowledge/ontology/review_sheets/foot_sprain_xray_negative.md",
-      " M knowledge/ontology/review_sheets/hemorrhoids_uncomplicated_no_heavy_bleeding.md",
-      " M knowledge/ontology/review_sheets/influenza_like_illness_stable_supportive_care.md",
       " M knowledge/ontology/review_sheets/minor_head_injury_no_red_flags.md",
       " M knowledge/ontology/review_sheets/renal_colic_stable_no_infection.md",
+      " M knowledge/ontology/review_sheets/viral_pharyngitis_strep_negative.md",
       " M knowledge/ontology/runtime/ontology_manifest.json",
       " M knowledge/ontology/scripts/build_expanded_draft_packs.py",
       " M knowledge/ontology/scripts/classify_phenotype.py",
-      " M knowledge/ontology/scripts/promote_reviewed_phenotypes.py",
       " M netlify/functions/ontology-runtime.js",
       " M ops/dashboard.md",
       " M ops/progress_map.html",
       " M ops/progress_map.json",
-      " M ops/render_ops.py",
       " M ops/state.json",
       "?? knowledge/knowledge/",
-      "?? knowledge/ontology/config/",
-      "?? knowledge/ontology/evals/phase1002_1500_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase1501_1550_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase1551_1600_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase1601_1650_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase1651_1700_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase1701_1750_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase1751_1800_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase1801_1850_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase1851_1900_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase1901_2000_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase2001_2100_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase2101_2200_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase2201_2300_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase2301_2400_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase2401_2500_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase2501_2600_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase2601_2700_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase2701_2800_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase2801_2900_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase2901_3000_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase3001_3250_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase3251_3500_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase3501_3750_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase3751_4000_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase4001_4250_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase4251_4500_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase4501_4750_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase4751_5000_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase5001_5250_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase5251_5500_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase5501_5750_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/evals/phase5751_6000_library_expansion_runtime_cases.json",
-      "?? knowledge/ontology/phenotypes/abdominal_wall_strain_uncomplicated_no_abdominal_red_flags.json",
-      "?? knowledge/ontology/phenotypes/achilles_tendinitis_uncomplicated_no_rupture_or_infection.json",
-      "?? knowledge/ontology/phenotypes/acute_diarrhea_stable_no_blood_or_dehydration.json",
-      "?? knowledge/ontology/phenotypes/allergic_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags.json",
-      "?? knowledge/ontology/phenotypes/ankle_bruise_uncomplicated_no_fracture_or_neurovascular_red_flags.json",
-      "?? knowledge/ontology/phenotypes/ankle_strain_uncomplicated_no_fracture_or_neurovascular_red_flags.json"
+      "?? knowledge/ontology/config/phase6001_6250_expansion_packs.json",
+      "?? knowledge/ontology/config/phase6251_6500_expansion_packs.json",
+      "?? knowledge/ontology/config/phase6501_6750_expansion_packs.json",
+      "?? knowledge/ontology/config/phase6751_7000_expansion_packs.json",
+      "?? knowledge/ontology/config/phase7001_7250_expansion_packs.json",
+      "?? knowledge/ontology/config/phase7251_7500_expansion_packs.json",
+      "?? knowledge/ontology/config/phase7501_7750_expansion_packs.json",
+      "?? knowledge/ontology/config/phase7751_8000_expansion_packs.json",
+      "?? knowledge/ontology/config/phase8001_8250_expansion_packs.json",
+      "?? knowledge/ontology/config/phase8251_8500_expansion_packs.json",
+      "?? knowledge/ontology/config/phase8501_8750_expansion_packs.json",
+      "?? knowledge/ontology/config/phase8751_9000_expansion_packs.json",
+      "?? knowledge/ontology/config/phase9001_9250_expansion_packs.json",
+      "?? knowledge/ontology/config/phase9251_9500_expansion_packs.json",
+      "?? knowledge/ontology/config/phase9501_9750_expansion_packs.json",
+      "?? knowledge/ontology/config/phase9751_10000_expansion_packs.json",
+      "?? knowledge/ontology/evals/phase6001_6250_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase6251_6500_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase6501_6750_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase6751_7000_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase7001_7250_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase7251_7500_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase7501_7750_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase7751_8000_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase8001_8250_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase8251_8500_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase8501_8750_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase8751_9000_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase9001_9250_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase9251_9500_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase9501_9750_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/evals/phase9751_10000_library_expansion_runtime_cases.json",
+      "?? knowledge/ontology/phenotypes/abdominal_wall_contusion_uncomplicated_no_intraabdominal_red_flags.json",
+      "?? knowledge/ontology/phenotypes/ac_joint_sprain_xray_negative_no_dislocation_or_neurovascular_red_flags.json",
+      "?? knowledge/ontology/phenotypes/ankle_rubbing_blister_no_diabetic_foot_or_infection.json",
+      "?? knowledge/ontology/phenotypes/biceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags.json",
+      "?? knowledge/ontology/phenotypes/biceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags.json",
+      "?? knowledge/ontology/phenotypes/calf_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags.json",
+      "?? knowledge/ontology/phenotypes/chapped_lips_no_infection_or_angioedema.json",
+      "?? knowledge/ontology/phenotypes/chest_wall_contusion_uncomplicated_no_cardiopulmonary_red_flags.json",
+      "?? knowledge/ontology/phenotypes/clavicle_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags.json",
+      "?? knowledge/ontology/phenotypes/deltoid_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags.json",
+      "?? knowledge/ontology/phenotypes/deltoid_strain_uncomplicated_no_rupture_or_neurovascular_red_flags.json",
+      "?? knowledge/ontology/phenotypes/dry_cracked_elbows_no_infection_or_systemic_skin_disease.json",
+      "?? knowledge/ontology/phenotypes/dry_cracked_feet_no_diabetic_foot_or_infection.json",
+      "?? knowledge/ontology/phenotypes/dry_cracked_fingertips_no_infection_or_deep_wound.json",
+      "?? knowledge/ontology/phenotypes/dry_cracked_forearms_no_infection_or_systemic_skin_disease.json",
+      "?? knowledge/ontology/phenotypes/dry_cracked_heels_no_diabetic_foot_or_infection.json",
+      "?? knowledge/ontology/phenotypes/dry_cracked_knees_no_infection_or_systemic_skin_disease.json",
+      "?? knowledge/ontology/phenotypes/dry_cracked_shins_no_infection_or_systemic_skin_disease.json",
+      "?? knowledge/ontology/phenotypes/ear_lobe_contact_rash_no_infection_or_anaphylaxis.json",
+      "?? knowledge/ontology/phenotypes/elbow_abrasion_no_deep_wound_or_infection.json",
+      "?? knowledge/ontology/phenotypes/finger_abrasion_no_tendon_or_infection.json",
+      "?? knowledge/ontology/phenotypes/finger_friction_blister_no_infection_or_burn.json"
     ],
     "dirty_files_truncated": true
   },
   "latest_handoff": {
-    "path": "/Users/andre/Desktop/Vaults/Life/11-DC instructor/2026-06-29 DC Instructor Phase 6000 Twenty Phenotype Expansion Handoff.md",
-    "name": "2026-06-29 DC Instructor Phase 6000 Twenty Phenotype Expansion Handoff.md",
-    "modified_at": "2026-06-29T18:36:39.049628+00:00"
+    "path": "/Users/andre/Desktop/Vaults/Life/11-DC instructor/2026-07-04 DC Instructor Phase 10000 Forty Phenotype Expansion Handoff.md",
+    "name": "2026-07-04 DC Instructor Phase 10000 Forty Phenotype Expansion Handoff.md",
+    "modified_at": "2026-07-04T17:59:25.593655+00:00"
   },
   "gate": {
     "phase": 21,
@@ -112,9 +112,9 @@
       "missing_allowed": []
     },
     "phase20_coverage": {
-      "reviewed_count": 192,
-      "phase20_count": 225,
-      "contradictory_covered": 192,
+      "reviewed_count": 272,
+      "phase20_count": 305,
+      "contradictory_covered": 272,
       "vague_cases": 20
     },
     "reviewed_source_gaps": [],
@@ -124,16 +124,16 @@
   },
   "review_queue": [],
   "progress": {
-    "reviewed_exported_count": 192,
-    "reviewed_count": 192,
-    "library_file_count": 576,
-    "library_condition_count": 192,
+    "reviewed_exported_count": 272,
+    "reviewed_count": 272,
+    "library_file_count": 816,
+    "library_condition_count": 272,
     "mvp_target": 100,
     "mvp_percent": 100,
     "v1_target": 500,
-    "v1_percent": 38.4,
+    "v1_percent": 54.4,
     "status_counts": {
-      "reviewed_exported": 192,
+      "reviewed_exported": 272,
       "not_started": 6
     },
     "domain_counts": {
@@ -145,17 +145,17 @@
         "not_started": 1
       },
       "ent_dental": {
-        "reviewed_exported": 6,
+        "reviewed_exported": 7,
         "not_started": 2
       },
       "gi": {
-        "reviewed_exported": 6
+        "reviewed_exported": 7
       },
       "gu": {
         "reviewed_exported": 2
       },
       "msk": {
-        "reviewed_exported": 61,
+        "reviewed_exported": 78,
         "not_started": 1
       },
       "neuro": {
@@ -167,13 +167,13 @@
         "reviewed_exported": 3
       },
       "other": {
-        "reviewed_exported": 51
+        "reviewed_exported": 68
       },
       "respiratory": {
         "reviewed_exported": 8
       },
       "skin_soft_tissue": {
-        "reviewed_exported": 37
+        "reviewed_exported": 81
       }
     }
   },
@@ -532,6 +532,28 @@
       }
     },
     {
+      "id": "nasal_dryness_no_epistaxis_or_infection",
+      "label": "Nasal dryness without epistaxis or infection red flags",
+      "domain": "ent_dental",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 25,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 16,
+      "library": {
+        "path": "library/nasal_dryness_no_epistaxis_or_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "anterior_epistaxis_resolved_no_packing_or_anticoagulation",
       "label": "Resolved anterior nosebleed without packing or anticoagulation red flags",
       "domain": "ent_dental",
@@ -676,6 +698,28 @@
       "unsafe_modifier_count": 10,
       "library": {
         "path": "library/abdominal_pain_nonspecific_reassuring_workup",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "abdominal_wall_contusion_uncomplicated_no_intraabdominal_red_flags",
+      "label": "Abdominal wall contusion without intra-abdominal red flags",
+      "domain": "gi",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/abdominal_wall_contusion_uncomplicated_no_intraabdominal_red_flags",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -840,6 +884,28 @@
       }
     },
     {
+      "id": "ac_joint_sprain_xray_negative_no_dislocation_or_neurovascular_red_flags",
+      "label": "AC joint sprain with negative x-ray and no dislocation or neurovascular red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 19,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 10,
+      "library": {
+        "path": "library/ac_joint_sprain_xray_negative_no_dislocation_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "elbow_sprain_acute_traumatic_xray_negative",
       "label": "Acute traumatic elbow sprain with negative x-ray",
       "domain": "msk",
@@ -852,6 +918,28 @@
       "unsafe_modifier_count": 20,
       "library": {
         "path": "library/elbow_sprain_acute_traumatic_xray_negative",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "ankle_rubbing_blister_no_diabetic_foot_or_infection",
+      "label": "Ankle rubbing blister without diabetic-foot or infection red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 24,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 15,
+      "library": {
+        "path": "library/ankle_rubbing_blister_no_diabetic_foot_or_infection",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -950,6 +1038,28 @@
       }
     },
     {
+      "id": "biceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+      "label": "Biceps strain without rupture or neurovascular red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 17,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 8,
+      "library": {
+        "path": "library/biceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "calf_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
       "label": "Calf strain without rupture or neurovascular red flags",
       "domain": "msk",
@@ -1016,6 +1126,28 @@
       }
     },
     {
+      "id": "deltoid_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+      "label": "Deltoid strain without rupture or neurovascular red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 17,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 8,
+      "library": {
+        "path": "library/deltoid_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "sprain_strain_non_ankle_xray_negative",
       "label": "Deprecated broad non-ankle sprain or strain with negative x-ray",
       "domain": "msk",
@@ -1035,6 +1167,72 @@
           "en_6th.md",
           "en_HL1.md"
         ]
+      }
+    },
+    {
+      "id": "dry_cracked_feet_no_diabetic_foot_or_infection",
+      "label": "Dry cracked feet without diabetic-foot or infection red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 25,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 16,
+      "library": {
+        "path": "library/dry_cracked_feet_no_diabetic_foot_or_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "dry_cracked_heels_no_diabetic_foot_or_infection",
+      "label": "Dry cracked heels without diabetic-foot or infection red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 25,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 16,
+      "library": {
+        "path": "library/dry_cracked_heels_no_diabetic_foot_or_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "elbow_abrasion_no_deep_wound_or_infection",
+      "label": "Elbow abrasion without deep wound or infection red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/elbow_abrasion_no_deep_wound_or_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
       }
     },
     {
@@ -1522,6 +1720,50 @@
       }
     },
     {
+      "id": "knee_abrasion_no_deep_wound_or_infection",
+      "label": "Knee abrasion without deep wound or infection red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/knee_abrasion_no_deep_wound_or_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "knee_bursitis_uncomplicated_no_septic_joint_or_trauma",
+      "label": "Knee bursitis without septic-joint or trauma red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/knee_bursitis_uncomplicated_no_septic_joint_or_trauma",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "knee_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
       "label": "Knee contusion without fracture or neurovascular red flags",
       "domain": "msk",
@@ -1588,6 +1830,72 @@
       }
     },
     {
+      "id": "latissimus_dorsi_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+      "label": "Latissimus dorsi strain without rupture or neurovascular red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 19,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 10,
+      "library": {
+        "path": "library/latissimus_dorsi_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_ankle_brace_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized ankle brace contact rash without infection or anaphylaxis",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 28,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 21,
+      "library": {
+        "path": "library/localized_ankle_brace_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_knee_brace_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized knee brace contact rash without infection or anaphylaxis",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 25,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 16,
+      "library": {
+        "path": "library/localized_knee_brace_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "localized_plantar_wart_no_diabetic_foot_or_immunocompromised_host",
       "label": "Localized plantar wart without diabetic foot or immunocompromised host",
       "domain": "msk",
@@ -1600,6 +1908,28 @@
       "unsafe_modifier_count": 15,
       "library": {
         "path": "library/localized_plantar_wart_no_diabetic_foot_or_immunocompromised_host",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_shoe_contact_rash_no_diabetic_foot_or_infection",
+      "label": "Localized shoe contact rash without diabetic-foot or infection red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 28,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 19,
+      "library": {
+        "path": "library/localized_shoe_contact_rash_no_diabetic_foot_or_infection",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -1676,6 +2006,28 @@
       }
     },
     {
+      "id": "pectoralis_strain_uncomplicated_no_rupture_or_cardiopulmonary_red_flags",
+      "label": "Pectoralis strain without rupture or cardiopulmonary red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/pectoralis_strain_uncomplicated_no_rupture_or_cardiopulmonary_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "quadriceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
       "label": "Quadriceps strain without rupture or neurovascular red flags",
       "domain": "msk",
@@ -1688,6 +2040,28 @@
       "unsafe_modifier_count": 8,
       "library": {
         "path": "library/quadriceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "rib_strain_uncomplicated_no_cardiopulmonary_red_flags",
+      "label": "Rib strain without cardiopulmonary red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/rib_strain_uncomplicated_no_cardiopulmonary_red_flags",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -1732,6 +2106,28 @@
       "unsafe_modifier_count": 6,
       "library": {
         "path": "library/shoulder_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "sole_friction_blister_no_diabetic_foot_or_infection",
+      "label": "Sole friction blister without diabetic-foot or infection red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 24,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 15,
+      "library": {
+        "path": "library/sole_friction_blister_no_diabetic_foot_or_infection",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -1908,6 +2304,28 @@
       "unsafe_modifier_count": 7,
       "library": {
         "path": "library/trapezius_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "triceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+      "label": "Triceps strain without rupture or neurovascular red flags",
+      "domain": "msk",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 17,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 8,
+      "library": {
+        "path": "library/triceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -2468,6 +2886,28 @@
       }
     },
     {
+      "id": "biceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+      "label": "Biceps contusion without fracture or neurovascular red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 15,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 6,
+      "library": {
+        "path": "library/biceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "biceps_tendinitis_uncomplicated_no_rupture_or_infection",
       "label": "Biceps tendinitis without rupture or infection red flags",
       "domain": "other",
@@ -2512,6 +2952,116 @@
       }
     },
     {
+      "id": "calf_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+      "label": "Calf contusion without fracture or neurovascular red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 16,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 7,
+      "library": {
+        "path": "library/calf_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "chapped_lips_no_infection_or_angioedema",
+      "label": "Chapped lips without infection or angioedema red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 26,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 17,
+      "library": {
+        "path": "library/chapped_lips_no_infection_or_angioedema",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "chest_wall_contusion_uncomplicated_no_cardiopulmonary_red_flags",
+      "label": "Chest wall contusion without cardiopulmonary red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/chest_wall_contusion_uncomplicated_no_cardiopulmonary_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "clavicle_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+      "label": "Clavicle contusion without fracture or neurovascular red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 15,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 6,
+      "library": {
+        "path": "library/clavicle_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "deltoid_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+      "label": "Deltoid contusion without fracture or neurovascular red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 15,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 6,
+      "library": {
+        "path": "library/deltoid_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "finger_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
       "label": "Finger contusion without fracture, tendon, or neurovascular red flags",
       "domain": "other",
@@ -2524,6 +3074,28 @@
       "unsafe_modifier_count": 9,
       "library": {
         "path": "library/finger_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "finger_friction_blister_no_infection_or_burn",
+      "label": "Finger friction blister without infection or burn red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 21,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 12,
+      "library": {
+        "path": "library/finger_friction_blister_no_infection_or_burn",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -2600,6 +3172,28 @@
       }
     },
     {
+      "id": "hamstring_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+      "label": "Hamstring contusion without fracture or neurovascular red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 16,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 7,
+      "library": {
+        "path": "library/hamstring_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "hand_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
       "label": "Hand contusion without fracture, tendon, or neurovascular red flags",
       "domain": "other",
@@ -2656,6 +3250,28 @@
       "unsafe_modifier_count": 9,
       "library": {
         "path": "library/hand_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "hip_bursitis_uncomplicated_no_septic_joint_or_trauma",
+      "label": "Hip bursitis without septic-joint or trauma red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/hip_bursitis_uncomplicated_no_septic_joint_or_trauma",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -2930,6 +3546,28 @@
       }
     },
     {
+      "id": "palm_friction_blister_no_infection_or_burn",
+      "label": "Palm friction blister without infection or burn red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 21,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 12,
+      "library": {
+        "path": "library/palm_friction_blister_no_infection_or_burn",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "patellar_tendinitis_uncomplicated_no_rupture_or_infection",
       "label": "Patellar tendinitis without rupture or infection red flags",
       "domain": "other",
@@ -2952,6 +3590,28 @@
       }
     },
     {
+      "id": "pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+      "label": "Pectoralis contusion without fracture or cardiopulmonary red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "peroneal_tendinitis_uncomplicated_no_rupture_or_infection",
       "label": "Peroneal tendinitis without rupture or infection red flags",
       "domain": "other",
@@ -2964,6 +3624,50 @@
       "unsafe_modifier_count": 6,
       "library": {
         "path": "library/peroneal_tendinitis_uncomplicated_no_rupture_or_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "prepatellar_bursitis_uncomplicated_no_septic_joint_or_trauma",
+      "label": "Prepatellar bursitis without septic-joint or trauma red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/prepatellar_bursitis_uncomplicated_no_septic_joint_or_trauma",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "quadriceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+      "label": "Quadriceps contusion without fracture or neurovascular red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 16,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 7,
+      "library": {
+        "path": "library/quadriceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -3008,6 +3712,28 @@
       "unsafe_modifier_count": 7,
       "library": {
         "path": "library/shin_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "shoulder_bursitis_uncomplicated_no_septic_joint_or_trauma",
+      "label": "Shoulder bursitis without septic-joint or trauma red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/shoulder_bursitis_uncomplicated_no_septic_joint_or_trauma",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -3106,6 +3832,28 @@
       }
     },
     {
+      "id": "tailbone_contusion_uncomplicated_no_neuro_or_rectal_red_flags",
+      "label": "Tailbone contusion without neurologic or rectal red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/tailbone_contusion_uncomplicated_no_neuro_or_rectal_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "thigh_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
       "label": "Thigh contusion without fracture or neurovascular red flags",
       "domain": "other",
@@ -3172,6 +3920,28 @@
       }
     },
     {
+      "id": "triceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+      "label": "Triceps contusion without fracture or neurovascular red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 15,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 6,
+      "library": {
+        "path": "library/triceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "triceps_tendinitis_uncomplicated_no_rupture_or_infection",
       "label": "Triceps tendinitis without rupture or infection red flags",
       "domain": "other",
@@ -3184,6 +3954,28 @@
       "unsafe_modifier_count": 6,
       "library": {
         "path": "library/triceps_tendinitis_uncomplicated_no_rupture_or_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "trochanteric_bursitis_uncomplicated_no_septic_joint_or_trauma",
+      "label": "Trochanteric bursitis without septic-joint or trauma red flags",
+      "domain": "other",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/trochanteric_bursitis_uncomplicated_no_septic_joint_or_trauma",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -3744,6 +4536,72 @@
       }
     },
     {
+      "id": "dry_cracked_elbows_no_infection_or_systemic_skin_disease",
+      "label": "Dry cracked elbows without infection or systemic skin-disease red flags",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/dry_cracked_elbows_no_infection_or_systemic_skin_disease",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "dry_cracked_fingertips_no_infection_or_deep_wound",
+      "label": "Dry cracked fingertips without infection or deep-wound red flags",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 24,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 15,
+      "library": {
+        "path": "library/dry_cracked_fingertips_no_infection_or_deep_wound",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "dry_cracked_forearms_no_infection_or_systemic_skin_disease",
+      "label": "Dry cracked forearms without infection or systemic skin-disease red flags",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/dry_cracked_forearms_no_infection_or_systemic_skin_disease",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "dry_cracked_hands_no_infection_or_systemic_skin_disease",
       "label": "Dry cracked hands without infection or systemic skin disease",
       "domain": "skin_soft_tissue",
@@ -3766,6 +4624,50 @@
       }
     },
     {
+      "id": "dry_cracked_knees_no_infection_or_systemic_skin_disease",
+      "label": "Dry cracked knees without infection or systemic skin-disease red flags",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/dry_cracked_knees_no_infection_or_systemic_skin_disease",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "dry_cracked_shins_no_infection_or_systemic_skin_disease",
+      "label": "Dry cracked shins without infection or systemic skin-disease red flags",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 22,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 13,
+      "library": {
+        "path": "library/dry_cracked_shins_no_infection_or_systemic_skin_disease",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "xerosis_dry_skin_no_infection_or_systemic_symptoms",
       "label": "Dry skin or xerosis without infection or systemic symptoms",
       "domain": "skin_soft_tissue",
@@ -3778,6 +4680,50 @@
       "unsafe_modifier_count": 13,
       "library": {
         "path": "library/xerosis_dry_skin_no_infection_or_systemic_symptoms",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "ear_lobe_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Ear-lobe contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 26,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 17,
+      "library": {
+        "path": "library/ear_lobe_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "finger_abrasion_no_tendon_or_infection",
+      "label": "Finger abrasion without tendon or infection red flags",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 24,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 15,
+      "library": {
+        "path": "library/finger_abrasion_no_tendon_or_infection",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -3832,6 +4778,94 @@
       }
     },
     {
+      "id": "localized_aftershave_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized aftershave contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 24,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 15,
+      "library": {
+        "path": "library/localized_aftershave_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_backpack_strap_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized backpack strap contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/localized_backpack_strap_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_bandage_wrap_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized bandage-wrap contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 25,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 16,
+      "library": {
+        "path": "library/localized_bandage_wrap_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_beard_product_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized beard-product contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/localized_beard_product_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "localized_bee_sting_no_infection_or_anaphylaxis",
       "label": "Localized bee sting without infection or anaphylaxis",
       "domain": "skin_soft_tissue",
@@ -3844,6 +4878,72 @@
       "unsafe_modifier_count": 9,
       "library": {
         "path": "library/localized_bee_sting_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_belt_buckle_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized belt buckle contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/localized_belt_buckle_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_chlorine_irritant_rash_no_burn_or_anaphylaxis",
+      "label": "Localized chlorine irritant rash without burn or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 26,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 17,
+      "library": {
+        "path": "library/localized_chlorine_irritant_rash_no_burn_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_cleaning_product_irritant_rash_no_burn_or_anaphylaxis",
+      "label": "Localized cleaning product irritant rash without burn or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 26,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 17,
+      "library": {
+        "path": "library/localized_cleaning_product_irritant_rash_no_burn_or_anaphylaxis",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -3920,6 +5020,138 @@
       }
     },
     {
+      "id": "localized_disinfectant_irritant_rash_no_burn_or_anaphylaxis",
+      "label": "Localized disinfectant irritant rash without burn or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 26,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 17,
+      "library": {
+        "path": "library/localized_disinfectant_irritant_rash_no_burn_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_earbud_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized earbud contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 26,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 17,
+      "library": {
+        "path": "library/localized_earbud_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_eyeglass_nose_pad_contact_rash_no_eye_or_infection",
+      "label": "Localized eyeglass nose-pad contact rash without eye or infection red flags",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 26,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 17,
+      "library": {
+        "path": "library/localized_eyeglass_nose_pad_contact_rash_no_eye_or_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_eyelash_glue_contact_rash_no_eye_or_anaphylaxis",
+      "label": "Localized eyelash-glue contact rash without eye or anaphylaxis red flags",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 27,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 18,
+      "library": {
+        "path": "library/localized_eyelash_glue_contact_rash_no_eye_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_fabric_dye_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized fabric dye contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/localized_fabric_dye_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_face_mask_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized face mask contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 26,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 17,
+      "library": {
+        "path": "library/localized_face_mask_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "localized_glove_contact_rash_no_infection_or_anaphylaxis",
       "label": "Localized glove contact rash without infection or anaphylaxis",
       "domain": "skin_soft_tissue",
@@ -3954,6 +5186,116 @@
       "unsafe_modifier_count": 18,
       "library": {
         "path": "library/localized_hair_dye_contact_rash_no_eye_or_systemic_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_hair_gel_contact_rash_no_eye_or_systemic_red_flags",
+      "label": "Localized hair-gel contact rash without eye or systemic red flags",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 26,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 17,
+      "library": {
+        "path": "library/localized_hair_gel_contact_rash_no_eye_or_systemic_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_hand_sanitizer_irritant_rash_no_infection_or_anaphylaxis",
+      "label": "Localized hand sanitizer irritant rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/localized_hand_sanitizer_irritant_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_headphone_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized headphone contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 26,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 17,
+      "library": {
+        "path": "library/localized_headphone_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_hearing_aid_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized hearing-aid contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 26,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 17,
+      "library": {
+        "path": "library/localized_hearing_aid_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_helmet_pad_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized helmet-pad contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/localized_helmet_pad_contact_rash_no_infection_or_anaphylaxis",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -4074,6 +5416,94 @@
       }
     },
     {
+      "id": "localized_laundry_additive_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized laundry-additive contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/localized_laundry_additive_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_lotion_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized lotion contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/localized_lotion_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_nail_polish_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized nail polish contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 26,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 17,
+      "library": {
+        "path": "library/localized_nail_polish_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_perfume_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized perfume contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/localized_perfume_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "localized_plant_contact_dermatitis_no_infection_or_anaphylaxis",
       "label": "Localized plant contact dermatitis without infection or anaphylaxis",
       "domain": "skin_soft_tissue",
@@ -4086,6 +5516,28 @@
       "unsafe_modifier_count": 13,
       "library": {
         "path": "library/localized_plant_contact_dermatitis_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_plastic_band_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized plastic-band contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/localized_plastic_band_contact_rash_no_infection_or_anaphylaxis",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -4118,6 +5570,28 @@
       }
     },
     {
+      "id": "localized_shampoo_contact_rash_no_eye_or_systemic_red_flags",
+      "label": "Localized shampoo contact rash without eye or systemic red flags",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 26,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 17,
+      "library": {
+        "path": "library/localized_shampoo_contact_rash_no_eye_or_systemic_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "localized_soap_irritant_contact_dermatitis_no_infection_or_anaphylaxis",
       "label": "Localized soap irritant contact dermatitis without infection or anaphylaxis",
       "domain": "skin_soft_tissue",
@@ -4130,6 +5604,28 @@
       "unsafe_modifier_count": 13,
       "library": {
         "path": "library/localized_soap_irritant_contact_dermatitis_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_sock_elastic_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized sock-elastic contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 28,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 19,
+      "library": {
+        "path": "library/localized_sock_elastic_contact_rash_no_infection_or_anaphylaxis",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -4184,6 +5680,94 @@
       }
     },
     {
+      "id": "localized_sweatband_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized sweatband contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/localized_sweatband_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_topical_antibiotic_contact_rash_no_infection_or_systemic_reaction",
+      "label": "Localized topical antibiotic contact rash without infection or systemic reaction",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 25,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 16,
+      "library": {
+        "path": "library/localized_topical_antibiotic_contact_rash_no_infection_or_systemic_reaction",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_topical_cream_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized topical cream contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/localized_topical_cream_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_waistband_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized waistband contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/localized_waistband_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "localized_wasp_sting_no_infection_or_anaphylaxis",
       "label": "Localized wasp sting without infection or anaphylaxis",
       "domain": "skin_soft_tissue",
@@ -4196,6 +5780,50 @@
       "unsafe_modifier_count": 9,
       "library": {
         "path": "library/localized_wasp_sting_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_watch_band_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized watch band contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/localized_watch_band_contact_rash_no_infection_or_anaphylaxis",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "localized_wool_clothing_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized wool-clothing contact rash without infection or anaphylaxis",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 23,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 14,
+      "library": {
+        "path": "library/localized_wool_clothing_contact_rash_no_infection_or_anaphylaxis",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -4228,6 +5856,50 @@
       }
     },
     {
+      "id": "mild_eyelid_skin_irritation_no_eye_or_infection_red_flags",
+      "label": "Mild eyelid skin irritation without eye or infection red flags",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 27,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 18,
+      "library": {
+        "path": "library/mild_eyelid_skin_irritation_no_eye_or_infection_red_flags",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "minor_lip_bite_no_deep_laceration_or_infection",
+      "label": "Minor lip bite without deep laceration or infection red flags",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 19,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 10,
+      "library": {
+        "path": "library/minor_lip_bite_no_deep_laceration_or_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
       "id": "minor_nail_injury_uncomplicated_no_fracture_or_infection",
       "label": "Minor nail injury without fracture, nail-bed laceration, or infection",
       "domain": "skin_soft_tissue",
@@ -4240,6 +5912,72 @@
       "unsafe_modifier_count": 14,
       "library": {
         "path": "library/minor_nail_injury_uncomplicated_no_fracture_or_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "minor_superficial_cut_no_deep_wound_or_infection",
+      "label": "Minor superficial cut without deep wound or infection red flags",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 25,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 16,
+      "library": {
+        "path": "library/minor_superficial_cut_no_deep_wound_or_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "minor_tongue_bite_no_deep_laceration_or_infection",
+      "label": "Minor tongue bite without deep laceration or infection red flags",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 19,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 10,
+      "library": {
+        "path": "library/minor_tongue_bite_no_deep_laceration_or_infection",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "palm_abrasion_no_tendon_or_infection",
+      "label": "Palm abrasion without tendon or infection red flags",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 24,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 15,
+      "library": {
+        "path": "library/palm_abrasion_no_tendon_or_infection",
         "exported": true,
         "files_present": [
           "en_4th.md",
@@ -4328,6 +6066,28 @@
       "unsafe_modifier_count": 16,
       "library": {
         "path": "library/skin_avulsion_or_abrasion_simple",
+        "exported": true,
+        "files_present": [
+          "en_4th.md",
+          "en_6th.md",
+          "en_HL1.md"
+        ],
+        "missing_files": []
+      }
+    },
+    {
+      "id": "sore_nostril_skin_irritation_no_cellulitis_or_epistaxis",
+      "label": "Sore nostril skin irritation without cellulitis or epistaxis red flags",
+      "domain": "skin_soft_tissue",
+      "status": "reviewed_exported",
+      "color": "#15803d",
+      "size": 27,
+      "review_status": "reviewed",
+      "manifest_status": "reviewed",
+      "source_supported": true,
+      "unsafe_modifier_count": 18,
+      "library": {
+        "path": "library/sore_nostril_skin_irritation_no_cellulitis_or_epistaxis",
         "exported": true,
         "files_present": [
           "en_4th.md",

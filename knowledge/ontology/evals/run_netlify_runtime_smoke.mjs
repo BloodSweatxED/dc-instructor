@@ -77,6 +77,22 @@ const cases = JSON.parse(
   .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase5251_5500_library_expansion_runtime_cases.json'), 'utf8')))
   .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase5501_5750_library_expansion_runtime_cases.json'), 'utf8')))
   .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase5751_6000_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase6001_6250_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase6251_6500_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase6501_6750_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase6751_7000_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase7001_7250_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase7251_7500_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase7501_7750_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase7751_8000_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase8001_8250_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase8251_8500_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase8501_8750_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase8751_9000_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase9001_9250_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase9251_9500_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase9501_9750_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase9751_10000_library_expansion_runtime_cases.json'), 'utf8')))
   .filter(
     (item) =>
       item.id.startsWith('phase14_netlify_smoke_') ||
@@ -187,6 +203,10 @@ const cases = JSON.parse(
       item.id.startsWith('phase20_triceps_tendinitis_') ||
       item.id.startsWith('phase20_ear_canal_irritation_') ||
       item.id.startsWith('phase20_phase6000_') ||
+      item.id.startsWith('phase20_phase7000_') ||
+      item.id.startsWith('phase20_phase8000_') ||
+      item.id.startsWith('phase20_phase10000_') ||
+      /^phase(?:800[1-9]|80[1-9][0-9]|810[0-9]|811[0-9]|8120)_/.test(item.id) ||
       item.id.startsWith('phase25') ||
       item.id.startsWith('phase26') ||
       item.id.startsWith('phase27') ||
@@ -720,7 +740,23 @@ const cases = JSON.parse(
       item.id.startsWith('phase550') ||
       item.id.startsWith('phase551') ||
       item.id.startsWith('phase575') ||
-      item.id.startsWith('phase576')
+      item.id.startsWith('phase576') ||
+      item.id.startsWith('phase600') ||
+      item.id.startsWith('phase601') ||
+      item.id.startsWith('phase625') ||
+      item.id.startsWith('phase626') ||
+      item.id.startsWith('phase650') ||
+      item.id.startsWith('phase651') ||
+      item.id.startsWith('phase675') ||
+      item.id.startsWith('phase676') ||
+      item.id.startsWith('phase700') ||
+      item.id.startsWith('phase701') ||
+      item.id.startsWith('phase725') ||
+      item.id.startsWith('phase726') ||
+      item.id.startsWith('phase750') ||
+      item.id.startsWith('phase751') ||
+      item.id.startsWith('phase775') ||
+      item.id.startsWith('phase776')
   );
 
 for (const item of cases) {

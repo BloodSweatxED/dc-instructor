@@ -1,0 +1,136 @@
+{
+  "id": "dry_cracked_knees_no_infection_or_systemic_skin_disease",
+  "label": "Dry cracked knees without infection or systemic skin-disease red flags",
+  "status": "reviewed",
+  "condition_family": "skin_soft_tissue",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of dry, cracked knee skin or knee xerosis.",
+    "No skin infection, deep open wound, severe cutaneous reaction, systemic illness, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Skin infection, cellulitis, abscess, deep open wound, severe cutaneous adverse reaction, skin peeling or sloughing, mucosal lesions, systemic illness, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/wound plan."
+  ],
+  "must_not_miss": [
+    "Cellulitis.",
+    "Abscess or wound infection.",
+    "Severe cutaneous adverse reaction.",
+    "Systemic skin disease flare requiring separate care."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, dermatology, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "dry_cracked_knees_no_infection_or_systemic_skin_disease.diagnosis.diagnosis_summary.v1",
+    "dry_cracked_knees_no_infection_or_systemic_skin_disease.what_we_found.reassuring_ed_assessment.v1",
+    "dry_cracked_knees_no_infection_or_systemic_skin_disease.home_care.home_care_1.v1",
+    "dry_cracked_knees_no_infection_or_systemic_skin_disease.home_care.home_care_2.v1",
+    "dry_cracked_knees_no_infection_or_systemic_skin_disease.home_care.home_care_3.v1",
+    "dry_cracked_knees_no_infection_or_systemic_skin_disease.medications.medication_guidance_1.v1",
+    "dry_cracked_knees_no_infection_or_systemic_skin_disease.medications.medication_guidance_2.v1",
+    "dry_cracked_knees_no_infection_or_systemic_skin_disease.return_precautions.return_precaution_1.v1",
+    "dry_cracked_knees_no_infection_or_systemic_skin_disease.return_precautions.return_precaution_2.v1",
+    "dry_cracked_knees_no_infection_or_systemic_skin_disease.return_precautions.return_precaution_3.v1",
+    "dry_cracked_knees_no_infection_or_systemic_skin_disease.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.dry_skin",
+    "medlineplus.dry_skin_self_care"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports dry-skin self-care with gentle skin care, moisturizers, avoiding irritants, and escalation for infection, severe rash, or systemic symptoms. This expansion is limited to clinician-diagnosed dry cracked knees with infection, deep wound, severe-rash, systemic, pregnancy/pediatric, immunocompromised, and specialist-directed pathways absent."
+  },
+  "runtime": {
+    "condition_terms": [
+      "dry cracked knees",
+      "knee xerosis",
+      "cracked knee skin"
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "abscess_or_boils_or_carbuncle",
+      "open_wound",
+      "wound_infection_concern",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan",
+      "specialist_directed_wound_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_dry_cracked_knees",
+        "terms": [
+          "clinician diagnosis dry cracked knees",
+          "discharge diagnosis dry cracked knees",
+          "dry cracked knees diagnosed",
+          "knee xerosis diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_skin_red_flags_dry_knees",
+        "terms": [
+          "no infection",
+          "localized dry cracked skin",
+          "no open wound",
+          "no systemic symptoms",
+          "no mucosal lesions"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis dry cracked knees",
+      "dry cracked knees diagnosed",
+      "knee xerosis diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-07-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports dry-skin self-care with gentle skin care, moisturizers, avoiding irritants, and escalation for infection, severe rash, or systemic symptoms. This expansion is limited to clinician-diagnosed dry cracked knees with infection, deep wound, severe-rash, systemic, pregnancy/pediatric, immunocompromised, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_dry_cracked_knees_without_infection_or_systemic_skin_disease_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of dry cracked knees or knee xerosis",
+      "localized dry cracked skin",
+      "no infection or deep open wound",
+      "no systemic or mucosal red flags"
+    ],
+    "blocked_modifiers": [
+      "secondary_skin_infection_concern",
+      "abscess_or_boils_or_carbuncle",
+      "open_wound",
+      "wound_infection_concern",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan",
+      "specialist_directed_wound_plan"
+    ]
+  }
+}

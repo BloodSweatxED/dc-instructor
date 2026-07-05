@@ -922,6 +922,13 @@ function confidenceFor(text, phenotype, exclusions = []) {
   return { confidence: Math.min(0.98, baseConfidence - penalty), matched };
 }
 
+function matchSpecificity(matched = []) {
+  return {
+    longest: matched.reduce((longest, term) => Math.max(longest, term.length), 0),
+    count: matched.length,
+  };
+}
+
 function loadManifest() {
   if (!existsSync(manifestPath)) return { phenotypes: [] };
   return readJSON(manifestPath);
@@ -985,9 +992,14 @@ export function classifyOntology({ condition, edNoteScrubbed = '' }) {
     const missingContext = missingRequiredContexts(text, phenotype.required_context);
     const { confidence, matched } = confidenceFor(text, phenotype, exclusions);
     if (!matched.length) continue;
-    scored.push({ phenotype, confidence, matched, exclusions, missingContext, outputModifiers });
+    const specificity = matchSpecificity(matched);
+    scored.push({ phenotype, confidence, matched, specificity, exclusions, missingContext, outputModifiers });
   }
-  scored.sort((a, b) => b.confidence - a.confidence);
+  scored.sort((a, b) => (
+    b.confidence - a.confidence ||
+    b.specificity.longest - a.specificity.longest ||
+    b.specificity.count - a.specificity.count
+  ));
   const best = scored[0];
   if (!best) {
     return {

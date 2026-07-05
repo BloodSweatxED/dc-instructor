@@ -24,16 +24,16 @@ Status: `reviewed`
 ## Primitive List
 
 - `concussion_discharge_no_imaging_red_flags.diagnosis.diagnosis_summary.v1` | `diagnosis` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
-- `concussion_discharge_no_imaging_red_flags.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: athlete_return_to_play, anticoagulated, neurologic_deficit, persistent_vomiting
+- `concussion_discharge_no_imaging_red_flags.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: athlete_return_to_play, anticoagulated, neurologic_deficit, persistent_vomiting, loss_of_consciousness, intoxication
 - `concussion_discharge_no_imaging_red_flags.home_care.home_care_1.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
 - `concussion_discharge_no_imaging_red_flags.home_care.home_care_2.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
 - `concussion_discharge_no_imaging_red_flags.home_care.home_care_3.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
-- `concussion_discharge_no_imaging_red_flags.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: athlete_return_to_play, anticoagulated, neurologic_deficit, persistent_vomiting
-- `concussion_discharge_no_imaging_red_flags.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: athlete_return_to_play, anticoagulated, neurologic_deficit, persistent_vomiting
+- `concussion_discharge_no_imaging_red_flags.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: athlete_return_to_play, anticoagulated, neurologic_deficit, persistent_vomiting, loss_of_consciousness, intoxication
+- `concussion_discharge_no_imaging_red_flags.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: athlete_return_to_play, anticoagulated, neurologic_deficit, persistent_vomiting, loss_of_consciousness, intoxication
 - `concussion_discharge_no_imaging_red_flags.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
 - `concussion_discharge_no_imaging_red_flags.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
 - `concussion_discharge_no_imaging_red_flags.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
-- `concussion_discharge_no_imaging_red_flags.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: athlete_return_to_play, anticoagulated, neurologic_deficit, persistent_vomiting
+- `concussion_discharge_no_imaging_red_flags.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: athlete_return_to_play, anticoagulated, neurologic_deficit, persistent_vomiting, loss_of_consciousness, intoxication
 
 ## Assembled Six-Section Output
 

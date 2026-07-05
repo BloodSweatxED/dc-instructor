@@ -24,16 +24,16 @@ Status: `reviewed`
 ## Primitive List
 
 - `abscess_after_i_and_d.diagnosis.diagnosis_summary.v1` | `diagnosis` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
-- `abscess_after_i_and_d.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: deep_space_location, immunocompromised, packing_required, recurrent_abscess
+- `abscess_after_i_and_d.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: deep_space_location, immunocompromised, packing_required, recurrent_abscess, necrotizing_infection_concern, sepsis
 - `abscess_after_i_and_d.home_care.home_care_1.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
 - `abscess_after_i_and_d.home_care.home_care_2.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
 - `abscess_after_i_and_d.home_care.home_care_3.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
-- `abscess_after_i_and_d.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: deep_space_location, immunocompromised, packing_required, recurrent_abscess
-- `abscess_after_i_and_d.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: deep_space_location, immunocompromised, packing_required, recurrent_abscess
+- `abscess_after_i_and_d.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: deep_space_location, immunocompromised, packing_required, recurrent_abscess, necrotizing_infection_concern, sepsis
+- `abscess_after_i_and_d.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: deep_space_location, immunocompromised, packing_required, recurrent_abscess, necrotizing_infection_concern, sepsis
 - `abscess_after_i_and_d.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
 - `abscess_after_i_and_d.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
 - `abscess_after_i_and_d.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
-- `abscess_after_i_and_d.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: deep_space_location, immunocompromised, packing_required, recurrent_abscess
+- `abscess_after_i_and_d.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: deep_space_location, immunocompromised, packing_required, recurrent_abscess, necrotizing_infection_concern, sepsis
 
 ## Assembled Six-Section Output
 

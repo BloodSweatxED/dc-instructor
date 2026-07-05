@@ -25,16 +25,16 @@ Status: `reviewed`
 ## Primitive List
 
 - `viral_pharyngitis_strep_negative.diagnosis.diagnosis_summary.v1` | `diagnosis` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
-- `viral_pharyngitis_strep_negative.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: drooling, trismus, voice_change, airway_symptoms, immunocompromised
+- `viral_pharyngitis_strep_negative.what_we_found.reassuring_ed_assessment.v1` | `what_we_found` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: drooling, trismus, voice_change, airway_symptoms, immunocompromised, positive_strep_test
 - `viral_pharyngitis_strep_negative.home_care.home_care_1.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
 - `viral_pharyngitis_strep_negative.home_care.home_care_2.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
 - `viral_pharyngitis_strep_negative.home_care.home_care_3.v1` | `home_care` | audit: source_supported | unsafe modifiers: none
-- `viral_pharyngitis_strep_negative.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: drooling, trismus, voice_change, airway_symptoms, immunocompromised
-- `viral_pharyngitis_strep_negative.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: drooling, trismus, voice_change, airway_symptoms, immunocompromised
+- `viral_pharyngitis_strep_negative.medications.medication_guidance_1.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: drooling, trismus, voice_change, airway_symptoms, immunocompromised, positive_strep_test
+- `viral_pharyngitis_strep_negative.medications.medication_guidance_2.v1` | `medications` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: drooling, trismus, voice_change, airway_symptoms, immunocompromised, positive_strep_test
 - `viral_pharyngitis_strep_negative.return_precautions.return_precaution_1.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
 - `viral_pharyngitis_strep_negative.return_precautions.return_precaution_2.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
 - `viral_pharyngitis_strep_negative.return_precautions.return_precaution_3.v1` | `return_precautions` | audit: source_supported, clinician_judgment_only | unsafe modifiers: none
-- `viral_pharyngitis_strep_negative.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: drooling, trismus, voice_change, airway_symptoms, immunocompromised
+- `viral_pharyngitis_strep_negative.follow_up.default_follow_up.v1` | `follow_up` | audit: source_supported, clinician_judgment_only, unsafe_without_modifier | unsafe modifiers: drooling, trismus, voice_change, airway_symptoms, immunocompromised, positive_strep_test
 
 ## Assembled Six-Section Output
 

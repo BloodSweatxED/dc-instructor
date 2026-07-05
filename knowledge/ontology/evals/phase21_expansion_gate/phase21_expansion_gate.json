@@ -12,9 +12,9 @@
     "missing_allowed": []
   },
   "phase20_coverage": {
-    "reviewed_count": 192,
-    "phase20_count": 225,
-    "contradictory_covered": 192,
+    "reviewed_count": 272,
+    "phase20_count": 305,
+    "contradictory_covered": 272,
     "vague_cases": 20
   },
   "reviewed_source_gaps": [],

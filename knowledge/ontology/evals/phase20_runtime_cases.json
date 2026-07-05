@@ -3006,5 +3006,1558 @@
       "immunocompromised",
       "specialist_directed_dermatology_plan"
     ]
+  },
+  {
+    "id": "phase20_phase7000_calf_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags_contradictory_note_blocks",
+    "condition": "calf contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis calf contusion. calf bruise diagnosed. no fracture concern. no open wound. However possible fracture, open wound, red warm joint, cannot walk, numb toes, blue toes, high energy trauma, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "calf_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_hamstring_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags_contradictory_note_blocks",
+    "condition": "hamstring contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis hamstring contusion. hamstring bruise diagnosed. no fracture concern. no open wound. However possible fracture, open wound, red warm joint, cannot walk, numb toes, blue toes, high energy trauma, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "hamstring_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_quadriceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags_contradictory_note_blocks",
+    "condition": "quadriceps contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis quadriceps contusion. quadriceps bruise diagnosed. no fracture concern. no open wound. However possible fracture, open wound, red warm joint, cannot walk, numb toes, blue toes, high energy trauma, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "quadriceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_biceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags_contradictory_note_blocks",
+    "condition": "biceps contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis biceps contusion. biceps bruise diagnosed. no fracture concern. no open wound. However possible fracture, open wound, red warm joint, numb fingers, blue fingers, high energy trauma, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "biceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_triceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags_contradictory_note_blocks",
+    "condition": "triceps contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis triceps contusion. triceps bruise diagnosed. no fracture concern. no open wound. However possible fracture, open wound, red warm joint, numb fingers, blue fingers, high energy trauma, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "triceps_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_deltoid_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags_contradictory_note_blocks",
+    "condition": "deltoid contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis deltoid contusion. deltoid bruise diagnosed. no fracture concern. no open wound. However possible fracture, open wound, red warm joint, numb fingers, blue fingers, high energy trauma, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "deltoid_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_clavicle_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags_contradictory_note_blocks",
+    "condition": "clavicle contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis clavicle contusion. clavicle bruise diagnosed. no fracture concern. no open wound. However possible fracture, open wound, red warm joint, numb fingers, blue fingers, high energy trauma, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "clavicle_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_biceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags_contradictory_note_blocks",
+    "condition": "biceps strain no rupture",
+    "ed_note": "Adult. clinician diagnosis biceps strain. biceps strain diagnosed. no tendon rupture. neurovascular exam intact. However possible fracture, tendon rupture, open wound, red warm joint, numb fingers, blue fingers, high energy trauma, unable to use limb, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "biceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "unable_to_use_limb",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_triceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags_contradictory_note_blocks",
+    "condition": "triceps strain no rupture",
+    "ed_note": "Adult. clinician diagnosis triceps strain. triceps strain diagnosed. no tendon rupture. neurovascular exam intact. However possible fracture, tendon rupture, open wound, red warm joint, numb fingers, blue fingers, high energy trauma, unable to use limb, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "triceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "unable_to_use_limb",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_deltoid_strain_uncomplicated_no_rupture_or_neurovascular_red_flags_contradictory_note_blocks",
+    "condition": "deltoid strain no rupture",
+    "ed_note": "Adult. clinician diagnosis deltoid strain. deltoid strain diagnosed. no tendon rupture. neurovascular exam intact. However possible fracture, tendon rupture, open wound, red warm joint, numb fingers, blue fingers, high energy trauma, unable to use limb, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "deltoid_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "unable_to_use_limb",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_localized_perfume_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized perfume contact rash",
+    "ed_note": "Adult. clinician diagnosis localized perfume contact rash. localized perfume contact rash diagnosed. no anaphylaxis. no mucosal lesions. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_perfume_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_localized_fabric_dye_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized fabric dye contact rash",
+    "ed_note": "Adult. clinician diagnosis localized fabric dye contact rash. localized fabric dye contact rash diagnosed. no anaphylaxis. no mucosal lesions. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_fabric_dye_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_localized_shampoo_contact_rash_no_eye_or_systemic_red_flags_contradictory_note_blocks",
+    "condition": "localized shampoo contact rash",
+    "ed_note": "Adult. clinician diagnosis localized shampoo contact rash. localized shampoo contact rash diagnosed. no anaphylaxis. no eye symptoms. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_shampoo_contact_rash_no_eye_or_systemic_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_localized_lotion_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized lotion contact rash",
+    "ed_note": "Adult. clinician diagnosis localized lotion contact rash. localized lotion contact rash diagnosed. no anaphylaxis. no mucosal lesions. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_lotion_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_localized_hand_sanitizer_irritant_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized hand sanitizer irritant rash",
+    "ed_note": "Adult. clinician diagnosis localized hand sanitizer irritant rash. localized hand sanitizer irritant rash diagnosed. no anaphylaxis. no mucosal lesions. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_hand_sanitizer_irritant_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_localized_watch_band_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized watch band contact rash",
+    "ed_note": "Adult. clinician diagnosis localized watch band contact rash. localized watch band contact rash diagnosed. no anaphylaxis. no mucosal lesions. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_watch_band_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_localized_belt_buckle_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized belt buckle contact rash",
+    "ed_note": "Adult. clinician diagnosis localized belt buckle contact rash. localized belt buckle contact rash diagnosed. no anaphylaxis. no mucosal lesions. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_belt_buckle_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_localized_shoe_contact_rash_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "condition": "localized shoe contact rash",
+    "ed_note": "Adult. clinician diagnosis localized shoe contact rash. localized shoe contact rash diagnosed. no anaphylaxis. no neuropathy. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_shoe_contact_rash_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_dry_cracked_feet_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "condition": "dry cracked feet",
+    "ed_note": "Adult. clinician diagnosis dry cracked feet. feet xerosis diagnosed. no infection. localized dry cracked skin. However pus, spreading redness, open wound, diabetic foot, diabetes, poor circulation, neuropathy, skin peeling, mouth sores, fever, chemotherapy, dermatology consulted, and podiatry consulted are documented.",
+    "expected_phenotype_id": "dry_cracked_feet_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "secondary_skin_infection_concern",
+      "open_wound",
+      "wound_infection_concern",
+      "diabetic_foot",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "systemic_illness",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan",
+      "specialist_directed_podiatry_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase7000_dry_cracked_heels_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "condition": "dry cracked heels",
+    "ed_note": "Adult. clinician diagnosis dry cracked heels. heels xerosis diagnosed. no infection. localized dry cracked skin. However pus, spreading redness, open wound, diabetic foot, diabetes, poor circulation, neuropathy, skin peeling, mouth sores, fever, chemotherapy, dermatology consulted, and podiatry consulted are documented.",
+    "expected_phenotype_id": "dry_cracked_heels_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "secondary_skin_infection_concern",
+      "open_wound",
+      "wound_infection_concern",
+      "diabetic_foot",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "systemic_illness",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan",
+      "specialist_directed_podiatry_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_shoulder_bursitis_uncomplicated_no_septic_joint_or_trauma_contradictory_note_blocks",
+    "condition": "shoulder bursitis",
+    "ed_note": "Adult. clinician diagnosis shoulder bursitis. shoulder bursitis diagnosed. no septic joint. no infection. no fracture concern. no trauma. neurovascular exam intact. However septic joint, red warm joint, fever with joint pain, open wound, possible fracture, severe pain, chemotherapy, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "shoulder_bursitis_uncomplicated_no_septic_joint_or_trauma",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "septic_joint_or_infection_concern",
+      "open_wound",
+      "systemic_illness",
+      "fracture_or_dislocation_concern",
+      "severe_pain",
+      "immunocompromised",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_hip_bursitis_uncomplicated_no_septic_joint_or_trauma_contradictory_note_blocks",
+    "condition": "hip bursitis",
+    "ed_note": "Adult. clinician diagnosis hip bursitis. hip bursitis diagnosed. no septic joint. no infection. no fracture concern. able to walk. neurovascular exam intact. However septic joint, red warm joint, fever with joint pain, open wound, possible fracture, cannot walk, severe pain, chemotherapy, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "hip_bursitis_uncomplicated_no_septic_joint_or_trauma",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "septic_joint_or_infection_concern",
+      "open_wound",
+      "systemic_illness",
+      "fracture_or_dislocation_concern",
+      "unable_to_bear_weight_lower_extremity",
+      "severe_pain",
+      "immunocompromised",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_knee_bursitis_uncomplicated_no_septic_joint_or_trauma_contradictory_note_blocks",
+    "condition": "knee bursitis",
+    "ed_note": "Adult. clinician diagnosis knee bursitis. knee bursitis diagnosed. no septic joint. no infection. no fracture concern. able to walk. neurovascular exam intact. However septic joint, red warm joint, fever with joint pain, open wound, possible fracture, cannot walk, severe pain, chemotherapy, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "knee_bursitis_uncomplicated_no_septic_joint_or_trauma",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "septic_joint_or_infection_concern",
+      "open_wound",
+      "systemic_illness",
+      "fracture_or_dislocation_concern",
+      "unable_to_bear_weight_lower_extremity",
+      "severe_pain",
+      "immunocompromised",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_prepatellar_bursitis_uncomplicated_no_septic_joint_or_trauma_contradictory_note_blocks",
+    "condition": "prepatellar bursitis",
+    "ed_note": "Adult. clinician diagnosis prepatellar bursitis. prepatellar bursitis diagnosed. no septic joint. no infection. no open wound. no fracture concern. able to walk. neurovascular exam intact. However septic joint, red warm joint, fever with joint pain, open wound, possible fracture, cannot walk, severe pain, chemotherapy, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "prepatellar_bursitis_uncomplicated_no_septic_joint_or_trauma",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "septic_joint_or_infection_concern",
+      "open_wound",
+      "systemic_illness",
+      "fracture_or_dislocation_concern",
+      "unable_to_bear_weight_lower_extremity",
+      "severe_pain",
+      "immunocompromised",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_trochanteric_bursitis_uncomplicated_no_septic_joint_or_trauma_contradictory_note_blocks",
+    "condition": "trochanteric bursitis",
+    "ed_note": "Adult. clinician diagnosis trochanteric bursitis. trochanteric bursitis diagnosed. no septic joint. no infection. no fracture concern. able to walk. neurovascular exam intact. However septic joint, red warm joint, fever with joint pain, open wound, possible fracture, cannot walk, severe pain, chemotherapy, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "trochanteric_bursitis_uncomplicated_no_septic_joint_or_trauma",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "septic_joint_or_infection_concern",
+      "open_wound",
+      "systemic_illness",
+      "fracture_or_dislocation_concern",
+      "unable_to_bear_weight_lower_extremity",
+      "severe_pain",
+      "immunocompromised",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_localized_face_mask_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized face mask contact rash",
+    "ed_note": "Adult. clinician diagnosis localized face mask contact rash. localized face mask contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. no eye symptoms. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, eye pain, eyelid swelling, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_face_mask_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "ocular_symptoms",
+      "periorbital_or_orbital_cellulitis_concern",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_localized_earbud_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized earbud contact rash",
+    "ed_note": "Adult. clinician diagnosis localized earbud contact rash. localized earbud contact rash diagnosed. no anaphylaxis. no infection. no ear canal infection. no mastoiditis concern. localized reaction only. no mucosal lesions. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, otitis externa, mastoiditis, pus, fever, rapidly spreading rash, chemotherapy, ENT consulted, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_earbud_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "otitis_externa_or_ear_canal_pathway",
+      "mastoiditis_or_deep_ear_infection_concern",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_ent_plan",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_localized_eyeglass_nose_pad_contact_rash_no_eye_or_infection_contradictory_note_blocks",
+    "condition": "localized eyeglass nose pad contact rash",
+    "ed_note": "Adult. clinician diagnosis localized eyeglass nose pad contact rash. localized eyeglass nose pad contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. no eye symptoms. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, eye pain, eyelid swelling, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_eyeglass_nose_pad_contact_rash_no_eye_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "ocular_symptoms",
+      "periorbital_or_orbital_cellulitis_concern",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_localized_knee_brace_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized knee brace contact rash",
+    "ed_note": "Adult. clinician diagnosis localized knee brace contact rash. localized knee brace contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. neurovascular exam intact. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, blue toes, chemotherapy, orthopedics consulted, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_knee_brace_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "neurovascular_compromise",
+      "immunocompromised",
+      "specialist_directed_orthopedic_plan",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_localized_ankle_brace_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized ankle brace contact rash",
+    "ed_note": "Adult. clinician diagnosis localized ankle brace contact rash. localized ankle brace contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no diabetic foot. neurovascular exam intact. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, diabetic foot, poor circulation, neuropathy, blue toes, chemotherapy, podiatry consulted, orthopedics consulted, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_ankle_brace_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "neurovascular_compromise",
+      "immunocompromised",
+      "specialist_directed_podiatry_plan",
+      "specialist_directed_orthopedic_plan",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_localized_cleaning_product_irritant_rash_no_burn_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized cleaning product irritant rash",
+    "ed_note": "Adult. clinician diagnosis localized cleaning product irritant rash. localized cleaning product irritant rash diagnosed. no burn. no anaphylaxis. no infection. localized reaction only. no eye symptoms. However chemical burn, chemical splash, trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, eye pain, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_cleaning_product_irritant_rash_no_burn_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "burn_or_chemical_wound",
+      "chemical_eye_exposure",
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "ocular_symptoms",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_localized_chlorine_irritant_rash_no_burn_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized chlorine irritant rash",
+    "ed_note": "Adult. clinician diagnosis localized chlorine irritant rash. localized chlorine irritant rash diagnosed. no burn. no anaphylaxis. no infection. localized reaction only. no eye symptoms. However chemical burn, chemical splash, trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, eye pain, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_chlorine_irritant_rash_no_burn_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "burn_or_chemical_wound",
+      "chemical_eye_exposure",
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "ocular_symptoms",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_localized_disinfectant_irritant_rash_no_burn_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized disinfectant irritant rash",
+    "ed_note": "Adult. clinician diagnosis localized disinfectant irritant rash. localized disinfectant irritant rash diagnosed. no burn. no anaphylaxis. no infection. localized reaction only. no eye symptoms. However chemical burn, chemical splash, trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, eye pain, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_disinfectant_irritant_rash_no_burn_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "burn_or_chemical_wound",
+      "chemical_eye_exposure",
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "ocular_symptoms",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_localized_topical_cream_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized topical cream contact rash",
+    "ed_note": "Adult. clinician diagnosis localized topical cream contact rash. localized topical cream contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_topical_cream_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_localized_sweatband_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized sweatband contact rash",
+    "ed_note": "Adult. clinician diagnosis localized sweatband contact rash. localized sweatband contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_sweatband_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_localized_nail_polish_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized nail polish contact rash",
+    "ed_note": "Adult. clinician diagnosis localized nail polish contact rash. localized nail polish contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. no abscess. no felon. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, abscess, felon, fever, rapidly spreading rash, chemotherapy, wound clinic plan, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_nail_polish_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "abscess_concern",
+      "felon_or_tenosynovitis_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_wound_plan",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_localized_topical_antibiotic_contact_rash_no_infection_or_systemic_reaction_contradictory_note_blocks",
+    "condition": "localized topical antibiotic contact rash",
+    "ed_note": "Adult. clinician diagnosis localized topical antibiotic contact rash. localized topical antibiotic contact rash diagnosed. no anaphylaxis. no systemic allergic reaction. no infection. localized reaction only. no mucosal lesions. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, wound infection, fever, rapidly spreading rash, chemotherapy, wound clinic plan, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_topical_antibiotic_contact_rash_no_infection_or_systemic_reaction",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "wound_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_wound_plan",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_dry_cracked_elbows_no_infection_or_systemic_skin_disease_contradictory_note_blocks",
+    "condition": "dry cracked elbows",
+    "ed_note": "Adult. clinician diagnosis dry cracked elbows. elbow xerosis diagnosed. no infection. localized dry cracked skin. no open wound. no systemic symptoms. no mucosal lesions. However pus, spreading redness, abscess, open wound, wound infection, skin peeling, mouth sores, fever, chemotherapy, wound clinic plan, and dermatology consulted are documented.",
+    "expected_phenotype_id": "dry_cracked_elbows_no_infection_or_systemic_skin_disease",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "secondary_skin_infection_concern",
+      "abscess_or_boils_or_carbuncle",
+      "open_wound",
+      "wound_infection_concern",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "systemic_illness",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan",
+      "specialist_directed_wound_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_dry_cracked_knees_no_infection_or_systemic_skin_disease_contradictory_note_blocks",
+    "condition": "dry cracked knees",
+    "ed_note": "Adult. clinician diagnosis dry cracked knees. knee xerosis diagnosed. no infection. localized dry cracked skin. no open wound. no systemic symptoms. no mucosal lesions. However pus, spreading redness, abscess, open wound, wound infection, skin peeling, mouth sores, fever, chemotherapy, wound clinic plan, and dermatology consulted are documented.",
+    "expected_phenotype_id": "dry_cracked_knees_no_infection_or_systemic_skin_disease",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "secondary_skin_infection_concern",
+      "abscess_or_boils_or_carbuncle",
+      "open_wound",
+      "wound_infection_concern",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "systemic_illness",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan",
+      "specialist_directed_wound_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase8000_minor_superficial_cut_no_deep_wound_or_infection_contradictory_note_blocks",
+    "condition": "minor superficial cut",
+    "ed_note": "Adult. clinician diagnosis minor superficial cut. minor superficial cut diagnosed. no repair needed. no foreign body. no tendon injury. no infection. neurovascularly intact. However wound repair needed, tendon injury, joint violation, open fracture, foreign body, bite wound, dirty wound, wound infection, numb fingers, severe pain, delayed presentation, diabetic foot, chemotherapy, and hand surgery consulted are documented.",
+    "expected_phenotype_id": "minor_superficial_cut_no_deep_wound_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "laceration_repair_needed",
+      "hand_tendon_risk",
+      "joint_violation",
+      "open_fracture",
+      "retained_foreign_body",
+      "bite_wound",
+      "dirty_wound",
+      "wound_infection_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "delayed_wound_presentation",
+      "diabetic_foot",
+      "immunocompromised",
+      "specialist_directed_wound_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_pectoralis_strain_uncomplicated_no_rupture_or_cardiopulmonary_red_flags_contradictory_note_blocks",
+    "condition": "pectoralis strain",
+    "ed_note": "Adult. clinician diagnosis pectoralis strain. pectoralis strain diagnosed. no fracture concern. no infection. neurovascular exam intact. no chest pain. no shortness of breath. However pulmonary embolism concern, chest pain, possible fracture, motor vehicle crash, hypoxic, chemotherapy, blue toes, open wound, child, pregnancy, respiratory distress, severe pain, orthopedics consulted, tendon rupture are documented.",
+    "expected_phenotype_id": "pectoralis_strain_uncomplicated_no_rupture_or_cardiopulmonary_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "cardiac_or_pe_chest_pain_concern",
+      "chest_pain",
+      "fracture_or_dislocation_concern",
+      "high_energy_trauma",
+      "hypoxia",
+      "immunocompromised",
+      "neurovascular_compromise",
+      "open_wound",
+      "respiratory_distress",
+      "severe_pain",
+      "specialist_directed_orthopedic_plan",
+      "tendon_or_ligament_rupture_concern"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags_contradictory_note_blocks",
+    "condition": "pectoralis contusion",
+    "ed_note": "Adult. clinician diagnosis pectoralis contusion. pectoralis contusion diagnosed. no fracture concern. no infection. neurovascular exam intact. no chest pain. no shortness of breath. However pulmonary embolism concern, chest pain, possible fracture, motor vehicle crash, hypoxic, chemotherapy, blue toes, open wound, child, pregnancy, respiratory distress, severe pain, orthopedics consulted are documented.",
+    "expected_phenotype_id": "pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "cardiac_or_pe_chest_pain_concern",
+      "chest_pain",
+      "fracture_or_dislocation_concern",
+      "high_energy_trauma",
+      "hypoxia",
+      "immunocompromised",
+      "neurovascular_compromise",
+      "open_wound",
+      "respiratory_distress",
+      "severe_pain",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_latissimus_dorsi_strain_uncomplicated_no_rupture_or_neurovascular_red_flags_contradictory_note_blocks",
+    "condition": "latissimus dorsi strain",
+    "ed_note": "Adult. clinician diagnosis latissimus dorsi strain. latissimus dorsi strain diagnosed. no fracture concern. no infection. neurovascular exam intact. no tendon rupture concern. However possible fracture, motor vehicle crash, chemotherapy, blue toes, open wound, child, pregnancy, severe pain, orthopedics consulted, tendon rupture are documented.",
+    "expected_phenotype_id": "latissimus_dorsi_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "high_energy_trauma",
+      "immunocompromised",
+      "neurovascular_compromise",
+      "open_wound",
+      "severe_pain",
+      "specialist_directed_orthopedic_plan",
+      "tendon_or_ligament_rupture_concern"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_abdominal_wall_contusion_uncomplicated_no_intraabdominal_red_flags_contradictory_note_blocks",
+    "condition": "abdominal wall contusion",
+    "ed_note": "Adult. clinician diagnosis abdominal wall contusion. abdominal wall contusion diagnosed. no fracture concern. no infection. neurovascular exam intact. benign abdominal exam. no abdominal red flags. However possible fracture, bloody stool, motor vehicle crash, chemotherapy, blue toes, open wound, child, rebound, pregnancy, severe abdominal pain, severe pain, orthopedics consulted, appendicitis, unstable vitals are documented.",
+    "expected_phenotype_id": "abdominal_wall_contusion_uncomplicated_no_intraabdominal_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "gi_bleeding",
+      "high_energy_trauma",
+      "immunocompromised",
+      "neurovascular_compromise",
+      "open_wound",
+      "peritoneal_signs",
+      "severe_or_focal_abdominal_pain",
+      "severe_pain",
+      "specialist_directed_orthopedic_plan",
+      "surgical_abdomen",
+      "unstable_vitals"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_tailbone_contusion_uncomplicated_no_neuro_or_rectal_red_flags_contradictory_note_blocks",
+    "condition": "tailbone contusion",
+    "ed_note": "Adult. clinician diagnosis tailbone contusion. tailbone contusion diagnosed. no fracture concern. no infection. neurovascular exam intact. no neurologic deficit. However urinary retention, dvt concern, possible fracture, motor vehicle crash, chemotherapy, blue toes, new weakness, open wound, child, pregnancy, severe pain, orthopedics consulted, spine consulted, cannot walk are documented.",
+    "expected_phenotype_id": "tailbone_contusion_uncomplicated_no_neuro_or_rectal_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "cauda_equina_concern",
+      "dvt_or_pe_concern",
+      "fracture_or_dislocation_concern",
+      "high_energy_trauma",
+      "immunocompromised",
+      "neurovascular_compromise",
+      "new_neurologic_deficit",
+      "open_wound",
+      "severe_pain",
+      "specialist_directed_orthopedic_plan",
+      "specialist_directed_spine_plan",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_chest_wall_contusion_uncomplicated_no_cardiopulmonary_red_flags_contradictory_note_blocks",
+    "condition": "chest wall contusion",
+    "ed_note": "Adult. clinician diagnosis chest wall contusion. chest wall contusion diagnosed. no fracture concern. no infection. neurovascular exam intact. no chest pain. no shortness of breath. However pulmonary embolism concern, chest pain, possible fracture, motor vehicle crash, hypoxic, chemotherapy, blue toes, open wound, child, pregnancy, respiratory distress, severe pain, orthopedics consulted are documented.",
+    "expected_phenotype_id": "chest_wall_contusion_uncomplicated_no_cardiopulmonary_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "cardiac_or_pe_chest_pain_concern",
+      "chest_pain",
+      "fracture_or_dislocation_concern",
+      "high_energy_trauma",
+      "hypoxia",
+      "immunocompromised",
+      "neurovascular_compromise",
+      "open_wound",
+      "respiratory_distress",
+      "severe_pain",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_rib_strain_uncomplicated_no_cardiopulmonary_red_flags_contradictory_note_blocks",
+    "condition": "rib strain",
+    "ed_note": "Adult. clinician diagnosis rib strain. rib strain diagnosed. no fracture concern. no infection. neurovascular exam intact. no chest pain. no shortness of breath. However pulmonary embolism concern, chest pain, possible fracture, motor vehicle crash, hypoxic, chemotherapy, blue toes, open wound, child, pregnancy, respiratory distress, severe pain, orthopedics consulted, tendon rupture are documented.",
+    "expected_phenotype_id": "rib_strain_uncomplicated_no_cardiopulmonary_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "cardiac_or_pe_chest_pain_concern",
+      "chest_pain",
+      "fracture_or_dislocation_concern",
+      "high_energy_trauma",
+      "hypoxia",
+      "immunocompromised",
+      "neurovascular_compromise",
+      "open_wound",
+      "respiratory_distress",
+      "severe_pain",
+      "specialist_directed_orthopedic_plan",
+      "tendon_or_ligament_rupture_concern"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_ac_joint_sprain_xray_negative_no_dislocation_or_neurovascular_red_flags_contradictory_note_blocks",
+    "condition": "ac joint sprain xray negative",
+    "ed_note": "Adult. clinician diagnosis ac joint sprain xray negative. ac joint sprain xray negative diagnosed. x-ray negative. no dislocation. no fracture concern. no infection. neurovascular exam intact. However possible fracture, motor vehicle crash, chemotherapy, blue toes, open wound, child, pregnancy, severe pain, orthopedics consulted, tendon rupture are documented.",
+    "expected_phenotype_id": "ac_joint_sprain_xray_negative_no_dislocation_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "high_energy_trauma",
+      "immunocompromised",
+      "neurovascular_compromise",
+      "open_wound",
+      "severe_pain",
+      "specialist_directed_orthopedic_plan",
+      "tendon_or_ligament_rupture_concern"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_palm_abrasion_no_tendon_or_infection_contradictory_note_blocks",
+    "condition": "palm abrasion",
+    "ed_note": "Adult. clinician diagnosis palm abrasion. palm abrasion diagnosed. no repair needed. no foreign body. no tendon injury. no infection. neurovascularly intact. However dog bite, delayed presentation, dirty wound, flexor tenosynovitis, tendon injury, chemotherapy, needs sutures, blue toes, open fracture, child, pregnancy, foreign body, severe pain, wound clinic plan, wound infection are documented.",
+    "expected_phenotype_id": "palm_abrasion_no_tendon_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "bite_wound",
+      "delayed_wound_presentation",
+      "dirty_wound",
+      "flexor_tenosynovitis_concern",
+      "hand_tendon_risk",
+      "immunocompromised",
+      "laceration_repair_needed",
+      "neurovascular_compromise",
+      "open_fracture",
+      "retained_foreign_body",
+      "severe_pain",
+      "specialist_directed_wound_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_finger_abrasion_no_tendon_or_infection_contradictory_note_blocks",
+    "condition": "finger abrasion",
+    "ed_note": "Adult. clinician diagnosis finger abrasion. finger abrasion diagnosed. no repair needed. no foreign body. no tendon injury. no infection. neurovascularly intact. However dog bite, delayed presentation, dirty wound, flexor tenosynovitis, tendon injury, chemotherapy, needs sutures, blue toes, open fracture, child, pregnancy, foreign body, severe pain, wound clinic plan, wound infection are documented.",
+    "expected_phenotype_id": "finger_abrasion_no_tendon_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "bite_wound",
+      "delayed_wound_presentation",
+      "dirty_wound",
+      "flexor_tenosynovitis_concern",
+      "hand_tendon_risk",
+      "immunocompromised",
+      "laceration_repair_needed",
+      "neurovascular_compromise",
+      "open_fracture",
+      "retained_foreign_body",
+      "severe_pain",
+      "specialist_directed_wound_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_knee_abrasion_no_deep_wound_or_infection_contradictory_note_blocks",
+    "condition": "knee abrasion",
+    "ed_note": "Adult. clinician diagnosis knee abrasion. knee abrasion diagnosed. no repair needed. no foreign body. no tendon injury. no infection. neurovascularly intact. However dog bite, delayed presentation, dirty wound, chemotherapy, joint violation, needs sutures, blue toes, open fracture, child, pregnancy, foreign body, severe pain, wound clinic plan, wound infection are documented.",
+    "expected_phenotype_id": "knee_abrasion_no_deep_wound_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "bite_wound",
+      "delayed_wound_presentation",
+      "dirty_wound",
+      "immunocompromised",
+      "joint_violation",
+      "laceration_repair_needed",
+      "neurovascular_compromise",
+      "open_fracture",
+      "retained_foreign_body",
+      "severe_pain",
+      "specialist_directed_wound_plan",
+      "wound_infection_concern"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_elbow_abrasion_no_deep_wound_or_infection_contradictory_note_blocks",
+    "condition": "elbow abrasion",
+    "ed_note": "Adult. clinician diagnosis elbow abrasion. elbow abrasion diagnosed. no repair needed. no foreign body. no tendon injury. no infection. neurovascularly intact. However dog bite, delayed presentation, dirty wound, chemotherapy, joint violation, needs sutures, blue toes, open fracture, child, pregnancy, foreign body, severe pain, wound clinic plan, wound infection are documented.",
+    "expected_phenotype_id": "elbow_abrasion_no_deep_wound_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "bite_wound",
+      "delayed_wound_presentation",
+      "dirty_wound",
+      "immunocompromised",
+      "joint_violation",
+      "laceration_repair_needed",
+      "neurovascular_compromise",
+      "open_fracture",
+      "retained_foreign_body",
+      "severe_pain",
+      "specialist_directed_wound_plan",
+      "wound_infection_concern"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_ankle_rubbing_blister_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "condition": "ankle rubbing blister",
+    "ed_note": "Adult. clinician diagnosis ankle rubbing blister. ankle rubbing blister diagnosed. no infection. no burn. uncomplicated friction blister. neurovascularly intact. no diabetic foot. However chemical burn, diabetes, diabetic foot, chemotherapy, neuropathy, blue toes, open wound, child, poor circulation, pregnancy, pus, severe pain, podiatry consulted, wound clinic plan, wound infection are documented.",
+    "expected_phenotype_id": "ankle_rubbing_blister_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "burn_or_chemical_wound",
+      "diabetes_general_risk",
+      "diabetic_foot",
+      "immunocompromised",
+      "neuropathy_foot_risk",
+      "neurovascular_compromise",
+      "open_wound",
+      "peripheral_vascular_disease",
+      "secondary_skin_infection_concern",
+      "severe_pain",
+      "specialist_directed_podiatry_plan",
+      "specialist_directed_wound_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_sole_friction_blister_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "condition": "sole friction blister",
+    "ed_note": "Adult. clinician diagnosis sole friction blister. sole friction blister diagnosed. no infection. no burn. uncomplicated friction blister. neurovascularly intact. no diabetic foot. However chemical burn, diabetes, diabetic foot, chemotherapy, neuropathy, blue toes, open wound, child, poor circulation, pregnancy, pus, severe pain, podiatry consulted, wound clinic plan, wound infection are documented.",
+    "expected_phenotype_id": "sole_friction_blister_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "burn_or_chemical_wound",
+      "diabetes_general_risk",
+      "diabetic_foot",
+      "immunocompromised",
+      "neuropathy_foot_risk",
+      "neurovascular_compromise",
+      "open_wound",
+      "peripheral_vascular_disease",
+      "secondary_skin_infection_concern",
+      "severe_pain",
+      "specialist_directed_podiatry_plan",
+      "specialist_directed_wound_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_finger_friction_blister_no_infection_or_burn_contradictory_note_blocks",
+    "condition": "finger friction blister",
+    "ed_note": "Adult. clinician diagnosis finger friction blister. finger friction blister diagnosed. no infection. no burn. uncomplicated friction blister. neurovascularly intact. However chemical burn, flexor tenosynovitis, tendon injury, chemotherapy, blue toes, open wound, child, pregnancy, pus, severe pain, wound clinic plan, wound infection are documented.",
+    "expected_phenotype_id": "finger_friction_blister_no_infection_or_burn",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "burn_or_chemical_wound",
+      "flexor_tenosynovitis_concern",
+      "hand_tendon_risk",
+      "immunocompromised",
+      "neurovascular_compromise",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "severe_pain",
+      "specialist_directed_wound_plan",
+      "wound_infection_concern"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_palm_friction_blister_no_infection_or_burn_contradictory_note_blocks",
+    "condition": "palm friction blister",
+    "ed_note": "Adult. clinician diagnosis palm friction blister. palm friction blister diagnosed. no infection. no burn. uncomplicated friction blister. neurovascularly intact. However chemical burn, flexor tenosynovitis, tendon injury, chemotherapy, blue toes, open wound, child, pregnancy, pus, severe pain, wound clinic plan, wound infection are documented.",
+    "expected_phenotype_id": "palm_friction_blister_no_infection_or_burn",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "burn_or_chemical_wound",
+      "flexor_tenosynovitis_concern",
+      "hand_tendon_risk",
+      "immunocompromised",
+      "neurovascular_compromise",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "severe_pain",
+      "specialist_directed_wound_plan",
+      "wound_infection_concern"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_minor_lip_bite_no_deep_laceration_or_infection_contradictory_note_blocks",
+    "condition": "minor lip bite",
+    "ed_note": "Adult. clinician diagnosis minor lip bite. minor lip bite diagnosed. no deep laceration. bleeding controlled. no infection. no airway symptoms. However trouble breathing, floor of mouth, needs sutures, facial trauma, wound infection, severe pain, chemotherapy, pregnancy, child, wound clinic plan are documented.",
+    "expected_phenotype_id": "minor_lip_bite_no_deep_laceration_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "deep_space_swelling",
+      "laceration_repair_needed",
+      "dental_or_facial_trauma_source",
+      "wound_infection_concern",
+      "severe_pain",
+      "immunocompromised",
+      "specialist_directed_wound_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_minor_tongue_bite_no_deep_laceration_or_infection_contradictory_note_blocks",
+    "condition": "minor tongue bite",
+    "ed_note": "Adult. clinician diagnosis minor tongue bite. minor tongue bite diagnosed. no deep laceration. bleeding controlled. no infection. no airway symptoms. However trouble breathing, floor of mouth, needs sutures, facial trauma, wound infection, severe pain, chemotherapy, pregnancy, child, wound clinic plan are documented.",
+    "expected_phenotype_id": "minor_tongue_bite_no_deep_laceration_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "deep_space_swelling",
+      "laceration_repair_needed",
+      "dental_or_facial_trauma_source",
+      "wound_infection_concern",
+      "severe_pain",
+      "immunocompromised",
+      "specialist_directed_wound_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_dry_cracked_fingertips_no_infection_or_deep_wound_contradictory_note_blocks",
+    "condition": "dry cracked fingertips",
+    "ed_note": "Adult. clinician diagnosis dry cracked fingertips. dry cracked fingertips diagnosed. no infection. localized dry cracked skin. no open wound. no systemic symptoms. no mucosal lesions. no deep wound. However abscess, tendon injury, chemotherapy, needs sutures, mouth sores, open wound, child, pregnancy, pus, skin peeling, skin peeling, dermatology consulted, wound clinic plan, fever, wound infection are documented.",
+    "expected_phenotype_id": "dry_cracked_fingertips_no_infection_or_deep_wound",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "abscess_concern",
+      "hand_tendon_risk",
+      "immunocompromised",
+      "laceration_repair_needed",
+      "mucosal_lesions",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "specialist_directed_dermatology_plan",
+      "specialist_directed_wound_plan",
+      "systemic_illness"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_dry_cracked_shins_no_infection_or_systemic_skin_disease_contradictory_note_blocks",
+    "condition": "dry cracked shins",
+    "ed_note": "Adult. clinician diagnosis dry cracked shins. dry cracked shins diagnosed. no infection. localized dry cracked skin. no open wound. no systemic symptoms. no mucosal lesions. However abscess, chemotherapy, mouth sores, open wound, child, pregnancy, pus, skin peeling, skin peeling, dermatology consulted, wound clinic plan, fever, wound infection are documented.",
+    "expected_phenotype_id": "dry_cracked_shins_no_infection_or_systemic_skin_disease",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "abscess_concern",
+      "immunocompromised",
+      "mucosal_lesions",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "specialist_directed_dermatology_plan",
+      "specialist_directed_wound_plan",
+      "systemic_illness",
+      "wound_infection_concern"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_dry_cracked_forearms_no_infection_or_systemic_skin_disease_contradictory_note_blocks",
+    "condition": "dry cracked forearms",
+    "ed_note": "Adult. clinician diagnosis dry cracked forearms. dry cracked forearms diagnosed. no infection. localized dry cracked skin. no open wound. no systemic symptoms. no mucosal lesions. However abscess, chemotherapy, mouth sores, open wound, child, pregnancy, pus, skin peeling, skin peeling, dermatology consulted, wound clinic plan, fever, wound infection are documented.",
+    "expected_phenotype_id": "dry_cracked_forearms_no_infection_or_systemic_skin_disease",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "abscess_concern",
+      "immunocompromised",
+      "mucosal_lesions",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "specialist_directed_dermatology_plan",
+      "specialist_directed_wound_plan",
+      "systemic_illness",
+      "wound_infection_concern"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_localized_sock_elastic_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized sock elastic contact rash",
+    "ed_note": "Adult. clinician diagnosis localized sock elastic contact rash. localized sock elastic contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. no diabetic foot. However trouble breathing, anaphylaxis, diabetes, diabetic foot, fever, hypotension, chemotherapy, mouth sores, neuropathy, child, poor circulation, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, podiatry consulted are documented.",
+    "expected_phenotype_id": "localized_sock_elastic_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "diabetes_general_risk",
+      "diabetic_foot",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "neuropathy_foot_risk",
+      "peripheral_vascular_disease",
+      "rapid_progression",
+      "secondary_skin_infection_concern"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_localized_waistband_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized waistband contact rash",
+    "ed_note": "Adult. clinician diagnosis localized waistband contact rash. localized waistband contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, diffuse hives are documented.",
+    "expected_phenotype_id": "localized_waistband_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_localized_backpack_strap_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized backpack strap contact rash",
+    "ed_note": "Adult. clinician diagnosis localized backpack strap contact rash. localized backpack strap contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, diffuse hives are documented.",
+    "expected_phenotype_id": "localized_backpack_strap_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_localized_headphone_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized headphone contact rash",
+    "ed_note": "Adult. clinician diagnosis localized headphone contact rash. localized headphone contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. no ear canal infection. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mastoiditis, mouth sores, otitis externa, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, ENT consulted, diffuse hives are documented.",
+    "expected_phenotype_id": "localized_headphone_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mastoiditis_or_deep_ear_infection_concern",
+      "mucosal_lesions",
+      "otitis_externa_or_ear_canal_pathway",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_localized_helmet_pad_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized helmet pad contact rash",
+    "ed_note": "Adult. clinician diagnosis localized helmet pad contact rash. localized helmet pad contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, diffuse hives are documented.",
+    "expected_phenotype_id": "localized_helmet_pad_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_localized_bandage_wrap_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized bandage wrap contact rash",
+    "ed_note": "Adult. clinician diagnosis localized bandage wrap contact rash. localized bandage wrap contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. no wound infection. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, wound clinic plan, diffuse hives, wound infection are documented.",
+    "expected_phenotype_id": "localized_bandage_wrap_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "specialist_directed_wound_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_localized_aftershave_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized aftershave contact rash",
+    "ed_note": "Adult. clinician diagnosis localized aftershave contact rash. localized aftershave contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. no eye symptoms. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, eye involvement, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, diffuse hives are documented.",
+    "expected_phenotype_id": "localized_aftershave_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "near_eye_or_genitals",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_chapped_lips_no_infection_or_angioedema_contradictory_note_blocks",
+    "condition": "chapped lips",
+    "ed_note": "Adult. clinician diagnosis chapped lips. chapped lips diagnosed. no infection. localized dry cracked skin. no open wound. no systemic symptoms. no mucosal lesions. no swelling. no airway symptoms. However abscess, trouble breathing, anaphylaxis, floor of mouth, chemotherapy, mouth sores, open wound, child, pregnancy, pus, skin peeling, skin peeling, dermatology consulted, wound clinic plan, diffuse hives, fever, wound infection are documented.",
+    "expected_phenotype_id": "chapped_lips_no_infection_or_angioedema",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "abscess_concern",
+      "airway_symptoms",
+      "anaphylaxis",
+      "deep_space_swelling",
+      "immunocompromised",
+      "mucosal_lesions",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "specialist_directed_dermatology_plan",
+      "specialist_directed_wound_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_nasal_dryness_no_epistaxis_or_infection_contradictory_note_blocks",
+    "condition": "nasal dryness",
+    "ed_note": "Adult. clinician diagnosis nasal dryness. nasal dryness diagnosed. no infection. localized dry cracked skin. no open wound. no systemic symptoms. no mucosal lesions. no nosebleed. no trauma. However abscess, nasal trauma, chemotherapy, mouth sores, open wound, child, uncontrolled nosebleed, pregnancy, pus, skin peeling, skin peeling, dermatology consulted, ENT consulted, wound clinic plan, fever, wound infection are documented.",
+    "expected_phenotype_id": "nasal_dryness_no_epistaxis_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "abscess_concern",
+      "facial_or_nasal_trauma",
+      "immunocompromised",
+      "mucosal_lesions",
+      "open_wound",
+      "posterior_epistaxis_or_uncontrolled_bleeding",
+      "secondary_skin_infection_concern",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "specialist_directed_dermatology_plan",
+      "specialist_directed_ent_plan",
+      "specialist_directed_wound_plan"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_sore_nostril_skin_irritation_no_cellulitis_or_epistaxis_contradictory_note_blocks",
+    "condition": "sore nostril skin irritation",
+    "ed_note": "Adult. clinician diagnosis sore nostril skin irritation. sore nostril skin irritation diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. no nosebleed. no nasal trauma. However trouble breathing, anaphylaxis, nasal trauma, fever, hypotension, chemotherapy, mouth sores, eye involvement, child, uncontrolled nosebleed, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, ENT consulted, diffuse hives are documented.",
+    "expected_phenotype_id": "sore_nostril_skin_irritation_no_cellulitis_or_epistaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "facial_or_nasal_trauma",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "near_eye_or_genitals",
+      "posterior_epistaxis_or_uncontrolled_bleeding",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_ear_lobe_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "ear lobe contact rash",
+    "ed_note": "Adult. clinician diagnosis ear lobe contact rash. ear lobe contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. no ear canal infection. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mastoiditis, mouth sores, otitis externa, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, ENT consulted, diffuse hives are documented.",
+    "expected_phenotype_id": "ear_lobe_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mastoiditis_or_deep_ear_infection_concern",
+      "mucosal_lesions",
+      "otitis_externa_or_ear_canal_pathway",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_localized_hearing_aid_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized hearing aid contact rash",
+    "ed_note": "Adult. clinician diagnosis localized hearing aid contact rash. localized hearing aid contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. no ear canal infection. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mastoiditis, mouth sores, otitis externa, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, ENT consulted, diffuse hives are documented.",
+    "expected_phenotype_id": "localized_hearing_aid_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mastoiditis_or_deep_ear_infection_concern",
+      "mucosal_lesions",
+      "otitis_externa_or_ear_canal_pathway",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_mild_eyelid_skin_irritation_no_eye_or_infection_red_flags_contradictory_note_blocks",
+    "condition": "mild eyelid skin irritation",
+    "ed_note": "Adult. clinician diagnosis mild eyelid skin irritation. mild eyelid skin irritation diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. no eye symptoms. no vision change. However trouble breathing, anaphylaxis, fever, herpes near eye, hypotension, chemotherapy, mouth sores, eye pain, child, eyelid swelling, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, diffuse hives, vision change are documented.",
+    "expected_phenotype_id": "mild_eyelid_skin_irritation_no_eye_or_infection_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "herpes_or_zoster_eye_concern",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "ocular_symptoms",
+      "periorbital_or_orbital_cellulitis_concern",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_localized_eyelash_glue_contact_rash_no_eye_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized eyelash glue contact rash",
+    "ed_note": "Adult. clinician diagnosis localized eyelash glue contact rash. localized eyelash glue contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. no eye symptoms. no vision change. However trouble breathing, anaphylaxis, chemical splash, fever, hypotension, chemotherapy, mouth sores, eye pain, child, eyelid swelling, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, diffuse hives, vision change are documented.",
+    "expected_phenotype_id": "localized_eyelash_glue_contact_rash_no_eye_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "chemical_eye_exposure",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "ocular_symptoms",
+      "periorbital_or_orbital_cellulitis_concern",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_localized_beard_product_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized beard product contact rash",
+    "ed_note": "Adult. clinician diagnosis localized beard product contact rash. localized beard product contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, diffuse hives are documented.",
+    "expected_phenotype_id": "localized_beard_product_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_localized_hair_gel_contact_rash_no_eye_or_systemic_red_flags_contradictory_note_blocks",
+    "condition": "localized hair gel contact rash",
+    "ed_note": "Adult. clinician diagnosis localized hair gel contact rash. localized hair gel contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. no eye symptoms. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, eye pain, child, eyelid swelling, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, diffuse hives, vision change are documented.",
+    "expected_phenotype_id": "localized_hair_gel_contact_rash_no_eye_or_systemic_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "ocular_symptoms",
+      "periorbital_or_orbital_cellulitis_concern",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_localized_laundry_additive_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized laundry additive contact rash",
+    "ed_note": "Adult. clinician diagnosis localized laundry additive contact rash. localized laundry additive contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, diffuse hives are documented.",
+    "expected_phenotype_id": "localized_laundry_additive_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_localized_wool_clothing_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized wool clothing contact rash",
+    "ed_note": "Adult. clinician diagnosis localized wool clothing contact rash. localized wool clothing contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, diffuse hives are documented.",
+    "expected_phenotype_id": "localized_wool_clothing_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  },
+  {
+    "id": "phase20_phase10000_localized_plastic_band_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized plastic band contact rash",
+    "ed_note": "Adult. clinician diagnosis localized plastic band contact rash. localized plastic band contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, diffuse hives are documented.",
+    "expected_phenotype_id": "localized_plastic_band_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
   }
 ]

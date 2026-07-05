@@ -1,29 +1,29 @@
 # DC Instructor Ops Dashboard
 
-Generated: `2026-06-29T18:36:45.005175+00:00`
+Generated: `2026-07-04T18:01:14.679330+00:00`
 
 ## Current State
 
 - Canonical repo: [https://github.com/BloodSweatxED/dc-instructor](https://github.com/BloodSweatxED/dc-instructor)
 - Local repo: `/Users/andre/Desktop/Claude Projects/dc-instructor`
 - Branch: `codex/dc-knowledge-graph`
-- HEAD: `693e5ad`
+- HEAD: `36937b1`
 - Origin: `https://github.com/BloodSweatxED/dc-instructor.git` (matches canonical repo)
-- Latest handoff: `/Users/andre/Desktop/Vaults/Life/11-DC instructor/2026-06-29 DC Instructor Phase 6000 Twenty Phenotype Expansion Handoff.md`
+- Latest handoff: `/Users/andre/Desktop/Vaults/Life/11-DC instructor/2026-07-04 DC Instructor Phase 10000 Forty Phenotype Expansion Handoff.md`
 - Gate decision: `phenotype expansion allowed`
 - Expansion allowed: `True`
 - Active drafts: `0`
 - Reviewed source gaps: `0`
 - Draft source gaps: `0`
-- Dirty working tree entries: `627` (state file lists first 80)
+- Dirty working tree entries: `298` (state file lists first 80)
 
 ## Finish Line
 
-- MVP: `192 / 100` reviewed phenotypes `100%`
+- MVP: `272 / 100` reviewed phenotypes `100%`
 - MVP bar: `########################`
-- V1: `192 / 500` reviewed phenotypes `38.4%`
-- V1 bar: `#########---------------`
-- Exported library: `192` conditions, `576` English files
+- V1: `272 / 500` reviewed phenotypes `54.4%`
+- V1 bar: `#############-----------`
+- Exported library: `272` conditions, `816` English files
 
 ## Review Queue
 
@@ -35,15 +35,15 @@ No open review queue items detected.
 |---|---:|---:|---:|---:|---:|
 | Allergy | 12 | 0 | 0 | 0 | 12 |
 | Cardiac | 1 | 0 | 0 | 0 | 2 |
-| ENT / Dental | 6 | 0 | 0 | 0 | 8 |
-| GI | 6 | 0 | 0 | 0 | 6 |
+| ENT / Dental | 7 | 0 | 0 | 0 | 9 |
+| GI | 7 | 0 | 0 | 0 | 7 |
 | GU | 2 | 0 | 0 | 0 | 2 |
-| MSK | 61 | 0 | 0 | 0 | 62 |
+| MSK | 78 | 0 | 0 | 0 | 79 |
 | Neuro | 5 | 0 | 0 | 0 | 6 |
 | Ophtho | 3 | 0 | 0 | 0 | 4 |
-| Other | 51 | 0 | 0 | 0 | 51 |
+| Other | 68 | 0 | 0 | 0 | 68 |
 | Respiratory | 8 | 0 | 0 | 0 | 8 |
-| Skin / Soft Tissue | 37 | 0 | 0 | 0 | 37 |
+| Skin / Soft Tissue | 81 | 0 | 0 | 0 | 81 |
 
 ## Next Agent Startup
 
