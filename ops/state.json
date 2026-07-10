@@ -1,20 +1,15 @@
 {
-  "generated_at": "2026-07-10T12:29:04.174398+00:00",
+  "generated_at": "2026-07-10T12:29:50.861939+00:00",
   "project": "DC Instructor",
   "canonical_repo_url": "https://github.com/BloodSweatxED/dc-instructor",
   "repo": {
     "path": "/Users/andre/Desktop/Claude Projects/dc-instructor",
     "branch": "codex/dc-knowledge-graph",
-    "head": "a8fd191",
+    "head": "28da4f3",
     "origin": "https://github.com/BloodSweatxED/dc-instructor.git",
     "origin_matches_canonical": true,
-    "dirty_file_count": 6,
+    "dirty_file_count": 1,
     "dirty_files": [
-      "M ops/dashboard.md",
-      " M ops/progress_map.html",
-      " M ops/progress_map.json",
-      " M ops/render_ops.py",
-      " M ops/state.json",
       "?? knowledge/knowledge/"
     ],
     "dirty_files_truncated": false
