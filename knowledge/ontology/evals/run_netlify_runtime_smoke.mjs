@@ -93,6 +93,14 @@ const cases = JSON.parse(
   .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase9251_9500_library_expansion_runtime_cases.json'), 'utf8')))
   .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase9501_9750_library_expansion_runtime_cases.json'), 'utf8')))
   .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase9751_10000_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase10001_10250_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase10251_10500_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase10501_10750_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase10751_11000_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase11001_11250_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase11251_11500_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase11501_11750_library_expansion_runtime_cases.json'), 'utf8')))
+  .concat(JSON.parse(readFileSync(join('knowledge', 'ontology', 'evals', 'phase11751_12000_library_expansion_runtime_cases.json'), 'utf8')))
   .filter(
     (item) =>
       item.id.startsWith('phase14_netlify_smoke_') ||
@@ -206,6 +214,7 @@ const cases = JSON.parse(
       item.id.startsWith('phase20_phase7000_') ||
       item.id.startsWith('phase20_phase8000_') ||
       item.id.startsWith('phase20_phase10000_') ||
+      item.id.startsWith('phase20_phase12000_') ||
       /^phase(?:800[1-9]|80[1-9][0-9]|810[0-9]|811[0-9]|8120)_/.test(item.id) ||
       item.id.startsWith('phase25') ||
       item.id.startsWith('phase26') ||

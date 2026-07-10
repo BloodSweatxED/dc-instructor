@@ -1,0 +1,198 @@
+[
+  {
+    "id": "phase11751_groin_chafing_no_infection_or_genital_lesions_clean",
+    "condition": "groin chafing",
+    "ed_note": "Adult. clinician diagnosis groin chafing. groin chafing diagnosed. no infection. no abscess. localized irritation only. no deep wound.",
+    "expected_phenotype_id": "groin_chafing_no_infection_or_genital_lesions",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase11851_groin_chafing_no_infection_or_genital_lesions_missing_context_blocks",
+    "condition": "groin chafing",
+    "ed_note": "Adult with groin chafing.",
+    "expected_phenotype_id": "groin_chafing_no_infection_or_genital_lesions",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_groin_chafing_no_infection_or_genital_lesions",
+      "no_infection_or_deep_injury_groin_chafing_no_infection_or_genital_lesions"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_groin_chafing_no_infection_or_genital_lesions_contradictory_note_blocks",
+    "condition": "groin chafing",
+    "ed_note": "Adult. clinician diagnosis groin chafing. groin chafing diagnosed. no infection. no abscess. localized irritation only. no deep wound. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, genital sores, sti concern are documented.",
+    "expected_phenotype_id": "groin_chafing_no_infection_or_genital_lesions",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "sti_or_genital_pathway",
+      "genital_ulcers",
+      "near_eye_or_genitals"
+    ]
+  },
+  {
+    "id": "phase11752_mild_shaving_irritation_no_infection_or_abscess_clean",
+    "condition": "mild shaving irritation",
+    "ed_note": "Adult. clinician diagnosis mild shaving irritation. mild shaving irritation diagnosed. no infection. no abscess. localized irritation only. no deep wound.",
+    "expected_phenotype_id": "mild_shaving_irritation_no_infection_or_abscess",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase11852_mild_shaving_irritation_no_infection_or_abscess_missing_context_blocks",
+    "condition": "mild shaving irritation",
+    "ed_note": "Adult with mild shaving irritation.",
+    "expected_phenotype_id": "mild_shaving_irritation_no_infection_or_abscess",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_mild_shaving_irritation_no_infection_or_abscess",
+      "no_infection_or_deep_injury_mild_shaving_irritation_no_infection_or_abscess"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_mild_shaving_irritation_no_infection_or_abscess_contradictory_note_blocks",
+    "condition": "mild shaving irritation",
+    "ed_note": "Adult. clinician diagnosis mild shaving irritation. mild shaving irritation diagnosed. no infection. no abscess. localized irritation only. no deep wound. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, abscess, boil are documented.",
+    "expected_phenotype_id": "mild_shaving_irritation_no_infection_or_abscess",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "abscess_concern",
+      "abscess_or_boils_or_carbuncle"
+    ]
+  },
+  {
+    "id": "phase11753_mild_beard_shaving_irritation_no_infection_or_abscess_clean",
+    "condition": "mild beard shaving irritation",
+    "ed_note": "Adult. clinician diagnosis mild beard shaving irritation. mild beard shaving irritation diagnosed. no infection. no abscess. localized irritation only. no deep wound.",
+    "expected_phenotype_id": "mild_beard_shaving_irritation_no_infection_or_abscess",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase11853_mild_beard_shaving_irritation_no_infection_or_abscess_missing_context_blocks",
+    "condition": "mild beard shaving irritation",
+    "ed_note": "Adult with mild beard shaving irritation.",
+    "expected_phenotype_id": "mild_beard_shaving_irritation_no_infection_or_abscess",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_mild_beard_shaving_irritation_no_infection_or_abscess",
+      "no_infection_or_deep_injury_mild_beard_shaving_irritation_no_infection_or_abscess"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_mild_beard_shaving_irritation_no_infection_or_abscess_contradictory_note_blocks",
+    "condition": "mild beard shaving irritation",
+    "ed_note": "Adult. clinician diagnosis mild beard shaving irritation. mild beard shaving irritation diagnosed. no infection. no abscess. localized irritation only. no deep wound. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, abscess, boil are documented.",
+    "expected_phenotype_id": "mild_beard_shaving_irritation_no_infection_or_abscess",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "abscess_concern",
+      "abscess_or_boils_or_carbuncle"
+    ]
+  },
+  {
+    "id": "phase11754_mild_scalp_irritation_after_haircut_no_infection_or_laceration_clean",
+    "condition": "mild scalp irritation after haircut",
+    "ed_note": "Adult. clinician diagnosis mild scalp irritation after haircut. mild scalp irritation after haircut diagnosed. no infection. no abscess. localized irritation only. no deep wound.",
+    "expected_phenotype_id": "mild_scalp_irritation_after_haircut_no_infection_or_laceration",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase11854_mild_scalp_irritation_after_haircut_no_infection_or_laceration_missing_context_blocks",
+    "condition": "mild scalp irritation after haircut",
+    "ed_note": "Adult with mild scalp irritation after haircut.",
+    "expected_phenotype_id": "mild_scalp_irritation_after_haircut_no_infection_or_laceration",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_mild_scalp_irritation_after_haircut_no_infection_or_laceration",
+      "no_infection_or_deep_injury_mild_scalp_irritation_after_haircut_no_infection_or_laceration"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_mild_scalp_irritation_after_haircut_no_infection_or_laceration_contradictory_note_blocks",
+    "condition": "mild scalp irritation after haircut",
+    "ed_note": "Adult. clinician diagnosis mild scalp irritation after haircut. mild scalp irritation after haircut diagnosed. no infection. no abscess. localized irritation only. no deep wound. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, scalp ringworm, needs staples are documented.",
+    "expected_phenotype_id": "mild_scalp_irritation_after_haircut_no_infection_or_laceration",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "scalp_or_nail_or_beard_fungal_infection",
+      "laceration_repair_needed"
+    ]
+  },
+  {
+    "id": "phase11755_mild_cuticle_irritation_no_paronychia_or_abscess_clean",
+    "condition": "mild cuticle irritation",
+    "ed_note": "Adult. clinician diagnosis mild cuticle irritation. mild cuticle irritation diagnosed. no infection. no abscess. localized irritation only. no deep wound.",
+    "expected_phenotype_id": "mild_cuticle_irritation_no_paronychia_or_abscess",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase11855_mild_cuticle_irritation_no_paronychia_or_abscess_missing_context_blocks",
+    "condition": "mild cuticle irritation",
+    "ed_note": "Adult with mild cuticle irritation.",
+    "expected_phenotype_id": "mild_cuticle_irritation_no_paronychia_or_abscess",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_mild_cuticle_irritation_no_paronychia_or_abscess",
+      "no_infection_or_deep_injury_mild_cuticle_irritation_no_paronychia_or_abscess"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_mild_cuticle_irritation_no_paronychia_or_abscess_contradictory_note_blocks",
+    "condition": "mild cuticle irritation",
+    "ed_note": "Adult. clinician diagnosis mild cuticle irritation. mild cuticle irritation diagnosed. no infection. no abscess. localized irritation only. no deep wound. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, abscess, boil are documented.",
+    "expected_phenotype_id": "mild_cuticle_irritation_no_paronychia_or_abscess",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "abscess_concern",
+      "abscess_or_boils_or_carbuncle"
+    ]
+  }
+]

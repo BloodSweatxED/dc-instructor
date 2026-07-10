@@ -1,0 +1,458 @@
+[
+  {
+    "id": "groin_chafing_no_infection_or_genital_lesions",
+    "label": "Groin chafing without infection or genital lesions",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "groin chafing",
+      "groin skin chafing",
+      "friction rash groin"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "summary": "Your symptoms fit groin chafing.",
+    "found": "Your clinician diagnosed groin chafing. We did not find infection, deep injury, or another emergency skin or mouth problem today.",
+    "home": [
+      "Keep the area clean and dry.",
+      "Avoid the friction, product, or trigger that seems to be irritating the area.",
+      "Use gentle skin or mouth care only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, rinses, itch medicine, or pain medicine only if prescribed or recommended.",
+      "Do not use leftover antibiotics or steroid medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening pain, or swelling.",
+      "Mouth sores that spread, trouble swallowing, trouble opening your mouth, or face or neck swelling.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dentistry, dermatology, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of groin chafing.",
+      "No infection, abscess, deep wound, mucosal emergency, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Cellulitis, abscess, deep wound, severe or spreading rash, systemic illness, mucosal emergency, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Cellulitis or abscess.",
+      "Deep-space oral infection when mouth symptoms are present.",
+      "Severe cutaneous adverse reaction.",
+      "Retained foreign body or deep wound."
+    ],
+    "unsafe_modifiers": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "sti_or_genital_pathway",
+      "genital_ulcers",
+      "near_eye_or_genitals"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_groin_chafing_no_infection_or_genital_lesions",
+        "terms": [
+          "clinician diagnosis groin chafing",
+          "discharge diagnosis groin chafing",
+          "groin chafing diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_deep_injury_groin_chafing_no_infection_or_genital_lesions",
+        "terms": [
+          "no infection",
+          "no abscess",
+          "localized irritation only",
+          "no deep wound"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis groin chafing",
+      "groin chafing diagnosed",
+      "groin chafing"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways.",
+    "clinical_status": "reviewed_for_limited_groin_chafing_no_infection_or_genital_lesions_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of groin chafing",
+      "localized irritation only",
+      "no infection or abscess",
+      "no deep injury or specialist-directed plan"
+    ],
+    "review_date": "2026-07-07"
+  },
+  {
+    "id": "mild_shaving_irritation_no_infection_or_abscess",
+    "label": "Mild shaving irritation without infection or abscess",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "mild shaving irritation",
+      "shaving irritation",
+      "razor irritation"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "summary": "Your symptoms fit mild shaving irritation.",
+    "found": "Your clinician diagnosed mild shaving irritation. We did not find infection, deep injury, or another emergency skin or mouth problem today.",
+    "home": [
+      "Keep the area clean and dry.",
+      "Avoid the friction, product, or trigger that seems to be irritating the area.",
+      "Use gentle skin or mouth care only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, rinses, itch medicine, or pain medicine only if prescribed or recommended.",
+      "Do not use leftover antibiotics or steroid medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening pain, or swelling.",
+      "Mouth sores that spread, trouble swallowing, trouble opening your mouth, or face or neck swelling.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dentistry, dermatology, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of mild shaving irritation.",
+      "No infection, abscess, deep wound, mucosal emergency, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Cellulitis, abscess, deep wound, severe or spreading rash, systemic illness, mucosal emergency, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Cellulitis or abscess.",
+      "Deep-space oral infection when mouth symptoms are present.",
+      "Severe cutaneous adverse reaction.",
+      "Retained foreign body or deep wound."
+    ],
+    "unsafe_modifiers": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "abscess_concern",
+      "abscess_or_boils_or_carbuncle"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_mild_shaving_irritation_no_infection_or_abscess",
+        "terms": [
+          "clinician diagnosis mild shaving irritation",
+          "discharge diagnosis mild shaving irritation",
+          "mild shaving irritation diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_deep_injury_mild_shaving_irritation_no_infection_or_abscess",
+        "terms": [
+          "no infection",
+          "no abscess",
+          "localized irritation only",
+          "no deep wound"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis mild shaving irritation",
+      "mild shaving irritation diagnosed",
+      "mild shaving irritation"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways.",
+    "clinical_status": "reviewed_for_limited_mild_shaving_irritation_no_infection_or_abscess_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of mild shaving irritation",
+      "localized irritation only",
+      "no infection or abscess",
+      "no deep injury or specialist-directed plan"
+    ],
+    "review_date": "2026-07-07"
+  },
+  {
+    "id": "mild_beard_shaving_irritation_no_infection_or_abscess",
+    "label": "Mild beard shaving irritation without infection or abscess",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "mild beard shaving irritation",
+      "beard shaving irritation",
+      "beard razor irritation"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "summary": "Your symptoms fit mild beard shaving irritation.",
+    "found": "Your clinician diagnosed mild beard shaving irritation. We did not find infection, deep injury, or another emergency skin or mouth problem today.",
+    "home": [
+      "Keep the area clean and dry.",
+      "Avoid the friction, product, or trigger that seems to be irritating the area.",
+      "Use gentle skin or mouth care only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, rinses, itch medicine, or pain medicine only if prescribed or recommended.",
+      "Do not use leftover antibiotics or steroid medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening pain, or swelling.",
+      "Mouth sores that spread, trouble swallowing, trouble opening your mouth, or face or neck swelling.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dentistry, dermatology, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of mild beard shaving irritation.",
+      "No infection, abscess, deep wound, mucosal emergency, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Cellulitis, abscess, deep wound, severe or spreading rash, systemic illness, mucosal emergency, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Cellulitis or abscess.",
+      "Deep-space oral infection when mouth symptoms are present.",
+      "Severe cutaneous adverse reaction.",
+      "Retained foreign body or deep wound."
+    ],
+    "unsafe_modifiers": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "abscess_concern",
+      "abscess_or_boils_or_carbuncle"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_mild_beard_shaving_irritation_no_infection_or_abscess",
+        "terms": [
+          "clinician diagnosis mild beard shaving irritation",
+          "discharge diagnosis mild beard shaving irritation",
+          "mild beard shaving irritation diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_deep_injury_mild_beard_shaving_irritation_no_infection_or_abscess",
+        "terms": [
+          "no infection",
+          "no abscess",
+          "localized irritation only",
+          "no deep wound"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis mild beard shaving irritation",
+      "mild beard shaving irritation diagnosed",
+      "mild beard shaving irritation"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways.",
+    "clinical_status": "reviewed_for_limited_mild_beard_shaving_irritation_no_infection_or_abscess_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of mild beard shaving irritation",
+      "localized irritation only",
+      "no infection or abscess",
+      "no deep injury or specialist-directed plan"
+    ],
+    "review_date": "2026-07-07"
+  },
+  {
+    "id": "mild_scalp_irritation_after_haircut_no_infection_or_laceration",
+    "label": "Mild scalp irritation after haircut without infection or laceration",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "mild scalp irritation after haircut",
+      "haircut scalp irritation",
+      "scalp clipper irritation"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "summary": "Your symptoms fit mild scalp irritation after haircut.",
+    "found": "Your clinician diagnosed mild scalp irritation after haircut. We did not find infection, deep injury, or another emergency skin or mouth problem today.",
+    "home": [
+      "Keep the area clean and dry.",
+      "Avoid the friction, product, or trigger that seems to be irritating the area.",
+      "Use gentle skin or mouth care only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, rinses, itch medicine, or pain medicine only if prescribed or recommended.",
+      "Do not use leftover antibiotics or steroid medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening pain, or swelling.",
+      "Mouth sores that spread, trouble swallowing, trouble opening your mouth, or face or neck swelling.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dentistry, dermatology, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of mild scalp irritation after haircut.",
+      "No infection, abscess, deep wound, mucosal emergency, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Cellulitis, abscess, deep wound, severe or spreading rash, systemic illness, mucosal emergency, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Cellulitis or abscess.",
+      "Deep-space oral infection when mouth symptoms are present.",
+      "Severe cutaneous adverse reaction.",
+      "Retained foreign body or deep wound."
+    ],
+    "unsafe_modifiers": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "scalp_or_nail_or_beard_fungal_infection",
+      "laceration_repair_needed"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_mild_scalp_irritation_after_haircut_no_infection_or_laceration",
+        "terms": [
+          "clinician diagnosis mild scalp irritation after haircut",
+          "discharge diagnosis mild scalp irritation after haircut",
+          "mild scalp irritation after haircut diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_deep_injury_mild_scalp_irritation_after_haircut_no_infection_or_laceration",
+        "terms": [
+          "no infection",
+          "no abscess",
+          "localized irritation only",
+          "no deep wound"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis mild scalp irritation after haircut",
+      "mild scalp irritation after haircut diagnosed",
+      "mild scalp irritation after haircut"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways.",
+    "clinical_status": "reviewed_for_limited_mild_scalp_irritation_after_haircut_no_infection_or_laceration_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of mild scalp irritation after haircut",
+      "localized irritation only",
+      "no infection or abscess",
+      "no deep injury or specialist-directed plan"
+    ],
+    "review_date": "2026-07-07"
+  },
+  {
+    "id": "mild_cuticle_irritation_no_paronychia_or_abscess",
+    "label": "Mild cuticle irritation without paronychia or abscess",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "mild cuticle irritation",
+      "cuticle irritation",
+      "irritated cuticle"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "summary": "Your symptoms fit mild cuticle irritation.",
+    "found": "Your clinician diagnosed mild cuticle irritation. We did not find infection, deep injury, or another emergency skin or mouth problem today.",
+    "home": [
+      "Keep the area clean and dry.",
+      "Avoid the friction, product, or trigger that seems to be irritating the area.",
+      "Use gentle skin or mouth care only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, rinses, itch medicine, or pain medicine only if prescribed or recommended.",
+      "Do not use leftover antibiotics or steroid medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening pain, or swelling.",
+      "Mouth sores that spread, trouble swallowing, trouble opening your mouth, or face or neck swelling.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dentistry, dermatology, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of mild cuticle irritation.",
+      "No infection, abscess, deep wound, mucosal emergency, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Cellulitis, abscess, deep wound, severe or spreading rash, systemic illness, mucosal emergency, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Cellulitis or abscess.",
+      "Deep-space oral infection when mouth symptoms are present.",
+      "Severe cutaneous adverse reaction.",
+      "Retained foreign body or deep wound."
+    ],
+    "unsafe_modifiers": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "abscess_concern",
+      "abscess_or_boils_or_carbuncle"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_mild_cuticle_irritation_no_paronychia_or_abscess",
+        "terms": [
+          "clinician diagnosis mild cuticle irritation",
+          "discharge diagnosis mild cuticle irritation",
+          "mild cuticle irritation diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_deep_injury_mild_cuticle_irritation_no_paronychia_or_abscess",
+        "terms": [
+          "no infection",
+          "no abscess",
+          "localized irritation only",
+          "no deep wound"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis mild cuticle irritation",
+      "mild cuticle irritation diagnosed",
+      "mild cuticle irritation"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways.",
+    "clinical_status": "reviewed_for_limited_mild_cuticle_irritation_no_paronychia_or_abscess_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of mild cuticle irritation",
+      "localized irritation only",
+      "no infection or abscess",
+      "no deep injury or specialist-directed plan"
+    ],
+    "review_date": "2026-07-07"
+  }
+]

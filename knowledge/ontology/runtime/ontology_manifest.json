@@ -4728,6 +4728,76 @@
       }
     },
     {
+      "id": "foot_abrasion_no_diabetic_foot_or_infection",
+      "label": "Foot abrasion without diabetic foot or infection",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "foot abrasion",
+        "foot abrasion no diabetic foot or infection",
+        "foot abrasion without diabetic foot or infection",
+        "foot scrape",
+        "foot skin abrasion",
+        "wound care"
+      ],
+      "unsafe_modifiers": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern",
+        "diabetic_foot",
+        "peripheral_vascular_disease",
+        "neuropathy_foot_risk",
+        "specialist_directed_podiatry_plan"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_foot_abrasion_no_diabetic_foot_or_infection",
+          "terms": [
+            "clinician diagnosis foot abrasion",
+            "discharge diagnosis foot abrasion",
+            "foot abrasion diagnosed"
+          ]
+        },
+        {
+          "id": "no_deep_wound_or_infection_foot_abrasion_no_diabetic_foot_or_infection",
+          "terms": [
+            "superficial abrasion only",
+            "no infection",
+            "no deep wound",
+            "no debris concern"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis foot abrasion",
+        "foot abrasion diagnosed",
+        "foot abrasion"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports cuts and puncture wound aftercare, keeping wounds clean, and escalation for infection, bleeding, retained foreign body, or deeper structure concerns. This expansion is limited to a clinician-diagnosed superficial abrasion without deep injury, infection, bite, burn, diabetic foot, pregnancy/pediatric, or specialist-directed wound pathways."
+      }
+    },
+    {
       "id": "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot",
       "label": "Foot contusion without fracture or diabetic-foot red flags",
       "status": "reviewed",
@@ -4993,6 +5063,72 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "MedlinePlus supports tendinitis framing, overuse-related tendon pain, activity modification, clinician-directed pain control, and separation from rupture, infection, trauma, or neurovascular compromise. This expansion is limited to clinician-diagnosed uncomplicated foot tendinitis with rupture, fracture, infection, diabetic-foot, and neurovascular red flags absent."
+      }
+    },
+    {
+      "id": "forearm_abrasion_no_deep_wound_or_infection",
+      "label": "Forearm abrasion without deep wound or infection",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "forearm abrasion",
+        "forearm abrasion no deep wound or infection",
+        "forearm abrasion without deep wound or infection",
+        "forearm scrape",
+        "forearm skin abrasion",
+        "wound care"
+      ],
+      "unsafe_modifiers": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_forearm_abrasion_no_deep_wound_or_infection",
+          "terms": [
+            "clinician diagnosis forearm abrasion",
+            "discharge diagnosis forearm abrasion",
+            "forearm abrasion diagnosed"
+          ]
+        },
+        {
+          "id": "no_deep_wound_or_infection_forearm_abrasion_no_deep_wound_or_infection",
+          "terms": [
+            "superficial abrasion only",
+            "no infection",
+            "no deep wound",
+            "no debris concern"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis forearm abrasion",
+        "forearm abrasion diagnosed",
+        "forearm abrasion"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports cuts and puncture wound aftercare, keeping wounds clean, and escalation for infection, bleeding, retained foreign body, or deeper structure concerns. This expansion is limited to a clinician-diagnosed superficial abrasion without deep injury, infection, bite, burn, diabetic foot, pregnancy/pediatric, or specialist-directed wound pathways."
       }
     },
     {
@@ -5401,6 +5537,69 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "MedlinePlus supports sprain/strain care, rest, gradual return to activity, and escalation for severe pain, numbness, weakness, color change, or inability to use the limb. This expansion is limited to clinician-diagnosed uncomplicated gluteal strain with rupture, fracture, and neurovascular red flags absent."
+      }
+    },
+    {
+      "id": "groin_chafing_no_infection_or_genital_lesions",
+      "label": "Groin chafing without infection or genital lesions",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "friction rash groin",
+        "groin chafing",
+        "groin chafing no infection or genital lesions",
+        "groin chafing without infection or genital lesions",
+        "groin skin chafing",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "sti_or_genital_pathway",
+        "genital_ulcers",
+        "near_eye_or_genitals"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_groin_chafing_no_infection_or_genital_lesions",
+          "terms": [
+            "clinician diagnosis groin chafing",
+            "discharge diagnosis groin chafing",
+            "groin chafing diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_deep_injury_groin_chafing_no_infection_or_genital_lesions",
+          "terms": [
+            "no infection",
+            "no abscess",
+            "localized irritation only",
+            "no deep wound"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis groin chafing",
+        "groin chafing diagnosed",
+        "groin chafing"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways."
       }
     },
     {
@@ -5998,6 +6197,70 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "CDC supports heat-rash framing and cooling/drying measures while MedlinePlus supports heat-illness red flags. Autonomous Phase 1651-1700 approved this narrow v1 only for clinician-diagnosed uncomplicated heat rash without heat illness, dehydration, secondary infection, severe/widespread or blistering/peeling rash, systemic illness, pregnancy/pediatric/immunocompromised pathway, or specialist-directed dermatology plan."
+      }
+    },
+    {
+      "id": "heel_chafing_no_diabetic_foot_or_infection",
+      "label": "Heel chafing without diabetic foot or infection",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "friction irritation heel",
+        "heel chafing",
+        "heel chafing no diabetic foot or infection",
+        "heel chafing without diabetic foot or infection",
+        "heel skin chafing",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "diabetic_foot",
+        "peripheral_vascular_disease",
+        "neuropathy_foot_risk",
+        "specialist_directed_podiatry_plan"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_heel_chafing_no_diabetic_foot_or_infection",
+          "terms": [
+            "clinician diagnosis heel chafing",
+            "discharge diagnosis heel chafing",
+            "heel chafing diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_deep_injury_heel_chafing_no_diabetic_foot_or_infection",
+          "terms": [
+            "no infection",
+            "no abscess",
+            "localized irritation only",
+            "no deep wound"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis heel chafing",
+        "heel chafing diagnosed",
+        "heel chafing"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways."
       }
     },
     {
@@ -6617,6 +6880,66 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "NHS supports ingrown-toenail framing, pain/redness/swelling symptoms, warm salty-water soaks, keeping the foot dry, wide footwear, label-safe pain control, and escalation for pus, feverish symptoms, failed home care, diabetes, antibiotics, or podiatry treatment. Autonomous Phase 1501-1550 approved this narrow v1 only for clinician-diagnosed ingrown toenail without abscess, cellulitis, pus, diabetic foot risk, poor circulation, immunocompromised-host pathway, or specialist procedure aftercare."
+      }
+    },
+    {
+      "id": "inner_thigh_chafing_no_infection_or_genital_lesions",
+      "label": "Inner-thigh chafing without infection or genital lesions",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "inner thigh chafing",
+        "inner thigh chafing no infection or genital lesions",
+        "inner thigh skin chafing",
+        "inner-thigh chafing without infection or genital lesions",
+        "skin soft tissue",
+        "thigh chafing"
+      ],
+      "unsafe_modifiers": [
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_inner_thigh_chafing_no_infection_or_genital_lesions",
+          "terms": [
+            "clinician diagnosis inner thigh chafing",
+            "discharge diagnosis inner thigh chafing",
+            "inner thigh chafing diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_deep_injury_inner_thigh_chafing_no_infection_or_genital_lesions",
+          "terms": [
+            "no infection",
+            "no abscess",
+            "localized irritation only",
+            "no deep wound"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis inner thigh chafing",
+        "inner thigh chafing diagnosed",
+        "inner thigh chafing"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways."
       }
     },
     {
@@ -7351,6 +7674,70 @@
       }
     },
     {
+      "id": "localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized athletic-tape contact rash without infection or anaphylaxis",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "athletic tape contact rash",
+        "athletic tape skin rash",
+        "localized athletic tape contact rash",
+        "localized athletic tape contact rash no infection or anaphylaxis",
+        "localized athletic-tape contact rash without infection or anaphylaxis",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "clinician diagnosis localized athletic tape contact rash",
+            "discharge diagnosis localized athletic tape contact rash",
+            "localized athletic tape contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized athletic tape contact rash",
+        "localized athletic tape contact rash diagnosed",
+        "localized athletic tape contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
+      }
+    },
+    {
       "id": "localized_backpack_strap_contact_rash_no_infection_or_anaphylaxis",
       "label": "Localized backpack strap contact rash without infection or anaphylaxis",
       "status": "reviewed",
@@ -7668,6 +8055,70 @@
       }
     },
     {
+      "id": "localized_bracelet_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized bracelet contact rash without infection or anaphylaxis",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "bracelet contact rash",
+        "bracelet skin rash",
+        "localized bracelet contact rash",
+        "localized bracelet contact rash no infection or anaphylaxis",
+        "localized bracelet contact rash without infection or anaphylaxis",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_bracelet_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "clinician diagnosis localized bracelet contact rash",
+            "discharge diagnosis localized bracelet contact rash",
+            "localized bracelet contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_bracelet_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized bracelet contact rash",
+        "localized bracelet contact rash diagnosed",
+        "localized bracelet contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
+      }
+    },
+    {
       "id": "localized_chigger_bites_no_infection_or_anaphylaxis",
       "label": "Localized chigger bites without infection or anaphylaxis",
       "status": "reviewed",
@@ -7923,6 +8374,70 @@
       }
     },
     {
+      "id": "localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized compression-sleeve contact rash without infection or anaphylaxis",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "compression sleeve contact rash",
+        "compression sleeve skin rash",
+        "localized compression sleeve contact rash",
+        "localized compression sleeve contact rash no infection or anaphylaxis",
+        "localized compression-sleeve contact rash without infection or anaphylaxis",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "clinician diagnosis localized compression sleeve contact rash",
+            "discharge diagnosis localized compression sleeve contact rash",
+            "localized compression sleeve contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized compression sleeve contact rash",
+        "localized compression sleeve contact rash diagnosed",
+        "localized compression sleeve contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
+      }
+    },
+    {
       "id": "localized_cosmetic_rash_no_eye_or_anaphylaxis",
       "label": "Localized cosmetic rash without eye or anaphylaxis red flags",
       "status": "reviewed",
@@ -7989,6 +8504,75 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, ocular, or mucosal red flags. This expansion is limited to clinician-diagnosed localized cosmetic exposure skin reaction with anaphylaxis, infection, mucosal, and severe-rash red flags absent."
+      }
+    },
+    {
+      "id": "localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis",
+      "label": "Localized costume-makeup contact rash without eye or anaphylaxis red flags",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "costume makeup contact rash",
+        "costume makeup skin rash",
+        "localized costume makeup contact rash",
+        "localized costume makeup contact rash no eye or anaphylaxis",
+        "localized costume-makeup contact rash without eye or anaphylaxis red flags",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction",
+        "chemical_eye_exposure",
+        "ocular_symptoms",
+        "periorbital_or_orbital_cellulitis_concern"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis",
+          "terms": [
+            "clinician diagnosis localized costume makeup contact rash",
+            "discharge diagnosis localized costume makeup contact rash",
+            "localized costume makeup contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions",
+            "no eye symptoms",
+            "no vision change"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized costume makeup contact rash",
+        "localized costume makeup contact rash diagnosed",
+        "localized costume makeup contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
       }
     },
     {
@@ -8256,6 +8840,70 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to clinician-diagnosed localized earbud contact skin reaction with anaphylaxis, ear canal infection, mastoiditis concern, cellulitis, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
+      }
+    },
+    {
+      "id": "localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized elbow-brace contact rash without infection or anaphylaxis",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "elbow brace contact rash",
+        "elbow brace skin rash",
+        "localized elbow brace contact rash",
+        "localized elbow brace contact rash no infection or anaphylaxis",
+        "localized elbow-brace contact rash without infection or anaphylaxis",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "clinician diagnosis localized elbow brace contact rash",
+            "discharge diagnosis localized elbow brace contact rash",
+            "localized elbow brace contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized elbow brace contact rash",
+        "localized elbow brace contact rash diagnosed",
+        "localized elbow brace contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
       }
     },
     {
@@ -8529,6 +9177,75 @@
       }
     },
     {
+      "id": "localized_face_paint_contact_rash_no_eye_or_anaphylaxis",
+      "label": "Localized face-paint contact rash without eye or anaphylaxis red flags",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "face paint contact rash",
+        "face paint skin rash",
+        "localized face paint contact rash",
+        "localized face paint contact rash no eye or anaphylaxis",
+        "localized face-paint contact rash without eye or anaphylaxis red flags",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction",
+        "chemical_eye_exposure",
+        "ocular_symptoms",
+        "periorbital_or_orbital_cellulitis_concern"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_face_paint_contact_rash_no_eye_or_anaphylaxis",
+          "terms": [
+            "clinician diagnosis localized face paint contact rash",
+            "discharge diagnosis localized face paint contact rash",
+            "localized face paint contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_face_paint_contact_rash_no_eye_or_anaphylaxis",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions",
+            "no eye symptoms",
+            "no vision change"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized face paint contact rash",
+        "localized face paint contact rash diagnosed",
+        "localized face paint contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
+      }
+    },
+    {
       "id": "localized_flea_bites_no_infection_or_anaphylaxis",
       "label": "Localized flea bites without infection or anaphylaxis",
       "status": "reviewed",
@@ -8768,6 +9485,70 @@
       }
     },
     {
+      "id": "localized_hair_clip_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized hair-clip contact rash without infection or anaphylaxis",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "hair clip contact rash",
+        "hair clip skin rash",
+        "localized hair clip contact rash",
+        "localized hair clip contact rash no infection or anaphylaxis",
+        "localized hair-clip contact rash without infection or anaphylaxis",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_hair_clip_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "clinician diagnosis localized hair clip contact rash",
+            "discharge diagnosis localized hair clip contact rash",
+            "localized hair clip contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_hair_clip_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized hair clip contact rash",
+        "localized hair clip contact rash diagnosed",
+        "localized hair clip contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
+      }
+    },
+    {
       "id": "localized_hair_dye_contact_rash_no_eye_or_systemic_red_flags",
       "label": "Localized hair dye rash without eye or systemic red flags",
       "status": "reviewed",
@@ -8966,6 +9747,70 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, ocular, or mucosal red flags. This expansion is limited to clinician-diagnosed localized hand sanitizer irritant skin reaction with anaphylaxis, infection, mucosal, severe-rash, pregnancy/pediatric, and specialist-directed pathways absent."
+      }
+    },
+    {
+      "id": "localized_hat_band_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized hat-band contact rash without infection or anaphylaxis",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "hat band contact rash",
+        "hat band skin rash",
+        "localized hat band contact rash",
+        "localized hat band contact rash no infection or anaphylaxis",
+        "localized hat-band contact rash without infection or anaphylaxis",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_hat_band_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "clinician diagnosis localized hat band contact rash",
+            "discharge diagnosis localized hat band contact rash",
+            "localized hat band contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_hat_band_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized hat band contact rash",
+        "localized hat band contact rash diagnosed",
+        "localized hat band contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
       }
     },
     {
@@ -9227,6 +10072,70 @@
       }
     },
     {
+      "id": "localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized ID-badge clip contact rash without infection or anaphylaxis",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "badge clip skin rash",
+        "id badge clip contact rash",
+        "localized id badge clip contact rash",
+        "localized id badge clip contact rash no infection or anaphylaxis",
+        "localized id-badge clip contact rash without infection or anaphylaxis",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "clinician diagnosis localized id badge clip contact rash",
+            "discharge diagnosis localized id badge clip contact rash",
+            "localized id badge clip contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized id badge clip contact rash",
+        "localized id badge clip contact rash diagnosed",
+        "localized id badge clip contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
+      }
+    },
+    {
       "id": "localized_impetigo_no_cellulitis_or_systemic_symptoms",
       "label": "Localized impetigo without cellulitis or systemic symptoms",
       "status": "reviewed",
@@ -9419,6 +10328,70 @@
       }
     },
     {
+      "id": "localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized kinesiology-tape contact rash without infection or anaphylaxis",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "kinesiology tape contact rash",
+        "kinesiology tape skin rash",
+        "localized kinesiology tape contact rash",
+        "localized kinesiology tape contact rash no infection or anaphylaxis",
+        "localized kinesiology-tape contact rash without infection or anaphylaxis",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "clinician diagnosis localized kinesiology tape contact rash",
+            "discharge diagnosis localized kinesiology tape contact rash",
+            "localized kinesiology tape contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized kinesiology tape contact rash",
+        "localized kinesiology tape contact rash diagnosed",
+        "localized kinesiology tape contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
+      }
+    },
+    {
       "id": "localized_knee_brace_contact_rash_no_infection_or_anaphylaxis",
       "label": "Localized knee brace contact rash without infection or anaphylaxis",
       "status": "reviewed",
@@ -9483,6 +10456,70 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, mucosal, or circulation red flags. This expansion is limited to clinician-diagnosed localized knee brace contact skin reaction with anaphylaxis, infection, mucosal, neurovascular, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
+      }
+    },
+    {
+      "id": "localized_lanyard_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized lanyard contact rash without infection or anaphylaxis",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "lanyard contact rash",
+        "lanyard skin rash",
+        "localized lanyard contact rash",
+        "localized lanyard contact rash no infection or anaphylaxis",
+        "localized lanyard contact rash without infection or anaphylaxis",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_lanyard_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "clinician diagnosis localized lanyard contact rash",
+            "discharge diagnosis localized lanyard contact rash",
+            "localized lanyard contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_lanyard_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized lanyard contact rash",
+        "localized lanyard contact rash diagnosed",
+        "localized lanyard contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
       }
     },
     {
@@ -9927,6 +10964,70 @@
       }
     },
     {
+      "id": "localized_necklace_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized necklace contact rash without infection or anaphylaxis",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "localized necklace contact rash",
+        "localized necklace contact rash no infection or anaphylaxis",
+        "localized necklace contact rash without infection or anaphylaxis",
+        "necklace contact rash",
+        "necklace skin rash",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_necklace_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "clinician diagnosis localized necklace contact rash",
+            "discharge diagnosis localized necklace contact rash",
+            "localized necklace contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_necklace_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized necklace contact rash",
+        "localized necklace contact rash diagnosed",
+        "localized necklace contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
+      }
+    },
+    {
       "id": "localized_oral_herpes_labialis_no_eye_or_immunocompromised_host",
       "label": "Localized oral herpes labialis without eye involvement or immunocompromised host",
       "status": "reviewed",
@@ -10055,6 +11156,70 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, ocular, or mucosal red flags. This expansion is limited to clinician-diagnosed localized perfume contact skin reaction with anaphylaxis, infection, mucosal, severe-rash, pregnancy/pediatric, and specialist-directed pathways absent."
+      }
+    },
+    {
+      "id": "localized_phone_case_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized phone-case contact rash without infection or anaphylaxis",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "localized phone case contact rash",
+        "localized phone case contact rash no infection or anaphylaxis",
+        "localized phone-case contact rash without infection or anaphylaxis",
+        "phone case contact rash",
+        "phone case skin rash",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_phone_case_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "clinician diagnosis localized phone case contact rash",
+            "discharge diagnosis localized phone case contact rash",
+            "localized phone case contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_phone_case_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized phone case contact rash",
+        "localized phone case contact rash diagnosed",
+        "localized phone case contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
       }
     },
     {
@@ -10314,6 +11479,204 @@
       }
     },
     {
+      "id": "localized_ring_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized ring contact rash without infection or anaphylaxis",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "localized ring contact rash",
+        "localized ring contact rash no infection or anaphylaxis",
+        "localized ring contact rash without infection or anaphylaxis",
+        "ring contact rash",
+        "ring skin rash",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_ring_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "clinician diagnosis localized ring contact rash",
+            "discharge diagnosis localized ring contact rash",
+            "localized ring contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_ring_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized ring contact rash",
+        "localized ring contact rash diagnosed",
+        "localized ring contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
+      }
+    },
+    {
+      "id": "localized_rubber_band_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized rubber-band contact rash without infection or anaphylaxis",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "localized rubber band contact rash",
+        "localized rubber band contact rash no infection or anaphylaxis",
+        "localized rubber-band contact rash without infection or anaphylaxis",
+        "rubber band contact rash",
+        "rubber band skin rash",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_rubber_band_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "clinician diagnosis localized rubber band contact rash",
+            "discharge diagnosis localized rubber band contact rash",
+            "localized rubber band contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_rubber_band_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized rubber band contact rash",
+        "localized rubber band contact rash diagnosed",
+        "localized rubber band contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
+      }
+    },
+    {
+      "id": "localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection",
+      "label": "Localized sandal-strap contact rash without diabetic foot or infection",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "localized sandal strap contact rash",
+        "localized sandal strap contact rash no diabetic foot or infection",
+        "localized sandal-strap contact rash without diabetic foot or infection",
+        "sandal strap contact rash",
+        "sandal strap skin rash",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction",
+        "diabetic_foot",
+        "peripheral_vascular_disease",
+        "neuropathy_foot_risk",
+        "specialist_directed_podiatry_plan"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection",
+          "terms": [
+            "clinician diagnosis localized sandal strap contact rash",
+            "discharge diagnosis localized sandal strap contact rash",
+            "localized sandal strap contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions",
+            "not a diabetic foot problem",
+            "no foot ulcer"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized sandal strap contact rash",
+        "localized sandal strap contact rash diagnosed",
+        "localized sandal strap contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
+      }
+    },
+    {
       "id": "localized_shampoo_contact_rash_no_eye_or_systemic_red_flags",
       "label": "Localized shampoo contact rash without eye or systemic red flags",
       "status": "reviewed",
@@ -10521,6 +11884,140 @@
       }
     },
     {
+      "id": "localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection",
+      "label": "Localized shoe-insert contact rash without diabetic foot or infection",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "localized shoe insert contact rash",
+        "localized shoe insert contact rash no diabetic foot or infection",
+        "localized shoe-insert contact rash without diabetic foot or infection",
+        "shoe insert contact rash",
+        "shoe insert skin rash",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction",
+        "diabetic_foot",
+        "peripheral_vascular_disease",
+        "neuropathy_foot_risk",
+        "specialist_directed_podiatry_plan"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection",
+          "terms": [
+            "clinician diagnosis localized shoe insert contact rash",
+            "discharge diagnosis localized shoe insert contact rash",
+            "localized shoe insert contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions",
+            "not a diabetic foot problem",
+            "no foot ulcer"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized shoe insert contact rash",
+        "localized shoe insert contact rash diagnosed",
+        "localized shoe insert contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
+      }
+    },
+    {
+      "id": "localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized shoulder-sling contact rash without infection or anaphylaxis",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "localized shoulder sling contact rash",
+        "localized shoulder sling contact rash no infection or anaphylaxis",
+        "localized shoulder-sling contact rash without infection or anaphylaxis",
+        "shoulder sling contact rash",
+        "shoulder sling skin rash",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "clinician diagnosis localized shoulder sling contact rash",
+            "discharge diagnosis localized shoulder sling contact rash",
+            "localized shoulder sling contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized shoulder sling contact rash",
+        "localized shoulder sling contact rash diagnosed",
+        "localized shoulder sling contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
+      }
+    },
+    {
       "id": "localized_soap_irritant_contact_dermatitis_no_infection_or_anaphylaxis",
       "label": "Localized soap irritant contact dermatitis without infection or anaphylaxis",
       "status": "reviewed",
@@ -10641,6 +12138,70 @@
         "clinician diagnosis localized sock elastic contact rash",
         "localized sock elastic contact rash diagnosed",
         "sock elastic contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
+      }
+    },
+    {
+      "id": "localized_sock_seam_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized sock-seam contact rash without infection or anaphylaxis",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "localized sock seam contact rash",
+        "localized sock seam contact rash no infection or anaphylaxis",
+        "localized sock-seam contact rash without infection or anaphylaxis",
+        "skin soft tissue",
+        "sock seam contact rash",
+        "sock seam skin rash"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_sock_seam_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "clinician diagnosis localized sock seam contact rash",
+            "discharge diagnosis localized sock seam contact rash",
+            "localized sock seam contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_sock_seam_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized sock seam contact rash",
+        "localized sock seam contact rash diagnosed",
+        "localized sock seam contact rash"
       ],
       "output_modifiers": [],
       "source_audit": {
@@ -11223,6 +12784,70 @@
       }
     },
     {
+      "id": "localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis",
+      "label": "Localized wrist-brace contact rash without infection or anaphylaxis",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "localized wrist brace contact rash",
+        "localized wrist brace contact rash no infection or anaphylaxis",
+        "localized wrist-brace contact rash without infection or anaphylaxis",
+        "skin soft tissue",
+        "wrist brace contact rash",
+        "wrist brace skin rash"
+      ],
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "clinician diagnosis localized wrist brace contact rash",
+            "discharge diagnosis localized wrist brace contact rash",
+            "localized wrist brace contact rash diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_systemic_red_flags_localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis",
+          "terms": [
+            "no anaphylaxis",
+            "no infection",
+            "localized reaction only",
+            "no mucosal lesions"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis localized wrist brace contact rash",
+        "localized wrist brace contact rash diagnosed",
+        "localized wrist brace contact rash"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
+      }
+    },
+    {
       "id": "lower_back_contusion_uncomplicated_no_spine_or_neuro_red_flags",
       "label": "Lower back contusion without spine or neurologic red flags",
       "status": "reviewed",
@@ -11683,6 +13308,130 @@
       }
     },
     {
+      "id": "mild_beard_shaving_irritation_no_infection_or_abscess",
+      "label": "Mild beard shaving irritation without infection or abscess",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "beard razor irritation",
+        "beard shaving irritation",
+        "mild beard shaving irritation",
+        "mild beard shaving irritation no infection or abscess",
+        "mild beard shaving irritation without infection or abscess",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "abscess_concern",
+        "abscess_or_boils_or_carbuncle"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_mild_beard_shaving_irritation_no_infection_or_abscess",
+          "terms": [
+            "clinician diagnosis mild beard shaving irritation",
+            "discharge diagnosis mild beard shaving irritation",
+            "mild beard shaving irritation diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_deep_injury_mild_beard_shaving_irritation_no_infection_or_abscess",
+          "terms": [
+            "no infection",
+            "no abscess",
+            "localized irritation only",
+            "no deep wound"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis mild beard shaving irritation",
+        "mild beard shaving irritation diagnosed",
+        "mild beard shaving irritation"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways."
+      }
+    },
+    {
+      "id": "mild_cuticle_irritation_no_paronychia_or_abscess",
+      "label": "Mild cuticle irritation without paronychia or abscess",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "cuticle irritation",
+        "irritated cuticle",
+        "mild cuticle irritation",
+        "mild cuticle irritation no paronychia or abscess",
+        "mild cuticle irritation without paronychia or abscess",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "abscess_concern",
+        "abscess_or_boils_or_carbuncle"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_mild_cuticle_irritation_no_paronychia_or_abscess",
+          "terms": [
+            "clinician diagnosis mild cuticle irritation",
+            "discharge diagnosis mild cuticle irritation",
+            "mild cuticle irritation diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_deep_injury_mild_cuticle_irritation_no_paronychia_or_abscess",
+          "terms": [
+            "no infection",
+            "no abscess",
+            "localized irritation only",
+            "no deep wound"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis mild cuticle irritation",
+        "mild cuticle irritation diagnosed",
+        "mild cuticle irritation"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways."
+      }
+    },
+    {
       "id": "mild_eczema_flare_no_infection_or_systemic_symptoms",
       "label": "Mild eczema flare without infection or systemic symptoms",
       "status": "reviewed",
@@ -11818,6 +13567,258 @@
       }
     },
     {
+      "id": "mild_scalp_irritation_after_haircut_no_infection_or_laceration",
+      "label": "Mild scalp irritation after haircut without infection or laceration",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "haircut scalp irritation",
+        "mild scalp irritation after haircut",
+        "mild scalp irritation after haircut no infection or laceration",
+        "mild scalp irritation after haircut without infection or laceration",
+        "scalp clipper irritation",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "scalp_or_nail_or_beard_fungal_infection",
+        "laceration_repair_needed"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_mild_scalp_irritation_after_haircut_no_infection_or_laceration",
+          "terms": [
+            "clinician diagnosis mild scalp irritation after haircut",
+            "discharge diagnosis mild scalp irritation after haircut",
+            "mild scalp irritation after haircut diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_deep_injury_mild_scalp_irritation_after_haircut_no_infection_or_laceration",
+          "terms": [
+            "no infection",
+            "no abscess",
+            "localized irritation only",
+            "no deep wound"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis mild scalp irritation after haircut",
+        "mild scalp irritation after haircut diagnosed",
+        "mild scalp irritation after haircut"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways."
+      }
+    },
+    {
+      "id": "mild_shaving_irritation_no_infection_or_abscess",
+      "label": "Mild shaving irritation without infection or abscess",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "mild shaving irritation",
+        "mild shaving irritation no infection or abscess",
+        "mild shaving irritation without infection or abscess",
+        "razor irritation",
+        "shaving irritation",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "abscess_concern",
+        "abscess_or_boils_or_carbuncle"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_mild_shaving_irritation_no_infection_or_abscess",
+          "terms": [
+            "clinician diagnosis mild shaving irritation",
+            "discharge diagnosis mild shaving irritation",
+            "mild shaving irritation diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_deep_injury_mild_shaving_irritation_no_infection_or_abscess",
+          "terms": [
+            "no infection",
+            "no abscess",
+            "localized irritation only",
+            "no deep wound"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis mild shaving irritation",
+        "mild shaving irritation diagnosed",
+        "mild shaving irritation"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways."
+      }
+    },
+    {
+      "id": "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection",
+      "label": "Minor braces-wire mouth irritation without deep laceration or infection",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "braces mouth irritation",
+        "braces wire irritation",
+        "dental oral",
+        "minor braces wire mouth irritation",
+        "minor braces wire mouth irritation no deep laceration or infection",
+        "minor braces-wire mouth irritation without deep laceration or infection"
+      ],
+      "unsafe_modifiers": [
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "deep_space_swelling",
+        "peritonsillar_abscess_concern",
+        "systemic_or_recurrent_oral_ulcer_features",
+        "trismus"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection",
+          "terms": [
+            "clinician diagnosis minor braces wire mouth irritation",
+            "discharge diagnosis minor braces wire mouth irritation",
+            "minor braces wire mouth irritation diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_deep_injury_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection",
+          "terms": [
+            "no infection",
+            "no abscess",
+            "localized irritation only",
+            "no deep wound"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis minor braces wire mouth irritation",
+        "minor braces wire mouth irritation diagnosed",
+        "minor braces wire mouth irritation"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways."
+      }
+    },
+    {
+      "id": "minor_denture_sore_spot_no_infection_or_deep_ulcer",
+      "label": "Minor denture sore spot without infection or deep ulcer",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "dental oral",
+        "denture irritation",
+        "denture sore spot",
+        "minor denture sore spot",
+        "minor denture sore spot no infection or deep ulcer",
+        "minor denture sore spot without infection or deep ulcer"
+      ],
+      "unsafe_modifiers": [
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "deep_space_swelling",
+        "peritonsillar_abscess_concern",
+        "systemic_or_recurrent_oral_ulcer_features",
+        "trismus"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_minor_denture_sore_spot_no_infection_or_deep_ulcer",
+          "terms": [
+            "clinician diagnosis minor denture sore spot",
+            "discharge diagnosis minor denture sore spot",
+            "minor denture sore spot diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_deep_injury_minor_denture_sore_spot_no_infection_or_deep_ulcer",
+          "terms": [
+            "no infection",
+            "no abscess",
+            "localized irritation only",
+            "no deep wound"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis minor denture sore spot",
+        "minor denture sore spot diagnosed",
+        "minor denture sore spot"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways."
+      }
+    },
+    {
       "id": "minor_head_injury_no_red_flags",
       "label": "Minor head injury without red flags",
       "status": "reviewed",
@@ -11849,6 +13850,70 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "CDC concussion guidance supports delayed symptoms, emergency danger signs, and gradual activity return after minor head trauma or possible concussion."
+      }
+    },
+    {
+      "id": "minor_inner_cheek_bite_no_deep_laceration_or_infection",
+      "label": "Minor inner-cheek bite without deep laceration or infection",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "cheek bite",
+        "dental oral",
+        "inner cheek bite",
+        "minor inner cheek bite",
+        "minor inner cheek bite no deep laceration or infection",
+        "minor inner-cheek bite without deep laceration or infection"
+      ],
+      "unsafe_modifiers": [
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "deep_space_swelling",
+        "peritonsillar_abscess_concern",
+        "systemic_or_recurrent_oral_ulcer_features",
+        "trismus"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_minor_inner_cheek_bite_no_deep_laceration_or_infection",
+          "terms": [
+            "clinician diagnosis minor inner cheek bite",
+            "discharge diagnosis minor inner cheek bite",
+            "minor inner cheek bite diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_deep_injury_minor_inner_cheek_bite_no_deep_laceration_or_infection",
+          "terms": [
+            "no infection",
+            "no abscess",
+            "localized irritation only",
+            "no deep wound"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis minor inner cheek bite",
+        "minor inner cheek bite diagnosed",
+        "minor inner cheek bite"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways."
       }
     },
     {
@@ -12456,6 +14521,66 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "MedlinePlus supports nausea/vomiting supportive care, hydration, gradual return to food, and escalation for inability to keep fluids down, dehydration, abdominal pain, fever, blood, or prolonged symptoms. Autonomous Phase 1002-1500 approved this narrow v1 only for clinician-diagnosed nausea/vomiting with stable vitals, successful oral hydration, no abdominal pain, no diarrhea/gastroenteritis phenotype, and no surgical, pregnancy, neurologic, toxicologic, or high-risk host pathway."
+      }
+    },
+    {
+      "id": "neck_chafing_no_infection_or_systemic_skin_disease",
+      "label": "Neck chafing without infection or systemic skin disease",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "friction rash on neck",
+        "neck chafing",
+        "neck chafing no infection or systemic skin disease",
+        "neck chafing without infection or systemic skin disease",
+        "neck skin chafing",
+        "skin soft tissue"
+      ],
+      "unsafe_modifiers": [
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_neck_chafing_no_infection_or_systemic_skin_disease",
+          "terms": [
+            "clinician diagnosis neck chafing",
+            "discharge diagnosis neck chafing",
+            "neck chafing diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_deep_injury_neck_chafing_no_infection_or_systemic_skin_disease",
+          "terms": [
+            "no infection",
+            "no abscess",
+            "localized irritation only",
+            "no deep wound"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis neck chafing",
+        "neck chafing diagnosed",
+        "neck chafing"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways."
       }
     },
     {
@@ -13876,6 +16001,72 @@
       }
     },
     {
+      "id": "shin_abrasion_no_deep_wound_or_infection",
+      "label": "Shin abrasion without deep wound or infection",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "shin abrasion",
+        "shin abrasion no deep wound or infection",
+        "shin abrasion without deep wound or infection",
+        "shin scrape",
+        "shin skin abrasion",
+        "wound care"
+      ],
+      "unsafe_modifiers": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_shin_abrasion_no_deep_wound_or_infection",
+          "terms": [
+            "clinician diagnosis shin abrasion",
+            "discharge diagnosis shin abrasion",
+            "shin abrasion diagnosed"
+          ]
+        },
+        {
+          "id": "no_deep_wound_or_infection_shin_abrasion_no_deep_wound_or_infection",
+          "terms": [
+            "superficial abrasion only",
+            "no infection",
+            "no deep wound",
+            "no debris concern"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis shin abrasion",
+        "shin abrasion diagnosed",
+        "shin abrasion"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports cuts and puncture wound aftercare, keeping wounds clean, and escalation for infection, bleeding, retained foreign body, or deeper structure concerns. This expansion is limited to a clinician-diagnosed superficial abrasion without deep injury, infection, bite, burn, diabetic foot, pregnancy/pediatric, or specialist-directed wound pathways."
+      }
+    },
+    {
       "id": "shin_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
       "label": "Shin contusion without fracture or neurovascular red flags",
       "status": "reviewed",
@@ -13929,6 +16120,72 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "MedlinePlus bruise material supports contusion self-care, expected symptom course, and escalation for worsening pain, swelling, or concerning symptoms. This expansion is limited to clinician-diagnosed shin contusion with fracture, wound, infection, and neurovascular red flags absent."
+      }
+    },
+    {
+      "id": "shoulder_abrasion_no_deep_wound_or_infection",
+      "label": "Shoulder abrasion without deep wound or infection",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "shoulder abrasion",
+        "shoulder abrasion no deep wound or infection",
+        "shoulder abrasion without deep wound or infection",
+        "shoulder scrape",
+        "shoulder skin abrasion",
+        "wound care"
+      ],
+      "unsafe_modifiers": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_shoulder_abrasion_no_deep_wound_or_infection",
+          "terms": [
+            "clinician diagnosis shoulder abrasion",
+            "discharge diagnosis shoulder abrasion",
+            "shoulder abrasion diagnosed"
+          ]
+        },
+        {
+          "id": "no_deep_wound_or_infection_shoulder_abrasion_no_deep_wound_or_infection",
+          "terms": [
+            "superficial abrasion only",
+            "no infection",
+            "no deep wound",
+            "no debris concern"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis shoulder abrasion",
+        "shoulder abrasion diagnosed",
+        "shoulder abrasion"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports cuts and puncture wound aftercare, keeping wounds clean, and escalation for infection, bleeding, retained foreign body, or deeper structure concerns. This expansion is limited to a clinician-diagnosed superficial abrasion without deep injury, infection, bite, burn, diabetic foot, pregnancy/pediatric, or specialist-directed wound pathways."
       }
     },
     {
@@ -15165,6 +17422,72 @@
       }
     },
     {
+      "id": "thigh_abrasion_no_deep_wound_or_infection",
+      "label": "Thigh abrasion without deep wound or infection",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "thigh abrasion",
+        "thigh abrasion no deep wound or infection",
+        "thigh abrasion without deep wound or infection",
+        "thigh scrape",
+        "thigh skin abrasion",
+        "wound care"
+      ],
+      "unsafe_modifiers": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_thigh_abrasion_no_deep_wound_or_infection",
+          "terms": [
+            "clinician diagnosis thigh abrasion",
+            "discharge diagnosis thigh abrasion",
+            "thigh abrasion diagnosed"
+          ]
+        },
+        {
+          "id": "no_deep_wound_or_infection_thigh_abrasion_no_deep_wound_or_infection",
+          "terms": [
+            "superficial abrasion only",
+            "no infection",
+            "no deep wound",
+            "no debris concern"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis thigh abrasion",
+        "thigh abrasion diagnosed",
+        "thigh abrasion"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports cuts and puncture wound aftercare, keeping wounds clean, and escalation for infection, bleeding, retained foreign body, or deeper structure concerns. This expansion is limited to a clinician-diagnosed superficial abrasion without deep injury, infection, bite, burn, diabetic foot, pregnancy/pediatric, or specialist-directed wound pathways."
+      }
+    },
+    {
       "id": "thigh_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
       "label": "Thigh contusion without fracture or neurovascular red flags",
       "status": "reviewed",
@@ -15776,6 +18099,76 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "MedlinePlus supports TMJ-disorder framing and supportive care such as jaw rest and avoiding hard chewing. Autonomous Phase 1901-2000 approved this narrow v1 only for clinician-diagnosed uncomplicated TMJ pain/disorder without dental/deep-space infection, trismus, airway symptoms, trauma/fracture concern, neurologic deficit, cardiac mimic, pregnancy/pediatric pathway, or specialist-directed plan."
+      }
+    },
+    {
+      "id": "toe_abrasion_no_diabetic_foot_or_infection",
+      "label": "Toe abrasion without diabetic foot or infection",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "toe abrasion",
+        "toe abrasion no diabetic foot or infection",
+        "toe abrasion without diabetic foot or infection",
+        "toe scrape",
+        "toe skin abrasion",
+        "wound care"
+      ],
+      "unsafe_modifiers": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern",
+        "diabetic_foot",
+        "peripheral_vascular_disease",
+        "neuropathy_foot_risk",
+        "specialist_directed_podiatry_plan"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_toe_abrasion_no_diabetic_foot_or_infection",
+          "terms": [
+            "clinician diagnosis toe abrasion",
+            "discharge diagnosis toe abrasion",
+            "toe abrasion diagnosed"
+          ]
+        },
+        {
+          "id": "no_deep_wound_or_infection_toe_abrasion_no_diabetic_foot_or_infection",
+          "terms": [
+            "superficial abrasion only",
+            "no infection",
+            "no deep wound",
+            "no debris concern"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis toe abrasion",
+        "toe abrasion diagnosed",
+        "toe abrasion"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports cuts and puncture wound aftercare, keeping wounds clean, and escalation for infection, bleeding, retained foreign body, or deeper structure concerns. This expansion is limited to a clinician-diagnosed superficial abrasion without deep injury, infection, bite, burn, diabetic foot, pregnancy/pediatric, or specialist-directed wound pathways."
       }
     },
     {
@@ -16614,6 +19007,132 @@
       }
     },
     {
+      "id": "underarm_chafing_no_infection_or_abscess",
+      "label": "Underarm chafing without infection or abscess",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "armpit chafing",
+        "skin soft tissue",
+        "underarm chafing",
+        "underarm chafing no infection or abscess",
+        "underarm chafing without infection or abscess",
+        "underarm skin chafing"
+      ],
+      "unsafe_modifiers": [
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_underarm_chafing_no_infection_or_abscess",
+          "terms": [
+            "clinician diagnosis underarm chafing",
+            "discharge diagnosis underarm chafing",
+            "underarm chafing diagnosed"
+          ]
+        },
+        {
+          "id": "no_infection_or_deep_injury_underarm_chafing_no_infection_or_abscess",
+          "terms": [
+            "no infection",
+            "no abscess",
+            "localized irritation only",
+            "no deep wound"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis underarm chafing",
+        "underarm chafing diagnosed",
+        "underarm chafing"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways."
+      }
+    },
+    {
+      "id": "upper_arm_abrasion_no_deep_wound_or_infection",
+      "label": "Upper-arm abrasion without deep wound or infection",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "upper arm abrasion",
+        "upper arm abrasion no deep wound or infection",
+        "upper arm scrape",
+        "upper arm skin abrasion",
+        "upper-arm abrasion without deep wound or infection",
+        "wound care"
+      ],
+      "unsafe_modifiers": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_upper_arm_abrasion_no_deep_wound_or_infection",
+          "terms": [
+            "clinician diagnosis upper arm abrasion",
+            "discharge diagnosis upper arm abrasion",
+            "upper arm abrasion diagnosed"
+          ]
+        },
+        {
+          "id": "no_deep_wound_or_infection_upper_arm_abrasion_no_deep_wound_or_infection",
+          "terms": [
+            "superficial abrasion only",
+            "no infection",
+            "no deep wound",
+            "no debris concern"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis upper arm abrasion",
+        "upper arm abrasion diagnosed",
+        "upper arm abrasion"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports cuts and puncture wound aftercare, keeping wounds clean, and escalation for infection, bleeding, retained foreign body, or deeper structure concerns. This expansion is limited to a clinician-diagnosed superficial abrasion without deep injury, infection, bite, burn, diabetic foot, pregnancy/pediatric, or specialist-directed wound pathways."
+      }
+    },
+    {
       "id": "upper_arm_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
       "label": "Upper arm contusion without fracture or neurovascular red flags",
       "status": "reviewed",
@@ -16968,6 +19487,74 @@
         "restricted_source_risk": false,
         "unsafe_without_modifier": false,
         "notes": "MedlinePlus supports viral URI supportive care and escalation symptoms. AHRQ supports antibiotic stewardship for uncomplicated viral URI."
+      }
+    },
+    {
+      "id": "wrist_abrasion_no_tendon_or_infection",
+      "label": "Wrist abrasion without tendon injury or infection",
+      "status": "reviewed",
+      "review_status": "reviewed",
+      "version": 1,
+      "condition_terms": [
+        "wound care",
+        "wrist abrasion",
+        "wrist abrasion no tendon or infection",
+        "wrist abrasion without tendon injury or infection",
+        "wrist scrape",
+        "wrist skin abrasion"
+      ],
+      "unsafe_modifiers": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern",
+        "hand_tendon_risk",
+        "joint_violation"
+      ],
+      "required_context": [
+        {
+          "id": "clinician_diagnosis_wrist_abrasion_no_tendon_or_infection",
+          "terms": [
+            "clinician diagnosis wrist abrasion",
+            "discharge diagnosis wrist abrasion",
+            "wrist abrasion diagnosed"
+          ]
+        },
+        {
+          "id": "no_deep_wound_or_infection_wrist_abrasion_no_tendon_or_infection",
+          "terms": [
+            "superficial abrasion only",
+            "no infection",
+            "no deep wound",
+            "no debris concern"
+          ]
+        }
+      ],
+      "high_confidence_terms": [
+        "clinician diagnosis wrist abrasion",
+        "wrist abrasion diagnosed",
+        "wrist abrasion"
+      ],
+      "output_modifiers": [],
+      "source_audit": {
+        "source_supported": true,
+        "source_needed": false,
+        "clinician_judgment_only": false,
+        "restricted_source_risk": false,
+        "unsafe_without_modifier": false,
+        "notes": "MedlinePlus supports cuts and puncture wound aftercare, keeping wounds clean, and escalation for infection, bleeding, retained foreign body, or deeper structure concerns. This expansion is limited to a clinician-diagnosed superficial abrasion without deep injury, infection, bite, burn, diabetic foot, pregnancy/pediatric, or specialist-directed wound pathways."
       }
     },
     {

@@ -116,6 +116,336 @@
     }
   },
   {
+    "case_id": "phase10001_localized_ring_contact_rash_no_infection_or_anaphylaxis_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_ring_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized ring contact rash",
+        "ring contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10101_localized_ring_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_ring_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_ring_contact_rash_no_infection_or_anaphylaxis",
+        "no_infection_or_systemic_red_flags_localized_ring_contact_rash_no_infection_or_anaphylaxis"
+      ],
+      "modifiers": [
+        "localized ring contact rash",
+        "ring contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_ring_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_ring_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized ring contact rash",
+        "ring contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10002_localized_bracelet_contact_rash_no_infection_or_anaphylaxis_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_bracelet_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "bracelet contact rash",
+        "localized bracelet contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10102_localized_bracelet_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_bracelet_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_bracelet_contact_rash_no_infection_or_anaphylaxis",
+        "no_infection_or_systemic_red_flags_localized_bracelet_contact_rash_no_infection_or_anaphylaxis"
+      ],
+      "modifiers": [
+        "bracelet contact rash",
+        "localized bracelet contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_bracelet_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_bracelet_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "bracelet contact rash",
+        "localized bracelet contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10003_localized_necklace_contact_rash_no_infection_or_anaphylaxis_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_necklace_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized necklace contact rash",
+        "necklace contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10103_localized_necklace_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_necklace_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_necklace_contact_rash_no_infection_or_anaphylaxis",
+        "no_infection_or_systemic_red_flags_localized_necklace_contact_rash_no_infection_or_anaphylaxis"
+      ],
+      "modifiers": [
+        "localized necklace contact rash",
+        "necklace contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_necklace_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_necklace_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized necklace contact rash",
+        "necklace contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10004_localized_lanyard_contact_rash_no_infection_or_anaphylaxis_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_lanyard_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "lanyard contact rash",
+        "localized lanyard contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10104_localized_lanyard_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_lanyard_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_lanyard_contact_rash_no_infection_or_anaphylaxis",
+        "no_infection_or_systemic_red_flags_localized_lanyard_contact_rash_no_infection_or_anaphylaxis"
+      ],
+      "modifiers": [
+        "lanyard contact rash",
+        "localized lanyard contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_lanyard_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_lanyard_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "lanyard contact rash",
+        "localized lanyard contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10005_localized_hat_band_contact_rash_no_infection_or_anaphylaxis_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_hat_band_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "hat band contact rash",
+        "localized hat band contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10105_localized_hat_band_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_hat_band_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_hat_band_contact_rash_no_infection_or_anaphylaxis",
+        "no_infection_or_systemic_red_flags_localized_hat_band_contact_rash_no_infection_or_anaphylaxis"
+      ],
+      "modifiers": [
+        "hat band contact rash",
+        "localized hat band contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_hat_band_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_hat_band_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "hat band contact rash",
+        "localized hat band contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
     "case_id": "phase1002_cerumen_impaction_clean",
     "passed": true,
     "result": {
@@ -358,6 +688,2296 @@
       "missing_required_context": [],
       "modifiers": [
         "atraumatic knee pain"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10251_localized_face_paint_contact_rash_no_eye_or_anaphylaxis_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_face_paint_contact_rash_no_eye_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "face paint contact rash",
+        "localized face paint contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10351_localized_face_paint_contact_rash_no_eye_or_anaphylaxis_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_face_paint_contact_rash_no_eye_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_face_paint_contact_rash_no_eye_or_anaphylaxis",
+        "no_infection_or_systemic_red_flags_localized_face_paint_contact_rash_no_eye_or_anaphylaxis"
+      ],
+      "modifiers": [
+        "face paint contact rash",
+        "localized face paint contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_face_paint_contact_rash_no_eye_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_face_paint_contact_rash_no_eye_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "chemical_eye_exposure",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "ocular_symptoms",
+        "pediatric_pathway",
+        "periorbital_or_orbital_cellulitis_concern",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "face paint contact rash",
+        "localized face paint contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10252_localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "costume makeup contact rash",
+        "localized costume makeup contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10352_localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis",
+        "no_infection_or_systemic_red_flags_localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis"
+      ],
+      "modifiers": [
+        "costume makeup contact rash",
+        "localized costume makeup contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "chemical_eye_exposure",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "ocular_symptoms",
+        "pediatric_pathway",
+        "periorbital_or_orbital_cellulitis_concern",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "costume makeup contact rash",
+        "localized costume makeup contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10253_localized_hair_clip_contact_rash_no_infection_or_anaphylaxis_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_hair_clip_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "hair clip contact rash",
+        "localized hair clip contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10353_localized_hair_clip_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_hair_clip_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_hair_clip_contact_rash_no_infection_or_anaphylaxis",
+        "no_infection_or_systemic_red_flags_localized_hair_clip_contact_rash_no_infection_or_anaphylaxis"
+      ],
+      "modifiers": [
+        "hair clip contact rash",
+        "localized hair clip contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_hair_clip_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_hair_clip_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "hair clip contact rash",
+        "localized hair clip contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10254_localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "athletic tape contact rash",
+        "localized athletic tape contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10354_localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis",
+        "no_infection_or_systemic_red_flags_localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis"
+      ],
+      "modifiers": [
+        "athletic tape contact rash",
+        "localized athletic tape contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "athletic tape contact rash",
+        "localized athletic tape contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10255_localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "kinesiology tape contact rash",
+        "localized kinesiology tape contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10355_localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis",
+        "no_infection_or_systemic_red_flags_localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis"
+      ],
+      "modifiers": [
+        "kinesiology tape contact rash",
+        "localized kinesiology tape contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "kinesiology tape contact rash",
+        "localized kinesiology tape contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10501_localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "compression sleeve contact rash",
+        "localized compression sleeve contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10601_localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis",
+        "no_infection_or_systemic_red_flags_localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis"
+      ],
+      "modifiers": [
+        "compression sleeve contact rash",
+        "localized compression sleeve contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "compression sleeve contact rash",
+        "localized compression sleeve contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10502_localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized wrist brace contact rash",
+        "wrist brace contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10602_localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis",
+        "no_infection_or_systemic_red_flags_localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis"
+      ],
+      "modifiers": [
+        "localized wrist brace contact rash",
+        "wrist brace contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized wrist brace contact rash",
+        "wrist brace contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10503_localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "elbow brace contact rash",
+        "localized elbow brace contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10603_localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis",
+        "no_infection_or_systemic_red_flags_localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis"
+      ],
+      "modifiers": [
+        "elbow brace contact rash",
+        "localized elbow brace contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "elbow brace contact rash",
+        "localized elbow brace contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10504_localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized shoulder sling contact rash",
+        "shoulder sling contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10604_localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis",
+        "no_infection_or_systemic_red_flags_localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis"
+      ],
+      "modifiers": [
+        "localized shoulder sling contact rash",
+        "shoulder sling contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized shoulder sling contact rash",
+        "shoulder sling contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10505_localized_sock_seam_contact_rash_no_infection_or_anaphylaxis_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_sock_seam_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized sock seam contact rash",
+        "sock seam contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10605_localized_sock_seam_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_sock_seam_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_sock_seam_contact_rash_no_infection_or_anaphylaxis",
+        "no_infection_or_systemic_red_flags_localized_sock_seam_contact_rash_no_infection_or_anaphylaxis"
+      ],
+      "modifiers": [
+        "localized sock seam contact rash",
+        "sock seam contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_sock_seam_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_sock_seam_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized sock seam contact rash",
+        "sock seam contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10751_localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized shoe insert contact rash",
+        "shoe insert contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10851_localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection",
+        "no_infection_or_systemic_red_flags_localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection"
+      ],
+      "modifiers": [
+        "localized shoe insert contact rash",
+        "shoe insert contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "diabetic_foot",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "neuropathy_foot_risk",
+        "pediatric_pathway",
+        "peripheral_vascular_disease",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "specialist_directed_podiatry_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized shoe insert contact rash",
+        "shoe insert contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10752_localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized sandal strap contact rash",
+        "sandal strap contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10852_localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection",
+        "no_infection_or_systemic_red_flags_localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection"
+      ],
+      "modifiers": [
+        "localized sandal strap contact rash",
+        "sandal strap contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "diabetic_foot",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "neuropathy_foot_risk",
+        "pediatric_pathway",
+        "peripheral_vascular_disease",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "specialist_directed_podiatry_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized sandal strap contact rash",
+        "sandal strap contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10753_localized_rubber_band_contact_rash_no_infection_or_anaphylaxis_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_rubber_band_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized rubber band contact rash",
+        "rubber band contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10853_localized_rubber_band_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_rubber_band_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_rubber_band_contact_rash_no_infection_or_anaphylaxis",
+        "no_infection_or_systemic_red_flags_localized_rubber_band_contact_rash_no_infection_or_anaphylaxis"
+      ],
+      "modifiers": [
+        "localized rubber band contact rash",
+        "rubber band contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_rubber_band_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_rubber_band_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized rubber band contact rash",
+        "rubber band contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10754_localized_phone_case_contact_rash_no_infection_or_anaphylaxis_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_phone_case_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized phone case contact rash",
+        "phone case contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10854_localized_phone_case_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_phone_case_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_phone_case_contact_rash_no_infection_or_anaphylaxis",
+        "no_infection_or_systemic_red_flags_localized_phone_case_contact_rash_no_infection_or_anaphylaxis"
+      ],
+      "modifiers": [
+        "localized phone case contact rash",
+        "phone case contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_phone_case_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_phone_case_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized phone case contact rash",
+        "phone case contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase10755_localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "id badge clip contact rash",
+        "localized id badge clip contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase10855_localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis",
+        "no_infection_or_systemic_red_flags_localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis"
+      ],
+      "modifiers": [
+        "id badge clip contact rash",
+        "localized id badge clip contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "id badge clip contact rash",
+        "localized id badge clip contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11001_forearm_abrasion_no_deep_wound_or_infection_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "forearm_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "forearm abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11101_forearm_abrasion_no_deep_wound_or_infection_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "forearm_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_forearm_abrasion_no_deep_wound_or_infection",
+        "no_deep_wound_or_infection_forearm_abrasion_no_deep_wound_or_infection"
+      ],
+      "modifiers": [
+        "forearm abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_forearm_abrasion_no_deep_wound_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "forearm_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "forearm abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11002_shin_abrasion_no_deep_wound_or_infection_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "shin_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "shin abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11102_shin_abrasion_no_deep_wound_or_infection_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "shin_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_shin_abrasion_no_deep_wound_or_infection",
+        "no_deep_wound_or_infection_shin_abrasion_no_deep_wound_or_infection"
+      ],
+      "modifiers": [
+        "shin abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_shin_abrasion_no_deep_wound_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "shin_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "shin abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11003_shoulder_abrasion_no_deep_wound_or_infection_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "shoulder_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "shoulder abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11103_shoulder_abrasion_no_deep_wound_or_infection_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "shoulder_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_shoulder_abrasion_no_deep_wound_or_infection",
+        "no_deep_wound_or_infection_shoulder_abrasion_no_deep_wound_or_infection"
+      ],
+      "modifiers": [
+        "shoulder abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_shoulder_abrasion_no_deep_wound_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "shoulder_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "shoulder abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11004_wrist_abrasion_no_tendon_or_infection_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_abrasion_no_tendon_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11104_wrist_abrasion_no_tendon_or_infection_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_abrasion_no_tendon_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_wrist_abrasion_no_tendon_or_infection",
+        "no_deep_wound_or_infection_wrist_abrasion_no_tendon_or_infection"
+      ],
+      "modifiers": [
+        "wrist abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_wrist_abrasion_no_tendon_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_abrasion_no_tendon_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "hand_tendon_risk",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "joint_violation",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11005_foot_abrasion_no_diabetic_foot_or_infection_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_abrasion_no_diabetic_foot_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "foot abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11105_foot_abrasion_no_diabetic_foot_or_infection_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_abrasion_no_diabetic_foot_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_foot_abrasion_no_diabetic_foot_or_infection",
+        "no_deep_wound_or_infection_foot_abrasion_no_diabetic_foot_or_infection"
+      ],
+      "modifiers": [
+        "foot abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_foot_abrasion_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_abrasion_no_diabetic_foot_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "diabetic_foot",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "neuropathy_foot_risk",
+        "open_wound",
+        "pediatric_pathway",
+        "peripheral_vascular_disease",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_podiatry_plan",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "foot abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11251_toe_abrasion_no_diabetic_foot_or_infection_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "toe_abrasion_no_diabetic_foot_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "toe abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11351_toe_abrasion_no_diabetic_foot_or_infection_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "toe_abrasion_no_diabetic_foot_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_toe_abrasion_no_diabetic_foot_or_infection",
+        "no_deep_wound_or_infection_toe_abrasion_no_diabetic_foot_or_infection"
+      ],
+      "modifiers": [
+        "toe abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_toe_abrasion_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "toe_abrasion_no_diabetic_foot_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "diabetic_foot",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "neuropathy_foot_risk",
+        "open_wound",
+        "pediatric_pathway",
+        "peripheral_vascular_disease",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_podiatry_plan",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "toe abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11252_thigh_abrasion_no_deep_wound_or_infection_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "thigh_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "thigh abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11352_thigh_abrasion_no_deep_wound_or_infection_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "thigh_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_thigh_abrasion_no_deep_wound_or_infection",
+        "no_deep_wound_or_infection_thigh_abrasion_no_deep_wound_or_infection"
+      ],
+      "modifiers": [
+        "thigh abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_thigh_abrasion_no_deep_wound_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "thigh_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "thigh abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11253_upper_arm_abrasion_no_deep_wound_or_infection_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "upper_arm_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "upper arm abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11353_upper_arm_abrasion_no_deep_wound_or_infection_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "upper_arm_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_upper_arm_abrasion_no_deep_wound_or_infection",
+        "no_deep_wound_or_infection_upper_arm_abrasion_no_deep_wound_or_infection"
+      ],
+      "modifiers": [
+        "upper arm abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_upper_arm_abrasion_no_deep_wound_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "upper_arm_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "upper arm abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11254_minor_inner_cheek_bite_no_deep_laceration_or_infection_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "minor_inner_cheek_bite_no_deep_laceration_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "cheek bite",
+        "inner cheek bite",
+        "minor inner cheek bite"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11354_minor_inner_cheek_bite_no_deep_laceration_or_infection_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "minor_inner_cheek_bite_no_deep_laceration_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_minor_inner_cheek_bite_no_deep_laceration_or_infection",
+        "no_infection_or_deep_injury_minor_inner_cheek_bite_no_deep_laceration_or_infection"
+      ],
+      "modifiers": [
+        "cheek bite",
+        "inner cheek bite",
+        "minor inner cheek bite"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_minor_inner_cheek_bite_no_deep_laceration_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "minor_inner_cheek_bite_no_deep_laceration_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "deep_space_swelling",
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "peritonsillar_abscess_concern",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_or_recurrent_oral_ulcer_features",
+        "trismus"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "cheek bite",
+        "inner cheek bite",
+        "minor inner cheek bite"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11255_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "minor braces wire mouth irritation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11355_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection",
+        "no_infection_or_deep_injury_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection"
+      ],
+      "modifiers": [
+        "minor braces wire mouth irritation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "deep_space_swelling",
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "peritonsillar_abscess_concern",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_or_recurrent_oral_ulcer_features",
+        "trismus"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "minor braces wire mouth irritation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11501_minor_denture_sore_spot_no_infection_or_deep_ulcer_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "minor_denture_sore_spot_no_infection_or_deep_ulcer",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "denture sore spot",
+        "minor denture sore spot"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11601_minor_denture_sore_spot_no_infection_or_deep_ulcer_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "minor_denture_sore_spot_no_infection_or_deep_ulcer",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_minor_denture_sore_spot_no_infection_or_deep_ulcer",
+        "no_infection_or_deep_injury_minor_denture_sore_spot_no_infection_or_deep_ulcer"
+      ],
+      "modifiers": [
+        "denture sore spot",
+        "minor denture sore spot"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_minor_denture_sore_spot_no_infection_or_deep_ulcer_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "minor_denture_sore_spot_no_infection_or_deep_ulcer",
+      "confidence": 0.78,
+      "exclusions": [
+        "deep_space_swelling",
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "peritonsillar_abscess_concern",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_or_recurrent_oral_ulcer_features",
+        "trismus"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "denture sore spot",
+        "minor denture sore spot"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11502_inner_thigh_chafing_no_infection_or_genital_lesions_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "inner_thigh_chafing_no_infection_or_genital_lesions",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "inner thigh chafing",
+        "thigh chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11602_inner_thigh_chafing_no_infection_or_genital_lesions_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "inner_thigh_chafing_no_infection_or_genital_lesions",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_inner_thigh_chafing_no_infection_or_genital_lesions",
+        "no_infection_or_deep_injury_inner_thigh_chafing_no_infection_or_genital_lesions"
+      ],
+      "modifiers": [
+        "inner thigh chafing",
+        "thigh chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_inner_thigh_chafing_no_infection_or_genital_lesions_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "inner_thigh_chafing_no_infection_or_genital_lesions",
+      "confidence": 0.78,
+      "exclusions": [
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "inner thigh chafing",
+        "thigh chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11503_underarm_chafing_no_infection_or_abscess_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "underarm_chafing_no_infection_or_abscess",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "underarm chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11603_underarm_chafing_no_infection_or_abscess_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "underarm_chafing_no_infection_or_abscess",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_underarm_chafing_no_infection_or_abscess",
+        "no_infection_or_deep_injury_underarm_chafing_no_infection_or_abscess"
+      ],
+      "modifiers": [
+        "underarm chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_underarm_chafing_no_infection_or_abscess_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "underarm_chafing_no_infection_or_abscess",
+      "confidence": 0.78,
+      "exclusions": [
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "underarm chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11504_neck_chafing_no_infection_or_systemic_skin_disease_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "neck_chafing_no_infection_or_systemic_skin_disease",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "neck chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11604_neck_chafing_no_infection_or_systemic_skin_disease_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "neck_chafing_no_infection_or_systemic_skin_disease",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_neck_chafing_no_infection_or_systemic_skin_disease",
+        "no_infection_or_deep_injury_neck_chafing_no_infection_or_systemic_skin_disease"
+      ],
+      "modifiers": [
+        "neck chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_neck_chafing_no_infection_or_systemic_skin_disease_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "neck_chafing_no_infection_or_systemic_skin_disease",
+      "confidence": 0.78,
+      "exclusions": [
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "neck chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11505_heel_chafing_no_diabetic_foot_or_infection_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "heel_chafing_no_diabetic_foot_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "heel chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11605_heel_chafing_no_diabetic_foot_or_infection_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "heel_chafing_no_diabetic_foot_or_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_heel_chafing_no_diabetic_foot_or_infection",
+        "no_infection_or_deep_injury_heel_chafing_no_diabetic_foot_or_infection"
+      ],
+      "modifiers": [
+        "heel chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_heel_chafing_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "heel_chafing_no_diabetic_foot_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "diabetic_foot",
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "neuropathy_foot_risk",
+        "pediatric_pathway",
+        "peripheral_vascular_disease",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "specialist_directed_podiatry_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "heel chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11751_groin_chafing_no_infection_or_genital_lesions_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "groin_chafing_no_infection_or_genital_lesions",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "groin chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11851_groin_chafing_no_infection_or_genital_lesions_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "groin_chafing_no_infection_or_genital_lesions",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_groin_chafing_no_infection_or_genital_lesions",
+        "no_infection_or_deep_injury_groin_chafing_no_infection_or_genital_lesions"
+      ],
+      "modifiers": [
+        "groin chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_groin_chafing_no_infection_or_genital_lesions_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "groin_chafing_no_infection_or_genital_lesions",
+      "confidence": 0.78,
+      "exclusions": [
+        "fever",
+        "genital_ulcers",
+        "immunocompromised",
+        "mucosal_lesions",
+        "near_eye_or_genitals",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "sti_or_genital_pathway"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "groin chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11752_mild_shaving_irritation_no_infection_or_abscess_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "mild_shaving_irritation_no_infection_or_abscess",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "mild shaving irritation",
+        "shaving irritation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11852_mild_shaving_irritation_no_infection_or_abscess_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "mild_shaving_irritation_no_infection_or_abscess",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_mild_shaving_irritation_no_infection_or_abscess",
+        "no_infection_or_deep_injury_mild_shaving_irritation_no_infection_or_abscess"
+      ],
+      "modifiers": [
+        "mild shaving irritation",
+        "shaving irritation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_mild_shaving_irritation_no_infection_or_abscess_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "mild_shaving_irritation_no_infection_or_abscess",
+      "confidence": 0.78,
+      "exclusions": [
+        "abscess_concern",
+        "abscess_or_boils_or_carbuncle",
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "mild shaving irritation",
+        "shaving irritation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11753_mild_beard_shaving_irritation_no_infection_or_abscess_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "mild_beard_shaving_irritation_no_infection_or_abscess",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "beard shaving irritation",
+        "mild beard shaving irritation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11853_mild_beard_shaving_irritation_no_infection_or_abscess_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "mild_beard_shaving_irritation_no_infection_or_abscess",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_mild_beard_shaving_irritation_no_infection_or_abscess",
+        "no_infection_or_deep_injury_mild_beard_shaving_irritation_no_infection_or_abscess"
+      ],
+      "modifiers": [
+        "beard shaving irritation",
+        "mild beard shaving irritation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_mild_beard_shaving_irritation_no_infection_or_abscess_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "mild_beard_shaving_irritation_no_infection_or_abscess",
+      "confidence": 0.78,
+      "exclusions": [
+        "abscess_concern",
+        "abscess_or_boils_or_carbuncle",
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "beard shaving irritation",
+        "mild beard shaving irritation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11754_mild_scalp_irritation_after_haircut_no_infection_or_laceration_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "mild_scalp_irritation_after_haircut_no_infection_or_laceration",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "mild scalp irritation after haircut"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11854_mild_scalp_irritation_after_haircut_no_infection_or_laceration_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "mild_scalp_irritation_after_haircut_no_infection_or_laceration",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_mild_scalp_irritation_after_haircut_no_infection_or_laceration",
+        "no_infection_or_deep_injury_mild_scalp_irritation_after_haircut_no_infection_or_laceration"
+      ],
+      "modifiers": [
+        "mild scalp irritation after haircut"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_mild_scalp_irritation_after_haircut_no_infection_or_laceration_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "mild_scalp_irritation_after_haircut_no_infection_or_laceration",
+      "confidence": 0.78,
+      "exclusions": [
+        "fever",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "scalp_or_nail_or_beard_fungal_infection",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "mild scalp irritation after haircut"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase11755_mild_cuticle_irritation_no_paronychia_or_abscess_clean",
+    "passed": true,
+    "result": {
+      "phenotype_id": "mild_cuticle_irritation_no_paronychia_or_abscess",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [],
+      "modifiers": [
+        "cuticle irritation",
+        "mild cuticle irritation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": null
+    }
+  },
+  {
+    "case_id": "phase11855_mild_cuticle_irritation_no_paronychia_or_abscess_missing_context_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "mild_cuticle_irritation_no_paronychia_or_abscess",
+      "confidence": 0.93,
+      "exclusions": [],
+      "missing_required_context": [
+        "clinician_diagnosis_mild_cuticle_irritation_no_paronychia_or_abscess",
+        "no_infection_or_deep_injury_mild_cuticle_irritation_no_paronychia_or_abscess"
+      ],
+      "modifiers": [
+        "cuticle irritation",
+        "mild cuticle irritation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "required_runtime_context_missing"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_mild_cuticle_irritation_no_paronychia_or_abscess_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "mild_cuticle_irritation_no_paronychia_or_abscess",
+      "confidence": 0.78,
+      "exclusions": [
+        "abscess_concern",
+        "abscess_or_boils_or_carbuncle",
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "cuticle irritation",
+        "mild cuticle irritation"
       ],
       "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"
@@ -12418,6 +15038,1252 @@
       "modifiers": [
         "localized plastic band contact rash",
         "plastic band contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_ring_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_ring_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized ring contact rash",
+        "ring contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_bracelet_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_bracelet_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "bracelet contact rash",
+        "localized bracelet contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_necklace_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_necklace_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized necklace contact rash",
+        "necklace contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_lanyard_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_lanyard_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "lanyard contact rash",
+        "localized lanyard contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_hat_band_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_hat_band_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "hat band contact rash",
+        "localized hat band contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_face_paint_contact_rash_no_eye_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_face_paint_contact_rash_no_eye_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "chemical_eye_exposure",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "ocular_symptoms",
+        "pediatric_pathway",
+        "periorbital_or_orbital_cellulitis_concern",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "face paint contact rash",
+        "localized face paint contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "chemical_eye_exposure",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "ocular_symptoms",
+        "pediatric_pathway",
+        "periorbital_or_orbital_cellulitis_concern",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "costume makeup contact rash",
+        "localized costume makeup contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_hair_clip_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_hair_clip_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "hair clip contact rash",
+        "localized hair clip contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "athletic tape contact rash",
+        "localized athletic tape contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "kinesiology tape contact rash",
+        "localized kinesiology tape contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "compression sleeve contact rash",
+        "localized compression sleeve contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized wrist brace contact rash",
+        "wrist brace contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "elbow brace contact rash",
+        "localized elbow brace contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized shoulder sling contact rash",
+        "shoulder sling contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_sock_seam_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_sock_seam_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized sock seam contact rash",
+        "sock seam contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "diabetic_foot",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "neuropathy_foot_risk",
+        "pediatric_pathway",
+        "peripheral_vascular_disease",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "specialist_directed_podiatry_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized shoe insert contact rash",
+        "shoe insert contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "diabetic_foot",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "neuropathy_foot_risk",
+        "pediatric_pathway",
+        "peripheral_vascular_disease",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "specialist_directed_podiatry_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized sandal strap contact rash",
+        "sandal strap contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_rubber_band_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_rubber_band_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized rubber band contact rash",
+        "rubber band contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_phone_case_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_phone_case_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "localized phone case contact rash",
+        "phone case contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis",
+      "confidence": 0.78,
+      "exclusions": [
+        "airway_symptoms",
+        "anaphylaxis",
+        "fever",
+        "hypotension",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_allergic_reaction"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "id badge clip contact rash",
+        "localized id badge clip contact rash"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_forearm_abrasion_no_deep_wound_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "forearm_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "forearm abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_shin_abrasion_no_deep_wound_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "shin_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "shin abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_shoulder_abrasion_no_deep_wound_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "shoulder_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "shoulder abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_wrist_abrasion_no_tendon_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "wrist_abrasion_no_tendon_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "hand_tendon_risk",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "joint_violation",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "wrist abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_foot_abrasion_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "foot_abrasion_no_diabetic_foot_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "diabetic_foot",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "neuropathy_foot_risk",
+        "open_wound",
+        "pediatric_pathway",
+        "peripheral_vascular_disease",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_podiatry_plan",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "foot abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_toe_abrasion_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "toe_abrasion_no_diabetic_foot_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "diabetic_foot",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "neuropathy_foot_risk",
+        "open_wound",
+        "pediatric_pathway",
+        "peripheral_vascular_disease",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_podiatry_plan",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "toe abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_thigh_abrasion_no_deep_wound_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "thigh_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "thigh abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_upper_arm_abrasion_no_deep_wound_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "upper_arm_abrasion_no_deep_wound_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "bite_wound",
+        "burn_or_chemical_wound",
+        "delayed_wound_presentation",
+        "dirty_wound",
+        "fever",
+        "high_pressure_injection_injury",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "open_wound",
+        "pediatric_pathway",
+        "pregnancy",
+        "retained_foreign_body",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "specialist_directed_wound_plan",
+        "wound_infection_concern"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "upper arm abrasion"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_minor_inner_cheek_bite_no_deep_laceration_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "minor_inner_cheek_bite_no_deep_laceration_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "deep_space_swelling",
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "peritonsillar_abscess_concern",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_or_recurrent_oral_ulcer_features",
+        "trismus"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "cheek bite",
+        "inner cheek bite",
+        "minor inner cheek bite"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "deep_space_swelling",
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "peritonsillar_abscess_concern",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_or_recurrent_oral_ulcer_features",
+        "trismus"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "minor braces wire mouth irritation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_minor_denture_sore_spot_no_infection_or_deep_ulcer_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "minor_denture_sore_spot_no_infection_or_deep_ulcer",
+      "confidence": 0.78,
+      "exclusions": [
+        "deep_space_swelling",
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "peritonsillar_abscess_concern",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "systemic_or_recurrent_oral_ulcer_features",
+        "trismus"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "denture sore spot",
+        "minor denture sore spot"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_inner_thigh_chafing_no_infection_or_genital_lesions_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "inner_thigh_chafing_no_infection_or_genital_lesions",
+      "confidence": 0.78,
+      "exclusions": [
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "inner thigh chafing",
+        "thigh chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_underarm_chafing_no_infection_or_abscess_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "underarm_chafing_no_infection_or_abscess",
+      "confidence": 0.78,
+      "exclusions": [
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "underarm chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_neck_chafing_no_infection_or_systemic_skin_disease_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "neck_chafing_no_infection_or_systemic_skin_disease",
+      "confidence": 0.78,
+      "exclusions": [
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "neck chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_heel_chafing_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "heel_chafing_no_diabetic_foot_or_infection",
+      "confidence": 0.78,
+      "exclusions": [
+        "diabetic_foot",
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "neuropathy_foot_risk",
+        "pediatric_pathway",
+        "peripheral_vascular_disease",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "specialist_directed_podiatry_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "heel chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_groin_chafing_no_infection_or_genital_lesions_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "groin_chafing_no_infection_or_genital_lesions",
+      "confidence": 0.78,
+      "exclusions": [
+        "fever",
+        "genital_ulcers",
+        "immunocompromised",
+        "mucosal_lesions",
+        "near_eye_or_genitals",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan",
+        "sti_or_genital_pathway"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "groin chafing"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_mild_shaving_irritation_no_infection_or_abscess_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "mild_shaving_irritation_no_infection_or_abscess",
+      "confidence": 0.78,
+      "exclusions": [
+        "abscess_concern",
+        "abscess_or_boils_or_carbuncle",
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "mild shaving irritation",
+        "shaving irritation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_mild_beard_shaving_irritation_no_infection_or_abscess_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "mild_beard_shaving_irritation_no_infection_or_abscess",
+      "confidence": 0.78,
+      "exclusions": [
+        "abscess_concern",
+        "abscess_or_boils_or_carbuncle",
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "beard shaving irritation",
+        "mild beard shaving irritation"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_mild_scalp_irritation_after_haircut_no_infection_or_laceration_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "mild_scalp_irritation_after_haircut_no_infection_or_laceration",
+      "confidence": 0.78,
+      "exclusions": [
+        "fever",
+        "immunocompromised",
+        "laceration_repair_needed",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "scalp_or_nail_or_beard_fungal_infection",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "mild scalp irritation after haircut"
+      ],
+      "output_modifiers": [],
+      "fallback_reason": "unsafe_modifier_present"
+    }
+  },
+  {
+    "case_id": "phase20_phase12000_mild_cuticle_irritation_no_paronychia_or_abscess_contradictory_note_blocks",
+    "passed": true,
+    "result": {
+      "phenotype_id": "mild_cuticle_irritation_no_paronychia_or_abscess",
+      "confidence": 0.78,
+      "exclusions": [
+        "abscess_concern",
+        "abscess_or_boils_or_carbuncle",
+        "fever",
+        "immunocompromised",
+        "mucosal_lesions",
+        "pediatric_pathway",
+        "pregnancy",
+        "rapid_progression",
+        "secondary_skin_infection_concern",
+        "sepsis",
+        "severe_cutaneous_adverse_reaction",
+        "specialist_directed_dermatology_plan"
+      ],
+      "missing_required_context": [],
+      "modifiers": [
+        "cuticle irritation",
+        "mild cuticle irritation"
       ],
       "output_modifiers": [],
       "fallback_reason": "unsafe_modifier_present"

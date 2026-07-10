@@ -1,0 +1,467 @@
+[
+  {
+    "id": "localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis",
+    "label": "Localized compression-sleeve contact rash without infection or anaphylaxis",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "localized compression sleeve contact rash",
+      "compression sleeve contact rash",
+      "compression sleeve skin rash"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.allergic_reactions"
+    ],
+    "summary": "Your symptoms fit a localized skin reaction from compression sleeve.",
+    "found": "Your clinician diagnosed a localized compression sleeve contact rash skin reaction. We did not find anaphylaxis, skin infection, mucosal involvement, or severe medication reaction today.",
+    "home": [
+      "Avoid the suspected trigger if it is known.",
+      "Wash gently with mild soap and water, and avoid scrubbing the rash.",
+      "Use cool compresses, moisturizers, or coverings only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, itch medicine, or allergy medicine only if prescribed or recommended.",
+      "Do not use leftover steroid, antibiotic, or allergy medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Trouble breathing, throat tightness, swelling of the lips or tongue, fainting, or a bodywide reaction.",
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening rash, skin peeling, or mouth sores.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, allergy, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized compression sleeve contact rash skin reaction.",
+      "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Severe cutaneous adverse reaction.",
+      "Systemic allergic reaction."
+    ],
+    "unsafe_modifiers": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis",
+        "terms": [
+          "clinician diagnosis localized compression sleeve contact rash",
+          "discharge diagnosis localized compression sleeve contact rash",
+          "localized compression sleeve contact rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized compression sleeve contact rash",
+      "localized compression sleeve contact rash diagnosed",
+      "localized compression sleeve contact rash"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized compression sleeve contact rash skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "review_date": "2026-07-07"
+  },
+  {
+    "id": "localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis",
+    "label": "Localized wrist-brace contact rash without infection or anaphylaxis",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "localized wrist brace contact rash",
+      "wrist brace contact rash",
+      "wrist brace skin rash"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.allergic_reactions"
+    ],
+    "summary": "Your symptoms fit a localized skin reaction from wrist brace.",
+    "found": "Your clinician diagnosed a localized wrist brace contact rash skin reaction. We did not find anaphylaxis, skin infection, mucosal involvement, or severe medication reaction today.",
+    "home": [
+      "Avoid the suspected trigger if it is known.",
+      "Wash gently with mild soap and water, and avoid scrubbing the rash.",
+      "Use cool compresses, moisturizers, or coverings only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, itch medicine, or allergy medicine only if prescribed or recommended.",
+      "Do not use leftover steroid, antibiotic, or allergy medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Trouble breathing, throat tightness, swelling of the lips or tongue, fainting, or a bodywide reaction.",
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening rash, skin peeling, or mouth sores.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, allergy, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized wrist brace contact rash skin reaction.",
+      "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Severe cutaneous adverse reaction.",
+      "Systemic allergic reaction."
+    ],
+    "unsafe_modifiers": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis",
+        "terms": [
+          "clinician diagnosis localized wrist brace contact rash",
+          "discharge diagnosis localized wrist brace contact rash",
+          "localized wrist brace contact rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized wrist brace contact rash",
+      "localized wrist brace contact rash diagnosed",
+      "localized wrist brace contact rash"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized wrist brace contact rash skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "review_date": "2026-07-07"
+  },
+  {
+    "id": "localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis",
+    "label": "Localized elbow-brace contact rash without infection or anaphylaxis",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "localized elbow brace contact rash",
+      "elbow brace contact rash",
+      "elbow brace skin rash"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.allergic_reactions"
+    ],
+    "summary": "Your symptoms fit a localized skin reaction from elbow brace.",
+    "found": "Your clinician diagnosed a localized elbow brace contact rash skin reaction. We did not find anaphylaxis, skin infection, mucosal involvement, or severe medication reaction today.",
+    "home": [
+      "Avoid the suspected trigger if it is known.",
+      "Wash gently with mild soap and water, and avoid scrubbing the rash.",
+      "Use cool compresses, moisturizers, or coverings only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, itch medicine, or allergy medicine only if prescribed or recommended.",
+      "Do not use leftover steroid, antibiotic, or allergy medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Trouble breathing, throat tightness, swelling of the lips or tongue, fainting, or a bodywide reaction.",
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening rash, skin peeling, or mouth sores.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, allergy, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized elbow brace contact rash skin reaction.",
+      "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Severe cutaneous adverse reaction.",
+      "Systemic allergic reaction."
+    ],
+    "unsafe_modifiers": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis",
+        "terms": [
+          "clinician diagnosis localized elbow brace contact rash",
+          "discharge diagnosis localized elbow brace contact rash",
+          "localized elbow brace contact rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized elbow brace contact rash",
+      "localized elbow brace contact rash diagnosed",
+      "localized elbow brace contact rash"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized elbow brace contact rash skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "review_date": "2026-07-07"
+  },
+  {
+    "id": "localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis",
+    "label": "Localized shoulder-sling contact rash without infection or anaphylaxis",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "localized shoulder sling contact rash",
+      "shoulder sling contact rash",
+      "shoulder sling skin rash"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.allergic_reactions"
+    ],
+    "summary": "Your symptoms fit a localized skin reaction from shoulder sling.",
+    "found": "Your clinician diagnosed a localized shoulder sling contact rash skin reaction. We did not find anaphylaxis, skin infection, mucosal involvement, or severe medication reaction today.",
+    "home": [
+      "Avoid the suspected trigger if it is known.",
+      "Wash gently with mild soap and water, and avoid scrubbing the rash.",
+      "Use cool compresses, moisturizers, or coverings only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, itch medicine, or allergy medicine only if prescribed or recommended.",
+      "Do not use leftover steroid, antibiotic, or allergy medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Trouble breathing, throat tightness, swelling of the lips or tongue, fainting, or a bodywide reaction.",
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening rash, skin peeling, or mouth sores.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, allergy, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized shoulder sling contact rash skin reaction.",
+      "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Severe cutaneous adverse reaction.",
+      "Systemic allergic reaction."
+    ],
+    "unsafe_modifiers": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis",
+        "terms": [
+          "clinician diagnosis localized shoulder sling contact rash",
+          "discharge diagnosis localized shoulder sling contact rash",
+          "localized shoulder sling contact rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized shoulder sling contact rash",
+      "localized shoulder sling contact rash diagnosed",
+      "localized shoulder sling contact rash"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized shoulder sling contact rash skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "review_date": "2026-07-07"
+  },
+  {
+    "id": "localized_sock_seam_contact_rash_no_infection_or_anaphylaxis",
+    "label": "Localized sock-seam contact rash without infection or anaphylaxis",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "localized sock seam contact rash",
+      "sock seam contact rash",
+      "sock seam skin rash"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.allergic_reactions"
+    ],
+    "summary": "Your symptoms fit a localized skin reaction from sock seam.",
+    "found": "Your clinician diagnosed a localized sock seam contact rash skin reaction. We did not find anaphylaxis, skin infection, mucosal involvement, or severe medication reaction today.",
+    "home": [
+      "Avoid the suspected trigger if it is known.",
+      "Wash gently with mild soap and water, and avoid scrubbing the rash.",
+      "Use cool compresses, moisturizers, or coverings only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, itch medicine, or allergy medicine only if prescribed or recommended.",
+      "Do not use leftover steroid, antibiotic, or allergy medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Trouble breathing, throat tightness, swelling of the lips or tongue, fainting, or a bodywide reaction.",
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening rash, skin peeling, or mouth sores.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, allergy, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized sock seam contact rash skin reaction.",
+      "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Severe cutaneous adverse reaction.",
+      "Systemic allergic reaction."
+    ],
+    "unsafe_modifiers": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_sock_seam_contact_rash_no_infection_or_anaphylaxis",
+        "terms": [
+          "clinician diagnosis localized sock seam contact rash",
+          "discharge diagnosis localized sock seam contact rash",
+          "localized sock seam contact rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_localized_sock_seam_contact_rash_no_infection_or_anaphylaxis",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized sock seam contact rash",
+      "localized sock seam contact rash diagnosed",
+      "localized sock seam contact rash"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_localized_sock_seam_contact_rash_no_infection_or_anaphylaxis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized sock seam contact rash skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "review_date": "2026-07-07"
+  }
+]

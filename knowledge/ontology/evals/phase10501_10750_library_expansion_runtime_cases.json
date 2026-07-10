@@ -1,0 +1,207 @@
+[
+  {
+    "id": "phase10501_localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized compression sleeve contact rash",
+    "ed_note": "Adult. clinician diagnosis localized compression sleeve contact rash. localized compression sleeve contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10601_localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized compression sleeve contact rash",
+    "ed_note": "Adult with localized compression sleeve contact rash.",
+    "expected_phenotype_id": "localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis",
+      "no_infection_or_systemic_red_flags_localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized compression sleeve contact rash",
+    "ed_note": "Adult. clinician diagnosis localized compression sleeve contact rash. localized compression sleeve contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_compression_sleeve_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  },
+  {
+    "id": "phase10502_localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized wrist brace contact rash",
+    "ed_note": "Adult. clinician diagnosis localized wrist brace contact rash. localized wrist brace contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10602_localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized wrist brace contact rash",
+    "ed_note": "Adult with localized wrist brace contact rash.",
+    "expected_phenotype_id": "localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis",
+      "no_infection_or_systemic_red_flags_localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized wrist brace contact rash",
+    "ed_note": "Adult. clinician diagnosis localized wrist brace contact rash. localized wrist brace contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_wrist_brace_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  },
+  {
+    "id": "phase10503_localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized elbow brace contact rash",
+    "ed_note": "Adult. clinician diagnosis localized elbow brace contact rash. localized elbow brace contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10603_localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized elbow brace contact rash",
+    "ed_note": "Adult with localized elbow brace contact rash.",
+    "expected_phenotype_id": "localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis",
+      "no_infection_or_systemic_red_flags_localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized elbow brace contact rash",
+    "ed_note": "Adult. clinician diagnosis localized elbow brace contact rash. localized elbow brace contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_elbow_brace_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  },
+  {
+    "id": "phase10504_localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized shoulder sling contact rash",
+    "ed_note": "Adult. clinician diagnosis localized shoulder sling contact rash. localized shoulder sling contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10604_localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized shoulder sling contact rash",
+    "ed_note": "Adult with localized shoulder sling contact rash.",
+    "expected_phenotype_id": "localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis",
+      "no_infection_or_systemic_red_flags_localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized shoulder sling contact rash",
+    "ed_note": "Adult. clinician diagnosis localized shoulder sling contact rash. localized shoulder sling contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_shoulder_sling_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  },
+  {
+    "id": "phase10505_localized_sock_seam_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized sock seam contact rash",
+    "ed_note": "Adult. clinician diagnosis localized sock seam contact rash. localized sock seam contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_sock_seam_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10605_localized_sock_seam_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized sock seam contact rash",
+    "ed_note": "Adult with localized sock seam contact rash.",
+    "expected_phenotype_id": "localized_sock_seam_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_sock_seam_contact_rash_no_infection_or_anaphylaxis",
+      "no_infection_or_systemic_red_flags_localized_sock_seam_contact_rash_no_infection_or_anaphylaxis"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_sock_seam_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized sock seam contact rash",
+    "ed_note": "Adult. clinician diagnosis localized sock seam contact rash. localized sock seam contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_sock_seam_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  }
+]
