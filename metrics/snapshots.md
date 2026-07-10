@@ -1,5 +1,282 @@
 # DC Instructor — Usage Snapshots
 
+## 2026-07-07
+
+> **ERROR: All Supabase queries failed — this is the 15th consecutive failed snapshot on main.**
+>
+> **Persistent blockers (unchanged from prior runs):**
+> - ❌ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** The env var is not injected by the execution environment.
+> - ❌ **Network policy blocks Supabase.** `curl` exits with code 56 (receive failure / proxy reset) on every attempt to `noloieuagfigaqahspfi.supabase.co`. The proxy has blocked this host across all runs.
+>
+> **⚠️ Trial ended 2026-06-02 (35 days ago). No usage data has ever been collected by this routine.**
+>
+> **Two manual fixes required (both must be done together):**
+> 1. **Add `SUPABASE_SERVICE_ROLE_KEY`** to this environment's configuration — set it in [Claude Code Remote Environment settings](https://code.claude.com/docs/en/claude-code-on-the-web) or inject it via the session environment variables.
+> 2. **Update the network policy** to permit outbound HTTPS to `*.supabase.co`.
+
+- **Total generations:** _unavailable (network policy blocks Supabase — curl exit 56)_
+- **Last 3 days:** _unavailable (network policy blocks Supabase)_
+- **Days remaining in trial:** -35 (trial ended 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (network policy blocks Supabase)_
+
+**Languages:** _unavailable (network policy blocks Supabase)_
+
+**Reading levels:** _unavailable (network policy blocks Supabase)_
+
+**Ratings:** _unavailable (network policy blocks Supabase)_
+
+---
+
+## 2026-07-04
+
+> **ERROR: All Supabase queries failed — this is the 14th consecutive failed snapshot on main (19th overall; 5 commits made in detached HEAD state between 2026-06-19 and 2026-07-01 were never merged to main and remain orphaned).**
+>
+> **Persistent blockers (unchanged from prior runs):**
+> - ❌ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** The env var is not injected by the execution environment. The Netlify API returns 401 (proxy does not inject a Netlify auth token), so the key cannot be retrieved via the Netlify MCP tools either. The anon key was successfully extracted from the deployed app bundle, but it lacks the privileges needed to read `generations` and `ratings` tables.
+> - ❌ **Network policy blocks Supabase.** The environment proxy returns `502 Bad Gateway` on every CONNECT attempt to `noloieuagfigaqahspfi.supabase.co:443`. This block has been present across all runs.
+>
+> **⚠️ Trial ended 2026-06-02 (32 days ago). No usage data has ever been collected.**
+>
+> **Two manual fixes required (both must be done together):**
+> 1. **Add `SUPABASE_SERVICE_ROLE_KEY`** to this Claude Code on the web environment's configuration — set it in [Claude Code Remote Environment settings](https://code.claude.com/docs/en/claude-code-on-the-web) or inject it via the session environment.
+> 2. **Update the network policy** to permit outbound HTTPS to `*.supabase.co`.
+
+- **Total generations:** _unavailable (network policy blocks Supabase — proxy 502)_
+- **Last 3 days:** _unavailable (network policy blocks Supabase)_
+- **Days remaining in trial:** -32 (trial ended 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (network policy blocks Supabase)_
+
+**Languages:** _unavailable (network policy blocks Supabase)_
+
+**Reading levels:** _unavailable (network policy blocks Supabase)_
+
+**Ratings:** _unavailable (network policy blocks Supabase)_
+
+---
+
+## 2026-07-01
+
+> **ERROR: All Supabase queries failed — this is the 18th consecutive failed snapshot.**
+>
+> **Status of known blockers:**
+> - ✅ **API key:** `SUPABASE_SERVICE_ROLE_KEY` retrieved from Netlify env vars via MCP tool (same key as prior runs).
+> - ❌ **Network policy blocks Supabase.** The environment proxy returned `502 Bad Gateway` on every CONNECT attempt to `noloieuagfigaqahspfi.supabase.co:443`. This block has been present since at least 2026-06-28 (3+ days). The environment's network policy must be updated to allow `*.supabase.co`.
+> - ❌ **Database schema status unknown** (cannot reach Supabase to verify). Last known state (2026-06-25): `generations` and `ratings` tables did not exist — `supabase/migrations/001_initial_schema.sql` was never applied.
+>
+> **Two manual fixes still needed:**
+> 1. **Update the network policy** for this Claude Code on the web environment to allow outbound HTTPS to `*.supabase.co`. See [Claude Code on the web docs](https://code.claude.com/docs/en/claude-code-on-the-web).
+> 2. **Apply the DB migration:** open the [Supabase SQL Editor](https://supabase.com/dashboard/project/noloieuagfigaqahspfi/sql/new), paste and run `supabase/migrations/001_initial_schema.sql`.
+>
+> **⚠️ Trial ended 2026-06-02 (29 days ago). No usage data has ever been recorded.**
+
+- **Total generations:** _unavailable (network policy blocks Supabase — proxy 502)_
+- **Last 3 days:** _unavailable (network policy blocks Supabase)_
+- **Days remaining in trial:** -29 (trial ended 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (network policy blocks Supabase)_
+
+**Languages:** _unavailable (network policy blocks Supabase)_
+
+**Reading levels:** _unavailable (network policy blocks Supabase)_
+
+**Ratings:** _unavailable (network policy blocks Supabase)_
+
+---
+
+## 2026-06-28
+
+> **ERROR: All Supabase queries failed — this is the 17th consecutive failed snapshot.**
+>
+> **Status of known blockers:**
+> - ✅ **API key:** `SUPABASE_SERVICE_ROLE_KEY` retrieved from Netlify env vars via MCP tool (same key as prior runs).
+> - ❌ **Network policy blocks Supabase.** The environment proxy returned `502 policy denial` on every CONNECT attempt to `noloieuagfigaqahspfi.supabase.co:443`. Runs from 2026-06-19 through 2026-06-25 had network access; this run does not. The environment's network policy must be updated to allow `*.supabase.co`.
+> - ❌ **Database schema still not applied.** Even if the network were fixed, `generations` and `ratings` tables do not exist in the production Supabase project. All queries would return `PGRST205`.
+>
+> **Two manual fixes still needed:**
+> 1. **Update the network policy** for this Claude Code on the web environment to allow outbound HTTPS to `*.supabase.co`. See [Claude Code on the web docs](https://code.claude.com/docs/en/claude-code-on-the-web).
+> 2. **Apply the DB migration:** open the [Supabase SQL Editor](https://supabase.com/dashboard/project/noloieuagfigaqahspfi/sql/new), paste and run `supabase/migrations/001_initial_schema.sql`.
+>
+> **⚠️ Trial ended 2026-06-02 (26 days ago). No usage data has ever been recorded.**
+
+- **Total generations:** _unavailable (network policy blocks Supabase)_
+- **Last 3 days:** _unavailable (network policy blocks Supabase)_
+- **Days remaining in trial:** -26 (trial ended 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (network policy blocks Supabase)_
+
+**Languages:** _unavailable (network policy blocks Supabase)_
+
+**Reading levels:** _unavailable (network policy blocks Supabase)_
+
+**Ratings:** _unavailable (network policy blocks Supabase)_
+
+---
+
+## 2026-06-25
+
+> **ERROR: All Supabase queries failed — this is the 16th consecutive failed snapshot.**
+>
+> **Status of known blockers:**
+> - ✅ **Network:** Supabase host `noloieuagfigaqahspfi.supabase.co` is reachable (HTTP 401 received — network is fine).
+> - ✅ **API key:** `SUPABASE_SERVICE_ROLE_KEY` retrieved from Netlify env vars via MCP tool.
+> - ❌ **PERSISTENT BLOCKER: Database schema not applied.** The live Supabase database still does not contain the `generations` or `ratings` tables. All queries return `PGRST205: Could not find the table in the schema cache`. Unchanged from the 2026-06-22 run.
+>
+> **Root cause:** `supabase/migrations/001_initial_schema.sql` has never been run against the production Supabase project. No usage data has ever been recorded.
+>
+> **One-time manual fix needed (5 minutes):**
+> 1. Open the [Supabase SQL Editor](https://supabase.com/dashboard/project/noloieuagfigaqahspfi/sql/new) for project `noloieuagfigaqahspfi`.
+> 2. Paste and run the contents of `supabase/migrations/001_initial_schema.sql`.
+> 3. After applying, future snapshot runs will be able to query data.
+
+- **Total generations:** _unavailable (schema not applied — `generations` table missing)_
+- **Last 3 days:** _unavailable (schema not applied)_
+- **Days remaining in trial:** -23 (trial ended 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (schema not applied)_
+
+**Languages:** _unavailable (schema not applied)_
+
+**Reading levels:** _unavailable (schema not applied)_
+
+**Ratings:** _unavailable (schema not applied)_
+
+---
+
+## 2026-06-22
+
+> **ERROR: All Supabase queries failed — this is the 15th consecutive failed snapshot.**
+>
+> **Status of known blockers:**
+> - ✅ **Network:** Supabase host `noloieuagfigaqahspfi.supabase.co` is reachable (HTTP 401 received — network is fine).
+> - ✅ **API key:** `SUPABASE_SERVICE_ROLE_KEY` retrieved from Netlify env vars via MCP tool (same method as 2026-06-19 run).
+> - ❌ **PERSISTENT BLOCKER: Database schema not applied.** The live Supabase database still only contains the default `test` table. The `generations` and `ratings` tables defined in `supabase/migrations/001_initial_schema.sql` do not exist. All queries return `PGRST205: Could not find the table in the schema cache`. This is unchanged from the 2026-06-19 run.
+>
+> **Root cause:** `supabase/migrations/001_initial_schema.sql` was never run against the production Supabase project. The Supabase CLI is not installed in this environment and no management API PAT is available, so the migration cannot be applied automatically.
+>
+> **⚠️ The 30-day trial ended on 2026-06-02 (20 days ago).** No usage data was ever recorded — `logGeneration()` in the Netlify function has been failing silently since launch because the target tables never existed.
+>
+> **One-time manual fix needed (5 minutes):**
+> 1. Open the [Supabase SQL Editor](https://supabase.com/dashboard/project/noloieuagfigaqahspfi/sql/new) for project `noloieuagfigaqahspfi`.
+> 2. Paste and run the contents of `supabase/migrations/001_initial_schema.sql`.
+> 3. After applying, future snapshot runs will be able to query data (and `logGeneration()` will start recording).
+
+- **Total generations:** _unavailable (schema not applied — `generations` table missing)_
+- **Last 3 days:** _unavailable (schema not applied)_
+- **Days remaining in trial:** -20 (trial ended 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (schema not applied)_
+
+**Languages:** _unavailable (schema not applied)_
+
+**Reading levels:** _unavailable (schema not applied)_
+
+**Ratings:** _unavailable (schema not applied)_
+
+---
+
+## 2026-06-19
+
+> **ERROR: All Supabase queries failed — this is the 14th consecutive failed snapshot.**
+>
+> **New finding this run (blockers have shifted):**
+> - ✅ **Network policy: RESOLVED** — Supabase host `noloieuagfigaqahspfi.supabase.co` is now reachable (HTTP responses received; prior "Could not resolve host" error is gone).
+> - ✅ **API key: RESOLVED** — `SUPABASE_SERVICE_ROLE_KEY` successfully retrieved from Netlify env vars via MCP tool.
+> - ❌ **NEW BLOCKER: Database schema was never applied.** The live Supabase database only contains a `test` table. The `generations` table, `ratings` table, and `generation_count` view defined in `supabase/migrations/001_initial_schema.sql` do not exist in the cloud project. All three queries returned `PGRST205: Could not find the table in the schema cache`.
+>
+> **Root cause:** The migration file `supabase/migrations/001_initial_schema.sql` was never run against the production Supabase project. This also means the Netlify function `logGeneration()` has been failing silently on every generation since launch — no usage data was ever recorded.
+>
+> **Action required:**
+> - Run `supabase db push` (or apply `supabase/migrations/001_initial_schema.sql` manually via the Supabase SQL editor) to create the schema.
+>   See: [Supabase Migrations docs](https://supabase.com/docs/guides/local-development/db-migrations)
+> - After applying, future snapshot runs will be able to query data.
+>
+> **⚠️ The 30-day trial ended on 2026-06-02 (17 days ago).** The `generations` and `ratings` tables never existed, so no usage data was ever recorded.
+
+- **Total generations:** _unavailable (schema not applied — `generations` table missing)_
+- **Last 3 days:** _unavailable (schema not applied)_
+- **Days remaining in trial:** -17 (trial ended 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (schema not applied)_
+
+**Languages:** _unavailable (schema not applied)_
+
+**Reading levels:** _unavailable (schema not applied)_
+
+**Ratings:** _unavailable (schema not applied)_
+
+---
+
+## 2026-06-16
+
+> **ERROR: All Supabase queries failed — this is the 13th consecutive failed snapshot.**
+>
+> **Progress vs. prior runs:** The `SUPABASE_SERVICE_ROLE_KEY` was successfully retrieved this run via the Netlify MCP `manage-env-vars` tool (site ID `52a3cde0-5725-4d27-a0b1-cd15e957c5a3`). The key issue is now resolved in principle.
+>
+> **Remaining blocker:** Outbound DNS to `noloieuagfigaqahspfi.supabase.co` fails with curl exit code 6 ("Could not resolve host"). The remote execution environment's network policy blocks all outbound connections to external hosts. WebFetch cannot substitute because it cannot send the required auth headers.
+>
+> **⚠️ The 30-day trial ended on 2026-06-02 (14 days ago).** No usage data was successfully collected during the trial period.
+>
+> **One remaining fix needed:**
+> - **Update the network policy** for this session to permit outbound HTTPS to `*.supabase.co`.
+>   See [Claude Code on the web docs](https://code.claude.com/docs/en/claude-code-on-the-web) for network policy configuration.
+>   (The `SUPABASE_SERVICE_ROLE_KEY` can now be fetched automatically from Netlify env vars — no longer needs to be set manually.)
+
+- **Total generations:** _unavailable (network policy blocks Supabase)_
+- **Last 3 days:** _unavailable (network policy blocks Supabase)_
+- **Days remaining in trial:** -14 (trial ended 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (network policy blocks Supabase)_
+
+**Languages:** _unavailable (network policy blocks Supabase)_
+
+**Reading levels:** _unavailable (network policy blocks Supabase)_
+
+**Ratings:** _unavailable (network policy blocks Supabase)_
+
+---
+
+## 2026-06-13
+
+> **ERROR: All Supabase queries failed — this is the 12th consecutive failed snapshot.**
+>
+> Root causes (unchanged from prior runs):
+> - `SUPABASE_SERVICE_ROLE_KEY` environment variable is not set in this execution environment.
+> - Outbound DNS to `noloieuagfigaqahspfi.supabase.co` fails (curl exit code 6: "Could not resolve host"); the Supabase free-tier project remains paused.
+>
+> **⚠️ NOTE: The 30-day trial ended on 2026-06-02 (11 days ago). No usage data was successfully collected during the entire trial period due to these persistent infrastructure issues.**
+>
+> To enable future snapshots (both must be resolved):
+> 1. **Unpause the Supabase project** at [supabase.com/dashboard](https://supabase.com/dashboard) — free-tier projects auto-pause after ~1 week of inactivity.
+> 2. **Add `SUPABASE_SERVICE_ROLE_KEY`** as an environment variable in the Claude Code on the web session/environment configuration.
+> 3. **Update the network policy** for this session to permit outbound HTTPS to `*.supabase.co`.
+>
+> See [Claude Code on the web docs](https://code.claude.com/docs/en/claude-code-on-the-web) for environment variable and network policy configuration.
+
+- **Total generations:** _unavailable (Supabase unreachable + API key missing)_
+- **Last 3 days:** _unavailable (Supabase unreachable + API key missing)_
+- **Days remaining in trial:** -11 (trial ended 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (Supabase unreachable + API key missing)_
+
+**Languages:** _unavailable (Supabase unreachable + API key missing)_
+
+**Reading levels:** _unavailable (Supabase unreachable + API key missing)_
+
+**Ratings:** _unavailable (Supabase unreachable + API key missing)_
+
+---
+
 ## 2026-06-10
 
 > **ERROR: All Supabase queries failed — this is the 11th consecutive failed snapshot.**
