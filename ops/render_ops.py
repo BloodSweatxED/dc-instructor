@@ -81,17 +81,18 @@ def load_json(path: Path, default: Any) -> Any:
 def latest_handoff() -> dict[str, Any] | None:
     if not VAULT_DIR.exists():
         return None
+    search_dirs = [VAULT_DIR, VAULT_DIR / "handoffs"]
+    handoffs = []
+    for search_dir in search_dirs:
+        if not search_dir.exists():
+            continue
+        handoffs.extend(search_dir.glob("20*-DC Instructor*Handoff*.md"))
+        handoffs.extend(search_dir.glob("20*DC Instructor*Handoff*.md"))
     handoffs = sorted(
-        VAULT_DIR.glob("20*-DC Instructor*Handoff*.md"),
+        set(handoffs),
         key=lambda path: (path.name[:10], path.stat().st_mtime),
         reverse=True,
     )
-    if not handoffs:
-        handoffs = sorted(
-            VAULT_DIR.glob("20*DC Instructor*Handoff*.md"),
-            key=lambda path: (path.name[:10], path.stat().st_mtime),
-            reverse=True,
-        )
     if not handoffs:
         return None
     path = handoffs[0]

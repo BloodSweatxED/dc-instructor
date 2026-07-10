@@ -1,21 +1,21 @@
 # DC Instructor Ops Dashboard
 
-Generated: `2026-07-07T20:14:22.330869+00:00`
+Generated: `2026-07-10T12:29:04.174398+00:00`
 
 ## Current State
 
 - Canonical repo: [https://github.com/BloodSweatxED/dc-instructor](https://github.com/BloodSweatxED/dc-instructor)
 - Local repo: `/Users/andre/Desktop/Claude Projects/dc-instructor`
 - Branch: `codex/dc-knowledge-graph`
-- HEAD: `5d9ac3b`
+- HEAD: `a8fd191`
 - Origin: `https://github.com/BloodSweatxED/dc-instructor.git` (matches canonical repo)
-- Latest handoff: `/Users/andre/Desktop/Vaults/Life/11-DC instructor/2026-07-07 DC Instructor Phase 12000 Forty Phenotype Expansion Handoff.md`
+- Latest handoff: `/Users/andre/Desktop/Vaults/Life/11-DC instructor/handoffs/2026-07-10 DC Instructor Phase 12000 Consolidation Handoff.md`
 - Gate decision: `phenotype expansion allowed`
 - Expansion allowed: `True`
 - Active drafts: `0`
 - Reviewed source gaps: `0`
 - Draft source gaps: `0`
-- Dirty working tree entries: `148` (state file lists first 80)
+- Dirty working tree entries: `6`
 
 ## Finish Line
 
