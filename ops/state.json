@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-10T12:29:50.861939+00:00",
+  "generated_at": "2026-07-10T13:36:14.112436+00:00",
   "project": "DC Instructor",
   "canonical_repo_url": "https://github.com/BloodSweatxED/dc-instructor",
   "repo": {
     "path": "/Users/andre/Desktop/Claude Projects/dc-instructor",
     "branch": "codex/dc-knowledge-graph",
-    "head": "28da4f3",
+    "head": "49a562f",
     "origin": "https://github.com/BloodSweatxED/dc-instructor.git",
     "origin_matches_canonical": true,
     "dirty_file_count": 1,
@@ -17,7 +17,7 @@
   "latest_handoff": {
     "path": "/Users/andre/Desktop/Vaults/Life/11-DC instructor/handoffs/2026-07-10 DC Instructor Phase 12000 Consolidation Handoff.md",
     "name": "2026-07-10 DC Instructor Phase 12000 Consolidation Handoff.md",
-    "modified_at": "2026-07-10T12:28:31.088343+00:00"
+    "modified_at": "2026-07-10T13:36:10.115583+00:00"
   },
   "gate": {
     "phase": 21,
