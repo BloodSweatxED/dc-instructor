@@ -13,6 +13,7 @@ const SECTION_ORDER = [
 ];
 
 const NEGATIVE_CONTEXT = ['no ', 'denies ', 'without '];
+const SUPPORTED_ONTOLOGY_LANGUAGE = 'english';
 const NEGATION_PATTERN = /(?:\bno|\bdenies|\bwithout)\s+$/;
 const NEGATION_SUFFIX_PATTERN = /^\s*(?:absent|not present|negative)\b/;
 const DIAGNOSTIC_NEGATION_PREFIX =
@@ -954,7 +955,37 @@ function phenotypePrimitiveSet(phenotypeId) {
   return { phenotype, selected };
 }
 
-function assemble(phenotypeId) {
+function normalizeOutputLabel(value = '') {
+  return String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+}
+
+function ontologyTextKeyForReadingLevel(readingLevel = '6th Grade') {
+  const normalized = normalizeOutputLabel(readingLevel);
+  if (normalized.includes('health literacy level 1') || normalized.includes('hl 1')) return 'en_hl1';
+  if (normalized.includes('4th') || normalized.includes('4 grade')) return 'en_4';
+  if (normalized.includes('6th') || normalized.includes('6 grade')) return 'en_6';
+  return null;
+}
+
+function ontologySupportsLanguage(language = 'English') {
+  const normalized = normalizeOutputLabel(language);
+  return normalized === SUPPORTED_ONTOLOGY_LANGUAGE || normalized.startsWith(`${SUPPORTED_ONTOLOGY_LANGUAGE} `);
+}
+
+function unsupportedOutputMode(result, fallbackReason, { readingLevel, language }) {
+  return {
+    ...result,
+    mode: 'generator',
+    fallback_reason: fallbackReason,
+    output_format: {
+      reading_level: readingLevel,
+      language,
+      supported: false,
+    },
+  };
+}
+
+function assemble(phenotypeId, textKey = 'en_6') {
   const { selected } = phenotypePrimitiveSet(phenotypeId);
   const lines = [];
   for (const [section, header] of SECTION_ORDER) {
@@ -965,7 +996,8 @@ function assemble(phenotypeId) {
     }
     lines.push(header);
     for (const item of items) {
-      const text = item.text?.en_6 || '';
+      const text = item.text?.[textKey];
+      if (!text) throw new Error(`Ontology primitive ${item.id} missing ${textKey}`);
       if (['home_care', 'medications', 'return_precautions', 'resources'].includes(section)) lines.push(`- ${text}`);
       else lines.push(text);
     }
@@ -1034,11 +1066,26 @@ export function classifyOntology({ condition, edNoteScrubbed = '' }) {
 }
 
 export function tryOntologyGeneration(payload) {
-  const result = classifyOntology(payload);
+  const normalizedPayload = payload || {};
+  const { readingLevel = '6th Grade', language = 'English' } = normalizedPayload;
+  const result = classifyOntology(normalizedPayload);
   if (result.mode !== 'ontology') return result;
+  if (!ontologySupportsLanguage(language)) {
+    return unsupportedOutputMode(result, 'unsupported_ontology_language', { readingLevel, language });
+  }
+  const textKey = ontologyTextKeyForReadingLevel(readingLevel);
+  if (!textKey) {
+    return unsupportedOutputMode(result, 'unsupported_ontology_reading_level', { readingLevel, language });
+  }
   return {
     ...result,
-    output: assemble(result.phenotype_id),
+    output: assemble(result.phenotype_id, textKey),
+    output_format: {
+      reading_level: readingLevel,
+      language,
+      supported: true,
+      ontology_text_key: textKey,
+    },
     source_cards_used: sourceCardsForPhenotype(result.phenotype_id),
   };
 }

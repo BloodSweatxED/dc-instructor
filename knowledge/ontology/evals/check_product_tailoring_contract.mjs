@@ -42,9 +42,52 @@ assert.equal(ontologyMed.review_required, true);
 const ontology = tryOntologyGeneration({
   condition: 'asthma exacerbation improved discharge',
   edNoteScrubbed: 'Improved after nebulizers and steroids. Breathing comfortably on room air. Has rescue inhaler access.',
+  readingLevel: '6th Grade',
+  language: 'English',
 });
 assert.equal(ontology.mode, 'ontology');
+assert.equal(ontology.output_format.ontology_text_key, 'en_6');
 assert.ok(Array.isArray(ontology.source_cards_used));
 assert.ok(ontology.source_cards_used.length >= 1);
+
+const fourthGradeOntology = tryOntologyGeneration({
+  condition: 'asthma exacerbation improved discharge',
+  edNoteScrubbed: 'Improved after nebulizers and steroids. Breathing comfortably on room air. Has rescue inhaler access.',
+  readingLevel: '4th Grade',
+  language: 'English',
+});
+assert.equal(fourthGradeOntology.mode, 'ontology');
+assert.equal(fourthGradeOntology.output_format.ontology_text_key, 'en_4');
+
+const hl1Ontology = tryOntologyGeneration({
+  condition: 'asthma exacerbation improved discharge',
+  edNoteScrubbed: 'Improved after nebulizers and steroids. Breathing comfortably on room air. Has rescue inhaler access.',
+  readingLevel: 'HL-1 (Health Literacy Level 1)',
+  language: 'English',
+});
+assert.equal(hl1Ontology.mode, 'ontology');
+assert.equal(hl1Ontology.output_format.ontology_text_key, 'en_hl1');
+
+const unsupportedLanguage = tryOntologyGeneration({
+  condition: 'asthma exacerbation improved discharge',
+  edNoteScrubbed: 'Improved after nebulizers and steroids. Breathing comfortably on room air. Has rescue inhaler access.',
+  readingLevel: '6th Grade',
+  language: 'Spanish',
+});
+assert.equal(unsupportedLanguage.mode, 'generator');
+assert.equal(unsupportedLanguage.phenotype_id, 'asthma_exacerbation_improved_discharge');
+assert.equal(unsupportedLanguage.fallback_reason, 'unsupported_ontology_language');
+assert.equal(unsupportedLanguage.output, undefined);
+
+const unsupportedReadingLevel = tryOntologyGeneration({
+  condition: 'asthma exacerbation improved discharge',
+  edNoteScrubbed: 'Improved after nebulizers and steroids. Breathing comfortably on room air. Has rescue inhaler access.',
+  readingLevel: '8th Grade',
+  language: 'English',
+});
+assert.equal(unsupportedReadingLevel.mode, 'generator');
+assert.equal(unsupportedReadingLevel.phenotype_id, 'asthma_exacerbation_improved_discharge');
+assert.equal(unsupportedReadingLevel.fallback_reason, 'unsupported_ontology_reading_level');
+assert.equal(unsupportedReadingLevel.output, undefined);
 
 console.log('product tailoring contract checks passed');

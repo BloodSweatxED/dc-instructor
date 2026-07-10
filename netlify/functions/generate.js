@@ -146,7 +146,7 @@ export default async (req) => {
     has_image_request: hasImage,
   });
 
-  const ontology = tryOntologyGeneration({ condition, edNoteScrubbed });
+  const ontology = tryOntologyGeneration({ condition, edNoteScrubbed, readingLevel, language });
   const medicationProvenance = classifyMedicationProvenance({
     edNoteScrubbed,
     ontologyMode: ontology.mode,
@@ -161,6 +161,7 @@ export default async (req) => {
     phenotype_id: ontology.phenotype_id,
     confidence: ontology.confidence,
     fallback_reason: ontology.fallback_reason,
+    output_format: ontology.output_format || null,
     output_modifiers: ontology.output_modifiers || [],
     medication_provenance: medicationProvenance.mode,
   }));
@@ -178,6 +179,7 @@ export default async (req) => {
           phenotype_id: ontology.phenotype_id,
           ontology_confidence: ontology.confidence,
           fallback_reason: null,
+          output_format: ontology.output_format || null,
           output_modifiers: ontology.output_modifiers || [],
           tailoring_mode: tailoringMode,
           medication_provenance: medicationProvenance,
@@ -227,6 +229,7 @@ export default async (req) => {
         phenotype_id: ontology.phenotype_id,
         ontology_confidence: ontology.confidence,
         fallback_reason: ontology.fallback_reason,
+        output_format: ontology.output_format || null,
         output_modifiers: ontology.output_modifiers || [],
         tailoring_mode: tailoringMode,
         medication_provenance: medicationProvenance,
