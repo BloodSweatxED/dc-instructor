@@ -1,5 +1,34 @@
 # DC Instructor — Usage Snapshots
 
+## 2026-07-10
+
+> **ERROR: All Supabase queries failed — this is the 16th consecutive failed snapshot on main.**
+>
+> **Persistent blockers (unchanged from prior runs):**
+> - ❌ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** The env var is not injected by the execution environment.
+> - ❌ **Network policy blocks Supabase.** `curl` exits with code 56 (receive failure / proxy reset) on every attempt to `noloieuagfigaqahspfi.supabase.co`. This block has been present continuously since 2026-07-04.
+>
+> **⚠️ Trial ended 2026-06-02 (38 days ago). No usage data has ever been collected by this routine.**
+>
+> **Two manual fixes required (both must be done together):**
+> 1. **Add `SUPABASE_SERVICE_ROLE_KEY`** to this environment's configuration — set it in [Claude Code Remote Environment settings](https://code.claude.com/docs/en/claude-code-on-the-web) or inject it via the session environment variables.
+> 2. **Update the network policy** to permit outbound HTTPS to `*.supabase.co`.
+
+- **Total generations:** _unavailable (network policy blocks Supabase — curl exit 56)_
+- **Last 3 days:** _unavailable (network policy blocks Supabase)_
+- **Days remaining in trial:** -38 (trial ended 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (network policy blocks Supabase)_
+
+**Languages:** _unavailable (network policy blocks Supabase)_
+
+**Reading levels:** _unavailable (network policy blocks Supabase)_
+
+**Ratings:** _unavailable (network policy blocks Supabase)_
+
+---
+
 ## 2026-07-07
 
 > **ERROR: All Supabase queries failed — this is the 15th consecutive failed snapshot on main.**
