@@ -1006,6 +1006,36 @@ function assemble(phenotypeId, textKey = 'en_6') {
   return `${lines.join('\n').trim()}\n`;
 }
 
+function normalizeChiefComplaint(value = '') {
+  return String(value || '')
+    .replace(/[_-]+/g, ' ')
+    .replace(/["“”\r\n\t]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 120)
+    .replace(/[.!?;:,]+$/, '');
+}
+
+export function addPrimaryCareCallScript(output, condition = '') {
+  const chiefComplaint = normalizeChiefComplaint(condition);
+  if (!chiefComplaint) return output;
+
+  const followUpPattern = /(FOLLOW UP:\n)([\s\S]*?)(\n\nRESOURCES:|$)/;
+  const match = String(output || '').match(followUpPattern);
+  if (!match) return output;
+
+  const followUpText = match[2];
+  const namesPrimaryCare = /\b(?:primary care|PCP|PMD)\b/i.test(followUpText);
+  const alreadyHasCallScript = /\bSay,\s*["“]/i.test(followUpText);
+  if (!namesPrimaryCare || alreadyHasCallScript) return output;
+
+  const callScript = `Call your primary care doctor's office or clinic to make an appointment. Say, "I was seen in the emergency department for ${chiefComplaint}. I need a follow-up appointment."`;
+  return output.replace(
+    followUpPattern,
+    (_section, header, existingFollowUp, resourcesHeader) => `${header}${callScript}\n${existingFollowUp}${resourcesHeader}`,
+  );
+}
+
 export function sourceCardsForPhenotype(phenotypeId) {
   const { phenotype, selected } = phenotypePrimitiveSet(phenotypeId);
   return [...new Set([
@@ -1079,7 +1109,7 @@ export function tryOntologyGeneration(payload) {
   }
   return {
     ...result,
-    output: assemble(result.phenotype_id, textKey),
+    output: addPrimaryCareCallScript(assemble(result.phenotype_id, textKey), normalizedPayload.condition),
     output_format: {
       reading_level: readingLevel,
       language,

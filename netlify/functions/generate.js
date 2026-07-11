@@ -108,7 +108,7 @@ RETURN TO ED IF:
 Bullet points (max 6), condition-specific red flags. Tie each to this diagnosis — not generic "if you feel worse." Examples for chest pain workup: "chest pain that lasts more than 15 minutes or spreads to your arm, jaw, or back"; "shortness of breath at rest or when lying flat." Use concrete thresholds (temperature, duration, severity) where possible.
 
 FOLLOW UP:
-1-3 sentences specifying who (PCP, specific specialty, urgent care), when (concrete timeframe like "within 3-5 days" or "in 1-2 weeks"), and how (call your PCP's office, referral provided, walk-in clinic). If a referral is being placed, say so.
+2-4 sentences specifying who (primary care, a specific specialty, or urgent care), when (a condition-appropriate concrete timeframe such as "within 3-5 days" or "in 1-2 weeks"), and how (call the office, use a provided referral, or visit a walk-in clinic). If primary care is a follow-up destination, include a concrete phone script tailored to the CONDITION/chief complaint: "I was seen in the emergency department for [condition or chief complaint]. I need a follow-up appointment." Translate the script with the rest of the output. Do not default every condition to a one-week timeframe. If a referral is being placed, say so.
 
 RESOURCES:
 1-2 short bullets for additional learning or next-step support. Prefer patient-friendly source names or practical reminders. Do not paste article text. If no specific resource is available, include: "- Bring these instructions to your follow-up visit."

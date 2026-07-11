@@ -8,6 +8,9 @@ const required = [
   'If the note says only "antibiotics" or "pain medicine," do not choose a drug, dose, route, frequency, or duration',
   'RESOURCES:',
   'Do not paste article text',
+  'include a concrete phone script tailored to the CONDITION/chief complaint',
+  'I was seen in the emergency department for [condition or chief complaint]',
+  'Do not default every condition to a one-week timeframe',
 ];
 
 const forbidden = [
