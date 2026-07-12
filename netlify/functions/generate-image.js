@@ -17,7 +17,7 @@ export default async (req) => {
   form.append('output_format', 'png');
   form.append('aspect_ratio', '1:1');
 
-  const r = await fetch('https://api.stability.ai/v2beta/stable-image/generate/core', {
+  const r = await fetch('https://api.stability.ai/v2beta/stable-image/generate/ultra', {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${apiKey}`,
