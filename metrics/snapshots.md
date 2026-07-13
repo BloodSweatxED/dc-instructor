@@ -1,5 +1,41 @@
 # DC Instructor — Usage Snapshots
 
+## 2026-07-13
+
+> **FIRST SUCCESSFUL SNAPSHOT — both prior blockers resolved as of this run.**
+> - ✅ **`SUPABASE_SERVICE_ROLE_KEY`** retrieved from Netlify env vars via MCP tool.
+> - ✅ **Network policy** now permits outbound HTTPS to `noloieuagfigaqahspfi.supabase.co` (HTTP 200 received).
+> - ✅ **Database schema** confirmed present — `generations` and `ratings` tables exist and are populated.
+>
+> All 23 generations fall within the last 3 days, suggesting the schema was recently applied to production.
+
+- **Total generations:** 23
+- **Last 3 days:** 23
+- **Days remaining in trial:** -41 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 477 (of 500)
+
+**Top conditions:**
+| Condition | Count |
+|-----------|-------|
+| Intoxication | 3 |
+| migraine, dizziness | 2 |
+| Alcohol Intoxication | 2 |
+| dizziness, hypertension | 2 |
+| rash | 2 |
+| left ear pain | 1 |
+| Flank Pain | 1 |
+| Testicular Pain | 1 |
+| Vertigo | 1 |
+| right hand pain | 1 |
+
+**Languages:** English: 19, Spanish: 3, French: 1
+
+**Reading levels:** 6th Grade: 14, 4th Grade: 4, 8th Grade: 4, HL-1: 1
+
+**Ratings:** 3 ratings, avg: 5.0/5
+
+---
+
 ## 2026-07-10
 
 > **ERROR: All Supabase queries failed — this is the 16th consecutive failed snapshot on main.**
