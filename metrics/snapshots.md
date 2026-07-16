@@ -644,3 +644,31 @@
 **Reading levels:** _unavailable (API key missing)_
 
 **Ratings:** _unavailable (API key missing)_
+
+---
+
+## 2026-07-16
+
+> **PARTIAL SUCCESS — total count retrieved via anon key; breakdowns unavailable (RLS).**
+>
+> **Status of known blockers:**
+> - ⚠️ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** Used the anon key extracted from the public app bundle as a fallback.
+> - ✅ **Network:** Supabase host reachable (HTTP 200 on `generation_count` view).
+> - ✅ **Database schema:** `generation_count` view and `generations`/`ratings` tables exist and are populated.
+> - ℹ️ **RLS in effect:** Anon key can read the `generation_count` public view (count: 31) but `generations` and `ratings` tables return empty for anon users. Service role key required for condition/language/reading-level/ratings breakdowns.
+>
+> **Last 3 days (estimated):** Previous snapshot on 2026-07-13 showed 23 total; now 31 → **~8 new generations** since that run. (Exact 3-day query unavailable without service role key.)
+
+- **Total generations:** 31
+- **Last 3 days:** ~8 (estimated: 31 − 23 from prior 2026-07-13 snapshot)
+- **Days remaining in trial:** -44 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 469 (of 500)
+
+**Top conditions:** _unavailable (RLS blocks anon reads on `generations`)_
+
+**Languages:** _unavailable (RLS blocks anon reads on `generations`)_
+
+**Reading levels:** _unavailable (RLS blocks anon reads on `generations`)_
+
+**Ratings:** _unavailable (RLS blocks anon reads on `ratings`)_
+
