@@ -672,3 +672,32 @@
 
 **Ratings:** _unavailable (RLS blocks anon reads on `ratings`)_
 
+
+---
+
+## 2026-07-19
+
+- **Total generations:** 35
+- **Last 3 days:** 4
+- **Days remaining in trial:** -47 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 465 (of 500)
+
+**Top conditions:**
+| Condition | Count |
+|-----------|-------|
+| rash | 3 |
+| alcoholic hepatitis | 3 |
+| Intoxication | 3 |
+| Psychiatric evaluation | 2 |
+| knee pain | 2 |
+| migraine, dizziness | 2 |
+| Alcohol Intoxication | 2 |
+| dizziness, hypertension | 2 |
+| abdominal pain | 1 |
+| choked on hard taco | 1 |
+
+**Languages:** English: 28, Spanish: 6, French: 1
+
+**Reading levels:** 6th Grade: 26, 8th Grade: 4, 4th Grade: 4, HL-1: 1
+
+**Ratings:** 5 ratings, avg: 5.0/5
