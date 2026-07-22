@@ -701,3 +701,27 @@
 **Reading levels:** 6th Grade: 26, 8th Grade: 4, 4th Grade: 4, HL-1: 1
 
 **Ratings:** 5 ratings, avg: 5.0/5
+
+---
+
+## 2026-07-22
+
+> **PARTIAL SUCCESS — total count via anon key; breakdowns unavailable (RLS).**
+>
+> - ⚠️ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** Used anon key extracted from public app bundle (`dcinstructor.com/assets/index-DGkTEqdb.js`) as fallback. Anon key has `SELECT` on the `generation_count` view only; `generations` and `ratings` tables are RLS-blocked for anon users.
+> - ✅ **Network:** Supabase host reachable — HTTP 200 on `generation_count` view.
+> - ✅ **Database schema:** `generation_count` view and `generations`/`ratings` tables exist.
+> - ℹ️ **Last 3 days (estimated):** Previous snapshot on 2026-07-19 showed 35 total; now 39 → **~4 new generations** in the last 3 days.
+
+- **Total generations:** 39
+- **Last 3 days:** ~4 (estimated: 39 − 35 from 2026-07-19 snapshot)
+- **Days remaining in trial:** -50 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 461 (of 500)
+
+**Top conditions:** _unavailable (RLS blocks anon reads on `generations`)_
+
+**Languages:** _unavailable (RLS blocks anon reads on `generations`)_
+
+**Reading levels:** _unavailable (RLS blocks anon reads on `generations`)_
+
+**Ratings:** _unavailable (RLS blocks anon reads on `ratings`)_
