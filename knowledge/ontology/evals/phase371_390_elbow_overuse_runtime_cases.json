@@ -1,0 +1,137 @@
+[
+  {
+    "id": "phase371_elbow_overuse_clean_draft_fallback",
+    "condition": "elbow overuse strain xray negative",
+    "ed_note": "Adult with elbow overuse strain. Subacute onset. X-ray performed and negative. Neurovascular intact including hand motor. No acute traumatic mechanism. No elbow instability concern.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase372_lateral_epicondylitis_clean_draft_fallback",
+    "condition": "lateral epicondylitis xray negative",
+    "ed_note": "Adult with lateral epicondylitis. Chronic elbow overuse injury. X-ray performed and negative. Neurovascular exam intact including hand motor. No acute traumatic mechanism. No instability concern.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase373_medial_epicondylitis_clean_draft_fallback",
+    "condition": "medial epicondylitis xray negative",
+    "ed_note": "Adult with medial epicondylitis. Subacute elbow overuse injury. X-ray performed and negative. Neurovascular intact including hand motor. No acute trauma. Stable elbow exam.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase374_elbow_overuse_missing_trauma_attestation_blocks",
+    "condition": "elbow overuse strain xray negative",
+    "ed_note": "Adult with elbow overuse strain. X-ray performed and negative. Neurovascular intact including hand motor. No elbow instability concern.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "no_acute_traumatic_mechanism_attested"
+    ]
+  },
+  {
+    "id": "phase375_elbow_overuse_missing_instability_attestation_blocks",
+    "condition": "elbow overuse strain xray negative",
+    "ed_note": "Adult with elbow overuse strain. X-ray performed and negative. Neurovascular intact including hand motor. No acute traumatic mechanism.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "no_elbow_instability_concern_attested"
+    ]
+  },
+  {
+    "id": "phase376_elbow_overuse_missing_hand_motor_blocks",
+    "condition": "elbow overuse strain xray negative",
+    "ed_note": "Adult with elbow overuse strain. X-ray performed and negative. Neurovascular exam intact. No acute traumatic mechanism. No elbow instability concern.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "intact_neurovascular_and_hand_motor_exam"
+    ]
+  },
+  {
+    "id": "phase377_elbow_overuse_no_xray_blocks",
+    "condition": "elbow overuse strain xray negative",
+    "ed_note": "Adult with elbow overuse strain. No imaging. Neurovascular intact including hand motor. No acute traumatic mechanism. No elbow instability concern.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "no_xray_performed"
+    ]
+  },
+  {
+    "id": "phase378_elbow_acute_trauma_blocks",
+    "condition": "elbow overuse strain xray negative",
+    "ed_note": "Adult with elbow overuse strain. Acute traumatic mechanism from fall onto elbow. X-ray performed and negative. Neurovascular intact including hand motor. No elbow instability concern.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "acute_traumatic_elbow_mechanism"
+    ]
+  },
+  {
+    "id": "phase379_elbow_ucl_concern_blocks",
+    "condition": "medial epicondylitis xray negative",
+    "ed_note": "Adult with medial epicondylitis. X-ray performed and negative. Neurovascular intact including hand motor. No acute traumatic mechanism. UCL concern with valgus instability.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "elbow_instability_or_ucl_lcl_concern"
+    ]
+  },
+  {
+    "id": "phase380_elbow_ulnar_nerve_pattern_blocks",
+    "condition": "medial epicondylitis xray negative",
+    "ed_note": "Adult with medial epicondylitis. X-ray performed and negative. Neurovascular intact including hand motor. No acute traumatic mechanism. No elbow instability concern. Ring and pinky numbness.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "ulnar_nerve_pattern"
+    ]
+  },
+  {
+    "id": "phase381_elbow_distal_biceps_concern_blocks",
+    "condition": "elbow overuse strain xray negative",
+    "ed_note": "Adult with elbow overuse strain. X-ray performed and negative. Neurovascular intact including hand motor. No acute traumatic mechanism. No elbow instability concern. Pop at the elbow with weakness in supination.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "distal_biceps_or_triceps_concern"
+    ]
+  },
+  {
+    "id": "phase382_elbow_olecranon_bursitis_blocks",
+    "condition": "elbow overuse strain xray negative",
+    "ed_note": "Adult with elbow overuse strain. X-ray performed and negative. Neurovascular intact including hand motor. No acute traumatic mechanism. No elbow instability concern. Olecranon bursitis with posterior elbow swelling.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "olecranon_bursitis_pathway"
+    ]
+  },
+  {
+    "id": "phase383_broad_elbow_pain_no_match",
+    "condition": "elbow pain",
+    "ed_note": "Elbow pain after activity.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase384_acute_elbow_sprain_still_excluded_from_knee_shoulder",
+    "condition": "elbow sprain xray negative",
+    "ed_note": "Elbow sprain xray negative. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "adult_acute_traumatic_elbow_sprain_diagnosis",
+      "acute_traumatic_mechanism_documented",
+      "intact_neurovascular_and_hand_motor_exam",
+      "no_distal_tendon_or_ligament_rupture_concern_attested",
+      "no_elbow_instability_concern_attested"
+    ]
+  }
+]

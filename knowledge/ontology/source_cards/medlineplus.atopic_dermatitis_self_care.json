@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.atopic_dermatitis_self_care",
+  "source": "MedlinePlus",
+  "title": "Atopic dermatitis - self-care",
+  "url": "https://medlineplus.gov/ency/patientinstructions/000418.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Atopic dermatitis is a chronic skin disorder with scaly and itchy rashes.",
+    "Self-care includes bathing and skin-care routines, moisturizers, trigger avoidance, and clinician-directed medicines.",
+    "Patients should seek care for signs of infection or worsening disease."
+  ],
+  "use_policy": "evidence_support"
+}

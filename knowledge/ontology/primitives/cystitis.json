@@ -1,0 +1,352 @@
+[
+  {
+    "id": "cystitis.diagnosis.uncomplicated.v1",
+    "phenotypes": [
+      "uncomplicated_cystitis_nonpregnant"
+    ],
+    "section": "diagnosis",
+    "primitive_type": "diagnosis_summary",
+    "priority": "required",
+    "text": {
+      "en_4": "You have a bladder infection, also called a UTI.",
+      "en_6": "You have a bladder infection, also called an uncomplicated UTI.",
+      "en_hl1": "You have a bladder infection, called a UTI."
+    },
+    "contraindications": [
+      "pregnancy",
+      "pyelonephritis",
+      "sepsis",
+      "complicated_uti"
+    ],
+    "source_card_ids": [
+      "cdc.uti_basics",
+      "medlineplus.uti_self_care"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for uncomplicated_cystitis_nonpregnant v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "CDC and MedlinePlus support UTI framing, antibiotic treatment when clinically indicated, hydration, and pyelonephritis or sepsis return precautions."
+    }
+  },
+  {
+    "id": "cystitis.what_we_found.no_kidney_infection.v1",
+    "phenotypes": [
+      "uncomplicated_cystitis_nonpregnant"
+    ],
+    "section": "what_we_found",
+    "primitive_type": "reassuring_no_pyelo",
+    "priority": "required",
+    "text": {
+      "en_4": "Today we did not find signs of a kidney infection or a dangerous infection in your blood.",
+      "en_6": "Today we did not find signs of a kidney infection, sepsis, or another emergency cause of your symptoms.",
+      "en_hl1": "We did not see signs of a kidney infection or dangerous infection today."
+    },
+    "contraindications": [
+      "fever",
+      "flank_pain",
+      "sepsis",
+      "vomiting_unable_to_take_meds"
+    ],
+    "source_card_ids": [
+      "cdc.uti_basics",
+      "medlineplus.uti_self_care"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for uncomplicated_cystitis_nonpregnant v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "CDC and MedlinePlus support UTI framing, antibiotic treatment when clinically indicated, hydration, and pyelonephritis or sepsis return precautions."
+    }
+  },
+  {
+    "id": "cystitis.home_care.fluids_irritants.v1",
+    "phenotypes": [
+      "uncomplicated_cystitis_nonpregnant"
+    ],
+    "section": "home_care",
+    "primitive_type": "hydration",
+    "priority": "high",
+    "text": {
+      "en_4": "Drink fluids if you are allowed to. Avoid alcohol or drinks that make burning worse until you feel better.",
+      "en_6": "Drink fluids if you are allowed to. Avoid alcohol or drinks that worsen burning until symptoms improve.",
+      "en_hl1": "Drink fluids if you can. Avoid drinks that make burning worse."
+    },
+    "contraindications": [
+      "fluid_restriction"
+    ],
+    "source_card_ids": [
+      "medlineplus.uti_self_care"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for uncomplicated_cystitis_nonpregnant v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "CDC and MedlinePlus support UTI framing, antibiotic treatment when clinically indicated, hydration, and pyelonephritis or sepsis return precautions."
+    }
+  },
+  {
+    "id": "cystitis.home_care.culture_callback.v1",
+    "phenotypes": [
+      "uncomplicated_cystitis_nonpregnant"
+    ],
+    "section": "home_care",
+    "primitive_type": "culture_followup",
+    "priority": "medium",
+    "text": {
+      "en_4": "If a urine culture was sent, the hospital may call you if your antibiotic needs to change.",
+      "en_6": "If a urine culture was sent, the hospital may contact you if the antibiotic needs to be changed.",
+      "en_hl1": "If a urine culture was sent, we may call if your medicine needs to change."
+    },
+    "contraindications": [
+      "no_urine_culture_sent"
+    ],
+    "source_card_ids": [
+      "cdc.uti_basics"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for uncomplicated_cystitis_nonpregnant v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "CDC and MedlinePlus support UTI framing, antibiotic treatment when clinically indicated, hydration, and pyelonephritis or sepsis return precautions."
+    }
+  },
+  {
+    "id": "cystitis.medications.antibiotics_complete.v1",
+    "phenotypes": [
+      "uncomplicated_cystitis_nonpregnant"
+    ],
+    "section": "medications",
+    "primitive_type": "antibiotic_adherence",
+    "priority": "required",
+    "text": {
+      "en_4": "Take the antibiotic exactly as prescribed. Finish it unless a doctor or pharmacist tells you to stop.",
+      "en_6": "Take the antibiotic exactly as prescribed. Finish the course unless a doctor or pharmacist tells you to stop.",
+      "en_hl1": "Take your antibiotic as told. Finish it unless a doctor tells you to stop."
+    },
+    "contraindications": [
+      "no_antibiotic_prescribed"
+    ],
+    "source_card_ids": [
+      "cdc.uti_basics",
+      "medlineplus.uti_self_care"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for uncomplicated_cystitis_nonpregnant v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "CDC and MedlinePlus support UTI framing, antibiotic treatment when clinically indicated, hydration, and pyelonephritis or sepsis return precautions."
+    }
+  },
+  {
+    "id": "cystitis.medications.symptom_medicine_caution.v1",
+    "phenotypes": [
+      "uncomplicated_cystitis_nonpregnant"
+    ],
+    "section": "medications",
+    "primitive_type": "urinary_pain_medicine",
+    "priority": "medium",
+    "text": {
+      "en_4": "If you were given medicine for burning, use it only as directed. It may turn your urine bright orange.",
+      "en_6": "If you were prescribed medicine for urinary burning, use it only as directed. It may turn your urine bright orange.",
+      "en_hl1": "If you got medicine for burning, take it as told. Your pee may turn orange."
+    },
+    "contraindications": [
+      "no_urinary_analgesic_prescribed"
+    ],
+    "source_card_ids": [
+      "medlineplus.uti_self_care"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for uncomplicated_cystitis_nonpregnant v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "CDC and MedlinePlus support UTI framing, antibiotic treatment when clinically indicated, hydration, and pyelonephritis or sepsis return precautions."
+    }
+  },
+  {
+    "id": "cystitis.return_precautions.pyelo_sepsis.v1",
+    "phenotypes": [
+      "uncomplicated_cystitis_nonpregnant"
+    ],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_pyelo",
+    "priority": "required",
+    "text": {
+      "en_4": "Come back now for fever, chills, back or side pain, vomiting, weakness, confusion, or feeling very sick.",
+      "en_6": "Come back to the emergency department right away for fever, chills, back or side pain, vomiting, weakness, confusion, or feeling very sick.",
+      "en_hl1": "Come back now for fever, chills, back pain, vomiting, confusion, or feeling very sick."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.uti_self_care"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for uncomplicated_cystitis_nonpregnant v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "CDC and MedlinePlus support UTI framing, antibiotic treatment when clinically indicated, hydration, and pyelonephritis or sepsis return precautions."
+    }
+  },
+  {
+    "id": "cystitis.return_precautions.not_improving.v1",
+    "phenotypes": [
+      "uncomplicated_cystitis_nonpregnant"
+    ],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_treatment_failure",
+    "priority": "required",
+    "text": {
+      "en_4": "Get checked again if burning or urgency is not starting to improve after 2 days of antibiotics, or if symptoms get worse.",
+      "en_6": "Get checked again if burning or urgency is not starting to improve after 2 days of antibiotics, or if symptoms worsen.",
+      "en_hl1": "Get checked if symptoms are not better after 2 days of antibiotics, or if they get worse."
+    },
+    "contraindications": [
+      "no_antibiotic_prescribed"
+    ],
+    "source_card_ids": [
+      "medlineplus.uti_self_care"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for uncomplicated_cystitis_nonpregnant v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "CDC and MedlinePlus support UTI framing, antibiotic treatment when clinically indicated, hydration, and pyelonephritis or sepsis return precautions."
+    }
+  },
+  {
+    "id": "cystitis.follow_up.recheck.v1",
+    "phenotypes": [
+      "uncomplicated_cystitis_nonpregnant"
+    ],
+    "section": "follow_up",
+    "primitive_type": "follow_up_pcp",
+    "priority": "required",
+    "text": {
+      "en_4": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a urinary tract infection. I need a follow-up visit within 1 week, or sooner if symptoms are not improving.\"",
+      "en_6": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a urinary tract infection. I need a follow-up visit within 1 week, or sooner if symptoms are not improving.\"",
+      "en_hl1": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a urinary tract infection. I need a follow-up visit within 1 week, or sooner if symptoms are not improving.\""
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.uti_self_care"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for uncomplicated_cystitis_nonpregnant v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "CDC and MedlinePlus support UTI framing, antibiotic treatment when clinically indicated, hydration, and pyelonephritis or sepsis return precautions."
+    },
+    "style": {
+      "followup_script": "phase17_patient_advocacy"
+    }
+  }
+]

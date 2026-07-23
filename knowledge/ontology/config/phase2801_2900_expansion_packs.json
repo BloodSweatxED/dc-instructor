@@ -1,0 +1,417 @@
+[
+  {
+    "id": "thumb_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+    "label": "Thumb sprain, x-ray negative, without tendon or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "thumb sprain",
+      "sprained thumb",
+      "thumb ligament sprain"
+    ],
+    "source_card_ids": [
+      "medlineplus.sprains_strains"
+    ],
+    "summary": "Your symptoms fit uncomplicated thumb sprain.",
+    "found": "Your clinician diagnosed thumb sprain. We did not find red flags requiring a separate emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, compression, elevation, gentle motion, or activity limits only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the limb.",
+      "New deformity, inability to use the area, or concern for fracture, dislocation, or tendon injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated thumb sprain.",
+      "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Tendon rupture.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "hand_tendon_risk",
+      "neurovascular_compromise",
+      "severe_pain",
+      "open_wound",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_thumb_sprain_no_tendon_or_neurovascular_red_flags",
+        "terms": [
+          "clinician diagnosis thumb sprain",
+          "discharge diagnosis thumb sprain",
+          "thumb sprain diagnosed"
+        ]
+      },
+      {
+        "id": "xray_negative_no_tendon_or_neurovascular_red_flags_thumb",
+        "terms": [
+          "Clinician diagnosis thumb sprain",
+          "X-ray negative",
+          "No tendon injury",
+          "Neurovascularly intact."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis thumb sprain",
+      "thumb sprain diagnosed",
+      "thumb sprain"
+    ],
+    "source_audit_notes": "medlineplus.sprains_strains supports patient-education framing for thumb sprain and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_thumb_sprain_xray_negative_no_tendon_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated thumb sprain",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "hand_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+    "label": "Hand sprain, x-ray negative, without tendon or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "hand sprain",
+      "sprained hand",
+      "hand ligament sprain"
+    ],
+    "source_card_ids": [
+      "medlineplus.sprains_strains"
+    ],
+    "summary": "Your symptoms fit uncomplicated hand sprain.",
+    "found": "Your clinician diagnosed hand sprain. We did not find red flags requiring a separate emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, compression, elevation, gentle motion, or activity limits only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the limb.",
+      "New deformity, inability to use the area, or concern for fracture, dislocation, or tendon injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated hand sprain.",
+      "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Tendon rupture.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "hand_tendon_risk",
+      "neurovascular_compromise",
+      "severe_pain",
+      "open_wound",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_hand_sprain_no_tendon_or_neurovascular_red_flags",
+        "terms": [
+          "clinician diagnosis hand sprain",
+          "discharge diagnosis hand sprain",
+          "hand sprain diagnosed"
+        ]
+      },
+      {
+        "id": "xray_negative_no_tendon_or_neurovascular_red_flags_hand_sprain",
+        "terms": [
+          "Clinician diagnosis hand sprain",
+          "X-ray negative",
+          "No tendon injury",
+          "Neurovascularly intact."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis hand sprain",
+      "hand sprain diagnosed",
+      "hand sprain"
+    ],
+    "source_audit_notes": "medlineplus.sprains_strains supports patient-education framing for hand sprain and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_hand_sprain_xray_negative_no_tendon_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated hand sprain",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "biceps_tendinitis_uncomplicated_no_rupture_or_infection",
+    "label": "Biceps tendinitis without rupture or infection red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "biceps tendinitis",
+      "biceps tendonitis",
+      "biceps overuse tendinitis"
+    ],
+    "source_card_ids": [
+      "medlineplus.tendinitis"
+    ],
+    "summary": "Your symptoms fit uncomplicated biceps tendinitis.",
+    "found": "Your clinician diagnosed biceps tendinitis. We did not find tendon rupture, infection, neurovascular compromise, or another emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, gentle motion, activity limits, or gradual return to activity only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the arm.",
+      "A pop with loss of strength, new deformity, or concern for tendon rupture.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated biceps tendinitis.",
+      "No tendon rupture, fracture/dislocation concern, neurovascular compromise, infection, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Tendon rupture, fracture/dislocation concern, severe pain, neurovascular compromise, infection concern, inability to use the limb, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Tendon rupture.",
+      "Fracture or dislocation.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_biceps_tendinitis",
+        "terms": [
+          "clinician diagnosis biceps tendinitis",
+          "discharge diagnosis biceps tendinitis",
+          "biceps tendinitis diagnosed",
+          "biceps tendonitis diagnosed"
+        ]
+      },
+      {
+        "id": "no_rupture_or_infection_red_flags_biceps",
+        "terms": [
+          "no tendon rupture",
+          "neurovascularly intact",
+          "no infection",
+          "no fracture concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis biceps tendinitis",
+      "biceps tendinitis diagnosed",
+      "biceps tendonitis diagnosed",
+      "biceps tendinitis"
+    ],
+    "source_audit_notes": "MedlinePlus supports tendinitis framing, activity modification, symptom care, and warning signs. Autonomous expansion approved this narrow v1 only for clinician-diagnosed biceps tendinitis without rupture, fracture/dislocation concern, neurovascular compromise, infection, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_biceps_tendinitis_without_rupture_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated biceps tendinitis",
+      "no tendon rupture, fracture/dislocation concern, neurovascular compromise, infection, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "thumb_strain_uncomplicated_no_tendon_or_neurovascular_red_flags",
+    "label": "Thumb strain without tendon or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "thumb strain",
+      "pulled thumb muscle",
+      "thumb muscle strain"
+    ],
+    "source_card_ids": [
+      "medlineplus.sprains_strains"
+    ],
+    "summary": "Your symptoms fit uncomplicated thumb strain.",
+    "found": "Your clinician diagnosed thumb strain. We did not find red flags requiring a separate emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, compression, elevation, gentle motion, or activity limits only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the thumb.",
+      "New deformity, inability to use the thumb, or concern for fracture, dislocation, or tendon injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated thumb strain.",
+      "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture/dislocation concern, tendon injury, severe pain, neurovascular compromise, open wound, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Tendon injury.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "hand_tendon_risk",
+      "neurovascular_compromise",
+      "severe_pain",
+      "open_wound",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_thumb_strain",
+        "terms": [
+          "clinician diagnosis thumb strain",
+          "discharge diagnosis thumb strain",
+          "thumb strain diagnosed",
+          "pulled thumb muscle diagnosed"
+        ]
+      },
+      {
+        "id": "no_tendon_or_neurovascular_red_flags_thumb_strain",
+        "terms": [
+          "no tendon injury",
+          "neurovascularly intact",
+          "no fracture concern",
+          "no open wound"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis thumb strain",
+      "thumb strain diagnosed",
+      "pulled thumb muscle diagnosed",
+      "thumb strain"
+    ],
+    "source_audit_notes": "MedlinePlus supports sprain/strain home-care framing and warning signs. Autonomous expansion approved this narrow v1 only for clinician-diagnosed thumb strain without fracture/dislocation concern, tendon injury, neurovascular compromise, infection, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_thumb_strain_without_tendon_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated thumb strain",
+      "no fracture/dislocation concern, tendon injury, neurovascular compromise, infection, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "hip_sprain_xray_negative_no_fracture_or_neurovascular_red_flags",
+    "label": "Hip sprain, x-ray negative, without fracture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "hip sprain",
+      "sprained hip",
+      "hip ligament sprain"
+    ],
+    "source_card_ids": [
+      "medlineplus.sprains_strains"
+    ],
+    "summary": "Your symptoms fit uncomplicated hip sprain.",
+    "found": "Your clinician diagnosed hip sprain. We did not find red flags requiring a separate emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, compression, elevation, gentle motion, or activity limits only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the limb.",
+      "New deformity, inability to use the area, or concern for fracture, dislocation, or tendon injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated hip sprain.",
+      "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Tendon rupture.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity",
+      "elderly_frail",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_hip_sprain_no_fracture_or_neurovascular_red_flags",
+        "terms": [
+          "clinician diagnosis hip sprain",
+          "discharge diagnosis hip sprain",
+          "hip sprain diagnosed"
+        ]
+      },
+      {
+        "id": "xray_negative_no_fracture_or_neurovascular_red_flags_hip_sprain",
+        "terms": [
+          "Clinician diagnosis hip sprain",
+          "X-ray negative",
+          "No fracture concern",
+          "Neurovascularly intact."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis hip sprain",
+      "hip sprain diagnosed",
+      "hip sprain"
+    ],
+    "source_audit_notes": "medlineplus.sprains_strains supports patient-education framing for hip sprain and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_hip_sprain_xray_negative_no_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated hip sprain",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "review_date": "2026-06-19"
+  }
+]

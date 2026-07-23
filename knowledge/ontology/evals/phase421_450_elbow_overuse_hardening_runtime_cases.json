@@ -1,0 +1,92 @@
+[
+  {
+    "id": "phase421_negated_hand_weakness_does_not_block",
+    "condition": "tennis elbow xray negative",
+    "ed_note": "Adult with tennis elbow. Chronic elbow overuse injury. X-ray performed and negative. Neurovascular intact including hand motor. No acute trauma. No elbow instability concern. No hand weakness.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase422_negated_ring_finger_numbness_does_not_block",
+    "condition": "medial epicondylitis xray negative",
+    "ed_note": "Adult with medial epicondylitis. Chronic elbow overuse injury. Xray performed and negative. Neurovascular intact including hand motor. No acute trauma. No instability concern. Denies ring finger numbness.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase423_negated_posterior_elbow_swelling_does_not_block",
+    "condition": "elbow overuse strain xray negative",
+    "ed_note": "Adult with elbow overuse strain. Xray performed and negative. Neurovascular intact including hand motor. No acute trauma. No instability concern. No posterior elbow swelling.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase424_xray_no_acute_fracture_satisfies_required_context",
+    "condition": "tennis elbow xray negative",
+    "ed_note": "Adult with tennis elbow. Chronic elbow overuse injury. Xray shows no acute fracture. Neurovascular intact including hand motor. No acute trauma. No instability concern.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase425_no_fracture_seen_on_xray_satisfies_required_context",
+    "condition": "tennis elbow xray negative",
+    "ed_note": "Adult with tennis elbow. Chronic elbow overuse injury. No fracture seen on xray. Neurovascular intact including hand motor. No acute trauma. No instability concern.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase426_normal_hand_motor_satisfies_required_context",
+    "condition": "tennis elbow xray negative",
+    "ed_note": "Adult with tennis elbow. Chronic elbow overuse injury. Xray performed and negative. Motor in the hand is normal. No acute trauma. No instability concern.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase427_unable_to_pronate_blocks_as_tendon_concern",
+    "condition": "elbow overuse strain xray negative",
+    "ed_note": "Adult with elbow overuse strain. Xray performed and negative. Neurovascular intact including hand motor. No acute trauma. No instability concern. Unable to pronate.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "distal_biceps_or_triceps_concern"
+    ]
+  },
+  {
+    "id": "phase428_weakness_pronating_forearm_blocks_as_tendon_concern",
+    "condition": "elbow overuse strain xray negative",
+    "ed_note": "Adult with elbow overuse strain. Xray performed and negative. Neurovascular intact including hand motor. No acute trauma. No instability concern. Weakness pronating forearm.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "distal_biceps_or_triceps_concern"
+    ]
+  },
+  {
+    "id": "phase429_anticoagulated_elbow_overuse_surfaces_output_modifier",
+    "condition": "tennis elbow xray negative",
+    "ed_note": "Adult with tennis elbow. Chronic elbow overuse injury. X-ray performed and negative. Neurovascular intact including hand motor. No acute trauma. No elbow instability concern. Takes apixaban.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86,
+    "expected_output_modifiers": [
+      "anticoagulated"
+    ]
+  },
+  {
+    "id": "phase430_immunocompromised_elbow_overuse_surfaces_output_modifier",
+    "condition": "tennis elbow xray negative",
+    "ed_note": "Adult with tennis elbow. Chronic elbow overuse injury. X-ray performed and negative. Neurovascular intact including hand motor. No acute trauma. No elbow instability concern. Patient is immunocompromised.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86,
+    "expected_output_modifiers": [
+      "immunocompromised"
+    ]
+  }
+]

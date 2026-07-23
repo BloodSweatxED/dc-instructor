@@ -1,0 +1,138 @@
+{
+  "id": "xerosis_dry_skin_no_infection_or_systemic_symptoms",
+  "label": "Dry skin or xerosis without infection or systemic symptoms",
+  "status": "reviewed",
+  "condition_family": "dermatology",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated dry skin or xerosis.",
+    "No secondary infection, severe eczema/psoriasis pathway, severe cutaneous adverse reaction, systemic illness, high-risk host, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Cellulitis, abscess, pus, bleeding fissures requiring wound care, systemic illness, severe itch with widespread rash, or severe cutaneous adverse reaction.",
+    "Severe eczema/psoriasis flare, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology plan."
+  ],
+  "must_not_miss": [
+    "Secondary skin infection.",
+    "Severe cutaneous adverse reaction.",
+    "Eczema herpeticum.",
+    "Systemic disease with skin findings."
+  ],
+  "default_follow_up": "Follow up with primary care or dermatology if symptoms persist, recur, or become severe.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "xerosis_dry_skin_no_infection_or_systemic_symptoms.diagnosis.diagnosis_summary.v1",
+    "xerosis_dry_skin_no_infection_or_systemic_symptoms.what_we_found.reassuring_ed_assessment.v1",
+    "xerosis_dry_skin_no_infection_or_systemic_symptoms.home_care.home_care_1.v1",
+    "xerosis_dry_skin_no_infection_or_systemic_symptoms.home_care.home_care_2.v1",
+    "xerosis_dry_skin_no_infection_or_systemic_symptoms.home_care.home_care_3.v1",
+    "xerosis_dry_skin_no_infection_or_systemic_symptoms.medications.medication_guidance_1.v1",
+    "xerosis_dry_skin_no_infection_or_systemic_symptoms.medications.medication_guidance_2.v1",
+    "xerosis_dry_skin_no_infection_or_systemic_symptoms.return_precautions.return_precaution_1.v1",
+    "xerosis_dry_skin_no_infection_or_systemic_symptoms.return_precautions.return_precaution_2.v1",
+    "xerosis_dry_skin_no_infection_or_systemic_symptoms.return_precautions.return_precaution_3.v1",
+    "xerosis_dry_skin_no_infection_or_systemic_symptoms.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.dry_skin",
+    "medlineplus.dry_skin_self_care"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports dry-skin/xerosis framing, moisturizers, gentle skin care, avoiding drying triggers, and escalation for cracks that bleed, infection signs, severe itching, or non-improvement. Autonomous Phase 1701-1750 approved this narrow v1 only for clinician-diagnosed uncomplicated dry skin/xerosis without infection, severe eczema/psoriasis pathway, severe cutaneous adverse reaction, systemic illness, high-risk host, pregnancy/pediatric pathway, or specialist-directed dermatology plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "dry skin",
+      "xerosis",
+      "xerosis cutis",
+      "uncomplicated dry skin"
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "abscess_or_boils_or_carbuncle",
+      "wound_infection_concern",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "eczema_severe_or_widespread",
+      "dry_skin_complicated_or_systemic",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_dry_skin",
+        "terms": [
+          "clinician diagnosis dry skin",
+          "clinician diagnosis xerosis",
+          "discharge diagnosis dry skin",
+          "dry skin diagnosed",
+          "xerosis diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_symptoms_documented",
+        "terms": [
+          "no cellulitis",
+          "no secondary infection",
+          "no fever",
+          "no systemic symptoms",
+          "no systemic illness"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis dry skin",
+      "dry skin diagnosed",
+      "xerosis diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-17",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports dry-skin/xerosis framing, moisturizers, gentle skin care, avoiding drying triggers, and escalation for cracks that bleed, infection signs, severe itching, or non-improvement. Autonomous Phase 1701-1750 approved this narrow v1 only for clinician-diagnosed uncomplicated dry skin/xerosis without infection, severe eczema/psoriasis pathway, severe cutaneous adverse reaction, systemic illness, high-risk host, pregnancy/pediatric pathway, or specialist-directed dermatology plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_xerosis_without_infection_or_systemic_symptoms_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated dry skin or xerosis",
+      "no cellulitis, secondary infection, fever, systemic symptoms, or systemic illness documented",
+      "no severe eczema/psoriasis, severe drug-rash, high-risk host, pregnancy, pediatric, or specialist-directed pathway"
+    ],
+    "blocked_modifiers": [
+      "secondary_skin_infection_concern",
+      "abscess_or_boils_or_carbuncle",
+      "wound_infection_concern",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "eczema_severe_or_widespread",
+      "dry_skin_complicated_or_systemic",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ]
+  }
+}

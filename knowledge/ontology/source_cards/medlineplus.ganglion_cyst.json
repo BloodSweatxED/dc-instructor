@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.ganglion_cyst",
+  "source": "MedlinePlus",
+  "title": "Ganglion cyst",
+  "url": "https://medlineplus.gov/ency/article/001203.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "A ganglion cyst is a fluid-filled swelling often near a joint or tendon.",
+    "Ganglion cysts commonly occur on the wrist or hand.",
+    "They can be painless or cause discomfort with movement or pressure.",
+    "Infection, neurovascular symptoms, trauma, rapidly enlarging mass, or diagnostic uncertainty require separate evaluation."
+  ],
+  "use_policy": "evidence_support"
+}

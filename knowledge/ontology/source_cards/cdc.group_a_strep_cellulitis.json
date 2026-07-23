@@ -1,0 +1,14 @@
+{
+  "id": "cdc.group_a_strep_cellulitis",
+  "source": "CDC",
+  "title": "Clinical Guidance for Group A Streptococcal Cellulitis",
+  "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/cellulitis.html",
+  "source_type": "government_guidance",
+  "license_notes": "Use as government source support for cellulitis diagnosis, treatment framing, and complication risk. Avoid implying CDC endorses local discharge wording.",
+  "supports": [
+    "Cellulitis is a bacterial skin infection that requires clinician-directed antibiotic treatment.",
+    "Clinicians should consider more serious infection when systemic toxicity, deep infection, or rapidly progressive symptoms are present.",
+    "Patient counseling should include monitoring for worsening infection and complications."
+  ],
+  "use_policy": "evidence_support"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body",
+  "label": "Ear canal irritation after swimming without otitis externa or foreign body red flags",
+  "status": "reviewed",
+  "condition_family": "ent",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated ear canal irritation after swimming.",
+    "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "must_not_miss": [
+    "Posterior or severe bleeding.",
+    "Deep infection.",
+    "Foreign body or trauma.",
+    "High-risk host complication."
+  ],
+  "default_follow_up": "Follow up with primary care, ENT, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body.diagnosis.diagnosis_summary.v1",
+    "ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body.what_we_found.reassuring_ed_assessment.v1",
+    "ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body.home_care.home_care_1.v1",
+    "ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body.home_care.home_care_2.v1",
+    "ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body.home_care.home_care_3.v1",
+    "ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body.medications.medication_guidance_1.v1",
+    "ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body.medications.medication_guidance_2.v1",
+    "ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body.return_precautions.return_precaution_1.v1",
+    "ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body.return_precautions.return_precaution_2.v1",
+    "ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body.return_precautions.return_precaution_3.v1",
+    "ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "cdc.swimmers_ear",
+    "medlineplus.swimmers_ear"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "cdc.swimmers_ear, medlineplus.swimmers_ear supports patient-education framing for ear canal irritation after swimming and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent."
+  },
+  "runtime": {
+    "condition_terms": [
+      "ear canal irritation after swimming",
+      "swimmers ear irritation",
+      "water in ear irritation"
+    ],
+    "unsafe_modifiers": [
+      "ear_trauma_or_foreign_body",
+      "mastoiditis_or_deep_ear_infection_concern",
+      "diabetes_general_risk",
+      "immunocompromised",
+      "fever",
+      "specialist_directed_ent_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_ear_canal_irritation_after_swimming_no_otitis_externa",
+        "terms": [
+          "clinician diagnosis ear canal irritation after swimming",
+          "discharge diagnosis ear canal irritation after swimming",
+          "ear canal irritation after swimming diagnosed"
+        ]
+      },
+      {
+        "id": "no_otitis_externa_or_foreign_body_ear_canal_irritation",
+        "terms": [
+          "Clinician diagnosis ear canal irritation after swimming",
+          "No otitis externa",
+          "No foreign body",
+          "No mastoiditis concern."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis ear canal irritation after swimming",
+      "ear canal irritation after swimming diagnosed",
+      "ear canal irritation after swimming"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-19",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. cdc.swimmers_ear, medlineplus.swimmers_ear supports patient-education framing for ear canal irritation after swimming and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated ear canal irritation after swimming",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "blocked_modifiers": [
+      "ear_trauma_or_foreign_body",
+      "mastoiditis_or_deep_ear_infection_concern",
+      "diabetes_general_risk",
+      "immunocompromised",
+      "fever",
+      "specialist_directed_ent_plan"
+    ]
+  }
+}

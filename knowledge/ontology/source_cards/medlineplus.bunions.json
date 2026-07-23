@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.bunions",
+  "source": "MedlinePlus",
+  "title": "Bunions",
+  "url": "https://medlineplus.gov/ency/article/001231.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "A bunion is a bony bump near the base of the big toe.",
+    "Bunions can cause pain, redness, and shoe irritation.",
+    "Supportive care can include wider shoes, padding, and clinician-directed pain control.",
+    "Infection, diabetic foot risk, neurovascular compromise, trauma, or severe inability to walk require separate care."
+  ],
+  "use_policy": "evidence_support"
+}

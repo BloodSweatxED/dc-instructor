@@ -1,0 +1,15 @@
+{
+  "id": "cdc.sinus_infection",
+  "source": "CDC",
+  "title": "Sinus Infection Basics",
+  "url": "https://www.cdc.gov/sinus-infection/about/index.html",
+  "source_type": "government_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Sinus infection is also called sinusitis.",
+    "A healthcare provider diagnoses sinus infection by asking about symptoms and examining the patient.",
+    "Many sinus infections get better without antibiotics.",
+    "Patients should seek medical care for symptoms that are severe or concerning."
+  ],
+  "use_policy": "evidence_support"
+}

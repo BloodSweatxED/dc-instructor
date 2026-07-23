@@ -1,0 +1,176 @@
+{
+  "id": "foot_sprain_xray_negative",
+  "label": "Foot sprain with negative x-ray",
+  "status": "reviewed",
+  "condition_family": "musculoskeletal_injury",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of foot sprain or strain.",
+    "X-ray was performed and documented negative for fracture.",
+    "Neurovascular exam documented intact.",
+    "No ankle sprain pathway, Lisfranc or midfoot concern, inability to bear weight, inability to ambulate at discharge, occult fracture concern, compartment syndrome concern, septic joint or infection concern, or specialist-directed orthopedic plan."
+  ],
+  "exclusion_criteria": [
+    "Ankle sprain pathway, no x-ray performed, positive fracture, dislocation, open wound, open fracture, high-energy trauma, or crush injury.",
+    "Lisfranc or midfoot injury concern, inability to bear weight, inability to ambulate at discharge, suspected tendon or ligament rupture, compartment syndrome concern, septic joint or infection concern, neurovascular compromise, or specialist-directed orthopedic plan.",
+    "Pediatric growth plate pathway, elderly/osteoporotic high-risk foot injury, diabetic foot pathway, or peripheral vascular disease pathway."
+  ],
+  "must_not_miss": [
+    "Occult foot fracture.",
+    "Lisfranc injury.",
+    "Dislocation.",
+    "Tendon rupture.",
+    "Compartment syndrome.",
+    "Septic joint.",
+    "Neurovascular injury."
+  ],
+  "default_follow_up": "Follow up with your doctor, urgent care, or a foot specialist in 5 to 7 days if symptoms are not improving. Go sooner if pain or swelling is worse after 2 to 3 days. Your clinician may have given you a different plan; follow that instead.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "foot_sprain_xray_negative.diagnosis.diagnosis_summary.v1",
+    "foot_sprain_xray_negative.what_we_found.reassuring_ed_assessment.v1",
+    "foot_sprain_xray_negative.home_care.home_care_1.v1",
+    "foot_sprain_xray_negative.home_care.home_care_2.v1",
+    "foot_sprain_xray_negative.home_care.home_care_3.v1",
+    "foot_sprain_xray_negative.home_care.home_care_4.v1",
+    "foot_sprain_xray_negative.home_care.home_care_5.v1",
+    "foot_sprain_xray_negative.medications.medication_guidance_1.v1",
+    "foot_sprain_xray_negative.medications.medication_guidance_2.v1",
+    "foot_sprain_xray_negative.return_precautions.return_precaution_1.v1",
+    "foot_sprain_xray_negative.return_precautions.return_precaution_2.v1",
+    "foot_sprain_xray_negative.return_precautions.return_precaution_3.v1",
+    "foot_sprain_xray_negative.return_precautions.return_precaution_4.v1",
+    "foot_sprain_xray_negative.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.sprains_strains",
+    "medlineplus.foot_sprain_aftercare"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports general sprain/strain framing and foot-sprain aftercare with protection, rest, ice, compression, elevation, mobility aids, gradual activity return, and escalation for worsening pain, swelling, numbness, color change, fever, or inability to walk. Clinician-owner review on 2026-06-05 approved this as one shared adult foot sprain v1 with current blockers intact, including Lisfranc or midfoot concern, inability to bear weight, inability to ambulate at discharge, high-energy mechanism, pediatric growth plate pathway, diabetic foot, vascular disease, and specialist-directed orthopedic plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "foot sprain xray negative",
+      "foot strain xray negative",
+      "foot injury xray negative"
+    ],
+    "unsafe_modifiers": [
+      "ankle_sprain_pathway",
+      "no_xray_performed",
+      "fracture_seen",
+      "dislocation",
+      "open_wound",
+      "open_fracture",
+      "high_energy_trauma",
+      "crush_injury",
+      "lisfranc_or_midfoot_concern",
+      "unable_to_bear_weight_lower_extremity",
+      "cannot_ambulate_at_discharge",
+      "neurovascular_compromise",
+      "tendon_or_ligament_rupture_concern",
+      "compartment_syndrome_concern",
+      "septic_joint_or_infection_concern",
+      "pediatric_growth_plate_pathway",
+      "elderly_osteoporotic_high_risk_msk",
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "foot_site_documented",
+        "terms": [
+          "foot sprain xray negative",
+          "foot strain xray negative",
+          "foot injury xray negative"
+        ]
+      },
+      {
+        "id": "xray_performed_and_negative",
+        "terms": [
+          "xray performed and negative",
+          "x ray performed and negative",
+          "x-ray performed and negative",
+          "xray negative for fracture",
+          "x-ray negative for fracture",
+          "no fracture seen on xray",
+          "no fracture seen on x-ray"
+        ]
+      },
+      {
+        "id": "intact_neurovascular_exam",
+        "terms": [
+          "neurovascular exam intact",
+          "blood flow sensation movement intact",
+          "cms intact",
+          "distal pulses sensation movement intact",
+          "foot pulses sensation movement intact",
+          "toes warm and well perfused with normal sensation"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "foot sprain xray negative",
+      "foot strain xray negative",
+      "foot injury xray negative"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-05",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports general sprain/strain framing and foot-sprain aftercare with protection, rest, ice, compression, elevation, mobility aids, gradual activity return, and escalation for worsening pain, swelling, numbness, color change, fever, or inability to walk. Clinician-owner review on 2026-06-05 approved this as one shared adult foot sprain v1 with current blockers intact, including Lisfranc or midfoot concern, inability to bear weight, inability to ambulate at discharge, high-energy mechanism, pediatric growth plate pathway, diabetic foot, vascular disease, and specialist-directed orthopedic plan.",
+    "clinical_status": "reviewed_for_limited_adult_foot_sprain_or_strain_with_negative_xray_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of foot sprain/strain/injury",
+      "x-ray performed and negative",
+      "intact neurovascular exam",
+      "able to bear weight",
+      "able to ambulate at discharge",
+      "no ankle pathway",
+      "no Lisfranc or midfoot concern",
+      "no high-risk orthopedic modifier"
+    ],
+    "blocked_modifiers": [
+      "ankle_sprain_pathway",
+      "no_xray_performed",
+      "fracture_seen",
+      "dislocation",
+      "open_wound",
+      "open_fracture",
+      "high_energy_trauma",
+      "crush_injury",
+      "lisfranc_or_midfoot_concern",
+      "unable_to_bear_weight_lower_extremity",
+      "cannot_ambulate_at_discharge",
+      "neurovascular_compromise",
+      "tendon_or_ligament_rupture_concern",
+      "compartment_syndrome_concern",
+      "septic_joint_or_infection_concern",
+      "pediatric_growth_plate_pathway",
+      "elderly_osteoporotic_high_risk_msk",
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+}

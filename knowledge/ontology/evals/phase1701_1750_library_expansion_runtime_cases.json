@@ -1,0 +1,117 @@
+[
+  {
+    "id": "phase1701_allergic_rhinitis_clean",
+    "condition": "allergic rhinitis",
+    "ed_note": "Adult. Clinician diagnosis allergic rhinitis. No anaphylaxis. No airway symptoms. No wheezing. No asthma flare. No trouble breathing.",
+    "expected_phenotype_id": "mild_allergic_rhinitis_no_wheeze_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1702_allergic_rhinitis_missing_context_blocks",
+    "condition": "hay fever",
+    "ed_note": "Adult with sneezing and itchy eyes after pollen exposure.",
+    "expected_phenotype_id": "mild_allergic_rhinitis_no_wheeze_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["clinician_diagnosis_mild_allergic_rhinitis", "no_wheeze_or_anaphylaxis_documented"]
+  },
+  {
+    "id": "phase1703_allergic_rhinitis_wheeze_blocks",
+    "condition": "allergic rhinitis",
+    "ed_note": "Adult. Allergic rhinitis diagnosed. No anaphylaxis, but wheezing requiring bronchodilators and trouble breathing are documented.",
+    "expected_phenotype_id": "mild_allergic_rhinitis_no_wheeze_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["airway_symptoms", "copd_or_asthma_exacerbation_pathway"]
+  },
+  {
+    "id": "phase1704_plantar_wart_clean",
+    "condition": "plantar wart",
+    "ed_note": "Adult. Clinician diagnosis plantar wart. No diabetic foot. No foot wound. No open wound. No secondary infection. No immunocompromised host.",
+    "expected_phenotype_id": "localized_plantar_wart_no_diabetic_foot_or_immunocompromised_host",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1705_plantar_wart_missing_context_blocks",
+    "condition": "plantar wart",
+    "ed_note": "Adult with rough spot on sole.",
+    "expected_phenotype_id": "localized_plantar_wart_no_diabetic_foot_or_immunocompromised_host",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["clinician_diagnosis_localized_plantar_wart", "no_diabetic_foot_or_immunocompromised_context_documented"]
+  },
+  {
+    "id": "phase1706_plantar_wart_diabetic_foot_blocks",
+    "condition": "plantar wart",
+    "ed_note": "Adult. Plantar wart diagnosed. No secondary infection, but diabetic foot ulcer and neuropathy are documented.",
+    "expected_phenotype_id": "localized_plantar_wart_no_diabetic_foot_or_immunocompromised_host",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["diabetic_foot", "neuropathy_foot_risk"]
+  },
+  {
+    "id": "phase1707_corn_callus_clean",
+    "condition": "callus",
+    "ed_note": "Adult. Clinician diagnosis callus. No diabetic foot. No foot wound. No open wound. No cellulitis. No secondary infection.",
+    "expected_phenotype_id": "corn_or_callus_uncomplicated_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1708_corn_callus_missing_context_blocks",
+    "condition": "corn",
+    "ed_note": "Adult with thick skin on toe from shoe rubbing.",
+    "expected_phenotype_id": "corn_or_callus_uncomplicated_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["clinician_diagnosis_uncomplicated_corn_or_callus", "no_diabetic_foot_or_infection_documented"]
+  },
+  {
+    "id": "phase1709_corn_callus_foot_ulcer_blocks",
+    "condition": "callus",
+    "ed_note": "Adult. Callus diagnosed. No cellulitis, but foot ulcer, black skin, and poor circulation are documented.",
+    "expected_phenotype_id": "corn_or_callus_uncomplicated_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["corn_callus_complicated_foot_risk", "peripheral_vascular_disease"]
+  },
+  {
+    "id": "phase1710_acne_clean",
+    "condition": "acne",
+    "ed_note": "Adult. Clinician diagnosis mild acne. No abscess. No cellulitis. No severe acne. No medication reaction. No systemic illness.",
+    "expected_phenotype_id": "mild_acne_no_abscess_or_medication_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1711_acne_missing_context_blocks",
+    "condition": "acne",
+    "ed_note": "Adult with pimples on face.",
+    "expected_phenotype_id": "mild_acne_no_abscess_or_medication_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["clinician_diagnosis_mild_acne", "no_abscess_or_medication_red_flags_documented"]
+  },
+  {
+    "id": "phase1712_acne_cystic_blocks",
+    "condition": "acne",
+    "ed_note": "Adult. Acne diagnosed. No cellulitis, but cystic acne and isotretinoin pregnancy medication concern are documented.",
+    "expected_phenotype_id": "mild_acne_no_abscess_or_medication_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["acne_severe_or_medication_sensitive", "pregnancy"]
+  },
+  {
+    "id": "phase1713_dry_skin_clean",
+    "condition": "dry skin",
+    "ed_note": "Adult. Clinician diagnosis dry skin. No cellulitis. No secondary infection. No fever. No systemic symptoms. No systemic illness.",
+    "expected_phenotype_id": "xerosis_dry_skin_no_infection_or_systemic_symptoms",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1714_dry_skin_missing_context_blocks",
+    "condition": "xerosis",
+    "ed_note": "Adult with itchy flaky skin.",
+    "expected_phenotype_id": "xerosis_dry_skin_no_infection_or_systemic_symptoms",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["clinician_diagnosis_uncomplicated_dry_skin", "no_infection_or_systemic_symptoms_documented"]
+  },
+  {
+    "id": "phase1715_dry_skin_infection_blocks",
+    "condition": "dry skin",
+    "ed_note": "Adult. Dry skin diagnosed. No systemic symptoms, but spreading redness, pus, fever, and bleeding cracks are documented.",
+    "expected_phenotype_id": "xerosis_dry_skin_no_infection_or_systemic_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["dry_skin_complicated_or_systemic", "secondary_skin_infection_concern", "systemic_illness"]
+  }
+]

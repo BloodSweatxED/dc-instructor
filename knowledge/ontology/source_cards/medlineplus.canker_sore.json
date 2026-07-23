@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.canker_sore",
+  "source": "MedlinePlus",
+  "title": "Canker sore",
+  "url": "https://medlineplus.gov/ency/article/000998.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Canker sores are painful mouth ulcers that usually heal on their own.",
+    "Home care may include gentle oral hygiene, avoiding irritating foods, and short-term over-the-counter pain relief when safe.",
+    "Most pain improves in a few days and the sore usually resolves within about 10 to 14 days.",
+    "Patients should contact a clinician if an ulcer persists beyond two weeks, worsens, recurs often, or occurs with fever, diarrhea, headache, or rash."
+  ],
+  "use_policy": "evidence_support"
+}

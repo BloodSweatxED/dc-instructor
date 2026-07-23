@@ -1,0 +1,419 @@
+[
+  {
+    "id": "viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags",
+    "label": "Viral conjunctivitis without contact lens or vision red flags",
+    "family": "ophthalmology",
+    "condition_terms": [
+      "viral conjunctivitis",
+      "viral pink eye",
+      "pink eye viral"
+    ],
+    "source_card_ids": [
+      "cdc.conjunctivitis",
+      "medlineplus.conjunctivitis"
+    ],
+    "summary": "Your symptoms fit uncomplicated viral conjunctivitis.",
+    "found": "Your clinician diagnosed viral conjunctivitis. We did not find contact lens risk, vision change, eye pain, trauma, or cornea emergency signs today.",
+    "home": [
+      "Wash your hands often.",
+      "Avoid touching or rubbing the eyes.",
+      "Do not share towels, eye makeup, or contact lens supplies."
+    ],
+    "meds": [
+      "Use eye medicines or allergy medicines only if prescribed or recommended.",
+      "Do not use leftover eye drops unless your clinician said they are safe."
+    ],
+    "return": [
+      "Eye pain, light sensitivity, vision change, severe redness, or worsening swelling.",
+      "Contact lens use with worsening symptoms.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, eye clinic, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated viral conjunctivitis.",
+      "No contact lens use, eye pain, photophobia, vision change, corneal concern, trauma, or specialist-directed ophthalmology plan."
+    ],
+    "exclusion": [
+      "Contact lens use, eye pain, photophobia, vision change, corneal ulcer/keratitis concern, eye trauma, chemical exposure, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed ophthalmology plan."
+    ],
+    "must_not_miss": [
+      "Corneal ulcer or keratitis.",
+      "Acute glaucoma mimic.",
+      "Eye trauma or foreign body.",
+      "Vision-threatening infection."
+    ],
+    "unsafe_modifiers": [
+      "contact_lens_use",
+      "ocular_symptoms",
+      "vision_change",
+      "corneal_ulcer_or_keratitis_concern",
+      "eye_trauma_or_foreign_body",
+      "specialist_directed_ophthalmology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_viral_conjunctivitis_no_contact_lens_or_vision_red_fla",
+        "terms": [
+          "clinician diagnosis viral conjunctivitis",
+          "discharge diagnosis viral conjunctivitis",
+          "viral conjunctivitis diagnosed"
+        ]
+      },
+      {
+        "id": "no_contact_lens_or_vision_red_flags_viral_conjunctivitis",
+        "terms": [
+          "Clinician diagnosis viral conjunctivitis",
+          "No contact lens use",
+          "No eye pain",
+          "Vision normal."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis viral conjunctivitis",
+      "viral conjunctivitis diagnosed",
+      "viral conjunctivitis"
+    ],
+    "source_audit_notes": "cdc.conjunctivitis, medlineplus.conjunctivitis supports patient-education framing for viral conjunctivitis and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated viral conjunctivitis",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "allergic_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags",
+    "label": "Allergic conjunctivitis without contact lens or vision red flags",
+    "family": "ophthalmology",
+    "condition_terms": [
+      "allergic conjunctivitis",
+      "allergy pink eye",
+      "itchy allergic conjunctivitis"
+    ],
+    "source_card_ids": [
+      "cdc.conjunctivitis",
+      "medlineplus.conjunctivitis",
+      "medlineplus.allergic_rhinitis_self_care"
+    ],
+    "summary": "Your symptoms fit uncomplicated allergic conjunctivitis.",
+    "found": "Your clinician diagnosed allergic conjunctivitis. We did not find contact lens risk, vision change, eye pain, trauma, or cornea emergency signs today.",
+    "home": [
+      "Wash your hands often.",
+      "Avoid touching or rubbing the eyes.",
+      "Do not share towels, eye makeup, or contact lens supplies."
+    ],
+    "meds": [
+      "Use eye medicines or allergy medicines only if prescribed or recommended.",
+      "Do not use leftover eye drops unless your clinician said they are safe."
+    ],
+    "return": [
+      "Eye pain, light sensitivity, vision change, severe redness, or worsening swelling.",
+      "Contact lens use with worsening symptoms.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, eye clinic, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated allergic conjunctivitis.",
+      "No contact lens use, eye pain, photophobia, vision change, corneal concern, trauma, or specialist-directed ophthalmology plan."
+    ],
+    "exclusion": [
+      "Contact lens use, eye pain, photophobia, vision change, corneal ulcer/keratitis concern, eye trauma, chemical exposure, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed ophthalmology plan."
+    ],
+    "must_not_miss": [
+      "Corneal ulcer or keratitis.",
+      "Acute glaucoma mimic.",
+      "Eye trauma or foreign body.",
+      "Vision-threatening infection."
+    ],
+    "unsafe_modifiers": [
+      "contact_lens_use",
+      "ocular_symptoms",
+      "vision_change",
+      "corneal_ulcer_or_keratitis_concern",
+      "eye_trauma_or_foreign_body",
+      "specialist_directed_ophthalmology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_allergic_conjunctivitis_no_contact_lens_or_vision_red",
+        "terms": [
+          "clinician diagnosis allergic conjunctivitis",
+          "discharge diagnosis allergic conjunctivitis",
+          "allergic conjunctivitis diagnosed"
+        ]
+      },
+      {
+        "id": "no_contact_lens_or_vision_red_flags_allergic_conjunctivitis",
+        "terms": [
+          "Clinician diagnosis allergic conjunctivitis",
+          "No contact lens use",
+          "No eye pain",
+          "Vision normal."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis allergic conjunctivitis",
+      "allergic conjunctivitis diagnosed",
+      "allergic conjunctivitis"
+    ],
+    "source_audit_notes": "cdc.conjunctivitis, medlineplus.conjunctivitis, medlineplus.allergic_rhinitis_self_care supports patient-education framing for allergic conjunctivitis and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_allergic_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated allergic conjunctivitis",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "anterior_epistaxis_resolved_no_packing_or_anticoagulation",
+    "label": "Resolved anterior nosebleed without packing or anticoagulation red flags",
+    "family": "ent",
+    "condition_terms": [
+      "resolved anterior nosebleed",
+      "anterior epistaxis resolved",
+      "resolved epistaxis no packing"
+    ],
+    "source_card_ids": [
+      "medlineplus.nosebleed",
+      "aao_hns.nosebleed_guideline"
+    ],
+    "summary": "Your symptoms fit uncomplicated resolved anterior nosebleed.",
+    "found": "Your clinician diagnosed resolved anterior nosebleed. We did not find red flags requiring a separate emergency pathway today.",
+    "home": [
+      "Avoid picking, probing, or putting objects into the affected area.",
+      "Use the care plan your clinician recommended.",
+      "Keep follow-up if your clinician asked for recheck."
+    ],
+    "meds": [
+      "Use medicines only if prescribed or recommended.",
+      "Do not add leftover antibiotics, drops, sprays, or packing care unless your clinician told you to."
+    ],
+    "return": [
+      "Bleeding that will not stop, worsening pain, fever, swelling, or feeling very ill.",
+      "Dizziness, fainting, severe headache, trouble breathing, or new neurologic symptoms.",
+      "Symptoms that recur, worsen, or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, ENT, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated resolved anterior nosebleed.",
+      "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Posterior or severe bleeding.",
+      "Deep infection.",
+      "Foreign body or trauma.",
+      "High-risk host complication."
+    ],
+    "unsafe_modifiers": [
+      "posterior_epistaxis_or_uncontrolled_bleeding",
+      "anticoagulated",
+      "bleeding_disorder",
+      "facial_or_nasal_trauma",
+      "posterior_epistaxis_or_uncontrolled_bleeding",
+      "unstable_vitals"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_anterior_epistaxis_resolved_no_packing_or_anticoagulat",
+        "terms": [
+          "clinician diagnosis resolved anterior nosebleed",
+          "discharge diagnosis resolved anterior nosebleed",
+          "resolved anterior nosebleed diagnosed"
+        ]
+      },
+      {
+        "id": "resolved_no_packing_or_anticoagulation_epistaxis",
+        "terms": [
+          "Clinician diagnosis resolved anterior nosebleed",
+          "Bleeding stopped",
+          "No nasal packing",
+          "No blood thinner."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis resolved anterior nosebleed",
+      "resolved anterior nosebleed diagnosed",
+      "resolved anterior nosebleed"
+    ],
+    "source_audit_notes": "medlineplus.nosebleed, aao_hns.nosebleed_guideline supports patient-education framing for resolved anterior nosebleed and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_anterior_epistaxis_resolved_no_packing_or_anticoagulation_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated resolved anterior nosebleed",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "triceps_tendinitis_uncomplicated_no_rupture_or_infection",
+    "label": "Triceps tendinitis without rupture or infection red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "triceps tendinitis",
+      "triceps tendonitis",
+      "triceps overuse tendinitis"
+    ],
+    "source_card_ids": [
+      "medlineplus.tendinitis"
+    ],
+    "summary": "Your symptoms fit uncomplicated triceps tendinitis.",
+    "found": "Your clinician diagnosed triceps tendinitis. We did not find tendon rupture, infection, neurovascular compromise, or another emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, gentle motion, activity limits, or gradual return to activity only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the arm.",
+      "A pop with loss of strength, new deformity, or concern for tendon rupture.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated triceps tendinitis.",
+      "No tendon rupture, fracture/dislocation concern, neurovascular compromise, infection, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Tendon rupture, fracture/dislocation concern, severe pain, neurovascular compromise, infection concern, inability to use the limb, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Tendon rupture.",
+      "Fracture or dislocation.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_triceps_tendinitis",
+        "terms": [
+          "clinician diagnosis triceps tendinitis",
+          "discharge diagnosis triceps tendinitis",
+          "triceps tendinitis diagnosed",
+          "triceps tendonitis diagnosed"
+        ]
+      },
+      {
+        "id": "no_rupture_or_infection_red_flags_triceps",
+        "terms": [
+          "no tendon rupture",
+          "neurovascularly intact",
+          "no infection",
+          "no fracture concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis triceps tendinitis",
+      "triceps tendinitis diagnosed",
+      "triceps tendonitis diagnosed",
+      "triceps tendinitis"
+    ],
+    "source_audit_notes": "MedlinePlus supports tendinitis framing, activity modification, symptom care, and warning signs. Autonomous expansion approved this narrow v1 only for clinician-diagnosed triceps tendinitis without rupture, fracture/dislocation concern, neurovascular compromise, infection, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_triceps_tendinitis_without_rupture_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated triceps tendinitis",
+      "no tendon rupture, fracture/dislocation concern, neurovascular compromise, infection, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body",
+    "label": "Ear canal irritation after swimming without otitis externa or foreign body red flags",
+    "family": "ent",
+    "condition_terms": [
+      "ear canal irritation after swimming",
+      "swimmers ear irritation",
+      "water in ear irritation"
+    ],
+    "source_card_ids": [
+      "cdc.swimmers_ear",
+      "medlineplus.swimmers_ear"
+    ],
+    "summary": "Your symptoms fit uncomplicated ear canal irritation after swimming.",
+    "found": "Your clinician diagnosed ear canal irritation after swimming. We did not find red flags requiring a separate emergency pathway today.",
+    "home": [
+      "Avoid picking, probing, or putting objects into the affected area.",
+      "Use the care plan your clinician recommended.",
+      "Keep follow-up if your clinician asked for recheck."
+    ],
+    "meds": [
+      "Use medicines only if prescribed or recommended.",
+      "Do not add leftover antibiotics, drops, sprays, or packing care unless your clinician told you to."
+    ],
+    "return": [
+      "Bleeding that will not stop, worsening pain, fever, swelling, or feeling very ill.",
+      "Dizziness, fainting, severe headache, trouble breathing, or new neurologic symptoms.",
+      "Symptoms that recur, worsen, or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, ENT, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated ear canal irritation after swimming.",
+      "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Posterior or severe bleeding.",
+      "Deep infection.",
+      "Foreign body or trauma.",
+      "High-risk host complication."
+    ],
+    "unsafe_modifiers": [
+      "ear_trauma_or_foreign_body",
+      "mastoiditis_or_deep_ear_infection_concern",
+      "diabetes_general_risk",
+      "immunocompromised",
+      "fever",
+      "specialist_directed_ent_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_ear_canal_irritation_after_swimming_no_otitis_externa",
+        "terms": [
+          "clinician diagnosis ear canal irritation after swimming",
+          "discharge diagnosis ear canal irritation after swimming",
+          "ear canal irritation after swimming diagnosed"
+        ]
+      },
+      {
+        "id": "no_otitis_externa_or_foreign_body_ear_canal_irritation",
+        "terms": [
+          "Clinician diagnosis ear canal irritation after swimming",
+          "No otitis externa",
+          "No foreign body",
+          "No mastoiditis concern."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis ear canal irritation after swimming",
+      "ear canal irritation after swimming diagnosed",
+      "ear canal irritation after swimming"
+    ],
+    "source_audit_notes": "cdc.swimmers_ear, medlineplus.swimmers_ear supports patient-education framing for ear canal irritation after swimming and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated ear canal irritation after swimming",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "review_date": "2026-06-19"
+  }
+]

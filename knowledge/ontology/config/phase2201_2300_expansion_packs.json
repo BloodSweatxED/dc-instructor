@@ -1,0 +1,449 @@
+[
+  {
+    "id": "knee_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Knee contusion without fracture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "knee bruise",
+      "knee contusion",
+      "knee bruise",
+      "bruised knee"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit an uncomplicated knee bruise.",
+    "found": "Your clinician diagnosed a knee bruise. We did not find a fracture, circulation problem, nerve problem, or another emergency problem today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice or elevation if recommended.",
+      "Avoid activity that clearly worsens the pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Avoid NSAIDs if your clinician told you not to take them."
+    ],
+    "return": [
+      "Worsening severe pain, rapidly increasing swelling, numbness, weakness, color change, or trouble using the area.",
+      "New deformity, concern for a broken bone, or pain not improving as expected.",
+      "Easy bleeding, a very large bruise, fever, or new symptoms that worry you."
+    ],
+    "follow": "Follow up with primary care, orthopedics, urgent care, or the ED if pain is not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated knee contusion or bruise.",
+      "No fracture/dislocation concern, neurovascular compromise, severe pain, bleeding-risk plan, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, major trauma, open wound, neurovascular compromise, severe pain, compartment concern, or inability to use the area.",
+      "Anticoagulation/bleeding disorder requiring a separate plan, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Neurovascular compromise.",
+      "Compartment syndrome.",
+      "Significant bleeding risk."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "unable_to_bear_weight_lower_extremity",
+      "compartment_syndrome_concern",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_knee_contusion",
+        "terms": [
+          "clinician diagnosis knee contusion",
+          "discharge diagnosis knee bruise",
+          "knee contusion diagnosed",
+          "knee bruise diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_knee",
+        "terms": [
+          "no fracture concern",
+          "neurovascularly intact",
+          "no deformity",
+          "x-ray negative",
+          "xray negative"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis knee contusion",
+      "knee contusion diagnosed",
+      "knee bruise diagnosed",
+      "knee bruise"
+    ],
+    "source_audit_notes": "MedlinePlus supports bruise/contusion home care and warning signs for worsening swelling, pain, and unexplained bruising. Autonomous expansion approved this narrow v1 only for clinician-diagnosed knee contusion without fracture/dislocation concern, neurovascular compromise, bleeding-risk plan, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_knee_contusion_without_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated knee contusion or bruise",
+      "no fracture/dislocation concern, neurovascular compromise, bleeding-risk plan, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "elbow_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Elbow contusion without fracture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "elbow bruise",
+      "elbow contusion",
+      "elbow bruise",
+      "bruised elbow"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit an uncomplicated elbow bruise.",
+    "found": "Your clinician diagnosed a elbow bruise. We did not find a fracture, circulation problem, nerve problem, or another emergency problem today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice or elevation if recommended.",
+      "Avoid activity that clearly worsens the pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Avoid NSAIDs if your clinician told you not to take them."
+    ],
+    "return": [
+      "Worsening severe pain, rapidly increasing swelling, numbness, weakness, color change, or trouble using the area.",
+      "New deformity, concern for a broken bone, or pain not improving as expected.",
+      "Easy bleeding, a very large bruise, fever, or new symptoms that worry you."
+    ],
+    "follow": "Follow up with primary care, orthopedics, urgent care, or the ED if pain is not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated elbow contusion or bruise.",
+      "No fracture/dislocation concern, neurovascular compromise, severe pain, bleeding-risk plan, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, major trauma, open wound, neurovascular compromise, severe pain, compartment concern, or inability to use the area.",
+      "Anticoagulation/bleeding disorder requiring a separate plan, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Neurovascular compromise.",
+      "Compartment syndrome.",
+      "Significant bleeding risk."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_elbow_contusion",
+        "terms": [
+          "clinician diagnosis elbow contusion",
+          "discharge diagnosis elbow bruise",
+          "elbow contusion diagnosed",
+          "elbow bruise diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_elbow",
+        "terms": [
+          "no fracture concern",
+          "neurovascularly intact",
+          "no deformity",
+          "x-ray negative",
+          "xray negative"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis elbow contusion",
+      "elbow contusion diagnosed",
+      "elbow bruise diagnosed",
+      "elbow bruise"
+    ],
+    "source_audit_notes": "MedlinePlus supports bruise/contusion home care and warning signs for worsening swelling, pain, and unexplained bruising. Autonomous expansion approved this narrow v1 only for clinician-diagnosed elbow contusion without fracture/dislocation concern, neurovascular compromise, bleeding-risk plan, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_elbow_contusion_without_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated elbow contusion or bruise",
+      "no fracture/dislocation concern, neurovascular compromise, bleeding-risk plan, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "wrist_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Wrist contusion without fracture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "wrist bruise",
+      "wrist contusion",
+      "wrist bruise",
+      "bruised wrist"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit an uncomplicated wrist bruise.",
+    "found": "Your clinician diagnosed a wrist bruise. We did not find a fracture, circulation problem, nerve problem, or another emergency problem today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice or elevation if recommended.",
+      "Avoid activity that clearly worsens the pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Avoid NSAIDs if your clinician told you not to take them."
+    ],
+    "return": [
+      "Worsening severe pain, rapidly increasing swelling, numbness, weakness, color change, or trouble using the area.",
+      "New deformity, concern for a broken bone, or pain not improving as expected.",
+      "Easy bleeding, a very large bruise, fever, or new symptoms that worry you."
+    ],
+    "follow": "Follow up with primary care, orthopedics, urgent care, or the ED if pain is not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated wrist contusion or bruise.",
+      "No fracture/dislocation concern, neurovascular compromise, severe pain, bleeding-risk plan, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, major trauma, open wound, neurovascular compromise, severe pain, compartment concern, or inability to use the area.",
+      "Anticoagulation/bleeding disorder requiring a separate plan, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Neurovascular compromise.",
+      "Compartment syndrome.",
+      "Significant bleeding risk."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "foosh_scaphoid_risk",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_wrist_contusion",
+        "terms": [
+          "clinician diagnosis wrist contusion",
+          "discharge diagnosis wrist bruise",
+          "wrist contusion diagnosed",
+          "wrist bruise diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_wrist",
+        "terms": [
+          "no fracture concern",
+          "neurovascularly intact",
+          "no deformity",
+          "x-ray negative",
+          "xray negative"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis wrist contusion",
+      "wrist contusion diagnosed",
+      "wrist bruise diagnosed",
+      "wrist bruise"
+    ],
+    "source_audit_notes": "MedlinePlus supports bruise/contusion home care and warning signs for worsening swelling, pain, and unexplained bruising. Autonomous expansion approved this narrow v1 only for clinician-diagnosed wrist contusion without fracture/dislocation concern, neurovascular compromise, bleeding-risk plan, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_wrist_contusion_without_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated wrist contusion or bruise",
+      "no fracture/dislocation concern, neurovascular compromise, bleeding-risk plan, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+    "label": "Foot contusion without fracture or diabetic-foot red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "foot bruise",
+      "foot contusion",
+      "foot bruise",
+      "bruised foot"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit an uncomplicated foot bruise.",
+    "found": "Your clinician diagnosed a foot bruise. We did not find a fracture, circulation problem, nerve problem, or another emergency problem today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice or elevation if recommended.",
+      "Avoid activity that clearly worsens the pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Avoid NSAIDs if your clinician told you not to take them."
+    ],
+    "return": [
+      "Worsening severe pain, rapidly increasing swelling, numbness, weakness, color change, or trouble using the area.",
+      "New deformity, concern for a broken bone, or pain not improving as expected.",
+      "Easy bleeding, a very large bruise, fever, or new symptoms that worry you."
+    ],
+    "follow": "Follow up with primary care, orthopedics, urgent care, or the ED if pain is not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated foot contusion or bruise.",
+      "No fracture/dislocation concern, neurovascular compromise, severe pain, bleeding-risk plan, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, major trauma, open wound, neurovascular compromise, severe pain, compartment concern, or inability to use the area.",
+      "Anticoagulation/bleeding disorder requiring a separate plan, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Neurovascular compromise.",
+      "Compartment syndrome.",
+      "Significant bleeding risk."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "unable_to_bear_weight_lower_extremity",
+      "diabetic_foot",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_foot_contusion",
+        "terms": [
+          "clinician diagnosis foot contusion",
+          "discharge diagnosis foot bruise",
+          "foot contusion diagnosed",
+          "foot bruise diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_foot",
+        "terms": [
+          "no fracture concern",
+          "neurovascularly intact",
+          "no deformity",
+          "x-ray negative",
+          "xray negative"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis foot contusion",
+      "foot contusion diagnosed",
+      "foot bruise diagnosed",
+      "foot bruise"
+    ],
+    "source_audit_notes": "MedlinePlus supports bruise/contusion home care and warning signs for worsening swelling, pain, and unexplained bruising. Autonomous expansion approved this narrow v1 only for clinician-diagnosed foot contusion without fracture/dislocation concern, neurovascular compromise, bleeding-risk plan, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_foot_contusion_without_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated foot contusion or bruise",
+      "no fracture/dislocation concern, neurovascular compromise, bleeding-risk plan, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "finger_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
+    "label": "Finger contusion without fracture, tendon, or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "finger bruise",
+      "finger contusion",
+      "finger bruise",
+      "bruised finger"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit an uncomplicated finger bruise.",
+    "found": "Your clinician diagnosed a finger bruise. We did not find a fracture, circulation problem, nerve problem, or another emergency problem today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice or elevation if recommended.",
+      "Avoid activity that clearly worsens the pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Avoid NSAIDs if your clinician told you not to take them."
+    ],
+    "return": [
+      "Worsening severe pain, rapidly increasing swelling, numbness, weakness, color change, or trouble using the area.",
+      "New deformity, concern for a broken bone, or pain not improving as expected.",
+      "Easy bleeding, a very large bruise, fever, or new symptoms that worry you."
+    ],
+    "follow": "Follow up with primary care, orthopedics, urgent care, or the ED if pain is not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated finger contusion or bruise.",
+      "No fracture/dislocation concern, neurovascular compromise, severe pain, bleeding-risk plan, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, major trauma, open wound, neurovascular compromise, severe pain, compartment concern, or inability to use the area.",
+      "Anticoagulation/bleeding disorder requiring a separate plan, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Neurovascular compromise.",
+      "Compartment syndrome.",
+      "Significant bleeding risk."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "tendon_or_ligament_rupture_concern",
+      "flexor_tenosynovitis_concern",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_finger_contusion",
+        "terms": [
+          "clinician diagnosis finger contusion",
+          "discharge diagnosis finger bruise",
+          "finger contusion diagnosed",
+          "finger bruise diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_finger",
+        "terms": [
+          "no fracture concern",
+          "neurovascularly intact",
+          "no deformity",
+          "x-ray negative",
+          "xray negative"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis finger contusion",
+      "finger contusion diagnosed",
+      "finger bruise diagnosed",
+      "finger bruise"
+    ],
+    "source_audit_notes": "MedlinePlus supports bruise/contusion home care and warning signs for worsening swelling, pain, and unexplained bruising. Autonomous expansion approved this narrow v1 only for clinician-diagnosed finger contusion without fracture/dislocation concern, neurovascular compromise, bleeding-risk plan, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_finger_contusion_without_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated finger contusion or bruise",
+      "no fracture/dislocation concern, neurovascular compromise, bleeding-risk plan, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  }
+]

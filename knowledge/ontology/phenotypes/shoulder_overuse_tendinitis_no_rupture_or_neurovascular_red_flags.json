@@ -1,0 +1,139 @@
+{
+  "id": "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags",
+  "label": "Shoulder overuse tendinitis without rupture or neurovascular red flags",
+  "status": "reviewed",
+  "condition_family": "msk",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated shoulder tendinitis/overuse strain.",
+    "No tendon rupture, fracture/dislocation concern, septic joint/infection concern, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Tendon rupture, fracture/dislocation concern, acute traumatic mechanism with instability, septic joint/infection concern, red hot joint, open wound, neurovascular compromise, severe pain, or inability to use the arm.",
+    "Pregnancy/pediatric pathway or specialist-directed orthopedic plan."
+  ],
+  "must_not_miss": [
+    "Rotator cuff rupture.",
+    "Fracture or dislocation.",
+    "Septic joint.",
+    "Neurovascular compromise.",
+    "Referred cardiac pain when presentation is not clearly shoulder overuse."
+  ],
+  "default_follow_up": "Follow up with primary care, sports medicine, physical therapy, or orthopedics if pain, motion, or strength is not improving.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags.diagnosis.diagnosis_summary.v1",
+    "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags.home_care.home_care_1.v1",
+    "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags.home_care.home_care_2.v1",
+    "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags.home_care.home_care_3.v1",
+    "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags.medications.medication_guidance_1.v1",
+    "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags.medications.medication_guidance_2.v1",
+    "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags.return_precautions.return_precaution_1.v1",
+    "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags.return_precautions.return_precaution_2.v1",
+    "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags.return_precautions.return_precaution_3.v1",
+    "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.tendinitis",
+    "medlineplus.sprains_strains"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports tendinitis and sprain/strain framing, rest/activity modification, clinician-directed symptom care, and escalation for worsening pain, swelling, numbness, color change, fever, inability to move, or inability to walk. Autonomous Phase 2001-2100 approved this narrow v1 only for clinician-diagnosed uncomplicated shoulder tendinitis/overuse strain without rupture, fracture/dislocation, infection, neurovascular compromise, high-risk trauma, pregnancy/pediatric pathway, or specialist-directed plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "shoulder tendinitis",
+      "shoulder tendonitis",
+      "shoulder overuse tendinitis",
+      "rotator cuff tendinitis uncomplicated"
+    ],
+    "unsafe_modifiers": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "septic_joint_or_infection_concern",
+      "open_wound",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_use_limb",
+      "high_energy_trauma",
+      "cardiac_or_pe_chest_pain_concern",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_shoulder_tendinitis",
+        "terms": [
+          "clinician diagnosis shoulder tendinitis",
+          "discharge diagnosis shoulder tendinitis",
+          "shoulder tendinitis diagnosed",
+          "shoulder tendonitis diagnosed",
+          "rotator cuff tendinitis diagnosed"
+        ]
+      },
+      {
+        "id": "no_rupture_fracture_or_neurovascular_red_flags",
+        "terms": [
+          "no tendon rupture",
+          "no fracture concern",
+          "neurovascularly intact",
+          "no infection",
+          "no dislocation"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis shoulder tendinitis",
+      "shoulder tendinitis diagnosed",
+      "shoulder tendonitis diagnosed",
+      "shoulder tendinitis",
+      "shoulder tendonitis",
+      "shoulder overuse tendinitis"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-19",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports tendinitis and sprain/strain framing, rest/activity modification, clinician-directed symptom care, and escalation for worsening pain, swelling, numbness, color change, fever, inability to move, or inability to walk. Autonomous Phase 2001-2100 approved this narrow v1 only for clinician-diagnosed uncomplicated shoulder tendinitis/overuse strain without rupture, fracture/dislocation, infection, neurovascular compromise, high-risk trauma, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_shoulder_overuse_tendinitis_without_rupture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated shoulder tendinitis/overuse strain",
+      "no rupture, fracture/dislocation, infection, neurovascular compromise, high-risk trauma, or specialist-directed plan documented"
+    ],
+    "blocked_modifiers": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "septic_joint_or_infection_concern",
+      "open_wound",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_use_limb",
+      "high_energy_trauma",
+      "cardiac_or_pe_chest_pain_concern",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+}

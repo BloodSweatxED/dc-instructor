@@ -1,0 +1,183 @@
+[
+  {
+    "id": "phase5251_toe_tendinitis_rupture_or_diabetic_foot_clean",
+    "condition": "toe tendinitis",
+    "ed_note": "Adult. Clinician diagnosis toe tendinitis. No tendon rupture. No fracture concern. No infection. No diabetic foot. Neurovascular exam intact.",
+    "expected_phenotype_id": "toe_tendinitis_uncomplicated_no_rupture_or_diabetic_foot",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase5252_toe_tendinitis_rupture_or_diabetic_foot_missing_context_blocks",
+    "condition": "toe tendinitis",
+    "ed_note": "Adult with toe tendinitis.",
+    "expected_phenotype_id": "toe_tendinitis_uncomplicated_no_rupture_or_diabetic_foot",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_toe_tendinitis",
+      "no_rupture_or_diabetic_foot_red_flags_toe_tendinitis"
+    ]
+  },
+  {
+    "id": "phase5253_toe_tendinitis_rupture_or_diabetic_foot_unsafe_modifiers_block",
+    "condition": "toe tendinitis",
+    "ed_note": "Adult. Clinician diagnosis toe tendinitis. No tendon rupture. No fracture concern. No infection. No diabetic foot. Neurovascular exam intact. However tendon rupture, broken bone, open wound, red warm joint, diabetes, poor circulation, numb foot, cannot walk, motor vehicle crash, podiatry consulted, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "toe_tendinitis_uncomplicated_no_rupture_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_podiatry_plan",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase5254_scapular_strain_fracture_or_neurovascular_red_flags_clean",
+    "condition": "scapular strain",
+    "ed_note": "Adult. Clinician diagnosis scapular strain. No fracture concern. No tendon rupture. Neurovascular exam intact. No chest pain. Breathing comfortable.",
+    "expected_phenotype_id": "scapular_strain_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase5255_scapular_strain_fracture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "scapular strain",
+    "ed_note": "Adult with shoulder blade strain.",
+    "expected_phenotype_id": "scapular_strain_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_scapular_strain",
+      "no_fracture_or_neurovascular_red_flags_scapular_strain"
+    ]
+  },
+  {
+    "id": "phase5256_scapular_strain_fracture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "scapular strain",
+    "ed_note": "Adult. Clinician diagnosis scapular strain. No fracture concern. No tendon rupture. Neurovascular exam intact. No chest pain. Breathing comfortable. However broken bone, tendon rupture, cold hand, severe pain, chest pain, respiratory distress, motor vehicle crash, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "scapular_strain_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "chest_pain",
+      "respiratory_distress",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase5257_localized_adhesive_rash_infection_or_anaphylaxis_clean",
+    "condition": "localized adhesive rash",
+    "ed_note": "Adult. Clinician diagnosis localized adhesive rash. Rash after bandage adhesive. No anaphylaxis. No infection. No mucosal lesions.",
+    "expected_phenotype_id": "localized_adhesive_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase5258_localized_adhesive_rash_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized adhesive rash",
+    "ed_note": "Adult with localized adhesive rash.",
+    "expected_phenotype_id": "localized_adhesive_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_adhesive_rash",
+      "no_infection_or_systemic_red_flags_localized_adhesive_rash"
+    ]
+  },
+  {
+    "id": "phase5259_localized_adhesive_rash_infection_or_anaphylaxis_unsafe_modifiers_block",
+    "condition": "localized adhesive rash",
+    "ed_note": "Adult. Clinician diagnosis localized adhesive rash. Rash after bandage adhesive. No anaphylaxis. No infection. No mucosal lesions. However trouble breathing, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemical burn, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_adhesive_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase5260_localized_jewelry_rash_infection_or_anaphylaxis_clean",
+    "condition": "localized jewelry rash",
+    "ed_note": "Adult. Clinician diagnosis localized jewelry rash. Rash after jewelry or nickel exposure. No anaphylaxis. No infection. No mucosal lesions.",
+    "expected_phenotype_id": "localized_jewelry_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase5261_localized_jewelry_rash_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized jewelry rash",
+    "ed_note": "Adult with localized jewelry rash.",
+    "expected_phenotype_id": "localized_jewelry_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_jewelry_rash",
+      "no_infection_or_systemic_red_flags_localized_jewelry_rash"
+    ]
+  },
+  {
+    "id": "phase5262_localized_jewelry_rash_infection_or_anaphylaxis_unsafe_modifiers_block",
+    "condition": "localized jewelry rash",
+    "ed_note": "Adult. Clinician diagnosis localized jewelry rash. Rash after jewelry or nickel exposure. No anaphylaxis. No infection. No mucosal lesions. However trouble breathing, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemical burn, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_jewelry_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase5263_localized_detergent_irritant_rash_infection_or_anaphylaxis_clean",
+    "condition": "localized detergent rash",
+    "ed_note": "Adult. Clinician diagnosis localized detergent rash. Rash after detergent exposure. No anaphylaxis. No infection. No mucosal lesions.",
+    "expected_phenotype_id": "localized_detergent_irritant_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase5264_localized_detergent_irritant_rash_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized detergent rash",
+    "ed_note": "Adult with localized detergent rash.",
+    "expected_phenotype_id": "localized_detergent_irritant_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_detergent_irritant_rash",
+      "no_infection_or_systemic_red_flags_localized_detergent_irritant_rash"
+    ]
+  },
+  {
+    "id": "phase5265_localized_detergent_irritant_rash_infection_or_anaphylaxis_unsafe_modifiers_block",
+    "condition": "localized detergent rash",
+    "ed_note": "Adult. Clinician diagnosis localized detergent rash. Rash after detergent exposure. No anaphylaxis. No infection. No mucosal lesions. However trouble breathing, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemical burn, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_detergent_irritant_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  }
+]

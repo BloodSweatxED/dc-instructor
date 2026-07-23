@@ -1,0 +1,14 @@
+{
+  "id": "niddk.hemorrhoids_treatment",
+  "source": "NIDDK",
+  "title": "Treatment of Hemorrhoids",
+  "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/hemorrhoids/treatment",
+  "source_type": "government_guidance",
+  "license_notes": "Use as government source support for hemorrhoid treatment concepts and urgent-care symptoms. Avoid implying NIDDK endorses local discharge wording.",
+  "supports": [
+    "Home treatment may include fiber, fluids, stool softeners when recommended, warm baths, and over-the-counter creams or suppositories.",
+    "Severe anal pain with rectal bleeding, especially with abdominal pain, diarrhea, or fever, should prompt medical care right away.",
+    "Clinician-directed office procedures or surgery may be needed when symptoms do not improve."
+  ],
+  "use_policy": "evidence_support"
+}

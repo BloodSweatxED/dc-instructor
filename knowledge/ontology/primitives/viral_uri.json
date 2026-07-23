@@ -1,0 +1,354 @@
+[
+  {
+    "id": "viral_uri.diagnosis.no_pneumonia.v1",
+    "phenotypes": [
+      "viral_uri_no_pneumonia"
+    ],
+    "section": "diagnosis",
+    "primitive_type": "diagnosis_summary",
+    "priority": "required",
+    "text": {
+      "en_4": "You have a viral upper respiratory infection, also called a cold. We do not see signs of pneumonia today.",
+      "en_6": "You have a viral upper respiratory infection, also called a cold. We did not find signs of pneumonia today.",
+      "en_hl1": "You have a cold virus. We did not see pneumonia today."
+    },
+    "contraindications": [
+      "pneumonia",
+      "hypoxia",
+      "respiratory_distress"
+    ],
+    "source_card_ids": [
+      "medlineplus.common_cold",
+      "ahrq.common_cold_antibiotics"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_uri_no_pneumonia v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports viral URI supportive care and escalation symptoms. AHRQ supports antibiotic stewardship for uncomplicated viral URI."
+    }
+  },
+  {
+    "id": "viral_uri.what_we_found.reassuring_breathing.v1",
+    "phenotypes": [
+      "viral_uri_no_pneumonia"
+    ],
+    "section": "what_we_found",
+    "primitive_type": "normal_exam_reassurance",
+    "priority": "required",
+    "text": {
+      "en_4": "Your breathing and oxygen level were safe for going home today.",
+      "en_6": "Your breathing, oxygen level, and exam were reassuring enough for discharge today.",
+      "en_hl1": "Your breathing and oxygen level looked safe today."
+    },
+    "contraindications": [
+      "hypoxia",
+      "respiratory_distress",
+      "unstable_vitals"
+    ],
+    "source_card_ids": [
+      "medlineplus.common_cold"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_uri_no_pneumonia v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports viral URI supportive care and escalation symptoms. AHRQ supports antibiotic stewardship for uncomplicated viral URI."
+    }
+  },
+  {
+    "id": "viral_uri.home_care.fluids_rest_humidification.v1",
+    "phenotypes": [
+      "viral_uri_no_pneumonia"
+    ],
+    "section": "home_care",
+    "primitive_type": "supportive_care",
+    "priority": "high",
+    "text": {
+      "en_4": "Drink fluids, rest, and use a humidifier or steam from a shower if it helps congestion.",
+      "en_6": "Drink fluids, rest, and use a humidifier or steam from a shower if it helps your congestion or cough.",
+      "en_hl1": "Drink fluids and rest. Steam or a humidifier may help."
+    },
+    "contraindications": [
+      "fluid_restriction"
+    ],
+    "source_card_ids": [
+      "medlineplus.common_cold"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_uri_no_pneumonia v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports viral URI supportive care and escalation symptoms. AHRQ supports antibiotic stewardship for uncomplicated viral URI."
+    }
+  },
+  {
+    "id": "viral_uri.home_care.infection_control.v1",
+    "phenotypes": [
+      "viral_uri_no_pneumonia"
+    ],
+    "section": "home_care",
+    "primitive_type": "infection_control",
+    "priority": "medium",
+    "text": {
+      "en_4": "Wash your hands often. Cover coughs. Stay away from people at high risk while you have fever or feel very sick.",
+      "en_6": "Wash your hands often, cover coughs, and avoid close contact with high-risk people while you have fever or feel very sick.",
+      "en_hl1": "Wash your hands. Cover coughs. Avoid high-risk people while you feel very sick."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.common_cold"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_uri_no_pneumonia v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports viral URI supportive care and escalation symptoms. AHRQ supports antibiotic stewardship for uncomplicated viral URI."
+    }
+  },
+  {
+    "id": "viral_uri.medications.no_antibiotics.v1",
+    "phenotypes": [
+      "viral_uri_no_pneumonia"
+    ],
+    "section": "medications",
+    "primitive_type": "antibiotic_stewardship",
+    "priority": "required",
+    "text": {
+      "en_4": "Antibiotics do not treat cold viruses. They were not needed based on today's visit.",
+      "en_6": "Antibiotics do not treat cold viruses. Based on today's visit, antibiotics were not needed.",
+      "en_hl1": "Antibiotics do not treat cold viruses. You do not need them today."
+    },
+    "contraindications": [
+      "antibiotic_prescribed",
+      "bacterial_infection_suspected"
+    ],
+    "source_card_ids": [
+      "medlineplus.common_cold",
+      "ahrq.common_cold_antibiotics"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_uri_no_pneumonia v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports viral URI supportive care and escalation symptoms. AHRQ supports antibiotic stewardship for uncomplicated viral URI."
+    }
+  },
+  {
+    "id": "viral_uri.medications.otc_caution.v1",
+    "phenotypes": [
+      "viral_uri_no_pneumonia"
+    ],
+    "section": "medications",
+    "primitive_type": "medication_otc_caution",
+    "priority": "high",
+    "text": {
+      "en_4": "You can use acetaminophen or ibuprofen for fever or aches if these are safe for you. Read labels so you do not double up on the same medicine.",
+      "en_6": "You can use acetaminophen or ibuprofen for fever or aches if these are safe for you. Read labels carefully so you do not take the same medicine twice.",
+      "en_hl1": "Use fever medicine only if it is safe for you. Read labels. Do not double up."
+    },
+    "contraindications": [
+      "acetaminophen_allergy",
+      "severe_liver_disease",
+      "nsaid_allergy",
+      "kidney_disease",
+      "stomach_bleeding",
+      "blood_thinner_use",
+      "pregnancy_late"
+    ],
+    "source_card_ids": [
+      "medlineplus.common_cold"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_uri_no_pneumonia v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports viral URI supportive care and escalation symptoms. AHRQ supports antibiotic stewardship for uncomplicated viral URI."
+    }
+  },
+  {
+    "id": "viral_uri.return_precautions.breathing_chest_confusion.v1",
+    "phenotypes": [
+      "viral_uri_no_pneumonia"
+    ],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_respiratory",
+    "priority": "required",
+    "text": {
+      "en_4": "Come back now for trouble breathing, chest pain, blue lips, confusion, fainting, or if you feel much worse.",
+      "en_6": "Come back to the emergency department right away for trouble breathing, chest pain, blue lips, confusion, fainting, or feeling much worse.",
+      "en_hl1": "Come back now for trouble breathing, chest pain, blue lips, confusion, fainting, or feeling much worse."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.common_cold",
+      "ahrq.common_cold_antibiotics"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_uri_no_pneumonia v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports viral URI supportive care and escalation symptoms. AHRQ supports antibiotic stewardship for uncomplicated viral URI."
+    }
+  },
+  {
+    "id": "viral_uri.return_precautions.worsening_fever_dehydration.v1",
+    "phenotypes": [
+      "viral_uri_no_pneumonia"
+    ],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_worsening_infection",
+    "priority": "required",
+    "text": {
+      "en_4": "Come back if fever or cough gets better and then comes back worse, if fever stays high, or if you cannot drink enough fluids.",
+      "en_6": "Come back if fever or cough improves and then returns worse, if fever stays high, or if you cannot drink enough fluids.",
+      "en_hl1": "Come back if fever or cough gets better then worse, or if you cannot drink fluids."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.common_cold",
+      "ahrq.common_cold_antibiotics"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_uri_no_pneumonia v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports viral URI supportive care and escalation symptoms. AHRQ supports antibiotic stewardship for uncomplicated viral URI."
+    }
+  },
+  {
+    "id": "viral_uri.follow_up.primary_care.v1",
+    "phenotypes": [
+      "viral_uri_no_pneumonia"
+    ],
+    "section": "follow_up",
+    "primitive_type": "follow_up_pcp",
+    "priority": "required",
+    "text": {
+      "en_4": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a viral upper respiratory infection. I need a follow-up visit within 3-7 days if symptoms are not improving.\"",
+      "en_6": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a viral upper respiratory infection. I need a follow-up visit within 3-7 days if symptoms are not improving.\"",
+      "en_hl1": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a viral upper respiratory infection. I need a follow-up visit within 3-7 days if symptoms are not improving.\""
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.common_cold"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for viral_uri_no_pneumonia v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports viral URI supportive care and escalation symptoms. AHRQ supports antibiotic stewardship for uncomplicated viral URI."
+    },
+    "style": {
+      "followup_script": "phase17_patient_advocacy"
+    }
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "phase2401_uncomplicated_hives_clean",
+    "condition": "uncomplicated hives",
+    "ed_note": "Adult. Clinician diagnosis uncomplicated hives. No anaphylaxis. No airway symptoms. No mucosal lesions.",
+    "expected_phenotype_id": "uncomplicated_hives_no_anaphylaxis_or_mucosal_lesions",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2402_uncomplicated_hives_missing_context_blocks",
+    "condition": "uncomplicated hives",
+    "ed_note": "Adult with uncomplicated hives.",
+    "expected_phenotype_id": "uncomplicated_hives_no_anaphylaxis_or_mucosal_lesions",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_uncomplicated_hives",
+      "no_anaphylaxis_or_mucosal_lesions_documented"
+    ]
+  },
+  {
+    "id": "phase2403_uncomplicated_hives_unsafe_modifiers_block",
+    "condition": "uncomplicated hives",
+    "ed_note": "Uncomplicated hives without anaphylaxis or mucosal lesions diagnosed, but anaphylaxis, throat swelling, two system reaction, mouth sores, fever are documented.",
+    "expected_phenotype_id": "uncomplicated_hives_no_anaphylaxis_or_mucosal_lesions",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "systemic_illness"
+    ]
+  },
+  {
+    "id": "phase2404_common_cold_clean",
+    "condition": "common cold uncomplicated",
+    "ed_note": "Adult. Clinician diagnosis common cold. No pneumonia. Lungs clear. Oxygen normal.",
+    "expected_phenotype_id": "common_cold_uncomplicated_no_pneumonia_or_breathing_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2405_common_cold_missing_context_blocks",
+    "condition": "common cold uncomplicated",
+    "ed_note": "Adult with common cold uncomplicated.",
+    "expected_phenotype_id": "common_cold_uncomplicated_no_pneumonia_or_breathing_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_common_cold",
+      "no_pneumonia_or_breathing_red_flags_documented"
+    ]
+  },
+  {
+    "id": "phase2406_common_cold_unsafe_modifiers_block",
+    "condition": "common cold uncomplicated",
+    "ed_note": "Uncomplicated common cold without pneumonia or breathing red flags diagnosed, but pneumonia, low oxygen, chest pain, no inhaler, severe dehydration are documented.",
+    "expected_phenotype_id": "common_cold_uncomplicated_no_pneumonia_or_breathing_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "pneumonia",
+      "hypoxia",
+      "chest_pain",
+      "poor_inhaler_access",
+      "severe_dehydration"
+    ]
+  },
+  {
+    "id": "phase2407_localized_common_wart_clean",
+    "condition": "localized common wart",
+    "ed_note": "Adult. Clinician diagnosis localized common wart. Localized skin wart. Skin only wart. No infection. Routine host.",
+    "expected_phenotype_id": "localized_common_wart_no_genital_or_immunocompromised_host",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2408_localized_common_wart_missing_context_blocks",
+    "condition": "localized common wart",
+    "ed_note": "Adult with localized common wart.",
+    "expected_phenotype_id": "localized_common_wart_no_genital_or_immunocompromised_host",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_common_wart",
+      "localized_skin_wart_without_infection_context"
+    ]
+  },
+  {
+    "id": "phase2409_localized_common_wart_unsafe_modifiers_block",
+    "condition": "localized common wart",
+    "ed_note": "Localized common wart without genital or immunocompromised-host red flags diagnosed, but sti concern, eye lesion, spreading redness, chemotherapy, rapidly enlarging mass are documented.",
+    "expected_phenotype_id": "localized_common_wart_no_genital_or_immunocompromised_host",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "sti_or_genital_pathway",
+      "near_eye_or_genitals",
+      "secondary_skin_infection_concern",
+      "immunocompromised",
+      "mass_red_flag_or_diagnostic_uncertainty"
+    ]
+  },
+  {
+    "id": "phase2410_forearm_contusion_clean",
+    "condition": "forearm bruise",
+    "ed_note": "Adult. Clinician diagnosis forearm contusion. No fracture concern. Neurovascularly intact. No deformity.",
+    "expected_phenotype_id": "forearm_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2411_forearm_contusion_missing_context_blocks",
+    "condition": "forearm bruise",
+    "ed_note": "Adult with forearm bruise.",
+    "expected_phenotype_id": "forearm_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_forearm_contusion",
+      "no_fracture_or_neurovascular_red_flags_forearm"
+    ]
+  },
+  {
+    "id": "phase2412_forearm_contusion_unsafe_modifiers_block",
+    "condition": "forearm bruise",
+    "ed_note": "Forearm contusion without fracture or neurovascular red flags diagnosed, but possible fracture, numb fingers, severe pain, warfarin, pregnancy are documented.",
+    "expected_phenotype_id": "forearm_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "phase2413_thigh_contusion_clean",
+    "condition": "thigh bruise",
+    "ed_note": "Adult. Clinician diagnosis thigh contusion. No fracture concern. Neurovascularly intact. No deformity.",
+    "expected_phenotype_id": "thigh_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2414_thigh_contusion_missing_context_blocks",
+    "condition": "thigh bruise",
+    "ed_note": "Adult with thigh bruise.",
+    "expected_phenotype_id": "thigh_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_thigh_contusion",
+      "no_fracture_or_neurovascular_red_flags_thigh"
+    ]
+  },
+  {
+    "id": "phase2415_thigh_contusion_unsafe_modifiers_block",
+    "condition": "thigh bruise",
+    "ed_note": "Thigh contusion without fracture or neurovascular red flags diagnosed, but possible fracture, numb fingers, severe pain, warfarin, unable to bear weight are documented.",
+    "expected_phenotype_id": "thigh_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  }
+]

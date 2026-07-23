@@ -1,0 +1,87 @@
+{
+  "id": "epistaxis_resolved_no_posterior_bleed",
+  "label": "Resolved nosebleed without posterior bleed concern",
+  "status": "retired",
+  "condition_family": "ent",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of epistaxis or nosebleed that resolved before discharge.",
+    "No posterior bleed concern, active bleeding, facial trauma, anticoagulation complication, bleeding disorder, airway issue, or unstable vital signs documented."
+  ],
+  "exclusion_criteria": [
+    "Posterior epistaxis, ongoing bleeding, packing requiring specific plan, or recurrent severe bleed.",
+    "Anticoagulation complication, bleeding disorder, anemia/syncope concern, unstable vital signs, or airway symptoms.",
+    "Facial or nasal trauma, suspected fracture, or specialist-directed ENT plan."
+  ],
+  "must_not_miss": [
+    "Posterior epistaxis.",
+    "Hemorrhagic shock.",
+    "Facial fracture.",
+    "Airway compromise.",
+    "Coagulopathy or anticoagulation complication."
+  ],
+  "default_follow_up": "Follow up with primary care or ENT as instructed, especially if nosebleeds keep happening.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "epistaxis_resolved_no_posterior_bleed.diagnosis.diagnosis_summary.v1",
+    "epistaxis_resolved_no_posterior_bleed.what_we_found.reassuring_ed_assessment.v1",
+    "epistaxis_resolved_no_posterior_bleed.home_care.home_care_1.v1",
+    "epistaxis_resolved_no_posterior_bleed.home_care.home_care_2.v1",
+    "epistaxis_resolved_no_posterior_bleed.home_care.home_care_3.v1",
+    "epistaxis_resolved_no_posterior_bleed.medications.medication_guidance_1.v1",
+    "epistaxis_resolved_no_posterior_bleed.medications.medication_guidance_2.v1",
+    "epistaxis_resolved_no_posterior_bleed.return_precautions.return_precaution_1.v1",
+    "epistaxis_resolved_no_posterior_bleed.return_precautions.return_precaution_2.v1",
+    "epistaxis_resolved_no_posterior_bleed.return_precautions.return_precaution_3.v1",
+    "epistaxis_resolved_no_posterior_bleed.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.nosebleed",
+    "aao_hns.nosebleed_guideline"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": true,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": true,
+    "notes": "MedlinePlus supports nosebleed first-aid concepts and when to seek care. AAO-HNS supports clinician-facing epistaxis guideline concepts, but ED discharge risk stratification still requires local clinician review."
+  },
+  "runtime": {
+    "condition_terms": [
+      "epistaxis resolved",
+      "nosebleed resolved",
+      "resolved nosebleed no posterior bleed",
+      "epistaxis resolved no posterior bleed"
+    ],
+    "unsafe_modifiers": [
+      "posterior_epistaxis_or_uncontrolled_bleeding",
+      "anticoagulated",
+      "bleeding_disorder",
+      "facial_or_nasal_trauma",
+      "airway_symptoms",
+      "unstable_vitals",
+      "syncope"
+    ],
+    "high_confidence_terms": [
+      "epistaxis resolved",
+      "nosebleed resolved",
+      "epistaxis resolved no posterior bleed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "retired_product_layer_fallback_only"
+  },
+  "version": 1,
+  "review": {
+    "status": "retired",
+    "reviewer": null,
+    "last_reviewed": null,
+    "notes": "Phase 70 retired this draft to product-layer fallback. Do not use broad bleeding or nasal complaint terms. Keep posterior bleeding, continued bleeding, anticoagulation, bleeding disorder, facial/nasal trauma, airway symptoms, unstable vitals, and anemia/syncope concern outside ontology mode unless later reviewed."
+  }
+}

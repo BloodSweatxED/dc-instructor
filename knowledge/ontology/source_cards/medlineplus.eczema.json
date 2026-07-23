@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.eczema",
+  "source": "MedlinePlus",
+  "title": "Eczema",
+  "url": "https://medlineplus.gov/eczema.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Eczema is a general term for several types of rash, with atopic dermatitis being common.",
+    "Adults can have eczema, and skin may stay dry and irritated easily.",
+    "Treatment can include skin creams, medicines, light therapy, and good skin care.",
+    "Avoiding irritants and triggers can help prevent flares."
+  ],
+  "use_policy": "evidence_support"
+}

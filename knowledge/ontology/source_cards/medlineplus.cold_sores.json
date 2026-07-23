@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.cold_sores",
+  "source": "MedlinePlus",
+  "title": "Cold Sores",
+  "url": "https://medlineplus.gov/coldsores.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Cold sores are caused by herpes simplex virus and commonly occur around the mouth or face.",
+    "Cold sores are contagious.",
+    "Outbreaks can be recurrent and may be triggered by stress, illness, or sun exposure.",
+    "Eye involvement, genital involvement, newborn exposure, or immunocompromised-host context requires clinician-directed handling."
+  ],
+  "use_policy": "evidence_support"
+}

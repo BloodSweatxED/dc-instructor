@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.dry_skin",
+  "source": "MedlinePlus",
+  "title": "Dry skin",
+  "url": "https://medlineplus.gov/ency/article/000835.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Dry skin occurs when skin loses too much water and oil.",
+    "The medical term for dry skin is xerosis.",
+    "Symptoms can include roughness, tightness, itching, flaking, scaling, and cracks."
+  ],
+  "use_policy": "evidence_support"
+}

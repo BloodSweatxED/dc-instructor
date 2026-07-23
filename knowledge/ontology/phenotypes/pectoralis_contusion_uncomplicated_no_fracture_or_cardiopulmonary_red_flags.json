@@ -1,0 +1,135 @@
+{
+  "id": "pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+  "label": "Pectoralis contusion without fracture or cardiopulmonary red flags",
+  "status": "reviewed",
+  "condition_family": "musculoskeletal",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated pectoralis muscle contusion.",
+    "No fracture/dislocation concern, deep infection, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Fracture/dislocation concern, open wound, infection concern, neurovascular compromise, severe or rapidly worsening pain, high-energy trauma, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+  ],
+  "must_not_miss": [
+    "Fracture or dislocation.",
+    "Deep infection.",
+    "Neurovascular compromise.",
+    "Compartment syndrome or evolving emergency pain pattern."
+  ],
+  "default_follow_up": "Follow up with primary care, sports medicine, orthopedics, therapy, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.diagnosis.diagnosis_summary.v1",
+    "pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.home_care.home_care_1.v1",
+    "pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.home_care.home_care_2.v1",
+    "pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.home_care.home_care_3.v1",
+    "pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.medications.medication_guidance_1.v1",
+    "pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.medications.medication_guidance_2.v1",
+    "pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.return_precautions.return_precaution_1.v1",
+    "pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.return_precautions.return_precaution_2.v1",
+    "pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.return_precautions.return_precaution_3.v1",
+    "pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.bruise"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports musculoskeletal strain, bruise, or overuse framing, activity modification, clinician-directed pain control, and escalation for infection, severe pain, worsening function, or neurovascular symptoms. This expansion is limited to clinician-diagnosed uncomplicated musculoskeletal injury with fracture/dislocation, infection, neurovascular, pregnancy/pediatric, high-energy trauma, and specialist-directed pathways absent."
+  },
+  "runtime": {
+    "condition_terms": [
+      "pectoralis contusion",
+      "pectoralis muscle contusion",
+      "uncomplicated pectoralis muscle contusion",
+      "chest wall pectoralis bruise"
+    ],
+    "unsafe_modifiers": [
+      "cardiac_or_pe_chest_pain_concern",
+      "chest_pain",
+      "fracture_or_dislocation_concern",
+      "high_energy_trauma",
+      "hypoxia",
+      "immunocompromised",
+      "neurovascular_compromise",
+      "open_wound",
+      "pediatric_pathway",
+      "pregnancy",
+      "respiratory_distress",
+      "severe_pain",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+        "terms": [
+          "clinician diagnosis pectoralis contusion",
+          "discharge diagnosis pectoralis contusion",
+          "pectoralis contusion diagnosed"
+        ]
+      },
+      {
+        "id": "no_emergency_red_flags_pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+        "terms": [
+          "no fracture concern",
+          "no infection",
+          "neurovascular exam intact",
+          "no chest pain",
+          "no shortness of breath"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis pectoralis contusion",
+      "pectoralis contusion diagnosed",
+      "uncomplicated pectoralis muscle contusion"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-07-04",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports musculoskeletal strain, bruise, or overuse framing, activity modification, clinician-directed pain control, and escalation for infection, severe pain, worsening function, or neurovascular symptoms. This expansion is limited to clinician-diagnosed uncomplicated musculoskeletal injury with fracture/dislocation, infection, neurovascular, pregnancy/pediatric, high-energy trauma, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_pectoralis_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of uncomplicated pectoralis muscle contusion",
+      "no fracture/dislocation concern",
+      "no infection",
+      "intact neurovascular exam"
+    ],
+    "blocked_modifiers": [
+      "cardiac_or_pe_chest_pain_concern",
+      "chest_pain",
+      "fracture_or_dislocation_concern",
+      "high_energy_trauma",
+      "hypoxia",
+      "immunocompromised",
+      "neurovascular_compromise",
+      "open_wound",
+      "pediatric_pathway",
+      "pregnancy",
+      "respiratory_distress",
+      "severe_pain",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+}

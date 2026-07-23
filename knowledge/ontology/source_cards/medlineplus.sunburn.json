@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.sunburn",
+  "source": "MedlinePlus",
+  "title": "Sunburn",
+  "url": "https://medlineplus.gov/ency/article/003227.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Sunburn is skin reddening after overexposure to the sun or other ultraviolet light.",
+    "Symptoms may include red painful skin, warmth, tenderness, and peeling.",
+    "Home care includes avoiding further sun exposure, cool baths or compresses, and fluids as appropriate.",
+    "Severe sunburn with blistering, fever, chills, weakness, dehydration, or eye symptoms needs clinician care."
+  ],
+  "use_policy": "evidence_support"
+}

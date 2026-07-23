@@ -1,0 +1,103 @@
+{
+  "id": "minor_head_injury_no_red_flags",
+  "label": "Minor head injury without red flags",
+  "status": "reviewed",
+  "condition_family": "head_injury",
+  "inclusion_criteria": [
+    "Minor blunt head injury judged safe for discharge.",
+    "No anticoagulation or high-risk features requiring separate pathway."
+  ],
+  "exclusion_criteria": [
+    "Anticoagulated patient.",
+    "Persistent altered mental status.",
+    "Suspected skull fracture.",
+    "Non-accidental trauma concern."
+  ],
+  "must_not_miss": [
+    "Intracranial hemorrhage.",
+    "Cervical spine injury.",
+    "Skull fracture.",
+    "Non-accidental trauma."
+  ],
+  "default_follow_up": "Follow up with primary care if symptoms are not improving or if you were told to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "minor_head_injury_no_red_flags.diagnosis.diagnosis_summary.v1",
+    "minor_head_injury_no_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "minor_head_injury_no_red_flags.home_care.home_care_1.v1",
+    "minor_head_injury_no_red_flags.home_care.home_care_2.v1",
+    "minor_head_injury_no_red_flags.home_care.home_care_3.v1",
+    "minor_head_injury_no_red_flags.home_care.home_care_4.v1",
+    "minor_head_injury_no_red_flags.medications.medication_guidance_1.v1",
+    "minor_head_injury_no_red_flags.medications.medication_guidance_2.v1",
+    "minor_head_injury_no_red_flags.return_precautions.return_precaution_1.v1",
+    "minor_head_injury_no_red_flags.return_precautions.return_precaution_2.v1",
+    "minor_head_injury_no_red_flags.return_precautions.return_precaution_3.v1",
+    "minor_head_injury_no_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "cdc.heads_up_concussion_symptoms",
+    "cdc.mild_tbi_aftercare"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "CDC concussion guidance supports delayed symptoms, emergency danger signs, and gradual activity return after minor head trauma or possible concussion."
+  },
+  "runtime": {
+    "condition_terms": [
+      "minor head injury no red flags",
+      "minor head injury",
+      "head injury",
+      "hit head"
+    ],
+    "unsafe_modifiers": [
+      "anticoagulated",
+      "loss_of_consciousness",
+      "intoxication",
+      "elderly",
+      "persistent_vomiting",
+      "neurologic_deficit",
+      "skull_fracture_concern"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. CDC concussion guidance supports delayed symptoms, emergency danger signs, and gradual activity return after minor head trauma or possible concussion.",
+    "clinical_status": "reviewed_for_limited_minor_head_injury_without_red_flags_use",
+    "required_modifiers": [
+      "minor blunt head injury",
+      "reassuring ED assessment",
+      "no anticoagulation",
+      "no neurologic deficit"
+    ],
+    "blocked_modifiers": [
+      "anticoagulated",
+      "loss_of_consciousness",
+      "intoxication",
+      "elderly",
+      "persistent_vomiting",
+      "neurologic_deficit",
+      "skull_fracture_concern"
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "sunburn_superficial_no_heat_illness_or_large_blistering",
+  "label": "Superficial sunburn without heat illness or large blistering",
+  "status": "reviewed",
+  "condition_family": "dermatology",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of superficial sunburn.",
+    "No heat illness, dehydration, large blistering, eye involvement, infection, systemic illness, or high-risk host pathway."
+  ],
+  "exclusion_criteria": [
+    "Heat exhaustion, heat stroke, syncope, confusion, dehydration, persistent vomiting, or unstable vital signs.",
+    "Large blistering burn, face/eye/genital involvement, circumferential burn, chemical burn, infection concern, or severe pain.",
+    "Pediatric, pregnancy, immunocompromised, or specialist-directed burn plan."
+  ],
+  "must_not_miss": [
+    "Heat stroke.",
+    "Heat exhaustion.",
+    "Severe burn.",
+    "Secondary skin infection."
+  ],
+  "default_follow_up": "Follow up with primary care if pain, redness, or peeling is not improving, or sooner if symptoms worsen.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "sunburn_superficial_no_heat_illness_or_large_blistering.diagnosis.diagnosis_summary.v1",
+    "sunburn_superficial_no_heat_illness_or_large_blistering.what_we_found.reassuring_ed_assessment.v1",
+    "sunburn_superficial_no_heat_illness_or_large_blistering.home_care.home_care_1.v1",
+    "sunburn_superficial_no_heat_illness_or_large_blistering.home_care.home_care_2.v1",
+    "sunburn_superficial_no_heat_illness_or_large_blistering.home_care.home_care_3.v1",
+    "sunburn_superficial_no_heat_illness_or_large_blistering.medications.medication_guidance_1.v1",
+    "sunburn_superficial_no_heat_illness_or_large_blistering.medications.medication_guidance_2.v1",
+    "sunburn_superficial_no_heat_illness_or_large_blistering.return_precautions.return_precaution_1.v1",
+    "sunburn_superficial_no_heat_illness_or_large_blistering.return_precautions.return_precaution_2.v1",
+    "sunburn_superficial_no_heat_illness_or_large_blistering.return_precautions.return_precaution_3.v1",
+    "sunburn_superficial_no_heat_illness_or_large_blistering.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.sunburn",
+    "medlineplus.sun_protection"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports sunburn framing, UV skin injury, cool comfort measures, hydration as appropriate, sun avoidance while healing, sun protection, and escalation for severe blistering, fever, chills, weakness, dehydration, or eye symptoms. Autonomous Phase 1601-1650 approved this narrow v1 only for clinician-diagnosed superficial sunburn without heat illness, dehydration, large blistering, eye/genital involvement, infection, systemic illness, pediatric/pregnancy/immunocompromised pathway, or specialist burn plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "superficial sunburn",
+      "sunburn no heat illness",
+      "sunburn",
+      "mild sunburn"
+    ],
+    "unsafe_modifiers": [
+      "heat_illness_or_dehydration",
+      "large_blistering_or_high_risk_burn",
+      "eye_or_genital_rash_location",
+      "chemical_eye_exposure",
+      "secondary_skin_infection_concern",
+      "severe_cutaneous_adverse_reaction",
+      "severe_eye_pain",
+      "vision_change",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "systemic_illness",
+      "unstable_vitals",
+      "specialist_directed_wound_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_superficial_sunburn",
+        "terms": [
+          "clinician diagnosis sunburn",
+          "discharge diagnosis sunburn",
+          "sunburn diagnosed",
+          "superficial sunburn diagnosed",
+          "mild sunburn diagnosed"
+        ]
+      },
+      {
+        "id": "no_heat_illness_or_large_blistering_documented",
+        "terms": [
+          "no heat illness",
+          "no heat exhaustion",
+          "no heat stroke",
+          "no dehydration",
+          "no large blisters",
+          "no blistering"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis sunburn",
+      "sunburn diagnosed",
+      "superficial sunburn diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-17",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports sunburn framing, UV skin injury, cool comfort measures, hydration as appropriate, sun avoidance while healing, sun protection, and escalation for severe blistering, fever, chills, weakness, dehydration, or eye symptoms. Autonomous Phase 1601-1650 approved this narrow v1 only for clinician-diagnosed superficial sunburn without heat illness, dehydration, large blistering, eye/genital involvement, infection, systemic illness, pediatric/pregnancy/immunocompromised pathway, or specialist burn plan.",
+    "clinical_status": "reviewed_for_limited_superficial_sunburn_without_heat_illness_or_large_blistering_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of superficial or mild sunburn",
+      "no heat illness, dehydration, large blistering, or eye/genital involvement documented",
+      "no infection, systemic illness, high-risk host, pediatric, pregnancy, or specialist burn pathway"
+    ],
+    "blocked_modifiers": [
+      "heat_illness_or_dehydration",
+      "large_blistering_or_high_risk_burn",
+      "eye_or_genital_rash_location",
+      "chemical_eye_exposure",
+      "secondary_skin_infection_concern",
+      "severe_cutaneous_adverse_reaction",
+      "severe_eye_pain",
+      "vision_change",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "systemic_illness",
+      "unstable_vitals",
+      "specialist_directed_wound_plan"
+    ]
+  }
+}

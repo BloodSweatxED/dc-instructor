@@ -1,0 +1,217 @@
+[
+  {
+    "id": "phase11251_toe_abrasion_no_diabetic_foot_or_infection_clean",
+    "condition": "toe abrasion",
+    "ed_note": "Adult. clinician diagnosis toe abrasion. toe abrasion diagnosed. superficial abrasion only. no infection. no deep wound. no debris concern.",
+    "expected_phenotype_id": "toe_abrasion_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase11351_toe_abrasion_no_diabetic_foot_or_infection_missing_context_blocks",
+    "condition": "toe abrasion",
+    "ed_note": "Adult with toe abrasion.",
+    "expected_phenotype_id": "toe_abrasion_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_toe_abrasion_no_diabetic_foot_or_infection",
+      "no_deep_wound_or_infection_toe_abrasion_no_diabetic_foot_or_infection"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_toe_abrasion_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "condition": "toe abrasion",
+    "ed_note": "Adult. clinician diagnosis toe abrasion. toe abrasion diagnosed. superficial abrasion only. no infection. no deep wound. no debris concern. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, diabetic foot, poor circulation, neuropathy, podiatry consulted, open wound, dirty wound, bite wound, foreign body, needs sutures, hand surgery consulted, burn, high pressure injection, delayed presentation are documented.",
+    "expected_phenotype_id": "toe_abrasion_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "bite_wound",
+      "burn_or_chemical_wound",
+      "delayed_wound_presentation",
+      "dirty_wound",
+      "fever",
+      "high_pressure_injection_injury",
+      "immunocompromised",
+      "laceration_repair_needed",
+      "open_wound",
+      "pediatric_pathway",
+      "pregnancy",
+      "retained_foreign_body",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "specialist_directed_wound_plan",
+      "wound_infection_concern",
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "specialist_directed_podiatry_plan"
+    ]
+  },
+  {
+    "id": "phase11252_thigh_abrasion_no_deep_wound_or_infection_clean",
+    "condition": "thigh abrasion",
+    "ed_note": "Adult. clinician diagnosis thigh abrasion. thigh abrasion diagnosed. superficial abrasion only. no infection. no deep wound. no debris concern.",
+    "expected_phenotype_id": "thigh_abrasion_no_deep_wound_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase11352_thigh_abrasion_no_deep_wound_or_infection_missing_context_blocks",
+    "condition": "thigh abrasion",
+    "ed_note": "Adult with thigh abrasion.",
+    "expected_phenotype_id": "thigh_abrasion_no_deep_wound_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_thigh_abrasion_no_deep_wound_or_infection",
+      "no_deep_wound_or_infection_thigh_abrasion_no_deep_wound_or_infection"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_thigh_abrasion_no_deep_wound_or_infection_contradictory_note_blocks",
+    "condition": "thigh abrasion",
+    "ed_note": "Adult. clinician diagnosis thigh abrasion. thigh abrasion diagnosed. superficial abrasion only. no infection. no deep wound. no debris concern. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, open wound, dirty wound, bite wound, foreign body, needs sutures, hand surgery consulted, burn, high pressure injection, delayed presentation are documented.",
+    "expected_phenotype_id": "thigh_abrasion_no_deep_wound_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "bite_wound",
+      "burn_or_chemical_wound",
+      "delayed_wound_presentation",
+      "dirty_wound",
+      "fever",
+      "high_pressure_injection_injury",
+      "immunocompromised",
+      "laceration_repair_needed",
+      "open_wound",
+      "pediatric_pathway",
+      "pregnancy",
+      "retained_foreign_body",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "specialist_directed_wound_plan",
+      "wound_infection_concern"
+    ]
+  },
+  {
+    "id": "phase11253_upper_arm_abrasion_no_deep_wound_or_infection_clean",
+    "condition": "upper arm abrasion",
+    "ed_note": "Adult. clinician diagnosis upper arm abrasion. upper arm abrasion diagnosed. superficial abrasion only. no infection. no deep wound. no debris concern.",
+    "expected_phenotype_id": "upper_arm_abrasion_no_deep_wound_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase11353_upper_arm_abrasion_no_deep_wound_or_infection_missing_context_blocks",
+    "condition": "upper arm abrasion",
+    "ed_note": "Adult with upper arm abrasion.",
+    "expected_phenotype_id": "upper_arm_abrasion_no_deep_wound_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_upper_arm_abrasion_no_deep_wound_or_infection",
+      "no_deep_wound_or_infection_upper_arm_abrasion_no_deep_wound_or_infection"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_upper_arm_abrasion_no_deep_wound_or_infection_contradictory_note_blocks",
+    "condition": "upper arm abrasion",
+    "ed_note": "Adult. clinician diagnosis upper arm abrasion. upper arm abrasion diagnosed. superficial abrasion only. no infection. no deep wound. no debris concern. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, open wound, dirty wound, bite wound, foreign body, needs sutures, hand surgery consulted, burn, high pressure injection, delayed presentation are documented.",
+    "expected_phenotype_id": "upper_arm_abrasion_no_deep_wound_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "bite_wound",
+      "burn_or_chemical_wound",
+      "delayed_wound_presentation",
+      "dirty_wound",
+      "fever",
+      "high_pressure_injection_injury",
+      "immunocompromised",
+      "laceration_repair_needed",
+      "open_wound",
+      "pediatric_pathway",
+      "pregnancy",
+      "retained_foreign_body",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "specialist_directed_wound_plan",
+      "wound_infection_concern"
+    ]
+  },
+  {
+    "id": "phase11254_minor_inner_cheek_bite_no_deep_laceration_or_infection_clean",
+    "condition": "minor inner cheek bite",
+    "ed_note": "Adult. clinician diagnosis minor inner cheek bite. minor inner cheek bite diagnosed. no infection. no abscess. localized irritation only. no deep wound.",
+    "expected_phenotype_id": "minor_inner_cheek_bite_no_deep_laceration_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase11354_minor_inner_cheek_bite_no_deep_laceration_or_infection_missing_context_blocks",
+    "condition": "minor inner cheek bite",
+    "ed_note": "Adult with minor inner cheek bite.",
+    "expected_phenotype_id": "minor_inner_cheek_bite_no_deep_laceration_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_minor_inner_cheek_bite_no_deep_laceration_or_infection",
+      "no_infection_or_deep_injury_minor_inner_cheek_bite_no_deep_laceration_or_infection"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_minor_inner_cheek_bite_no_deep_laceration_or_infection_contradictory_note_blocks",
+    "condition": "minor inner cheek bite",
+    "ed_note": "Adult. clinician diagnosis minor inner cheek bite. minor inner cheek bite diagnosed. no infection. no abscess. localized irritation only. no deep wound. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, neck swelling, trismus, peritonsillar abscess, recurrent ulcers are documented.",
+    "expected_phenotype_id": "minor_inner_cheek_bite_no_deep_laceration_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "deep_space_swelling",
+      "peritonsillar_abscess_concern",
+      "systemic_or_recurrent_oral_ulcer_features",
+      "trismus"
+    ]
+  },
+  {
+    "id": "phase11255_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection_clean",
+    "condition": "minor braces wire mouth irritation",
+    "ed_note": "Adult. clinician diagnosis minor braces wire mouth irritation. minor braces wire mouth irritation diagnosed. no infection. no abscess. localized irritation only. no deep wound.",
+    "expected_phenotype_id": "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase11355_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection_missing_context_blocks",
+    "condition": "minor braces wire mouth irritation",
+    "ed_note": "Adult with minor braces wire mouth irritation.",
+    "expected_phenotype_id": "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection",
+      "no_infection_or_deep_injury_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection_contradictory_note_blocks",
+    "condition": "minor braces wire mouth irritation",
+    "ed_note": "Adult. clinician diagnosis minor braces wire mouth irritation. minor braces wire mouth irritation diagnosed. no infection. no abscess. localized irritation only. no deep wound. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, neck swelling, trismus, peritonsillar abscess, recurrent ulcers are documented.",
+    "expected_phenotype_id": "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "deep_space_swelling",
+      "peritonsillar_abscess_concern",
+      "systemic_or_recurrent_oral_ulcer_features",
+      "trismus"
+    ]
+  }
+]

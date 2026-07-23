@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.flu",
+  "source": "MedlinePlus",
+  "title": "Flu",
+  "url": "https://medlineplus.gov/flu.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "Flu symptoms can include fever or chills, cough, sore throat, runny or stuffy nose, body aches, headache, fatigue, and sometimes vomiting or diarrhea.",
+    "Flu can be confused with other respiratory illnesses.",
+    "Home care is supportive for many mild cases, but severe or worsening symptoms need medical evaluation."
+  ],
+  "use_policy": "evidence_support"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cdc.sore_throat_basics",
+  "source": "CDC",
+  "title": "Sore Throat Basics",
+  "url": "https://www.cdc.gov/sore-throat/about/index.html",
+  "source_type": "government_guidance",
+  "license_notes": "Use as government source support for sore throat and antibiotic stewardship. Avoid implying CDC endorses local discharge wording.",
+  "supports": [
+    "Most sore throats are caused by viruses and do not need antibiotics.",
+    "Strep throat is caused by group A Streptococcus and is treated differently from viral sore throat.",
+    "Patients should seek care for severe symptoms or concern for complications."
+  ],
+  "use_policy": "evidence_support"
+}

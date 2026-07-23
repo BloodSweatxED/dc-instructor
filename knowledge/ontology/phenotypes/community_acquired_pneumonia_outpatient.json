@@ -1,0 +1,105 @@
+{
+  "id": "community_acquired_pneumonia_outpatient",
+  "label": "Community-acquired pneumonia, outpatient",
+  "status": "reviewed",
+  "condition_family": "respiratory_infection",
+  "inclusion_criteria": [
+    "Pneumonia judged stable for outpatient treatment.",
+    "No hypoxia, sepsis, or admission need at discharge."
+  ],
+  "exclusion_criteria": [
+    "Hypoxia.",
+    "Sepsis.",
+    "Immunocompromised host.",
+    "High-risk comorbidity or unreliable outpatient plan."
+  ],
+  "must_not_miss": [
+    "Sepsis.",
+    "Pulmonary embolism mimic.",
+    "Heart failure mimic.",
+    "Empyema.",
+    "Hypoxic respiratory failure."
+  ],
+  "default_follow_up": "Follow up with primary care as instructed.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "community_acquired_pneumonia_outpatient.diagnosis.diagnosis_summary.v1",
+    "community_acquired_pneumonia_outpatient.what_we_found.reassuring_ed_assessment.v1",
+    "community_acquired_pneumonia_outpatient.home_care.home_care_1.v1",
+    "community_acquired_pneumonia_outpatient.home_care.home_care_2.v1",
+    "community_acquired_pneumonia_outpatient.home_care.home_care_3.v1",
+    "community_acquired_pneumonia_outpatient.home_care.home_care_4.v1",
+    "community_acquired_pneumonia_outpatient.medications.medication_guidance_1.v1",
+    "community_acquired_pneumonia_outpatient.medications.medication_guidance_2.v1",
+    "community_acquired_pneumonia_outpatient.return_precautions.return_precaution_1.v1",
+    "community_acquired_pneumonia_outpatient.return_precautions.return_precaution_2.v1",
+    "community_acquired_pneumonia_outpatient.return_precautions.return_precaution_3.v1",
+    "community_acquired_pneumonia_outpatient.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "cdc.pneumonia_about",
+    "cdc.antibiotic_use_adult_outpatient"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "CDC supports pneumonia symptom framing, higher-risk host factors, and outpatient antibiotic-stewardship distinctions. Dosing and regimen selection remain outside the ontology until medication policy exists."
+  },
+  "runtime": {
+    "condition_terms": [
+      "community acquired pneumonia outpatient",
+      "pneumonia outpatient",
+      "community acquired pneumonia",
+      "pneumonia",
+      "lung infection"
+    ],
+    "unsafe_modifiers": [
+      "hypoxia",
+      "immunocompromised",
+      "elderly_frail",
+      "sepsis",
+      "poor_follow_up",
+      "respiratory_distress",
+      "vomiting_unable_to_take_meds"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. CDC supports pneumonia symptom framing, higher-risk host factors, and outpatient antibiotic-stewardship distinctions. Dosing and regimen selection remain outside the ontology until medication policy exists.",
+    "clinical_status": "reviewed_for_limited_outpatient_community_acquired_pneumonia_use",
+    "required_modifiers": [
+      "pneumonia diagnosed by clinician",
+      "stable for outpatient treatment",
+      "acceptable oxygen level",
+      "antibiotics prescribed"
+    ],
+    "blocked_modifiers": [
+      "hypoxia",
+      "immunocompromised",
+      "elderly_frail",
+      "sepsis",
+      "poor_follow_up",
+      "respiratory_distress",
+      "vomiting_unable_to_take_meds"
+    ]
+  }
+}

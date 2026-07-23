@@ -1,0 +1,476 @@
+[
+  {
+    "id": "heel_rubbing_blister_no_diabetic_foot_or_infection",
+    "label": "Heel rubbing blister without diabetic-foot or infection red flags",
+    "family": "wound_care",
+    "condition_terms": [
+      "heel rubbing blister",
+      "heel pressure blister",
+      "heel blister from rubbing"
+    ],
+    "source_card_ids": [
+      "medlineplus.blisters"
+    ],
+    "summary": "Your symptoms fit an uncomplicated heel rubbing blister.",
+    "found": "Your clinician diagnosed an uncomplicated heel rubbing blister. We did not find infection, burn injury, widespread blistering, diabetic-foot risk, or another emergency problem today.",
+    "home": [
+      "Protect the blister from more rubbing or pressure.",
+      "Keep the area clean and dry unless your clinician told you something different.",
+      "Do not pop, cut, or peel the blister unless your clinician instructed you to."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Use creams, ointments, or antibiotics only if your clinician prescribed or recommended them."
+    ],
+    "return": [
+      "Spreading redness, warmth, pus, red streaks, fever, or worsening swelling.",
+      "Skin peeling, mouth sores, widespread blisters, severe pain, or a blister from a burn or chemical exposure.",
+      "Numbness, black skin, poor circulation, a new foot ulcer, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, podiatry, urgent care, or the ED if the blister is not healing or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated heel rubbing blister.",
+      "No infection, burn pathway, widespread blistering, medication reaction, mucosal involvement, high-risk host, pregnancy/pediatric pathway, diabetic-foot/PVD/neuropathy risk, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Cellulitis, abscess, pus, open infected wound, fever, systemic illness, burn, chemical/electrical injury, widespread blistering, mucosal lesions, severe cutaneous adverse reaction concern, immunocompromised host, pregnancy/pediatric pathway, diabetic foot risk, neuropathy, PVD, or specialist-directed wound/podiatry plan."
+    ],
+    "must_not_miss": [
+      "Burn injury.",
+      "Cellulitis or abscess.",
+      "Severe cutaneous adverse reaction.",
+      "Diabetic foot infection."
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "wound_infection_concern",
+      "open_wound",
+      "burn_high_risk_depth_location_or_mechanism",
+      "large_blistering_or_high_risk_burn",
+      "diabetic_foot",
+      "diabetes_general_risk",
+      "neuropathy_foot_risk",
+      "peripheral_vascular_disease",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_wound_plan",
+      "specialist_directed_podiatry_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_heel_rubbing_blister",
+        "terms": [
+          "clinician diagnosis heel rubbing blister",
+          "discharge diagnosis heel rubbing blister",
+          "heel rubbing blister diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_burn_heel_rubbing_blister",
+        "terms": [
+          "no infection",
+          "no burn",
+          "no diabetic foot",
+          "no neuropathy"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis heel rubbing blister",
+      "heel rubbing blister diagnosed",
+      "heel rubbing blister"
+    ],
+    "source_audit_notes": "MedlinePlus supports blister framing, protection from rubbing, simple skin care, and escalation for infection, burns, widespread blistering, mucosal lesions, or severe skin reactions. This expansion is limited to clinician-diagnosed uncomplicated heel rubbing blister with infection, burn, high-risk skin, and diabetic-foot red flags absent.",
+    "clinical_status": "reviewed_for_limited_heel_rubbing_blister_no_diabetic_foot_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of uncomplicated heel rubbing blister",
+      "no infection",
+      "no burn or severe skin reaction",
+      "no diabetic-foot pathway"
+    ],
+    "review_date": "2026-06-29"
+  },
+  {
+    "id": "toe_rubbing_blister_no_diabetic_foot_or_infection",
+    "label": "Toe rubbing blister without diabetic-foot or infection red flags",
+    "family": "wound_care",
+    "condition_terms": [
+      "toe rubbing blister",
+      "toe pressure blister",
+      "toe blister from rubbing"
+    ],
+    "source_card_ids": [
+      "medlineplus.blisters"
+    ],
+    "summary": "Your symptoms fit an uncomplicated toe rubbing blister.",
+    "found": "Your clinician diagnosed an uncomplicated toe rubbing blister. We did not find infection, burn injury, widespread blistering, diabetic-foot risk, or another emergency problem today.",
+    "home": [
+      "Protect the blister from more rubbing or pressure.",
+      "Keep the area clean and dry unless your clinician told you something different.",
+      "Do not pop, cut, or peel the blister unless your clinician instructed you to."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Use creams, ointments, or antibiotics only if your clinician prescribed or recommended them."
+    ],
+    "return": [
+      "Spreading redness, warmth, pus, red streaks, fever, or worsening swelling.",
+      "Skin peeling, mouth sores, widespread blisters, severe pain, or a blister from a burn or chemical exposure.",
+      "Numbness, black skin, poor circulation, a new foot ulcer, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, podiatry, urgent care, or the ED if the blister is not healing or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated toe rubbing blister.",
+      "No infection, burn pathway, widespread blistering, medication reaction, mucosal involvement, high-risk host, pregnancy/pediatric pathway, diabetic-foot/PVD/neuropathy risk, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Cellulitis, abscess, pus, open infected wound, fever, systemic illness, burn, chemical/electrical injury, widespread blistering, mucosal lesions, severe cutaneous adverse reaction concern, immunocompromised host, pregnancy/pediatric pathway, diabetic foot risk, neuropathy, PVD, or specialist-directed wound/podiatry plan."
+    ],
+    "must_not_miss": [
+      "Burn injury.",
+      "Cellulitis or abscess.",
+      "Severe cutaneous adverse reaction.",
+      "Diabetic foot infection."
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "wound_infection_concern",
+      "open_wound",
+      "burn_high_risk_depth_location_or_mechanism",
+      "large_blistering_or_high_risk_burn",
+      "diabetic_foot",
+      "diabetes_general_risk",
+      "neuropathy_foot_risk",
+      "peripheral_vascular_disease",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_wound_plan",
+      "specialist_directed_podiatry_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_toe_rubbing_blister",
+        "terms": [
+          "clinician diagnosis toe rubbing blister",
+          "discharge diagnosis toe rubbing blister",
+          "toe rubbing blister diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_burn_toe_rubbing_blister",
+        "terms": [
+          "no infection",
+          "no burn",
+          "no diabetic foot",
+          "no neuropathy"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis toe rubbing blister",
+      "toe rubbing blister diagnosed",
+      "toe rubbing blister"
+    ],
+    "source_audit_notes": "MedlinePlus supports blister framing, protection from rubbing, simple skin care, and escalation for infection, burns, widespread blistering, mucosal lesions, or severe skin reactions. This expansion is limited to clinician-diagnosed uncomplicated toe rubbing blister with infection, burn, high-risk skin, and diabetic-foot red flags absent.",
+    "clinical_status": "reviewed_for_limited_toe_rubbing_blister_no_diabetic_foot_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of uncomplicated toe rubbing blister",
+      "no infection",
+      "no burn or severe skin reaction",
+      "no diabetic-foot pathway"
+    ],
+    "review_date": "2026-06-29"
+  },
+  {
+    "id": "localized_glove_contact_rash_no_infection_or_anaphylaxis",
+    "label": "Localized glove contact rash without infection or anaphylaxis",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "localized glove rash",
+      "glove contact rash",
+      "glove skin rash"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.allergic_reactions"
+    ],
+    "summary": "Your symptoms fit a localized skin reaction from glove contact.",
+    "found": "Your clinician diagnosed a localized glove contact skin reaction. We did not find anaphylaxis, mucosal involvement, skin infection, or another rash emergency today.",
+    "home": [
+      "Avoid the suspected trigger if it is known.",
+      "Wash gently with mild soap and water, and avoid scrubbing the rash.",
+      "Use cool compresses, moisturizers, or coverings only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, itch medicine, or allergy medicine only if prescribed or recommended.",
+      "Do not use leftover steroid, antibiotic, or allergy medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Trouble breathing, throat tightness, swelling of the lips or tongue, fainting, or a bodywide reaction.",
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening rash, skin peeling, or mouth sores.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, allergy, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized glove contact skin reaction.",
+      "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, burn or chemical exposure, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Severe cutaneous adverse reaction.",
+      "Systemic allergic reaction."
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "fever",
+      "sepsis",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_glove_contact_rash",
+        "terms": [
+          "clinician diagnosis localized glove rash",
+          "discharge diagnosis localized glove rash",
+          "localized glove rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_localized_glove_contact_rash",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized glove rash",
+      "localized glove rash diagnosed",
+      "localized glove rash"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, ocular, or mucosal red flags. This expansion is limited to clinician-diagnosed localized glove contact skin reaction with anaphylaxis, infection, mucosal, and severe-rash red flags absent.",
+    "clinical_status": "reviewed_for_limited_localized_glove_contact_rash_no_infection_or_anaphylaxis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized glove contact skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "review_date": "2026-06-29"
+  },
+  {
+    "id": "localized_deodorant_contact_rash_no_infection_or_mucosal_red_flags",
+    "label": "Localized deodorant contact rash without infection or mucosal red flags",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "localized deodorant rash",
+      "deodorant contact rash",
+      "deodorant skin rash"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.allergic_reactions"
+    ],
+    "summary": "Your symptoms fit a localized skin reaction from deodorant exposure.",
+    "found": "Your clinician diagnosed a localized deodorant exposure skin reaction. We did not find anaphylaxis, mucosal involvement, skin infection, or another rash emergency today.",
+    "home": [
+      "Avoid the suspected trigger if it is known.",
+      "Wash gently with mild soap and water, and avoid scrubbing the rash.",
+      "Use cool compresses, moisturizers, or coverings only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, itch medicine, or allergy medicine only if prescribed or recommended.",
+      "Do not use leftover steroid, antibiotic, or allergy medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Trouble breathing, throat tightness, swelling of the lips or tongue, fainting, or a bodywide reaction.",
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening rash, skin peeling, or mouth sores.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, allergy, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized deodorant exposure skin reaction.",
+      "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, burn or chemical exposure, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Severe cutaneous adverse reaction.",
+      "Systemic allergic reaction."
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "fever",
+      "sepsis",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_deodorant_contact_rash",
+        "terms": [
+          "clinician diagnosis localized deodorant rash",
+          "discharge diagnosis localized deodorant rash",
+          "localized deodorant rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_localized_deodorant_contact_rash",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized deodorant rash",
+      "localized deodorant rash diagnosed",
+      "localized deodorant rash"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, ocular, or mucosal red flags. This expansion is limited to clinician-diagnosed localized deodorant exposure skin reaction with anaphylaxis, infection, mucosal, and severe-rash red flags absent.",
+    "clinical_status": "reviewed_for_limited_localized_deodorant_contact_rash_no_infection_or_mucosal_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized deodorant exposure skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "review_date": "2026-06-29"
+  },
+  {
+    "id": "localized_sunscreen_contact_rash_no_burn_or_anaphylaxis",
+    "label": "Localized sunscreen contact rash without burn or anaphylaxis",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "localized sunscreen rash",
+      "sunscreen contact rash",
+      "sunscreen skin rash"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.allergic_reactions"
+    ],
+    "summary": "Your symptoms fit a localized skin reaction from sunscreen exposure.",
+    "found": "Your clinician diagnosed a localized sunscreen exposure skin reaction. We did not find anaphylaxis, mucosal involvement, skin infection, or another rash emergency today.",
+    "home": [
+      "Avoid the suspected trigger if it is known.",
+      "Wash gently with mild soap and water, and avoid scrubbing the rash.",
+      "Use cool compresses, moisturizers, or coverings only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, itch medicine, or allergy medicine only if prescribed or recommended.",
+      "Do not use leftover steroid, antibiotic, or allergy medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Trouble breathing, throat tightness, swelling of the lips or tongue, fainting, or a bodywide reaction.",
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening rash, skin peeling, or mouth sores.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, allergy, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized sunscreen exposure skin reaction.",
+      "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, burn or chemical exposure, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Severe cutaneous adverse reaction.",
+      "Systemic allergic reaction."
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "fever",
+      "sepsis",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_sunscreen_contact_rash",
+        "terms": [
+          "clinician diagnosis localized sunscreen rash",
+          "discharge diagnosis localized sunscreen rash",
+          "localized sunscreen rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_localized_sunscreen_contact_rash",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized sunscreen rash",
+      "localized sunscreen rash diagnosed",
+      "localized sunscreen rash"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, ocular, or mucosal red flags. This expansion is limited to clinician-diagnosed localized sunscreen exposure skin reaction with anaphylaxis, infection, mucosal, and severe-rash red flags absent.",
+    "clinical_status": "reviewed_for_limited_localized_sunscreen_contact_rash_no_burn_or_anaphylaxis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized sunscreen exposure skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "review_date": "2026-06-29"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.paronychia",
+  "source": "MedlinePlus",
+  "title": "Paronychia",
+  "url": "https://medlineplus.gov/ency/article/001444.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Paronychia is an infection around the nail.",
+    "Common features include a painful, red, swollen area around the nail fold.",
+    "Pus-filled blisters may occur, especially with bacterial infection.",
+    "People with diabetes or fungal nail disease need clinician-directed care and higher-risk handling."
+  ],
+  "use_policy": "evidence_support"
+}

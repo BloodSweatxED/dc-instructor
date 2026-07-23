@@ -1,0 +1,135 @@
+{
+  "id": "osteoarthritis_flare_uncomplicated_no_septic_joint_or_trauma",
+  "label": "Uncomplicated osteoarthritis flare without septic-joint or trauma concern",
+  "status": "reviewed",
+  "condition_family": "msk",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated osteoarthritis flare.",
+    "No septic joint/infection concern, trauma/fracture concern, neurovascular compromise, inability to use limb, high-risk host, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Septic joint concern, fever, red hot joint, cellulitis, open wound, fracture/dislocation concern, neurovascular compromise, inability to use limb, severe pain, or high-energy trauma.",
+    "Immunocompromised host, pregnancy/pediatric pathway, or specialist-directed orthopedic/rheumatology plan."
+  ],
+  "must_not_miss": [
+    "Septic joint.",
+    "Fracture or dislocation.",
+    "Neurovascular compromise.",
+    "Cellulitis.",
+    "Inflammatory arthritis emergency mimic."
+  ],
+  "default_follow_up": "Follow up with primary care, rheumatology, sports medicine, or orthopedics if pain or function is not improving.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "osteoarthritis_flare_uncomplicated_no_septic_joint_or_trauma.diagnosis.diagnosis_summary.v1",
+    "osteoarthritis_flare_uncomplicated_no_septic_joint_or_trauma.what_we_found.reassuring_ed_assessment.v1",
+    "osteoarthritis_flare_uncomplicated_no_septic_joint_or_trauma.home_care.home_care_1.v1",
+    "osteoarthritis_flare_uncomplicated_no_septic_joint_or_trauma.home_care.home_care_2.v1",
+    "osteoarthritis_flare_uncomplicated_no_septic_joint_or_trauma.home_care.home_care_3.v1",
+    "osteoarthritis_flare_uncomplicated_no_septic_joint_or_trauma.medications.medication_guidance_1.v1",
+    "osteoarthritis_flare_uncomplicated_no_septic_joint_or_trauma.medications.medication_guidance_2.v1",
+    "osteoarthritis_flare_uncomplicated_no_septic_joint_or_trauma.return_precautions.return_precaution_1.v1",
+    "osteoarthritis_flare_uncomplicated_no_septic_joint_or_trauma.return_precautions.return_precaution_2.v1",
+    "osteoarthritis_flare_uncomplicated_no_septic_joint_or_trauma.return_precautions.return_precaution_3.v1",
+    "osteoarthritis_flare_uncomplicated_no_septic_joint_or_trauma.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.osteoarthritis"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports osteoarthritis framing and supportive care. Autonomous Phase 1901-2000 approved this narrow v1 only for clinician-diagnosed uncomplicated osteoarthritis flare without septic joint/infection concern, trauma/fracture concern, neurovascular compromise, high-risk host, pregnancy/pediatric pathway, or specialist-directed plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "osteoarthritis flare",
+      "arthritis flare",
+      "osteoarthritis pain"
+    ],
+    "unsafe_modifiers": [
+      "septic_joint_or_infection_concern",
+      "secondary_skin_infection_concern",
+      "open_wound",
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "unable_to_use_limb",
+      "unable_to_bear_weight_lower_extremity",
+      "severe_pain",
+      "high_energy_trauma",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_osteoarthritis_flare",
+        "terms": [
+          "clinician diagnosis osteoarthritis flare",
+          "discharge diagnosis osteoarthritis flare",
+          "osteoarthritis flare diagnosed",
+          "arthritis flare diagnosed"
+        ]
+      },
+      {
+        "id": "no_septic_joint_or_trauma_documented",
+        "terms": [
+          "no septic joint concern",
+          "no infection",
+          "no trauma",
+          "no fracture concern",
+          "neurovascularly intact"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis osteoarthritis flare",
+      "osteoarthritis flare diagnosed",
+      "arthritis flare diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-18",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports osteoarthritis framing and supportive care. Autonomous Phase 1901-2000 approved this narrow v1 only for clinician-diagnosed uncomplicated osteoarthritis flare without septic joint/infection concern, trauma/fracture concern, neurovascular compromise, high-risk host, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_osteoarthritis_flare_without_septic_joint_or_trauma_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated osteoarthritis flare",
+      "no septic joint/infection concern, trauma/fracture concern, or neurovascular red flags documented"
+    ],
+    "blocked_modifiers": [
+      "septic_joint_or_infection_concern",
+      "secondary_skin_infection_concern",
+      "open_wound",
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "unable_to_use_limb",
+      "unable_to_bear_weight_lower_extremity",
+      "severe_pain",
+      "high_energy_trauma",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+}

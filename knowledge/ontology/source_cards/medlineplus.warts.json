@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.warts",
+  "source": "MedlinePlus",
+  "title": "Warts",
+  "url": "https://medlineplus.gov/warts.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Warts are skin growths caused by HPV.",
+    "Plantar warts occur on the soles of the feet.",
+    "Genital warts are a separate STI pathway.",
+    "Painful, numerous, unusual, or high-risk warts may need clinician follow-up."
+  ],
+  "use_policy": "evidence_support"
+}

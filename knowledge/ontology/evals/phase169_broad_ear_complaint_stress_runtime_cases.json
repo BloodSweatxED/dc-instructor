@@ -1,0 +1,23 @@
+[
+  {
+    "id": "phase169_broad_ear_pain_no_match",
+    "condition": "ear pain",
+    "ed_note": "Broad ear complaint without final diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase169_broad_ear_infection_no_match",
+    "condition": "ear infection",
+    "ed_note": "Broad ear infection request without otitis media diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase169_broad_ear_drainage_no_match",
+    "condition": "ear drainage",
+    "ed_note": "Broad ear drainage complaint without final diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  }
+]

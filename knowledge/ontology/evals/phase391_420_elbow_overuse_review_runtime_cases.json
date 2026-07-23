@@ -1,0 +1,162 @@
+[
+  {
+    "id": "phase391_tennis_elbow_clean_draft_fallback",
+    "condition": "tennis elbow xray negative",
+    "ed_note": "Adult with tennis elbow. Chronic elbow overuse injury. X-ray negative for fracture. Hand motor intact. No acute trauma. No elbow instability concern.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase392_golfer_elbow_clean_draft_fallback",
+    "condition": "golfer elbow xray negative",
+    "ed_note": "Adult with golfer elbow. Chronic elbow overuse injury. Xray performed and negative. Neurovascular intact including hand motor. Atraumatic overuse onset. No ucl concern.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase393_elbow_overuse_missing_adult_overuse_diagnosis_blocks",
+    "condition": "tennis elbow xray negative",
+    "ed_note": "X-ray performed and negative. Neurovascular intact including hand motor. No acute traumatic mechanism. No elbow instability concern.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "adult_elbow_overuse_diagnosis"
+    ]
+  },
+  {
+    "id": "phase394_elbow_overuse_xray_not_done_blocks",
+    "condition": "tennis elbow xray negative",
+    "ed_note": "Adult with tennis elbow. Xray not done. Neurovascular intact including hand motor. No acute trauma. No instability concern.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "no_xray_performed"
+    ],
+    "expected_missing_required_context": [
+      "xray_performed_and_negative"
+    ]
+  },
+  {
+    "id": "phase395_direct_blow_elbow_trauma_blocks",
+    "condition": "tennis elbow xray negative",
+    "ed_note": "Adult with tennis elbow. Direct blow during sport. X-ray performed and negative. Neurovascular intact including hand motor. No instability concern.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "acute_traumatic_elbow_mechanism"
+    ],
+    "expected_missing_required_context": [
+      "no_acute_traumatic_mechanism_attested"
+    ]
+  },
+  {
+    "id": "phase396_posterior_elbow_fluid_bursitis_blocks",
+    "condition": "elbow overuse strain xray negative",
+    "ed_note": "Adult with elbow overuse strain. Xray performed and negative. Neurovascular intact including hand motor. No acute trauma. No instability concern. Fluid over the elbow.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "olecranon_bursitis_pathway"
+    ]
+  },
+  {
+    "id": "phase397_hand_weakness_blocks",
+    "condition": "medial epicondylitis xray negative",
+    "ed_note": "Adult with medial epicondylitis. Xray performed and negative. Neurovascular intact including hand motor. No acute trauma. No instability concern. Hand weakness.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "hand_motor_deficit"
+    ]
+  },
+  {
+    "id": "phase398_fever_joint_pain_infection_blocks",
+    "condition": "medial epicondylitis xray negative",
+    "ed_note": "Adult with medial epicondylitis. Xray performed and negative. Neurovascular intact including hand motor. No acute trauma. No instability concern. Fever with joint pain.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "septic_joint_or_infection_concern"
+    ]
+  },
+  {
+    "id": "phase399_child_growth_plate_pathway_blocks",
+    "condition": "lateral epicondylitis xray negative",
+    "ed_note": "Child with sprain and lateral epicondylitis. Xray performed and negative. Neurovascular intact including hand motor. No acute trauma. No instability concern.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "pediatric_growth_plate_pathway"
+    ]
+  },
+  {
+    "id": "phase400_osteoporotic_risk_blocks",
+    "condition": "lateral epicondylitis xray negative",
+    "ed_note": "Adult with lateral epicondylitis and osteoporosis. Xray performed and negative. Neurovascular intact including hand motor. No acute trauma. No instability concern.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "elderly_osteoporotic_high_risk_msk"
+    ]
+  },
+  {
+    "id": "phase401_specialist_directed_orthopedic_plan_blocks",
+    "condition": "tennis elbow xray negative",
+    "ed_note": "Adult with tennis elbow. Xray performed and negative. Neurovascular intact including hand motor. No acute trauma. No instability concern. Orthopedics consulted.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase402_shoulder_overuse_no_elbow_match",
+    "condition": "shoulder overuse xray negative",
+    "ed_note": "Adult with shoulder overuse strain. Xray performed and negative. Neurovascular intact. No acute trauma. No instability concern.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase403_foot_sprain_now_routes_to_reviewed_foot",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Foot sprain xray negative. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase404_acute_elbow_sprain_still_routes_to_site_pending_split",
+    "condition": "elbow sprain xray negative",
+    "ed_note": "Elbow sprain xray negative. X-ray performed and negative. Neurovascular exam intact. No acute traumatic mechanism. No elbow instability concern.",
+    "expected_phenotype_id": "elbow_sprain_acute_traumatic_xray_negative",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "adult_acute_traumatic_elbow_sprain_diagnosis",
+      "acute_traumatic_mechanism_documented",
+      "intact_neurovascular_and_hand_motor_exam",
+      "no_distal_tendon_or_ligament_rupture_concern_attested"
+    ]
+  },
+  {
+    "id": "phase405_unable_to_supinate_distal_biceps_blocks",
+    "condition": "elbow overuse strain xray negative",
+    "ed_note": "Adult with elbow overuse strain. Xray performed and negative. Neurovascular intact including hand motor. No acute trauma. No instability concern. Unable to supinate.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "distal_biceps_or_triceps_concern"
+    ]
+  },
+  {
+    "id": "phase406_cubital_tunnel_ulnar_nerve_blocks",
+    "condition": "medial epicondylitis xray negative",
+    "ed_note": "Adult with medial epicondylitis. Xray performed and negative. Neurovascular intact including hand motor. No acute trauma. No instability concern. Cubital tunnel symptoms.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "ulnar_nerve_pattern"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.eyelid_bump_stye",
+  "source": "MedlinePlus",
+  "title": "Eyelid bump",
+  "url": "https://medlineplus.gov/ency/article/001009.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Most eyelid bumps are styes.",
+    "A stye is an inflamed oil gland at the edge of the eyelid and can appear as a red, swollen, tender bump.",
+    "Warm compresses are a common home-care measure for eyelid bumps.",
+    "Patients should seek clinician care for worsening swelling, vision problems, eye pain, fever, or failure to improve."
+  ],
+  "use_policy": "evidence_support"
+}

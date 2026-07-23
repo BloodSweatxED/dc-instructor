@@ -1,0 +1,212 @@
+[
+  {
+    "id": "phase302_wrist_clean_missing_scaphoid_absence_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "no_scaphoid_tenderness_documented"
+    ]
+  },
+  {
+    "id": "phase303_wrist_clean_no_snuffbox_reviewed_ontology",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. No snuffbox tenderness.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase304_wrist_strain_no_scaphoid_reviewed_ontology",
+    "condition": "wrist strain xray negative",
+    "ed_note": "Wrist strain xray negative. X-ray performed and negative. CMS intact. No scaphoid tenderness.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase305_wrist_injury_xray_negative_no_scaphoid_reviewed_ontology",
+    "condition": "wrist injury xray negative",
+    "ed_note": "Wrist injury xray negative. X-ray negative for fracture. Distal pulses sensation movement intact. Scaphoid tenderness absent.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase306_wrist_scaphoid_tenderness_blocks_even_with_negative_xray",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Scaphoid tenderness documented.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "scaphoid_tenderness_pattern"
+    ]
+  },
+  {
+    "id": "phase307_wrist_snuffbox_tenderness_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Snuffbox tenderness present.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "scaphoid_tenderness_pattern"
+    ]
+  },
+  {
+    "id": "phase308_wrist_foosh_alone_with_clean_scaphoid_exam_does_not_block",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Fall on outstretched hand. No scaphoid tenderness.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase309_wrist_thumb_side_pain_after_fall_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Fall on outstretched hand with thumb side wrist pain. No scaphoid tenderness.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "foosh_scaphoid_risk"
+    ]
+  },
+  {
+    "id": "phase310_wrist_no_xray_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. No imaging. Neurovascular exam intact. No scaphoid tenderness.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "no_xray_performed"
+    ]
+  },
+  {
+    "id": "phase311_wrist_fracture_seen_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. Fracture seen. Neurovascular exam intact. No scaphoid tenderness.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_seen"
+    ]
+  },
+  {
+    "id": "phase312_wrist_tendon_risk_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. No scaphoid tenderness. Cannot extend fingers with tendon injury concern.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "hand_tendon_risk"
+    ]
+  },
+  {
+    "id": "phase313_wrist_pediatric_growth_plate_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Child with sprain. Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. No scaphoid tenderness.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "pediatric_growth_plate_pathway"
+    ]
+  },
+  {
+    "id": "phase314_wrist_age_language_alone_does_not_block",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Elderly wrist sprain. Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. No scaphoid tenderness.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase315_wrist_specialist_plan_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. No scaphoid tenderness. Orthopedics consulted with specialist directed orthopedic plan.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase316_wrist_negated_scaphoid_tenderness_satisfies_context",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. No scaphoid tenderness.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase317_wrist_no_scaphoid_concern_documented_satisfies_context",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. No scaphoid concern documented.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase318_wrist_no_fracture_phrase_satisfies_xray_context",
+    "condition": "wrist injury xray negative",
+    "ed_note": "Wrist injury xray negative. X-ray negative for fracture. Blood flow sensation movement intact. No snuffbox tenderness.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase319_knee_reviewed_path_unaffected_by_wrist_hold",
+    "condition": "knee sprain xray negative",
+    "ed_note": "Knee sprain xray negative. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase320_shoulder_reviewed_path_unaffected_by_wrist_hold",
+    "condition": "shoulder strain xray negative",
+    "ed_note": "Shoulder strain xray negative. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase321_wrist_neurovascular_compromise_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. No scaphoid tenderness. Decreased sensation in the hand.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "neurovascular_compromise"
+    ]
+  },
+  {
+    "id": "phase322_wrist_osteoporotic_pattern_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. No scaphoid tenderness. Osteoporosis and fragility fracture history documented.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "elderly_osteoporotic_high_risk_msk"
+    ]
+  },
+  {
+    "id": "phase323_wrist_mallet_finger_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. No scaphoid tenderness. Mallet finger with distal extensor avulsion concern.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "hand_tendon_risk"
+    ]
+  },
+  {
+    "id": "phase324_wrist_jersey_finger_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. No scaphoid tenderness. Jersey finger with flexor digitorum profundus avulsion concern.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "hand_tendon_risk"
+    ]
+  }
+]

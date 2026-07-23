@@ -1,0 +1,56 @@
+[
+  {
+    "id": "phase31_acute_bronchitis_clean_draft_fallback",
+    "condition": "acute bronchitis no pneumonia",
+    "ed_note": "Adult with cough and chest cold symptoms. Clinician diagnosis is acute bronchitis. No pneumonia concern, no focal lung findings, oxygenation acceptable, breathing comfortable, discharged home.",
+    "expected_phenotype_id": "acute_bronchitis_no_pneumonia",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase31_acute_bronchitis_pneumonia_blocks",
+    "condition": "acute bronchitis no pneumonia",
+    "ed_note": "Adult with cough. Chest x-ray has right lower lobe infiltrate and clinician documents pneumonia concern.",
+    "expected_phenotype_id": "acute_bronchitis_no_pneumonia",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["focal_lung_findings_or_infiltrate", "pneumonia"]
+  },
+  {
+    "id": "phase31_acute_bronchitis_hypoxia_blocks",
+    "condition": "acute bronchitis no pneumonia",
+    "ed_note": "Adult with acute bronchitis symptoms but low oxygen and SpO2 89 on room air.",
+    "expected_phenotype_id": "acute_bronchitis_no_pneumonia",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["hypoxia"]
+  },
+  {
+    "id": "phase31_acute_bronchitis_respiratory_distress_blocks",
+    "condition": "acute bronchitis no pneumonia",
+    "ed_note": "Adult with chest cold symptoms but respiratory distress, accessory muscle use, and unable to speak full sentences.",
+    "expected_phenotype_id": "acute_bronchitis_no_pneumonia",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["respiratory_distress"]
+  },
+  {
+    "id": "phase31_acute_bronchitis_copd_asthma_overlap_blocks",
+    "condition": "acute bronchitis no pneumonia",
+    "ed_note": "Cough with wheezing requiring bronchodilators. Clinician documents COPD exacerbation pathway.",
+    "expected_phenotype_id": "acute_bronchitis_no_pneumonia",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["copd_or_asthma_exacerbation_pathway"]
+  },
+  {
+    "id": "phase31_acute_bronchitis_bacterial_antibiotic_blocks",
+    "condition": "acute bronchitis no pneumonia",
+    "ed_note": "Clinician documents acute bronchitis but started antibiotics for bacterial infection.",
+    "expected_phenotype_id": "acute_bronchitis_no_pneumonia",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["antibiotic_prescribed_for_suspected_bacterial_infection"]
+  },
+  {
+    "id": "phase31_acute_bronchitis_vague_cough_no_match",
+    "condition": "cough",
+    "ed_note": "Cough for two days. No final respiratory discharge phenotype documented.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  }
+]

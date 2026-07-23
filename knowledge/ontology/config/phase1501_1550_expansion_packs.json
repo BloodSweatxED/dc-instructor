@@ -1,0 +1,461 @@
+[
+  {
+    "id": "seborrheic_dermatitis_or_dandruff_no_secondary_infection",
+    "label": "Seborrheic dermatitis or dandruff without secondary infection",
+    "family": "dermatology",
+    "condition_terms": [
+      "seborrheic dermatitis no infection",
+      "seborrheic dermatitis",
+      "dandruff",
+      "dandruff diagnosed",
+      "seborrheic eczema"
+    ],
+    "source_card_ids": [
+      "medlineplus.seborrheic_dermatitis"
+    ],
+    "summary": "Your symptoms fit seborrheic dermatitis or dandruff.",
+    "found": "Your exam was reassuring for this common flaky skin condition. We did not find signs of a deeper infection or emergency skin problem today.",
+    "home": [
+      "Use the shampoo, cream, or skin-care plan your clinician recommended.",
+      "Avoid scratching or picking at irritated areas.",
+      "Keep the area clean and avoid harsh products that make burning or itching worse."
+    ],
+    "meds": [
+      "Use over-the-counter dandruff shampoo or medicated shampoo only as directed on the label or by your clinician.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Spreading redness, warmth, pus, fever, or severe pain.",
+      "Rash near the eye, rapidly worsening swelling, or skin peeling.",
+      "Symptoms become much worse despite the plan you were given."
+    ],
+    "follow": "Follow up with primary care or dermatology if symptoms are not improving with the plan you were given.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of seborrheic dermatitis or dandruff.",
+      "No secondary bacterial infection, eye involvement, severe diffuse rash, or immunocompromised-host pathway."
+    ],
+    "exclusion": [
+      "Cellulitis or secondary infection concern.",
+      "Rash near the eye or mucosal involvement.",
+      "Severe diffuse rash, skin peeling, systemic illness, or immunocompromised host requiring a separate pathway."
+    ],
+    "must_not_miss": [
+      "Cellulitis.",
+      "Severe cutaneous adverse reaction.",
+      "Psoriasis flare requiring a different pathway.",
+      "Immunocompromised-host infection."
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "near_eye_or_genitals",
+      "mucosal_lesions",
+      "skin_peeling_or_sloughing",
+      "immunocompromised",
+      "systemic_illness"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_seborrheic_dermatitis_or_dandruff",
+        "terms": [
+          "clinician diagnosis seborrheic dermatitis",
+          "discharge diagnosis seborrheic dermatitis",
+          "seborrheic dermatitis diagnosed",
+          "dandruff diagnosed",
+          "seborrheic eczema diagnosed"
+        ]
+      },
+      {
+        "id": "no_secondary_infection_documented",
+        "terms": [
+          "no secondary infection",
+          "no cellulitis",
+          "no skin infection concern",
+          "no pus or spreading redness"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "seborrheic dermatitis diagnosed",
+      "dandruff diagnosed",
+      "clinician diagnosis seborrheic dermatitis"
+    ],
+    "source_audit_notes": "MedlinePlus supports seborrheic dermatitis and dandruff framing, common symptoms, medicated-shampoo home care, chronic relapsing course, and escalation for failed self-care or drainage, pus, crusting, marked redness, or pain. Autonomous Phase 1501-1550 approved this narrow v1 only for clinician-diagnosed seborrheic dermatitis or dandruff without secondary infection, eye involvement, mucosal disease, severe diffuse rash, systemic illness, or immunocompromised-host pathway.",
+    "clinical_status": "reviewed_for_limited_seborrheic_dermatitis_or_dandruff_without_secondary_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of seborrheic dermatitis or dandruff",
+      "no secondary infection documented",
+      "no eye, mucosal, severe diffuse, systemic, or immunocompromised-host pathway"
+    ],
+    "review_date": "2026-06-11"
+  },
+  {
+    "id": "tinea_corporis_uncomplicated_no_cellulitis",
+    "label": "Uncomplicated body ringworm without cellulitis",
+    "family": "dermatology",
+    "condition_terms": [
+      "tinea corporis uncomplicated",
+      "tinea corporis",
+      "body ringworm",
+      "ringworm on body",
+      "localized ringworm"
+    ],
+    "source_card_ids": [
+      "cdc.ringworm"
+    ],
+    "summary": "Your symptoms fit ringworm of the skin, also called tinea corporis.",
+    "found": "Your exam was reassuring for a localized fungal skin infection. We did not find signs of cellulitis, an abscess, or a deeper emergency infection today.",
+    "home": [
+      "Keep the area clean and dry.",
+      "Avoid sharing towels, clothing, or sports gear until the rash is improving.",
+      "Wash your hands after touching the rash."
+    ],
+    "meds": [
+      "Use the antifungal cream, spray, or powder exactly as directed on the label or by your clinician.",
+      "Do not use steroid cream on the rash unless your clinician specifically told you to."
+    ],
+    "return": [
+      "Spreading redness, warmth, pus, fever, or severe pain.",
+      "The rash spreads quickly, involves the scalp or nails, or keeps coming back.",
+      "You feel very ill or your immune system is weakened."
+    ],
+    "follow": "Follow up with primary care or dermatology if the rash is not improving with treatment or if it returns.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized tinea corporis or body ringworm.",
+      "No cellulitis, abscess, scalp/nail/beard involvement, extensive disease, or immunocompromised-host pathway."
+    ],
+    "exclusion": [
+      "Cellulitis, abscess, or secondary infection concern.",
+      "Scalp, nail, beard, groin, or foot fungal pathway requiring different instructions.",
+      "Extensive, recurrent, treatment-failure, or immunocompromised-host disease."
+    ],
+    "must_not_miss": [
+      "Cellulitis.",
+      "Abscess.",
+      "Tinea capitis requiring oral treatment.",
+      "Immunocompromised-host fungal infection."
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "abscess_concern",
+      "scalp_or_nail_or_beard_fungal_infection",
+      "groin_or_foot_fungal_pathway",
+      "extensive_or_recurrent_fungal_rash",
+      "immunocompromised",
+      "systemic_illness"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_tinea_corporis",
+        "terms": [
+          "clinician diagnosis tinea corporis",
+          "discharge diagnosis tinea corporis",
+          "tinea corporis diagnosed",
+          "body ringworm diagnosed",
+          "localized ringworm diagnosed"
+        ]
+      },
+      {
+        "id": "localized_skin_only_no_cellulitis_documented",
+        "terms": [
+          "localized skin only",
+          "no cellulitis",
+          "no abscess",
+          "no secondary infection",
+          "no skin infection concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "tinea corporis diagnosed",
+      "body ringworm diagnosed",
+      "clinician diagnosis tinea corporis"
+    ],
+    "source_audit_notes": "CDC supports ringworm and tinea framing, contagious spread precautions, antifungal treatment concepts, and special handling for scalp, nail, extensive, persistent, recurrent, or high-risk disease. Autonomous Phase 1501-1550 approved this narrow v1 only for clinician-diagnosed localized body ringworm without cellulitis, abscess, scalp/nail/beard/groin/foot pathway, systemic illness, treatment failure, or immunocompromised-host pathway.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_tinea_corporis_without_cellulitis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of localized tinea corporis or body ringworm",
+      "localized skin-only disease and no cellulitis or abscess documented",
+      "no scalp, nail, beard, groin, foot, recurrent, extensive, or immunocompromised-host pathway"
+    ],
+    "review_date": "2026-06-11"
+  },
+  {
+    "id": "ingrown_toenail_no_abscess_or_cellulitis",
+    "label": "Ingrown toenail without abscess or cellulitis",
+    "family": "podiatry",
+    "condition_terms": [
+      "ingrown toenail no infection",
+      "ingrown toenail",
+      "ingrown nail",
+      "onychocryptosis"
+    ],
+    "source_card_ids": [
+      "nhs.ingrown_toenail"
+    ],
+    "summary": "Your symptoms fit an ingrown toenail.",
+    "found": "Your exam was reassuring enough for home care today. We did not find an abscess, spreading cellulitis, or another emergency foot problem.",
+    "home": [
+      "Soak the foot in warm salty water if your clinician said this is safe for you.",
+      "Keep the foot dry the rest of the day.",
+      "Wear wide, comfortable shoes or sandals."
+    ],
+    "meds": [
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label.",
+      "Take antibiotics only if they were prescribed."
+    ],
+    "return": [
+      "Pus, spreading redness, fever, chills, or worsening swelling.",
+      "Severe pain, numbness, black or blue skin, or you cannot walk normally.",
+      "You have diabetes, poor circulation, or a weakened immune system and symptoms worsen."
+    ],
+    "follow": "Follow up with primary care or podiatry if home care is not helping or if this keeps coming back.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of ingrown toenail.",
+      "No abscess, cellulitis, diabetic foot concern, poor circulation concern, nail procedure aftercare pathway, or systemic illness."
+    ],
+    "exclusion": [
+      "Abscess, cellulitis, pus, fever, or systemic illness.",
+      "Diabetes, poor circulation, immunocompromised host, neuropathy, or diabetic foot pathway.",
+      "Recent nail procedure or specialist-directed podiatry plan."
+    ],
+    "must_not_miss": [
+      "Toe cellulitis.",
+      "Paronychia or abscess requiring drainage.",
+      "Diabetic foot infection.",
+      "Ischemic toe."
+    ],
+    "unsafe_modifiers": [
+      "abscess_concern",
+      "toe_cellulitis_or_pus",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "immunocompromised",
+      "systemic_illness",
+      "specialist_directed_podiatry_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_ingrown_toenail",
+        "terms": [
+          "clinician diagnosis ingrown toenail",
+          "discharge diagnosis ingrown toenail",
+          "ingrown toenail diagnosed",
+          "ingrown nail diagnosed",
+          "onychocryptosis diagnosed"
+        ]
+      },
+      {
+        "id": "no_abscess_or_cellulitis_documented",
+        "terms": [
+          "no abscess",
+          "no cellulitis",
+          "no pus",
+          "no spreading infection",
+          "no toe infection concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "ingrown toenail diagnosed",
+      "ingrown nail diagnosed",
+      "clinician diagnosis ingrown toenail"
+    ],
+    "source_audit_notes": "NHS supports ingrown-toenail framing, pain/redness/swelling symptoms, warm salty-water soaks, keeping the foot dry, wide footwear, label-safe pain control, and escalation for pus, feverish symptoms, failed home care, diabetes, antibiotics, or podiatry treatment. Autonomous Phase 1501-1550 approved this narrow v1 only for clinician-diagnosed ingrown toenail without abscess, cellulitis, pus, diabetic foot risk, poor circulation, immunocompromised-host pathway, or specialist procedure aftercare.",
+    "clinical_status": "reviewed_for_limited_ingrown_toenail_without_abscess_or_cellulitis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of ingrown toenail",
+      "no abscess, cellulitis, pus, or spreading infection documented",
+      "no diabetes, poor circulation, neuropathy, immunocompromised-host, systemic illness, or procedure aftercare pathway"
+    ],
+    "review_date": "2026-06-11"
+  },
+  {
+    "id": "aphthous_ulcer_simple_no_systemic_symptoms",
+    "label": "Simple canker sore without systemic symptoms",
+    "family": "oral_dental",
+    "condition_terms": [
+      "simple canker sore",
+      "canker sore",
+      "aphthous ulcer",
+      "mouth ulcer canker sore"
+    ],
+    "source_card_ids": [
+      "medlineplus.canker_sore"
+    ],
+    "summary": "Your symptoms fit a canker sore, also called an aphthous ulcer.",
+    "found": "Your exam was reassuring for a simple mouth sore. We did not find signs of a dangerous mouth or throat infection today.",
+    "home": [
+      "Avoid spicy, acidic, or sharp foods if they make the sore hurt more.",
+      "Brush gently and keep up with routine mouth care.",
+      "Drink fluids so mouth pain does not lead to dehydration."
+    ],
+    "meds": [
+      "Use over-the-counter mouth pain medicine only as directed on the label or by your clinician.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Fever, rash, eye pain, genital sores, severe swelling, or trouble swallowing.",
+      "You cannot drink enough fluids.",
+      "The sore lasts more than 2 weeks, gets worse, or keeps coming back."
+    ],
+    "follow": "Follow up with primary care, dentistry, or ENT if the sore is not improving, lasts more than 2 weeks, or recurs often.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of simple canker sore or aphthous ulcer.",
+      "No fever, rash, ocular symptoms, genital ulcers, immunocompromised-host pathway, deep-space infection, or airway concern."
+    ],
+    "exclusion": [
+      "Fever, rash, diarrhea, headache with systemic syndrome, ocular symptoms, genital ulcers, or recurrent severe ulcers.",
+      "Deep-space dental/neck infection, airway symptoms, dehydration, or immunocompromised host.",
+      "Suspicion for herpes, zoster, Stevens-Johnson syndrome, or malignancy."
+    ],
+    "must_not_miss": [
+      "Deep-space oral infection.",
+      "Herpes or zoster pathway.",
+      "Stevens-Johnson syndrome.",
+      "Oral malignancy.",
+      "Behcet-like systemic disease."
+    ],
+    "unsafe_modifiers": [
+      "airway_symptoms",
+      "deep_space_swelling",
+      "dehydration_or_unable_to_drink",
+      "systemic_or_recurrent_oral_ulcer_features",
+      "genital_ulcers",
+      "ocular_symptoms",
+      "mucosal_lesions",
+      "immunocompromised"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_simple_canker_sore",
+        "terms": [
+          "clinician diagnosis canker sore",
+          "discharge diagnosis canker sore",
+          "canker sore diagnosed",
+          "aphthous ulcer diagnosed",
+          "simple mouth ulcer diagnosed"
+        ]
+      },
+      {
+        "id": "no_systemic_or_dangerous_oral_features_documented",
+        "terms": [
+          "no systemic symptoms",
+          "no fever or rash",
+          "no dangerous mouth infection",
+          "no airway symptoms",
+          "no deep space infection concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "canker sore diagnosed",
+      "aphthous ulcer diagnosed",
+      "clinician diagnosis canker sore"
+    ],
+    "source_audit_notes": "MedlinePlus supports canker-sore and aphthous-ulcer framing, expected self-resolution, gentle oral care and symptom relief concepts, and escalation for ulcers lasting more than two weeks, worsening, frequent recurrence, or associated fever, diarrhea, headache, or rash. Autonomous Phase 1501-1550 approved this narrow v1 only for clinician-diagnosed simple canker sore without systemic features, ocular or genital involvement, dehydration, airway/deep-space concern, immunocompromise, or recurrent severe-ulcer pathway.",
+    "clinical_status": "reviewed_for_limited_simple_aphthous_ulcer_without_systemic_symptoms_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of simple canker sore or aphthous ulcer",
+      "no systemic or dangerous oral features documented",
+      "no ocular, genital, airway, deep-space, dehydration, immunocompromised-host, or recurrent severe-ulcer pathway"
+    ],
+    "review_date": "2026-06-11"
+  },
+  {
+    "id": "localized_insect_bite_or_sting_no_systemic_reaction",
+    "label": "Localized insect bite or sting without systemic reaction",
+    "family": "dermatology",
+    "condition_terms": [
+      "localized insect bite no systemic reaction",
+      "insect bite",
+      "insect sting",
+      "bee sting local reaction",
+      "mosquito bite"
+    ],
+    "source_card_ids": [
+      "medlineplus.insect_bites_and_stings"
+    ],
+    "summary": "Your symptoms fit a localized insect bite or sting reaction.",
+    "found": "Your exam was reassuring for a local skin reaction. We did not find signs of anaphylaxis, severe venom reaction, or spreading infection today.",
+    "home": [
+      "Wash the area with soap and water.",
+      "Use a cold pack wrapped in cloth for short periods if it helps.",
+      "Avoid scratching the area."
+    ],
+    "meds": [
+      "Use itch medicine, allergy medicine, or pain medicine only as directed on the label or by your clinician.",
+      "Use an epinephrine injector only if one was prescribed and you were instructed to use it."
+    ],
+    "return": [
+      "Trouble breathing, wheezing, throat tightness, face or mouth swelling, fainting, or vomiting.",
+      "Spreading redness, pus, fever, red streaks, or worsening pain.",
+      "A black widow, brown recluse, scorpion, tick-borne illness, or snakebite concern comes up."
+    ],
+    "follow": "Follow up with primary care or allergy clinic if symptoms persist, worsen, or reactions keep happening.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized insect bite or sting reaction.",
+      "No anaphylaxis, airway symptoms, systemic reaction, venomous spider/scorpion/snake pathway, tick-borne illness concern, or cellulitis."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, syncope, vomiting, or bodywide reaction.",
+      "Cellulitis, abscess, necrosis, severe pain, or systemic illness.",
+      "Black widow, brown recluse, scorpion, tick-borne illness, snakebite, or specialist-directed allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Necrotic spider bite.",
+      "Scorpion envenomation.",
+      "Tick-borne illness.",
+      "Snakebite."
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "syncope_or_fainting",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "specialist_directed_allergy_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_insect_bite_or_sting",
+        "terms": [
+          "clinician diagnosis localized insect bite",
+          "discharge diagnosis insect bite",
+          "insect bite diagnosed",
+          "insect sting diagnosed",
+          "localized insect bite reaction"
+        ]
+      },
+      {
+        "id": "no_systemic_reaction_documented",
+        "terms": [
+          "no systemic reaction",
+          "no anaphylaxis",
+          "no airway symptoms",
+          "localized reaction only",
+          "local reaction only"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "insect bite diagnosed",
+      "insect sting diagnosed",
+      "clinician diagnosis localized insect bite"
+    ],
+    "source_audit_notes": "MedlinePlus supports insect-bite and sting framing, common local symptoms, home care with washing/cold packs/itch treatment, and emergency escalation for trouble breathing, wheezing, face or mouth swelling, throat tightness, swallowing trouble, weakness, or blue color. Autonomous Phase 1501-1550 approved this narrow v1 only for clinician-diagnosed localized bite or sting reaction without anaphylaxis, airway symptoms, hypotension, systemic reaction, cellulitis, venomous spider/scorpion/snake pathway, tick-borne illness concern, or specialist-directed allergy plan.",
+    "clinical_status": "reviewed_for_limited_localized_insect_bite_or_sting_without_systemic_reaction_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of localized insect bite or sting reaction",
+      "no systemic reaction, anaphylaxis, or airway symptoms documented",
+      "no cellulitis, necrotic spider, scorpion, tick-borne illness, snakebite, or specialist-directed allergy pathway"
+    ],
+    "review_date": "2026-06-11"
+  }
+]

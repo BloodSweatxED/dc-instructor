@@ -1,0 +1,115 @@
+{
+  "id": "lumbar_strain_no_red_flags",
+  "label": "Lumbar strain without red flags",
+  "status": "reviewed",
+  "condition_family": "musculoskeletal_back_pain",
+  "inclusion_criteria": [
+    "Adult with acute mechanical low back pain or lumbar strain.",
+    "No trauma requiring spine imaging or immobilization.",
+    "No fever or systemic infectious concern.",
+    "No new weakness, saddle anesthesia, urinary retention, bowel incontinence, or other cauda equina concern.",
+    "Able to ambulate or safely mobilize at discharge."
+  ],
+  "exclusion_criteria": [
+    "Major trauma or suspected fracture.",
+    "Known cancer with concerning back pain.",
+    "Intravenous drug use with fever or spinal infection concern.",
+    "New neurologic deficit.",
+    "Pregnancy-specific back pain pathway.",
+    "Post-procedure or post-operative spine patient."
+  ],
+  "must_not_miss": [
+    "Cauda equina syndrome.",
+    "Spinal epidural abscess.",
+    "Vertebral fracture.",
+    "Aortic emergency when symptoms are atypical.",
+    "Renal colic, pyelonephritis, or other non-MSK mimic."
+  ],
+  "default_follow_up": "Primary care follow-up in 1 to 2 weeks if not improving.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "back_pain.diagnosis.lumbar_strain.v1",
+    "back_pain.what_we_found.reassuring_exam.v1",
+    "back_pain.home_care.activity.v1",
+    "back_pain.home_care.lifting.v1",
+    "back_pain.home_care.ice_heat.v1",
+    "back_pain.home_care.sleep_sitting.v1",
+    "back_pain.medications.acetaminophen.v1",
+    "back_pain.medications.nsaid_caution.v1",
+    "back_pain.return_precautions.cauda_equina.v1",
+    "back_pain.return_precautions.neuro_fever_trauma.v1",
+    "back_pain.follow_up.primary_care.v1",
+    "lumbar_strain_no_red_flags.resources.source_link_1.v1",
+    "lumbar_strain_no_red_flags.resources.source_link_2.v1",
+    "lumbar_strain_no_red_flags.resources.followup_reminder.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.low_back_pain_acute",
+    "wikem.low_back_pain"
+  ],
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports conservative low-back-pain care and red flags. WikEM supports ED phenotype boundaries and must-not-miss framing only.",
+    "clinical_status": "reviewed_for_limited_mechanical_low_back_pain_without_red_flags_use",
+    "required_modifiers": [
+      "no cauda equina concern",
+      "no spinal infection concern",
+      "no major trauma or fracture concern",
+      "ambulatory or safe mobility plan"
+    ],
+    "blocked_modifiers": [
+      "cauda_equina_concern",
+      "spinal_infection_concern",
+      "fracture_or_trauma_concern",
+      "cancer_red_flag",
+      "fever",
+      "new_neurologic_deficit",
+      "pregnancy",
+      "unable_to_walk"
+    ]
+  },
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports conservative low-back-pain care and red flags. WikEM supports ED phenotype boundaries and must-not-miss framing only."
+  },
+  "runtime": {
+    "condition_terms": [
+      "lumbar strain no red flags",
+      "lumbar strain",
+      "low back strain",
+      "mechanical low back pain",
+      "acute low back pain",
+      "back pain no red flags"
+    ],
+    "unsafe_modifiers": [
+      "cauda_equina_concern",
+      "spinal_infection_concern",
+      "fracture_or_trauma_concern",
+      "cancer_red_flag",
+      "fever",
+      "new_neurologic_deficit",
+      "pregnancy",
+      "unable_to_walk"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1
+}

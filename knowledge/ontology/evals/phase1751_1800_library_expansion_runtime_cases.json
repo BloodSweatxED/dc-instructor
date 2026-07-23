@@ -1,0 +1,132 @@
+[
+  {
+    "id": "phase1751_head_lice_clean",
+    "condition": "head lice",
+    "ed_note": "Adult. Clinician diagnosis head lice. Scalp only lice. No secondary infection. No cellulitis. No eyelash lice. No pubic lice.",
+    "expected_phenotype_id": "pediculosis_capitis_uncomplicated_no_secondary_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1752_head_lice_missing_context_blocks",
+    "condition": "head lice",
+    "ed_note": "Adult with itchy scalp after close contact exposure.",
+    "expected_phenotype_id": "pediculosis_capitis_uncomplicated_no_secondary_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_uncomplicated_head_lice",
+      "no_secondary_infection_or_non_scalp_lice_documented"
+    ]
+  },
+  {
+    "id": "phase1753_head_lice_pubis_infection_blocks",
+    "condition": "head lice",
+    "ed_note": "Adult. Head lice diagnosed, but pubic lice, cellulitis, and pus are documented.",
+    "expected_phenotype_id": "pediculosis_capitis_uncomplicated_no_secondary_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["head_lice_complicated_or_non_scalp", "secondary_skin_infection_concern"]
+  },
+  {
+    "id": "phase1754_tinea_cruris_clean",
+    "condition": "tinea cruris",
+    "ed_note": "Adult. Clinician diagnosis tinea cruris. No cellulitis. No secondary infection. No abscess. No immunocompromised host. No STI concern.",
+    "expected_phenotype_id": "tinea_cruris_uncomplicated_no_cellulitis_or_immunocompromised_host",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1755_tinea_cruris_missing_context_blocks",
+    "condition": "jock itch",
+    "ed_note": "Adult with itchy groin rash.",
+    "expected_phenotype_id": "tinea_cruris_uncomplicated_no_cellulitis_or_immunocompromised_host",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_uncomplicated_tinea_cruris",
+      "no_cellulitis_or_immunocompromised_host_documented"
+    ]
+  },
+  {
+    "id": "phase1756_tinea_cruris_sti_or_cellulitis_blocks",
+    "condition": "tinea cruris",
+    "ed_note": "Adult. Tinea cruris diagnosed, but penile discharge, genital sores, cellulitis, and fever are documented.",
+    "expected_phenotype_id": "tinea_cruris_uncomplicated_no_cellulitis_or_immunocompromised_host",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["sti_or_genital_pathway", "secondary_skin_infection_concern", "systemic_illness"]
+  },
+  {
+    "id": "phase1757_tinea_versicolor_clean",
+    "condition": "tinea versicolor",
+    "ed_note": "Adult. Clinician diagnosis tinea versicolor. No cellulitis. No secondary infection. No fever. No systemic symptoms. No systemic illness.",
+    "expected_phenotype_id": "tinea_versicolor_uncomplicated_no_systemic_symptoms",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1758_tinea_versicolor_missing_context_blocks",
+    "condition": "tinea versicolor",
+    "ed_note": "Adult with patchy color change on trunk.",
+    "expected_phenotype_id": "tinea_versicolor_uncomplicated_no_systemic_symptoms",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_uncomplicated_tinea_versicolor",
+      "no_infection_or_systemic_symptoms_documented"
+    ]
+  },
+  {
+    "id": "phase1759_tinea_versicolor_scar_blocks",
+    "condition": "tinea versicolor",
+    "ed_note": "Adult. Tinea versicolor diagnosed. No systemic symptoms, but skin peeling, mouth sores, fever, and immunocompromised host are documented.",
+    "expected_phenotype_id": "tinea_versicolor_uncomplicated_no_systemic_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["skin_peeling_or_sloughing", "mucosal_lesions", "systemic_illness", "immunocompromised"]
+  },
+  {
+    "id": "phase1760_pityriasis_rosea_clean",
+    "condition": "pityriasis rosea",
+    "ed_note": "Adult. Clinician diagnosis pityriasis rosea. No mucosal lesions. No skin peeling. No medication reaction. No fever. No systemic illness.",
+    "expected_phenotype_id": "pityriasis_rosea_uncomplicated_no_systemic_symptoms",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1761_pityriasis_rosea_missing_context_blocks",
+    "condition": "pityriasis rosea",
+    "ed_note": "Adult with oval scaly rash.",
+    "expected_phenotype_id": "pityriasis_rosea_uncomplicated_no_systemic_symptoms",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_uncomplicated_pityriasis_rosea",
+      "no_systemic_or_dangerous_rash_features_documented"
+    ]
+  },
+  {
+    "id": "phase1762_pityriasis_rosea_pregnancy_drug_rash_blocks",
+    "condition": "pityriasis rosea",
+    "ed_note": "Adult. Pityriasis rosea diagnosed, but patient is pregnant with new medication reaction concern, target lesions, mouth sores, and fever.",
+    "expected_phenotype_id": "pityriasis_rosea_uncomplicated_no_systemic_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["pregnancy", "severe_cutaneous_adverse_reaction", "mucosal_lesions", "systemic_illness"]
+  },
+  {
+    "id": "phase1763_contusion_clean",
+    "condition": "uncomplicated contusion",
+    "ed_note": "Adult. Clinician diagnosis contusion. No fracture concern. No dislocation. No neurovascular compromise. No bleeding disorder. Not anticoagulated.",
+    "expected_phenotype_id": "contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1764_contusion_missing_context_blocks",
+    "condition": "uncomplicated contusion",
+    "ed_note": "Adult with bruising after bumping leg.",
+    "expected_phenotype_id": "contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_uncomplicated_bruise_or_contusion",
+      "no_fracture_or_bleeding_risk_documented"
+    ]
+  },
+  {
+    "id": "phase1765_contusion_fracture_bleeding_blocks",
+    "condition": "uncomplicated contusion",
+    "ed_note": "Adult. Bruise diagnosed, but possible fracture, severe pain, warfarin use, and unexplained bruising without injury are documented.",
+    "expected_phenotype_id": "contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["fracture_or_dislocation_concern", "severe_pain", "anticoagulated", "unexplained_bruising_or_abuse_concern"]
+  }
+]

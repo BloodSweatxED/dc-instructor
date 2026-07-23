@@ -1,0 +1,118 @@
+{
+  "id": "chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags",
+  "label": "Chest wall muscle strain without cardiopulmonary red flags",
+  "status": "reviewed",
+  "condition_family": "musculoskeletal",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated chest wall muscle strain.",
+    "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "must_not_miss": [
+    "Fracture or dislocation.",
+    "Tendon rupture.",
+    "Neurovascular compromise.",
+    "Infection."
+  ],
+  "default_follow_up": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags.diagnosis.diagnosis_summary.v1",
+    "chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags.home_care.home_care_1.v1",
+    "chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags.home_care.home_care_2.v1",
+    "chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags.home_care.home_care_3.v1",
+    "chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags.medications.medication_guidance_1.v1",
+    "chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags.medications.medication_guidance_2.v1",
+    "chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags.return_precautions.return_precaution_1.v1",
+    "chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags.return_precautions.return_precaution_2.v1",
+    "chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags.return_precautions.return_precaution_3.v1",
+    "chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.sprains_strains",
+    "medlineplus.costochondritis"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "medlineplus.sprains_strains, medlineplus.costochondritis supports patient-education framing for chest wall muscle strain and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent."
+  },
+  "runtime": {
+    "condition_terms": [
+      "chest wall muscle strain",
+      "chest wall strain",
+      "intercostal strain"
+    ],
+    "unsafe_modifiers": [
+      "chest_pain",
+      "cardiac_or_pe_chest_pain_concern",
+      "respiratory_distress",
+      "hypoxia",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_chest_wall_muscle_strain_no_cardiopulmonary_red_flags",
+        "terms": [
+          "clinician diagnosis chest wall muscle strain",
+          "discharge diagnosis chest wall muscle strain",
+          "chest wall muscle strain diagnosed"
+        ]
+      },
+      {
+        "id": "no_cardiopulmonary_red_flags_chest_wall_strain",
+        "terms": [
+          "Clinician diagnosis chest wall strain",
+          "Reproducible chest wall pain",
+          "No cardiac concern",
+          "No breathing distress."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis chest wall muscle strain",
+      "chest wall muscle strain diagnosed",
+      "chest wall muscle strain"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-19",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. medlineplus.sprains_strains, medlineplus.costochondritis supports patient-education framing for chest wall muscle strain and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated chest wall muscle strain",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "blocked_modifiers": [
+      "chest_pain",
+      "cardiac_or_pe_chest_pain_concern",
+      "respiratory_distress",
+      "hypoxia",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+}

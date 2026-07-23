@@ -1,0 +1,14 @@
+{
+  "id": "ninds.headache",
+  "source": "National Institute of Neurological Disorders and Stroke",
+  "title": "Headache",
+  "url": "https://www.ninds.nih.gov/health-information/disorders/headache",
+  "source_type": "government_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Headache can be primary or secondary to another condition.",
+    "Concerning headache contexts include headache after brain injury and headache with systemic or neurologic symptoms.",
+    "This source supports warning-sign framing, not ED diagnostic clearance."
+  ],
+  "use_policy": "evidence_support"
+}

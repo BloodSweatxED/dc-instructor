@@ -1,0 +1,472 @@
+[
+  {
+    "id": "toe_abrasion_no_diabetic_foot_or_infection",
+    "label": "Toe abrasion without diabetic foot or infection",
+    "family": "wound_care",
+    "condition_terms": [
+      "toe abrasion",
+      "toe scrape",
+      "toe skin abrasion"
+    ],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "summary": "You were treated for a toe abrasion.",
+    "found": "Your clinician diagnosed a superficial toe abrasion. We did not find a deep wound, tendon injury, debris concern, or infection today.",
+    "home": [
+      "Keep the area clean and dry today.",
+      "Wash gently with soap and water when your clinician says it is okay.",
+      "Do not scrub, pick, or dig at the wound."
+    ],
+    "meds": [
+      "Use antibiotic ointment, dressings, or pain medicine only if prescribed or recommended.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Fever, pus, spreading redness, red streaks, worsening warmth, or swelling.",
+      "Bleeding that will not stop with firm pressure.",
+      "New numbness, weakness, color change, worsening pain, or concern that something is stuck in the wound."
+    ],
+    "follow": "Follow up with primary care, urgent care, or the ED if the wound is not improving, if you were told to recheck, or if tetanus questions remain.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of superficial toe abrasion.",
+      "No deep wound, repair-needed laceration, tendon/nerve/vessel injury, retained foreign body, infection, bite, burn, diabetic foot, or specialist wound plan."
+    ],
+    "exclusion": [
+      "Deep wound, repair-needed laceration, bite wound, dirty wound, crush injury, burn or chemical wound, retained foreign body, tendon/nerve/vessel injury, wound infection, diabetic foot risk, pregnancy/pediatric pathway, or specialist-directed wound plan."
+    ],
+    "must_not_miss": [
+      "Infected wound.",
+      "Retained foreign body.",
+      "Tendon, nerve, or vascular injury.",
+      "Open fracture or joint violation."
+    ],
+    "unsafe_modifiers": [
+      "bite_wound",
+      "burn_or_chemical_wound",
+      "delayed_wound_presentation",
+      "dirty_wound",
+      "fever",
+      "high_pressure_injection_injury",
+      "immunocompromised",
+      "laceration_repair_needed",
+      "open_wound",
+      "pediatric_pathway",
+      "pregnancy",
+      "retained_foreign_body",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "specialist_directed_wound_plan",
+      "wound_infection_concern",
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "specialist_directed_podiatry_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_toe_abrasion_no_diabetic_foot_or_infection",
+        "terms": [
+          "clinician diagnosis toe abrasion",
+          "discharge diagnosis toe abrasion",
+          "toe abrasion diagnosed"
+        ]
+      },
+      {
+        "id": "no_deep_wound_or_infection_toe_abrasion_no_diabetic_foot_or_infection",
+        "terms": [
+          "superficial abrasion only",
+          "no infection",
+          "no deep wound",
+          "no debris concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis toe abrasion",
+      "toe abrasion diagnosed",
+      "toe abrasion"
+    ],
+    "source_audit_notes": "MedlinePlus supports cuts and puncture wound aftercare, keeping wounds clean, and escalation for infection, bleeding, retained foreign body, or deeper structure concerns. This expansion is limited to a clinician-diagnosed superficial abrasion without deep injury, infection, bite, burn, diabetic foot, pregnancy/pediatric, or specialist-directed wound pathways.",
+    "clinical_status": "reviewed_for_limited_toe_abrasion_no_diabetic_foot_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of superficial toe abrasion",
+      "superficial abrasion only",
+      "no infection",
+      "no deep wound or debris concern"
+    ],
+    "review_date": "2026-07-07"
+  },
+  {
+    "id": "thigh_abrasion_no_deep_wound_or_infection",
+    "label": "Thigh abrasion without deep wound or infection",
+    "family": "wound_care",
+    "condition_terms": [
+      "thigh abrasion",
+      "thigh scrape",
+      "thigh skin abrasion"
+    ],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "summary": "You were treated for a thigh abrasion.",
+    "found": "Your clinician diagnosed a superficial thigh abrasion. We did not find a deep wound, tendon injury, debris concern, or infection today.",
+    "home": [
+      "Keep the area clean and dry today.",
+      "Wash gently with soap and water when your clinician says it is okay.",
+      "Do not scrub, pick, or dig at the wound."
+    ],
+    "meds": [
+      "Use antibiotic ointment, dressings, or pain medicine only if prescribed or recommended.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Fever, pus, spreading redness, red streaks, worsening warmth, or swelling.",
+      "Bleeding that will not stop with firm pressure.",
+      "New numbness, weakness, color change, worsening pain, or concern that something is stuck in the wound."
+    ],
+    "follow": "Follow up with primary care, urgent care, or the ED if the wound is not improving, if you were told to recheck, or if tetanus questions remain.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of superficial thigh abrasion.",
+      "No deep wound, repair-needed laceration, tendon/nerve/vessel injury, retained foreign body, infection, bite, burn, diabetic foot, or specialist wound plan."
+    ],
+    "exclusion": [
+      "Deep wound, repair-needed laceration, bite wound, dirty wound, crush injury, burn or chemical wound, retained foreign body, tendon/nerve/vessel injury, wound infection, diabetic foot risk, pregnancy/pediatric pathway, or specialist-directed wound plan."
+    ],
+    "must_not_miss": [
+      "Infected wound.",
+      "Retained foreign body.",
+      "Tendon, nerve, or vascular injury.",
+      "Open fracture or joint violation."
+    ],
+    "unsafe_modifiers": [
+      "bite_wound",
+      "burn_or_chemical_wound",
+      "delayed_wound_presentation",
+      "dirty_wound",
+      "fever",
+      "high_pressure_injection_injury",
+      "immunocompromised",
+      "laceration_repair_needed",
+      "open_wound",
+      "pediatric_pathway",
+      "pregnancy",
+      "retained_foreign_body",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "specialist_directed_wound_plan",
+      "wound_infection_concern"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_thigh_abrasion_no_deep_wound_or_infection",
+        "terms": [
+          "clinician diagnosis thigh abrasion",
+          "discharge diagnosis thigh abrasion",
+          "thigh abrasion diagnosed"
+        ]
+      },
+      {
+        "id": "no_deep_wound_or_infection_thigh_abrasion_no_deep_wound_or_infection",
+        "terms": [
+          "superficial abrasion only",
+          "no infection",
+          "no deep wound",
+          "no debris concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis thigh abrasion",
+      "thigh abrasion diagnosed",
+      "thigh abrasion"
+    ],
+    "source_audit_notes": "MedlinePlus supports cuts and puncture wound aftercare, keeping wounds clean, and escalation for infection, bleeding, retained foreign body, or deeper structure concerns. This expansion is limited to a clinician-diagnosed superficial abrasion without deep injury, infection, bite, burn, diabetic foot, pregnancy/pediatric, or specialist-directed wound pathways.",
+    "clinical_status": "reviewed_for_limited_thigh_abrasion_no_deep_wound_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of superficial thigh abrasion",
+      "superficial abrasion only",
+      "no infection",
+      "no deep wound or debris concern"
+    ],
+    "review_date": "2026-07-07"
+  },
+  {
+    "id": "upper_arm_abrasion_no_deep_wound_or_infection",
+    "label": "Upper-arm abrasion without deep wound or infection",
+    "family": "wound_care",
+    "condition_terms": [
+      "upper arm abrasion",
+      "upper arm scrape",
+      "upper arm skin abrasion"
+    ],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "summary": "You were treated for a upper arm abrasion.",
+    "found": "Your clinician diagnosed a superficial upper arm abrasion. We did not find a deep wound, tendon injury, debris concern, or infection today.",
+    "home": [
+      "Keep the area clean and dry today.",
+      "Wash gently with soap and water when your clinician says it is okay.",
+      "Do not scrub, pick, or dig at the wound."
+    ],
+    "meds": [
+      "Use antibiotic ointment, dressings, or pain medicine only if prescribed or recommended.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Fever, pus, spreading redness, red streaks, worsening warmth, or swelling.",
+      "Bleeding that will not stop with firm pressure.",
+      "New numbness, weakness, color change, worsening pain, or concern that something is stuck in the wound."
+    ],
+    "follow": "Follow up with primary care, urgent care, or the ED if the wound is not improving, if you were told to recheck, or if tetanus questions remain.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of superficial upper arm abrasion.",
+      "No deep wound, repair-needed laceration, tendon/nerve/vessel injury, retained foreign body, infection, bite, burn, diabetic foot, or specialist wound plan."
+    ],
+    "exclusion": [
+      "Deep wound, repair-needed laceration, bite wound, dirty wound, crush injury, burn or chemical wound, retained foreign body, tendon/nerve/vessel injury, wound infection, diabetic foot risk, pregnancy/pediatric pathway, or specialist-directed wound plan."
+    ],
+    "must_not_miss": [
+      "Infected wound.",
+      "Retained foreign body.",
+      "Tendon, nerve, or vascular injury.",
+      "Open fracture or joint violation."
+    ],
+    "unsafe_modifiers": [
+      "bite_wound",
+      "burn_or_chemical_wound",
+      "delayed_wound_presentation",
+      "dirty_wound",
+      "fever",
+      "high_pressure_injection_injury",
+      "immunocompromised",
+      "laceration_repair_needed",
+      "open_wound",
+      "pediatric_pathway",
+      "pregnancy",
+      "retained_foreign_body",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "specialist_directed_wound_plan",
+      "wound_infection_concern"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_upper_arm_abrasion_no_deep_wound_or_infection",
+        "terms": [
+          "clinician diagnosis upper arm abrasion",
+          "discharge diagnosis upper arm abrasion",
+          "upper arm abrasion diagnosed"
+        ]
+      },
+      {
+        "id": "no_deep_wound_or_infection_upper_arm_abrasion_no_deep_wound_or_infection",
+        "terms": [
+          "superficial abrasion only",
+          "no infection",
+          "no deep wound",
+          "no debris concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis upper arm abrasion",
+      "upper arm abrasion diagnosed",
+      "upper arm abrasion"
+    ],
+    "source_audit_notes": "MedlinePlus supports cuts and puncture wound aftercare, keeping wounds clean, and escalation for infection, bleeding, retained foreign body, or deeper structure concerns. This expansion is limited to a clinician-diagnosed superficial abrasion without deep injury, infection, bite, burn, diabetic foot, pregnancy/pediatric, or specialist-directed wound pathways.",
+    "clinical_status": "reviewed_for_limited_upper_arm_abrasion_no_deep_wound_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of superficial upper arm abrasion",
+      "superficial abrasion only",
+      "no infection",
+      "no deep wound or debris concern"
+    ],
+    "review_date": "2026-07-07"
+  },
+  {
+    "id": "minor_inner_cheek_bite_no_deep_laceration_or_infection",
+    "label": "Minor inner-cheek bite without deep laceration or infection",
+    "family": "dental_oral",
+    "condition_terms": [
+      "minor inner cheek bite",
+      "inner cheek bite",
+      "cheek bite"
+    ],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "summary": "Your symptoms fit minor inner cheek bite.",
+    "found": "Your clinician diagnosed minor inner cheek bite. We did not find infection, deep injury, or another emergency skin or mouth problem today.",
+    "home": [
+      "Keep the area clean and dry.",
+      "Avoid the friction, product, or trigger that seems to be irritating the area.",
+      "Use gentle skin or mouth care only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, rinses, itch medicine, or pain medicine only if prescribed or recommended.",
+      "Do not use leftover antibiotics or steroid medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening pain, or swelling.",
+      "Mouth sores that spread, trouble swallowing, trouble opening your mouth, or face or neck swelling.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dentistry, dermatology, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of minor inner cheek bite.",
+      "No infection, abscess, deep wound, mucosal emergency, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Cellulitis, abscess, deep wound, severe or spreading rash, systemic illness, mucosal emergency, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Cellulitis or abscess.",
+      "Deep-space oral infection when mouth symptoms are present.",
+      "Severe cutaneous adverse reaction.",
+      "Retained foreign body or deep wound."
+    ],
+    "unsafe_modifiers": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "deep_space_swelling",
+      "peritonsillar_abscess_concern",
+      "systemic_or_recurrent_oral_ulcer_features",
+      "trismus"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_minor_inner_cheek_bite_no_deep_laceration_or_infection",
+        "terms": [
+          "clinician diagnosis minor inner cheek bite",
+          "discharge diagnosis minor inner cheek bite",
+          "minor inner cheek bite diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_deep_injury_minor_inner_cheek_bite_no_deep_laceration_or_infection",
+        "terms": [
+          "no infection",
+          "no abscess",
+          "localized irritation only",
+          "no deep wound"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis minor inner cheek bite",
+      "minor inner cheek bite diagnosed",
+      "minor inner cheek bite"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways.",
+    "clinical_status": "reviewed_for_limited_minor_inner_cheek_bite_no_deep_laceration_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of minor inner cheek bite",
+      "localized irritation only",
+      "no infection or abscess",
+      "no deep injury or specialist-directed plan"
+    ],
+    "review_date": "2026-07-07"
+  },
+  {
+    "id": "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection",
+    "label": "Minor braces-wire mouth irritation without deep laceration or infection",
+    "family": "dental_oral",
+    "condition_terms": [
+      "minor braces wire mouth irritation",
+      "braces wire irritation",
+      "braces mouth irritation"
+    ],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "summary": "Your symptoms fit minor braces wire mouth irritation.",
+    "found": "Your clinician diagnosed minor braces wire mouth irritation. We did not find infection, deep injury, or another emergency skin or mouth problem today.",
+    "home": [
+      "Keep the area clean and dry.",
+      "Avoid the friction, product, or trigger that seems to be irritating the area.",
+      "Use gentle skin or mouth care only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, rinses, itch medicine, or pain medicine only if prescribed or recommended.",
+      "Do not use leftover antibiotics or steroid medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening pain, or swelling.",
+      "Mouth sores that spread, trouble swallowing, trouble opening your mouth, or face or neck swelling.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dentistry, dermatology, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of minor braces wire mouth irritation.",
+      "No infection, abscess, deep wound, mucosal emergency, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Cellulitis, abscess, deep wound, severe or spreading rash, systemic illness, mucosal emergency, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Cellulitis or abscess.",
+      "Deep-space oral infection when mouth symptoms are present.",
+      "Severe cutaneous adverse reaction.",
+      "Retained foreign body or deep wound."
+    ],
+    "unsafe_modifiers": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "deep_space_swelling",
+      "peritonsillar_abscess_concern",
+      "systemic_or_recurrent_oral_ulcer_features",
+      "trismus"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection",
+        "terms": [
+          "clinician diagnosis minor braces wire mouth irritation",
+          "discharge diagnosis minor braces wire mouth irritation",
+          "minor braces wire mouth irritation diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_deep_injury_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection",
+        "terms": [
+          "no infection",
+          "no abscess",
+          "localized irritation only",
+          "no deep wound"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis minor braces wire mouth irritation",
+      "minor braces wire mouth irritation diagnosed",
+      "minor braces wire mouth irritation"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways.",
+    "clinical_status": "reviewed_for_limited_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of minor braces wire mouth irritation",
+      "localized irritation only",
+      "no infection or abscess",
+      "no deep injury or specialist-directed plan"
+    ],
+    "review_date": "2026-07-07"
+  }
+]

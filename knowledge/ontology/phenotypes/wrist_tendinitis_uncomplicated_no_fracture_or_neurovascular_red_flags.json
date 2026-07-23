@@ -1,0 +1,145 @@
+{
+  "id": "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags",
+  "label": "Uncomplicated wrist tendinitis without fracture or neurovascular red flags",
+  "status": "reviewed",
+  "condition_family": "msk",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated wrist tendinitis/overuse strain.",
+    "No fracture/dislocation concern, tendon rupture, flexor tenosynovitis concern, open wound, infection, neurovascular compromise, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Fracture/dislocation concern, FOOSH/scaphoid risk, tendon rupture, flexor tenosynovitis concern, open wound, infection, neurovascular compromise, severe pain, inability to use the hand, high-energy trauma, or crush injury.",
+    "Pregnancy/pediatric pathway or specialist-directed hand/orthopedic plan."
+  ],
+  "must_not_miss": [
+    "Scaphoid fracture.",
+    "Fracture or dislocation.",
+    "Flexor tenosynovitis.",
+    "Tendon rupture.",
+    "Neurovascular compromise."
+  ],
+  "default_follow_up": "Follow up with primary care, sports medicine, physical therapy, orthopedics, or hand surgery if pain, motion, or function is not improving.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags.diagnosis.diagnosis_summary.v1",
+    "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags.home_care.home_care_1.v1",
+    "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags.home_care.home_care_2.v1",
+    "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags.home_care.home_care_3.v1",
+    "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags.medications.medication_guidance_1.v1",
+    "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags.medications.medication_guidance_2.v1",
+    "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags.return_precautions.return_precaution_1.v1",
+    "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags.return_precautions.return_precaution_2.v1",
+    "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags.return_precautions.return_precaution_3.v1",
+    "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.tendinitis",
+    "medlineplus.sprains_strains"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports tendinitis and sprain/strain framing, rest/activity modification, clinician-directed symptom care, and escalation for worsening pain, swelling, numbness, color change, fever, inability to move, or inability to walk. Autonomous Phase 2001-2100 approved this narrow v1 only for clinician-diagnosed uncomplicated wrist tendinitis/overuse strain without fracture/dislocation concern, tendon rupture, infection, neurovascular compromise, high-risk mechanism, pregnancy/pediatric pathway, or specialist-directed plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "wrist tendinitis",
+      "wrist tendonitis",
+      "wrist overuse tendinitis",
+      "uncomplicated wrist tendinitis",
+      "wrist overuse pain"
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "foosh_scaphoid_risk",
+      "tendon_or_ligament_rupture_concern",
+      "flexor_tenosynovitis_concern",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_use_limb",
+      "high_energy_trauma",
+      "crush_injury",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_wrist_tendinitis",
+        "terms": [
+          "clinician diagnosis wrist tendinitis",
+          "discharge diagnosis wrist tendinitis",
+          "wrist tendinitis diagnosed",
+          "wrist tendonitis diagnosed",
+          "wrist overuse tendinitis diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_rupture_or_neurovascular_red_flags",
+        "terms": [
+          "no fracture concern",
+          "no tendon rupture",
+          "neurovascularly intact",
+          "no infection",
+          "no scaphoid concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis wrist tendinitis",
+      "wrist tendinitis diagnosed",
+      "wrist tendonitis diagnosed",
+      "wrist tendinitis",
+      "wrist tendonitis",
+      "wrist overuse tendinitis",
+      "wrist overuse pain"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-19",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports tendinitis and sprain/strain framing, rest/activity modification, clinician-directed symptom care, and escalation for worsening pain, swelling, numbness, color change, fever, inability to move, or inability to walk. Autonomous Phase 2001-2100 approved this narrow v1 only for clinician-diagnosed uncomplicated wrist tendinitis/overuse strain without fracture/dislocation concern, tendon rupture, infection, neurovascular compromise, high-risk mechanism, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_wrist_tendinitis_without_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated wrist tendinitis/overuse strain",
+      "no fracture/dislocation, rupture, infection, neurovascular compromise, high-risk mechanism, or specialist-directed plan documented"
+    ],
+    "blocked_modifiers": [
+      "fracture_or_dislocation_concern",
+      "foosh_scaphoid_risk",
+      "tendon_or_ligament_rupture_concern",
+      "flexor_tenosynovitis_concern",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_use_limb",
+      "high_energy_trauma",
+      "crush_injury",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+}

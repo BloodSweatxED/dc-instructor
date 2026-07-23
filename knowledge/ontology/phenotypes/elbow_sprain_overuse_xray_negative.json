@@ -1,0 +1,225 @@
+{
+  "id": "elbow_sprain_overuse_xray_negative",
+  "label": "Elbow overuse strain or epicondylitis with negative x-ray",
+  "status": "reviewed",
+  "condition_family": "musculoskeletal_injury",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of lateral epicondylitis, medial epicondylitis, elbow overuse strain, or subacute/chronic elbow overuse injury.",
+    "X-ray was performed and documented negative for fracture.",
+    "Neurovascular exam documented intact, including hand motor function.",
+    "Clinician affirmatively documented no acute traumatic mechanism and no elbow instability concern."
+  ],
+  "exclusion_criteria": [
+    "Acute traumatic mechanism, elbow dislocation, fracture, open wound, high-energy trauma, crush injury, or specialist-directed orthopedic plan.",
+    "UCL/LCL injury or elbow instability concern; distal biceps or triceps tendon concern; inability to flex, extend, supinate, pronate, grip, or perform hand motor exam normally.",
+    "Ulnar nerve pattern, hand numbness or weakness, septic joint or infection concern, compartment syndrome concern, olecranon bursitis, or large posterior elbow swelling.",
+    "Pediatric growth plate pathway or elderly/osteoporotic high-risk elbow injury."
+  ],
+  "must_not_miss": [
+    "Occult fracture.",
+    "Elbow dislocation or instability.",
+    "UCL or LCL injury.",
+    "Distal biceps tendon rupture.",
+    "Triceps tendon rupture.",
+    "Ulnar nerve compression or injury.",
+    "Olecranon bursitis, including septic bursitis.",
+    "Septic joint.",
+    "Compartment syndrome."
+  ],
+  "default_follow_up": "Follow up with primary care, occupational medicine, sports medicine, or orthopedics in 1 to 2 weeks, especially if pain is limiting work, sports, or daily activity. Follow-up can help build a rehab and return-to-activity plan. Go sooner if pain is worsening, hand symptoms develop, or your clinician gave a specific plan.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "elbow_sprain_overuse_xray_negative.diagnosis.diagnosis_summary.v1",
+    "elbow_sprain_overuse_xray_negative.what_we_found.reassuring_ed_assessment.v1",
+    "elbow_sprain_overuse_xray_negative.home_care.home_care_1.v1",
+    "elbow_sprain_overuse_xray_negative.home_care.home_care_2.v1",
+    "elbow_sprain_overuse_xray_negative.home_care.home_care_3.v1",
+    "elbow_sprain_overuse_xray_negative.home_care.home_care_4.v1",
+    "elbow_sprain_overuse_xray_negative.home_care.home_care_5.v1",
+    "elbow_sprain_overuse_xray_negative.medications.medication_guidance_1.v1",
+    "elbow_sprain_overuse_xray_negative.medications.medication_guidance_2.v1",
+    "elbow_sprain_overuse_xray_negative.return_precautions.return_precaution_1.v1",
+    "elbow_sprain_overuse_xray_negative.return_precautions.return_precaution_2.v1",
+    "elbow_sprain_overuse_xray_negative.return_precautions.return_precaution_3.v1",
+    "elbow_sprain_overuse_xray_negative.return_precautions.return_precaution_4.v1",
+    "elbow_sprain_overuse_xray_negative.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "aaos.tennis_elbow_lateral_epicondylitis",
+    "aaos.medial_epicondylitis_golfers_elbow",
+    "aaos.distal_biceps_tendon_tear",
+    "aaos.olecranon_bursitis"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "AAOS supports lateral and medial epicondylitis as overuse elbow tendon conditions, x-ray use to rule out fracture or arthritis, nonsurgical care with activity reduction and therapy, and weeks-to-months recovery expectations for persistent cases. AAOS distal biceps and olecranon bursitis sources support blocking tendon rupture and bursitis pathways. Clinician-owner review on 2026-06-04 approved promotion after targeted patient-facing revisions."
+  },
+  "runtime": {
+    "condition_terms": [
+      "elbow sprain overuse xray negative",
+      "elbow strain overuse xray negative",
+      "elbow overuse strain xray negative",
+      "lateral epicondylitis xray negative",
+      "medial epicondylitis xray negative",
+      "tennis elbow xray negative",
+      "golfer elbow xray negative",
+      "golfers elbow xray negative"
+    ],
+    "unsafe_modifiers": [
+      "acute_traumatic_elbow_mechanism",
+      "fracture_seen",
+      "dislocation",
+      "open_wound",
+      "open_fracture",
+      "high_energy_trauma",
+      "crush_injury",
+      "elbow_instability_or_ucl_lcl_concern",
+      "distal_biceps_or_triceps_concern",
+      "ulnar_nerve_pattern",
+      "olecranon_bursitis_pathway",
+      "neurovascular_compromise",
+      "hand_motor_deficit",
+      "compartment_syndrome_concern",
+      "septic_joint_or_infection_concern",
+      "pediatric_growth_plate_pathway",
+      "elderly_osteoporotic_high_risk_msk",
+      "specialist_directed_orthopedic_plan",
+      "no_xray_performed"
+    ],
+    "output_modifiers": [
+      {
+        "id": "anticoagulated",
+        "label": "Anticoagulation medication-safety modifier",
+        "note": "Flag anticoagulation for clinician-entered medication and bleeding-risk review without changing the elbow overuse text."
+      },
+      {
+        "id": "immunocompromised",
+        "label": "Immunocompromised follow-up modifier",
+        "note": "Flag immunocompromise for clinician-entered follow-up and return-instruction review without changing the elbow overuse text."
+      }
+    ],
+    "required_context": [
+      {
+        "id": "adult_elbow_overuse_diagnosis",
+        "terms": [
+          "adult with lateral epicondylitis",
+          "adult with medial epicondylitis",
+          "adult with elbow overuse strain",
+          "adult elbow overuse injury",
+          "lateral epicondylitis",
+          "medial epicondylitis",
+          "elbow overuse strain",
+          "subacute elbow overuse injury",
+          "chronic elbow overuse injury"
+        ]
+      },
+      {
+        "id": "xray_performed_and_negative",
+        "terms": [
+          "xray performed and negative",
+          "x ray performed and negative",
+          "x-ray performed and negative",
+          "xray negative for fracture",
+          "x-ray negative for fracture",
+          "xray shows no acute fracture",
+          "x-ray shows no acute fracture",
+          "no fracture seen on xray",
+          "no fracture seen on x-ray"
+        ]
+      },
+      {
+        "id": "intact_neurovascular_and_hand_motor_exam",
+        "terms": [
+          "neurovascular exam intact including hand motor",
+          "neurovascular intact including hand motor",
+          "hand motor intact",
+          "intact hand motor exam",
+          "motor in the hand is normal",
+          "motor sensory vascular intact in hand"
+        ]
+      },
+      {
+        "id": "no_acute_traumatic_mechanism_attested",
+        "terms": [
+          "no acute traumatic mechanism",
+          "no acute trauma",
+          "no traumatic injury",
+          "atraumatic overuse onset"
+        ]
+      },
+      {
+        "id": "no_elbow_instability_concern_attested",
+        "terms": [
+          "no instability concern",
+          "no elbow instability concern",
+          "no ucl concern",
+          "no lcl concern",
+          "stable elbow exam"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "elbow sprain overuse xray negative",
+      "elbow strain overuse xray negative",
+      "elbow overuse strain xray negative",
+      "lateral epicondylitis xray negative",
+      "medial epicondylitis xray negative",
+      "tennis elbow xray negative",
+      "golfer elbow xray negative",
+      "golfers elbow xray negative"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. AAOS supports lateral and medial epicondylitis as overuse elbow tendon conditions, x-ray use to rule out fracture or arthritis, nonsurgical care with activity reduction and therapy, and weeks-to-months recovery expectations for persistent cases. AAOS distal biceps and olecranon bursitis sources support blocking tendon rupture and bursitis pathways. Clinician-owner review on 2026-06-04 approved promotion after targeted patient-facing revisions.",
+    "clinical_status": "reviewed_for_limited_adult_elbow_overuse_or_epicondylitis_with_negative_xray_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of elbow overuse strain, lateral epicondylitis, medial epicondylitis, tennis elbow, or golfer elbow",
+      "x-ray performed and negative",
+      "intact neurovascular and hand motor exam",
+      "no acute traumatic mechanism",
+      "no elbow instability concern"
+    ],
+    "blocked_modifiers": [
+      "acute_traumatic_elbow_mechanism",
+      "fracture_seen",
+      "dislocation",
+      "open_wound",
+      "open_fracture",
+      "high_energy_trauma",
+      "crush_injury",
+      "elbow_instability_or_ucl_lcl_concern",
+      "distal_biceps_or_triceps_concern",
+      "ulnar_nerve_pattern",
+      "olecranon_bursitis_pathway",
+      "neurovascular_compromise",
+      "hand_motor_deficit",
+      "compartment_syndrome_concern",
+      "septic_joint_or_infection_concern",
+      "pediatric_growth_plate_pathway",
+      "elderly_osteoporotic_high_risk_msk",
+      "specialist_directed_orthopedic_plan",
+      "no_xray_performed"
+    ]
+  }
+}

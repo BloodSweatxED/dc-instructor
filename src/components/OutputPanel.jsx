@@ -1,8 +1,16 @@
 import { useState } from 'react';
 
-export default function OutputPanel({ instructions, setInstructions, image, imageBusy, streaming }) {
+export default function OutputPanel({ instructions, setInstructions, image, imageBusy, streaming, generationMeta }) {
   const [tab, setTab] = useState('preview');
   const [copied, setCopied] = useState(false);
+  const modeLabel = generationMeta?.ontology_mode === 'ontology'
+    ? 'reviewed ontology'
+    : generationMeta?.fallback_reason === 'phenotype_not_clinician_reviewed'
+      ? 'draft ontology blocked'
+      : 'generator fallback';
+  const medicationLabel = generationMeta?.medication_provenance?.label;
+  const sourceCount = generationMeta?.source_cards_used?.length || 0;
+  const outputModifiers = generationMeta?.output_modifiers || [];
 
   const onCopy = async () => {
     try {
@@ -57,8 +65,25 @@ export default function OutputPanel({ instructions, setInstructions, image, imag
       {tab === 'preview' && (
         <>
           {instructions && (
-            <div className="mb-2 px-2 py-1.5 rounded-md border border-warn/30 bg-warn/10 text-warn text-[11px] font-mono">
-              ⚠ Review before giving to patient — verify medications, doses, and follow-up instructions.
+            <div className="mb-2 space-y-1.5">
+              <div className="px-2 py-1.5 rounded-md border border-warn/30 bg-warn/10 text-warn text-[11px] font-mono">
+                Review before giving to patient. Verify medications, doses, and follow-up instructions.
+              </div>
+              {generationMeta?.ontology_mode && (
+                <div className="px-2 py-1.5 rounded-md border border-cool/10 bg-bg/50 text-cool/60 text-[11px] font-mono">
+                  Mode: {modeLabel}
+                  {generationMeta.phenotype_id ? ` | phenotype: ${generationMeta.phenotype_id}` : ''}
+                  {generationMeta.fallback_reason ? ` | reason: ${generationMeta.fallback_reason}` : ''}
+                  {medicationLabel ? ` | meds: ${medicationLabel}` : ''}
+                  {outputModifiers.length ? ` | modifiers: ${outputModifiers.map((item) => item.label || item.id).join(', ')}` : ''}
+                  {sourceCount ? ` | sources: ${sourceCount}` : ''}
+                </div>
+              )}
+              {outputModifiers.length > 0 && (
+                <div className="px-2 py-1.5 rounded-md border border-warn/30 bg-warn/10 text-warn text-[11px] font-mono">
+                  Modifier review: {outputModifiers.map((item) => item.note || item.label || item.id).join(' ')}
+                </div>
+              )}
             </div>
           )}
           <textarea

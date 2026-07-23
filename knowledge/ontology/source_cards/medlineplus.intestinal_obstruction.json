@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.intestinal_obstruction",
+  "source": "MedlinePlus",
+  "title": "Intestinal Obstruction",
+  "url": "https://medlineplus.gov/intestinalobstruction.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "Intestinal obstruction occurs when food or stool cannot move through the intestines.",
+    "Obstruction symptoms can include severe abdominal pain or cramping, vomiting, bloating, abdominal swelling, inability to pass gas, and constipation.",
+    "Complete intestinal obstruction is a medical emergency and may require surgery."
+  ],
+  "use_policy": "evidence_support"
+}

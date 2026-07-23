@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.folliculitis",
+  "source": "MedlinePlus",
+  "title": "Folliculitis",
+  "url": "https://medlineplus.gov/ency/article/000823.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Folliculitis is inflammation or infection of one or more hair follicles.",
+    "Common symptoms include rash, itching, and pimples or pustules near hair follicles.",
+    "Folliculitis can occur after follicle damage or blockage, including from rubbing or shaving.",
+    "Patients should seek care for spreading infection, recurrent disease, or higher-risk presentations."
+  ],
+  "use_policy": "evidence_support"
+}

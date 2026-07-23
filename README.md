@@ -14,12 +14,36 @@ Built by [@BloodSweatxED](https://x.com/BloodSweatxED) — EM physician, clinici
 ## Setup
 
 ```bash
-git clone <repo> dc-instructor
+git clone https://github.com/BloodSweatxED/dc-instructor.git dc-instructor
 cd dc-instructor
 npm install
 cp .env.example .env
 # fill in env values
 npx netlify dev   # runs Vite + Functions together
+```
+
+## Ops dashboard
+
+The repo includes a generated continuity dashboard for long-running DC Instructor work:
+
+```bash
+npm run ops:dashboard
+```
+
+This updates:
+
+- `ops/state.json`
+- `ops/dashboard.md`
+- `ops/progress_map.json`
+- `ops/progress_map.html`
+- `ops/index.html`
+
+Use `ops/dashboard.md` as the next-agent startup board, then verify the latest Obsidian handoff and live repo state before editing.
+
+When GitHub Pages is enabled for the dashboard branch, the browser-clickable map lives at:
+
+```text
+https://bloodsweatxed.github.io/dc-instructor/ops/progress_map.html
 ```
 
 ### Supabase

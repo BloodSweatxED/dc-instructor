@@ -1,0 +1,128 @@
+{
+  "id": "trunk_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+  "label": "Trunk contusion without fracture or cardiopulmonary red flags",
+  "status": "reviewed",
+  "condition_family": "musculoskeletal",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated trunk contusion.",
+    "No fracture concern, cardiopulmonary red flags, abdominal red flags, infection, or high-energy trauma."
+  ],
+  "exclusion_criteria": [
+    "Fracture or dislocation concern, chest pain, shortness of breath, abdominal pain red flags, high-energy trauma, unstable vital signs, or specialist-directed trauma plan."
+  ],
+  "must_not_miss": [
+    "Rib or spine fracture.",
+    "Pneumothorax.",
+    "Pulmonary embolism or acute coronary syndrome when chest symptoms are present.",
+    "Intra-abdominal injury."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "trunk_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.diagnosis.diagnosis_summary.v1",
+    "trunk_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "trunk_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.home_care.home_care_1.v1",
+    "trunk_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.home_care.home_care_2.v1",
+    "trunk_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.home_care.home_care_3.v1",
+    "trunk_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.medications.medication_guidance_1.v1",
+    "trunk_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.medications.medication_guidance_2.v1",
+    "trunk_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.return_precautions.return_precaution_1.v1",
+    "trunk_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.return_precautions.return_precaution_2.v1",
+    "trunk_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.return_precautions.return_precaution_3.v1",
+    "trunk_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.bruise"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus bruise material supports contusion self-care and escalation for worsening pain, swelling, or concerning symptoms. This expansion is limited to clinician-diagnosed trunk contusion with fracture, cardiopulmonary, abdominal, and high-energy trauma red flags absent."
+  },
+  "runtime": {
+    "condition_terms": [
+      "trunk contusion no fracture",
+      "torso bruise no fracture",
+      "trunk contusion"
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "chest_pain",
+      "cardiac_or_pe_chest_pain_concern",
+      "respiratory_distress",
+      "hypoxia",
+      "peritoneal_signs",
+      "severe_or_focal_abdominal_pain",
+      "high_energy_trauma",
+      "unstable_vital_signs",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_trunk_contusion",
+        "terms": [
+          "clinician diagnosis trunk contusion",
+          "discharge diagnosis trunk contusion",
+          "trunk contusion diagnosed",
+          "torso bruise diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_cardiopulmonary_red_flags_trunk",
+        "terms": [
+          "no fracture concern",
+          "no chest pain",
+          "no shortness of breath",
+          "no abdominal red flags"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "trunk contusion no fracture",
+      "torso bruise no fracture",
+      "clinician diagnosis trunk contusion"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-21",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus bruise material supports contusion self-care and escalation for worsening pain, swelling, or concerning symptoms. This expansion is limited to clinician-diagnosed trunk contusion with fracture, cardiopulmonary, abdominal, and high-energy trauma red flags absent.",
+    "clinical_status": "reviewed_for_limited_trunk_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of trunk contusion",
+      "no fracture concern",
+      "no chest pain or shortness of breath",
+      "no abdominal red flags"
+    ],
+    "blocked_modifiers": [
+      "fracture_or_dislocation_concern",
+      "chest_pain",
+      "cardiac_or_pe_chest_pain_concern",
+      "respiratory_distress",
+      "hypoxia",
+      "peritoneal_signs",
+      "severe_or_focal_abdominal_pain",
+      "high_energy_trauma",
+      "unstable_vital_signs",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+}

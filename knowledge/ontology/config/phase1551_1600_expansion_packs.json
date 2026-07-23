@@ -1,0 +1,478 @@
+[
+  {
+    "id": "simple_paronychia_no_abscess_or_felon",
+    "label": "Simple paronychia without abscess or felon",
+    "family": "skin_soft_tissue_infection",
+    "condition_terms": [
+      "simple paronychia",
+      "paronychia no abscess",
+      "paronychia",
+      "nail fold infection"
+    ],
+    "source_card_ids": [
+      "medlineplus.paronychia"
+    ],
+    "summary": "Your symptoms fit a mild nail-fold infection called paronychia.",
+    "found": "Your exam was reassuring enough for home care today. We did not find an abscess, a deep fingertip infection, or spreading cellulitis.",
+    "home": [
+      "Soak the finger or toe in warm water if your clinician said this is safe for you.",
+      "Keep the area clean and dry between soaks.",
+      "Do not bite, cut, or dig at the nail fold."
+    ],
+    "meds": [
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label.",
+      "Take antibiotics only if they were prescribed."
+    ],
+    "return": [
+      "Pus, worsening swelling, spreading redness, fever, or red streaks.",
+      "Severe fingertip pain, a tense swollen finger pad, numbness, or trouble moving the finger.",
+      "Symptoms worsen despite the plan you were given."
+    ],
+    "follow": "Follow up with primary care, urgent care, or the ED if symptoms are not improving in 1 to 2 days, or sooner if they worsen.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of simple paronychia or nail-fold infection.",
+      "No drainable abscess, felon, flexor tenosynovitis concern, spreading cellulitis, diabetes foot pathway, or immunocompromised-host pathway."
+    ],
+    "exclusion": [
+      "Abscess, pus pocket, felon, flexor tenosynovitis, deep-space hand infection, or procedure-level drainage plan.",
+      "Spreading cellulitis, systemic illness, diabetes foot risk, peripheral vascular disease, neuropathy, or immunocompromised host.",
+      "Bite wound, crush injury, open fracture, or specialist-directed hand plan."
+    ],
+    "must_not_miss": [
+      "Felon.",
+      "Flexor tenosynovitis.",
+      "Cellulitis.",
+      "Deep-space hand infection."
+    ],
+    "unsafe_modifiers": [
+      "abscess_concern",
+      "felon_or_tenosynovitis_concern",
+      "deep_space_location",
+      "secondary_skin_infection_concern",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "immunocompromised",
+      "systemic_illness",
+      "bite_wound",
+      "crush_injury",
+      "open_fracture",
+      "specialist_directed_wound_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_simple_paronychia",
+        "terms": [
+          "clinician diagnosis simple paronychia",
+          "discharge diagnosis paronychia",
+          "paronychia diagnosed",
+          "nail fold infection diagnosed"
+        ]
+      },
+      {
+        "id": "no_abscess_or_felon_documented",
+        "terms": [
+          "no abscess",
+          "no pus pocket",
+          "no felon",
+          "no drainable collection",
+          "no deep fingertip infection"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "paronychia diagnosed",
+      "clinician diagnosis simple paronychia",
+      "nail fold infection diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus supports paronychia framing, nail-fold infection symptoms, pus or abscess possibility, diabetes risk, and clinician escalation for worsening infection. Autonomous Phase 1551-1600 approved this narrow v1 only for clinician-diagnosed simple paronychia without abscess, felon, flexor tenosynovitis, spreading cellulitis, systemic illness, high-risk host factors, bite, crush, open fracture, or specialist hand plan.",
+    "clinical_status": "reviewed_for_limited_simple_paronychia_without_abscess_or_felon_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of simple paronychia or nail-fold infection",
+      "no abscess, pus pocket, felon, or drainable collection documented",
+      "no spreading cellulitis, systemic illness, high-risk host, bite, crush, open fracture, or specialist-directed pathway"
+    ],
+    "review_date": "2026-06-17"
+  },
+  {
+    "id": "scabies_uncomplicated_no_crusted_or_secondary_infection",
+    "label": "Uncomplicated scabies without crusted disease or secondary infection",
+    "family": "dermatology",
+    "condition_terms": [
+      "uncomplicated scabies",
+      "scabies no crusted disease",
+      "scabies",
+      "scabies diagnosed"
+    ],
+    "source_card_ids": [
+      "cdc.scabies",
+      "cdc.scabies_treatment"
+    ],
+    "summary": "Your symptoms fit scabies, a contagious skin mite infestation.",
+    "found": "Your clinician diagnosed scabies today. We did not find signs of crusted scabies, a deeper skin infection, or another emergency rash problem.",
+    "home": [
+      "Avoid close skin-to-skin contact until you have followed the treatment plan.",
+      "Wash clothing, towels, and bedding as your clinician instructed.",
+      "Tell close contacts to follow the plan your clinician gave you."
+    ],
+    "meds": [
+      "Use the scabies medicine exactly as prescribed.",
+      "Do not use extra doses or over-the-counter products unless your clinician told you to."
+    ],
+    "return": [
+      "Fever, spreading redness, pus, red streaks, or severe pain.",
+      "Thick crusting rash, widespread worsening rash, or symptoms in an immunocompromised person.",
+      "You cannot complete the treatment plan or close contacts keep getting symptoms."
+    ],
+    "follow": "Follow up with primary care, urgent care, or dermatology if symptoms are not improving after treatment or if household spread continues.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated scabies.",
+      "No crusted scabies, institutional outbreak plan, secondary infection, systemic illness, or immunocompromised-host pathway."
+    ],
+    "exclusion": [
+      "Crusted scabies, institutional outbreak, public-health-directed plan, or immunocompromised host.",
+      "Secondary bacterial infection, cellulitis, abscess, systemic illness, or severe diffuse rash.",
+      "Medication selection or repeat-treatment schedule not supplied by clinician."
+    ],
+    "must_not_miss": [
+      "Crusted scabies.",
+      "Cellulitis.",
+      "Sepsis.",
+      "Severe cutaneous adverse reaction mimic."
+    ],
+    "unsafe_modifiers": [
+      "crusted_scabies_or_institutional_outbreak",
+      "secondary_skin_infection_concern",
+      "abscess_concern",
+      "severe_cutaneous_adverse_reaction",
+      "immunocompromised",
+      "systemic_illness",
+      "nursing_home_patient",
+      "poor_follow_up"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_scabies",
+        "terms": [
+          "clinician diagnosis scabies",
+          "discharge diagnosis scabies",
+          "scabies diagnosed",
+          "uncomplicated scabies diagnosed"
+        ]
+      },
+      {
+        "id": "no_crusted_or_secondary_infection_documented",
+        "terms": [
+          "no crusted scabies",
+          "no secondary infection",
+          "no cellulitis",
+          "no skin infection concern",
+          "no abscess"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "scabies diagnosed",
+      "clinician diagnosis scabies",
+      "uncomplicated scabies diagnosed"
+    ],
+    "source_audit_notes": "CDC supports scabies mite infestation framing, intense itching and pimple-like rash symptoms, spread by prolonged skin contact, prescribed scabicide treatment, contact and laundry measures, and special handling for institutional or crusted scabies. Autonomous Phase 1551-1600 approved this narrow v1 only for clinician-diagnosed uncomplicated scabies without crusted disease, outbreak plan, secondary infection, systemic illness, immunocompromised-host pathway, or medication schedule inference.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_scabies_without_crusted_or_secondary_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated scabies",
+      "no crusted scabies, institutional outbreak, or public-health-directed plan documented",
+      "no secondary infection, systemic illness, severe rash mimic, or immunocompromised-host pathway"
+    ],
+    "review_date": "2026-06-17"
+  },
+  {
+    "id": "localized_shingles_no_eye_or_neuro_complication",
+    "label": "Localized shingles without eye or neurologic complication",
+    "family": "dermatology",
+    "condition_terms": [
+      "localized shingles",
+      "shingles no eye involvement",
+      "herpes zoster localized",
+      "shingles",
+      "zoster"
+    ],
+    "source_card_ids": [
+      "medlineplus.shingles",
+      "medlineplus.shingles_aftercare"
+    ],
+    "summary": "Your symptoms fit shingles, also called herpes zoster.",
+    "found": "Your clinician diagnosed a localized shingles rash. We did not find eye involvement, neurologic symptoms, disseminated rash, or another emergency complication today.",
+    "home": [
+      "Keep the rash clean, dry, and covered when possible.",
+      "Avoid scratching or picking at blisters.",
+      "Avoid close contact with pregnant people, newborns, and immunocompromised people until the rash has crusted over."
+    ],
+    "meds": [
+      "Take antiviral, pain, or itch medicine only if prescribed and exactly as directed.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Rash on the face, near the eye, eye pain, vision change, severe headache, confusion, weakness, or trouble walking.",
+      "Fever, spreading redness, pus, or you feel very ill.",
+      "Pain is uncontrolled or the rash spreads widely."
+    ],
+    "follow": "Follow up with primary care or dermatology as instructed, especially if pain persists after the rash improves.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized shingles or herpes zoster.",
+      "No eye, face, ear, neurologic, disseminated, systemic, pregnancy, or immunocompromised-host complication documented."
+    ],
+    "exclusion": [
+      "Rash on the face, near the eye, ear involvement, vision symptoms, neurologic symptoms, meningitis or encephalitis concern.",
+      "Disseminated rash, severe systemic illness, pneumonia concern, pregnancy, immunocompromised host, or uncontrolled pain.",
+      "Specialist-directed ophthalmology, neurology, or infectious-disease plan."
+    ],
+    "must_not_miss": [
+      "Herpes zoster ophthalmicus.",
+      "Ramsay Hunt syndrome.",
+      "Meningitis or encephalitis.",
+      "Disseminated zoster."
+    ],
+    "unsafe_modifiers": [
+      "zoster_eye_face_or_neuro_concern",
+      "herpes_or_zoster_eye_concern",
+      "ocular_symptoms",
+      "vision_change",
+      "meningitis_or_cns_infection_concern",
+      "neurologic_deficit",
+      "disseminated_or_complicated_zoster",
+      "secondary_skin_infection_concern",
+      "immunocompromised",
+      "pregnancy",
+      "systemic_illness",
+      "uncontrolled_pain",
+      "specialist_directed_neurology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_shingles",
+        "terms": [
+          "clinician diagnosis localized shingles",
+          "discharge diagnosis shingles",
+          "shingles diagnosed",
+          "localized shingles diagnosed",
+          "herpes zoster diagnosed"
+        ]
+      },
+      {
+        "id": "no_eye_or_neuro_complication_documented",
+        "terms": [
+          "no eye involvement",
+          "no facial involvement",
+          "no neurologic symptoms",
+          "no disseminated rash",
+          "localized rash only"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized shingles",
+      "shingles diagnosed",
+      "localized shingles diagnosed",
+      "herpes zoster diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus supports shingles and herpes zoster framing, painful blistering rash, keeping rash clean and covered, avoiding high-risk contacts until crusting, clinician-directed medicines, and urgent escalation for eye, neurologic, systemic, disseminated, or high-risk-host complications. Autonomous Phase 1551-1600 approved this narrow v1 only for clinician-diagnosed localized shingles without eye, face, ear, neurologic, disseminated, systemic, pregnancy, immunocompromised-host, or specialist-directed complication pathway.",
+    "clinical_status": "reviewed_for_limited_localized_shingles_without_eye_or_neuro_complication_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of localized shingles or herpes zoster",
+      "no eye, face, ear, neurologic, disseminated, systemic, pregnancy, or immunocompromised-host complication documented",
+      "medication plan clinician-entered only"
+    ],
+    "review_date": "2026-06-17"
+  },
+  {
+    "id": "stye_hordeolum_simple_no_orbital_or_vision_red_flags",
+    "label": "Simple stye without orbital or vision red flags",
+    "family": "ophthalmology",
+    "condition_terms": [
+      "simple stye",
+      "stye no vision change",
+      "hordeolum",
+      "stye",
+      "eyelid bump"
+    ],
+    "source_card_ids": [
+      "medlineplus.eyelid_bump_stye"
+    ],
+    "summary": "Your symptoms fit a stye, also called a hordeolum.",
+    "found": "Your exam was reassuring for a localized eyelid bump. We did not find vision changes, severe eye pain, eye injury, or signs of a deeper infection around the eye today.",
+    "home": [
+      "Use warm compresses as your clinician instructed.",
+      "Do not squeeze or pop the bump.",
+      "Avoid eye makeup and contact lenses until your clinician says they are safe."
+    ],
+    "meds": [
+      "Use eye medicine only if it was prescribed.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Vision change, severe eye pain, light sensitivity, or pain with eye movement.",
+      "Fever, swelling spreading around the eye, the eye bulges, or you cannot open the eyelid.",
+      "The bump gets much worse or does not improve with the plan you were given."
+    ],
+    "follow": "Follow up with primary care, urgent care, or eye care if symptoms are not improving, and sooner if any red flag develops.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of simple stye, hordeolum, or localized eyelid bump.",
+      "No contact lens pathway, vision change, severe eye pain, photophobia, trauma, foreign body, herpes or zoster concern, orbital or periorbital cellulitis concern, pregnancy, or immunocompromised-host pathway."
+    ],
+    "exclusion": [
+      "Vision change, severe eye pain, photophobia, pain with eye movement, proptosis, orbital or periorbital cellulitis concern.",
+      "Contact lens use, eye trauma, foreign body, chemical exposure, corneal ulcer or keratitis concern, herpes or zoster eye concern, acute glaucoma mimic.",
+      "Pregnancy, immunocompromised host, systemic illness, or specialist-directed ophthalmology plan."
+    ],
+    "must_not_miss": [
+      "Orbital cellulitis.",
+      "Preseptal cellulitis requiring separate plan.",
+      "Corneal ulcer or keratitis.",
+      "Acute glaucoma mimic."
+    ],
+    "unsafe_modifiers": [
+      "contact_lens_use",
+      "vision_change",
+      "severe_eye_pain",
+      "photophobia",
+      "periorbital_or_orbital_cellulitis_concern",
+      "eye_trauma_or_foreign_body",
+      "chemical_eye_exposure",
+      "corneal_ulcer_or_keratitis_concern",
+      "acute_glaucoma_mimic",
+      "herpes_or_zoster_eye_concern",
+      "zoster_eye_face_or_neuro_concern",
+      "immunocompromised",
+      "pregnancy",
+      "systemic_illness"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_simple_stye",
+        "terms": [
+          "clinician diagnosis stye",
+          "discharge diagnosis stye",
+          "stye diagnosed",
+          "hordeolum diagnosed",
+          "simple stye diagnosed"
+        ]
+      },
+      {
+        "id": "no_orbital_or_vision_red_flags_documented",
+        "terms": [
+          "no vision change",
+          "no severe eye pain",
+          "no orbital cellulitis concern",
+          "no periorbital cellulitis concern",
+          "localized eyelid bump only"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "stye diagnosed",
+      "hordeolum diagnosed",
+      "clinician diagnosis stye"
+    ],
+    "source_audit_notes": "MedlinePlus supports eyelid bump and stye framing, red swollen tender eyelid bump features, warm compress home care, and escalation for vision problems, worsening swelling, fever, or concerning eye symptoms. Autonomous Phase 1551-1600 approved this narrow v1 only for clinician-diagnosed simple stye or hordeolum without contact lens use, vision change, severe eye pain, photophobia, trauma, foreign body, chemical exposure, herpes or zoster concern, orbital or periorbital cellulitis concern, pregnancy, immunocompromised-host pathway, systemic illness, or specialist-directed eye plan.",
+    "clinical_status": "reviewed_for_limited_simple_stye_without_orbital_or_vision_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of simple stye, hordeolum, or localized eyelid bump",
+      "no contact lens use, vision change, severe eye pain, photophobia, trauma, foreign body, chemical exposure, corneal ulcer, herpes or zoster, orbital or periorbital cellulitis concern",
+      "no pregnancy, immunocompromised-host, systemic illness, or specialist-directed pathway"
+    ],
+    "review_date": "2026-06-17"
+  },
+  {
+    "id": "localized_impetigo_no_cellulitis_or_systemic_symptoms",
+    "label": "Localized impetigo without cellulitis or systemic symptoms",
+    "family": "skin_soft_tissue_infection",
+    "condition_terms": [
+      "localized impetigo",
+      "impetigo no cellulitis",
+      "impetigo",
+      "impetigo diagnosed"
+    ],
+    "source_card_ids": [
+      "medlineplus.impetigo",
+      "cdc.impetigo"
+    ],
+    "summary": "Your symptoms fit impetigo, a contagious superficial skin infection.",
+    "found": "Your clinician diagnosed localized impetigo. We did not find spreading cellulitis, a deeper infection, or systemic illness today.",
+    "home": [
+      "Keep sores clean and covered when possible.",
+      "Wash your hands after touching the area.",
+      "Avoid scratching and do not share towels, clothing, or bedding until improving."
+    ],
+    "meds": [
+      "Use antibiotic ointment or pills only if prescribed and exactly as directed.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Fever, spreading redness, warmth, swelling, red streaks, severe pain, or pus.",
+      "Sores spread quickly, involve the eye or genitals, or become deep open ulcers.",
+      "You feel very ill or symptoms worsen despite the plan you were given."
+    ],
+    "follow": "Follow up with primary care, urgent care, or dermatology if symptoms are not improving with treatment or if spread continues.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized impetigo.",
+      "No cellulitis, abscess, ecthyma or deep infection, eye/genital involvement, systemic illness, immunocompromised-host pathway, or outbreak/public-health-directed plan."
+    ],
+    "exclusion": [
+      "Cellulitis, abscess, ecthyma, deep skin infection, systemic illness, sepsis, or rapidly spreading infection.",
+      "Eye, genital, extensive, bullous, recurrent, or immunocompromised-host disease.",
+      "Public-health-directed outbreak plan or poor follow-up."
+    ],
+    "must_not_miss": [
+      "Cellulitis.",
+      "Abscess.",
+      "Ecthyma.",
+      "Sepsis."
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "abscess_concern",
+      "ecthyma_or_deep_skin_infection",
+      "bullous_or_extensive_impetigo",
+      "near_eye_or_genitals",
+      "immunocompromised",
+      "systemic_illness",
+      "sepsis",
+      "rapid_progression",
+      "poor_follow_up"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_impetigo",
+        "terms": [
+          "clinician diagnosis impetigo",
+          "discharge diagnosis impetigo",
+          "impetigo diagnosed",
+          "localized impetigo diagnosed"
+        ]
+      },
+      {
+        "id": "no_cellulitis_or_systemic_symptoms_documented",
+        "terms": [
+          "no cellulitis",
+          "no systemic symptoms",
+          "no fever",
+          "no spreading infection",
+          "localized lesions only"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "impetigo diagnosed",
+      "localized impetigo diagnosed",
+      "clinician diagnosis impetigo"
+    ],
+    "source_audit_notes": "MedlinePlus and CDC support impetigo framing, contagious superficial bacterial skin infection, red or pimple-like sores with crusting, spread prevention, clinician-prescribed antibiotic treatment, and escalation for spreading infection or worsening symptoms. Autonomous Phase 1551-1600 approved this narrow v1 only for clinician-diagnosed localized impetigo without cellulitis, abscess, ecthyma, deep infection, eye/genital involvement, systemic illness, immunocompromised-host pathway, public-health-directed outbreak plan, or poor follow-up.",
+    "clinical_status": "reviewed_for_limited_localized_impetigo_without_cellulitis_or_systemic_symptoms_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of localized impetigo",
+      "no cellulitis, abscess, ecthyma, deep infection, systemic illness, eye/genital involvement, extensive disease, or immunocompromised-host pathway",
+      "medication plan clinician-entered only"
+    ],
+    "review_date": "2026-06-17"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "id": "aao.chalazion_stye",
+  "source": "American Academy of Ophthalmology",
+  "title": "What Is the Difference Between a Stye and a Chalazion?",
+  "url": "https://www.aao.org/eye-health/diseases/what-are-chalazia-styes",
+  "source_type": "specialty_society_patient_education",
+  "license_notes": "Use as source support for patient education. Avoid verbatim copying into primitives.",
+  "supports": [
+    "A chalazion is an eyelid bump related to a blocked oil gland.",
+    "Warm compresses are a common conservative measure for styes and chalazia.",
+    "Patients should not squeeze or pop eyelid bumps.",
+    "Vision trouble, worsening symptoms, infection concern, or persistent/recurrent eyelid mass needs clinician or eye-specialist follow-up."
+  ],
+  "use_policy": "evidence_support"
+}

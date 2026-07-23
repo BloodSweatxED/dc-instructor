@@ -1,0 +1,15 @@
+{
+  "id": "nhs.ingrown_toenail",
+  "source": "NHS",
+  "title": "Ingrown toenail",
+  "url": "https://www.nhs.uk/conditions/ingrown-toenail/",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "An ingrown toenail is a common problem where the nail grows into the toe and may cause pain, redness, and swelling.",
+    "Home care may include warm salty-water soaks, keeping the foot dry, wide comfortable shoes, and label-safe pain medicine.",
+    "Patients should not cut the toenail, pick at the toe, or wear tight pointy shoes while trying home care.",
+    "Patients should seek medical care for pus, feverish symptoms, failed home care, diabetes, or need for antibiotics or podiatry treatment."
+  ],
+  "use_policy": "evidence_support"
+}

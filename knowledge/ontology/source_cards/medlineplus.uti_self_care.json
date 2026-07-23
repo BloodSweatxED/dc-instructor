@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.uti_self_care",
+  "source": "MedlinePlus",
+  "title": "Urinary tract infection in women - self-care",
+  "url": "https://medlineplus.gov/ency/patientinstructions/000391.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "Patients treated for UTI should take antibiotics as prescribed and complete the course unless told otherwise.",
+    "Patients should drink fluids as allowed and avoid irritants if they worsen symptoms.",
+    "Return or urgent care is needed for fever, flank pain, vomiting, worsening symptoms, or symptoms that do not improve."
+  ],
+  "use_policy": "evidence_support"
+}

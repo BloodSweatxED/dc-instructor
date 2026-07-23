@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.insect_bites_and_stings",
+  "source": "MedlinePlus",
+  "title": "Insect bites and stings",
+  "url": "https://medlineplus.gov/ency/article/000033.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Most insect bites and stings can be treated at home when there is no severe reaction.",
+    "Common symptoms include pain, redness, swelling, itching, burning, numbness, or tingling.",
+    "Home care may include washing the site, cold packs, itch treatment, and watching for infection.",
+    "Emergency care is needed for trouble breathing, wheezing, face or mouth swelling, throat tightness, trouble swallowing, weakness, or blue color."
+  ],
+  "use_policy": "evidence_support"
+}

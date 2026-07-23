@@ -1,0 +1,137 @@
+{
+  "id": "simple_paronychia_no_abscess_or_felon",
+  "label": "Simple paronychia without abscess or felon",
+  "status": "reviewed",
+  "condition_family": "skin_soft_tissue_infection",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of simple paronychia or nail-fold infection.",
+    "No drainable abscess, felon, flexor tenosynovitis concern, spreading cellulitis, diabetes foot pathway, or immunocompromised-host pathway."
+  ],
+  "exclusion_criteria": [
+    "Abscess, pus pocket, felon, flexor tenosynovitis, deep-space hand infection, or procedure-level drainage plan.",
+    "Spreading cellulitis, systemic illness, diabetes foot risk, peripheral vascular disease, neuropathy, or immunocompromised host.",
+    "Bite wound, crush injury, open fracture, or specialist-directed hand plan."
+  ],
+  "must_not_miss": [
+    "Felon.",
+    "Flexor tenosynovitis.",
+    "Cellulitis.",
+    "Deep-space hand infection."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, or the ED if symptoms are not improving in 1 to 2 days, or sooner if they worsen.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "simple_paronychia_no_abscess_or_felon.diagnosis.diagnosis_summary.v1",
+    "simple_paronychia_no_abscess_or_felon.what_we_found.reassuring_ed_assessment.v1",
+    "simple_paronychia_no_abscess_or_felon.home_care.home_care_1.v1",
+    "simple_paronychia_no_abscess_or_felon.home_care.home_care_2.v1",
+    "simple_paronychia_no_abscess_or_felon.home_care.home_care_3.v1",
+    "simple_paronychia_no_abscess_or_felon.medications.medication_guidance_1.v1",
+    "simple_paronychia_no_abscess_or_felon.medications.medication_guidance_2.v1",
+    "simple_paronychia_no_abscess_or_felon.return_precautions.return_precaution_1.v1",
+    "simple_paronychia_no_abscess_or_felon.return_precautions.return_precaution_2.v1",
+    "simple_paronychia_no_abscess_or_felon.return_precautions.return_precaution_3.v1",
+    "simple_paronychia_no_abscess_or_felon.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.paronychia"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports paronychia framing, nail-fold infection symptoms, pus or abscess possibility, diabetes risk, and clinician escalation for worsening infection. Autonomous Phase 1551-1600 approved this narrow v1 only for clinician-diagnosed simple paronychia without abscess, felon, flexor tenosynovitis, spreading cellulitis, systemic illness, high-risk host factors, bite, crush, open fracture, or specialist hand plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "simple paronychia",
+      "paronychia no abscess",
+      "paronychia",
+      "nail fold infection"
+    ],
+    "unsafe_modifiers": [
+      "abscess_concern",
+      "felon_or_tenosynovitis_concern",
+      "deep_space_location",
+      "secondary_skin_infection_concern",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "immunocompromised",
+      "systemic_illness",
+      "bite_wound",
+      "crush_injury",
+      "open_fracture",
+      "specialist_directed_wound_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_simple_paronychia",
+        "terms": [
+          "clinician diagnosis simple paronychia",
+          "discharge diagnosis paronychia",
+          "paronychia diagnosed",
+          "nail fold infection diagnosed"
+        ]
+      },
+      {
+        "id": "no_abscess_or_felon_documented",
+        "terms": [
+          "no abscess",
+          "no pus pocket",
+          "no felon",
+          "no drainable collection",
+          "no deep fingertip infection"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "paronychia diagnosed",
+      "clinician diagnosis simple paronychia",
+      "nail fold infection diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-17",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports paronychia framing, nail-fold infection symptoms, pus or abscess possibility, diabetes risk, and clinician escalation for worsening infection. Autonomous Phase 1551-1600 approved this narrow v1 only for clinician-diagnosed simple paronychia without abscess, felon, flexor tenosynovitis, spreading cellulitis, systemic illness, high-risk host factors, bite, crush, open fracture, or specialist hand plan.",
+    "clinical_status": "reviewed_for_limited_simple_paronychia_without_abscess_or_felon_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of simple paronychia or nail-fold infection",
+      "no abscess, pus pocket, felon, or drainable collection documented",
+      "no spreading cellulitis, systemic illness, high-risk host, bite, crush, open fracture, or specialist-directed pathway"
+    ],
+    "blocked_modifiers": [
+      "abscess_concern",
+      "felon_or_tenosynovitis_concern",
+      "deep_space_location",
+      "secondary_skin_infection_concern",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "immunocompromised",
+      "systemic_illness",
+      "bite_wound",
+      "crush_injury",
+      "open_fracture",
+      "specialist_directed_wound_plan"
+    ]
+  }
+}

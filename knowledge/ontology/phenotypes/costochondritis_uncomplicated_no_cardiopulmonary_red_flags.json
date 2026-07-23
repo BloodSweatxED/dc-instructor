@@ -1,0 +1,128 @@
+{
+  "id": "costochondritis_uncomplicated_no_cardiopulmonary_red_flags",
+  "label": "Uncomplicated costochondritis without cardiopulmonary red flags",
+  "status": "reviewed",
+  "condition_family": "msk",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated costochondritis.",
+    "No cardiac/PE concern, unresolved dyspnea, hypoxia, hemoptysis, fever/systemic illness, trauma/fracture concern, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Cardiac or PE concern, pressure/exertional chest pain, shortness of breath, hypoxia, hemoptysis, syncope, fever, systemic illness, trauma/fracture concern, or diagnostic uncertainty.",
+    "Pregnancy/pediatric pathway or specialist-directed cardiology/pulmonary plan."
+  ],
+  "must_not_miss": [
+    "Acute coronary syndrome.",
+    "Pulmonary embolism.",
+    "Pneumothorax.",
+    "Pneumonia.",
+    "Rib fracture."
+  ],
+  "default_follow_up": "Follow up with primary care if symptoms persist, recur, or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "costochondritis_uncomplicated_no_cardiopulmonary_red_flags.diagnosis.diagnosis_summary.v1",
+    "costochondritis_uncomplicated_no_cardiopulmonary_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "costochondritis_uncomplicated_no_cardiopulmonary_red_flags.home_care.home_care_1.v1",
+    "costochondritis_uncomplicated_no_cardiopulmonary_red_flags.home_care.home_care_2.v1",
+    "costochondritis_uncomplicated_no_cardiopulmonary_red_flags.home_care.home_care_3.v1",
+    "costochondritis_uncomplicated_no_cardiopulmonary_red_flags.medications.medication_guidance_1.v1",
+    "costochondritis_uncomplicated_no_cardiopulmonary_red_flags.medications.medication_guidance_2.v1",
+    "costochondritis_uncomplicated_no_cardiopulmonary_red_flags.return_precautions.return_precaution_1.v1",
+    "costochondritis_uncomplicated_no_cardiopulmonary_red_flags.return_precautions.return_precaution_2.v1",
+    "costochondritis_uncomplicated_no_cardiopulmonary_red_flags.return_precautions.return_precaution_3.v1",
+    "costochondritis_uncomplicated_no_cardiopulmonary_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.costochondritis"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports costochondritis framing and supportive care. Autonomous Phase 1901-2000 approved this narrow v1 only for clinician-diagnosed uncomplicated costochondritis without cardiac/PE concern, unresolved dyspnea, hypoxia, hemoptysis, syncope, systemic illness, trauma/fracture concern, pregnancy/pediatric pathway, or specialist-directed plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "costochondritis",
+      "chest wall inflammation",
+      "rib cartilage inflammation"
+    ],
+    "unsafe_modifiers": [
+      "chest_pain",
+      "cardiac_or_pe_chest_pain_concern",
+      "resolved_dyspnea_not_documented",
+      "hypoxia",
+      "hemoptysis",
+      "syncope_or_fainting",
+      "systemic_illness",
+      "fracture_or_trauma_concern",
+      "pregnancy",
+      "pediatric_pathway"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_costochondritis",
+        "terms": [
+          "clinician diagnosis costochondritis",
+          "discharge diagnosis costochondritis",
+          "costochondritis diagnosed",
+          "chest wall inflammation diagnosed"
+        ]
+      },
+      {
+        "id": "no_cardiopulmonary_red_flags_documented",
+        "terms": [
+          "no cardiac concern",
+          "no pe concern",
+          "no shortness of breath",
+          "no hypoxia",
+          "no trauma"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis costochondritis",
+      "costochondritis diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-18",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports costochondritis framing and supportive care. Autonomous Phase 1901-2000 approved this narrow v1 only for clinician-diagnosed uncomplicated costochondritis without cardiac/PE concern, unresolved dyspnea, hypoxia, hemoptysis, syncope, systemic illness, trauma/fracture concern, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_costochondritis_without_cardiopulmonary_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated costochondritis",
+      "no cardiac/PE concern, shortness of breath, hypoxia, hemoptysis, or trauma documented"
+    ],
+    "blocked_modifiers": [
+      "chest_pain",
+      "cardiac_or_pe_chest_pain_concern",
+      "resolved_dyspnea_not_documented",
+      "hypoxia",
+      "hemoptysis",
+      "syncope_or_fainting",
+      "systemic_illness",
+      "fracture_or_trauma_concern",
+      "pregnancy",
+      "pediatric_pathway"
+    ]
+  }
+}

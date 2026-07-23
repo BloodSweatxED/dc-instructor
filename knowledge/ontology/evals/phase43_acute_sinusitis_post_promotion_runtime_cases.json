@@ -1,0 +1,24 @@
+[
+  {
+    "id": "phase43_sinusitis_clean_sinus_infection",
+    "condition": "sinus infection supportive care",
+    "ed_note": "Adult with clinician diagnosis of sinus infection. Supportive care plan, no antibiotic prescribed, no eye swelling, no vision change, no dental source, no sepsis, discharged home.",
+    "expected_phenotype_id": "acute_sinusitis_supportive_care",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase43_sinusitis_facial_pain_no_match",
+    "condition": "facial pain",
+    "ed_note": "Facial pain without final sinusitis diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase43_sinusitis_double_worsening_blocks",
+    "condition": "acute sinusitis supportive care",
+    "ed_note": "Adult with acute sinusitis and worsening after initial improvement with double worsening.",
+    "expected_phenotype_id": "acute_sinusitis_supportive_care",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["severe_bacterial_sinusitis_features"]
+  }
+]

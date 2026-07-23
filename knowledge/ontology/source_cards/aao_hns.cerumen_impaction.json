@@ -1,0 +1,15 @@
+{
+  "id": "aao_hns.cerumen_impaction",
+  "source": "American Academy of Otolaryngology-Head and Neck Surgery",
+  "title": "Earwax and Care",
+  "url": "https://www.entnet.org/resource/earwax-and-care/",
+  "source_type": "specialty_society_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Earwax is normally protective and usually does not need removal unless it causes symptoms or blocks assessment.",
+    "Impacted earwax can cause hearing difficulty, fullness, itching, pain, ringing, or dizziness.",
+    "Patients should avoid putting objects or candles into the ear canal.",
+    "Clinicians may treat cerumen impaction with cerumenolytic drops, irrigation, or manual removal when safe."
+  ],
+  "use_policy": "evidence_support"
+}

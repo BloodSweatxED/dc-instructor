@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.pityriasis_rosea",
+  "source": "MedlinePlus",
+  "title": "Pityriasis rosea",
+  "url": "https://medlineplus.gov/ency/article/000871.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Pityriasis rosea is a common rash that often affects young adults.",
+    "The rash can begin with one larger patch followed by smaller oval scaly spots on the trunk or limbs.",
+    "Symptoms may include itching and can resolve over weeks.",
+    "Pregnancy, mucosal lesions, medication reaction concern, systemic illness, or diagnostic uncertainty require separate handling."
+  ],
+  "use_policy": "evidence_support"
+}
