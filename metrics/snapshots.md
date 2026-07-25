@@ -725,3 +725,28 @@
 **Reading levels:** _unavailable (RLS blocks anon reads on `generations`)_
 
 **Ratings:** _unavailable (RLS blocks anon reads on `ratings`)_
+
+---
+
+## 2026-07-25
+
+> **PARTIAL SUCCESS — total count via anon key; breakdowns unavailable (RLS).**
+>
+> - ⚠️ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** Used anon key extracted from public app bundle (`dcinstructor.com/assets/index-DGkTEqdb.js`) as fallback. Anon key has `SELECT` on the `generation_count` view only; `generations` and `ratings` tables are RLS-blocked for anon users.
+> - ✅ **Network:** Supabase host reachable — HTTP 200 on `generation_count` view and `/usage` Netlify function.
+> - ✅ **Database schema:** `generation_count` view and `generations`/`ratings` tables exist.
+> - ✅ **`/usage` endpoint confirmed:** `{"blocked":false,"count":48,"warning":false}`
+> - ℹ️ **Last 3 days (estimated):** Previous snapshot on 2026-07-22 showed 39 total; now 48 → **~9 new generations** since that run.
+
+- **Total generations:** 48
+- **Last 3 days:** ~9 (estimated: 48 − 39 from 2026-07-22 snapshot)
+- **Days remaining in trial:** -53 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 452 (of 500)
+
+**Top conditions:** _unavailable (RLS blocks anon reads on `generations`)_
+
+**Languages:** _unavailable (RLS blocks anon reads on `generations`)_
+
+**Reading levels:** _unavailable (RLS blocks anon reads on `generations`)_
+
+**Ratings:** _unavailable (RLS blocks anon reads on `ratings`)_
