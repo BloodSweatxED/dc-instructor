@@ -800,3 +800,32 @@
 **Reading levels:** _unavailable (RLS blocks anon reads on `generations`)_
 
 **Ratings:** _unavailable (RLS blocks anon reads on `ratings`)_
+
+---
+
+## 2026-08-01
+
+- **Total generations:** 83
+- **Last 3 days:** 16
+- **Days remaining in trial:** -60 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 417 (of 500)
+
+**Top conditions:**
+| Condition | Count |
+|-----------|-------|
+| Chest Pain | 6 |
+| abdominal pain | 3 |
+| Dizziness | 3 |
+| chest pain | 3 |
+| diarrhea | 3 |
+| rash | 3 |
+| alcoholic hepatitis | 3 |
+| Intoxication | 3 |
+| Abdominal Pain and Vomiting | 2 |
+| headache | 2 |
+
+**Languages:** English: 65, Spanish: 15, French: 1, Bengali: 1, Arabic: 1
+
+**Reading levels:** 6th Grade: 58, 8th Grade: 14, 4th Grade: 8, 10th Grade: 2, HL-1: 1
+
+**Ratings:** 15 ratings, avg: 5.0/5
