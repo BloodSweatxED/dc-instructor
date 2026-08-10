@@ -887,3 +887,32 @@
 **Reading levels:** 6th Grade: 61, 8th Grade: 16, 4th Grade: 8, 10th Grade: 2, HL-1: 1
 
 **Ratings:** 16 ratings, avg: 5.0/5
+
+---
+
+## 2026-08-10
+
+- **Total generations:** 95
+- **Last 3 days:** 8
+- **Days remaining in trial:** -69 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 405 (of 500)
+
+**Top conditions** (case-normalized):
+| Condition | Count |
+|-----------|-------|
+| Chest pain | 10 |
+| Dizziness | 6 |
+| Abdominal pain | 4 |
+| Knee pain | 3 |
+| Diarrhea | 3 |
+| Rash | 3 |
+| Alcoholic hepatitis | 3 |
+| Intoxication | 3 |
+| Abdominal pain and vomiting | 2 |
+| Headache | 2 |
+
+**Languages:** English: 76, Spanish: 16, French: 1, Bengali: 1, Arabic: 1
+
+**Reading levels:** 6th Grade: 65, 8th Grade: 17, 4th Grade: 10, 10th Grade: 2, HL-1: 1
+
+**Ratings:** 18 ratings, avg: 4.9/5
