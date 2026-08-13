@@ -916,3 +916,29 @@
 **Reading levels:** 6th Grade: 65, 8th Grade: 17, 4th Grade: 10, 10th Grade: 2, HL-1: 1
 
 **Ratings:** 18 ratings, avg: 4.9/5
+
+---
+
+## 2026-08-13
+
+> **PARTIAL SUCCESS — total count confirmed; breakdowns unavailable (RLS + Netlify MCP 502).**
+>
+> - ⚠️ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** Netlify MCP (`manage-env-vars`) returned 502 Bad Gateway on all attempts (transient server outage, retryable). Could not retrieve service role key this run.
+> - ✅ **Anon key:** extracted from public app bundle (`/assets/index-DGkTEqdb.js`), same file as prior runs.
+> - ✅ **Network:** Supabase host reachable — HTTP 200 on `generation_count` view and `/usage` Netlify function.
+> - ✅ **`/usage` endpoint confirmed:** `{"blocked":false,"count":99,"warning":false}`
+> - ℹ️ **RLS in effect:** Anon key can read `generation_count` view (99); `generations` and `ratings` tables return empty rows for anon users. Service role key required for breakdowns.
+> - ℹ️ **Last 3 days (estimated):** Previous snapshot on 2026-08-10 showed 95 total; now 99 → **~4 new generations** since that run.
+
+- **Total generations:** 99
+- **Last 3 days:** ~4 (estimated: 99 − 95 from 2026-08-10 snapshot)
+- **Days remaining in trial:** -72 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 401 (of 500)
+
+**Top conditions:** _unavailable (RLS blocks anon reads on `generations`; Netlify MCP 502)_
+
+**Languages:** _unavailable (RLS blocks anon reads on `generations`; Netlify MCP 502)_
+
+**Reading levels:** _unavailable (RLS blocks anon reads on `generations`; Netlify MCP 502)_
+
+**Ratings:** _unavailable (RLS blocks anon reads on `ratings`; Netlify MCP 502)_
