@@ -942,3 +942,32 @@
 **Reading levels:** _unavailable (RLS blocks anon reads on `generations`; Netlify MCP 502)_
 
 **Ratings:** _unavailable (RLS blocks anon reads on `ratings`; Netlify MCP 502)_
+
+---
+
+## 2026-08-16
+
+- **Total generations:** 108
+- **Last 3 days:** 9
+- **Days remaining in trial:** -75 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 392 (of 500)
+
+**Top conditions** (case-normalized):
+| Condition | Count |
+|-----------|-------|
+| Chest pain | 10 |
+| Dizziness | 6 |
+| Abdominal pain | 4 |
+| Leg swelling | 3 |
+| Low back pain | 3 |
+| Knee pain | 3 |
+| Diarrhea | 3 |
+| Rash | 3 |
+| Alcoholic hepatitis | 3 |
+| Intoxication | 3 |
+
+**Languages:** English: 87, Spanish: 18, French: 1, Bengali: 1, Arabic: 1
+
+**Reading levels:** 6th Grade: 76, 8th Grade: 17, 4th Grade: 11, 10th Grade: 3, HL-1: 1
+
+**Ratings:** 20 ratings, avg: 4.9/5
