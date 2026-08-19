@@ -971,3 +971,27 @@
 **Reading levels:** 6th Grade: 76, 8th Grade: 17, 4th Grade: 11, 10th Grade: 3, HL-1: 1
 
 **Ratings:** 20 ratings, avg: 4.9/5
+
+## 2026-08-19
+
+> **PARTIAL SUCCESS — total count confirmed; breakdowns unavailable (SUPABASE_SERVICE_ROLE_KEY not in env + Netlify MCP 502).**
+>
+> - ⚠️ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** Netlify MCP (`manage-env-vars`) returned 502 Bad Gateway (transient outage, same as 2026-08-12 run). Cannot retrieve service role key.
+> - ✅ **Anon key:** extracted from public app bundle (`/assets/index-DGkTEqdb.js`), same file as prior runs.
+> - ✅ **`/usage` endpoint confirmed:** `{"blocked":false,"count":108,"warning":false}`
+> - ✅ **`generation_count` view:** 108 (matches /usage)
+> - ℹ️ **Last 3 days:** 0 new generations (previous snapshot 2026-08-16 also showed 108).
+> - ℹ️ **RLS in effect:** `generations` and `ratings` tables return empty rows for anon key. Service role key required for breakdowns.
+
+- **Total generations:** 108
+- **Last 3 days:** 0 (108 on 2026-08-16 → 108 now)
+- **Days remaining in trial:** -78 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 392 (of 500)
+
+**Top conditions:** _unavailable (RLS blocks anon reads; Netlify MCP 502)_
+
+**Languages:** _unavailable (RLS blocks anon reads; Netlify MCP 502)_
+
+**Reading levels:** _unavailable (RLS blocks anon reads; Netlify MCP 502)_
+
+**Ratings:** _unavailable (anon reads return empty; service role key required)_
