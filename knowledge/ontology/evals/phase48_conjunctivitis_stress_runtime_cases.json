@@ -1,0 +1,42 @@
+[
+  {
+    "id": "phase48_conjunctivitis_eye_trauma_blocks",
+    "condition": "pink eye no contact lens",
+    "ed_note": "Adult with eye redness after eye trauma and foreign body concern.",
+    "expected_phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["eye_trauma_or_foreign_body"]
+  },
+  {
+    "id": "phase48_conjunctivitis_severe_pain_blocks",
+    "condition": "conjunctivitis uncomplicated",
+    "ed_note": "Adult diagnosed with conjunctivitis but has severe eye pain.",
+    "expected_phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["severe_eye_pain"]
+  },
+  {
+    "id": "phase48_conjunctivitis_herpes_zoster_blocks",
+    "condition": "pink eye uncomplicated",
+    "ed_note": "Adult with pink eye symptoms and shingles near eye with vesicles near eye.",
+    "expected_phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["herpes_or_zoster_eye_concern"]
+  },
+  {
+    "id": "phase48_conjunctivitis_cellulitis_blocks",
+    "condition": "conjunctivitis no contact lens",
+    "ed_note": "Adult with eye redness and eyelid swelling with pain with eye movement.",
+    "expected_phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["periorbital_or_orbital_cellulitis_concern"]
+  },
+  {
+    "id": "phase48_conjunctivitis_pregnancy_blocks",
+    "condition": "conjunctivitis uncomplicated",
+    "ed_note": "Patient is pregnant with conjunctivitis symptoms.",
+    "expected_phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["pregnancy"]
+  }
+]

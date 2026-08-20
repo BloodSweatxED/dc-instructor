@@ -1,0 +1,124 @@
+{
+  "id": "localized_flea_bites_no_infection_or_anaphylaxis",
+  "label": "Localized flea bites without infection or anaphylaxis",
+  "status": "reviewed",
+  "condition_family": "skin_soft_tissue",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of localized flea bites.",
+    "No anaphylaxis, systemic allergic reaction, secondary infection, necrotic spider bite, tick-borne illness concern, or snakebite concern."
+  ],
+  "exclusion_criteria": [
+    "Anaphylaxis, systemic allergic reaction, secondary infection, necrotic spider or scorpion concern, tick-borne illness concern, snakebite concern, immunocompromised host, or specialist-directed allergy plan."
+  ],
+  "must_not_miss": [
+    "Anaphylaxis.",
+    "Cellulitis.",
+    "Tick-borne illness.",
+    "Venomous bite or sting emergency."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "localized_flea_bites_no_infection_or_anaphylaxis.diagnosis.diagnosis_summary.v1",
+    "localized_flea_bites_no_infection_or_anaphylaxis.what_we_found.reassuring_ed_assessment.v1",
+    "localized_flea_bites_no_infection_or_anaphylaxis.home_care.home_care_1.v1",
+    "localized_flea_bites_no_infection_or_anaphylaxis.home_care.home_care_2.v1",
+    "localized_flea_bites_no_infection_or_anaphylaxis.home_care.home_care_3.v1",
+    "localized_flea_bites_no_infection_or_anaphylaxis.medications.medication_guidance_1.v1",
+    "localized_flea_bites_no_infection_or_anaphylaxis.medications.medication_guidance_2.v1",
+    "localized_flea_bites_no_infection_or_anaphylaxis.return_precautions.return_precaution_1.v1",
+    "localized_flea_bites_no_infection_or_anaphylaxis.return_precautions.return_precaution_2.v1",
+    "localized_flea_bites_no_infection_or_anaphylaxis.return_precautions.return_precaution_3.v1",
+    "localized_flea_bites_no_infection_or_anaphylaxis.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.insect_bites_and_stings"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus insect bite material supports local bite care, itch control, and escalation for allergic reactions, infection, or systemic symptoms. This expansion is limited to clinician-diagnosed localized flea bites with anaphylaxis and infection red flags absent."
+  },
+  "runtime": {
+    "condition_terms": [
+      "localized flea bites",
+      "flea bites local reaction",
+      "flea bites"
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "immunocompromised",
+      "specialist_directed_allergy_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_flea_bites",
+        "terms": [
+          "clinician diagnosis localized flea bites",
+          "discharge diagnosis flea bites",
+          "localized flea bites diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_anaphylaxis_flea_bites",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "localized flea bites",
+      "flea bites local reaction",
+      "clinician diagnosis localized flea bites"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-21",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus insect bite material supports local bite care, itch control, and escalation for allergic reactions, infection, or systemic symptoms. This expansion is limited to clinician-diagnosed localized flea bites with anaphylaxis and infection red flags absent.",
+    "clinical_status": "reviewed_for_limited_localized_flea_bites_no_infection_or_anaphylaxis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized flea bites",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection"
+    ],
+    "blocked_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "immunocompromised",
+      "specialist_directed_allergy_plan"
+    ]
+  }
+}

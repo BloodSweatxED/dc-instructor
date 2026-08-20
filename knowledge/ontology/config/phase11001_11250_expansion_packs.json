@@ -1,0 +1,478 @@
+[
+  {
+    "id": "forearm_abrasion_no_deep_wound_or_infection",
+    "label": "Forearm abrasion without deep wound or infection",
+    "family": "wound_care",
+    "condition_terms": [
+      "forearm abrasion",
+      "forearm scrape",
+      "forearm skin abrasion"
+    ],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "summary": "You were treated for a forearm abrasion.",
+    "found": "Your clinician diagnosed a superficial forearm abrasion. We did not find a deep wound, tendon injury, debris concern, or infection today.",
+    "home": [
+      "Keep the area clean and dry today.",
+      "Wash gently with soap and water when your clinician says it is okay.",
+      "Do not scrub, pick, or dig at the wound."
+    ],
+    "meds": [
+      "Use antibiotic ointment, dressings, or pain medicine only if prescribed or recommended.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Fever, pus, spreading redness, red streaks, worsening warmth, or swelling.",
+      "Bleeding that will not stop with firm pressure.",
+      "New numbness, weakness, color change, worsening pain, or concern that something is stuck in the wound."
+    ],
+    "follow": "Follow up with primary care, urgent care, or the ED if the wound is not improving, if you were told to recheck, or if tetanus questions remain.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of superficial forearm abrasion.",
+      "No deep wound, repair-needed laceration, tendon/nerve/vessel injury, retained foreign body, infection, bite, burn, diabetic foot, or specialist wound plan."
+    ],
+    "exclusion": [
+      "Deep wound, repair-needed laceration, bite wound, dirty wound, crush injury, burn or chemical wound, retained foreign body, tendon/nerve/vessel injury, wound infection, diabetic foot risk, pregnancy/pediatric pathway, or specialist-directed wound plan."
+    ],
+    "must_not_miss": [
+      "Infected wound.",
+      "Retained foreign body.",
+      "Tendon, nerve, or vascular injury.",
+      "Open fracture or joint violation."
+    ],
+    "unsafe_modifiers": [
+      "bite_wound",
+      "burn_or_chemical_wound",
+      "delayed_wound_presentation",
+      "dirty_wound",
+      "fever",
+      "high_pressure_injection_injury",
+      "immunocompromised",
+      "laceration_repair_needed",
+      "open_wound",
+      "pediatric_pathway",
+      "pregnancy",
+      "retained_foreign_body",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "specialist_directed_wound_plan",
+      "wound_infection_concern"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_forearm_abrasion_no_deep_wound_or_infection",
+        "terms": [
+          "clinician diagnosis forearm abrasion",
+          "discharge diagnosis forearm abrasion",
+          "forearm abrasion diagnosed"
+        ]
+      },
+      {
+        "id": "no_deep_wound_or_infection_forearm_abrasion_no_deep_wound_or_infection",
+        "terms": [
+          "superficial abrasion only",
+          "no infection",
+          "no deep wound",
+          "no debris concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis forearm abrasion",
+      "forearm abrasion diagnosed",
+      "forearm abrasion"
+    ],
+    "source_audit_notes": "MedlinePlus supports cuts and puncture wound aftercare, keeping wounds clean, and escalation for infection, bleeding, retained foreign body, or deeper structure concerns. This expansion is limited to a clinician-diagnosed superficial abrasion without deep injury, infection, bite, burn, diabetic foot, pregnancy/pediatric, or specialist-directed wound pathways.",
+    "clinical_status": "reviewed_for_limited_forearm_abrasion_no_deep_wound_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of superficial forearm abrasion",
+      "superficial abrasion only",
+      "no infection",
+      "no deep wound or debris concern"
+    ],
+    "review_date": "2026-07-07"
+  },
+  {
+    "id": "shin_abrasion_no_deep_wound_or_infection",
+    "label": "Shin abrasion without deep wound or infection",
+    "family": "wound_care",
+    "condition_terms": [
+      "shin abrasion",
+      "shin scrape",
+      "shin skin abrasion"
+    ],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "summary": "You were treated for a shin abrasion.",
+    "found": "Your clinician diagnosed a superficial shin abrasion. We did not find a deep wound, tendon injury, debris concern, or infection today.",
+    "home": [
+      "Keep the area clean and dry today.",
+      "Wash gently with soap and water when your clinician says it is okay.",
+      "Do not scrub, pick, or dig at the wound."
+    ],
+    "meds": [
+      "Use antibiotic ointment, dressings, or pain medicine only if prescribed or recommended.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Fever, pus, spreading redness, red streaks, worsening warmth, or swelling.",
+      "Bleeding that will not stop with firm pressure.",
+      "New numbness, weakness, color change, worsening pain, or concern that something is stuck in the wound."
+    ],
+    "follow": "Follow up with primary care, urgent care, or the ED if the wound is not improving, if you were told to recheck, or if tetanus questions remain.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of superficial shin abrasion.",
+      "No deep wound, repair-needed laceration, tendon/nerve/vessel injury, retained foreign body, infection, bite, burn, diabetic foot, or specialist wound plan."
+    ],
+    "exclusion": [
+      "Deep wound, repair-needed laceration, bite wound, dirty wound, crush injury, burn or chemical wound, retained foreign body, tendon/nerve/vessel injury, wound infection, diabetic foot risk, pregnancy/pediatric pathway, or specialist-directed wound plan."
+    ],
+    "must_not_miss": [
+      "Infected wound.",
+      "Retained foreign body.",
+      "Tendon, nerve, or vascular injury.",
+      "Open fracture or joint violation."
+    ],
+    "unsafe_modifiers": [
+      "bite_wound",
+      "burn_or_chemical_wound",
+      "delayed_wound_presentation",
+      "dirty_wound",
+      "fever",
+      "high_pressure_injection_injury",
+      "immunocompromised",
+      "laceration_repair_needed",
+      "open_wound",
+      "pediatric_pathway",
+      "pregnancy",
+      "retained_foreign_body",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "specialist_directed_wound_plan",
+      "wound_infection_concern"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_shin_abrasion_no_deep_wound_or_infection",
+        "terms": [
+          "clinician diagnosis shin abrasion",
+          "discharge diagnosis shin abrasion",
+          "shin abrasion diagnosed"
+        ]
+      },
+      {
+        "id": "no_deep_wound_or_infection_shin_abrasion_no_deep_wound_or_infection",
+        "terms": [
+          "superficial abrasion only",
+          "no infection",
+          "no deep wound",
+          "no debris concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis shin abrasion",
+      "shin abrasion diagnosed",
+      "shin abrasion"
+    ],
+    "source_audit_notes": "MedlinePlus supports cuts and puncture wound aftercare, keeping wounds clean, and escalation for infection, bleeding, retained foreign body, or deeper structure concerns. This expansion is limited to a clinician-diagnosed superficial abrasion without deep injury, infection, bite, burn, diabetic foot, pregnancy/pediatric, or specialist-directed wound pathways.",
+    "clinical_status": "reviewed_for_limited_shin_abrasion_no_deep_wound_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of superficial shin abrasion",
+      "superficial abrasion only",
+      "no infection",
+      "no deep wound or debris concern"
+    ],
+    "review_date": "2026-07-07"
+  },
+  {
+    "id": "shoulder_abrasion_no_deep_wound_or_infection",
+    "label": "Shoulder abrasion without deep wound or infection",
+    "family": "wound_care",
+    "condition_terms": [
+      "shoulder abrasion",
+      "shoulder scrape",
+      "shoulder skin abrasion"
+    ],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "summary": "You were treated for a shoulder abrasion.",
+    "found": "Your clinician diagnosed a superficial shoulder abrasion. We did not find a deep wound, tendon injury, debris concern, or infection today.",
+    "home": [
+      "Keep the area clean and dry today.",
+      "Wash gently with soap and water when your clinician says it is okay.",
+      "Do not scrub, pick, or dig at the wound."
+    ],
+    "meds": [
+      "Use antibiotic ointment, dressings, or pain medicine only if prescribed or recommended.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Fever, pus, spreading redness, red streaks, worsening warmth, or swelling.",
+      "Bleeding that will not stop with firm pressure.",
+      "New numbness, weakness, color change, worsening pain, or concern that something is stuck in the wound."
+    ],
+    "follow": "Follow up with primary care, urgent care, or the ED if the wound is not improving, if you were told to recheck, or if tetanus questions remain.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of superficial shoulder abrasion.",
+      "No deep wound, repair-needed laceration, tendon/nerve/vessel injury, retained foreign body, infection, bite, burn, diabetic foot, or specialist wound plan."
+    ],
+    "exclusion": [
+      "Deep wound, repair-needed laceration, bite wound, dirty wound, crush injury, burn or chemical wound, retained foreign body, tendon/nerve/vessel injury, wound infection, diabetic foot risk, pregnancy/pediatric pathway, or specialist-directed wound plan."
+    ],
+    "must_not_miss": [
+      "Infected wound.",
+      "Retained foreign body.",
+      "Tendon, nerve, or vascular injury.",
+      "Open fracture or joint violation."
+    ],
+    "unsafe_modifiers": [
+      "bite_wound",
+      "burn_or_chemical_wound",
+      "delayed_wound_presentation",
+      "dirty_wound",
+      "fever",
+      "high_pressure_injection_injury",
+      "immunocompromised",
+      "laceration_repair_needed",
+      "open_wound",
+      "pediatric_pathway",
+      "pregnancy",
+      "retained_foreign_body",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "specialist_directed_wound_plan",
+      "wound_infection_concern"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_shoulder_abrasion_no_deep_wound_or_infection",
+        "terms": [
+          "clinician diagnosis shoulder abrasion",
+          "discharge diagnosis shoulder abrasion",
+          "shoulder abrasion diagnosed"
+        ]
+      },
+      {
+        "id": "no_deep_wound_or_infection_shoulder_abrasion_no_deep_wound_or_infection",
+        "terms": [
+          "superficial abrasion only",
+          "no infection",
+          "no deep wound",
+          "no debris concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis shoulder abrasion",
+      "shoulder abrasion diagnosed",
+      "shoulder abrasion"
+    ],
+    "source_audit_notes": "MedlinePlus supports cuts and puncture wound aftercare, keeping wounds clean, and escalation for infection, bleeding, retained foreign body, or deeper structure concerns. This expansion is limited to a clinician-diagnosed superficial abrasion without deep injury, infection, bite, burn, diabetic foot, pregnancy/pediatric, or specialist-directed wound pathways.",
+    "clinical_status": "reviewed_for_limited_shoulder_abrasion_no_deep_wound_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of superficial shoulder abrasion",
+      "superficial abrasion only",
+      "no infection",
+      "no deep wound or debris concern"
+    ],
+    "review_date": "2026-07-07"
+  },
+  {
+    "id": "wrist_abrasion_no_tendon_or_infection",
+    "label": "Wrist abrasion without tendon injury or infection",
+    "family": "wound_care",
+    "condition_terms": [
+      "wrist abrasion",
+      "wrist scrape",
+      "wrist skin abrasion"
+    ],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "summary": "You were treated for a wrist abrasion.",
+    "found": "Your clinician diagnosed a superficial wrist abrasion. We did not find a deep wound, tendon injury, debris concern, or infection today.",
+    "home": [
+      "Keep the area clean and dry today.",
+      "Wash gently with soap and water when your clinician says it is okay.",
+      "Do not scrub, pick, or dig at the wound."
+    ],
+    "meds": [
+      "Use antibiotic ointment, dressings, or pain medicine only if prescribed or recommended.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Fever, pus, spreading redness, red streaks, worsening warmth, or swelling.",
+      "Bleeding that will not stop with firm pressure.",
+      "New numbness, weakness, color change, worsening pain, or concern that something is stuck in the wound."
+    ],
+    "follow": "Follow up with primary care, urgent care, or the ED if the wound is not improving, if you were told to recheck, or if tetanus questions remain.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of superficial wrist abrasion.",
+      "No deep wound, repair-needed laceration, tendon/nerve/vessel injury, retained foreign body, infection, bite, burn, diabetic foot, or specialist wound plan."
+    ],
+    "exclusion": [
+      "Deep wound, repair-needed laceration, bite wound, dirty wound, crush injury, burn or chemical wound, retained foreign body, tendon/nerve/vessel injury, wound infection, diabetic foot risk, pregnancy/pediatric pathway, or specialist-directed wound plan."
+    ],
+    "must_not_miss": [
+      "Infected wound.",
+      "Retained foreign body.",
+      "Tendon, nerve, or vascular injury.",
+      "Open fracture or joint violation."
+    ],
+    "unsafe_modifiers": [
+      "bite_wound",
+      "burn_or_chemical_wound",
+      "delayed_wound_presentation",
+      "dirty_wound",
+      "fever",
+      "high_pressure_injection_injury",
+      "immunocompromised",
+      "laceration_repair_needed",
+      "open_wound",
+      "pediatric_pathway",
+      "pregnancy",
+      "retained_foreign_body",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "specialist_directed_wound_plan",
+      "wound_infection_concern",
+      "hand_tendon_risk",
+      "joint_violation"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_wrist_abrasion_no_tendon_or_infection",
+        "terms": [
+          "clinician diagnosis wrist abrasion",
+          "discharge diagnosis wrist abrasion",
+          "wrist abrasion diagnosed"
+        ]
+      },
+      {
+        "id": "no_deep_wound_or_infection_wrist_abrasion_no_tendon_or_infection",
+        "terms": [
+          "superficial abrasion only",
+          "no infection",
+          "no deep wound",
+          "no debris concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis wrist abrasion",
+      "wrist abrasion diagnosed",
+      "wrist abrasion"
+    ],
+    "source_audit_notes": "MedlinePlus supports cuts and puncture wound aftercare, keeping wounds clean, and escalation for infection, bleeding, retained foreign body, or deeper structure concerns. This expansion is limited to a clinician-diagnosed superficial abrasion without deep injury, infection, bite, burn, diabetic foot, pregnancy/pediatric, or specialist-directed wound pathways.",
+    "clinical_status": "reviewed_for_limited_wrist_abrasion_no_tendon_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of superficial wrist abrasion",
+      "superficial abrasion only",
+      "no infection",
+      "no deep wound or debris concern"
+    ],
+    "review_date": "2026-07-07"
+  },
+  {
+    "id": "foot_abrasion_no_diabetic_foot_or_infection",
+    "label": "Foot abrasion without diabetic foot or infection",
+    "family": "wound_care",
+    "condition_terms": [
+      "foot abrasion",
+      "foot scrape",
+      "foot skin abrasion"
+    ],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "summary": "You were treated for a foot abrasion.",
+    "found": "Your clinician diagnosed a superficial foot abrasion. We did not find a deep wound, tendon injury, debris concern, or infection today.",
+    "home": [
+      "Keep the area clean and dry today.",
+      "Wash gently with soap and water when your clinician says it is okay.",
+      "Do not scrub, pick, or dig at the wound."
+    ],
+    "meds": [
+      "Use antibiotic ointment, dressings, or pain medicine only if prescribed or recommended.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Fever, pus, spreading redness, red streaks, worsening warmth, or swelling.",
+      "Bleeding that will not stop with firm pressure.",
+      "New numbness, weakness, color change, worsening pain, or concern that something is stuck in the wound."
+    ],
+    "follow": "Follow up with primary care, urgent care, or the ED if the wound is not improving, if you were told to recheck, or if tetanus questions remain.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of superficial foot abrasion.",
+      "No deep wound, repair-needed laceration, tendon/nerve/vessel injury, retained foreign body, infection, bite, burn, diabetic foot, or specialist wound plan."
+    ],
+    "exclusion": [
+      "Deep wound, repair-needed laceration, bite wound, dirty wound, crush injury, burn or chemical wound, retained foreign body, tendon/nerve/vessel injury, wound infection, diabetic foot risk, pregnancy/pediatric pathway, or specialist-directed wound plan."
+    ],
+    "must_not_miss": [
+      "Infected wound.",
+      "Retained foreign body.",
+      "Tendon, nerve, or vascular injury.",
+      "Open fracture or joint violation."
+    ],
+    "unsafe_modifiers": [
+      "bite_wound",
+      "burn_or_chemical_wound",
+      "delayed_wound_presentation",
+      "dirty_wound",
+      "fever",
+      "high_pressure_injection_injury",
+      "immunocompromised",
+      "laceration_repair_needed",
+      "open_wound",
+      "pediatric_pathway",
+      "pregnancy",
+      "retained_foreign_body",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "specialist_directed_wound_plan",
+      "wound_infection_concern",
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "specialist_directed_podiatry_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_foot_abrasion_no_diabetic_foot_or_infection",
+        "terms": [
+          "clinician diagnosis foot abrasion",
+          "discharge diagnosis foot abrasion",
+          "foot abrasion diagnosed"
+        ]
+      },
+      {
+        "id": "no_deep_wound_or_infection_foot_abrasion_no_diabetic_foot_or_infection",
+        "terms": [
+          "superficial abrasion only",
+          "no infection",
+          "no deep wound",
+          "no debris concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis foot abrasion",
+      "foot abrasion diagnosed",
+      "foot abrasion"
+    ],
+    "source_audit_notes": "MedlinePlus supports cuts and puncture wound aftercare, keeping wounds clean, and escalation for infection, bleeding, retained foreign body, or deeper structure concerns. This expansion is limited to a clinician-diagnosed superficial abrasion without deep injury, infection, bite, burn, diabetic foot, pregnancy/pediatric, or specialist-directed wound pathways.",
+    "clinical_status": "reviewed_for_limited_foot_abrasion_no_diabetic_foot_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of superficial foot abrasion",
+      "superficial abrasion only",
+      "no infection",
+      "no deep wound or debris concern"
+    ],
+    "review_date": "2026-07-07"
+  }
+]

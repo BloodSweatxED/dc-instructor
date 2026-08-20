@@ -1,0 +1,108 @@
+[
+  {
+    "id": "phase701_contact_dermatitis_clean_reviewed_ontology",
+    "condition": "contact dermatitis",
+    "ed_note": "Clinician diagnosis contact dermatitis. Rash after new soap. No mucosal lesions airway swelling infection concern.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase702_poison_ivy_contact_dermatitis_reviewed_ontology",
+    "condition": "poison ivy dermatitis",
+    "ed_note": "Contact dermatitis diagnosed. Rash after poison ivy. No anaphylaxis infection or mucosal concern.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase703_contact_dermatitis_genital_location_blocks",
+    "condition": "contact dermatitis",
+    "ed_note": "Clinician diagnosis contact dermatitis. Rash after new soap. No infection concern. Genital rash.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "eye_or_genital_rash_location"
+    ]
+  },
+  {
+    "id": "phase704_contact_dermatitis_chemical_burn_blocks",
+    "condition": "contact dermatitis",
+    "ed_note": "Clinician diagnosis contact dermatitis. Rash after contact exposure. No mucosal lesions airway swelling infection concern. Chemical burn from cleaner.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "burn_or_chemical_wound"
+    ]
+  },
+  {
+    "id": "phase705_contact_dermatitis_immunocompromised_blocks",
+    "condition": "contact dermatitis",
+    "ed_note": "Clinician diagnosis contact dermatitis. Rash after new soap. No mucosal lesions airway swelling infection concern. Patient is on chemotherapy.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "immunocompromised"
+    ]
+  },
+  {
+    "id": "phase706_contact_dermatitis_target_lesions_blocks",
+    "condition": "contact dermatitis",
+    "ed_note": "Clinician diagnosis contact dermatitis. Rash after new soap. Target lesions and mouth sores.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction"
+    ]
+  },
+  {
+    "id": "phase707_contact_dermatitis_rapid_progression_blocks",
+    "condition": "contact dermatitis",
+    "ed_note": "Clinician diagnosis contact dermatitis. Rash after new soap. Rapidly spreading rash with no clear reassuring exam.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "rapid_progression"
+    ]
+  },
+  {
+    "id": "phase708_contact_dermatitis_occupational_modifier_reviewed",
+    "condition": "contact dermatitis",
+    "ed_note": "Clinician diagnosis contact dermatitis. Rash after contact exposure. No systemic allergic reaction or infection concern. Recurrent contact dermatitis at work from workplace exposure.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": null,
+    "expected_output_modifiers": [
+      "occupational_recurrent_contact_dermatitis"
+    ]
+  },
+  {
+    "id": "phase709_contact_dermatitis_frail_large_bsa_modifier_reviewed",
+    "condition": "contact dermatitis",
+    "ed_note": "Clinician diagnosis contact dermatitis. Rash after contact exposure. No systemic allergic reaction or infection concern. Elderly with large rash over a large body surface area.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": null,
+    "expected_output_modifiers": [
+      "frail_elderly_large_bsa_contact_dermatitis"
+    ]
+  },
+  {
+    "id": "phase710_broad_itchy_rash_no_match",
+    "condition": "itchy rash",
+    "ed_note": "Itchy rash after working outside. No mucosal lesions airway swelling infection concern.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase711_hives_route_still_preserved_after_contact_promotion",
+    "condition": "hives",
+    "ed_note": "Allergic reaction resolved no anaphylaxis. Symptoms improved. No airway swelling. No hypotension.",
+    "expected_phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase712_cellulitis_route_not_contact_dermatitis",
+    "condition": "cellulitis",
+    "ed_note": "Cellulitis diagnosed. Outpatient antibiotics prescribed. No sepsis. No necrotizing infection concern. Localized infection.",
+    "expected_phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
+    "expected_fallback_reason": "low_confidence"
+  }
+]

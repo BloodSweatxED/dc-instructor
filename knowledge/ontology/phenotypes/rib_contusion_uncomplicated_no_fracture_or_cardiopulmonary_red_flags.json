@@ -1,0 +1,135 @@
+{
+  "id": "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+  "label": "Uncomplicated rib contusion without fracture or cardiopulmonary red flags",
+  "status": "reviewed",
+  "condition_family": "msk",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated rib/chest wall contusion.",
+    "No fracture concern, pneumothorax/pulmonary injury concern, cardiac/PE concern, hypoxia, hemoptysis, syncope, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Fracture/dislocation concern, high-energy trauma, pneumothorax or pulmonary injury concern, hypoxia, hemoptysis, cardiac/PE concern, syncope, fever/systemic illness, severe pain, or unstable vitals.",
+    "Pregnancy/pediatric pathway or specialist-directed trauma/orthopedic plan."
+  ],
+  "must_not_miss": [
+    "Rib fracture.",
+    "Pneumothorax.",
+    "Pulmonary contusion.",
+    "Acute coronary syndrome mimic.",
+    "Pulmonary embolism mimic."
+  ],
+  "default_follow_up": "Follow up with primary care or urgent care if pain or breathing comfort is not improving.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.diagnosis.diagnosis_summary.v1",
+    "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.home_care.home_care_1.v1",
+    "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.home_care.home_care_2.v1",
+    "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.home_care.home_care_3.v1",
+    "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.medications.medication_guidance_1.v1",
+    "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.medications.medication_guidance_2.v1",
+    "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.return_precautions.return_precaution_1.v1",
+    "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.return_precautions.return_precaution_2.v1",
+    "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.return_precautions.return_precaution_3.v1",
+    "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.bruise"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports bruise/contusion framing, local care concepts, and escalation when bruising is severe, unusual, or associated with concerning symptoms. Autonomous Phase 2001-2100 approved this narrow v1 only for clinician-diagnosed rib/chest wall contusion without fracture concern, cardiopulmonary red flags, high-risk trauma, pregnancy/pediatric pathway, or specialist-directed plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "rib contusion",
+      "rib bruise",
+      "chest wall contusion",
+      "uncomplicated rib contusion"
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "high_energy_trauma",
+      "hypoxia",
+      "hemoptysis",
+      "cardiac_or_pe_chest_pain_concern",
+      "syncope_or_fainting",
+      "systemic_illness",
+      "severe_pain",
+      "unstable_vitals",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_rib_contusion",
+        "terms": [
+          "clinician diagnosis rib contusion",
+          "discharge diagnosis rib contusion",
+          "rib contusion diagnosed",
+          "rib bruise diagnosed",
+          "chest wall contusion diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_cardiopulmonary_red_flags_documented",
+        "terms": [
+          "no fracture concern",
+          "no shortness of breath",
+          "no hypoxia",
+          "no cardiac concern",
+          "no pe concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis rib contusion",
+      "rib contusion diagnosed",
+      "rib bruise diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-19",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports bruise/contusion framing, local care concepts, and escalation when bruising is severe, unusual, or associated with concerning symptoms. Autonomous Phase 2001-2100 approved this narrow v1 only for clinician-diagnosed rib/chest wall contusion without fracture concern, cardiopulmonary red flags, high-risk trauma, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_rib_contusion_without_fracture_or_cardiopulmonary_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated rib/chest wall contusion",
+      "no fracture concern, cardiopulmonary red flags, high-risk trauma, or specialist-directed plan documented"
+    ],
+    "blocked_modifiers": [
+      "fracture_or_dislocation_concern",
+      "high_energy_trauma",
+      "hypoxia",
+      "hemoptysis",
+      "cardiac_or_pe_chest_pain_concern",
+      "syncope_or_fainting",
+      "systemic_illness",
+      "severe_pain",
+      "unstable_vitals",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+}

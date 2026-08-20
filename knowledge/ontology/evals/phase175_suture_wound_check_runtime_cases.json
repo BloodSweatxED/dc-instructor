@@ -1,0 +1,36 @@
+[
+  {
+    "id": "phase175_suture_clean_reviewed_ontology",
+    "condition": "suture removal wound check",
+    "ed_note": "Clinician documented wound healing as expected. Wound schedule documented. No wound red flags documented.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase175_suture_missing_readiness_blocks",
+    "condition": "suture removal wound check",
+    "ed_note": "No wound red flags documented.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_documented_expected_healing_or_clearance"
+    ]
+  },
+  {
+    "id": "phase175_suture_missing_red_flags_context_blocks",
+    "condition": "suture removal wound check",
+    "ed_note": "Clinician documented wound healing as expected.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "structured_absence_of_wound_red_flags"
+    ]
+  },
+  {
+    "id": "phase175_broad_wound_check_no_match",
+    "condition": "wound check",
+    "ed_note": "Broad wound check without clinician readiness documentation.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "phase151_broad_headache_no_match",
+    "condition": "headache",
+    "ed_note": "Chief complaint headache. No final migraine diagnosis and no structured red-flag clearance.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase151_broad_severe_headache_no_match",
+    "condition": "severe headache",
+    "ed_note": "Chief complaint severe headache. No final migraine diagnosis and no structured red-flag clearance.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase151_broad_ear_pain_no_match",
+    "condition": "ear pain",
+    "ed_note": "Chief complaint ear pain. No final otitis externa diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase151_broad_ear_drainage_no_match",
+    "condition": "ear drainage",
+    "ed_note": "Chief complaint ear drainage. No final otitis externa diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase151_broad_bleeding_no_match",
+    "condition": "bleeding",
+    "ed_note": "Chief complaint bleeding. No final epistaxis diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase151_broad_nasal_bleeding_no_match",
+    "condition": "nasal bleeding",
+    "ed_note": "Chief complaint nasal bleeding. No final resolved epistaxis diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase151_broad_red_eye_no_match",
+    "condition": "red eye",
+    "ed_note": "Chief complaint red eye. No final uncomplicated conjunctivitis diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase151_broad_eye_discharge_no_match",
+    "condition": "eye discharge",
+    "ed_note": "Chief complaint eye discharge. No final uncomplicated conjunctivitis diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase151_broad_abdominal_pain_no_match",
+    "condition": "abdominal pain",
+    "ed_note": "Chief complaint abdominal pain. No clinician-directed recheck plan and no structured reassuring-workup context.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase151_broad_belly_pain_no_match",
+    "condition": "belly pain",
+    "ed_note": "Chief complaint belly pain. No clinician-directed recheck plan and no structured reassuring-workup context.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase151_broad_chest_pain_no_match",
+    "condition": "chest pain",
+    "ed_note": "Chief complaint chest pain. No low-risk chest pain pathway and no negative ED workup context.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase151_broad_cough_no_match",
+    "condition": "cough",
+    "ed_note": "Chief complaint cough. No supported final respiratory diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase151_broad_dizziness_no_match",
+    "condition": "dizziness",
+    "ed_note": "Chief complaint dizziness. No supported reviewed ontology phenotype.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  }
+]

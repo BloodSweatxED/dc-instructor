@@ -1,0 +1,1957 @@
+[
+  {
+    "cluster_id": "diagnosis.anaphylaxis",
+    "section": "diagnosis",
+    "rank": 4,
+    "candidate_count": 4,
+    "safety_topics": [
+      "anaphylaxis",
+      "cardiac_red_flag"
+    ],
+    "flags": [
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "You fainted, but our evaluation shows no dangerous cause.",
+    "candidate_ids": [
+      "diagnosis.you_fainted_but_our_evaluation_shows_no_dangerous_cause",
+      "diagnosis.you_have_hives_raised_itchy_bumps_on_your_skin",
+      "diagnosis.you_have_strep_throat_a_throat_infection_caused_by_bacteria",
+      "diagnosis.your_sore_throat_is_caused_by_a_virus_not_strep_bacteria"
+    ]
+  },
+  {
+    "cluster_id": "diagnosis.cardiac_red_flag",
+    "section": "diagnosis",
+    "rank": 2,
+    "candidate_count": 2,
+    "safety_topics": [
+      "cardiac_red_flag"
+    ],
+    "flags": [
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "Chest pain not caused by your heart \u2014 tests showed your heart is healthy.",
+    "candidate_ids": [
+      "diagnosis.chest_pain_not_caused_by_your_heart_tests_showed_your_heart_is_healthy",
+      "diagnosis.you_have_high_blood_pressure_but_no_signs_of_organ_damage"
+    ]
+  },
+  {
+    "cluster_id": "diagnosis.dehydration",
+    "section": "diagnosis",
+    "rank": 1,
+    "candidate_count": 1,
+    "safety_topics": [
+      "dehydration"
+    ],
+    "flags": [],
+    "representative_text": "You likely have BPPV, a problem with tiny crystals in your inner ear that makes you dizzy when you move your head.",
+    "candidate_ids": [
+      "diagnosis.you_likely_have_bppv_a_problem_with_tiny_crystals_in_your_inner_ear_that"
+    ]
+  },
+  {
+    "cluster_id": "diagnosis.general",
+    "section": "diagnosis",
+    "rank": 14,
+    "candidate_count": 14,
+    "safety_topics": [],
+    "flags": [],
+    "representative_text": "Abdominal pain with no concerning cause found in the emergency department.",
+    "candidate_ids": [
+      "diagnosis.abdominal_pain_with_no_concerning_cause_found_in_the_emergency_departmen",
+      "diagnosis.nosebleed_that_has_stopped",
+      "diagnosis.tooth_pain_without_signs_of_a_serious_infection_spreading_in_your_mouth_",
+      "diagnosis.you_bumped_your_head_but_tests_show_your_brain_is_not_injured",
+      "diagnosis.you_came_to_the_ed_to_get_a_short_supply_of_your_regular_medicine_until_",
+      "diagnosis.you_had_a_cut_that_we_closed_with_stitches",
+      "diagnosis.you_had_a_migraine_headache_that_improved_with_treatment_in_the_emergenc",
+      "diagnosis.you_had_a_splinter_or_small_foreign_object_removed_from_your_skin_today",
+      "diagnosis.you_had_an_asthma_flare_up_that_is_now_better_after_treatment",
+      "diagnosis.you_had_low_blood_sugar_hypoglycemia_that_we_treated_and_resolved_in_the",
+      "diagnosis.you_had_pain_from_gallstones_blocking_the_bile_duct_in_your_gallbladder",
+      "diagnosis.you_sprained_your_ankle_the_ligaments_that_hold_your_ankle_bones_togethe",
+      "diagnosis.you_were_bitten_by_an_animal_and_we_are_giving_you_antibiotics_to_preven",
+      "diagnosis.your_heart_was_beating_fast_or_irregular_but_it_has_returned_to_normal_a"
+    ]
+  },
+  {
+    "cluster_id": "diagnosis.infection_progression",
+    "section": "diagnosis",
+    "rank": 1,
+    "candidate_count": 1,
+    "safety_topics": [
+      "infection_progression"
+    ],
+    "flags": [],
+    "representative_text": "You had a skin infection that formed a pocket of pus, which we drained today.",
+    "candidate_ids": [
+      "diagnosis.you_had_a_skin_infection_that_formed_a_pocket_of_pus_which_we_drained_to"
+    ]
+  },
+  {
+    "cluster_id": "diagnosis.medication_safety",
+    "section": "diagnosis",
+    "rank": 2,
+    "candidate_count": 2,
+    "safety_topics": [
+      "medication_safety"
+    ],
+    "flags": [
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "You had an allergic reaction that is now better.",
+    "candidate_ids": [
+      "diagnosis.you_had_an_allergic_reaction_that_is_now_better",
+      "diagnosis.you_have_a_kidney_stone_causing_pain"
+    ]
+  },
+  {
+    "cluster_id": "diagnosis.unsupported_diagnosis_certainty",
+    "section": "diagnosis",
+    "rank": 26,
+    "candidate_count": 26,
+    "safety_topics": [],
+    "flags": [
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "You have a bladder infection (also called a urinary tract infection or UTI).",
+    "candidate_ids": [
+      "diagnosis.you_have_a_bladder_infection_also_called_a_urinary_tract_infection_or_ut",
+      "diagnosis.you_have_a_concussion_a_mild_brain_injury_that_will_heal_with_rest_and_t",
+      "diagnosis.you_have_a_knee_sprain_with_no_broken_bones",
+      "diagnosis.you_have_a_lung_infection_called_pneumonia",
+      "diagnosis.you_have_a_muscle_strain_in_your_lower_back",
+      "diagnosis.you_have_a_scratch_on_the_clear_surface_of_your_eye_called_a_corneal_abr",
+      "diagnosis.you_have_a_shoulder_strain_which_means_the_muscles_or_tendons_in_your_sh",
+      "diagnosis.you_have_a_sinus_infection",
+      "diagnosis.you_have_a_tension_headache",
+      "diagnosis.you_have_a_tick_bite_without_signs_of_infection_or_lyme_disease_right_no",
+      "diagnosis.you_have_a_viral_infection_likely_the_flu_or_a_similar_illness",
+      "diagnosis.you_have_a_viral_upper_respiratory_infection_a_cold",
+      "diagnosis.you_have_a_wrist_sprain_with_no_broken_bones",
+      "diagnosis.you_have_acute_bronchitis_which_is_an_infection_of_the_breathing_tubes_i",
+      "diagnosis.you_have_an_ear_infection_in_your_middle_ear_the_space_behind_your_eardr",
+      "diagnosis.you_have_cellulitis_a_skin_infection_caused_by_bacteria",
+      "diagnosis.you_have_conjunctivitis_also_known_as_pink_eye_an_infection_or_inflammat",
+      "diagnosis.you_have_constipation_hard_dry_stools_that_are_difficult_to_pass",
+      "diagnosis.you_have_contact_dermatitis_which_is_a_skin_rash_caused_by_touching_some",
+      "diagnosis.you_have_covid_19_a_viral_infection_caused_by_the_coronavirus",
+      "diagnosis.you_have_gastroenteritis_which_means_your_stomach_and_intestines_are_inf",
+      "diagnosis.you_have_hemorrhoids_swollen_veins_around_your_anus_that_can_cause_bleed",
+      "diagnosis.you_have_scabies_which_is_a_skin_condition_caused_by_tiny_bugs_called_mi",
+      "diagnosis.you_have_stomach_irritation_also_called_gastritis_or_dyspepsia_that_is_c",
+      "diagnosis.you_have_swimmer_s_ear_an_infection_of_the_outer_ear_canal",
+      "diagnosis.your_blood_sugar_was_very_high_but_you_do_not_have_diabetic_ketoacidosis"
+    ]
+  },
+  {
+    "cluster_id": "what_we_found.anaphylaxis",
+    "section": "what_we_found",
+    "rank": 14,
+    "candidate_count": 14,
+    "safety_topics": [
+      "anaphylaxis",
+      "cardiac_red_flag",
+      "dehydration",
+      "infection_progression",
+      "medication_safety",
+      "respiratory_distress"
+    ],
+    "flags": [
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "Based on everything we found, this fainting episode was likely caused by dehydration, standing up too quickly, or a temporary drop in blood flow to your brain \u2014 not a heart or brain problem.",
+    "candidate_ids": [
+      "what_we_found.based_on_everything_we_found_this_fainting_episode_was_likely_caused_by_",
+      "what_we_found.the_good_news_is_that_strep_throat_responds_well_to_antibiotics",
+      "what_we_found.this_is_why_your_throat_hurts_and_you_may_have_fever_or_trouble_swallowi",
+      "what_we_found.we_checked_your_breathing_throat_and_blood_pressure_all_are_normal",
+      "what_we_found.we_checked_your_breathing_throat_and_blood_pressure_to_make_sure_this_wa",
+      "what_we_found.we_checked_your_nose_throat_lungs_and_oxygen_level_your_lungs_are_clear_",
+      "what_we_found.we_examined_your_throat_and_checked_for_signs_of_infection",
+      "what_we_found.we_reviewed_what_happened_before_you_fainted_examined_you_completely_che",
+      "what_we_found.you_came_in_with_a_sore_throat_and_we_examined_your_throat_and_did_a_tes",
+      "what_we_found.you_came_in_with_trouble_breathing_wheezing_and_chest_tightness",
+      "what_we_found.you_came_to_the_ed_with_fever_body_aches_fatigue_and_possibly_cough_or_s",
+      "what_we_found.you_had_swelling_itching_or_hives_from_something_your_body_reacted_to",
+      "what_we_found.you_had_throat_redness_and_pain_but_no_white_patches_or_swollen_glands_t",
+      "what_we_found.your_exam_showed_hives_only_with_no_swelling_of_your_face_or_throat_and_"
+    ]
+  },
+  {
+    "cluster_id": "what_we_found.cardiac_red_flag",
+    "section": "what_we_found",
+    "rank": 13,
+    "candidate_count": 13,
+    "safety_topics": [
+      "cardiac_red_flag",
+      "infection_progression",
+      "medication_safety",
+      "respiratory_distress"
+    ],
+    "flags": [
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "Based on your exam and these results, your chest pain is likely from muscle strain, stress, or irritation of the chest wall, not from blocked arteries or a heart attack.",
+    "candidate_ids": [
+      "what_we_found.based_on_your_exam_and_these_results_your_chest_pain_is_likely_from_musc",
+      "what_we_found.the_palpitations_you_felt_have_stopped",
+      "what_we_found.the_skin_showed_redness_warmth_and_swelling_consistent_with_a_bacterial_",
+      "what_we_found.we_checked_your_blood_pressure_several_times_today_and_it_was_elevated",
+      "what_we_found.we_checked_your_nose_blood_pressure_and_bleeding_risk",
+      "what_we_found.we_examined_you_and_did_not_find_any_signs_that_your_heart_kidneys_brain",
+      "what_we_found.we_found_tooth_decay_or_gum_irritation_causing_your_pain_but_no_signs_of",
+      "what_we_found.we_looked_at_the_tick_bite_area_on_your_skin_and_checked_for_redness_war",
+      "what_we_found.you_came_in_with_facial_pain_pressure_and_thick_nasal_drainage",
+      "what_we_found.you_do_not_have_chest_pain_shortness_of_breath_headache_or_other_worryin",
+      "what_we_found.you_reported_ear_pain_feeling_pressure_or_fullness_in_your_ear_and_decre",
+      "what_we_found.your_heart_rate_blood_pressure_and_ability_to_walk_were_normal",
+      "what_we_found.your_heart_rate_blood_pressure_and_oxygen_levels_are_normal"
+    ]
+  },
+  {
+    "cluster_id": "what_we_found.dehydration",
+    "section": "what_we_found",
+    "rank": 5,
+    "candidate_count": 5,
+    "safety_topics": [
+      "dehydration",
+      "medication_safety"
+    ],
+    "flags": [
+      "return_to_work_claim"
+    ],
+    "representative_text": "We also checked your blood and urine to make sure you did not have dangerous complications from high blood sugar.",
+    "candidate_ids": [
+      "what_we_found.we_also_checked_your_blood_and_urine_to_make_sure_you_did_not_have_dange",
+      "what_we_found.we_checked_your_urine_and_blood_and_imaging_showed_a_kidney_stone_in_you",
+      "what_we_found.you_may_have_a_headache_and_feel_tired_or_dizzy_for_a_few_days_but_your_",
+      "what_we_found.your_blood_work_urine_test_and_physical_exam_showed_no_signs_of_infectio",
+      "what_we_found.your_urine_test_showed_signs_of_infection"
+    ]
+  },
+  {
+    "cluster_id": "what_we_found.exact_follow_up_interval",
+    "section": "what_we_found",
+    "rank": 2,
+    "candidate_count": 2,
+    "safety_topics": [],
+    "flags": [
+      "exact_follow_up_interval"
+    ],
+    "representative_text": "Most sinus infections are caused by viruses, so antibiotics won't help\u2014your body will fight this off on its own over the next 7-10 days.",
+    "candidate_ids": [
+      "what_we_found.most_sinus_infections_are_caused_by_viruses_so_antibiotics_won_t_help_yo",
+      "what_we_found.this_type_of_injury_usually_heals_on_its_own_within_2_3_days_because_the"
+    ]
+  },
+  {
+    "cluster_id": "what_we_found.general",
+    "section": "what_we_found",
+    "rank": 101,
+    "candidate_count": 101,
+    "safety_topics": [],
+    "flags": [],
+    "representative_text": "All tests came back normal \u2014 your heart muscle is not damaged and your heart rhythm is regular.",
+    "candidate_ids": [
+      "what_we_found.all_tests_came_back_normal_your_heart_muscle_is_not_damaged_and_your_hea",
+      "what_we_found.because_you_are_breathing_well_and_your_oxygen_level_is_normal_you_can_r",
+      "what_we_found.during_your_exam_we_looked_inside_your_ear_and_found_the_ear_canal_was_r",
+      "what_we_found.everything_looked_normal",
+      "what_we_found.nosebleeds_are_common_and_usually_happen_when_the_inside_of_your_nose_ge",
+      "what_we_found.the_bleeding_has_stopped_and_your_blood_vessels_look_healthy",
+      "what_we_found.the_constipation_is_from_a_combination_of_not_enough_fiber_not_enough_wa",
+      "what_we_found.the_cut_was_deep_enough_to_need_stitches_to_help_it_heal_properly_and_re",
+      "what_we_found.the_location_and_appearance_of_the_rash_match_contact_dermatitis",
+      "what_we_found.the_pain_you_are_feeling_is_real_but_we_did_not_find_a_cause_that_needs_",
+      "what_we_found.the_pain_you_felt_happened_when_a_stone_temporarily_blocked_the_bile_duc",
+      "what_we_found.the_scratch_on_your_cornea_causes_pain_tearing_and_sensitivity_to_light",
+      "what_we_found.the_wound_shows_signs_that_it_could_get_infected_because_of_the_type_of_",
+      "what_we_found.the_x_rays_show_no_fractures",
+      "what_we_found.there_were_no_signs_that_the_infection_has_spread_deeper_or_into_your_bl",
+      "what_we_found.these_findings_confirm_swimmer_s_ear_which_happens_when_water_or_moistur",
+      "what_we_found.these_findings_match_uncomplicated_hemorrhoids",
+      "what_we_found.these_findings_together_show_a_middle_ear_infection_which_happens_when_f",
+      "what_we_found.this_happened_because_your_diabetes_is_not_well_controlled_at_this_time",
+      "what_we_found.this_happens_when_mites_spread_from_close_contact_with_someone_else_who_",
+      "what_we_found.this_means_a_virus_is_causing_your_symptoms_and_antibiotics_will_not_hel",
+      "what_we_found.this_pattern_points_to_bppv_where_small_calcium_pieces_in_your_ear_move_",
+      "what_we_found.we_are_giving_you_enough_medicine_to_last_until_you_can_follow_up_with_y",
+      "what_we_found.we_checked_how_you_are_thinking_moving_and_seeing",
+      "what_we_found.we_checked_that_this_medicine_is_safe_for_you_and_that_stopping_it_sudde",
+      "what_we_found.we_checked_your_belly_by_examining_you_and_running_tests_to_look_for_ser",
+      "what_we_found.we_checked_your_belly_drew_blood_and_did_an_ultrasound",
+      "what_we_found.we_checked_your_blood_sugar_and_found_it_was_too_low",
+      "what_we_found.we_checked_your_blood_sugar_and_it_was_higher_than_normal",
+      "what_we_found.we_checked_your_heart_rhythm_with_an_ekg_which_showed_a_normal_pattern",
+      "what_we_found.we_checked_your_heart_with_an_ekg_blood_tests_and_monitored_you_in_the_e",
+      "what_we_found.we_checked_your_oxygen_level_and_vital_signs_and_everything_looked_good",
+      "what_we_found.we_checked_your_strength_reflexes_and_ability_to_move_your_legs_all_norm",
+      "what_we_found.we_checked_your_vital_signs_examined_your_abdomen_and_reviewed_your_symp",
+      "what_we_found.we_checked_your_vital_signs_examined_your_head_neck_eyes_and_nervous_sys",
+      "what_we_found.we_checked_your_vital_signs_examined_your_nervous_system_and_eyes_and_fo",
+      "what_we_found.we_cleaned_the_wound_thoroughly_and_decided_you_need_antibiotics_to_stop",
+      "what_we_found.we_examined_it_and_found_it_was_an_abscess_a_collection_of_infection_tha",
+      "what_we_found.we_examined_the_area_where_the_splinter_entered_your_skin_we_removed_the",
+      "what_we_found.we_examined_the_infected_area_and_checked_your_vital_signs",
+      "what_we_found.we_examined_you_and_checked_your_vital_signs",
+      "what_we_found.we_examined_you_carefully_and_checked_how_your_brain_is_working",
+      "what_we_found.we_examined_your_ankle_and_checked_how_it_moves",
+      "what_we_found.we_examined_your_bite_wound_and_asked_about_how_the_bite_happened",
+      "what_we_found.we_examined_your_knee_and_checked_how_it_moves_and_bends",
+      "what_we_found.we_examined_your_mouth_teeth_gums_and_neck",
+      "what_we_found.we_examined_your_rectal_area_and_reviewed_your_symptoms",
+      "what_we_found.we_examined_your_shoulder_and_checked_how_well_you_can_move_it",
+      "what_we_found.we_examined_your_skin_and_looked_at_the_pattern_of_your_rash",
+      "what_we_found.we_examined_your_skin_and_saw_signs_that_match_scabies",
+      "what_we_found.we_examined_your_wound_and_cleaned_it_thoroughly",
+      "what_we_found.we_examined_your_wrist_and_checked_how_well_you_could_move_it",
+      "what_we_found.we_gave_you_medicine_to_stop_the_reaction_and_your_symptoms_improved_bef",
+      "what_we_found.we_gave_you_sugar_by_mouth_or_through_an_iv_and_your_blood_sugar_came_ba",
+      "what_we_found.we_listened_to_your_lungs_checked_your_oxygen_level_and_gave_you_breathi",
+      "what_we_found.we_listened_to_your_lungs_checked_your_oxygen_level_and_reviewed_your_sy",
+      "what_we_found.we_looked_at_your_eyes_and_tested_your_balance",
+      "what_we_found.we_talked_with_you_about_your_bowel_habits_examined_your_belly_and_check",
+      "what_we_found.we_tested_for_strep_bacteria_and_the_test_was_negative",
+      "what_we_found.we_took_an_x_ray_to_make_sure_no_bones_are_broken",
+      "what_we_found.we_took_x_rays_of_your_knee_to_look_for_broken_bones",
+      "what_we_found.we_took_x_rays_of_your_wrist_which_showed_no_fractures_or_breaks",
+      "what_we_found.we_took_x_rays_that_show_your_bones_are_not_broken",
+      "what_we_found.you_came_in_with_a_severe_headache_on_one_side_of_your_head_with_nausea_",
+      "what_we_found.you_came_in_with_burning_when_you_urinate_needing_to_urinate_frequently_",
+      "what_we_found.you_came_in_with_dizziness_that_happens_when_you_turn_your_head_or_chang",
+      "what_we_found.you_came_in_with_lower_back_pain_after_lifting_or_moving_in_a_way_that_s",
+      "what_we_found.you_came_in_with_pain_in_the_right_upper_part_of_your_belly_that_sometim",
+      "what_we_found.you_came_in_with_sudden_pain_in_your_side_or_back_often_spreading_to_you",
+      "what_we_found.you_came_to_the_ed_with_a_headache",
+      "what_we_found.you_came_to_the_ed_with_raised_red_itchy_bumps_on_your_skin",
+      "what_we_found.you_came_to_the_emergency_department_with_a_nosebleed",
+      "what_we_found.you_came_to_the_emergency_department_with_tooth_pain",
+      "what_we_found.you_came_to_the_emergency_department_with_vomiting_and_diarrhea_that_sta",
+      "what_we_found.you_felt_better_once_your_blood_sugar_improved",
+      "what_we_found.you_hit_your_head_and_now_have_symptoms_like_headache_dizziness_nausea_o",
+      "what_we_found.you_may_have_noticed_bright_red_blood_on_toilet_paper_itching_or_pain_wi",
+      "what_we_found.you_told_us_you_ran_out_of_a_medicine_you_take_every_day_and_could_not_g",
+      "what_we_found.your_airway_is_clear_and_you_can_swallow_normally",
+      "what_we_found.your_blood_tests_and_exam_show_no_signs_of_infection_or_inflammation_in_",
+      "what_we_found.your_body_is_fighting_this_infection_and_oral_antibiotics_will_help_clea",
+      "what_we_found.your_breathing_improved_with_treatment_and_your_oxygen_level_is_normal",
+      "what_we_found.your_eardrum_looked_normal_behind_the_infection",
+      "what_we_found.your_exam_and_test_results_show_that_while_your_sugar_is_elevated_you_ar",
+      "what_we_found.your_exam_showed_tenderness_in_your_upper_stomach_area_but_no_signs_of_s",
+      "what_we_found.your_exam_showed_tenderness_over_your_sinuses_and_colored_mucus_which_ar",
+      "what_we_found.your_exam_showed_that_certain_head_movements_trigger_short_bursts_of_spi",
+      "what_we_found.your_exam_showed_typical_signs_of_a_viral_illness",
+      "what_we_found.your_exam_shows_no_signs_of_blockage_or_other_urgent_problems",
+      "what_we_found.your_exam_shows_no_signs_of_infection_or_illness_from_the_tick_at_this_t",
+      "what_we_found.your_exam_shows_signs_of_a_concussion_but_no_signs_of_bleeding_or_seriou",
+      "what_we_found.your_exam_shows_you_are_currently_hydrated_enough_to_recover_at_home",
+      "what_we_found.your_eyes_appear_red_and_irritated_with_discharge",
+      "what_we_found.your_headache_matches_the_pattern_of_a_tension_headache_which_comes_from",
+      "what_we_found.your_heart_rhythm_looks_good_and_your_blood_tests_came_back_normal",
+      "what_we_found.your_lungs_are_clear_without_signs_of_pneumonia",
+      "what_we_found.your_pain_and_limited_motion_are_from_injured_soft_tissues_muscles_and_t",
+      "what_we_found.your_symptoms_match_a_migraine_pattern_and_you_got_better_with_the_medic",
+      "what_we_found.your_test_for_covid_19_came_back_positive",
+      "what_we_found.your_vital_signs_and_basic_testing_did_not_show_signs_of_bacterial_infec",
+      "what_we_found.your_vital_signs_were_stable_and_your_physical_exam_was_normal"
+    ]
+  },
+  {
+    "cluster_id": "what_we_found.infection_progression",
+    "section": "what_we_found",
+    "rank": 12,
+    "candidate_count": 12,
+    "safety_topics": [
+      "infection_progression",
+      "neurologic_red_flag",
+      "respiratory_distress"
+    ],
+    "flags": [
+      "negative_imaging_claim",
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "The bite looks clean without spreading redness (called erythema migrans).",
+    "candidate_ids": [
+      "what_we_found.the_bite_looks_clean_without_spreading_redness_called_erythema_migrans",
+      "what_we_found.the_pain_and_swelling_come_from_stretched_or_torn_ligaments_which_are_th",
+      "what_we_found.the_pain_and_swelling_you_have_come_from_injured_ligaments_on_the_outsid",
+      "what_we_found.we_examined_your_ears_and_found_redness_and_fluid_behind_your_eardrum",
+      "what_we_found.we_numbed_the_area_made_a_small_cut_drained_the_pus_out_and_packed_the_w",
+      "what_we_found.you_came_in_with_cough_fever_and_trouble_breathing_we_listened_to_your_l",
+      "what_we_found.you_came_in_with_itching_that_got_worse_at_night_and_a_rash_in_areas_lik",
+      "what_we_found.you_came_to_the_emergency_department_with_symptoms_like_fever_cough_body",
+      "what_we_found.you_had_a_swollen_painful_area_of_skin_with_pus_underneath",
+      "what_we_found.you_injured_your_wrist_and_had_pain_and_swelling",
+      "what_we_found.your_cough_and_chest_discomfort_come_from_irritation_and_swelling_in_you",
+      "what_we_found.your_pain_and_swelling_are_from_stretched_or_torn_ligaments_which_are_th"
+    ]
+  },
+  {
+    "cluster_id": "what_we_found.medication_safety",
+    "section": "what_we_found",
+    "rank": 4,
+    "candidate_count": 4,
+    "safety_topics": [
+      "medication_safety"
+    ],
+    "flags": [
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "The pain happens when the stone moves through the narrow tube from your kidney to your bladder.",
+    "candidate_ids": [
+      "what_we_found.the_pain_happens_when_the_stone_moves_through_the_narrow_tube_from_your_",
+      "what_we_found.this_happens_when_your_skin_touches_something_that_triggers_irritation_o",
+      "what_we_found.you_have_no_signs_of_infection_or_kidney_damage",
+      "what_we_found.your_exam_and_vital_signs_were_normal_which_tells_us_this_infection_is_o"
+    ]
+  },
+  {
+    "cluster_id": "what_we_found.negative_imaging_claim",
+    "section": "what_we_found",
+    "rank": 2,
+    "candidate_count": 2,
+    "safety_topics": [],
+    "flags": [
+      "negative_imaging_claim"
+    ],
+    "representative_text": "The ultrasound showed gallstones in your gallbladder.",
+    "candidate_ids": [
+      "what_we_found.the_ultrasound_showed_gallstones_in_your_gallbladder",
+      "what_we_found.the_x_ray_was_normal_no_fractures_or_dislocations"
+    ]
+  },
+  {
+    "cluster_id": "what_we_found.neurologic_red_flag",
+    "section": "what_we_found",
+    "rank": 5,
+    "candidate_count": 5,
+    "safety_topics": [
+      "neurologic_red_flag"
+    ],
+    "flags": [],
+    "representative_text": "We checked your vision, examined your eyes carefully, and looked for signs of a more serious problem.",
+    "candidate_ids": [
+      "what_we_found.we_checked_your_vision_examined_your_eyes_carefully_and_looked_for_signs",
+      "what_we_found.we_examined_your_eye_carefully_and_checked_your_vision",
+      "what_we_found.we_numbed_the_area_irrigated_the_wound_to_remove_any_debris_and_closed_i",
+      "what_we_found.you_came_to_the_ed_with_symptoms_of_low_blood_sugar_like_shakiness_sweat",
+      "what_we_found.your_vision_is_normal_the_clear_front_part_of_your_eye_cornea_is_healthy"
+    ]
+  },
+  {
+    "cluster_id": "what_we_found.unsupported_diagnosis_certainty",
+    "section": "what_we_found",
+    "rank": 12,
+    "candidate_count": 12,
+    "safety_topics": [],
+    "flags": [
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "Based on these findings, you do not have a dangerous heart problem right now.",
+    "candidate_ids": [
+      "what_we_found.based_on_these_findings_you_do_not_have_a_dangerous_heart_problem_right_",
+      "what_we_found.based_on_your_symptoms_and_our_evaluation_you_have_inflammation_or_irrit",
+      "what_we_found.this_is_a_common_injury_that_usually_heals_well_with_rest_and_care_at_ho",
+      "what_we_found.this_is_a_muscle_injury_that_will_heal_with_time_and_home_care",
+      "what_we_found.this_is_a_reaction_your_body_is_having_to_something_you_touched_ate_or_w",
+      "what_we_found.this_is_causing_your_pain_nausea_or_upset_stomach",
+      "what_we_found.this_is_most_likely_caused_by_a_virus_that_will_get_better_on_its_own_in",
+      "what_we_found.this_is_simple_pink_eye_that_should_clear_up_in_the_next_few_days",
+      "what_we_found.this_means_you_have_a_mild_head_injury_without_serious_damage",
+      "what_we_found.this_was_an_asthma_flare_up_triggered_by_something_that_irritated_your_l",
+      "what_we_found.you_have_external_or_internal_hemorrhoids_that_are_not_trapped_or_severe",
+      "what_we_found.you_have_no_signs_of_nerve_damage_serious_spine_problems_or_infection"
+    ]
+  },
+  {
+    "cluster_id": "home_care.anaphylaxis",
+    "section": "home_care",
+    "rank": 11,
+    "candidate_count": 11,
+    "safety_topics": [
+      "anaphylaxis",
+      "cardiac_red_flag",
+      "infection_progression",
+      "medication_safety"
+    ],
+    "flags": [
+      "medication_dosing"
+    ],
+    "representative_text": "Avoid hot showers or baths for 24 hours \u2014 heat can bring hives back.",
+    "candidate_ids": [
+      "home_care.avoid_hot_showers_or_baths_for_24_hours_heat_can_bring_hives_back",
+      "home_care.avoid_hot_water_tight_clothing_and_scratching_these_make_hives_worse",
+      "home_care.drink_plenty_of_fluids_aim_for_8_glasses_of_water_per_day_to_keep_your_t",
+      "home_care.drink_plenty_of_fluids_water_warm_tea_with_honey_or_cold_drinks_all_help",
+      "home_care.gargle_warm_salt_water_1_teaspoon_salt_in_8_ounces_warm_water_3_4_times_",
+      "home_care.gargle_with_warm_salt_water_1_2_teaspoon_salt_in_8_ounces_of_warm_water_",
+      "home_care.gargle_with_warm_salt_water_1_teaspoon_salt_in_8_ounces_warm_water_3_4_t",
+      "home_care.if_you_know_what_caused_your_hives_food_medication_soap_lotion_avoid_it_",
+      "home_care.keep_your_home_cool_heat_and_sweating_can_trigger_more_hives",
+      "home_care.suck_on_throat_lozenges_or_hard_candy_to_ease_throat_pain",
+      "home_care.take_photos_of_your_hives_each_day_to_track_if_they_are_getting_better_o"
+    ]
+  },
+  {
+    "cluster_id": "home_care.cardiac_red_flag",
+    "section": "home_care",
+    "rank": 23,
+    "candidate_count": 23,
+    "safety_topics": [
+      "cardiac_red_flag",
+      "infection_progression",
+      "neurologic_red_flag"
+    ],
+    "flags": [
+      "exact_follow_up_interval",
+      "medication_dosing",
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "Add extra salt to your meals for the next few days unless you have high blood pressure",
+    "candidate_ids": [
+      "home_care.add_extra_salt_to_your_meals_for_the_next_few_days_unless_you_have_high_",
+      "home_care.after_2_3_days_you_can_use_heat_warm_shower_heating_pad_if_it_feels_bett",
+      "home_care.after_3_days_start_gentle_movement_lift_your_arm_forward_and_to_the_side",
+      "home_care.apply_a_warm_compress_or_heating_pad_on_low_setting_to_the_outside_of_yo",
+      "home_care.apply_a_warm_compress_or_heating_pad_to_the_back_of_your_neck_and_should",
+      "home_care.apply_a_warm_damp_cloth_over_your_cheeks_and_nose_for_10_minutes_several",
+      "home_care.apply_a_warm_dry_compress_to_the_outside_of_your_ear_for_10_15_minutes_2",
+      "home_care.apply_a_warm_moist_compress_to_the_area_for_15_minutes_three_times_daily",
+      "home_care.ask_your_doctor_s_office_to_send_your_prescription_to_your_pharmacy_so_y",
+      "home_care.check_your_blood_pressure_at_home_twice_a_day_morning_and_evening_for_th",
+      "home_care.drink_8_10_glasses_of_water_broth_or_warm_tea_each_day_to_thin_mucus",
+      "home_care.drink_plenty_of_fluids_water_warm_tea_broth_at_least_8_glasses_a_day_to_",
+      "home_care.gently_massage_your_temples_jaw_and_neck_muscles",
+      "home_care.if_the_bite_is_on_your_hand_or_arm_keep_it_raised_above_your_heart_when_",
+      "home_care.keep_a_log_if_palpitations_happen_again_write_down_date_time_how_long_th",
+      "home_care.rinse_your_mouth_gently_with_warm_salt_water_3_4_times_per_day_especiall",
+      "home_care.set_a_phone_alarm_to_remind_you_to_take_your_medicine_if_you_sometimes_f",
+      "home_care.sleep_with_a_pillow_under_your_arm_or_hugging_a_pillow_to_keep_your_shou",
+      "home_care.soak_your_bottom_in_warm_water_for_10_15_minutes_3_4_times_per_day_espec",
+      "home_care.use_a_clean_warm_damp_washcloth_to_gently_wipe_away_discharge_from_your_",
+      "home_care.use_ice_or_heat_ice_packs_for_15_minutes_at_a_time_in_the_first_2_days_h",
+      "home_care.wash_the_bite_area_with_soap_and_warm_water_2_times_every_day",
+      "home_care.watch_the_area_around_the_bite_for_redness_warmth_swelling_pus_or_red_st"
+    ]
+  },
+  {
+    "cluster_id": "home_care.dehydration",
+    "section": "home_care",
+    "rank": 6,
+    "candidate_count": 6,
+    "safety_topics": [
+      "dehydration",
+      "infection_progression",
+      "medication_safety"
+    ],
+    "flags": [
+      "source_needed"
+    ],
+    "representative_text": "Avoid dehydration \u2014 drink extra water if you exercise or sweat.",
+    "candidate_ids": [
+      "home_care.avoid_dehydration_drink_extra_water_if_you_exercise_or_sweat",
+      "home_care.avoid_holding_your_urine_go_to_the_bathroom_when_you_feel_the_urge",
+      "home_care.drink_8_10_glasses_of_water_or_clear_fluids_daily_to_prevent_dehydration",
+      "home_care.drink_8_glasses_of_water_every_day_dehydration_makes_migraines_worse",
+      "home_care.if_you_feel_dizzy_or_lightheaded_sit_or_lie_down_right_away_with_your_le",
+      "home_care.strain_your_urine_through_a_coffee_filter_or_tea_strainer_when_you_pee_s"
+    ]
+  },
+  {
+    "cluster_id": "home_care.exact_follow_up_interval",
+    "section": "home_care",
+    "rank": 26,
+    "candidate_count": 26,
+    "safety_topics": [],
+    "flags": [
+      "exact_follow_up_interval",
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "After 2-3 days, start gentle wrist movements \u2014 slow circles and bending up and down \u2014 if pain allows.",
+    "candidate_ids": [
+      "home_care.after_2_3_days_start_gentle_wrist_movements_slow_circles_and_bending_up_",
+      "home_care.after_2_days_start_gentle_knee_bending_and_straightening_exercises_2_3_t",
+      "home_care.after_3_days_you_can_leave_it_uncovered_if_it_stays_clean_and_dry",
+      "home_care.cover_the_wound_with_a_clean_bandage_for_the_first_2_3_days_changing_it_",
+      "home_care.do_not_blow_your_nose_hard_for_3_days_dab_gently_with_a_tissue_if_needed",
+      "home_care.eat_small_bland_meals_for_the_next_2_3_days_rice_toast_bananas_applesauc",
+      "home_care.elevate_your_ankle_prop_your_ankle_above_the_level_of_your_heart_when_si",
+      "home_care.expect_loose_stools_for_3_5_days_this_is_normal_as_your_body_clears_the_",
+      "home_care.gentle_stretching_when_the_sharp_pain_eases_usually_2_3_days_start_gentl",
+      "home_care.keep_your_ear_completely_dry_for_the_next_7_10_days_no_swimming_no_dunki",
+      "home_care.no_heavy_lifting_over_20_pounds_for_3_days",
+      "home_care.no_lifting_more_than_5_pounds_for_1_week_then_slowly_increase_what_you_l",
+      "home_care.no_running_jumping_or_sports_for_2_4_weeks_or_until_you_can_walk_and_sta",
+      "home_care.put_a_thin_layer_of_petroleum_jelly_like_vaseline_just_inside_each_nostr",
+      "home_care.put_items_you_cannot_wash_like_stuffed_animals_or_shoes_in_sealed_plasti",
+      "home_care.rest_as_much_as_possible_for_the_next_3_5_days_while_your_body_fights_th",
+      "home_care.rest_as_much_as_possible_for_the_next_7_10_days_while_your_body_fights_t",
+      "home_care.rest_your_ankle_keep_weight_off_it_as_much_as_possible_for_the_first_2_3",
+      "home_care.rest_your_voice_as_much_as_possible_for_the_next_2_3_days",
+      "home_care.start_light_activity_on_day_3_if_you_feel_better_short_walks_then_slowly",
+      "home_care.take_pictures_of_the_bite_area_every_2_3_days_for_the_next_month_so_you_",
+      "home_care.the_itching_may_last_2_to_4_weeks_even_after_the_mites_are_dead_this_is_",
+      "home_care.wash_all_sheets_pillowcases_towels_and_clothes_you_used_in_the_past_3_da",
+      "home_care.wash_the_bite_area_with_soap_and_water_twice_daily_for_the_next_3_days",
+      "home_care.wear_the_splint_or_wrap_we_gave_you_for_3_5_days_removing_it_only_to_ice",
+      "home_care.you_can_return_to_normal_activity_when_your_energy_comes_back_usually_5_"
+    ]
+  },
+  {
+    "cluster_id": "home_care.general",
+    "section": "home_care",
+    "rank": 171,
+    "candidate_count": 168,
+    "safety_topics": [],
+    "flags": [],
+    "representative_text": "Get 7-8 hours of sleep each night",
+    "candidate_ids": [
+      "home_care.get_7_8_hours_of_sleep_each_night",
+      "home_care.use_a_cool_mist_humidifier_in_your_bedroom_at_night",
+      "home_care.add_high_fiber_foods_whole_grain_bread_oatmeal_prunes_apples_carrots_bea",
+      "home_care.add_more_fiber_to_your_meals_fruits_vegetables_whole_grains_beans",
+      "home_care.after_24_hours_you_can_shower_and_gently_pat_the_area_dry_with_a_clean_t",
+      "home_care.after_4_6_hours_without_vomiting_add_bland_foods_like_crackers_toast_ric",
+      "home_care.after_removing_the_packing_wash_the_wound_twice_a_day_with_soap_and_wate",
+      "home_care.always_carry_a_fast_acting_sugar_source_like_glucose_tablets_juice_or_ha",
+      "home_care.apply_a_cold_pack_to_your_forehead_or_back_of_your_neck_for_15_minutes_w",
+      "home_care.apply_a_cold_pack_wrapped_in_a_towel_to_the_outside_of_your_cheek_for_15",
+      "home_care.apply_a_heating_pad_to_your_belly_on_low_setting_for_15_20_minutes_at_a_",
+      "home_care.apply_an_ice_pack_wrapped_in_a_towel_for_10_minutes_every_few_hours_toda",
+      "home_care.ask_someone_to_wake_you_every_3_4_hours_tonight_to_check_on_you_they_sho",
+      "home_care.brush_your_teeth_gently_twice_daily_with_a_soft_toothbrush",
+      "home_care.call_your_doctor_s_office_today_or_tomorrow_to_schedule_an_appointment",
+      "home_care.change_the_bandage_daily_or_whenever_it_gets_wet_or_dirty",
+      "home_care.check_your_blood_sugar_before_each_meal_and_at_bedtime_write_down_every_",
+      "home_care.choose_lean_meats_fish_fruits_vegetables_and_whole_grains",
+      "home_care.cover_the_wound_with_a_clean_bandage_after_each_cleaning_until_it_stops_",
+      "home_care.do_not_cover_the_wound_with_a_tight_bandage_let_air_reach_it_or_use_a_lo",
+      "home_care.do_not_drive_for_24_hours",
+      "home_care.do_not_eat_within_3_hours_of_bedtime",
+      "home_care.do_not_pick_at_any_scab_that_forms_let_it_fall_off_on_its_own",
+      "home_care.do_not_pick_or_scratch_inside_your_nose",
+      "home_care.do_not_put_cotton_swabs_or_anything_else_inside_your_ear_canal",
+      "home_care.do_not_put_q_tips_fingers_or_any_objects_into_your_ear",
+      "home_care.do_not_scratch_itchy_areas_pat_them_gently_or_apply_a_cool_damp_cloth_fo",
+      "home_care.do_not_scrub_pick_at_or_remove_the_stitches_yourself",
+      "home_care.do_not_skip_meals_or_your_diabetes_medications",
+      "home_care.do_not_soak_the_area_in_a_bathtub_hot_tub_or_pool_until_the_wound_has_co",
+      "home_care.do_not_soak_the_wound_in_bath_water_pools_or_hot_tubs_until_it_is_fully_",
+      "home_care.do_not_strain_when_you_use_the_bathroom_if_you_cannot_go_easily_stop_try",
+      "home_care.do_not_use_tobacco_or_drink_alcohol_until_you_see_a_dentist",
+      "home_care.do_not_wear_contact_lenses_until_your_eye_is_completely_healed_and_pain_",
+      "home_care.do_not_wear_contact_lenses_until_your_eyes_are_completely_better_and_hav",
+      "home_care.drink_6_8_glasses_of_water_every_day_to_keep_stools_soft",
+      "home_care.drink_6_to_8_glasses_of_water_each_day",
+      "home_care.drink_8_10_glasses_of_water_daily_more_if_you_exercise_or_it_s_hot_outsi",
+      "home_care.drink_8_10_glasses_of_water_daily_to_help_loosen_mucus",
+      "home_care.drink_8_10_glasses_of_water_each_day_to_help_loosen_mucus_in_your_lungs",
+      "home_care.drink_8_10_glasses_of_water_every_day_to_help_flush_out_the_infection",
+      "home_care.drink_8_glasses_of_water_every_day_to_stay_hydrated",
+      "home_care.drink_8_glasses_of_water_throughout_the_day",
+      "home_care.drink_8_glasses_of_water_today",
+      "home_care.drink_8_to_10_glasses_of_water_every_day_clear_liquids_count_too",
+      "home_care.drink_at_least_8_glasses_of_water_daily_to_help_your_body_fight_the_infe",
+      "home_care.drink_plenty_of_fluids_aim_for_8_10_glasses_of_water_or_clear_liquids_da",
+      "home_care.drink_plenty_of_water_aim_for_8_glasses_per_day",
+      "home_care.drink_plenty_of_water_throughout_the_day",
+      "home_care.drink_plenty_of_water_to_keep_mucus_thin",
+      "home_care.drink_water_normally",
+      "home_care.eat_meals_at_the_same_times_each_day_with_balanced_portions_of_protein_v",
+      "home_care.eat_regular_meals_every_4_5_hours_do_not_skip_meals_especially_breakfast",
+      "home_care.eat_small_frequent_meals_instead_of_3_large_meals",
+      "home_care.eat_smaller_meals_more_often_instead_of_large_meals",
+      "home_care.eat_soft_foods_if_swallowing_is_painful_soup_yogurt_applesauce_mashed_po",
+      "home_care.eat_soft_foods_like_soup_yogurt_or_applesauce_if_swallowing_hurts",
+      "home_care.eat_soft_foods_like_yogurt_mashed_potatoes_soup_and_scrambled_eggs_for_t",
+      "home_care.exercise_for_30_minutes_most_days_walking_counts",
+      "home_care.get_7_8_hours_of_sleep_each_night_and_keep_a_regular_sleep_schedule",
+      "home_care.give_yourself_time_on_the_toilet_without_rushing_especially_after_breakf",
+      "home_care.go_to_the_bathroom_when_you_first_feel_the_urge_don_t_hold_it",
+      "home_care.ice_your_shoulder_for_15_20_minutes_every_2_3_hours_for_the_first_48_hou",
+      "home_care.if_you_cannot_check_it_eat_or_drink_15_grams_of_fast_sugar_4_glucose_tab",
+      "home_care.if_you_feel_shaky_sweaty_or_confused_check_your_blood_sugar_right_away_i",
+      "home_care.if_you_smoke_now_is_a_good_time_to_quit_ask_your_doctor_for_help",
+      "home_care.if_you_take_other_medicines_keep_taking_those_as_usual",
+      "home_care.keep_a_regular_sleep_schedule_go_to_bed_and_wake_up_at_the_same_time_eve",
+      "home_care.keep_the_area_clean_and_dry_between_dressing_changes",
+      "home_care.keep_the_area_clean_and_dry_for_the_first_24_hours",
+      "home_care.keep_the_area_clean_and_dry_wash_gently_with_soap_and_water_once_daily",
+      "home_care.keep_the_area_out_of_direct_sunlight_for_several_weeks_to_prevent_dark_s",
+      "home_care.keep_the_rash_clean_and_dry",
+      "home_care.keep_the_wound_clean_and_dry_between_washings",
+      "home_care.keep_the_wound_dry_for_the_first_24_hours_no_swimming_baths_or_soaking",
+      "home_care.keep_water_out_of_your_ears_no_swimming_and_use_earplugs_or_cotton_with_",
+      "home_care.keep_windows_closed_if_pollen_or_air_quality_is_poor",
+      "home_care.keep_your_hands_clean_and_wash_them_before_touching_near_your_eye",
+      "home_care.keep_your_head_up_use_2_pillows_when_sleeping_for_the_next_2_nights",
+      "home_care.keep_your_leg_elevated_on_pillows_above_the_level_of_your_heart_when_sit",
+      "home_care.keep_your_medicine_in_the_same_place_every_day_so_you_remember_to_take_i",
+      "home_care.keep_your_wrist_elevated_above_your_heart_when_sitting_or_lying_down_pro",
+      "home_care.limit_alcohol_to_no_more_than_1_2_drinks_per_day",
+      "home_care.limit_alcohol_to_no_more_than_1_drink_per_day",
+      "home_care.limit_caffeine_to_1_cup_of_coffee_per_day_too_much_or_stopping_suddenly_",
+      "home_care.mark_the_date_of_the_tick_bite_on_your_calendar",
+      "home_care.move_slowly_when_getting_out_of_bed_standing_up_or_bending_over_for_the_",
+      "home_care.no_driving_until_your_headache_and_dizziness_are_gone",
+      "home_care.pat_dry_with_a_clean_towel_do_not_rub",
+      "home_care.practice_slow_deep_breathing_for_5_10_minutes_several_times_a_day",
+      "home_care.practice_slow_deep_breathing_when_you_feel_chest_tightness_sit_comfortab",
+      "home_care.put_ice_wrapped_in_a_towel_on_the_sore_spot_for_15_minutes_every_2_3_hou",
+      "home_care.reduce_stress_when_possible_stress_can_increase_stomach_acid",
+      "home_care.remove_the_packing_in_24_to_48_hours_you_can_do_this_at_home_by_gently_p",
+      "home_care.rest_as_much_as_you_need_your_body_heals_better_when_you_sleep",
+      "home_care.rest_at_home_for_the_first_24_hours_after_starting_antibiotics",
+      "home_care.rest_in_a_dark_quiet_room_when_you_feel_a_headache_starting",
+      "home_care.rest_in_a_quiet_dark_room_when_the_headache_is_bad",
+      "home_care.rest_when_you_feel_pain_but_walk_around_the_house_a_few_times_each_day_t",
+      "home_care.rest_when_you_feel_tired",
+      "home_care.rest_when_you_feel_tired_but_you_can_do_normal_activities_as_you_feel_ab",
+      "home_care.rest_when_you_feel_tired_to_help_your_body_heal",
+      "home_care.rest_your_body_no_sports_gym_running_or_activities_where_you_might_hit_y",
+      "home_care.rest_your_brain_for_the_first_24_48_hours_limit_screen_time_phone_tv_com",
+      "home_care.rest_your_eyes_by_limiting_screen_time_for_the_next_24_hours",
+      "home_care.return_to_normal_activities_gradually_when_you_can_grip_without_pain",
+      "home_care.return_to_normal_activity_slowly_over_the_next_week_as_pain_improves",
+      "home_care.rinse_your_nose_with_saline_spray_or_a_neti_pot_2_4_times_daily_to_flush",
+      "home_care.sleep_as_much_as_you_need_nap_during_the_day_if_you_feel_tired",
+      "home_care.sleep_position_try_lying_on_your_side_with_a_pillow_between_your_knees_o",
+      "home_care.sleep_propped_up_on_2_3_pillows_if_you_feel_short_of_breath_or_have_a_co",
+      "home_care.sleep_propped_up_on_2_3_pillows_to_make_breathing_easier",
+      "home_care.sleep_with_the_infected_ear_facing_up_to_help_drainage",
+      "home_care.sleep_with_your_head_elevated_on_2_3_pillows_if_that_feels_more_comforta",
+      "home_care.sleep_with_your_head_elevated_on_2_pillows_to_help_fluid_drain",
+      "home_care.sleep_with_your_head_elevated_on_2_pillows_to_help_your_sinuses_drain",
+      "home_care.sleep_with_your_head_raised_6_inches_use_extra_pillows_or_bed_blocks_und",
+      "home_care.sleep_with_your_head_raised_on_2_3_pillows_to_ease_coughing",
+      "home_care.sleep_with_your_head_raised_on_2_pillows_tonight",
+      "home_care.sleep_with_your_head_slightly_raised_on_2_pillows_tonight",
+      "home_care.start_with_small_sips_of_clear_liquids_every_15_30_minutes_water_ice_chi",
+      "home_care.stay_hydrated_drink_6_8_glasses_of_water_daily",
+      "home_care.stay_well_hydrated_drink_6_8_glasses_of_water_daily_to_help_thin_mucus",
+      "home_care.stop_any_energy_drinks_or_supplements_permanently",
+      "home_care.stop_using_any_new_soaps_lotions_detergents_or_cosmetics_until_the_rash_",
+      "home_care.take_cool_baths_or_apply_cool_wet_cloths_to_the_rash_for_15_20_minutes_s",
+      "home_care.take_cool_showers_or_apply_cool_wet_washcloths_to_itchy_areas_for_10_15_",
+      "home_care.take_deep_breaths_10_times_every_hour_while_awake_to_keep_your_lungs_cle",
+      "home_care.take_your_medicine_exactly_as_prescribed_do_not_skip_doses_or_take_extra",
+      "home_care.tell_people_you_live_with_and_anyone_you_had_close_physical_contact_with",
+      "home_care.throw_away_eye_makeup_you_used_while_infected_and_do_not_share_makeup_wi",
+      "home_care.track_what_you_ate_or_did_before_this_headache_started_to_find_your_trig",
+      "home_care.urinate_as_soon_as_you_feel_the_need_don_t_hold_it",
+      "home_care.urinate_right_after_sex_to_help_prevent_future_infections",
+      "home_care.use_a_cool_mist_humidifier_in_your_bedroom_at_night_if_the_air_is_dry",
+      "home_care.use_a_cool_mist_humidifier_in_your_room_to_help_with_cough_and_congestio",
+      "home_care.use_a_humidifier_or_breathe_steam_from_a_hot_shower_2_3_times_daily_to_l",
+      "home_care.use_a_humidifier_or_breathe_steam_from_a_hot_shower_to_ease_congestion",
+      "home_care.use_a_separate_bathroom_if_possible_or_clean_toilet_and_sink_with_disinf",
+      "home_care.use_crutches_if_walking_causes_sharp_pain_you_can_put_weight_on_your_leg",
+      "home_care.use_your_rescue_inhaler_albuterol_as_directed_below_when_you_feel_short_",
+      "home_care.vacuum_carpets_couches_and_your_mattress_then_throw_away_the_vacuum_bag_",
+      "home_care.wait_15_minutes_then_eat_a_small_snack_with_protein_like_cheese_and_crac",
+      "home_care.walk_for_15_20_minutes_after_meals_if_you_are_able",
+      "home_care.walk_for_20_30_minutes_daily_to_improve_blood_flow",
+      "home_care.walk_for_20_to_30_minutes_once_or_twice_daily_to_help_your_bowels_move",
+      "home_care.wash_the_affected_area_gently_with_cool_water_and_mild_soap_to_remove_an",
+      "home_care.wash_the_wound_gently_with_soap_and_water_once_daily_starting_tomorrow",
+      "home_care.wash_your_feet_daily_and_check_them_for_cuts_or_sores",
+      "home_care.wash_your_hands_before_and_after_touching_the_wound",
+      "home_care.wash_your_hands_often_and_clean_surfaces_you_touch_frequently",
+      "home_care.wash_your_hands_with_soap_and_water_for_at_least_20_seconds_before_and_a",
+      "home_care.wash_your_pillowcase_and_towels_every_day_in_hot_water",
+      "home_care.wear_a_mask_if_you_must_be_around_other_people_through_day_10",
+      "home_care.wear_loose_soft_clothing_if_your_skin_is_still_sensitive",
+      "home_care.wear_loose_soft_clothing_that_does_not_rub_your_skin",
+      "home_care.wear_loose_soft_cotton_clothing_over_the_affected_area",
+      "home_care.wear_sunglasses_outside_and_in_bright_indoor_light_to_reduce_discomfort",
+      "home_care.when_showering_place_a_cotton_ball_coated_with_petroleum_jelly_in_the_ou",
+      "home_care.when_you_stand_up_from_sitting_or_lying_down_do_it_slowly_sit_at_the_edg",
+      "home_care.wipe_front_to_back_after_using_the_bathroom",
+      "home_care.wipe_gently_with_soft_unscented_toilet_paper_or_use_flushable_wipes",
+      "home_care.you_can_drive_when_you_feel_steady_and_have_not_had_dizziness_for_24_hou",
+      "home_care.you_can_return_to_normal_activities_as_your_pain_allows",
+      "home_care.you_can_return_to_normal_activities_right_away",
+      "home_care.you_can_return_to_normal_activities_when_you_can_walk_without_limping_an",
+      "home_care.you_can_return_to_normal_activity_as_long_as_you_feel_well",
+      "home_care.you_can_use_a_cool_clean_washcloth_over_your_closed_eye_for_10_minutes_a"
+    ]
+  },
+  {
+    "cluster_id": "home_care.infection_progression",
+    "section": "home_care",
+    "rank": 26,
+    "candidate_count": 26,
+    "safety_topics": [
+      "infection_progression",
+      "medication_safety"
+    ],
+    "flags": [
+      "exact_follow_up_interval",
+      "return_to_work_claim",
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "Avoid alcohol, which can make itching worse",
+    "candidate_ids": [
+      "home_care.avoid_alcohol_which_can_make_itching_worse",
+      "home_care.avoid_bright_lights_and_loud_noises_if_they_make_your_headache_worse",
+      "home_care.avoid_foods_that_make_constipation_worse_cheese_white_bread_red_meat_fri",
+      "home_care.avoid_smoke_strong_smells_and_dry_air_which_can_make_sinus_irritation_wo",
+      "home_care.blow_your_nose_gently_one_side_at_a_time_blowing_hard_can_push_infection",
+      "home_care.do_not_smoke_smoking_makes_pneumonia_worse_and_slows_healing",
+      "home_care.drink_2_to_3_liters_of_water_every_day_8_to_12_cups_this_helps_push_the_",
+      "home_care.drink_8_glasses_of_water_each_day_sip_slowly_if_drinking_makes_the_pain_",
+      "home_care.ice_your_ankle_apply_ice_wrapped_in_a_towel_for_15_20_minutes_every_2_3_",
+      "home_care.ice_your_wrist_for_15_20_minutes_every_2_3_hours_for_the_first_2_days_to",
+      "home_care.if_you_smoke_stop_smoking_smoking_makes_stomach_irritation_worse",
+      "home_care.keep_the_infected_area_elevated_above_your_heart_as_much_as_possible_for",
+      "home_care.mark_the_edge_of_the_redness_with_a_pen_so_you_can_track_if_it_spreads",
+      "home_care.put_ice_on_your_knee_for_15_20_minutes_every_2_3_hours_for_the_first_2_d",
+      "home_care.rest_for_the_next_3_5_days_avoid_heavy_exercise_or_work_until_your_fever",
+      "home_care.rest_the_affected_area_avoid_heavy_use_until_redness_starts_fading",
+      "home_care.rest_your_chest_muscles_avoid_heavy_lifting_pushing_or_pulling_for_3_5_d",
+      "home_care.rest_your_shoulder_for_the_first_2_3_days_avoid_lifting_pushing_or_reach",
+      "home_care.rest_your_wrist_for_the_first_48_hours_avoid_using_it_for_gripping_lifti",
+      "home_care.return_to_normal_activities_slowly_over_1_2_weeks_if_symptoms_get_worse_",
+      "home_care.start_moving_gradually_after_2_3_days_begin_putting_weight_on_your_ankle",
+      "home_care.stay_active_bed_rest_makes_back_pain_worse_walk_around_the_house_every_1",
+      "home_care.stay_home_and_isolate_from_others_until_24_hours_after_your_fever_is_gon",
+      "home_care.stay_home_from_work_or_school_until_you_have_no_fever_for_24_hours_witho",
+      "home_care.track_when_the_pain_happens_and_what_makes_it_better_or_worse_write_this",
+      "home_care.use_a_cool_washcloth_on_your_forehead_if_fever_makes_you_uncomfortable"
+    ]
+  },
+  {
+    "cluster_id": "home_care.medication_dosing",
+    "section": "home_care",
+    "rank": 1,
+    "candidate_count": 1,
+    "safety_topics": [],
+    "flags": [
+      "medication_dosing"
+    ],
+    "representative_text": "Apply a heating pad on low setting for 15-20 minutes at a time to sore areas, up to 3 times a day",
+    "candidate_ids": [
+      "home_care.apply_a_heating_pad_on_low_setting_for_15_20_minutes_at_a_time_to_sore_a"
+    ]
+  },
+  {
+    "cluster_id": "home_care.medication_safety",
+    "section": "home_care",
+    "rank": 53,
+    "candidate_count": 53,
+    "safety_topics": [
+      "medication_safety"
+    ],
+    "flags": [
+      "exact_follow_up_interval",
+      "return_to_work_claim"
+    ],
+    "representative_text": "Avoid alcohol completely until your symptoms are gone",
+    "candidate_ids": [
+      "home_care.avoid_alcohol_completely_until_your_symptoms_are_gone",
+      "home_care.avoid_alcohol_on_an_empty_stomach_it_can_drop_your_blood_sugar_dangerous",
+      "home_care.avoid_bright_screens_loud_noise_and_strong_smells_for_the_next_24_hours",
+      "home_care.avoid_bright_screens_phone_computer_tv_for_long_periods_take_breaks_ever",
+      "home_care.avoid_bubble_baths_scented_soaps_and_douches_which_can_irritate_your_bla",
+      "home_care.avoid_caffeine_and_energy_drinks_for_the_next_few_days",
+      "home_care.avoid_caffeine_coffee_energy_drinks_tea_soda_for_the_next_week",
+      "home_care.avoid_chewing_on_the_painful_side_of_your_mouth",
+      "home_care.avoid_close_physical_contact_with_others_until_24_hours_after_you_finish",
+      "home_care.avoid_dairy_caffeine_alcohol_fatty_foods_and_spicy_foods_for_2_3_days",
+      "home_care.avoid_fatty_greasy_and_fried_foods_they_trigger_gallbladder_pain",
+      "home_care.avoid_greasy_fried_or_spicy_foods_until_your_pain_improves",
+      "home_care.avoid_heavy_lifting_nothing_over_5_pounds_or_sports_for_1_2_weeks",
+      "home_care.avoid_heavy_lifting_or_straining_for_3_days",
+      "home_care.avoid_heavy_use_of_the_bitten_body_part_for_the_next_3_days_to_help_heal",
+      "home_care.avoid_looking_up_at_high_shelves_or_tilting_your_head_back_to_wash_your_",
+      "home_care.avoid_prolonged_standing_in_one_place_shift_your_weight_from_foot_to_foo",
+      "home_care.avoid_rubbing_your_eye_even_if_it_feels_uncomfortable",
+      "home_care.avoid_scratching_the_area_even_if_it_itches",
+      "home_care.avoid_scratching_trim_your_nails_short_and_wear_soft_cotton_gloves_at_ni",
+      "home_care.avoid_screens_tv_phone_computer_as_much_as_possible_for_2_days",
+      "home_care.avoid_sitting_on_the_toilet_for_more_than_5_minutes_at_a_time",
+      "home_care.avoid_smoke_strong_perfumes_and_cold_air_that_can_trigger_coughing",
+      "home_care.avoid_smoke_strong_perfumes_cold_air_and_other_things_that_trigger_your_",
+      "home_care.avoid_smoke_vaping_and_strong_fumes_they_irritate_your_airways",
+      "home_care.avoid_smoking_and_stay_away_from_smoke_or_strong_fumes",
+      "home_care.avoid_spicy_foods_fried_foods_chocolate_caffeine_and_alcohol_for_at_leas",
+      "home_care.avoid_squeezing_or_pressing_on_the_area",
+      "home_care.avoid_strenuous_activity_or_heavy_lifting_that_pulls_on_the_stitches_for",
+      "home_care.avoid_sudden_head_movements_but_do_not_stay_completely_still_gentle_move",
+      "home_care.avoid_sugary_drinks_candy_white_bread_and_desserts",
+      "home_care.avoid_the_substance_that_caused_the_rash_if_you_know_what_it_is",
+      "home_care.avoid_the_trigger_if_you_know_what_caused_this_reaction_food_medicine_in",
+      "home_care.avoid_very_hot_showers_or_baths_for_the_next_week",
+      "home_care.avoid_very_hot_very_cold_or_sugary_foods_and_drinks",
+      "home_care.cover_your_mouth_when_you_cough_and_wash_your_hands_often_to_avoid_sprea",
+      "home_care.drink_water_throughout_the_day_but_avoid_drinking_large_amounts_with_mea",
+      "home_care.gentle_walking_is_fine_but_avoid_hard_exercise_until_the_cough_improves",
+      "home_care.reduce_salt_in_your_diet_avoid_adding_salt_to_food_skip_chips_and_canned",
+      "home_care.replace_your_toothbrush_after_24_hours_on_antibiotics_to_avoid_re_infect",
+      "home_care.rest_at_home_for_the_next_2_3_days_avoid_work_school_or_strenuous_activi",
+      "home_care.rest_for_the_next_1_2_days_avoid_heavy_exercise_until_your_breathing_fee",
+      "home_care.rest_today_allergic_reactions_can_make_you_tired",
+      "home_care.rest_your_knee_for_the_next_48_hours_avoid_running_jumping_or_squatting",
+      "home_care.return_to_normal_activities_gradually_avoid_heavy_lifting_nothing_over_2",
+      "home_care.trim_your_fingernails_short_to_avoid_skin_damage_from_scratching",
+      "home_care.wash_your_hands_frequently_and_avoid_sharing_cups_or_utensils",
+      "home_care.wash_your_hands_often_and_avoid_people_who_are_sick",
+      "home_care.wash_your_hands_often_and_cover_coughs_to_avoid_spreading_this_to_others",
+      "home_care.wash_your_hands_often_to_avoid_spreading_germs_to_others",
+      "home_care.wear_cotton_underwear_and_avoid_tight_pants",
+      "home_care.wear_loose_clothing_over_the_infected_area_to_avoid_rubbing",
+      "home_care.you_can_shower_normally_but_avoid_soaking_the_area_in_a_bath_pool_or_hot"
+    ]
+  },
+  {
+    "cluster_id": "home_care.neurologic_red_flag",
+    "section": "home_care",
+    "rank": 1,
+    "candidate_count": 1,
+    "safety_topics": [
+      "neurologic_red_flag",
+      "respiratory_distress"
+    ],
+    "flags": [],
+    "representative_text": "**Wrap your ankle** \u2014 use an elastic bandage (ACE wrap) from your toes to mid-calf. Keep it snug but not so tight that your toes turn blue or numb. Rewrap it if it loosens.",
+    "candidate_ids": [
+      "home_care.wrap_your_ankle_use_an_elastic_bandage_ace_wrap_from_your_toes_to_mid_ca"
+    ]
+  },
+  {
+    "cluster_id": "home_care.respiratory_distress",
+    "section": "home_care",
+    "rank": 1,
+    "candidate_count": 1,
+    "safety_topics": [
+      "respiratory_distress"
+    ],
+    "flags": [],
+    "representative_text": "Wrap your knee with an elastic bandage (ACE wrap) snugly but not so tight that your toes tingle or turn blue",
+    "candidate_ids": [
+      "home_care.wrap_your_knee_with_an_elastic_bandage_ace_wrap_snugly_but_not_so_tight_"
+    ]
+  },
+  {
+    "cluster_id": "home_care.return_to_work_claim",
+    "section": "home_care",
+    "rank": 6,
+    "candidate_count": 6,
+    "safety_topics": [],
+    "flags": [
+      "return_to_work_claim"
+    ],
+    "representative_text": "Eat small, easy meals when you feel hungry \u2014 soups and broths work well.",
+    "candidate_ids": [
+      "home_care.eat_small_easy_meals_when_you_feel_hungry_soups_and_broths_work_well",
+      "home_care.reduce_stress_where_possible_take_breaks_during_work_try_slow_breathing_",
+      "home_care.rest_today_and_tomorrow_no_work_school_or_sports",
+      "home_care.you_are_no_longer_contagious_after_24_hours_on_antibiotics_you_can_retur",
+      "home_care.you_can_return_to_normal_activities_including_work_exercise_and_sex_as_y",
+      "home_care.you_can_return_to_work_or_school_when_you_feel_better_if_you_work_with_c"
+    ]
+  },
+  {
+    "cluster_id": "home_care.source_needed",
+    "section": "home_care",
+    "rank": 1,
+    "candidate_count": 1,
+    "safety_topics": [],
+    "flags": [
+      "source_needed"
+    ],
+    "representative_text": "Apply a thin layer of antibiotic ointment (like bacitracin or Neosporin) twice daily and cover with a clean bandage",
+    "candidate_ids": [
+      "home_care.apply_a_thin_layer_of_antibiotic_ointment_like_bacitracin_or_neosporin_t"
+    ]
+  },
+  {
+    "cluster_id": "home_care.unsupported_diagnosis_certainty",
+    "section": "home_care",
+    "rank": 5,
+    "candidate_count": 5,
+    "safety_topics": [],
+    "flags": [
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "Apply a heating pad to your right upper belly for 15-20 minutes if you have mild discomfort",
+    "candidate_ids": [
+      "home_care.apply_a_heating_pad_to_your_right_upper_belly_for_15_20_minutes_if_you_h",
+      "home_care.do_not_share_towels_pillowcases_or_washcloths_with_others_while_you_have",
+      "home_care.use_a_cool_mist_humidifier_in_your_room_if_you_have_one",
+      "home_care.wash_your_hands_with_soap_and_water_after_using_the_bathroom_and_before_",
+      "home_care.wear_a_medical_alert_bracelet_that_says_you_have_blood_sugar_problems"
+    ]
+  },
+  {
+    "cluster_id": "medications.anaphylaxis",
+    "section": "medications",
+    "rank": 7,
+    "candidate_count": 7,
+    "safety_topics": [
+      "anaphylaxis",
+      "infection_progression",
+      "respiratory_distress"
+    ],
+    "flags": [
+      "exact_follow_up_interval",
+      "medication_dosing"
+    ],
+    "representative_text": "Albuterol inhaler 2 puffs every 4-6 hours as needed for shortness of breath or wheezing \u2014 use 15-30 minutes before exercise. May cause fast heartbeat or shakiness.",
+    "candidate_ids": [
+      "medications.albuterol_inhaler_2_puffs_every_4_6_hours_as_needed_for_shortness_of_bre",
+      "medications.apply_over_the_counter_hydrocortisone_1_cream_to_itchy_spots_3_4_times_d",
+      "medications.cetirizine_zyrtec_10_mg_by_mouth_once_daily_in_the_morning_for_7_10_days",
+      "medications.diphenhydramine_benadryl_25_50_mg_by_mouth_every_6_hours_as_needed_for_i",
+      "medications.famotidine_pepcid_20_mg_by_mouth_twice_daily_for_7_10_days_may_help_redu",
+      "medications.ibuprofen_advil_motrin_400_mg_by_mouth_every_6_hours_as_needed_for_pain_",
+      "medications.use_over_the_counter_cough_medicine_or_throat_lozenges_as_needed_for_cou"
+    ]
+  },
+  {
+    "cluster_id": "medications.cardiac_red_flag",
+    "section": "medications",
+    "rank": 4,
+    "candidate_count": 4,
+    "safety_topics": [
+      "cardiac_red_flag",
+      "medication_safety"
+    ],
+    "flags": [
+      "medication_dosing",
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "**Dextromethorphan cough syrup** 10-20 mg (follow bottle instructions) every 4-6 hours as needed for cough \u2014 avoid if you take certain antidepressants (check with your pharmacist).",
+    "candidate_ids": [
+      "medications.dextromethorphan_cough_syrup_10_20_mg_follow_bottle_instructions_every_4",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_as_needed_for_chest_pain_take_wi",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_with_food_for_pain_and_facial_pr",
+      "medications.pseudoephedrine_30_60_mg_by_mouth_every_4_6_hours_as_needed_for_stuffy_n"
+    ]
+  },
+  {
+    "cluster_id": "medications.dehydration",
+    "section": "medications",
+    "rank": 2,
+    "candidate_count": 2,
+    "safety_topics": [
+      "dehydration"
+    ],
+    "flags": [
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "May cause nausea or change urine color to dark yellow or brown (this is normal).",
+    "candidate_ids": [
+      "medications.may_cause_nausea_or_change_urine_color_to_dark_yellow_or_brown_this_is_n",
+      "medications.will_turn_your_urine_bright_orange_this_is_normal"
+    ]
+  },
+  {
+    "cluster_id": "medications.exact_follow_up_interval",
+    "section": "medications",
+    "rank": 22,
+    "candidate_count": 21,
+    "safety_topics": [],
+    "flags": [
+      "exact_follow_up_interval",
+      "medication_dosing",
+      "source_needed",
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "Amoxicillin-clavulanate 875 mg by mouth twice daily for 5 days \u2014 take with food to prevent stomach upset. Watch for diarrhea or rash.",
+    "candidate_ids": [
+      "medications.amoxicillin_clavulanate_875_mg_by_mouth_twice_daily_for_5_days_take_with",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_for_headache_for_3",
+      "medications.amoxicillin_500_mg_by_mouth_twice_daily_for_10_days_take_with_or_without",
+      "medications.cephalexin_500_mg_by_mouth_four_times_daily_for_7_days_take_with_food_wa",
+      "medications.ciprofloxacin_dexamethasone_ear_drops_4_drops_in_the_affected_ear_twice_",
+      "medications.continue_these_medicines_even_if_you_feel_better_to_prevent_symptoms_fro",
+      "medications.docusate_sodium_colace_100_mg_by_mouth_twice_daily_for_1_2_weeks_this_is",
+      "medications.hydrocortisone_1_cream_apply_a_thin_layer_to_the_affected_area_2_3_times",
+      "medications.hydrocortisone_1_cream_apply_to_itchy_areas_twice_daily_as_needed_for_up",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_as_needed_for_pain_for_5_7_days_",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_with_food_as_needed_for_pain_do_",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_with_food_for_5_7_days_watch_for",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_with_food_for_pain_take_for_up_t",
+      "medications.ibuprofen_600_mg_by_mouth_every_6_hours_with_food_for_5_days_helps_pain_",
+      "medications.if_your_symptoms_are_not_improving_after_3_days_call_your_doctor_you_may",
+      "medications.meclizine_25_mg_by_mouth_every_8_hours_as_needed_for_dizziness_for_up_to",
+      "medications.nitrofurantoin_100_mg_by_mouth_twice_daily_for_5_days_take_with_food",
+      "medications.permethrin_5_cream_apply_from_neck_down_to_entire_body_including_under_f",
+      "medications.prednisone_40_mg_by_mouth_once_daily_for_5_days_with_food_finish_all_pil",
+      "medications.this_bridge_supply_will_run_out_in_3_to_7_days",
+      "medications.use_only_for_2_days_maximum"
+    ]
+  },
+  {
+    "cluster_id": "medications.general",
+    "section": "medications",
+    "rank": 27,
+    "candidate_count": 23,
+    "safety_topics": [],
+    "flags": [],
+    "representative_text": "No new medications. Continue your home medications as before.",
+    "candidate_ids": [
+      "medications.no_new_medications_continue_your_home_medications_as_before",
+      "medications.check_your_blood_sugar_before_taking_insulin_never_guess_your_dose",
+      "medications.continue_all_your_current_diabetes_medications_exactly_as_prescribed",
+      "medications.continue_your_regular_home_medications_unless_your_doctor_tells_you_to_s",
+      "medications.do_not_take_acetaminophen_and_ibuprofen_at_the_same_time_space_them_3_ho",
+      "medications.do_not_take_ibuprofen_aspirin_or_naproxen_for_48_hours_these_can_increas",
+      "medications.drink_water_with_all_medications_to_help_the_stone_pass",
+      "medications.finish_all_pills_even_if_you_feel_better",
+      "medications.if_you_were_given_changes_to_your_insulin_doses_or_other_diabetes_medici",
+      "medications.lie_on_your_side_with_the_infected_ear_facing_up_put_the_drops_in_and_st",
+      "medications.no_new_medications",
+      "medications.no_new_medications_if_you_take_diabetes_medicine_insulin_or_pills_that_l",
+      "medications.polyethylene_glycol_3350_miralax_17_grams_one_capful_by_mouth_once_daily",
+      "medications.psyllium_husk_powder_metamucil_1_tablespoon_in_8_oz_water_once_or_twice_",
+      "medications.saline_nasal_spray_2_sprays_in_each_nostril_3_4_times_daily_safe_to_use_",
+      "medications.watch_for_increased_itching_or_rash_around_the_ear",
+      "medications.watch_for_severe_diarrhea_or_new_rash",
+      "medications.watch_for_skin_irritation_or_burning",
+      "medications.we_provided_a_short_bridge_supply_of_your_regular_medicine",
+      "medications.witch_hazel_pads_tucks_pads_apply_to_the_area_after_bowel_movements_as_n",
+      "medications.you_can_take_over_the_counter_medications_if_needed",
+      "medications.you_can_use_over_the_counter_artificial_tears_lubricating_eye_drops_as_o",
+      "medications.you_must_get_a_full_prescription_from_your_regular_doctor_before_this_ru"
+    ]
+  },
+  {
+    "cluster_id": "medications.infection_progression",
+    "section": "medications",
+    "rank": 19,
+    "candidate_count": 19,
+    "safety_topics": [
+      "infection_progression",
+      "medication_safety"
+    ],
+    "flags": [
+      "exact_follow_up_interval",
+      "medication_dosing",
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "Acetaminophen 650-1000 mg by mouth every 6 hours as needed for fever or body aches \u2014 take with food or milk. Do not take more than 4000 mg in 24 hours. Watch for nausea if you take too much.",
+    "candidate_ids": [
+      "medications.acetaminophen_650_1000_mg_by_mouth_every_6_hours_as_needed_for_fever_or_",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_for_body_aches_or_",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_for_fever_do_not_t",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_for_fever_or_body_",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_for_fever_or_body_",
+      "medications.acetaminophen_tylenol_650_1000_mg_by_mouth_every_6_hours_as_needed_for_f",
+      "medications.acetaminophen_tylenol_650_mg_by_mouth_every_6_hours_as_needed_for_pain_o",
+      "medications.acetaminophen_tylenol_650_mg_by_mouth_every_6_hours_as_needed_for_pain_o",
+      "medications.hydrocortisone_1_cream_apply_a_thin_layer_to_affected_areas_twice_daily_",
+      "medications.hydrocortisone_1_cream_apply_to_bite_area_twice_daily_for_up_to_7_days_a",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_as_needed_for_fever_or_body_ache",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_as_needed_for_fever_or_body_ache",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_as_needed_for_pain_or_fever_take",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_with_food_for_5_7_days_helps_pai",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_with_food_for_5_7_days_helps_pai",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_with_food_for_5_7_days_helps_wit",
+      "medications.ibuprofen_advil_motrin_400_600_mg_by_mouth_every_6_8_hours_as_needed_for",
+      "medications.ibuprofen_advil_motrin_400_mg_by_mouth_every_6_hours_as_needed_for_pain_",
+      "medications.you_can_alternate_these_two_medicines_every_3_hours_if_one_alone_does_no"
+    ]
+  },
+  {
+    "cluster_id": "medications.medication_dosing",
+    "section": "medications",
+    "rank": 45,
+    "candidate_count": 44,
+    "safety_topics": [],
+    "flags": [
+      "medication_dosing",
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "Ibuprofen 400 mg by mouth every 6 hours as needed for pain \u2014 take with food. Watch for stomach upset.",
+    "candidate_ids": [
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_as_needed_for_pain_take_with_foo",
+      "medications.acetaminophen_500_mg_by_mouth_every_6_hours_as_needed_for_pain_take_with",
+      "medications.acetaminophen_500_mg_by_mouth_every_6_hours_if_you_cannot_take_ibuprofen",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_for_headache_can_a",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_for_pain_can_alter",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_for_pain_if_ibupro",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_for_pain_if_ibupro",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_for_pain_if_you_ca",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_for_pain_if_you_ca",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_for_pain_if_you_ca",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_for_pain_if_you_ca",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_for_pain_if_you_ca",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_for_pain_if_you_ca",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_for_pain_take_with",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_for_pain_you_can_a",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_if_you_cannot_take",
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_if_you_cannot_take_ibuprofen",
+      "medications.acetaminophen_tylenol_650_mg_by_mouth_every_6_hours_as_needed_for_headac",
+      "medications.cetirizine_zyrtec_10_mg_by_mouth_once_daily_as_needed_for_itching_during",
+      "medications.dextromethorphan_cough_syrup_10_20_mg_by_mouth_every_4_hours_as_needed_f",
+      "medications.diphenhydramine_benadryl_25_50_mg_by_mouth_every_6_hours_as_needed_for_i",
+      "medications.diphenhydramine_benadryl_25_50_mg_by_mouth_every_6_hours_as_needed_for_i",
+      "medications.diphenhydramine_benadryl_25_50_mg_by_mouth_every_6_hours_as_needed_for_i",
+      "medications.diphenhydramine_benadryl_25_50_mg_by_mouth_every_6_hours_as_needed_for_s",
+      "medications.docusate_colace_100_mg_by_mouth_twice_daily_with_water_this_softens_the_",
+      "medications.guaifenesin_mucinex_400_mg_by_mouth_every_4_hours_as_needed_for_thick_mu",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_as_needed_for_belly_discomfort_w",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_as_needed_for_cough_or_chest_dis",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_as_needed_for_headache_take_with",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_as_needed_for_headache_take_with",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_as_needed_for_pain_take_with_foo",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_as_needed_for_pain_take_with_foo",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_as_needed_for_pain_take_with_foo",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_as_needed_for_pain_take_with_foo",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_as_needed_for_pain_take_with_foo",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_with_food_for_pain_take_with_a_f",
+      "medications.if_ibuprofen_doesn_t_help_within_1_hour_you_can_add_acetaminophen_500_mg",
+      "medications.no_new_medications_you_can_take_ibuprofen_400_mg_by_mouth_every_6_hours_",
+      "medications.ondansetron_4_mg_by_mouth_every_8_hours_as_needed_for_nausea_may_cause_c",
+      "medications.ondansetron_4_mg_by_mouth_every_8_hours_as_needed_for_nausea_watch_for_c",
+      "medications.oxycodone_5_mg_by_mouth_every_4_to_6_hours_as_needed_for_severe_pain_use",
+      "medications.phenazopyridine_azo_200_mg_by_mouth_three_times_daily_as_needed_for_burn",
+      "medications.pseudoephedrine_30_mg_by_mouth_every_4_6_hours_as_needed_for_congestion_",
+      "medications.you_can_alternate_these_medicines_every_3_hours_if_needed_for_better_pai"
+    ]
+  },
+  {
+    "cluster_id": "medications.medication_safety",
+    "section": "medications",
+    "rank": 8,
+    "candidate_count": 8,
+    "safety_topics": [
+      "medication_safety"
+    ],
+    "flags": [
+      "exact_follow_up_interval",
+      "medication_dosing",
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "Acetaminophen 650 mg by mouth every 6 hours as needed for pain if you cannot take ibuprofen \u2014 do not take more than 3000 mg in 24 hours. Watch for using too much, which can hurt your liver.",
+    "candidate_ids": [
+      "medications.acetaminophen_650_mg_by_mouth_every_6_hours_as_needed_for_pain_if_you_ca",
+      "medications.avoid_ibuprofen_and_aspirin_while_you_have_stomach_symptoms_they_can_irr",
+      "medications.famotidine_pepcid_20_mg_by_mouth_twice_daily_for_3_days_helps_reduce_all",
+      "medications.guaifenesin_400_mg_by_mouth_every_4_hours_with_a_full_glass_of_water_to_",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_as_needed_for_pain_take_with_foo",
+      "medications.ibuprofen_400_mg_by_mouth_every_6_hours_with_food_for_pain_do_not_take_i",
+      "medications.ibuprofen_should_be_avoided_use_acetaminophen_tylenol_650_mg_by_mouth_ev",
+      "medications.omeprazole_20_mg_by_mouth_once_daily_in_the_morning_for_14_days_take_30_"
+    ]
+  },
+  {
+    "cluster_id": "medications.neurologic_red_flag",
+    "section": "medications",
+    "rank": 1,
+    "candidate_count": 1,
+    "safety_topics": [
+      "neurologic_red_flag"
+    ],
+    "flags": [
+      "exact_follow_up_interval"
+    ],
+    "representative_text": "Erythromycin eye ointment: apply a thin ribbon to the inside of your lower eyelid 4 times daily for 3-5 days \u2014 this prevents infection while the scratch heals. Your vision may be blurry for 20 minutes after each use.",
+    "candidate_ids": [
+      "medications.erythromycin_eye_ointment_apply_a_thin_ribbon_to_the_inside_of_your_lowe"
+    ]
+  },
+  {
+    "cluster_id": "medications.source_needed",
+    "section": "medications",
+    "rank": 3,
+    "candidate_count": 3,
+    "safety_topics": [],
+    "flags": [
+      "source_needed"
+    ],
+    "representative_text": "Do not use if your burning improves with the antibiotic.",
+    "candidate_ids": [
+      "medications.do_not_use_if_your_burning_improves_with_the_antibiotic",
+      "medications.if_you_were_not_given_an_antibiotic_your_body_should_clear_the_remaining",
+      "medications.take_the_antibiotic_exactly_as_prescribed_even_if_you_start_feeling_bett"
+    ]
+  },
+  {
+    "cluster_id": "medications.unsupported_diagnosis_certainty",
+    "section": "medications",
+    "rank": 2,
+    "candidate_count": 2,
+    "safety_topics": [],
+    "flags": [
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "Continue your daily controller inhaler (if you have one) exactly as prescribed \u2014 do not stop it.",
+    "candidate_ids": [
+      "medications.continue_your_daily_controller_inhaler_if_you_have_one_exactly_as_prescr",
+      "medications.take_it_exactly_as_you_have_been_taking_it_at_home_same_dose_same_times_"
+    ]
+  },
+  {
+    "cluster_id": "return_precautions.anaphylaxis",
+    "section": "return_precautions",
+    "rank": 25,
+    "candidate_count": 22,
+    "safety_topics": [
+      "anaphylaxis",
+      "cardiac_red_flag",
+      "dehydration",
+      "infection_progression",
+      "respiratory_distress"
+    ],
+    "flags": [
+      "exact_follow_up_interval",
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "Dizziness, fainting, or feeling like you might pass out.",
+    "candidate_ids": [
+      "return_precautions.dizziness_fainting_or_feeling_like_you_might_pass_out",
+      "return_precautions.swelling_of_your_lips_tongue_or_throat",
+      "return_precautions.your_lips_or_fingernails_turn_blue_or_gray",
+      "return_precautions.blood_is_running_down_the_back_of_your_throat_and_you_cannot_stop_it",
+      "return_precautions.fainting_dizziness_or_feeling_like_you_will_pass_out",
+      "return_precautions.fever_over_100_4_f_along_with_your_hives",
+      "return_precautions.hives_or_swelling_that_get_worse_after_taking_your_medicines",
+      "return_precautions.hives_that_get_worse_after_24_hours_of_treatment_or_spread_rapidly",
+      "return_precautions.no_improvement_in_throat_pain_after_48_hours_on_antibiotics",
+      "return_precautions.severe_belly_pain_vomiting_or_diarrhea_that_starts_with_your_hives",
+      "return_precautions.swelling_under_your_tongue_or_in_the_floor_of_your_mouth",
+      "return_precautions.trouble_breathing_wheezing_or_chest_tightness",
+      "return_precautions.trouble_breathing_wheezing_or_pain_when_you_breathe_deeply",
+      "return_precautions.trouble_breathing_wheezing_or_tightness_in_your_chest",
+      "return_precautions.you_develop_swelling_of_your_face_lips_tongue_or_throat",
+      "return_precautions.you_faint_again",
+      "return_precautions.you_faint_or_black_out",
+      "return_precautions.you_feel_dizzy_or_lightheaded_when_you_stand_up_or_you_faint",
+      "return_precautions.you_have_a_bad_reaction_to_your_medicine_such_as_severe_rash_trouble_bre",
+      "return_precautions.you_have_trouble_breathing_or_your_face_lips_or_tongue_swell_after_using",
+      "return_precautions.your_lips_or_face_turn_blue_or_gray",
+      "return_precautions.your_throat_pain_gets_much_worse_after_2_3_days_or_you_see_white_patches"
+    ]
+  },
+  {
+    "cluster_id": "return_precautions.cardiac_red_flag",
+    "section": "return_precautions",
+    "rank": 30,
+    "candidate_count": 30,
+    "safety_topics": [
+      "cardiac_red_flag",
+      "infection_progression",
+      "neurologic_red_flag",
+      "respiratory_distress"
+    ],
+    "flags": [
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "Chest pain gets worse or does not go away with rest",
+    "candidate_ids": [
+      "return_precautions.chest_pain_gets_worse_or_does_not_go_away_with_rest",
+      "return_precautions.chest_pain_or_pressure",
+      "return_precautions.chest_pain_that_does_not_go_away_with_your_inhaler",
+      "return_precautions.chest_pain_that_gets_worse_when_you_breathe_deeply_or_cough",
+      "return_precautions.chest_pain_that_lasts_more_than_15_minutes_or_spreads_to_your_arm_jaw_ne",
+      "return_precautions.palpitations_last_longer_than_15_minutes",
+      "return_precautions.red_streaks_appear_going_up_your_arm_or_leg_from_the_bite",
+      "return_precautions.red_streaks_extend_from_the_wound_up_your_arm_or_leg",
+      "return_precautions.red_streaks_moving_up_your_arm_or_leg_from_the_wound",
+      "return_precautions.redness_or_warmth_spreading_more_than_one_inch_beyond_the_original_area",
+      "return_precautions.redness_warmth_or_swelling_spreads_around_the_bite_or_gets_worse_after_4",
+      "return_precautions.swelling_in_your_face_jaw_or_neck_that_gets_worse_or_spreads",
+      "return_precautions.swelling_spreads_to_your_face_jaw_or_neck",
+      "return_precautions.the_area_becomes_more_swollen_warm_or_painful_after_24_hours",
+      "return_precautions.the_bite_area_becomes_increasingly_red_warm_swollen_or_develops_pus",
+      "return_precautions.the_rash_shows_signs_of_infection_increasing_pain_warmth_red_streaks_pus",
+      "return_precautions.trouble_breathing_shortness_of_breath_or_chest_pain_when_breathing",
+      "return_precautions.trouble_speaking_weakness_in_your_arm_or_leg_or_numbness_on_one_side_of_",
+      "return_precautions.weakness_or_numbness_in_your_face_arm_or_leg_on_one_side",
+      "return_precautions.you_cannot_move_your_arms_or_legs_normally",
+      "return_precautions.you_develop_fever_of_100_4_f_or_higher_with_increased_redness_or_warmth_",
+      "return_precautions.you_develop_muscle_stiffness_trouble_swallowing_or_jaw_tightness",
+      "return_precautions.you_develop_numbness_tingling_or_weakness_in_your_arm_or_hand",
+      "return_precautions.you_develop_weakness_numbness_or_tingling_in_your_arms_or_legs",
+      "return_precautions.you_have_chest_pain_or_pressure",
+      "return_precautions.you_have_chest_pain_or_severe_stomach_pain",
+      "return_precautions.you_have_chest_pain_pressure_or_tightness",
+      "return_precautions.you_have_severe_chest_pain_that_does_not_go_away",
+      "return_precautions.you_see_pus_increasing_redness_warmth_or_swelling_in_any_areas_you_scrat",
+      "return_precautions.your_shoulder_becomes_very_swollen_red_or_warm_to_touch"
+    ]
+  },
+  {
+    "cluster_id": "return_precautions.dehydration",
+    "section": "return_precautions",
+    "rank": 19,
+    "candidate_count": 18,
+    "safety_topics": [
+      "dehydration"
+    ],
+    "flags": [
+      "source_needed",
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "You cannot keep down liquids for more than 12 hours",
+    "candidate_ids": [
+      "return_precautions.you_cannot_keep_down_liquids_for_more_than_12_hours",
+      "return_precautions.blood_in_your_urine_that_is_bright_red_or_looks_like_clots",
+      "return_precautions.blood_in_your_urine_that_looks_like_pure_red_blood_not_pink_or_tea_color",
+      "return_precautions.nausea_vomiting_or_unable_to_keep_down_liquids_or_your_antibiotic",
+      "return_precautions.no_urine_output_for_more_than_8_hours_or_only_a_few_drops_when_you_try_t",
+      "return_precautions.unable_to_keep_down_fluids_for_more_than_12_hours_or_signs_of_dehydratio",
+      "return_precautions.vomiting_so_much_you_cannot_keep_down_liquids_for_more_than_12_hours",
+      "return_precautions.vomiting_so_severe_you_cannot_keep_down_liquids_for_more_than_12_hours",
+      "return_precautions.you_cannot_keep_down_any_liquids_for_12_hours_or_more",
+      "return_precautions.you_cannot_keep_down_any_liquids_for_more_than_12_hours",
+      "return_precautions.you_develop_nausea_vomiting_or_cannot_keep_down_the_antibiotics",
+      "return_precautions.you_feel_confused_dizzy_or_extremely_weak",
+      "return_precautions.you_feel_dizzy_lightheaded_or_like_you_might_pass_out",
+      "return_precautions.you_feel_dizzy_or_lightheaded_when_standing_up",
+      "return_precautions.you_feel_lightheaded_dizzy_or_like_you_might_pass_out",
+      "return_precautions.you_have_not_urinated_in_more_than_12_hours_or_your_urine_is_very_dark_y",
+      "return_precautions.you_vomit_and_cannot_keep_down_liquids_for_more_than_8_hours",
+      "return_precautions.you_vomit_more_than_twice_and_cannot_keep_down_food_or_water"
+    ]
+  },
+  {
+    "cluster_id": "return_precautions.exact_follow_up_interval",
+    "section": "return_precautions",
+    "rank": 4,
+    "candidate_count": 4,
+    "safety_topics": [],
+    "flags": [
+      "exact_follow_up_interval"
+    ],
+    "representative_text": "The bitten area becomes more painful instead of better after 2 days",
+    "candidate_ids": [
+      "return_precautions.the_bitten_area_becomes_more_painful_instead_of_better_after_2_days",
+      "return_precautions.the_rash_does_not_improve_after_5_7_days_of_treatment",
+      "return_precautions.you_cannot_put_any_weight_on_the_ankle_after_5_7_days_of_rest_and_treatm",
+      "return_precautions.you_go_7_days_without_a_bowel_movement_despite_using_the_medications"
+    ]
+  },
+  {
+    "cluster_id": "return_precautions.general",
+    "section": "return_precautions",
+    "rank": 86,
+    "candidate_count": 84,
+    "safety_topics": [],
+    "flags": [],
+    "representative_text": "Sudden severe headache that feels like the worst headache of your life",
+    "candidate_ids": [
+      "return_precautions.sudden_severe_headache_that_feels_like_the_worst_headache_of_your_life",
+      "return_precautions.you_vomit_blood_or_material_that_looks_like_coffee_grounds",
+      "return_precautions.a_circular_red_rash_appears_and_spreads_outward_from_the_bite_looks_like",
+      "return_precautions.a_lump_near_your_anus_that_becomes_hard_purple_or_extremely_painful",
+      "return_precautions.bleeding_starts_again_and_does_not_stop_after_you_pinch_your_nose_shut_f",
+      "return_precautions.blood_sugar_stays_above_400_despite_taking_your_medications",
+      "return_precautions.clear_or_bloody_fluid_drains_from_your_nose_or_ears",
+      "return_precautions.clear_or_bloody_fluid_drips_from_your_nose_or_ears",
+      "return_precautions.cough_that_brings_up_yellow_green_or_bloody_mucus",
+      "return_precautions.cough_that_produces_thick_green_yellow_or_bloody_mucus",
+      "return_precautions.coughing_up_blood_or_rust_colored_mucus",
+      "return_precautions.difficulty_breathing_or_drooling",
+      "return_precautions.dizziness_that_does_not_stop_after_5_minutes_of_staying_still",
+      "return_precautions.headache_after_a_head_injury",
+      "return_precautions.headache_after_a_head_injury_or_fall",
+      "return_precautions.heart_racing_or_skipping_beats_that_lasts_more_than_a_few_minutes",
+      "return_precautions.heavy_rectal_bleeding_that_soaks_through_toilet_paper_or_fills_the_toile",
+      "return_precautions.loss_of_control_of_your_bladder_or_bowel",
+      "return_precautions.new_severe_headache_especially_the_worst_headache_of_your_life",
+      "return_precautions.new_trouble_swallowing_breathing_or_opening_your_mouth_fully",
+      "return_precautions.pain_in_your_back_or_sides_especially_if_it_s_on_one_side",
+      "return_precautions.pain_that_does_not_improve_with_the_medications_we_gave_you",
+      "return_precautions.rash_that_looks_like_sandpaper_or_small_red_dots",
+      "return_precautions.red_streaks_appear_coming_from_the_infected_area",
+      "return_precautions.red_streaks_appear_on_your_skin_moving_away_from_the_wound",
+      "return_precautions.severe_dizziness_develops",
+      "return_precautions.severe_headache_that_does_not_go_away_with_over_the_counter_pain_medicin",
+      "return_precautions.severe_itching_prevents_you_from_sleeping_despite_medication",
+      "return_precautions.severe_pain_in_your_right_shoulder_or_back_that_does_not_improve_with_pa",
+      "return_precautions.shaking_chills",
+      "return_precautions.sweating_heavily_with_chest_discomfort",
+      "return_precautions.symptoms_come_back_after_they_went_away",
+      "return_precautions.the_pain_is_not_controlled_with_the_medications_we_prescribed",
+      "return_precautions.the_rash_spreads_quickly_or_covers_a_large_part_of_your_body",
+      "return_precautions.the_wound_opens_up_or_edges_separate",
+      "return_precautions.unable_to_swallow_liquids_or_your_own_saliva",
+      "return_precautions.vomiting_that_does_not_stop",
+      "return_precautions.vomiting_that_prevents_you_from_keeping_down_fluids_for_more_than_12_hou",
+      "return_precautions.vomiting_that_won_t_stop",
+      "return_precautions.you_are_breathing_fast_or_have_trouble_catching_your_breath",
+      "return_precautions.you_are_confused_very_sleepy_or_cannot_stay_awake",
+      "return_precautions.you_are_short_of_breath_at_rest",
+      "return_precautions.you_are_spitting_up_or_throwing_up_blood",
+      "return_precautions.you_become_confused_cannot_recognize_people_or_have_trouble_waking_up",
+      "return_precautions.you_become_very_sensitive_to_light",
+      "return_precautions.you_cannot_bear_any_weight_on_your_leg_after_trying_for_48_hours",
+      "return_precautions.you_cannot_drink_fluids_or_keep_fluids_down",
+      "return_precautions.you_cannot_eat_or_drink_because_of_vomiting",
+      "return_precautions.you_cannot_feel_your_toes_or_they_tingle_constantly",
+      "return_precautions.you_cannot_move_your_fingers_at_all",
+      "return_precautions.you_cannot_move_your_shoulder_at_all",
+      "return_precautions.you_cannot_reach_your_doctor_and_your_medicine_runs_out_again",
+      "return_precautions.you_cannot_speak_a_full_sentence_without_stopping_to_breathe",
+      "return_precautions.you_cannot_swallow_your_saliva_or_liquids",
+      "return_precautions.you_cannot_urinate_at_all",
+      "return_precautions.you_cough_up_large_amounts_of_blood",
+      "return_precautions.you_develop_a_rash_severe_headache_or_stiff_neck",
+      "return_precautions.you_develop_chills_dizziness_or_feel_very_weak",
+      "return_precautions.you_develop_drooling_or_muffled_voice",
+      "return_precautions.you_develop_new_symptoms_that_worry_you",
+      "return_precautions.you_develop_severe_headache_with_stiff_neck",
+      "return_precautions.you_feel_confused_or_extremely_tired",
+      "return_precautions.you_feel_confused_or_very_drowsy",
+      "return_precautions.you_feel_more_confused_or_have_trouble_waking_up",
+      "return_precautions.you_feel_symptoms_of_low_blood_sugar_more_than_once_in_the_next_24_hours",
+      "return_precautions.you_feel_your_heart_racing_skipping_beats_or_pounding_for_more_than_a_fe",
+      "return_precautions.you_pass_out_or_cannot_wake_up_fully",
+      "return_precautions.you_see_blood_in_your_stool_or_black_tarry_stools",
+      "return_precautions.you_see_blood_in_your_stool_or_your_stool_turns_black_and_tarry",
+      "return_precautions.you_see_blood_in_your_vomit_or_it_looks_like_coffee_grounds",
+      "return_precautions.you_see_signs_that_part_of_the_foreign_object_is_still_inside_bump_under",
+      "return_precautions.you_urinate_much_more_than_normal_and_feel_extremely_thirsty",
+      "return_precautions.you_vomit_more_than_once",
+      "return_precautions.you_vomit_more_than_twice",
+      "return_precautions.you_vomit_repeatedly_or_can_t_keep_liquids_down",
+      "return_precautions.your_belly_becomes_hard_and_swollen",
+      "return_precautions.your_belly_becomes_hard_swollen_or_very_tender_to_touch",
+      "return_precautions.your_blood_sugar_drops_below_70_despite_eating_sugar",
+      "return_precautions.your_eye_becomes_more_red_or_you_see_yellow_or_green_discharge",
+      "return_precautions.your_heart_rate_stays_over_120_beats_per_minute_for_more_than_10_minutes",
+      "return_precautions.your_knee_becomes_much_more_swollen_or_tight_within_the_next_24_hours",
+      "return_precautions.your_pain_becomes_severe_or_constant_despite_taking_your_medication",
+      "return_precautions.your_pupils_the_black_center_of_your_eyes_look_different_sizes",
+      "return_precautions.your_skin_or_the_whites_of_your_eyes_turn_yellow"
+    ]
+  },
+  {
+    "cluster_id": "return_precautions.infection_progression",
+    "section": "return_precautions",
+    "rank": 85,
+    "candidate_count": 80,
+    "safety_topics": [
+      "infection_progression",
+      "neurologic_red_flag",
+      "respiratory_distress"
+    ],
+    "flags": [
+      "exact_follow_up_interval",
+      "source_needed",
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "You develop fever over 100.4\u00b0F",
+    "candidate_ids": [
+      "return_precautions.you_develop_fever_over_100_4_f",
+      "return_precautions.your_pain_gets_much_worse_instead_of_better_after_2_3_days",
+      "return_precautions.you_develop_fever_of_100_4_f_or_higher",
+      "return_precautions.belly_pain_that_lasts_more_than_6_hours_or_gets_worse",
+      "return_precautions.ear_pain_gets_much_worse_or_does_not_improve_at_all_after_48_72_hours",
+      "return_precautions.fever_above_101_5_f_that_lasts_more_than_3_days_or_returns_after_going_a",
+      "return_precautions.fever_above_101_f_38_3_c",
+      "return_precautions.fever_above_103_f_or_fever_that_lasts_more_than_3_days_after_starting_an",
+      "return_precautions.fever_above_103_f_or_fever_that_lasts_more_than_5_days",
+      "return_precautions.fever_above_103_f_that_does_not_come_down_with_medicine_or_any_fever_las",
+      "return_precautions.fever_develops_temperature_over_100_4_f",
+      "return_precautions.fever_lasts_more_than_4_days_or_goes_above_103_f",
+      "return_precautions.fever_of_100_4_f_38_c_or_higher_or_shaking_chills",
+      "return_precautions.fever_of_100_4_f_38_c_or_higher_that_does_not_go_down_with_medication",
+      "return_precautions.fever_of_100_4_f_or_higher",
+      "return_precautions.fever_over_100_4_f",
+      "return_precautions.fever_over_100_4_f_38_c",
+      "return_precautions.fever_over_100_4_f_that_does_not_go_down_with_medicine",
+      "return_precautions.fever_over_100_4_f_with_back_pain",
+      "return_precautions.fever_over_100_4_f_with_neck_stiffness",
+      "return_precautions.fever_over_100_4_f_with_rectal_pain_or_bleeding",
+      "return_precautions.fever_over_102_f_or_any_fever_that_lasts_more_than_3_days",
+      "return_precautions.fever_over_102_f_or_fever_that_lasts_more_than_3_days",
+      "return_precautions.headache_gets_much_worse_or_does_not_improve_with_acetaminophen",
+      "return_precautions.headache_gets_worse_or_does_not_improve_with_acetaminophen",
+      "return_precautions.headache_that_gets_much_worse_over_hours_despite_medication",
+      "return_precautions.headache_that_gets_worse_despite_medications_or_lasts_more_than_3_days",
+      "return_precautions.headache_with_fever_over_100_4_f_stiff_neck_confusion_or_trouble_staying",
+      "return_precautions.headache_with_fever_over_100_4_f_stiff_neck_or_confusion",
+      "return_precautions.hearing_loss_worsens_or_doesn_t_improve_after_treatment",
+      "return_precautions.no_improvement_after_10_days_or_you_keep_getting_worse_despite_home_trea",
+      "return_precautions.pain_gets_much_worse_instead_of_slowly_better_over_3_5_days",
+      "return_precautions.pain_gets_much_worse_or_moves_to_the_lower_right_side_of_your_belly",
+      "return_precautions.pain_gets_worse_after_48_hours_of_using_the_ear_drops",
+      "return_precautions.pain_gets_worse_after_the_first_2_days_instead_of_better",
+      "return_precautions.pain_gets_worse_instead_of_better_after_2_days",
+      "return_precautions.pain_that_gets_much_worse_despite_taking_your_medications",
+      "return_precautions.pain_that_gets_worse_instead_of_better_over_the_next_2_3_days",
+      "return_precautions.pus_draining_from_your_gums_that_increases_in_amount",
+      "return_precautions.pus_or_bad_smelling_fluid_drains_from_the_wound",
+      "return_precautions.pus_or_bloody_drainage_from_your_ear",
+      "return_precautions.pus_or_cloudy_fluid_drains_from_the_wound",
+      "return_precautions.pus_or_foul_smelling_drainage_increases_after_48_hours",
+      "return_precautions.redness_spreads_more_than_one_inch_from_the_wound",
+      "return_precautions.redness_spreads_more_than_one_inch_from_the_wound_edges",
+      "return_precautions.redness_swelling_or_tenderness_spreading_behind_your_ear_onto_the_bone",
+      "return_precautions.severe_neck_swelling_or_stiffness_with_headache",
+      "return_precautions.severe_pain_that_does_not_improve_with_ibuprofen_or_gets_worse_over_24_h",
+      "return_precautions.sudden_worsening_of_hearing_or_complete_hearing_loss_in_the_affected_ear",
+      "return_precautions.swelling_increases_significantly_after_the_first_day",
+      "return_precautions.swelling_redness_or_pain_around_your_eyes_or_changes_in_your_vision",
+      "return_precautions.symptoms_get_worse_instead_of_better_after_2_days_on_the_antibiotic",
+      "return_precautions.symptoms_improve_then_suddenly_get_worse_after_3_4_days",
+      "return_precautions.symptoms_that_get_worse_after_5_7_days_instead_of_better",
+      "return_precautions.symptoms_that_get_worse_after_7_days_or_do_not_improve_after_10_days",
+      "return_precautions.the_area_becomes_more_painful_develops_blisters_or_starts_oozing_pus",
+      "return_precautions.the_rash_spreads_rapidly_after_treatment_or_gets_much_worse",
+      "return_precautions.the_redness_spreads_beyond_the_pen_mark_you_drew_especially_if_it_grows_",
+      "return_precautions.the_swelling_spreads_up_your_leg_toward_your_knee",
+      "return_precautions.you_develop_a_fever_above_100_4_f",
+      "return_precautions.you_develop_a_fever_of_100_4_f_38_c_or_higher",
+      "return_precautions.you_develop_a_fever_of_100_4_f_or_higher",
+      "return_precautions.you_develop_drainage_of_thick_yellow_or_green_pus_from_your_ear",
+      "return_precautions.you_develop_fever_over_100_4_f_38_c",
+      "return_precautions.you_develop_fever_over_100_4_f_which_could_mean_a_skin_infection_from_sc",
+      "return_precautions.you_develop_swelling_around_your_eyes_or_fever_above_100_4_f",
+      "return_precautions.you_have_a_fever_over_100_4_f",
+      "return_precautions.you_have_a_fever_over_102_f_that_does_not_go_down_with_acetaminophen",
+      "return_precautions.you_have_new_trouble_breathing_or_breathing_gets_worse",
+      "return_precautions.you_have_severe_belly_pain_that_gets_worse_or_doesn_t_go_away",
+      "return_precautions.you_have_severe_belly_pain_that_gets_worse_or_stays_in_one_spot",
+      "return_precautions.you_notice_new_joint_pain_or_swelling_especially_in_your_knees",
+      "return_precautions.you_see_pus_thick_yellow_or_green_drainage_or_a_foul_smell_from_the_woun",
+      "return_precautions.your_breathing_gets_worse_or_you_feel_short_of_breath_at_rest",
+      "return_precautions.your_fever_lasts_more_than_3_days_after_starting_antibiotics",
+      "return_precautions.your_fever_lasts_more_than_5_days_or_comes_back_after_going_away",
+      "return_precautions.your_pain_gets_significantly_worse_instead_of_better_after_2_3_days",
+      "return_precautions.your_pain_gets_worse_after_24_hours_instead_of_better",
+      "return_precautions.your_symptoms_get_much_worse_after_starting_to_feel_better",
+      "return_precautions.your_symptoms_get_much_worse_instead_of_better"
+    ]
+  },
+  {
+    "cluster_id": "return_precautions.medication_dosing",
+    "section": "return_precautions",
+    "rank": 1,
+    "candidate_count": 1,
+    "safety_topics": [],
+    "flags": [
+      "medication_dosing"
+    ],
+    "representative_text": "You need your rescue inhaler more than every 4 hours",
+    "candidate_ids": [
+      "return_precautions.you_need_your_rescue_inhaler_more_than_every_4_hours"
+    ]
+  },
+  {
+    "cluster_id": "return_precautions.neurologic_red_flag",
+    "section": "return_precautions",
+    "rank": 24,
+    "candidate_count": 23,
+    "safety_topics": [
+      "neurologic_red_flag",
+      "respiratory_distress"
+    ],
+    "flags": [
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "**Severe headache with stiff neck** or confusion.",
+    "candidate_ids": [
+      "return_precautions.severe_headache_with_stiff_neck_or_confusion",
+      "return_precautions.confusion_or_trouble_speaking",
+      "return_precautions.confusion_severe_drowsiness_or_difficulty_waking_up",
+      "return_precautions.dizziness_weakness_or_feeling_like_you_might_pass_out",
+      "return_precautions.double_vision_or_loss_of_vision",
+      "return_precautions.headache_with_weakness_numbness_trouble_speaking_or_vision_changes",
+      "return_precautions.new_numbness_tingling_or_weakness_in_your_legs_or_feet",
+      "return_precautions.new_weakness_numbness_vision_loss_or_trouble_speaking",
+      "return_precautions.pain_spreads_down_your_leg_below_the_knee_with_numbness_or_weakness",
+      "return_precautions.severe_headache_stiff_neck_confusion_or_weakness_in_your_face",
+      "return_precautions.vision_changes_like_blurry_vision_or_seeing_spots",
+      "return_precautions.you_develop_numbness_tingling_or_coldness_in_your_foot_or_toes",
+      "return_precautions.you_develop_weakness_in_your_face_one_side_droops_or_difficulty_moving_p",
+      "return_precautions.you_fall_or_can_t_walk_because_of_leg_weakness",
+      "return_precautions.you_have_a_seizure_or_severe_confusion",
+      "return_precautions.you_have_a_seizure_or_shaking_episode",
+      "return_precautions.you_have_a_seizure_or_shaking_you_cannot_control",
+      "return_precautions.you_have_new_confusion_or_cannot_stay_awake",
+      "return_precautions.you_have_weakness_numbness_or_trouble_speaking",
+      "return_precautions.you_see_flashing_lights_floating_spots_or_a_dark_curtain_across_your_vis",
+      "return_precautions.your_fingers_become_numb_tingly_or_turn_blue_or_pale",
+      "return_precautions.your_vision_becomes_blurry_or_you_see_less_clearly_than_before",
+      "return_precautions.your_vision_gets_blurry_or_you_see_less_clearly_than_you_did_today"
+    ]
+  },
+  {
+    "cluster_id": "return_precautions.respiratory_distress",
+    "section": "return_precautions",
+    "rank": 9,
+    "candidate_count": 9,
+    "safety_topics": [
+      "respiratory_distress"
+    ],
+    "flags": [
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "Shortness of breath at rest",
+    "candidate_ids": [
+      "return_precautions.shortness_of_breath_at_rest",
+      "return_precautions.shortness_of_breath_at_rest_or_trouble_breathing_when_walking_across_a_r",
+      "return_precautions.shortness_of_breath_at_rest_or_when_lying_flat",
+      "return_precautions.you_have_trouble_breathing",
+      "return_precautions.you_have_trouble_breathing_or_feel_short_of_breath",
+      "return_precautions.you_have_trouble_breathing_or_swallowing",
+      "return_precautions.you_have_trouble_breathing_shortness_of_breath_at_rest_or_cannot_speak_i",
+      "return_precautions.you_have_trouble_breathing_through_your_mouth",
+      "return_precautions.your_foot_or_toes_turn_blue_white_or_very_cold"
+    ]
+  },
+  {
+    "cluster_id": "return_precautions.unsupported_diagnosis_certainty",
+    "section": "return_precautions",
+    "rank": 4,
+    "candidate_count": 4,
+    "safety_topics": [],
+    "flags": [
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "You have a severe headache that starts suddenly",
+    "candidate_ids": [
+      "return_precautions.you_have_a_severe_headache_that_starts_suddenly",
+      "return_precautions.you_have_black_tarry_or_bloody_stools",
+      "return_precautions.you_have_blood_in_your_stool_or_black_tarry_stools",
+      "return_precautions.you_have_severe_eye_pain_not_just_irritation"
+    ]
+  },
+  {
+    "cluster_id": "follow_up.anaphylaxis",
+    "section": "follow_up",
+    "rank": 5,
+    "candidate_count": 5,
+    "safety_topics": [
+      "anaphylaxis",
+      "infection_progression"
+    ],
+    "flags": [
+      "exact_follow_up_interval"
+    ],
+    "representative_text": "Call your primary care doctor if your symptoms do not improve within 5-7 days. Most viral sore throats get better on their own in 5-10 days. You do not need an urgent appointment unless your symptoms worsen.",
+    "candidate_ids": [
+      "follow_up.call_your_primary_care_doctor_if_your_symptoms_do_not_improve_within_5_7",
+      "follow_up.if_dizziness_is_not_improving_in_3_days_or_keeps_coming_back_your_doctor",
+      "follow_up.if_hives_last_more_than_6_weeks_or_keep_returning_you_may_need_to_see_an",
+      "follow_up.see_your_primary_care_doctor_within_1_week_call_their_office_tomorrow_to",
+      "follow_up.see_your_primary_care_doctor_within_5_7_days_if_your_hives_are_not_gone_"
+    ]
+  },
+  {
+    "cluster_id": "follow_up.cardiac_red_flag",
+    "section": "follow_up",
+    "rank": 4,
+    "candidate_count": 4,
+    "safety_topics": [
+      "cardiac_red_flag"
+    ],
+    "flags": [
+      "exact_follow_up_interval"
+    ],
+    "representative_text": "Bring your home blood pressure log with you.",
+    "candidate_ids": [
+      "follow_up.bring_your_home_blood_pressure_log_with_you",
+      "follow_up.see_your_primary_care_doctor_within_3_5_days_to_discuss_starting_blood_p",
+      "follow_up.your_doctor_can_review_these_results_discuss_ways_to_prevent_chest_pain_",
+      "follow_up.your_doctor_may_want_to_check_your_blood_pressure_when_lying_down_and_st"
+    ]
+  },
+  {
+    "cluster_id": "follow_up.exact_follow_up_interval",
+    "section": "follow_up",
+    "rank": 60,
+    "candidate_count": 57,
+    "safety_topics": [],
+    "flags": [
+      "exact_follow_up_interval",
+      "return_to_work_claim",
+      "source_needed",
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "See your primary care doctor within 5-7 days.",
+    "candidate_ids": [
+      "follow_up.see_your_primary_care_doctor_within_5_7_days",
+      "follow_up.call_sooner_within_3_5_days_if_you_develop_new_symptoms_or_you_re_not_su",
+      "follow_up.call_your_primary_care_doctor_if_you_are_not_feeling_better_within_2_3_d",
+      "follow_up.call_your_primary_care_doctor_if_you_are_not_feeling_significantly_bette",
+      "follow_up.call_your_primary_care_doctor_in_3_5_days_if_you_are_not_feeling_better_",
+      "follow_up.call_your_primary_care_doctor_or_an_eye_doctor_within_3_5_days_if_your_s",
+      "follow_up.call_your_primary_care_doctor_or_diabetes_doctor_within_1_2_days",
+      "follow_up.call_your_primary_care_doctor_s_office_within_1_2_days_ideally_today_or_",
+      "follow_up.call_your_primary_care_doctor_within_2_3_days_to_let_them_know_you_teste",
+      "follow_up.call_your_primary_care_doctor_within_2_3_days_to_let_them_know_you_were_",
+      "follow_up.call_your_primary_care_doctor_within_2_days_to_schedule_suture_removal",
+      "follow_up.call_your_primary_care_doctor_within_3_5_days_to_arrange_the_surgery_app",
+      "follow_up.call_your_primary_care_doctor_within_3_5_days_to_check_how_you_are_recov",
+      "follow_up.call_your_primary_care_doctor_within_5_7_days_if_your_symptoms_are_not_c",
+      "follow_up.call_your_primary_care_doctor_within_5_to_7_days_for_a_follow_up_visit",
+      "follow_up.call_your_primary_care_doctor_within_5_to_7_days_if_the_constipation_con",
+      "follow_up.if_you_do_not_have_a_primary_care_doctor_go_to_an_urgent_care_clinic_in_",
+      "follow_up.if_you_do_not_have_a_primary_care_doctor_go_to_an_urgent_care_clinic_wit",
+      "follow_up.if_you_do_not_have_a_primary_care_doctor_go_to_an_urgent_care_clinic_wit",
+      "follow_up.if_your_itching_is_still_severe_after_2_weeks_or_you_see_new_burrows_or_",
+      "follow_up.if_your_pain_is_not_improving_after_1_2_weeks_or_your_knee_feels_unstabl",
+      "follow_up.if_your_pain_is_not_improving_after_1_week_or_you_need_help_with_exercis",
+      "follow_up.if_your_symptoms_are_not_better_after_2_weeks_of_treatment_you_may_need_",
+      "follow_up.if_your_symptoms_are_not_improving_after_2_3_days_of_treatment_call_your",
+      "follow_up.most_ankle_sprains_heal_in_2_4_weeks_with_home_care_but_your_doctor_can_",
+      "follow_up.most_concussion_symptoms_improve_within_7_10_days_but_full_recovery_can_",
+      "follow_up.most_corneal_abrasions_heal_completely_within_3_days_without_lasting_pro",
+      "follow_up.most_muscle_strains_improve_significantly_within_7_10_days",
+      "follow_up.see_a_dentist_within_2_3_days",
+      "follow_up.see_a_general_surgeon_within_2_weeks_to_discuss_removing_your_gallbladde",
+      "follow_up.see_your_primary_care_doctor_in_1_2_weeks_to_check_your_progress",
+      "follow_up.see_your_primary_care_doctor_in_2_to_4_weeks_to_make_sure_the_treatment_",
+      "follow_up.see_your_primary_care_doctor_in_7_10_days_to_confirm_the_infection_has_c",
+      "follow_up.see_your_primary_care_doctor_or_diabetes_doctor_within_3_5_days",
+      "follow_up.see_your_primary_care_doctor_within_10_14_days_if_your_symptoms_haven_t_",
+      "follow_up.see_your_primary_care_doctor_within_1_2_weeks",
+      "follow_up.see_your_primary_care_doctor_within_1_2_weeks_if_headaches_continue_or_h",
+      "follow_up.see_your_primary_care_doctor_within_1_2_weeks_if_your_pain_is_not_at_lea",
+      "follow_up.see_your_primary_care_doctor_within_1_week",
+      "follow_up.see_your_primary_care_doctor_within_2_3_weeks_for_a_recheck_of_the_bite_",
+      "follow_up.see_your_primary_care_doctor_within_2_3_weeks_if_your_symptoms_do_not_im",
+      "follow_up.see_your_primary_care_doctor_within_3_5_days_for_a_recheck",
+      "follow_up.see_your_primary_care_doctor_within_3_5_days_to_check_that_the_wound_is_",
+      "follow_up.see_your_primary_care_doctor_within_3_5_days_to_check_your_recovery_and_",
+      "follow_up.see_your_primary_care_doctor_within_3_days_to_check_that_the_infection_i",
+      "follow_up.see_your_primary_care_doctor_within_3_to_5_days_to_check_how_the_wound_i",
+      "follow_up.see_your_primary_care_doctor_within_5_7_days_if_the_rash_is_not_improvin",
+      "follow_up.see_your_primary_care_doctor_within_5_7_days_if_your_cough_is_not_improv",
+      "follow_up.see_your_primary_care_doctor_within_5_7_days_if_your_pain_is_not_improvi",
+      "follow_up.see_your_primary_care_doctor_within_5_7_days_to_check_that_the_wound_is_",
+      "follow_up.see_your_primary_care_doctor_within_5_7_days_to_check_your_healing_call_",
+      "follow_up.see_your_primary_care_doctor_within_5_7_days_to_check_your_progress",
+      "follow_up.see_your_primary_care_doctor_within_5_7_days_to_review_your_asthma_contr",
+      "follow_up.see_your_primary_care_doctor_within_5_7_days_to_talk_about_what_caused_t",
+      "follow_up.see_your_primary_care_doctor_within_5_to_7_days",
+      "follow_up.see_your_primary_care_doctor_within_7_10_days_if_your_symptoms_are_not_i",
+      "follow_up.your_stitches_need_to_be_removed_in_7_10_days_for_most_body_areas_3_5_da"
+    ]
+  },
+  {
+    "cluster_id": "follow_up.general",
+    "section": "follow_up",
+    "rank": 35,
+    "candidate_count": 28,
+    "safety_topics": [],
+    "flags": [],
+    "representative_text": "Call their office tomorrow to schedule an appointment.",
+    "candidate_ids": [
+      "follow_up.call_their_office_tomorrow_to_schedule_an_appointment",
+      "follow_up.call_their_office_to_schedule_an_appointment",
+      "follow_up.call_their_office_tomorrow_to_schedule",
+      "follow_up.call_tomorrow_to_schedule_this_appointment",
+      "follow_up.call_your_doctor_s_office_to_schedule_an_appointment",
+      "follow_up.call_your_doctor_s_office_tomorrow_to_schedule_this_appointment",
+      "follow_up.bring_the_stone_if_you_catch_it_your_doctor_may_send_it_to_a_lab_to_find",
+      "follow_up.bring_your_blood_sugar_log_with_you",
+      "follow_up.call_a_dental_office_tomorrow_morning_to_schedule_an_appointment",
+      "follow_up.call_their_office_this_week_to_schedule_the_appointment",
+      "follow_up.call_their_office_tomorrow_to_schedule_this_appointment",
+      "follow_up.call_their_office_tomorrow_to_schedule_this_visit",
+      "follow_up.call_your_doctor_s_office_to_schedule",
+      "follow_up.if_you_don_t_have_a_primary_care_doctor_visit_an_urgent_care_clinic_for_",
+      "follow_up.if_you_don_t_have_a_primary_care_doctor_visit_an_urgent_care_clinic_if_s",
+      "follow_up.if_you_don_t_have_a_primary_care_doctor_you_can_return_to_this_emergency",
+      "follow_up.if_you_get_more_than_2_bladder_infections_in_6_months_schedule_an_appoin",
+      "follow_up.if_you_notice_any_signs_of_infection_before_then_you_can_be_seen_sooner_",
+      "follow_up.most_ear_infections_in_adults_improve_with_pain_control_but_your_doctor_",
+      "follow_up.tell_them_you_need_a_full_prescription_for_your_medicine",
+      "follow_up.the_tooth_problem_will_not_heal_on_its_own_and_needs_dental_treatment_to",
+      "follow_up.we_are_sending_a_referral_to_surgery",
+      "follow_up.you_need_to_adjust_your_diabetes_treatment_plan_to_prevent_this_from_hap",
+      "follow_up.you_need_to_review_why_this_happened_and_whether_your_medications_need_t",
+      "follow_up.your_doctor_can_help_find_triggers_and_discuss_prevention_options",
+      "follow_up.your_doctor_may_refer_you_to_a_dermatologist_or_allergist_if_the_rash_ke",
+      "follow_up.your_doctor_may_want_to_check_for_other_causes_or_adjust_your_treatment_",
+      "follow_up.your_gallbladder_can_cause_this_pain_again_or_develop_infection_so_surge"
+    ]
+  },
+  {
+    "cluster_id": "follow_up.infection_progression",
+    "section": "follow_up",
+    "rank": 5,
+    "candidate_count": 5,
+    "safety_topics": [
+      "infection_progression",
+      "neurologic_red_flag"
+    ],
+    "flags": [
+      "exact_follow_up_interval"
+    ],
+    "representative_text": "Call sooner if you need help identifying what caused the rash or if symptoms worsen.",
+    "candidate_ids": [
+      "follow_up.call_sooner_if_you_need_help_identifying_what_caused_the_rash_or_if_symp",
+      "follow_up.follow_up_sooner_if_your_symptoms_are_getting_worse_instead_of_better",
+      "follow_up.if_your_pain_is_not_better_in_24_hours_or_your_vision_worsens_at_all_you",
+      "follow_up.if_your_pain_is_not_better_in_3_days_or_gets_worse_before_then_see_your_",
+      "follow_up.see_your_primary_care_doctor_within_3_to_5_days_if_your_symptoms_are_not"
+    ]
+  },
+  {
+    "cluster_id": "follow_up.medication_safety",
+    "section": "follow_up",
+    "rank": 1,
+    "candidate_count": 1,
+    "safety_topics": [
+      "medication_safety"
+    ],
+    "flags": [
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "Your doctor may refer you to a urologist (kidney and bladder specialist) to prevent future stones, especially if this is not your first stone.",
+    "candidate_ids": [
+      "follow_up.your_doctor_may_refer_you_to_a_urologist_kidney_and_bladder_specialist_t"
+    ]
+  },
+  {
+    "cluster_id": "follow_up.return_to_work_claim",
+    "section": "follow_up",
+    "rank": 2,
+    "candidate_count": 2,
+    "safety_topics": [],
+    "flags": [
+      "return_to_work_claim"
+    ],
+    "representative_text": "Call sooner if you need a work note, physical therapy referral, or stronger pain medicine.",
+    "candidate_ids": [
+      "follow_up.call_sooner_if_you_need_a_work_note_physical_therapy_referral_or_stronge",
+      "follow_up.your_doctor_may_want_to_check_your_thyroid_and_electrolytes_with_blood_w"
+    ]
+  },
+  {
+    "cluster_id": "follow_up.source_needed",
+    "section": "follow_up",
+    "rank": 2,
+    "candidate_count": 2,
+    "safety_topics": [],
+    "flags": [
+      "source_needed"
+    ],
+    "representative_text": "If symptoms get much better before then, routine follow-up at your next regular visit is fine.",
+    "candidate_ids": [
+      "follow_up.if_symptoms_get_much_better_before_then_routine_follow_up_at_your_next_r",
+      "follow_up.if_you_develop_any_of_the_warning_signs_listed_above_before_that_appoint"
+    ]
+  },
+  {
+    "cluster_id": "follow_up.unsupported_diagnosis_certainty",
+    "section": "follow_up",
+    "rank": 7,
+    "candidate_count": 7,
+    "safety_topics": [],
+    "flags": [
+      "unsupported_diagnosis_certainty"
+    ],
+    "representative_text": "If you do not have a dentist, contact your primary care doctor for a referral or call a local dental clinic.",
+    "candidate_ids": [
+      "follow_up.if_you_do_not_have_a_dentist_contact_your_primary_care_doctor_for_a_refe",
+      "follow_up.if_you_do_not_have_a_doctor_go_to_an_urgent_care_or_community_health_cen",
+      "follow_up.if_you_do_not_have_a_primary_care_doctor_call_an_urgent_care_clinic",
+      "follow_up.if_you_do_not_have_a_primary_care_doctor_go_to_an_urgent_care_clinic_for",
+      "follow_up.if_you_do_not_have_a_regular_doctor_go_to_an_urgent_care_clinic_or_commu",
+      "follow_up.if_you_do_not_have_an_asthma_action_plan_ask_your_doctor_to_create_one_w",
+      "follow_up.your_doctor_can_prescribe_stronger_medications_to_stop_migraines_when_th"
+    ]
+  }
+]

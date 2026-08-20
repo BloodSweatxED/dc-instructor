@@ -1,0 +1,118 @@
+{
+  "id": "anterior_epistaxis_resolved_no_packing_or_anticoagulation",
+  "label": "Resolved anterior nosebleed without packing or anticoagulation red flags",
+  "status": "reviewed",
+  "condition_family": "ent",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated resolved anterior nosebleed.",
+    "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "must_not_miss": [
+    "Posterior or severe bleeding.",
+    "Deep infection.",
+    "Foreign body or trauma.",
+    "High-risk host complication."
+  ],
+  "default_follow_up": "Follow up with primary care, ENT, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "anterior_epistaxis_resolved_no_packing_or_anticoagulation.diagnosis.diagnosis_summary.v1",
+    "anterior_epistaxis_resolved_no_packing_or_anticoagulation.what_we_found.reassuring_ed_assessment.v1",
+    "anterior_epistaxis_resolved_no_packing_or_anticoagulation.home_care.home_care_1.v1",
+    "anterior_epistaxis_resolved_no_packing_or_anticoagulation.home_care.home_care_2.v1",
+    "anterior_epistaxis_resolved_no_packing_or_anticoagulation.home_care.home_care_3.v1",
+    "anterior_epistaxis_resolved_no_packing_or_anticoagulation.medications.medication_guidance_1.v1",
+    "anterior_epistaxis_resolved_no_packing_or_anticoagulation.medications.medication_guidance_2.v1",
+    "anterior_epistaxis_resolved_no_packing_or_anticoagulation.return_precautions.return_precaution_1.v1",
+    "anterior_epistaxis_resolved_no_packing_or_anticoagulation.return_precautions.return_precaution_2.v1",
+    "anterior_epistaxis_resolved_no_packing_or_anticoagulation.return_precautions.return_precaution_3.v1",
+    "anterior_epistaxis_resolved_no_packing_or_anticoagulation.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.nosebleed",
+    "aao_hns.nosebleed_guideline"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "medlineplus.nosebleed, aao_hns.nosebleed_guideline supports patient-education framing for resolved anterior nosebleed and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent."
+  },
+  "runtime": {
+    "condition_terms": [
+      "resolved anterior nosebleed",
+      "anterior epistaxis resolved",
+      "resolved epistaxis no packing"
+    ],
+    "unsafe_modifiers": [
+      "posterior_epistaxis_or_uncontrolled_bleeding",
+      "anticoagulated",
+      "bleeding_disorder",
+      "facial_or_nasal_trauma",
+      "posterior_epistaxis_or_uncontrolled_bleeding",
+      "unstable_vitals"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_anterior_epistaxis_resolved_no_packing_or_anticoagulat",
+        "terms": [
+          "clinician diagnosis resolved anterior nosebleed",
+          "discharge diagnosis resolved anterior nosebleed",
+          "resolved anterior nosebleed diagnosed"
+        ]
+      },
+      {
+        "id": "resolved_no_packing_or_anticoagulation_epistaxis",
+        "terms": [
+          "Clinician diagnosis resolved anterior nosebleed",
+          "Bleeding stopped",
+          "No nasal packing",
+          "No blood thinner."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis resolved anterior nosebleed",
+      "resolved anterior nosebleed diagnosed",
+      "resolved anterior nosebleed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-19",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. medlineplus.nosebleed, aao_hns.nosebleed_guideline supports patient-education framing for resolved anterior nosebleed and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_anterior_epistaxis_resolved_no_packing_or_anticoagulation_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated resolved anterior nosebleed",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "blocked_modifiers": [
+      "posterior_epistaxis_or_uncontrolled_bleeding",
+      "anticoagulated",
+      "bleeding_disorder",
+      "facial_or_nasal_trauma",
+      "posterior_epistaxis_or_uncontrolled_bleeding",
+      "unstable_vitals"
+    ]
+  }
+}

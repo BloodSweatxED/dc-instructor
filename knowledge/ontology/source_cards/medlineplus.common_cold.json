@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.common_cold",
+  "source": "MedlinePlus",
+  "title": "Common Cold",
+  "url": "https://medlineplus.gov/commoncold.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "The common cold is a viral upper respiratory tract infection.",
+    "Antibiotics treat bacterial infections and do not treat viral colds.",
+    "Care is supportive and may include fluids, rest, symptom medicines, and careful label reading.",
+    "Patients should seek care for trouble breathing, worsening symptoms, or symptoms that improve and then return."
+  ],
+  "use_policy": "evidence_support"
+}

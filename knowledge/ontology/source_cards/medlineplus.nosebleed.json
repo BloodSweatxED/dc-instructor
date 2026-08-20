@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.nosebleed",
+  "source": "MedlinePlus",
+  "title": "Nosebleed",
+  "url": "https://medlineplus.gov/ency/article/003106.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "Nosebleed is bleeding from tissue lining the nose and is also called epistaxis.",
+    "Initial care includes direct pressure and avoiding nose picking or blowing after bleeding stops.",
+    "Medical evaluation is needed when bleeding is heavy, does not stop, follows injury, or occurs with concerning symptoms.",
+    "This source supports general patient education, not ED posterior-bleed risk stratification."
+  ],
+  "use_policy": "evidence_support"
+}

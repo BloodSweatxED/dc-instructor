@@ -1,0 +1,138 @@
+{
+  "id": "knee_abrasion_no_deep_wound_or_infection",
+  "label": "Knee abrasion without deep wound or infection red flags",
+  "status": "reviewed",
+  "condition_family": "skin_soft_tissue",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of minor knee abrasion.",
+    "No repair-needed laceration, deep structure injury, retained foreign body, bite wound, dirty wound requiring separate pathway, infection, diabetic-foot risk when relevant, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Repair-needed laceration, tendon/nerve/blood-vessel injury, joint violation, open fracture, retained foreign body, bite wound, dirty wound, infection concern, neurovascular compromise, severe pain, delayed high-risk presentation, diabetic foot when relevant, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed wound plan."
+  ],
+  "must_not_miss": [
+    "Tendon, nerve, or blood-vessel injury.",
+    "Retained foreign body.",
+    "Open fracture or joint violation.",
+    "Wound infection."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, wound care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "knee_abrasion_no_deep_wound_or_infection.diagnosis.diagnosis_summary.v1",
+    "knee_abrasion_no_deep_wound_or_infection.what_we_found.reassuring_ed_assessment.v1",
+    "knee_abrasion_no_deep_wound_or_infection.home_care.home_care_1.v1",
+    "knee_abrasion_no_deep_wound_or_infection.home_care.home_care_2.v1",
+    "knee_abrasion_no_deep_wound_or_infection.home_care.home_care_3.v1",
+    "knee_abrasion_no_deep_wound_or_infection.medications.medication_guidance_1.v1",
+    "knee_abrasion_no_deep_wound_or_infection.medications.medication_guidance_2.v1",
+    "knee_abrasion_no_deep_wound_or_infection.return_precautions.return_precaution_1.v1",
+    "knee_abrasion_no_deep_wound_or_infection.return_precautions.return_precaution_2.v1",
+    "knee_abrasion_no_deep_wound_or_infection.return_precautions.return_precaution_3.v1",
+    "knee_abrasion_no_deep_wound_or_infection.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.cuts_puncture_wounds",
+    "medlineplus.wound_healing"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports basic cuts and wound-care self-care, keeping wounds clean, clinician-directed tetanus/ointment decisions, and escalation for infection, bleeding, retained foreign body, or deep-structure concern. This expansion is limited to clinician-diagnosed minor abrasions with no deep structure, foreign-body, bite, dirty wound, infection, pregnancy/pediatric, or specialist-directed pathway."
+  },
+  "runtime": {
+    "condition_terms": [
+      "knee abrasion",
+      "knee abrasion",
+      "minor knee scrape"
+    ],
+    "unsafe_modifiers": [
+      "bite_wound",
+      "delayed_wound_presentation",
+      "dirty_wound",
+      "immunocompromised",
+      "joint_violation",
+      "laceration_repair_needed",
+      "neurovascular_compromise",
+      "open_fracture",
+      "pediatric_pathway",
+      "pregnancy",
+      "retained_foreign_body",
+      "severe_pain",
+      "specialist_directed_wound_plan",
+      "wound_infection_concern"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_knee_abrasion_no_deep_wound_or_infection",
+        "terms": [
+          "clinician diagnosis knee abrasion",
+          "discharge diagnosis knee abrasion",
+          "knee abrasion diagnosed"
+        ]
+      },
+      {
+        "id": "no_deep_wound_or_infection_knee_abrasion_no_deep_wound_or_infection",
+        "terms": [
+          "no repair needed",
+          "no foreign body",
+          "no tendon injury",
+          "no infection",
+          "neurovascularly intact"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis knee abrasion",
+      "knee abrasion diagnosed",
+      "knee abrasion"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-07-04",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports basic cuts and wound-care self-care, keeping wounds clean, clinician-directed tetanus/ointment decisions, and escalation for infection, bleeding, retained foreign body, or deep-structure concern. This expansion is limited to clinician-diagnosed minor abrasions with no deep structure, foreign-body, bite, dirty wound, infection, pregnancy/pediatric, or specialist-directed pathway.",
+    "clinical_status": "reviewed_for_limited_knee_abrasion_no_deep_wound_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of knee abrasion",
+      "no repair needed",
+      "no deep structure injury or retained foreign body",
+      "no infection",
+      "intact neurovascular exam"
+    ],
+    "blocked_modifiers": [
+      "bite_wound",
+      "delayed_wound_presentation",
+      "dirty_wound",
+      "immunocompromised",
+      "joint_violation",
+      "laceration_repair_needed",
+      "neurovascular_compromise",
+      "open_fracture",
+      "pediatric_pathway",
+      "pregnancy",
+      "retained_foreign_body",
+      "severe_pain",
+      "specialist_directed_wound_plan",
+      "wound_infection_concern"
+    ]
+  }
+}

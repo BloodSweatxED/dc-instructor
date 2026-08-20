@@ -1,0 +1,162 @@
+[
+  {
+    "id": "phase2201_knee_contusion_clean",
+    "condition": "knee bruise",
+    "ed_note": "Adult. Clinician diagnosis knee contusion. No fracture concern. Neurovascularly intact. No deformity.",
+    "expected_phenotype_id": "knee_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2202_knee_contusion_missing_context_blocks",
+    "condition": "knee bruise",
+    "ed_note": "Adult with knee bruise.",
+    "expected_phenotype_id": "knee_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_knee_contusion",
+      "no_fracture_or_neurovascular_red_flags_knee"
+    ]
+  },
+  {
+    "id": "phase2203_knee_contusion_unsafe_modifiers_block",
+    "condition": "knee bruise",
+    "ed_note": "Knee contusion without fracture or neurovascular red flags diagnosed, but possible fracture, numb fingers, severe pain, warfarin, unable to bear weight are documented.",
+    "expected_phenotype_id": "knee_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase2204_elbow_contusion_clean",
+    "condition": "elbow bruise",
+    "ed_note": "Adult. Clinician diagnosis elbow contusion. No fracture concern. Neurovascularly intact. No deformity.",
+    "expected_phenotype_id": "elbow_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2205_elbow_contusion_missing_context_blocks",
+    "condition": "elbow bruise",
+    "ed_note": "Adult with elbow bruise.",
+    "expected_phenotype_id": "elbow_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_elbow_contusion",
+      "no_fracture_or_neurovascular_red_flags_elbow"
+    ]
+  },
+  {
+    "id": "phase2206_elbow_contusion_unsafe_modifiers_block",
+    "condition": "elbow bruise",
+    "ed_note": "Elbow contusion without fracture or neurovascular red flags diagnosed, but possible fracture, numb fingers, severe pain, warfarin, pregnancy are documented.",
+    "expected_phenotype_id": "elbow_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "phase2207_wrist_contusion_clean",
+    "condition": "wrist bruise",
+    "ed_note": "Adult. Clinician diagnosis wrist contusion. No fracture concern. Neurovascularly intact. No deformity.",
+    "expected_phenotype_id": "wrist_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2208_wrist_contusion_missing_context_blocks",
+    "condition": "wrist bruise",
+    "ed_note": "Adult with wrist bruise.",
+    "expected_phenotype_id": "wrist_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_wrist_contusion",
+      "no_fracture_or_neurovascular_red_flags_wrist"
+    ]
+  },
+  {
+    "id": "phase2209_wrist_contusion_unsafe_modifiers_block",
+    "condition": "wrist bruise",
+    "ed_note": "Wrist contusion without fracture or neurovascular red flags diagnosed, but possible fracture, numb fingers, severe pain, warfarin, FOOSH with snuffbox tenderness are documented.",
+    "expected_phenotype_id": "wrist_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "foosh_scaphoid_risk"
+    ]
+  },
+  {
+    "id": "phase2210_foot_contusion_clean",
+    "condition": "foot bruise",
+    "ed_note": "Adult. Clinician diagnosis foot contusion. No fracture concern. Neurovascularly intact. No deformity.",
+    "expected_phenotype_id": "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2211_foot_contusion_missing_context_blocks",
+    "condition": "foot bruise",
+    "ed_note": "Adult with foot bruise.",
+    "expected_phenotype_id": "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_foot_contusion",
+      "no_fracture_or_neurovascular_red_flags_foot"
+    ]
+  },
+  {
+    "id": "phase2212_foot_contusion_unsafe_modifiers_block",
+    "condition": "foot bruise",
+    "ed_note": "Foot contusion without fracture or diabetic-foot red flags diagnosed, but possible fracture, numb fingers, severe pain, warfarin, unable to bear weight are documented.",
+    "expected_phenotype_id": "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase2213_finger_contusion_clean",
+    "condition": "finger bruise",
+    "ed_note": "Adult. Clinician diagnosis finger contusion. No fracture concern. Neurovascularly intact. No deformity.",
+    "expected_phenotype_id": "finger_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2214_finger_contusion_missing_context_blocks",
+    "condition": "finger bruise",
+    "ed_note": "Adult with finger bruise.",
+    "expected_phenotype_id": "finger_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_finger_contusion",
+      "no_fracture_or_neurovascular_red_flags_finger"
+    ]
+  },
+  {
+    "id": "phase2215_finger_contusion_unsafe_modifiers_block",
+    "condition": "finger bruise",
+    "ed_note": "Finger contusion without fracture, tendon, or neurovascular red flags diagnosed, but possible fracture, numb fingers, severe pain, warfarin, tendon rupture are documented.",
+    "expected_phenotype_id": "finger_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "tendon_or_ligament_rupture_concern"
+    ]
+  }
+]

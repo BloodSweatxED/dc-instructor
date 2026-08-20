@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.laryngitis",
+  "source": "MedlinePlus",
+  "title": "Laryngitis",
+  "url": "https://medlineplus.gov/ency/article/001385.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Laryngitis is swelling and irritation of the voice box that can cause hoarseness or voice loss.",
+    "Common causes include viral illness, voice overuse, and irritation.",
+    "Voice rest, fluids, humidified air, and avoiding smoke or irritants can support recovery.",
+    "Breathing trouble, drooling, severe throat pain, neck swelling, or prolonged symptoms require separate clinician-directed care."
+  ],
+  "use_policy": "evidence_support"
+}

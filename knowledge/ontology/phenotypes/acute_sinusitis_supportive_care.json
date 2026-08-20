@@ -1,0 +1,120 @@
+{
+  "id": "acute_sinusitis_supportive_care",
+  "label": "Acute sinusitis supportive care without antibiotic plan",
+  "status": "reviewed",
+  "condition_family": "upper_respiratory",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of acute sinusitis, sinus infection, or acute rhinosinusitis.",
+    "Supportive-care discharge plan without clinician-entered antibiotic instructions.",
+    "No orbital, intracranial, dental, facial trauma, sepsis, or airway emergency concern.",
+    "No chronic or recurrent sinusitis pathway."
+  ],
+  "exclusion_criteria": [
+    "Antibiotics prescribed for sinusitis or suspected bacterial sinus infection.",
+    "Severe bacterial sinusitis features requiring clinician-specific antibiotic or watchful-waiting decision.",
+    "Orbital or intracranial complication concern, including eye swelling, vision change, severe headache with neurologic symptoms, meningitis concern, or altered mental status.",
+    "Dental source, facial trauma, immunocompromise, sepsis, unstable vital signs, pregnancy, or frail elderly patient requiring individualized planning.",
+    "Chronic, recurrent, fungal, post-surgical, or ENT-directed sinusitis pathway."
+  ],
+  "must_not_miss": [
+    "Orbital cellulitis.",
+    "Intracranial infection.",
+    "Meningitis.",
+    "Dental abscess.",
+    "Sepsis.",
+    "Facial trauma."
+  ],
+  "default_follow_up": "Follow up with primary care or ENT as instructed, especially if symptoms are not improving or keep coming back.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "acute_sinusitis_supportive_care.diagnosis.diagnosis_summary.v1",
+    "acute_sinusitis_supportive_care.what_we_found.reassuring_ed_assessment.v1",
+    "acute_sinusitis_supportive_care.home_care.home_care_1.v1",
+    "acute_sinusitis_supportive_care.home_care.home_care_2.v1",
+    "acute_sinusitis_supportive_care.home_care.home_care_3.v1",
+    "acute_sinusitis_supportive_care.medications.medication_guidance_1.v1",
+    "acute_sinusitis_supportive_care.medications.medication_guidance_2.v1",
+    "acute_sinusitis_supportive_care.return_precautions.return_precaution_1.v1",
+    "acute_sinusitis_supportive_care.return_precautions.return_precaution_2.v1",
+    "acute_sinusitis_supportive_care.return_precautions.return_precaution_3.v1",
+    "acute_sinusitis_supportive_care.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "cdc.sinus_infection",
+    "medlineplus.sinusitis",
+    "cdc.antibiotic_use_adult_outpatient"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "CDC and MedlinePlus support sinusitis framing, symptom-based diagnosis, supportive care, and seeking care for severe or concerning symptoms. CDC outpatient guidance supports that most rhinosinusitis is viral, that antibiotics may not help many cases, and that bacterial-feature or antibiotic decisions require clinician judgment."
+  },
+  "runtime": {
+    "condition_terms": [
+      "acute sinusitis supportive care",
+      "sinus infection supportive care",
+      "acute sinusitis",
+      "sinus infection",
+      "rhinosinusitis supportive care"
+    ],
+    "unsafe_modifiers": [
+      "antibiotic_prescribed_for_sinusitis",
+      "severe_bacterial_sinusitis_features",
+      "orbital_or_intracranial_sinusitis_concern",
+      "dental_or_facial_trauma_source",
+      "immunocompromised",
+      "elderly_frail",
+      "pregnancy",
+      "sepsis",
+      "unstable_vitals",
+      "chronic_or_recurrent_sinusitis"
+    ],
+    "high_confidence_terms": [
+      "acute sinusitis supportive care",
+      "sinus infection supportive care"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. CDC and MedlinePlus support sinusitis framing, symptom-based diagnosis, supportive care, and seeking care for severe or concerning symptoms. CDC outpatient guidance supports that most rhinosinusitis is viral, that antibiotics may not help many cases, and that bacterial-feature or antibiotic decisions require clinician judgment.",
+    "clinical_status": "reviewed_for_limited_acute_sinusitis_supportive_care_without_antibiotic_plan_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of acute sinusitis, sinus infection, or acute rhinosinusitis",
+      "supportive-care plan without antibiotic instructions",
+      "no severe bacterial sinusitis features",
+      "no orbital or intracranial complication concern",
+      "no dental source, facial trauma, sepsis, or individualized high-risk host pathway"
+    ],
+    "blocked_modifiers": [
+      "antibiotic_prescribed_for_sinusitis",
+      "severe_bacterial_sinusitis_features",
+      "orbital_or_intracranial_sinusitis_concern",
+      "dental_or_facial_trauma_source",
+      "immunocompromised",
+      "elderly_frail",
+      "pregnancy",
+      "sepsis",
+      "unstable_vitals",
+      "chronic_or_recurrent_sinusitis"
+    ]
+  }
+}

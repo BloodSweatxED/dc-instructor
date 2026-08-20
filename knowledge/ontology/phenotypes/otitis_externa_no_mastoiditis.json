@@ -1,0 +1,91 @@
+{
+  "id": "otitis_externa_no_mastoiditis",
+  "label": "Uncomplicated otitis externa without mastoiditis concern",
+  "status": "retired",
+  "condition_family": "ear",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated otitis externa or swimmer's ear.",
+    "No mastoiditis, malignant otitis externa, middle-ear complication, ear trauma, foreign body, acute hearing loss, facial weakness, or systemic illness concern documented."
+  ],
+  "exclusion_criteria": [
+    "Mastoiditis, deep ear infection, skull base osteomyelitis, or malignant otitis externa concern.",
+    "Diabetes, immunocompromised host, severe systemic illness, unstable vital signs, or fever needing separate planning.",
+    "Perforated eardrum, tympanostomy tube, ear trauma, ear foreign body, acute hearing loss, vertigo, facial weakness, or specialist-directed ENT plan."
+  ],
+  "must_not_miss": [
+    "Mastoiditis.",
+    "Malignant otitis externa.",
+    "Skull base osteomyelitis.",
+    "Perforated tympanic membrane.",
+    "Ear foreign body.",
+    "Sudden sensorineural hearing loss."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, or an ear clinician as instructed.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "otitis_externa_no_mastoiditis.diagnosis.diagnosis_summary.v1",
+    "otitis_externa_no_mastoiditis.what_we_found.reassuring_ed_assessment.v1",
+    "otitis_externa_no_mastoiditis.home_care.home_care_1.v1",
+    "otitis_externa_no_mastoiditis.home_care.home_care_2.v1",
+    "otitis_externa_no_mastoiditis.home_care.home_care_3.v1",
+    "otitis_externa_no_mastoiditis.medications.medication_guidance_1.v1",
+    "otitis_externa_no_mastoiditis.medications.medication_guidance_2.v1",
+    "otitis_externa_no_mastoiditis.return_precautions.return_precaution_1.v1",
+    "otitis_externa_no_mastoiditis.return_precautions.return_precaution_2.v1",
+    "otitis_externa_no_mastoiditis.return_precautions.return_precaution_3.v1",
+    "otitis_externa_no_mastoiditis.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "cdc.swimmers_ear",
+    "medlineplus.swimmers_ear"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": true,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": true,
+    "notes": "CDC and MedlinePlus support swimmer's ear/otitis externa framing, ear-canal infection symptoms, drying/prevention concepts, treatment with clinician-directed drops, and escalation for fever, symptoms behind the ear, severe symptoms, or worsening illness."
+  },
+  "runtime": {
+    "condition_terms": [
+      "otitis externa uncomplicated",
+      "swimmer's ear uncomplicated",
+      "swimmers ear uncomplicated",
+      "otitis externa no mastoiditis"
+    ],
+    "unsafe_modifiers": [
+      "mastoiditis_or_deep_ear_infection_concern",
+      "malignant_otitis_externa_risk",
+      "immunocompromised",
+      "fever",
+      "unstable_vitals",
+      "tympanic_membrane_perforation_or_tube",
+      "ear_trauma_or_foreign_body",
+      "acute_hearing_loss",
+      "facial_weakness_or_neurologic_ear_sign"
+    ],
+    "high_confidence_terms": [
+      "otitis externa uncomplicated",
+      "swimmer's ear uncomplicated",
+      "swimmers ear uncomplicated",
+      "otitis externa no mastoiditis"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "retired_product_layer_fallback_only"
+  },
+  "version": 1,
+  "review": {
+    "status": "retired",
+    "reviewer": null,
+    "last_reviewed": null,
+    "notes": "Phase 64 retired this draft to product-layer fallback. Do not use broad ear pain or ear drainage as standalone runtime terms. Keep mastoiditis, malignant otitis externa risk, perforation/tube, ear trauma/foreign body, acute hearing loss, facial weakness, and systemic illness outside ontology mode unless later reviewed."
+  }
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "phase38_sinusitis_clean_draft_fallback",
+    "condition": "acute sinusitis supportive care",
+    "ed_note": "Adult with clinician diagnosis of acute sinusitis. Supportive care plan, no antibiotic prescribed, no eye swelling, no vision change, no dental source, no sepsis, discharged home.",
+    "expected_phenotype_id": "acute_sinusitis_supportive_care",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase38_sinusitis_antibiotic_prescribed_blocks",
+    "condition": "acute sinusitis supportive care",
+    "ed_note": "Adult with acute sinusitis. Antibiotic prescribed for sinusitis with amoxicillin clavulanate for sinusitis.",
+    "expected_phenotype_id": "acute_sinusitis_supportive_care",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["antibiotic_prescribed_for_sinusitis"]
+  },
+  {
+    "id": "phase38_sinusitis_severe_bacterial_features_blocks",
+    "condition": "acute sinusitis supportive care",
+    "ed_note": "Adult with acute sinusitis and high fever with severe facial pain and purulent nasal discharge for 4 days.",
+    "expected_phenotype_id": "acute_sinusitis_supportive_care",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["severe_bacterial_sinusitis_features"]
+  },
+  {
+    "id": "phase38_sinusitis_orbital_concern_blocks",
+    "condition": "sinus infection supportive care",
+    "ed_note": "Adult with sinus infection symptoms but has eye swelling, pain with eye movement, and double vision.",
+    "expected_phenotype_id": "acute_sinusitis_supportive_care",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["orbital_or_intracranial_sinusitis_concern"]
+  },
+  {
+    "id": "phase38_sinusitis_vague_congestion_no_match",
+    "condition": "congestion",
+    "ed_note": "Nasal congestion without final sinusitis discharge diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  }
+]

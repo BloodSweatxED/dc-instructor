@@ -1,0 +1,127 @@
+{
+  "id": "tinea_corporis_uncomplicated_no_cellulitis",
+  "label": "Uncomplicated body ringworm without cellulitis",
+  "status": "reviewed",
+  "condition_family": "dermatology",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of localized tinea corporis or body ringworm.",
+    "No cellulitis, abscess, scalp/nail/beard involvement, extensive disease, or immunocompromised-host pathway."
+  ],
+  "exclusion_criteria": [
+    "Cellulitis, abscess, or secondary infection concern.",
+    "Scalp, nail, beard, groin, or foot fungal pathway requiring different instructions.",
+    "Extensive, recurrent, treatment-failure, or immunocompromised-host disease."
+  ],
+  "must_not_miss": [
+    "Cellulitis.",
+    "Abscess.",
+    "Tinea capitis requiring oral treatment.",
+    "Immunocompromised-host fungal infection."
+  ],
+  "default_follow_up": "Follow up with primary care or dermatology if the rash is not improving with treatment or if it returns.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "tinea_corporis_uncomplicated_no_cellulitis.diagnosis.diagnosis_summary.v1",
+    "tinea_corporis_uncomplicated_no_cellulitis.what_we_found.reassuring_ed_assessment.v1",
+    "tinea_corporis_uncomplicated_no_cellulitis.home_care.home_care_1.v1",
+    "tinea_corporis_uncomplicated_no_cellulitis.home_care.home_care_2.v1",
+    "tinea_corporis_uncomplicated_no_cellulitis.home_care.home_care_3.v1",
+    "tinea_corporis_uncomplicated_no_cellulitis.medications.medication_guidance_1.v1",
+    "tinea_corporis_uncomplicated_no_cellulitis.medications.medication_guidance_2.v1",
+    "tinea_corporis_uncomplicated_no_cellulitis.return_precautions.return_precaution_1.v1",
+    "tinea_corporis_uncomplicated_no_cellulitis.return_precautions.return_precaution_2.v1",
+    "tinea_corporis_uncomplicated_no_cellulitis.return_precautions.return_precaution_3.v1",
+    "tinea_corporis_uncomplicated_no_cellulitis.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "cdc.ringworm"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "CDC supports ringworm and tinea framing, contagious spread precautions, antifungal treatment concepts, and special handling for scalp, nail, extensive, persistent, recurrent, or high-risk disease. Autonomous Phase 1501-1550 approved this narrow v1 only for clinician-diagnosed localized body ringworm without cellulitis, abscess, scalp/nail/beard/groin/foot pathway, systemic illness, treatment failure, or immunocompromised-host pathway."
+  },
+  "runtime": {
+    "condition_terms": [
+      "tinea corporis uncomplicated",
+      "tinea corporis",
+      "body ringworm",
+      "ringworm on body",
+      "localized ringworm"
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "abscess_concern",
+      "scalp_or_nail_or_beard_fungal_infection",
+      "groin_or_foot_fungal_pathway",
+      "extensive_or_recurrent_fungal_rash",
+      "immunocompromised",
+      "systemic_illness"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_tinea_corporis",
+        "terms": [
+          "clinician diagnosis tinea corporis",
+          "discharge diagnosis tinea corporis",
+          "tinea corporis diagnosed",
+          "body ringworm diagnosed",
+          "localized ringworm diagnosed"
+        ]
+      },
+      {
+        "id": "localized_skin_only_no_cellulitis_documented",
+        "terms": [
+          "localized skin only",
+          "no cellulitis",
+          "no abscess",
+          "no secondary infection",
+          "no skin infection concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "tinea corporis diagnosed",
+      "body ringworm diagnosed",
+      "clinician diagnosis tinea corporis"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-11",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. CDC supports ringworm and tinea framing, contagious spread precautions, antifungal treatment concepts, and special handling for scalp, nail, extensive, persistent, recurrent, or high-risk disease. Autonomous Phase 1501-1550 approved this narrow v1 only for clinician-diagnosed localized body ringworm without cellulitis, abscess, scalp/nail/beard/groin/foot pathway, systemic illness, treatment failure, or immunocompromised-host pathway.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_tinea_corporis_without_cellulitis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of localized tinea corporis or body ringworm",
+      "localized skin-only disease and no cellulitis or abscess documented",
+      "no scalp, nail, beard, groin, foot, recurrent, extensive, or immunocompromised-host pathway"
+    ],
+    "blocked_modifiers": [
+      "secondary_skin_infection_concern",
+      "abscess_concern",
+      "scalp_or_nail_or_beard_fungal_infection",
+      "groin_or_foot_fungal_pathway",
+      "extensive_or_recurrent_fungal_rash",
+      "immunocompromised",
+      "systemic_illness"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cdc.head_lice",
+  "source": "CDC",
+  "title": "About Head Lice",
+  "url": "https://www.cdc.gov/lice/about/head-lice.html",
+  "source_type": "government_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Head lice are parasitic insects found mostly on the scalp, with possible eyebrow or eyelash involvement.",
+    "Head lice spread through close contact and do not indicate poor hygiene.",
+    "Over-the-counter and prescription medicines can treat head lice infestation.",
+    "Eyebrow, eyelash, body, or pubic lice require a different pathway than uncomplicated scalp lice."
+  ],
+  "use_policy": "evidence_support"
+}

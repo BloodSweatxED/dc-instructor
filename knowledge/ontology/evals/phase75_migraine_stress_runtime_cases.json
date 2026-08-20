@@ -1,0 +1,82 @@
+[
+  {
+    "id": "phase75_migraine_thunderclap_blocks",
+    "condition": "migraine improved",
+    "ed_note": "Adult with migraine diagnosis but thunderclap worst headache of life documented.",
+    "expected_phenotype_id": "migraine_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["thunderclap_or_sah_concern"]
+  },
+  {
+    "id": "phase75_migraine_neurologic_deficit_blocks",
+    "condition": "migraine headache improved",
+    "ed_note": "Adult with migraine and new weakness with slurred speech.",
+    "expected_phenotype_id": "migraine_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["neurologic_deficit"]
+  },
+  {
+    "id": "phase75_migraine_meningitis_blocks",
+    "condition": "migraine improved discharge",
+    "ed_note": "Adult with headache, fever with headache, stiff neck, and meningitis concern.",
+    "expected_phenotype_id": "migraine_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["meningitis_or_cns_infection_concern"]
+  },
+  {
+    "id": "phase75_migraine_head_trauma_blocks",
+    "condition": "migraine improved",
+    "ed_note": "Adult with headache after fall and head trauma.",
+    "expected_phenotype_id": "migraine_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["fracture_or_trauma_concern"]
+  },
+  {
+    "id": "phase75_migraine_pregnancy_blocks",
+    "condition": "migraine headache improved",
+    "ed_note": "Patient is pregnant with migraine symptoms.",
+    "expected_phenotype_id": "migraine_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["pregnancy"]
+  },
+  {
+    "id": "phase75_migraine_age_over_50_blocks",
+    "condition": "migraine improved discharge",
+    "ed_note": "Adult with age over 50 and new headache over 50.",
+    "expected_phenotype_id": "migraine_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["age_over_50_new_headache"]
+  },
+  {
+    "id": "phase75_migraine_uncontrolled_vomiting_blocks",
+    "condition": "migraine improved",
+    "ed_note": "Adult with migraine and intractable vomiting.",
+    "expected_phenotype_id": "migraine_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["uncontrolled_vomiting"]
+  },
+  {
+    "id": "phase75_migraine_altered_mental_status_not_resolved_blocks",
+    "condition": "migraine improved",
+    "ed_note": "Adult with clinician diagnosis of migraine. Symptoms improved with treatment. Structured red flags negative, but altered mental status not fully resolved at discharge.",
+    "expected_phenotype_id": "migraine_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["altered_mental_status_not_resolved"]
+  },
+  {
+    "id": "phase75_migraine_first_lifetime_severe_headache_soft_blocks",
+    "condition": "migraine improved",
+    "ed_note": "Adult with clinician diagnosis of migraine. Symptoms improved with treatment. Structured red flags negative, but this is the first headache of this severity.",
+    "expected_phenotype_id": "migraine_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["first_lifetime_severe_headache"]
+  },
+  {
+    "id": "phase75_migraine_ct_not_performed_with_concern_soft_blocks",
+    "condition": "migraine improved",
+    "ed_note": "Adult with clinician diagnosis of migraine. Symptoms improved with treatment. Structured red flags negative, but CT not performed with documented concern.",
+    "expected_phenotype_id": "migraine_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["ct_not_performed_with_headache_concern"]
+  }
+]

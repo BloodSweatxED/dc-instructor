@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.herpes_simplex",
+  "source": "MedlinePlus",
+  "title": "Herpes Simplex",
+  "url": "https://medlineplus.gov/herpessimplex.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Oral herpes causes cold sores around the mouth or face.",
+    "Genital herpes affects the genitals, buttocks, or anal area and is a separate STI pathway.",
+    "Other herpes infections can affect the eyes, skin, or other body parts.",
+    "Herpes can be dangerous in newborns or people with weak immune systems."
+  ],
+  "use_policy": "evidence_support"
+}

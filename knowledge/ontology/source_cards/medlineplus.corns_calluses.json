@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.corns_calluses",
+  "source": "MedlinePlus",
+  "title": "Corns and Calluses",
+  "url": "https://medlineplus.gov/cornsandcalluses.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Corns and calluses are caused by repeated pressure or friction.",
+    "They often appear on feet, toes, hands, or other rubbed areas.",
+    "Reducing pressure or friction and protecting the skin can help.",
+    "Foot wounds, infection, diabetes, poor circulation, or neuropathy require a different pathway."
+  ],
+  "use_policy": "evidence_support"
+}

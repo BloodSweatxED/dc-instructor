@@ -1,0 +1,13 @@
+{
+  "id": "medlineplus.acne_self_care",
+  "source": "MedlinePlus",
+  "title": "Acne - self-care",
+  "url": "https://medlineplus.gov/ency/patientinstructions/000750.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Acne self-care includes gentle skin washing and avoiding picking or squeezing lesions.",
+    "Patients should follow clinician instructions for acne medicines and seek care for severe, worsening, scarring, or medication-related concerns."
+  ],
+  "use_policy": "evidence_support"
+}

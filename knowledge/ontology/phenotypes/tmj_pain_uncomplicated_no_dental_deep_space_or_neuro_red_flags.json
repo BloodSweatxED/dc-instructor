@@ -1,0 +1,134 @@
+{
+  "id": "tmj_pain_uncomplicated_no_dental_deep_space_or_neuro_red_flags",
+  "label": "Uncomplicated TMJ pain without dental, deep-space, or neurologic red flags",
+  "status": "reviewed",
+  "condition_family": "ent",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated TMJ pain/disorder.",
+    "No dental infection, deep-space infection, trismus, airway symptoms, trauma/fracture concern, neurologic deficit, cardiac chest pain mimic, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Dental infection, deep-space swelling, trismus, airway symptoms, drooling, fever/systemic illness, facial trauma/fracture concern, neurologic deficit, severe headache, or cardiac chest-pain concern.",
+    "Pregnancy/pediatric pathway or specialist-directed ENT/dental/oral-surgery plan."
+  ],
+  "must_not_miss": [
+    "Deep-space neck infection.",
+    "Dental abscess.",
+    "Mandible fracture.",
+    "Airway compromise.",
+    "Acute coronary syndrome mimic."
+  ],
+  "default_follow_up": "Follow up with primary care, dentist, oral surgery, or ENT if symptoms persist, recur, or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "tmj_pain_uncomplicated_no_dental_deep_space_or_neuro_red_flags.diagnosis.diagnosis_summary.v1",
+    "tmj_pain_uncomplicated_no_dental_deep_space_or_neuro_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "tmj_pain_uncomplicated_no_dental_deep_space_or_neuro_red_flags.home_care.home_care_1.v1",
+    "tmj_pain_uncomplicated_no_dental_deep_space_or_neuro_red_flags.home_care.home_care_2.v1",
+    "tmj_pain_uncomplicated_no_dental_deep_space_or_neuro_red_flags.home_care.home_care_3.v1",
+    "tmj_pain_uncomplicated_no_dental_deep_space_or_neuro_red_flags.medications.medication_guidance_1.v1",
+    "tmj_pain_uncomplicated_no_dental_deep_space_or_neuro_red_flags.medications.medication_guidance_2.v1",
+    "tmj_pain_uncomplicated_no_dental_deep_space_or_neuro_red_flags.return_precautions.return_precaution_1.v1",
+    "tmj_pain_uncomplicated_no_dental_deep_space_or_neuro_red_flags.return_precautions.return_precaution_2.v1",
+    "tmj_pain_uncomplicated_no_dental_deep_space_or_neuro_red_flags.return_precautions.return_precaution_3.v1",
+    "tmj_pain_uncomplicated_no_dental_deep_space_or_neuro_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.tmj_disorders"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports TMJ-disorder framing and supportive care such as jaw rest and avoiding hard chewing. Autonomous Phase 1901-2000 approved this narrow v1 only for clinician-diagnosed uncomplicated TMJ pain/disorder without dental/deep-space infection, trismus, airway symptoms, trauma/fracture concern, neurologic deficit, cardiac mimic, pregnancy/pediatric pathway, or specialist-directed plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "tmj pain",
+      "temporomandibular joint pain",
+      "tmj disorder"
+    ],
+    "unsafe_modifiers": [
+      "deep_space_swelling",
+      "trismus",
+      "airway_symptoms",
+      "drooling",
+      "systemic_illness",
+      "dental_or_facial_trauma_source",
+      "fracture_or_dislocation_concern",
+      "neurologic_deficit",
+      "cardiac_or_pe_chest_pain_concern",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_ent_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_tmj_pain",
+        "terms": [
+          "clinician diagnosis tmj pain",
+          "discharge diagnosis tmj pain",
+          "tmj pain diagnosed",
+          "tmj disorder diagnosed",
+          "temporomandibular joint pain diagnosed"
+        ]
+      },
+      {
+        "id": "no_dental_deep_space_or_neuro_red_flags_documented",
+        "terms": [
+          "no dental infection",
+          "no facial swelling",
+          "no trismus",
+          "no neurologic deficit",
+          "no trauma"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis tmj pain",
+      "tmj pain diagnosed",
+      "tmj disorder diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-18",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports TMJ-disorder framing and supportive care such as jaw rest and avoiding hard chewing. Autonomous Phase 1901-2000 approved this narrow v1 only for clinician-diagnosed uncomplicated TMJ pain/disorder without dental/deep-space infection, trismus, airway symptoms, trauma/fracture concern, neurologic deficit, cardiac mimic, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_tmj_pain_without_dental_deep_space_or_neuro_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated TMJ pain/disorder",
+      "no dental infection, deep-space infection, trismus, neurologic deficit, trauma, or cardiac mimic documented"
+    ],
+    "blocked_modifiers": [
+      "deep_space_swelling",
+      "trismus",
+      "airway_symptoms",
+      "drooling",
+      "systemic_illness",
+      "dental_or_facial_trauma_source",
+      "fracture_or_dislocation_concern",
+      "neurologic_deficit",
+      "cardiac_or_pe_chest_pain_concern",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_ent_plan"
+    ]
+  }
+}

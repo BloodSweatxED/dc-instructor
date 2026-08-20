@@ -1,0 +1,57 @@
+[
+  {
+    "id": "phase59_otitis_externa_swimmers_ear_clean_draft_fallback",
+    "condition": "swimmer's ear uncomplicated",
+    "ed_note": "Adult with swimmer's ear. No fever, no mastoid tenderness, no diabetes, no acute hearing loss, no facial weakness.",
+    "expected_phenotype_id": "otitis_externa_no_mastoiditis",
+    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+  },
+  {
+    "id": "phase59_otitis_externa_mastoiditis_blocks",
+    "condition": "otitis externa uncomplicated",
+    "ed_note": "Adult with otitis externa and mastoid tenderness with redness behind ear.",
+    "expected_phenotype_id": "otitis_externa_no_mastoiditis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["mastoiditis_or_deep_ear_infection_concern"]
+  },
+  {
+    "id": "phase59_otitis_externa_diabetes_blocks",
+    "condition": "otitis externa no mastoiditis",
+    "ed_note": "Adult with otitis externa and diabetes.",
+    "expected_phenotype_id": "otitis_externa_no_mastoiditis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["malignant_otitis_externa_risk"]
+  },
+  {
+    "id": "phase59_otitis_externa_perforation_blocks",
+    "condition": "swimmers ear uncomplicated",
+    "ed_note": "Adult with swimmer's ear and perforated eardrum.",
+    "expected_phenotype_id": "otitis_externa_no_mastoiditis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["tympanic_membrane_perforation_or_tube"]
+  },
+  {
+    "id": "phase59_otitis_externa_foreign_body_blocks",
+    "condition": "otitis externa uncomplicated",
+    "ed_note": "Adult with otitis externa after cotton swab injury and foreign body in ear.",
+    "expected_phenotype_id": "otitis_externa_no_mastoiditis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["ear_trauma_or_foreign_body"]
+  },
+  {
+    "id": "phase59_otitis_externa_hearing_loss_blocks",
+    "condition": "otitis externa no mastoiditis",
+    "ed_note": "Adult with otitis externa and sudden hearing loss.",
+    "expected_phenotype_id": "otitis_externa_no_mastoiditis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["acute_hearing_loss"]
+  },
+  {
+    "id": "phase59_otitis_externa_facial_weakness_blocks",
+    "condition": "swimmer's ear uncomplicated",
+    "ed_note": "Adult with swimmer's ear and facial weakness.",
+    "expected_phenotype_id": "otitis_externa_no_mastoiditis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["facial_weakness_or_neurologic_ear_sign"]
+  }
+]

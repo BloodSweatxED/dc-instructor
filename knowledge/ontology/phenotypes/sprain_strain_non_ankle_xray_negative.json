@@ -1,0 +1,130 @@
+{
+  "id": "sprain_strain_non_ankle_xray_negative",
+  "label": "Deprecated broad non-ankle sprain or strain with negative x-ray",
+  "status": "retired",
+  "condition_family": "musculoskeletal_injury",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of sprain or strain outside the ankle pathway.",
+    "X-ray was performed and documented negative for fracture.",
+    "Neurovascular exam documented intact.",
+    "No suspected ligament rupture, tendon rupture, occult fracture pattern, septic joint, compartment syndrome, inability to bear weight for lower-extremity sites, or high-risk site modifier."
+  ],
+  "exclusion_criteria": [
+    "Ankle sprain pathway, no x-ray performed, positive fracture, dislocation, open wound, open fracture, high-energy trauma, or crush injury.",
+    "Suspected tendon rupture, ligament rupture, scaphoid tenderness pattern, compartment syndrome concern, septic joint or infection concern, neurovascular compromise, or specialist-directed orthopedic plan.",
+    "Inability to bear weight for lower-extremity injuries, elbow or foot sprain/strain sites pending separate v1 review, pediatric growth plate pathway, or elderly/osteoporotic high-risk knee, shoulder, or wrist injury."
+  ],
+  "must_not_miss": [
+    "Occult fracture.",
+    "Dislocation.",
+    "Tendon rupture.",
+    "Ligament rupture requiring urgent follow-up.",
+    "Septic joint.",
+    "Compartment syndrome.",
+    "Scaphoid fracture."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, sports medicine, or orthopedics in 5 to 7 days if pain, swelling, movement, or walking is not improving, or sooner if your clinician gave a specific plan.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "sprain_strain_non_ankle_xray_negative.diagnosis.diagnosis_summary.v1",
+    "sprain_strain_non_ankle_xray_negative.what_we_found.reassuring_ed_assessment.v1",
+    "sprain_strain_non_ankle_xray_negative.home_care.home_care_1.v1",
+    "sprain_strain_non_ankle_xray_negative.home_care.home_care_2.v1",
+    "sprain_strain_non_ankle_xray_negative.home_care.home_care_3.v1",
+    "sprain_strain_non_ankle_xray_negative.home_care.home_care_4.v1",
+    "sprain_strain_non_ankle_xray_negative.medications.medication_guidance_1.v1",
+    "sprain_strain_non_ankle_xray_negative.medications.medication_guidance_2.v1",
+    "sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_1.v1",
+    "sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_2.v1",
+    "sprain_strain_non_ankle_xray_negative.return_precautions.return_precaution_3.v1",
+    "sprain_strain_non_ankle_xray_negative.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.sprains_strains",
+    "medlineplus.ankle_sprain_aftercare",
+    "wikem.ankle_sprain"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": true,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": true,
+    "notes": "MedlinePlus supports sprain/strain framing, several-week recovery for bad sprains, elevation/protection concepts, and escalation for worsening pain, swelling, numbness, or inability to move. Ankle-specific sources support general sprain aftercare principles only. ED use requires documented non-ankle site, x-ray performed and negative, intact neurovascular exam, and strong site-specific blockers."
+  },
+  "runtime": {
+    "condition_terms": [
+      "deprecated non ankle sprain xray negative"
+    ],
+    "unsafe_modifiers": [
+      "ankle_sprain_pathway",
+      "no_xray_performed",
+      "fracture_seen",
+      "dislocation",
+      "open_wound",
+      "open_fracture",
+      "high_energy_trauma",
+      "crush_injury",
+      "neurovascular_compromise",
+      "tendon_or_ligament_rupture_concern",
+      "scaphoid_tenderness_pattern",
+      "compartment_syndrome_concern",
+      "septic_joint_or_infection_concern",
+      "unable_to_bear_weight_lower_extremity",
+      "elbow_or_foot_site_pending_split",
+      "pediatric_growth_plate_pathway",
+      "elderly_osteoporotic_high_risk_msk",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "non_ankle_site_documented",
+        "terms": [
+          "non ankle injury documented",
+          "not ankle sprain pathway",
+          "wrist sprain xray negative",
+          "knee sprain xray negative",
+          "shoulder sprain xray negative"
+        ]
+      },
+      {
+        "id": "xray_performed_and_negative",
+        "terms": [
+          "xray performed and negative",
+          "x ray performed and negative",
+          "x-ray performed and negative",
+          "xray negative for fracture",
+          "x-ray negative for fracture"
+        ]
+      },
+      {
+        "id": "intact_neurovascular_exam",
+        "terms": [
+          "neurovascular exam intact",
+          "blood flow sensation movement intact",
+          "cms intact",
+          "distal pulses sensation movement intact"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "deprecated non ankle sprain xray negative"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "retired_product_layer_fallback_only"
+  },
+  "version": 1,
+  "review": {
+    "status": "retired",
+    "reviewer": null,
+    "last_reviewed": null,
+    "notes": "Phase 301 decision retired this broad shared draft. Use sprain_strain_knee_or_shoulder_xray_negative for reviewed knee/shoulder v1, wrist_sprain_xray_negative for wrist draft review, and ankle_sprain_xray_negative for ankle."
+  }
+}

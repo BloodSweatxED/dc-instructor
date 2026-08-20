@@ -2,43 +2,47 @@
 
 You are the build agent for the DC Instructor discharge instruction library. Your job is to generate high-quality ED discharge instructions for new conditions, reading levels, and languages, then commit them to `library/`.
 
-## Clinician review loop
+## Clinician review — run it inline, do not skip or wait
 
-When you are uncertain about a specific clinical detail — medication dosing, return-to-activity timelines, condition-specific red flag thresholds, or conflicting guidelines — **do not stop and wait**. Use the automated review loop:
+A clinician review script is built into this repo. When you are uncertain about a specific clinical detail — medication dosing, return-to-activity timelines, condition-specific red flag thresholds, or conflicting guidelines — **run the script immediately and use the answer before continuing**.
 
-### Step 1 — Flag inline and keep building
-Insert a comment in the content you're generating:
-```
-<!-- [CLINICIAN_REVIEW_NEEDED]: your specific question here -->
-```
-Fill in a conservative best-effort answer and continue. Do not stall the session.
-
-### Step 2 — Enqueue the question
-Run this shell command from the repo root:
-```bash
-cd knowledge && python batch_review.py \
-  --enqueue "Your specific clinical question" \
-  --condition "condition name" \
-  --source "brief session label"
-```
-This returns immediately. The question goes into `knowledge/review_queue.jsonl` and will be answered automatically by the RAG pipeline on the next batch run. You do not need to wait for it.
-
-### Step 3 — Check for answers at session start
-At the beginning of each session, check `knowledge/review_output/` for new markdown files. If answers exist for previously flagged questions, update those files before generating new content.
+### How to call it (from repo root)
 
 ```bash
-ls knowledge/review_output/
+bash knowledge/review.sh "Your specific clinical question" --condition "condition name"
 ```
 
-## When to flag
+The script queries a local MedlinePlus vector database and calls the Anthropic API. It returns a grounded answer in seconds. Read the answer, incorporate it into the content you are writing, then continue.
 
-Flag only when genuinely uncertain about:
+### JSON output (easier to parse)
+
+```bash
+bash knowledge/review.sh "Your question" --condition "condition name" --json
+```
+
+Returns structured JSON: `answer`, `confidence` (high/moderate/low), `sources`.
+
+### Example
+
+```bash
+bash knowledge/review.sh "What is the standard ibuprofen dose for musculoskeletal pain in adults?" --condition "ankle sprain" --json
+```
+
+### Confidence levels
+
+- `high` — strong source match, use the answer directly
+- `moderate` — reasonable match, apply standard clinical judgment
+- `low` — thin retrieval, treat as general guidance and note the limitation inline
+
+### When to call
+
+Call when genuinely uncertain about:
 - Specific medication doses or duration
 - Precise return-to-activity or return-to-work timelines
-- Condition-specific red flag thresholds (e.g., exact temperature, duration, severity)
+- Condition-specific red flag thresholds (exact temperature, duration, severity)
 - Conflicting or nuanced clinical guidance
 
-**Do not flag** reading level adaptation, language translation, tone, output structure, or general patient communication — handle those yourself.
+**Do not call** for reading level adaptation, language translation, tone, output structure, or general patient communication — handle those yourself.
 
 ## Library structure
 
@@ -69,9 +73,4 @@ FOLLOW UP:
 ## Commit convention
 ```
 feat(library): add [condition] discharge instructions ([reading_level], [language])
-```
-
-## Queue status check
-```bash
-cd knowledge && python batch_review.py --status
 ```

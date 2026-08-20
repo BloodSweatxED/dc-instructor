@@ -1,0 +1,207 @@
+[
+  {
+    "id": "phase10001_localized_ring_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized ring contact rash",
+    "ed_note": "Adult. clinician diagnosis localized ring contact rash. localized ring contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_ring_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10101_localized_ring_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized ring contact rash",
+    "ed_note": "Adult with localized ring contact rash.",
+    "expected_phenotype_id": "localized_ring_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_ring_contact_rash_no_infection_or_anaphylaxis",
+      "no_infection_or_systemic_red_flags_localized_ring_contact_rash_no_infection_or_anaphylaxis"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_ring_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized ring contact rash",
+    "ed_note": "Adult. clinician diagnosis localized ring contact rash. localized ring contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_ring_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  },
+  {
+    "id": "phase10002_localized_bracelet_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized bracelet contact rash",
+    "ed_note": "Adult. clinician diagnosis localized bracelet contact rash. localized bracelet contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_bracelet_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10102_localized_bracelet_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized bracelet contact rash",
+    "ed_note": "Adult with localized bracelet contact rash.",
+    "expected_phenotype_id": "localized_bracelet_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_bracelet_contact_rash_no_infection_or_anaphylaxis",
+      "no_infection_or_systemic_red_flags_localized_bracelet_contact_rash_no_infection_or_anaphylaxis"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_bracelet_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized bracelet contact rash",
+    "ed_note": "Adult. clinician diagnosis localized bracelet contact rash. localized bracelet contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_bracelet_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  },
+  {
+    "id": "phase10003_localized_necklace_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized necklace contact rash",
+    "ed_note": "Adult. clinician diagnosis localized necklace contact rash. localized necklace contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_necklace_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10103_localized_necklace_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized necklace contact rash",
+    "ed_note": "Adult with localized necklace contact rash.",
+    "expected_phenotype_id": "localized_necklace_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_necklace_contact_rash_no_infection_or_anaphylaxis",
+      "no_infection_or_systemic_red_flags_localized_necklace_contact_rash_no_infection_or_anaphylaxis"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_necklace_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized necklace contact rash",
+    "ed_note": "Adult. clinician diagnosis localized necklace contact rash. localized necklace contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_necklace_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  },
+  {
+    "id": "phase10004_localized_lanyard_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized lanyard contact rash",
+    "ed_note": "Adult. clinician diagnosis localized lanyard contact rash. localized lanyard contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_lanyard_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10104_localized_lanyard_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized lanyard contact rash",
+    "ed_note": "Adult with localized lanyard contact rash.",
+    "expected_phenotype_id": "localized_lanyard_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_lanyard_contact_rash_no_infection_or_anaphylaxis",
+      "no_infection_or_systemic_red_flags_localized_lanyard_contact_rash_no_infection_or_anaphylaxis"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_lanyard_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized lanyard contact rash",
+    "ed_note": "Adult. clinician diagnosis localized lanyard contact rash. localized lanyard contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_lanyard_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  },
+  {
+    "id": "phase10005_localized_hat_band_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized hat band contact rash",
+    "ed_note": "Adult. clinician diagnosis localized hat band contact rash. localized hat band contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_hat_band_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10105_localized_hat_band_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized hat band contact rash",
+    "ed_note": "Adult with localized hat band contact rash.",
+    "expected_phenotype_id": "localized_hat_band_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_hat_band_contact_rash_no_infection_or_anaphylaxis",
+      "no_infection_or_systemic_red_flags_localized_hat_band_contact_rash_no_infection_or_anaphylaxis"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_hat_band_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized hat band contact rash",
+    "ed_note": "Adult. clinician diagnosis localized hat band contact rash. localized hat band contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_hat_band_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  }
+]

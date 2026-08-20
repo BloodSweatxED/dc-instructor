@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.plantar_fasciitis",
+  "source": "MedlinePlus",
+  "title": "Plantar fasciitis",
+  "url": "https://medlineplus.gov/ency/article/007021.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Plantar fasciitis causes pain and inflammation in the thick tissue on the bottom of the foot.",
+    "Pain is often near the heel and can be worse with first steps after rest.",
+    "Supportive care may include rest, stretching, footwear changes, and clinician-directed pain control.",
+    "Trauma, inability to bear weight, infection, neuropathy, diabetic foot risk, or vascular compromise require a different pathway."
+  ],
+  "use_policy": "evidence_support"
+}

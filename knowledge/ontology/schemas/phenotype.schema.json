@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dcinstructor.local/schemas/phenotype.schema.json",
+  "title": "DC Instructor Phenotype",
+  "type": "object",
+  "required": [
+    "id",
+    "label",
+    "status",
+    "condition_family",
+    "inclusion_criteria",
+    "exclusion_criteria",
+    "must_not_miss",
+    "default_follow_up",
+    "required_sections",
+    "primitive_ids",
+    "source_card_ids",
+    "review"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+    "label": { "type": "string" },
+    "status": { "type": "string", "enum": ["draft", "needs_review", "reviewed", "retired"] },
+    "condition_family": { "type": "string" },
+    "inclusion_criteria": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "exclusion_criteria": { "type": "array", "items": { "type": "string" } },
+    "must_not_miss": { "type": "array", "items": { "type": "string" } },
+    "default_follow_up": { "type": "string" },
+    "required_sections": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["diagnosis", "what_we_found", "home_care", "medications", "return_precautions", "follow_up"]
+      },
+      "minItems": 6
+    },
+    "primitive_ids": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "source_card_ids": { "type": "array", "items": { "type": "string" } },
+    "review": {
+      "type": "object",
+      "required": ["status", "reviewer", "last_reviewed", "notes"],
+      "properties": {
+        "status": { "type": "string", "enum": ["draft", "needs_review", "reviewed", "retired"] },
+        "reviewer": { "type": ["string", "null"] },
+        "last_reviewed": { "type": ["string", "null"] },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "phase2701_peroneal_tendinitis_no_rupture_or_infection_clean",
+    "condition": "peroneal tendinitis",
+    "ed_note": "Adult. Clinician diagnosis peroneal tendinitis. No tendon rupture. Neurovascularly intact. No infection.",
+    "expected_phenotype_id": "peroneal_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2702_peroneal_tendinitis_no_rupture_or_infection_missing_context_blocks",
+    "condition": "peroneal tendinitis",
+    "ed_note": "Adult with peroneal tendinitis.",
+    "expected_phenotype_id": "peroneal_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_peroneal_tendinitis",
+      "no_rupture_or_infection_red_flags_peroneal"
+    ]
+  },
+  {
+    "id": "phase2703_peroneal_tendinitis_no_rupture_or_infection_unsafe_modifiers_block",
+    "condition": "peroneal tendinitis",
+    "ed_note": "Clinician diagnosis peroneal tendinitis with required safe context documented, but possible fracture, tendon rupture, numb fingers, septic joint, severe pain are documented.",
+    "expected_phenotype_id": "peroneal_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain"
+    ]
+  },
+  {
+    "id": "phase2704_quadriceps_tendinitis_no_rupture_or_infection_clean",
+    "condition": "quadriceps tendinitis",
+    "ed_note": "Adult. Clinician diagnosis quadriceps tendinitis. No tendon rupture. Neurovascularly intact. No infection.",
+    "expected_phenotype_id": "quadriceps_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2705_quadriceps_tendinitis_no_rupture_or_infection_missing_context_blocks",
+    "condition": "quadriceps tendinitis",
+    "ed_note": "Adult with quadriceps tendinitis.",
+    "expected_phenotype_id": "quadriceps_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_quadriceps_tendinitis",
+      "no_rupture_or_infection_red_flags_quadriceps"
+    ]
+  },
+  {
+    "id": "phase2706_quadriceps_tendinitis_no_rupture_or_infection_unsafe_modifiers_block",
+    "condition": "quadriceps tendinitis",
+    "ed_note": "Clinician diagnosis quadriceps tendinitis with required safe context documented, but possible fracture, tendon rupture, numb fingers, septic joint, severe pain are documented.",
+    "expected_phenotype_id": "quadriceps_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain"
+    ]
+  },
+  {
+    "id": "phase2707_tibialis_anterior_tendinitis_no_rupture_or_infection_clean",
+    "condition": "tibialis anterior tendinitis",
+    "ed_note": "Adult. Clinician diagnosis tibialis anterior tendinitis. No tendon rupture. Neurovascularly intact. No infection.",
+    "expected_phenotype_id": "tibialis_anterior_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2708_tibialis_anterior_tendinitis_no_rupture_or_infection_missing_context_blocks",
+    "condition": "tibialis anterior tendinitis",
+    "ed_note": "Adult with tibialis anterior tendinitis.",
+    "expected_phenotype_id": "tibialis_anterior_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_tibialis_anterior_tendinitis",
+      "no_rupture_or_infection_red_flags_tibialis_anterior"
+    ]
+  },
+  {
+    "id": "phase2709_tibialis_anterior_tendinitis_no_rupture_or_infection_unsafe_modifiers_block",
+    "condition": "tibialis anterior tendinitis",
+    "ed_note": "Clinician diagnosis tibialis anterior tendinitis with required safe context documented, but possible fracture, tendon rupture, numb fingers, septic joint, severe pain are documented.",
+    "expected_phenotype_id": "tibialis_anterior_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain"
+    ]
+  },
+  {
+    "id": "phase2710_achilles_tendinitis_no_rupture_or_infection_clean",
+    "condition": "achilles tendinitis",
+    "ed_note": "Adult. Clinician diagnosis achilles tendinitis. No tendon rupture. Neurovascularly intact. No infection.",
+    "expected_phenotype_id": "achilles_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2711_achilles_tendinitis_no_rupture_or_infection_missing_context_blocks",
+    "condition": "achilles tendinitis",
+    "ed_note": "Adult with achilles tendinitis.",
+    "expected_phenotype_id": "achilles_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_achilles_tendinitis_no_rupture_or_infection",
+      "no_rupture_or_infection_red_flags_achilles"
+    ]
+  },
+  {
+    "id": "phase2712_achilles_tendinitis_no_rupture_or_infection_unsafe_modifiers_block",
+    "condition": "achilles tendinitis",
+    "ed_note": "Achilles Tendinitis diagnosed with required safe context documented, but tendon rupture, numb fingers, septic joint, severe pain, unable to bear weight are documented.",
+    "expected_phenotype_id": "achilles_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase2713_patellar_tendinitis_no_rupture_or_infection_clean",
+    "condition": "patellar tendinitis",
+    "ed_note": "Adult. Clinician diagnosis patellar tendinitis. No tendon rupture. Neurovascularly intact. No infection.",
+    "expected_phenotype_id": "patellar_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2714_patellar_tendinitis_no_rupture_or_infection_missing_context_blocks",
+    "condition": "patellar tendinitis",
+    "ed_note": "Adult with patellar tendinitis.",
+    "expected_phenotype_id": "patellar_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_patellar_tendinitis_no_rupture_or_infection",
+      "no_rupture_or_infection_red_flags_patellar"
+    ]
+  },
+  {
+    "id": "phase2715_patellar_tendinitis_no_rupture_or_infection_unsafe_modifiers_block",
+    "condition": "patellar tendinitis",
+    "ed_note": "Patellar Tendinitis diagnosed with required safe context documented, but tendon rupture, numb fingers, septic joint, severe pain, unable to bear weight are documented.",
+    "expected_phenotype_id": "patellar_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  }
+]

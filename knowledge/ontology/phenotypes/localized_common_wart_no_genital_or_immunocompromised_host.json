@@ -1,0 +1,124 @@
+{
+  "id": "localized_common_wart_no_genital_or_immunocompromised_host",
+  "label": "Localized common wart without genital or immunocompromised-host red flags",
+  "status": "reviewed",
+  "condition_family": "skin_benign",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of localized common wart.",
+    "No genital wart/STI pathway, near-eye lesion, infection, immunocompromised host, pregnancy/pediatric pathway, or diagnostic uncertainty."
+  ],
+  "exclusion_criteria": [
+    "Genital wart/STI pathway, near-eye lesion, infection concern, immunocompromised host, rapidly enlarging/bleeding lesion, pregnancy/pediatric pathway, or specialist-directed dermatology plan."
+  ],
+  "must_not_miss": [
+    "Genital/STI pathway.",
+    "Skin infection.",
+    "Immunocompromised host.",
+    "Diagnostic uncertainty."
+  ],
+  "default_follow_up": "Follow up with primary care, dermatology, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "localized_common_wart_no_genital_or_immunocompromised_host.diagnosis.diagnosis_summary.v1",
+    "localized_common_wart_no_genital_or_immunocompromised_host.what_we_found.reassuring_ed_assessment.v1",
+    "localized_common_wart_no_genital_or_immunocompromised_host.home_care.home_care_1.v1",
+    "localized_common_wart_no_genital_or_immunocompromised_host.home_care.home_care_2.v1",
+    "localized_common_wart_no_genital_or_immunocompromised_host.home_care.home_care_3.v1",
+    "localized_common_wart_no_genital_or_immunocompromised_host.medications.medication_guidance_1.v1",
+    "localized_common_wart_no_genital_or_immunocompromised_host.medications.medication_guidance_2.v1",
+    "localized_common_wart_no_genital_or_immunocompromised_host.return_precautions.return_precaution_1.v1",
+    "localized_common_wart_no_genital_or_immunocompromised_host.return_precautions.return_precaution_2.v1",
+    "localized_common_wart_no_genital_or_immunocompromised_host.return_precautions.return_precaution_3.v1",
+    "localized_common_wart_no_genital_or_immunocompromised_host.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.warts"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports wart framing, spread prevention, and care escalation for painful, infected, or unusual lesions. Autonomous expansion approved this narrow v1 only for clinician-diagnosed localized common wart without genital/STI pathway, infection, immunocompromised host, pregnancy/pediatric pathway, or diagnostic uncertainty."
+  },
+  "runtime": {
+    "condition_terms": [
+      "localized common wart",
+      "common wart",
+      "hand wart",
+      "nonplantar wart"
+    ],
+    "unsafe_modifiers": [
+      "sti_or_genital_pathway",
+      "near_eye_or_genitals",
+      "secondary_skin_infection_concern",
+      "immunocompromised",
+      "mass_red_flag_or_diagnostic_uncertainty",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_common_wart",
+        "terms": [
+          "clinician diagnosis localized common wart",
+          "discharge diagnosis common wart",
+          "common wart diagnosed",
+          "hand wart diagnosed"
+        ]
+      },
+      {
+        "id": "localized_skin_wart_without_infection_context",
+        "terms": [
+          "localized skin wart",
+          "skin only wart",
+          "no infection",
+          "routine host"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized common wart",
+      "common wart diagnosed",
+      "hand wart diagnosed",
+      "localized common wart"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-19",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports wart framing, spread prevention, and care escalation for painful, infected, or unusual lesions. Autonomous expansion approved this narrow v1 only for clinician-diagnosed localized common wart without genital/STI pathway, infection, immunocompromised host, pregnancy/pediatric pathway, or diagnostic uncertainty.",
+    "clinical_status": "reviewed_for_limited_localized_common_wart_without_genital_or_immunocompromised_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of localized common wart",
+      "localized skin wart with no infection, immune-risk context, diagnostic uncertainty, or specialist-directed plan documented"
+    ],
+    "blocked_modifiers": [
+      "sti_or_genital_pathway",
+      "near_eye_or_genitals",
+      "secondary_skin_infection_concern",
+      "immunocompromised",
+      "mass_red_flag_or_diagnostic_uncertainty",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ]
+  }
+}

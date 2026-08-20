@@ -1,0 +1,133 @@
+{
+  "id": "elbow_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags",
+  "label": "Elbow tendinitis without rupture or neurovascular red flags",
+  "status": "reviewed",
+  "condition_family": "musculoskeletal",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated elbow tendinitis.",
+    "No tendon rupture, fracture/dislocation concern, distal biceps/triceps concern, elbow instability, ulnar nerve symptoms, infection, neurovascular compromise, high-energy trauma, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Tendon rupture, distal biceps or triceps concern, fracture or dislocation concern, elbow instability, ulnar nerve symptoms, open wound, infection concern, neurovascular compromise, high-energy trauma, inability to use the limb, or specialist-directed orthopedic plan."
+  ],
+  "must_not_miss": [
+    "Distal biceps or triceps tendon rupture.",
+    "Elbow fracture or dislocation.",
+    "Ulnar nerve injury.",
+    "Septic joint."
+  ],
+  "default_follow_up": "Follow up with primary care, sports medicine, orthopedics, therapy, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "elbow_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags.diagnosis.diagnosis_summary.v1",
+    "elbow_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "elbow_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags.home_care.home_care_1.v1",
+    "elbow_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags.home_care.home_care_2.v1",
+    "elbow_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags.home_care.home_care_3.v1",
+    "elbow_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags.medications.medication_guidance_1.v1",
+    "elbow_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags.medications.medication_guidance_2.v1",
+    "elbow_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags.return_precautions.return_precaution_1.v1",
+    "elbow_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags.return_precautions.return_precaution_2.v1",
+    "elbow_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags.return_precautions.return_precaution_3.v1",
+    "elbow_tendinitis_uncomplicated_no_rupture_or_neurovascular_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.tendinitis"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports tendinitis framing, overuse-related tendon pain, activity modification, clinician-directed pain control, and separation from rupture, infection, trauma, or neurovascular compromise. This expansion is limited to clinician-diagnosed uncomplicated elbow tendinitis with rupture, fracture, instability, ulnar nerve, infection, and neurovascular red flags absent."
+  },
+  "runtime": {
+    "condition_terms": [
+      "elbow tendinitis uncomplicated",
+      "elbow tendonitis uncomplicated",
+      "elbow tendinitis",
+      "elbow tendonitis"
+    ],
+    "unsafe_modifiers": [
+      "tendon_or_ligament_rupture_concern",
+      "distal_biceps_or_triceps_concern",
+      "fracture_or_dislocation_concern",
+      "elbow_instability_or_ucl_lcl_concern",
+      "ulnar_nerve_pattern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "unable_to_use_limb",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_elbow_tendinitis",
+        "terms": [
+          "clinician diagnosis elbow tendinitis",
+          "discharge diagnosis elbow tendinitis",
+          "elbow tendinitis diagnosed",
+          "elbow tendonitis diagnosed"
+        ]
+      },
+      {
+        "id": "no_rupture_or_neurovascular_red_flags_elbow_tendinitis",
+        "terms": [
+          "no tendon rupture",
+          "neurovascular exam intact",
+          "no fracture concern",
+          "no infection",
+          "no ulnar nerve symptoms"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis elbow tendinitis",
+      "elbow tendinitis diagnosed",
+      "elbow tendonitis diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-21",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports tendinitis framing, overuse-related tendon pain, activity modification, clinician-directed pain control, and separation from rupture, infection, trauma, or neurovascular compromise. This expansion is limited to clinician-diagnosed uncomplicated elbow tendinitis with rupture, fracture, instability, ulnar nerve, infection, and neurovascular red flags absent.",
+    "clinical_status": "reviewed_for_limited_elbow_tendinitis_without_rupture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of uncomplicated elbow tendinitis",
+      "no tendon rupture",
+      "no fracture concern",
+      "intact neurovascular exam",
+      "no infection or ulnar nerve symptoms"
+    ],
+    "blocked_modifiers": [
+      "tendon_or_ligament_rupture_concern",
+      "distal_biceps_or_triceps_concern",
+      "fracture_or_dislocation_concern",
+      "elbow_instability_or_ucl_lcl_concern",
+      "ulnar_nerve_pattern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "unable_to_use_limb",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+}

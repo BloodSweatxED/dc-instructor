@@ -1,0 +1,134 @@
+{
+  "id": "mild_allergic_rhinitis_no_wheeze_or_anaphylaxis",
+  "label": "Mild allergic rhinitis without wheeze or anaphylaxis",
+  "status": "reviewed",
+  "condition_family": "allergy",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of mild allergic rhinitis.",
+    "No anaphylaxis, airway symptoms, wheeze/asthma flare, bacterial sinusitis concern, systemic illness, or specialist-directed allergy plan."
+  ],
+  "exclusion_criteria": [
+    "Anaphylaxis, throat/tongue swelling, wheeze, asthma/COPD exacerbation, respiratory distress, or hypoxia.",
+    "Bacterial sinusitis concern, severe facial pain, fever, orbital symptoms, systemic illness, pregnancy/pediatric pathway, or specialist-directed allergy plan."
+  ],
+  "must_not_miss": [
+    "Anaphylaxis.",
+    "Asthma exacerbation.",
+    "Bacterial sinusitis complication.",
+    "Orbital cellulitis."
+  ],
+  "default_follow_up": "Follow up with primary care or allergy care if symptoms are not improving, recur often, or interfere with sleep or breathing.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "mild_allergic_rhinitis_no_wheeze_or_anaphylaxis.diagnosis.diagnosis_summary.v1",
+    "mild_allergic_rhinitis_no_wheeze_or_anaphylaxis.what_we_found.reassuring_ed_assessment.v1",
+    "mild_allergic_rhinitis_no_wheeze_or_anaphylaxis.home_care.home_care_1.v1",
+    "mild_allergic_rhinitis_no_wheeze_or_anaphylaxis.home_care.home_care_2.v1",
+    "mild_allergic_rhinitis_no_wheeze_or_anaphylaxis.home_care.home_care_3.v1",
+    "mild_allergic_rhinitis_no_wheeze_or_anaphylaxis.medications.medication_guidance_1.v1",
+    "mild_allergic_rhinitis_no_wheeze_or_anaphylaxis.medications.medication_guidance_2.v1",
+    "mild_allergic_rhinitis_no_wheeze_or_anaphylaxis.return_precautions.return_precaution_1.v1",
+    "mild_allergic_rhinitis_no_wheeze_or_anaphylaxis.return_precautions.return_precaution_2.v1",
+    "mild_allergic_rhinitis_no_wheeze_or_anaphylaxis.return_precautions.return_precaution_3.v1",
+    "mild_allergic_rhinitis_no_wheeze_or_anaphylaxis.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.hay_fever",
+    "medlineplus.allergic_rhinitis_self_care"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports allergic-rhinitis/hay-fever framing, common nasal/eye symptoms, trigger reduction, clinician-recommended medicines, and escalation for severe allergy symptoms, non-improvement, or worsening wheeze/cough. Autonomous Phase 1701-1750 approved this narrow v1 only for clinician-diagnosed mild allergic rhinitis without anaphylaxis, airway symptoms, wheeze/asthma flare, bacterial sinusitis complication, systemic illness, pregnancy/pediatric pathway, or specialist-directed allergy plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "mild allergic rhinitis",
+      "allergic rhinitis",
+      "hay fever",
+      "seasonal allergies"
+    ],
+    "unsafe_modifiers": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "systemic_allergic_reaction",
+      "hypoxia",
+      "respiratory_distress",
+      "copd_or_asthma_exacerbation_pathway",
+      "severe_bacterial_sinusitis_features",
+      "orbital_or_intracranial_sinusitis_concern",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_allergy_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_mild_allergic_rhinitis",
+        "terms": [
+          "clinician diagnosis allergic rhinitis",
+          "discharge diagnosis allergic rhinitis",
+          "allergic rhinitis diagnosed",
+          "hay fever diagnosed",
+          "seasonal allergies diagnosed"
+        ]
+      },
+      {
+        "id": "no_wheeze_or_anaphylaxis_documented",
+        "terms": [
+          "no anaphylaxis",
+          "no airway symptoms",
+          "no wheezing",
+          "no asthma flare",
+          "no trouble breathing"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis allergic rhinitis",
+      "allergic rhinitis diagnosed",
+      "hay fever diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-17",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports allergic-rhinitis/hay-fever framing, common nasal/eye symptoms, trigger reduction, clinician-recommended medicines, and escalation for severe allergy symptoms, non-improvement, or worsening wheeze/cough. Autonomous Phase 1701-1750 approved this narrow v1 only for clinician-diagnosed mild allergic rhinitis without anaphylaxis, airway symptoms, wheeze/asthma flare, bacterial sinusitis complication, systemic illness, pregnancy/pediatric pathway, or specialist-directed allergy plan.",
+    "clinical_status": "reviewed_for_limited_mild_allergic_rhinitis_without_wheeze_or_anaphylaxis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of mild allergic rhinitis",
+      "no anaphylaxis, airway symptoms, wheeze, asthma flare, or trouble breathing documented",
+      "no bacterial sinusitis complication, systemic illness, pregnancy, pediatric, or specialist-directed allergy pathway"
+    ],
+    "blocked_modifiers": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "systemic_allergic_reaction",
+      "hypoxia",
+      "respiratory_distress",
+      "copd_or_asthma_exacerbation_pathway",
+      "severe_bacterial_sinusitis_features",
+      "orbital_or_intracranial_sinusitis_concern",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_allergy_plan"
+    ]
+  }
+}

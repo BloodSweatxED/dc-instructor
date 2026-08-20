@@ -1,0 +1,177 @@
+{
+  "id": "contact_dermatitis_uncomplicated",
+  "label": "Uncomplicated contact dermatitis without systemic or infectious features",
+  "status": "reviewed",
+  "condition_family": "rash_dermatitis",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of contact dermatitis.",
+    "Localized rash pattern tied to a contact exposure or suspected trigger.",
+    "No anaphylaxis, mucosal involvement, skin peeling, infection concern, high-risk location, pregnancy-specific rash pathway, immunocompromised host, or pediatric pathway."
+  ],
+  "exclusion_criteria": [
+    "Anaphylaxis, angioedema, airway symptoms, hypotension, or systemic allergic reaction needing the allergic reaction pathway.",
+    "Cellulitis, abscess, necrotizing infection concern, fever, rapidly progressive rash, or sepsis concern.",
+    "Mucosal lesions, skin peeling, target lesions, Stevens-Johnson syndrome/toxic epidermal necrolysis concern, eye/genital involvement, chemical burn, pediatric pathway, pregnancy, or immunocompromised host."
+  ],
+  "must_not_miss": [
+    "Anaphylaxis.",
+    "Stevens-Johnson syndrome or toxic epidermal necrolysis.",
+    "Cellulitis or necrotizing infection.",
+    "Chemical burn.",
+    "Ocular or genital high-risk rash."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, dermatology, or the ED if the rash is not improving with the plan you were given, or sooner if symptoms are worsening.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "contact_dermatitis_uncomplicated.diagnosis.diagnosis_summary.v1",
+    "contact_dermatitis_uncomplicated.what_we_found.reassuring_ed_assessment.v1",
+    "contact_dermatitis_uncomplicated.home_care.home_care_1.v1",
+    "contact_dermatitis_uncomplicated.home_care.home_care_2.v1",
+    "contact_dermatitis_uncomplicated.home_care.home_care_3.v1",
+    "contact_dermatitis_uncomplicated.home_care.home_care_4.v1",
+    "contact_dermatitis_uncomplicated.home_care.home_care_5.v1",
+    "contact_dermatitis_uncomplicated.medications.medication_guidance_1.v1",
+    "contact_dermatitis_uncomplicated.medications.medication_guidance_2.v1",
+    "contact_dermatitis_uncomplicated.return_precautions.return_precaution_1.v1",
+    "contact_dermatitis_uncomplicated.return_precautions.return_precaution_2.v1",
+    "contact_dermatitis_uncomplicated.return_precautions.return_precaution_3.v1",
+    "contact_dermatitis_uncomplicated.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.contact_dermatitis",
+    "medlineplus.allergic_reactions"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports contact dermatitis as an irritant or allergic skin reaction after direct contact with a substance, avoidance of the trigger, moisturizers, clinician-directed topical therapy, and escalation for severe reactions, failure to improve, or infection signs. MedlinePlus allergic reaction content supports keeping airway symptoms, swelling, hypotension, epinephrine use, and systemic allergic reaction outside this pathway. Clinician-owner review on 2026-06-05 approved one shared adult contact dermatitis v1 after targeted plain-language, recovery-timeline, and return-precaution revisions."
+  },
+  "runtime": {
+    "condition_terms": [
+      "contact dermatitis uncomplicated",
+      "contact dermatitis",
+      "irritant contact dermatitis",
+      "allergic contact dermatitis",
+      "poison ivy dermatitis",
+      "localized contact rash"
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "epinephrine_given",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "contact_dermatitis_infection_concern",
+      "rapid_progression",
+      "fever",
+      "sepsis",
+      "eye_or_genital_rash_location",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway"
+    ],
+    "output_modifiers": [
+      {
+        "id": "frail_elderly_large_bsa_contact_dermatitis",
+        "label": "Frail or large-surface-area contact dermatitis modifier",
+        "note": "Flag frailty or large body-surface involvement for clinician-entered follow-up review without changing the contact dermatitis text."
+      },
+      {
+        "id": "occupational_recurrent_contact_dermatitis",
+        "label": "Recurrent occupational exposure modifier",
+        "note": "Flag recurrent occupational exposure for clinician-entered follow-up review without changing the contact dermatitis text."
+      }
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_contact_dermatitis",
+        "terms": [
+          "clinician diagnosis contact dermatitis",
+          "discharge diagnosis contact dermatitis",
+          "contact dermatitis diagnosed",
+          "irritant contact dermatitis diagnosed",
+          "allergic contact dermatitis diagnosed"
+        ]
+      },
+      {
+        "id": "contact_trigger_or_distribution_documented",
+        "terms": [
+          "rash after contact exposure",
+          "rash after new soap",
+          "rash after poison ivy",
+          "rash in contact pattern",
+          "localized rash where substance touched",
+          "exposure trigger identified"
+        ]
+      },
+      {
+        "id": "dangerous_rash_features_absent",
+        "terms": [
+          "no mucosal lesions airway swelling infection concern",
+          "no skin peeling mucosal airway infection concern",
+          "no anaphylaxis infection or mucosal concern",
+          "no systemic allergic reaction or infection concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "contact dermatitis",
+      "contact dermatitis uncomplicated",
+      "irritant contact dermatitis",
+      "allergic contact dermatitis"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-05",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports contact dermatitis as an irritant or allergic skin reaction after direct contact with a substance, avoidance of the trigger, moisturizers, clinician-directed topical therapy, and escalation for severe reactions, failure to improve, or infection signs. MedlinePlus allergic reaction content supports keeping airway symptoms, swelling, hypotension, epinephrine use, and systemic allergic reaction outside this pathway. Clinician-owner review on 2026-06-05 approved one shared adult contact dermatitis v1 after targeted plain-language, recovery-timeline, and return-precaution revisions.",
+    "clinical_status": "reviewed_for_limited_adult_contact_dermatitis_without_systemic_infectious_or_high_risk_rash_features_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of contact dermatitis",
+      "localized rash pattern tied to contact exposure or suspected trigger",
+      "dangerous rash features absent",
+      "no anaphylaxis or systemic allergic reaction",
+      "no mucosal lesions, skin peeling, or serious medication reaction concern",
+      "no cellulitis, abscess, necrotizing infection concern, fever, rapid progression, or sepsis",
+      "no eye or genital involvement",
+      "no pediatric, pregnancy, or immunocompromised pathway"
+    ],
+    "blocked_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "epinephrine_given",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "contact_dermatitis_infection_concern",
+      "rapid_progression",
+      "fever",
+      "sepsis",
+      "eye_or_genital_rash_location",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway"
+    ]
+  }
+}

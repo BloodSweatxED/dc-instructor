@@ -1,0 +1,97 @@
+{
+  "id": "conjunctivitis_uncomplicated_no_contact_lens",
+  "label": "Uncomplicated conjunctivitis without contact lens or red flags",
+  "status": "retired",
+  "condition_family": "eye",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of conjunctivitis or pink eye.",
+    "No contact lens use documented.",
+    "No eye trauma, foreign body, chemical exposure, corneal ulcer or keratitis concern, acute glaucoma mimic, severe pain, photophobia, vision change, herpes/zoster concern, or orbital/periorbital cellulitis concern."
+  ],
+  "exclusion_criteria": [
+    "Contact lens use.",
+    "Eye trauma, foreign body, chemical exposure, corneal abrasion, corneal ulcer, or keratitis concern.",
+    "Severe eye pain, photophobia, vision change, proptosis, pain with eye movement, or periorbital/orbital cellulitis concern.",
+    "Herpes or zoster eye concern.",
+    "Immunocompromised host, pregnancy, infant/pediatric pathway, or specialist-directed ophthalmology plan."
+  ],
+  "must_not_miss": [
+    "Keratitis or corneal ulcer.",
+    "Corneal abrasion or foreign body.",
+    "Acute glaucoma.",
+    "Uveitis or iritis.",
+    "Herpes or zoster eye disease.",
+    "Orbital cellulitis."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, or an eye clinician as instructed.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "conjunctivitis_uncomplicated_no_contact_lens.diagnosis.diagnosis_summary.v1",
+    "conjunctivitis_uncomplicated_no_contact_lens.what_we_found.reassuring_ed_assessment.v1",
+    "conjunctivitis_uncomplicated_no_contact_lens.home_care.home_care_1.v1",
+    "conjunctivitis_uncomplicated_no_contact_lens.home_care.home_care_2.v1",
+    "conjunctivitis_uncomplicated_no_contact_lens.home_care.home_care_3.v1",
+    "conjunctivitis_uncomplicated_no_contact_lens.medications.medication_guidance_1.v1",
+    "conjunctivitis_uncomplicated_no_contact_lens.medications.medication_guidance_2.v1",
+    "conjunctivitis_uncomplicated_no_contact_lens.return_precautions.return_precaution_1.v1",
+    "conjunctivitis_uncomplicated_no_contact_lens.return_precautions.return_precaution_2.v1",
+    "conjunctivitis_uncomplicated_no_contact_lens.return_precautions.return_precaution_3.v1",
+    "conjunctivitis_uncomplicated_no_contact_lens.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "cdc.conjunctivitis",
+    "medlineplus.conjunctivitis"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": true,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": true,
+    "notes": "CDC and MedlinePlus support conjunctivitis framing, hygiene and spread prevention, common symptoms, and escalation for pain, light sensitivity, blurred vision, intense redness, contact lens use, or worsening symptoms."
+  },
+  "runtime": {
+    "condition_terms": [
+      "conjunctivitis uncomplicated",
+      "pink eye uncomplicated",
+      "conjunctivitis no contact lens",
+      "pink eye no contact lens"
+    ],
+    "unsafe_modifiers": [
+      "contact_lens_use",
+      "chemical_eye_exposure",
+      "corneal_ulcer_or_keratitis_concern",
+      "acute_glaucoma_mimic",
+      "eye_trauma_or_foreign_body",
+      "severe_eye_pain",
+      "photophobia",
+      "vision_change",
+      "herpes_or_zoster_eye_concern",
+      "periorbital_or_orbital_cellulitis_concern",
+      "immunocompromised",
+      "pregnancy"
+    ],
+    "high_confidence_terms": [
+      "conjunctivitis uncomplicated",
+      "pink eye uncomplicated",
+      "conjunctivitis no contact lens",
+      "pink eye no contact lens"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "retired_product_layer_fallback_only"
+  },
+  "version": 1,
+  "review": {
+    "status": "retired",
+    "reviewer": null,
+    "last_reviewed": null,
+    "notes": "Phase 54 retired this draft to product-layer fallback. Eye complaints remain too high-risk for static ontology mode without explicit clinician review of contact-lens, corneal, chemical, glaucoma, trauma, vision, photophobia, herpes/zoster, cellulitis, immunocompromise, and pregnancy boundaries."
+  }
+}

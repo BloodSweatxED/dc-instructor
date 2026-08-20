@@ -1,0 +1,14 @@
+{
+  "id": "cdc.antibiotic_use_adult_outpatient",
+  "source": "CDC",
+  "title": "Outpatient Clinical Care for Adults",
+  "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
+  "source_type": "government_guidance",
+  "license_notes": "Use as antibiotic-stewardship and outpatient-care source support. Do not use as a dosing policy.",
+  "supports": [
+    "Outpatient respiratory infection guidance distinguishes pneumonia evaluation from uncomplicated viral cough syndromes.",
+    "Antibiotic decisions should be tied to the clinician's diagnosis and not generalized across viral respiratory syndromes.",
+    "Abnormal vital signs and focal lung findings raise concern for pneumonia rather than uncomplicated bronchitis."
+  ],
+  "use_policy": "evidence_support"
+}

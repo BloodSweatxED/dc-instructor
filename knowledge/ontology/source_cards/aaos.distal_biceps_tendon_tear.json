@@ -1,0 +1,14 @@
+{
+  "id": "aaos.distal_biceps_tendon_tear",
+  "source": "AAOS OrthoInfo",
+  "title": "Biceps Tendon Tear at the Elbow",
+  "url": "https://orthoinfo.aaos.org/en/diseases--conditions/biceps-tendon-tear-at-the-elbow",
+  "source_type": "orthopedic_patient_education",
+  "license_notes": "Use as source support only. Avoid verbatim copying from AAOS copyrighted patient education.",
+  "supports": [
+    "Distal biceps tendon tears are often caused by sudden injury and can produce bruising, swelling, a pop, and weakness with elbow bending or forearm twisting.",
+    "X-rays do not show the biceps tendon but can help rule out other causes of elbow pain.",
+    "Distal biceps tendon concern requires separate orthopedic evaluation and should block simple overuse elbow discharge output."
+  ],
+  "use_policy": "blocker_support"
+}

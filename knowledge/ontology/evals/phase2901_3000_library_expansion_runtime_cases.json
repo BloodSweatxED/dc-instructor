@@ -1,0 +1,162 @@
+[
+  {
+    "id": "phase2901_viral_conjunctivitis_no_contact_lens_or_vision_red_flags_clean",
+    "condition": "viral conjunctivitis",
+    "ed_note": "Adult. Clinician diagnosis viral conjunctivitis. No contact lens use. No eye pain. Vision normal.",
+    "expected_phenotype_id": "viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2902_viral_conjunctivitis_no_contact_lens_or_vision_red_flags_missing_context_blocks",
+    "condition": "viral conjunctivitis",
+    "ed_note": "Adult with viral conjunctivitis.",
+    "expected_phenotype_id": "viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_viral_conjunctivitis_no_contact_lens_or_vision_red_fla",
+      "no_contact_lens_or_vision_red_flags_viral_conjunctivitis"
+    ]
+  },
+  {
+    "id": "phase2903_viral_conjunctivitis_no_contact_lens_or_vision_red_flags_unsafe_modifiers_block",
+    "condition": "viral conjunctivitis",
+    "ed_note": "Viral Conjunctivitis diagnosed with required safe context documented, but contact lens, eye pain, vision change, corneal ulcer, eye trauma are documented.",
+    "expected_phenotype_id": "viral_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "contact_lens_use",
+      "ocular_symptoms",
+      "vision_change",
+      "corneal_ulcer_or_keratitis_concern",
+      "eye_trauma_or_foreign_body"
+    ]
+  },
+  {
+    "id": "phase2904_allergic_conjunctivitis_no_contact_lens_or_vision_red_flags_clean",
+    "condition": "allergic conjunctivitis",
+    "ed_note": "Adult. Clinician diagnosis allergic conjunctivitis. No contact lens use. No eye pain. Vision normal.",
+    "expected_phenotype_id": "allergic_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2905_allergic_conjunctivitis_no_contact_lens_or_vision_red_flags_missing_context_blocks",
+    "condition": "allergic conjunctivitis",
+    "ed_note": "Adult with allergic conjunctivitis.",
+    "expected_phenotype_id": "allergic_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_allergic_conjunctivitis_no_contact_lens_or_vision_red",
+      "no_contact_lens_or_vision_red_flags_allergic_conjunctivitis"
+    ]
+  },
+  {
+    "id": "phase2906_allergic_conjunctivitis_no_contact_lens_or_vision_red_flags_unsafe_modifiers_block",
+    "condition": "allergic conjunctivitis",
+    "ed_note": "Allergic Conjunctivitis diagnosed with required safe context documented, but contact lens, eye pain, vision change, corneal ulcer, eye trauma are documented.",
+    "expected_phenotype_id": "allergic_conjunctivitis_uncomplicated_no_contact_lens_or_vision_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "contact_lens_use",
+      "ocular_symptoms",
+      "vision_change",
+      "corneal_ulcer_or_keratitis_concern",
+      "eye_trauma_or_foreign_body"
+    ]
+  },
+  {
+    "id": "phase2907_anterior_epistaxis_resolved_no_packing_or_anticoagulation_clean",
+    "condition": "resolved anterior nosebleed",
+    "ed_note": "Adult. Clinician diagnosis resolved anterior nosebleed. Bleeding stopped. No nasal packing. No blood thinner.",
+    "expected_phenotype_id": "anterior_epistaxis_resolved_no_packing_or_anticoagulation",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2908_anterior_epistaxis_resolved_no_packing_or_anticoagulation_missing_context_blocks",
+    "condition": "resolved anterior nosebleed",
+    "ed_note": "Adult with resolved anterior nosebleed.",
+    "expected_phenotype_id": "anterior_epistaxis_resolved_no_packing_or_anticoagulation",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_anterior_epistaxis_resolved_no_packing_or_anticoagulat",
+      "resolved_no_packing_or_anticoagulation_epistaxis"
+    ]
+  },
+  {
+    "id": "phase2909_anterior_epistaxis_resolved_no_packing_or_anticoagulation_unsafe_modifiers_block",
+    "condition": "resolved anterior nosebleed",
+    "ed_note": "Resolved Anterior Nosebleed diagnosed with required safe context documented, but nasal packing, warfarin, bleeding disorder, nasal trauma, recurrent nosebleed are documented.",
+    "expected_phenotype_id": "anterior_epistaxis_resolved_no_packing_or_anticoagulation",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "posterior_epistaxis_or_uncontrolled_bleeding",
+      "anticoagulated",
+      "bleeding_disorder",
+      "facial_or_nasal_trauma",
+      "posterior_epistaxis_or_uncontrolled_bleeding"
+    ]
+  },
+  {
+    "id": "phase2910_triceps_tendinitis_no_rupture_or_infection_clean",
+    "condition": "triceps tendinitis",
+    "ed_note": "Adult. Clinician diagnosis triceps tendinitis. No tendon rupture. Neurovascularly intact. No infection.",
+    "expected_phenotype_id": "triceps_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2911_triceps_tendinitis_no_rupture_or_infection_missing_context_blocks",
+    "condition": "triceps tendinitis",
+    "ed_note": "Adult with triceps tendinitis.",
+    "expected_phenotype_id": "triceps_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_triceps_tendinitis",
+      "no_rupture_or_infection_red_flags_triceps"
+    ]
+  },
+  {
+    "id": "phase2912_triceps_tendinitis_no_rupture_or_infection_unsafe_modifiers_block",
+    "condition": "triceps tendinitis",
+    "ed_note": "Clinician diagnosis triceps tendinitis with required safe context documented, but possible fracture, tendon rupture, numb fingers, septic joint, severe pain are documented.",
+    "expected_phenotype_id": "triceps_tendinitis_uncomplicated_no_rupture_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain"
+    ]
+  },
+  {
+    "id": "phase2913_ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body_clean",
+    "condition": "ear canal irritation after swimming",
+    "ed_note": "Adult. Clinician diagnosis ear canal irritation after swimming. No otitis externa. No foreign body. No mastoiditis concern.",
+    "expected_phenotype_id": "ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2914_ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body_missing_context_blocks",
+    "condition": "ear canal irritation after swimming",
+    "ed_note": "Adult with ear canal irritation after swimming.",
+    "expected_phenotype_id": "ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_ear_canal_irritation_after_swimming_no_otitis_externa",
+      "no_otitis_externa_or_foreign_body_ear_canal_irritation"
+    ]
+  },
+  {
+    "id": "phase2915_ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body_unsafe_modifiers_block",
+    "condition": "ear canal irritation after swimming",
+    "ed_note": "Ear Canal Irritation After Swimming diagnosed with required safe context documented, but foreign body in ear, mastoiditis, diabetes, immunocompromised, fever are documented.",
+    "expected_phenotype_id": "ear_canal_irritation_after_swimming_no_otitis_externa_or_foreign_body",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "ear_trauma_or_foreign_body",
+      "mastoiditis_or_deep_ear_infection_concern",
+      "diabetes_general_risk",
+      "immunocompromised",
+      "fever"
+    ]
+  }
+]

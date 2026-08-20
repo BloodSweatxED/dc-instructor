@@ -1,0 +1,190 @@
+[
+  {
+    "id": "phase5751_heel_rubbing_blister_diabetic_foot_or_infection_clean",
+    "condition": "heel rubbing blister",
+    "ed_note": "Adult. Clinician diagnosis heel rubbing blister. No infection. No burn. No diabetic foot. No neuropathy.",
+    "expected_phenotype_id": "heel_rubbing_blister_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase5752_heel_rubbing_blister_diabetic_foot_or_infection_missing_context_blocks",
+    "condition": "heel rubbing blister",
+    "ed_note": "Adult with heel rubbing blister.",
+    "expected_phenotype_id": "heel_rubbing_blister_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_heel_rubbing_blister",
+      "no_infection_or_burn_heel_rubbing_blister"
+    ]
+  },
+  {
+    "id": "phase5753_heel_rubbing_blister_diabetic_foot_or_infection_unsafe_modifiers_block",
+    "condition": "heel rubbing blister",
+    "ed_note": "Adult. Clinician diagnosis heel rubbing blister. No infection. No burn. No diabetic foot. No neuropathy. However pus, spreading redness, open wound, hand burn, large blisters, skin peeling, mouth sores, fever, chemotherapy, diabetes, poor circulation, numb foot, and wound clinic plan are documented.",
+    "expected_phenotype_id": "heel_rubbing_blister_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "secondary_skin_infection_concern",
+      "wound_infection_concern",
+      "open_wound",
+      "burn_high_risk_depth_location_or_mechanism",
+      "large_blistering_or_high_risk_burn",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "systemic_illness",
+      "immunocompromised",
+      "specialist_directed_wound_plan",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease"
+    ]
+  },
+  {
+    "id": "phase5754_toe_rubbing_blister_diabetic_foot_or_infection_clean",
+    "condition": "toe rubbing blister",
+    "ed_note": "Adult. Clinician diagnosis toe rubbing blister. No infection. No burn. No diabetic foot. No neuropathy.",
+    "expected_phenotype_id": "toe_rubbing_blister_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase5755_toe_rubbing_blister_diabetic_foot_or_infection_missing_context_blocks",
+    "condition": "toe rubbing blister",
+    "ed_note": "Adult with toe rubbing blister.",
+    "expected_phenotype_id": "toe_rubbing_blister_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_toe_rubbing_blister",
+      "no_infection_or_burn_toe_rubbing_blister"
+    ]
+  },
+  {
+    "id": "phase5756_toe_rubbing_blister_diabetic_foot_or_infection_unsafe_modifiers_block",
+    "condition": "toe rubbing blister",
+    "ed_note": "Adult. Clinician diagnosis toe rubbing blister. No infection. No burn. No diabetic foot. No neuropathy. However pus, spreading redness, open wound, hand burn, large blisters, skin peeling, mouth sores, fever, chemotherapy, diabetes, poor circulation, numb foot, and wound clinic plan are documented.",
+    "expected_phenotype_id": "toe_rubbing_blister_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "secondary_skin_infection_concern",
+      "wound_infection_concern",
+      "open_wound",
+      "burn_high_risk_depth_location_or_mechanism",
+      "large_blistering_or_high_risk_burn",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "systemic_illness",
+      "immunocompromised",
+      "specialist_directed_wound_plan",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease"
+    ]
+  },
+  {
+    "id": "phase5757_localized_glove_contact_rash_infection_or_anaphylaxis_clean",
+    "condition": "localized glove rash",
+    "ed_note": "Adult. Clinician diagnosis localized glove rash. Rash after glove contact. No anaphylaxis. No infection. No mucosal lesions.",
+    "expected_phenotype_id": "localized_glove_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase5758_localized_glove_contact_rash_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized glove rash",
+    "ed_note": "Adult with localized glove rash.",
+    "expected_phenotype_id": "localized_glove_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_glove_contact_rash",
+      "no_infection_or_systemic_red_flags_localized_glove_contact_rash"
+    ]
+  },
+  {
+    "id": "phase5759_localized_glove_contact_rash_infection_or_anaphylaxis_unsafe_modifiers_block",
+    "condition": "localized glove rash",
+    "ed_note": "Adult. Clinician diagnosis localized glove rash. Rash after glove contact. No anaphylaxis. No infection. No mucosal lesions. However trouble breathing, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemical burn, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_glove_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase5760_localized_deodorant_contact_rash_infection_or_mucosal_red_flags_clean",
+    "condition": "localized deodorant rash",
+    "ed_note": "Adult. Clinician diagnosis localized deodorant rash. Rash after deodorant exposure. No anaphylaxis. No infection. No mucosal lesions.",
+    "expected_phenotype_id": "localized_deodorant_contact_rash_no_infection_or_mucosal_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase5761_localized_deodorant_contact_rash_infection_or_mucosal_red_flags_missing_context_blocks",
+    "condition": "localized deodorant rash",
+    "ed_note": "Adult with localized deodorant rash.",
+    "expected_phenotype_id": "localized_deodorant_contact_rash_no_infection_or_mucosal_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_deodorant_contact_rash",
+      "no_infection_or_systemic_red_flags_localized_deodorant_contact_rash"
+    ]
+  },
+  {
+    "id": "phase5762_localized_deodorant_contact_rash_infection_or_mucosal_red_flags_unsafe_modifiers_block",
+    "condition": "localized deodorant rash",
+    "ed_note": "Adult. Clinician diagnosis localized deodorant rash. Rash after deodorant exposure. No anaphylaxis. No infection. No mucosal lesions. However trouble breathing, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemical burn, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_deodorant_contact_rash_no_infection_or_mucosal_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase5763_localized_sunscreen_contact_rash_burn_or_anaphylaxis_clean",
+    "condition": "localized sunscreen rash",
+    "ed_note": "Adult. Clinician diagnosis localized sunscreen rash. Rash after sunscreen exposure. No anaphylaxis. No infection. No mucosal lesions.",
+    "expected_phenotype_id": "localized_sunscreen_contact_rash_no_burn_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase5764_localized_sunscreen_contact_rash_burn_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized sunscreen rash",
+    "ed_note": "Adult with localized sunscreen rash.",
+    "expected_phenotype_id": "localized_sunscreen_contact_rash_no_burn_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_sunscreen_contact_rash",
+      "no_infection_or_systemic_red_flags_localized_sunscreen_contact_rash"
+    ]
+  },
+  {
+    "id": "phase5765_localized_sunscreen_contact_rash_burn_or_anaphylaxis_unsafe_modifiers_block",
+    "condition": "localized sunscreen rash",
+    "ed_note": "Adult. Clinician diagnosis localized sunscreen rash. Rash after sunscreen exposure. No anaphylaxis. No infection. No mucosal lesions. However trouble breathing, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemical burn, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_sunscreen_contact_rash_no_burn_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  }
+]

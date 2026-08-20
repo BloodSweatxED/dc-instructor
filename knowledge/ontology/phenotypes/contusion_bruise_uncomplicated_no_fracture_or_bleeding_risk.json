@@ -1,0 +1,138 @@
+{
+  "id": "contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk",
+  "label": "Uncomplicated bruise or contusion without fracture or bleeding risk",
+  "status": "reviewed",
+  "condition_family": "injury",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated bruise or soft-tissue contusion.",
+    "No fracture/dislocation concern, compartment syndrome, neurovascular compromise, anticoagulation/bleeding disorder, non-accidental trauma concern, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Fracture, dislocation, open wound, severe pain, compartment syndrome, neurovascular compromise, inability to use limb, or high-energy trauma.",
+    "Anticoagulation, bleeding disorder, unexplained bruising, abuse/assault concern, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+  ],
+  "must_not_miss": [
+    "Fracture or dislocation.",
+    "Compartment syndrome.",
+    "Neurovascular injury.",
+    "Bleeding disorder or anticoagulation complication.",
+    "Non-accidental trauma."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, occupational health, or orthopedics if pain, swelling, or function is not improving.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk.diagnosis.diagnosis_summary.v1",
+    "contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk.what_we_found.reassuring_ed_assessment.v1",
+    "contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk.home_care.home_care_1.v1",
+    "contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk.home_care.home_care_2.v1",
+    "contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk.home_care.home_care_3.v1",
+    "contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk.medications.medication_guidance_1.v1",
+    "contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk.medications.medication_guidance_2.v1",
+    "contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk.return_precautions.return_precaution_1.v1",
+    "contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk.return_precautions.return_precaution_2.v1",
+    "contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk.return_precautions.return_precaution_3.v1",
+    "contusion_bruise_uncomplicated_no_fracture_or_bleeding_risk.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.bruise"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports bruise/contusion framing, expected pain/swelling/color-change course, and simple supportive care. Autonomous Phase 1751-1800 approved this narrow v1 only for clinician-diagnosed uncomplicated bruise/contusion without fracture/dislocation concern, compartment syndrome, neurovascular compromise, open wound, high-energy mechanism, anticoagulation/bleeding disorder, unexplained bruising or abuse concern, pregnancy/pediatric pathway, or specialist-directed plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "uncomplicated bruise",
+      "uncomplicated contusion",
+      "soft tissue contusion",
+      "bruise no fracture"
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "severe_pain",
+      "compartment_syndrome_concern",
+      "neurovascular_compromise",
+      "unable_to_use_limb",
+      "high_energy_trauma",
+      "anticoagulated",
+      "bleeding_disorder",
+      "unexplained_bruising_or_abuse_concern",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_bruise_or_contusion",
+        "terms": [
+          "clinician diagnosis bruise",
+          "clinician diagnosis contusion",
+          "discharge diagnosis contusion",
+          "bruise diagnosed",
+          "soft tissue contusion diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_bleeding_risk_documented",
+        "terms": [
+          "no fracture concern",
+          "no dislocation",
+          "no neurovascular compromise",
+          "no bleeding disorder",
+          "not anticoagulated"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis contusion",
+      "soft tissue contusion diagnosed",
+      "bruise diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-18",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports bruise/contusion framing, expected pain/swelling/color-change course, and simple supportive care. Autonomous Phase 1751-1800 approved this narrow v1 only for clinician-diagnosed uncomplicated bruise/contusion without fracture/dislocation concern, compartment syndrome, neurovascular compromise, open wound, high-energy mechanism, anticoagulation/bleeding disorder, unexplained bruising or abuse concern, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_bruise_or_contusion_without_fracture_or_bleeding_risk_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated bruise or soft-tissue contusion",
+      "no fracture, dislocation, neurovascular compromise, bleeding disorder, or anticoagulation documented",
+      "no open wound, high-energy mechanism, abuse concern, pregnancy, pediatric, or specialist-directed pathway"
+    ],
+    "blocked_modifiers": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "severe_pain",
+      "compartment_syndrome_concern",
+      "neurovascular_compromise",
+      "unable_to_use_limb",
+      "high_energy_trauma",
+      "anticoagulated",
+      "bleeding_disorder",
+      "unexplained_bruising_or_abuse_concern",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+}

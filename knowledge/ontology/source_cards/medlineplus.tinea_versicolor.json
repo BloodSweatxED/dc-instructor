@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.tinea_versicolor",
+  "source": "MedlinePlus",
+  "title": "Tinea versicolor",
+  "url": "https://medlineplus.gov/ency/article/001465.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Tinea versicolor is a common superficial fungal infection of the outer skin layer.",
+    "It can cause lighter or darker scaly patches, often on the trunk, neck, or upper arms.",
+    "It is caused by yeast normally found on skin and is not usually spread person to person.",
+    "Extensive, recurrent, immunocompromised, or diagnostically uncertain rashes need clinician-specific handling."
+  ],
+  "use_policy": "evidence_support"
+}

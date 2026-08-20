@@ -1,0 +1,141 @@
+{
+  "id": "mild_eczema_flare_no_infection_or_systemic_symptoms",
+  "label": "Mild eczema flare without infection or systemic symptoms",
+  "status": "reviewed",
+  "condition_family": "dermatology",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of mild eczema or atopic dermatitis flare.",
+    "No secondary infection, severe/widespread flare, systemic illness, severe cutaneous adverse reaction, eye/genital involvement, immunocompromised host, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Cellulitis, abscess, pus, fever, secondary infection, severe pain, or rapidly spreading rash.",
+    "Skin peeling, blistering, mucosal lesions, eye/genital involvement, severe/widespread flare, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology plan.",
+    "Medication selection not supplied by clinician."
+  ],
+  "must_not_miss": [
+    "Secondary skin infection.",
+    "Eczema herpeticum.",
+    "Stevens-Johnson syndrome or toxic epidermal necrolysis.",
+    "Anaphylaxis or severe allergic reaction mimic."
+  ],
+  "default_follow_up": "Follow up with primary care or dermatology if symptoms are not improving, recur often, or require ongoing medicine adjustment.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "mild_eczema_flare_no_infection_or_systemic_symptoms.diagnosis.diagnosis_summary.v1",
+    "mild_eczema_flare_no_infection_or_systemic_symptoms.what_we_found.reassuring_ed_assessment.v1",
+    "mild_eczema_flare_no_infection_or_systemic_symptoms.home_care.home_care_1.v1",
+    "mild_eczema_flare_no_infection_or_systemic_symptoms.home_care.home_care_2.v1",
+    "mild_eczema_flare_no_infection_or_systemic_symptoms.home_care.home_care_3.v1",
+    "mild_eczema_flare_no_infection_or_systemic_symptoms.medications.medication_guidance_1.v1",
+    "mild_eczema_flare_no_infection_or_systemic_symptoms.medications.medication_guidance_2.v1",
+    "mild_eczema_flare_no_infection_or_systemic_symptoms.return_precautions.return_precaution_1.v1",
+    "mild_eczema_flare_no_infection_or_systemic_symptoms.return_precautions.return_precaution_2.v1",
+    "mild_eczema_flare_no_infection_or_systemic_symptoms.return_precautions.return_precaution_3.v1",
+    "mild_eczema_flare_no_infection_or_systemic_symptoms.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.eczema",
+    "medlineplus.atopic_dermatitis_self_care"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports eczema/atopic-dermatitis flare framing, moisturizer and trigger-avoidance care, prescribed medication adherence, and escalation for infection signs, severe/widespread rash, or systemic symptoms. Autonomous Phase 1651-1700 approved this narrow v1 only for clinician-diagnosed mild eczema flare without secondary infection, severe/widespread flare, mucosal/eye/genital involvement, severe drug-rash concern, systemic illness, pregnancy/pediatric/immunocompromised pathway, or specialist-directed dermatology plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "mild eczema flare",
+      "eczema flare no infection",
+      "eczema",
+      "atopic dermatitis flare"
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "abscess_or_boils_or_carbuncle",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "eye_or_genital_rash_location",
+      "eczema_severe_or_widespread",
+      "rapid_progression",
+      "fever",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_mild_eczema_flare",
+        "terms": [
+          "clinician diagnosis eczema flare",
+          "discharge diagnosis eczema",
+          "eczema flare diagnosed",
+          "mild eczema flare diagnosed",
+          "atopic dermatitis flare diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_symptoms_documented",
+        "terms": [
+          "no cellulitis",
+          "no secondary infection",
+          "no fever",
+          "no systemic symptoms",
+          "no systemic illness"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis eczema flare",
+      "eczema flare diagnosed",
+      "mild eczema flare diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-17",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports eczema/atopic-dermatitis flare framing, moisturizer and trigger-avoidance care, prescribed medication adherence, and escalation for infection signs, severe/widespread rash, or systemic symptoms. Autonomous Phase 1651-1700 approved this narrow v1 only for clinician-diagnosed mild eczema flare without secondary infection, severe/widespread flare, mucosal/eye/genital involvement, severe drug-rash concern, systemic illness, pregnancy/pediatric/immunocompromised pathway, or specialist-directed dermatology plan.",
+    "clinical_status": "reviewed_for_limited_mild_eczema_flare_without_infection_or_systemic_symptoms_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of mild eczema or atopic dermatitis flare",
+      "no infection, fever, systemic symptoms, mucosal/eye/genital involvement, or severe cutaneous adverse reaction documented",
+      "no high-risk host, pregnancy, pediatric, severe/widespread, or specialist-directed pathway"
+    ],
+    "blocked_modifiers": [
+      "secondary_skin_infection_concern",
+      "abscess_or_boils_or_carbuncle",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "eye_or_genital_rash_location",
+      "eczema_severe_or_widespread",
+      "rapid_progression",
+      "fever",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ]
+  }
+}

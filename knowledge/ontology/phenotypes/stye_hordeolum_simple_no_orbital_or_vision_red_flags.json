@@ -1,0 +1,141 @@
+{
+  "id": "stye_hordeolum_simple_no_orbital_or_vision_red_flags",
+  "label": "Simple stye without orbital or vision red flags",
+  "status": "reviewed",
+  "condition_family": "ophthalmology",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of simple stye, hordeolum, or localized eyelid bump.",
+    "No contact lens pathway, vision change, severe eye pain, photophobia, trauma, foreign body, herpes or zoster concern, orbital or periorbital cellulitis concern, pregnancy, or immunocompromised-host pathway."
+  ],
+  "exclusion_criteria": [
+    "Vision change, severe eye pain, photophobia, pain with eye movement, proptosis, orbital or periorbital cellulitis concern.",
+    "Contact lens use, eye trauma, foreign body, chemical exposure, corneal ulcer or keratitis concern, herpes or zoster eye concern, acute glaucoma mimic.",
+    "Pregnancy, immunocompromised host, systemic illness, or specialist-directed ophthalmology plan."
+  ],
+  "must_not_miss": [
+    "Orbital cellulitis.",
+    "Preseptal cellulitis requiring separate plan.",
+    "Corneal ulcer or keratitis.",
+    "Acute glaucoma mimic."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, or eye care if symptoms are not improving, and sooner if any red flag develops.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "stye_hordeolum_simple_no_orbital_or_vision_red_flags.diagnosis.diagnosis_summary.v1",
+    "stye_hordeolum_simple_no_orbital_or_vision_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "stye_hordeolum_simple_no_orbital_or_vision_red_flags.home_care.home_care_1.v1",
+    "stye_hordeolum_simple_no_orbital_or_vision_red_flags.home_care.home_care_2.v1",
+    "stye_hordeolum_simple_no_orbital_or_vision_red_flags.home_care.home_care_3.v1",
+    "stye_hordeolum_simple_no_orbital_or_vision_red_flags.medications.medication_guidance_1.v1",
+    "stye_hordeolum_simple_no_orbital_or_vision_red_flags.medications.medication_guidance_2.v1",
+    "stye_hordeolum_simple_no_orbital_or_vision_red_flags.return_precautions.return_precaution_1.v1",
+    "stye_hordeolum_simple_no_orbital_or_vision_red_flags.return_precautions.return_precaution_2.v1",
+    "stye_hordeolum_simple_no_orbital_or_vision_red_flags.return_precautions.return_precaution_3.v1",
+    "stye_hordeolum_simple_no_orbital_or_vision_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.eyelid_bump_stye"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports eyelid bump and stye framing, red swollen tender eyelid bump features, warm compress home care, and escalation for vision problems, worsening swelling, fever, or concerning eye symptoms. Autonomous Phase 1551-1600 approved this narrow v1 only for clinician-diagnosed simple stye or hordeolum without contact lens use, vision change, severe eye pain, photophobia, trauma, foreign body, chemical exposure, herpes or zoster concern, orbital or periorbital cellulitis concern, pregnancy, immunocompromised-host pathway, systemic illness, or specialist-directed eye plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "simple stye",
+      "stye no vision change",
+      "hordeolum",
+      "stye",
+      "eyelid bump"
+    ],
+    "unsafe_modifiers": [
+      "contact_lens_use",
+      "vision_change",
+      "severe_eye_pain",
+      "photophobia",
+      "periorbital_or_orbital_cellulitis_concern",
+      "eye_trauma_or_foreign_body",
+      "chemical_eye_exposure",
+      "corneal_ulcer_or_keratitis_concern",
+      "acute_glaucoma_mimic",
+      "herpes_or_zoster_eye_concern",
+      "zoster_eye_face_or_neuro_concern",
+      "immunocompromised",
+      "pregnancy",
+      "systemic_illness"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_simple_stye",
+        "terms": [
+          "clinician diagnosis stye",
+          "discharge diagnosis stye",
+          "stye diagnosed",
+          "hordeolum diagnosed",
+          "simple stye diagnosed"
+        ]
+      },
+      {
+        "id": "no_orbital_or_vision_red_flags_documented",
+        "terms": [
+          "no vision change",
+          "no severe eye pain",
+          "no orbital cellulitis concern",
+          "no periorbital cellulitis concern",
+          "localized eyelid bump only"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "stye diagnosed",
+      "hordeolum diagnosed",
+      "clinician diagnosis stye"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-17",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports eyelid bump and stye framing, red swollen tender eyelid bump features, warm compress home care, and escalation for vision problems, worsening swelling, fever, or concerning eye symptoms. Autonomous Phase 1551-1600 approved this narrow v1 only for clinician-diagnosed simple stye or hordeolum without contact lens use, vision change, severe eye pain, photophobia, trauma, foreign body, chemical exposure, herpes or zoster concern, orbital or periorbital cellulitis concern, pregnancy, immunocompromised-host pathway, systemic illness, or specialist-directed eye plan.",
+    "clinical_status": "reviewed_for_limited_simple_stye_without_orbital_or_vision_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of simple stye, hordeolum, or localized eyelid bump",
+      "no contact lens use, vision change, severe eye pain, photophobia, trauma, foreign body, chemical exposure, corneal ulcer, herpes or zoster, orbital or periorbital cellulitis concern",
+      "no pregnancy, immunocompromised-host, systemic illness, or specialist-directed pathway"
+    ],
+    "blocked_modifiers": [
+      "contact_lens_use",
+      "vision_change",
+      "severe_eye_pain",
+      "photophobia",
+      "periorbital_or_orbital_cellulitis_concern",
+      "eye_trauma_or_foreign_body",
+      "chemical_eye_exposure",
+      "corneal_ulcer_or_keratitis_concern",
+      "acute_glaucoma_mimic",
+      "herpes_or_zoster_eye_concern",
+      "zoster_eye_face_or_neuro_concern",
+      "immunocompromised",
+      "pregnancy",
+      "systemic_illness"
+    ]
+  }
+}

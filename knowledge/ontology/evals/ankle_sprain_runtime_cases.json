@@ -1,0 +1,57 @@
+[
+  {
+    "id": "clean_exact_condition",
+    "condition": "ankle_sprain_xray_negative",
+    "ed_note": "Adult with inversion injury. X-ray negative for fracture. Foot warm and well perfused. Sensation intact. Able to bear weight with pain. No open wound.",
+    "expected_phenotype_id": "ankle_sprain_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "clean_common_phrase",
+    "condition": "ankle sprain xray negative",
+    "ed_note": "X-ray negative. Distal pulse, sensation, and movement intact. No open wound.",
+    "expected_phenotype_id": "ankle_sprain_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "numb_toes_blocks",
+    "condition": "ankle sprain xray negative",
+    "ed_note": "Patient reports numb toes and decreased sensation after injury.",
+    "expected_phenotype_id": "ankle_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["neurovascular_compromise"]
+  },
+  {
+    "id": "open_wound_blocks",
+    "condition": "ankle sprain xray negative",
+    "ed_note": "There is an open wound over the ankle after trauma.",
+    "expected_phenotype_id": "ankle_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["open_wound"]
+  },
+  {
+    "id": "fracture_language_blocks",
+    "condition": "ankle sprain xray negative",
+    "ed_note": "X-ray shows distal fibula fracture.",
+    "expected_phenotype_id": "ankle_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["fracture_seen"]
+  },
+  {
+    "id": "no_xray_blocks",
+    "condition": "ankle sprain no xray",
+    "ed_note": "No imaging was performed.",
+    "expected_phenotype_id": "ankle_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["no_xray_performed"]
+  },
+  {
+    "id": "vague_ankle_pain_fallback",
+    "condition": "ankle pain",
+    "ed_note": "Pain after walking. No specific sprain diagnosis documented.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  }
+]

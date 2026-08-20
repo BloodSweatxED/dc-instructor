@@ -1,0 +1,201 @@
+{
+  "generated_at": "2026-05-28T19:01:15.153780+00:00",
+  "generator_url": "",
+  "cases": [
+    {
+      "id": "lumbar_strain_no_red_flags",
+      "phenotype": "lumbar_strain_no_red_flags",
+      "condition": "Low back strain, no red flags",
+      "generator_called": false,
+      "ontology_output": "DIAGNOSIS:\nYou have a lumbar strain. This means the muscles or ligaments in your lower back are irritated or stretched.\n\nWHAT WE FOUND:\nYour exam today was reassuring. You can walk, and we did not find signs of a dangerous nerve or spine problem.\n\nWHAT TO DO AT HOME:\n- Stay gently active. Avoid staying in bed all day. Short walks and light activity can help you recover.\n- Use ice for the first 1 to 2 days for 15 to 20 minutes at a time. After that, you can try heat if it feels better.\n- For the next few days, avoid heavy lifting, bending, and twisting. Slowly return to normal activity as your pain improves.\n- Sleep in a position that feels comfortable. A pillow between your knees, or under your knees when on your back, may help.\n\nMEDICATIONS:\n- You can use acetaminophen for pain. Follow the bottle directions and do not take more than the label says.\n- Ibuprofen or naproxen may help pain. Take them with food. Do not use them if you have kidney disease, stomach ulcers or bleeding, take blood thinners, or were told to avoid them.\n\nRETURN TO ED IF:\n- Come back to the emergency department right away if you cannot control your urine or bowel movements, or if your groin or buttocks feel numb.\n- Come back to the emergency department right away for new leg weakness, trouble walking, fever, a new injury, or pain that becomes much worse.\n\nFOLLOW UP:\nSee your regular doctor in 1 to 2 weeks if your pain is not improving.\n",
+      "ontology_summary": {
+        "DIAGNOSIS:": {
+          "present": true,
+          "chars": 108,
+          "bullets": 0
+        },
+        "WHAT WE FOUND:": {
+          "present": true,
+          "chars": 110,
+          "bullets": 0
+        },
+        "WHAT TO DO AT HOME:": {
+          "present": true,
+          "chars": 470,
+          "bullets": 4
+        },
+        "MEDICATIONS:": {
+          "present": true,
+          "chars": 289,
+          "bullets": 2
+        },
+        "RETURN TO ED IF:": {
+          "present": true,
+          "chars": 287,
+          "bullets": 2
+        },
+        "FOLLOW UP:": {
+          "present": true,
+          "chars": 70,
+          "bullets": 0
+        }
+      }
+    },
+    {
+      "id": "ankle_sprain_xray_negative",
+      "phenotype": "ankle_sprain_xray_negative",
+      "condition": "Ankle sprain, x-ray negative",
+      "generator_called": false,
+      "ontology_output": "DIAGNOSIS:\nYou have an ankle sprain. Your x-ray did not show a fracture.\n\nWHAT WE FOUND:\nYour foot has good blood flow, feeling, and movement. You can go home with a brace, wrap, or crutches as instructed.\n\nWHAT TO DO AT HOME:\n- Put ice on your ankle for 15 to 20 minutes at a time. Keep your ankle raised above heart level when you sit or lie down.\n- Wear the brace or wrap as instructed. Rest and protect your ankle for the next few days.\n- Walk only as much as you were instructed. If walking causes significant pain, use crutches and limit weight on the ankle.\n\nMEDICATIONS:\n- You can use acetaminophen for pain. Follow the bottle directions and do not take more than the label says.\n- Ibuprofen or naproxen may help pain and swelling. Take them with food. Do not use them if you have kidney disease, stomach ulcers or bleeding, take blood thinners, or were told to avoid them.\n\nRETURN TO ED IF:\n- Come back to the emergency department right away if your foot or toes become numb, cold, blue, very pale, or hard to move.\n- Come back to the emergency department right away if pain or swelling gets much worse, you cannot walk at all, the skin becomes very red or hot, or you develop a fever.\n\nFOLLOW UP:\nSee your regular doctor, urgent care, sports medicine, or orthopedics in 5 to 7 days if pain or walking is not improving.\n",
+      "ontology_summary": {
+        "DIAGNOSIS:": {
+          "present": true,
+          "chars": 61,
+          "bullets": 0
+        },
+        "WHAT WE FOUND:": {
+          "present": true,
+          "chars": 116,
+          "bullets": 0
+        },
+        "WHAT TO DO AT HOME:": {
+          "present": true,
+          "chars": 337,
+          "bullets": 3
+        },
+        "MEDICATIONS:": {
+          "present": true,
+          "chars": 302,
+          "bullets": 2
+        },
+        "RETURN TO ED IF:": {
+          "present": true,
+          "chars": 294,
+          "bullets": 2
+        },
+        "FOLLOW UP:": {
+          "present": true,
+          "chars": 121,
+          "bullets": 0
+        }
+      }
+    },
+    {
+      "id": "viral_uri_no_pneumonia",
+      "phenotype": "viral_uri_no_pneumonia",
+      "condition": "Viral upper respiratory infection, no pneumonia",
+      "generator_called": false,
+      "ontology_output": "DIAGNOSIS:\nYou have a viral upper respiratory infection, also called a cold. We did not find signs of pneumonia today.\n\nWHAT WE FOUND:\nYour breathing, oxygen level, and exam were reassuring enough for discharge today.\n\nWHAT TO DO AT HOME:\n- Drink fluids, rest, and use a humidifier or steam from a shower if it helps your congestion or cough.\n- Wash your hands often, cover coughs, and avoid close contact with high-risk people while you have fever or feel very sick.\n\nMEDICATIONS:\n- Antibiotics do not treat cold viruses. Based on today's visit, antibiotics were not needed.\n- You can use acetaminophen or ibuprofen for fever or aches if these are safe for you. Read labels carefully so you do not take the same medicine twice.\n\nRETURN TO ED IF:\n- Come back to the emergency department right away for trouble breathing, chest pain, blue lips, confusion, fainting, or feeling much worse.\n- Come back if fever or cough improves and then returns worse, if fever stays high, or if you cannot drink enough fluids.\n\nFOLLOW UP:\nSee your regular doctor or clinic in 3 to 7 days if your symptoms are not improving.\n",
+      "ontology_summary": {
+        "DIAGNOSIS:": {
+          "present": true,
+          "chars": 107,
+          "bullets": 0
+        },
+        "WHAT WE FOUND:": {
+          "present": true,
+          "chars": 82,
+          "bullets": 0
+        },
+        "WHAT TO DO AT HOME:": {
+          "present": true,
+          "chars": 228,
+          "bullets": 2
+        },
+        "MEDICATIONS:": {
+          "present": true,
+          "chars": 246,
+          "bullets": 2
+        },
+        "RETURN TO ED IF:": {
+          "present": true,
+          "chars": 262,
+          "bullets": 2
+        },
+        "FOLLOW UP:": {
+          "present": true,
+          "chars": 84,
+          "bullets": 0
+        }
+      }
+    },
+    {
+      "id": "uncomplicated_cystitis_nonpregnant",
+      "phenotype": "uncomplicated_cystitis_nonpregnant",
+      "condition": "Uncomplicated cystitis, nonpregnant",
+      "generator_called": false,
+      "ontology_output": "DIAGNOSIS:\nYou have a bladder infection, also called an uncomplicated UTI.\n\nWHAT WE FOUND:\nToday we did not find signs of a kidney infection, sepsis, or another emergency cause of your symptoms.\n\nWHAT TO DO AT HOME:\n- Drink fluids if you are allowed to. Avoid alcohol or drinks that worsen burning until symptoms improve.\n- If a urine culture was sent, the hospital may contact you if the antibiotic needs to be changed.\n\nMEDICATIONS:\n- Take the antibiotic exactly as prescribed. Finish the course unless a doctor or pharmacist tells you to stop.\n- If you were prescribed medicine for urinary burning, use it only as directed. It may turn your urine bright orange.\n\nRETURN TO ED IF:\n- Get checked again if burning or urgency is not starting to improve after 2 days of antibiotics, or if symptoms worsen.\n- Come back to the emergency department right away for fever, chills, back or side pain, vomiting, weakness, confusion, or feeling very sick.\n\nFOLLOW UP:\nSee your regular doctor, clinic, or urgent care in 2 to 3 days if symptoms are not improving.\n",
+      "ontology_summary": {
+        "DIAGNOSIS:": {
+          "present": true,
+          "chars": 63,
+          "bullets": 0
+        },
+        "WHAT WE FOUND:": {
+          "present": true,
+          "chars": 103,
+          "bullets": 0
+        },
+        "WHAT TO DO AT HOME:": {
+          "present": true,
+          "chars": 204,
+          "bullets": 2
+        },
+        "MEDICATIONS:": {
+          "present": true,
+          "chars": 229,
+          "bullets": 2
+        },
+        "RETURN TO ED IF:": {
+          "present": true,
+          "chars": 262,
+          "bullets": 2
+        },
+        "FOLLOW UP:": {
+          "present": true,
+          "chars": 93,
+          "bullets": 0
+        }
+      }
+    },
+    {
+      "id": "gastroenteritis_stable_hydrating",
+      "phenotype": "gastroenteritis_stable_hydrating",
+      "condition": "Gastroenteritis, stable and able to hydrate",
+      "generator_called": false,
+      "ontology_output": "DIAGNOSIS:\nYou most likely have gastroenteritis, an infection or irritation of the stomach and intestines that can cause vomiting or diarrhea.\n\nWHAT WE FOUND:\nYou were stable enough for discharge today. You can continue oral hydration at home.\n\nWHAT TO DO AT HOME:\n- Take small sips often. Water, oral rehydration solution, broth, or a sports drink can help replace fluids.\n- When you feel ready, restart bland foods and advance slowly. Wash your hands well because stomach infections can spread.\n\nMEDICATIONS:\n- If you were prescribed nausea medicine, take it only as directed so you can keep fluids down.\n- Do not use diarrhea-stopping medicine if you have bloody stool, high fever, or severe abdominal pain unless a doctor tells you to.\n\nRETURN TO ED IF:\n- Come back to the emergency department right away for severe abdominal pain, bloody or black stool, fainting, confusion, or signs of dehydration.\n- Come back if you cannot keep fluids down, are urinating much less than usual, fever becomes high, or symptoms keep getting worse.\n\nFOLLOW UP:\nSee your regular doctor, clinic, or urgent care in 1 to 3 days if symptoms are not improving.\n",
+      "ontology_summary": {
+        "DIAGNOSIS:": {
+          "present": true,
+          "chars": 131,
+          "bullets": 0
+        },
+        "WHAT WE FOUND:": {
+          "present": true,
+          "chars": 84,
+          "bullets": 0
+        },
+        "WHAT TO DO AT HOME:": {
+          "present": true,
+          "chars": 231,
+          "bullets": 2
+        },
+        "MEDICATIONS:": {
+          "present": true,
+          "chars": 228,
+          "bullets": 2
+        },
+        "RETURN TO ED IF:": {
+          "present": true,
+          "chars": 278,
+          "bullets": 2
+        },
+        "FOLLOW UP:": {
+          "present": true,
+          "chars": 93,
+          "bullets": 0
+        }
+      }
+    }
+  ]
+}

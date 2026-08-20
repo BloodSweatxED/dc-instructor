@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.cellulitis",
+  "source": "MedlinePlus",
+  "title": "Cellulitis",
+  "url": "https://medlineplus.gov/cellulitis.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "Cellulitis is a skin infection treated with antibiotics when a clinician determines they are needed.",
+    "Patients should monitor for worsening redness, pain, drainage, fever, or other signs of worsening infection.",
+    "Patients with more severe infection or immune system problems may need higher-acuity care."
+  ],
+  "use_policy": "evidence_support"
+}

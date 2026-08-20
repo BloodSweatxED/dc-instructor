@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.nail_injuries",
+  "source": "MedlinePlus",
+  "title": "Nail injuries",
+  "url": "https://medlineplus.gov/ency/patientinstructions/000800.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Minor nail injuries can involve bruising or soreness under or around a nail.",
+    "Home care may include protection, keeping the area clean, and clinician-directed pain control.",
+    "Crush injury, open fracture, nail-bed laceration, infection, severe pain, or neurovascular symptoms require separate evaluation."
+  ],
+  "use_policy": "evidence_support"
+}

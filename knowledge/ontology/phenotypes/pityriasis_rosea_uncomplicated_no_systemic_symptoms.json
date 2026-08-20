@@ -1,0 +1,130 @@
+{
+  "id": "pityriasis_rosea_uncomplicated_no_systemic_symptoms",
+  "label": "Uncomplicated pityriasis rosea without systemic symptoms",
+  "status": "reviewed",
+  "condition_family": "dermatology",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated pityriasis rosea.",
+    "No severe cutaneous adverse reaction, mucosal lesions, infection, systemic illness, pregnancy, immunocompromised host, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Severe cutaneous adverse reaction, mucosal lesions, skin peeling/sloughing, target lesions, cellulitis, abscess, fever, or systemic illness.",
+    "Pregnancy, medication reaction concern, immunocompromised host, pediatric pathway, STI/syphilis concern, or specialist-directed dermatology plan."
+  ],
+  "must_not_miss": [
+    "Severe cutaneous adverse reaction.",
+    "Secondary syphilis or STI mimic.",
+    "Pityriasis rosea in pregnancy.",
+    "Secondary skin infection."
+  ],
+  "default_follow_up": "Follow up with primary care or dermatology if symptoms persist, worsen, recur, or the diagnosis is uncertain.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "pityriasis_rosea_uncomplicated_no_systemic_symptoms.diagnosis.diagnosis_summary.v1",
+    "pityriasis_rosea_uncomplicated_no_systemic_symptoms.what_we_found.reassuring_ed_assessment.v1",
+    "pityriasis_rosea_uncomplicated_no_systemic_symptoms.home_care.home_care_1.v1",
+    "pityriasis_rosea_uncomplicated_no_systemic_symptoms.home_care.home_care_2.v1",
+    "pityriasis_rosea_uncomplicated_no_systemic_symptoms.home_care.home_care_3.v1",
+    "pityriasis_rosea_uncomplicated_no_systemic_symptoms.medications.medication_guidance_1.v1",
+    "pityriasis_rosea_uncomplicated_no_systemic_symptoms.medications.medication_guidance_2.v1",
+    "pityriasis_rosea_uncomplicated_no_systemic_symptoms.return_precautions.return_precaution_1.v1",
+    "pityriasis_rosea_uncomplicated_no_systemic_symptoms.return_precautions.return_precaution_2.v1",
+    "pityriasis_rosea_uncomplicated_no_systemic_symptoms.return_precautions.return_precaution_3.v1",
+    "pityriasis_rosea_uncomplicated_no_systemic_symptoms.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.pityriasis_rosea"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports pityriasis-rosea framing, typical herald-patch/scaly-rash course, itching, and resolution over weeks. Autonomous Phase 1751-1800 approved this narrow v1 only for clinician-diagnosed uncomplicated pityriasis rosea without drug-rash warning signs, mucosal involvement, infection, pregnancy, STI mimic concern, systemic illness, immunocompromise, pediatric pathway, or specialist-directed plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "pityriasis rosea",
+      "herald patch rash",
+      "christmas tree rash"
+    ],
+    "unsafe_modifiers": [
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "secondary_skin_infection_concern",
+      "systemic_illness",
+      "pregnancy",
+      "immunocompromised",
+      "pediatric_pathway",
+      "sti_or_genital_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_pityriasis_rosea",
+        "terms": [
+          "clinician diagnosis pityriasis rosea",
+          "discharge diagnosis pityriasis rosea",
+          "pityriasis rosea diagnosed",
+          "herald patch rash diagnosed",
+          "christmas tree rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_systemic_or_dangerous_rash_features_documented",
+        "terms": [
+          "no mucosal lesions",
+          "no skin peeling",
+          "no medication reaction",
+          "no fever",
+          "no systemic illness"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis pityriasis rosea",
+      "pityriasis rosea diagnosed",
+      "herald patch rash diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-18",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports pityriasis-rosea framing, typical herald-patch/scaly-rash course, itching, and resolution over weeks. Autonomous Phase 1751-1800 approved this narrow v1 only for clinician-diagnosed uncomplicated pityriasis rosea without drug-rash warning signs, mucosal involvement, infection, pregnancy, STI mimic concern, systemic illness, immunocompromise, pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_pityriasis_rosea_without_systemic_symptoms_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated pityriasis rosea",
+      "no mucosal lesions, skin peeling, medication reaction, fever, or systemic illness documented",
+      "no pregnancy, STI, immunocompromised, pediatric, or specialist-directed pathway"
+    ],
+    "blocked_modifiers": [
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "secondary_skin_infection_concern",
+      "systemic_illness",
+      "pregnancy",
+      "immunocompromised",
+      "pediatric_pathway",
+      "sti_or_genital_pathway",
+      "specialist_directed_dermatology_plan"
+    ]
+  }
+}

@@ -1,0 +1,492 @@
+[
+  {
+    "id": "superficial_puncture_wound_no_retained_foreign_body_or_infection",
+    "label": "Superficial puncture wound without retained foreign body or infection",
+    "family": "wound_care",
+    "condition_terms": [
+      "superficial puncture wound",
+      "minor puncture wound",
+      "puncture wound superficial",
+      "puncture wound no foreign body"
+    ],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "summary": "Your symptoms fit a superficial puncture wound.",
+    "found": "Your clinician diagnosed a superficial puncture wound. We did not find a retained foreign body, deep structure injury, infection, or another emergency problem today.",
+    "home": [
+      "Keep the wound clean and protected.",
+      "Change dressings only as instructed.",
+      "Do not dig into the wound or try to remove anything at home."
+    ],
+    "meds": [
+      "Take antibiotics only if your clinician prescribed them.",
+      "Use pain medicine only if prescribed or recommended, and follow the label."
+    ],
+    "return": [
+      "Spreading redness, warmth, pus, red streaks, fever, or worsening swelling.",
+      "Numbness, weakness, severe pain, color change, or trouble moving the area.",
+      "New concern for a retained object, dirty wound, bite wound, or wound opening."
+    ],
+    "follow": "Follow up with primary care, urgent care, wound care, or the ED if the wound is not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of superficial puncture wound.",
+      "No retained foreign body, deep structure injury, infection, bite wound, dirty/high-risk wound, diabetic-foot risk, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Retained foreign body, deep puncture, tendon/nerve/vessel/bone concern, joint violation, open fracture, bite wound, dirty wound, infection, neurovascular compromise, severe pain, or delayed high-risk presentation.",
+      "Diabetic-foot risk, immunocompromise, pregnancy/pediatric pathway, or specialist-directed wound/orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Retained foreign body.",
+      "Deep structure injury.",
+      "Joint violation.",
+      "Open fracture.",
+      "Wound infection."
+    ],
+    "unsafe_modifiers": [
+      "retained_foreign_body",
+      "hand_tendon_risk",
+      "joint_violation",
+      "open_fracture",
+      "bite_wound",
+      "dirty_wound",
+      "wound_infection_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "delayed_wound_presentation",
+      "diabetic_foot",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_wound_plan",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_superficial_puncture_wound",
+        "terms": [
+          "clinician diagnosis superficial puncture wound",
+          "discharge diagnosis superficial puncture wound",
+          "superficial puncture wound diagnosed",
+          "minor puncture wound diagnosed"
+        ]
+      },
+      {
+        "id": "no_retained_foreign_body_or_infection_documented",
+        "terms": [
+          "no foreign body",
+          "no retained foreign body",
+          "no infection",
+          "no tendon injury",
+          "neurovascularly intact"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis superficial puncture wound",
+      "superficial puncture wound diagnosed",
+      "minor puncture wound diagnosed",
+      "superficial puncture wound"
+    ],
+    "source_audit_notes": "MedlinePlus supports cuts and puncture wound framing, deep-structure risk, infection warning signs, and higher-risk wound categories such as bites, dirty wounds, crush injuries, and foot wounds. Autonomous Phase 2101-2200 approved this narrow v1 only for clinician-diagnosed superficial puncture wound without retained foreign body, deep structure injury, infection, high-risk wound context, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_superficial_puncture_wound_without_retained_foreign_body_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of superficial puncture wound",
+      "no retained foreign body, deep structure injury, infection, high-risk wound context, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "minor_splinter_removed_no_retained_foreign_body_or_infection",
+    "label": "Minor splinter removed without retained foreign body or infection",
+    "family": "wound_care",
+    "condition_terms": [
+      "minor splinter removed",
+      "splinter removed",
+      "superficial splinter removed",
+      "wood splinter removed"
+    ],
+    "source_card_ids": [
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "summary": "Your clinician removed a small superficial splinter.",
+    "found": "Your clinician removed the splinter and did not find a retained foreign body, deep structure injury, infection, or another emergency problem today.",
+    "home": [
+      "Keep the area clean and covered if instructed.",
+      "Do not dig at the skin if it feels sore.",
+      "Protect the area from repeat irritation while it heals."
+    ],
+    "meds": [
+      "Take antibiotics only if your clinician prescribed them.",
+      "Use pain medicine only if prescribed or recommended, and follow the label."
+    ],
+    "return": [
+      "Spreading redness, warmth, pus, red streaks, fever, or worsening swelling.",
+      "Numbness, weakness, color change, severe pain, or trouble moving the area.",
+      "Feeling like something remains in the wound or symptoms not improving."
+    ],
+    "follow": "Follow up with primary care, urgent care, wound care, or the ED if pain, redness, or foreign-body concern is not improving.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of minor superficial splinter removed.",
+      "No retained foreign body, deep structure injury, infection, bite/dirty wound, diabetic-foot risk, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Retained foreign body, glass/metal or deep object concern, tendon/nerve/vessel/bone concern, joint violation, open fracture, dirty wound, bite wound, infection, neurovascular compromise, severe pain, or delayed high-risk presentation.",
+      "Diabetic-foot risk, immunocompromise, pregnancy/pediatric pathway, or specialist-directed wound/hand plan."
+    ],
+    "must_not_miss": [
+      "Retained foreign body.",
+      "Deep structure injury.",
+      "Wound infection.",
+      "Joint violation.",
+      "Neurovascular compromise."
+    ],
+    "unsafe_modifiers": [
+      "retained_foreign_body",
+      "hand_tendon_risk",
+      "joint_violation",
+      "open_fracture",
+      "dirty_wound",
+      "bite_wound",
+      "wound_infection_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "delayed_wound_presentation",
+      "diabetic_foot",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_wound_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_minor_splinter_removed",
+        "terms": [
+          "clinician diagnosis minor splinter removed",
+          "discharge diagnosis splinter removed",
+          "minor splinter removed diagnosed",
+          "superficial splinter removed"
+        ]
+      },
+      {
+        "id": "no_retained_foreign_body_or_infection_after_removal",
+        "terms": [
+          "no retained foreign body",
+          "no infection",
+          "neurovascularly intact",
+          "no tendon injury",
+          "splinter removed completely",
+          "no object remains"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis minor splinter removed",
+      "minor splinter removed",
+      "splinter removed",
+      "superficial splinter removed"
+    ],
+    "source_audit_notes": "MedlinePlus supports cuts and puncture wound framing, deep-structure risk, infection warning signs, and retained-object concerns. Autonomous Phase 2101-2200 approved this narrow v1 only for clinician-diagnosed minor superficial splinter removal without retained foreign body, deep structure injury, infection, high-risk wound context, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_minor_splinter_removed_without_retained_foreign_body_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of minor superficial splinter removed",
+      "foreign body removed completely or no retained foreign body documented",
+      "no infection, deep structure injury, high-risk wound context, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "healing_wound_no_infection_or_dehiscence",
+    "label": "Healing wound without infection or dehiscence",
+    "family": "wound_care",
+    "condition_terms": [
+      "healing wound",
+      "wound healing check",
+      "healing skin wound",
+      "wound healing normally"
+    ],
+    "source_card_ids": [
+      "medlineplus.wound_healing",
+      "medlineplus.cuts_puncture_wounds"
+    ],
+    "summary": "Your wound appears to be healing.",
+    "found": "Your clinician checked the wound and documented that it is healing without infection, wound opening, or another emergency problem today.",
+    "home": [
+      "Keep following the wound-care plan your clinician gave you.",
+      "Keep the wound clean and protected.",
+      "Do not soak, scrub, or pick at the healing tissue unless your clinician said it is safe."
+    ],
+    "meds": [
+      "Take antibiotics only if your clinician prescribed them.",
+      "Use pain medicine only if prescribed or recommended, and follow the label."
+    ],
+    "return": [
+      "Spreading redness, warmth, pus, red streaks, fever, or worsening swelling.",
+      "The wound opens, edges separate, bleeding will not stop, or pain becomes severe.",
+      "New numbness, weakness, color change, or concern for a deeper injury."
+    ],
+    "follow": "Follow up as instructed for wound check, suture or staple care, or scar/healing concerns.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of healing wound or wound healing normally.",
+      "No infection, dehiscence/wound opening, bleeding problem, deep structure injury, high-risk wound context, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Wound infection, dehiscence, wound opening, uncontrolled bleeding, open fracture, tendon/nerve/vessel/bone concern, joint violation, bite wound, dirty wound, delayed high-risk presentation, severe pain, or neurovascular compromise.",
+      "Diabetic-foot risk, immunocompromise, pregnancy/pediatric pathway, or specialist-directed wound plan."
+    ],
+    "must_not_miss": [
+      "Wound infection.",
+      "Wound dehiscence.",
+      "Deep structure injury.",
+      "Open fracture.",
+      "Neurovascular compromise."
+    ],
+    "unsafe_modifiers": [
+      "wound_infection_concern",
+      "wound_dehiscence",
+      "open_fracture",
+      "hand_tendon_risk",
+      "joint_violation",
+      "bite_wound",
+      "dirty_wound",
+      "delayed_wound_presentation",
+      "severe_pain",
+      "neurovascular_compromise",
+      "diabetic_foot",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_wound_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_healing_wound",
+        "terms": [
+          "clinician diagnosis healing wound",
+          "discharge diagnosis healing wound",
+          "wound healing normally",
+          "healing wound documented",
+          "wound check healing well"
+        ]
+      },
+      {
+        "id": "no_infection_or_dehiscence_documented",
+        "terms": [
+          "no infection",
+          "no wound dehiscence",
+          "wound not open",
+          "no wound opening",
+          "no drainage"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis healing wound",
+      "wound healing normally",
+      "wound check healing well",
+      "healing wound"
+    ],
+    "source_audit_notes": "MedlinePlus supports wound-healing education, keeping wounds clean/protected, following clinician dressing instructions, and escalation for increasing pain, redness, swelling, drainage, fever, or wound opening. Autonomous Phase 2101-2200 approved this narrow v1 only for clinician-documented healing wound without infection, dehiscence, high-risk wound context, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_healing_wound_without_infection_or_dehiscence_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of healing wound or wound healing normally",
+      "no infection, wound opening, deep structure injury, high-risk wound context, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "ankle_bruise_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Uncomplicated ankle bruise without fracture or neurovascular red flags",
+    "family": "msk",
+    "condition_terms": [
+      "ankle bruise",
+      "ankle contusion",
+      "ankle bruising uncomplicated",
+      "uncomplicated ankle bruise"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit an ankle bruise.",
+    "found": "Your clinician diagnosed an uncomplicated ankle bruise. We did not find fracture concern, open wound, neurovascular compromise, infection, or another emergency problem today.",
+    "home": [
+      "Rest from activity that worsens pain.",
+      "Use ice, elevation, compression, or support only as instructed.",
+      "Return to walking and activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Avoid medicines your clinician told you to avoid."
+    ],
+    "return": [
+      "New numbness, color change, severe pain, or inability to walk.",
+      "Spreading redness, warmth, pus, fever, or worsening swelling.",
+      "New deformity, worsening pain, or symptoms not improving."
+    ],
+    "follow": "Follow up with primary care, sports medicine, or orthopedics if pain, swelling, or walking is not improving.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated ankle bruise/contusion.",
+      "No fracture/dislocation concern, open wound, infection, neurovascular compromise, inability to bear weight, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture/dislocation concern, open wound, infection, neurovascular compromise, severe pain, inability to bear weight, high-energy trauma, crush injury, compartment syndrome concern, anticoagulation/bleeding risk, or unexplained bruising/abuse concern.",
+      "Pregnancy/pediatric pathway or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Neurovascular compromise.",
+      "Compartment syndrome.",
+      "Cellulitis or abscess.",
+      "Bleeding disorder or unsafe bruising pattern."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "crush_injury",
+      "compartment_syndrome_concern",
+      "anticoagulated",
+      "unexplained_bruising_or_abuse_concern",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_ankle_bruise",
+        "terms": [
+          "clinician diagnosis ankle bruise",
+          "discharge diagnosis ankle bruise",
+          "ankle bruise diagnosed",
+          "ankle contusion diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_documented",
+        "terms": [
+          "no fracture concern",
+          "neurovascularly intact",
+          "no open wound",
+          "no infection",
+          "able to walk"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis ankle bruise",
+      "ankle bruise diagnosed",
+      "ankle contusion diagnosed",
+      "ankle bruise"
+    ],
+    "source_audit_notes": "MedlinePlus supports bruise/contusion framing, local care concepts, and escalation for severe pain, neurovascular symptoms, fracture concern, bleeding risk, or unusual bruising. Autonomous Phase 2101-2200 approved this narrow v1 only for clinician-diagnosed uncomplicated ankle bruise/contusion without fracture/dislocation concern, open wound, infection, neurovascular compromise, inability to bear weight, high-risk trauma, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_ankle_bruise_without_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated ankle bruise/contusion",
+      "no fracture/dislocation concern, open wound, infection, neurovascular compromise, high-risk trauma, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "shoulder_bruise_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Uncomplicated shoulder bruise without fracture or neurovascular red flags",
+    "family": "msk",
+    "condition_terms": [
+      "shoulder bruise",
+      "shoulder contusion",
+      "shoulder bruising uncomplicated",
+      "uncomplicated shoulder bruise"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit a shoulder bruise.",
+    "found": "Your clinician diagnosed an uncomplicated shoulder bruise. We did not find fracture or dislocation concern, tendon rupture, open wound, neurovascular compromise, or another emergency problem today.",
+    "home": [
+      "Rest from lifting or activity that worsens pain.",
+      "Use ice, heat, a sling, or gentle movement only as instructed.",
+      "Return to activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Avoid medicines your clinician told you to avoid."
+    ],
+    "return": [
+      "New numbness, weakness, color change, severe pain, or inability to use the arm.",
+      "Spreading redness, warmth, pus, fever, or worsening swelling.",
+      "New deformity, chest pain, shortness of breath, or symptoms not improving."
+    ],
+    "follow": "Follow up with primary care, sports medicine, or orthopedics if pain, motion, or strength is not improving.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated shoulder bruise/contusion.",
+      "No fracture/dislocation concern, tendon rupture, open wound, infection, neurovascular compromise, high-energy trauma, cardiopulmonary mimic, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture/dislocation concern, tendon rupture, open wound, infection, neurovascular compromise, severe pain, inability to use limb, high-energy trauma, crush injury, compartment syndrome concern, anticoagulation/bleeding risk, unexplained bruising/abuse concern, or cardiac/PE mimic.",
+      "Pregnancy/pediatric pathway or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Tendon rupture.",
+      "Neurovascular compromise.",
+      "Compartment syndrome.",
+      "Cardiopulmonary mimic when presentation is not clearly local trauma."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_use_limb",
+      "high_energy_trauma",
+      "crush_injury",
+      "compartment_syndrome_concern",
+      "anticoagulated",
+      "unexplained_bruising_or_abuse_concern",
+      "cardiac_or_pe_chest_pain_concern",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_shoulder_bruise",
+        "terms": [
+          "clinician diagnosis shoulder bruise",
+          "discharge diagnosis shoulder bruise",
+          "shoulder bruise diagnosed",
+          "shoulder contusion diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_documented",
+        "terms": [
+          "no fracture concern",
+          "no dislocation",
+          "neurovascularly intact",
+          "no open wound",
+          "no tendon rupture"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis shoulder bruise",
+      "shoulder bruise diagnosed",
+      "shoulder contusion diagnosed",
+      "shoulder bruise"
+    ],
+    "source_audit_notes": "MedlinePlus supports bruise/contusion framing, local care concepts, and escalation for severe pain, neurovascular symptoms, fracture concern, bleeding risk, or unusual bruising. Autonomous Phase 2101-2200 approved this narrow v1 only for clinician-diagnosed uncomplicated shoulder bruise/contusion without fracture/dislocation concern, tendon rupture, open wound, infection, neurovascular compromise, high-risk trauma, cardiopulmonary mimic, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_shoulder_bruise_without_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated shoulder bruise/contusion",
+      "no fracture/dislocation concern, tendon rupture, open wound, infection, neurovascular compromise, high-risk trauma, cardiopulmonary mimic, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  }
+]

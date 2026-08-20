@@ -1,0 +1,16 @@
+[
+  {
+    "id": "phase193_broad_wound_check_no_match",
+    "condition": "wound check",
+    "ed_note": "Broad wound complaint without clinician readiness documentation.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase193_broad_stitches_no_match",
+    "condition": "stitches",
+    "ed_note": "Broad stitches question without clinician readiness documentation.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  }
+]

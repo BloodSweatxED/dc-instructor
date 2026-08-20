@@ -1,0 +1,128 @@
+{
+  "id": "common_cold_uncomplicated_no_pneumonia_or_breathing_red_flags",
+  "label": "Uncomplicated common cold without pneumonia or breathing red flags",
+  "status": "reviewed",
+  "condition_family": "upper_respiratory",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated common cold.",
+    "No pneumonia, hypoxia, asthma/COPD exacerbation, severe dehydration, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Pneumonia, hypoxia, shortness of breath at rest, chest pain, asthma/COPD exacerbation, severe dehydration, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "must_not_miss": [
+    "Pneumonia.",
+    "Hypoxia.",
+    "Asthma/COPD exacerbation.",
+    "Severe dehydration."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "common_cold_uncomplicated_no_pneumonia_or_breathing_red_flags.diagnosis.diagnosis_summary.v1",
+    "common_cold_uncomplicated_no_pneumonia_or_breathing_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "common_cold_uncomplicated_no_pneumonia_or_breathing_red_flags.home_care.home_care_1.v1",
+    "common_cold_uncomplicated_no_pneumonia_or_breathing_red_flags.home_care.home_care_2.v1",
+    "common_cold_uncomplicated_no_pneumonia_or_breathing_red_flags.home_care.home_care_3.v1",
+    "common_cold_uncomplicated_no_pneumonia_or_breathing_red_flags.medications.medication_guidance_1.v1",
+    "common_cold_uncomplicated_no_pneumonia_or_breathing_red_flags.medications.medication_guidance_2.v1",
+    "common_cold_uncomplicated_no_pneumonia_or_breathing_red_flags.return_precautions.return_precaution_1.v1",
+    "common_cold_uncomplicated_no_pneumonia_or_breathing_red_flags.return_precautions.return_precaution_2.v1",
+    "common_cold_uncomplicated_no_pneumonia_or_breathing_red_flags.return_precautions.return_precaution_3.v1",
+    "common_cold_uncomplicated_no_pneumonia_or_breathing_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.common_cold",
+    "ahrq.common_cold_antibiotics"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus and AHRQ support common-cold self-care and antibiotic avoidance while preserving pneumonia and breathing red flags. Autonomous expansion approved this narrow v1 only for clinician-diagnosed uncomplicated common cold without pneumonia, hypoxia, breathing distress, pregnancy/pediatric pathway, or specialist-directed plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "common cold uncomplicated",
+      "uncomplicated common cold",
+      "cold symptoms",
+      "viral cold"
+    ],
+    "unsafe_modifiers": [
+      "pneumonia",
+      "hypoxia",
+      "chest_pain",
+      "poor_inhaler_access",
+      "severe_dehydration",
+      "focal_lung_findings_or_infiltrate",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_common_cold",
+        "terms": [
+          "clinician diagnosis common cold",
+          "discharge diagnosis common cold",
+          "common cold diagnosed",
+          "viral cold diagnosed"
+        ]
+      },
+      {
+        "id": "no_pneumonia_or_breathing_red_flags_documented",
+        "terms": [
+          "no pneumonia",
+          "lungs clear",
+          "oxygen normal",
+          "no shortness of breath",
+          "no breathing distress"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis common cold",
+      "common cold diagnosed",
+      "viral cold diagnosed",
+      "uncomplicated common cold"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-19",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus and AHRQ support common-cold self-care and antibiotic avoidance while preserving pneumonia and breathing red flags. Autonomous expansion approved this narrow v1 only for clinician-diagnosed uncomplicated common cold without pneumonia, hypoxia, breathing distress, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_common_cold_without_pneumonia_or_breathing_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated common cold",
+      "no pneumonia, hypoxia, breathing distress, severe dehydration, or specialist-directed plan documented"
+    ],
+    "blocked_modifiers": [
+      "pneumonia",
+      "hypoxia",
+      "chest_pain",
+      "poor_inhaler_access",
+      "severe_dehydration",
+      "focal_lung_findings_or_infiltrate",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway"
+    ]
+  }
+}

@@ -1,0 +1,469 @@
+[
+  {
+    "id": "localized_cosmetic_rash_no_eye_or_anaphylaxis",
+    "label": "Localized cosmetic rash without eye or anaphylaxis red flags",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "localized cosmetic rash",
+      "makeup rash",
+      "cosmetic skin rash"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.allergic_reactions"
+    ],
+    "summary": "Your symptoms fit a localized skin reaction from cosmetic exposure.",
+    "found": "Your clinician diagnosed a localized cosmetic exposure skin reaction. We did not find anaphylaxis, mucosal involvement, skin infection, eye involvement, or another rash emergency today.",
+    "home": [
+      "Avoid the suspected trigger if it is known.",
+      "Wash gently with mild soap and water, and avoid scrubbing the rash.",
+      "Use cool compresses, moisturizers, or coverings only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, itch medicine, or allergy medicine only if prescribed or recommended.",
+      "Do not use leftover steroid, antibiotic, or allergy medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Trouble breathing, throat tightness, swelling of the lips or tongue, fainting, or a bodywide reaction.",
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening rash, skin peeling, or mouth sores.",
+      "Eye pain, vision change, eyelid swelling, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, allergy, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized cosmetic exposure skin reaction.",
+      "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, eye involvement, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, burn or chemical exposure, ocular symptoms or periorbital concern, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Severe cutaneous adverse reaction.",
+      "Ocular or periorbital complication."
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "ocular_symptoms",
+      "periorbital_or_orbital_cellulitis_concern",
+      "vision_change",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "fever",
+      "sepsis",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_cosmetic_rash",
+        "terms": [
+          "clinician diagnosis localized cosmetic rash",
+          "discharge diagnosis localized cosmetic rash",
+          "localized cosmetic rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_localized_cosmetic_rash",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions",
+          "no eye symptoms"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized cosmetic rash",
+      "localized cosmetic rash diagnosed",
+      "localized cosmetic rash"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, ocular, or mucosal red flags. This expansion is limited to clinician-diagnosed localized cosmetic exposure skin reaction with anaphylaxis, infection, mucosal, and severe-rash red flags absent.",
+    "clinical_status": "reviewed_for_limited_localized_cosmetic_rash_no_eye_or_anaphylaxis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized cosmetic exposure skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "review_date": "2026-06-29"
+  },
+  {
+    "id": "localized_latex_skin_rash_no_anaphylaxis_or_mucosal_lesions",
+    "label": "Localized latex skin rash without anaphylaxis or mucosal lesions",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "localized latex skin rash",
+      "latex glove rash",
+      "latex contact rash"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.allergic_reactions"
+    ],
+    "summary": "Your symptoms fit a localized skin reaction from latex contact.",
+    "found": "Your clinician diagnosed a localized latex contact skin reaction. We did not find anaphylaxis, mucosal involvement, skin infection, or another rash emergency today.",
+    "home": [
+      "Avoid the suspected trigger if it is known.",
+      "Wash gently with mild soap and water, and avoid scrubbing the rash.",
+      "Use cool compresses, moisturizers, or coverings only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, itch medicine, or allergy medicine only if prescribed or recommended.",
+      "Do not use leftover steroid, antibiotic, or allergy medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Trouble breathing, throat tightness, swelling of the lips or tongue, fainting, or a bodywide reaction.",
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening rash, skin peeling, or mouth sores.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, allergy, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized latex contact skin reaction.",
+      "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, burn or chemical exposure, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Severe cutaneous adverse reaction.",
+      "Systemic allergic reaction."
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "fever",
+      "sepsis",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_latex_skin_rash",
+        "terms": [
+          "clinician diagnosis localized latex skin rash",
+          "discharge diagnosis localized latex skin rash",
+          "localized latex skin rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_localized_latex_skin_rash",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized latex skin rash",
+      "localized latex skin rash diagnosed",
+      "localized latex skin rash"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, ocular, or mucosal red flags. This expansion is limited to clinician-diagnosed localized latex contact skin reaction with anaphylaxis, infection, mucosal, and severe-rash red flags absent.",
+    "clinical_status": "reviewed_for_limited_localized_latex_skin_rash_no_anaphylaxis_or_mucosal_lesions_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized latex contact skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "review_date": "2026-06-29"
+  },
+  {
+    "id": "localized_hair_dye_contact_rash_no_eye_or_systemic_red_flags",
+    "label": "Localized hair dye rash without eye or systemic red flags",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "localized hair dye rash",
+      "hair dye skin rash",
+      "hair dye contact rash"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.allergic_reactions"
+    ],
+    "summary": "Your symptoms fit a localized skin reaction from hair dye exposure.",
+    "found": "Your clinician diagnosed a localized hair dye exposure skin reaction. We did not find anaphylaxis, mucosal involvement, skin infection, eye involvement, or another rash emergency today.",
+    "home": [
+      "Avoid the suspected trigger if it is known.",
+      "Wash gently with mild soap and water, and avoid scrubbing the rash.",
+      "Use cool compresses, moisturizers, or coverings only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, itch medicine, or allergy medicine only if prescribed or recommended.",
+      "Do not use leftover steroid, antibiotic, or allergy medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Trouble breathing, throat tightness, swelling of the lips or tongue, fainting, or a bodywide reaction.",
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening rash, skin peeling, or mouth sores.",
+      "Eye pain, vision change, eyelid swelling, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, allergy, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized hair dye exposure skin reaction.",
+      "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, eye involvement, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, burn or chemical exposure, ocular symptoms or periorbital concern, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Severe cutaneous adverse reaction.",
+      "Ocular or periorbital complication."
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "ocular_symptoms",
+      "periorbital_or_orbital_cellulitis_concern",
+      "vision_change",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "fever",
+      "sepsis",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_hair_dye_contact_rash",
+        "terms": [
+          "clinician diagnosis localized hair dye rash",
+          "discharge diagnosis localized hair dye rash",
+          "localized hair dye rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_localized_hair_dye_contact_rash",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions",
+          "no eye symptoms"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized hair dye rash",
+      "localized hair dye rash diagnosed",
+      "localized hair dye rash"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, ocular, or mucosal red flags. This expansion is limited to clinician-diagnosed localized hair dye exposure skin reaction with anaphylaxis, infection, mucosal, and severe-rash red flags absent.",
+    "clinical_status": "reviewed_for_limited_localized_hair_dye_contact_rash_no_eye_or_systemic_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized hair dye exposure skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "review_date": "2026-06-29"
+  },
+  {
+    "id": "localized_spider_bite_no_infection_or_necrotic_red_flags",
+    "label": "Localized spider bite without infection or necrotic red flags",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "localized spider bite",
+      "spider bite local reaction",
+      "spider bite without infection"
+    ],
+    "source_card_ids": [
+      "medlineplus.insect_bites_and_stings"
+    ],
+    "summary": "Your symptoms fit a local skin reaction from a spider bite.",
+    "found": "Your clinician diagnosed a localized spider bite. We did not find spreading infection, anaphylaxis, necrotic spider concern, scorpion sting concern, or another bite emergency today.",
+    "home": [
+      "Avoid scratching the area.",
+      "Wash the area gently with soap and water.",
+      "Use cool compresses for itching or swelling."
+    ],
+    "meds": [
+      "Use itch or allergy medicines only if prescribed or recommended.",
+      "Use acetaminophen or ibuprofen only if you can take it safely and follow the label."
+    ],
+    "return": [
+      "Trouble breathing, throat swelling, vomiting after a bite, fainting, or a bodywide reaction.",
+      "Spreading redness, pus, fever, red streaks, black skin, severe pain, or a rapidly worsening wound.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized spider bite.",
+      "No anaphylaxis, systemic allergic reaction, secondary infection, necrotic spider or scorpion concern, tick-borne illness concern, snakebite concern, immunocompromised host, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, systemic allergic reaction, secondary infection, necrotic spider or scorpion concern, tick-borne illness concern, snakebite concern, immunocompromised host, or specialist-directed allergy/dermatology plan."
+    ],
+    "must_not_miss": [
+      "Cellulitis.",
+      "Abscess.",
+      "Necrotic spider bite.",
+      "Systemic allergic reaction."
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "immunocompromised",
+      "specialist_directed_allergy_plan",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_spider_bite",
+        "terms": [
+          "clinician diagnosis localized spider bite",
+          "discharge diagnosis localized spider bite",
+          "localized spider bite diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_necrotic_red_flags_spider_bite",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no necrotic spider concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized spider bite",
+      "localized spider bite diagnosed",
+      "localized spider bite"
+    ],
+    "source_audit_notes": "MedlinePlus insect bite material supports local bite care, itch control, and escalation for allergic reactions, infection, or systemic symptoms. This expansion is limited to clinician-diagnosed localized spider bite with infection, anaphylaxis, necrotic spider, scorpion, tick-borne, and snakebite red flags absent.",
+    "clinical_status": "reviewed_for_limited_localized_spider_bite_no_infection_or_necrotic_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized spider bite",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection",
+      "no necrotic spider concern"
+    ],
+    "review_date": "2026-06-29"
+  },
+  {
+    "id": "hand_rubbing_blister_no_infection_or_burn",
+    "label": "Hand rubbing blister without infection or burn red flags",
+    "family": "wound_care",
+    "condition_terms": [
+      "hand rubbing blister",
+      "palm rubbing blister",
+      "hand pressure blister"
+    ],
+    "source_card_ids": [
+      "medlineplus.blisters"
+    ],
+    "summary": "Your symptoms fit an uncomplicated hand rubbing blister.",
+    "found": "Your clinician diagnosed an uncomplicated hand rubbing blister. We did not find infection, burn injury, widespread blistering, or another emergency problem today.",
+    "home": [
+      "Protect the blister from more rubbing or pressure.",
+      "Keep the area clean and dry unless your clinician told you something different.",
+      "Do not pop, cut, or peel the blister unless your clinician instructed you to."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Use creams, ointments, or antibiotics only if your clinician prescribed or recommended them."
+    ],
+    "return": [
+      "Spreading redness, warmth, pus, red streaks, fever, or worsening swelling.",
+      "Skin peeling, mouth sores, widespread blisters, severe pain, or a blister from a burn or chemical exposure.",
+      "Numbness, weakness, color change, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, wound care, or the ED if the blister is not healing or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated hand rubbing blister.",
+      "No infection, burn pathway, widespread blistering, medication reaction, mucosal involvement, high-risk host, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Cellulitis, abscess, pus, open infected wound, fever, systemic illness, burn, chemical/electrical injury, widespread blistering, mucosal lesions, severe cutaneous adverse reaction concern, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed wound plan."
+    ],
+    "must_not_miss": [
+      "Burn injury.",
+      "Cellulitis or abscess.",
+      "Severe cutaneous adverse reaction.",
+      "Neurovascular compromise."
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "wound_infection_concern",
+      "open_wound",
+      "burn_high_risk_depth_location_or_mechanism",
+      "large_blistering_or_high_risk_burn",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_wound_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_hand_rubbing_blister",
+        "terms": [
+          "clinician diagnosis hand rubbing blister",
+          "discharge diagnosis hand rubbing blister",
+          "hand rubbing blister diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_burn_hand_rubbing_blister",
+        "terms": [
+          "no infection",
+          "no burn"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis hand rubbing blister",
+      "hand rubbing blister diagnosed",
+      "hand rubbing blister"
+    ],
+    "source_audit_notes": "MedlinePlus supports blister framing, protection from rubbing, simple skin care, and escalation for infection, burns, widespread blistering, mucosal lesions, or severe skin reactions. This expansion is limited to clinician-diagnosed uncomplicated hand rubbing blister with infection, burn, high-risk skin, and red flags absent.",
+    "clinical_status": "reviewed_for_limited_hand_rubbing_blister_no_infection_or_burn_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of uncomplicated hand rubbing blister",
+      "no infection",
+      "no burn or severe skin reaction"
+    ],
+    "review_date": "2026-06-29"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.bruise",
+  "source": "MedlinePlus",
+  "title": "Bruise",
+  "url": "https://medlineplus.gov/ency/article/007213.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "A bruise is skin discoloration from small blood vessels breaking under the skin.",
+    "Bruises can be painful and swollen and usually change color while healing.",
+    "Care can include rest, protection, cold packs early, and later gentle heat when appropriate.",
+    "Large unexplained bruises, bleeding risk, severe pain, neurovascular symptoms, fracture concern, or abuse concern require separate handling."
+  ],
+  "use_policy": "evidence_support"
+}

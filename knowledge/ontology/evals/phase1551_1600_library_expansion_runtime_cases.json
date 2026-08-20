@@ -1,0 +1,147 @@
+[
+  {
+    "id": "phase1551_paronychia_clean",
+    "condition": "paronychia",
+    "ed_note": "Adult. Clinician diagnosis simple paronychia. No abscess. No felon. No drainable collection.",
+    "expected_phenotype_id": "simple_paronychia_no_abscess_or_felon",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1552_paronychia_missing_context_blocks",
+    "condition": "paronychia",
+    "ed_note": "Adult with nail fold redness.",
+    "expected_phenotype_id": "simple_paronychia_no_abscess_or_felon",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_simple_paronychia",
+      "no_abscess_or_felon_documented"
+    ]
+  },
+  {
+    "id": "phase1553_paronychia_felon_blocks",
+    "condition": "paronychia",
+    "ed_note": "Adult. Paronychia diagnosed. No abscess. Tense finger pad with flexor tenosynovitis concern.",
+    "expected_phenotype_id": "simple_paronychia_no_abscess_or_felon",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "felon_or_tenosynovitis_concern"
+    ]
+  },
+  {
+    "id": "phase1554_scabies_clean",
+    "condition": "scabies",
+    "ed_note": "Adult. Clinician diagnosis scabies. No crusted scabies. No secondary infection. No cellulitis.",
+    "expected_phenotype_id": "scabies_uncomplicated_no_crusted_or_secondary_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1555_scabies_missing_context_blocks",
+    "condition": "scabies",
+    "ed_note": "Adult with itchy rash after household exposure.",
+    "expected_phenotype_id": "scabies_uncomplicated_no_crusted_or_secondary_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_uncomplicated_scabies",
+      "no_crusted_or_secondary_infection_documented"
+    ]
+  },
+  {
+    "id": "phase1556_scabies_crusted_blocks",
+    "condition": "scabies",
+    "ed_note": "Adult. Scabies diagnosed. No cellulitis, but crusted scabies in a nursing home outbreak.",
+    "expected_phenotype_id": "scabies_uncomplicated_no_crusted_or_secondary_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "crusted_scabies_or_institutional_outbreak",
+      "nursing_home_patient"
+    ]
+  },
+  {
+    "id": "phase1557_shingles_clean",
+    "condition": "localized shingles",
+    "ed_note": "Adult. Clinician diagnosis localized shingles. No eye involvement. No neurologic symptoms. Localized rash only.",
+    "expected_phenotype_id": "localized_shingles_no_eye_or_neuro_complication",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1558_shingles_missing_context_blocks",
+    "condition": "shingles",
+    "ed_note": "Adult with painful blistering rash.",
+    "expected_phenotype_id": "localized_shingles_no_eye_or_neuro_complication",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_shingles",
+      "no_eye_or_neuro_complication_documented"
+    ]
+  },
+  {
+    "id": "phase1559_shingles_eye_neuro_blocks",
+    "condition": "shingles",
+    "ed_note": "Adult. Shingles diagnosed. Localized rash only, but shingles near eye with vision change and facial weakness.",
+    "expected_phenotype_id": "localized_shingles_no_eye_or_neuro_complication",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "vision_change",
+      "zoster_eye_face_or_neuro_concern"
+    ]
+  },
+  {
+    "id": "phase1560_stye_clean",
+    "condition": "stye",
+    "ed_note": "Adult. Clinician diagnosis stye. No vision change. No severe eye pain. Localized eyelid bump only.",
+    "expected_phenotype_id": "stye_hordeolum_simple_no_orbital_or_vision_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1561_stye_missing_context_blocks",
+    "condition": "stye",
+    "ed_note": "Adult with tender eyelid bump.",
+    "expected_phenotype_id": "stye_hordeolum_simple_no_orbital_or_vision_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_simple_stye",
+      "no_orbital_or_vision_red_flags_documented"
+    ]
+  },
+  {
+    "id": "phase1562_stye_orbital_blocks",
+    "condition": "stye",
+    "ed_note": "Adult. Stye diagnosed. No vision change, but contact lens use and pain with eye movement documented.",
+    "expected_phenotype_id": "stye_hordeolum_simple_no_orbital_or_vision_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "contact_lens_use",
+      "periorbital_or_orbital_cellulitis_concern"
+    ]
+  },
+  {
+    "id": "phase1563_impetigo_clean",
+    "condition": "impetigo",
+    "ed_note": "Adult. Clinician diagnosis impetigo. No cellulitis. No systemic symptoms. Localized lesions only.",
+    "expected_phenotype_id": "localized_impetigo_no_cellulitis_or_systemic_symptoms",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1564_impetigo_missing_context_blocks",
+    "condition": "impetigo",
+    "ed_note": "Adult with crusted sores.",
+    "expected_phenotype_id": "localized_impetigo_no_cellulitis_or_systemic_symptoms",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_impetigo",
+      "no_cellulitis_or_systemic_symptoms_documented"
+    ]
+  },
+  {
+    "id": "phase1565_impetigo_cellulitis_blocks",
+    "condition": "impetigo",
+    "ed_note": "Adult. Impetigo diagnosed. No fever, but spreading redness, warmth and fever with ecthyma documented.",
+    "expected_phenotype_id": "localized_impetigo_no_cellulitis_or_systemic_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "ecthyma_or_deep_skin_infection",
+      "secondary_skin_infection_concern",
+      "systemic_illness"
+    ]
+  }
+]

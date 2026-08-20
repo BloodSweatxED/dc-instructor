@@ -1,0 +1,15 @@
+{
+  "id": "cdc.flu_taking_care",
+  "source": "CDC",
+  "title": "Flu: What To Do If You Get Sick",
+  "url": "https://www.cdc.gov/flu/takingcare/index.html",
+  "source_type": "government_guidance",
+  "license_notes": "Use as government source support for flu self-care, isolation, high-risk groups, and emergency warning signs. Avoid implying CDC endorses local discharge wording.",
+  "supports": [
+    "People with mild flu illness should usually stay home except to get medical care.",
+    "People with emergency warning signs should seek emergency care.",
+    "People at higher risk of serious flu complications should contact a health care provider for advice.",
+    "Emergency warning signs include trouble breathing, chest pain, severe weakness, dehydration, confusion, seizures, and symptoms that improve then worsen."
+  ],
+  "use_policy": "evidence_support"
+}

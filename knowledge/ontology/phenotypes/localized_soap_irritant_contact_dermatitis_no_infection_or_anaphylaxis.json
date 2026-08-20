@@ -1,0 +1,132 @@
+{
+  "id": "localized_soap_irritant_contact_dermatitis_no_infection_or_anaphylaxis",
+  "label": "Localized soap irritant contact dermatitis without infection or anaphylaxis",
+  "status": "reviewed",
+  "condition_family": "skin_soft_tissue",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of localized soap irritant contact dermatitis.",
+    "No anaphylaxis, infection, severe cutaneous adverse reaction, eye/genital location, burn or chemical wound, pregnancy/pediatric pathway, or immunocompromised host."
+  ],
+  "exclusion_criteria": [
+    "Anaphylaxis, airway symptoms, infection concern, severe cutaneous adverse reaction, eye or genital rash location, burn or chemical wound, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology plan."
+  ],
+  "must_not_miss": [
+    "Anaphylaxis.",
+    "Cellulitis.",
+    "Severe cutaneous adverse reaction.",
+    "Chemical burn."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, dermatology, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "localized_soap_irritant_contact_dermatitis_no_infection_or_anaphylaxis.diagnosis.diagnosis_summary.v1",
+    "localized_soap_irritant_contact_dermatitis_no_infection_or_anaphylaxis.what_we_found.reassuring_ed_assessment.v1",
+    "localized_soap_irritant_contact_dermatitis_no_infection_or_anaphylaxis.home_care.home_care_1.v1",
+    "localized_soap_irritant_contact_dermatitis_no_infection_or_anaphylaxis.home_care.home_care_2.v1",
+    "localized_soap_irritant_contact_dermatitis_no_infection_or_anaphylaxis.home_care.home_care_3.v1",
+    "localized_soap_irritant_contact_dermatitis_no_infection_or_anaphylaxis.medications.medication_guidance_1.v1",
+    "localized_soap_irritant_contact_dermatitis_no_infection_or_anaphylaxis.medications.medication_guidance_2.v1",
+    "localized_soap_irritant_contact_dermatitis_no_infection_or_anaphylaxis.return_precautions.return_precaution_1.v1",
+    "localized_soap_irritant_contact_dermatitis_no_infection_or_anaphylaxis.return_precautions.return_precaution_2.v1",
+    "localized_soap_irritant_contact_dermatitis_no_infection_or_anaphylaxis.return_precautions.return_precaution_3.v1",
+    "localized_soap_irritant_contact_dermatitis_no_infection_or_anaphylaxis.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.contact_dermatitis"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus contact dermatitis material supports irritant/allergic rash framing, trigger avoidance, washing exposed skin and objects, itch care, and escalation for infection, severe reaction, or concerning symptoms. This expansion is limited to localized soap irritant contact dermatitis without systemic allergic reaction, infection, eye/genital involvement, or severe cutaneous reaction."
+  },
+  "runtime": {
+    "condition_terms": [
+      "localized soap irritant rash",
+      "soap irritant rash localized",
+      "soap rash localized"
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "secondary_skin_infection_concern",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "eye_or_genital_rash_location",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_soap_irritant_contact_dermatitis",
+        "terms": [
+          "clinician diagnosis localized soap irritant rash",
+          "discharge diagnosis soap irritant rash",
+          "localized soap irritant rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_anaphylaxis_soap_irritant_contact_dermatitis",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized rash only"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "localized soap irritant rash",
+      "soap irritant rash localized",
+      "clinician diagnosis localized soap irritant rash"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-21",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus contact dermatitis material supports irritant/allergic rash framing, trigger avoidance, washing exposed skin and objects, itch care, and escalation for infection, severe reaction, or concerning symptoms. This expansion is limited to localized soap irritant contact dermatitis without systemic allergic reaction, infection, eye/genital involvement, or severe cutaneous reaction.",
+    "clinical_status": "reviewed_for_limited_localized_soap_irritant_contact_dermatitis_no_infection_or_anaphylaxis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized soap irritant contact dermatitis",
+      "localized rash only",
+      "no anaphylaxis",
+      "no infection"
+    ],
+    "blocked_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "secondary_skin_infection_concern",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "eye_or_genital_rash_location",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ]
+  }
+}

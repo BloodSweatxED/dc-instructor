@@ -1,0 +1,173 @@
+[
+  {
+    "id": "phase3501_upper_back_contusion_no_spine_clean",
+    "condition": "upper back contusion no spine red flags",
+    "ed_note": "Adult. Clinician diagnosis upper back contusion. No spine injury concern. No neurologic deficit. No fracture concern.",
+    "expected_phenotype_id": "upper_back_contusion_uncomplicated_no_spine_or_neuro_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3502_upper_back_contusion_no_spine_missing_context_blocks",
+    "condition": "upper back contusion no spine red flags",
+    "ed_note": "Adult with upper back contusion.",
+    "expected_phenotype_id": "upper_back_contusion_uncomplicated_no_spine_or_neuro_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_upper_back_contusion",
+      "no_spine_or_neuro_red_flags_upper_back_contusion"
+    ]
+  },
+  {
+    "id": "phase3503_upper_back_contusion_no_spine_unsafe_modifiers_block",
+    "condition": "upper back contusion no spine red flags",
+    "ed_note": "Adult. Clinician diagnosis upper back contusion. No spine injury concern. No neurologic deficit. No fracture concern. However midline neck tenderness, possible fracture, weakness, high energy trauma, septic joint, spine consulted are documented.",
+    "expected_phenotype_id": "upper_back_contusion_uncomplicated_no_spine_or_neuro_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "midline_cervical_tenderness",
+      "fracture_or_dislocation_concern",
+      "neurologic_deficit",
+      "high_energy_trauma",
+      "septic_joint_or_infection_concern",
+      "specialist_directed_spine_plan"
+    ]
+  },
+  {
+    "id": "phase3504_trunk_contusion_no_fracture_clean",
+    "condition": "trunk contusion no fracture",
+    "ed_note": "Adult. Clinician diagnosis trunk contusion. No fracture concern. No chest pain. No shortness of breath. No abdominal red flags.",
+    "expected_phenotype_id": "trunk_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3505_trunk_contusion_no_fracture_missing_context_blocks",
+    "condition": "trunk contusion no fracture",
+    "ed_note": "Adult with trunk contusion.",
+    "expected_phenotype_id": "trunk_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_trunk_contusion",
+      "no_fracture_or_cardiopulmonary_red_flags_trunk"
+    ]
+  },
+  {
+    "id": "phase3506_trunk_contusion_no_fracture_unsafe_modifiers_block",
+    "condition": "trunk contusion no fracture",
+    "ed_note": "Adult. Clinician diagnosis trunk contusion. No fracture concern. No chest pain. No shortness of breath. No abdominal red flags. However possible fracture, chest pain, cardiac chest pain, respiratory distress, hypoxic, guarding, severe abdominal pain, high energy trauma, unstable vital signs, specialist directed orthopedic plan are documented.",
+    "expected_phenotype_id": "trunk_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "chest_pain",
+      "cardiac_or_pe_chest_pain_concern",
+      "respiratory_distress",
+      "hypoxia",
+      "peritoneal_signs",
+      "severe_or_focal_abdominal_pain",
+      "high_energy_trauma",
+      "unstable_vital_signs",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase3507_shoulder_strain_no_rupture_clean",
+    "condition": "shoulder strain no rupture",
+    "ed_note": "Adult. Clinician diagnosis shoulder strain. No tendon rupture. Neurovascular exam intact. No fracture concern.",
+    "expected_phenotype_id": "shoulder_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3508_shoulder_strain_no_rupture_missing_context_blocks",
+    "condition": "shoulder strain no rupture",
+    "ed_note": "Adult with shoulder strain.",
+    "expected_phenotype_id": "shoulder_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_shoulder_strain",
+      "no_rupture_or_neurovascular_red_flags_shoulder_strain"
+    ]
+  },
+  {
+    "id": "phase3509_shoulder_strain_no_rupture_unsafe_modifiers_block",
+    "condition": "shoulder strain no rupture",
+    "ed_note": "Adult. Clinician diagnosis shoulder strain. No tendon rupture. Neurovascular exam intact. No fracture concern. However possible fracture, tendon rupture, numb hand, septic joint, high energy trauma, specialist directed orthopedic plan are documented.",
+    "expected_phenotype_id": "shoulder_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase3510_wrist_strain_no_tendon_clean",
+    "condition": "wrist strain no tendon injury",
+    "ed_note": "Adult. Clinician diagnosis wrist strain. No tendon injury. Neurovascular exam intact. No fracture concern.",
+    "expected_phenotype_id": "wrist_strain_uncomplicated_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3511_wrist_strain_no_tendon_missing_context_blocks",
+    "condition": "wrist strain no tendon injury",
+    "ed_note": "Adult with wrist strain.",
+    "expected_phenotype_id": "wrist_strain_uncomplicated_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_wrist_strain"
+    ]
+  },
+  {
+    "id": "phase3512_wrist_strain_no_tendon_unsafe_modifiers_block",
+    "condition": "wrist strain no tendon injury",
+    "ed_note": "Adult. Clinician diagnosis wrist strain. No tendon injury. Neurovascular exam intact. No fracture concern. However possible fracture, tendon rupture, hand laceration, numb hand, septic joint, high energy trauma, specialist directed orthopedic plan are documented.",
+    "expected_phenotype_id": "wrist_strain_uncomplicated_no_tendon_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "hand_tendon_risk",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase3513_flea_bites_local_reaction_clean",
+    "condition": "localized flea bites",
+    "ed_note": "Adult. Clinician diagnosis localized flea bites. No anaphylaxis. No infection. Localized reaction only.",
+    "expected_phenotype_id": "localized_flea_bites_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3514_flea_bites_local_reaction_missing_context_blocks",
+    "condition": "localized flea bites",
+    "ed_note": "Adult with flea bites.",
+    "expected_phenotype_id": "localized_flea_bites_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_flea_bites",
+      "no_infection_or_anaphylaxis_flea_bites"
+    ]
+  },
+  {
+    "id": "phase3515_flea_bites_local_reaction_unsafe_modifiers_block",
+    "condition": "localized flea bites",
+    "ed_note": "Adult. Clinician diagnosis localized flea bites. No anaphylaxis. No infection. Localized reaction only. However anaphylaxis, trouble breathing, bodywide reaction, spreading redness, brown recluse, tick bite, snake bite, immunocompromised are documented.",
+    "expected_phenotype_id": "localized_flea_bites_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "immunocompromised"
+    ]
+  }
+]

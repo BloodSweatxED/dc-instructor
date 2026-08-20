@@ -1,0 +1,494 @@
+[
+  {
+    "id": "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+    "label": "Finger sprain with negative x-ray and no tendon or neurovascular red flags",
+    "family": "msk",
+    "condition_terms": [
+      "finger sprain xray negative",
+      "finger sprain negative xray",
+      "finger sprain",
+      "jammed finger sprain"
+    ],
+    "source_card_ids": [
+      "medlineplus.sprains_strains"
+    ],
+    "summary": "Your symptoms fit a finger sprain.",
+    "found": "Your clinician diagnosed a finger sprain. Your x-ray did not show a fracture, and we did not find tendon injury, infection, neurovascular compromise, or another emergency problem today.",
+    "home": [
+      "Rest the finger from painful gripping or impact.",
+      "Use splinting, buddy taping, ice, elevation, or activity changes only as instructed.",
+      "Move the finger only in the way your clinician said is safe."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Avoid medicines your clinician told you to avoid."
+    ],
+    "return": [
+      "New numbness, weakness, color change, severe pain, or inability to move the finger.",
+      "Fever, spreading redness, warmth, pus, or red streaks.",
+      "Worsening swelling, new deformity, or pain that is not improving."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, or hand surgery if pain, swelling, or motion is not improving.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of finger sprain/strain.",
+      "X-ray performed and negative, with intact neurovascular exam and no tendon injury, open wound, infection, high-risk mechanism, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, tendon rupture, open wound, infection, flexor tenosynovitis concern, neurovascular compromise, severe pain, inability to move the finger, high-energy trauma, or crush injury.",
+      "Pregnancy/pediatric pathway or specialist-directed hand/orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Tendon rupture.",
+      "Flexor tenosynovitis.",
+      "Neurovascular compromise.",
+      "Compartment syndrome."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "flexor_tenosynovitis_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_use_limb",
+      "high_energy_trauma",
+      "crush_injury",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_finger_sprain",
+        "terms": [
+          "clinician diagnosis finger sprain",
+          "discharge diagnosis finger sprain",
+          "finger sprain diagnosed",
+          "finger strain diagnosed",
+          "jammed finger sprain diagnosed"
+        ]
+      },
+      {
+        "id": "xray_negative_and_neurovascularly_intact",
+        "terms": [
+          "xray performed and negative",
+          "x-ray performed and negative",
+          "xray negative for fracture",
+          "x-ray negative for fracture",
+          "neurovascularly intact"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis finger sprain",
+      "finger sprain diagnosed",
+      "finger sprain xray negative"
+    ],
+    "source_audit_notes": "MedlinePlus supports sprain/strain framing, protection/rest/elevation concepts, gradual return to activity, and escalation for worsening pain, swelling, numbness, color change, fever, inability to move, or inability to walk. Autonomous Phase 2001-2100 approved this narrow v1 only for clinician-diagnosed finger sprain/strain with negative x-ray, intact neurovascular exam, and no tendon injury, infection, high-risk mechanism, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_finger_sprain_with_negative_xray_no_tendon_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of finger sprain/strain",
+      "x-ray performed and negative",
+      "intact neurovascular exam",
+      "no tendon injury, infection, open wound, high-risk mechanism, or specialist-directed plan"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "toe_sprain_xray_negative_no_open_wound_or_diabetic_foot",
+    "label": "Toe sprain with negative x-ray and no open wound or diabetic-foot risk",
+    "family": "msk",
+    "condition_terms": [
+      "toe sprain xray negative",
+      "toe sprain negative xray",
+      "toe sprain",
+      "stubbed toe sprain"
+    ],
+    "source_card_ids": [
+      "medlineplus.sprains_strains"
+    ],
+    "summary": "Your symptoms fit a toe sprain.",
+    "found": "Your clinician diagnosed a toe sprain. Your x-ray did not show a fracture, and we did not find an open wound, infection, diabetic-foot risk, neurovascular compromise, or another emergency problem today.",
+    "home": [
+      "Rest from painful walking or pressure.",
+      "Use buddy taping, a shoe, ice, elevation, or activity changes only as instructed.",
+      "Protect the toe from repeat injury while it heals."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Avoid medicines your clinician told you to avoid."
+    ],
+    "return": [
+      "New numbness, color change, severe pain, or worsening inability to walk.",
+      "Spreading redness, warmth, pus, red streaks, fever, or an open wound.",
+      "New deformity, worsening swelling, or symptoms not improving."
+    ],
+    "follow": "Follow up with primary care, sports medicine, podiatry, or orthopedics if pain, walking, or swelling is not improving.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of toe sprain/strain.",
+      "X-ray performed and negative, with intact neurovascular exam and no open wound, infection, diabetic-foot/PVD/neuropathy risk, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, open wound, nail-bed injury requiring separate pathway, infection, neurovascular compromise, severe pain, inability to bear weight, high-energy trauma, or crush injury.",
+      "Diabetic-foot risk, neuropathy, PVD, pregnancy/pediatric pathway, or specialist-directed podiatry/orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Open fracture.",
+      "Neurovascular compromise.",
+      "Diabetic foot injury.",
+      "Cellulitis or abscess."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "open_fracture",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "crush_injury",
+      "diabetic_foot",
+      "neuropathy_foot_risk",
+      "peripheral_vascular_disease",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_podiatry_plan",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_toe_sprain",
+        "terms": [
+          "clinician diagnosis toe sprain",
+          "discharge diagnosis toe sprain",
+          "toe sprain diagnosed",
+          "toe strain diagnosed",
+          "stubbed toe sprain diagnosed"
+        ]
+      },
+      {
+        "id": "xray_negative_no_open_wound_or_foot_risk",
+        "terms": [
+          "xray performed and negative",
+          "x-ray performed and negative",
+          "xray negative for fracture",
+          "x-ray negative for fracture",
+          "no open wound",
+          "neurovascularly intact"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis toe sprain",
+      "toe sprain diagnosed",
+      "toe sprain xray negative"
+    ],
+    "source_audit_notes": "MedlinePlus supports sprain/strain framing, protection/rest/elevation concepts, gradual return to activity, and escalation for worsening pain, swelling, numbness, color change, fever, inability to move, or inability to walk. Autonomous Phase 2001-2100 approved this narrow v1 only for clinician-diagnosed toe sprain/strain with negative x-ray, intact neurovascular exam, and no open wound, infection, diabetic-foot/PVD/neuropathy risk, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_toe_sprain_with_negative_xray_no_open_wound_or_diabetic_foot_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of toe sprain/strain",
+      "x-ray performed and negative",
+      "intact neurovascular exam",
+      "no open wound, infection, diabetic-foot risk, or specialist-directed plan"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "rib_contusion_uncomplicated_no_fracture_or_cardiopulmonary_red_flags",
+    "label": "Uncomplicated rib contusion without fracture or cardiopulmonary red flags",
+    "family": "msk",
+    "condition_terms": [
+      "rib contusion",
+      "rib bruise",
+      "chest wall contusion",
+      "uncomplicated rib contusion"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit a rib or chest wall bruise.",
+    "found": "Your clinician diagnosed an uncomplicated rib or chest wall contusion. We did not find fracture concern, lung injury, heart or blood-clot concern, or another emergency problem today.",
+    "home": [
+      "Rest from activities that worsen the pain.",
+      "Use ice, heat, or gentle movement only as instructed.",
+      "Take slow deep breaths as your clinician instructed so you do not avoid breathing because of pain."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Avoid medicines your clinician told you to avoid."
+    ],
+    "return": [
+      "Shortness of breath, coughing blood, fainting, pressure-like chest pain, or pain with exertion.",
+      "Fever, worsening cough, or feeling very ill.",
+      "Severe worsening pain, new trauma, or symptoms not improving."
+    ],
+    "follow": "Follow up with primary care or urgent care if pain or breathing comfort is not improving.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated rib/chest wall contusion.",
+      "No fracture concern, pneumothorax/pulmonary injury concern, cardiac/PE concern, hypoxia, hemoptysis, syncope, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture/dislocation concern, high-energy trauma, pneumothorax or pulmonary injury concern, hypoxia, hemoptysis, cardiac/PE concern, syncope, fever/systemic illness, severe pain, or unstable vitals.",
+      "Pregnancy/pediatric pathway or specialist-directed trauma/orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Rib fracture.",
+      "Pneumothorax.",
+      "Pulmonary contusion.",
+      "Acute coronary syndrome mimic.",
+      "Pulmonary embolism mimic."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "high_energy_trauma",
+      "hypoxia",
+      "hemoptysis",
+      "cardiac_or_pe_chest_pain_concern",
+      "syncope_or_fainting",
+      "systemic_illness",
+      "severe_pain",
+      "unstable_vitals",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_rib_contusion",
+        "terms": [
+          "clinician diagnosis rib contusion",
+          "discharge diagnosis rib contusion",
+          "rib contusion diagnosed",
+          "rib bruise diagnosed",
+          "chest wall contusion diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_cardiopulmonary_red_flags_documented",
+        "terms": [
+          "no fracture concern",
+          "no shortness of breath",
+          "no hypoxia",
+          "no cardiac concern",
+          "no pe concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis rib contusion",
+      "rib contusion diagnosed",
+      "rib bruise diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus supports bruise/contusion framing, local care concepts, and escalation when bruising is severe, unusual, or associated with concerning symptoms. Autonomous Phase 2001-2100 approved this narrow v1 only for clinician-diagnosed rib/chest wall contusion without fracture concern, cardiopulmonary red flags, high-risk trauma, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_rib_contusion_without_fracture_or_cardiopulmonary_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated rib/chest wall contusion",
+      "no fracture concern, cardiopulmonary red flags, high-risk trauma, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "shoulder_overuse_tendinitis_no_rupture_or_neurovascular_red_flags",
+    "label": "Shoulder overuse tendinitis without rupture or neurovascular red flags",
+    "family": "msk",
+    "condition_terms": [
+      "shoulder tendinitis",
+      "shoulder tendonitis",
+      "shoulder overuse tendinitis",
+      "rotator cuff tendinitis uncomplicated"
+    ],
+    "source_card_ids": [
+      "medlineplus.tendinitis",
+      "medlineplus.sprains_strains"
+    ],
+    "summary": "Your symptoms fit shoulder tendinitis or an overuse shoulder strain.",
+    "found": "Your clinician diagnosed uncomplicated shoulder tendinitis or overuse strain. We did not find tendon rupture, fracture, dislocation, infection, neurovascular compromise, or another emergency problem today.",
+    "home": [
+      "Rest from lifting or overhead activity that worsens pain.",
+      "Use ice, heat, a sling, stretching, or activity changes only as instructed.",
+      "Return to activity gradually as pain and motion improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Avoid medicines your clinician told you to avoid."
+    ],
+    "return": [
+      "New weakness, numbness, color change, severe pain, or inability to use the arm.",
+      "Fever, red hot joint, spreading redness, or feeling very ill.",
+      "New trauma, deformity, or symptoms not improving."
+    ],
+    "follow": "Follow up with primary care, sports medicine, physical therapy, or orthopedics if pain, motion, or strength is not improving.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated shoulder tendinitis/overuse strain.",
+      "No tendon rupture, fracture/dislocation concern, septic joint/infection concern, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Tendon rupture, fracture/dislocation concern, acute traumatic mechanism with instability, septic joint/infection concern, red hot joint, open wound, neurovascular compromise, severe pain, or inability to use the arm.",
+      "Pregnancy/pediatric pathway or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Rotator cuff rupture.",
+      "Fracture or dislocation.",
+      "Septic joint.",
+      "Neurovascular compromise.",
+      "Referred cardiac pain when presentation is not clearly shoulder overuse."
+    ],
+    "unsafe_modifiers": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "septic_joint_or_infection_concern",
+      "open_wound",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_use_limb",
+      "high_energy_trauma",
+      "cardiac_or_pe_chest_pain_concern",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_shoulder_tendinitis",
+        "terms": [
+          "clinician diagnosis shoulder tendinitis",
+          "discharge diagnosis shoulder tendinitis",
+          "shoulder tendinitis diagnosed",
+          "shoulder tendonitis diagnosed",
+          "rotator cuff tendinitis diagnosed"
+        ]
+      },
+      {
+        "id": "no_rupture_fracture_or_neurovascular_red_flags",
+        "terms": [
+          "no tendon rupture",
+          "no fracture concern",
+          "neurovascularly intact",
+          "no infection",
+          "no dislocation"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis shoulder tendinitis",
+      "shoulder tendinitis diagnosed",
+      "shoulder tendonitis diagnosed",
+      "shoulder tendinitis",
+      "shoulder tendonitis",
+      "shoulder overuse tendinitis"
+    ],
+    "source_audit_notes": "MedlinePlus supports tendinitis and sprain/strain framing, rest/activity modification, clinician-directed symptom care, and escalation for worsening pain, swelling, numbness, color change, fever, inability to move, or inability to walk. Autonomous Phase 2001-2100 approved this narrow v1 only for clinician-diagnosed uncomplicated shoulder tendinitis/overuse strain without rupture, fracture/dislocation, infection, neurovascular compromise, high-risk trauma, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_shoulder_overuse_tendinitis_without_rupture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated shoulder tendinitis/overuse strain",
+      "no rupture, fracture/dislocation, infection, neurovascular compromise, high-risk trauma, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "wrist_tendinitis_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Uncomplicated wrist tendinitis without fracture or neurovascular red flags",
+    "family": "msk",
+    "condition_terms": [
+      "wrist tendinitis",
+      "wrist tendonitis",
+      "wrist overuse tendinitis",
+      "uncomplicated wrist tendinitis",
+      "wrist overuse pain"
+    ],
+    "source_card_ids": [
+      "medlineplus.tendinitis",
+      "medlineplus.sprains_strains"
+    ],
+    "summary": "Your symptoms fit wrist tendinitis or an overuse wrist strain.",
+    "found": "Your clinician diagnosed uncomplicated wrist tendinitis or overuse strain. We did not find fracture, tendon rupture, infection, neurovascular compromise, or another emergency problem today.",
+    "home": [
+      "Rest from gripping or repetitive activity that worsens symptoms.",
+      "Use a splint, ice, heat, stretching, or activity changes only as instructed.",
+      "Return to activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Avoid medicines your clinician told you to avoid."
+    ],
+    "return": [
+      "New numbness, weakness, color change, severe pain, or inability to use the hand.",
+      "Fever, spreading redness, warmth, pus, or red streaks.",
+      "New trauma, deformity, worsening swelling, or symptoms not improving."
+    ],
+    "follow": "Follow up with primary care, sports medicine, physical therapy, orthopedics, or hand surgery if pain, motion, or function is not improving.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated wrist tendinitis/overuse strain.",
+      "No fracture/dislocation concern, tendon rupture, flexor tenosynovitis concern, open wound, infection, neurovascular compromise, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture/dislocation concern, FOOSH/scaphoid risk, tendon rupture, flexor tenosynovitis concern, open wound, infection, neurovascular compromise, severe pain, inability to use the hand, high-energy trauma, or crush injury.",
+      "Pregnancy/pediatric pathway or specialist-directed hand/orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Scaphoid fracture.",
+      "Fracture or dislocation.",
+      "Flexor tenosynovitis.",
+      "Tendon rupture.",
+      "Neurovascular compromise."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "foosh_scaphoid_risk",
+      "tendon_or_ligament_rupture_concern",
+      "flexor_tenosynovitis_concern",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_use_limb",
+      "high_energy_trauma",
+      "crush_injury",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_wrist_tendinitis",
+        "terms": [
+          "clinician diagnosis wrist tendinitis",
+          "discharge diagnosis wrist tendinitis",
+          "wrist tendinitis diagnosed",
+          "wrist tendonitis diagnosed",
+          "wrist overuse tendinitis diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_rupture_or_neurovascular_red_flags",
+        "terms": [
+          "no fracture concern",
+          "no tendon rupture",
+          "neurovascularly intact",
+          "no infection",
+          "no scaphoid concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis wrist tendinitis",
+      "wrist tendinitis diagnosed",
+      "wrist tendonitis diagnosed",
+      "wrist tendinitis",
+      "wrist tendonitis",
+      "wrist overuse tendinitis",
+      "wrist overuse pain"
+    ],
+    "source_audit_notes": "MedlinePlus supports tendinitis and sprain/strain framing, rest/activity modification, clinician-directed symptom care, and escalation for worsening pain, swelling, numbness, color change, fever, inability to move, or inability to walk. Autonomous Phase 2001-2100 approved this narrow v1 only for clinician-diagnosed uncomplicated wrist tendinitis/overuse strain without fracture/dislocation concern, tendon rupture, infection, neurovascular compromise, high-risk mechanism, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_wrist_tendinitis_without_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated wrist tendinitis/overuse strain",
+      "no fracture/dislocation, rupture, infection, neurovascular compromise, high-risk mechanism, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  }
+]

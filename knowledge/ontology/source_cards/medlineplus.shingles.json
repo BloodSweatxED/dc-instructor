@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.shingles",
+  "source": "MedlinePlus",
+  "title": "Shingles",
+  "url": "https://medlineplus.gov/shingles.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Shingles is a painful rash caused by the varicella-zoster virus.",
+    "Shingles can cause pain, burning, tingling, and blistering rash.",
+    "Shingles can be contagious to people who have never had chickenpox or vaccination until lesions crust.",
+    "Complications can involve the eye, nervous system, pneumonia, hearing problems, or severe disease in high-risk hosts."
+  ],
+  "use_policy": "evidence_support"
+}

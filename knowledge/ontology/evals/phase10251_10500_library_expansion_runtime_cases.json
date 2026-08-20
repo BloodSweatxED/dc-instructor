@@ -1,0 +1,213 @@
+[
+  {
+    "id": "phase10251_localized_face_paint_contact_rash_no_eye_or_anaphylaxis_clean",
+    "condition": "localized face paint contact rash",
+    "ed_note": "Adult. clinician diagnosis localized face paint contact rash. localized face paint contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_face_paint_contact_rash_no_eye_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10351_localized_face_paint_contact_rash_no_eye_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized face paint contact rash",
+    "ed_note": "Adult with localized face paint contact rash.",
+    "expected_phenotype_id": "localized_face_paint_contact_rash_no_eye_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_face_paint_contact_rash_no_eye_or_anaphylaxis",
+      "no_infection_or_systemic_red_flags_localized_face_paint_contact_rash_no_eye_or_anaphylaxis"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_face_paint_contact_rash_no_eye_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized face paint contact rash",
+    "ed_note": "Adult. clinician diagnosis localized face paint contact rash. localized face paint contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, eye pain, vision change, eyelid swelling, chemical splash, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_face_paint_contact_rash_no_eye_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction",
+      "chemical_eye_exposure",
+      "ocular_symptoms",
+      "periorbital_or_orbital_cellulitis_concern"
+    ]
+  },
+  {
+    "id": "phase10252_localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis_clean",
+    "condition": "localized costume makeup contact rash",
+    "ed_note": "Adult. clinician diagnosis localized costume makeup contact rash. localized costume makeup contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10352_localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized costume makeup contact rash",
+    "ed_note": "Adult with localized costume makeup contact rash.",
+    "expected_phenotype_id": "localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis",
+      "no_infection_or_systemic_red_flags_localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized costume makeup contact rash",
+    "ed_note": "Adult. clinician diagnosis localized costume makeup contact rash. localized costume makeup contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, eye pain, vision change, eyelid swelling, chemical splash, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_costume_makeup_contact_rash_no_eye_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction",
+      "chemical_eye_exposure",
+      "ocular_symptoms",
+      "periorbital_or_orbital_cellulitis_concern"
+    ]
+  },
+  {
+    "id": "phase10253_localized_hair_clip_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized hair clip contact rash",
+    "ed_note": "Adult. clinician diagnosis localized hair clip contact rash. localized hair clip contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_hair_clip_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10353_localized_hair_clip_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized hair clip contact rash",
+    "ed_note": "Adult with localized hair clip contact rash.",
+    "expected_phenotype_id": "localized_hair_clip_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_hair_clip_contact_rash_no_infection_or_anaphylaxis",
+      "no_infection_or_systemic_red_flags_localized_hair_clip_contact_rash_no_infection_or_anaphylaxis"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_hair_clip_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized hair clip contact rash",
+    "ed_note": "Adult. clinician diagnosis localized hair clip contact rash. localized hair clip contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_hair_clip_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  },
+  {
+    "id": "phase10254_localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized athletic tape contact rash",
+    "ed_note": "Adult. clinician diagnosis localized athletic tape contact rash. localized athletic tape contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10354_localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized athletic tape contact rash",
+    "ed_note": "Adult with localized athletic tape contact rash.",
+    "expected_phenotype_id": "localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis",
+      "no_infection_or_systemic_red_flags_localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized athletic tape contact rash",
+    "ed_note": "Adult. clinician diagnosis localized athletic tape contact rash. localized athletic tape contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_athletic_tape_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  },
+  {
+    "id": "phase10255_localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized kinesiology tape contact rash",
+    "ed_note": "Adult. clinician diagnosis localized kinesiology tape contact rash. localized kinesiology tape contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10355_localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized kinesiology tape contact rash",
+    "ed_note": "Adult with localized kinesiology tape contact rash.",
+    "expected_phenotype_id": "localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis",
+      "no_infection_or_systemic_red_flags_localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized kinesiology tape contact rash",
+    "ed_note": "Adult. clinician diagnosis localized kinesiology tape contact rash. localized kinesiology tape contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_kinesiology_tape_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  }
+]

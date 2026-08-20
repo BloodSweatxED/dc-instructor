@@ -1,0 +1,143 @@
+{
+  "id": "localized_shampoo_contact_rash_no_eye_or_systemic_red_flags",
+  "label": "Localized shampoo contact rash without eye or systemic red flags",
+  "status": "reviewed",
+  "condition_family": "skin_soft_tissue",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of localized shampoo contact skin reaction.",
+    "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+  ],
+  "must_not_miss": [
+    "Anaphylaxis.",
+    "Cellulitis.",
+    "Severe cutaneous adverse reaction.",
+    "Systemic allergic reaction."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, dermatology, allergy, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "localized_shampoo_contact_rash_no_eye_or_systemic_red_flags.diagnosis.diagnosis_summary.v1",
+    "localized_shampoo_contact_rash_no_eye_or_systemic_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "localized_shampoo_contact_rash_no_eye_or_systemic_red_flags.home_care.home_care_1.v1",
+    "localized_shampoo_contact_rash_no_eye_or_systemic_red_flags.home_care.home_care_2.v1",
+    "localized_shampoo_contact_rash_no_eye_or_systemic_red_flags.home_care.home_care_3.v1",
+    "localized_shampoo_contact_rash_no_eye_or_systemic_red_flags.medications.medication_guidance_1.v1",
+    "localized_shampoo_contact_rash_no_eye_or_systemic_red_flags.medications.medication_guidance_2.v1",
+    "localized_shampoo_contact_rash_no_eye_or_systemic_red_flags.return_precautions.return_precaution_1.v1",
+    "localized_shampoo_contact_rash_no_eye_or_systemic_red_flags.return_precautions.return_precaution_2.v1",
+    "localized_shampoo_contact_rash_no_eye_or_systemic_red_flags.return_precautions.return_precaution_3.v1",
+    "localized_shampoo_contact_rash_no_eye_or_systemic_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.contact_dermatitis",
+    "medlineplus.allergic_reactions"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, ocular, or mucosal red flags. This expansion is limited to clinician-diagnosed localized shampoo contact skin reaction with anaphylaxis, infection, mucosal, ocular, severe-rash, pregnancy/pediatric, and specialist-directed pathways absent."
+  },
+  "runtime": {
+    "condition_terms": [
+      "localized shampoo contact rash",
+      "shampoo contact contact rash",
+      "shampoo contact skin rash"
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "ocular_symptoms",
+      "periorbital_or_orbital_cellulitis_concern",
+      "vision_change",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "fever",
+      "sepsis",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_shampoo_contact_rash",
+        "terms": [
+          "clinician diagnosis localized shampoo contact rash",
+          "discharge diagnosis localized shampoo contact rash",
+          "localized shampoo contact rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_localized_shampoo_contact_rash",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions",
+          "no eye symptoms"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized shampoo contact rash",
+      "localized shampoo contact rash diagnosed",
+      "localized shampoo contact rash"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-30",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, ocular, or mucosal red flags. This expansion is limited to clinician-diagnosed localized shampoo contact skin reaction with anaphylaxis, infection, mucosal, ocular, severe-rash, pregnancy/pediatric, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_localized_shampoo_contact_rash_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized shampoo contact skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "blocked_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "ocular_symptoms",
+      "periorbital_or_orbital_cellulitis_concern",
+      "vision_change",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "fever",
+      "sepsis",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ]
+  }
+}

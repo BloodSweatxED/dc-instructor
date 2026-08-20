@@ -1,0 +1,15 @@
+{
+  "id": "cdc.impetigo",
+  "source": "CDC",
+  "title": "About Impetigo",
+  "url": "https://www.cdc.gov/group-a-strep/about/impetigo.html",
+  "source_type": "public_health_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Impetigo is usually a mild skin infection that can occur anywhere on the body.",
+    "It starts as a red, itchy sore and can spread to other areas.",
+    "Healthcare providers treat impetigo with antibiotics.",
+    "Patients should speak with a healthcare provider when they have concerns about impetigo."
+  ],
+  "use_policy": "evidence_support"
+}

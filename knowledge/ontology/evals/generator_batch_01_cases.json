@@ -1,0 +1,92 @@
+[
+  {
+    "id": "gastroenteritis_stable_hydrating",
+    "condition": "gastroenteritis_stable_hydrating",
+    "reading_level": "6th Grade",
+    "language": "English"
+  },
+  {
+    "id": "viral_uri_no_pneumonia",
+    "condition": "viral_uri_no_pneumonia",
+    "reading_level": "6th Grade",
+    "language": "English"
+  },
+  {
+    "id": "uncomplicated_cystitis_nonpregnant",
+    "condition": "uncomplicated_cystitis_nonpregnant",
+    "reading_level": "6th Grade",
+    "language": "English"
+  },
+  {
+    "id": "lumbar_strain_no_red_flags",
+    "condition": "lumbar_strain_no_red_flags",
+    "reading_level": "6th Grade",
+    "language": "English"
+  },
+  {
+    "id": "ankle_sprain_xray_negative",
+    "condition": "ankle_sprain_xray_negative",
+    "reading_level": "6th Grade",
+    "language": "English"
+  },
+  {
+    "id": "cellulitis_uncomplicated_oral_antibiotics",
+    "condition": "cellulitis_uncomplicated_oral_antibiotics",
+    "reading_level": "6th Grade",
+    "language": "English"
+  },
+  {
+    "id": "abscess_after_i_and_d",
+    "condition": "abscess_after_i_and_d",
+    "reading_level": "6th Grade",
+    "language": "English"
+  },
+  {
+    "id": "laceration_repaired_simple",
+    "condition": "laceration_repaired_simple",
+    "reading_level": "6th Grade",
+    "language": "English"
+  },
+  {
+    "id": "minor_head_injury_no_red_flags",
+    "condition": "minor_head_injury_no_red_flags",
+    "reading_level": "6th Grade",
+    "language": "English"
+  },
+  {
+    "id": "concussion_discharge_no_imaging_red_flags",
+    "condition": "concussion_discharge_no_imaging_red_flags",
+    "reading_level": "6th Grade",
+    "language": "English"
+  },
+  {
+    "id": "renal_colic_stable_no_infection",
+    "condition": "renal_colic_stable_no_infection",
+    "reading_level": "6th Grade",
+    "language": "English"
+  },
+  {
+    "id": "dental_pain_no_deep_space_infection",
+    "condition": "dental_pain_no_deep_space_infection",
+    "reading_level": "6th Grade",
+    "language": "English"
+  },
+  {
+    "id": "viral_pharyngitis_strep_negative",
+    "condition": "viral_pharyngitis_strep_negative",
+    "reading_level": "6th Grade",
+    "language": "English"
+  },
+  {
+    "id": "asthma_exacerbation_improved_discharge",
+    "condition": "asthma_exacerbation_improved_discharge",
+    "reading_level": "6th Grade",
+    "language": "English"
+  },
+  {
+    "id": "allergic_reaction_resolved_no_anaphylaxis",
+    "condition": "allergic_reaction_resolved_no_anaphylaxis",
+    "reading_level": "6th Grade",
+    "language": "English"
+  }
+]

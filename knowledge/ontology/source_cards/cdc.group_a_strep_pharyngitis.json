@@ -1,0 +1,14 @@
+{
+  "id": "cdc.group_a_strep_pharyngitis",
+  "source": "CDC",
+  "title": "Clinical Guidance for Group A Streptococcal Pharyngitis",
+  "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html",
+  "source_type": "government_guidance",
+  "license_notes": "Use as government source support for strep testing, viral pharyngitis, and antibiotic stewardship. Avoid implying CDC endorses local discharge wording.",
+  "supports": [
+    "A positive rapid antigen detection test or throat culture confirms group A strep pharyngitis.",
+    "Viral pharyngitis should not be treated with antibiotics.",
+    "Negative rapid antigen testing has pediatric-specific follow-up culture considerations."
+  ],
+  "use_policy": "evidence_support"
+}

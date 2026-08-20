@@ -1,0 +1,160 @@
+[
+  {
+    "id": "phase2501_hand_contusion_no_fracture_or_tendon_red_flags_clean",
+    "condition": "hand contusion",
+    "ed_note": "Adult. Clinician diagnosis hand contusion. No fracture concern. No tendon injury. Neurovascularly intact.",
+    "expected_phenotype_id": "hand_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2502_hand_contusion_no_fracture_or_tendon_red_flags_missing_context_blocks",
+    "condition": "hand contusion",
+    "ed_note": "Adult with hand contusion.",
+    "expected_phenotype_id": "hand_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_hand_contusion_no_fracture_or_tendon_red_flags",
+      "no_fracture_tendon_or_neurovascular_red_flags_hand"
+    ]
+  },
+  {
+    "id": "phase2503_hand_contusion_no_fracture_or_tendon_red_flags_unsafe_modifiers_block",
+    "condition": "hand contusion",
+    "ed_note": "Hand Contusion diagnosed with required safe context documented, but possible fracture, tendon injury, numb fingers, severe pain, open wound are documented.",
+    "expected_phenotype_id": "hand_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "hand_tendon_risk",
+      "neurovascular_compromise",
+      "severe_pain",
+      "open_wound"
+    ]
+  },
+  {
+    "id": "phase2504_upper_arm_contusion_no_fracture_or_neurovascular_red_flags_clean",
+    "condition": "upper arm contusion",
+    "ed_note": "Adult. Clinician diagnosis upper arm contusion. No fracture concern. Neurovascularly intact. No open wound.",
+    "expected_phenotype_id": "upper_arm_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2505_upper_arm_contusion_no_fracture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "upper arm contusion",
+    "ed_note": "Adult with upper arm contusion.",
+    "expected_phenotype_id": "upper_arm_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_upper_arm_contusion_no_fracture_or_neurovascular_red_f",
+      "no_fracture_or_neurovascular_red_flags_upper_arm"
+    ]
+  },
+  {
+    "id": "phase2506_upper_arm_contusion_no_fracture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "upper arm contusion",
+    "ed_note": "Upper Arm Contusion diagnosed with required safe context documented, but possible fracture, numb fingers, severe pain, open wound are documented.",
+    "expected_phenotype_id": "upper_arm_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "open_wound"
+    ]
+  },
+  {
+    "id": "phase2507_lower_leg_contusion_no_fracture_or_neurovascular_red_flags_clean",
+    "condition": "lower leg contusion",
+    "ed_note": "Adult. Clinician diagnosis lower leg contusion. No fracture concern. Neurovascularly intact. Able to bear weight.",
+    "expected_phenotype_id": "lower_leg_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2508_lower_leg_contusion_no_fracture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "lower leg contusion",
+    "ed_note": "Adult with lower leg contusion.",
+    "expected_phenotype_id": "lower_leg_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_lower_leg_contusion_no_fracture_or_neurovascular_red_f",
+      "no_fracture_or_neurovascular_red_flags_lower_leg"
+    ]
+  },
+  {
+    "id": "phase2509_lower_leg_contusion_no_fracture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "lower leg contusion",
+    "ed_note": "Lower Leg Contusion diagnosed with required safe context documented, but possible fracture, numb fingers, severe pain, unable to bear weight are documented.",
+    "expected_phenotype_id": "lower_leg_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase2510_hip_contusion_no_fracture_or_neurovascular_red_flags_clean",
+    "condition": "hip contusion",
+    "ed_note": "Adult. Clinician diagnosis hip contusion. No fracture concern. Neurovascularly intact. Able to bear weight.",
+    "expected_phenotype_id": "hip_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2511_hip_contusion_no_fracture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "hip contusion",
+    "ed_note": "Adult with hip contusion.",
+    "expected_phenotype_id": "hip_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_hip_contusion_no_fracture_or_neurovascular_red_flags",
+      "no_fracture_or_neurovascular_red_flags_hip"
+    ]
+  },
+  {
+    "id": "phase2512_hip_contusion_no_fracture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "hip contusion",
+    "ed_note": "Hip Contusion diagnosed with required safe context documented, but possible fracture, numb fingers, severe pain, unable to bear weight, elderly are documented.",
+    "expected_phenotype_id": "hip_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity",
+      "elderly_frail"
+    ]
+  },
+  {
+    "id": "phase2513_toe_contusion_no_fracture_or_diabetic_foot_clean",
+    "condition": "toe contusion",
+    "ed_note": "Adult. Clinician diagnosis toe contusion. No fracture concern. Neurovascularly intact. No diabetic foot.",
+    "expected_phenotype_id": "toe_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2514_toe_contusion_no_fracture_or_diabetic_foot_missing_context_blocks",
+    "condition": "toe contusion",
+    "ed_note": "Adult with toe contusion.",
+    "expected_phenotype_id": "toe_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_toe_contusion_no_fracture_or_diabetic_foot",
+      "no_fracture_or_diabetic_foot_red_flags_toe"
+    ]
+  },
+  {
+    "id": "phase2515_toe_contusion_no_fracture_or_diabetic_foot_unsafe_modifiers_block",
+    "condition": "toe contusion",
+    "ed_note": "Toe Contusion diagnosed with required safe context documented, but possible fracture, numb fingers, diabetic foot, open wound, severe pain are documented.",
+    "expected_phenotype_id": "toe_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "diabetic_foot",
+      "open_wound",
+      "severe_pain"
+    ]
+  }
+]

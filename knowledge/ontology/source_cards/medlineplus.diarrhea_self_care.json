@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.diarrhea_self_care",
+  "source": "MedlinePlus",
+  "title": "When you have diarrhea",
+  "url": "https://medlineplus.gov/ency/patientinstructions/000121.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "Fluid replacement is central to diarrhea self-care.",
+    "Patients should seek care for dehydration, blood in stool, fever, severe abdominal pain, or prolonged symptoms.",
+    "Diet can advance gradually as symptoms improve."
+  ],
+  "use_policy": "evidence_support"
+}

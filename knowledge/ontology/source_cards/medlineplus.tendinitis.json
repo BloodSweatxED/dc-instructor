@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.tendinitis",
+  "source": "MedlinePlus",
+  "title": "Tendinitis",
+  "url": "https://medlineplus.gov/ency/article/001229.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Tendinitis is inflammation, irritation, or swelling of a tendon.",
+    "It can cause pain and tenderness near a joint, often related to overuse.",
+    "Supportive care can include rest, activity modification, and clinician-directed pain control.",
+    "Rupture concern, infection, trauma, neurovascular compromise, or specialist-directed plans require separate handling."
+  ],
+  "use_policy": "evidence_support"
+}

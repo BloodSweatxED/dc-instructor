@@ -1,0 +1,13 @@
+{
+  "id": "medlineplus.allergic_rhinitis_self_care",
+  "source": "MedlinePlus",
+  "title": "Allergic rhinitis - self-care",
+  "url": "https://medlineplus.gov/ency/patientinstructions/000547.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Allergic rhinitis self-care includes reducing allergen exposure and using clinician-recommended allergy medicines.",
+    "Patients should seek care for severe allergy symptoms, symptoms not improving with treatment, or wheezing/coughing more."
+  ],
+  "use_policy": "evidence_support"
+}

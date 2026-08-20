@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.heat_illness",
+  "source": "MedlinePlus",
+  "title": "Heat Illness",
+  "url": "https://medlineplus.gov/heatillness.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Heat rash is skin irritation from excessive sweating.",
+    "Heat cramps, heat exhaustion, and heat stroke are separate heat-related illnesses.",
+    "Hydration, limiting heat exposure, and cooling are important prevention concepts.",
+    "Heat exhaustion or heat stroke symptoms require urgent evaluation."
+  ],
+  "use_policy": "evidence_support"
+}

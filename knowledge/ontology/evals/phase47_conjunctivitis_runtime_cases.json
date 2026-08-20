@@ -1,0 +1,40 @@
+[
+  {
+    "id": "phase47_conjunctivitis_clean_draft_fallback",
+    "condition": "conjunctivitis uncomplicated",
+    "ed_note": "Adult with clinician diagnosis of uncomplicated conjunctivitis. No contact lens use, no eye trauma, no vision change, no photophobia, no severe eye pain, discharged home.",
+    "expected_phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+  },
+  {
+    "id": "phase47_conjunctivitis_contact_lens_blocks",
+    "condition": "conjunctivitis uncomplicated",
+    "ed_note": "Adult with conjunctivitis symptoms and contact lens use.",
+    "expected_phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["contact_lens_use"]
+  },
+  {
+    "id": "phase47_conjunctivitis_vision_change_blocks",
+    "condition": "pink eye uncomplicated",
+    "ed_note": "Adult with pink eye symptoms but blurred vision and decreased vision.",
+    "expected_phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["vision_change"]
+  },
+  {
+    "id": "phase47_conjunctivitis_photophobia_blocks",
+    "condition": "conjunctivitis no contact lens",
+    "ed_note": "Adult with conjunctivitis symptoms but photophobia and light sensitivity.",
+    "expected_phenotype_id": "conjunctivitis_uncomplicated_no_contact_lens",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["photophobia"]
+  },
+  {
+    "id": "phase47_conjunctivitis_vague_red_eye_no_match",
+    "condition": "red eye",
+    "ed_note": "Red eye without final conjunctivitis diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  }
+]

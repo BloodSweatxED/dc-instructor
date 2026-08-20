@@ -1,0 +1,14 @@
+{
+  "id": "wikem.ankle_sprain",
+  "source": "WikEM",
+  "title": "Ankle sprain",
+  "url": "https://wikem.org/wiki/Ankle_sprain",
+  "source_type": "open_clinical_wiki",
+  "license_notes": "WikEM content is generally CC BY-SA 3.0 unless otherwise noted. Use for ED phenotype mapping. Avoid adapting text directly unless attribution and share-alike obligations are handled.",
+  "supports": [
+    "ED phenotype framing for ankle sprain after negative fracture evaluation.",
+    "Return precautions and follow-up considerations after ankle injury.",
+    "Distinction between sprain, fracture, neurovascular compromise, and infection."
+  ],
+  "use_policy": "phenotype_map"
+}

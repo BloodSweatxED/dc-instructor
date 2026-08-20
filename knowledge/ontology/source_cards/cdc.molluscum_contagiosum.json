@@ -1,0 +1,15 @@
+{
+  "id": "cdc.molluscum_contagiosum",
+  "source": "CDC",
+  "title": "About Molluscum Contagiosum",
+  "url": "https://www.cdc.gov/molluscum-contagiosum/about/index.html",
+  "source_type": "public_health_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Molluscum contagiosum is a poxvirus infection that causes skin lesions that can appear alone or in groups.",
+    "The infection is usually mild and goes away without treatment.",
+    "Molluscum can spread by touching lesions or contaminated objects.",
+    "Avoid scratching or shaving over lesions to reduce spread."
+  ],
+  "use_policy": "evidence_support"
+}
