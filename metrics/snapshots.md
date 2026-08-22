@@ -995,3 +995,29 @@
 **Reading levels:** _unavailable (RLS blocks anon reads; Netlify MCP 502)_
 
 **Ratings:** _unavailable (anon reads return empty; service role key required)_
+
+---
+
+## 2026-08-22
+
+> **PARTIAL SUCCESS — total count confirmed via anon key and /api/usage; breakdowns unavailable (RLS + Netlify MCP 502).**
+>
+> - ⚠️ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** Netlify MCP (`netlify-project-services-reader`) returned 502 Bad Gateway (Cloudflare origin error, retryable) — same as 2026-08-13 and 2026-08-19 runs. Service role key unavailable.
+> - ✅ **Anon key:** extracted from public app bundle (`/assets/index-DGkTEqdb.js`), same file as prior runs.
+> - ✅ **`/api/usage` endpoint confirmed:** `{"blocked":false,"count":108,"warning":false}`
+> - ✅ **`generation_count` view (anon key):** 108 — matches /api/usage.
+> - ℹ️ **Last 3 days:** 0 new generations (2026-08-19 snapshot also showed 108).
+> - ℹ️ **RLS in effect:** `generations` returns 0 rows for anon key; `ratings` column schema has changed (`rating` column missing — possible schema drift).
+
+- **Total generations:** 108
+- **Last 3 days:** 0 (108 on 2026-08-19 → 108 now)
+- **Days remaining in trial:** -81 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 392 (of 500)
+
+**Top conditions:** _unavailable (RLS blocks anon reads; Netlify MCP 502)_
+
+**Languages:** _unavailable (RLS blocks anon reads; Netlify MCP 502)_
+
+**Reading levels:** _unavailable (RLS blocks anon reads; Netlify MCP 502)_
+
+**Ratings:** _unavailable (RLS blocks anon reads; `rating` column not found — possible schema drift)_
