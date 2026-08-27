@@ -1,0 +1,13 @@
+{
+  "id": "aha.hypertensive_emergency",
+  "source": "American Heart Association",
+  "title": "When To Call 911 About High Blood Pressure",
+  "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/when-to-call-911-for-high-blood-pressure",
+  "source_type": "specialty_society_patient_guidance",
+  "license_notes": "Use as patient-guidance support for emergency symptoms with very high blood pressure. Avoid implying AHA endorses local discharge wording.",
+  "supports": [
+    "People with blood pressure higher than 180 over 120 plus symptoms such as chest pain, shortness of breath, back pain, weakness, vision change, or difficulty speaking should call emergency services.",
+    "Symptomatic severe blood pressure elevation needs emergency evaluation rather than routine discharge instructions."
+  ],
+  "use_policy": "evidence_support"
+}

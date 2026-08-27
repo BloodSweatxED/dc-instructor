@@ -1,0 +1,99 @@
+{
+  "id": "abscess_after_i_and_d",
+  "label": "Abscess after incision and drainage",
+  "status": "reviewed",
+  "condition_family": "skin_soft_tissue_infection",
+  "inclusion_criteria": [
+    "Abscess drained in the ED and patient discharged.",
+    "No deep-space infection or sepsis concern."
+  ],
+  "exclusion_criteria": [
+    "Deep hand, face, neck, breast, genital, or perirectal abscess pathway.",
+    "Sepsis or immunocompromised host needing separate planning."
+  ],
+  "must_not_miss": [
+    "Necrotizing infection.",
+    "Deep-space infection.",
+    "Sepsis.",
+    "Retained foreign body."
+  ],
+  "default_follow_up": "Return or follow up for wound check as instructed.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "abscess_after_i_and_d.diagnosis.diagnosis_summary.v1",
+    "abscess_after_i_and_d.what_we_found.reassuring_ed_assessment.v1",
+    "abscess_after_i_and_d.home_care.home_care_1.v1",
+    "abscess_after_i_and_d.home_care.home_care_2.v1",
+    "abscess_after_i_and_d.home_care.home_care_3.v1",
+    "abscess_after_i_and_d.medications.medication_guidance_1.v1",
+    "abscess_after_i_and_d.medications.medication_guidance_2.v1",
+    "abscess_after_i_and_d.return_precautions.return_precaution_1.v1",
+    "abscess_after_i_and_d.return_precautions.return_precaution_2.v1",
+    "abscess_after_i_and_d.return_precautions.return_precaution_3.v1",
+    "abscess_after_i_and_d.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.skin_abscess"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports skin abscess symptoms, pus drainage, fever or chills, and need to seek care for new symptoms after treatment."
+  },
+  "runtime": {
+    "condition_terms": [
+      "abscess after i and d",
+      "abscess after incision and drainage",
+      "abscess drained",
+      "skin abscess drained",
+      "i and d",
+      "incision and drainage"
+    ],
+    "unsafe_modifiers": [
+      "deep_space_location",
+      "immunocompromised",
+      "packing_required",
+      "recurrent_abscess",
+      "sepsis",
+      "necrotizing_infection_concern"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports skin abscess symptoms, pus drainage, fever or chills, and need to seek care for new symptoms after treatment.",
+    "clinical_status": "reviewed_for_limited_abscess_after_ed_drainage_use",
+    "required_modifiers": [
+      "abscess drained",
+      "safe discharge plan",
+      "no deep-space location",
+      "no sepsis"
+    ],
+    "blocked_modifiers": [
+      "deep_space_location",
+      "immunocompromised",
+      "packing_required",
+      "recurrent_abscess",
+      "sepsis",
+      "necrotizing_infection_concern"
+    ]
+  }
+}

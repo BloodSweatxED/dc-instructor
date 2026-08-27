@@ -1,0 +1,15 @@
+{
+  "id": "cdc.ear_infection",
+  "source": "CDC",
+  "title": "Ear Infection Basics",
+  "url": "https://www.cdc.gov/ear-infection/about/index.html",
+  "source_type": "government_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Ear infections can be caused by bacteria or viruses and can affect the middle ear.",
+    "Antibiotics are not always needed; clinician judgment determines whether antibiotics or observation are appropriate.",
+    "Patients should seek care for severe symptoms, worsening symptoms, or symptoms that do not improve as expected.",
+    "This source supports general education and antibiotic stewardship, not ED-specific disposition decisions."
+  ],
+  "use_policy": "evidence_support"
+}

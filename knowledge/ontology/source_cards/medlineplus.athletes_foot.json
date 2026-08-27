@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.athletes_foot",
+  "source": "MedlinePlus",
+  "title": "Athlete's Foot",
+  "url": "https://medlineplus.gov/athletesfoot.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Athlete's foot, or tinea pedis, is a contagious fungal infection of the feet.",
+    "It often starts between the toes and can cause itching, burning, cracked, or scaly skin.",
+    "Prevention and care include keeping feet clean, dry, and cool and avoiding barefoot exposure in public wet areas.",
+    "Complicated disease, bacterial infection, diabetic foot risk, or nail involvement needs clinician-directed handling."
+  ],
+  "use_policy": "evidence_support"
+}

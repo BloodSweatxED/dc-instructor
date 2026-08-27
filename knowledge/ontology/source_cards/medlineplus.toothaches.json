@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.toothaches",
+  "source": "MedlinePlus",
+  "title": "Toothaches",
+  "url": "https://medlineplus.gov/ency/article/003067.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "Tooth pain can come from dental decay, infection, trauma, or gum disease.",
+    "Dental evaluation is needed to treat the underlying cause of tooth pain.",
+    "Urgent symptoms include swelling, fever, trouble swallowing, trouble breathing, or severe worsening pain."
+  ],
+  "use_policy": "evidence_support"
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "id": "phase1801_diarrhea_clean",
+    "condition": "acute diarrhea",
+    "ed_note": "Adult. Clinician diagnosis acute diarrhea. Tolerating fluids. Able to hydrate. No blood in stool. No black stool. No dehydration.",
+    "expected_phenotype_id": "acute_diarrhea_stable_no_blood_or_dehydration",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1802_diarrhea_missing_context_blocks",
+    "condition": "acute diarrhea",
+    "ed_note": "Adult with loose stools today.",
+    "expected_phenotype_id": "acute_diarrhea_stable_no_blood_or_dehydration",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["clinician_diagnosis_uncomplicated_acute_diarrhea", "no_blood_or_dehydration_documented"]
+  },
+  {
+    "id": "phase1803_diarrhea_bleeding_dehydration_blocks",
+    "condition": "acute diarrhea",
+    "ed_note": "Adult. Acute diarrhea diagnosed, but blood in stool, severe dehydration, severe abdominal pain, and recent antibiotics with C diff concern are documented.",
+    "expected_phenotype_id": "acute_diarrhea_stable_no_blood_or_dehydration",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["gi_bleeding", "dehydration_or_unable_to_drink", "severe_or_focal_abdominal_pain", "c_diff_risk"]
+  },
+  {
+    "id": "phase1804_laryngitis_clean",
+    "condition": "uncomplicated laryngitis",
+    "ed_note": "Adult. Clinician diagnosis laryngitis. No airway symptoms. No trouble breathing. No drooling. No neck swelling. No deep neck infection concern.",
+    "expected_phenotype_id": "laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1805_laryngitis_missing_context_blocks",
+    "condition": "laryngitis",
+    "ed_note": "Adult with hoarse voice.",
+    "expected_phenotype_id": "laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["clinician_diagnosis_uncomplicated_laryngitis", "no_airway_or_deep_neck_red_flags_documented"]
+  },
+  {
+    "id": "phase1806_laryngitis_airway_deep_neck_blocks",
+    "condition": "uncomplicated laryngitis",
+    "ed_note": "Adult. Laryngitis diagnosed, but stridor, trouble breathing, drooling, neck swelling, cannot swallow, and coughing blood are documented.",
+    "expected_phenotype_id": "laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["airway_symptoms", "stridor_or_noisy_breathing", "drooling", "deep_neck_or_epiglottitis_concern", "hemoptysis"]
+  },
+  {
+    "id": "phase1807_plantar_fasciitis_clean",
+    "condition": "plantar fasciitis",
+    "ed_note": "Adult. Clinician diagnosis plantar fasciitis. No trauma. No fracture concern. Neurovascularly intact. No open wound. No diabetic foot.",
+    "expected_phenotype_id": "plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1808_plantar_fasciitis_missing_context_blocks",
+    "condition": "plantar fasciitis",
+    "ed_note": "Adult with heel pain after standing.",
+    "expected_phenotype_id": "plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["clinician_diagnosis_uncomplicated_plantar_fasciitis", "no_trauma_or_neurovascular_red_flags_documented"]
+  },
+  {
+    "id": "phase1809_plantar_fasciitis_foot_risk_blocks",
+    "condition": "plantar fasciitis",
+    "ed_note": "Adult. Plantar fasciitis diagnosed, but possible fracture, unable to bear weight, diabetic foot ulcer, and numb toes are documented.",
+    "expected_phenotype_id": "plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["fracture_or_dislocation_concern", "unable_to_bear_weight_lower_extremity", "diabetic_foot", "neurovascular_compromise"]
+  },
+  {
+    "id": "phase1810_minor_burn_clean",
+    "condition": "minor superficial burn",
+    "ed_note": "Adult. Clinician diagnosis minor burn. Small superficial burn. No deep burn. No inhalation injury. No high-risk burn location. No burn infection.",
+    "expected_phenotype_id": "minor_superficial_burn_small_area_no_high_risk_features",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1811_minor_burn_missing_context_blocks",
+    "condition": "minor burn",
+    "ed_note": "Adult with small red burn.",
+    "expected_phenotype_id": "minor_superficial_burn_small_area_no_high_risk_features",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["clinician_diagnosis_minor_superficial_burn", "no_high_risk_burn_features_documented"]
+  },
+  {
+    "id": "phase1812_minor_burn_high_risk_blocks",
+    "condition": "minor superficial burn",
+    "ed_note": "Adult. Minor burn diagnosed, but hand burn, circumferential burn, smoke inhalation, and pus are documented.",
+    "expected_phenotype_id": "minor_superficial_burn_small_area_no_high_risk_features",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["burn_high_risk_depth_location_or_mechanism", "inhalation_injury_concern", "secondary_skin_infection_concern"]
+  },
+  {
+    "id": "phase1813_muscle_strain_clean",
+    "condition": "uncomplicated muscle strain",
+    "ed_note": "Adult. Clinician diagnosis muscle strain. No fracture concern. No dislocation. Neurovascularly intact. No tendon rupture. No compartment syndrome.",
+    "expected_phenotype_id": "muscle_strain_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1814_muscle_strain_missing_context_blocks",
+    "condition": "muscle strain",
+    "ed_note": "Adult with sore muscle after lifting.",
+    "expected_phenotype_id": "muscle_strain_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["clinician_diagnosis_uncomplicated_muscle_strain", "no_fracture_or_neurovascular_red_flags_documented"]
+  },
+  {
+    "id": "phase1815_muscle_strain_fracture_neuro_blocks",
+    "condition": "uncomplicated muscle strain",
+    "ed_note": "Adult. Muscle strain diagnosed, but possible fracture, tendon rupture, numb toes, severe pain, and tight swelling are documented.",
+    "expected_phenotype_id": "muscle_strain_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["fracture_or_dislocation_concern", "tendon_or_ligament_rupture_concern", "neurovascular_compromise", "severe_pain", "compartment_syndrome_concern"]
+  }
+]

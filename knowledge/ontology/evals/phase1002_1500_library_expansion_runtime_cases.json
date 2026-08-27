@@ -1,0 +1,117 @@
+[
+  {
+    "id": "phase1002_cerumen_impaction_clean",
+    "condition": "cerumen impaction",
+    "ed_note": "Adult. Clinician diagnosis cerumen impaction. No ear infection. No foreign body. No eardrum emergency. Medication or removal plan clinician-entered.",
+    "expected_phenotype_id": "cerumen_impaction_no_infection_or_foreign_body",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1003_cerumen_impaction_missing_context_blocks",
+    "condition": "earwax blockage",
+    "ed_note": "Adult with ear fullness.",
+    "expected_phenotype_id": "cerumen_impaction_no_infection_or_foreign_body",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["clinician_diagnosis_cerumen_impaction", "no_infection_or_foreign_body_documented"]
+  },
+  {
+    "id": "phase1004_cerumen_impaction_foreign_body_blocks",
+    "condition": "cerumen impaction",
+    "ed_note": "Adult. Cerumen impaction diagnosed. No ear infection. Foreign body in ear after cotton swab injury.",
+    "expected_phenotype_id": "cerumen_impaction_no_infection_or_foreign_body",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["ear_trauma_or_foreign_body"]
+  },
+  {
+    "id": "phase1005_cervical_strain_clean",
+    "condition": "cervical strain",
+    "ed_note": "Adult. Clinician diagnosis neck strain. Reassuring neurologic exam. Strength and sensation intact.",
+    "expected_phenotype_id": "cervical_strain_no_neuro_deficit",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1006_cervical_strain_missing_neuro_exam_blocks",
+    "condition": "neck strain",
+    "ed_note": "Adult. Discharge diagnosis neck strain.",
+    "expected_phenotype_id": "cervical_strain_no_neuro_deficit",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["reassuring_neurologic_exam_documented"]
+  },
+  {
+    "id": "phase1007_cervical_strain_midline_tenderness_blocks",
+    "condition": "neck strain",
+    "ed_note": "Adult. Neck strain diagnosed. Reassuring neurologic exam. Midline cervical tenderness after fall.",
+    "expected_phenotype_id": "cervical_strain_no_neuro_deficit",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["midline_cervical_tenderness"]
+  },
+  {
+    "id": "phase1008_nausea_vomiting_clean",
+    "condition": "nausea vomiting stable",
+    "ed_note": "Adult. Clinician diagnosis nausea and vomiting. Tolerating oral fluids. No abdominal pain. Hydration reassuring.",
+    "expected_phenotype_id": "nausea_vomiting_stable_hydrating_no_abdominal_pain",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1009_nausea_vomiting_missing_no_abdominal_pain_blocks",
+    "condition": "nausea and vomiting stable",
+    "ed_note": "Adult. Discharge diagnosis nausea and vomiting. Tolerating oral fluids.",
+    "expected_phenotype_id": "nausea_vomiting_stable_hydrating_no_abdominal_pain",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["no_abdominal_pain_documented"]
+  },
+  {
+    "id": "phase1010_nausea_vomiting_abdominal_pain_blocks",
+    "condition": "nausea vomiting stable",
+    "ed_note": "Adult. Nausea and vomiting diagnosed. Tolerating oral fluids. No surgical abdomen. Severe abdominal pain.",
+    "expected_phenotype_id": "nausea_vomiting_stable_hydrating_no_abdominal_pain",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["severe_or_focal_abdominal_pain"]
+  },
+  {
+    "id": "phase1011_tension_headache_clean",
+    "condition": "tension headache",
+    "ed_note": "Adult. Clinician diagnosis tension headache. Reassuring neurologic exam. Red flags reviewed and absent. No dangerous headache features.",
+    "expected_phenotype_id": "tension_headache_reassuring_exam_no_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1012_tension_headache_missing_red_flags_blocks",
+    "condition": "tension headache",
+    "ed_note": "Adult. Tension headache diagnosed. Reassuring neurologic exam.",
+    "expected_phenotype_id": "tension_headache_reassuring_exam_no_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["structured_headache_red_flags_absent"]
+  },
+  {
+    "id": "phase1013_tension_headache_thunderclap_blocks",
+    "condition": "tension headache",
+    "ed_note": "Adult. Tension headache diagnosed. Reassuring neurologic exam. Red flags reviewed and absent. Worst headache of life.",
+    "expected_phenotype_id": "tension_headache_reassuring_exam_no_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["thunderclap_or_sah_concern"]
+  },
+  {
+    "id": "phase1014_atraumatic_knee_pain_clean",
+    "condition": "atraumatic knee pain",
+    "ed_note": "Adult. Clinician diagnosis atraumatic knee pain. Reassuring knee exam. Able to ambulate. No joint infection concern. No fracture concern.",
+    "expected_phenotype_id": "atraumatic_knee_pain_no_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1015_atraumatic_knee_pain_missing_ambulation_blocks",
+    "condition": "atraumatic knee pain",
+    "ed_note": "Adult. Atraumatic knee pain diagnosed. Reassuring knee exam.",
+    "expected_phenotype_id": "atraumatic_knee_pain_no_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": ["ambulatory_discharge_documented"]
+  },
+  {
+    "id": "phase1016_atraumatic_knee_pain_dvt_blocks",
+    "condition": "atraumatic knee pain",
+    "ed_note": "Adult. Atraumatic knee pain diagnosed. Reassuring knee exam. Able to ambulate. Calf swelling and DVT concern.",
+    "expected_phenotype_id": "atraumatic_knee_pain_no_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["dvt_or_pe_concern"]
+  }
+]

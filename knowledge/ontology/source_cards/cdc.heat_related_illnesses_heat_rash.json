@@ -1,0 +1,15 @@
+{
+  "id": "cdc.heat_related_illnesses_heat_rash",
+  "source": "CDC / NIOSH",
+  "title": "Heat-related Illnesses",
+  "url": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html",
+  "source_type": "public_health_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Heat rash is skin irritation caused by excessive sweating during hot, humid weather.",
+    "Heat rash symptoms include small red bumps, usually on the neck, upper chest, groin, under the breasts, or elbow creases.",
+    "First aid includes working in a cooler and less humid environment and keeping the rash area dry.",
+    "Heat illness symptoms such as heat cramps, heat exhaustion, and heat stroke require separate handling."
+  ],
+  "use_policy": "evidence_support"
+}

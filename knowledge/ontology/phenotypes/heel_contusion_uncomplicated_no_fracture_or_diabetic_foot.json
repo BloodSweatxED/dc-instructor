@@ -1,0 +1,125 @@
+{
+  "id": "heel_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+  "label": "Heel contusion without fracture or diabetic-foot red flags",
+  "status": "reviewed",
+  "condition_family": "musculoskeletal",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated heel contusion.",
+    "No fracture concern, diabetic-foot pathway, infection, wound, or neurovascular compromise."
+  ],
+  "exclusion_criteria": [
+    "Fracture or dislocation concern, open wound, diabetic foot, peripheral vascular disease, neuropathy, infection, high-energy trauma, or specialist-directed podiatry plan."
+  ],
+  "must_not_miss": [
+    "Calcaneus fracture.",
+    "Diabetic foot infection.",
+    "Neurovascular compromise.",
+    "Compartment syndrome."
+  ],
+  "default_follow_up": "Follow up with primary care, podiatry, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "heel_contusion_uncomplicated_no_fracture_or_diabetic_foot.diagnosis.diagnosis_summary.v1",
+    "heel_contusion_uncomplicated_no_fracture_or_diabetic_foot.what_we_found.reassuring_ed_assessment.v1",
+    "heel_contusion_uncomplicated_no_fracture_or_diabetic_foot.home_care.home_care_1.v1",
+    "heel_contusion_uncomplicated_no_fracture_or_diabetic_foot.home_care.home_care_2.v1",
+    "heel_contusion_uncomplicated_no_fracture_or_diabetic_foot.home_care.home_care_3.v1",
+    "heel_contusion_uncomplicated_no_fracture_or_diabetic_foot.medications.medication_guidance_1.v1",
+    "heel_contusion_uncomplicated_no_fracture_or_diabetic_foot.medications.medication_guidance_2.v1",
+    "heel_contusion_uncomplicated_no_fracture_or_diabetic_foot.return_precautions.return_precaution_1.v1",
+    "heel_contusion_uncomplicated_no_fracture_or_diabetic_foot.return_precautions.return_precaution_2.v1",
+    "heel_contusion_uncomplicated_no_fracture_or_diabetic_foot.return_precautions.return_precaution_3.v1",
+    "heel_contusion_uncomplicated_no_fracture_or_diabetic_foot.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.bruise"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus bruise material supports contusion self-care, expected color change, pain control, and escalation for worsening symptoms or concerning swelling. This autonomous expansion limits the phenotype to clinician-diagnosed heel contusion with fracture, diabetic-foot, infection, wound, and neurovascular red flags absent."
+  },
+  "runtime": {
+    "condition_terms": [
+      "heel contusion no fracture",
+      "heel bruise no fracture",
+      "heel contusion"
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "septic_joint_or_infection_concern",
+      "high_energy_trauma",
+      "neurovascular_compromise",
+      "specialist_directed_podiatry_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_heel_contusion",
+        "terms": [
+          "clinician diagnosis heel contusion",
+          "discharge diagnosis heel contusion",
+          "heel contusion diagnosed",
+          "heel bruise diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_diabetic_foot_red_flags_heel",
+        "terms": [
+          "no fracture concern",
+          "no diabetic foot",
+          "neurovascular exam intact"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "heel contusion no fracture",
+      "heel bruise no fracture",
+      "clinician diagnosis heel contusion"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-21",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus bruise material supports contusion self-care, expected color change, pain control, and escalation for worsening symptoms or concerning swelling. This autonomous expansion limits the phenotype to clinician-diagnosed heel contusion with fracture, diabetic-foot, infection, wound, and neurovascular red flags absent.",
+    "clinical_status": "reviewed_for_limited_heel_contusion_uncomplicated_no_fracture_or_diabetic_foot_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of heel contusion",
+      "no fracture concern",
+      "no diabetic-foot pathway",
+      "intact neurovascular exam"
+    ],
+    "blocked_modifiers": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "septic_joint_or_infection_concern",
+      "high_energy_trauma",
+      "neurovascular_compromise",
+      "specialist_directed_podiatry_plan"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "phase62_otitis_externa_fever_blocks",
+    "condition": "otitis externa uncomplicated",
+    "ed_note": "Adult with otitis externa and fever.",
+    "expected_phenotype_id": "otitis_externa_no_mastoiditis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["fever"]
+  },
+  {
+    "id": "phase62_otitis_externa_immunocompromised_blocks",
+    "condition": "swimmer's ear uncomplicated",
+    "ed_note": "Adult with swimmer's ear on chemotherapy and immunocompromised.",
+    "expected_phenotype_id": "otitis_externa_no_mastoiditis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["immunocompromised", "malignant_otitis_externa_risk"]
+  },
+  {
+    "id": "phase62_otitis_externa_unstable_vitals_blocks",
+    "condition": "otitis externa no mastoiditis",
+    "ed_note": "Adult with otitis externa and unstable vitals with tachycardia.",
+    "expected_phenotype_id": "otitis_externa_no_mastoiditis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["unstable_vitals"]
+  }
+]

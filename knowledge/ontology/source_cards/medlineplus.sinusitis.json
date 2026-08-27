@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.sinusitis",
+  "source": "MedlinePlus",
+  "title": "Sinusitis",
+  "url": "https://medlineplus.gov/sinusitis.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "Sinusitis means the sinuses are inflamed.",
+    "Symptoms can include cough, congestion, fatigue, fever, and postnasal drainage.",
+    "Clinicians diagnose sinusitis using symptoms and examination.",
+    "Supportive measures can include saline sprays, vaporizers, heat, and pain relievers."
+  ],
+  "use_policy": "evidence_support"
+}

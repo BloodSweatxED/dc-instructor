@@ -1,0 +1,139 @@
+{
+  "id": "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags",
+  "label": "Finger sprain with negative x-ray and no tendon or neurovascular red flags",
+  "status": "reviewed",
+  "condition_family": "msk",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of finger sprain/strain.",
+    "X-ray performed and negative, with intact neurovascular exam and no tendon injury, open wound, infection, high-risk mechanism, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Fracture or dislocation concern, tendon rupture, open wound, infection, flexor tenosynovitis concern, neurovascular compromise, severe pain, inability to move the finger, high-energy trauma, or crush injury.",
+    "Pregnancy/pediatric pathway or specialist-directed hand/orthopedic plan."
+  ],
+  "must_not_miss": [
+    "Fracture or dislocation.",
+    "Tendon rupture.",
+    "Flexor tenosynovitis.",
+    "Neurovascular compromise.",
+    "Compartment syndrome."
+  ],
+  "default_follow_up": "Follow up with primary care, sports medicine, orthopedics, or hand surgery if pain, swelling, or motion is not improving.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags.diagnosis.diagnosis_summary.v1",
+    "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags.home_care.home_care_1.v1",
+    "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags.home_care.home_care_2.v1",
+    "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags.home_care.home_care_3.v1",
+    "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags.medications.medication_guidance_1.v1",
+    "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags.medications.medication_guidance_2.v1",
+    "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags.return_precautions.return_precaution_1.v1",
+    "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags.return_precautions.return_precaution_2.v1",
+    "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags.return_precautions.return_precaution_3.v1",
+    "finger_sprain_xray_negative_no_tendon_or_neurovascular_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.sprains_strains"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports sprain/strain framing, protection/rest/elevation concepts, gradual return to activity, and escalation for worsening pain, swelling, numbness, color change, fever, inability to move, or inability to walk. Autonomous Phase 2001-2100 approved this narrow v1 only for clinician-diagnosed finger sprain/strain with negative x-ray, intact neurovascular exam, and no tendon injury, infection, high-risk mechanism, pregnancy/pediatric pathway, or specialist-directed plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "finger sprain xray negative",
+      "finger sprain negative xray",
+      "finger sprain",
+      "jammed finger sprain"
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "flexor_tenosynovitis_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_use_limb",
+      "high_energy_trauma",
+      "crush_injury",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_finger_sprain",
+        "terms": [
+          "clinician diagnosis finger sprain",
+          "discharge diagnosis finger sprain",
+          "finger sprain diagnosed",
+          "finger strain diagnosed",
+          "jammed finger sprain diagnosed"
+        ]
+      },
+      {
+        "id": "xray_negative_and_neurovascularly_intact",
+        "terms": [
+          "xray performed and negative",
+          "x-ray performed and negative",
+          "xray negative for fracture",
+          "x-ray negative for fracture",
+          "neurovascularly intact"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis finger sprain",
+      "finger sprain diagnosed",
+      "finger sprain xray negative"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-19",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports sprain/strain framing, protection/rest/elevation concepts, gradual return to activity, and escalation for worsening pain, swelling, numbness, color change, fever, inability to move, or inability to walk. Autonomous Phase 2001-2100 approved this narrow v1 only for clinician-diagnosed finger sprain/strain with negative x-ray, intact neurovascular exam, and no tendon injury, infection, high-risk mechanism, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_finger_sprain_with_negative_xray_no_tendon_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of finger sprain/strain",
+      "x-ray performed and negative",
+      "intact neurovascular exam",
+      "no tendon injury, infection, open wound, high-risk mechanism, or specialist-directed plan"
+    ],
+    "blocked_modifiers": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "flexor_tenosynovitis_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_use_limb",
+      "high_energy_trauma",
+      "crush_injury",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+}

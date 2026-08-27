@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dcinstructor.local/schemas/source.schema.json",
+  "title": "DC Instructor Source Card",
+  "type": "object",
+  "required": [
+    "id",
+    "source",
+    "title",
+    "url",
+    "source_type",
+    "license_notes",
+    "supports",
+    "use_policy"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
+    "source": { "type": "string" },
+    "title": { "type": "string" },
+    "url": { "type": "string" },
+    "source_type": {
+      "type": "string",
+      "enum": ["public_patient_education", "open_clinical_wiki", "government_guidance", "restricted_benchmark"]
+    },
+    "license_notes": { "type": "string" },
+    "supports": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "use_policy": {
+      "type": "string",
+      "enum": ["evidence_support", "phenotype_map", "link_out_only", "benchmark_only"]
+    }
+  }
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "phase6501_localized_perfume_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized perfume contact rash",
+    "ed_note": "Adult. clinician diagnosis localized perfume contact rash. localized perfume contact rash diagnosed. no anaphylaxis. no mucosal lesions.",
+    "expected_phenotype_id": "localized_perfume_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase6502_localized_perfume_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized perfume contact rash",
+    "ed_note": "Adult with localized perfume contact rash.",
+    "expected_phenotype_id": "localized_perfume_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_perfume_contact_rash",
+      "no_infection_or_systemic_red_flags_localized_perfume_contact_rash"
+    ]
+  },
+  {
+    "id": "phase6503_localized_perfume_contact_rash_no_infection_or_anaphylaxis_unsafe_modifiers_block",
+    "condition": "localized perfume contact rash",
+    "ed_note": "Adult. clinician diagnosis localized perfume contact rash. localized perfume contact rash diagnosed. no anaphylaxis. no mucosal lesions. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_perfume_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase6504_localized_fabric_dye_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized fabric dye contact rash",
+    "ed_note": "Adult. clinician diagnosis localized fabric dye contact rash. localized fabric dye contact rash diagnosed. no anaphylaxis. no mucosal lesions.",
+    "expected_phenotype_id": "localized_fabric_dye_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase6505_localized_fabric_dye_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized fabric dye contact rash",
+    "ed_note": "Adult with localized fabric dye contact rash.",
+    "expected_phenotype_id": "localized_fabric_dye_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_fabric_dye_contact_rash",
+      "no_infection_or_systemic_red_flags_localized_fabric_dye_contact_rash"
+    ]
+  },
+  {
+    "id": "phase6506_localized_fabric_dye_contact_rash_no_infection_or_anaphylaxis_unsafe_modifiers_block",
+    "condition": "localized fabric dye contact rash",
+    "ed_note": "Adult. clinician diagnosis localized fabric dye contact rash. localized fabric dye contact rash diagnosed. no anaphylaxis. no mucosal lesions. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_fabric_dye_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase6507_localized_shampoo_contact_rash_no_eye_or_systemic_red_flags_clean",
+    "condition": "localized shampoo contact rash",
+    "ed_note": "Adult. clinician diagnosis localized shampoo contact rash. localized shampoo contact rash diagnosed. no anaphylaxis. no eye symptoms.",
+    "expected_phenotype_id": "localized_shampoo_contact_rash_no_eye_or_systemic_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase6508_localized_shampoo_contact_rash_no_eye_or_systemic_red_flags_missing_context_blocks",
+    "condition": "localized shampoo contact rash",
+    "ed_note": "Adult with localized shampoo contact rash.",
+    "expected_phenotype_id": "localized_shampoo_contact_rash_no_eye_or_systemic_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_shampoo_contact_rash",
+      "no_infection_or_systemic_red_flags_localized_shampoo_contact_rash"
+    ]
+  },
+  {
+    "id": "phase6509_localized_shampoo_contact_rash_no_eye_or_systemic_red_flags_unsafe_modifiers_block",
+    "condition": "localized shampoo contact rash",
+    "ed_note": "Adult. clinician diagnosis localized shampoo contact rash. localized shampoo contact rash diagnosed. no anaphylaxis. no eye symptoms. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_shampoo_contact_rash_no_eye_or_systemic_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase6510_localized_lotion_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized lotion contact rash",
+    "ed_note": "Adult. clinician diagnosis localized lotion contact rash. localized lotion contact rash diagnosed. no anaphylaxis. no mucosal lesions.",
+    "expected_phenotype_id": "localized_lotion_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase6511_localized_lotion_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized lotion contact rash",
+    "ed_note": "Adult with localized lotion contact rash.",
+    "expected_phenotype_id": "localized_lotion_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_lotion_contact_rash",
+      "no_infection_or_systemic_red_flags_localized_lotion_contact_rash"
+    ]
+  },
+  {
+    "id": "phase6512_localized_lotion_contact_rash_no_infection_or_anaphylaxis_unsafe_modifiers_block",
+    "condition": "localized lotion contact rash",
+    "ed_note": "Adult. clinician diagnosis localized lotion contact rash. localized lotion contact rash diagnosed. no anaphylaxis. no mucosal lesions. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_lotion_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase6513_localized_hand_sanitizer_irritant_rash_no_infection_or_anaphylax_clean",
+    "condition": "localized hand sanitizer irritant rash",
+    "ed_note": "Adult. clinician diagnosis localized hand sanitizer irritant rash. localized hand sanitizer irritant rash diagnosed. no anaphylaxis. no mucosal lesions.",
+    "expected_phenotype_id": "localized_hand_sanitizer_irritant_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase6514_localized_hand_sanitizer_irritant_rash_no_infection_or_anaphylax_missing_context_blocks",
+    "condition": "localized hand sanitizer irritant rash",
+    "ed_note": "Adult with localized hand sanitizer irritant rash.",
+    "expected_phenotype_id": "localized_hand_sanitizer_irritant_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_hand_sanitizer_irritant_rash",
+      "no_infection_or_systemic_red_flags_localized_hand_sanitizer_irritant_rash"
+    ]
+  },
+  {
+    "id": "phase6515_localized_hand_sanitizer_irritant_rash_no_infection_or_anaphylax_unsafe_modifiers_block",
+    "condition": "localized hand sanitizer irritant rash",
+    "ed_note": "Adult. clinician diagnosis localized hand sanitizer irritant rash. localized hand sanitizer irritant rash diagnosed. no anaphylaxis. no mucosal lesions. However trouble breathing, hypotension, diffuse hives, skin peeling, mouth sores, pus, fever, rapidly spreading rash, chemotherapy, and dermatology consulted are documented.",
+    "expected_phenotype_id": "localized_hand_sanitizer_irritant_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "immunocompromised",
+      "specialist_directed_dermatology_plan"
+    ]
+  }
+]

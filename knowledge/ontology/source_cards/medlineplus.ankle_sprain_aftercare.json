@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.ankle_sprain_aftercare",
+  "source": "MedlinePlus",
+  "title": "Ankle sprain - aftercare",
+  "url": "https://medlineplus.gov/ency/patientinstructions/000574.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "Rest, ice, compression or brace use, and elevation are common early home-care steps.",
+    "Patients should protect the ankle and gradually return to activity.",
+    "Return precautions include worsening pain, swelling, numbness, color change, fever, or inability to walk."
+  ],
+  "use_policy": "evidence_support"
+}

@@ -1,0 +1,136 @@
+{
+  "id": "laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags",
+  "label": "Uncomplicated laryngitis without airway or deep-neck red flags",
+  "status": "reviewed",
+  "condition_family": "ent",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated laryngitis.",
+    "No airway symptoms, drooling, deep neck infection concern, severe throat pain, hemoptysis, neck mass, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed ENT plan."
+  ],
+  "exclusion_criteria": [
+    "Airway symptoms, stridor, drooling, inability to swallow, deep neck infection concern, epiglottitis concern, severe throat pain, neck swelling, hemoptysis, or systemic illness.",
+    "Immunocompromised host, pregnancy/pediatric pathway, voice-professional/specialist-directed plan, or prolonged/recurrent hoarseness requiring ENT evaluation."
+  ],
+  "must_not_miss": [
+    "Airway compromise.",
+    "Epiglottitis.",
+    "Deep neck infection.",
+    "Laryngeal mass or malignancy signal.",
+    "Hemoptysis."
+  ],
+  "default_follow_up": "Follow up with primary care or ENT if symptoms persist, recur, or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags.diagnosis.diagnosis_summary.v1",
+    "laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags.home_care.home_care_1.v1",
+    "laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags.home_care.home_care_2.v1",
+    "laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags.home_care.home_care_3.v1",
+    "laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags.medications.medication_guidance_1.v1",
+    "laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags.medications.medication_guidance_2.v1",
+    "laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags.return_precautions.return_precaution_1.v1",
+    "laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags.return_precautions.return_precaution_2.v1",
+    "laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags.return_precautions.return_precaution_3.v1",
+    "laryngitis_uncomplicated_no_airway_or_deep_neck_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.laryngitis"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports laryngitis framing, hoarseness/voice-loss symptoms, voice rest, fluids, humidified air, and avoidance of irritants. Autonomous Phase 1801-1850 approved this narrow v1 only for clinician-diagnosed uncomplicated laryngitis without airway/deep neck red flags, hemoptysis, systemic illness, high-risk host, pregnancy/pediatric pathway, prolonged/recurrent hoarseness pathway, or specialist-directed ENT plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "uncomplicated laryngitis",
+      "laryngitis",
+      "hoarse voice",
+      "voice loss laryngitis"
+    ],
+    "unsafe_modifiers": [
+      "airway_symptoms",
+      "drooling",
+      "stridor_or_noisy_breathing",
+      "deep_neck_or_epiglottitis_concern",
+      "severe_throat_pain",
+      "neck_mass_or_swelling",
+      "hemoptysis",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_ent_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_laryngitis",
+        "terms": [
+          "clinician diagnosis laryngitis",
+          "discharge diagnosis laryngitis",
+          "laryngitis diagnosed",
+          "uncomplicated laryngitis diagnosed",
+          "hoarseness diagnosed as laryngitis"
+        ]
+      },
+      {
+        "id": "no_airway_or_deep_neck_red_flags_documented",
+        "terms": [
+          "no airway symptoms",
+          "no trouble breathing",
+          "no drooling",
+          "no neck swelling",
+          "no deep neck infection concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis laryngitis",
+      "laryngitis diagnosed",
+      "uncomplicated laryngitis diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-18",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports laryngitis framing, hoarseness/voice-loss symptoms, voice rest, fluids, humidified air, and avoidance of irritants. Autonomous Phase 1801-1850 approved this narrow v1 only for clinician-diagnosed uncomplicated laryngitis without airway/deep neck red flags, hemoptysis, systemic illness, high-risk host, pregnancy/pediatric pathway, prolonged/recurrent hoarseness pathway, or specialist-directed ENT plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_laryngitis_without_airway_or_deep_neck_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated laryngitis",
+      "no airway symptoms, trouble breathing, drooling, neck swelling, or deep neck infection concern documented",
+      "no hemoptysis, prolonged/recurrent hoarseness, high-risk host, pregnancy, pediatric, or specialist-directed pathway"
+    ],
+    "blocked_modifiers": [
+      "airway_symptoms",
+      "drooling",
+      "stridor_or_noisy_breathing",
+      "deep_neck_or_epiglottitis_concern",
+      "severe_throat_pain",
+      "neck_mass_or_swelling",
+      "hemoptysis",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_ent_plan"
+    ]
+  }
+}

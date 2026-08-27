@@ -1,0 +1,426 @@
+[
+  {
+    "id": "back_pain.diagnosis.lumbar_strain.v1",
+    "phenotypes": [
+      "lumbar_strain_no_red_flags"
+    ],
+    "section": "diagnosis",
+    "primitive_type": "diagnosis_summary",
+    "priority": "required",
+    "text": {
+      "en_4": "You have a low back strain. This means the muscles or ligaments in your lower back are sore or stretched.",
+      "en_6": "You have a lumbar strain. This means the muscles or ligaments in your lower back are irritated or stretched.",
+      "en_hl1": "You hurt your low back. The muscles are sore."
+    },
+    "contraindications": [
+      "new_neurologic_deficit",
+      "suspected_spine_fracture"
+    ],
+    "source_card_ids": [
+      "medlineplus.low_back_pain_acute"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for lumbar_strain_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports conservative low-back-pain care and red flags. WikEM supports ED phenotype boundaries and must-not-miss framing only."
+    }
+  },
+  {
+    "id": "back_pain.what_we_found.reassuring_exam.v1",
+    "phenotypes": [
+      "lumbar_strain_no_red_flags"
+    ],
+    "section": "what_we_found",
+    "primitive_type": "normal_exam_reassurance",
+    "priority": "required",
+    "text": {
+      "en_4": "Your exam today was reassuring. You can walk, and you do not have signs of a dangerous nerve problem.",
+      "en_6": "Your exam today was reassuring. You can walk, and we did not find signs of a dangerous nerve or spine problem.",
+      "en_hl1": "Your exam looked safe today. You can walk. We did not see danger signs."
+    },
+    "contraindications": [
+      "new_neurologic_deficit",
+      "unable_to_walk"
+    ],
+    "source_card_ids": [
+      "wikem.low_back_pain"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for lumbar_strain_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports conservative low-back-pain care and red flags. WikEM supports ED phenotype boundaries and must-not-miss framing only."
+    }
+  },
+  {
+    "id": "back_pain.home_care.activity.v1",
+    "phenotypes": [
+      "lumbar_strain_no_red_flags"
+    ],
+    "section": "home_care",
+    "primitive_type": "activity",
+    "priority": "high",
+    "text": {
+      "en_4": "Move around a little each day. Do not stay in bed all day. Short walks can help.",
+      "en_6": "Stay gently active. Avoid staying in bed all day. Short walks and light activity can help you recover.",
+      "en_hl1": "Move a little each day. Do not stay in bed all day."
+    },
+    "contraindications": [
+      "suspected_spine_fracture",
+      "unstable_injury"
+    ],
+    "source_card_ids": [
+      "medlineplus.low_back_pain_acute"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for lumbar_strain_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports conservative low-back-pain care and red flags. WikEM supports ED phenotype boundaries and must-not-miss framing only."
+    }
+  },
+  {
+    "id": "back_pain.home_care.lifting.v1",
+    "phenotypes": [
+      "lumbar_strain_no_red_flags"
+    ],
+    "section": "home_care",
+    "primitive_type": "activity_restriction",
+    "priority": "high",
+    "text": {
+      "en_4": "For the next few days, avoid heavy lifting, bending, and twisting. Go back to normal activity slowly as pain improves.",
+      "en_6": "For the next few days, avoid heavy lifting, bending, and twisting. Slowly return to normal activity as your pain improves.",
+      "en_hl1": "Do not lift heavy things for a few days. Do more as you feel better."
+    },
+    "contraindications": [
+      "work_note_required_for_specific_restrictions"
+    ],
+    "source_card_ids": [
+      "medlineplus.low_back_pain_acute"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for lumbar_strain_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports conservative low-back-pain care and red flags. WikEM supports ED phenotype boundaries and must-not-miss framing only."
+    }
+  },
+  {
+    "id": "back_pain.home_care.ice_heat.v1",
+    "phenotypes": [
+      "lumbar_strain_no_red_flags"
+    ],
+    "section": "home_care",
+    "primitive_type": "ice_heat",
+    "priority": "high",
+    "text": {
+      "en_4": "Use ice for the first 1 to 2 days. Put it on for 15 to 20 minutes at a time. After that, try heat if it feels better.",
+      "en_6": "Use ice for the first 1 to 2 days for 15 to 20 minutes at a time. After that, you can try heat if it feels better.",
+      "en_hl1": "Use ice for 1 to 2 days. Then try heat if it helps."
+    },
+    "contraindications": [
+      "cold_injury",
+      "poor_skin_sensation"
+    ],
+    "source_card_ids": [
+      "medlineplus.low_back_pain_acute"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for lumbar_strain_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports conservative low-back-pain care and red flags. WikEM supports ED phenotype boundaries and must-not-miss framing only."
+    }
+  },
+  {
+    "id": "back_pain.home_care.sleep_sitting.v1",
+    "phenotypes": [
+      "lumbar_strain_no_red_flags"
+    ],
+    "section": "home_care",
+    "primitive_type": "positioning",
+    "priority": "medium",
+    "text": {
+      "en_4": "Sleep in a position that feels comfortable. A pillow between your knees or under your knees may help.",
+      "en_6": "Sleep in a position that feels comfortable. A pillow between your knees, or under your knees when on your back, may help.",
+      "en_hl1": "Use pillows to get comfortable when you sleep."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.low_back_pain_acute"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for lumbar_strain_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports conservative low-back-pain care and red flags. WikEM supports ED phenotype boundaries and must-not-miss framing only."
+    }
+  },
+  {
+    "id": "back_pain.medications.acetaminophen.v1",
+    "phenotypes": [
+      "lumbar_strain_no_red_flags"
+    ],
+    "section": "medications",
+    "primitive_type": "medication_otc_acetaminophen",
+    "priority": "high",
+    "text": {
+      "en_4": "You can use acetaminophen for pain. Follow the bottle directions. Do not take more than the label says.",
+      "en_6": "You can use acetaminophen for pain. Follow the bottle directions and do not take more than the label says.",
+      "en_hl1": "You can take acetaminophen for pain. Follow the bottle."
+    },
+    "contraindications": [
+      "acetaminophen_allergy",
+      "severe_liver_disease"
+    ],
+    "source_card_ids": [
+      "medlineplus.low_back_pain_acute"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for lumbar_strain_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports conservative low-back-pain care and red flags. WikEM supports ED phenotype boundaries and must-not-miss framing only."
+    }
+  },
+  {
+    "id": "back_pain.medications.nsaid_caution.v1",
+    "phenotypes": [
+      "lumbar_strain_no_red_flags"
+    ],
+    "section": "medications",
+    "primitive_type": "medication_otc_nsaid",
+    "priority": "high",
+    "text": {
+      "en_4": "Ibuprofen or naproxen may help pain. Take them with food. Do not use them if you have kidney disease, stomach bleeding, take blood thinners, or were told to avoid them.",
+      "en_6": "Ibuprofen or naproxen may help pain. Take them with food. Do not use them if you have kidney disease, stomach ulcers or bleeding, take blood thinners, or were told to avoid them.",
+      "en_hl1": "Ibuprofen may help pain. Take it with food. Do not use it if a doctor told you not to."
+    },
+    "contraindications": [
+      "nsaid_allergy",
+      "kidney_disease",
+      "stomach_bleeding",
+      "blood_thinner_use",
+      "pregnancy_late"
+    ],
+    "source_card_ids": [
+      "medlineplus.low_back_pain_acute"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for lumbar_strain_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": true,
+      "notes": "MedlinePlus supports conservative low-back-pain care and red flags. WikEM supports ED phenotype boundaries and must-not-miss framing only."
+    }
+  },
+  {
+    "id": "back_pain.return_precautions.cauda_equina.v1",
+    "phenotypes": [
+      "lumbar_strain_no_red_flags"
+    ],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_neuro",
+    "priority": "required",
+    "text": {
+      "en_4": "Come back now if you cannot control your pee or poop, or if your groin or butt feels numb.",
+      "en_6": "Come back to the emergency department right away if you cannot control your urine or bowel movements, or if your groin or buttocks feel numb.",
+      "en_hl1": "Come back now if you cannot control pee or poop. Come back if your private area feels numb."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.low_back_pain_acute",
+      "wikem.low_back_pain"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for lumbar_strain_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports conservative low-back-pain care and red flags. WikEM supports ED phenotype boundaries and must-not-miss framing only."
+    }
+  },
+  {
+    "id": "back_pain.return_precautions.neuro_fever_trauma.v1",
+    "phenotypes": [
+      "lumbar_strain_no_red_flags"
+    ],
+    "section": "return_precautions",
+    "primitive_type": "return_precaution_back_pain",
+    "priority": "required",
+    "text": {
+      "en_4": "Come back now for new leg weakness, trouble walking, fever, a new injury, or pain that becomes much worse.",
+      "en_6": "Come back to the emergency department right away for new leg weakness, trouble walking, fever, a new injury, or pain that becomes much worse.",
+      "en_hl1": "Come back now for weak legs, fever, a new injury, or much worse pain."
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.low_back_pain_acute",
+      "wikem.low_back_pain"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for lumbar_strain_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": false,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports conservative low-back-pain care and red flags. WikEM supports ED phenotype boundaries and must-not-miss framing only."
+    }
+  },
+  {
+    "id": "back_pain.follow_up.primary_care.v1",
+    "phenotypes": [
+      "lumbar_strain_no_red_flags"
+    ],
+    "section": "follow_up",
+    "primitive_type": "follow_up_pcp",
+    "priority": "required",
+    "text": {
+      "en_4": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a low back strain. I need a follow-up visit within 1-2 weeks if pain is not improving.\"",
+      "en_6": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a low back strain. I need a follow-up visit within 1-2 weeks if pain is not improving.\"",
+      "en_hl1": "Call your primary care doctor's office or clinic. Say, \"I was in the emergency department and was diagnosed with a low back strain. I need a follow-up visit within 1-2 weeks if pain is not improving.\""
+    },
+    "contraindications": [],
+    "source_card_ids": [
+      "medlineplus.low_back_pain_acute"
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Andre / EM clinician-owner",
+      "reviewer_role": "Emergency Medicine physician",
+      "last_reviewed": "2026-06-01",
+      "version": 1,
+      "source_audit_status": "passed_for_v1",
+      "production_status": "enabled_with_runtime_modifier_gates",
+      "notes": "Reviewed for lumbar_strain_no_red_flags v1. Patient-facing text is locally authored from source-supported concepts."
+    },
+    "source_audit": {
+      "source_supported": true,
+      "source_needed": false,
+      "clinician_judgment_only": true,
+      "restricted_source_risk": false,
+      "unsafe_without_modifier": false,
+      "notes": "MedlinePlus supports conservative low-back-pain care and red flags. WikEM supports ED phenotype boundaries and must-not-miss framing only."
+    },
+    "style": {
+      "followup_script": "phase17_patient_advocacy"
+    }
+  }
+]

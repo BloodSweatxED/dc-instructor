@@ -1,0 +1,480 @@
+[
+  {
+    "id": "localized_watch_band_contact_rash_no_infection_or_anaphylaxis",
+    "label": "Localized watch band contact rash without infection or anaphylaxis",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "localized watch band contact rash",
+      "watch band contact contact rash",
+      "watch band contact skin rash"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.allergic_reactions"
+    ],
+    "summary": "Your symptoms fit a localized skin reaction from watch band exposure.",
+    "found": "Your clinician diagnosed a localized watch band contact skin reaction. We did not find anaphylaxis, mucosal involvement, skin infection, or another rash emergency today.",
+    "home": [
+      "Avoid the suspected trigger if it is known.",
+      "Wash gently with mild soap and water, and avoid scrubbing the rash.",
+      "Use cool compresses, moisturizers, or coverings only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, itch medicine, or allergy medicine only if prescribed or recommended.",
+      "Do not use leftover steroid, antibiotic, or allergy medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Trouble breathing, throat tightness, swelling of the lips or tongue, fainting, or a bodywide reaction.",
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening rash, skin peeling, or mouth sores.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, allergy, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized watch band contact skin reaction.",
+      "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Severe cutaneous adverse reaction.",
+      "Systemic allergic reaction."
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "fever",
+      "sepsis",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_watch_band_contact_rash",
+        "terms": [
+          "clinician diagnosis localized watch band contact rash",
+          "discharge diagnosis localized watch band contact rash",
+          "localized watch band contact rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_localized_watch_band_contact_rash",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized watch band contact rash",
+      "localized watch band contact rash diagnosed",
+      "localized watch band contact rash"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, ocular, or mucosal red flags. This expansion is limited to clinician-diagnosed localized watch band contact skin reaction with anaphylaxis, infection, mucosal, severe-rash, pregnancy/pediatric, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_localized_watch_band_contact_rash_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized watch band contact skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "review_date": "2026-06-30"
+  },
+  {
+    "id": "localized_belt_buckle_contact_rash_no_infection_or_anaphylaxis",
+    "label": "Localized belt buckle contact rash without infection or anaphylaxis",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "localized belt buckle contact rash",
+      "belt buckle contact contact rash",
+      "belt buckle contact skin rash"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.allergic_reactions"
+    ],
+    "summary": "Your symptoms fit a localized skin reaction from belt buckle or metal exposure.",
+    "found": "Your clinician diagnosed a localized belt buckle contact skin reaction. We did not find anaphylaxis, mucosal involvement, skin infection, or another rash emergency today.",
+    "home": [
+      "Avoid the suspected trigger if it is known.",
+      "Wash gently with mild soap and water, and avoid scrubbing the rash.",
+      "Use cool compresses, moisturizers, or coverings only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, itch medicine, or allergy medicine only if prescribed or recommended.",
+      "Do not use leftover steroid, antibiotic, or allergy medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Trouble breathing, throat tightness, swelling of the lips or tongue, fainting, or a bodywide reaction.",
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening rash, skin peeling, or mouth sores.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, allergy, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized belt buckle contact skin reaction.",
+      "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Severe cutaneous adverse reaction.",
+      "Systemic allergic reaction."
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "fever",
+      "sepsis",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_belt_buckle_contact_rash",
+        "terms": [
+          "clinician diagnosis localized belt buckle contact rash",
+          "discharge diagnosis localized belt buckle contact rash",
+          "localized belt buckle contact rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_localized_belt_buckle_contact_rash",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized belt buckle contact rash",
+      "localized belt buckle contact rash diagnosed",
+      "localized belt buckle contact rash"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, ocular, or mucosal red flags. This expansion is limited to clinician-diagnosed localized belt buckle contact skin reaction with anaphylaxis, infection, mucosal, severe-rash, pregnancy/pediatric, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_localized_belt_buckle_contact_rash_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized belt buckle contact skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "review_date": "2026-06-30"
+  },
+  {
+    "id": "localized_shoe_contact_rash_no_diabetic_foot_or_infection",
+    "label": "Localized shoe contact rash without diabetic-foot or infection red flags",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "localized shoe contact rash",
+      "shoe contact contact rash",
+      "shoe contact skin rash"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.allergic_reactions"
+    ],
+    "summary": "Your symptoms fit a localized skin reaction from shoe material exposure.",
+    "found": "Your clinician diagnosed a localized shoe contact skin reaction. We did not find anaphylaxis, mucosal involvement, skin infection, or another rash emergency today.",
+    "home": [
+      "Avoid the suspected trigger if it is known.",
+      "Wash gently with mild soap and water, and avoid scrubbing the rash.",
+      "Use cool compresses, moisturizers, or coverings only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, itch medicine, or allergy medicine only if prescribed or recommended.",
+      "Do not use leftover steroid, antibiotic, or allergy medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Trouble breathing, throat tightness, swelling of the lips or tongue, fainting, or a bodywide reaction.",
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening rash, skin peeling, or mouth sores.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, allergy, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized shoe contact skin reaction.",
+      "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Severe cutaneous adverse reaction.",
+      "Systemic allergic reaction."
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "fever",
+      "sepsis",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan",
+      "diabetic_foot",
+      "diabetes_general_risk",
+      "neuropathy_foot_risk",
+      "peripheral_vascular_disease",
+      "specialist_directed_podiatry_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_shoe_contact_rash",
+        "terms": [
+          "clinician diagnosis localized shoe contact rash",
+          "discharge diagnosis localized shoe contact rash",
+          "localized shoe contact rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_localized_shoe_contact_rash",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions",
+          "no diabetic foot",
+          "no neuropathy"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized shoe contact rash",
+      "localized shoe contact rash diagnosed",
+      "localized shoe contact rash"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, ocular, or mucosal red flags. This expansion is limited to clinician-diagnosed localized shoe contact skin reaction with anaphylaxis, infection, mucosal, diabetic-foot, neurovascular-foot, severe-rash, pregnancy/pediatric, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_localized_shoe_contact_rash_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized shoe contact skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "review_date": "2026-06-30"
+  },
+  {
+    "id": "dry_cracked_feet_no_diabetic_foot_or_infection",
+    "label": "Dry cracked feet without diabetic-foot or infection red flags",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "dry cracked feet",
+      "feet xerosis",
+      "cracked feet no infection"
+    ],
+    "source_card_ids": [
+      "medlineplus.dry_skin",
+      "medlineplus.dry_skin_self_care"
+    ],
+    "summary": "Your symptoms fit dry, cracked skin on the feet.",
+    "found": "Your clinician diagnosed dry, cracked feet. We did not find spreading infection, open ulcer, diabetic-foot risk, poor circulation, or a systemic skin emergency today.",
+    "home": [
+      "Use a gentle moisturizer as your clinician recommended.",
+      "Avoid harsh soaps, irritating chemicals, and friction when you can.",
+      "Keep the skin clean and protected from new cracking."
+    ],
+    "meds": [
+      "Use skin medicines only if prescribed or recommended.",
+      "Do not use leftover antibiotic or steroid creams unless your clinician said they are safe."
+    ],
+    "return": [
+      "Spreading redness, pus, fever, red streaks, warmth, or worsening pain.",
+      "Black skin, numbness, poor circulation, a new foot ulcer, or bleeding cracks that do not heal.",
+      "Skin peeling, mouth sores, widespread rash, or symptoms that worsen."
+    ],
+    "follow": "Follow up with primary care, podiatry, urgent care, dermatology, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of dry cracked feet or localized xerosis.",
+      "No secondary infection, open wound/ulcer, diabetic-foot/PVD/neuropathy risk, severe cutaneous adverse reaction, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Secondary infection, open wound or foot ulcer, diabetic foot, PVD, neuropathy, severe cutaneous adverse reaction, mucosal lesions, systemic illness, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/podiatry plan."
+    ],
+    "must_not_miss": [
+      "Cellulitis.",
+      "Diabetic foot wound.",
+      "Ischemic foot.",
+      "Severe cutaneous adverse reaction."
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "open_wound",
+      "wound_infection_concern",
+      "diabetic_foot",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan",
+      "specialist_directed_podiatry_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_dry_cracked_feet",
+        "terms": [
+          "clinician diagnosis dry cracked feet",
+          "discharge diagnosis dry cracked feet",
+          "dry cracked feet diagnosed",
+          "feet xerosis diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_diabetic_foot_red_flags_dry_feet",
+        "terms": [
+          "no infection",
+          "no diabetic foot",
+          "no neuropathy",
+          "localized dry cracked skin"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis dry cracked feet",
+      "dry cracked feet diagnosed",
+      "dry cracked feet"
+    ],
+    "source_audit_notes": "MedlinePlus dry skin material supports moisturizer use, avoiding irritants, and seeking care for cracks, bleeding, infection signs, or persistent symptoms. This expansion is limited to clinician-diagnosed localized dry cracked feet without infection, open wound, diabetic-foot/PVD/neuropathy risk, systemic skin disease, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_dry_cracked_feet_no_diabetic_foot_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of dry cracked feet",
+      "localized dry cracked skin",
+      "no infection",
+      "no diabetic-foot pathway"
+    ],
+    "review_date": "2026-06-30"
+  },
+  {
+    "id": "dry_cracked_heels_no_diabetic_foot_or_infection",
+    "label": "Dry cracked heels without diabetic-foot or infection red flags",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "dry cracked heels",
+      "heels xerosis",
+      "cracked heels no infection"
+    ],
+    "source_card_ids": [
+      "medlineplus.dry_skin",
+      "medlineplus.dry_skin_self_care"
+    ],
+    "summary": "Your symptoms fit dry, cracked skin on the heels.",
+    "found": "Your clinician diagnosed dry, cracked heels. We did not find spreading infection, open ulcer, diabetic-foot risk, poor circulation, or a systemic skin emergency today.",
+    "home": [
+      "Use a gentle moisturizer as your clinician recommended.",
+      "Avoid harsh soaps, irritating chemicals, and friction when you can.",
+      "Keep the skin clean and protected from new cracking."
+    ],
+    "meds": [
+      "Use skin medicines only if prescribed or recommended.",
+      "Do not use leftover antibiotic or steroid creams unless your clinician said they are safe."
+    ],
+    "return": [
+      "Spreading redness, pus, fever, red streaks, warmth, or worsening pain.",
+      "Black skin, numbness, poor circulation, a new foot ulcer, or bleeding cracks that do not heal.",
+      "Skin peeling, mouth sores, widespread rash, or symptoms that worsen."
+    ],
+    "follow": "Follow up with primary care, podiatry, urgent care, dermatology, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of dry cracked heels or localized xerosis.",
+      "No secondary infection, open wound/ulcer, diabetic-foot/PVD/neuropathy risk, severe cutaneous adverse reaction, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Secondary infection, open wound or foot ulcer, diabetic foot, PVD, neuropathy, severe cutaneous adverse reaction, mucosal lesions, systemic illness, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/podiatry plan."
+    ],
+    "must_not_miss": [
+      "Cellulitis.",
+      "Diabetic foot wound.",
+      "Ischemic foot.",
+      "Severe cutaneous adverse reaction."
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "open_wound",
+      "wound_infection_concern",
+      "diabetic_foot",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan",
+      "specialist_directed_podiatry_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_dry_cracked_heels",
+        "terms": [
+          "clinician diagnosis dry cracked heels",
+          "discharge diagnosis dry cracked heels",
+          "dry cracked heels diagnosed",
+          "heels xerosis diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_diabetic_foot_red_flags_dry_heels",
+        "terms": [
+          "no infection",
+          "no diabetic foot",
+          "no neuropathy",
+          "localized dry cracked skin"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis dry cracked heels",
+      "dry cracked heels diagnosed",
+      "dry cracked heels"
+    ],
+    "source_audit_notes": "MedlinePlus dry skin material supports moisturizer use, avoiding irritants, and seeking care for cracks, bleeding, infection signs, or persistent symptoms. This expansion is limited to clinician-diagnosed localized dry cracked heels without infection, open wound, diabetic-foot/PVD/neuropathy risk, systemic skin disease, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_dry_cracked_heels_no_diabetic_foot_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of dry cracked heels",
+      "localized dry cracked skin",
+      "no infection",
+      "no diabetic-foot pathway"
+    ],
+    "review_date": "2026-06-30"
+  }
+]

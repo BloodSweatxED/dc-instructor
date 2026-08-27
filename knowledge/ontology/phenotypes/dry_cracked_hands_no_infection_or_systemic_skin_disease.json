@@ -1,0 +1,125 @@
+{
+  "id": "dry_cracked_hands_no_infection_or_systemic_skin_disease",
+  "label": "Dry cracked hands without infection or systemic skin disease",
+  "status": "reviewed",
+  "condition_family": "skin_soft_tissue",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of dry cracked hands or hand xerosis.",
+    "No secondary infection, deep wound, severe cutaneous adverse reaction, immunocompromised host, or specialist-directed dermatology plan."
+  ],
+  "exclusion_criteria": [
+    "Secondary infection, open deep wound, severe cutaneous adverse reaction, mucosal lesions, systemic illness, immunocompromised host, diabetes with hand wound concern, or specialist-directed dermatology plan."
+  ],
+  "must_not_miss": [
+    "Cellulitis.",
+    "Deep hand infection.",
+    "Severe cutaneous adverse reaction.",
+    "Systemic skin disease."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, dermatology, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "dry_cracked_hands_no_infection_or_systemic_skin_disease.diagnosis.diagnosis_summary.v1",
+    "dry_cracked_hands_no_infection_or_systemic_skin_disease.what_we_found.reassuring_ed_assessment.v1",
+    "dry_cracked_hands_no_infection_or_systemic_skin_disease.home_care.home_care_1.v1",
+    "dry_cracked_hands_no_infection_or_systemic_skin_disease.home_care.home_care_2.v1",
+    "dry_cracked_hands_no_infection_or_systemic_skin_disease.home_care.home_care_3.v1",
+    "dry_cracked_hands_no_infection_or_systemic_skin_disease.medications.medication_guidance_1.v1",
+    "dry_cracked_hands_no_infection_or_systemic_skin_disease.medications.medication_guidance_2.v1",
+    "dry_cracked_hands_no_infection_or_systemic_skin_disease.return_precautions.return_precaution_1.v1",
+    "dry_cracked_hands_no_infection_or_systemic_skin_disease.return_precautions.return_precaution_2.v1",
+    "dry_cracked_hands_no_infection_or_systemic_skin_disease.return_precautions.return_precaution_3.v1",
+    "dry_cracked_hands_no_infection_or_systemic_skin_disease.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.dry_skin",
+    "medlineplus.dry_skin_self_care"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus dry skin material supports moisturizer use, avoiding irritants, and seeking care for cracks, bleeding, infection signs, or persistent symptoms. This expansion is limited to clinician-diagnosed localized dry cracked hands without infection or systemic skin disease."
+  },
+  "runtime": {
+    "condition_terms": [
+      "dry cracked hands no infection",
+      "dry cracked hands",
+      "hand xerosis"
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "open_wound",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "systemic_illness",
+      "immunocompromised",
+      "diabetes_general_risk",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_dry_cracked_hands",
+        "terms": [
+          "clinician diagnosis dry cracked hands",
+          "discharge diagnosis dry cracked hands",
+          "hand xerosis diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_skin_disease_dry_hands",
+        "terms": [
+          "no infection",
+          "no systemic skin disease",
+          "localized dry cracked hands"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "dry cracked hands no infection",
+      "dry cracked hands",
+      "clinician diagnosis dry cracked hands"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-21",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus dry skin material supports moisturizer use, avoiding irritants, and seeking care for cracks, bleeding, infection signs, or persistent symptoms. This expansion is limited to clinician-diagnosed localized dry cracked hands without infection or systemic skin disease.",
+    "clinical_status": "reviewed_for_limited_dry_cracked_hands_no_infection_or_systemic_skin_disease_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of dry cracked hands or hand xerosis",
+      "localized dry cracked hands",
+      "no infection",
+      "no systemic skin disease"
+    ],
+    "blocked_modifiers": [
+      "secondary_skin_infection_concern",
+      "open_wound",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "systemic_illness",
+      "immunocompromised",
+      "diabetes_general_risk",
+      "specialist_directed_dermatology_plan"
+    ]
+  }
+}

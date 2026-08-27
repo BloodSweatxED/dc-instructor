@@ -1,0 +1,102 @@
+{
+  "id": "renal_colic_stable_no_infection",
+  "label": "Renal colic, stable, no infection concern",
+  "status": "reviewed",
+  "condition_family": "genitourinary",
+  "inclusion_criteria": [
+    "Suspected or confirmed renal colic, stable for outpatient management.",
+    "No fever, sepsis, solitary kidney emergency, or uncontrolled symptoms."
+  ],
+  "exclusion_criteria": [
+    "Infected obstructing stone concern.",
+    "Solitary kidney, transplant kidney, pregnancy, renal failure, or uncontrolled pain/vomiting."
+  ],
+  "must_not_miss": [
+    "Infected obstructing stone.",
+    "Abdominal aortic emergency mimic.",
+    "Testicular torsion mimic.",
+    "Pyelonephritis."
+  ],
+  "default_follow_up": "Follow up with urology or primary care as instructed.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "renal_colic_stable_no_infection.diagnosis.diagnosis_summary.v1",
+    "renal_colic_stable_no_infection.what_we_found.reassuring_ed_assessment.v1",
+    "renal_colic_stable_no_infection.home_care.home_care_1.v1",
+    "renal_colic_stable_no_infection.home_care.home_care_2.v1",
+    "renal_colic_stable_no_infection.home_care.home_care_3.v1",
+    "renal_colic_stable_no_infection.home_care.home_care_4.v1",
+    "renal_colic_stable_no_infection.medications.medication_guidance_1.v1",
+    "renal_colic_stable_no_infection.medications.medication_guidance_2.v1",
+    "renal_colic_stable_no_infection.return_precautions.return_precaution_1.v1",
+    "renal_colic_stable_no_infection.return_precautions.return_precaution_2.v1",
+    "renal_colic_stable_no_infection.return_precautions.return_precaution_3.v1",
+    "renal_colic_stable_no_infection.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.kidney_stones_self_care"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms."
+  },
+  "runtime": {
+    "condition_terms": [
+      "renal colic stable no infection",
+      "renal colic",
+      "kidney stone",
+      "ureteral stone"
+    ],
+    "unsafe_modifiers": [
+      "fever",
+      "solitary_kidney",
+      "pregnancy",
+      "renal_failure",
+      "uncontrolled_pain",
+      "vomiting_unable_to_take_meds",
+      "urinary_obstruction",
+      "sepsis"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports kidney stone self-care, hydration, urine straining when instructed, and escalation for fever, chills, vomiting, severe pain, cloudy urine, or urinary symptoms.",
+    "clinical_status": "reviewed_for_limited_stable_renal_colic_without_infection_use",
+    "required_modifiers": [
+      "suspected or confirmed renal colic",
+      "stable for outpatient management",
+      "no fever or sepsis",
+      "symptoms controlled enough for discharge"
+    ],
+    "blocked_modifiers": [
+      "fever",
+      "solitary_kidney",
+      "pregnancy",
+      "renal_failure",
+      "uncontrolled_pain",
+      "vomiting_unable_to_take_meds",
+      "urinary_obstruction",
+      "sepsis"
+    ]
+  }
+}

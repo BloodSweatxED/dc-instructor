@@ -1,0 +1,14 @@
+{
+  "id": "aao_hns.nosebleed_guideline",
+  "source": "American Academy of Otolaryngology-Head and Neck Surgery",
+  "title": "Clinical Practice Guideline: Nosebleed (Epistaxis)",
+  "url": "https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/nosebleed-epistaxis/",
+  "source_type": "specialty_guideline_summary",
+  "license_notes": "Use as source-support metadata only. Do not copy guideline text into primitives.",
+  "supports": [
+    "Epistaxis management should distinguish severity, recurrence, and need for packing or procedural care.",
+    "Clinician evaluation should account for anticoagulation, bleeding risk, and recurrent bleeding.",
+    "This source is clinician-facing and supports boundary design rather than direct patient-facing wording."
+  ],
+  "use_policy": "evidence_support"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "epa.bed_bugs_intro",
+  "source": "EPA",
+  "title": "Introduction to Bed Bugs",
+  "url": "https://www.epa.gov/bedbugs/introduction-bed-bugs",
+  "source_type": "public_health_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Bed bugs are blood-feeding insects that can cause itchy bites.",
+    "EPA, CDC, and USDA consider bed bugs a public health pest.",
+    "Bed bugs are not known to transmit or spread disease.",
+    "Managing bed bugs requires addressing the living environment, not just skin symptoms."
+  ],
+  "use_policy": "evidence_support"
+}

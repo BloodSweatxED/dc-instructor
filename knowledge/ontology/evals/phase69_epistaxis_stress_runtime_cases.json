@@ -1,0 +1,50 @@
+[
+  {
+    "id": "phase69_epistaxis_posterior_bleed_blocks",
+    "condition": "nosebleed resolved",
+    "ed_note": "Adult with nosebleed and posterior epistaxis concern with bleeding down throat.",
+    "expected_phenotype_id": "epistaxis_resolved_no_posterior_bleed",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["posterior_epistaxis_or_uncontrolled_bleeding"]
+  },
+  {
+    "id": "phase69_epistaxis_anticoagulated_blocks",
+    "condition": "epistaxis resolved no posterior bleed",
+    "ed_note": "Adult with epistaxis on warfarin blood thinner.",
+    "expected_phenotype_id": "epistaxis_resolved_no_posterior_bleed",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["anticoagulated"]
+  },
+  {
+    "id": "phase69_epistaxis_bleeding_disorder_blocks",
+    "condition": "epistaxis resolved",
+    "ed_note": "Adult with epistaxis and thrombocytopenia with low platelets.",
+    "expected_phenotype_id": "epistaxis_resolved_no_posterior_bleed",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["bleeding_disorder"]
+  },
+  {
+    "id": "phase69_epistaxis_facial_trauma_blocks",
+    "condition": "nosebleed resolved",
+    "ed_note": "Adult with nosebleed after nasal trauma and nose injury.",
+    "expected_phenotype_id": "epistaxis_resolved_no_posterior_bleed",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["facial_or_nasal_trauma"]
+  },
+  {
+    "id": "phase69_epistaxis_airway_blocks",
+    "condition": "epistaxis resolved",
+    "ed_note": "Adult with epistaxis and trouble breathing.",
+    "expected_phenotype_id": "epistaxis_resolved_no_posterior_bleed",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["airway_symptoms"]
+  },
+  {
+    "id": "phase69_epistaxis_syncope_blocks",
+    "condition": "epistaxis resolved no posterior bleed",
+    "ed_note": "Adult with epistaxis and syncope.",
+    "expected_phenotype_id": "epistaxis_resolved_no_posterior_bleed",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["syncope"]
+  }
+]

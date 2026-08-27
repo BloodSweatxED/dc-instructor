@@ -1,0 +1,128 @@
+{
+  "id": "neck_chafing_no_infection_or_systemic_skin_disease",
+  "label": "Neck chafing without infection or systemic skin disease",
+  "status": "reviewed",
+  "condition_family": "skin_soft_tissue",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of neck chafing.",
+    "No infection, abscess, deep wound, mucosal emergency, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Cellulitis, abscess, deep wound, severe or spreading rash, systemic illness, mucosal emergency, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "must_not_miss": [
+    "Cellulitis or abscess.",
+    "Deep-space oral infection when mouth symptoms are present.",
+    "Severe cutaneous adverse reaction.",
+    "Retained foreign body or deep wound."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, dentistry, dermatology, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "neck_chafing_no_infection_or_systemic_skin_disease.diagnosis.diagnosis_summary.v1",
+    "neck_chafing_no_infection_or_systemic_skin_disease.what_we_found.reassuring_ed_assessment.v1",
+    "neck_chafing_no_infection_or_systemic_skin_disease.home_care.home_care_1.v1",
+    "neck_chafing_no_infection_or_systemic_skin_disease.home_care.home_care_2.v1",
+    "neck_chafing_no_infection_or_systemic_skin_disease.home_care.home_care_3.v1",
+    "neck_chafing_no_infection_or_systemic_skin_disease.medications.medication_guidance_1.v1",
+    "neck_chafing_no_infection_or_systemic_skin_disease.medications.medication_guidance_2.v1",
+    "neck_chafing_no_infection_or_systemic_skin_disease.return_precautions.return_precaution_1.v1",
+    "neck_chafing_no_infection_or_systemic_skin_disease.return_precautions.return_precaution_2.v1",
+    "neck_chafing_no_infection_or_systemic_skin_disease.return_precautions.return_precaution_3.v1",
+    "neck_chafing_no_infection_or_systemic_skin_disease.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.contact_dermatitis",
+    "medlineplus.cuts_puncture_wounds"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways."
+  },
+  "runtime": {
+    "condition_terms": [
+      "neck chafing",
+      "neck skin chafing",
+      "friction rash on neck"
+    ],
+    "unsafe_modifiers": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_neck_chafing_no_infection_or_systemic_skin_disease",
+        "terms": [
+          "clinician diagnosis neck chafing",
+          "discharge diagnosis neck chafing",
+          "neck chafing diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_deep_injury_neck_chafing_no_infection_or_systemic_skin_disease",
+        "terms": [
+          "no infection",
+          "no abscess",
+          "localized irritation only",
+          "no deep wound"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis neck chafing",
+      "neck chafing diagnosed",
+      "neck chafing"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-07-07",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways.",
+    "clinical_status": "reviewed_for_limited_neck_chafing_no_infection_or_systemic_skin_disease_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of neck chafing",
+      "localized irritation only",
+      "no infection or abscess",
+      "no deep injury or specialist-directed plan"
+    ],
+    "blocked_modifiers": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan"
+    ]
+  }
+}

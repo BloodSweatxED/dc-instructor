@@ -1,0 +1,468 @@
+[
+  {
+    "id": "toe_tendinitis_uncomplicated_no_rupture_or_diabetic_foot",
+    "label": "Toe tendinitis without rupture or diabetic-foot red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "toe tendinitis",
+      "toe tendonitis",
+      "toe overuse tendinitis"
+    ],
+    "source_card_ids": [
+      "medlineplus.tendinitis"
+    ],
+    "summary": "Your symptoms fit uncomplicated toe tendinitis.",
+    "found": "Your clinician diagnosed toe tendinitis. We did not find tendon rupture, fracture, infection, poor blood flow, diabetic-foot red flags, or another toe emergency today.",
+    "home": [
+      "Rest the toe from activity that makes pain worse.",
+      "Use ice, heat, gentle motion, support, or activity limits only as your clinician recommended.",
+      "Return to normal activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not use medicine to push through worsening pain, numbness, or weakness."
+    ],
+    "return": [
+      "A pop, new deformity, inability to walk, blue or pale toe, black skin, or severe worsening pain.",
+      "New deformity, severe worsening pain, inability to use the area, or a new injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, podiatry, sports medicine, orthopedics, therapy, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated toe tendinitis.",
+      "No tendon rupture, fracture/dislocation concern, open wound, infection, diabetic-foot/PVD/neuropathy risk, neurovascular compromise, inability to bear weight, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Tendon rupture, fracture or dislocation concern, open wound, infection concern, diabetic foot, PVD, neuropathy, neurovascular compromise, inability to bear weight, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed podiatry/orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Toe tendon rupture.",
+      "Toe fracture or dislocation.",
+      "Diabetic foot infection.",
+      "Neurovascular compromise."
+    ],
+    "unsafe_modifiers": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "diabetic_foot",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_podiatry_plan",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_toe_tendinitis",
+        "terms": [
+          "clinician diagnosis toe tendinitis",
+          "discharge diagnosis toe tendinitis",
+          "toe tendinitis diagnosed",
+          "toe tendonitis diagnosed"
+        ]
+      },
+      {
+        "id": "no_rupture_or_diabetic_foot_red_flags_toe_tendinitis",
+        "terms": [
+          "no tendon rupture",
+          "no fracture concern",
+          "no infection",
+          "no diabetic foot",
+          "neurovascular exam intact"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis toe tendinitis",
+      "toe tendinitis diagnosed",
+      "toe tendonitis diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus supports tendinitis framing, activity modification, clinician-directed pain control, and separation from rupture, infection, trauma, or neurovascular compromise. This expansion is limited to clinician-diagnosed uncomplicated toe tendinitis with rupture, fracture, infection, diabetic-foot, and neurovascular red flags absent.",
+    "clinical_status": "reviewed_for_limited_toe_tendinitis_without_rupture_or_diabetic_foot_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of uncomplicated toe tendinitis",
+      "no tendon rupture",
+      "no fracture concern",
+      "no infection",
+      "intact neurovascular exam",
+      "no diabetic-foot pathway"
+    ],
+    "review_date": "2026-06-29"
+  },
+  {
+    "id": "scapular_strain_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Scapular strain without fracture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "scapular strain",
+      "shoulder blade strain",
+      "pulled shoulder blade muscle"
+    ],
+    "source_card_ids": [
+      "medlineplus.sprains_strains"
+    ],
+    "summary": "Your symptoms fit an uncomplicated scapular strain.",
+    "found": "Your clinician diagnosed a scapular strain. We did not find fracture, dislocation, tendon rupture, nerve or blood-flow problems, chest emergency, or another emergency today.",
+    "home": [
+      "Rest the shoulder blade area from activity that makes pain worse.",
+      "Use ice, heat, gentle motion, support, or activity limits only as your clinician recommended.",
+      "Return to normal activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not use medicine to push through worsening pain, numbness, or weakness."
+    ],
+    "return": [
+      "New arm numbness, weakness, blue or pale hand, chest pain, trouble breathing, or severe worsening pain.",
+      "New deformity, severe worsening pain, inability to use the area, or a new injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, therapy, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated scapular strain.",
+      "No fracture/dislocation concern, tendon rupture, neurovascular compromise, infection, cardiopulmonary red flags, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture/dislocation concern, tendon rupture, neurovascular compromise, infection concern, chest pain, respiratory distress, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Scapular fracture.",
+      "Shoulder dislocation.",
+      "Neurovascular compromise.",
+      "Cardiopulmonary mimic."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "chest_pain",
+      "respiratory_distress",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_scapular_strain",
+        "terms": [
+          "clinician diagnosis scapular strain",
+          "discharge diagnosis scapular strain",
+          "scapular strain diagnosed",
+          "shoulder blade strain diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_scapular_strain",
+        "terms": [
+          "no fracture concern",
+          "no tendon rupture",
+          "neurovascular exam intact",
+          "no chest pain",
+          "breathing comfortable"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis scapular strain",
+      "scapular strain diagnosed",
+      "shoulder blade strain diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus supports sprain/strain care and escalation for severe pain, numbness, weakness, color change, or function loss. This expansion is limited to clinician-diagnosed uncomplicated scapular strain with fracture, neurovascular, tendon, and cardiopulmonary red flags absent.",
+    "clinical_status": "reviewed_for_limited_scapular_strain_without_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of uncomplicated scapular strain",
+      "no fracture concern",
+      "no tendon rupture",
+      "intact neurovascular exam",
+      "no cardiopulmonary red flags"
+    ],
+    "review_date": "2026-06-29"
+  },
+  {
+    "id": "localized_adhesive_rash_no_infection_or_anaphylaxis",
+    "label": "Localized adhesive rash without infection or anaphylaxis",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "localized adhesive rash",
+      "bandage adhesive rash",
+      "adhesive skin rash"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.allergic_reactions"
+    ],
+    "summary": "Your symptoms fit a localized skin reaction from adhesive.",
+    "found": "Your clinician diagnosed a localized adhesive skin reaction. We did not find anaphylaxis, mucosal involvement, skin infection, or another rash emergency today.",
+    "home": [
+      "Avoid the suspected trigger if it is known.",
+      "Wash gently with mild soap and water, and avoid scrubbing the rash.",
+      "Use cool compresses, moisturizers, or coverings only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, itch medicine, or allergy medicine only if prescribed or recommended.",
+      "Do not use leftover steroid, antibiotic, or allergy medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Trouble breathing, throat tightness, swelling of the lips or tongue, fainting, or a bodywide reaction.",
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening rash, skin peeling, or mouth sores.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, allergy, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized adhesive skin reaction.",
+      "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, burn or chemical exposure, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Severe cutaneous adverse reaction.",
+      "Systemic allergic reaction."
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "fever",
+      "sepsis",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_adhesive_rash",
+        "terms": [
+          "clinician diagnosis localized adhesive rash",
+          "discharge diagnosis localized adhesive rash",
+          "localized adhesive rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_localized_adhesive_rash",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized adhesive rash",
+      "localized adhesive rash diagnosed",
+      "localized adhesive rash"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, ocular, or mucosal red flags. This expansion is limited to clinician-diagnosed localized adhesive skin reaction with anaphylaxis, infection, mucosal, and severe-rash red flags absent.",
+    "clinical_status": "reviewed_for_limited_localized_adhesive_rash_no_infection_or_anaphylaxis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized adhesive skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "review_date": "2026-06-29"
+  },
+  {
+    "id": "localized_jewelry_rash_no_infection_or_anaphylaxis",
+    "label": "Localized jewelry rash without infection or anaphylaxis",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "localized jewelry rash",
+      "nickel jewelry rash",
+      "jewelry skin rash"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.allergic_reactions"
+    ],
+    "summary": "Your symptoms fit a localized skin reaction from jewelry or nickel exposure.",
+    "found": "Your clinician diagnosed a localized jewelry or nickel exposure skin reaction. We did not find anaphylaxis, mucosal involvement, skin infection, or another rash emergency today.",
+    "home": [
+      "Avoid the suspected trigger if it is known.",
+      "Wash gently with mild soap and water, and avoid scrubbing the rash.",
+      "Use cool compresses, moisturizers, or coverings only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, itch medicine, or allergy medicine only if prescribed or recommended.",
+      "Do not use leftover steroid, antibiotic, or allergy medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Trouble breathing, throat tightness, swelling of the lips or tongue, fainting, or a bodywide reaction.",
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening rash, skin peeling, or mouth sores.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, allergy, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized jewelry or nickel exposure skin reaction.",
+      "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, burn or chemical exposure, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Severe cutaneous adverse reaction.",
+      "Systemic allergic reaction."
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "fever",
+      "sepsis",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_jewelry_rash",
+        "terms": [
+          "clinician diagnosis localized jewelry rash",
+          "discharge diagnosis localized jewelry rash",
+          "localized jewelry rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_localized_jewelry_rash",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized jewelry rash",
+      "localized jewelry rash diagnosed",
+      "localized jewelry rash"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, ocular, or mucosal red flags. This expansion is limited to clinician-diagnosed localized jewelry or nickel exposure skin reaction with anaphylaxis, infection, mucosal, and severe-rash red flags absent.",
+    "clinical_status": "reviewed_for_limited_localized_jewelry_rash_no_infection_or_anaphylaxis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized jewelry or nickel exposure skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "review_date": "2026-06-29"
+  },
+  {
+    "id": "localized_detergent_irritant_rash_no_infection_or_anaphylaxis",
+    "label": "Localized detergent irritant rash without infection or anaphylaxis",
+    "family": "skin_soft_tissue",
+    "condition_terms": [
+      "localized detergent rash",
+      "laundry detergent rash",
+      "detergent irritant rash"
+    ],
+    "source_card_ids": [
+      "medlineplus.contact_dermatitis",
+      "medlineplus.allergic_reactions"
+    ],
+    "summary": "Your symptoms fit a localized skin reaction from detergent exposure.",
+    "found": "Your clinician diagnosed a localized detergent exposure skin reaction. We did not find anaphylaxis, mucosal involvement, skin infection, or another rash emergency today.",
+    "home": [
+      "Avoid the suspected trigger if it is known.",
+      "Wash gently with mild soap and water, and avoid scrubbing the rash.",
+      "Use cool compresses, moisturizers, or coverings only as your clinician recommended."
+    ],
+    "meds": [
+      "Use creams, ointments, itch medicine, or allergy medicine only if prescribed or recommended.",
+      "Do not use leftover steroid, antibiotic, or allergy medicine unless your clinician told you to."
+    ],
+    "return": [
+      "Trouble breathing, throat tightness, swelling of the lips or tongue, fainting, or a bodywide reaction.",
+      "Fever, spreading redness, warmth, pus, red streaks, rapidly worsening rash, skin peeling, or mouth sores.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, urgent care, dermatology, allergy, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of localized detergent exposure skin reaction.",
+      "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, burn or chemical exposure, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+    ],
+    "must_not_miss": [
+      "Anaphylaxis.",
+      "Cellulitis.",
+      "Severe cutaneous adverse reaction.",
+      "Systemic allergic reaction."
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "secondary_skin_infection_concern",
+      "rapid_progression",
+      "fever",
+      "sepsis",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_detergent_irritant_rash",
+        "terms": [
+          "clinician diagnosis localized detergent rash",
+          "discharge diagnosis localized detergent rash",
+          "localized detergent rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_localized_detergent_irritant_rash",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized detergent rash",
+      "localized detergent rash diagnosed",
+      "localized detergent rash"
+    ],
+    "source_audit_notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, ocular, or mucosal red flags. This expansion is limited to clinician-diagnosed localized detergent exposure skin reaction with anaphylaxis, infection, mucosal, and severe-rash red flags absent.",
+    "clinical_status": "reviewed_for_limited_localized_detergent_irritant_rash_no_infection_or_anaphylaxis_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized detergent exposure skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "review_date": "2026-06-29"
+  }
+]

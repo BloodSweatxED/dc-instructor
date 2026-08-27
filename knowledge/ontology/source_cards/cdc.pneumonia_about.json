@@ -1,0 +1,14 @@
+{
+  "id": "cdc.pneumonia_about",
+  "source": "CDC",
+  "title": "About Pneumonia",
+  "url": "https://www.cdc.gov/pneumonia/about/index.html",
+  "source_type": "government_guidance",
+  "license_notes": "Use as public government source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Pneumonia is a lung infection that can be caused by bacteria or viruses.",
+    "Common symptoms include cough, fever, difficulty breathing, and chest pain with breathing or coughing.",
+    "Age, other health conditions, and immune status can increase pneumonia risk."
+  ],
+  "use_policy": "evidence_support"
+}

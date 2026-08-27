@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.sun_protection",
+  "source": "MedlinePlus",
+  "title": "Sun protection",
+  "url": "https://medlineplus.gov/ency/patientinstructions/000378.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Ultraviolet exposure can damage skin and increase future skin cancer risk.",
+    "Sun protection includes shade, protective clothing, sunglasses, and sunscreen.",
+    "Sun protection remains important after a sunburn while the skin heals."
+  ],
+  "use_policy": "evidence_support"
+}

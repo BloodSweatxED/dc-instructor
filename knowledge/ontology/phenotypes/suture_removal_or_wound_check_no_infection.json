@@ -1,0 +1,174 @@
+{
+  "id": "suture_removal_or_wound_check_no_infection",
+  "label": "Suture removal or wound check without infection concern",
+  "status": "reviewed",
+  "condition_family": "wound_care",
+  "inclusion_criteria": [
+    "Adult with clinician-documented wound check, suture removal, or staple removal plan.",
+    "Clinician documents wound healing as expected or explicitly cleared the wound at this visit.",
+    "Clinician-entered wound follow-up plan is present.",
+    "No infection, dehiscence, retained foreign body, tendon/nerve/vascular risk, high-risk wound location, bite wound, open fracture, or specialist-directed wound plan."
+  ],
+  "exclusion_criteria": [
+    "Wound infection concern, pus, spreading redness, fever, red streaks, or systemic illness.",
+    "Wound dehiscence, wound not ready for removal, early suture/staple loss, retained foreign body, tendon/nerve/vascular concern, open fracture, joint violation, bite wound, dirty wound, high-risk wound location, or poor follow-up.",
+    "Pediatric pathway, immunocompromised host, diabetic foot wound, anticoagulation-related bleeding concern, or specialist-directed wound plan."
+  ],
+  "must_not_miss": [
+    "Wound infection.",
+    "Wound dehiscence.",
+    "Retained foreign body.",
+    "Tendon, nerve, vascular, or joint injury.",
+    "Open fracture.",
+    "High-risk face, hand, joint, genital, scalp, or high-tension wound.",
+    "Necrotizing infection."
+  ],
+  "default_follow_up": "Follow up on the wound schedule your clinician gave you. If no schedule was given and symptoms worsen or you are worried, arrange a recheck within 2 to 3 days.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "suture_removal_or_wound_check_no_infection.diagnosis.diagnosis_summary.v1",
+    "suture_removal_or_wound_check_no_infection.what_we_found.reassuring_ed_assessment.v1",
+    "suture_removal_or_wound_check_no_infection.home_care.home_care_1.v1",
+    "suture_removal_or_wound_check_no_infection.home_care.home_care_2.v1",
+    "suture_removal_or_wound_check_no_infection.home_care.home_care_3.v1",
+    "suture_removal_or_wound_check_no_infection.home_care.home_care_4.v1",
+    "suture_removal_or_wound_check_no_infection.medications.medication_guidance_1.v1",
+    "suture_removal_or_wound_check_no_infection.medications.medication_guidance_2.v1",
+    "suture_removal_or_wound_check_no_infection.return_precautions.return_precaution_1.v1",
+    "suture_removal_or_wound_check_no_infection.return_precautions.return_precaution_2.v1",
+    "suture_removal_or_wound_check_no_infection.return_precautions.return_precaution_3.v1",
+    "suture_removal_or_wound_check_no_infection.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.suture_care",
+    "medlineplus.cuts_puncture_wounds"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports suture/staple wound care, infection warning signs, and following clinician instructions for wound care and removal timing. It does not support autonomous ED decisions about whether a wound is ready for removal, so runtime requires clinician-documented readiness and no infection/dehiscence concern."
+  },
+  "runtime": {
+    "condition_terms": [
+      "suture removal wound check",
+      "suture removal no infection",
+      "staple removal no infection",
+      "wound check no infection"
+    ],
+    "unsafe_modifiers": [
+      "wound_infection_concern",
+      "wound_dehiscence",
+      "wound_not_ready_for_suture_removal",
+      "retained_foreign_body",
+      "hand_tendon_risk",
+      "joint_violation",
+      "high_risk_wound_location",
+      "open_fracture",
+      "bite_wound",
+      "dirty_wound",
+      "poor_follow_up",
+      "immunocompromised",
+      "diabetic_foot",
+      "pediatric_pathway",
+      "specialist_directed_wound_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_documented_expected_healing_or_clearance",
+        "terms": [
+          "wound healing as expected",
+          "clinician documented wound healing as expected",
+          "wound cleared at this visit",
+          "clinician cleared wound at this visit",
+          "ready for suture removal",
+          "ready for staple removal",
+          "clinician documented wound check"
+        ]
+      },
+      {
+        "id": "clinician_entered_wound_follow_up_plan",
+        "terms": [
+          "wound follow up plan documented",
+          "wound schedule documented",
+          "suture removal schedule documented",
+          "staple removal schedule documented",
+          "clinician entered wound follow up plan"
+        ]
+      },
+      {
+        "id": "structured_absence_of_wound_red_flags",
+        "terms": [
+          "no wound infection concern",
+          "no wound red flags documented",
+          "no dehiscence infection foreign body tendon nerve vascular concern",
+          "no infection dehiscence foreign body tendon nerve vascular high risk location concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "suture removal wound check",
+      "suture removal no infection",
+      "staple removal no infection",
+      "wound check no infection"
+    ],
+    "output_modifiers": [
+      {
+        "id": "diabetes_general_risk",
+        "label": "Diabetes wound-healing modifier",
+        "note": "Flag higher infection/dehiscence risk and confirm clinician-entered follow-up."
+      },
+      {
+        "id": "peripheral_vascular_disease",
+        "label": "Peripheral vascular disease wound-healing modifier",
+        "note": "Flag slower healing risk and confirm clinician-entered follow-up."
+      },
+      {
+        "id": "anticoagulated",
+        "label": "Anticoagulation bleeding modifier",
+        "note": "Flag bleeding risk while preserving the no-infection wound-check pathway."
+      }
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Phase 222 clinician feedback applied. Approved for narrow ontology mode after antibiotics scope conflict was removed and runtime gate was tightened to expected healing or explicit wound clearance plus clinician-entered follow-up plan.",
+    "clinical_status": "reviewed_for_limited_production_ontology_use",
+    "required_modifiers": [],
+    "blocked_modifiers": [
+      "wound_infection_concern",
+      "wound_dehiscence",
+      "wound_not_ready_for_suture_removal",
+      "retained_foreign_body",
+      "hand_tendon_risk",
+      "joint_violation",
+      "high_risk_wound_location",
+      "open_fracture",
+      "bite_wound",
+      "dirty_wound",
+      "poor_follow_up",
+      "immunocompromised",
+      "diabetic_foot",
+      "pediatric_pathway",
+      "specialist_directed_wound_plan"
+    ]
+  }
+}

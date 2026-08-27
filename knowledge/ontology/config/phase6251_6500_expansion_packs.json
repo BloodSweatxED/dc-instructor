@@ -1,0 +1,427 @@
+[
+  {
+    "id": "deltoid_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Deltoid contusion without fracture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "deltoid contusion no fracture",
+      "deltoid bruise no fracture",
+      "deltoid contusion",
+      "deltoid bruise"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit a deltoid bruise.",
+    "found": "Your clinician diagnosed a deltoid bruise. We did not find fracture, infection, open wound, or poor blood flow today.",
+    "home": [
+      "Rest the shoulder as needed.",
+      "Use ice wrapped in a cloth for short periods.",
+      "Return to normal activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not use medicine to push through worsening pain, numbness, or weakness."
+    ],
+    "return": [
+      "New numbness, weakness, blue fingers, pale fingers, or severe worsening pain.",
+      "New deformity, inability to use the area, fever, spreading redness, or drainage.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated deltoid contusion.",
+      "No fracture/dislocation concern, open wound, infection, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, open wound, infection concern, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Shoulder fracture or dislocation.",
+      "Rotator cuff rupture.",
+      "Neurovascular compromise.",
+      "Deep infection."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_deltoid_contusion",
+        "terms": [
+          "clinician diagnosis deltoid contusion",
+          "discharge diagnosis deltoid contusion",
+          "deltoid contusion diagnosed",
+          "deltoid bruise diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_deltoid",
+        "terms": [
+          "no fracture concern",
+          "neurovascular exam intact",
+          "no open wound"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis deltoid contusion",
+      "deltoid contusion diagnosed",
+      "deltoid bruise diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus bruise material supports contusion self-care, simple comfort measures, and escalation for worsening pain, swelling, infection signs, or concerning symptoms. This expansion is limited to clinician-diagnosed deltoid contusion with fracture, wound, infection, neurovascular, high-energy trauma, pregnancy/pediatric, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_deltoid_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of deltoid contusion",
+      "no fracture concern",
+      "no open wound or infection",
+      "intact neurovascular exam"
+    ],
+    "review_date": "2026-06-30"
+  },
+  {
+    "id": "clavicle_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Clavicle contusion without fracture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "clavicle contusion no fracture",
+      "clavicle bruise no fracture",
+      "clavicle contusion",
+      "clavicle bruise"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit a clavicle bruise.",
+    "found": "Your clinician diagnosed a clavicle bruise. We did not find fracture, infection, open wound, or poor blood flow today.",
+    "home": [
+      "Rest the shoulder area as needed.",
+      "Use ice wrapped in a cloth for short periods.",
+      "Return to normal activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not use medicine to push through worsening pain, numbness, or weakness."
+    ],
+    "return": [
+      "New numbness, weakness, blue fingers, pale fingers, or severe worsening pain.",
+      "New deformity, inability to use the area, fever, spreading redness, or drainage.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated clavicle contusion.",
+      "No fracture/dislocation concern, open wound, infection, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, open wound, infection concern, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Clavicle fracture.",
+      "Sternoclavicular injury.",
+      "Neurovascular compromise.",
+      "Pneumothorax when chest symptoms are present."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_clavicle_contusion",
+        "terms": [
+          "clinician diagnosis clavicle contusion",
+          "discharge diagnosis clavicle contusion",
+          "clavicle contusion diagnosed",
+          "clavicle bruise diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_clavicle",
+        "terms": [
+          "no fracture concern",
+          "neurovascular exam intact",
+          "no open wound"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis clavicle contusion",
+      "clavicle contusion diagnosed",
+      "clavicle bruise diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus bruise material supports contusion self-care, simple comfort measures, and escalation for worsening pain, swelling, infection signs, or concerning symptoms. This expansion is limited to clinician-diagnosed clavicle contusion with fracture, wound, infection, neurovascular, high-energy trauma, pregnancy/pediatric, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_clavicle_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of clavicle contusion",
+      "no fracture concern",
+      "no open wound or infection",
+      "intact neurovascular exam"
+    ],
+    "review_date": "2026-06-30"
+  },
+  {
+    "id": "biceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "label": "Biceps strain without rupture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "biceps strain no rupture",
+      "biceps muscle strain",
+      "biceps strain"
+    ],
+    "source_card_ids": [
+      "medlineplus.sprains_strains"
+    ],
+    "summary": "Your symptoms fit a biceps strain.",
+    "found": "Your clinician diagnosed a biceps strain. We did not find fracture, tendon rupture, infection, or poor blood flow today.",
+    "home": [
+      "Rest the arm from activity that makes pain worse.",
+      "Use ice, heat, gentle motion, support, or activity limits only as your clinician recommended.",
+      "Return to normal activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not use medicine to push through worsening pain, numbness, or weakness."
+    ],
+    "return": [
+      "New numbness, weakness, blue or pale fingers, or severe worsening pain.",
+      "A pop, new deformity, inability to use the arm, fever, spreading redness, or drainage.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, physical therapy, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated biceps strain.",
+      "No fracture/dislocation concern, tendon rupture concern, infection, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, tendon rupture concern, open wound, infection concern, neurovascular compromise, high-energy trauma, inability to use the limb, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Biceps tendon rupture.",
+      "Humerus fracture.",
+      "Neurovascular compromise.",
+      "Compartment syndrome."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "unable_to_use_limb",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_biceps_strain",
+        "terms": [
+          "clinician diagnosis biceps strain",
+          "discharge diagnosis biceps strain",
+          "biceps strain diagnosed"
+        ]
+      },
+      {
+        "id": "no_rupture_or_neurovascular_red_flags_biceps",
+        "terms": [
+          "no tendon rupture",
+          "no fracture concern",
+          "neurovascular exam intact"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis biceps strain",
+      "biceps strain diagnosed",
+      "biceps muscle strain"
+    ],
+    "source_audit_notes": "MedlinePlus sprain and strain material supports rest, activity modification, symptom care, gradual return, and escalation for worsening pain, swelling, numbness, or inability to move. This expansion is limited to clinician-diagnosed biceps strain with rupture, fracture, wound, infection, neurovascular, high-energy trauma, pregnancy/pediatric, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_biceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of biceps strain",
+      "no tendon rupture concern",
+      "no fracture concern",
+      "intact neurovascular exam"
+    ],
+    "review_date": "2026-06-30"
+  },
+  {
+    "id": "triceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "label": "Triceps strain without rupture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "triceps strain no rupture",
+      "triceps muscle strain",
+      "triceps strain"
+    ],
+    "source_card_ids": [
+      "medlineplus.sprains_strains"
+    ],
+    "summary": "Your symptoms fit a triceps strain.",
+    "found": "Your clinician diagnosed a triceps strain. We did not find fracture, tendon rupture, infection, or poor blood flow today.",
+    "home": [
+      "Rest the arm from activity that makes pain worse.",
+      "Use ice, heat, gentle motion, support, or activity limits only as your clinician recommended.",
+      "Return to normal activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not use medicine to push through worsening pain, numbness, or weakness."
+    ],
+    "return": [
+      "New numbness, weakness, blue or pale fingers, or severe worsening pain.",
+      "A pop, new deformity, inability to use the arm, fever, spreading redness, or drainage.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, physical therapy, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated triceps strain.",
+      "No fracture/dislocation concern, tendon rupture concern, infection, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, tendon rupture concern, open wound, infection concern, neurovascular compromise, high-energy trauma, inability to use the limb, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Triceps tendon rupture.",
+      "Elbow or humerus fracture.",
+      "Neurovascular compromise.",
+      "Compartment syndrome."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "unable_to_use_limb",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_triceps_strain",
+        "terms": [
+          "clinician diagnosis triceps strain",
+          "discharge diagnosis triceps strain",
+          "triceps strain diagnosed"
+        ]
+      },
+      {
+        "id": "no_rupture_or_neurovascular_red_flags_triceps",
+        "terms": [
+          "no tendon rupture",
+          "no fracture concern",
+          "neurovascular exam intact"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis triceps strain",
+      "triceps strain diagnosed",
+      "triceps muscle strain"
+    ],
+    "source_audit_notes": "MedlinePlus sprain and strain material supports rest, activity modification, symptom care, gradual return, and escalation for worsening pain, swelling, numbness, or inability to move. This expansion is limited to clinician-diagnosed triceps strain with rupture, fracture, wound, infection, neurovascular, high-energy trauma, pregnancy/pediatric, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_triceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of triceps strain",
+      "no tendon rupture concern",
+      "no fracture concern",
+      "intact neurovascular exam"
+    ],
+    "review_date": "2026-06-30"
+  },
+  {
+    "id": "deltoid_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "label": "Deltoid strain without rupture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "deltoid strain no rupture",
+      "deltoid muscle strain",
+      "deltoid strain"
+    ],
+    "source_card_ids": [
+      "medlineplus.sprains_strains"
+    ],
+    "summary": "Your symptoms fit a deltoid strain.",
+    "found": "Your clinician diagnosed a deltoid strain. We did not find fracture, tendon rupture, infection, or poor blood flow today.",
+    "home": [
+      "Rest the shoulder from activity that makes pain worse.",
+      "Use ice, heat, gentle motion, support, or activity limits only as your clinician recommended.",
+      "Return to normal activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not use medicine to push through worsening pain, numbness, or weakness."
+    ],
+    "return": [
+      "New numbness, weakness, blue or pale fingers, or severe worsening pain.",
+      "A pop, new deformity, inability to use the arm, fever, spreading redness, or drainage.",
+      "Symptoms that worsen or do not improve as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, physical therapy, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated deltoid strain.",
+      "No fracture/dislocation concern, tendon rupture concern, infection, neurovascular compromise, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, tendon rupture concern, open wound, infection concern, neurovascular compromise, high-energy trauma, inability to use the limb, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Rotator cuff rupture.",
+      "Shoulder fracture or dislocation.",
+      "Neurovascular compromise.",
+      "Referred chest pain when symptoms are not clearly shoulder strain."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "unable_to_use_limb",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_deltoid_strain",
+        "terms": [
+          "clinician diagnosis deltoid strain",
+          "discharge diagnosis deltoid strain",
+          "deltoid strain diagnosed"
+        ]
+      },
+      {
+        "id": "no_rupture_or_neurovascular_red_flags_deltoid",
+        "terms": [
+          "no tendon rupture",
+          "no fracture concern",
+          "neurovascular exam intact"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis deltoid strain",
+      "deltoid strain diagnosed",
+      "deltoid muscle strain"
+    ],
+    "source_audit_notes": "MedlinePlus sprain and strain material supports rest, activity modification, symptom care, gradual return, and escalation for worsening pain, swelling, numbness, or inability to move. This expansion is limited to clinician-diagnosed deltoid strain with rupture, fracture, wound, infection, neurovascular, high-energy trauma, pregnancy/pediatric, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_deltoid_strain_uncomplicated_no_rupture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of deltoid strain",
+      "no tendon rupture concern",
+      "no fracture concern",
+      "intact neurovascular exam"
+    ],
+    "review_date": "2026-06-30"
+  }
+]

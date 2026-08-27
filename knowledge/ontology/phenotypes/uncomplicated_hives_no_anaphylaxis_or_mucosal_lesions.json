@@ -1,0 +1,126 @@
+{
+  "id": "uncomplicated_hives_no_anaphylaxis_or_mucosal_lesions",
+  "label": "Uncomplicated hives without anaphylaxis or mucosal lesions",
+  "status": "reviewed",
+  "condition_family": "allergy_skin",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated hives or urticaria.",
+    "No anaphylaxis, airway symptoms, mucosal lesions, systemic illness, pregnancy/pediatric pathway, or specialist-directed allergy plan."
+  ],
+  "exclusion_criteria": [
+    "Anaphylaxis, airway symptoms, mucosal lesions, skin peeling, target lesions, systemic illness, infection concern, pregnancy/pediatric pathway, or specialist-directed allergy plan."
+  ],
+  "must_not_miss": [
+    "Anaphylaxis.",
+    "Airway swelling.",
+    "Severe cutaneous adverse reaction.",
+    "Systemic illness."
+  ],
+  "default_follow_up": "Follow up with primary care, allergy, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "uncomplicated_hives_no_anaphylaxis_or_mucosal_lesions.diagnosis.diagnosis_summary.v1",
+    "uncomplicated_hives_no_anaphylaxis_or_mucosal_lesions.what_we_found.reassuring_ed_assessment.v1",
+    "uncomplicated_hives_no_anaphylaxis_or_mucosal_lesions.home_care.home_care_1.v1",
+    "uncomplicated_hives_no_anaphylaxis_or_mucosal_lesions.home_care.home_care_2.v1",
+    "uncomplicated_hives_no_anaphylaxis_or_mucosal_lesions.home_care.home_care_3.v1",
+    "uncomplicated_hives_no_anaphylaxis_or_mucosal_lesions.medications.medication_guidance_1.v1",
+    "uncomplicated_hives_no_anaphylaxis_or_mucosal_lesions.medications.medication_guidance_2.v1",
+    "uncomplicated_hives_no_anaphylaxis_or_mucosal_lesions.return_precautions.return_precaution_1.v1",
+    "uncomplicated_hives_no_anaphylaxis_or_mucosal_lesions.return_precautions.return_precaution_2.v1",
+    "uncomplicated_hives_no_anaphylaxis_or_mucosal_lesions.return_precautions.return_precaution_3.v1",
+    "uncomplicated_hives_no_anaphylaxis_or_mucosal_lesions.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.hives"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports hives framing, trigger avoidance, antihistamine use, and emergency warning signs for breathing or throat symptoms. Autonomous expansion approved this narrow v1 only for clinician-diagnosed uncomplicated hives without anaphylaxis, mucosal lesions, systemic illness, pregnancy/pediatric pathway, or specialist-directed allergy plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "uncomplicated hives",
+      "hives uncomplicated",
+      "urticaria uncomplicated",
+      "localized hives"
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "systemic_illness",
+      "biphasic_reaction_concern",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_allergy_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_hives",
+        "terms": [
+          "clinician diagnosis uncomplicated hives",
+          "discharge diagnosis uncomplicated hives",
+          "hives diagnosed",
+          "urticaria diagnosed"
+        ]
+      },
+      {
+        "id": "no_anaphylaxis_or_mucosal_lesions_documented",
+        "terms": [
+          "no anaphylaxis",
+          "no airway symptoms",
+          "no mucosal lesions",
+          "no skin peeling"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis uncomplicated hives",
+      "hives diagnosed",
+      "urticaria diagnosed",
+      "uncomplicated hives"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-19",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports hives framing, trigger avoidance, antihistamine use, and emergency warning signs for breathing or throat symptoms. Autonomous expansion approved this narrow v1 only for clinician-diagnosed uncomplicated hives without anaphylaxis, mucosal lesions, systemic illness, pregnancy/pediatric pathway, or specialist-directed allergy plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_hives_without_anaphylaxis_or_mucosal_lesions_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated hives or urticaria",
+      "no anaphylaxis, airway symptoms, mucosal lesions, systemic illness, or specialist-directed allergy plan documented"
+    ],
+    "blocked_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "mucosal_lesions",
+      "systemic_illness",
+      "biphasic_reaction_concern",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_allergy_plan"
+    ]
+  }
+}

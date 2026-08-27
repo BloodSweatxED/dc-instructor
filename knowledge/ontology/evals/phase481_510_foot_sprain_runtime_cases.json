@@ -1,0 +1,121 @@
+[
+  {
+    "id": "phase481_foot_clean_reviewed_ontology",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Foot sprain xray negative. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase482_foot_strain_clean_reviewed_ontology",
+    "condition": "foot strain xray negative",
+    "ed_note": "Foot strain xray negative. X-ray performed and negative. CMS intact.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase483_foot_injury_no_fracture_phrase_reviewed_ontology",
+    "condition": "foot injury xray negative",
+    "ed_note": "Foot injury xray negative. No fracture seen on x-ray. Foot pulses sensation movement intact.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase484_foot_no_xray_blocks",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Foot sprain xray negative. No imaging. Neurovascular exam intact.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["no_xray_performed"]
+  },
+  {
+    "id": "phase485_foot_fracture_seen_blocks",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Foot sprain xray negative. X-ray performed and negative. Fracture seen. Neurovascular exam intact.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["fracture_seen"]
+  },
+  {
+    "id": "phase486_foot_lisfranc_midfoot_blocks",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Foot sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Midfoot pain and plantar ecchymosis documented.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["lisfranc_or_midfoot_concern"]
+  },
+  {
+    "id": "phase487_foot_unable_to_bear_weight_blocks",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Foot sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Patient cannot bear weight.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["unable_to_bear_weight_lower_extremity"]
+  },
+  {
+    "id": "phase488_foot_neurovascular_compromise_blocks",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Foot sprain xray negative. X-ray performed and negative. Numb toes documented.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["neurovascular_compromise"]
+  },
+  {
+    "id": "phase488_a_foot_high_energy_mechanism_blocks",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Foot sprain xray negative. X-ray performed and negative. Neurovascular exam intact. High energy trauma from motor vehicle crash.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["high_energy_trauma"]
+  },
+  {
+    "id": "phase488_b_foot_cannot_ambulate_at_discharge_blocks",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Foot sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Patient discharged non-ambulatory.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["cannot_ambulate_at_discharge"]
+  },
+  {
+    "id": "phase488_c_foot_pediatric_growth_plate_blocks",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Child with sprain. Foot sprain xray negative. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["pediatric_growth_plate_pathway"]
+  },
+  {
+    "id": "phase489_ankle_sprain_path_unaffected",
+    "condition": "ankle sprain xray negative",
+    "ed_note": "Ankle sprain xray negative. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "ankle_sprain_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase490_foot_ankle_pathway_blocks_foot_draft",
+    "condition": "foot sprain xray negative",
+    "ed_note": "Foot sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Ankle sprain pathway documented.",
+    "expected_phenotype_id": "foot_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["ankle_sprain_pathway"]
+  },
+  {
+    "id": "phase491_broad_foot_pain_no_match",
+    "condition": "foot pain",
+    "ed_note": "Foot pain without final sprain diagnosis or x-ray result.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase492_elbow_overuse_unaffected_by_foot_draft",
+    "condition": "elbow overuse strain xray negative",
+    "ed_note": "Adult with elbow overuse strain. X-ray performed and negative. Neurovascular exam intact including hand motor. No acute traumatic mechanism. No elbow instability concern.",
+    "expected_phenotype_id": "elbow_sprain_overuse_xray_negative",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  }
+]

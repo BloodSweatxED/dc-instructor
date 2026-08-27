@@ -1,0 +1,128 @@
+{
+  "id": "foot_strain_uncomplicated_no_fracture_or_diabetic_foot",
+  "label": "Foot strain without fracture or diabetic-foot red flags",
+  "status": "reviewed",
+  "condition_family": "musculoskeletal",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated foot strain.",
+    "No fracture concern, tendon rupture concern, infection, diabetic-foot pathway, or neurovascular compromise."
+  ],
+  "exclusion_criteria": [
+    "Fracture or dislocation concern, tendon rupture concern, open wound, infection, diabetic foot, peripheral vascular disease, neuropathy, inability to bear weight, high-energy trauma, or specialist-directed podiatry plan."
+  ],
+  "must_not_miss": [
+    "Foot fracture.",
+    "Tendon rupture.",
+    "Diabetic foot infection.",
+    "Neurovascular compromise."
+  ],
+  "default_follow_up": "Follow up with primary care, podiatry, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "foot_strain_uncomplicated_no_fracture_or_diabetic_foot.diagnosis.diagnosis_summary.v1",
+    "foot_strain_uncomplicated_no_fracture_or_diabetic_foot.what_we_found.reassuring_ed_assessment.v1",
+    "foot_strain_uncomplicated_no_fracture_or_diabetic_foot.home_care.home_care_1.v1",
+    "foot_strain_uncomplicated_no_fracture_or_diabetic_foot.home_care.home_care_2.v1",
+    "foot_strain_uncomplicated_no_fracture_or_diabetic_foot.home_care.home_care_3.v1",
+    "foot_strain_uncomplicated_no_fracture_or_diabetic_foot.medications.medication_guidance_1.v1",
+    "foot_strain_uncomplicated_no_fracture_or_diabetic_foot.medications.medication_guidance_2.v1",
+    "foot_strain_uncomplicated_no_fracture_or_diabetic_foot.return_precautions.return_precaution_1.v1",
+    "foot_strain_uncomplicated_no_fracture_or_diabetic_foot.return_precautions.return_precaution_2.v1",
+    "foot_strain_uncomplicated_no_fracture_or_diabetic_foot.return_precautions.return_precaution_3.v1",
+    "foot_strain_uncomplicated_no_fracture_or_diabetic_foot.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.sprains_strains"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus sprain and strain material supports rest, symptom care, gradual return, and escalation for worsening pain, swelling, numbness, or inability to move. This expansion is limited to clinician-diagnosed foot strain with fracture, rupture, diabetic-foot, infection, and neurovascular red flags absent."
+  },
+  "runtime": {
+    "condition_terms": [
+      "foot strain no fracture",
+      "foot muscle strain",
+      "foot strain"
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "neurovascular_compromise",
+      "specialist_directed_podiatry_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_foot_strain",
+        "terms": [
+          "clinician diagnosis foot strain",
+          "discharge diagnosis foot strain",
+          "foot strain diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_diabetic_foot_red_flags_foot_strain",
+        "terms": [
+          "no fracture concern",
+          "no diabetic foot",
+          "neurovascular exam intact"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "foot strain no fracture",
+      "foot muscle strain",
+      "clinician diagnosis foot strain"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-21",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus sprain and strain material supports rest, symptom care, gradual return, and escalation for worsening pain, swelling, numbness, or inability to move. This expansion is limited to clinician-diagnosed foot strain with fracture, rupture, diabetic-foot, infection, and neurovascular red flags absent.",
+    "clinical_status": "reviewed_for_limited_foot_strain_uncomplicated_no_fracture_or_diabetic_foot_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of foot strain",
+      "no fracture concern",
+      "no diabetic-foot pathway",
+      "intact neurovascular exam"
+    ],
+    "blocked_modifiers": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "neurovascular_compromise",
+      "specialist_directed_podiatry_plan"
+    ]
+  }
+}

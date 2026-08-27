@@ -1,0 +1,436 @@
+[
+  {
+    "id": "lower_back_contusion_uncomplicated_no_spine_or_neuro_red_flags",
+    "label": "Lower back contusion without spine or neurologic red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "lower back contusion",
+      "lumbar contusion",
+      "low back bruise"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise",
+      "medlineplus.low_back_pain_acute"
+    ],
+    "summary": "Your symptoms fit an uncomplicated lower back contusion.",
+    "found": "Your clinician diagnosed a lower back contusion. We did not find spine fracture concern, neurologic deficit, cauda equina symptoms, infection concern, or another back emergency today.",
+    "home": [
+      "Rest the lower back from activity that makes pain worse.",
+      "Use ice, heat, gentle motion, support, or activity limits only as your clinician recommended.",
+      "Return to normal activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not use medicine to push through worsening pain, numbness, or weakness."
+    ],
+    "return": [
+      "New leg weakness, numbness, saddle numbness, trouble urinating, loss of bowel control, or trouble walking.",
+      "New deformity, severe worsening pain, inability to use the area, or a new injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, spine clinic, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated lower back contusion.",
+      "No spine fracture concern, new neurologic deficit, cauda equina concern, spinal infection concern, severe pain, pregnancy/pediatric pathway, or specialist-directed spine plan."
+    ],
+    "exclusion": [
+      "Spine fracture or major trauma concern, cauda equina symptoms, new neurologic deficit, spinal infection concern, severe or progressive pain, pregnancy/pediatric pathway, or specialist-directed spine plan."
+    ],
+    "must_not_miss": [
+      "Spine fracture.",
+      "Cauda equina syndrome.",
+      "Spinal infection.",
+      "New neurologic deficit."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_trauma_concern",
+      "cauda_equina_concern",
+      "new_neurologic_deficit",
+      "spinal_infection_concern",
+      "severe_pain",
+      "specialist_directed_spine_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_lower_back_contusion",
+        "terms": [
+          "clinician diagnosis lower back contusion",
+          "discharge diagnosis lower back contusion",
+          "lower back contusion diagnosed",
+          "lumbar contusion diagnosed"
+        ]
+      },
+      {
+        "id": "no_spine_or_neuro_red_flags_lower_back_contusion",
+        "terms": [
+          "no spine red flags",
+          "no neurologic deficit",
+          "no cauda equina symptoms",
+          "no fracture concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis lower back contusion",
+      "lower back contusion diagnosed",
+      "lumbar contusion diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus supports bruise/contusion care and conservative low-back red-flag escalation. This expansion is limited to clinician-diagnosed uncomplicated lower back contusion with spine fracture, neurologic, cauda equina, and infection red flags absent.",
+    "clinical_status": "reviewed_for_limited_lower_back_contusion_without_spine_or_neuro_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of uncomplicated lower back contusion",
+      "no spine fracture concern",
+      "no neurologic deficit or cauda equina symptoms",
+      "no spinal infection concern"
+    ],
+    "review_date": "2026-06-29"
+  },
+  {
+    "id": "neck_contusion_uncomplicated_no_spine_or_neuro_red_flags",
+    "label": "Neck contusion without spine or neurologic red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "neck contusion",
+      "neck bruise",
+      "cervical soft tissue contusion"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise",
+      "medlineplus.neck_injuries_disorders"
+    ],
+    "summary": "Your symptoms fit an uncomplicated neck contusion.",
+    "found": "Your clinician diagnosed a neck contusion. We did not find cervical spine fracture concern, midline cervical tenderness, neurologic deficit, or another neck emergency today.",
+    "home": [
+      "Rest the neck from activity that makes pain worse.",
+      "Use ice, heat, gentle motion, support, or activity limits only as your clinician recommended.",
+      "Return to normal activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not use medicine to push through worsening pain, numbness, or weakness."
+    ],
+    "return": [
+      "New arm or leg weakness, numbness, trouble walking, severe headache, or worsening neck pain.",
+      "New deformity, severe worsening pain, inability to use the area, or a new injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, spine clinic, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated neck contusion.",
+      "No cervical spine fracture concern, midline cervical tenderness, neurologic deficit, infection concern, pregnancy/pediatric pathway, or specialist-directed spine plan."
+    ],
+    "exclusion": [
+      "Cervical spine fracture or major trauma concern, midline cervical tenderness, new neurologic deficit, severe pain, infection concern, pregnancy/pediatric pathway, or specialist-directed spine plan."
+    ],
+    "must_not_miss": [
+      "Cervical spine fracture.",
+      "Spinal cord injury.",
+      "Vascular or neurologic emergency.",
+      "Deep neck infection."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_trauma_concern",
+      "midline_cervical_tenderness",
+      "new_neurologic_deficit",
+      "severe_pain",
+      "systemic_illness",
+      "specialist_directed_spine_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_neck_contusion",
+        "terms": [
+          "clinician diagnosis neck contusion",
+          "discharge diagnosis neck contusion",
+          "neck contusion diagnosed"
+        ]
+      },
+      {
+        "id": "no_spine_or_neuro_red_flags_neck_contusion",
+        "terms": [
+          "no midline cervical tenderness",
+          "no neurologic deficit",
+          "no fracture concern",
+          "neurovascular exam intact"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis neck contusion",
+      "neck contusion diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus supports bruise/contusion care and neck-injury red-flag escalation. This expansion is limited to clinician-diagnosed uncomplicated neck contusion with cervical spine and neurologic red flags absent.",
+    "clinical_status": "reviewed_for_limited_neck_contusion_without_spine_or_neuro_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of uncomplicated neck contusion",
+      "no midline cervical tenderness",
+      "no neurologic deficit",
+      "no fracture concern"
+    ],
+    "review_date": "2026-06-29"
+  },
+  {
+    "id": "buttock_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Buttock contusion without fracture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "buttock contusion",
+      "buttock bruise",
+      "gluteal contusion"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit an uncomplicated buttock contusion.",
+    "found": "Your clinician diagnosed a buttock contusion. We did not find fracture, dislocation, neurologic deficit, poor blood flow, or another emergency today.",
+    "home": [
+      "Rest the sore area from activity that makes pain worse.",
+      "Use ice, heat, gentle motion, support, or activity limits only as your clinician recommended.",
+      "Return to normal activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not use medicine to push through worsening pain, numbness, or weakness."
+    ],
+    "return": [
+      "New numbness, weakness, trouble walking, color change, or worsening swelling.",
+      "New deformity, severe worsening pain, inability to use the area, or a new injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated buttock contusion.",
+      "No fracture/dislocation concern, neurovascular compromise, severe pain, compartment syndrome concern, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, neurovascular compromise, severe pain, compartment syndrome concern, inability to walk, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Pelvic or hip fracture.",
+      "Neurovascular compromise.",
+      "Compartment syndrome.",
+      "Deep infection."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "compartment_syndrome_concern",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_buttock_contusion",
+        "terms": [
+          "clinician diagnosis buttock contusion",
+          "discharge diagnosis buttock contusion",
+          "buttock contusion diagnosed",
+          "gluteal contusion diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_buttock_contusion",
+        "terms": [
+          "no fracture concern",
+          "neurovascular exam intact",
+          "able to walk",
+          "no severe pain"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis buttock contusion",
+      "buttock contusion diagnosed",
+      "gluteal contusion diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus supports bruise/contusion care, activity modification, and escalation for severe pain, swelling, numbness, weakness, color change, or function loss. This expansion is limited to clinician-diagnosed uncomplicated buttock contusion with fracture, neurovascular, and high-risk trauma red flags absent.",
+    "clinical_status": "reviewed_for_limited_buttock_contusion_without_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of uncomplicated buttock contusion",
+      "no fracture concern",
+      "intact neurovascular exam",
+      "able to walk"
+    ],
+    "review_date": "2026-06-29"
+  },
+  {
+    "id": "gluteal_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "label": "Gluteal strain without rupture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "gluteal strain",
+      "buttock muscle strain",
+      "pulled gluteal muscle"
+    ],
+    "source_card_ids": [
+      "medlineplus.sprains_strains"
+    ],
+    "summary": "Your symptoms fit an uncomplicated gluteal strain.",
+    "found": "Your clinician diagnosed a gluteal strain. We did not find tendon rupture, fracture, neurologic deficit, poor blood flow, or another emergency today.",
+    "home": [
+      "Rest the sore muscle from activity that makes pain worse.",
+      "Use ice, heat, gentle motion, support, or activity limits only as your clinician recommended.",
+      "Return to normal activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not use medicine to push through worsening pain, numbness, or weakness."
+    ],
+    "return": [
+      "New numbness, weakness, trouble walking, color change, or severe worsening pain.",
+      "New deformity, severe worsening pain, inability to use the area, or a new injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated gluteal strain.",
+      "No tendon rupture, fracture/dislocation concern, neurovascular compromise, severe pain, inability to bear weight, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Tendon rupture, fracture or dislocation concern, neurovascular compromise, severe pain, inability to bear weight, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Tendon rupture.",
+      "Hip or pelvic fracture.",
+      "Neurovascular compromise.",
+      "Compartment syndrome."
+    ],
+    "unsafe_modifiers": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_gluteal_strain",
+        "terms": [
+          "clinician diagnosis gluteal strain",
+          "discharge diagnosis gluteal strain",
+          "gluteal strain diagnosed",
+          "buttock muscle strain diagnosed"
+        ]
+      },
+      {
+        "id": "no_rupture_or_neurovascular_red_flags_gluteal_strain",
+        "terms": [
+          "no tendon rupture",
+          "neurovascular exam intact",
+          "no fracture concern",
+          "able to walk"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis gluteal strain",
+      "gluteal strain diagnosed",
+      "buttock muscle strain diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus supports sprain/strain care, rest, gradual return to activity, and escalation for severe pain, numbness, weakness, color change, or inability to use the limb. This expansion is limited to clinician-diagnosed uncomplicated gluteal strain with rupture, fracture, and neurovascular red flags absent.",
+    "clinical_status": "reviewed_for_limited_gluteal_strain_without_rupture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of uncomplicated gluteal strain",
+      "no tendon rupture",
+      "no fracture concern",
+      "intact neurovascular exam",
+      "able to walk"
+    ],
+    "review_date": "2026-06-29"
+  },
+  {
+    "id": "toe_strain_uncomplicated_no_fracture_or_diabetic_foot",
+    "label": "Toe strain without fracture or diabetic-foot red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "toe strain",
+      "pulled toe muscle",
+      "toe muscle strain"
+    ],
+    "source_card_ids": [
+      "medlineplus.sprains_strains"
+    ],
+    "summary": "Your symptoms fit an uncomplicated toe strain.",
+    "found": "Your clinician diagnosed a toe strain. We did not find fracture, open wound, infection, poor blood flow, diabetic-foot red flags, or another toe emergency today.",
+    "home": [
+      "Rest the toe from activity that makes pain worse.",
+      "Use ice, heat, gentle motion, support, or activity limits only as your clinician recommended.",
+      "Return to normal activity gradually as symptoms improve."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not use medicine to push through worsening pain, numbness, or weakness."
+    ],
+    "return": [
+      "New numbness, blue or pale toe, black skin, inability to walk, or severe worsening pain.",
+      "New deformity, severe worsening pain, inability to use the area, or a new injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, podiatry, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated toe strain.",
+      "No fracture/dislocation concern, open wound, infection, diabetic-foot/PVD/neuropathy risk, neurovascular compromise, inability to bear weight, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Fracture or dislocation concern, open wound, infection concern, diabetic foot, PVD, neuropathy, neurovascular compromise, inability to bear weight, high-energy trauma, pregnancy/pediatric pathway, or specialist-directed podiatry/orthopedic plan."
+    ],
+    "must_not_miss": [
+      "Toe fracture or dislocation.",
+      "Open fracture.",
+      "Diabetic foot infection.",
+      "Neurovascular compromise."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "diabetic_foot",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_podiatry_plan",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_toe_strain",
+        "terms": [
+          "clinician diagnosis toe strain",
+          "discharge diagnosis toe strain",
+          "toe strain diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_diabetic_foot_red_flags_toe_strain",
+        "terms": [
+          "no fracture concern",
+          "no open wound",
+          "no infection",
+          "no diabetic foot",
+          "neurovascular exam intact"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis toe strain",
+      "toe strain diagnosed"
+    ],
+    "source_audit_notes": "MedlinePlus supports sprain/strain care, protection, activity modification, and warning signs. This expansion is limited to clinician-diagnosed uncomplicated toe strain with fracture, wound, infection, diabetic-foot, and neurovascular red flags absent.",
+    "clinical_status": "reviewed_for_limited_toe_strain_without_fracture_or_diabetic_foot_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of uncomplicated toe strain",
+      "no fracture concern",
+      "no open wound or infection",
+      "intact neurovascular exam",
+      "no diabetic-foot pathway"
+    ],
+    "review_date": "2026-06-29"
+  }
+]

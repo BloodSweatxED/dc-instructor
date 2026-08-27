@@ -1,0 +1,173 @@
+[
+  {
+    "id": "phase5001_lower_back_contusion_spine_or_neuro_red_flags_clean",
+    "condition": "lower back contusion",
+    "ed_note": "Adult. Clinician diagnosis lower back contusion. No spine red flags. No neurologic deficit. No cauda equina symptoms. No fracture concern.",
+    "expected_phenotype_id": "lower_back_contusion_uncomplicated_no_spine_or_neuro_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase5002_lower_back_contusion_spine_or_neuro_red_flags_missing_context_blocks",
+    "condition": "lower back contusion",
+    "ed_note": "Adult with lower back bruise.",
+    "expected_phenotype_id": "lower_back_contusion_uncomplicated_no_spine_or_neuro_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_lower_back_contusion",
+      "no_spine_or_neuro_red_flags_lower_back_contusion"
+    ]
+  },
+  {
+    "id": "phase5003_lower_back_contusion_spine_or_neuro_red_flags_unsafe_modifiers_block",
+    "condition": "lower back contusion",
+    "ed_note": "Adult. Clinician diagnosis lower back contusion. No spine red flags. No neurologic deficit. No cauda equina symptoms. No fracture concern. However fall, urinary retention, new leg weakness, fever with back pain, severe pain, and spine consulted are documented.",
+    "expected_phenotype_id": "lower_back_contusion_uncomplicated_no_spine_or_neuro_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_trauma_concern",
+      "cauda_equina_concern",
+      "new_neurologic_deficit",
+      "spinal_infection_concern",
+      "severe_pain",
+      "specialist_directed_spine_plan"
+    ]
+  },
+  {
+    "id": "phase5004_neck_contusion_spine_or_neuro_red_flags_clean",
+    "condition": "neck contusion",
+    "ed_note": "Adult. Clinician diagnosis neck contusion. No midline cervical tenderness. No neurologic deficit. No fracture concern. Neurovascular exam intact.",
+    "expected_phenotype_id": "neck_contusion_uncomplicated_no_spine_or_neuro_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase5005_neck_contusion_spine_or_neuro_red_flags_missing_context_blocks",
+    "condition": "neck contusion",
+    "ed_note": "Adult with neck bruise.",
+    "expected_phenotype_id": "neck_contusion_uncomplicated_no_spine_or_neuro_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_neck_contusion",
+      "no_spine_or_neuro_red_flags_neck_contusion"
+    ]
+  },
+  {
+    "id": "phase5006_neck_contusion_spine_or_neuro_red_flags_unsafe_modifiers_block",
+    "condition": "neck contusion",
+    "ed_note": "Adult. Clinician diagnosis neck contusion. No midline cervical tenderness. No neurologic deficit. No fracture concern. Neurovascular exam intact. However fall, c-spine tenderness, new weakness, severe pain, fever, and spine consulted are documented.",
+    "expected_phenotype_id": "neck_contusion_uncomplicated_no_spine_or_neuro_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_trauma_concern",
+      "midline_cervical_tenderness",
+      "new_neurologic_deficit",
+      "severe_pain",
+      "systemic_illness",
+      "specialist_directed_spine_plan"
+    ]
+  },
+  {
+    "id": "phase5007_buttock_contusion_fracture_or_neurovascular_red_flags_clean",
+    "condition": "buttock contusion",
+    "ed_note": "Adult. Clinician diagnosis buttock contusion. No fracture concern. Neurovascular exam intact. Able to walk. No severe pain.",
+    "expected_phenotype_id": "buttock_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase5008_buttock_contusion_fracture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "buttock contusion",
+    "ed_note": "Adult with buttock bruise.",
+    "expected_phenotype_id": "buttock_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_buttock_contusion",
+      "no_fracture_or_neurovascular_red_flags_buttock_contusion"
+    ]
+  },
+  {
+    "id": "phase5009_buttock_contusion_fracture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "buttock contusion",
+    "ed_note": "Adult. Clinician diagnosis buttock contusion. No fracture concern. Neurovascular exam intact. Able to walk. No severe pain. However broken bone, numb foot, severe pain, compartment syndrome, cannot walk, motor vehicle crash, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "buttock_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "compartment_syndrome_concern",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase5010_gluteal_strain_rupture_or_neurovascular_red_flags_clean",
+    "condition": "gluteal strain",
+    "ed_note": "Adult. Clinician diagnosis gluteal strain. No tendon rupture. Neurovascular exam intact. No fracture concern. Able to walk.",
+    "expected_phenotype_id": "gluteal_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase5011_gluteal_strain_rupture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "gluteal strain",
+    "ed_note": "Adult with buttock muscle strain.",
+    "expected_phenotype_id": "gluteal_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_gluteal_strain",
+      "no_rupture_or_neurovascular_red_flags_gluteal_strain"
+    ]
+  },
+  {
+    "id": "phase5012_gluteal_strain_rupture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "gluteal strain",
+    "ed_note": "Adult. Clinician diagnosis gluteal strain. No tendon rupture. Neurovascular exam intact. No fracture concern. Able to walk. However tendon rupture, broken bone, numb foot, severe pain, cannot walk, motor vehicle crash, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "gluteal_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase5013_toe_strain_fracture_or_diabetic_foot_clean",
+    "condition": "toe strain",
+    "ed_note": "Adult. Clinician diagnosis toe strain. No fracture concern. No open wound. No infection. No diabetic foot. Neurovascular exam intact.",
+    "expected_phenotype_id": "toe_strain_uncomplicated_no_fracture_or_diabetic_foot",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase5014_toe_strain_fracture_or_diabetic_foot_missing_context_blocks",
+    "condition": "toe strain",
+    "ed_note": "Adult with toe strain.",
+    "expected_phenotype_id": "toe_strain_uncomplicated_no_fracture_or_diabetic_foot",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_toe_strain",
+      "no_fracture_or_diabetic_foot_red_flags_toe_strain"
+    ]
+  },
+  {
+    "id": "phase5015_toe_strain_fracture_or_diabetic_foot_unsafe_modifiers_block",
+    "condition": "toe strain",
+    "ed_note": "Adult. Clinician diagnosis toe strain. No fracture concern. No open wound. No infection. No diabetic foot. Neurovascular exam intact. However broken bone, open wound, red warm joint, diabetes, poor circulation, numb foot, cannot walk, motor vehicle crash, podiatry consulted, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "toe_strain_uncomplicated_no_fracture_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "diabetes_general_risk",
+      "peripheral_vascular_disease",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "specialist_directed_podiatry_plan",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+]

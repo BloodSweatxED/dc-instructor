@@ -1,0 +1,13 @@
+{
+  "id": "medlineplus.dry_skin_self_care",
+  "source": "MedlinePlus",
+  "title": "Dry skin - self-care",
+  "url": "https://medlineplus.gov/ency/patientinstructions/000751.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Dry skin self-care includes moisturizing, gentle skin care, and avoiding drying triggers.",
+    "Cracks that bleed, infection signs, severe itching, or symptoms not improving need clinician follow-up."
+  ],
+  "use_policy": "evidence_support"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.ear_infections",
+  "source": "MedlinePlus",
+  "title": "Ear infections",
+  "url": "https://medlineplus.gov/earinfections.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "Ear infections can involve the middle ear and may cause ear pain, fever, or fluid-related symptoms.",
+    "Treatment decisions may include clinician-directed pain control, observation, or antibiotics depending on the case.",
+    "Patient education should include follow-up and escalation if symptoms worsen or concerning symptoms develop.",
+    "This source supports patient education, not ED-specific risk stratification."
+  ],
+  "use_policy": "evidence_support"
+}

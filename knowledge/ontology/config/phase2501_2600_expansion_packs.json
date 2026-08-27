@@ -1,0 +1,411 @@
+[
+  {
+    "id": "hand_contusion_uncomplicated_no_fracture_or_tendon_red_flags",
+    "label": "Hand contusion without fracture, tendon, or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "hand contusion",
+      "hand bruise",
+      "bruised hand"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit uncomplicated hand contusion.",
+    "found": "Your clinician diagnosed hand contusion. We did not find red flags requiring a separate emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, compression, elevation, gentle motion, or activity limits only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the limb.",
+      "New deformity, inability to use the area, or concern for fracture, dislocation, or tendon injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated hand contusion.",
+      "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Tendon rupture.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "hand_tendon_risk",
+      "neurovascular_compromise",
+      "severe_pain",
+      "open_wound",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_hand_contusion_no_fracture_or_tendon_red_flags",
+        "terms": [
+          "clinician diagnosis hand contusion",
+          "discharge diagnosis hand contusion",
+          "hand contusion diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_tendon_or_neurovascular_red_flags_hand",
+        "terms": [
+          "Clinician diagnosis hand contusion",
+          "No fracture concern",
+          "No tendon injury",
+          "Neurovascularly intact."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis hand contusion",
+      "hand contusion diagnosed",
+      "hand contusion"
+    ],
+    "source_audit_notes": "medlineplus.bruise supports patient-education framing for hand contusion and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_hand_contusion_uncomplicated_no_fracture_or_tendon_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated hand contusion",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "upper_arm_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Upper arm contusion without fracture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "upper arm contusion",
+      "upper arm bruise",
+      "bruised upper arm"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit uncomplicated upper arm contusion.",
+    "found": "Your clinician diagnosed upper arm contusion. We did not find red flags requiring a separate emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, compression, elevation, gentle motion, or activity limits only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the limb.",
+      "New deformity, inability to use the area, or concern for fracture, dislocation, or tendon injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated upper arm contusion.",
+      "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Tendon rupture.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "open_wound",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_upper_arm_contusion_no_fracture_or_neurovascular_red_f",
+        "terms": [
+          "clinician diagnosis upper arm contusion",
+          "discharge diagnosis upper arm contusion",
+          "upper arm contusion diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_upper_arm",
+        "terms": [
+          "Clinician diagnosis upper arm contusion",
+          "No fracture concern",
+          "Neurovascularly intact",
+          "No open wound."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis upper arm contusion",
+      "upper arm contusion diagnosed",
+      "upper arm contusion"
+    ],
+    "source_audit_notes": "medlineplus.bruise supports patient-education framing for upper arm contusion and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_upper_arm_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated upper arm contusion",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "lower_leg_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Lower leg contusion without fracture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "lower leg contusion",
+      "shin contusion",
+      "shin bruise",
+      "bruised lower leg"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit uncomplicated lower leg contusion.",
+    "found": "Your clinician diagnosed lower leg contusion. We did not find red flags requiring a separate emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, compression, elevation, gentle motion, or activity limits only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the limb.",
+      "New deformity, inability to use the area, or concern for fracture, dislocation, or tendon injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated lower leg contusion.",
+      "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Tendon rupture.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_lower_leg_contusion_no_fracture_or_neurovascular_red_f",
+        "terms": [
+          "clinician diagnosis lower leg contusion",
+          "discharge diagnosis lower leg contusion",
+          "lower leg contusion diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_lower_leg",
+        "terms": [
+          "Clinician diagnosis lower leg contusion",
+          "No fracture concern",
+          "Neurovascularly intact",
+          "Able to bear weight."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis lower leg contusion",
+      "lower leg contusion diagnosed",
+      "lower leg contusion"
+    ],
+    "source_audit_notes": "medlineplus.bruise supports patient-education framing for lower leg contusion and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_lower_leg_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated lower leg contusion",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "hip_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "label": "Hip contusion without fracture or neurovascular red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "hip contusion",
+      "hip bruise",
+      "bruised hip"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit uncomplicated hip contusion.",
+    "found": "Your clinician diagnosed hip contusion. We did not find red flags requiring a separate emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, compression, elevation, gentle motion, or activity limits only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the limb.",
+      "New deformity, inability to use the area, or concern for fracture, dislocation, or tendon injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated hip contusion.",
+      "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Tendon rupture.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity",
+      "elderly_frail",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_hip_contusion_no_fracture_or_neurovascular_red_flags",
+        "terms": [
+          "clinician diagnosis hip contusion",
+          "discharge diagnosis hip contusion",
+          "hip contusion diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_hip",
+        "terms": [
+          "Clinician diagnosis hip contusion",
+          "No fracture concern",
+          "Neurovascularly intact",
+          "Able to bear weight."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis hip contusion",
+      "hip contusion diagnosed",
+      "hip contusion"
+    ],
+    "source_audit_notes": "medlineplus.bruise supports patient-education framing for hip contusion and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_hip_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated hip contusion",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "toe_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+    "label": "Toe contusion without fracture or diabetic-foot red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "toe contusion",
+      "toe bruise",
+      "bruised toe"
+    ],
+    "source_card_ids": [
+      "medlineplus.bruise"
+    ],
+    "summary": "Your symptoms fit uncomplicated toe contusion.",
+    "found": "Your clinician diagnosed toe contusion. We did not find red flags requiring a separate emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, compression, elevation, gentle motion, or activity limits only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the limb.",
+      "New deformity, inability to use the area, or concern for fracture, dislocation, or tendon injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated toe contusion.",
+      "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Tendon rupture.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "diabetic_foot",
+      "open_wound",
+      "severe_pain",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_toe_contusion_no_fracture_or_diabetic_foot",
+        "terms": [
+          "clinician diagnosis toe contusion",
+          "discharge diagnosis toe contusion",
+          "toe contusion diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_diabetic_foot_red_flags_toe",
+        "terms": [
+          "Clinician diagnosis toe contusion",
+          "No fracture concern",
+          "Neurovascularly intact",
+          "No diabetic foot."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis toe contusion",
+      "toe contusion diagnosed",
+      "toe contusion"
+    ],
+    "source_audit_notes": "medlineplus.bruise supports patient-education framing for toe contusion and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_toe_contusion_uncomplicated_no_fracture_or_diabetic_foot_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated toe contusion",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "review_date": "2026-06-19"
+  }
+]

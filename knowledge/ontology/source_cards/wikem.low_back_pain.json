@@ -1,0 +1,14 @@
+{
+  "id": "wikem.low_back_pain",
+  "source": "WikEM",
+  "title": "Low back pain",
+  "url": "https://wikem.org/wiki/Low_back_pain",
+  "source_type": "open_clinical_wiki",
+  "license_notes": "WikEM content is generally CC BY-SA 3.0 unless otherwise noted. Use for ED phenotype mapping and red-flag structure. Avoid adapting text directly unless attribution and share-alike obligations are handled.",
+  "supports": [
+    "ED framing of low back pain red flags.",
+    "Must-not-miss diagnoses for back pain disposition.",
+    "Phenotype separation between uncomplicated mechanical pain and higher-risk back pain."
+  ],
+  "use_policy": "phenotype_map"
+}

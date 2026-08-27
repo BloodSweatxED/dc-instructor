@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.suture_care",
+  "source": "MedlinePlus",
+  "title": "Laceration - sutures or staples - at home",
+  "url": "https://medlineplus.gov/ency/patientinstructions/000498.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives unless reuse terms are confirmed for the exact content.",
+  "supports": [
+    "Sutures and staples are used to help wounds heal properly.",
+    "Patient education can include keeping the wound clean and following clinician instructions.",
+    "Warning signs include infection concern or the wound opening.",
+    "This source supports wound-care education, not autonomous decisions about removal timing or wound readiness."
+  ],
+  "use_policy": "evidence_support"
+}

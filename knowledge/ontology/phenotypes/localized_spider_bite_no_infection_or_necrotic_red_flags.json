@@ -1,0 +1,128 @@
+{
+  "id": "localized_spider_bite_no_infection_or_necrotic_red_flags",
+  "label": "Localized spider bite without infection or necrotic red flags",
+  "status": "reviewed",
+  "condition_family": "skin_soft_tissue",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of localized spider bite.",
+    "No anaphylaxis, systemic allergic reaction, secondary infection, necrotic spider or scorpion concern, tick-borne illness concern, snakebite concern, immunocompromised host, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Anaphylaxis, systemic allergic reaction, secondary infection, necrotic spider or scorpion concern, tick-borne illness concern, snakebite concern, immunocompromised host, or specialist-directed allergy/dermatology plan."
+  ],
+  "must_not_miss": [
+    "Cellulitis.",
+    "Abscess.",
+    "Necrotic spider bite.",
+    "Systemic allergic reaction."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, dermatology, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "localized_spider_bite_no_infection_or_necrotic_red_flags.diagnosis.diagnosis_summary.v1",
+    "localized_spider_bite_no_infection_or_necrotic_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "localized_spider_bite_no_infection_or_necrotic_red_flags.home_care.home_care_1.v1",
+    "localized_spider_bite_no_infection_or_necrotic_red_flags.home_care.home_care_2.v1",
+    "localized_spider_bite_no_infection_or_necrotic_red_flags.home_care.home_care_3.v1",
+    "localized_spider_bite_no_infection_or_necrotic_red_flags.medications.medication_guidance_1.v1",
+    "localized_spider_bite_no_infection_or_necrotic_red_flags.medications.medication_guidance_2.v1",
+    "localized_spider_bite_no_infection_or_necrotic_red_flags.return_precautions.return_precaution_1.v1",
+    "localized_spider_bite_no_infection_or_necrotic_red_flags.return_precautions.return_precaution_2.v1",
+    "localized_spider_bite_no_infection_or_necrotic_red_flags.return_precautions.return_precaution_3.v1",
+    "localized_spider_bite_no_infection_or_necrotic_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.insect_bites_and_stings"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus insect bite material supports local bite care, itch control, and escalation for allergic reactions, infection, or systemic symptoms. This expansion is limited to clinician-diagnosed localized spider bite with infection, anaphylaxis, necrotic spider, scorpion, tick-borne, and snakebite red flags absent."
+  },
+  "runtime": {
+    "condition_terms": [
+      "localized spider bite",
+      "spider bite local reaction",
+      "spider bite without infection"
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "immunocompromised",
+      "specialist_directed_allergy_plan",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_spider_bite",
+        "terms": [
+          "clinician diagnosis localized spider bite",
+          "discharge diagnosis localized spider bite",
+          "localized spider bite diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_necrotic_red_flags_spider_bite",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no necrotic spider concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized spider bite",
+      "localized spider bite diagnosed",
+      "localized spider bite"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-29",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus insect bite material supports local bite care, itch control, and escalation for allergic reactions, infection, or systemic symptoms. This expansion is limited to clinician-diagnosed localized spider bite with infection, anaphylaxis, necrotic spider, scorpion, tick-borne, and snakebite red flags absent.",
+    "clinical_status": "reviewed_for_limited_localized_spider_bite_no_infection_or_necrotic_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of localized spider bite",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection",
+      "no necrotic spider concern"
+    ],
+    "blocked_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "immunocompromised",
+      "specialist_directed_allergy_plan",
+      "specialist_directed_dermatology_plan"
+    ]
+  }
+}

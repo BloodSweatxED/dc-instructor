@@ -1,0 +1,141 @@
+{
+  "id": "blepharitis_uncomplicated_no_vision_or_orbital_red_flags",
+  "label": "Uncomplicated blepharitis without vision or orbital red flags",
+  "status": "reviewed",
+  "condition_family": "ophthalmology",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated blepharitis.",
+    "No contact lens pathway, vision change, severe eye pain, photophobia, trauma, foreign body, herpes or zoster concern, orbital or periorbital cellulitis concern, pregnancy, or immunocompromised-host pathway."
+  ],
+  "exclusion_criteria": [
+    "Vision change, severe eye pain, photophobia, pain with eye movement, proptosis, orbital or periorbital cellulitis concern.",
+    "Contact lens use, eye trauma, foreign body, chemical exposure, corneal ulcer or keratitis concern, herpes or zoster eye concern, acute glaucoma mimic.",
+    "Pregnancy, immunocompromised host, systemic illness, or specialist-directed ophthalmology plan."
+  ],
+  "must_not_miss": [
+    "Orbital cellulitis.",
+    "Periorbital cellulitis requiring separate plan.",
+    "Corneal ulcer or keratitis.",
+    "Acute glaucoma mimic."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, or eye care if symptoms are not improving, and sooner if any red flag develops.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "blepharitis_uncomplicated_no_vision_or_orbital_red_flags.diagnosis.diagnosis_summary.v1",
+    "blepharitis_uncomplicated_no_vision_or_orbital_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "blepharitis_uncomplicated_no_vision_or_orbital_red_flags.home_care.home_care_1.v1",
+    "blepharitis_uncomplicated_no_vision_or_orbital_red_flags.home_care.home_care_2.v1",
+    "blepharitis_uncomplicated_no_vision_or_orbital_red_flags.home_care.home_care_3.v1",
+    "blepharitis_uncomplicated_no_vision_or_orbital_red_flags.medications.medication_guidance_1.v1",
+    "blepharitis_uncomplicated_no_vision_or_orbital_red_flags.medications.medication_guidance_2.v1",
+    "blepharitis_uncomplicated_no_vision_or_orbital_red_flags.return_precautions.return_precaution_1.v1",
+    "blepharitis_uncomplicated_no_vision_or_orbital_red_flags.return_precautions.return_precaution_2.v1",
+    "blepharitis_uncomplicated_no_vision_or_orbital_red_flags.return_precautions.return_precaution_3.v1",
+    "blepharitis_uncomplicated_no_vision_or_orbital_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.blepharitis",
+    "medlineplus.eyelid_disorders"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports blepharitis framing, inflamed irritated itchy red eyelids, crusting at eyelash bases, eyelid cleaning and warm compresses, and separation from stye, chalazion, periorbital cellulitis, or orbital cellulitis. Autonomous Phase 1601-1650 approved this narrow v1 only for clinician-diagnosed uncomplicated blepharitis without contact lens use, vision change, severe eye pain, photophobia, trauma, foreign body, chemical exposure, corneal ulcer, herpes or zoster concern, orbital or periorbital cellulitis concern, pregnancy, immunocompromised-host pathway, systemic illness, or specialist-directed eye plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "uncomplicated blepharitis",
+      "blepharitis no vision change",
+      "blepharitis",
+      "eyelid inflammation"
+    ],
+    "unsafe_modifiers": [
+      "contact_lens_use",
+      "vision_change",
+      "severe_eye_pain",
+      "photophobia",
+      "periorbital_or_orbital_cellulitis_concern",
+      "eye_trauma_or_foreign_body",
+      "chemical_eye_exposure",
+      "corneal_ulcer_or_keratitis_concern",
+      "acute_glaucoma_mimic",
+      "herpes_or_zoster_eye_concern",
+      "zoster_eye_face_or_neuro_concern",
+      "immunocompromised",
+      "pregnancy",
+      "systemic_illness"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_blepharitis",
+        "terms": [
+          "clinician diagnosis blepharitis",
+          "discharge diagnosis blepharitis",
+          "blepharitis diagnosed",
+          "uncomplicated blepharitis diagnosed",
+          "eyelid inflammation diagnosed"
+        ]
+      },
+      {
+        "id": "no_vision_or_orbital_red_flags_documented",
+        "terms": [
+          "no vision change",
+          "no severe eye pain",
+          "no orbital cellulitis concern",
+          "no periorbital cellulitis concern",
+          "no eye injury"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis blepharitis",
+      "blepharitis diagnosed",
+      "uncomplicated blepharitis diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-17",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports blepharitis framing, inflamed irritated itchy red eyelids, crusting at eyelash bases, eyelid cleaning and warm compresses, and separation from stye, chalazion, periorbital cellulitis, or orbital cellulitis. Autonomous Phase 1601-1650 approved this narrow v1 only for clinician-diagnosed uncomplicated blepharitis without contact lens use, vision change, severe eye pain, photophobia, trauma, foreign body, chemical exposure, corneal ulcer, herpes or zoster concern, orbital or periorbital cellulitis concern, pregnancy, immunocompromised-host pathway, systemic illness, or specialist-directed eye plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_blepharitis_without_vision_or_orbital_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated blepharitis",
+      "no vision change, severe eye pain, photophobia, trauma, foreign body, chemical exposure, corneal ulcer, herpes or zoster, orbital or periorbital cellulitis concern",
+      "no pregnancy, immunocompromised-host, systemic illness, or specialist-directed pathway"
+    ],
+    "blocked_modifiers": [
+      "contact_lens_use",
+      "vision_change",
+      "severe_eye_pain",
+      "photophobia",
+      "periorbital_or_orbital_cellulitis_concern",
+      "eye_trauma_or_foreign_body",
+      "chemical_eye_exposure",
+      "corneal_ulcer_or_keratitis_concern",
+      "acute_glaucoma_mimic",
+      "herpes_or_zoster_eye_concern",
+      "zoster_eye_face_or_neuro_concern",
+      "immunocompromised",
+      "pregnancy",
+      "systemic_illness"
+    ]
+  }
+}

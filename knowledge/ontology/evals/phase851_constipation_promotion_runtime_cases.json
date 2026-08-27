@@ -1,0 +1,164 @@
+[
+  {
+    "id": "phase851_constipation_clean_reviewed_ontology",
+    "condition": "constipation",
+    "ed_note": "Adult. Clinician diagnosis constipation. Reassuring ED assessment. Abdomen soft. Passing gas. No obstruction concern. No blood in stool. No black stool.",
+    "expected_phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase852_constipation_missing_diagnosis_context_blocks",
+    "condition": "constipation",
+    "ed_note": "Adult with constipation symptoms. Reassuring ED assessment. Passing gas. No blood in stool. No black stool.",
+    "expected_phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_constipation"
+    ]
+  },
+  {
+    "id": "phase853_constipation_missing_reassuring_exam_blocks",
+    "condition": "constipation",
+    "ed_note": "Adult. Clinician diagnosis constipation. Passing gas. No blood in stool. No black stool.",
+    "expected_phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "reassuring_ed_assessment_or_benign_abdominal_exam"
+    ]
+  },
+  {
+    "id": "phase854_constipation_missing_no_obstruction_context_blocks",
+    "condition": "constipation",
+    "ed_note": "Adult. Clinician diagnosis constipation. Reassuring ED assessment. No blood in stool. No black stool.",
+    "expected_phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "no_obstruction_concern_documented"
+    ]
+  },
+  {
+    "id": "phase855_constipation_missing_no_bleeding_context_blocks",
+    "condition": "constipation",
+    "ed_note": "Adult. Clinician diagnosis constipation. Reassuring ED assessment. Passing gas. No obstruction concern.",
+    "expected_phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "no_gi_bleeding_documented"
+    ]
+  },
+  {
+    "id": "phase856_constipation_obstruction_blocks",
+    "condition": "constipation",
+    "ed_note": "Adult. Clinician diagnosis constipation. Reassuring ED assessment. No blood in stool. No black stool. Bowel obstruction concern.",
+    "expected_phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "bowel_obstruction_or_ileus_concern"
+    ]
+  },
+  {
+    "id": "phase857_constipation_no_flatus_blocks",
+    "condition": "constipation",
+    "ed_note": "Adult. Clinician diagnosis constipation. Reassuring ED assessment. No blood in stool. No black stool. Cannot pass gas.",
+    "expected_phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "no_flatus"
+    ]
+  },
+  {
+    "id": "phase858_constipation_persistent_vomiting_blocks",
+    "condition": "constipation",
+    "ed_note": "Adult. Clinician diagnosis constipation. Reassuring ED assessment. Passing gas. No blood in stool. No black stool. Persistent vomiting.",
+    "expected_phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "persistent_vomiting"
+    ]
+  },
+  {
+    "id": "phase859_constipation_gi_bleeding_blocks",
+    "condition": "constipation",
+    "ed_note": "Adult. Clinician diagnosis constipation. Reassuring ED assessment. Passing gas. Bloody stool.",
+    "expected_phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "gi_bleeding"
+    ]
+  },
+  {
+    "id": "phase860_constipation_fecal_impaction_procedure_blocks",
+    "condition": "constipation",
+    "ed_note": "Adult. Clinician diagnosis constipation. Reassuring ED assessment. Passing gas. No blood in stool. No black stool. Fecal impaction requiring manual disimpaction.",
+    "expected_phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fecal_impaction_procedure_plan"
+    ]
+  },
+  {
+    "id": "phase861_constipation_opioid_induced_blocks",
+    "condition": "constipation",
+    "ed_note": "Adult. Clinician diagnosis constipation. Reassuring ED assessment. Passing gas. No blood in stool. No black stool. Opioid-induced constipation while taking oxycodone.",
+    "expected_phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "opioid_induced_constipation"
+    ]
+  },
+  {
+    "id": "phase862_constipation_frail_elderly_blocks",
+    "condition": "constipation",
+    "ed_note": "Elderly frail adult. Clinician diagnosis constipation. Reassuring ED assessment. Passing gas. No blood in stool. No black stool.",
+    "expected_phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "elderly_frail"
+    ]
+  },
+  {
+    "id": "phase863_constipation_nursing_home_blocks",
+    "condition": "constipation",
+    "ed_note": "Adult from nursing home. Clinician diagnosis constipation. Reassuring ED assessment. Passing gas. No blood in stool. No black stool.",
+    "expected_phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "elderly_frail",
+      "nursing_home_patient"
+    ]
+  },
+  {
+    "id": "phase864_constipation_pregnancy_blocks",
+    "condition": "constipation",
+    "ed_note": "Adult patient is pregnant. Clinician diagnosis constipation. Reassuring ED assessment. Passing gas. No blood in stool. No black stool.",
+    "expected_phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "phase865_constipation_cauda_equina_blocks",
+    "condition": "constipation",
+    "ed_note": "Adult. Clinician diagnosis constipation. Reassuring ED assessment. Passing gas. No blood in stool. No black stool. Urinary retention and saddle anesthesia.",
+    "expected_phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "cauda_equina_concern",
+      "urinary_retention"
+    ]
+  },
+  {
+    "id": "phase866_broad_constipation_no_match",
+    "condition": "constipation",
+    "ed_note": "Constipation symptoms without a final ED diagnosis or reassuring assessment documented.",
+    "expected_phenotype_id": "adult_constipation_reassuring_ed_assessment_no_obstruction_or_bleeding",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_constipation",
+      "reassuring_ed_assessment_or_benign_abdominal_exam",
+      "no_obstruction_concern_documented",
+      "no_gi_bleeding_documented"
+    ]
+  }
+]

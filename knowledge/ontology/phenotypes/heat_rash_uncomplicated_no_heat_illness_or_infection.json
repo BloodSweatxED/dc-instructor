@@ -1,0 +1,142 @@
+{
+  "id": "heat_rash_uncomplicated_no_heat_illness_or_infection",
+  "label": "Uncomplicated heat rash without heat illness or infection",
+  "status": "reviewed",
+  "condition_family": "dermatology",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated heat rash.",
+    "No heat illness, dehydration, secondary infection, severe/widespread rash, systemic illness, high-risk host pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Heat exhaustion, heat stroke, syncope, confusion, dehydration, persistent vomiting, or unstable vital signs.",
+    "Cellulitis, abscess, pus, fever, severe pain, blistering/peeling rash, severe cutaneous adverse reaction, or systemic illness.",
+    "Pregnancy, pediatric pathway, immunocompromised host, or specialist-directed dermatology plan."
+  ],
+  "must_not_miss": [
+    "Heat stroke.",
+    "Heat exhaustion.",
+    "Secondary skin infection.",
+    "Severe cutaneous adverse reaction."
+  ],
+  "default_follow_up": "Follow up with primary care or urgent care if symptoms are not improving or if the rash keeps coming back.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "heat_rash_uncomplicated_no_heat_illness_or_infection.diagnosis.diagnosis_summary.v1",
+    "heat_rash_uncomplicated_no_heat_illness_or_infection.what_we_found.reassuring_ed_assessment.v1",
+    "heat_rash_uncomplicated_no_heat_illness_or_infection.home_care.home_care_1.v1",
+    "heat_rash_uncomplicated_no_heat_illness_or_infection.home_care.home_care_2.v1",
+    "heat_rash_uncomplicated_no_heat_illness_or_infection.home_care.home_care_3.v1",
+    "heat_rash_uncomplicated_no_heat_illness_or_infection.medications.medication_guidance_1.v1",
+    "heat_rash_uncomplicated_no_heat_illness_or_infection.medications.medication_guidance_2.v1",
+    "heat_rash_uncomplicated_no_heat_illness_or_infection.return_precautions.return_precaution_1.v1",
+    "heat_rash_uncomplicated_no_heat_illness_or_infection.return_precautions.return_precaution_2.v1",
+    "heat_rash_uncomplicated_no_heat_illness_or_infection.return_precautions.return_precaution_3.v1",
+    "heat_rash_uncomplicated_no_heat_illness_or_infection.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "cdc.heat_related_illnesses_heat_rash",
+    "medlineplus.heat_illness"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "CDC supports heat-rash framing and cooling/drying measures while MedlinePlus supports heat-illness red flags. Autonomous Phase 1651-1700 approved this narrow v1 only for clinician-diagnosed uncomplicated heat rash without heat illness, dehydration, secondary infection, severe/widespread or blistering/peeling rash, systemic illness, pregnancy/pediatric/immunocompromised pathway, or specialist-directed dermatology plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "uncomplicated heat rash",
+      "heat rash no heat illness",
+      "heat rash",
+      "miliaria"
+    ],
+    "unsafe_modifiers": [
+      "heat_illness_or_dehydration",
+      "syncope_or_fainting",
+      "altered_mental_status_not_resolved",
+      "unstable_vitals",
+      "secondary_skin_infection_concern",
+      "abscess_or_boils_or_carbuncle",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "eczema_severe_or_widespread",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_heat_rash",
+        "terms": [
+          "clinician diagnosis heat rash",
+          "discharge diagnosis heat rash",
+          "heat rash diagnosed",
+          "miliaria diagnosed",
+          "uncomplicated heat rash diagnosed"
+        ]
+      },
+      {
+        "id": "no_heat_illness_or_infection_documented",
+        "terms": [
+          "no heat illness",
+          "no heat exhaustion",
+          "no heat stroke",
+          "no dehydration",
+          "no secondary infection",
+          "no cellulitis"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis heat rash",
+      "heat rash diagnosed",
+      "uncomplicated heat rash diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-17",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. CDC supports heat-rash framing and cooling/drying measures while MedlinePlus supports heat-illness red flags. Autonomous Phase 1651-1700 approved this narrow v1 only for clinician-diagnosed uncomplicated heat rash without heat illness, dehydration, secondary infection, severe/widespread or blistering/peeling rash, systemic illness, pregnancy/pediatric/immunocompromised pathway, or specialist-directed dermatology plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_heat_rash_without_heat_illness_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated heat rash",
+      "no heat illness, dehydration, cellulitis, secondary infection, severe/widespread rash, or systemic illness documented",
+      "no high-risk host, pregnancy, pediatric, or specialist-directed pathway"
+    ],
+    "blocked_modifiers": [
+      "heat_illness_or_dehydration",
+      "syncope_or_fainting",
+      "altered_mental_status_not_resolved",
+      "unstable_vitals",
+      "secondary_skin_infection_concern",
+      "abscess_or_boils_or_carbuncle",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "eczema_severe_or_widespread",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_dermatology_plan"
+    ]
+  }
+}

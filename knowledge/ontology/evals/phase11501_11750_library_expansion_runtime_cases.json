@@ -1,0 +1,195 @@
+[
+  {
+    "id": "phase11501_minor_denture_sore_spot_no_infection_or_deep_ulcer_clean",
+    "condition": "minor denture sore spot",
+    "ed_note": "Adult. clinician diagnosis minor denture sore spot. minor denture sore spot diagnosed. no infection. no abscess. localized irritation only. no deep wound.",
+    "expected_phenotype_id": "minor_denture_sore_spot_no_infection_or_deep_ulcer",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase11601_minor_denture_sore_spot_no_infection_or_deep_ulcer_missing_context_blocks",
+    "condition": "minor denture sore spot",
+    "ed_note": "Adult with minor denture sore spot.",
+    "expected_phenotype_id": "minor_denture_sore_spot_no_infection_or_deep_ulcer",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_minor_denture_sore_spot_no_infection_or_deep_ulcer",
+      "no_infection_or_deep_injury_minor_denture_sore_spot_no_infection_or_deep_ulcer"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_minor_denture_sore_spot_no_infection_or_deep_ulcer_contradictory_note_blocks",
+    "condition": "minor denture sore spot",
+    "ed_note": "Adult. clinician diagnosis minor denture sore spot. minor denture sore spot diagnosed. no infection. no abscess. localized irritation only. no deep wound. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, neck swelling, trismus, peritonsillar abscess, recurrent ulcers are documented.",
+    "expected_phenotype_id": "minor_denture_sore_spot_no_infection_or_deep_ulcer",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "deep_space_swelling",
+      "peritonsillar_abscess_concern",
+      "systemic_or_recurrent_oral_ulcer_features",
+      "trismus"
+    ]
+  },
+  {
+    "id": "phase11502_inner_thigh_chafing_no_infection_or_genital_lesions_clean",
+    "condition": "inner thigh chafing",
+    "ed_note": "Adult. clinician diagnosis inner thigh chafing. inner thigh chafing diagnosed. no infection. no abscess. localized irritation only. no deep wound.",
+    "expected_phenotype_id": "inner_thigh_chafing_no_infection_or_genital_lesions",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase11602_inner_thigh_chafing_no_infection_or_genital_lesions_missing_context_blocks",
+    "condition": "inner thigh chafing",
+    "ed_note": "Adult with inner thigh chafing.",
+    "expected_phenotype_id": "inner_thigh_chafing_no_infection_or_genital_lesions",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_inner_thigh_chafing_no_infection_or_genital_lesions",
+      "no_infection_or_deep_injury_inner_thigh_chafing_no_infection_or_genital_lesions"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_inner_thigh_chafing_no_infection_or_genital_lesions_contradictory_note_blocks",
+    "condition": "inner thigh chafing",
+    "ed_note": "Adult. clinician diagnosis inner thigh chafing. inner thigh chafing diagnosed. no infection. no abscess. localized irritation only. no deep wound. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted are documented.",
+    "expected_phenotype_id": "inner_thigh_chafing_no_infection_or_genital_lesions",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase11503_underarm_chafing_no_infection_or_abscess_clean",
+    "condition": "underarm chafing",
+    "ed_note": "Adult. clinician diagnosis underarm chafing. underarm chafing diagnosed. no infection. no abscess. localized irritation only. no deep wound.",
+    "expected_phenotype_id": "underarm_chafing_no_infection_or_abscess",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase11603_underarm_chafing_no_infection_or_abscess_missing_context_blocks",
+    "condition": "underarm chafing",
+    "ed_note": "Adult with underarm chafing.",
+    "expected_phenotype_id": "underarm_chafing_no_infection_or_abscess",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_underarm_chafing_no_infection_or_abscess",
+      "no_infection_or_deep_injury_underarm_chafing_no_infection_or_abscess"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_underarm_chafing_no_infection_or_abscess_contradictory_note_blocks",
+    "condition": "underarm chafing",
+    "ed_note": "Adult. clinician diagnosis underarm chafing. underarm chafing diagnosed. no infection. no abscess. localized irritation only. no deep wound. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted are documented.",
+    "expected_phenotype_id": "underarm_chafing_no_infection_or_abscess",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase11504_neck_chafing_no_infection_or_systemic_skin_disease_clean",
+    "condition": "neck chafing",
+    "ed_note": "Adult. clinician diagnosis neck chafing. neck chafing diagnosed. no infection. no abscess. localized irritation only. no deep wound.",
+    "expected_phenotype_id": "neck_chafing_no_infection_or_systemic_skin_disease",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase11604_neck_chafing_no_infection_or_systemic_skin_disease_missing_context_blocks",
+    "condition": "neck chafing",
+    "ed_note": "Adult with neck chafing.",
+    "expected_phenotype_id": "neck_chafing_no_infection_or_systemic_skin_disease",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_neck_chafing_no_infection_or_systemic_skin_disease",
+      "no_infection_or_deep_injury_neck_chafing_no_infection_or_systemic_skin_disease"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_neck_chafing_no_infection_or_systemic_skin_disease_contradictory_note_blocks",
+    "condition": "neck chafing",
+    "ed_note": "Adult. clinician diagnosis neck chafing. neck chafing diagnosed. no infection. no abscess. localized irritation only. no deep wound. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted are documented.",
+    "expected_phenotype_id": "neck_chafing_no_infection_or_systemic_skin_disease",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan"
+    ]
+  },
+  {
+    "id": "phase11505_heel_chafing_no_diabetic_foot_or_infection_clean",
+    "condition": "heel chafing",
+    "ed_note": "Adult. clinician diagnosis heel chafing. heel chafing diagnosed. no infection. no abscess. localized irritation only. no deep wound.",
+    "expected_phenotype_id": "heel_chafing_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase11605_heel_chafing_no_diabetic_foot_or_infection_missing_context_blocks",
+    "condition": "heel chafing",
+    "ed_note": "Adult with heel chafing.",
+    "expected_phenotype_id": "heel_chafing_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_heel_chafing_no_diabetic_foot_or_infection",
+      "no_infection_or_deep_injury_heel_chafing_no_diabetic_foot_or_infection"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_heel_chafing_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "condition": "heel chafing",
+    "ed_note": "Adult. clinician diagnosis heel chafing. heel chafing diagnosed. no infection. no abscess. localized irritation only. no deep wound. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, diabetic foot, poor circulation, neuropathy, podiatry consulted are documented.",
+    "expected_phenotype_id": "heel_chafing_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "specialist_directed_podiatry_plan"
+    ]
+  }
+]

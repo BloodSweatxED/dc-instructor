@@ -1,0 +1,462 @@
+[
+  {
+    "id": "phase14_asthma_clean",
+    "condition": "asthma_exacerbation_improved_discharge",
+    "ed_note": "Asthma flare improved after ED treatment. Breathing comfortably. Rescue inhaler available. No hypoxia. No chest pain.",
+    "expected_phenotype_id": "asthma_exacerbation_improved_discharge",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase14_asthma_hypoxia_blocks",
+    "condition": "asthma_exacerbation_improved_discharge",
+    "ed_note": "Patient remains hypoxic after treatment.",
+    "expected_phenotype_id": "asthma_exacerbation_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["hypoxia"]
+  },
+  {
+    "id": "phase14_asthma_poor_inhaler_access_blocks",
+    "condition": "asthma_exacerbation_improved_discharge",
+    "ed_note": "Patient has no rescue inhaler and cannot afford inhaler refill.",
+    "expected_phenotype_id": "asthma_exacerbation_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["poor_inhaler_access"]
+  },
+  {
+    "id": "phase14_asthma_resp_distress_blocks",
+    "condition": "asthma_exacerbation_improved_discharge",
+    "ed_note": "Accessory muscle use and unable to speak full sentences.",
+    "expected_phenotype_id": "asthma_exacerbation_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["respiratory_distress"]
+  },
+  {
+    "id": "phase14_asthma_vague_wheeze_fallback",
+    "condition": "wheezing",
+    "ed_note": "Wheezing without a final asthma discharge phenotype.",
+    "expected_phenotype_id": "asthma_exacerbation_improved_discharge",
+    "expected_fallback_reason": "low_confidence"
+  },
+  {
+    "id": "phase14_asthma_near_miss_copd_fallback",
+    "condition": "copd exacerbation",
+    "ed_note": "Wheezing from COPD. No asthma diagnosis documented.",
+    "expected_phenotype_id": "asthma_exacerbation_improved_discharge",
+    "expected_fallback_reason": "low_confidence"
+  },
+  {
+    "id": "phase14_asthma_contradictory_note_blocks",
+    "condition": "asthma_exacerbation_improved_discharge",
+    "ed_note": "Discharge planned but patient has chest pain and frequent relapse this week.",
+    "expected_phenotype_id": "asthma_exacerbation_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["chest_pain", "frequent_relapse"]
+  },
+  {
+    "id": "phase14_asthma_med_sensitive_blocks",
+    "condition": "asthma_exacerbation_improved_discharge",
+    "ed_note": "Symptoms improved but patient lost inhaler and has no rescue inhaler tonight.",
+    "expected_phenotype_id": "asthma_exacerbation_improved_discharge",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["poor_inhaler_access"]
+  },
+  {
+    "id": "phase14_pneumonia_clean",
+    "condition": "community_acquired_pneumonia_outpatient",
+    "ed_note": "Community acquired pneumonia diagnosed. Oxygen level acceptable. Stable for outpatient antibiotics. No sepsis. No hypoxia.",
+    "expected_phenotype_id": "community_acquired_pneumonia_outpatient",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase14_pneumonia_hypoxia_blocks",
+    "condition": "community_acquired_pneumonia_outpatient",
+    "ed_note": "Pneumonia with low oxygen and oxygen saturation 89.",
+    "expected_phenotype_id": "community_acquired_pneumonia_outpatient",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["hypoxia"]
+  },
+  {
+    "id": "phase14_pneumonia_immunocompromised_blocks",
+    "condition": "community_acquired_pneumonia_outpatient",
+    "ed_note": "Pneumonia in a patient receiving chemotherapy.",
+    "expected_phenotype_id": "community_acquired_pneumonia_outpatient",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["immunocompromised"]
+  },
+  {
+    "id": "phase14_pneumonia_sepsis_blocks",
+    "condition": "community_acquired_pneumonia_outpatient",
+    "ed_note": "Pneumonia with sepsis and shock.",
+    "expected_phenotype_id": "community_acquired_pneumonia_outpatient",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["sepsis"]
+  },
+  {
+    "id": "phase14_pneumonia_vague_cough_fallback",
+    "condition": "cough",
+    "ed_note": "Cough and fever without pneumonia diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase14_pneumonia_near_miss_bronchitis_fallback",
+    "condition": "bronchitis",
+    "ed_note": "Cough. No focal lung findings. Pneumonia ruled out.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase14_pneumonia_contradictory_note_blocks",
+    "condition": "community_acquired_pneumonia_outpatient",
+    "ed_note": "Outpatient pneumonia plan, but patient is frail, has poor follow up, and cannot keep meds down.",
+    "expected_phenotype_id": "community_acquired_pneumonia_outpatient",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["elderly_frail", "poor_follow_up", "vomiting_unable_to_take_meds"]
+  },
+  {
+    "id": "phase14_pneumonia_med_sensitive_blocks",
+    "condition": "community_acquired_pneumonia_outpatient",
+    "ed_note": "Antibiotics prescribed but patient is vomiting and cannot keep meds down.",
+    "expected_phenotype_id": "community_acquired_pneumonia_outpatient",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["vomiting_unable_to_take_meds"]
+  },
+  {
+    "id": "phase14_minor_head_clean",
+    "condition": "minor_head_injury_no_red_flags",
+    "ed_note": "Minor blunt head injury. Normal mental status. No vomiting. No anticoagulation. No neurologic deficit.",
+    "expected_phenotype_id": "minor_head_injury_no_red_flags",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase14_minor_head_anticoag_blocks",
+    "condition": "minor_head_injury_no_red_flags",
+    "ed_note": "Patient takes Eliquis.",
+    "expected_phenotype_id": "minor_head_injury_no_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["anticoagulated"]
+  },
+  {
+    "id": "phase14_minor_head_loc_blocks",
+    "condition": "minor_head_injury_no_red_flags",
+    "ed_note": "Loss of consciousness after head strike.",
+    "expected_phenotype_id": "minor_head_injury_no_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["loss_of_consciousness"]
+  },
+  {
+    "id": "phase14_minor_head_neuro_blocks",
+    "condition": "minor_head_injury_no_red_flags",
+    "ed_note": "New weakness and slurred speech after head injury.",
+    "expected_phenotype_id": "minor_head_injury_no_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["neurologic_deficit"]
+  },
+  {
+    "id": "phase14_minor_head_vague_fallback",
+    "condition": "headache",
+    "ed_note": "Headache without clear trauma diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase14_minor_head_near_miss_syncope_fallback",
+    "condition": "fall",
+    "ed_note": "Fall after syncope. Head injury not the final diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase14_minor_head_contradictory_note_blocks",
+    "condition": "minor_head_injury_no_red_flags",
+    "ed_note": "Minor head injury but patient is intoxicated with repeated vomiting.",
+    "expected_phenotype_id": "minor_head_injury_no_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["intoxication", "persistent_vomiting"]
+  },
+  {
+    "id": "phase14_minor_head_skull_fracture_blocks",
+    "condition": "minor_head_injury_no_red_flags",
+    "ed_note": "Concern for basilar skull fracture and CSF leak.",
+    "expected_phenotype_id": "minor_head_injury_no_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["skull_fracture_concern"]
+  },
+  {
+    "id": "phase14_concussion_clean",
+    "condition": "concussion_discharge_no_imaging_red_flags",
+    "ed_note": "Concussion after head injury. Reassuring neurologic exam. Safe observation plan. No anticoagulation. No repeated vomiting.",
+    "expected_phenotype_id": "concussion_discharge_no_imaging_red_flags",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase14_concussion_return_to_play_blocks",
+    "condition": "concussion_discharge_no_imaging_red_flags",
+    "ed_note": "Athlete asks to return to play in game today.",
+    "expected_phenotype_id": "concussion_discharge_no_imaging_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["athlete_return_to_play"]
+  },
+  {
+    "id": "phase14_concussion_anticoag_blocks",
+    "condition": "concussion_discharge_no_imaging_red_flags",
+    "ed_note": "Patient is on warfarin.",
+    "expected_phenotype_id": "concussion_discharge_no_imaging_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["anticoagulated"]
+  },
+  {
+    "id": "phase14_concussion_neuro_blocks",
+    "condition": "concussion_discharge_no_imaging_red_flags",
+    "ed_note": "Concussion symptoms with facial droop and aphasia.",
+    "expected_phenotype_id": "concussion_discharge_no_imaging_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["neurologic_deficit"]
+  },
+  {
+    "id": "phase14_concussion_vague_fallback",
+    "condition": "dizziness",
+    "ed_note": "Dizziness without clear head injury or concussion diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase14_concussion_near_miss_migraine_fallback",
+    "condition": "migraine",
+    "ed_note": "Headache and light sensitivity. No head injury. Concussion ruled out.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase14_concussion_contradictory_note_blocks",
+    "condition": "concussion_discharge_no_imaging_red_flags",
+    "ed_note": "Discharge considered, but patient has persistent vomiting and trouble waking up.",
+    "expected_phenotype_id": "concussion_discharge_no_imaging_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["persistent_vomiting"]
+  },
+  {
+    "id": "phase14_concussion_activity_sensitive_blocks",
+    "condition": "concussion_discharge_no_imaging_red_flags",
+    "ed_note": "Coach needs clearance for practice today after concussion.",
+    "expected_phenotype_id": "concussion_discharge_no_imaging_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["athlete_return_to_play"]
+  },
+  {
+    "id": "phase14_renal_colic_clean",
+    "condition": "renal_colic_stable_no_infection",
+    "ed_note": "Renal colic with symptoms controlled. No fever. No sepsis. No pregnancy. Tolerating oral medication.",
+    "expected_phenotype_id": "renal_colic_stable_no_infection",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase14_renal_colic_fever_blocks",
+    "condition": "renal_colic_stable_no_infection",
+    "ed_note": "Kidney stone with fever and chills.",
+    "expected_phenotype_id": "renal_colic_stable_no_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["fever"]
+  },
+  {
+    "id": "phase14_renal_colic_solitary_kidney_blocks",
+    "condition": "renal_colic_stable_no_infection",
+    "ed_note": "Patient has solitary kidney.",
+    "expected_phenotype_id": "renal_colic_stable_no_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["solitary_kidney"]
+  },
+  {
+    "id": "phase14_renal_colic_renal_failure_blocks",
+    "condition": "renal_colic_stable_no_infection",
+    "ed_note": "Creatinine elevated with acute kidney injury.",
+    "expected_phenotype_id": "renal_colic_stable_no_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["renal_failure"]
+  },
+  {
+    "id": "phase14_renal_colic_vague_fallback",
+    "condition": "flank pain",
+    "ed_note": "Flank pain without confirmed stone phenotype.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase14_renal_colic_near_miss_pyelo_fallback",
+    "condition": "pyelonephritis",
+    "ed_note": "Flank pain with urinary infection. Kidney stone ruled out.",
+    "expected_phenotype_id": "uncomplicated_cystitis_nonpregnant",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "flank_pain",
+      "pyelonephritis"
+    ]
+  },
+  {
+    "id": "phase14_renal_colic_contradictory_note_blocks",
+    "condition": "renal_colic_stable_no_infection",
+    "ed_note": "Renal colic but uncontrolled pain and repeated vomiting.",
+    "expected_phenotype_id": "renal_colic_stable_no_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["uncontrolled_pain", "vomiting_unable_to_take_meds"]
+  },
+  {
+    "id": "phase14_renal_colic_med_sensitive_blocks",
+    "condition": "renal_colic_stable_no_infection",
+    "ed_note": "Pain plan prescribed, but patient is vomiting and cannot keep meds down.",
+    "expected_phenotype_id": "renal_colic_stable_no_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["vomiting_unable_to_take_meds"]
+  },
+  {
+    "id": "phase14_ankle_contradictory_fracture_blocks",
+    "condition": "ankle_sprain_xray_negative",
+    "ed_note": "X-ray negative in one section, but distal fibula fracture seen in radiology report.",
+    "expected_phenotype_id": "ankle_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["fracture_seen"]
+  },
+  {
+    "id": "phase14_lumbar_med_sensitive_blocks",
+    "condition": "lumbar_strain_no_red_flags",
+    "ed_note": "Mechanical back pain but patient is pregnant.",
+    "expected_phenotype_id": "lumbar_strain_no_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["pregnancy"]
+  },
+  {
+    "id": "phase14_uri_near_miss_pneumonia_blocks",
+    "condition": "viral_uri_no_pneumonia",
+    "ed_note": "Cough and congestion but chest x-ray shows infiltrate.",
+    "expected_phenotype_id": "viral_uri_no_pneumonia",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["pneumonia"]
+  },
+  {
+    "id": "phase14_cystitis_contradictory_pyelo_blocks",
+    "condition": "uncomplicated_cystitis_nonpregnant",
+    "ed_note": "Lower urinary symptoms but now fever with flank pain.",
+    "expected_phenotype_id": "uncomplicated_cystitis_nonpregnant",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["fever", "flank_pain"]
+  },
+  {
+    "id": "phase14_gastro_med_sensitive_blocks",
+    "condition": "gastroenteritis_stable_hydrating",
+    "ed_note": "Vomiting and diarrhea but failed PO challenge and cannot keep fluids down.",
+    "expected_phenotype_id": "gastroenteritis_stable_hydrating",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["unable_to_tolerate_oral_fluids"]
+  },
+  {
+    "id": "phase14_cellulitis_source_boundary_blocks",
+    "condition": "cellulitis_uncomplicated_oral_antibiotics",
+    "ed_note": "Cellulitis involving scrotum.",
+    "expected_phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["near_eye_or_genitals"]
+  },
+  {
+    "id": "phase14_abscess_contradictory_sepsis_blocks",
+    "condition": "abscess_after_i_and_d",
+    "ed_note": "Abscess drained but patient is septic.",
+    "expected_phenotype_id": "abscess_after_i_and_d",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["sepsis"]
+  },
+  {
+    "id": "phase14_laceration_contradictory_open_fracture_blocks",
+    "condition": "laceration_repaired_simple",
+    "ed_note": "Simple laceration repaired but bone exposed.",
+    "expected_phenotype_id": "laceration_repaired_simple",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["open_fracture"]
+  },
+  {
+    "id": "phase14_pharyngitis_near_miss_positive_strep_blocks",
+    "condition": "viral_pharyngitis_strep_negative",
+    "ed_note": "Sore throat with positive rapid strep.",
+    "expected_phenotype_id": "viral_pharyngitis_strep_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["positive_strep_test"]
+  },
+  {
+    "id": "phase14_dental_contradictory_airway_blocks",
+    "condition": "dental_pain_no_deep_space_infection",
+    "ed_note": "Dental pain with tongue swelling and trouble breathing.",
+    "expected_phenotype_id": "dental_pain_no_deep_space_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["airway_symptoms"]
+  },
+  {
+    "id": "phase14_allergic_contradictory_anaphylaxis_blocks",
+    "condition": "allergic_reaction_resolved_no_anaphylaxis",
+    "ed_note": "Allergic reaction with hypotension and epinephrine given.",
+    "expected_phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["epinephrine_given", "hypotension"]
+  },
+  {
+    "id": "phase14_vague_rash_fallback",
+    "condition": "rash",
+    "ed_note": "Rash without cellulitis, abscess, or allergic reaction diagnosis.",
+    "expected_phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+    "expected_fallback_reason": "low_confidence"
+  },
+  {
+    "id": "phase14_vague_abdominal_pain_draft_fallback",
+    "condition": "abdominal pain",
+    "ed_note": "Abdominal pain with reassuring exam.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase14_vague_chest_pain_draft_fallback",
+    "condition": "chest pain",
+    "ed_note": "Chest pain after ED workup.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase14_low_confidence_lung_infection",
+    "condition": "lung infection",
+    "ed_note": "Possible lung infection but no outpatient pneumonia discharge diagnosis.",
+    "expected_phenotype_id": "community_acquired_pneumonia_outpatient",
+    "expected_fallback_reason": "low_confidence"
+  },
+  {
+    "id": "phase14_low_confidence_hit_head",
+    "condition": "hit head",
+    "ed_note": "Hit head mentioned in triage, final diagnosis unclear.",
+    "expected_phenotype_id": "minor_head_injury_no_red_flags",
+    "expected_fallback_reason": "low_confidence"
+  },
+  {
+    "id": "phase14_low_confidence_kidney_stone",
+    "condition": "kidney stone",
+    "ed_note": "Possible kidney stone mentioned, final diagnosis pending.",
+    "expected_phenotype_id": "renal_colic_stable_no_infection",
+    "expected_fallback_reason": "low_confidence"
+  },
+  {
+    "id": "phase14_netlify_smoke_pneumonia_clean",
+    "condition": "community_acquired_pneumonia_outpatient",
+    "ed_note": "Community acquired pneumonia. Stable vitals. Oxygen acceptable. Outpatient antibiotics prescribed. No hypoxia. No sepsis.",
+    "expected_phenotype_id": "community_acquired_pneumonia_outpatient",
+    "expected_fallback_reason": null,
+    "minimum_confidence": 0.86
+  },
+  {
+    "id": "phase14_netlify_smoke_concussion_blocked",
+    "condition": "concussion_discharge_no_imaging_red_flags",
+    "ed_note": "Concussion with return to play requested for same day sports.",
+    "expected_phenotype_id": "concussion_discharge_no_imaging_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": ["athlete_return_to_play"]
+  }
+]

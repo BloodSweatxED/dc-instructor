@@ -1,0 +1,148 @@
+{
+  "id": "mild_eyelid_skin_irritation_no_eye_or_infection_red_flags",
+  "label": "Mild eyelid skin irritation without eye or infection red flags",
+  "status": "reviewed",
+  "condition_family": "skin_soft_tissue",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of localized mild eyelid skin irritation skin reaction.",
+    "No anaphylaxis, systemic allergic reaction, mucosal involvement, skin infection, severe medication reaction, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Anaphylaxis, airway symptoms, hypotension, systemic allergic reaction, mucosal lesions, severe cutaneous adverse reaction, skin infection, rapidly progressive rash, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed dermatology/allergy plan."
+  ],
+  "must_not_miss": [
+    "Anaphylaxis.",
+    "Cellulitis.",
+    "Severe cutaneous adverse reaction.",
+    "Systemic allergic reaction.",
+    "Ocular or periorbital complication."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, dermatology, eye care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "mild_eyelid_skin_irritation_no_eye_or_infection_red_flags.diagnosis.diagnosis_summary.v1",
+    "mild_eyelid_skin_irritation_no_eye_or_infection_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "mild_eyelid_skin_irritation_no_eye_or_infection_red_flags.home_care.home_care_1.v1",
+    "mild_eyelid_skin_irritation_no_eye_or_infection_red_flags.home_care.home_care_2.v1",
+    "mild_eyelid_skin_irritation_no_eye_or_infection_red_flags.home_care.home_care_3.v1",
+    "mild_eyelid_skin_irritation_no_eye_or_infection_red_flags.medications.medication_guidance_1.v1",
+    "mild_eyelid_skin_irritation_no_eye_or_infection_red_flags.medications.medication_guidance_2.v1",
+    "mild_eyelid_skin_irritation_no_eye_or_infection_red_flags.return_precautions.return_precaution_1.v1",
+    "mild_eyelid_skin_irritation_no_eye_or_infection_red_flags.return_precautions.return_precaution_2.v1",
+    "mild_eyelid_skin_irritation_no_eye_or_infection_red_flags.return_precautions.return_precaution_3.v1",
+    "mild_eyelid_skin_irritation_no_eye_or_infection_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.contact_dermatitis",
+    "medlineplus.allergic_reactions",
+    "medlineplus.eyelid_disorders"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent."
+  },
+  "runtime": {
+    "condition_terms": [
+      "mild eyelid skin irritation",
+      "mild eyelid skin irritation",
+      "mild eyelid skin irritation"
+    ],
+    "unsafe_modifiers": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "herpes_or_zoster_eye_concern",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "ocular_symptoms",
+      "pediatric_pathway",
+      "periorbital_or_orbital_cellulitis_concern",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction",
+      "vision_change"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_mild_eyelid_skin_irritation_no_eye_or_infection_red_flags",
+        "terms": [
+          "clinician diagnosis mild eyelid skin irritation",
+          "discharge diagnosis mild eyelid skin irritation",
+          "mild eyelid skin irritation diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_systemic_red_flags_mild_eyelid_skin_irritation_no_eye_or_infection_red_flags",
+        "terms": [
+          "no anaphylaxis",
+          "no infection",
+          "localized reaction only",
+          "no mucosal lesions",
+          "no eye symptoms",
+          "no vision change"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis mild eyelid skin irritation",
+      "mild eyelid skin irritation diagnosed",
+      "mild eyelid skin irritation"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-07-04",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports contact dermatitis framing from irritant or allergic exposures, trigger avoidance, gentle skin care, clinician-directed topical or allergy treatment, and escalation for severe allergic, infectious, or mucosal red flags. This expansion is limited to a clinician-diagnosed localized contact skin reaction with anaphylaxis, infection, mucosal, pregnancy/pediatric, severe-rash, and specialist-directed pathways absent.",
+    "clinical_status": "reviewed_for_limited_mild_eyelid_skin_irritation_no_eye_or_infection_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of mild eyelid skin irritation skin reaction",
+      "localized reaction only",
+      "no anaphylaxis",
+      "no infection, mucosal, or severe-rash red flags"
+    ],
+    "blocked_modifiers": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "herpes_or_zoster_eye_concern",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "ocular_symptoms",
+      "pediatric_pathway",
+      "periorbital_or_orbital_cellulitis_concern",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction",
+      "vision_change"
+    ]
+  }
+}

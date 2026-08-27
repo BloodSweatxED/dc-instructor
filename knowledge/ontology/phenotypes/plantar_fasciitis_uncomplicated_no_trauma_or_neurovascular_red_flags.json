@@ -1,0 +1,137 @@
+{
+  "id": "plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags",
+  "label": "Uncomplicated plantar fasciitis without trauma or neurovascular red flags",
+  "status": "reviewed",
+  "condition_family": "msk",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated plantar fasciitis.",
+    "No trauma/fracture concern, infection, open wound, diabetic-foot/PVD/neuropathy risk, neurovascular compromise, inability to walk, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Trauma, fracture/dislocation concern, inability to bear weight, neurovascular compromise, open wound, cellulitis, abscess, fever, or systemic illness.",
+    "Diabetic foot risk, neuropathy, PVD, pregnancy/pediatric pathway, or specialist-directed podiatry/orthopedic plan."
+  ],
+  "must_not_miss": [
+    "Calcaneal fracture.",
+    "Diabetic foot infection.",
+    "Neurovascular compromise.",
+    "Septic joint or deep infection."
+  ],
+  "default_follow_up": "Follow up with primary care, podiatry, sports medicine, or orthopedics if pain persists or walking remains limited.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags.diagnosis.diagnosis_summary.v1",
+    "plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags.home_care.home_care_1.v1",
+    "plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags.home_care.home_care_2.v1",
+    "plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags.home_care.home_care_3.v1",
+    "plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags.medications.medication_guidance_1.v1",
+    "plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags.medications.medication_guidance_2.v1",
+    "plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags.return_precautions.return_precaution_1.v1",
+    "plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags.return_precautions.return_precaution_2.v1",
+    "plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags.return_precautions.return_precaution_3.v1",
+    "plantar_fasciitis_uncomplicated_no_trauma_or_neurovascular_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.plantar_fasciitis"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports plantar-fasciitis framing, heel/bottom-foot pain, and supportive measures including rest, stretching, footwear changes, and clinician-directed pain control. Autonomous Phase 1801-1850 approved this narrow v1 only for clinician-diagnosed uncomplicated plantar fasciitis without trauma/fracture concern, infection, diabetic-foot/PVD/neuropathy risk, neurovascular compromise, inability to walk, pregnancy/pediatric pathway, or specialist-directed plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "plantar fasciitis",
+      "heel pain plantar fasciitis",
+      "uncomplicated plantar fasciitis"
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "unable_to_bear_weight_lower_extremity",
+      "neurovascular_compromise",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "diabetic_foot",
+      "diabetes_general_risk",
+      "neuropathy_foot_risk",
+      "peripheral_vascular_disease",
+      "systemic_illness",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_podiatry_plan",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_plantar_fasciitis",
+        "terms": [
+          "clinician diagnosis plantar fasciitis",
+          "discharge diagnosis plantar fasciitis",
+          "plantar fasciitis diagnosed",
+          "uncomplicated plantar fasciitis diagnosed"
+        ]
+      },
+      {
+        "id": "no_trauma_or_neurovascular_red_flags_documented",
+        "terms": [
+          "no fracture concern",
+          "no trauma",
+          "neurovascularly intact",
+          "no open wound",
+          "no diabetic foot"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis plantar fasciitis",
+      "plantar fasciitis diagnosed",
+      "uncomplicated plantar fasciitis diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-18",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports plantar-fasciitis framing, heel/bottom-foot pain, and supportive measures including rest, stretching, footwear changes, and clinician-directed pain control. Autonomous Phase 1801-1850 approved this narrow v1 only for clinician-diagnosed uncomplicated plantar fasciitis without trauma/fracture concern, infection, diabetic-foot/PVD/neuropathy risk, neurovascular compromise, inability to walk, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_plantar_fasciitis_without_trauma_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated plantar fasciitis",
+      "no trauma/fracture concern, open wound, diabetic foot, or neurovascular red flags documented",
+      "no inability to walk, infection, pregnancy, pediatric, or specialist-directed pathway"
+    ],
+    "blocked_modifiers": [
+      "fracture_or_dislocation_concern",
+      "unable_to_bear_weight_lower_extremity",
+      "neurovascular_compromise",
+      "open_wound",
+      "secondary_skin_infection_concern",
+      "diabetic_foot",
+      "diabetes_general_risk",
+      "neuropathy_foot_risk",
+      "peripheral_vascular_disease",
+      "systemic_illness",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_podiatry_plan",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+}

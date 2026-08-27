@@ -1,0 +1,173 @@
+[
+  {
+    "id": "phase6251_deltoid_contusion_no_fracture_or_neurovascular_red_flags_clean",
+    "condition": "deltoid contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis deltoid contusion. deltoid bruise diagnosed. no fracture concern. no open wound.",
+    "expected_phenotype_id": "deltoid_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase6252_deltoid_contusion_no_fracture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "deltoid contusion no fracture",
+    "ed_note": "Adult with deltoid contusion no fracture.",
+    "expected_phenotype_id": "deltoid_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_deltoid_contusion",
+      "no_fracture_or_neurovascular_red_flags_deltoid"
+    ]
+  },
+  {
+    "id": "phase6253_deltoid_contusion_no_fracture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "deltoid contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis deltoid contusion. deltoid bruise diagnosed. no fracture concern. no open wound. However possible fracture, open wound, red warm joint, numb fingers, blue fingers, high energy trauma, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "deltoid_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase6254_clavicle_contusion_no_fracture_or_neurovascular_red_flags_clean",
+    "condition": "clavicle contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis clavicle contusion. clavicle bruise diagnosed. no fracture concern. no open wound.",
+    "expected_phenotype_id": "clavicle_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase6255_clavicle_contusion_no_fracture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "clavicle contusion no fracture",
+    "ed_note": "Adult with clavicle contusion no fracture.",
+    "expected_phenotype_id": "clavicle_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_clavicle_contusion",
+      "no_fracture_or_neurovascular_red_flags_clavicle"
+    ]
+  },
+  {
+    "id": "phase6256_clavicle_contusion_no_fracture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "clavicle contusion no fracture",
+    "ed_note": "Adult. clinician diagnosis clavicle contusion. clavicle bruise diagnosed. no fracture concern. no open wound. However possible fracture, open wound, red warm joint, numb fingers, blue fingers, high energy trauma, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "clavicle_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase6257_biceps_strain_no_rupture_or_neurovascular_red_flags_clean",
+    "condition": "biceps strain no rupture",
+    "ed_note": "Adult. clinician diagnosis biceps strain. biceps strain diagnosed. no tendon rupture. neurovascular exam intact.",
+    "expected_phenotype_id": "biceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase6258_biceps_strain_no_rupture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "biceps strain no rupture",
+    "ed_note": "Adult with biceps strain no rupture.",
+    "expected_phenotype_id": "biceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_biceps_strain",
+      "no_rupture_or_neurovascular_red_flags_biceps"
+    ]
+  },
+  {
+    "id": "phase6259_biceps_strain_no_rupture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "biceps strain no rupture",
+    "ed_note": "Adult. clinician diagnosis biceps strain. biceps strain diagnosed. no tendon rupture. neurovascular exam intact. However possible fracture, tendon rupture, open wound, red warm joint, numb fingers, blue fingers, high energy trauma, unable to use limb, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "biceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "unable_to_use_limb",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase6260_triceps_strain_no_rupture_or_neurovascular_red_flags_clean",
+    "condition": "triceps strain no rupture",
+    "ed_note": "Adult. clinician diagnosis triceps strain. triceps strain diagnosed. no tendon rupture. neurovascular exam intact.",
+    "expected_phenotype_id": "triceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase6261_triceps_strain_no_rupture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "triceps strain no rupture",
+    "ed_note": "Adult with triceps strain no rupture.",
+    "expected_phenotype_id": "triceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_triceps_strain",
+      "no_rupture_or_neurovascular_red_flags_triceps"
+    ]
+  },
+  {
+    "id": "phase6262_triceps_strain_no_rupture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "triceps strain no rupture",
+    "ed_note": "Adult. clinician diagnosis triceps strain. triceps strain diagnosed. no tendon rupture. neurovascular exam intact. However possible fracture, tendon rupture, open wound, red warm joint, numb fingers, blue fingers, high energy trauma, unable to use limb, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "triceps_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "unable_to_use_limb",
+      "specialist_directed_orthopedic_plan"
+    ]
+  },
+  {
+    "id": "phase6263_deltoid_strain_no_rupture_or_neurovascular_red_flags_clean",
+    "condition": "deltoid strain no rupture",
+    "ed_note": "Adult. clinician diagnosis deltoid strain. deltoid strain diagnosed. no tendon rupture. neurovascular exam intact.",
+    "expected_phenotype_id": "deltoid_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase6264_deltoid_strain_no_rupture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "deltoid strain no rupture",
+    "ed_note": "Adult with deltoid strain no rupture.",
+    "expected_phenotype_id": "deltoid_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_deltoid_strain",
+      "no_rupture_or_neurovascular_red_flags_deltoid"
+    ]
+  },
+  {
+    "id": "phase6265_deltoid_strain_no_rupture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "deltoid strain no rupture",
+    "ed_note": "Adult. clinician diagnosis deltoid strain. deltoid strain diagnosed. no tendon rupture. neurovascular exam intact. However possible fracture, tendon rupture, open wound, red warm joint, numb fingers, blue fingers, high energy trauma, unable to use limb, and orthopedics consulted are documented.",
+    "expected_phenotype_id": "deltoid_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "high_energy_trauma",
+      "unable_to_use_limb",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+]

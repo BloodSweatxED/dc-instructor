@@ -1,0 +1,15 @@
+{
+  "id": "cdc.foot_hygiene_tinea_pedis",
+  "source": "CDC",
+  "title": "Healthy Habits: Foot Hygiene",
+  "url": "https://www.cdc.gov/hygiene/about/foot-hygiene.html",
+  "source_type": "public_health_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Tinea pedis, often called athlete's foot or ringworm, is a fungal infection of the skin and feet.",
+    "It often affects the spaces between the toes.",
+    "Keeping feet and toes clean and dry and changing shoes and socks regularly can help prevent or control tinea pedis.",
+    "Warm, dark, moist environments increase fungal growth."
+  ],
+  "use_policy": "evidence_support"
+}

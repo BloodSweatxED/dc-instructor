@@ -1,0 +1,138 @@
+{
+  "id": "cerumen_impaction_no_infection_or_foreign_body",
+  "label": "Cerumen impaction without infection or foreign body",
+  "status": "reviewed",
+  "condition_family": "ear_nose_throat",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of cerumen impaction or earwax blockage.",
+    "No ear infection, foreign body, trauma, eardrum perforation, ear tube, acute hearing loss, or neurologic ear sign documented.",
+    "Medication or removal plan is clinician-entered."
+  ],
+  "exclusion_criteria": [
+    "Otitis externa, otitis media, mastoiditis, malignant otitis externa risk, severe systemic illness, or immunocompromised pathway.",
+    "Foreign body, button battery, ear trauma, cotton swab injury, bleeding, perforated eardrum, ear tube, or specialist-directed ENT plan.",
+    "Sudden hearing loss, severe dizziness or vertigo, facial weakness, or other neurologic ear sign."
+  ],
+  "must_not_miss": [
+    "Sudden sensorineural hearing loss.",
+    "Mastoiditis.",
+    "Malignant otitis externa.",
+    "Tympanic membrane perforation.",
+    "Ear foreign body or button battery.",
+    "Neurologic cause of dizziness or facial weakness."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, or ENT as instructed if hearing or fullness does not improve.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "cerumen_impaction_no_infection_or_foreign_body.diagnosis.diagnosis_summary.v1",
+    "cerumen_impaction_no_infection_or_foreign_body.what_we_found.reassuring_ed_assessment.v1",
+    "cerumen_impaction_no_infection_or_foreign_body.home_care.home_care_1.v1",
+    "cerumen_impaction_no_infection_or_foreign_body.home_care.home_care_2.v1",
+    "cerumen_impaction_no_infection_or_foreign_body.home_care.home_care_3.v1",
+    "cerumen_impaction_no_infection_or_foreign_body.medications.medication_guidance_1.v1",
+    "cerumen_impaction_no_infection_or_foreign_body.medications.medication_guidance_2.v1",
+    "cerumen_impaction_no_infection_or_foreign_body.return_precautions.return_precaution_1.v1",
+    "cerumen_impaction_no_infection_or_foreign_body.return_precautions.return_precaution_2.v1",
+    "cerumen_impaction_no_infection_or_foreign_body.return_precautions.return_precaution_3.v1",
+    "cerumen_impaction_no_infection_or_foreign_body.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "aao_hns.cerumen_impaction"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "AAO-HNS patient education supports earwax as usually protective, symptomatic impaction framing, clinician-directed removal options, and avoiding cotton swabs or ear candles. Autonomous Phase 1002-1500 approved this narrow v1 only for clinician-confirmed cerumen impaction without infection, foreign body, perforation, tube, acute hearing loss, neurologic ear signs, or specialist-directed ENT plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "cerumen impaction",
+      "earwax impaction",
+      "earwax blockage",
+      "impacted earwax"
+    ],
+    "unsafe_modifiers": [
+      "otitis_externa_or_ear_canal_pathway",
+      "recurrent_or_chronic_ear_infection",
+      "mastoiditis_or_deep_ear_infection_concern",
+      "malignant_otitis_externa_risk",
+      "ear_trauma_or_foreign_body",
+      "tympanic_membrane_perforation_or_tube",
+      "facial_weakness_or_neurologic_ear_sign",
+      "acute_hearing_loss",
+      "specialist_directed_ent_plan",
+      "immunocompromised",
+      "severe_systemic_ear_infection"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_cerumen_impaction",
+        "terms": [
+          "clinician diagnosis cerumen impaction",
+          "discharge diagnosis cerumen impaction",
+          "cerumen impaction diagnosed",
+          "earwax impaction diagnosed",
+          "earwax blockage diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_foreign_body_documented",
+        "terms": [
+          "no ear infection",
+          "no foreign body",
+          "no infection or foreign body",
+          "no eardrum emergency",
+          "no otitis externa"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis cerumen impaction",
+      "cerumen impaction diagnosed",
+      "earwax impaction diagnosed",
+      "earwax blockage diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-10",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. AAO-HNS patient education supports earwax as usually protective, symptomatic impaction framing, clinician-directed removal options, and avoiding cotton swabs or ear candles. Autonomous Phase 1002-1500 approved this narrow v1 only for clinician-confirmed cerumen impaction without infection, foreign body, perforation, tube, acute hearing loss, neurologic ear signs, or specialist-directed ENT plan.",
+    "clinical_status": "reviewed_for_limited_cerumen_impaction_without_infection_or_foreign_body_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of cerumen impaction",
+      "no infection, foreign body, eardrum perforation, tube, acute hearing loss, or neurologic ear sign",
+      "medication or removal plan clinician-entered"
+    ],
+    "blocked_modifiers": [
+      "otitis_externa_or_ear_canal_pathway",
+      "recurrent_or_chronic_ear_infection",
+      "mastoiditis_or_deep_ear_infection_concern",
+      "malignant_otitis_externa_risk",
+      "ear_trauma_or_foreign_body",
+      "tympanic_membrane_perforation_or_tube",
+      "facial_weakness_or_neurologic_ear_sign",
+      "acute_hearing_loss",
+      "specialist_directed_ent_plan",
+      "immunocompromised",
+      "severe_systemic_ear_infection"
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "id": "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot",
+  "label": "Foot contusion without fracture or diabetic-foot red flags",
+  "status": "reviewed",
+  "condition_family": "musculoskeletal",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated foot contusion or bruise.",
+    "No fracture/dislocation concern, neurovascular compromise, severe pain, bleeding-risk plan, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Fracture or dislocation concern, major trauma, open wound, neurovascular compromise, severe pain, compartment concern, or inability to use the area.",
+    "Anticoagulation/bleeding disorder requiring a separate plan, pregnancy/pediatric pathway, or specialist-directed orthopedic plan."
+  ],
+  "must_not_miss": [
+    "Fracture or dislocation.",
+    "Neurovascular compromise.",
+    "Compartment syndrome.",
+    "Significant bleeding risk."
+  ],
+  "default_follow_up": "Follow up with primary care, orthopedics, urgent care, or the ED if pain is not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot.diagnosis.diagnosis_summary.v1",
+    "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot.what_we_found.reassuring_ed_assessment.v1",
+    "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot.home_care.home_care_1.v1",
+    "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot.home_care.home_care_2.v1",
+    "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot.home_care.home_care_3.v1",
+    "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot.medications.medication_guidance_1.v1",
+    "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot.medications.medication_guidance_2.v1",
+    "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot.return_precautions.return_precaution_1.v1",
+    "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot.return_precautions.return_precaution_2.v1",
+    "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot.return_precautions.return_precaution_3.v1",
+    "foot_contusion_uncomplicated_no_fracture_or_diabetic_foot.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.bruise"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports bruise/contusion home care and warning signs for worsening swelling, pain, and unexplained bruising. Autonomous expansion approved this narrow v1 only for clinician-diagnosed foot contusion without fracture/dislocation concern, neurovascular compromise, bleeding-risk plan, pregnancy/pediatric pathway, or specialist-directed plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "foot bruise",
+      "foot contusion",
+      "foot bruise",
+      "bruised foot"
+    ],
+    "unsafe_modifiers": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "unable_to_bear_weight_lower_extremity",
+      "diabetic_foot",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_foot_contusion",
+        "terms": [
+          "clinician diagnosis foot contusion",
+          "discharge diagnosis foot bruise",
+          "foot contusion diagnosed",
+          "foot bruise diagnosed"
+        ]
+      },
+      {
+        "id": "no_fracture_or_neurovascular_red_flags_foot",
+        "terms": [
+          "no fracture concern",
+          "neurovascularly intact",
+          "no deformity",
+          "x-ray negative",
+          "xray negative"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis foot contusion",
+      "foot contusion diagnosed",
+      "foot bruise diagnosed",
+      "foot bruise"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-19",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports bruise/contusion home care and warning signs for worsening swelling, pain, and unexplained bruising. Autonomous expansion approved this narrow v1 only for clinician-diagnosed foot contusion without fracture/dislocation concern, neurovascular compromise, bleeding-risk plan, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_foot_contusion_without_fracture_or_neurovascular_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated foot contusion or bruise",
+      "no fracture/dislocation concern, neurovascular compromise, bleeding-risk plan, or specialist-directed plan documented"
+    ],
+    "blocked_modifiers": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "anticoagulated",
+      "unable_to_bear_weight_lower_extremity",
+      "diabetic_foot",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+}

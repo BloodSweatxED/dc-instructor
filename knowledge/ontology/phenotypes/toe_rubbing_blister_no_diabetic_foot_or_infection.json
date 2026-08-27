@@ -1,0 +1,143 @@
+{
+  "id": "toe_rubbing_blister_no_diabetic_foot_or_infection",
+  "label": "Toe rubbing blister without diabetic-foot or infection red flags",
+  "status": "reviewed",
+  "condition_family": "wound_care",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated toe rubbing blister.",
+    "No infection, burn pathway, widespread blistering, medication reaction, mucosal involvement, high-risk host, pregnancy/pediatric pathway, diabetic-foot/PVD/neuropathy risk, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Cellulitis, abscess, pus, open infected wound, fever, systemic illness, burn, chemical/electrical injury, widespread blistering, mucosal lesions, severe cutaneous adverse reaction concern, immunocompromised host, pregnancy/pediatric pathway, diabetic foot risk, neuropathy, PVD, or specialist-directed wound/podiatry plan."
+  ],
+  "must_not_miss": [
+    "Burn injury.",
+    "Cellulitis or abscess.",
+    "Severe cutaneous adverse reaction.",
+    "Diabetic foot infection."
+  ],
+  "default_follow_up": "Follow up with primary care, podiatry, urgent care, or the ED if the blister is not healing or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "toe_rubbing_blister_no_diabetic_foot_or_infection.diagnosis.diagnosis_summary.v1",
+    "toe_rubbing_blister_no_diabetic_foot_or_infection.what_we_found.reassuring_ed_assessment.v1",
+    "toe_rubbing_blister_no_diabetic_foot_or_infection.home_care.home_care_1.v1",
+    "toe_rubbing_blister_no_diabetic_foot_or_infection.home_care.home_care_2.v1",
+    "toe_rubbing_blister_no_diabetic_foot_or_infection.home_care.home_care_3.v1",
+    "toe_rubbing_blister_no_diabetic_foot_or_infection.medications.medication_guidance_1.v1",
+    "toe_rubbing_blister_no_diabetic_foot_or_infection.medications.medication_guidance_2.v1",
+    "toe_rubbing_blister_no_diabetic_foot_or_infection.return_precautions.return_precaution_1.v1",
+    "toe_rubbing_blister_no_diabetic_foot_or_infection.return_precautions.return_precaution_2.v1",
+    "toe_rubbing_blister_no_diabetic_foot_or_infection.return_precautions.return_precaution_3.v1",
+    "toe_rubbing_blister_no_diabetic_foot_or_infection.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.blisters"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports blister framing, protection from rubbing, simple skin care, and escalation for infection, burns, widespread blistering, mucosal lesions, or severe skin reactions. This expansion is limited to clinician-diagnosed uncomplicated toe rubbing blister with infection, burn, high-risk skin, and diabetic-foot red flags absent."
+  },
+  "runtime": {
+    "condition_terms": [
+      "toe rubbing blister",
+      "toe pressure blister",
+      "toe blister from rubbing"
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "wound_infection_concern",
+      "open_wound",
+      "burn_high_risk_depth_location_or_mechanism",
+      "large_blistering_or_high_risk_burn",
+      "diabetic_foot",
+      "diabetes_general_risk",
+      "neuropathy_foot_risk",
+      "peripheral_vascular_disease",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_wound_plan",
+      "specialist_directed_podiatry_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_toe_rubbing_blister",
+        "terms": [
+          "clinician diagnosis toe rubbing blister",
+          "discharge diagnosis toe rubbing blister",
+          "toe rubbing blister diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_burn_toe_rubbing_blister",
+        "terms": [
+          "no infection",
+          "no burn",
+          "no diabetic foot",
+          "no neuropathy"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis toe rubbing blister",
+      "toe rubbing blister diagnosed",
+      "toe rubbing blister"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-29",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports blister framing, protection from rubbing, simple skin care, and escalation for infection, burns, widespread blistering, mucosal lesions, or severe skin reactions. This expansion is limited to clinician-diagnosed uncomplicated toe rubbing blister with infection, burn, high-risk skin, and diabetic-foot red flags absent.",
+    "clinical_status": "reviewed_for_limited_toe_rubbing_blister_no_diabetic_foot_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of uncomplicated toe rubbing blister",
+      "no infection",
+      "no burn or severe skin reaction",
+      "no diabetic-foot pathway"
+    ],
+    "blocked_modifiers": [
+      "secondary_skin_infection_concern",
+      "wound_infection_concern",
+      "open_wound",
+      "burn_high_risk_depth_location_or_mechanism",
+      "large_blistering_or_high_risk_burn",
+      "diabetic_foot",
+      "diabetes_general_risk",
+      "neuropathy_foot_risk",
+      "peripheral_vascular_disease",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_wound_plan",
+      "specialist_directed_podiatry_plan"
+    ]
+  }
+}

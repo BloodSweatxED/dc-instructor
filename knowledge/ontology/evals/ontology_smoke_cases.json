@@ -1,0 +1,77 @@
+[
+  {
+    "id": "lumbar_strain_6th",
+    "phenotype": "lumbar_strain_no_red_flags",
+    "reading_level": "6",
+    "must_include_sections": [
+      "DIAGNOSIS:",
+      "WHAT WE FOUND:",
+      "WHAT TO DO AT HOME:",
+      "MEDICATIONS:",
+      "RETURN TO ED IF:",
+      "FOLLOW UP:",
+      "RESOURCES:"
+    ],
+    "must_include_terms": ["weakness", "urine", "bowel", "fever"]
+  },
+  {
+    "id": "ankle_sprain_6th",
+    "phenotype": "ankle_sprain_xray_negative",
+    "reading_level": "6",
+    "must_include_sections": [
+      "DIAGNOSIS:",
+      "WHAT WE FOUND:",
+      "WHAT TO DO AT HOME:",
+      "MEDICATIONS:",
+      "RETURN TO ED IF:",
+      "FOLLOW UP:",
+      "RESOURCES:"
+    ],
+    "must_include_terms": ["x-ray", "brace", "ice", "numb", "walk"]
+  },
+  {
+    "id": "viral_uri_6th",
+    "phenotype": "viral_uri_no_pneumonia",
+    "reading_level": "6",
+    "must_include_sections": [
+      "DIAGNOSIS:",
+      "WHAT WE FOUND:",
+      "WHAT TO DO AT HOME:",
+      "MEDICATIONS:",
+      "RETURN TO ED IF:",
+      "FOLLOW UP:",
+      "RESOURCES:"
+    ],
+    "must_include_terms": ["viral", "pneumonia", "antibiotics", "breathing", "fever"]
+  },
+  {
+    "id": "cystitis_6th",
+    "phenotype": "uncomplicated_cystitis_nonpregnant",
+    "reading_level": "6",
+    "must_include_sections": [
+      "DIAGNOSIS:",
+      "WHAT WE FOUND:",
+      "WHAT TO DO AT HOME:",
+      "MEDICATIONS:",
+      "RETURN TO ED IF:",
+      "FOLLOW UP:",
+      "RESOURCES:"
+    ],
+    "must_include_terms": ["bladder infection", "antibiotic", "fever", "back or side pain", "2 days"]
+  },
+  {
+    "id": "gastroenteritis_6th",
+    "phenotype": "gastroenteritis_stable_hydrating",
+    "reading_level": "6",
+    "must_include_sections": [
+      "DIAGNOSIS:",
+      "WHAT WE FOUND:",
+      "WHAT TO DO AT HOME:",
+      "MEDICATIONS:",
+      "RETURN TO ED IF:",
+      "FOLLOW UP:",
+      "RESOURCES:"
+    ],
+    "must_include_terms": ["gastroenteritis", "fluids", "dehydration", "bloody", "1-3 days"]
+  }
+]

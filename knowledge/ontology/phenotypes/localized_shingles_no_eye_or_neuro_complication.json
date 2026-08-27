@@ -1,0 +1,141 @@
+{
+  "id": "localized_shingles_no_eye_or_neuro_complication",
+  "label": "Localized shingles without eye or neurologic complication",
+  "status": "reviewed",
+  "condition_family": "dermatology",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of localized shingles or herpes zoster.",
+    "No eye, face, ear, neurologic, disseminated, systemic, pregnancy, or immunocompromised-host complication documented."
+  ],
+  "exclusion_criteria": [
+    "Rash on the face, near the eye, ear involvement, vision symptoms, neurologic symptoms, meningitis or encephalitis concern.",
+    "Disseminated rash, severe systemic illness, pneumonia concern, pregnancy, immunocompromised host, or uncontrolled pain.",
+    "Specialist-directed ophthalmology, neurology, or infectious-disease plan."
+  ],
+  "must_not_miss": [
+    "Herpes zoster ophthalmicus.",
+    "Ramsay Hunt syndrome.",
+    "Meningitis or encephalitis.",
+    "Disseminated zoster."
+  ],
+  "default_follow_up": "Follow up with primary care or dermatology as instructed, especially if pain persists after the rash improves.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "localized_shingles_no_eye_or_neuro_complication.diagnosis.diagnosis_summary.v1",
+    "localized_shingles_no_eye_or_neuro_complication.what_we_found.reassuring_ed_assessment.v1",
+    "localized_shingles_no_eye_or_neuro_complication.home_care.home_care_1.v1",
+    "localized_shingles_no_eye_or_neuro_complication.home_care.home_care_2.v1",
+    "localized_shingles_no_eye_or_neuro_complication.home_care.home_care_3.v1",
+    "localized_shingles_no_eye_or_neuro_complication.medications.medication_guidance_1.v1",
+    "localized_shingles_no_eye_or_neuro_complication.medications.medication_guidance_2.v1",
+    "localized_shingles_no_eye_or_neuro_complication.return_precautions.return_precaution_1.v1",
+    "localized_shingles_no_eye_or_neuro_complication.return_precautions.return_precaution_2.v1",
+    "localized_shingles_no_eye_or_neuro_complication.return_precautions.return_precaution_3.v1",
+    "localized_shingles_no_eye_or_neuro_complication.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.shingles",
+    "medlineplus.shingles_aftercare"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports shingles and herpes zoster framing, painful blistering rash, keeping rash clean and covered, avoiding high-risk contacts until crusting, clinician-directed medicines, and urgent escalation for eye, neurologic, systemic, disseminated, or high-risk-host complications. Autonomous Phase 1551-1600 approved this narrow v1 only for clinician-diagnosed localized shingles without eye, face, ear, neurologic, disseminated, systemic, pregnancy, immunocompromised-host, or specialist-directed complication pathway."
+  },
+  "runtime": {
+    "condition_terms": [
+      "localized shingles",
+      "shingles no eye involvement",
+      "herpes zoster localized",
+      "shingles",
+      "zoster"
+    ],
+    "unsafe_modifiers": [
+      "zoster_eye_face_or_neuro_concern",
+      "herpes_or_zoster_eye_concern",
+      "ocular_symptoms",
+      "vision_change",
+      "meningitis_or_cns_infection_concern",
+      "neurologic_deficit",
+      "disseminated_or_complicated_zoster",
+      "secondary_skin_infection_concern",
+      "immunocompromised",
+      "pregnancy",
+      "systemic_illness",
+      "uncontrolled_pain",
+      "specialist_directed_neurology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_shingles",
+        "terms": [
+          "clinician diagnosis localized shingles",
+          "discharge diagnosis shingles",
+          "shingles diagnosed",
+          "localized shingles diagnosed",
+          "herpes zoster diagnosed"
+        ]
+      },
+      {
+        "id": "no_eye_or_neuro_complication_documented",
+        "terms": [
+          "no eye involvement",
+          "no facial involvement",
+          "no neurologic symptoms",
+          "no disseminated rash",
+          "localized rash only"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis localized shingles",
+      "shingles diagnosed",
+      "localized shingles diagnosed",
+      "herpes zoster diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-17",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports shingles and herpes zoster framing, painful blistering rash, keeping rash clean and covered, avoiding high-risk contacts until crusting, clinician-directed medicines, and urgent escalation for eye, neurologic, systemic, disseminated, or high-risk-host complications. Autonomous Phase 1551-1600 approved this narrow v1 only for clinician-diagnosed localized shingles without eye, face, ear, neurologic, disseminated, systemic, pregnancy, immunocompromised-host, or specialist-directed complication pathway.",
+    "clinical_status": "reviewed_for_limited_localized_shingles_without_eye_or_neuro_complication_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of localized shingles or herpes zoster",
+      "no eye, face, ear, neurologic, disseminated, systemic, pregnancy, or immunocompromised-host complication documented",
+      "medication plan clinician-entered only"
+    ],
+    "blocked_modifiers": [
+      "zoster_eye_face_or_neuro_concern",
+      "herpes_or_zoster_eye_concern",
+      "ocular_symptoms",
+      "vision_change",
+      "meningitis_or_cns_infection_concern",
+      "neurologic_deficit",
+      "disseminated_or_complicated_zoster",
+      "secondary_skin_infection_concern",
+      "immunocompromised",
+      "pregnancy",
+      "systemic_illness",
+      "uncontrolled_pain",
+      "specialist_directed_neurology_plan"
+    ]
+  }
+}

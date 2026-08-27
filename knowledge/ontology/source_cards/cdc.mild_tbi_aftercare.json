@@ -1,0 +1,14 @@
+{
+  "id": "cdc.mild_tbi_aftercare",
+  "source": "CDC",
+  "title": "What to Do After a Mild TBI or Concussion",
+  "url": "https://www.cdc.gov/traumatic-brain-injury/response/index.html",
+  "source_type": "government_guidance",
+  "license_notes": "Use as public government source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Recovery from mild TBI or concussion involves gradual return to regular activities as symptoms allow.",
+    "Patients should reduce activity if symptoms worsen.",
+    "Return-to-work, school, driving, and sports decisions may need clinician-specific written instructions."
+  ],
+  "use_policy": "evidence_support"
+}

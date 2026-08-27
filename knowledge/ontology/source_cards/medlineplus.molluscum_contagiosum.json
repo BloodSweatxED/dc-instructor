@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.molluscum_contagiosum",
+  "source": "MedlinePlus",
+  "title": "Molluscum contagiosum",
+  "url": "https://medlineplus.gov/ency/article/000826.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Molluscum contagiosum is a viral skin infection that causes raised, pearl-like papules or nodules.",
+    "The condition can spread by direct contact or contaminated objects.",
+    "Lesions are usually mild and self-limited.",
+    "Extensive disease, genital disease, eye involvement, or immunocompromised-host context requires clinician-directed handling."
+  ],
+  "use_policy": "evidence_support"
+}

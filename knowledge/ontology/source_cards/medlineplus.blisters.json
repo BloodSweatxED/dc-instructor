@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.blisters",
+  "source": "MedlinePlus",
+  "title": "Blisters",
+  "url": "https://medlineplus.gov/ency/article/003239.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Blisters are fluid-filled sacs on the outer layer of skin.",
+    "Friction, burns, infection, and some diseases can cause blisters.",
+    "Simple friction blisters can often be protected while they heal.",
+    "Infection, burns, widespread blistering, drug-rash concern, diabetic foot risk, or immunocompromise require separate clinician-directed care."
+  ],
+  "use_policy": "evidence_support"
+}

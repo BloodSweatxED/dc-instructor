@@ -1,0 +1,135 @@
+{
+  "id": "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection",
+  "label": "Minor braces-wire mouth irritation without deep laceration or infection",
+  "status": "reviewed",
+  "condition_family": "dental_oral",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of minor braces wire mouth irritation.",
+    "No infection, abscess, deep wound, mucosal emergency, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Cellulitis, abscess, deep wound, severe or spreading rash, systemic illness, mucosal emergency, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "must_not_miss": [
+    "Cellulitis or abscess.",
+    "Deep-space oral infection when mouth symptoms are present.",
+    "Severe cutaneous adverse reaction.",
+    "Retained foreign body or deep wound."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, dentistry, dermatology, or the ED if symptoms are not improving or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection.diagnosis.diagnosis_summary.v1",
+    "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection.what_we_found.reassuring_ed_assessment.v1",
+    "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection.home_care.home_care_1.v1",
+    "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection.home_care.home_care_2.v1",
+    "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection.home_care.home_care_3.v1",
+    "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection.medications.medication_guidance_1.v1",
+    "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection.medications.medication_guidance_2.v1",
+    "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection.return_precautions.return_precaution_1.v1",
+    "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection.return_precautions.return_precaution_2.v1",
+    "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection.return_precautions.return_precaution_3.v1",
+    "minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.cuts_puncture_wounds"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways."
+  },
+  "runtime": {
+    "condition_terms": [
+      "minor braces wire mouth irritation",
+      "braces wire irritation",
+      "braces mouth irritation"
+    ],
+    "unsafe_modifiers": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "deep_space_swelling",
+      "peritonsillar_abscess_concern",
+      "systemic_or_recurrent_oral_ulcer_features",
+      "trismus"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection",
+        "terms": [
+          "clinician diagnosis minor braces wire mouth irritation",
+          "discharge diagnosis minor braces wire mouth irritation",
+          "minor braces wire mouth irritation diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_deep_injury_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection",
+        "terms": [
+          "no infection",
+          "no abscess",
+          "localized irritation only",
+          "no deep wound"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis minor braces wire mouth irritation",
+      "minor braces wire mouth irritation diagnosed",
+      "minor braces wire mouth irritation"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-07-07",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports contact dermatitis and minor wound-care framing, trigger avoidance or gentle care, clinician-directed topical or symptomatic treatment, and escalation for infection, worsening symptoms, severe reactions, or deeper injury concerns. This expansion is limited to a clinician-diagnosed localized irritation without infection, abscess, deep injury, pregnancy/pediatric, or specialist-directed pathways.",
+    "clinical_status": "reviewed_for_limited_minor_braces_wire_mouth_irritation_no_deep_laceration_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis of minor braces wire mouth irritation",
+      "localized irritation only",
+      "no infection or abscess",
+      "no deep injury or specialist-directed plan"
+    ],
+    "blocked_modifiers": [
+      "fever",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "deep_space_swelling",
+      "peritonsillar_abscess_concern",
+      "systemic_or_recurrent_oral_ulcer_features",
+      "trismus"
+    ]
+  }
+}

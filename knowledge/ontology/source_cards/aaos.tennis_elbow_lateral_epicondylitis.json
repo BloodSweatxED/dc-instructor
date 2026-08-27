@@ -1,0 +1,16 @@
+{
+  "id": "aaos.tennis_elbow_lateral_epicondylitis",
+  "source": "AAOS OrthoInfo",
+  "title": "Tennis Elbow (Lateral Epicondylitis)",
+  "url": "https://orthoinfo.aaos.org/en/diseases--conditions/tennis-elbow-lateral-epicondylitis/",
+  "source_type": "orthopedic_patient_education",
+  "license_notes": "Use as source support only. Avoid verbatim copying from AAOS copyrighted patient education.",
+  "supports": [
+    "Lateral epicondylitis is an overuse condition involving forearm tendon degeneration or microtearing at the outside of the elbow.",
+    "Symptoms usually develop gradually over weeks to months and often worsen with forearm activity, gripping, turning tools, or shaking hands.",
+    "X-rays can help rule out other causes of elbow pain. MRI or EMG may be used when other soft-tissue, neck, or nerve causes are suspected.",
+    "Most treatment is nonsurgical and centers on rest or decreasing painful activity, physical or occupational therapy, and gradual strengthening.",
+    "Surgery is usually considered only after persistent symptoms despite many months of nonsurgical treatment."
+  ],
+  "use_policy": "evidence_support"
+}

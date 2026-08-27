@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.osteoarthritis",
+  "source": "MedlinePlus",
+  "title": "Osteoarthritis",
+  "url": "https://medlineplus.gov/osteoarthritis.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Osteoarthritis is a common joint condition that can cause pain and stiffness.",
+    "Supportive care may include activity changes, exercise, weight management, and clinician-directed pain control.",
+    "Acute trauma, fever, red hot joint, severe inability to use the joint, or diagnostic uncertainty require separate evaluation."
+  ],
+  "use_policy": "evidence_support"
+}

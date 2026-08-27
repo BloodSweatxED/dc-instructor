@@ -1,0 +1,227 @@
+[
+  {
+    "id": "phase202_aom_revised_clean_reviewed_ontology",
+    "condition": "acute otitis media uncomplicated",
+    "ed_note": "Adult discharge diagnosis acute otitis media. Clinician entered treatment plan. No ear red flags documented.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase221_aom_frail_elderly_soft_blocks",
+    "condition": "acute otitis media uncomplicated",
+    "ed_note": "Adult discharge diagnosis acute otitis media. Clinician entered treatment plan. No ear red flags documented. Frail elderly patient.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": null,
+    "expected_output_modifiers": [
+      "elderly_frail"
+    ]
+  },
+  {
+    "id": "phase202_aom_neck_stiffness_blocks",
+    "condition": "acute otitis media uncomplicated",
+    "ed_note": "Adult discharge diagnosis acute otitis media. Clinician entered treatment plan. Neck stiffness documented.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "meningitis_or_cns_infection_concern"
+    ]
+  },
+  {
+    "id": "phase202_aom_venous_sinus_thrombosis_blocks",
+    "condition": "acute otitis media uncomplicated",
+    "ed_note": "Adult discharge diagnosis acute otitis media. Clinician entered treatment plan. Venous sinus thrombosis concern documented.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "lateral_sinus_thrombosis_concern"
+    ]
+  },
+  {
+    "id": "phase221_aom_watchful_waiting_unreliable_followup_blocks",
+    "condition": "acute otitis media uncomplicated",
+    "ed_note": "Adult discharge diagnosis acute otitis media. Clinician entered treatment plan. No ear red flags documented. Watchful waiting with unreliable follow up.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "watchful_waiting_follow_up_unreliable"
+    ]
+  },
+  {
+    "id": "phase221_aom_poorly_controlled_diabetes_blocks",
+    "condition": "acute otitis media uncomplicated",
+    "ed_note": "Adult discharge diagnosis acute otitis media. Clinician entered treatment plan. No ear red flags documented. Poorly controlled diabetes.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": null,
+    "expected_output_modifiers": [
+      "diabetes_general_risk"
+    ]
+  },
+  {
+    "id": "phase203_suture_revised_clean_reviewed_ontology",
+    "condition": "suture removal wound check",
+    "ed_note": "Clinician documented wound healing as expected. Wound schedule documented. No wound red flags documented.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase203_suture_missing_follow_up_plan_blocks",
+    "condition": "suture removal wound check",
+    "ed_note": "Clinician documented wound healing as expected. No wound red flags documented.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_entered_wound_follow_up_plan"
+    ]
+  },
+  {
+    "id": "phase222_suture_wound_ready_alone_missing_expected_healing_or_clearance",
+    "condition": "suture removal wound check",
+    "ed_note": "Clinician documented wound ready. Wound schedule documented. No wound red flags documented.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_documented_expected_healing_or_clearance"
+    ]
+  },
+  {
+    "id": "phase203_suture_face_wound_blocks",
+    "condition": "suture removal wound check",
+    "ed_note": "Clinician documented wound healing as expected. Wound schedule documented. No wound infection concern. Face wound.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "high_risk_wound_location"
+    ]
+  },
+  {
+    "id": "phase221_suture_diabetes_blocks",
+    "condition": "suture removal wound check",
+    "ed_note": "Clinician documented wound healing as expected. Wound schedule documented. No wound red flags documented. Diabetes.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": null,
+    "expected_output_modifiers": [
+      "diabetes_general_risk"
+    ]
+  },
+  {
+    "id": "phase221_suture_pvd_blocks",
+    "condition": "suture removal wound check",
+    "ed_note": "Clinician documented wound healing as expected. Wound schedule documented. No wound red flags documented. Peripheral vascular disease.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": null,
+    "expected_output_modifiers": [
+      "peripheral_vascular_disease"
+    ]
+  },
+  {
+    "id": "phase204_skin_avulsion_clean_reviewed_ontology",
+    "condition": "simple skin avulsion",
+    "ed_note": "Clinician diagnosis simple skin avulsion. Wound cleaned and dressed. No repair needed.",
+    "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase204_skin_abrasion_broad_no_match",
+    "condition": "abrasion",
+    "ed_note": "Broad abrasion without clinician diagnosis or structured red flag absence.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase204_skin_avulsion_repair_needed_blocks",
+    "condition": "simple skin avulsion",
+    "ed_note": "Clinician diagnosis simple skin avulsion. Wound cleaned and dressed. Needs sutures and wound repair needed.",
+    "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "laceration_repair_needed"
+    ]
+  },
+  {
+    "id": "phase204_skin_avulsion_high_pressure_blocks",
+    "condition": "simple skin avulsion",
+    "ed_note": "Clinician diagnosis simple skin avulsion. Wound cleaned and dressed. High pressure injection injury concern.",
+    "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "high_pressure_injection_injury"
+    ]
+  },
+  {
+    "id": "phase221_skin_avulsion_anticoagulated_blocks",
+    "condition": "simple skin avulsion",
+    "ed_note": "Clinician diagnosis simple skin avulsion. Wound cleaned and dressed. No repair needed. Patient takes Eliquis.",
+    "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
+    "expected_fallback_reason": null,
+    "expected_output_modifiers": [
+      "anticoagulated"
+    ]
+  },
+  {
+    "id": "phase221_skin_avulsion_delayed_presentation_blocks",
+    "condition": "simple skin avulsion",
+    "ed_note": "Clinician diagnosis simple skin avulsion. Wound cleaned and dressed. No repair needed. Wound older than 8 hours.",
+    "expected_phenotype_id": "skin_avulsion_or_abrasion_simple",
+    "expected_fallback_reason": null,
+    "expected_output_modifiers": [
+      "delayed_wound_presentation"
+    ]
+  },
+  {
+    "id": "phase205_wrist_sprain_missing_scaphoid_absence_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "no_scaphoid_tenderness_documented"
+    ]
+  },
+  {
+    "id": "phase205_sprain_missing_xray_blocks",
+    "condition": "knee sprain xray negative",
+    "ed_note": "Knee sprain documented. Neurovascular exam intact. No imaging performed.",
+    "expected_phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "no_xray_performed"
+    ]
+  },
+  {
+    "id": "phase205_sprain_ankle_routes_out",
+    "condition": "ankle sprain xray negative",
+    "ed_note": "Ankle sprain pathway. X-ray performed and negative. Neurovascular exam intact.",
+    "expected_phenotype_id": "ankle_sprain_xray_negative",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase205_sprain_scaphoid_blocks",
+    "condition": "wrist sprain xray negative",
+    "ed_note": "Wrist sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Snuffbox tenderness documented.",
+    "expected_phenotype_id": "wrist_sprain_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "scaphoid_tenderness_pattern"
+    ]
+  },
+  {
+    "id": "phase205_sprain_unable_bear_weight_blocks",
+    "condition": "knee sprain xray negative",
+    "ed_note": "Knee sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Unable to bear weight.",
+    "expected_phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase205_sprain_compartment_signal_blocks",
+    "condition": "shoulder sprain xray negative",
+    "ed_note": "Shoulder sprain xray negative. X-ray performed and negative. Neurovascular exam intact. Tight swelling and pain out of proportion.",
+    "expected_phenotype_id": "sprain_strain_knee_or_shoulder_xray_negative",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "compartment_syndrome_concern"
+    ]
+  }
+]

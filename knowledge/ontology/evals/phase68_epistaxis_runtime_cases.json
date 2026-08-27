@@ -1,0 +1,23 @@
+[
+  {
+    "id": "phase68_epistaxis_clean_retired_fallback",
+    "condition": "epistaxis resolved",
+    "ed_note": "Adult with nosebleed that resolved. No posterior epistaxis, no anticoagulation, no facial trauma, no unstable vitals.",
+    "expected_phenotype_id": "epistaxis_resolved_no_posterior_bleed",
+    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+  },
+  {
+    "id": "phase68_epistaxis_broad_nasal_bleeding_no_match",
+    "condition": "nasal bleeding",
+    "ed_note": "Nasal bleeding complaint without final resolved epistaxis diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase68_epistaxis_broad_bleeding_no_match",
+    "condition": "bleeding",
+    "ed_note": "Bleeding complaint without final epistaxis diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  }
+]

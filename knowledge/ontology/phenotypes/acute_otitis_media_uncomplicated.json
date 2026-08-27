@@ -1,0 +1,182 @@
+{
+  "id": "acute_otitis_media_uncomplicated",
+  "label": "Uncomplicated acute otitis media without mastoiditis concern",
+  "status": "reviewed",
+  "condition_family": "ear",
+  "inclusion_criteria": [
+    "Adult patient with clinician diagnosis or discharge impression of acute otitis media, otitis media, or middle ear infection.",
+    "Clinician-entered treatment plan is present for pain control, antibiotics, delayed antibiotics, watchful waiting, or other medication instructions.",
+    "No mastoiditis, deep ear infection, eardrum perforation, tympanostomy tube, ear trauma, foreign body, otitis externa pathway, acute hearing loss, facial weakness, vertigo, severe systemic illness, meningitis, venous sinus thrombosis concern, or unstable vital signs documented.",
+    "No pediatric, recurrent/chronic, immunocompromised-host, unreliable watchful-waiting follow-up, or specialist-directed ENT pathway."
+  ],
+  "exclusion_criteria": [
+    "Mastoiditis, deep ear infection, skull base infection, meningitis, venous sinus thrombosis, or severe systemic illness concern.",
+    "Perforated eardrum, tympanostomy tube, ear trauma, ear foreign body, acute hearing loss, vertigo, facial weakness, or specialist-directed ENT plan.",
+    "Otitis externa or ear canal infection pathway.",
+    "Immunocompromised host, recurrent or chronic ear infection, or pediatric pathway requiring individualized instructions."
+  ],
+  "must_not_miss": [
+    "Mastoiditis.",
+    "Perforated tympanic membrane.",
+    "Ear foreign body.",
+    "Sudden sensorineural hearing loss.",
+    "Facial nerve palsy.",
+    "Meningitis.",
+    "Lateral or sigmoid sinus thrombosis.",
+    "Sepsis or deep ear infection."
+  ],
+  "default_follow_up": "If your clinician prescribed antibiotics, follow up in 7 to 10 days or sooner if symptoms are not improving. If your clinician gave a watchful-waiting plan, follow up in 2 to 3 days if symptoms are not improving. Follow any different schedule your clinician gave you.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "acute_otitis_media_uncomplicated.diagnosis.diagnosis_summary.v1",
+    "acute_otitis_media_uncomplicated.what_we_found.reassuring_ed_assessment.v1",
+    "acute_otitis_media_uncomplicated.home_care.home_care_1.v1",
+    "acute_otitis_media_uncomplicated.home_care.home_care_2.v1",
+    "acute_otitis_media_uncomplicated.home_care.home_care_3.v1",
+    "acute_otitis_media_uncomplicated.home_care.home_care_4.v1",
+    "acute_otitis_media_uncomplicated.home_care.home_care_5.v1",
+    "acute_otitis_media_uncomplicated.medications.medication_guidance_1.v1",
+    "acute_otitis_media_uncomplicated.medications.medication_guidance_2.v1",
+    "acute_otitis_media_uncomplicated.return_precautions.return_precaution_1.v1",
+    "acute_otitis_media_uncomplicated.return_precautions.return_precaution_2.v1",
+    "acute_otitis_media_uncomplicated.return_precautions.return_precaution_3.v1",
+    "acute_otitis_media_uncomplicated.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.ear_infections",
+    "cdc.ear_infection"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus and CDC support acute otitis media/middle-ear infection framing, ear pain and fever symptom education, clinician-directed observation or antibiotic decisions, and escalation for severe or worsening illness. These sources do not independently support ED-specific risk stratification, antibiotic selection, pediatric dosing, or follow-up timing, so runtime must require adult clinician diagnosis, clinician-entered treatment instructions, and structured absence of ear red flags."
+  },
+  "runtime": {
+    "condition_terms": [
+      "acute otitis media uncomplicated",
+      "acute otitis media",
+      "middle ear infection",
+      "ear infection otitis media"
+    ],
+    "unsafe_modifiers": [
+      "mastoiditis_or_deep_ear_infection_concern",
+      "severe_systemic_ear_infection",
+      "tympanic_membrane_perforation_or_tube",
+      "ear_trauma_or_foreign_body",
+      "otitis_externa_or_ear_canal_pathway",
+      "acute_hearing_loss",
+      "facial_weakness_or_neurologic_ear_sign",
+      "meningitis_or_cns_infection_concern",
+      "lateral_sinus_thrombosis_concern",
+      "immunocompromised",
+      "watchful_waiting_follow_up_unreliable",
+      "recurrent_or_chronic_ear_infection",
+      "pediatric_pathway",
+      "specialist_directed_ent_plan",
+      "unstable_vitals"
+    ],
+    "required_context": [
+      {
+        "id": "adult_patient_context",
+        "terms": [
+          "adult discharge diagnosis acute otitis media",
+          "adult patient with acute otitis media",
+          "adult diagnosed with acute otitis media",
+          "adult middle ear infection diagnosed"
+        ]
+      },
+      {
+        "id": "clinician_diagnosis_acute_otitis_media",
+        "terms": [
+          "clinician diagnosis acute otitis media",
+          "discharge diagnosis acute otitis media",
+          "diagnosed with acute otitis media",
+          "diagnosed with otitis media",
+          "middle ear infection diagnosed"
+        ]
+      },
+      {
+        "id": "clinician_entered_treatment_plan",
+        "terms": [
+          "clinician entered treatment plan",
+          "clinician entered medication instructions",
+          "pain control plan documented",
+          "antibiotic plan documented",
+          "delayed antibiotic plan documented",
+          "watchful waiting plan documented"
+        ]
+      },
+      {
+        "id": "structured_absence_of_ear_red_flags",
+        "terms": [
+          "no mastoiditis concern",
+          "no ear red flags documented",
+          "no perforation tube trauma foreign body hearing loss facial weakness vertigo",
+          "no deep ear infection concern",
+          "no mastoiditis perforation tube trauma foreign body hearing loss facial weakness vertigo meningitis concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "acute otitis media uncomplicated",
+      "adult discharge diagnosis acute otitis media",
+      "clinician diagnosis acute otitis media",
+      "discharge diagnosis acute otitis media",
+      "middle ear infection diagnosed"
+    ],
+    "output_modifiers": [
+      {
+        "id": "elderly_frail",
+        "label": "Frail elderly follow-up modifier",
+        "note": "Shorten follow-up to 48 to 72 hours and confirm explicit return instructions."
+      },
+      {
+        "id": "diabetes_general_risk",
+        "label": "Diabetes follow-up modifier",
+        "note": "Confirm clinician-entered follow-up and return instructions because infection recovery may be less predictable."
+      }
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-01",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Phase 222 clinician feedback applied. Approved for narrow ontology mode after pathway-specific follow-up, frail-elderly output modifier, diabetes output modifier, and watchful-waiting follow-up-access blocker were reviewed.",
+    "clinical_status": "reviewed_for_limited_production_ontology_use",
+    "required_modifiers": [],
+    "blocked_modifiers": [
+      "mastoiditis_or_deep_ear_infection_concern",
+      "severe_systemic_ear_infection",
+      "tympanic_membrane_perforation_or_tube",
+      "ear_trauma_or_foreign_body",
+      "otitis_externa_or_ear_canal_pathway",
+      "acute_hearing_loss",
+      "facial_weakness_or_neurologic_ear_sign",
+      "meningitis_or_cns_infection_concern",
+      "lateral_sinus_thrombosis_concern",
+      "immunocompromised",
+      "watchful_waiting_follow_up_unreliable",
+      "recurrent_or_chronic_ear_infection",
+      "pediatric_pathway",
+      "specialist_directed_ent_plan",
+      "unstable_vitals"
+    ]
+  }
+}

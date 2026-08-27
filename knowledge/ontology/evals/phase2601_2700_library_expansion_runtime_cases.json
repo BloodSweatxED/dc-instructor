@@ -1,0 +1,162 @@
+[
+  {
+    "id": "phase2601_trapezius_strain_no_rupture_or_neurovascular_red_flags_clean",
+    "condition": "trapezius strain",
+    "ed_note": "Adult. Clinician diagnosis trapezius strain. No tendon rupture. Neurovascularly intact. No fracture concern.",
+    "expected_phenotype_id": "trapezius_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2602_trapezius_strain_no_rupture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "trapezius strain",
+    "ed_note": "Adult with trapezius strain.",
+    "expected_phenotype_id": "trapezius_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_trapezius_strain",
+      "no_rupture_or_neurovascular_red_flags_trapezius"
+    ]
+  },
+  {
+    "id": "phase2603_trapezius_strain_no_rupture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "trapezius strain",
+    "ed_note": "Clinician diagnosis trapezius strain with required safe context documented, but possible fracture, tendon rupture, numb fingers, severe pain, chest pain are documented.",
+    "expected_phenotype_id": "trapezius_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "chest_pain"
+    ]
+  },
+  {
+    "id": "phase2604_hip_strain_no_rupture_or_neurovascular_red_flags_clean",
+    "condition": "hip strain",
+    "ed_note": "Adult. Clinician diagnosis hip strain. No tendon rupture. Neurovascularly intact. Able to bear weight.",
+    "expected_phenotype_id": "hip_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2605_hip_strain_no_rupture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "hip strain",
+    "ed_note": "Adult with hip strain.",
+    "expected_phenotype_id": "hip_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_hip_strain_no_rupture_or_neurovascular_red_flags",
+      "no_rupture_or_neurovascular_red_flags_hip_strain"
+    ]
+  },
+  {
+    "id": "phase2606_hip_strain_no_rupture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "hip strain",
+    "ed_note": "Hip Strain diagnosed with required safe context documented, but possible fracture, tendon rupture, numb fingers, severe pain, unable to bear weight are documented.",
+    "expected_phenotype_id": "hip_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase2607_groin_strain_no_rupture_or_neurovascular_red_flags_clean",
+    "condition": "groin strain",
+    "ed_note": "Adult. Clinician diagnosis groin strain. No tendon rupture. Neurovascularly intact. Able to bear weight.",
+    "expected_phenotype_id": "groin_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2608_groin_strain_no_rupture_or_neurovascular_red_flags_missing_context_blocks",
+    "condition": "groin strain",
+    "ed_note": "Adult with groin strain.",
+    "expected_phenotype_id": "groin_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_groin_strain_no_rupture_or_neurovascular_red_flags",
+      "no_rupture_or_neurovascular_red_flags_groin"
+    ]
+  },
+  {
+    "id": "phase2609_groin_strain_no_rupture_or_neurovascular_red_flags_unsafe_modifiers_block",
+    "condition": "groin strain",
+    "ed_note": "Groin Strain diagnosed with required safe context documented, but possible fracture, tendon rupture, numb fingers, severe pain, unable to bear weight are documented.",
+    "expected_phenotype_id": "groin_strain_uncomplicated_no_rupture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity"
+    ]
+  },
+  {
+    "id": "phase2610_abdominal_wall_strain_no_abdominal_red_flags_clean",
+    "condition": "abdominal wall strain",
+    "ed_note": "Adult. Clinician diagnosis abdominal wall strain. Benign abdominal exam. No abdominal emergency concern. No hernia concern.",
+    "expected_phenotype_id": "abdominal_wall_strain_uncomplicated_no_abdominal_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2611_abdominal_wall_strain_no_abdominal_red_flags_missing_context_blocks",
+    "condition": "abdominal wall strain",
+    "ed_note": "Adult with abdominal wall strain.",
+    "expected_phenotype_id": "abdominal_wall_strain_uncomplicated_no_abdominal_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_abdominal_wall_strain_no_abdominal_red_flags",
+      "no_abdominal_red_flags_abdominal_wall"
+    ]
+  },
+  {
+    "id": "phase2612_abdominal_wall_strain_no_abdominal_red_flags_unsafe_modifiers_block",
+    "condition": "abdominal wall strain",
+    "ed_note": "Abdominal Wall Strain diagnosed with required safe context documented, but severe or focal abdominal pain, guarding, persistent vomiting, fever, blood in stool are documented.",
+    "expected_phenotype_id": "abdominal_wall_strain_uncomplicated_no_abdominal_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "severe_or_focal_abdominal_pain",
+      "peritoneal_signs",
+      "persistent_vomiting",
+      "fever",
+      "gi_bleeding"
+    ]
+  },
+  {
+    "id": "phase2613_chest_wall_muscle_strain_no_cardiopulmonary_red_flags_clean",
+    "condition": "chest wall muscle strain",
+    "ed_note": "Adult. Clinician diagnosis chest wall muscle strain. Reproducible chest wall pain. No cardiac concern. No breathing distress.",
+    "expected_phenotype_id": "chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2614_chest_wall_muscle_strain_no_cardiopulmonary_red_flags_missing_context_blocks",
+    "condition": "chest wall muscle strain",
+    "ed_note": "Adult with chest wall muscle strain.",
+    "expected_phenotype_id": "chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_chest_wall_muscle_strain_no_cardiopulmonary_red_flags",
+      "no_cardiopulmonary_red_flags_chest_wall_strain"
+    ]
+  },
+  {
+    "id": "phase2615_chest_wall_muscle_strain_no_cardiopulmonary_red_flags_unsafe_modifiers_block",
+    "condition": "chest wall muscle strain",
+    "ed_note": "Chest Wall Muscle Strain diagnosed with required safe context documented, but chest pain, pe concern, respiratory distress, low oxygen, motor vehicle crash are documented.",
+    "expected_phenotype_id": "chest_wall_muscle_strain_uncomplicated_no_cardiopulmonary_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "chest_pain",
+      "cardiac_or_pe_chest_pain_concern",
+      "respiratory_distress",
+      "hypoxia",
+      "high_energy_trauma"
+    ]
+  }
+]

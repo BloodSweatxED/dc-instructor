@@ -1,0 +1,135 @@
+{
+  "id": "localized_insect_bite_or_sting_no_systemic_reaction",
+  "label": "Localized insect bite or sting without systemic reaction",
+  "status": "reviewed",
+  "condition_family": "dermatology",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of localized insect bite or sting reaction.",
+    "No anaphylaxis, airway symptoms, systemic reaction, venomous spider/scorpion/snake pathway, tick-borne illness concern, or cellulitis."
+  ],
+  "exclusion_criteria": [
+    "Anaphylaxis, airway symptoms, hypotension, syncope, vomiting, or bodywide reaction.",
+    "Cellulitis, abscess, necrosis, severe pain, or systemic illness.",
+    "Black widow, brown recluse, scorpion, tick-borne illness, snakebite, or specialist-directed allergy plan."
+  ],
+  "must_not_miss": [
+    "Anaphylaxis.",
+    "Cellulitis.",
+    "Necrotic spider bite.",
+    "Scorpion envenomation.",
+    "Tick-borne illness.",
+    "Snakebite."
+  ],
+  "default_follow_up": "Follow up with primary care or allergy clinic if symptoms persist, worsen, or reactions keep happening.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "localized_insect_bite_or_sting_no_systemic_reaction.diagnosis.diagnosis_summary.v1",
+    "localized_insect_bite_or_sting_no_systemic_reaction.what_we_found.reassuring_ed_assessment.v1",
+    "localized_insect_bite_or_sting_no_systemic_reaction.home_care.home_care_1.v1",
+    "localized_insect_bite_or_sting_no_systemic_reaction.home_care.home_care_2.v1",
+    "localized_insect_bite_or_sting_no_systemic_reaction.home_care.home_care_3.v1",
+    "localized_insect_bite_or_sting_no_systemic_reaction.medications.medication_guidance_1.v1",
+    "localized_insect_bite_or_sting_no_systemic_reaction.medications.medication_guidance_2.v1",
+    "localized_insect_bite_or_sting_no_systemic_reaction.return_precautions.return_precaution_1.v1",
+    "localized_insect_bite_or_sting_no_systemic_reaction.return_precautions.return_precaution_2.v1",
+    "localized_insect_bite_or_sting_no_systemic_reaction.return_precautions.return_precaution_3.v1",
+    "localized_insect_bite_or_sting_no_systemic_reaction.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.insect_bites_and_stings"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports insect-bite and sting framing, common local symptoms, home care with washing/cold packs/itch treatment, and emergency escalation for trouble breathing, wheezing, face or mouth swelling, throat tightness, swallowing trouble, weakness, or blue color. Autonomous Phase 1501-1550 approved this narrow v1 only for clinician-diagnosed localized bite or sting reaction without anaphylaxis, airway symptoms, hypotension, systemic reaction, cellulitis, venomous spider/scorpion/snake pathway, tick-borne illness concern, or specialist-directed allergy plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "localized insect bite no systemic reaction",
+      "insect bite",
+      "insect sting",
+      "bee sting local reaction",
+      "mosquito bite"
+    ],
+    "unsafe_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "syncope_or_fainting",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "specialist_directed_allergy_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_insect_bite_or_sting",
+        "terms": [
+          "clinician diagnosis localized insect bite",
+          "discharge diagnosis insect bite",
+          "insect bite diagnosed",
+          "insect sting diagnosed",
+          "localized insect bite reaction"
+        ]
+      },
+      {
+        "id": "no_systemic_reaction_documented",
+        "terms": [
+          "no systemic reaction",
+          "no anaphylaxis",
+          "no airway symptoms",
+          "localized reaction only",
+          "local reaction only"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "insect bite diagnosed",
+      "insect sting diagnosed",
+      "clinician diagnosis localized insect bite"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-11",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports insect-bite and sting framing, common local symptoms, home care with washing/cold packs/itch treatment, and emergency escalation for trouble breathing, wheezing, face or mouth swelling, throat tightness, swallowing trouble, weakness, or blue color. Autonomous Phase 1501-1550 approved this narrow v1 only for clinician-diagnosed localized bite or sting reaction without anaphylaxis, airway symptoms, hypotension, systemic reaction, cellulitis, venomous spider/scorpion/snake pathway, tick-borne illness concern, or specialist-directed allergy plan.",
+    "clinical_status": "reviewed_for_limited_localized_insect_bite_or_sting_without_systemic_reaction_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of localized insect bite or sting reaction",
+      "no systemic reaction, anaphylaxis, or airway symptoms documented",
+      "no cellulitis, necrotic spider, scorpion, tick-borne illness, snakebite, or specialist-directed allergy pathway"
+    ],
+    "blocked_modifiers": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "syncope_or_fainting",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "specialist_directed_allergy_plan"
+    ]
+  }
+}

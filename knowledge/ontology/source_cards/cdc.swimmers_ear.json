@@ -1,0 +1,15 @@
+{
+  "id": "cdc.swimmers_ear",
+  "source": "CDC",
+  "title": "Preventing Swimmer's Ear",
+  "url": "https://www.cdc.gov/healthy-swimming/prevention/preventing-swimmers-ear.html",
+  "source_type": "government_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Swimmer's ear is also called acute otitis externa.",
+    "Drying ears and avoiding trapped water are prevention concepts.",
+    "Ear plugs, bathing caps, and drying strategies may reduce water exposure.",
+    "This source supports prevention and patient education, not ED risk stratification."
+  ],
+  "use_policy": "evidence_support"
+}

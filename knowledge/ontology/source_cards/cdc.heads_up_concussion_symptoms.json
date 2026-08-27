@@ -1,0 +1,14 @@
+{
+  "id": "cdc.heads_up_concussion_symptoms",
+  "source": "CDC HEADS UP",
+  "title": "Signs and Symptoms of Concussion",
+  "url": "https://www.cdc.gov/heads-up/signs-symptoms/index.html",
+  "source_type": "government_guidance",
+  "license_notes": "Use as public government source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Concussion symptoms may not appear right away and can change during recovery.",
+    "Emergency danger signs include seizure, repeated vomiting, worsening headache, confusion, trouble waking, slurred speech, weakness, numbness, coordination problems, or vision changes.",
+    "Concussion signs and symptoms vary by age and clinical context."
+  ],
+  "use_policy": "evidence_support"
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "phase157_aom_mastoiditis_blocks",
+    "condition": "acute otitis media",
+    "ed_note": "Adult discharge diagnosis acute otitis media. No ear red flags documented except mastoid tenderness behind the ear.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "mastoiditis_or_deep_ear_infection_concern"
+    ]
+  },
+  {
+    "id": "phase157_aom_perforation_blocks",
+    "condition": "acute otitis media",
+    "ed_note": "Adult discharge diagnosis acute otitis media. No mastoiditis concern. Perforated eardrum with drainage documented.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "tympanic_membrane_perforation_or_tube"
+    ]
+  },
+  {
+    "id": "phase157_aom_otitis_externa_blocks",
+    "condition": "acute otitis media",
+    "ed_note": "Adult discharge diagnosis acute otitis media. No mastoiditis concern. Ear canal infection and otitis externa also documented.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "otitis_externa_or_ear_canal_pathway"
+    ]
+  },
+  {
+    "id": "phase157_aom_foreign_body_blocks",
+    "condition": "acute otitis media",
+    "ed_note": "Adult discharge diagnosis acute otitis media. No mastoiditis concern. Foreign body in ear removed.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "ear_trauma_or_foreign_body"
+    ]
+  },
+  {
+    "id": "phase157_aom_hearing_loss_blocks",
+    "condition": "acute otitis media",
+    "ed_note": "Adult discharge diagnosis acute otitis media. No mastoiditis concern. Sudden hearing loss documented.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "acute_hearing_loss"
+    ]
+  },
+  {
+    "id": "phase157_aom_facial_weakness_blocks",
+    "condition": "acute otitis media",
+    "ed_note": "Adult discharge diagnosis acute otitis media. No mastoiditis concern. Facial weakness and vertigo documented.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "facial_weakness_or_neurologic_ear_sign"
+    ]
+  },
+  {
+    "id": "phase157_aom_immunocompromised_blocks",
+    "condition": "acute otitis media",
+    "ed_note": "Adult discharge diagnosis acute otitis media. No mastoiditis concern. Patient is immunocompromised.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "immunocompromised"
+    ]
+  },
+  {
+    "id": "phase157_aom_recurrent_blocks",
+    "condition": "acute otitis media",
+    "ed_note": "Adult discharge diagnosis acute otitis media. No mastoiditis concern. Recurrent otitis media with multiple prior infections.",
+    "expected_phenotype_id": "acute_otitis_media_uncomplicated",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "recurrent_or_chronic_ear_infection"
+    ]
+  }
+]

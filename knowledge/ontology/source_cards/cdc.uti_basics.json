@@ -1,0 +1,14 @@
+{
+  "id": "cdc.uti_basics",
+  "source": "CDC",
+  "title": "Urinary Tract Infection Basics",
+  "url": "https://www.cdc.gov/uti/about/index.html",
+  "source_type": "government_guidance",
+  "license_notes": "Use as government source support for UTI basics and antibiotic stewardship. Avoid implying CDC endorses local discharge wording.",
+  "supports": [
+    "Bladder infection is the most common type of urinary tract infection.",
+    "Antibiotics are used to treat UTIs when a clinician determines they are needed.",
+    "Clinicians determine the appropriate antibiotic based on the patient and infection."
+  ],
+  "use_policy": "evidence_support"
+}

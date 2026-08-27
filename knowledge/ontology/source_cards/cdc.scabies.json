@@ -1,0 +1,15 @@
+{
+  "id": "cdc.scabies",
+  "source": "CDC",
+  "title": "About Scabies",
+  "url": "https://www.cdc.gov/scabies/about/index.html",
+  "source_type": "public_health_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Scabies is a skin infestation caused by the human itch mite.",
+    "Common symptoms include intense itching and a pimple-like itchy rash.",
+    "Scabies commonly spreads by direct, prolonged skin-to-skin contact.",
+    "Crowded settings and institutional outbreaks require special public-health handling."
+  ],
+  "use_policy": "evidence_support"
+}

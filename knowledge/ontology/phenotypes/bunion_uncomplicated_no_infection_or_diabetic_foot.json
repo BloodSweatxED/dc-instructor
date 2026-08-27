@@ -1,0 +1,142 @@
+{
+  "id": "bunion_uncomplicated_no_infection_or_diabetic_foot",
+  "label": "Uncomplicated bunion without infection or diabetic-foot risk",
+  "status": "reviewed",
+  "condition_family": "msk",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated bunion.",
+    "No infection, open wound, diabetic-foot/PVD/neuropathy risk, trauma/fracture concern, neurovascular compromise, inability to bear weight, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Cellulitis, abscess, pus, open wound, ulcer, fever, systemic illness, fracture/dislocation concern, neurovascular compromise, inability to bear weight, severe pain, or ischemic/black skin change.",
+    "Diabetic foot risk, neuropathy, PVD, pregnancy/pediatric pathway, or specialist-directed podiatry/orthopedic plan."
+  ],
+  "must_not_miss": [
+    "Diabetic foot infection.",
+    "Cellulitis or abscess.",
+    "Fracture or dislocation.",
+    "Neurovascular compromise.",
+    "Ischemic toe."
+  ],
+  "default_follow_up": "Follow up with primary care, podiatry, or orthopedics if pain persists, shoe wear remains difficult, or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "bunion_uncomplicated_no_infection_or_diabetic_foot.diagnosis.diagnosis_summary.v1",
+    "bunion_uncomplicated_no_infection_or_diabetic_foot.what_we_found.reassuring_ed_assessment.v1",
+    "bunion_uncomplicated_no_infection_or_diabetic_foot.home_care.home_care_1.v1",
+    "bunion_uncomplicated_no_infection_or_diabetic_foot.home_care.home_care_2.v1",
+    "bunion_uncomplicated_no_infection_or_diabetic_foot.home_care.home_care_3.v1",
+    "bunion_uncomplicated_no_infection_or_diabetic_foot.medications.medication_guidance_1.v1",
+    "bunion_uncomplicated_no_infection_or_diabetic_foot.medications.medication_guidance_2.v1",
+    "bunion_uncomplicated_no_infection_or_diabetic_foot.return_precautions.return_precaution_1.v1",
+    "bunion_uncomplicated_no_infection_or_diabetic_foot.return_precautions.return_precaution_2.v1",
+    "bunion_uncomplicated_no_infection_or_diabetic_foot.return_precautions.return_precaution_3.v1",
+    "bunion_uncomplicated_no_infection_or_diabetic_foot.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.bunions"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports bunion framing and supportive measures such as shoe changes, padding, and clinician-directed pain control. Autonomous Phase 1851-1900 approved this narrow v1 only for clinician-diagnosed uncomplicated bunion without infection, open wound, diabetic-foot/PVD/neuropathy risk, trauma/fracture concern, neurovascular compromise, inability to walk, pregnancy/pediatric pathway, or specialist-directed plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "bunion",
+      "uncomplicated bunion",
+      "hallux valgus",
+      "toe bunion"
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "open_wound",
+      "diabetic_foot",
+      "diabetes_general_risk",
+      "neuropathy_foot_risk",
+      "peripheral_vascular_disease",
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "severe_pain",
+      "systemic_illness",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_podiatry_plan",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_bunion",
+        "terms": [
+          "clinician diagnosis bunion",
+          "discharge diagnosis bunion",
+          "bunion diagnosed",
+          "uncomplicated bunion diagnosed",
+          "hallux valgus diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_diabetic_foot_risk_documented",
+        "terms": [
+          "no infection",
+          "no cellulitis",
+          "no open wound",
+          "no diabetic foot",
+          "neurovascularly intact"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis bunion",
+      "bunion diagnosed",
+      "uncomplicated bunion diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-18",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports bunion framing and supportive measures such as shoe changes, padding, and clinician-directed pain control. Autonomous Phase 1851-1900 approved this narrow v1 only for clinician-diagnosed uncomplicated bunion without infection, open wound, diabetic-foot/PVD/neuropathy risk, trauma/fracture concern, neurovascular compromise, inability to walk, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_bunion_without_infection_or_diabetic_foot_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated bunion",
+      "no infection/open wound or diabetic-foot risk documented",
+      "no trauma/fracture concern, neurovascular compromise, inability to walk, pregnancy, pediatric, or specialist-directed pathway"
+    ],
+    "blocked_modifiers": [
+      "secondary_skin_infection_concern",
+      "open_wound",
+      "diabetic_foot",
+      "diabetes_general_risk",
+      "neuropathy_foot_risk",
+      "peripheral_vascular_disease",
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "severe_pain",
+      "systemic_illness",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_podiatry_plan",
+      "specialist_directed_orthopedic_plan"
+    ]
+  }
+}

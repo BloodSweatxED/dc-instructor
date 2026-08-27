@@ -1,0 +1,137 @@
+{
+  "id": "chalazion_simple_no_vision_or_orbital_red_flags",
+  "label": "Simple chalazion without vision or orbital red flags",
+  "status": "reviewed",
+  "condition_family": "ophthalmology",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of simple chalazion.",
+    "No vision change, severe eye pain, orbital cellulitis concern, eye trauma, contact lens complication, infection concern, recurrent mass, or specialist-directed eye plan."
+  ],
+  "exclusion_criteria": [
+    "Vision change, severe eye pain, photophobia, pain with eye movement, orbital or periorbital cellulitis concern, or eye trauma.",
+    "Contact lens complication, recurrent or persistent eyelid mass, immune compromise, systemic illness, pediatric pathway, or specialist-directed ophthalmology plan.",
+    "Medication selection not supplied by clinician."
+  ],
+  "must_not_miss": [
+    "Orbital cellulitis.",
+    "Periorbital cellulitis.",
+    "Corneal ulcer or keratitis.",
+    "Eyelid malignancy mimic."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, optometry, or ophthalmology if symptoms are not improving, recur, or affect vision.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "chalazion_simple_no_vision_or_orbital_red_flags.diagnosis.diagnosis_summary.v1",
+    "chalazion_simple_no_vision_or_orbital_red_flags.what_we_found.reassuring_ed_assessment.v1",
+    "chalazion_simple_no_vision_or_orbital_red_flags.home_care.home_care_1.v1",
+    "chalazion_simple_no_vision_or_orbital_red_flags.home_care.home_care_2.v1",
+    "chalazion_simple_no_vision_or_orbital_red_flags.home_care.home_care_3.v1",
+    "chalazion_simple_no_vision_or_orbital_red_flags.medications.medication_guidance_1.v1",
+    "chalazion_simple_no_vision_or_orbital_red_flags.medications.medication_guidance_2.v1",
+    "chalazion_simple_no_vision_or_orbital_red_flags.return_precautions.return_precaution_1.v1",
+    "chalazion_simple_no_vision_or_orbital_red_flags.return_precautions.return_precaution_2.v1",
+    "chalazion_simple_no_vision_or_orbital_red_flags.return_precautions.return_precaution_3.v1",
+    "chalazion_simple_no_vision_or_orbital_red_flags.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.eyelid_bump_stye",
+    "aao.chalazion_stye"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus and AAO support chalazion/eyelid-bump framing, conservative warm-compress care, avoiding squeezing or popping, and escalation for vision trouble, worsening pain/swelling, infection concern, or persistent/recurrent eyelid mass. Autonomous Phase 1651-1700 approved this narrow v1 only for clinician-diagnosed simple chalazion without vision change, severe eye pain, orbital/periorbital cellulitis concern, eye trauma, contact lens complication, recurrent/persistent mass, immunocompromised/pediatric pathway, systemic illness, or specialist-directed eye plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "simple chalazion",
+      "chalazion no vision change",
+      "chalazion",
+      "eyelid cyst"
+    ],
+    "unsafe_modifiers": [
+      "vision_change",
+      "severe_eye_pain",
+      "photophobia",
+      "periorbital_or_orbital_cellulitis_concern",
+      "eye_trauma_or_foreign_body",
+      "contact_lens_use",
+      "corneal_ulcer_or_keratitis_concern",
+      "recurrent_or_persistent_eyelid_mass",
+      "immunocompromised",
+      "pediatric_pathway",
+      "systemic_illness",
+      "specialist_directed_ophthalmology_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_simple_chalazion",
+        "terms": [
+          "clinician diagnosis chalazion",
+          "discharge diagnosis chalazion",
+          "chalazion diagnosed",
+          "simple chalazion diagnosed",
+          "eyelid cyst diagnosed"
+        ]
+      },
+      {
+        "id": "no_vision_or_orbital_red_flags_documented",
+        "terms": [
+          "no vision change",
+          "no severe eye pain",
+          "no eye pain",
+          "no orbital cellulitis concern",
+          "no pain with eye movement"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis chalazion",
+      "chalazion diagnosed",
+      "simple chalazion diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-17",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus and AAO support chalazion/eyelid-bump framing, conservative warm-compress care, avoiding squeezing or popping, and escalation for vision trouble, worsening pain/swelling, infection concern, or persistent/recurrent eyelid mass. Autonomous Phase 1651-1700 approved this narrow v1 only for clinician-diagnosed simple chalazion without vision change, severe eye pain, orbital/periorbital cellulitis concern, eye trauma, contact lens complication, recurrent/persistent mass, immunocompromised/pediatric pathway, systemic illness, or specialist-directed eye plan.",
+    "clinical_status": "reviewed_for_limited_simple_chalazion_without_vision_or_orbital_red_flags_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of simple chalazion",
+      "no vision change, severe eye pain, eye trauma, or orbital/periorbital cellulitis concern documented",
+      "no contact lens complication, recurrent/persistent mass, immunocompromised, pediatric, systemic illness, or specialist-directed eye pathway"
+    ],
+    "blocked_modifiers": [
+      "vision_change",
+      "severe_eye_pain",
+      "photophobia",
+      "periorbital_or_orbital_cellulitis_concern",
+      "eye_trauma_or_foreign_body",
+      "contact_lens_use",
+      "corneal_ulcer_or_keratitis_concern",
+      "recurrent_or_persistent_eyelid_mass",
+      "immunocompromised",
+      "pediatric_pathway",
+      "systemic_illness",
+      "specialist_directed_ophthalmology_plan"
+    ]
+  }
+}

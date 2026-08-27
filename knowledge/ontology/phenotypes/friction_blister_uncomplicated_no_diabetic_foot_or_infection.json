@@ -1,0 +1,148 @@
+{
+  "id": "friction_blister_uncomplicated_no_diabetic_foot_or_infection",
+  "label": "Uncomplicated friction blister without diabetic-foot risk or infection",
+  "status": "reviewed",
+  "condition_family": "wound_care",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of uncomplicated friction blister.",
+    "No infection, burn pathway, diabetic-foot/PVD/neuropathy risk, widespread blistering, medication reaction, mucosal involvement, high-risk host, pregnancy/pediatric pathway, or specialist-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Cellulitis, abscess, pus, open infected wound, fever, systemic illness, burn, chemical/electrical injury, widespread blistering, mucosal lesions, or severe cutaneous adverse reaction concern.",
+    "Diabetic foot risk, neuropathy, PVD, immunocompromised host, pregnancy/pediatric pathway, or specialist-directed wound/podiatry plan."
+  ],
+  "must_not_miss": [
+    "Burn injury.",
+    "Diabetic foot infection.",
+    "Cellulitis or abscess.",
+    "Severe cutaneous adverse reaction.",
+    "Neurovascular compromise."
+  ],
+  "default_follow_up": "Follow up with primary care, podiatry, urgent care, or the ED if the blister is not healing or your clinician told you to recheck.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "friction_blister_uncomplicated_no_diabetic_foot_or_infection.diagnosis.diagnosis_summary.v1",
+    "friction_blister_uncomplicated_no_diabetic_foot_or_infection.what_we_found.reassuring_ed_assessment.v1",
+    "friction_blister_uncomplicated_no_diabetic_foot_or_infection.home_care.home_care_1.v1",
+    "friction_blister_uncomplicated_no_diabetic_foot_or_infection.home_care.home_care_2.v1",
+    "friction_blister_uncomplicated_no_diabetic_foot_or_infection.home_care.home_care_3.v1",
+    "friction_blister_uncomplicated_no_diabetic_foot_or_infection.medications.medication_guidance_1.v1",
+    "friction_blister_uncomplicated_no_diabetic_foot_or_infection.medications.medication_guidance_2.v1",
+    "friction_blister_uncomplicated_no_diabetic_foot_or_infection.return_precautions.return_precaution_1.v1",
+    "friction_blister_uncomplicated_no_diabetic_foot_or_infection.return_precautions.return_precaution_2.v1",
+    "friction_blister_uncomplicated_no_diabetic_foot_or_infection.return_precautions.return_precaution_3.v1",
+    "friction_blister_uncomplicated_no_diabetic_foot_or_infection.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.blisters"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus supports blister framing and simple protection for friction blisters. Autonomous Phase 1851-1900 approved this narrow v1 only for clinician-diagnosed uncomplicated friction blister without infection, burn pathway, diabetic-foot/PVD/neuropathy risk, widespread blistering, medication-reaction/mucosal concern, high-risk host, pregnancy/pediatric pathway, or specialist-directed plan."
+  },
+  "runtime": {
+    "condition_terms": [
+      "friction blister",
+      "uncomplicated blister",
+      "shoe blister",
+      "foot blister"
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "wound_infection_concern",
+      "open_wound",
+      "burn_high_risk_depth_location_or_mechanism",
+      "large_blistering_or_high_risk_burn",
+      "diabetic_foot",
+      "diabetes_general_risk",
+      "neuropathy_foot_risk",
+      "peripheral_vascular_disease",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_wound_plan",
+      "specialist_directed_podiatry_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_uncomplicated_friction_blister",
+        "terms": [
+          "clinician diagnosis friction blister",
+          "discharge diagnosis friction blister",
+          "friction blister diagnosed",
+          "uncomplicated blister diagnosed",
+          "shoe blister diagnosed"
+        ]
+      },
+      {
+        "id": "no_infection_or_diabetic_foot_documented",
+        "terms": [
+          "no infection",
+          "no cellulitis",
+          "no pus",
+          "no diabetic foot",
+          "no neuropathy"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis friction blister",
+      "friction blister diagnosed",
+      "uncomplicated blister diagnosed"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-18",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus supports blister framing and simple protection for friction blisters. Autonomous Phase 1851-1900 approved this narrow v1 only for clinician-diagnosed uncomplicated friction blister without infection, burn pathway, diabetic-foot/PVD/neuropathy risk, widespread blistering, medication-reaction/mucosal concern, high-risk host, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_uncomplicated_friction_blister_without_diabetic_foot_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated friction blister",
+      "no infection/cellulitis/pus or diabetic-foot risk documented",
+      "no burn, widespread blistering, medication reaction, high-risk host, pregnancy, pediatric, or specialist-directed pathway"
+    ],
+    "blocked_modifiers": [
+      "secondary_skin_infection_concern",
+      "wound_infection_concern",
+      "open_wound",
+      "burn_high_risk_depth_location_or_mechanism",
+      "large_blistering_or_high_risk_burn",
+      "diabetic_foot",
+      "diabetes_general_risk",
+      "neuropathy_foot_risk",
+      "peripheral_vascular_disease",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "severe_cutaneous_adverse_reaction",
+      "systemic_illness",
+      "immunocompromised",
+      "pregnancy",
+      "pediatric_pathway",
+      "specialist_directed_wound_plan",
+      "specialist_directed_podiatry_plan"
+    ]
+  }
+}

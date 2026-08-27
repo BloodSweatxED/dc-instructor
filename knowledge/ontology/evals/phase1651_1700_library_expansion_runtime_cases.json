@@ -1,0 +1,150 @@
+[
+  {
+    "id": "phase1651_chalazion_clean",
+    "condition": "chalazion",
+    "ed_note": "Adult. Clinician diagnosis chalazion. No vision change. No severe eye pain. No orbital cellulitis concern.",
+    "expected_phenotype_id": "chalazion_simple_no_vision_or_orbital_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1652_chalazion_missing_context_blocks",
+    "condition": "chalazion",
+    "ed_note": "Adult with small eyelid bump.",
+    "expected_phenotype_id": "chalazion_simple_no_vision_or_orbital_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_simple_chalazion",
+      "no_vision_or_orbital_red_flags_documented"
+    ]
+  },
+  {
+    "id": "phase1653_chalazion_orbital_red_flags_block",
+    "condition": "chalazion",
+    "ed_note": "Adult. Chalazion diagnosed. No vision change, but severe eye pain and pain with eye movement are documented.",
+    "expected_phenotype_id": "chalazion_simple_no_vision_or_orbital_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "periorbital_or_orbital_cellulitis_concern",
+      "severe_eye_pain"
+    ]
+  },
+  {
+    "id": "phase1654_tinea_pedis_clean",
+    "condition": "tinea pedis",
+    "ed_note": "Adult. Clinician diagnosis tinea pedis. No cellulitis. No secondary infection. No diabetic foot. No open wound.",
+    "expected_phenotype_id": "tinea_pedis_uncomplicated_no_cellulitis_or_diabetic_foot",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1655_tinea_pedis_missing_context_blocks",
+    "condition": "athlete's foot",
+    "ed_note": "Adult with itchy scaling between toes.",
+    "expected_phenotype_id": "tinea_pedis_uncomplicated_no_cellulitis_or_diabetic_foot",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_uncomplicated_tinea_pedis",
+      "no_cellulitis_or_diabetic_foot_documented"
+    ]
+  },
+  {
+    "id": "phase1656_tinea_pedis_diabetic_foot_blocks",
+    "condition": "tinea pedis",
+    "ed_note": "Adult. Tinea pedis diagnosed. No cellulitis, but diabetic foot ulcer with neuropathy is documented.",
+    "expected_phenotype_id": "tinea_pedis_uncomplicated_no_cellulitis_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "diabetic_foot",
+      "neuropathy_foot_risk"
+    ]
+  },
+  {
+    "id": "phase1657_eczema_clean",
+    "condition": "eczema",
+    "ed_note": "Adult. Clinician diagnosis eczema flare. No cellulitis. No secondary infection. No fever. No systemic symptoms.",
+    "expected_phenotype_id": "mild_eczema_flare_no_infection_or_systemic_symptoms",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1658_eczema_missing_context_blocks",
+    "condition": "eczema",
+    "ed_note": "Adult with itchy dry rash.",
+    "expected_phenotype_id": "mild_eczema_flare_no_infection_or_systemic_symptoms",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_mild_eczema_flare",
+      "no_infection_or_systemic_symptoms_documented"
+    ]
+  },
+  {
+    "id": "phase1659_eczema_infection_blocks",
+    "condition": "eczema",
+    "ed_note": "Adult. Eczema flare diagnosed. No systemic symptoms, but spreading redness, pus, and fever are documented.",
+    "expected_phenotype_id": "mild_eczema_flare_no_infection_or_systemic_symptoms",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fever",
+      "secondary_skin_infection_concern",
+      "systemic_illness"
+    ]
+  },
+  {
+    "id": "phase1660_oral_herpes_clean",
+    "condition": "cold sore",
+    "ed_note": "Adult. Clinician diagnosis herpes labialis. No eye involvement. No vision change. No genital involvement. No immunocompromised host. No disseminated disease.",
+    "expected_phenotype_id": "localized_oral_herpes_labialis_no_eye_or_immunocompromised_host",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1661_oral_herpes_missing_context_blocks",
+    "condition": "cold sore",
+    "ed_note": "Adult with painful lip blister.",
+    "expected_phenotype_id": "localized_oral_herpes_labialis_no_eye_or_immunocompromised_host",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_oral_herpes",
+      "no_eye_genital_or_immunocompromised_context_documented"
+    ]
+  },
+  {
+    "id": "phase1662_oral_herpes_eye_blocks",
+    "condition": "cold sore",
+    "ed_note": "Adult. Herpes labialis diagnosed. No genital involvement, but herpes near eye with red eye and vision change is documented.",
+    "expected_phenotype_id": "localized_oral_herpes_labialis_no_eye_or_immunocompromised_host",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "herpes_or_zoster_eye_concern",
+      "ocular_symptoms",
+      "oral_herpes_high_risk_or_complicated",
+      "vision_change"
+    ]
+  },
+  {
+    "id": "phase1663_heat_rash_clean",
+    "condition": "heat rash",
+    "ed_note": "Adult. Clinician diagnosis heat rash. No heat illness. No heat exhaustion. No heat stroke. No dehydration. No secondary infection. No cellulitis.",
+    "expected_phenotype_id": "heat_rash_uncomplicated_no_heat_illness_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase1664_heat_rash_missing_context_blocks",
+    "condition": "heat rash",
+    "ed_note": "Adult with small itchy rash after working outside.",
+    "expected_phenotype_id": "heat_rash_uncomplicated_no_heat_illness_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_uncomplicated_heat_rash",
+      "no_heat_illness_or_infection_documented"
+    ]
+  },
+  {
+    "id": "phase1665_heat_rash_heat_illness_blocks",
+    "condition": "heat rash",
+    "ed_note": "Adult. Heat rash diagnosed. No secondary infection, but heat exhaustion, syncope after heat, and dehydration are documented.",
+    "expected_phenotype_id": "heat_rash_uncomplicated_no_heat_illness_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "heat_illness_or_dehydration",
+      "syncope_or_fainting"
+    ]
+  }
+]

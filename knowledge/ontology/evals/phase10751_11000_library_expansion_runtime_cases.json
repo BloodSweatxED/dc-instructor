@@ -1,0 +1,215 @@
+[
+  {
+    "id": "phase10751_localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection_clean",
+    "condition": "localized shoe insert contact rash",
+    "ed_note": "Adult. clinician diagnosis localized shoe insert contact rash. localized shoe insert contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10851_localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection_missing_context_blocks",
+    "condition": "localized shoe insert contact rash",
+    "ed_note": "Adult with localized shoe insert contact rash.",
+    "expected_phenotype_id": "localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection",
+      "no_infection_or_systemic_red_flags_localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "condition": "localized shoe insert contact rash",
+    "ed_note": "Adult. clinician diagnosis localized shoe insert contact rash. localized shoe insert contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, diabetic foot, poor circulation, neuropathy, podiatry consulted, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_shoe_insert_contact_rash_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction",
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "specialist_directed_podiatry_plan"
+    ]
+  },
+  {
+    "id": "phase10752_localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection_clean",
+    "condition": "localized sandal strap contact rash",
+    "ed_note": "Adult. clinician diagnosis localized sandal strap contact rash. localized sandal strap contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10852_localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection_missing_context_blocks",
+    "condition": "localized sandal strap contact rash",
+    "ed_note": "Adult with localized sandal strap contact rash.",
+    "expected_phenotype_id": "localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection",
+      "no_infection_or_systemic_red_flags_localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection_contradictory_note_blocks",
+    "condition": "localized sandal strap contact rash",
+    "ed_note": "Adult. clinician diagnosis localized sandal strap contact rash. localized sandal strap contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, diabetic foot, poor circulation, neuropathy, podiatry consulted, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_sandal_strap_contact_rash_no_diabetic_foot_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction",
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "specialist_directed_podiatry_plan"
+    ]
+  },
+  {
+    "id": "phase10753_localized_rubber_band_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized rubber band contact rash",
+    "ed_note": "Adult. clinician diagnosis localized rubber band contact rash. localized rubber band contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_rubber_band_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10853_localized_rubber_band_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized rubber band contact rash",
+    "ed_note": "Adult with localized rubber band contact rash.",
+    "expected_phenotype_id": "localized_rubber_band_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_rubber_band_contact_rash_no_infection_or_anaphylaxis",
+      "no_infection_or_systemic_red_flags_localized_rubber_band_contact_rash_no_infection_or_anaphylaxis"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_rubber_band_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized rubber band contact rash",
+    "ed_note": "Adult. clinician diagnosis localized rubber band contact rash. localized rubber band contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_rubber_band_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  },
+  {
+    "id": "phase10754_localized_phone_case_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized phone case contact rash",
+    "ed_note": "Adult. clinician diagnosis localized phone case contact rash. localized phone case contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_phone_case_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10854_localized_phone_case_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized phone case contact rash",
+    "ed_note": "Adult with localized phone case contact rash.",
+    "expected_phenotype_id": "localized_phone_case_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_phone_case_contact_rash_no_infection_or_anaphylaxis",
+      "no_infection_or_systemic_red_flags_localized_phone_case_contact_rash_no_infection_or_anaphylaxis"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_phone_case_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized phone case contact rash",
+    "ed_note": "Adult. clinician diagnosis localized phone case contact rash. localized phone case contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_phone_case_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  },
+  {
+    "id": "phase10755_localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis_clean",
+    "condition": "localized id badge clip contact rash",
+    "ed_note": "Adult. clinician diagnosis localized id badge clip contact rash. localized id badge clip contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions.",
+    "expected_phenotype_id": "localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase10855_localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis_missing_context_blocks",
+    "condition": "localized id badge clip contact rash",
+    "ed_note": "Adult with localized id badge clip contact rash.",
+    "expected_phenotype_id": "localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis",
+      "no_infection_or_systemic_red_flags_localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis"
+    ]
+  },
+  {
+    "id": "phase20_phase12000_localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis_contradictory_note_blocks",
+    "condition": "localized id badge clip contact rash",
+    "ed_note": "Adult. clinician diagnosis localized id badge clip contact rash. localized id badge clip contact rash diagnosed. no anaphylaxis. no infection. localized reaction only. no mucosal lesions. However trouble breathing, anaphylaxis, fever, hypotension, chemotherapy, mouth sores, child, pregnancy, rapidly spreading rash, pus, sepsis, skin peeling, dermatology consulted, bodywide reaction are documented.",
+    "expected_phenotype_id": "localized_id_badge_clip_contact_rash_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms",
+      "anaphylaxis",
+      "fever",
+      "hypotension",
+      "immunocompromised",
+      "mucosal_lesions",
+      "pediatric_pathway",
+      "pregnancy",
+      "rapid_progression",
+      "secondary_skin_infection_concern",
+      "sepsis",
+      "severe_cutaneous_adverse_reaction",
+      "specialist_directed_dermatology_plan",
+      "systemic_allergic_reaction"
+    ]
+  }
+]

@@ -1,0 +1,421 @@
+[
+  {
+    "id": "peroneal_tendinitis_uncomplicated_no_rupture_or_infection",
+    "label": "Peroneal tendinitis without rupture or infection red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "peroneal tendinitis",
+      "peroneal tendonitis",
+      "peroneal overuse tendinitis"
+    ],
+    "source_card_ids": [
+      "medlineplus.tendinitis"
+    ],
+    "summary": "Your symptoms fit uncomplicated peroneal tendinitis.",
+    "found": "Your clinician diagnosed peroneal tendinitis. We did not find tendon rupture, infection, neurovascular compromise, or another emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, gentle motion, activity limits, or gradual return to activity only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the limb.",
+      "A pop with loss of strength, new deformity, or concern for tendon rupture.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated peroneal tendinitis.",
+      "No tendon rupture, fracture/dislocation concern, neurovascular compromise, infection, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Tendon rupture, fracture/dislocation concern, severe pain, neurovascular compromise, infection concern, inability to use the limb, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Tendon rupture.",
+      "Fracture or dislocation.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_peroneal_tendinitis",
+        "terms": [
+          "clinician diagnosis peroneal tendinitis",
+          "discharge diagnosis peroneal tendinitis",
+          "peroneal tendinitis diagnosed",
+          "peroneal tendonitis diagnosed"
+        ]
+      },
+      {
+        "id": "no_rupture_or_infection_red_flags_peroneal",
+        "terms": [
+          "no tendon rupture",
+          "neurovascularly intact",
+          "no infection",
+          "no fracture concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis peroneal tendinitis",
+      "peroneal tendinitis diagnosed",
+      "peroneal tendonitis diagnosed",
+      "peroneal tendinitis"
+    ],
+    "source_audit_notes": "MedlinePlus supports tendinitis framing, activity modification, symptom care, and warning signs. Autonomous expansion approved this narrow v1 only for clinician-diagnosed peroneal tendinitis without rupture, fracture/dislocation concern, neurovascular compromise, infection, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_peroneal_tendinitis_without_rupture_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated peroneal tendinitis",
+      "no tendon rupture, fracture/dislocation concern, neurovascular compromise, infection, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "quadriceps_tendinitis_uncomplicated_no_rupture_or_infection",
+    "label": "Quadriceps tendinitis without rupture or infection red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "quadriceps tendinitis",
+      "quadriceps tendonitis",
+      "quadriceps overuse tendinitis"
+    ],
+    "source_card_ids": [
+      "medlineplus.tendinitis"
+    ],
+    "summary": "Your symptoms fit uncomplicated quadriceps tendinitis.",
+    "found": "Your clinician diagnosed quadriceps tendinitis. We did not find tendon rupture, infection, neurovascular compromise, or another emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, gentle motion, activity limits, or gradual return to activity only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the limb.",
+      "A pop with loss of strength, new deformity, or concern for tendon rupture.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated quadriceps tendinitis.",
+      "No tendon rupture, fracture/dislocation concern, neurovascular compromise, infection, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Tendon rupture, fracture/dislocation concern, severe pain, neurovascular compromise, infection concern, inability to use the limb, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Tendon rupture.",
+      "Fracture or dislocation.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_quadriceps_tendinitis",
+        "terms": [
+          "clinician diagnosis quadriceps tendinitis",
+          "discharge diagnosis quadriceps tendinitis",
+          "quadriceps tendinitis diagnosed",
+          "quadriceps tendonitis diagnosed"
+        ]
+      },
+      {
+        "id": "no_rupture_or_infection_red_flags_quadriceps",
+        "terms": [
+          "no tendon rupture",
+          "neurovascularly intact",
+          "no infection",
+          "no fracture concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis quadriceps tendinitis",
+      "quadriceps tendinitis diagnosed",
+      "quadriceps tendonitis diagnosed",
+      "quadriceps tendinitis"
+    ],
+    "source_audit_notes": "MedlinePlus supports tendinitis framing, activity modification, symptom care, and warning signs. Autonomous expansion approved this narrow v1 only for clinician-diagnosed quadriceps tendinitis without rupture, fracture/dislocation concern, neurovascular compromise, infection, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_quadriceps_tendinitis_without_rupture_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated quadriceps tendinitis",
+      "no tendon rupture, fracture/dislocation concern, neurovascular compromise, infection, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "tibialis_anterior_tendinitis_uncomplicated_no_rupture_or_infection",
+    "label": "Tibialis anterior tendinitis without rupture or infection red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "tibialis anterior tendinitis",
+      "tibialis anterior tendonitis",
+      "shin tendinitis"
+    ],
+    "source_card_ids": [
+      "medlineplus.tendinitis"
+    ],
+    "summary": "Your symptoms fit uncomplicated tibialis anterior tendinitis.",
+    "found": "Your clinician diagnosed tibialis anterior tendinitis. We did not find tendon rupture, infection, neurovascular compromise, or another emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, gentle motion, activity limits, or gradual return to activity only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the leg or foot.",
+      "A pop with loss of strength, new deformity, or concern for tendon rupture.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated tibialis anterior tendinitis.",
+      "No tendon rupture, fracture/dislocation concern, neurovascular compromise, infection, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Tendon rupture, fracture/dislocation concern, severe pain, neurovascular compromise, infection concern, inability to use the limb, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Tendon rupture.",
+      "Fracture or dislocation.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "tendon_or_ligament_rupture_concern",
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_tibialis_anterior_tendinitis",
+        "terms": [
+          "clinician diagnosis tibialis anterior tendinitis",
+          "discharge diagnosis tibialis anterior tendinitis",
+          "tibialis anterior tendinitis diagnosed",
+          "tibialis anterior tendonitis diagnosed"
+        ]
+      },
+      {
+        "id": "no_rupture_or_infection_red_flags_tibialis_anterior",
+        "terms": [
+          "no tendon rupture",
+          "neurovascularly intact",
+          "no infection",
+          "no fracture concern"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis tibialis anterior tendinitis",
+      "tibialis anterior tendinitis diagnosed",
+      "tibialis anterior tendonitis diagnosed",
+      "tibialis anterior tendinitis"
+    ],
+    "source_audit_notes": "MedlinePlus supports tendinitis framing, activity modification, symptom care, and warning signs. Autonomous expansion approved this narrow v1 only for clinician-diagnosed tibialis anterior tendinitis without rupture, fracture/dislocation concern, neurovascular compromise, infection, pregnancy/pediatric pathway, or specialist-directed plan.",
+    "clinical_status": "reviewed_for_limited_tibialis_anterior_tendinitis_without_rupture_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated tibialis anterior tendinitis",
+      "no tendon rupture, fracture/dislocation concern, neurovascular compromise, infection, or specialist-directed plan documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "achilles_tendinitis_uncomplicated_no_rupture_or_infection",
+    "label": "Achilles tendinitis without rupture or infection red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "achilles tendinitis",
+      "achilles tendonitis",
+      "achilles overuse tendinitis"
+    ],
+    "source_card_ids": [
+      "medlineplus.tendinitis"
+    ],
+    "summary": "Your symptoms fit uncomplicated achilles tendinitis.",
+    "found": "Your clinician diagnosed achilles tendinitis. We did not find red flags requiring a separate emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, compression, elevation, gentle motion, or activity limits only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the limb.",
+      "New deformity, inability to use the area, or concern for fracture, dislocation, or tendon injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated achilles tendinitis.",
+      "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Tendon rupture.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_achilles_tendinitis_no_rupture_or_infection",
+        "terms": [
+          "clinician diagnosis achilles tendinitis",
+          "discharge diagnosis achilles tendinitis",
+          "achilles tendinitis diagnosed"
+        ]
+      },
+      {
+        "id": "no_rupture_or_infection_red_flags_achilles",
+        "terms": [
+          "Clinician diagnosis achilles tendinitis",
+          "No tendon rupture",
+          "Neurovascularly intact",
+          "No infection."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis achilles tendinitis",
+      "achilles tendinitis diagnosed",
+      "achilles tendinitis"
+    ],
+    "source_audit_notes": "medlineplus.tendinitis supports patient-education framing for achilles tendinitis and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_achilles_tendinitis_uncomplicated_no_rupture_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated achilles tendinitis",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "review_date": "2026-06-19"
+  },
+  {
+    "id": "patellar_tendinitis_uncomplicated_no_rupture_or_infection",
+    "label": "Patellar tendinitis without rupture or infection red flags",
+    "family": "musculoskeletal",
+    "condition_terms": [
+      "patellar tendinitis",
+      "patellar tendonitis",
+      "jumper knee",
+      "jumper's knee"
+    ],
+    "source_card_ids": [
+      "medlineplus.tendinitis",
+      "medlineplus.knee_injuries_disorders"
+    ],
+    "summary": "Your symptoms fit uncomplicated patellar tendinitis.",
+    "found": "Your clinician diagnosed patellar tendinitis. We did not find red flags requiring a separate emergency pathway today.",
+    "home": [
+      "Rest the sore area as instructed.",
+      "Use ice, compression, elevation, gentle motion, or activity limits only as your clinician recommended.",
+      "Avoid activity that causes sharp or worsening pain until you are improving."
+    ],
+    "meds": [
+      "Use pain medicine only if prescribed or recommended, and follow the label.",
+      "Do not combine medicines unless your clinician said it is safe."
+    ],
+    "return": [
+      "Worsening severe pain, new swelling, numbness, weakness, color change, or trouble using the limb.",
+      "New deformity, inability to use the area, or concern for fracture, dislocation, or tendon injury.",
+      "Fever, spreading redness, warmth, drainage, or symptoms not improving as expected."
+    ],
+    "follow": "Follow up with primary care, sports medicine, orthopedics, urgent care, or the ED if symptoms are not improving or your clinician told you to recheck.",
+    "inclusion": [
+      "Adult with clinician diagnosis or discharge impression of uncomplicated patellar tendinitis.",
+      "No emergency red flags, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "exclusion": [
+      "Red flags requiring a separate ED pathway, unstable vital signs, pregnancy/pediatric pathway, or specialist-directed plan."
+    ],
+    "must_not_miss": [
+      "Fracture or dislocation.",
+      "Tendon rupture.",
+      "Neurovascular compromise.",
+      "Infection."
+    ],
+    "unsafe_modifiers": [
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "septic_joint_or_infection_concern",
+      "severe_pain",
+      "unable_to_bear_weight_lower_extremity",
+      "specialist_directed_orthopedic_plan"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_patellar_tendinitis_no_rupture_or_infection",
+        "terms": [
+          "clinician diagnosis patellar tendinitis",
+          "discharge diagnosis patellar tendinitis",
+          "patellar tendinitis diagnosed"
+        ]
+      },
+      {
+        "id": "no_rupture_or_infection_red_flags_patellar",
+        "terms": [
+          "Clinician diagnosis patellar tendinitis",
+          "No tendon rupture",
+          "Neurovascularly intact",
+          "No infection."
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "clinician diagnosis patellar tendinitis",
+      "patellar tendinitis diagnosed",
+      "patellar tendinitis"
+    ],
+    "source_audit_notes": "medlineplus.tendinitis, medlineplus.knee_injuries_disorders supports patient-education framing for patellar tendinitis and boundary design. Autonomous expansion approved this narrow v1 only when clinician diagnosis is documented and red flags requiring a separate pathway are absent.",
+    "clinical_status": "reviewed_for_limited_patellar_tendinitis_uncomplicated_no_rupture_or_infection_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of uncomplicated patellar tendinitis",
+      "red flags requiring a separate pathway absent and documented"
+    ],
+    "review_date": "2026-06-19"
+  }
+]

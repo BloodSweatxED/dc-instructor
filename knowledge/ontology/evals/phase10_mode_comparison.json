@@ -1,0 +1,1368 @@
+[
+  {
+    "phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
+    "classifier": {
+      "phenotype_id": "abdominal_pain_nonspecific_reassuring_workup",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "abdominal pain nonspecific reassuring workup"
+      ],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    },
+    "generator": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 3,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 365,
+        "avg_sentence_words": 28.1,
+        "long_word_ratio": 0.088
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "needs_review"
+      }
+    },
+    "ontology": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 0,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 147,
+        "avg_sentence_words": 12.2,
+        "long_word_ratio": 0.19
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "needs_review"
+      }
+    },
+    "clinician_review_target": {
+      "status": "needs_review",
+      "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
+    },
+    "modifier_handling": {
+      "unsafe_modifiers": [
+        "pregnancy",
+        "elderly",
+        "immunocompromised",
+        "peritoneal_signs",
+        "uncontrolled_vomiting",
+        "fever",
+        "gi_bleeding",
+        "sepsis",
+        "unstable_vitals"
+      ],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "phenotype_id": "abscess_after_i_and_d",
+    "classifier": {
+      "phenotype_id": "abscess_after_i_and_d",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "abscess after i and d",
+        "i and d"
+      ],
+      "fallback_reason": null
+    },
+    "generator": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 3,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 381,
+        "avg_sentence_words": 14.7,
+        "long_word_ratio": 0.102
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "ontology": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 0,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 219,
+        "avg_sentence_words": 13.7,
+        "long_word_ratio": 0.119
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "clinician_review_target": {
+      "status": "reviewed",
+      "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
+    },
+    "modifier_handling": {
+      "unsafe_modifiers": [
+        "deep_space_location",
+        "immunocompromised",
+        "packing_required",
+        "recurrent_abscess",
+        "sepsis",
+        "necrotizing_infection_concern"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+    "classifier": {
+      "phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "allergic reaction",
+        "allergic reaction resolved no anaphylaxis"
+      ],
+      "fallback_reason": null
+    },
+    "generator": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 2,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 273,
+        "avg_sentence_words": 12.4,
+        "long_word_ratio": 0.158
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "ontology": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 0,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 209,
+        "avg_sentence_words": 13.9,
+        "long_word_ratio": 0.211
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "clinician_review_target": {
+      "status": "reviewed",
+      "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
+    },
+    "modifier_handling": {
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "hypotension",
+        "epinephrine_given",
+        "mucosal_lesions",
+        "unknown_trigger",
+        "anaphylaxis",
+        "biphasic_reaction_concern"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "phenotype_id": "ankle_sprain_xray_negative",
+    "classifier": {
+      "phenotype_id": "ankle_sprain_xray_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "ankle sprain",
+        "ankle sprain xray negative"
+      ],
+      "fallback_reason": null
+    },
+    "generator": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 3,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 424,
+        "avg_sentence_words": 15.7,
+        "long_word_ratio": 0.073
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "ontology": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 0,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 289,
+        "avg_sentence_words": 13.1,
+        "long_word_ratio": 0.114
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "clinician_review_target": {
+      "status": "reviewed",
+      "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
+    },
+    "modifier_handling": {
+      "unsafe_modifiers": [
+        "fracture_seen",
+        "neurovascular_compromise",
+        "no_xray_performed",
+        "open_wound",
+        "unable_to_bear_weight"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "phenotype_id": "asthma_exacerbation_improved_discharge",
+    "classifier": {
+      "phenotype_id": "asthma_exacerbation_improved_discharge",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "asthma",
+        "asthma exacerbation improved discharge"
+      ],
+      "fallback_reason": null
+    },
+    "generator": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 2,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 332,
+        "avg_sentence_words": 25.5,
+        "long_word_ratio": 0.151
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "ontology": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 0,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 316,
+        "avg_sentence_words": 12.2,
+        "long_word_ratio": 0.12
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "clinician_review_target": {
+      "status": "reviewed",
+      "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
+    },
+    "modifier_handling": {
+      "unsafe_modifiers": [
+        "hypoxia",
+        "poor_inhaler_access",
+        "pregnancy",
+        "chest_pain",
+        "frequent_relapse",
+        "respiratory_distress"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
+    "classifier": {
+      "phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "cellulitis",
+        "cellulitis uncomplicated oral antibiotics"
+      ],
+      "fallback_reason": null
+    },
+    "generator": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 2,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 335,
+        "avg_sentence_words": 23.9,
+        "long_word_ratio": 0.125
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "ontology": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 0,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 251,
+        "avg_sentence_words": 13.2,
+        "long_word_ratio": 0.163
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "clinician_review_target": {
+      "status": "reviewed",
+      "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
+    },
+    "modifier_handling": {
+      "unsafe_modifiers": [
+        "immunocompromised",
+        "rapid_progression",
+        "diabetic_foot",
+        "bite_wound",
+        "near_eye_or_genitals",
+        "sepsis",
+        "necrotizing_infection_concern",
+        "deep_space_location"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "phenotype_id": "chest_pain_low_risk_negative_ed_workup",
+    "classifier": {
+      "phenotype_id": "chest_pain_low_risk_negative_ed_workup",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "chest pain",
+        "chest pain low risk negative ed workup"
+      ],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    },
+    "generator": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 3,
+      "unsupported_certainty": 1,
+      "reading_level_proxy": {
+        "word_count": 323,
+        "avg_sentence_words": 29.4,
+        "long_word_ratio": 0.093
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "retired"
+      }
+    },
+    "ontology": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 0,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 126,
+        "avg_sentence_words": 10.5,
+        "long_word_ratio": 0.19
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "retired"
+      }
+    },
+    "clinician_review_target": {
+      "status": "retired",
+      "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
+    },
+    "modifier_handling": {
+      "unsafe_modifiers": [
+        "abnormal_troponin",
+        "abnormal_ecg",
+        "ongoing_pain",
+        "syncope",
+        "known_cad_high_risk"
+      ],
+      "fallback_reason": "phenotype_not_clinician_reviewed"
+    }
+  },
+  {
+    "phenotype_id": "community_acquired_pneumonia_outpatient",
+    "classifier": {
+      "phenotype_id": "community_acquired_pneumonia_outpatient",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "community acquired pneumonia",
+        "community acquired pneumonia outpatient",
+        "pneumonia",
+        "pneumonia outpatient"
+      ],
+      "fallback_reason": null
+    },
+    "generator": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 3,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 321,
+        "avg_sentence_words": 22.9,
+        "long_word_ratio": 0.103
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "ontology": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 0,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 291,
+        "avg_sentence_words": 13.9,
+        "long_word_ratio": 0.148
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "clinician_review_target": {
+      "status": "reviewed",
+      "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
+    },
+    "modifier_handling": {
+      "unsafe_modifiers": [
+        "hypoxia",
+        "immunocompromised",
+        "elderly_frail",
+        "sepsis",
+        "poor_follow_up",
+        "respiratory_distress",
+        "vomiting_unable_to_take_meds"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "phenotype_id": "concussion_discharge_no_imaging_red_flags",
+    "classifier": {
+      "phenotype_id": "concussion_discharge_no_imaging_red_flags",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "concussion",
+        "concussion discharge no imaging red flags"
+      ],
+      "fallback_reason": null
+    },
+    "generator": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 2,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 345,
+        "avg_sentence_words": 38.3,
+        "long_word_ratio": 0.122
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "ontology": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 0,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 242,
+        "avg_sentence_words": 15.1,
+        "long_word_ratio": 0.169
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "clinician_review_target": {
+      "status": "reviewed",
+      "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
+    },
+    "modifier_handling": {
+      "unsafe_modifiers": [
+        "athlete_return_to_play",
+        "anticoagulated",
+        "neurologic_deficit",
+        "persistent_vomiting",
+        "loss_of_consciousness",
+        "intoxication"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "phenotype_id": "dental_pain_no_deep_space_infection",
+    "classifier": {
+      "phenotype_id": "dental_pain_no_deep_space_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "dental pain",
+        "dental pain no deep space infection"
+      ],
+      "fallback_reason": null
+    },
+    "generator": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 3,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 363,
+        "avg_sentence_words": 14.0,
+        "long_word_ratio": 0.091
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "ontology": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 0,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 196,
+        "avg_sentence_words": 12.2,
+        "long_word_ratio": 0.138
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "clinician_review_target": {
+      "status": "reviewed",
+      "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
+    },
+    "modifier_handling": {
+      "unsafe_modifiers": [
+        "airway_symptoms",
+        "deep_space_swelling",
+        "immunocompromised",
+        "trismus",
+        "fever",
+        "sepsis",
+        "ludwig_angina_concern"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "phenotype_id": "gastroenteritis_stable_hydrating",
+    "classifier": {
+      "phenotype_id": "gastroenteritis_stable_hydrating",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "gastroenteritis",
+        "gastroenteritis stable hydrating"
+      ],
+      "fallback_reason": null
+    },
+    "generator": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 3,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 385,
+        "avg_sentence_words": 38.5,
+        "long_word_ratio": 0.135
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "ontology": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 0,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 238,
+        "avg_sentence_words": 14.9,
+        "long_word_ratio": 0.189
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "clinician_review_target": {
+      "status": "reviewed",
+      "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
+    },
+    "modifier_handling": {
+      "unsafe_modifiers": [
+        "surgical_abdomen",
+        "sepsis",
+        "gi_bleeding",
+        "severe_dehydration",
+        "unable_to_tolerate_oral_fluids",
+        "unstable_vitals",
+        "pregnancy",
+        "immunocompromised",
+        "elderly_frail",
+        "c_diff_risk"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "phenotype_id": "laceration_repaired_simple",
+    "classifier": {
+      "phenotype_id": "laceration_repaired_simple",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "laceration repair",
+        "laceration repaired simple"
+      ],
+      "fallback_reason": null
+    },
+    "generator": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 2,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 322,
+        "avg_sentence_words": 26.8,
+        "long_word_ratio": 0.102
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "ontology": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 0,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 212,
+        "avg_sentence_words": 13.2,
+        "long_word_ratio": 0.123
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "clinician_review_target": {
+      "status": "reviewed",
+      "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
+    },
+    "modifier_handling": {
+      "unsafe_modifiers": [
+        "bite_wound",
+        "hand_tendon_risk",
+        "joint_violation",
+        "open_fracture",
+        "dirty_wound",
+        "neurovascular_compromise",
+        "retained_foreign_body"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "phenotype_id": "lumbar_strain_no_red_flags",
+    "classifier": {
+      "phenotype_id": "lumbar_strain_no_red_flags",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "lumbar strain",
+        "lumbar strain no red flags"
+      ],
+      "fallback_reason": null
+    },
+    "generator": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 2,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 328,
+        "avg_sentence_words": 19.3,
+        "long_word_ratio": 0.107
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "ontology": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 0,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 310,
+        "avg_sentence_words": 12.4,
+        "long_word_ratio": 0.113
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "clinician_review_target": {
+      "status": "reviewed",
+      "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
+    },
+    "modifier_handling": {
+      "unsafe_modifiers": [
+        "cauda_equina_concern",
+        "spinal_infection_concern",
+        "fracture_or_trauma_concern",
+        "cancer_red_flag",
+        "fever",
+        "new_neurologic_deficit",
+        "pregnancy",
+        "unable_to_walk"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "phenotype_id": "minor_head_injury_no_red_flags",
+    "classifier": {
+      "phenotype_id": "minor_head_injury_no_red_flags",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "head injury",
+        "minor head injury",
+        "minor head injury no red flags"
+      ],
+      "fallback_reason": null
+    },
+    "generator": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 2,
+      "unsupported_certainty": 1,
+      "reading_level_proxy": {
+        "word_count": 275,
+        "avg_sentence_words": 27.5,
+        "long_word_ratio": 0.08
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "ontology": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 0,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 272,
+        "avg_sentence_words": 13.6,
+        "long_word_ratio": 0.162
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "clinician_review_target": {
+      "status": "reviewed",
+      "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
+    },
+    "modifier_handling": {
+      "unsafe_modifiers": [
+        "anticoagulated",
+        "loss_of_consciousness",
+        "intoxication",
+        "elderly",
+        "persistent_vomiting",
+        "neurologic_deficit",
+        "skull_fracture_concern"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "phenotype_id": "renal_colic_stable_no_infection",
+    "classifier": {
+      "phenotype_id": "renal_colic_stable_no_infection",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "renal colic",
+        "renal colic stable no infection"
+      ],
+      "fallback_reason": null
+    },
+    "generator": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 3,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 359,
+        "avg_sentence_words": 12.8,
+        "long_word_ratio": 0.075
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "ontology": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 0,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 219,
+        "avg_sentence_words": 11.5,
+        "long_word_ratio": 0.137
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "clinician_review_target": {
+      "status": "reviewed",
+      "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
+    },
+    "modifier_handling": {
+      "unsafe_modifiers": [
+        "fever",
+        "solitary_kidney",
+        "pregnancy",
+        "renal_failure",
+        "uncontrolled_pain",
+        "vomiting_unable_to_take_meds",
+        "urinary_obstruction",
+        "sepsis"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "phenotype_id": "uncomplicated_cystitis_nonpregnant",
+    "classifier": {
+      "phenotype_id": "uncomplicated_cystitis_nonpregnant",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "cystitis",
+        "uncomplicated cystitis",
+        "uncomplicated cystitis nonpregnant"
+      ],
+      "fallback_reason": null
+    },
+    "generator": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 3,
+      "unsupported_certainty": 1,
+      "reading_level_proxy": {
+        "word_count": 354,
+        "avg_sentence_words": 20.8,
+        "long_word_ratio": 0.105
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "ontology": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 0,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 237,
+        "avg_sentence_words": 14.8,
+        "long_word_ratio": 0.16
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "clinician_review_target": {
+      "status": "reviewed",
+      "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
+    },
+    "modifier_handling": {
+      "unsafe_modifiers": [
+        "pregnancy",
+        "male_patient",
+        "pyelonephritis",
+        "fever",
+        "flank_pain",
+        "sepsis",
+        "vomiting_unable_to_take_meds",
+        "complicated_uti",
+        "kidney_transplant",
+        "urinary_obstruction",
+        "indwelling_catheter",
+        "no_antibiotic_prescribed"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "phenotype_id": "viral_pharyngitis_strep_negative",
+    "classifier": {
+      "phenotype_id": "viral_pharyngitis_strep_negative",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "strep negative",
+        "viral pharyngitis",
+        "viral pharyngitis strep negative"
+      ],
+      "fallback_reason": null
+    },
+    "generator": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 3,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 315,
+        "avg_sentence_words": 12.1,
+        "long_word_ratio": 0.083
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "ontology": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 0,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 217,
+        "avg_sentence_words": 13.6,
+        "long_word_ratio": 0.124
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "clinician_review_target": {
+      "status": "reviewed",
+      "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
+    },
+    "modifier_handling": {
+      "unsafe_modifiers": [
+        "drooling",
+        "trismus",
+        "voice_change",
+        "airway_symptoms",
+        "immunocompromised",
+        "peritonsillar_abscess_concern",
+        "epiglottitis_concern",
+        "mono_complication_concern",
+        "positive_strep_test",
+        "antibiotic_prescribed"
+      ],
+      "fallback_reason": null
+    }
+  },
+  {
+    "phenotype_id": "viral_uri_no_pneumonia",
+    "classifier": {
+      "phenotype_id": "viral_uri_no_pneumonia",
+      "confidence": 0.93,
+      "exclusions": [],
+      "modifiers": [
+        "uri no pneumonia",
+        "viral uri",
+        "viral uri no pneumonia"
+      ],
+      "fallback_reason": null
+    },
+    "generator": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 3,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 326,
+        "avg_sentence_words": 13.6,
+        "long_word_ratio": 0.098
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "ontology": {
+      "missing_red_flags": false,
+      "unsafe_med_advice": 0,
+      "unsupported_certainty": 0,
+      "reading_level_proxy": {
+        "word_count": 255,
+        "avg_sentence_words": 15.9,
+        "long_word_ratio": 0.157
+      },
+      "section_completeness": {
+        "diagnosis": true,
+        "what_we_found": true,
+        "home_care": true,
+        "medications": true,
+        "return_precautions": true,
+        "follow_up": true
+      },
+      "source_support": {
+        "source_supported": true,
+        "source_needed": false,
+        "review_status": "reviewed"
+      }
+    },
+    "clinician_review_target": {
+      "status": "reviewed",
+      "note": "Current target is the phenotype review sheet assembled output; clinician sign-off is still pending."
+    },
+    "modifier_handling": {
+      "unsafe_modifiers": [
+        "pneumonia",
+        "hypoxia",
+        "respiratory_distress",
+        "unstable_vitals",
+        "immunocompromised",
+        "sepsis",
+        "chest_pain",
+        "antibiotic_prescribed",
+        "bacterial_infection_suspected"
+      ],
+      "fallback_reason": null
+    }
+  }
+]

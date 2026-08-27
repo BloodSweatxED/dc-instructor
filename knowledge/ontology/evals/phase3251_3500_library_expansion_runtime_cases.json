@@ -1,0 +1,179 @@
+[
+  {
+    "id": "phase3251_shin_contusion_no_fracture_clean",
+    "condition": "shin contusion no fracture",
+    "ed_note": "Adult. Clinician diagnosis shin contusion. No fracture concern. Neurovascular exam intact. No open wound.",
+    "expected_phenotype_id": "shin_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3252_shin_contusion_no_fracture_missing_context_blocks",
+    "condition": "shin contusion no fracture",
+    "ed_note": "Adult with shin contusion.",
+    "expected_phenotype_id": "shin_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_shin_contusion",
+      "no_fracture_or_neurovascular_red_flags_shin"
+    ]
+  },
+  {
+    "id": "phase3253_shin_contusion_no_fracture_unsafe_modifiers_block",
+    "condition": "shin contusion no fracture",
+    "ed_note": "Adult. Clinician diagnosis shin contusion. No fracture concern. Neurovascular exam intact. No open wound. However possible fracture, open wound, septic joint, numb foot, unable to bear weight, high energy trauma are documented.",
+    "expected_phenotype_id": "shin_contusion_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma"
+    ]
+  },
+  {
+    "id": "phase3254_heel_strain_no_rupture_clean",
+    "condition": "heel strain no rupture",
+    "ed_note": "Adult. Clinician diagnosis heel strain. No tendon rupture. No diabetic foot. Neurovascular exam intact.",
+    "expected_phenotype_id": "heel_strain_uncomplicated_no_rupture_or_diabetic_foot",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3255_heel_strain_no_rupture_missing_context_blocks",
+    "condition": "heel strain no rupture",
+    "ed_note": "Adult with heel strain.",
+    "expected_phenotype_id": "heel_strain_uncomplicated_no_rupture_or_diabetic_foot",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_heel_strain",
+      "no_rupture_or_diabetic_foot_red_flags_heel_strain"
+    ]
+  },
+  {
+    "id": "phase3256_heel_strain_no_rupture_unsafe_modifiers_block",
+    "condition": "heel strain no rupture",
+    "ed_note": "Adult. Clinician diagnosis heel strain. No tendon rupture. No diabetic foot. Neurovascular exam intact. However possible fracture, tendon rupture, open wound, septic joint, diabetic foot, peripheral vascular disease, neuropathy, unable to bear weight, high energy trauma, numb foot are documented.",
+    "expected_phenotype_id": "heel_strain_uncomplicated_no_rupture_or_diabetic_foot",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "open_wound",
+      "septic_joint_or_infection_concern",
+      "diabetic_foot",
+      "peripheral_vascular_disease",
+      "neuropathy_foot_risk",
+      "unable_to_bear_weight_lower_extremity",
+      "high_energy_trauma",
+      "neurovascular_compromise"
+    ]
+  },
+  {
+    "id": "phase3257_mosquito_bites_local_reaction_clean",
+    "condition": "localized mosquito bites",
+    "ed_note": "Adult. Clinician diagnosis localized mosquito bites. No anaphylaxis. No infection. Localized reaction only.",
+    "expected_phenotype_id": "localized_mosquito_bites_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3258_mosquito_bites_local_reaction_missing_context_blocks",
+    "condition": "localized mosquito bites",
+    "ed_note": "Adult with mosquito bites.",
+    "expected_phenotype_id": "localized_mosquito_bites_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_mosquito_bites",
+      "no_infection_or_anaphylaxis_mosquito_bites"
+    ]
+  },
+  {
+    "id": "phase3259_mosquito_bites_local_reaction_unsafe_modifiers_block",
+    "condition": "localized mosquito bites",
+    "ed_note": "Adult. Clinician diagnosis localized mosquito bites. No anaphylaxis. No infection. Localized reaction only. However anaphylaxis, trouble breathing, bodywide reaction, spreading redness, brown recluse, tick bite, snake bite, immunocompromised are documented.",
+    "expected_phenotype_id": "localized_mosquito_bites_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "systemic_allergic_reaction",
+      "secondary_skin_infection_concern",
+      "necrotic_spider_or_scorpion_concern",
+      "tick_borne_illness_concern",
+      "snakebite_concern",
+      "immunocompromised"
+    ]
+  },
+  {
+    "id": "phase3260_poison_ivy_localized_clean",
+    "condition": "localized poison ivy dermatitis",
+    "ed_note": "Adult. Clinician diagnosis localized poison ivy dermatitis. No anaphylaxis. No infection. Localized rash only.",
+    "expected_phenotype_id": "localized_poison_ivy_dermatitis_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3261_poison_ivy_localized_missing_context_blocks",
+    "condition": "localized poison ivy dermatitis",
+    "ed_note": "Adult with poison ivy rash.",
+    "expected_phenotype_id": "localized_poison_ivy_dermatitis_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_localized_poison_ivy_dermatitis",
+      "no_infection_or_anaphylaxis_poison_ivy"
+    ]
+  },
+  {
+    "id": "phase3262_poison_ivy_localized_unsafe_modifiers_block",
+    "condition": "localized poison ivy dermatitis",
+    "ed_note": "Adult. Clinician diagnosis localized poison ivy dermatitis. No anaphylaxis. No infection. Localized rash only. However anaphylaxis, trouble breathing, low blood pressure, spreading redness, severe cutaneous adverse reaction, skin peeling, mouth sores, genital rash, chemical burn, immunocompromised, pregnancy are documented.",
+    "expected_phenotype_id": "localized_poison_ivy_dermatitis_no_infection_or_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "anaphylaxis",
+      "airway_symptoms",
+      "hypotension",
+      "secondary_skin_infection_concern",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "eye_or_genital_rash_location",
+      "burn_or_chemical_wound",
+      "immunocompromised",
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "phase3263_dry_cracked_hands_no_infection_clean",
+    "condition": "dry cracked hands no infection",
+    "ed_note": "Adult. Clinician diagnosis dry cracked hands. No infection. No systemic skin disease. Localized dry cracked hands.",
+    "expected_phenotype_id": "dry_cracked_hands_no_infection_or_systemic_skin_disease",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase3264_dry_cracked_hands_no_infection_missing_context_blocks",
+    "condition": "dry cracked hands no infection",
+    "ed_note": "Adult with dry cracked hands.",
+    "expected_phenotype_id": "dry_cracked_hands_no_infection_or_systemic_skin_disease",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_dry_cracked_hands"
+    ]
+  },
+  {
+    "id": "phase3265_dry_cracked_hands_no_infection_unsafe_modifiers_block",
+    "condition": "dry cracked hands no infection",
+    "ed_note": "Adult. Clinician diagnosis dry cracked hands. No infection. No systemic skin disease. Localized dry cracked hands. However spreading redness, open wound, severe cutaneous adverse reaction, skin peeling, mouth sores, fever, immunocompromised, diabetes are documented.",
+    "expected_phenotype_id": "dry_cracked_hands_no_infection_or_systemic_skin_disease",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "secondary_skin_infection_concern",
+      "open_wound",
+      "severe_cutaneous_adverse_reaction",
+      "skin_peeling_or_sloughing",
+      "mucosal_lesions",
+      "systemic_illness",
+      "immunocompromised",
+      "diabetes_general_risk"
+    ]
+  }
+]

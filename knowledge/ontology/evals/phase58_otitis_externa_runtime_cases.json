@@ -1,0 +1,23 @@
+[
+  {
+    "id": "phase58_otitis_externa_clean_draft_fallback",
+    "condition": "otitis externa uncomplicated",
+    "ed_note": "Adult with clinician diagnosis of uncomplicated otitis externa. No mastoid tenderness, no diabetes, no ear trauma, no perforated eardrum, discharged home.",
+    "expected_phenotype_id": "otitis_externa_no_mastoiditis",
+    "expected_fallback_reason": "phenotype_not_clinician_reviewed"
+  },
+  {
+    "id": "phase58_otitis_externa_broad_ear_pain_no_match",
+    "condition": "ear pain",
+    "ed_note": "Ear pain without final otitis externa diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase58_otitis_externa_broad_ear_drainage_no_match",
+    "condition": "ear drainage",
+    "ed_note": "Ear drainage without final otitis externa diagnosis.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  }
+]

@@ -1,0 +1,161 @@
+[
+  {
+    "id": "phase2101_puncture_wound_clean",
+    "condition": "superficial puncture wound",
+    "ed_note": "Adult. Clinician diagnosis superficial puncture wound. No foreign body. No infection. No tendon injury. Neurovascularly intact.",
+    "expected_phenotype_id": "superficial_puncture_wound_no_retained_foreign_body_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2102_puncture_wound_missing_context_blocks",
+    "condition": "superficial puncture wound",
+    "ed_note": "Adult with a small puncture wound.",
+    "expected_phenotype_id": "superficial_puncture_wound_no_retained_foreign_body_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_superficial_puncture_wound",
+      "no_retained_foreign_body_or_infection_documented"
+    ]
+  },
+  {
+    "id": "phase2103_puncture_wound_unsafe_modifiers_block",
+    "condition": "superficial puncture wound",
+    "ed_note": "Superficial puncture wound diagnosed, but foreign body, joint violation, dirty wound, pus, numb fingers, and delayed presentation are documented.",
+    "expected_phenotype_id": "superficial_puncture_wound_no_retained_foreign_body_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "retained_foreign_body",
+      "joint_violation",
+      "dirty_wound",
+      "wound_infection_concern",
+      "neurovascular_compromise",
+      "delayed_wound_presentation"
+    ]
+  },
+  {
+    "id": "phase2104_splinter_removed_clean",
+    "condition": "minor splinter removed",
+    "ed_note": "Adult. Clinician diagnosis minor splinter removed. Splinter removed completely. No object remains. No infection. Neurovascularly intact. No tendon injury.",
+    "expected_phenotype_id": "minor_splinter_removed_no_retained_foreign_body_or_infection",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2105_splinter_removed_missing_context_blocks",
+    "condition": "minor splinter removed",
+    "ed_note": "Adult had a splinter removed.",
+    "expected_phenotype_id": "minor_splinter_removed_no_retained_foreign_body_or_infection",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_minor_splinter_removed",
+      "no_retained_foreign_body_or_infection_after_removal"
+    ]
+  },
+  {
+    "id": "phase2106_splinter_removed_unsafe_modifiers_block",
+    "condition": "minor splinter removed",
+    "ed_note": "Minor splinter removed, but splinter retained, glass retained, dirty wound, pus, numb fingers, and severe pain are documented.",
+    "expected_phenotype_id": "minor_splinter_removed_no_retained_foreign_body_or_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "retained_foreign_body",
+      "dirty_wound",
+      "wound_infection_concern",
+      "neurovascular_compromise",
+      "severe_pain"
+    ]
+  },
+  {
+    "id": "phase2107_healing_wound_clean",
+    "condition": "healing wound",
+    "ed_note": "Adult. Clinician diagnosis healing wound. Wound healing normally. No infection. No wound dehiscence. No drainage.",
+    "expected_phenotype_id": "healing_wound_no_infection_or_dehiscence",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2108_healing_wound_missing_context_blocks",
+    "condition": "healing wound",
+    "ed_note": "Adult here for wound look.",
+    "expected_phenotype_id": "healing_wound_no_infection_or_dehiscence",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_healing_wound",
+      "no_infection_or_dehiscence_documented"
+    ]
+  },
+  {
+    "id": "phase2109_healing_wound_unsafe_modifiers_block",
+    "condition": "healing wound",
+    "ed_note": "Healing wound documented, but wound infection, wound dehiscence, stitches came out, pus, and severe pain are documented.",
+    "expected_phenotype_id": "healing_wound_no_infection_or_dehiscence",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "wound_infection_concern",
+      "wound_dehiscence",
+      "severe_pain"
+    ]
+  },
+  {
+    "id": "phase2110_ankle_bruise_clean",
+    "condition": "ankle bruise",
+    "ed_note": "Adult. Clinician diagnosis ankle bruise. No fracture concern. Neurovascularly intact. No open wound. No infection. Able to walk.",
+    "expected_phenotype_id": "ankle_bruise_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2111_ankle_bruise_missing_context_blocks",
+    "condition": "ankle bruise",
+    "ed_note": "Adult with ankle discoloration.",
+    "expected_phenotype_id": "ankle_bruise_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_uncomplicated_ankle_bruise",
+      "no_fracture_or_neurovascular_red_flags_documented"
+    ]
+  },
+  {
+    "id": "phase2112_ankle_bruise_unsafe_modifiers_block",
+    "condition": "ankle bruise",
+    "ed_note": "Ankle bruise diagnosed, but possible fracture, numb foot, unable to bear weight, tight swelling, and warfarin use are documented.",
+    "expected_phenotype_id": "ankle_bruise_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "neurovascular_compromise",
+      "unable_to_bear_weight_lower_extremity",
+      "compartment_syndrome_concern",
+      "anticoagulated"
+    ]
+  },
+  {
+    "id": "phase2113_shoulder_bruise_clean",
+    "condition": "shoulder bruise",
+    "ed_note": "Adult. Clinician diagnosis shoulder bruise. No fracture concern. No dislocation. Neurovascularly intact. No open wound. No tendon rupture.",
+    "expected_phenotype_id": "shoulder_bruise_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase2114_shoulder_bruise_missing_context_blocks",
+    "condition": "shoulder bruise",
+    "ed_note": "Adult with shoulder discoloration.",
+    "expected_phenotype_id": "shoulder_bruise_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "required_runtime_context_missing",
+    "expected_missing_required_context": [
+      "clinician_diagnosis_uncomplicated_shoulder_bruise",
+      "no_fracture_or_neurovascular_red_flags_documented"
+    ]
+  },
+  {
+    "id": "phase2115_shoulder_bruise_unsafe_modifiers_block",
+    "condition": "shoulder bruise",
+    "ed_note": "Shoulder bruise diagnosed, but possible fracture, tendon rupture, numb hand, severe pain, and acs concern are documented.",
+    "expected_phenotype_id": "shoulder_bruise_uncomplicated_no_fracture_or_neurovascular_red_flags",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "fracture_or_dislocation_concern",
+      "tendon_or_ligament_rupture_concern",
+      "neurovascular_compromise",
+      "severe_pain",
+      "cardiac_or_pe_chest_pain_concern"
+    ]
+  }
+]

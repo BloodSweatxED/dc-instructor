@@ -1,0 +1,62 @@
+[
+  {
+    "id": "phase176_suture_infection_blocks",
+    "condition": "suture removal wound check",
+    "ed_note": "Clinician documented wound ready. No dehiscence documented. Purulent drainage and spreading redness present.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "wound_infection_concern"
+    ]
+  },
+  {
+    "id": "phase176_suture_dehiscence_blocks",
+    "condition": "suture removal wound check",
+    "ed_note": "Clinician documented wound ready. No wound infection concern. Wound dehiscence and edges separated.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "wound_dehiscence"
+    ]
+  },
+  {
+    "id": "phase176_suture_too_early_blocks",
+    "condition": "suture removal wound check",
+    "ed_note": "No wound red flags documented. Wound not ready for suture removal.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "wound_not_ready_for_suture_removal"
+    ]
+  },
+  {
+    "id": "phase176_suture_hand_tendon_blocks",
+    "condition": "suture removal wound check",
+    "ed_note": "Clinician documented wound ready. No wound red flags documented. Hand laceration cannot extend finger.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "hand_tendon_risk"
+    ]
+  },
+  {
+    "id": "phase176_suture_bite_wound_blocks",
+    "condition": "suture removal wound check",
+    "ed_note": "Clinician documented wound ready. No wound red flags documented. Dog bite wound.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "bite_wound"
+    ]
+  },
+  {
+    "id": "phase176_suture_specialist_plan_blocks",
+    "condition": "suture removal wound check",
+    "ed_note": "Clinician documented wound ready. No wound red flags documented. Hand surgery consulted with specialist directed wound plan.",
+    "expected_phenotype_id": "suture_removal_or_wound_check_no_infection",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "specialist_directed_wound_plan"
+    ]
+  }
+]

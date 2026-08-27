@@ -1,0 +1,14 @@
+{
+  "id": "medlineplus.eyelid_disorders",
+  "source": "MedlinePlus",
+  "title": "Eyelid Disorders",
+  "url": "https://medlineplus.gov/eyeliddisorders.html",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Blepharitis can make eyelids red, itchy, or burning and can cause crusty eyelashes.",
+    "Stye, chalazion, blepharitis, and periorbital cellulitis are distinct eyelid problems.",
+    "Orbital cellulitis requires immediate medical care if infection spreads behind the eye."
+  ],
+  "use_policy": "evidence_support"
+}

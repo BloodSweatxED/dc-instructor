@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phase801_hives_reviewed_allergic_reaction_route_preserved",
+    "condition": "allergic reaction resolved no anaphylaxis",
+    "ed_note": "Hives improved after treatment. No trouble breathing. No throat swelling. No hypotension. No epinephrine given.",
+    "expected_phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase802_bare_hives_stays_low_confidence",
+    "condition": "hives",
+    "ed_note": "Hives improved. No trouble breathing. No throat swelling. No hypotension. No epinephrine given.",
+    "expected_phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+    "expected_fallback_reason": "low_confidence"
+  },
+  {
+    "id": "phase803_bare_urticaria_stays_low_confidence",
+    "condition": "urticaria",
+    "ed_note": "Urticaria improved. No trouble breathing. No throat swelling. No hypotension. No epinephrine given.",
+    "expected_phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+    "expected_fallback_reason": "low_confidence"
+  },
+  {
+    "id": "phase804_broad_itchy_rash_no_match",
+    "condition": "itchy rash",
+    "ed_note": "Itchy rash after eating a new food. No final ED skin diagnosis documented.",
+    "expected_phenotype_id": null,
+    "expected_fallback_reason": "no_supported_phenotype_match"
+  },
+  {
+    "id": "phase805_hives_airway_symptoms_block",
+    "condition": "hives",
+    "ed_note": "Hives with throat swelling. No hypotension.",
+    "expected_phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "airway_symptoms"
+    ]
+  },
+  {
+    "id": "phase806_hives_epinephrine_blocks",
+    "condition": "hives",
+    "ed_note": "Hives improved but epinephrine given before arrival.",
+    "expected_phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "epinephrine_given"
+    ]
+  },
+  {
+    "id": "phase807_urticaria_mucosal_target_lesions_block",
+    "condition": "urticaria",
+    "ed_note": "Urticaria with target lesions and mouth sores.",
+    "expected_phenotype_id": "allergic_reaction_resolved_no_anaphylaxis",
+    "expected_fallback_reason": "unsafe_modifier_present",
+    "expected_exclusions": [
+      "mucosal_lesions"
+    ]
+  },
+  {
+    "id": "phase808_contact_dermatitis_route_preserved",
+    "condition": "contact dermatitis",
+    "ed_note": "Clinician diagnosis contact dermatitis. Rash after new soap. No mucosal lesions airway swelling infection concern.",
+    "expected_phenotype_id": "contact_dermatitis_uncomplicated",
+    "expected_fallback_reason": null
+  },
+  {
+    "id": "phase809_cellulitis_route_not_urticaria",
+    "condition": "cellulitis",
+    "ed_note": "Cellulitis diagnosed. Outpatient antibiotics prescribed. No sepsis. No necrotizing infection concern. Localized infection.",
+    "expected_phenotype_id": "cellulitis_uncomplicated_oral_antibiotics",
+    "expected_fallback_reason": "low_confidence"
+  }
+]

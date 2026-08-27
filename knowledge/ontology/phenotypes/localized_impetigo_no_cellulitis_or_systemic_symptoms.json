@@ -1,0 +1,132 @@
+{
+  "id": "localized_impetigo_no_cellulitis_or_systemic_symptoms",
+  "label": "Localized impetigo without cellulitis or systemic symptoms",
+  "status": "reviewed",
+  "condition_family": "skin_soft_tissue_infection",
+  "inclusion_criteria": [
+    "Adult with clinician diagnosis or discharge impression of localized impetigo.",
+    "No cellulitis, abscess, ecthyma or deep infection, eye/genital involvement, systemic illness, immunocompromised-host pathway, or outbreak/public-health-directed plan."
+  ],
+  "exclusion_criteria": [
+    "Cellulitis, abscess, ecthyma, deep skin infection, systemic illness, sepsis, or rapidly spreading infection.",
+    "Eye, genital, extensive, bullous, recurrent, or immunocompromised-host disease.",
+    "Public-health-directed outbreak plan or poor follow-up."
+  ],
+  "must_not_miss": [
+    "Cellulitis.",
+    "Abscess.",
+    "Ecthyma.",
+    "Sepsis."
+  ],
+  "default_follow_up": "Follow up with primary care, urgent care, or dermatology if symptoms are not improving with treatment or if spread continues.",
+  "required_sections": [
+    "diagnosis",
+    "what_we_found",
+    "home_care",
+    "medications",
+    "return_precautions",
+    "follow_up"
+  ],
+  "primitive_ids": [
+    "localized_impetigo_no_cellulitis_or_systemic_symptoms.diagnosis.diagnosis_summary.v1",
+    "localized_impetigo_no_cellulitis_or_systemic_symptoms.what_we_found.reassuring_ed_assessment.v1",
+    "localized_impetigo_no_cellulitis_or_systemic_symptoms.home_care.home_care_1.v1",
+    "localized_impetigo_no_cellulitis_or_systemic_symptoms.home_care.home_care_2.v1",
+    "localized_impetigo_no_cellulitis_or_systemic_symptoms.home_care.home_care_3.v1",
+    "localized_impetigo_no_cellulitis_or_systemic_symptoms.medications.medication_guidance_1.v1",
+    "localized_impetigo_no_cellulitis_or_systemic_symptoms.medications.medication_guidance_2.v1",
+    "localized_impetigo_no_cellulitis_or_systemic_symptoms.return_precautions.return_precaution_1.v1",
+    "localized_impetigo_no_cellulitis_or_systemic_symptoms.return_precautions.return_precaution_2.v1",
+    "localized_impetigo_no_cellulitis_or_systemic_symptoms.return_precautions.return_precaution_3.v1",
+    "localized_impetigo_no_cellulitis_or_systemic_symptoms.follow_up.default_follow_up.v1"
+  ],
+  "source_card_ids": [
+    "medlineplus.impetigo",
+    "cdc.impetigo"
+  ],
+  "source_audit": {
+    "source_supported": true,
+    "source_needed": false,
+    "clinician_judgment_only": false,
+    "restricted_source_risk": false,
+    "unsafe_without_modifier": false,
+    "notes": "MedlinePlus and CDC support impetigo framing, contagious superficial bacterial skin infection, red or pimple-like sores with crusting, spread prevention, clinician-prescribed antibiotic treatment, and escalation for spreading infection or worsening symptoms. Autonomous Phase 1551-1600 approved this narrow v1 only for clinician-diagnosed localized impetigo without cellulitis, abscess, ecthyma, deep infection, eye/genital involvement, systemic illness, immunocompromised-host pathway, public-health-directed outbreak plan, or poor follow-up."
+  },
+  "runtime": {
+    "condition_terms": [
+      "localized impetigo",
+      "impetigo no cellulitis",
+      "impetigo",
+      "impetigo diagnosed"
+    ],
+    "unsafe_modifiers": [
+      "secondary_skin_infection_concern",
+      "abscess_concern",
+      "ecthyma_or_deep_skin_infection",
+      "bullous_or_extensive_impetigo",
+      "near_eye_or_genitals",
+      "immunocompromised",
+      "systemic_illness",
+      "sepsis",
+      "rapid_progression",
+      "poor_follow_up"
+    ],
+    "required_context": [
+      {
+        "id": "clinician_diagnosis_localized_impetigo",
+        "terms": [
+          "clinician diagnosis impetigo",
+          "discharge diagnosis impetigo",
+          "impetigo diagnosed",
+          "localized impetigo diagnosed"
+        ]
+      },
+      {
+        "id": "no_cellulitis_or_systemic_symptoms_documented",
+        "terms": [
+          "no cellulitis",
+          "no systemic symptoms",
+          "no fever",
+          "no spreading infection",
+          "localized lesions only"
+        ]
+      }
+    ],
+    "high_confidence_terms": [
+      "impetigo diagnosed",
+      "localized impetigo diagnosed",
+      "clinician diagnosis impetigo"
+    ],
+    "minimum_confidence": 0.86,
+    "mode": "reviewed_ontology_enabled"
+  },
+  "version": 1,
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Andre / EM clinician-owner",
+    "reviewer_role": "Emergency Medicine physician",
+    "last_reviewed": "2026-06-17",
+    "version": 1,
+    "source_audit_status": "passed_for_v1",
+    "production_status": "enabled_with_runtime_modifier_gates",
+    "notes": "Reviewed as a narrow production ontology phenotype. MedlinePlus and CDC support impetigo framing, contagious superficial bacterial skin infection, red or pimple-like sores with crusting, spread prevention, clinician-prescribed antibiotic treatment, and escalation for spreading infection or worsening symptoms. Autonomous Phase 1551-1600 approved this narrow v1 only for clinician-diagnosed localized impetigo without cellulitis, abscess, ecthyma, deep infection, eye/genital involvement, systemic illness, immunocompromised-host pathway, public-health-directed outbreak plan, or poor follow-up.",
+    "clinical_status": "reviewed_for_limited_localized_impetigo_without_cellulitis_or_systemic_symptoms_use",
+    "required_modifiers": [
+      "adult with clinician diagnosis or discharge impression of localized impetigo",
+      "no cellulitis, abscess, ecthyma, deep infection, systemic illness, eye/genital involvement, extensive disease, or immunocompromised-host pathway",
+      "medication plan clinician-entered only"
+    ],
+    "blocked_modifiers": [
+      "secondary_skin_infection_concern",
+      "abscess_concern",
+      "ecthyma_or_deep_skin_infection",
+      "bullous_or_extensive_impetigo",
+      "near_eye_or_genitals",
+      "immunocompromised",
+      "systemic_illness",
+      "sepsis",
+      "rapid_progression",
+      "poor_follow_up"
+    ]
+  }
+}

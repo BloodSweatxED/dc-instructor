@@ -1,0 +1,15 @@
+{
+  "id": "cdc.acute_bronchitis",
+  "source": "CDC",
+  "title": "Chest Cold (Acute Bronchitis) Basics",
+  "url": "https://www.cdc.gov/acute-bronchitis/about/index.html",
+  "source_type": "government_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Acute bronchitis is commonly called a chest cold.",
+    "Viruses usually cause acute bronchitis.",
+    "Antibiotics do not help most acute bronchitis cases.",
+    "Symptoms can include cough with or without mucus, tiredness, congestion, sore throat, and mild body aches."
+  ],
+  "use_policy": "evidence_support"
+}

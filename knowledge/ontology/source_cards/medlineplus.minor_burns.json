@@ -1,0 +1,15 @@
+{
+  "id": "medlineplus.minor_burns",
+  "source": "MedlinePlus",
+  "title": "Minor burns - aftercare",
+  "url": "https://medlineplus.gov/ency/patientinstructions/000662.htm",
+  "source_type": "public_patient_education",
+  "license_notes": "Use as public patient-education source support. Avoid verbatim copying into primitives.",
+  "supports": [
+    "Minor burns can involve redness, pain, and small blisters when superficial.",
+    "Care can include cooling the burn, gentle cleaning, protection, and avoiding further injury.",
+    "Patients should avoid breaking blisters or applying unsafe substances.",
+    "Large, deep, circumferential, chemical/electrical, inhalation-associated, infected, face/hand/genital, pediatric, pregnancy, or high-risk-host burns require separate clinician-directed care."
+  ],
+  "use_policy": "evidence_support"
+}
