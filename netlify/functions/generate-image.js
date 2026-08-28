@@ -2,7 +2,12 @@ import { jsonResponse } from './_lib.js';
 
 const PROMPT_PREFIX = 'Medical illustration, clean line art, anatomical diagram, clinical education style, black and white sketch, no text labels: ';
 
+// Illustration generation is disabled to halt Stability credit usage.
+// To re-enable: remove the early return below and restore the UI toggle in InputPanel.jsx.
+const IMAGE_GENERATION_DISABLED = true;
+
 export default async (req) => {
+  if (IMAGE_GENERATION_DISABLED) return jsonResponse(503, { error: 'disabled', detail: 'Illustration generation is temporarily disabled.' });
   if (req.method !== 'POST') return jsonResponse(405, { error: 'Method not allowed' });
   const apiKey = process.env.STABILITY_API_KEY;
   if (!apiKey) return jsonResponse(500, { error: 'Server not configured' });
