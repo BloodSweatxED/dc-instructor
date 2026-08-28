@@ -59,13 +59,6 @@ export default async (req) => {
     ? `CONDITION: ${condition}\n\nED NOTE CONTEXT (PHI redacted):\n${edNoteScrubbed}`
     : `CONDITION: ${condition}`;
 
-  const generationId = await logGeneration({
-    reading_level: readingLevel,
-    language,
-    condition_input: condition,
-    has_image_request: hasImage,
-  });
-
   const upstream = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
@@ -86,6 +79,15 @@ export default async (req) => {
     const errText = await upstream.text().catch(() => '');
     return jsonResponse(502, { error: 'upstream', detail: errText.slice(0, 500) });
   }
+
+  // Log only after the upstream request is accepted, so failed generations
+  // don't inflate the usage data.
+  const generationId = await logGeneration({
+    reading_level: readingLevel,
+    language,
+    condition_input: condition,
+    has_image_request: hasImage,
+  });
 
   const stream = new ReadableStream({
     async start(controller) {
