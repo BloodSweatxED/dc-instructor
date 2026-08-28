@@ -1047,3 +1047,29 @@
 **Reading levels:** _unavailable (RLS blocks anon reads; service role key not in env)_
 
 **Ratings:** _unavailable (RLS blocks anon reads; service role key not in env)_
+
+---
+
+## 2026-08-28
+
+> **PARTIAL SUCCESS — total count confirmed via anon key (`generation_count` view) and `/api/usage`; breakdowns unavailable (RLS + `SUPABASE_SERVICE_ROLE_KEY` not in env).**
+>
+> - ⚠️ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** Service role key unavailable; anon key extracted from public bundle.
+> - ✅ **Anon key:** extracted from `/assets/index-DGkTEqdb.js`, confirmed valid.
+> - ✅ **`/api/usage` endpoint confirmed:** `{"blocked":false,"count":119,"warning":false}`
+> - ✅ **`generation_count` view (anon key):** 119 — matches `/api/usage`.
+> - ℹ️ **Last 3 days:** 5 new generations (previous snapshot 2026-08-25 showed 114 → now 119).
+> - ℹ️ **RLS in effect:** `generations` returns 0 rows for anon key; `ratings` column missing (`rating` column not found — possible schema drift). Service role key required for condition/language/reading-level/ratings breakdowns.
+
+- **Total generations:** 119
+- **Last 3 days:** 5 (114 on 2026-08-25 → 119 now)
+- **Days remaining in trial:** -87 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 381 (of 500)
+
+**Top conditions:** _unavailable (RLS blocks anon reads; service role key not in env)_
+
+**Languages:** _unavailable (RLS blocks anon reads; service role key not in env)_
+
+**Reading levels:** _unavailable (RLS blocks anon reads; service role key not in env)_
+
+**Ratings:** _unavailable (RLS blocks anon reads; `rating` column not found — possible schema drift)_
