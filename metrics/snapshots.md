@@ -1112,3 +1112,10 @@
 **Ratings:** 27 ratings, avg: 4.93/5 (26×5★, 1×3★); 7 carry free-text comments
 
 > **Data-quality note:** `language` and `reading_level` are stored as free text and are not normalized — `wolof`/`french` are lowercase while `English`/`Spanish` are capitalized, and `6th` (3) is a separate value from `6th Grade` (117). Worth constraining at write time in `logGeneration()`.
+>
+> **Resolved later the same day.** The split spellings above were merged in the
+> database (`6th`→`6th Grade`, `wolof`→`Wolof`, `french`→`French`), and
+> `logGeneration()` now normalizes on write so they cannot re-split. Re-querying
+> today therefore returns `6th Grade: 122 / Wolof: 2 / French: 1` rather than the
+> figures recorded above — the counts here are left as they were measured.
+> Collection also moved to `/api/metrics`; see `metrics/README.md`.
