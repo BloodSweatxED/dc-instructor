@@ -1073,3 +1073,29 @@
 **Reading levels:** _unavailable (RLS blocks anon reads; service role key not in env)_
 
 **Ratings:** _unavailable (RLS blocks anon reads; `rating` column not found — possible schema drift)_
+
+---
+
+## 2026-08-31
+
+> **PARTIAL SUCCESS — total count confirmed via anon key (`generation_count` view) and `/api/usage`; breakdowns unavailable (RLS + `SUPABASE_SERVICE_ROLE_KEY` not in env).**
+>
+> - ⚠️ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** Netlify MCP tools (`netlify-project-services-reader`, `netlify-extension-services-reader`, `netlify-deploy-services-reader`) do not expose env vars. Service role key unavailable.
+> - ✅ **Anon key:** refreshed from public app bundle (`/assets/index-NRGAYQuP.js`) — bundle filename has changed since prior runs (`index-DGkTEqdb.js` → `index-NRGAYQuP.js`). New key confirmed valid.
+> - ✅ **`/api/usage` endpoint confirmed:** `{"blocked":false,"count":156,"warning":false}`
+> - ✅ **`generation_count` view (anon key):** 156 — matches `/api/usage`.
+> - ℹ️ **Last 3 days (estimated):** Previous snapshot on 2026-08-28 showed 119 total; now 156 → **37 new generations** since that run.
+> - ℹ️ **RLS in effect:** `generations` returns 0 rows for anon key; service role key required for condition/language/reading-level/ratings breakdowns.
+
+- **Total generations:** 156
+- **Last 3 days:** ~37 (estimated: 156 − 119 from 2026-08-28 snapshot)
+- **Days remaining in trial:** -90 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 344 (of 500)
+
+**Top conditions:** _unavailable (RLS blocks anon reads; service role key not in env)_
+
+**Languages:** _unavailable (RLS blocks anon reads; service role key not in env)_
+
+**Reading levels:** _unavailable (RLS blocks anon reads; service role key not in env)_
+
+**Ratings:** _unavailable (RLS blocks anon reads; service role key not in env)_
