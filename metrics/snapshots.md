@@ -1119,3 +1119,32 @@
 > today therefore returns `6th Grade: 122 / Wolof: 2 / French: 1` rather than the
 > figures recorded above — the counts here are left as they were measured.
 > Collection also moved to `/api/metrics`; see `metrics/README.md`.
+
+---
+
+## 2026-09-01
+
+- **Total generations:** 159
+- **Last 3 days:** 15
+- **Days remaining in trial:** -91 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 341 (of 500)
+
+**Top conditions:**
+| Condition | Count |
+|-----------|-------|
+| Chest pain | 10 |
+| Rash | 8 |
+| Abdominal pain | 6 |
+| Dizziness | 6 |
+| Sexual assault | 5 |
+| Diarrhea | 4 |
+| Headache | 3 |
+| Back pain | 3 |
+| Sore throat | 3 |
+| Left flank pain | 3 |
+
+**Languages:** English: 124, Spanish: 30, Wolof: 2, Arabic: 1, Bengali: 1, French: 1
+
+**Reading levels:** 6th Grade: 123, 8th Grade: 18, 4th Grade: 14, 10th Grade: 3, HL-1 (Health Literacy Level 1): 1
+
+**Ratings:** 27 ratings, avg: 4.93/5 (26×5★, 1×3★)
