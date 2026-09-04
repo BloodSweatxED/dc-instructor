@@ -1148,3 +1148,29 @@
 **Reading levels:** 6th Grade: 123, 8th Grade: 18, 4th Grade: 14, 10th Grade: 3, HL-1 (Health Literacy Level 1): 1
 
 **Ratings:** 27 ratings, avg: 4.93/5 (26×5★, 1×3★)
+
+---
+
+## 2026-09-04
+
+> **PARTIAL SUCCESS — total count confirmed via anon key (`generation_count` view) and `/api/usage`; breakdowns unavailable (RLS + `SUPABASE_SERVICE_ROLE_KEY` not in env).**
+>
+> - ⚠️ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** Netlify MCP tools are not available this run (no `manage-env-vars` tool in the loaded MCP set). Service role key unavailable.
+> - ✅ **Anon key:** extracted from public app bundle (`/assets/index-NRGAYQuP.js`) — bundle filename changed from `index-DGkTEqdb.js` used in prior runs. Key confirmed valid.
+> - ✅ **`/api/usage` endpoint confirmed:** `{"blocked":false,"count":168,"warning":false}`
+> - ✅ **`generation_count` view (anon key):** 168 — matches `/api/usage`.
+> - ℹ️ **Last 3 days (estimated):** Previous snapshot 2026-09-01 showed 159 → now 168 → **~9 new generations** since that run. (Direct 3-day query on `generations` returns 0 rows due to RLS blocking the anon key.)
+> - ℹ️ **RLS in effect:** `generations` and `ratings` tables return empty rows for anon key. Service role key required for condition/language/reading-level/ratings breakdowns.
+
+- **Total generations:** 168
+- **Last 3 days:** ~9 (estimated: 168 − 159 from 2026-09-01 snapshot)
+- **Days remaining in trial:** -94 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 332 (of 500)
+
+**Top conditions:** _unavailable (RLS blocks anon reads; service role key not in env)_
+
+**Languages:** _unavailable (RLS blocks anon reads; service role key not in env)_
+
+**Reading levels:** _unavailable (RLS blocks anon reads; service role key not in env)_
+
+**Ratings:** _unavailable (RLS blocks anon reads; service role key not in env)_
