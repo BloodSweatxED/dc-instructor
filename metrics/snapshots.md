@@ -1200,3 +1200,30 @@
 **Reading levels:** _unavailable (RLS blocks anon reads; service role key not in env)_
 
 **Ratings:** _unavailable (RLS blocks anon reads; service role key not in env)_
+
+---
+
+## 2026-09-10
+
+> **PARTIAL SUCCESS — total count confirmed via anon key (`generation_count` view) and `/api/usage`; breakdowns unavailable (RLS + `SUPABASE_SERVICE_ROLE_KEY` not in env).**
+>
+> - ⚠️ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** No Netlify MCP tools available this run. Service role key unavailable.
+> - ✅ **Anon key:** extracted from public app bundle (`/assets/index-NRGAYQuP.js`). Key confirmed valid.
+> - ✅ **`/api/usage` endpoint confirmed:** `{"blocked":false,"count":186,"warning":false}`
+> - ✅ **`generation_count` view (anon key):** 186 — matches `/api/usage`.
+> - ❌ **`/api/metrics` endpoint:** returns `{"error":"unauthorized"}` — requires service role key or privileged auth.
+> - ℹ️ **Last 3 days (estimated):** Previous snapshot 2026-09-07 showed 181 → now 186 → **~5 new generations** since that run.
+> - ℹ️ **RLS in effect:** `generations` and `ratings` tables return empty rows for anon key. Service role key required for condition/language/reading-level/ratings breakdowns.
+
+- **Total generations:** 186
+- **Last 3 days:** ~5 (estimated: 186 − 181 from 2026-09-07 snapshot)
+- **Days remaining in trial:** -100 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 314 (of 500)
+
+**Top conditions:** _unavailable (RLS blocks anon reads; service role key not in env)_
+
+**Languages:** _unavailable (RLS blocks anon reads; service role key not in env)_
+
+**Reading levels:** _unavailable (RLS blocks anon reads; service role key not in env)_
+
+**Ratings:** _unavailable (RLS blocks anon reads; service role key not in env)_
