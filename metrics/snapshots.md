@@ -1227,3 +1227,28 @@
 **Reading levels:** _unavailable (RLS blocks anon reads; service role key not in env)_
 
 **Ratings:** _unavailable (RLS blocks anon reads; service role key not in env)_
+
+---
+
+## 2026-09-13
+
+> **PARTIAL SUCCESS — total count confirmed via `/api/usage`; breakdowns unavailable (RLS + `SUPABASE_SERVICE_ROLE_KEY` not in env).**
+>
+> - ⚠️ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** No Netlify MCP tools available this run. Service role key unavailable.
+> - ✅ **Network:** Supabase host reachable (invalid-key 401 confirms connectivity; `/api/usage` returned HTTP 200).
+> - ✅ **`/api/usage` endpoint confirmed:** `{"blocked":false,"count":199,"warning":false}`
+> - ℹ️ **Last 3 days (estimated):** Previous snapshot 2026-09-10 showed 186 → now 199 → **~13 new generations** since that run.
+> - ℹ️ **RLS in effect:** `generations` and `ratings` tables return empty rows for anon key. Service role key required for condition/language/reading-level/ratings breakdowns.
+
+- **Total generations:** 199
+- **Last 3 days:** ~13 (estimated: 199 − 186 from 2026-09-10 snapshot)
+- **Days remaining in trial:** -103 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 301 (of 500)
+
+**Top conditions:** _unavailable (RLS blocks anon reads; service role key not in env)_
+
+**Languages:** _unavailable (RLS blocks anon reads; service role key not in env)_
+
+**Reading levels:** _unavailable (RLS blocks anon reads; service role key not in env)_
+
+**Ratings:** _unavailable (RLS blocks anon reads; service role key not in env)_
