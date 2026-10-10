@@ -1454,3 +1454,31 @@
 **Ratings:** _unavailable (RLS blocks anon reads; service role key not in env)_
 
 ---
+
+---
+
+## 2026-10-10
+
+> **ERROR: Supabase queries could not run — `SUPABASE_SERVICE_ROLE_KEY` missing from environment.**
+>
+> **Status this run:**
+> - ❌ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** The env var is not injected by the current execution environment. The Netlify env MCP tool that retrieved it on 2026-07-13 is not available this session.
+> - ✅ **Network policy permits Supabase.** `curl` to `noloieuagfigaqahspfi.supabase.co` returns HTTP 404 (not a connection failure) — network is open.
+>
+> **⚠️ Trial ended 2026-06-02 (130 days ago).**
+>
+> **Fix required:**
+> Add `SUPABASE_SERVICE_ROLE_KEY` to this environment's configuration — set it in [Claude Code Remote Environment settings](https://code.claude.com/docs/en/claude-code-on-the-web) so it is injected as an env var at session start.
+
+- **Total generations:** _unavailable (missing SUPABASE_SERVICE_ROLE_KEY)_
+- **Last 3 days:** _unavailable (missing SUPABASE_SERVICE_ROLE_KEY)_
+- **Days remaining in trial:** -130 (trial ended 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (missing SUPABASE_SERVICE_ROLE_KEY)_
+
+**Languages:** _unavailable (missing SUPABASE_SERVICE_ROLE_KEY)_
+
+**Reading levels:** _unavailable (missing SUPABASE_SERVICE_ROLE_KEY)_
+
+**Ratings:** _unavailable (missing SUPABASE_SERVICE_ROLE_KEY)_
