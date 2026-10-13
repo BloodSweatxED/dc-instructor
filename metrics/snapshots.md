@@ -1482,3 +1482,33 @@
 **Reading levels:** _unavailable (missing SUPABASE_SERVICE_ROLE_KEY)_
 
 **Ratings:** _unavailable (missing SUPABASE_SERVICE_ROLE_KEY)_
+
+---
+
+## 2026-10-13
+
+> **ERROR: `SUPABASE_SERVICE_ROLE_KEY` not in environment — all queries returned HTTP 401.**
+>
+> **Status vs. prior runs:**
+> - ✅ **Network is reachable.** Supabase host `noloieuagfigaqahspfi.supabase.co` returns HTTP 401 (auth failure), confirming the network policy no longer blocks the host. This is an improvement over the proxy-level blocks (502 / curl exit 56) seen in runs prior to 2026-07-13.
+> - ❌ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** The env var was available during the run of 2026-07-13 but has since been dropped. All six queries returned 401 — Unauthorized.
+>
+> **Last successful snapshot: 2026-07-13** (as of that run: 23 total generations, 3 ratings avg 5.0/5).
+>
+> **⚠️ Trial ended 2026-06-02 (133 days ago). Data has not been collected since 2026-07-13 (92 days ago).**
+>
+> **Fix required:**
+> Add `SUPABASE_SERVICE_ROLE_KEY` to this environment's configuration in [Claude Code Remote Environment settings](https://code.claude.com/docs/en/claude-code-on-the-web). The network policy is already correct.
+
+- **Total generations:** _unavailable (SUPABASE_SERVICE_ROLE_KEY missing — HTTP 401)_
+- **Last 3 days:** _unavailable (SUPABASE_SERVICE_ROLE_KEY missing)_
+- **Days remaining in trial:** -133 (trial ended 2026-06-02)
+- **Gens remaining before cap:** _unavailable_ (of 500)
+
+**Top conditions:** _unavailable (SUPABASE_SERVICE_ROLE_KEY missing)_
+
+**Languages:** _unavailable (SUPABASE_SERVICE_ROLE_KEY missing)_
+
+**Reading levels:** _unavailable (SUPABASE_SERVICE_ROLE_KEY missing)_
+
+**Ratings:** _unavailable (SUPABASE_SERVICE_ROLE_KEY missing)_
