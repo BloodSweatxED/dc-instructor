@@ -1537,3 +1537,27 @@
 **Ratings:** _unavailable (RLS blocks anon reads; service role key not in env)_
 
 ---
+
+## 2026-10-19
+
+> **PARTIAL SUCCESS — total count confirmed via `/api/usage`; breakdowns unavailable (RLS + `SUPABASE_SERVICE_ROLE_KEY` not in env).**
+>
+> - ⚠️ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** All direct Supabase REST queries with the missing key return no data (curl silent failure).
+> - ✅ **`/api/usage` endpoint confirmed:** `{"blocked":false,"count":285,"warning":false}`
+> - ℹ️ **Last 3 days (estimated):** Previous snapshot (2026-10-16) had 267 total → **18 new generations** in 3 days.
+> - ℹ️ **RLS in effect:** `generations` and `ratings` tables require service role key for row reads. Breakdowns unavailable.
+
+- **Total generations:** 285
+- **Last 3 days:** ~18 (estimated: 285 − 267 from 2026-10-16 snapshot)
+- **Days remaining in trial:** -139 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 215 (of 500)
+
+**Top conditions:** _unavailable (SUPABASE_SERVICE_ROLE_KEY missing)_
+
+**Languages:** _unavailable (SUPABASE_SERVICE_ROLE_KEY missing)_
+
+**Reading levels:** _unavailable (SUPABASE_SERVICE_ROLE_KEY missing)_
+
+**Ratings:** _unavailable (SUPABASE_SERVICE_ROLE_KEY missing)_
+
+---
