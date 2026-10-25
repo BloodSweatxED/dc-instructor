@@ -1581,3 +1581,26 @@
 **Languages:** *(unavailable)*
 **Reading levels:** *(unavailable)*
 **Ratings:** *(unavailable)*
+
+---
+
+## 2026-10-25
+
+> **ERROR: `SUPABASE_SERVICE_ROLE_KEY` environment variable is not set in this cloud session.**
+> All Supabase REST API queries returned HTTP 401 (`UNAUTHORIZED_MISSING_API_KEY`).
+> Only the public `/api/usage` endpoint was accessible.
+>
+> **Action required:** Add `SUPABASE_SERVICE_ROLE_KEY` to the Claude Code cloud session environment
+> (Settings → Environment Variables) so future scheduled runs can authenticate.
+> This has been missing for every run since at least 2026-10-16 — each run documents the same blocker.
+
+- **Total generations:** 313 (via `/api/usage`)
+- **Last 3 days:** ~14 (estimated: +28 since 2026-10-19 snapshot of 285, over ~6 days)
+- **Days remaining in trial:** -145 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 187 (of 500)
+
+**Top conditions:** *(unavailable — SUPABASE_SERVICE_ROLE_KEY missing)*
+
+**Languages:** *(unavailable — SUPABASE_SERVICE_ROLE_KEY missing)*
+**Reading levels:** *(unavailable — SUPABASE_SERVICE_ROLE_KEY missing)*
+**Ratings:** *(unavailable — SUPABASE_SERVICE_ROLE_KEY missing)*
