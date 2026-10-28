@@ -1604,3 +1604,19 @@
 **Languages:** *(unavailable — SUPABASE_SERVICE_ROLE_KEY missing)*
 **Reading levels:** *(unavailable — SUPABASE_SERVICE_ROLE_KEY missing)*
 **Ratings:** *(unavailable — SUPABASE_SERVICE_ROLE_KEY missing)*
+
+## 2026-10-28
+
+> **ERROR — Snapshot could not be collected.**
+> - ❌ `SUPABASE_SERVICE_ROLE_KEY` environment variable is **not set** in this remote session.
+> - All Supabase REST queries returned HTTP 401 ("No API key found in request").
+> - The Netlify MCP tool available in this session is observability-only and cannot retrieve env vars.
+>
+> **Action required:** Add `SUPABASE_SERVICE_ROLE_KEY` as an environment variable in the Claude Code remote execution environment (or the scheduled trigger's environment config) so future runs can query Supabase. See https://code.claude.com/docs/en/claude-code-on-the-web for environment configuration.
+
+- **Total generations:** N/A (query failed)
+- **Last 3 days:** N/A
+- **Days remaining in trial:** -148 (trial ended 2026-06-02)
+- **Gens remaining before cap:** N/A
+
+_All metrics unavailable — database unreachable due to missing credentials._
