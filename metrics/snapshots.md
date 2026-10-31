@@ -1620,3 +1620,20 @@
 - **Gens remaining before cap:** N/A
 
 _All metrics unavailable — database unreachable due to missing credentials._
+
+## 2026-10-31
+
+> **ERROR — Snapshot could not be collected.**
+> - ❌ `SUPABASE_SERVICE_ROLE_KEY` environment variable is **not set** in this remote session.
+> - All Supabase REST queries would return HTTP 401 ("No API key found in request").
+> - This is a recurring failure: same error recorded on 2026-10-28, 2026-10-25, and earlier runs.
+>
+> **Action required:** Add `SUPABASE_SERVICE_ROLE_KEY` as an environment variable in the Claude Code remote execution environment for this scheduled task. See https://code.claude.com/docs/en/claude-code-on-the-web for environment configuration instructions.
+> The trial ended 2026-06-02 (~150 days ago) — this metric is now for historical/retention tracking only.
+
+- **Total generations:** N/A (query failed — missing credentials)
+- **Last 3 days:** N/A
+- **Days remaining in trial:** -151 (trial ended 2026-06-02)
+- **Gens remaining before cap:** N/A
+
+_All metrics unavailable — database unreachable due to missing `SUPABASE_SERVICE_ROLE_KEY`._
