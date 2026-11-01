@@ -1637,3 +1637,24 @@ _All metrics unavailable — database unreachable due to missing credentials._
 - **Gens remaining before cap:** N/A
 
 _All metrics unavailable — database unreachable due to missing `SUPABASE_SERVICE_ROLE_KEY`._
+
+## 2026-11-01
+
+> **ERROR — Snapshot partially collected.**
+> - ❌ `SUPABASE_SERVICE_ROLE_KEY` environment variable is **not set** in this remote session.
+> - All Supabase REST queries return HTTP 401 ("No API key found in request").
+> - This is a persistent recurring failure: same error recorded on 2026-10-28, 2026-10-31, and prior runs.
+> - ✅ Public `/api/usage` endpoint accessible — total count retrieved from there.
+>
+> **Action required:** Add `SUPABASE_SERVICE_ROLE_KEY` as an environment variable in the Claude Code remote execution environment for this scheduled task. See https://code.claude.com/docs/en/claude-code-on-the-web for environment configuration instructions.
+
+- **Total generations:** 357 (via `/api/usage`)
+- **Last 3 days:** ~19 (estimated: +44 since 2026-10-25 snapshot of 313, over ~7 days)
+- **Days remaining in trial:** -152 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 143 (of 500)
+
+**Top conditions:** *(unavailable — SUPABASE_SERVICE_ROLE_KEY missing)*
+
+**Languages:** *(unavailable — SUPABASE_SERVICE_ROLE_KEY missing)*
+**Reading levels:** *(unavailable — SUPABASE_SERVICE_ROLE_KEY missing)*
+**Ratings:** *(unavailable — SUPABASE_SERVICE_ROLE_KEY missing)*
