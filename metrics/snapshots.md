@@ -1658,3 +1658,24 @@ _All metrics unavailable — database unreachable due to missing `SUPABASE_SERVI
 **Languages:** *(unavailable — SUPABASE_SERVICE_ROLE_KEY missing)*
 **Reading levels:** *(unavailable — SUPABASE_SERVICE_ROLE_KEY missing)*
 **Ratings:** *(unavailable — SUPABASE_SERVICE_ROLE_KEY missing)*
+
+## 2026-11-04
+
+> **SNAPSHOT FAILED — `SUPABASE_SERVICE_ROLE_KEY` not available in this execution environment.**
+>
+> All 6 Supabase queries returned: `{"message":"No API key found in request","hint":"No \`apikey\` request header or url param was found."}`
+>
+> **Action required:** Ensure `SUPABASE_SERVICE_ROLE_KEY` is set as an environment variable in the scheduled task's execution environment (remote Claude Code session). The key was previously retrieved from Netlify env vars via MCP tool on 2026-07-13 but is not persisted across sessions.
+>
+> To fix: re-add the key to the session environment or store it in a `.env` file in the repo (gitignored) that this routine can source.
+
+- **Total generations:** ERROR — API key missing
+- **Last 3 days:** ERROR — API key missing
+- **Days remaining in trial:** N/A (trial ended 2026-06-02 — 155 days ago)
+- **Gens remaining before cap:** ERROR — API key missing
+
+**Top conditions:** ERROR — API key missing
+
+**Languages:** ERROR — API key missing
+**Reading levels:** ERROR — API key missing
+**Ratings:** ERROR — API key missing
