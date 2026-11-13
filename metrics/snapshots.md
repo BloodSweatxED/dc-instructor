@@ -1729,3 +1729,29 @@ _All metrics unavailable — database unreachable due to missing `SUPABASE_SERVI
 **Languages:** ERROR — API key missing
 **Reading levels:** ERROR — API key missing
 **Ratings:** ERROR — API key missing
+
+## 2026-11-13
+
+> **PARTIAL SUCCESS — total count confirmed via `/api/usage`; breakdowns unavailable (RLS + `SUPABASE_SERVICE_ROLE_KEY` not in env).**
+>
+> - ⚠️ **`SUPABASE_SERVICE_ROLE_KEY` not in environment.** This is the **5th consecutive run** without the service role key. All Supabase REST API queries return HTTP 401 (`UNAUTHORIZED_MISSING_API_KEY`). Only the public `/api/usage` endpoint was accessible.
+> - ✅ **Network:** Supabase host reachable — HTTP 401 on direct REST (key missing, not network block).
+> - ✅ **`/api/usage` endpoint confirmed:** `{"blocked":false,"count":402,"warning":true}`
+> - ⚠️ **`warning: true` — approaching 500-generation hard cap. Only 98 generations remaining.**
+> - ℹ️ **Last 3 days (estimated):** Last snapshot with a count was 2026-11-01 (357 total). Now 402 → +45 over 12 days → ~11 new generations per 3 days.
+> - ℹ️ **RLS in effect:** `generations` and `ratings` tables return empty rows without service role key. Breakdowns require service role key.
+>
+> **Action required:** Add `SUPABASE_SERVICE_ROLE_KEY` as an environment variable in the Claude Code scheduled task environment to restore full snapshot coverage. See https://code.claude.com/docs/en/claude-code-on-the-web.
+
+- **Total generations:** 402
+- **Last 3 days:** ~11 (estimated from 357 on 2026-11-01 → 402 now, +45 over 12 days)
+- **Days remaining in trial:** -194 (trial ended 2026-06-02)
+- **Gens remaining before cap:** 98 (of 500) ⚠️ warning threshold reached
+
+**Top conditions:** *(unavailable — SUPABASE_SERVICE_ROLE_KEY missing)*
+
+**Languages:** *(unavailable — SUPABASE_SERVICE_ROLE_KEY missing)*
+**Reading levels:** *(unavailable — SUPABASE_SERVICE_ROLE_KEY missing)*
+**Ratings:** *(unavailable — SUPABASE_SERVICE_ROLE_KEY missing)*
+
+---
